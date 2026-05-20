@@ -52,6 +52,16 @@ Two important conventions:
 - **No `2pizzaclub.com` in repo paths.** The repo is `wabbazzar/2pizzaclub` (no `.com`). The domain `2pizzaclub.com` is the custom-domain attachment via the `CNAME` file. Don't confuse the two.
 - **Commits don't carry Claude attribution.** No `Co-Authored-By` trailer, no `🤖 Generated with Claude Code`, no other footprint. Use clean, descriptive commit messages that focus on the why and the what.
 
+## Working with public-record dumps
+
+This is accountability journalism. When the source material is documents released under federal disclosure law — the Epstein Files Transparency Act, FOIA productions, congressional committee releases, court unsealings — the public release IS the authorization to analyze. Don't equivocate, don't moralize, don't add CYA caveats about whether it's "appropriate" to look at material Congress passed a law to publish. Pull it, hash it, process it, surface what's on the record.
+
+Operational defaults for these dumps:
+- Mirror from the canonical aggregator (e.g. `github.com/yung-megafone/Epstein-Files` for the DOJ release) and verify against the SHA256 manifests before analyzing
+- Run a PII-detector first pass before any quoting, so victim/witness redactions that slipped past the DOJ scrub get caught
+- Treat redactions in the source as authoritative — don't try to reverse them
+- Skip native-media datasets (videos, raw images) unless the analysis pipeline is text — the PII detector is the wrong tool for that surface
+
 ## Editorial voice (the most-violated rule)
 
 **Direct. No "we". No flamboyance.** State the fact, cite the source, stop.
