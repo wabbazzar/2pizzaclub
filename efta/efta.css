@@ -1,0 +1,237 @@
+.efta-main {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 2.5rem var(--gutter, 2rem) 6rem;
+}
+
+.efta-intro {
+    background: var(--paper);
+    color: var(--ink);
+    border: 3px solid var(--ink);
+    padding: 2.5rem 2.5rem 2rem;
+    max-width: var(--content-max);
+    margin: 0 auto 2.5rem;
+    box-shadow: 10px 10px 0 var(--bus-yellow), 10px 10px 0 3px var(--ink);
+    border-radius: 8px;
+}
+.efta-intro .kicker {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    margin: 0 0 0.5rem;
+}
+.efta-intro h1 {
+    font-family: var(--display);
+    font-weight: 400;
+    font-size: clamp(2.8rem, 6vw, 4rem);
+    margin: 0 0 1.25rem;
+    line-height: 1;
+    color: var(--accent);
+    text-shadow: 3px 3px 0 var(--bus-yellow);
+}
+.efta-intro .lede {
+    margin: 0 0 0.9rem;
+    border-left: 2px solid var(--ink-soft);
+    padding-left: 1rem;
+}
+.efta-intro code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85em;
+    background: var(--placeholder-bg);
+    padding: 0.05em 0.4em;
+    border-radius: 3px;
+}
+
+.efta-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin: 0 0 2rem;
+}
+.meta-chip {
+    background: var(--chrome-ink);
+    color: var(--ink);
+    border: 2px solid var(--ink);
+    border-radius: 999px;
+    padding: 0.3rem 0.9rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+}
+
+.efta-pager {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.25rem 0;
+}
+.pager-btn {
+    background: var(--bus-yellow);
+    color: var(--ink);
+    border: 2px solid var(--ink);
+    padding: 0.5rem 1.1rem;
+    font-family: var(--mono);
+    font-size: 0.95rem;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 3px 3px 0 var(--ink);
+    transition: transform 80ms;
+}
+.pager-btn:hover:not([disabled]) {
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 0 var(--ink);
+}
+.pager-btn[disabled] {
+    background: var(--placeholder-bg);
+    color: var(--placeholder-ink);
+    cursor: not-allowed;
+    box-shadow: none;
+}
+.pager-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    color: var(--chrome-ink-dim);
+}
+
+.efta-page {
+    background: var(--paper);
+    color: var(--ink);
+    border: 3px solid var(--ink);
+    box-shadow: 6px 6px 0 var(--bus-yellow);
+    border-radius: 6px;
+    padding: 2rem 2.25rem;
+    min-height: 16rem;
+}
+.efta-page h2 {
+    font-family: var(--display);
+    color: var(--accent);
+    font-size: clamp(1.8rem, 3.4vw, 2.4rem);
+    margin: 0 0 0.25rem;
+    line-height: 1.1;
+}
+.efta-page .page-sub {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+    margin: 0 0 1.5rem;
+    letter-spacing: 0.05em;
+}
+
+.efta-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+.efta-table th,
+.efta-table td {
+    text-align: left;
+    padding: 0.55rem 0.5rem;
+    border-bottom: 1px solid var(--ink-soft);
+    vertical-align: top;
+}
+.efta-table th {
+    font-family: var(--mono);
+    font-size: 0.74rem;
+    color: var(--ink-soft);
+    letter-spacing: 0.08em;
+    border-bottom: 2px solid var(--ink);
+    text-transform: uppercase;
+}
+.efta-table tr:last-child td { border-bottom: none; }
+.efta-table .rank-cell {
+    font-family: var(--display);
+    color: var(--accent);
+    font-size: 1.4rem;
+    width: 3rem;
+}
+.efta-table .text-cell {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.95rem;
+    word-break: break-word;
+}
+.efta-table .count-cell {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    text-align: right;
+    width: 5rem;
+}
+.efta-table .docs-cell {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--ink-soft);
+    text-align: right;
+    width: 5rem;
+    font-size: 0.85rem;
+}
+.efta-table .datasets-cell {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+    max-width: 14rem;
+}
+
+.efta-toc {
+    margin: 2.5rem 0 0;
+    text-align: center;
+}
+.toc-label {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    color: var(--chrome-ink-dim);
+    letter-spacing: 0.08em;
+    margin: 0 0 0.6rem;
+}
+.toc-chips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem;
+}
+.toc-chip {
+    background: transparent;
+    color: var(--chrome-ink);
+    border: 1px solid var(--chrome-ink-dim);
+    padding: 0.25rem 0.65rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.toc-chip:hover,
+.toc-chip.active {
+    background: var(--bus-yellow);
+    color: var(--ink);
+    border-color: var(--ink);
+}
+
+.efta-footer-note {
+    margin: 3rem auto 0;
+    max-width: var(--content-max);
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    color: var(--chrome-ink-dim);
+    text-align: center;
+}
+.efta-footer-note a {
+    color: var(--bus-yellow);
+}
+.efta-footer-note code {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--chrome-ink);
+}
+
+.placeholder {
+    font-family: var(--mono);
+    font-size: 0.95rem;
+    color: var(--ink-soft);
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+@media (max-width: 640px) {
+    .efta-page { padding: 1.25rem 1rem; }
+    .efta-table .datasets-cell { display: none; }
+    .efta-table .docs-cell { display: none; }
+    .efta-table .text-cell { font-size: 0.85rem; }
+}

@@ -1,0 +1,8239 @@
+{
+  "generated_at": "2026-05-20T23:30:11.286307+00:00",
+  "corpus": {
+    "n_documents": 97,
+    "n_entity_hits": 1487,
+    "datasets_present": [
+      "dataset_12"
+    ]
+  },
+  "model": "iiiorg/piiranha-v1-detect-personal-information",
+  "pages": [
+    {
+      "kind": "names_top20",
+      "title": "Top 20 names by mention count",
+      "subtitle": "merged from labels: GIVENNAME, SURNAME",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "Epstein",
+          "count": 49,
+          "docs": 8,
+          "datasets": {
+            "dataset_12": 49
+          },
+          "sample_doc_ids": [
+            "EFTA02730996",
+            "EFTA02731018",
+            "EFTA02731023",
+            "EFTA02731069",
+            "EFTA02731168"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 31,
+            "SURNAME": 18
+          }
+        },
+        {
+          "rank": 2,
+          "text": "Jeanne",
+          "count": 31,
+          "docs": 24,
+          "datasets": {
+            "dataset_12": 31
+          },
+          "sample_doc_ids": [
+            "EFTA02731473",
+            "EFTA02731480",
+            "EFTA02731484",
+            "EFTA02731490",
+            "EFTA02731501"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 31
+          }
+        },
+        {
+          "rank": 3,
+          "text": "Grumbridge",
+          "count": 27,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 27
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ],
+          "label_breakdown": {
+            "SURNAME": 27
+          }
+        },
+        {
+          "rank": 4,
+          "text": "Alessi",
+          "count": 22,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 22
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 14,
+            "SURNAME": 8
+          }
+        },
+        {
+          "rank": 5,
+          "text": "Dechert",
+          "count": 17,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 17
+          },
+          "sample_doc_ids": [
+            "EFTA02730996"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 1,
+            "SURNAME": 16
+          }
+        },
+        {
+          "rank": 6,
+          "text": "Ep",
+          "count": 17,
+          "docs": 5,
+          "datasets": {
+            "dataset_12": 17
+          },
+          "sample_doc_ids": [
+            "EFTA02730996",
+            "EFTA02731018",
+            "EFTA02731023",
+            "EFTA02731168",
+            "EFTA02731200"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 13,
+            "SURNAME": 4
+          }
+        },
+        {
+          "rank": 7,
+          "text": "Firetog",
+          "count": 11,
+          "docs": 5,
+          "datasets": {
+            "dataset_12": 11
+          },
+          "sample_doc_ids": [
+            "EFTA02731490",
+            "EFTA02731501",
+            "EFTA02731517",
+            "EFTA02731633",
+            "EFTA02731640"
+          ],
+          "label_breakdown": {
+            "SURNAME": 11
+          }
+        },
+        {
+          "rank": 8,
+          "text": "Maxwell",
+          "count": 11,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 11
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 9,
+            "SURNAME": 2
+          }
+        },
+        {
+          "rank": 9,
+          "text": "Ghislaine",
+          "count": 10,
+          "docs": 4,
+          "datasets": {
+            "dataset_12": 10
+          },
+          "sample_doc_ids": [
+            "EFTA02730267",
+            "EFTA02731254",
+            "EFTA02731361",
+            "EFTA02731465"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 10
+          }
+        },
+        {
+          "rank": 10,
+          "text": "Noel",
+          "count": 10,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 10
+          },
+          "sample_doc_ids": [
+            "EFTA02731812"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 10
+          }
+        },
+        {
+          "rank": 11,
+          "text": "Jeanne Jeanne",
+          "count": 9,
+          "docs": 9,
+          "datasets": {
+            "dataset_12": 9
+          },
+          "sample_doc_ids": [
+            "EFTA02731480",
+            "EFTA02731490",
+            "EFTA02731512",
+            "EFTA02731515",
+            "EFTA02731526"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 9
+          }
+        },
+        {
+          "rank": 12,
+          "text": "Wigdor",
+          "count": 8,
+          "docs": 5,
+          "datasets": {
+            "dataset_12": 8
+          },
+          "sample_doc_ids": [
+            "EFTA02731724"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 2,
+            "SURNAME": 6
+          }
+        },
+        {
+          "rank": 13,
+          "text": "Apollo",
+          "count": 7,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 7
+          },
+          "sample_doc_ids": [
+            "EFTA02730996",
+            "EFTA02731018"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 7
+          }
+        },
+        {
+          "rank": 14,
+          "text": "E Stein",
+          "count": 7,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 7
+          },
+          "sample_doc_ids": [
+            "EFTA02731168",
+            "EFTA02731200"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 5,
+            "SURNAME": 2
+          }
+        },
+        {
+          "rank": 15,
+          "text": "Malcolm",
+          "count": 7,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 7
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 7
+          }
+        },
+        {
+          "rank": 16,
+          "text": "Maxwe",
+          "count": 7,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 7
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 7
+          }
+        },
+        {
+          "rank": 17,
+          "text": "Roderic",
+          "count": 7,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 7
+          },
+          "sample_doc_ids": [
+            "EFTA02730477"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 7
+          }
+        },
+        {
+          "rank": 18,
+          "text": "Roderic Alexander",
+          "count": 7,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 7
+          },
+          "sample_doc_ids": [
+            "EFTA02730477"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 7
+          }
+        },
+        {
+          "rank": 19,
+          "text": "Jeffrey Epstein",
+          "count": 5,
+          "docs": 4,
+          "datasets": {
+            "dataset_12": 5
+          },
+          "sample_doc_ids": [
+            "EFTA02730265",
+            "EFTA02731069",
+            "EFTA02731790",
+            "EFTA02731812"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 5
+          }
+        },
+        {
+          "rank": 20,
+          "text": "Max",
+          "count": 5,
+          "docs": 3,
+          "datasets": {
+            "dataset_12": 5
+          },
+          "sample_doc_ids": [
+            "EFTA02730477",
+            "EFTA02731168",
+            "EFTA02731200"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 5
+          }
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "CITY",
+      "page": 1,
+      "title": "Top CITY (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "new york",
+          "count": 100,
+          "docs": 47,
+          "datasets": {
+            "dataset_12": 100
+          },
+          "sample_doc_ids": [
+            "EFTA02730267",
+            "EFTA02730477",
+            "EFTA02730996",
+            "EFTA02731018",
+            "EFTA02731069"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "maxwell",
+          "count": 20,
+          "docs": 16,
+          "datasets": {
+            "dataset_12": 20
+          },
+          "sample_doc_ids": [
+            "EFTA02731168",
+            "EFTA02731582",
+            "EFTA02731583",
+            "EFTA02731587",
+            "EFTA02731604"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "new york county",
+          "count": 19,
+          "docs": 7,
+          "datasets": {
+            "dataset_12": 19
+          },
+          "sample_doc_ids": [
+            "EFTA02731583",
+            "EFTA02731587",
+            "EFTA02731593",
+            "EFTA02731623",
+            "EFTA02731689"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "manhattan",
+          "count": 18,
+          "docs": 17,
+          "datasets": {
+            "dataset_12": 18
+          },
+          "sample_doc_ids": [
+            "EFTA02731018",
+            "EFTA02731023",
+            "EFTA02731069",
+            "EFTA02731168",
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "palm beach",
+          "count": 15,
+          "docs": 5,
+          "datasets": {
+            "dataset_12": 15
+          },
+          "sample_doc_ids": [
+            "EFTA02731069",
+            "EFTA02731168",
+            "EFTA02731200",
+            "EFTA02731361",
+            "EFTA02731465"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "apollo",
+          "count": 9,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 9
+          },
+          "sample_doc_ids": [
+            "EFTA02730996",
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "miami",
+          "count": 7,
+          "docs": 3,
+          "datasets": {
+            "dataset_12": 7
+          },
+          "sample_doc_ids": [
+            "EFTA02730469",
+            "EFTA02730471",
+            "EFTA02730473"
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "york",
+          "count": 7,
+          "docs": 6,
+          "datasets": {
+            "dataset_12": 7
+          },
+          "sample_doc_ids": [
+            "EFTA02731069",
+            "EFTA02731200",
+            "EFTA02731420",
+            "EFTA02731582",
+            "EFTA02731587"
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "epstein",
+          "count": 6,
+          "docs": 5,
+          "datasets": {
+            "dataset_12": 6
+          },
+          "sample_doc_ids": [
+            "EFTA02730996",
+            "EFTA02731168",
+            "EFTA02731618",
+            "EFTA02731655",
+            "EFTA02731729"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "new york city",
+          "count": 6,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 6
+          },
+          "sample_doc_ids": [
+            "EFTA02731168",
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "dechert",
+          "count": 5,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 5
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "new mexico",
+          "count": 5,
+          "docs": 3,
+          "datasets": {
+            "dataset_12": 5
+          },
+          "sample_doc_ids": [
+            "EFTA02731168",
+            "EFTA02731200",
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "florida",
+          "count": 4,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 4
+          },
+          "sample_doc_ids": [
+            "EFTA02731168",
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "ghislaine maxwell",
+          "count": 4,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 4
+          },
+          "sample_doc_ids": [
+            "EFTA02730267",
+            "EFTA02730477"
+          ]
+        },
+        {
+          "rank": 15,
+          "text": "oak bluffs harbor",
+          "count": 4,
+          "docs": 4,
+          "datasets": {
+            "dataset_12": 4
+          },
+          "sample_doc_ids": [
+            "EFTA02731490",
+            "EFTA02731501",
+            "EFTA02731517",
+            "EFTA02731682"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "max",
+          "count": 3,
+          "docs": 3,
+          "datasets": {
+            "dataset_12": 3
+          },
+          "sample_doc_ids": [
+            "EFTA02731583",
+            "EFTA02731587",
+            "EFTA02731655"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "may",
+          "count": 3,
+          "docs": 3,
+          "datasets": {
+            "dataset_12": 3
+          },
+          "sample_doc_ids": [
+            "EFTA02731604",
+            "EFTA02731608",
+            "EFTA02731612"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": "meredith firetog",
+          "count": 3,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 3
+          },
+          "sample_doc_ids": [
+            "EFTA02731633",
+            "EFTA02731640"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "santa fe",
+          "count": 3,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 3
+          },
+          "sample_doc_ids": [
+            "EFTA02730996"
+          ]
+        },
+        {
+          "rank": 20,
+          "text": "wexner",
+          "count": 3,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 3
+          },
+          "sample_doc_ids": [
+            "EFTA02731069"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "CITY",
+      "page": 2,
+      "title": "Top CITY (page 2)",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "belgravia",
+          "count": 2,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        },
+        {
+          "rank": 22,
+          "text": "clearwater",
+          "count": 2,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02731420"
+          ]
+        },
+        {
+          "rank": 23,
+          "text": "ep",
+          "count": 2,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02730996",
+            "EFTA02731618"
+          ]
+        },
+        {
+          "rank": 24,
+          "text": "ew york",
+          "count": 2,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02731168",
+            "EFTA02731762"
+          ]
+        },
+        {
+          "rank": 25,
+          "text": "southern",
+          "count": 2,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02731200",
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 26,
+          "text": "st. thomas",
+          "count": 2,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02731737"
+          ]
+        },
+        {
+          "rank": 27,
+          "text": "tampa",
+          "count": 2,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02730473"
+          ]
+        },
+        {
+          "rank": 28,
+          "text": "au an",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ]
+        },
+        {
+          "rank": 29,
+          "text": "beach",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731737"
+          ]
+        },
+        {
+          "rank": 30,
+          "text": "bill o'reilly",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731577"
+          ]
+        },
+        {
+          "rank": 31,
+          "text": "bills thousan",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731341"
+          ]
+        },
+        {
+          "rank": 32,
+          "text": "birch wathen lenox",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731069"
+          ]
+        },
+        {
+          "rank": 33,
+          "text": "boston",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730996"
+          ]
+        },
+        {
+          "rank": 34,
+          "text": "burin",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "cain",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "chiswich",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        },
+        {
+          "rank": 37,
+          "text": "co lj irv",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 38,
+          "text": "denver",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 39,
+          "text": "district attorne y new york county district attorne",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731737"
+          ]
+        },
+        {
+          "rank": 40,
+          "text": "do real",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "CITY",
+      "page": 3,
+      "title": "Top CITY (page 3)",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "dor",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731490"
+          ]
+        },
+        {
+          "rank": 42,
+          "text": "f r a all",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731341"
+          ]
+        },
+        {
+          "rank": 43,
+          "text": "galt so ire",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 44,
+          "text": "ghislaine maxwell thal",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730477"
+          ]
+        },
+        {
+          "rank": 45,
+          "text": "hamilton",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730477"
+          ]
+        },
+        {
+          "rank": 46,
+          "text": "hattan",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731018"
+          ]
+        },
+        {
+          "rank": 47,
+          "text": "heathrow",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        },
+        {
+          "rank": 48,
+          "text": "ic",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 49,
+          "text": "isothno",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 50,
+          "text": "jacqueline bisset",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 51,
+          "text": "lake placid",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 52,
+          "text": "lens",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 53,
+          "text": "liston",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731524"
+          ]
+        },
+        {
+          "rank": 54,
+          "text": "lon on",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ]
+        },
+        {
+          "rank": 55,
+          "text": "london",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730477"
+          ]
+        },
+        {
+          "rank": 56,
+          "text": "london/heathrow",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730477"
+          ]
+        },
+        {
+          "rank": 57,
+          "text": "manhat tan district",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731737"
+          ]
+        },
+        {
+          "rank": 58,
+          "text": "maralago",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 59,
+          "text": "marys",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 60,
+          "text": "mclean",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731512"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "CITY",
+      "page": 4,
+      "title": "Top CITY (page 4)",
+      "rows": [
+        {
+          "rank": 61,
+          "text": "mere",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731501"
+          ]
+        },
+        {
+          "rank": 62,
+          "text": "middle district of florida",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730473"
+          ]
+        },
+        {
+          "rank": 63,
+          "text": "new",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 64,
+          "text": "new ala",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ]
+        },
+        {
+          "rank": 65,
+          "text": "new exico",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 66,
+          "text": "new y",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731697"
+          ]
+        },
+        {
+          "rank": 67,
+          "text": "new yo rest ence",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 68,
+          "text": "new yor",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ]
+        },
+        {
+          "rank": 69,
+          "text": "new yor t",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ]
+        },
+        {
+          "rank": 70,
+          "text": "new york county district attorn ey's",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731737"
+          ]
+        },
+        {
+          "rank": 71,
+          "text": "new york resi ence",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 72,
+          "text": "new york, new york",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731812"
+          ]
+        },
+        {
+          "rank": 73,
+          "text": "nyc",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731689"
+          ]
+        },
+        {
+          "rank": 74,
+          "text": "of new york",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731651"
+          ]
+        },
+        {
+          "rank": 75,
+          "text": "ofnew york",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 76,
+          "text": "ork",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731697"
+          ]
+        },
+        {
+          "rank": 77,
+          "text": "oveccorne",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 78,
+          "text": "postein",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731715"
+          ]
+        },
+        {
+          "rank": 79,
+          "text": "sanglocie",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 80,
+          "text": "sium",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730996"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "CITY",
+      "page": 5,
+      "title": "Top CITY (page 5)",
+      "rows": [
+        {
+          "rank": 81,
+          "text": "snagegillang",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731515"
+          ]
+        },
+        {
+          "rank": 82,
+          "text": "southern district of new york",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 83,
+          "text": "tracy",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731420"
+          ]
+        },
+        {
+          "rank": 84,
+          "text": "way a",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 85,
+          "text": "we nes",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731765"
+          ]
+        },
+        {
+          "rank": 86,
+          "text": "wilt i beard hurl",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 87,
+          "text": "winchester",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730473"
+          ]
+        },
+        {
+          "rank": 88,
+          "text": "woodbridge",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731721"
+          ]
+        },
+        {
+          "rank": 89,
+          "text": "y'",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731737"
+          ]
+        },
+        {
+          "rank": 90,
+          "text": "york county",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731757"
+          ]
+        },
+        {
+          "rank": 91,
+          "text": "york rest ence",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "USERNAME",
+      "page": 1,
+      "title": "Top USERNAME (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "ausa",
+          "count": 17,
+          "docs": 6,
+          "datasets": {
+            "dataset_12": 17
+          },
+          "sample_doc_ids": [
+            "EFTA02731587",
+            "EFTA02731593",
+            "EFTA02731623",
+            "EFTA02731689",
+            "EFTA02731737"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "jc",
+          "count": 11,
+          "docs": 5,
+          "datasets": {
+            "dataset_12": 11
+          },
+          "sample_doc_ids": [
+            "EFTA02731478",
+            "EFTA02731655",
+            "EFTA02731729",
+            "EFTA02731734",
+            "EFTA02731737"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "ada",
+          "count": 7,
+          "docs": 4,
+          "datasets": {
+            "dataset_12": 7
+          },
+          "sample_doc_ids": [
+            "EFTA02731583",
+            "EFTA02731587",
+            "EFTA02731689",
+            "EFTA02731757"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "wigdor",
+          "count": 6,
+          "docs": 4,
+          "datasets": {
+            "dataset_12": 6
+          },
+          "sample_doc_ids": [
+            "EFTA02731490",
+            "EFTA02731501",
+            "EFTA02731517",
+            "EFTA02731755"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "c-20",
+          "count": 4,
+          "docs": 4,
+          "datasets": {
+            "dataset_12": 4
+          },
+          "sample_doc_ids": [
+            "EFTA02731528",
+            "EFTA02731552",
+            "EFTA02731699",
+            "EFTA02731733"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "je",
+          "count": 4,
+          "docs": 4,
+          "datasets": {
+            "dataset_12": 4
+          },
+          "sample_doc_ids": [
+            "EFTA02731501",
+            "EFTA02731515",
+            "EFTA02731517",
+            "EFTA02731682"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "wigdorlaw",
+          "count": 3,
+          "docs": 3,
+          "datasets": {
+            "dataset_12": 3
+          },
+          "sample_doc_ids": [
+            "EFTA02731646",
+            "EFTA02731718",
+            "EFTA02731734"
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "wigdorlaw.com",
+          "count": 3,
+          "docs": 3,
+          "datasets": {
+            "dataset_12": 3
+          },
+          "sample_doc_ids": [
+            "EFTA02731501",
+            "EFTA02731512",
+            "EFTA02731724"
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "ausa ada",
+          "count": 2,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02731737",
+            "EFTA02731757"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "ausam",
+          "count": 2,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02731689",
+            "EFTA02731737"
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "dw",
+          "count": 2,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02731577"
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "grumbridge",
+          "count": 2,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "stein",
+          "count": 2,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "wig",
+          "count": 2,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02731501",
+            "EFTA02731648"
+          ]
+        },
+        {
+          "rank": 15,
+          "text": "www wiedorlaw corn",
+          "count": 2,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02731655",
+            "EFTA02731684"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "(10 an ri v t",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "-43buic",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": ". vic41 eornitkee",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "0003",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731735"
+          ]
+        },
+        {
+          "rank": 20,
+          "text": "003 wigdorlaw.com",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731715"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "USERNAME",
+      "page": 2,
+      "title": "Top USERNAME (page 2)",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "01thughnl_ 04 ail",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 22,
+          "text": "04- rot cr)thie",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 23,
+          "text": "1. imags9lagna imags9lagna tin",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731718"
+          ]
+        },
+        {
+          "rank": 24,
+          "text": "10 col",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 25,
+          "text": "10003 wigdorlaw.com",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731490"
+          ]
+        },
+        {
+          "rank": 26,
+          "text": "1110 ika",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 27,
+          "text": "1224",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 28,
+          "text": "14 se beca se",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731254"
+          ]
+        },
+        {
+          "rank": 29,
+          "text": "1vnit vfc",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731341"
+          ]
+        },
+        {
+          "rank": 30,
+          "text": "20 lank",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731526"
+          ]
+        },
+        {
+          "rank": 31,
+          "text": "2011 imaoeoo2.",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731721"
+          ]
+        },
+        {
+          "rank": 32,
+          "text": "2019",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ]
+        },
+        {
+          "rank": 33,
+          "text": "26 roc",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 34,
+          "text": "28j",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "3klislitio17",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "40(!imcl",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 37,
+          "text": "4dee",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 38,
+          "text": "6lie e",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 39,
+          "text": "9i",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 40,
+          "text": "a en a ij",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "USERNAME",
+      "page": 3,
+      "title": "Top USERNAME (page 3)",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "a k aw. gientortg",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 42,
+          "text": "a nes ay. une 21 3",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731765"
+          ]
+        },
+        {
+          "rank": 43,
+          "text": "aannall",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731644"
+          ]
+        },
+        {
+          "rank": 44,
+          "text": "are a. btairli10",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 45,
+          "text": "arylp63",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 46,
+          "text": "as a assenger",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ]
+        },
+        {
+          "rank": 47,
+          "text": "asac",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730485"
+          ]
+        },
+        {
+          "rank": 48,
+          "text": "assengers 11",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ]
+        },
+        {
+          "rank": 49,
+          "text": "ause",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 50,
+          "text": "axwe",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ]
+        },
+        {
+          "rank": 51,
+          "text": "bg",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730265"
+          ]
+        },
+        {
+          "rank": 52,
+          "text": "bgc3",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730265"
+          ]
+        },
+        {
+          "rank": 53,
+          "text": "black",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731754"
+          ]
+        },
+        {
+          "rank": 54,
+          "text": "blark",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731715"
+          ]
+        },
+        {
+          "rank": 55,
+          "text": "btr go",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 56,
+          "text": "caocal",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 57,
+          "text": "chatgpt",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731577"
+          ]
+        },
+        {
+          "rank": 58,
+          "text": "chert",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 59,
+          "text": "ckoecie",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 60,
+          "text": "corn",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731718"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "USERNAME",
+      "page": 4,
+      "title": "Top USERNAME (page 4)",
+      "rows": [
+        {
+          "rank": 61,
+          "text": "cvijoht",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731341"
+          ]
+        },
+        {
+          "rank": 62,
+          "text": "darto",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 63,
+          "text": "dex99 him",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 64,
+          "text": "dex991 htlli",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 65,
+          "text": "dorlaw",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731735"
+          ]
+        },
+        {
+          "rank": 66,
+          "text": "ehn",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 67,
+          "text": "epstein",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 68,
+          "text": "esentinm",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731737"
+          ]
+        },
+        {
+          "rank": 69,
+          "text": "ffrey",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 70,
+          "text": "fp",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ]
+        },
+        {
+          "rank": 71,
+          "text": "ftdnillgang",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730996"
+          ]
+        },
+        {
+          "rank": 72,
+          "text": "ghi",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        },
+        {
+          "rank": 73,
+          "text": "glail5flagqi",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731713"
+          ]
+        },
+        {
+          "rank": 74,
+          "text": "go« hooi 9",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 75,
+          "text": "hibm",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731528"
+          ]
+        },
+        {
+          "rank": 76,
+          "text": "hnalcolm",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        },
+        {
+          "rank": 77,
+          "text": "httot",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731727"
+          ]
+        },
+        {
+          "rank": 78,
+          "text": "httov//www.reuterc",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731651"
+          ]
+        },
+        {
+          "rank": 79,
+          "text": "ia ica",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 80,
+          "text": "idtte",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "USERNAME",
+      "page": 5,
+      "title": "Top USERNAME (page 5)",
+      "rows": [
+        {
+          "rank": 81,
+          "text": "ieffrev-epstein",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731754"
+          ]
+        },
+        {
+          "rank": 82,
+          "text": "igannelk",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731643"
+          ]
+        },
+        {
+          "rank": 83,
+          "text": "iiti- co0144",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 84,
+          "text": "iixte votvonil a 31",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 85,
+          "text": "imign0769711",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731718"
+          ]
+        },
+        {
+          "rank": 86,
+          "text": "imilin",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731718"
+          ]
+        },
+        {
+          "rank": 87,
+          "text": "iniega",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731512"
+          ]
+        },
+        {
+          "rank": 88,
+          "text": "ira",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 89,
+          "text": "jeanne",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731501"
+          ]
+        },
+        {
+          "rank": 90,
+          "text": "jeffrev",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731755"
+          ]
+        },
+        {
+          "rank": 91,
+          "text": "jeffrev-eostein htto",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731727"
+          ]
+        },
+        {
+          "rank": 92,
+          "text": "jet",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ]
+        },
+        {
+          "rank": 93,
+          "text": "jinni osgal nnq",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731718"
+          ]
+        },
+        {
+          "rank": 94,
+          "text": "jjemdghamg",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731501"
+          ]
+        },
+        {
+          "rank": 95,
+          "text": "jrhristenserawiedorlaw corn www wiedorlaw corn",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731526"
+          ]
+        },
+        {
+          "rank": 96,
+          "text": "kaanan",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731687"
+          ]
+        },
+        {
+          "rank": 97,
+          "text": "kaane±1-thtlati=a",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731514"
+          ]
+        },
+        {
+          "rank": 98,
+          "text": "klikkgellledtt",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 99,
+          "text": "klip",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 100,
+          "text": "klt112",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731512"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "PASSWORD",
+      "page": 1,
+      "title": "Top PASSWORD (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "四 ^ ~ (",
+          "count": 2,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "%i5x",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "&1 ic 4/ )",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "&c4 \\sc\\s) ss",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "' n; (g.g, \\\\)\\",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "'kj",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "( <0\"",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "( n&r‘s--4",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "()fk •nak 1\\",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "(1 :•\"? i7 ' 1 ree",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "(6(1\\",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "(<3;",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "(i\\va(1)",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "(in cm 4- (",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 15,
+          "text": ")0m",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "* nou i.",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "*/ \"\"k vv < (/ u",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": "*no(1",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "*no(1 . i.._0_ s 4 's (",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 20,
+          "text": "*‘ :\\\\i",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "PASSWORD",
+      "page": 2,
+      "title": "Top PASSWORD (page 2)",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "+alt. cj i ç\"«.9 ioocuuu",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 22,
+          "text": "+r• „9 ci : i.:cui)u ....>",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 23,
+          "text": ", *9 rfa.,",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731341"
+          ]
+        },
+        {
+          "rank": 24,
+          "text": ",k • ; - . c 1- c \\ .1 l f. • 0",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 25,
+          "text": ",n, vsv",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 26,
+          "text": ",x <ig",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 27,
+          "text": "- .s * ‘',",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731341"
+          ]
+        },
+        {
+          "rank": 28,
+          "text": "--) m0",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 29,
+          "text": "-4( 7- {f )一‘ q",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 30,
+          "text": "-• m4(4 kvoro",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 31,
+          "text": ".% isszi",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 32,
+          "text": ".&to",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 33,
+          "text": ".a', • 7,\"",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731529"
+          ]
+        },
+        {
+          "rank": 34,
+          "text": ".i et/j(1 a 5+01",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731341"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "/el let)aao-t",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "0 'wt %a",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 37,
+          "text": "0 na",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 38,
+          "text": "0 st/ 4/ <<\\ c) n....4q- t.,... /s",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 39,
+          "text": "00pu ic5s%",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 40,
+          "text": "1 i: .\\-c",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "PASSWORD",
+      "page": 3,
+      "title": "Top PASSWORD (page 3)",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "1 n i 3 )i",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 42,
+          "text": "1,1\\c",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 43,
+          "text": "1=pr",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ]
+        },
+        {
+          "rank": 44,
+          "text": "1‘",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 45,
+          "text": "2'2 er- v ( (1. adar",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731341"
+          ]
+        },
+        {
+          "rank": 46,
+          "text": "4 @",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 47,
+          "text": "4 °k j\\ 9 ix '",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731341"
+          ]
+        },
+        {
+          "rank": 48,
+          "text": "4- ;",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731341"
+          ]
+        },
+        {
+          "rank": 49,
+          "text": "4..:z",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731341"
+          ]
+        },
+        {
+          "rank": 50,
+          "text": "4a",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 51,
+          "text": "5(18 d „g",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 52,
+          "text": "6(1 ( :\\,\\\\i",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 53,
+          "text": "6dd",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 54,
+          "text": "85firh",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731781"
+          ]
+        },
+        {
+          "rank": 55,
+          "text": "9t)\\#11`}",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 56,
+          "text": ": nal]",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731765"
+          ]
+        },
+        {
+          "rank": 57,
+          "text": ": or i i i",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 58,
+          "text": ":\" fl u a '1",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 59,
+          "text": ":00",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 60,
+          "text": ";'; t-- 0",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "PASSWORD",
+      "page": 4,
+      "title": "Top PASSWORD (page 4)",
+      "rows": [
+        {
+          "rank": 61,
+          "text": "<<\" 1sre nei a",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 62,
+          "text": "\\\\i",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 63,
+          "text": "\\\\n\" 1)",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 64,
+          "text": "\\o m \\\\+) icr",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 65,
+          "text": "_ `0%(clek",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 66,
+          "text": "___o \\o",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 67,
+          "text": "a -1\\x,‘i'*",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 68,
+          "text": "a c le",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731254"
+          ]
+        },
+        {
+          "rank": 69,
+          "text": "a ‘i (i)",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 70,
+          "text": "b%\\/ icy c ) ' c c-*/ a o \\ \\ 's <<\\'' o ' ;-\\o",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731254"
+          ]
+        },
+        {
+          "rank": 71,
+          "text": "c 5 v k -c . (.7",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 72,
+          "text": "c il . i o r",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 73,
+          "text": "c& n1 q",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 74,
+          "text": "ci <r \\-\\ 4 co =",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 75,
+          "text": "ci k h5a 'y\\ h g i ,1z . r.‘.o .se",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 76,
+          "text": "cia) t )",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 77,
+          "text": "cr i pl au 'ic jt 0 •",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 78,
+          "text": "e cces•0 ) (is",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731482"
+          ]
+        },
+        {
+          "rank": 79,
+          "text": "ft",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 80,
+          "text": "g.cci",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "PASSWORD",
+      "page": 5,
+      "title": "Top PASSWORD (page 5)",
+      "rows": [
+        {
+          "rank": 81,
+          "text": "gm=",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ]
+        },
+        {
+          "rank": 82,
+          "text": "i %lay i",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731529"
+          ]
+        },
+        {
+          "rank": 83,
+          "text": "i & 2:",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 84,
+          "text": "i 0,,m •\\(ifkc",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 85,
+          "text": "i \\}(}\\it",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 86,
+          "text": "i i 0 r-sq'",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 87,
+          "text": "i i —i * * *",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 88,
+          "text": "i i • o0*",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 89,
+          "text": "i i • we / . )",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 90,
+          "text": "i l-: l",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 91,
+          "text": "i —t‘c lis",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 92,
+          "text": "i • \\in iii",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731529"
+          ]
+        },
+        {
+          "rank": 93,
+          "text": "i • o0*",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 94,
+          "text": "i •::\\ %-ki",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 95,
+          "text": "i''",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 96,
+          "text": "i(•y\\",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731341"
+          ]
+        },
+        {
+          "rank": 97,
+          "text": "i.% •«..,..1",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 98,
+          "text": "i<re",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 99,
+          "text": "ih abl( gccon‘a",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 100,
+          "text": "ii 2 - c'— n",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "STREET",
+      "page": 1,
+      "title": "Top STREET (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "fifth avenue",
+          "count": 31,
+          "docs": 26,
+          "datasets": {
+            "dataset_12": 31
+          },
+          "sample_doc_ids": [
+            "EFTA02731473",
+            "EFTA02731479",
+            "EFTA02731480",
+            "EFTA02731482",
+            "EFTA02731484"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "one saint andrew's plaza",
+          "count": 9,
+          "docs": 9,
+          "datasets": {
+            "dataset_12": 9
+          },
+          "sample_doc_ids": [
+            "EFTA02731623",
+            "EFTA02731644",
+            "EFTA02731684",
+            "EFTA02731689",
+            "EFTA02731715"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "85 avenue",
+          "count": 6,
+          "docs": 4,
+          "datasets": {
+            "dataset_12": 6
+          },
+          "sample_doc_ids": [
+            "EFTA02731490",
+            "EFTA02731501",
+            "EFTA02731514",
+            "EFTA02731651"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "broadway",
+          "count": 2,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02731552",
+            "EFTA02731699"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "john f kennedy intl",
+          "count": 2,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02730267",
+            "EFTA02730477"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "kinnerton st",
+          "count": 2,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "london/heathrow intl",
+          "count": 2,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02730267",
+            "EFTA02730477"
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "1 avenue",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731490"
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "66th street",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "akst road",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "avenue",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731651"
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "burns rd",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730477"
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "deichcorta",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "epstein",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 15,
+          "text": "epstein'",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731812"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "epstein's",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731812"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "epstein's island",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": "fifth",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731718"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "florida residence",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731200"
+          ]
+        },
+        {
+          "rank": 20,
+          "text": "foley square",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731812"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "STREET",
+      "page": 2,
+      "title": "Top STREET (page 2)",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "ihstnct of ew yo i st. andrew's plaza",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731684"
+          ]
+        },
+        {
+          "rank": 22,
+          "text": "intl",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        },
+        {
+          "rank": 23,
+          "text": "jeffreys",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 24,
+          "text": "john f kennedy",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        },
+        {
+          "rank": 25,
+          "text": "lafayette street",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731697"
+          ]
+        },
+        {
+          "rank": 26,
+          "text": "lexingron avenue",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731524"
+          ]
+        },
+        {
+          "rank": 27,
+          "text": "madison avenue",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731420"
+          ]
+        },
+        {
+          "rank": 28,
+          "text": "much' plegle web",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 29,
+          "text": "new york",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731697"
+          ]
+        },
+        {
+          "rank": 30,
+          "text": "newark",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730477"
+          ]
+        },
+        {
+          "rank": 31,
+          "text": "palm",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731737"
+          ]
+        },
+        {
+          "rank": 32,
+          "text": "palm beac ouse",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ]
+        },
+        {
+          "rank": 33,
+          "text": "saint andrew's plaza",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731651"
+          ]
+        },
+        {
+          "rank": 34,
+          "text": "seventeeth street",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "side",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730477"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "west 57th street",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731018"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "ZIPCODE",
+      "page": 1,
+      "title": "Top ZIPCODE (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "10003",
+          "count": 44,
+          "docs": 29,
+          "datasets": {
+            "dataset_12": 44
+          },
+          "sample_doc_ids": [
+            "EFTA02731473",
+            "EFTA02731479",
+            "EFTA02731480",
+            "EFTA02731482",
+            "EFTA02731484"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "ny 10007",
+          "count": 7,
+          "docs": 6,
+          "datasets": {
+            "dataset_12": 7
+          },
+          "sample_doc_ids": [
+            "EFTA02731623",
+            "EFTA02731644",
+            "EFTA02731684",
+            "EFTA02731689",
+            "EFTA02731715"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "ny 10003",
+          "count": 6,
+          "docs": 6,
+          "datasets": {
+            "dataset_12": 6
+          },
+          "sample_doc_ids": [
+            "EFTA02731482",
+            "EFTA02731643",
+            "EFTA02731646",
+            "EFTA02731655",
+            "EFTA02731687"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "10007",
+          "count": 3,
+          "docs": 3,
+          "datasets": {
+            "dataset_12": 3
+          },
+          "sample_doc_ids": [
+            "EFTA02731651",
+            "EFTA02731755",
+            "EFTA02731762"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "1962",
+          "count": 3,
+          "docs": 3,
+          "datasets": {
+            "dataset_12": 3
+          },
+          "sample_doc_ids": [
+            "EFTA02731643",
+            "EFTA02731644",
+            "EFTA02731646"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "mm",
+          "count": 2,
+          "docs": 2,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02730469",
+            "EFTA02730471"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "1 101",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "10012",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731697"
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "10019",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731018"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "10174",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731524"
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "20217",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "20510-6200",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "80202-4432",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "bv",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730996"
+          ]
+        },
+        {
+          "rank": 15,
+          "text": "c3",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730265"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "ny 10003_",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731648"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "ny 10o07",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731757"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": "oc 20510-6200",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731018"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "sw115gy",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730477"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "SOCIALNUM",
+      "page": 1,
+      "title": "Top SOCIALNUM (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "301-261-1902",
+          "count": 31,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 31
+          },
+          "sample_doc_ids": [
+            "EFTA02731812"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "410-974-0947",
+          "count": 27,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 27
+          },
+          "sample_doc_ids": [
+            "EFTA02731812"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "-0947",
+          "count": 2,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02731812"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "-'70-1007",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731529"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": ".1114",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "17 0.-'70-1007.-0",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731529"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "s vili11 1x16v",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "DCARDNUM",
+      "page": 1,
+      "title": "Top DCARDNUM (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "0273",
+          "count": 2,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 2
+          },
+          "sample_doc_ids": [
+            "EFTA02731593"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "02731517",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731517"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "02731599",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731593"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "02731605",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731604"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "02731609",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731608"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "02731721",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731721"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "02731737",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731737"
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "1020",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731018"
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "1033",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "1598",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731593"
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "44111 160",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "d1400.0242011",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731490"
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "efta0273",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731501"
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "efta02730265",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730265"
+          ]
+        },
+        {
+          "rank": 15,
+          "text": "efta02730468",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730468"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "efta02730469",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730469"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "efta02730473",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730473"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": "efta02731017",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730996"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "efta02731027",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 20,
+          "text": "efta02731037 15.",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "DCARDNUM",
+      "page": 2,
+      "title": "Top DCARDNUM (page 2)",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "efta02731256",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731254"
+          ]
+        },
+        {
+          "rank": 22,
+          "text": "efta02731294 i",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 23,
+          "text": "efta02731369",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 24,
+          "text": "efta02731370",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731361"
+          ]
+        },
+        {
+          "rank": 25,
+          "text": "efta02731484",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731484"
+          ]
+        },
+        {
+          "rank": 26,
+          "text": "efta02731493",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731490"
+          ]
+        },
+        {
+          "rank": 27,
+          "text": "efta02731503",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731501"
+          ]
+        },
+        {
+          "rank": 28,
+          "text": "efta02731512 a",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731512"
+          ]
+        },
+        {
+          "rank": 29,
+          "text": "efta02731513",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731512"
+          ]
+        },
+        {
+          "rank": 30,
+          "text": "efta02731517",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731517"
+          ]
+        },
+        {
+          "rank": 31,
+          "text": "efta02731524",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731524"
+          ]
+        },
+        {
+          "rank": 32,
+          "text": "efta02731583",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731583"
+          ]
+        },
+        {
+          "rank": 33,
+          "text": "efta02731601",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731593"
+          ]
+        },
+        {
+          "rank": 34,
+          "text": "efta02731603",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731593"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "efta02731604",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731604"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "efta02731605",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731604"
+          ]
+        },
+        {
+          "rank": 37,
+          "text": "efta02731608",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731608"
+          ]
+        },
+        {
+          "rank": 38,
+          "text": "efta02731620",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731618"
+          ]
+        },
+        {
+          "rank": 39,
+          "text": "efta02731624",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731623"
+          ]
+        },
+        {
+          "rank": 40,
+          "text": "efta02731657",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731655"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "DCARDNUM",
+      "page": 3,
+      "title": "Top DCARDNUM (page 3)",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "efta02731682",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731682"
+          ]
+        },
+        {
+          "rank": 42,
+          "text": "efta02731692",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731689"
+          ]
+        },
+        {
+          "rank": 43,
+          "text": "efta02731713 l",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731713"
+          ]
+        },
+        {
+          "rank": 44,
+          "text": "efta02731765 s",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731765"
+          ]
+        },
+        {
+          "rank": 45,
+          "text": "efta02731781 a",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731781"
+          ]
+        },
+        {
+          "rank": 46,
+          "text": "efta02731796",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 47,
+          "text": "fta02730477",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730477"
+          ]
+        },
+        {
+          "rank": 48,
+          "text": "i02610214202",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731715"
+          ]
+        },
+        {
+          "rank": 49,
+          "text": "ta02731467",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731465"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "DRIVERLICENSENUM",
+      "page": 1,
+      "title": "Top DRIVERLICENSENUM (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "-13 14 february 2022 50d-ny-3027571-intel",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "/0001 i 93 i 2521016405",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "001p6vet io",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "02731734",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731734"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "1 efta02731475",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731475"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "1 efta02731477",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731477"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "1 efta02731478",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731478"
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "1 efta02731485",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731485"
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "1 efta02731486",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731486"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "1 efta02731632",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731632"
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "1 efta02731733",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731733"
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "1011- -14 ‘.1- i \\\\",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "118 i",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "2 149",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731790"
+          ]
+        },
+        {
+          "rank": 15,
+          "text": "3 efta02730269",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "3 efta02731257",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731254"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "3 efta02731589",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731587"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": "3 efta02731635",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731633"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "3 efta02731731",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731729"
+          ]
+        },
+        {
+          "rank": 20,
+          "text": "31474",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731473"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "DRIVERLICENSENUM",
+      "page": 2,
+      "title": "Top DRIVERLICENSENUM (page 2)",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "4 efta02730270",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        },
+        {
+          "rank": 22,
+          "text": "4 efta02731586",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731583"
+          ]
+        },
+        {
+          "rank": 23,
+          "text": "50d-ny-3027571-",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730477"
+          ]
+        },
+        {
+          "rank": 24,
+          "text": "7 by 8 q",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731812"
+          ]
+        },
+        {
+          "rank": 25,
+          "text": "aws lank",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 26,
+          "text": "cantwell washington m",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 27,
+          "text": "dud wigdor",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731735"
+          ]
+        },
+        {
+          "rank": 28,
+          "text": "efta02731259",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731254"
+          ]
+        },
+        {
+          "rank": 29,
+          "text": "efta02731751",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731737"
+          ]
+        },
+        {
+          "rank": 30,
+          "text": "fta02730470",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730469"
+          ]
+        },
+        {
+          "rank": 31,
+          "text": "inoiana john parrasso wyo",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 32,
+          "text": "jemmy john corwn",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731018"
+          ]
+        },
+        {
+          "rank": 33,
+          "text": "john ijapras50.avommg joshua snowman",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731018"
+          ]
+        },
+        {
+          "rank": 34,
+          "text": "lex",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "ri gregg",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "rt 2 efta02731476",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731475"
+          ]
+        },
+        {
+          "rank": 37,
+          "text": "w0194...)0a 1\\1",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "UILDINGNUM",
+      "page": 1,
+      "title": "Top UILDINGNUM (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "#6e",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731697"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "-20",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "1..",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731490"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "11.",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731765"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "17 10",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731812"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "2006",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731018"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "2422",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731168"
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "50d",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730468"
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "7433",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731729"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "c-20",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "DATEOFBIRTH",
+      "page": 1,
+      "title": "Top DATEOFBIRTH (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "10.27/2019",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "2013.",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731018"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "21.",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731765"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "3 july 2020",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730267"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "july 26, 2019,",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730996"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "may",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731254"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "TELEPHONENUM",
+      "page": 1,
+      "title": "Top TELEPHONENUM (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "0112618019.212",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731651"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "02731636",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731636"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "1 e",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731636"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "1747",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731737"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "181 181",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731718"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "ACCOUNTNUM",
+      "page": 1,
+      "title": "Top ACCOUNTNUM (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "/000119312521016405",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731727"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "1411494/000119312521016405",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "1411494/000119317571016405",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731023"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "7 efta02731743",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731737"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "EMAIL",
+      "page": 1,
+      "title": "Top EMAIL (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "c.jeevacationggmail.com",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730265"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "jeevacation(igmail.com",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730265"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "jeevacation®gmail.com",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02730265"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "label_top",
+      "label": "TAXNUM",
+      "page": 1,
+      "title": "Top TAXNUM (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "41-4144144411",
+          "count": 1,
+          "docs": 1,
+          "datasets": {
+            "dataset_12": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02731260"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ngram",
+      "n": 6,
+      "page": 1,
+      "title": "Top 6-grams (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "copying jeevacation gmail com including copyright",
+          "count": 564,
+          "docs": 269
+        },
+        {
+          "rank": 2,
+          "text": "gmail com including copyright house oversight",
+          "count": 271,
+          "docs": 241
+        },
+        {
+          "rank": 3,
+          "text": "jeevacation gmail com including copyright house",
+          "count": 270,
+          "docs": 240
+        },
+        {
+          "rank": 4,
+          "text": "constitute inside addressee property jee copying",
+          "count": 553,
+          "docs": 238
+        },
+        {
+          "rank": 5,
+          "text": "note constitute inside addressee property jee",
+          "count": 530,
+          "docs": 235
+        },
+        {
+          "rank": 6,
+          "text": "addressee property jee copying jeevacation gmail",
+          "count": 494,
+          "docs": 228
+        },
+        {
+          "rank": 7,
+          "text": "property jee copying jeevacation gmail com",
+          "count": 494,
+          "docs": 228
+        },
+        {
+          "rank": 8,
+          "text": "inside addressee property jee copying jeevacation",
+          "count": 486,
+          "docs": 228
+        },
+        {
+          "rank": 9,
+          "text": "jee copying jeevacation gmail com including",
+          "count": 479,
+          "docs": 222
+        },
+        {
+          "rank": 10,
+          "text": "jeevacation gmail com including copyright note",
+          "count": 261,
+          "docs": 104
+        },
+        {
+          "rank": 11,
+          "text": "copyright note constitute inside addressee property",
+          "count": 252,
+          "docs": 99
+        },
+        {
+          "rank": 12,
+          "text": "including copyright note constitute inside addressee",
+          "count": 250,
+          "docs": 99
+        },
+        {
+          "rank": 13,
+          "text": "com including copyright note constitute inside",
+          "count": 246,
+          "docs": 98
+        },
+        {
+          "rank": 14,
+          "text": "gmail com including copyright note constitute",
+          "count": 241,
+          "docs": 96
+        },
+        {
+          "rank": 15,
+          "text": "pm jeffrey jeevacation gmail com wrote",
+          "count": 149,
+          "docs": 69
+        },
+        {
+          "rank": 16,
+          "text": "constitute inside addressee property jeffrey epstein",
+          "count": 106,
+          "docs": 68
+        },
+        {
+          "rank": 17,
+          "text": "inside addressee property jeffrey epstein copying",
+          "count": 102,
+          "docs": 67
+        },
+        {
+          "rank": 18,
+          "text": "jeffrey epstein copying jeevacation gmail com",
+          "count": 101,
+          "docs": 67
+        },
+        {
+          "rank": 19,
+          "text": "addressee property jeffrey epstein copying jeevacation",
+          "count": 97,
+          "docs": 66
+        },
+        {
+          "rank": 20,
+          "text": "property jeffrey epstein copying jeevacation gmail",
+          "count": 97,
+          "docs": 66
+        }
+      ]
+    },
+    {
+      "kind": "ngram",
+      "n": 6,
+      "page": 2,
+      "title": "Top 6-grams (page 2)",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "epstein copying jeevacation gmail com including",
+          "count": 97,
+          "docs": 65
+        },
+        {
+          "rank": 22,
+          "text": "pm jeffrey jeeyacation gmail com re",
+          "count": 53,
+          "docs": 53
+        },
+        {
+          "rank": 23,
+          "text": "am jeffrey jeevacation gmail com wrote",
+          "count": 93,
+          "docs": 50
+        },
+        {
+          "rank": 24,
+          "text": "jeeyacation gmail com re importance high",
+          "count": 50,
+          "docs": 50
+        },
+        {
+          "rank": 25,
+          "text": "pm jeffrey epstein jeeyacation gmail com",
+          "count": 48,
+          "docs": 48
+        },
+        {
+          "rank": 26,
+          "text": "responsible delivery message person read copy",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 27,
+          "text": "delivery message person read copy forward",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 28,
+          "text": "message person read copy forward message",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 29,
+          "text": "delete message including hereof kindly sender",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 30,
+          "text": "message including hereof kindly sender reply",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 31,
+          "text": "person read copy forward message anyone",
+          "count": 128,
+          "docs": 39
+        },
+        {
+          "rank": 32,
+          "text": "read copy forward message anyone case",
+          "count": 128,
+          "docs": 39
+        },
+        {
+          "rank": 33,
+          "text": "anyone case delete message including hereof",
+          "count": 128,
+          "docs": 39
+        },
+        {
+          "rank": 34,
+          "text": "case delete message including hereof kindly",
+          "count": 128,
+          "docs": 39
+        },
+        {
+          "rank": 35,
+          "text": "addressee indicated message responsible delivery message",
+          "count": 127,
+          "docs": 39
+        },
+        {
+          "rank": 36,
+          "text": "copy forward message anyone case delete",
+          "count": 126,
+          "docs": 39
+        },
+        {
+          "rank": 37,
+          "text": "forward message anyone case delete message",
+          "count": 126,
+          "docs": 39
+        },
+        {
+          "rank": 38,
+          "text": "message anyone case delete message including",
+          "count": 126,
+          "docs": 39
+        },
+        {
+          "rank": 39,
+          "text": "work product addressee indicated message responsible",
+          "count": 126,
+          "docs": 38
+        },
+        {
+          "rank": 40,
+          "text": "product addressee indicated message responsible delivery",
+          "count": 126,
+          "docs": 38
+        }
+      ]
+    },
+    {
+      "kind": "ngram",
+      "n": 6,
+      "page": 3,
+      "title": "Top 6-grams (page 3)",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "indicated message responsible delivery message person",
+          "count": 126,
+          "docs": 38
+        },
+        {
+          "rank": 42,
+          "text": "message responsible delivery message person read",
+          "count": 126,
+          "docs": 38
+        },
+        {
+          "rank": 43,
+          "text": "contain work product addressee indicated message",
+          "count": 124,
+          "docs": 38
+        },
+        {
+          "rank": 44,
+          "text": "jeffrey jeeyacation gmail com re importance",
+          "count": 35,
+          "docs": 35
+        },
+        {
+          "rank": 45,
+          "text": "pm jeffrey epstein jeevacation gmail com",
+          "count": 38,
+          "docs": 33
+        },
+        {
+          "rank": 46,
+          "text": "inside addressee property jee copying house",
+          "count": 38,
+          "docs": 29
+        },
+        {
+          "rank": 47,
+          "text": "addressee property jee copying house oversight",
+          "count": 38,
+          "docs": 29
+        },
+        {
+          "rank": 48,
+          "text": "environment printing contain work product addressee",
+          "count": 74,
+          "docs": 25
+        },
+        {
+          "rank": 49,
+          "text": "printing contain work product addressee indicated",
+          "count": 74,
+          "docs": 25
+        },
+        {
+          "rank": 50,
+          "text": "jeffrey epstein jeeyacation gmail com re",
+          "count": 24,
+          "docs": 24
+        },
+        {
+          "rank": 51,
+          "text": "flags 1060865 read yes invitation guid",
+          "count": 400,
+          "docs": 23
+        },
+        {
+          "rank": 52,
+          "text": "including hereof kindly sender reply phone",
+          "count": 84,
+          "docs": 23
+        },
+        {
+          "rank": 53,
+          "text": "consider environment printing contain work product",
+          "count": 68,
+          "docs": 23
+        },
+        {
+          "rank": 54,
+          "text": "macintosh hd root users jee library",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 55,
+          "text": "hd root users jee library messages",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 56,
+          "text": "root users jee library messages archive",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 57,
+          "text": "html note constitute inside addressee property",
+          "count": 27,
+          "docs": 21
+        },
+        {
+          "rank": 58,
+          "text": "copying jeevacation gmail com house oversight",
+          "count": 25,
+          "docs": 21
+        },
+        {
+          "rank": 59,
+          "text": "presentity ids jeeitunes gmail com messages",
+          "count": 21,
+          "docs": 21
+        },
+        {
+          "rank": 60,
+          "text": "ids jeeitunes gmail com messages sender",
+          "count": 21,
+          "docs": 21
+        }
+      ]
+    },
+    {
+      "kind": "ngram",
+      "n": 6,
+      "page": 4,
+      "title": "Top 6-grams (page 4)",
+      "rows": [
+        {
+          "rank": 61,
+          "text": "including hereof kindly sender reply facsimile",
+          "count": 46,
+          "docs": 19
+        },
+        {
+          "rank": 62,
+          "text": "hereof kindly sender reply facsimile phone",
+          "count": 46,
+          "docs": 19
+        },
+        {
+          "rank": 63,
+          "text": "19 20 21 22 23 24",
+          "count": 39,
+          "docs": 19
+        },
+        {
+          "rank": 64,
+          "text": "575 lexington avenue 4th floor new",
+          "count": 35,
+          "docs": 19
+        },
+        {
+          "rank": 65,
+          "text": "chat room participants jee presentity ids",
+          "count": 19,
+          "docs": 19
+        },
+        {
+          "rank": 66,
+          "text": "room participants jee presentity ids jeeitunes",
+          "count": 19,
+          "docs": 19
+        },
+        {
+          "rank": 67,
+          "text": "participants jee presentity ids jeeitunes gmail",
+          "count": 19,
+          "docs": 19
+        },
+        {
+          "rank": 68,
+          "text": "jee presentity ids jeeitunes gmail com",
+          "count": 19,
+          "docs": 19
+        },
+        {
+          "rank": 69,
+          "text": "17 18 19 20 21 22",
+          "count": 40,
+          "docs": 18
+        },
+        {
+          "rank": 70,
+          "text": "18 19 20 21 22 23",
+          "count": 39,
+          "docs": 18
+        },
+        {
+          "rank": 71,
+          "text": "16 17 18 19 20 21",
+          "count": 37,
+          "docs": 18
+        },
+        {
+          "rank": 72,
+          "text": "20 21 22 23 24 25",
+          "count": 35,
+          "docs": 18
+        },
+        {
+          "rank": 73,
+          "text": "15 16 17 18 19 20",
+          "count": 35,
+          "docs": 18
+        },
+        {
+          "rank": 74,
+          "text": "14 15 16 17 18 19",
+          "count": 32,
+          "docs": 18
+        },
+        {
+          "rank": 75,
+          "text": "elisa new powell cabot professor literature",
+          "count": 30,
+          "docs": 18
+        },
+        {
+          "rank": 76,
+          "text": "jee copying jeevacation gmail com house",
+          "count": 22,
+          "docs": 18
+        },
+        {
+          "rank": 77,
+          "text": "source entry macintosh hd root users",
+          "count": 18,
+          "docs": 18
+        },
+        {
+          "rank": 78,
+          "text": "entry macintosh hd root users jee",
+          "count": 18,
+          "docs": 18
+        },
+        {
+          "rank": 79,
+          "text": "13 14 15 16 17 18",
+          "count": 30,
+          "docs": 17
+        },
+        {
+          "rank": 80,
+          "text": "148 barker center 12 quincy street",
+          "count": 30,
+          "docs": 17
+        }
+      ]
+    },
+    {
+      "kind": "ngram",
+      "n": 6,
+      "page": 5,
+      "title": "Top 6-grams (page 5)",
+      "rows": [
+        {
+          "rank": 81,
+          "text": "harvard university 148 barker center 12",
+          "count": 29,
+          "docs": 17
+        },
+        {
+          "rank": 82,
+          "text": "university 148 barker center 12 quincy",
+          "count": 29,
+          "docs": 17
+        },
+        {
+          "rank": 83,
+          "text": "barker center 12 quincy street cambridge",
+          "count": 29,
+          "docs": 17
+        },
+        {
+          "rank": 84,
+          "text": "copying jeevacation gmail com including house",
+          "count": 18,
+          "docs": 17
+        },
+        {
+          "rank": 85,
+          "text": "jeevacation gmail com including house oversight",
+          "count": 18,
+          "docs": 17
+        },
+        {
+          "rank": 86,
+          "text": "9a 4p 530p 7p thur 9a",
+          "count": 202,
+          "docs": 16
+        },
+        {
+          "rank": 87,
+          "text": "4p 530p 7p thur 9a 530p",
+          "count": 202,
+          "docs": 16
+        },
+        {
+          "rank": 88,
+          "text": "flags 1126401 read yes invitation guid",
+          "count": 54,
+          "docs": 16
+        },
+        {
+          "rank": 89,
+          "text": "llp 85 fifth avenue new 10003",
+          "count": 36,
+          "docs": 16
+        },
+        {
+          "rank": 90,
+          "text": "assistant united states southern district new",
+          "count": 30,
+          "docs": 16
+        },
+        {
+          "rank": 91,
+          "text": "landon thomas jr financial reporter new",
+          "count": 30,
+          "docs": 16
+        },
+        {
+          "rank": 92,
+          "text": "thomas jr financial reporter new times",
+          "count": 30,
+          "docs": 16
+        },
+        {
+          "rank": 93,
+          "text": "center 12 quincy street cambridge ma",
+          "count": 28,
+          "docs": 16
+        },
+        {
+          "rank": 94,
+          "text": "12 13 14 15 16 17",
+          "count": 27,
+          "docs": 16
+        },
+        {
+          "rank": 95,
+          "text": "jr financial reporter new times http",
+          "count": 26,
+          "docs": 16
+        },
+        {
+          "rank": 96,
+          "text": "financial reporter new times http topics",
+          "count": 26,
+          "docs": 16
+        },
+        {
+          "rank": 97,
+          "text": "12 quincy street cambridge ma 02138",
+          "count": 26,
+          "docs": 16
+        },
+        {
+          "rank": 98,
+          "text": "jeffrey epstein jeevacation gmail com wrote",
+          "count": 25,
+          "docs": 16
+        },
+        {
+          "rank": 99,
+          "text": "constitute inside addressee property house oversight",
+          "count": 16,
+          "docs": 16
+        },
+        {
+          "rank": 100,
+          "text": "wigdor llp 85 fifth avenue new",
+          "count": 34,
+          "docs": 15
+        }
+      ]
+    },
+    {
+      "kind": "ngram",
+      "n": 5,
+      "page": 1,
+      "title": "Top 5-grams (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "copying jeevacation gmail com including",
+          "count": 588,
+          "docs": 287
+        },
+        {
+          "rank": 2,
+          "text": "jeevacation gmail com including copyright",
+          "count": 615,
+          "docs": 277
+        },
+        {
+          "rank": 3,
+          "text": "com including copyright house oversight",
+          "count": 275,
+          "docs": 244
+        },
+        {
+          "rank": 4,
+          "text": "gmail com including copyright house",
+          "count": 271,
+          "docs": 241
+        },
+        {
+          "rank": 5,
+          "text": "constitute inside addressee property jee",
+          "count": 563,
+          "docs": 239
+        },
+        {
+          "rank": 6,
+          "text": "inside addressee property jee copying",
+          "count": 553,
+          "docs": 238
+        },
+        {
+          "rank": 7,
+          "text": "note constitute inside addressee property",
+          "count": 546,
+          "docs": 237
+        },
+        {
+          "rank": 8,
+          "text": "jee copying jeevacation gmail com",
+          "count": 507,
+          "docs": 229
+        },
+        {
+          "rank": 9,
+          "text": "addressee property jee copying jeevacation",
+          "count": 499,
+          "docs": 229
+        },
+        {
+          "rank": 10,
+          "text": "property jee copying jeevacation gmail",
+          "count": 494,
+          "docs": 228
+        },
+        {
+          "rank": 11,
+          "text": "jeffrey jeevacation gmail com wrote",
+          "count": 278,
+          "docs": 109
+        },
+        {
+          "rank": 12,
+          "text": "gmail com including copyright note",
+          "count": 265,
+          "docs": 105
+        },
+        {
+          "rank": 13,
+          "text": "including copyright note constitute inside",
+          "count": 263,
+          "docs": 100
+        },
+        {
+          "rank": 14,
+          "text": "copyright note constitute inside addressee",
+          "count": 252,
+          "docs": 99
+        },
+        {
+          "rank": 15,
+          "text": "com including copyright note constitute",
+          "count": 246,
+          "docs": 98
+        },
+        {
+          "rank": 16,
+          "text": "jeffrey epstein jeevacation gmail com",
+          "count": 107,
+          "docs": 84
+        },
+        {
+          "rank": 17,
+          "text": "jeffrey epstein jeeyacation gmail com",
+          "count": 82,
+          "docs": 82
+        },
+        {
+          "rank": 18,
+          "text": "pm jeffrey jeevacation gmail com",
+          "count": 161,
+          "docs": 77
+        },
+        {
+          "rank": 19,
+          "text": "pm jeffrey jeeyacation gmail com",
+          "count": 74,
+          "docs": 73
+        },
+        {
+          "rank": 20,
+          "text": "constitute inside addressee property jeffrey",
+          "count": 106,
+          "docs": 68
+        }
+      ]
+    },
+    {
+      "kind": "ngram",
+      "n": 5,
+      "page": 2,
+      "title": "Top 5-grams (page 2)",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "inside addressee property jeffrey epstein",
+          "count": 106,
+          "docs": 68
+        },
+        {
+          "rank": 22,
+          "text": "addressee property jeffrey epstein copying",
+          "count": 104,
+          "docs": 67
+        },
+        {
+          "rank": 23,
+          "text": "jeffrey epstein copying jeevacation gmail",
+          "count": 101,
+          "docs": 67
+        },
+        {
+          "rank": 24,
+          "text": "epstein copying jeevacation gmail com",
+          "count": 101,
+          "docs": 67
+        },
+        {
+          "rank": 25,
+          "text": "property jeffrey epstein copying jeevacation",
+          "count": 97,
+          "docs": 66
+        },
+        {
+          "rank": 26,
+          "text": "jeffrey jeeyacation gmail com re",
+          "count": 66,
+          "docs": 66
+        },
+        {
+          "rank": 27,
+          "text": "gmail com re importance high",
+          "count": 61,
+          "docs": 61
+        },
+        {
+          "rank": 28,
+          "text": "am jeffrey jeevacation gmail com",
+          "count": 103,
+          "docs": 59
+        },
+        {
+          "rank": 29,
+          "text": "jeeyacation gmail com re importance",
+          "count": 50,
+          "docs": 50
+        },
+        {
+          "rank": 30,
+          "text": "pm jeffrey epstein jeeyacation gmail",
+          "count": 48,
+          "docs": 48
+        },
+        {
+          "rank": 31,
+          "text": "work product addressee indicated message",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 32,
+          "text": "responsible delivery message person read",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 33,
+          "text": "delivery message person read copy",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 34,
+          "text": "message person read copy forward",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 35,
+          "text": "person read copy forward message",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 36,
+          "text": "delete message including hereof kindly",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 37,
+          "text": "message including hereof kindly sender",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 38,
+          "text": "including hereof kindly sender reply",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 39,
+          "text": "read copy forward message anyone",
+          "count": 128,
+          "docs": 39
+        },
+        {
+          "rank": 40,
+          "text": "copy forward message anyone case",
+          "count": 128,
+          "docs": 39
+        }
+      ]
+    },
+    {
+      "kind": "ngram",
+      "n": 5,
+      "page": 3,
+      "title": "Top 5-grams (page 3)",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "anyone case delete message including",
+          "count": 128,
+          "docs": 39
+        },
+        {
+          "rank": 42,
+          "text": "case delete message including hereof",
+          "count": 128,
+          "docs": 39
+        },
+        {
+          "rank": 43,
+          "text": "addressee indicated message responsible delivery",
+          "count": 127,
+          "docs": 39
+        },
+        {
+          "rank": 44,
+          "text": "indicated message responsible delivery message",
+          "count": 127,
+          "docs": 39
+        },
+        {
+          "rank": 45,
+          "text": "forward message anyone case delete",
+          "count": 126,
+          "docs": 39
+        },
+        {
+          "rank": 46,
+          "text": "message anyone case delete message",
+          "count": 126,
+          "docs": 39
+        },
+        {
+          "rank": 47,
+          "text": "product addressee indicated message responsible",
+          "count": 126,
+          "docs": 38
+        },
+        {
+          "rank": 48,
+          "text": "message responsible delivery message person",
+          "count": 126,
+          "docs": 38
+        },
+        {
+          "rank": 49,
+          "text": "contain work product addressee indicated",
+          "count": 124,
+          "docs": 38
+        },
+        {
+          "rank": 50,
+          "text": "pm jeffrey epstein jeevacation gmail",
+          "count": 38,
+          "docs": 33
+        },
+        {
+          "rank": 51,
+          "text": "addressee property jee copying house",
+          "count": 38,
+          "docs": 29
+        },
+        {
+          "rank": 52,
+          "text": "property jee copying house oversight",
+          "count": 38,
+          "docs": 29
+        },
+        {
+          "rank": 53,
+          "text": "85 fifth avenue new 10003",
+          "count": 72,
+          "docs": 28
+        },
+        {
+          "rank": 54,
+          "text": "epstein jeeyacation gmail com re",
+          "count": 26,
+          "docs": 26
+        },
+        {
+          "rank": 55,
+          "text": "environment printing contain work product",
+          "count": 74,
+          "docs": 25
+        },
+        {
+          "rank": 56,
+          "text": "printing contain work product addressee",
+          "count": 74,
+          "docs": 25
+        },
+        {
+          "rank": 57,
+          "text": "sender jeeitunes gmail com time",
+          "count": 619,
+          "docs": 23
+        },
+        {
+          "rank": 58,
+          "text": "flags 1060865 read yes invitation",
+          "count": 413,
+          "docs": 23
+        },
+        {
+          "rank": 59,
+          "text": "1060865 read yes invitation guid",
+          "count": 400,
+          "docs": 23
+        },
+        {
+          "rank": 60,
+          "text": "hereof kindly sender reply phone",
+          "count": 84,
+          "docs": 23
+        }
+      ]
+    },
+    {
+      "kind": "ngram",
+      "n": 5,
+      "page": 4,
+      "title": "Top 5-grams (page 4)",
+      "rows": [
+        {
+          "rank": 61,
+          "text": "consider environment printing contain work",
+          "count": 68,
+          "docs": 23
+        },
+        {
+          "rank": 62,
+          "text": "jeevacation gmail com house oversight",
+          "count": 27,
+          "docs": 23
+        },
+        {
+          "rank": 63,
+          "text": "macintosh hd root users jee",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 64,
+          "text": "hd root users jee library",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 65,
+          "text": "root users jee library messages",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 66,
+          "text": "users jee library messages archive",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 67,
+          "text": "presentity ids jeeitunes gmail com",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 68,
+          "text": "flags 1085445 read invitation guid",
+          "count": 501,
+          "docs": 21
+        },
+        {
+          "rank": 69,
+          "text": "united states southern district new",
+          "count": 36,
+          "docs": 21
+        },
+        {
+          "rank": 70,
+          "text": "html note constitute inside addressee",
+          "count": 27,
+          "docs": 21
+        },
+        {
+          "rank": 71,
+          "text": "copying jeevacation gmail com house",
+          "count": 25,
+          "docs": 21
+        },
+        {
+          "rank": 72,
+          "text": "ids jeeitunes gmail com messages",
+          "count": 21,
+          "docs": 21
+        },
+        {
+          "rank": 73,
+          "text": "jeeitunes gmail com messages sender",
+          "count": 21,
+          "docs": 21
+        },
+        {
+          "rank": 74,
+          "text": "hereof kindly sender reply facsimile",
+          "count": 46,
+          "docs": 19
+        },
+        {
+          "rank": 75,
+          "text": "kindly sender reply facsimile phone",
+          "count": 46,
+          "docs": 19
+        },
+        {
+          "rank": 76,
+          "text": "17 18 19 20 21",
+          "count": 45,
+          "docs": 19
+        },
+        {
+          "rank": 77,
+          "text": "19 20 21 22 23",
+          "count": 45,
+          "docs": 19
+        },
+        {
+          "rank": 78,
+          "text": "16 17 18 19 20",
+          "count": 42,
+          "docs": 19
+        },
+        {
+          "rank": 79,
+          "text": "20 21 22 23 24",
+          "count": 42,
+          "docs": 19
+        },
+        {
+          "rank": 80,
+          "text": "575 lexington avenue 4th floor",
+          "count": 35,
+          "docs": 19
+        }
+      ]
+    },
+    {
+      "kind": "ngram",
+      "n": 5,
+      "page": 5,
+      "title": "Top 5-grams (page 5)",
+      "rows": [
+        {
+          "rank": 81,
+          "text": "lexington avenue 4th floor new",
+          "count": 35,
+          "docs": 19
+        },
+        {
+          "rank": 82,
+          "text": "chat room participants jee presentity",
+          "count": 19,
+          "docs": 19
+        },
+        {
+          "rank": 83,
+          "text": "room participants jee presentity ids",
+          "count": 19,
+          "docs": 19
+        },
+        {
+          "rank": 84,
+          "text": "participants jee presentity ids jeeitunes",
+          "count": 19,
+          "docs": 19
+        },
+        {
+          "rank": 85,
+          "text": "jee presentity ids jeeitunes gmail",
+          "count": 19,
+          "docs": 19
+        },
+        {
+          "rank": 86,
+          "text": "18 19 20 21 22",
+          "count": 46,
+          "docs": 18
+        },
+        {
+          "rank": 87,
+          "text": "21 22 23 24 25",
+          "count": 39,
+          "docs": 18
+        },
+        {
+          "rank": 88,
+          "text": "14 15 16 17 18",
+          "count": 36,
+          "docs": 18
+        },
+        {
+          "rank": 89,
+          "text": "15 16 17 18 19",
+          "count": 35,
+          "docs": 18
+        },
+        {
+          "rank": 90,
+          "text": "13 14 15 16 17",
+          "count": 33,
+          "docs": 18
+        },
+        {
+          "rank": 91,
+          "text": "barker center 12 quincy street",
+          "count": 31,
+          "docs": 18
+        },
+        {
+          "rank": 92,
+          "text": "elisa new powell cabot professor",
+          "count": 30,
+          "docs": 18
+        },
+        {
+          "rank": 93,
+          "text": "new powell cabot professor literature",
+          "count": 30,
+          "docs": 18
+        },
+        {
+          "rank": 94,
+          "text": "source entry macintosh hd root",
+          "count": 18,
+          "docs": 18
+        },
+        {
+          "rank": 95,
+          "text": "entry macintosh hd root users",
+          "count": 18,
+          "docs": 18
+        },
+        {
+          "rank": 96,
+          "text": "jeanne christensen partner wigdor llp",
+          "count": 40,
+          "docs": 17
+        },
+        {
+          "rank": 97,
+          "text": "148 barker center 12 quincy",
+          "count": 30,
+          "docs": 17
+        },
+        {
+          "rank": 98,
+          "text": "harvard university 148 barker center",
+          "count": 29,
+          "docs": 17
+        },
+        {
+          "rank": 99,
+          "text": "university 148 barker center 12",
+          "count": 29,
+          "docs": 17
+        },
+        {
+          "rank": 100,
+          "text": "center 12 quincy street cambridge",
+          "count": 29,
+          "docs": 17
+        }
+      ]
+    },
+    {
+      "kind": "ngram",
+      "n": 4,
+      "page": 1,
+      "title": "Top 4-grams (page 1)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "constitute inside addressee property",
+          "count": 691,
+          "docs": 309
+        },
+        {
+          "rank": 2,
+          "text": "copying jeevacation gmail com",
+          "count": 621,
+          "docs": 296
+        },
+        {
+          "rank": 3,
+          "text": "jeevacation gmail com including",
+          "count": 640,
+          "docs": 295
+        },
+        {
+          "rank": 4,
+          "text": "gmail com including copyright",
+          "count": 626,
+          "docs": 281
+        },
+        {
+          "rank": 5,
+          "text": "including copyright house oversight",
+          "count": 285,
+          "docs": 253
+        },
+        {
+          "rank": 6,
+          "text": "com including copyright house",
+          "count": 275,
+          "docs": 244
+        },
+        {
+          "rank": 7,
+          "text": "addressee property jee copying",
+          "count": 567,
+          "docs": 239
+        },
+        {
+          "rank": 8,
+          "text": "inside addressee property jee",
+          "count": 563,
+          "docs": 239
+        },
+        {
+          "rank": 9,
+          "text": "note constitute inside addressee",
+          "count": 546,
+          "docs": 237
+        },
+        {
+          "rank": 10,
+          "text": "jee copying jeevacation gmail",
+          "count": 507,
+          "docs": 229
+        },
+        {
+          "rank": 11,
+          "text": "property jee copying jeevacation",
+          "count": 499,
+          "docs": 229
+        },
+        {
+          "rank": 12,
+          "text": "jeffrey jeevacation gmail com",
+          "count": 386,
+          "docs": 158
+        },
+        {
+          "rank": 13,
+          "text": "jeevacation gmail com wrote",
+          "count": 336,
+          "docs": 144
+        },
+        {
+          "rank": 14,
+          "text": "jeffrey jeeyacation gmail com",
+          "count": 144,
+          "docs": 143
+        },
+        {
+          "rank": 15,
+          "text": "com including copyright note",
+          "count": 271,
+          "docs": 107
+        },
+        {
+          "rank": 16,
+          "text": "copyright note constitute inside",
+          "count": 265,
+          "docs": 100
+        },
+        {
+          "rank": 17,
+          "text": "including copyright note constitute",
+          "count": 263,
+          "docs": 100
+        },
+        {
+          "rank": 18,
+          "text": "epstein jeevacation gmail com",
+          "count": 117,
+          "docs": 93
+        },
+        {
+          "rank": 19,
+          "text": "jeeyacation gmail com re",
+          "count": 93,
+          "docs": 93
+        },
+        {
+          "rank": 20,
+          "text": "epstein jeeyacation gmail com",
+          "count": 87,
+          "docs": 87
+        }
+      ]
+    },
+    {
+      "kind": "ngram",
+      "n": 4,
+      "page": 2,
+      "title": "Top 4-grams (page 2)",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "jeffrey epstein jeevacation gmail",
+          "count": 107,
+          "docs": 84
+        },
+        {
+          "rank": 22,
+          "text": "jeffrey epstein jeeyacation gmail",
+          "count": 82,
+          "docs": 82
+        },
+        {
+          "rank": 23,
+          "text": "pm jeffrey jeevacation gmail",
+          "count": 162,
+          "docs": 77
+        },
+        {
+          "rank": 24,
+          "text": "pm jeffrey jeeyacation gmail",
+          "count": 74,
+          "docs": 73
+        },
+        {
+          "rank": 25,
+          "text": "addressee property jeffrey epstein",
+          "count": 108,
+          "docs": 68
+        },
+        {
+          "rank": 26,
+          "text": "inside addressee property jeffrey",
+          "count": 106,
+          "docs": 68
+        },
+        {
+          "rank": 27,
+          "text": "property jeffrey epstein copying",
+          "count": 104,
+          "docs": 67
+        },
+        {
+          "rank": 28,
+          "text": "jeffrey epstein copying jeevacation",
+          "count": 101,
+          "docs": 67
+        },
+        {
+          "rank": 29,
+          "text": "epstein copying jeevacation gmail",
+          "count": 101,
+          "docs": 67
+        },
+        {
+          "rank": 30,
+          "text": "gmail com re importance",
+          "count": 61,
+          "docs": 61
+        },
+        {
+          "rank": 31,
+          "text": "com re importance high",
+          "count": 61,
+          "docs": 61
+        },
+        {
+          "rank": 32,
+          "text": "am jeffrey jeevacation gmail",
+          "count": 103,
+          "docs": 59
+        },
+        {
+          "rank": 33,
+          "text": "pm jeffrey epstein jeeyacation",
+          "count": 48,
+          "docs": 48
+        },
+        {
+          "rank": 34,
+          "text": "jeevacation gmail com re",
+          "count": 42,
+          "docs": 42
+        },
+        {
+          "rank": 35,
+          "text": "work product addressee indicated",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 36,
+          "text": "product addressee indicated message",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 37,
+          "text": "responsible delivery message person",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 38,
+          "text": "delivery message person read",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 39,
+          "text": "message person read copy",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 40,
+          "text": "person read copy forward",
+          "count": 130,
+          "docs": 39
+        }
+      ]
+    },
+    {
+      "kind": "ngram",
+      "n": 4,
+      "page": 3,
+      "title": "Top 4-grams (page 3)",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "read copy forward message",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 42,
+          "text": "delete message including hereof",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 43,
+          "text": "message including hereof kindly",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 44,
+          "text": "including hereof kindly sender",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 45,
+          "text": "hereof kindly sender reply",
+          "count": 130,
+          "docs": 39
+        },
+        {
+          "rank": 46,
+          "text": "copy forward message anyone",
+          "count": 128,
+          "docs": 39
+        },
+        {
+          "rank": 47,
+          "text": "forward message anyone case",
+          "count": 128,
+          "docs": 39
+        },
+        {
+          "rank": 48,
+          "text": "anyone case delete message",
+          "count": 128,
+          "docs": 39
+        },
+        {
+          "rank": 49,
+          "text": "case delete message including",
+          "count": 128,
+          "docs": 39
+        },
+        {
+          "rank": 50,
+          "text": "addressee indicated message responsible",
+          "count": 127,
+          "docs": 39
+        },
+        {
+          "rank": 51,
+          "text": "indicated message responsible delivery",
+          "count": 127,
+          "docs": 39
+        },
+        {
+          "rank": 52,
+          "text": "message responsible delivery message",
+          "count": 127,
+          "docs": 39
+        },
+        {
+          "rank": 53,
+          "text": "message anyone case delete",
+          "count": 126,
+          "docs": 39
+        },
+        {
+          "rank": 54,
+          "text": "contain work product addressee",
+          "count": 124,
+          "docs": 38
+        },
+        {
+          "rank": 55,
+          "text": "pm jeevacation gmail com",
+          "count": 42,
+          "docs": 35
+        },
+        {
+          "rank": 56,
+          "text": "pm jeffrey epstein jeevacation",
+          "count": 39,
+          "docs": 34
+        },
+        {
+          "rank": 57,
+          "text": "mailto jeevacation gmail com",
+          "count": 53,
+          "docs": 32
+        },
+        {
+          "rank": 58,
+          "text": "palm beach police department",
+          "count": 188,
+          "docs": 31
+        },
+        {
+          "rank": 59,
+          "text": "gmail com house oversight",
+          "count": 45,
+          "docs": 31
+        },
+        {
+          "rank": 60,
+          "text": "property jee copying house",
+          "count": 38,
+          "docs": 29
+        }
+      ]
+    },
+    {
+      "kind": "ngram",
+      "n": 4,
+      "page": 4,
+      "title": "Top 4-grams (page 4)",
+      "rows": [
+        {
+          "rank": 61,
+          "text": "jee copying house oversight",
+          "count": 38,
+          "docs": 29
+        },
+        {
+          "rank": 62,
+          "text": "jeanne jeanne christensen partner",
+          "count": 80,
+          "docs": 28
+        },
+        {
+          "rank": 63,
+          "text": "fifth avenue new 10003",
+          "count": 74,
+          "docs": 28
+        },
+        {
+          "rank": 64,
+          "text": "85 fifth avenue new",
+          "count": 72,
+          "docs": 28
+        },
+        {
+          "rank": 65,
+          "text": "united states southern district",
+          "count": 46,
+          "docs": 26
+        },
+        {
+          "rank": 66,
+          "text": "consider environment printing contain",
+          "count": 74,
+          "docs": 25
+        },
+        {
+          "rank": 67,
+          "text": "environment printing contain work",
+          "count": 74,
+          "docs": 25
+        },
+        {
+          "rank": 68,
+          "text": "printing contain work product",
+          "count": 74,
+          "docs": 25
+        },
+        {
+          "rank": 69,
+          "text": "sender jeeitunes gmail com",
+          "count": 637,
+          "docs": 23
+        },
+        {
+          "rank": 70,
+          "text": "jeeitunes gmail com time",
+          "count": 619,
+          "docs": 23
+        },
+        {
+          "rank": 71,
+          "text": "read yes invitation guid",
+          "count": 480,
+          "docs": 23
+        },
+        {
+          "rank": 72,
+          "text": "flags 1060865 read yes",
+          "count": 427,
+          "docs": 23
+        },
+        {
+          "rank": 73,
+          "text": "1060865 read yes invitation",
+          "count": 413,
+          "docs": 23
+        },
+        {
+          "rank": 74,
+          "text": "kindly sender reply phone",
+          "count": 84,
+          "docs": 23
+        },
+        {
+          "rank": 75,
+          "text": "jeevacation gmail com house",
+          "count": 27,
+          "docs": 23
+        },
+        {
+          "rank": 76,
+          "text": "com jeevacation gmail com",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 77,
+          "text": "macintosh hd root users",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 78,
+          "text": "hd root users jee",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 79,
+          "text": "root users jee library",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 80,
+          "text": "users jee library messages",
+          "count": 23,
+          "docs": 23
+        }
+      ]
+    },
+    {
+      "kind": "ngram",
+      "n": 4,
+      "page": 5,
+      "title": "Top 4-grams (page 5)",
+      "rows": [
+        {
+          "rank": 81,
+          "text": "jee library messages archive",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 82,
+          "text": "ichat imessage start time",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 83,
+          "text": "chat room participants jee",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 84,
+          "text": "presentity ids jeeitunes gmail",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 85,
+          "text": "ids jeeitunes gmail com",
+          "count": 23,
+          "docs": 23
+        },
+        {
+          "rank": 86,
+          "text": "html note constitute inside",
+          "count": 28,
+          "docs": 22
+        },
+        {
+          "rank": 87,
+          "text": "former president bill clinton",
+          "count": 22,
+          "docs": 22
+        },
+        {
+          "rank": 88,
+          "text": "flags 1085445 read invitation",
+          "count": 513,
+          "docs": 21
+        },
+        {
+          "rank": 89,
+          "text": "1085445 read invitation guid",
+          "count": 501,
+          "docs": 21
+        },
+        {
+          "rank": 90,
+          "text": "states southern district new",
+          "count": 36,
+          "docs": 21
+        },
+        {
+          "rank": 91,
+          "text": "jeeitunes gmail com messages",
+          "count": 21,
+          "docs": 21
+        },
+        {
+          "rank": 92,
+          "text": "gmail com messages sender",
+          "count": 21,
+          "docs": 21
+        },
+        {
+          "rank": 93,
+          "text": "17 18 19 20",
+          "count": 50,
+          "docs": 20
+        },
+        {
+          "rank": 94,
+          "text": "575 lexington avenue 4th",
+          "count": 37,
+          "docs": 20
+        },
+        {
+          "rank": 95,
+          "text": "avenue 4th floor new",
+          "count": 36,
+          "docs": 20
+        },
+        {
+          "rank": 96,
+          "text": "west palm beach fl",
+          "count": 74,
+          "docs": 19
+        },
+        {
+          "rank": 97,
+          "text": "new 10003 wigdorlaw com",
+          "count": 66,
+          "docs": 19
+        },
+        {
+          "rank": 98,
+          "text": "19 20 21 22",
+          "count": 52,
+          "docs": 19
+        },
+        {
+          "rank": 99,
+          "text": "18 19 20 21",
+          "count": 51,
+          "docs": 19
+        },
+        {
+          "rank": 100,
+          "text": "20 21 22 23",
+          "count": 50,
+          "docs": 19
+        }
+      ]
+    }
+  ]
+}
