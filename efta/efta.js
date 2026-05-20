@@ -12,6 +12,13 @@ const state = {
 const KIND_LABEL = {
     names_top20: 'names',
     label_top: 'label',
+    email_top: 'emails',
+    press_recreate: 'press recreate',
+    codeword_top: 'code language',
+    doc_dates_year: 'doc dates',
+    mention_dates_year: 'mention dates',
+    cooccur_pairs: 'co-occurrence',
+    tfidf: 'tf-idf',
     ngram: 'n-gram',
 };
 
@@ -82,10 +89,41 @@ function renderPage() {
 
     let html = '';
     html += `<h2>${escapeHTML(page.title)}</h2>`;
-    html += `<p class="page-sub">${escapeHTML(subParts.join(' · '))}</p>`;
+    if (page.subtitle) {
+        html += `<p class="page-sub">${escapeHTML(subParts.join(' · '))} — ${escapeHTML(page.subtitle)}</p>`;
+    } else {
+        html += `<p class="page-sub">${escapeHTML(subParts.join(' · '))}</p>`;
+    }
+
+    // Bar-histogram render for date pages
+    if (page.kind === 'doc_dates_year' || page.kind === 'mention_dates_year') {
+        const maxBar = Math.max(1, ...page.rows.map(r => r.count));
+        html += '<div class="histo">';
+        for (const r of page.rows) {
+            const pct = Math.max(2, Math.round(100 * r.count / maxBar));
+            html += `<div class="histo-row">`
+              + `<span class="histo-label">${escapeHTML(r.text)}</span>`
+              + `<span class="histo-bar"><span class="histo-fill" style="width:${pct}%"></span></span>`
+              + `<span class="histo-count">${r.count}</span>`
+              + `</div>`;
+        }
+        html += '</div>';
+        root.innerHTML = html;
+        renderTOC();
+        renderPagerLabels();
+        history.replaceState(null, '', `#p=${state.pageIdx + 1}`);
+        return;
+    }
+
+    // Default table render
+    const showDatasets = !['ngram','tfidf','doc_dates_year','mention_dates_year'].includes(page.kind);
+    const showNote = ['press_recreate','codeword_top'].includes(page.kind);
+    const showPeakDoc = page.kind === 'tfidf';
     html += '<table class="efta-table"><thead><tr>';
     html += '<th>#</th><th>text</th><th>count</th><th>docs</th>';
-    if (page.kind !== 'ngram') html += '<th>datasets</th>';
+    if (showDatasets) html += '<th>datasets</th>';
+    if (showPeakDoc)  html += '<th>peak doc</th>';
+    if (showNote)     html += '<th>source</th>';
     html += '</tr></thead><tbody>';
     for (const r of page.rows || []) {
         html += '<tr>';
@@ -93,9 +131,9 @@ function renderPage() {
         html += `<td class="text-cell">${escapeHTML(r.text)}</td>`;
         html += `<td class="count-cell">${r.count}</td>`;
         html += `<td class="docs-cell">${r.docs ?? ''}</td>`;
-        if (page.kind !== 'ngram') {
-            html += `<td class="datasets-cell">${escapeHTML(fmtDatasets(r.datasets))}</td>`;
-        }
+        if (showDatasets) html += `<td class="datasets-cell">${escapeHTML(fmtDatasets(r.datasets))}</td>`;
+        if (showPeakDoc)  html += `<td class="datasets-cell">${escapeHTML(r.peak_doc || '')}</td>`;
+        if (showNote)     html += `<td class="datasets-cell">${escapeHTML(r.note || '')}</td>`;
         html += '</tr>';
     }
     html += '</tbody></table>';

@@ -229,6 +229,42 @@
     padding: 4rem 1rem;
 }
 
+/* Histogram render for date pages */
+.histo {
+    display: grid;
+    gap: 0.35rem;
+    margin-top: 1rem;
+}
+.histo-row {
+    display: grid;
+    grid-template-columns: 4.5rem 1fr 3.5rem;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+}
+.histo-label {
+    color: var(--ink-soft);
+    text-align: right;
+}
+.histo-bar {
+    background: var(--placeholder-bg);
+    border: 1px solid var(--ink);
+    border-radius: 2px;
+    height: 1.1rem;
+    overflow: hidden;
+    position: relative;
+}
+.histo-fill {
+    display: block;
+    background: var(--accent);
+    height: 100%;
+}
+.histo-count {
+    font-weight: 500;
+    color: var(--ink);
+}
+
 @media (max-width: 640px) {
     .efta-page { padding: 1.25rem 1rem; }
     .efta-table .datasets-cell { display: none; }
