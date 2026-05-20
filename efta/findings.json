@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T23:47:03.790591+00:00",
+  "generated_at": "2026-05-20T23:51:09.637107+00:00",
   "corpus": {
     "n_documents": 309,
     "n_entity_hits": 10432,
@@ -753,8 +753,8 @@
         {
           "rank": 1,
           "text": "Maxwell",
-          "count": 2113,
-          "docs": 93,
+          "count": 16593,
+          "docs": 2344,
           "datasets": {
             "dataset_12": 625,
             "dataset_6": 771,
@@ -762,7 +762,8 @@
             "dataset_3": 15,
             "dataset_4": 51,
             "emails": 422,
-            "estate": 226
+            "estate": 226,
+            "dataset_8": 14480
           },
           "sample_doc_ids": [
             "EFTA02731501",
@@ -775,12 +776,36 @@
         },
         {
           "rank": 2,
+          "text": "Andrew",
+          "count": 2524,
+          "docs": 1376,
+          "datasets": {
+            "dataset_12": 26,
+            "dataset_11": 1,
+            "dataset_7": 5,
+            "dataset_4": 10,
+            "emails": 24,
+            "estate": 165,
+            "dataset_8": 2293
+          },
+          "sample_doc_ids": [
+            "EFTA02730267",
+            "EFTA02731684",
+            "EFTA02731689",
+            "EFTA02731715",
+            "EFTA02731737"
+          ],
+          "note": "Prince Andrew / 'A' / 'Invisible Man'"
+        },
+        {
+          "rank": 3,
           "text": "Trump",
-          "count": 1066,
-          "docs": 313,
+          "count": 1818,
+          "docs": 449,
           "datasets": {
             "dataset_12": 1,
-            "estate": 1065
+            "estate": 1065,
+            "dataset_8": 752
           },
           "sample_doc_ids": [
             "EFTA02731433",
@@ -792,17 +817,18 @@
           "note": "Oversight Dems: 'easily more than a thousand' mentions across Nov-2025 batch"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "text": "Clinton",
-          "count": 932,
-          "docs": 199,
+          "count": 1056,
+          "docs": 257,
           "datasets": {
             "dataset_12": 3,
             "dataset_7": 1,
             "dataset_3": 451,
             "dataset_4": 1,
             "emails": 2,
-            "estate": 474
+            "estate": 474,
+            "dataset_8": 124
           },
           "sample_doc_ids": [
             "EFTA00004577",
@@ -814,15 +840,16 @@
           "note": "Bill Clinton; First Fifty Years + Dec 2025 photo batch"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "text": "Leon Black",
-          "count": 654,
-          "docs": 79,
+          "count": 723,
+          "docs": 99,
           "datasets": {
             "dataset_12": 322,
             "dataset_11": 1,
             "emails": 311,
-            "estate": 20
+            "estate": 20,
+            "dataset_8": 69
           },
           "sample_doc_ids": [
             "EFTA02731552",
@@ -834,7 +861,28 @@
           "note": "Apollo Global; 'Mr. Big' per Puck"
         },
         {
-          "rank": 5,
+          "rank": 6,
+          "text": "Acosta",
+          "count": 661,
+          "docs": 161,
+          "datasets": {
+            "dataset_12": 1,
+            "dataset_7": 20,
+            "dataset_4": 2,
+            "estate": 163,
+            "dataset_8": 475
+          },
+          "sample_doc_ids": [
+            "EFTA00009016",
+            "EFTA00009116",
+            "EFTA00009229",
+            "EFTA00009329",
+            "EFTA02731039"
+          ],
+          "note": "Alexander Acosta, AUSA who gave the 2007 NPA"
+        },
+        {
+          "rank": 7,
           "text": "301-261-1902",
           "count": 390,
           "docs": 8,
@@ -853,7 +901,7 @@
           "note": "Recurring number in our corpus — MD area code"
         },
         {
-          "rank": 6,
+          "rank": 8,
           "text": "410-974-0947",
           "count": 383,
           "docs": 8,
@@ -872,52 +920,76 @@
           "note": "Same — Baltimore area"
         },
         {
-          "rank": 7,
-          "text": "Centurion",
-          "count": 234,
-          "docs": 18,
-          "datasets": {
-            "dataset_11": 117,
-            "emails": 117
-          },
-          "sample_doc_ids": [
-            "EFTA02205655",
-            "EFTA02205827",
-            "EFTA02212929",
-            "EFTA02212932",
-            "EFTA02212966"
-          ],
-          "note": "AmEx black-card concierge service (CBS, Bloomberg)"
-        },
-        {
-          "rank": 8,
-          "text": "Andrew",
-          "count": 231,
-          "docs": 104,
-          "datasets": {
-            "dataset_12": 26,
-            "dataset_11": 1,
-            "dataset_7": 5,
-            "dataset_4": 10,
-            "emails": 24,
-            "estate": 165
-          },
-          "sample_doc_ids": [
-            "EFTA02730267",
-            "EFTA02731684",
-            "EFTA02731689",
-            "EFTA02731715",
-            "EFTA02731737"
-          ],
-          "note": "Prince Andrew / 'A' / 'Invisible Man'"
-        },
-        {
           "rank": 9,
-          "text": "Bannon",
-          "count": 226,
-          "docs": 65,
+          "text": "Indyke",
+          "count": 346,
+          "docs": 93,
           "datasets": {
-            "estate": 226
+            "dataset_12": 3,
+            "dataset_11": 4,
+            "emails": 6,
+            "estate": 117,
+            "dataset_8": 216
+          },
+          "sample_doc_ids": [
+            "EFTA02213040",
+            "EFTA02731082",
+            "EFTA02731200",
+            "HOUSE_OVERSIGHT_019467",
+            "HOUSE_OVERSIGHT_031751"
+          ],
+          "note": "Darren Indyke, estate co-executor (Bloomberg)"
+        },
+        {
+          "rank": 10,
+          "text": "Dershowitz",
+          "count": 271,
+          "docs": 72,
+          "datasets": {
+            "dataset_12": 4,
+            "dataset_7": 6,
+            "dataset_4": 12,
+            "emails": 4,
+            "estate": 110,
+            "dataset_8": 135
+          },
+          "sample_doc_ids": [
+            "EFTA00007157",
+            "EFTA00009116",
+            "EFTA00009329",
+            "EFTA02731082",
+            "HOUSE_OVERSIGHT_029398"
+          ],
+          "note": "Alan Dershowitz; First Fifty Years contributor"
+        },
+        {
+          "rank": 11,
+          "text": "358 El Brillo",
+          "count": 257,
+          "docs": 34,
+          "datasets": {
+            "dataset_6": 7,
+            "dataset_7": 1,
+            "dataset_4": 80,
+            "dataset_8": 169
+          },
+          "sample_doc_ids": [
+            "EFTA00008599",
+            "EFTA00008631",
+            "EFTA00008716",
+            "EFTA00008744",
+            "EFTA00008920"
+          ],
+          "note": "Palm Beach mansion address (DS4 police reports)"
+        },
+        {
+          "rank": 12,
+          "text": "Bannon",
+          "count": 251,
+          "docs": 81,
+          "datasets": {
+            "estate": 226,
+            "dataset_8": 25
           },
           "sample_doc_ids": [
             "HOUSE_OVERSIGHT_026304",
@@ -929,7 +1001,26 @@
           "note": "Steve Bannon; 'europe by remote doesn't work' 2018 thread"
         },
         {
-          "rank": 10,
+          "rank": 13,
+          "text": "Centurion",
+          "count": 235,
+          "docs": 19,
+          "datasets": {
+            "dataset_11": 117,
+            "emails": 117,
+            "dataset_8": 1
+          },
+          "sample_doc_ids": [
+            "EFTA02205655",
+            "EFTA02205827",
+            "EFTA02212929",
+            "EFTA02212932",
+            "EFTA02212966"
+          ],
+          "note": "AmEx black-card concierge service (CBS, Bloomberg)"
+        },
+        {
+          "rank": 14,
           "text": "Groff",
           "count": 194,
           "docs": 37,
@@ -949,33 +1040,35 @@
           "note": "Lesley Groff, Epstein exec asst (Yahoo / DOJ co-conspirator list)"
         },
         {
-          "rank": 11,
-          "text": "Acosta",
-          "count": 186,
-          "docs": 27,
+          "rank": 15,
+          "text": "Wexner",
+          "count": 188,
+          "docs": 33,
           "datasets": {
-            "dataset_12": 1,
-            "dataset_7": 20,
-            "dataset_4": 2,
-            "estate": 163
+            "dataset_12": 51,
+            "dataset_4": 1,
+            "emails": 50,
+            "estate": 24,
+            "dataset_8": 62
           },
           "sample_doc_ids": [
-            "EFTA00009016",
-            "EFTA00009116",
-            "EFTA00009229",
-            "EFTA00009329",
-            "EFTA02731039"
+            "EFTA00007157",
+            "EFTA02731039",
+            "EFTA02731069",
+            "EFTA02731082",
+            "HOUSE_OVERSIGHT_022219"
           ],
-          "note": "Alexander Acosta, AUSA who gave the 2007 NPA"
+          "note": "Les Wexner; 2019 FBI co-conspirator list (NPR Feb 3 2026)"
         },
         {
-          "rank": 12,
+          "rank": 16,
           "text": "Krauss",
-          "count": 179,
-          "docs": 13,
+          "count": 182,
+          "docs": 16,
           "datasets": {
             "dataset_12": 1,
-            "estate": 178
+            "estate": 178,
+            "dataset_8": 3
           },
           "sample_doc_ids": [
             "EFTA02731465",
@@ -987,7 +1080,7 @@
           "note": "Lawrence Krauss, sent Epstein draft of BuzzFeed harassment response"
         },
         {
-          "rank": 13,
+          "rank": 17,
           "text": "Ruemmler",
           "count": 169,
           "docs": 42,
@@ -1006,55 +1099,36 @@
           "note": "Kathryn Ruemmler, Goldman CLO; 'I know how dirty donald is' recipient (CNBC, Nov 12 2025)"
         },
         {
-          "rank": 14,
-          "text": "Dershowitz",
-          "count": 136,
-          "docs": 34,
-          "datasets": {
-            "dataset_12": 4,
-            "dataset_7": 6,
-            "dataset_4": 12,
-            "emails": 4,
-            "estate": 110
-          },
-          "sample_doc_ids": [
-            "EFTA00007157",
-            "EFTA00009116",
-            "EFTA00009329",
-            "EFTA02731082",
-            "HOUSE_OVERSIGHT_029398"
-          ],
-          "note": "Alan Dershowitz; First Fifty Years contributor"
-        },
-        {
-          "rank": 15,
-          "text": "Indyke",
-          "count": 130,
+          "rank": 18,
+          "text": "Brunel",
+          "count": 139,
           "docs": 27,
           "datasets": {
-            "dataset_12": 3,
-            "dataset_11": 4,
-            "emails": 6,
-            "estate": 117
+            "dataset_12": 25,
+            "dataset_3": 1,
+            "emails": 24,
+            "estate": 17,
+            "dataset_8": 72
           },
           "sample_doc_ids": [
-            "EFTA02213040",
+            "EFTA00004477",
             "EFTA02731082",
-            "EFTA02731200",
-            "HOUSE_OVERSIGHT_019467",
-            "HOUSE_OVERSIGHT_031751"
+            "EFTA02731361",
+            "EFTA02731662",
+            "EFTA02731737"
           ],
-          "note": "Darren Indyke, estate co-executor (Bloomberg)"
+          "note": "Jean-Luc Brunel; 2019 FBI co-conspirator list"
         },
         {
-          "rank": 16,
+          "rank": 19,
           "text": "Summers",
-          "count": 128,
-          "docs": 36,
+          "count": 129,
+          "docs": 37,
           "datasets": {
             "dataset_12": 2,
             "emails": 1,
-            "estate": 125
+            "estate": 125,
+            "dataset_8": 1
           },
           "sample_doc_ids": [
             "EFTA02731420",
@@ -1066,73 +1140,16 @@
           "note": "Larry Summers; stepped back from Harvard / OpenAI after release"
         },
         {
-          "rank": 17,
-          "text": "Wexner",
-          "count": 126,
-          "docs": 25,
-          "datasets": {
-            "dataset_12": 51,
-            "dataset_4": 1,
-            "emails": 50,
-            "estate": 24
-          },
-          "sample_doc_ids": [
-            "EFTA00007157",
-            "EFTA02731039",
-            "EFTA02731069",
-            "EFTA02731082",
-            "HOUSE_OVERSIGHT_022219"
-          ],
-          "note": "Les Wexner; 2019 FBI co-conspirator list (NPR Feb 3 2026)"
-        },
-        {
-          "rank": 18,
-          "text": "358 El Brillo",
-          "count": 88,
-          "docs": 20,
-          "datasets": {
-            "dataset_6": 7,
-            "dataset_7": 1,
-            "dataset_4": 80
-          },
-          "sample_doc_ids": [
-            "EFTA00008599",
-            "EFTA00008631",
-            "EFTA00008716",
-            "EFTA00008744",
-            "EFTA00008920"
-          ],
-          "note": "Palm Beach mansion address (DS4 police reports)"
-        },
-        {
-          "rank": 19,
-          "text": "Wolff",
-          "count": 80,
-          "docs": 37,
-          "datasets": {
-            "dataset_11": 2,
-            "emails": 3,
-            "estate": 75
-          },
-          "sample_doc_ids": [
-            "EFTA02212946",
-            "HOUSE_OVERSIGHT_022835",
-            "HOUSE_OVERSIGHT_025100",
-            "HOUSE_OVERSIGHT_029271",
-            "HOUSE_OVERSIGHT_030873"
-          ],
-          "note": "Michael Wolff, journalist; 'let him hang himself' / 'knew about the girls' threads (CBS Nov 12)"
-        },
-        {
           "rank": 20,
           "text": "Kahn",
-          "count": 72,
-          "docs": 24,
+          "count": 128,
+          "docs": 42,
           "datasets": {
             "dataset_12": 2,
             "dataset_11": 18,
             "emails": 20,
-            "estate": 32
+            "estate": 32,
+            "dataset_8": 56
           },
           "sample_doc_ids": [
             "EFTA02212937",
@@ -1153,15 +1170,16 @@
         {
           "rank": 1,
           "text": "massage",
-          "count": 4449,
-          "docs": 79,
+          "count": 5711,
+          "docs": 353,
           "datasets": {
             "dataset_12": 527,
             "dataset_6": 276,
             "dataset_7": 169,
             "dataset_4": 2961,
             "emails": 409,
-            "estate": 107
+            "estate": 107,
+            "dataset_8": 1262
           },
           "sample_doc_ids": [
             "EFTA02730996",
@@ -1175,8 +1193,8 @@
         {
           "rank": 2,
           "text": "minor",
-          "count": 584,
-          "docs": 83,
+          "count": 5564,
+          "docs": 649,
           "datasets": {
             "dataset_12": 120,
             "dataset_11": 2,
@@ -1184,7 +1202,8 @@
             "dataset_7": 37,
             "dataset_4": 13,
             "emails": 76,
-            "estate": 97
+            "estate": 97,
+            "dataset_8": 4980
           },
           "sample_doc_ids": [
             "EFTA02731018",
@@ -1198,15 +1217,16 @@
         {
           "rank": 3,
           "text": "GM",
-          "count": 484,
-          "docs": 30,
+          "count": 2573,
+          "docs": 502,
           "datasets": {
             "dataset_12": 16,
             "dataset_6": 430,
             "dataset_3": 18,
             "dataset_4": 5,
             "emails": 10,
-            "estate": 5
+            "estate": 5,
+            "dataset_8": 2089
           },
           "sample_doc_ids": [
             "EFTA02731168",
@@ -1219,32 +1239,9 @@
         },
         {
           "rank": 4,
-          "text": "JE",
-          "count": 337,
-          "docs": 47,
-          "datasets": {
-            "dataset_12": 82,
-            "dataset_11": 7,
-            "dataset_6": 11,
-            "dataset_3": 117,
-            "dataset_4": 23,
-            "emails": 83,
-            "estate": 14
-          },
-          "sample_doc_ids": [
-            "EFTA02731260",
-            "EFTA02731490",
-            "EFTA02731501",
-            "EFTA02731512",
-            "EFTA02731737"
-          ],
-          "note": "Jeffrey Epstein"
-        },
-        {
-          "rank": 5,
           "text": "model",
-          "count": 257,
-          "docs": 72,
+          "count": 1721,
+          "docs": 197,
           "datasets": {
             "dataset_12": 51,
             "dataset_6": 9,
@@ -1252,7 +1249,8 @@
             "dataset_3": 10,
             "dataset_4": 57,
             "emails": 29,
-            "estate": 99
+            "estate": 99,
+            "dataset_8": 1464
           },
           "sample_doc_ids": [
             "EFTA02731200",
@@ -1264,61 +1262,60 @@
           "note": "Recruitment cover (Brunel/MC2 context)"
         },
         {
-          "rank": 6,
-          "text": "appointment",
-          "count": 238,
-          "docs": 48,
+          "rank": 5,
+          "text": "JE",
+          "count": 997,
+          "docs": 336,
           "datasets": {
-            "dataset_12": 39,
-            "dataset_11": 22,
-            "dataset_6": 14,
-            "dataset_7": 44,
-            "dataset_4": 44,
-            "emails": 47,
-            "estate": 28
+            "dataset_12": 82,
+            "dataset_11": 7,
+            "dataset_6": 11,
+            "dataset_3": 117,
+            "dataset_4": 23,
+            "emails": 83,
+            "estate": 14,
+            "dataset_8": 660
           },
           "sample_doc_ids": [
-            "EFTA02730477",
-            "EFTA02730996",
-            "EFTA02731039",
-            "EFTA02731082",
-            "EFTA02731200"
+            "EFTA02731260",
+            "EFTA02731490",
+            "EFTA02731501",
+            "EFTA02731512",
+            "EFTA02731737"
           ],
-          "note": "Groff/Kellen scheduled 'massage appointments'"
+          "note": "Jeffrey Epstein"
+        },
+        {
+          "rank": 6,
+          "text": "interlochen",
+          "count": 793,
+          "docs": 53,
+          "datasets": {
+            "dataset_6": 47,
+            "dataset_8": 746
+          },
+          "sample_doc_ids": [
+            "EFTA00008631",
+            "EFTA00008716",
+            "EFTA00008744",
+            "EFTA00008892",
+            "EFTA00008920"
+          ],
+          "note": "Camp name from Jane Doe testimony"
         },
         {
           "rank": 7,
-          "text": "spa",
-          "count": 205,
-          "docs": 7,
-          "datasets": {
-            "dataset_12": 1,
-            "dataset_3": 3,
-            "dataset_4": 199,
-            "emails": 1,
-            "estate": 1
-          },
-          "sample_doc_ids": [
-            "EFTA00004070",
-            "EFTA00008020",
-            "EFTA00008120",
-            "EFTA00008220",
-            "EFTA02731260"
-          ],
-          "note": "Recruitment venue (Mar-a-Lago spa)"
-        },
-        {
-          "rank": 8,
           "text": "underage",
-          "count": 173,
-          "docs": 61,
+          "count": 627,
+          "docs": 251,
           "datasets": {
             "dataset_12": 22,
             "dataset_6": 17,
             "dataset_7": 23,
             "dataset_4": 4,
             "emails": 10,
-            "estate": 97
+            "estate": 97,
+            "dataset_8": 454
           },
           "sample_doc_ids": [
             "EFTA02730996",
@@ -1330,129 +1327,74 @@
           "note": ""
         },
         {
-          "rank": 9,
-          "text": "high school",
-          "count": 149,
-          "docs": 38,
+          "rank": 8,
+          "text": "appointment",
+          "count": 619,
+          "docs": 265,
           "datasets": {
-            "dataset_12": 33,
-            "dataset_6": 20,
-            "dataset_7": 10,
-            "dataset_4": 9,
-            "emails": 24,
-            "estate": 53
+            "dataset_12": 39,
+            "dataset_11": 22,
+            "dataset_6": 14,
+            "dataset_7": 44,
+            "dataset_4": 44,
+            "emails": 47,
+            "estate": 28,
+            "dataset_8": 381
+          },
+          "sample_doc_ids": [
+            "EFTA02730477",
+            "EFTA02730996",
+            "EFTA02731039",
+            "EFTA02731082",
+            "EFTA02731200"
+          ],
+          "note": "Groff/Kellen scheduled 'massage appointments'"
+        },
+        {
+          "rank": 9,
+          "text": "co-conspirator",
+          "count": 525,
+          "docs": 211,
+          "datasets": {
+            "dataset_12": 4,
+            "emails": 1,
+            "estate": 22,
+            "dataset_8": 498
           },
           "sample_doc_ids": [
             "EFTA02731039",
             "EFTA02731082",
-            "EFTA02731168",
-            "EFTA02731200",
-            "EFTA02731488"
+            "HOUSE_OVERSIGHT_021749",
+            "HOUSE_OVERSIGHT_027096",
+            "HOUSE_OVERSIGHT_030200"
           ],
           "note": ""
         },
         {
           "rank": 10,
-          "text": "LSJ",
-          "count": 144,
-          "docs": 15,
+          "text": "discretion",
+          "count": 490,
+          "docs": 145,
           "datasets": {
-            "dataset_12": 4,
-            "dataset_11": 2,
-            "dataset_3": 135,
-            "emails": 1,
-            "estate": 2
+            "dataset_7": 26,
+            "dataset_4": 1,
+            "estate": 29,
+            "dataset_8": 434
           },
           "sample_doc_ids": [
-            "EFTA00004663",
-            "EFTA00005091",
-            "EFTA02212971",
-            "EFTA02213042",
-            "EFTA02730486"
+            "EFTA00009016",
+            "EFTA00009116",
+            "EFTA00009229",
+            "EFTA00009329",
+            "EFTA00009654"
           ],
-          "note": "Little Saint James"
+          "note": ""
         },
         {
           "rank": 11,
-          "text": "masseuse",
-          "count": 107,
-          "docs": 18,
-          "datasets": {
-            "dataset_12": 40,
-            "dataset_7": 2,
-            "dataset_4": 17,
-            "emails": 36,
-            "estate": 12
-          },
-          "sample_doc_ids": [
-            "EFTA00007157",
-            "EFTA00009632",
-            "EFTA02731082",
-            "EFTA02731168",
-            "EFTA02731200"
-          ],
-          "note": "Black-book index heading"
-        },
-        {
-          "rank": 12,
-          "text": "El Brillo",
-          "count": 103,
-          "docs": 22,
-          "datasets": {
-            "dataset_6": 10,
-            "dataset_7": 3,
-            "dataset_4": 86,
-            "estate": 4
-          },
-          "sample_doc_ids": [
-            "EFTA00008599",
-            "EFTA00008631",
-            "EFTA00008716",
-            "EFTA00008744",
-            "EFTA00008920"
-          ],
-          "note": "Palm Beach residence street"
-        },
-        {
-          "rank": 13,
-          "text": "Zorro",
-          "count": 91,
-          "docs": 14,
-          "datasets": {
-            "dataset_12": 2,
-            "dataset_6": 5,
-            "dataset_3": 81,
-            "dataset_4": 3
-          },
-          "sample_doc_ids": [
-            "EFTA00008631",
-            "EFTA00008716",
-            "EFTA00008744",
-            "EFTA00008920",
-            "EFTA02730486"
-          ],
-          "note": "Zorro Ranch NM"
-        },
-        {
-          "rank": 14,
-          "text": " TEB ",
-          "count": 80,
-          "docs": 2,
-          "datasets": {
-            "dataset_6": 1,
-            "dataset_4": 79
-          },
-          "sample_doc_ids": [
-            "EFTA00005994",
-            "EFTA00008716"
-          ],
-          "note": "TEB shorthand"
-        },
-        {
-          "rank": 15,
           "text": "AR",
-          "count": 76,
-          "docs": 40,
+          "count": 456,
+          "docs": 217,
           "datasets": {
             "dataset_12": 19,
             "dataset_11": 2,
@@ -1461,7 +1403,8 @@
             "dataset_3": 7,
             "dataset_4": 27,
             "emails": 11,
-            "estate": 4
+            "estate": 4,
+            "dataset_8": 380
           },
           "sample_doc_ids": [
             "EFTA02731168",
@@ -1473,40 +1416,39 @@
           "note": "Adriana Ross — 2008 NPA unindicted co-conspirator"
         },
         {
-          "rank": 16,
-          "text": "DI",
-          "count": 70,
-          "docs": 35,
+          "rank": 12,
+          "text": "RK",
+          "count": 411,
+          "docs": 31,
           "datasets": {
-            "dataset_12": 18,
-            "dataset_11": 2,
-            "dataset_6": 2,
+            "dataset_12": 2,
             "dataset_3": 1,
-            "dataset_4": 35,
-            "emails": 7,
-            "estate": 5
+            "dataset_4": 8,
+            "emails": 1,
+            "dataset_8": 399
           },
           "sample_doc_ids": [
-            "EFTA02730486",
-            "EFTA02731023",
-            "EFTA02731260",
-            "EFTA02731341",
-            "EFTA02731361"
+            "EFTA00003933",
+            "EFTA00006587",
+            "EFTA00006687",
+            "EFTA00007097",
+            "EFTA02731260"
           ],
-          "note": "Darren Indyke, attorney — same list"
+          "note": "Richard Kahn, accountant — same list"
         },
         {
-          "rank": 17,
+          "rank": 13,
           "text": "the Island",
-          "count": 67,
-          "docs": 40,
+          "count": 314,
+          "docs": 124,
           "datasets": {
             "dataset_12": 5,
             "dataset_11": 3,
             "dataset_7": 3,
             "dataset_4": 4,
             "emails": 6,
-            "estate": 46
+            "estate": 46,
+            "dataset_8": 247
           },
           "sample_doc_ids": [
             "EFTA02213009",
@@ -1518,57 +1460,161 @@
           "note": "LSJ"
         },
         {
-          "rank": 18,
-          "text": "TIST",
-          "count": 62,
-          "docs": 1,
+          "rank": 14,
+          "text": "El Brillo",
+          "count": 279,
+          "docs": 40,
           "datasets": {
-            "dataset_4": 62
+            "dataset_6": 10,
+            "dataset_7": 3,
+            "dataset_4": 86,
+            "estate": 4,
+            "dataset_8": 176
           },
           "sample_doc_ids": [
-            "EFTA00005994"
+            "EFTA00008599",
+            "EFTA00008631",
+            "EFTA00008716",
+            "EFTA00008744",
+            "EFTA00008920"
           ],
-          "note": "ICAO: Cyril E. King, St Thomas USVI — LSJ gateway"
+          "note": "Palm Beach residence street"
         },
         {
-          "rank": 19,
-          "text": "tea",
-          "count": 59,
-          "docs": 23,
+          "rank": 15,
+          "text": "NM",
+          "count": 237,
+          "docs": 108,
           "datasets": {
-            "dataset_12": 7,
-            "dataset_11": 1,
-            "dataset_6": 23,
-            "dataset_3": 1,
-            "dataset_4": 18,
-            "emails": 5,
-            "estate": 4
+            "dataset_12": 6,
+            "dataset_6": 2,
+            "dataset_7": 5,
+            "dataset_3": 5,
+            "dataset_4": 19,
+            "emails": 4,
+            "estate": 3,
+            "dataset_8": 193
+          },
+          "sample_doc_ids": [
+            "EFTA00008716",
+            "EFTA00008892",
+            "EFTA02731260",
+            "EFTA02731361",
+            "EFTA02731528"
+          ],
+          "note": "Nadia Marcinkova — 2008 NPA unindicted co-conspirator"
+        },
+        {
+          "rank": 16,
+          "text": "spa",
+          "count": 232,
+          "docs": 22,
+          "datasets": {
+            "dataset_12": 1,
+            "dataset_3": 3,
+            "dataset_4": 199,
+            "emails": 1,
+            "estate": 1,
+            "dataset_8": 27
+          },
+          "sample_doc_ids": [
+            "EFTA00004070",
+            "EFTA00008020",
+            "EFTA00008120",
+            "EFTA00008220",
+            "EFTA02731260"
+          ],
+          "note": "Recruitment venue (Mar-a-Lago spa)"
+        },
+        {
+          "rank": 17,
+          "text": "young girl",
+          "count": 208,
+          "docs": 153,
+          "datasets": {
+            "dataset_12": 11,
+            "dataset_6": 4,
+            "dataset_7": 2,
+            "dataset_4": 1,
+            "emails": 6,
+            "estate": 23,
+            "dataset_8": 161
           },
           "sample_doc_ids": [
             "EFTA00008631",
-            "EFTA02212883",
+            "EFTA02730486",
+            "EFTA02731039",
             "EFTA02731082",
-            "EFTA02731168",
-            "EFTA02731260"
+            "EFTA02731361"
           ],
-          "note": "Recurring social-invite token (CNN, Couric/Epstein 2010 emails)"
+          "note": ""
+        },
+        {
+          "rank": 18,
+          "text": "DI",
+          "count": 193,
+          "docs": 109,
+          "datasets": {
+            "dataset_12": 18,
+            "dataset_11": 2,
+            "dataset_6": 2,
+            "dataset_3": 1,
+            "dataset_4": 35,
+            "emails": 7,
+            "estate": 5,
+            "dataset_8": 123
+          },
+          "sample_doc_ids": [
+            "EFTA02730486",
+            "EFTA02731023",
+            "EFTA02731260",
+            "EFTA02731341",
+            "EFTA02731361"
+          ],
+          "note": "Darren Indyke, attorney — same list"
+        },
+        {
+          "rank": 19,
+          "text": "LSJ",
+          "count": 187,
+          "docs": 47,
+          "datasets": {
+            "dataset_12": 4,
+            "dataset_11": 2,
+            "dataset_3": 135,
+            "emails": 1,
+            "estate": 2,
+            "dataset_8": 43
+          },
+          "sample_doc_ids": [
+            "EFTA00004663",
+            "EFTA00005091",
+            "EFTA02212971",
+            "EFTA02213042",
+            "EFTA02730486"
+          ],
+          "note": "Little Saint James"
         },
         {
           "rank": 20,
-          "text": "discretion",
-          "count": 56,
-          "docs": 19,
+          "text": "high school",
+          "count": 186,
+          "docs": 63,
           "datasets": {
-            "dataset_7": 26,
-            "dataset_4": 1,
-            "estate": 29
+            "dataset_12": 33,
+            "dataset_6": 20,
+            "dataset_7": 10,
+            "dataset_4": 9,
+            "emails": 24,
+            "estate": 53,
+            "dataset_8": 37
           },
           "sample_doc_ids": [
-            "EFTA00009016",
-            "EFTA00009116",
-            "EFTA00009229",
-            "EFTA00009329",
-            "EFTA00009654"
+            "EFTA02731039",
+            "EFTA02731082",
+            "EFTA02731168",
+            "EFTA02731200",
+            "EFTA02731488"
           ],
           "note": ""
         }
@@ -1577,7 +1623,7 @@
     {
       "kind": "doc_dates_year",
       "title": "Document dates by year (when each doc was written)",
-      "subtitle": "method breakdown: {'first_body_date': 409, 'none': 169, 'bare_year_fallback': 36, 'sent_header': 522, 'report_date_header': 7}",
+      "subtitle": "method breakdown: {'first_body_date': 8254, 'none': 615, 'bare_year_fallback': 298, 'sent_header': 689, 'report_date_header': 280}",
       "rows": [
         {
           "rank": 1,
@@ -1587,171 +1633,261 @@
         },
         {
           "rank": 2,
-          "text": "1953",
+          "text": "1952",
           "count": 1,
           "bar_pct": 0
         },
         {
           "rank": 3,
+          "text": "1953",
+          "count": 5,
+          "bar_pct": 0
+        },
+        {
+          "rank": 4,
           "text": "1959",
           "count": 1,
           "bar_pct": 0
         },
         {
-          "rank": 4,
-          "text": "1994",
-          "count": 2,
-          "bar_pct": 0
-        },
-        {
           "rank": 5,
-          "text": "1996",
+          "text": "1961",
           "count": 2,
           "bar_pct": 0
         },
         {
           "rank": 6,
-          "text": "1997",
-          "count": 2,
+          "text": "1972",
+          "count": 1,
           "bar_pct": 0
         },
         {
           "rank": 7,
-          "text": "2003",
-          "count": 3,
-          "bar_pct": 1
+          "text": "1989",
+          "count": 1,
+          "bar_pct": 0
         },
         {
           "rank": 8,
-          "text": "2004",
-          "count": 2,
+          "text": "1990",
+          "count": 5,
           "bar_pct": 0
         },
         {
           "rank": 9,
-          "text": "2005",
-          "count": 10,
-          "bar_pct": 3
-        },
-        {
-          "rank": 10,
-          "text": "2006",
-          "count": 11,
-          "bar_pct": 4
-        },
-        {
-          "rank": 11,
-          "text": "2007",
-          "count": 11,
-          "bar_pct": 4
-        },
-        {
-          "rank": 12,
-          "text": "2008",
-          "count": 9,
-          "bar_pct": 3
-        },
-        {
-          "rank": 13,
-          "text": "2009",
-          "count": 14,
-          "bar_pct": 5
-        },
-        {
-          "rank": 14,
-          "text": "2010",
-          "count": 14,
-          "bar_pct": 5
-        },
-        {
-          "rank": 15,
-          "text": "2011",
-          "count": 55,
-          "bar_pct": 20
-        },
-        {
-          "rank": 16,
-          "text": "2012",
-          "count": 20,
-          "bar_pct": 7
-        },
-        {
-          "rank": 17,
-          "text": "2013",
-          "count": 30,
-          "bar_pct": 11
-        },
-        {
-          "rank": 18,
-          "text": "2014",
-          "count": 30,
-          "bar_pct": 11
-        },
-        {
-          "rank": 19,
-          "text": "2015",
-          "count": 56,
-          "bar_pct": 20
-        },
-        {
-          "rank": 20,
-          "text": "2016",
-          "count": 84,
-          "bar_pct": 31
-        },
-        {
-          "rank": 21,
-          "text": "2017",
-          "count": 269,
-          "bar_pct": 100
-        },
-        {
-          "rank": 22,
-          "text": "2018",
-          "count": 106,
-          "bar_pct": 39
-        },
-        {
-          "rank": 23,
-          "text": "2019",
-          "count": 67,
-          "bar_pct": 24
-        },
-        {
-          "rank": 24,
-          "text": "2020",
-          "count": 8,
-          "bar_pct": 2
-        },
-        {
-          "rank": 25,
-          "text": "2021",
-          "count": 50,
-          "bar_pct": 18
-        },
-        {
-          "rank": 26,
-          "text": "2022",
-          "count": 2,
+          "text": "1993",
+          "count": 6,
           "bar_pct": 0
         },
         {
+          "rank": 10,
+          "text": "1994",
+          "count": 11,
+          "bar_pct": 0
+        },
+        {
+          "rank": 11,
+          "text": "1995",
+          "count": 5,
+          "bar_pct": 0
+        },
+        {
+          "rank": 12,
+          "text": "1996",
+          "count": 4,
+          "bar_pct": 0
+        },
+        {
+          "rank": 13,
+          "text": "1997",
+          "count": 7,
+          "bar_pct": 0
+        },
+        {
+          "rank": 14,
+          "text": "1998",
+          "count": 3,
+          "bar_pct": 0
+        },
+        {
+          "rank": 15,
+          "text": "1999",
+          "count": 4,
+          "bar_pct": 0
+        },
+        {
+          "rank": 16,
+          "text": "2000",
+          "count": 12,
+          "bar_pct": 0
+        },
+        {
+          "rank": 17,
+          "text": "2001",
+          "count": 11,
+          "bar_pct": 0
+        },
+        {
+          "rank": 18,
+          "text": "2002",
+          "count": 10,
+          "bar_pct": 0
+        },
+        {
+          "rank": 19,
+          "text": "2003",
+          "count": 14,
+          "bar_pct": 0
+        },
+        {
+          "rank": 20,
+          "text": "2004",
+          "count": 18,
+          "bar_pct": 0
+        },
+        {
+          "rank": 21,
+          "text": "2005",
+          "count": 21,
+          "bar_pct": 0
+        },
+        {
+          "rank": 22,
+          "text": "2006",
+          "count": 36,
+          "bar_pct": 1
+        },
+        {
+          "rank": 23,
+          "text": "2007",
+          "count": 134,
+          "bar_pct": 3
+        },
+        {
+          "rank": 24,
+          "text": "2008",
+          "count": 239,
+          "bar_pct": 6
+        },
+        {
+          "rank": 25,
+          "text": "2009",
+          "count": 76,
+          "bar_pct": 2
+        },
+        {
+          "rank": 26,
+          "text": "2010",
+          "count": 50,
+          "bar_pct": 1
+        },
+        {
           "rank": 27,
-          "text": "2023",
-          "count": 66,
-          "bar_pct": 24
+          "text": "2011",
+          "count": 81,
+          "bar_pct": 2
         },
         {
           "rank": 28,
-          "text": "2024",
-          "count": 42,
-          "bar_pct": 15
+          "text": "2012",
+          "count": 26,
+          "bar_pct": 0
         },
         {
           "rank": 29,
+          "text": "2013",
+          "count": 45,
+          "bar_pct": 1
+        },
+        {
+          "rank": 30,
+          "text": "2014",
+          "count": 49,
+          "bar_pct": 1
+        },
+        {
+          "rank": 31,
+          "text": "2015",
+          "count": 83,
+          "bar_pct": 2
+        },
+        {
+          "rank": 32,
+          "text": "2016",
+          "count": 122,
+          "bar_pct": 3
+        },
+        {
+          "rank": 33,
+          "text": "2017",
+          "count": 286,
+          "bar_pct": 8
+        },
+        {
+          "rank": 34,
+          "text": "2018",
+          "count": 211,
+          "bar_pct": 5
+        },
+        {
+          "rank": 35,
+          "text": "2019",
+          "count": 3542,
+          "bar_pct": 100
+        },
+        {
+          "rank": 36,
+          "text": "2020",
+          "count": 2289,
+          "bar_pct": 64
+        },
+        {
+          "rank": 37,
+          "text": "2021",
+          "count": 1860,
+          "bar_pct": 52
+        },
+        {
+          "rank": 38,
+          "text": "2022",
+          "count": 40,
+          "bar_pct": 1
+        },
+        {
+          "rank": 39,
+          "text": "2023",
+          "count": 100,
+          "bar_pct": 2
+        },
+        {
+          "rank": 40,
+          "text": "2024",
+          "count": 78,
+          "bar_pct": 2
+        },
+        {
+          "rank": 41,
+          "text": "2025",
+          "count": 19,
+          "bar_pct": 0
+        },
+        {
+          "rank": 42,
+          "text": "2026",
+          "count": 1,
+          "bar_pct": 0
+        },
+        {
+          "rank": 43,
           "text": "2029",
           "count": 6,
-          "bar_pct": 2
+          "bar_pct": 0
+        },
+        {
+          "rank": 44,
+          "text": "2030",
+          "count": 5,
+          "bar_pct": 0
         }
       ]
     },
@@ -1769,20 +1905,20 @@
         {
           "rank": 2,
           "text": "1951",
-          "count": 1,
+          "count": 2,
           "bar_pct": 0
         },
         {
           "rank": 3,
           "text": "1952",
-          "count": 1,
+          "count": 2,
           "bar_pct": 0
         },
         {
           "rank": 4,
           "text": "1953",
-          "count": 7,
-          "bar_pct": 2
+          "count": 59,
+          "bar_pct": 1
         },
         {
           "rank": 5,
@@ -1792,297 +1928,417 @@
         },
         {
           "rank": 6,
-          "text": "1958",
-          "count": 2,
+          "text": "1956",
+          "count": 4,
           "bar_pct": 0
         },
         {
           "rank": 7,
+          "text": "1958",
+          "count": 15,
+          "bar_pct": 0
+        },
+        {
+          "rank": 8,
           "text": "1959",
           "count": 2,
           "bar_pct": 0
         },
         {
-          "rank": 8,
+          "rank": 9,
+          "text": "1960",
+          "count": 2,
+          "bar_pct": 0
+        },
+        {
+          "rank": 10,
+          "text": "1961",
+          "count": 8,
+          "bar_pct": 0
+        },
+        {
+          "rank": 11,
           "text": "1962",
           "count": 1,
           "bar_pct": 0
         },
         {
-          "rank": 9,
+          "rank": 12,
           "text": "1965",
-          "count": 1,
+          "count": 3,
           "bar_pct": 0
         },
         {
-          "rank": 10,
+          "rank": 13,
           "text": "1966",
           "count": 4,
-          "bar_pct": 1
-        },
-        {
-          "rank": 11,
-          "text": "1969",
-          "count": 1,
           "bar_pct": 0
         },
         {
-          "rank": 12,
+          "rank": 14,
+          "text": "1967",
+          "count": 3,
+          "bar_pct": 0
+        },
+        {
+          "rank": 15,
+          "text": "1969",
+          "count": 2,
+          "bar_pct": 0
+        },
+        {
+          "rank": 16,
           "text": "1971",
           "count": 1,
           "bar_pct": 0
         },
         {
-          "rank": 13,
-          "text": "1973",
-          "count": 1,
-          "bar_pct": 0
-        },
-        {
-          "rank": 14,
-          "text": "1974",
-          "count": 1,
-          "bar_pct": 0
-        },
-        {
-          "rank": 15,
-          "text": "1975",
-          "count": 1,
-          "bar_pct": 0
-        },
-        {
-          "rank": 16,
-          "text": "1985",
-          "count": 1,
-          "bar_pct": 0
-        },
-        {
           "rank": 17,
-          "text": "1988",
-          "count": 2,
+          "text": "1972",
+          "count": 3,
           "bar_pct": 0
         },
         {
           "rank": 18,
-          "text": "1990",
-          "count": 1,
+          "text": "1973",
+          "count": 2,
           "bar_pct": 0
         },
         {
           "rank": 19,
-          "text": "1991",
-          "count": 1,
+          "text": "1974",
+          "count": 2,
           "bar_pct": 0
         },
         {
           "rank": 20,
-          "text": "1994",
-          "count": 6,
-          "bar_pct": 2
+          "text": "1975",
+          "count": 3,
+          "bar_pct": 0
         },
         {
           "rank": 21,
-          "text": "1995",
-          "count": 7,
-          "bar_pct": 2
+          "text": "1976",
+          "count": 2,
+          "bar_pct": 0
         },
         {
           "rank": 22,
-          "text": "1996",
-          "count": 2,
+          "text": "1977",
+          "count": 3,
           "bar_pct": 0
         },
         {
           "rank": 23,
-          "text": "1997",
-          "count": 7,
-          "bar_pct": 2
+          "text": "1978",
+          "count": 3,
+          "bar_pct": 0
         },
         {
           "rank": 24,
-          "text": "1998",
-          "count": 5,
-          "bar_pct": 1
+          "text": "1979",
+          "count": 1,
+          "bar_pct": 0
         },
         {
           "rank": 25,
-          "text": "1999",
-          "count": 1,
+          "text": "1980",
+          "count": 3,
           "bar_pct": 0
         },
         {
           "rank": 26,
-          "text": "2000",
+          "text": "1981",
           "count": 5,
-          "bar_pct": 1
+          "bar_pct": 0
         },
         {
           "rank": 27,
-          "text": "2001",
+          "text": "1982",
           "count": 4,
-          "bar_pct": 1
+          "bar_pct": 0
         },
         {
           "rank": 28,
-          "text": "2002",
-          "count": 3,
-          "bar_pct": 1
-        },
-        {
-          "rank": 29,
-          "text": "2003",
-          "count": 12,
-          "bar_pct": 4
-        },
-        {
-          "rank": 30,
-          "text": "2004",
-          "count": 20,
-          "bar_pct": 7
-        },
-        {
-          "rank": 31,
-          "text": "2005",
-          "count": 41,
-          "bar_pct": 15
-        },
-        {
-          "rank": 32,
-          "text": "2006",
-          "count": 24,
-          "bar_pct": 9
-        },
-        {
-          "rank": 33,
-          "text": "2007",
-          "count": 18,
-          "bar_pct": 6
-        },
-        {
-          "rank": 34,
-          "text": "2008",
-          "count": 33,
-          "bar_pct": 12
-        },
-        {
-          "rank": 35,
-          "text": "2009",
-          "count": 18,
-          "bar_pct": 6
-        },
-        {
-          "rank": 36,
-          "text": "2010",
-          "count": 24,
-          "bar_pct": 9
-        },
-        {
-          "rank": 37,
-          "text": "2011",
-          "count": 62,
-          "bar_pct": 23
-        },
-        {
-          "rank": 38,
-          "text": "2012",
-          "count": 26,
-          "bar_pct": 9
-        },
-        {
-          "rank": 39,
-          "text": "2013",
-          "count": 39,
-          "bar_pct": 14
-        },
-        {
-          "rank": 40,
-          "text": "2014",
-          "count": 38,
-          "bar_pct": 14
-        },
-        {
-          "rank": 41,
-          "text": "2015",
-          "count": 63,
-          "bar_pct": 23
-        },
-        {
-          "rank": 42,
-          "text": "2016",
-          "count": 98,
-          "bar_pct": 36
-        },
-        {
-          "rank": 43,
-          "text": "2017",
-          "count": 266,
-          "bar_pct": 100
-        },
-        {
-          "rank": 44,
-          "text": "2018",
-          "count": 124,
-          "bar_pct": 46
-        },
-        {
-          "rank": 45,
-          "text": "2019",
-          "count": 95,
-          "bar_pct": 35
-        },
-        {
-          "rank": 46,
-          "text": "2020",
-          "count": 21,
-          "bar_pct": 7
-        },
-        {
-          "rank": 47,
-          "text": "2021",
-          "count": 71,
-          "bar_pct": 26
-        },
-        {
-          "rank": 48,
-          "text": "2022",
-          "count": 24,
-          "bar_pct": 9
-        },
-        {
-          "rank": 49,
-          "text": "2023",
-          "count": 71,
-          "bar_pct": 26
-        },
-        {
-          "rank": 50,
-          "text": "2024",
-          "count": 50,
-          "bar_pct": 18
-        },
-        {
-          "rank": 51,
-          "text": "2025",
+          "text": "1983",
           "count": 2,
           "bar_pct": 0
         },
         {
-          "rank": 52,
-          "text": "2026",
-          "count": 1,
+          "rank": 29,
+          "text": "1984",
+          "count": 3,
           "bar_pct": 0
         },
         {
+          "rank": 30,
+          "text": "1985",
+          "count": 2,
+          "bar_pct": 0
+        },
+        {
+          "rank": 31,
+          "text": "1986",
+          "count": 3,
+          "bar_pct": 0
+        },
+        {
+          "rank": 32,
+          "text": "1987",
+          "count": 5,
+          "bar_pct": 0
+        },
+        {
+          "rank": 33,
+          "text": "1988",
+          "count": 12,
+          "bar_pct": 0
+        },
+        {
+          "rank": 34,
+          "text": "1989",
+          "count": 8,
+          "bar_pct": 0
+        },
+        {
+          "rank": 35,
+          "text": "1990",
+          "count": 14,
+          "bar_pct": 0
+        },
+        {
+          "rank": 36,
+          "text": "1991",
+          "count": 8,
+          "bar_pct": 0
+        },
+        {
+          "rank": 37,
+          "text": "1992",
+          "count": 13,
+          "bar_pct": 0
+        },
+        {
+          "rank": 38,
+          "text": "1993",
+          "count": 15,
+          "bar_pct": 0
+        },
+        {
+          "rank": 39,
+          "text": "1994",
+          "count": 28,
+          "bar_pct": 0
+        },
+        {
+          "rank": 40,
+          "text": "1995",
+          "count": 24,
+          "bar_pct": 0
+        },
+        {
+          "rank": 41,
+          "text": "1996",
+          "count": 28,
+          "bar_pct": 0
+        },
+        {
+          "rank": 42,
+          "text": "1997",
+          "count": 32,
+          "bar_pct": 0
+        },
+        {
+          "rank": 43,
+          "text": "1998",
+          "count": 30,
+          "bar_pct": 0
+        },
+        {
+          "rank": 44,
+          "text": "1999",
+          "count": 23,
+          "bar_pct": 0
+        },
+        {
+          "rank": 45,
+          "text": "2000",
+          "count": 47,
+          "bar_pct": 1
+        },
+        {
+          "rank": 46,
+          "text": "2001",
+          "count": 46,
+          "bar_pct": 1
+        },
+        {
+          "rank": 47,
+          "text": "2002",
+          "count": 49,
+          "bar_pct": 1
+        },
+        {
+          "rank": 48,
+          "text": "2003",
+          "count": 54,
+          "bar_pct": 1
+        },
+        {
+          "rank": 49,
+          "text": "2004",
+          "count": 70,
+          "bar_pct": 1
+        },
+        {
+          "rank": 50,
+          "text": "2005",
+          "count": 92,
+          "bar_pct": 2
+        },
+        {
+          "rank": 51,
+          "text": "2006",
+          "count": 115,
+          "bar_pct": 2
+        },
+        {
+          "rank": 52,
+          "text": "2007",
+          "count": 225,
+          "bar_pct": 5
+        },
+        {
           "rank": 53,
+          "text": "2008",
+          "count": 340,
+          "bar_pct": 8
+        },
+        {
+          "rank": 54,
+          "text": "2009",
+          "count": 134,
+          "bar_pct": 3
+        },
+        {
+          "rank": 55,
+          "text": "2010",
+          "count": 149,
+          "bar_pct": 3
+        },
+        {
+          "rank": 56,
+          "text": "2011",
+          "count": 143,
+          "bar_pct": 3
+        },
+        {
+          "rank": 57,
+          "text": "2012",
+          "count": 124,
+          "bar_pct": 3
+        },
+        {
+          "rank": 58,
+          "text": "2013",
+          "count": 111,
+          "bar_pct": 2
+        },
+        {
+          "rank": 59,
+          "text": "2014",
+          "count": 116,
+          "bar_pct": 2
+        },
+        {
+          "rank": 60,
+          "text": "2015",
+          "count": 182,
+          "bar_pct": 4
+        },
+        {
+          "rank": 61,
+          "text": "2016",
+          "count": 210,
+          "bar_pct": 5
+        },
+        {
+          "rank": 62,
+          "text": "2017",
+          "count": 362,
+          "bar_pct": 9
+        },
+        {
+          "rank": 63,
+          "text": "2018",
+          "count": 417,
+          "bar_pct": 10
+        },
+        {
+          "rank": 64,
+          "text": "2019",
+          "count": 3875,
+          "bar_pct": 100
+        },
+        {
+          "rank": 65,
+          "text": "2020",
+          "count": 2562,
+          "bar_pct": 66
+        },
+        {
+          "rank": 66,
+          "text": "2021",
+          "count": 1966,
+          "bar_pct": 50
+        },
+        {
+          "rank": 67,
+          "text": "2022",
+          "count": 83,
+          "bar_pct": 2
+        },
+        {
+          "rank": 68,
+          "text": "2023",
+          "count": 120,
+          "bar_pct": 3
+        },
+        {
+          "rank": 69,
+          "text": "2024",
+          "count": 97,
+          "bar_pct": 2
+        },
+        {
+          "rank": 70,
+          "text": "2025",
+          "count": 20,
+          "bar_pct": 0
+        },
+        {
+          "rank": 71,
+          "text": "2026",
+          "count": 5,
+          "bar_pct": 0
+        },
+        {
+          "rank": 72,
           "text": "2027",
           "count": 1,
           "bar_pct": 0
         },
         {
-          "rank": 54,
+          "rank": 73,
           "text": "2029",
-          "count": 6,
-          "bar_pct": 2
+          "count": 9,
+          "bar_pct": 0
+        },
+        {
+          "rank": 74,
+          "text": "2030",
+          "count": 13,
+          "bar_pct": 0
         }
       ]
     },
@@ -17123,7 +17379,7 @@
           "text": "number customer number 800 937 8997",
           "count": 94,
           "docs": 8,
-          "score": 2793.59,
+          "score": 4022.3,
           "peak_doc": "EFTA00006387"
         },
         {
@@ -17131,7 +17387,7 @@
           "text": "number call minutes airtime toll total",
           "count": 94,
           "docs": 8,
-          "score": 2709.24,
+          "score": 3900.85,
           "peak_doc": "EFTA00006487"
         },
         {
@@ -17139,7 +17395,7 @@
           "text": "account number customer number 800 937",
           "count": 93,
           "docs": 8,
-          "score": 2669.54,
+          "score": 3843.69,
           "peak_doc": "EFTA00006387"
         },
         {
@@ -17147,23 +17403,23 @@
           "text": "time number call minutes airtime toll",
           "count": 93,
           "docs": 8,
-          "score": 2614.96,
+          "score": 3765.1,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 5,
-          "text": "call time number call minutes airtime",
-          "count": 88,
+          "text": "local airtime long distance international charges",
+          "count": 98,
           "docs": 8,
-          "score": 2436.33,
+          "score": 3507.9,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 6,
-          "text": "local airtime long distance international charges",
-          "count": 98,
+          "text": "call time number call minutes airtime",
+          "count": 88,
           "docs": 8,
-          "score": 2436.33,
+          "score": 3507.9,
           "peak_doc": "EFTA00006487"
         },
         {
@@ -17171,7 +17427,7 @@
           "text": "date call time number call minutes",
           "count": 88,
           "docs": 8,
-          "score": 2381.75,
+          "score": 3429.32,
           "peak_doc": "EFTA00006487"
         },
         {
@@ -17179,7 +17435,7 @@
           "text": "call minutes airtime toll total destination",
           "count": 85,
           "docs": 8,
-          "score": 2307.32,
+          "score": 3322.15,
           "peak_doc": "EFTA00006487"
         },
         {
@@ -17187,7 +17443,7 @@
           "text": "minutes airtime toll total destination called",
           "count": 84,
           "docs": 8,
-          "score": 2272.58,
+          "score": 3272.14,
           "peak_doc": "EFTA00006487"
         },
         {
@@ -17195,7 +17451,7 @@
           "text": "charges continued date call time number",
           "count": 86,
           "docs": 8,
-          "score": 2222.96,
+          "score": 3200.69,
           "peak_doc": "EFTA00006487"
         },
         {
@@ -17203,7 +17459,7 @@
           "text": "continued date call time number call",
           "count": 86,
           "docs": 8,
-          "score": 2198.15,
+          "score": 3164.97,
           "peak_doc": "EFTA00006487"
         },
         {
@@ -17211,7 +17467,7 @@
           "text": "total destination called type charges charges",
           "count": 76,
           "docs": 8,
-          "score": 2133.65,
+          "score": 3072.1,
           "peak_doc": "EFTA00006587"
         },
         {
@@ -17219,7 +17475,7 @@
           "text": "toll total destination called type charges",
           "count": 77,
           "docs": 8,
-          "score": 2118.76,
+          "score": 3050.66,
           "peak_doc": "EFTA00006587"
         },
         {
@@ -17227,7 +17483,7 @@
           "text": "airtime long distance international charges continued",
           "count": 94,
           "docs": 8,
-          "score": 2098.91,
+          "score": 3022.08,
           "peak_doc": "EFTA00006487"
         },
         {
@@ -17235,7 +17491,7 @@
           "text": "airtime toll total destination called type",
           "count": 76,
           "docs": 8,
-          "score": 2059.22,
+          "score": 2964.93,
           "peak_doc": "EFTA00006587"
         },
         {
@@ -17243,39 +17499,39 @@
           "text": "details account number customer number 800",
           "count": 92,
           "docs": 8,
-          "score": 2039.37,
+          "score": 2936.35,
           "peak_doc": "EFTA00006387"
         },
         {
           "rank": 17,
-          "text": "itemized details account number customer number",
-          "count": 95,
-          "docs": 8,
-          "score": 2004.64,
-          "peak_doc": "EFTA00006387"
+          "text": "case 08 cv 80736 kam document",
+          "count": 69,
+          "docs": 17,
+          "score": 2933.3,
+          "peak_doc": "EFTA00021442_djvu"
         },
         {
           "rank": 18,
-          "text": "free state reporting inc court reporting",
-          "count": 119,
+          "text": "itemized details account number customer number",
+          "count": 95,
           "docs": 8,
-          "score": 1940.13,
-          "peak_doc": "EFTA00008744"
+          "score": 2886.34,
+          "peak_doc": "EFTA00006387"
         },
         {
           "rank": 19,
-          "text": "state reporting inc court reporting transcription",
+          "text": "free state reporting inc court reporting",
           "count": 119,
           "docs": 8,
-          "score": 1930.21,
+          "score": 2793.46,
           "peak_doc": "EFTA00008744"
         },
         {
           "rank": 20,
-          "text": "inc court reporting transcription area 301",
+          "text": "state reporting inc court reporting transcription",
           "count": 119,
           "docs": 8,
-          "score": 1920.28,
+          "score": 2779.17,
           "peak_doc": "EFTA00008744"
         }
       ]
@@ -17289,163 +17545,163 @@
       "rows": [
         {
           "rank": 21,
-          "text": "reporting inc court reporting transcription area",
+          "text": "inc court reporting transcription area 301",
           "count": 119,
           "docs": 8,
-          "score": 1915.32,
+          "score": 2764.89,
           "peak_doc": "EFTA00008744"
         },
         {
           "rank": 22,
-          "text": "court reporting transcription area 301 261",
+          "text": "reporting inc court reporting transcription area",
           "count": 119,
           "docs": 8,
-          "score": 1910.36,
+          "score": 2757.74,
           "peak_doc": "EFTA00008744"
         },
         {
           "rank": 23,
-          "text": "reporting transcription area 301 261 1902",
+          "text": "court reporting transcription area 301 261",
           "count": 119,
           "docs": 8,
-          "score": 1905.4,
+          "score": 2750.6,
           "peak_doc": "EFTA00008744"
         },
         {
           "rank": 24,
-          "text": "lang en utm campaign 10 today",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "reporting transcription area 301 261 1902",
+          "count": 119,
+          "docs": 8,
+          "score": 2743.45,
+          "peak_doc": "EFTA00008744"
         },
         {
           "rank": 25,
-          "text": "en utm campaign 10 today styling",
+          "text": "lang en utm campaign 10 today",
           "count": 67,
           "docs": 6,
-          "score": 1879.38,
+          "score": 2660.69,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 26,
-          "text": "utm campaign 10 today styling flab",
+          "text": "en utm campaign 10 today styling",
           "count": 67,
           "docs": 6,
-          "score": 1879.38,
+          "score": 2660.69,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 27,
-          "text": "campaign 10 today styling flab cell",
+          "text": "utm campaign 10 today styling flab",
           "count": 67,
           "docs": 6,
-          "score": 1879.38,
+          "score": 2660.69,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 28,
-          "text": "10 today styling flab cell id",
+          "text": "campaign 10 today styling flab cell",
           "count": 67,
           "docs": 6,
-          "score": 1879.38,
+          "score": 2660.69,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 29,
-          "text": "today styling flab cell id flab",
+          "text": "10 today styling flab cell id",
           "count": 67,
           "docs": 6,
-          "score": 1879.38,
+          "score": 2660.69,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 30,
-          "text": "styling flab cell id flab experiment",
+          "text": "today styling flab cell id flab",
           "count": 67,
           "docs": 6,
-          "score": 1879.38,
+          "score": 2660.69,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 31,
-          "text": "flab cell id flab experiment id",
+          "text": "styling flab cell id flab experiment",
           "count": 67,
           "docs": 6,
-          "score": 1879.38,
+          "score": 2660.69,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 32,
-          "text": "301 261 1902 balt annap 410",
-          "count": 119,
-          "docs": 8,
-          "score": 1840.89,
-          "peak_doc": "EFTA00008744"
+          "text": "flab cell id flab experiment id",
+          "count": 67,
+          "docs": 6,
+          "score": 2660.69,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 33,
           "text": "transcription area 301 261 1902 balt",
           "count": 119,
           "docs": 8,
-          "score": 1840.89,
+          "score": 2650.58,
           "peak_doc": "EFTA00008744"
         },
         {
           "rank": 34,
-          "text": "area 301 261 1902 balt annap",
+          "text": "301 261 1902 balt annap 410",
           "count": 119,
           "docs": 8,
-          "score": 1830.97,
+          "score": 2650.58,
           "peak_doc": "EFTA00008744"
         },
         {
           "rank": 35,
-          "text": "261 1902 balt annap 410 974",
+          "text": "area 301 261 1902 balt annap",
           "count": 119,
           "docs": 8,
-          "score": 1821.04,
+          "score": 2636.29,
           "peak_doc": "EFTA00008744"
         },
         {
           "rank": 36,
-          "text": "1902 balt annap 410 974 0947",
+          "text": "261 1902 balt annap 410 974",
           "count": 119,
           "docs": 8,
-          "score": 1816.08,
+          "score": 2622.0,
           "peak_doc": "EFTA00008744"
         },
         {
           "rank": 37,
-          "text": "long distance international charges continued date",
-          "count": 82,
+          "text": "1902 balt annap 410 974 0947",
+          "count": 119,
           "docs": 8,
-          "score": 1756.54,
-          "peak_doc": "EFTA00006487"
+          "score": 2614.85,
+          "peak_doc": "EFTA00008744"
         },
         {
           "rank": 38,
-          "text": "distance international charges continued date call",
+          "text": "long distance international charges continued date",
           "count": 82,
           "docs": 8,
-          "score": 1741.65,
+          "score": 2529.12,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 39,
-          "text": "international charges continued date call time",
+          "text": "distance international charges continued date call",
           "count": 82,
           "docs": 8,
-          "score": 1736.69,
+          "score": 2507.69,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 40,
-          "text": "cell id flab experiment id 421",
-          "count": 67,
-          "docs": 5,
-          "score": 1602.43,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "international charges continued date call time",
+          "count": 82,
+          "docs": 8,
+          "score": 2500.54,
+          "peak_doc": "EFTA00006487"
         }
       ]
     },
@@ -17458,163 +17714,163 @@
       "rows": [
         {
           "rank": 41,
-          "text": "id flab experiment id 421 uid",
-          "count": 67,
-          "docs": 5,
-          "score": 1602.43,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "flags 1060865 read yes invitation guid",
+          "count": 57,
+          "docs": 23,
+          "score": 2386.63,
+          "peak_doc": "HOUSE_OVERSIGHT_025479"
         },
         {
           "rank": 42,
-          "text": "flab experiment id 421 uid 3646186",
+          "text": "cell id flab experiment id 421",
           "count": 67,
           "docs": 5,
-          "score": 1602.43,
+          "score": 2246.25,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 43,
-          "text": "flags 1060865 read yes invitation guid",
-          "count": 57,
-          "docs": 23,
-          "score": 1531.12,
-          "peak_doc": "HOUSE_OVERSIGHT_025479"
+          "text": "id flab experiment id 421 uid",
+          "count": 67,
+          "docs": 5,
+          "score": 2246.25,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 44,
-          "text": "balt annap 410 974 0947 gm",
-          "count": 95,
+          "text": "flab experiment id 421 uid 3646186",
+          "count": 67,
           "docs": 5,
-          "score": 1385.15,
-          "peak_doc": "EFTA00008744"
+          "score": 2246.25,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 45,
-          "text": "false https flemail flipboard com redirect",
-          "count": 42,
-          "docs": 6,
-          "score": 1107.68,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "case 20 cr 00330 ajn document",
+          "count": 34,
+          "docs": 90,
+          "score": 2173.06,
+          "peak_doc": "EFTA00029540_djvu"
         },
         {
           "rank": 46,
-          "text": "china variant false https flemail flipboard",
-          "count": 42,
-          "docs": 6,
-          "score": 1102.43,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "joseph nascimento esq ross amsel raben",
+          "count": 29,
+          "docs": 26,
+          "score": 2147.67,
+          "peak_doc": "EFTA00010587_djvu"
         },
         {
           "rank": 47,
-          "text": "variant false https flemail flipboard com",
-          "count": 42,
-          "docs": 6,
-          "score": 1102.43,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "nascimento esq ross amsel raben nascimento",
+          "count": 29,
+          "docs": 26,
+          "score": 2147.67,
+          "peak_doc": "EFTA00010587_djvu"
         },
         {
           "rank": 48,
-          "text": "annap 410 974 0947 gm glsdny",
-          "count": 80,
-          "docs": 5,
-          "score": 1097.26,
-          "peak_doc": "EFTA00008744"
+          "text": "esq ross amsel raben nascimento pllc",
+          "count": 29,
+          "docs": 28,
+          "score": 2126.88,
+          "peak_doc": "EFTA00010587_djvu"
         },
         {
           "rank": 49,
-          "text": "date time dialed number dest number",
-          "count": 68,
-          "docs": 4,
-          "score": 1023.58,
-          "peak_doc": "EFTA00006970"
+          "text": "cr 330 ajn request view evidence",
+          "count": 24,
+          "docs": 24,
+          "score": 2001.16,
+          "peak_doc": "EFTA00032669_djvu"
         },
         {
           "rank": 50,
-          "text": "work product deliberative process fed crim",
-          "count": 76,
-          "docs": 4,
-          "score": 1006.61,
-          "peak_doc": "EFTA02731082"
+          "text": "330 ajn request view evidence highly",
+          "count": 24,
+          "docs": 24,
+          "score": 2001.16,
+          "peak_doc": "EFTA00032669_djvu"
         },
         {
           "rank": 51,
-          "text": "experiment id 421 uid 3646186 section",
-          "count": 37,
-          "docs": 5,
-          "score": 1004.92,
-          "peak_doc": "HOUSE_OVERSIGHT_022479"
+          "text": "ajn request view evidence highly materials",
+          "count": 24,
+          "docs": 24,
+          "score": 2001.16,
+          "peak_doc": "EFTA00032669_djvu"
         },
         {
           "rank": 52,
-          "text": "id 421 uid 3646186 section url",
-          "count": 37,
-          "docs": 5,
-          "score": 1004.92,
-          "peak_doc": "HOUSE_OVERSIGHT_022479"
+          "text": "request view evidence highly materials scenes",
+          "count": 24,
+          "docs": 24,
+          "score": 2001.16,
+          "peak_doc": "EFTA00032669_djvu"
         },
         {
           "rank": 53,
-          "text": "time dialed number dest number dir",
-          "count": 63,
-          "docs": 4,
-          "score": 1000.96,
-          "peak_doc": "EFTA00006970"
+          "text": "20 cr 330 ajn request view",
+          "count": 24,
+          "docs": 25,
+          "score": 1987.65,
+          "peak_doc": "EFTA00032669_djvu"
         },
         {
           "rank": 54,
-          "text": "phone call date time dialed number",
-          "count": 74,
-          "docs": 4,
-          "score": 961.37,
-          "peak_doc": "EFTA00006970"
+          "text": "maxwell 20 cr 330 ajn request",
+          "count": 24,
+          "docs": 27,
+          "score": 1962.17,
+          "peak_doc": "EFTA00032669_djvu"
         },
         {
           "rank": 55,
-          "text": "https flemail flipboard com redirect ws",
-          "count": 31,
-          "docs": 6,
-          "score": 960.69,
-          "peak_doc": "HOUSE_OVERSIGHT_030017"
+          "text": "balt annap 410 974 0947 gm",
+          "count": 95,
+          "docs": 5,
+          "score": 1941.67,
+          "peak_doc": "EFTA00008744"
         },
         {
           "rank": 56,
-          "text": "flemail flipboard com redirect ws lang",
-          "count": 31,
-          "docs": 6,
-          "score": 960.69,
-          "peak_doc": "HOUSE_OVERSIGHT_030017"
+          "text": "pagliuca jpagliuca hmflaw com christian everdell",
+          "count": 23,
+          "docs": 22,
+          "score": 1858.24,
+          "peak_doc": "EFTA00015804_djvu"
         },
         {
           "rank": 57,
-          "text": "flipboard com redirect ws lang en",
-          "count": 31,
-          "docs": 6,
-          "score": 960.69,
-          "peak_doc": "HOUSE_OVERSIGHT_030017"
+          "text": "jpagliuca hmflaw com christian everdell cohen",
+          "count": 23,
+          "docs": 22,
+          "score": 1858.24,
+          "peak_doc": "EFTA00015804_djvu"
         },
         {
           "rank": 58,
-          "text": "com redirect ws lang en utm",
-          "count": 31,
-          "docs": 6,
-          "score": 960.69,
-          "peak_doc": "HOUSE_OVERSIGHT_030017"
+          "text": "hmflaw com christian everdell cohen gresser",
+          "count": 23,
+          "docs": 22,
+          "score": 1858.24,
+          "peak_doc": "EFTA00015804_djvu"
         },
         {
           "rank": 59,
-          "text": "redirect ws lang en utm campaign",
-          "count": 31,
-          "docs": 6,
-          "score": 960.69,
-          "peak_doc": "HOUSE_OVERSIGHT_030017"
+          "text": "com christian everdell cohen gresser llp",
+          "count": 23,
+          "docs": 22,
+          "score": 1858.24,
+          "peak_doc": "EFTA00015804_djvu"
         },
         {
           "rank": 60,
-          "text": "ws lang en utm campaign 10",
-          "count": 31,
-          "docs": 6,
-          "score": 960.69,
-          "peak_doc": "HOUSE_OVERSIGHT_030017"
+          "text": "2021 10 11 2021 10 11",
+          "count": 98,
+          "docs": 3,
+          "score": 1852.55,
+          "peak_doc": "EFTA00024238_djvu"
         }
       ]
     },
@@ -17627,163 +17883,163 @@
       "rows": [
         {
           "rank": 1,
-          "text": "customer number 800 937 8997",
-          "count": 95,
-          "docs": 8,
-          "score": 2917.64,
-          "peak_doc": "EFTA00006487"
+          "text": "re epstein search warrant documents",
+          "count": 40,
+          "docs": 46,
+          "score": 5195.58,
+          "peak_doc": "EFTA00032104_djvu"
         },
         {
           "rank": 2,
-          "text": "number customer number 800 937",
-          "count": 94,
+          "text": "customer number 800 937 8997",
+          "count": 95,
           "docs": 8,
-          "score": 2803.51,
-          "peak_doc": "EFTA00006387"
+          "score": 4200.91,
+          "peak_doc": "EFTA00006487"
         },
         {
           "rank": 3,
-          "text": "number call minutes airtime toll",
-          "count": 96,
+          "text": "number customer number 800 937",
+          "count": 94,
           "docs": 8,
-          "score": 2778.7,
-          "peak_doc": "EFTA00006487"
-        },
-        {
-          "rank": 4,
-          "text": "account number customer number 800",
-          "count": 95,
-          "docs": 8,
-          "score": 2773.74,
+          "score": 4036.59,
           "peak_doc": "EFTA00006387"
         },
         {
-          "rank": 5,
-          "text": "call minutes airtime toll total",
-          "count": 94,
+          "rank": 4,
+          "text": "number call minutes airtime toll",
+          "count": 96,
           "docs": 8,
-          "score": 2734.05,
+          "score": 4000.87,
           "peak_doc": "EFTA00006487"
         },
         {
+          "rank": 5,
+          "text": "account number customer number 800",
+          "count": 95,
+          "docs": 8,
+          "score": 3993.72,
+          "peak_doc": "EFTA00006387"
+        },
+        {
           "rank": 6,
-          "text": "time number call minutes airtime",
+          "text": "call minutes airtime toll total",
           "count": 94,
           "docs": 8,
-          "score": 2634.81,
+          "score": 3936.57,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 7,
-          "text": "call time number call minutes",
-          "count": 89,
+          "text": "time number call minutes airtime",
+          "count": 94,
           "docs": 8,
-          "score": 2550.45,
+          "score": 3793.68,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 8,
-          "text": "destination called type charges charges",
+          "text": "sender jeeitunes gmail com time",
           "count": 92,
-          "docs": 8,
-          "score": 2545.49,
-          "peak_doc": "EFTA00006387"
+          "docs": 23,
+          "score": 3750.43,
+          "peak_doc": "HOUSE_OVERSIGHT_025734"
         },
         {
           "rank": 9,
-          "text": "airtime long distance international charges",
-          "count": 98,
+          "text": "call time number call minutes",
+          "count": 89,
           "docs": 8,
-          "score": 2441.29,
+          "score": 3672.23,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 10,
-          "text": "local airtime long distance international",
-          "count": 98,
+          "text": "destination called type charges charges",
+          "count": 92,
           "docs": 8,
-          "score": 2436.33,
-          "peak_doc": "EFTA00006487"
+          "score": 3665.08,
+          "peak_doc": "EFTA00006387"
         },
         {
           "rank": 11,
-          "text": "sender jeeitunes gmail com time",
-          "count": 92,
-          "docs": 23,
-          "score": 2406.05,
-          "peak_doc": "HOUSE_OVERSIGHT_025734"
+          "text": "airtime long distance international charges",
+          "count": 98,
+          "docs": 8,
+          "score": 3515.05,
+          "peak_doc": "EFTA00006487"
         },
         {
           "rank": 12,
-          "text": "date call time number call",
-          "count": 89,
+          "text": "local airtime long distance international",
+          "count": 98,
           "docs": 8,
-          "score": 2391.67,
+          "score": 3507.9,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 13,
-          "text": "minutes airtime toll total destination",
-          "count": 85,
+          "text": "date call time number call",
+          "count": 89,
           "docs": 8,
-          "score": 2337.09,
+          "score": 3443.6,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 14,
-          "text": "airtime toll total destination called",
-          "count": 84,
+          "text": "minutes airtime toll total destination",
+          "count": 85,
           "docs": 8,
-          "score": 2277.54,
+          "score": 3365.02,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 15,
-          "text": "charges continued date call time",
-          "count": 86,
-          "docs": 8,
-          "score": 2232.89,
-          "peak_doc": "EFTA00006487"
+          "text": "jeff jocks jjocks sondeeracine com",
+          "count": 36,
+          "docs": 31,
+          "score": 3288.64,
+          "peak_doc": "EFTA00028168_djvu"
         },
         {
           "rank": 16,
-          "text": "continued date call time number",
-          "count": 86,
+          "text": "airtime toll total destination called",
+          "count": 84,
           "docs": 8,
-          "score": 2222.96,
+          "score": 3279.28,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 17,
-          "text": "toll total destination called type",
-          "count": 77,
+          "text": "charges continued date call time",
+          "count": 86,
           "docs": 8,
-          "score": 2143.57,
-          "peak_doc": "EFTA00006587"
-        },
-        {
-          "rank": 18,
-          "text": "total destination called type charges",
-          "count": 77,
-          "docs": 8,
-          "score": 2138.61,
-          "peak_doc": "EFTA00006587"
-        },
-        {
-          "rank": 19,
-          "text": "long distance international charges continued",
-          "count": 94,
-          "docs": 8,
-          "score": 2103.88,
+          "score": 3214.98,
           "peak_doc": "EFTA00006487"
         },
         {
-          "rank": 20,
-          "text": "details account number customer number",
-          "count": 95,
+          "rank": 18,
+          "text": "continued date call time number",
+          "count": 86,
           "docs": 8,
-          "score": 2084.03,
-          "peak_doc": "EFTA00006387"
+          "score": 3200.69,
+          "peak_doc": "EFTA00006487"
+        },
+        {
+          "rank": 19,
+          "text": "flags 1085445 read invitation guid",
+          "count": 80,
+          "docs": 21,
+          "score": 3089.66,
+          "peak_doc": "HOUSE_OVERSIGHT_025734"
+        },
+        {
+          "rank": 20,
+          "text": "toll total destination called type",
+          "count": 77,
+          "docs": 8,
+          "score": 3086.38,
+          "peak_doc": "EFTA00006587"
         }
       ]
     },
@@ -17796,163 +18052,163 @@
       "rows": [
         {
           "rank": 21,
-          "text": "itemized details account number customer",
-          "count": 95,
+          "text": "total destination called type charges",
+          "count": 77,
           "docs": 8,
-          "score": 2009.6,
-          "peak_doc": "EFTA00006387"
+          "score": 3079.24,
+          "peak_doc": "EFTA00006587"
         },
         {
           "rank": 22,
-          "text": "flags 1085445 read invitation guid",
-          "count": 80,
-          "docs": 21,
-          "score": 1998.44,
-          "peak_doc": "HOUSE_OVERSIGHT_025734"
+          "text": "case 08 cv 80736 kam",
+          "count": 69,
+          "docs": 22,
+          "score": 3035.74,
+          "peak_doc": "EFTA00021442_djvu"
         },
         {
           "rank": 23,
-          "text": "free state reporting inc court",
-          "count": 119,
+          "text": "long distance international charges continued",
+          "count": 94,
           "docs": 8,
-          "score": 1940.13,
-          "peak_doc": "EFTA00008744"
+          "score": 3029.23,
+          "peak_doc": "EFTA00006487"
         },
         {
           "rank": 24,
-          "text": "state reporting inc court reporting",
-          "count": 119,
+          "text": "details account number customer number",
+          "count": 95,
           "docs": 8,
-          "score": 1940.13,
-          "peak_doc": "EFTA00008744"
+          "score": 3000.65,
+          "peak_doc": "EFTA00006387"
         },
         {
           "rank": 25,
-          "text": "reporting inc court reporting transcription",
-          "count": 119,
-          "docs": 8,
-          "score": 1930.21,
-          "peak_doc": "EFTA00008744"
+          "text": "08 cv 80736 kam document",
+          "count": 69,
+          "docs": 17,
+          "score": 2946.08,
+          "peak_doc": "EFTA00021442_djvu"
         },
         {
           "rank": 26,
-          "text": "inc court reporting transcription area",
-          "count": 119,
+          "text": "itemized details account number customer",
+          "count": 95,
           "docs": 8,
-          "score": 1920.28,
-          "peak_doc": "EFTA00008744"
+          "score": 2893.48,
+          "peak_doc": "EFTA00006387"
         },
         {
           "rank": 27,
-          "text": "court reporting transcription area 301",
+          "text": "free state reporting inc court",
           "count": 119,
           "docs": 8,
-          "score": 1920.28,
+          "score": 2793.46,
           "peak_doc": "EFTA00008744"
         },
         {
           "rank": 28,
-          "text": "reporting transcription area 301 261",
+          "text": "state reporting inc court reporting",
           "count": 119,
           "docs": 8,
-          "score": 1910.36,
+          "score": 2793.46,
           "peak_doc": "EFTA00008744"
         },
         {
           "rank": 29,
-          "text": "transcription area 301 261 1902",
+          "text": "reporting inc court reporting transcription",
           "count": 119,
           "docs": 8,
-          "score": 1905.4,
+          "score": 2779.17,
           "peak_doc": "EFTA00008744"
         },
         {
           "rank": 30,
-          "text": "https flemail flipboard com redirect",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "inc court reporting transcription area",
+          "count": 119,
+          "docs": 8,
+          "score": 2764.89,
+          "peak_doc": "EFTA00008744"
         },
         {
           "rank": 31,
-          "text": "lang en utm campaign 10",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "court reporting transcription area 301",
+          "count": 119,
+          "docs": 8,
+          "score": 2764.89,
+          "peak_doc": "EFTA00008744"
         },
         {
           "rank": 32,
-          "text": "en utm campaign 10 today",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "reporting transcription area 301 261",
+          "count": 119,
+          "docs": 8,
+          "score": 2750.6,
+          "peak_doc": "EFTA00008744"
         },
         {
           "rank": 33,
-          "text": "utm campaign 10 today styling",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "re subpoena interlochen center arts",
+          "count": 31,
+          "docs": 31,
+          "score": 2750.18,
+          "peak_doc": "EFTA00025041_djvu"
         },
         {
           "rank": 34,
-          "text": "campaign 10 today styling flab",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "transcription area 301 261 1902",
+          "count": 119,
+          "docs": 8,
+          "score": 2743.45,
+          "peak_doc": "EFTA00008744"
         },
         {
           "rank": 35,
-          "text": "10 today styling flab cell",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "area 301 261 1902 balt",
+          "count": 119,
+          "docs": 8,
+          "score": 2672.01,
+          "peak_doc": "EFTA00008744"
         },
         {
           "rank": 36,
-          "text": "today styling flab cell id",
+          "text": "https flemail flipboard com redirect",
           "count": 67,
           "docs": 6,
-          "score": 1879.38,
+          "score": 2660.69,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 37,
-          "text": "styling flab cell id flab",
+          "text": "lang en utm campaign 10",
           "count": 67,
           "docs": 6,
-          "score": 1879.38,
+          "score": 2660.69,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 38,
-          "text": "flab cell id flab experiment",
+          "text": "en utm campaign 10 today",
           "count": 67,
           "docs": 6,
-          "score": 1879.38,
+          "score": 2660.69,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 39,
-          "text": "cell id flab experiment id",
+          "text": "utm campaign 10 today styling",
           "count": 67,
           "docs": 6,
-          "score": 1879.38,
+          "score": 2660.69,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 40,
-          "text": "area 301 261 1902 balt",
-          "count": 119,
-          "docs": 8,
-          "score": 1855.78,
-          "peak_doc": "EFTA00008744"
+          "text": "campaign 10 today styling flab",
+          "count": 67,
+          "docs": 6,
+          "score": 2660.69,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         }
       ]
     },
@@ -17965,163 +18221,163 @@
       "rows": [
         {
           "rank": 41,
-          "text": "301 261 1902 balt annap",
-          "count": 119,
-          "docs": 8,
-          "score": 1845.85,
-          "peak_doc": "EFTA00008744"
+          "text": "10 today styling flab cell",
+          "count": 67,
+          "docs": 6,
+          "score": 2660.69,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 42,
-          "text": "261 1902 balt annap 410",
-          "count": 119,
-          "docs": 8,
-          "score": 1840.89,
-          "peak_doc": "EFTA00008744"
+          "text": "today styling flab cell id",
+          "count": 67,
+          "docs": 6,
+          "score": 2660.69,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 43,
-          "text": "1902 balt annap 410 974",
-          "count": 119,
-          "docs": 8,
-          "score": 1821.04,
-          "peak_doc": "EFTA00008744"
+          "text": "styling flab cell id flab",
+          "count": 67,
+          "docs": 6,
+          "score": 2660.69,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 44,
-          "text": "balt annap 410 974 0947",
-          "count": 119,
-          "docs": 8,
-          "score": 1821.04,
-          "peak_doc": "EFTA00008744"
+          "text": "flab cell id flab experiment",
+          "count": 67,
+          "docs": 6,
+          "score": 2660.69,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 45,
-          "text": "distance international charges continued date",
-          "count": 82,
-          "docs": 8,
-          "score": 1756.54,
-          "peak_doc": "EFTA00006487"
+          "text": "cell id flab experiment id",
+          "count": 67,
+          "docs": 6,
+          "score": 2660.69,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 46,
-          "text": "international charges continued date call",
-          "count": 82,
+          "text": "301 261 1902 balt annap",
+          "count": 119,
           "docs": 8,
-          "score": 1741.65,
-          "peak_doc": "EFTA00006487"
-        },
-        {
-          "rank": 47,
-          "text": "id flab experiment id 421",
-          "count": 67,
-          "docs": 5,
-          "score": 1602.43,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
-        },
-        {
-          "rank": 48,
-          "text": "flab experiment id 421 uid",
-          "count": 67,
-          "docs": 5,
-          "score": 1602.43,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
-        },
-        {
-          "rank": 49,
-          "text": "experiment id 421 uid 3646186",
-          "count": 67,
-          "docs": 5,
-          "score": 1602.43,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
-        },
-        {
-          "rank": 50,
-          "text": "flags 1060865 read yes invitation",
-          "count": 58,
-          "docs": 23,
-          "score": 1581.9,
-          "peak_doc": "HOUSE_OVERSIGHT_025479"
-        },
-        {
-          "rank": 51,
-          "text": "1060865 read yes invitation guid",
-          "count": 57,
-          "docs": 23,
-          "score": 1531.12,
-          "peak_doc": "HOUSE_OVERSIGHT_025479"
-        },
-        {
-          "rank": 52,
-          "text": "annap 410 974 0947 gm",
-          "count": 95,
-          "docs": 5,
-          "score": 1428.61,
+          "score": 2657.72,
           "peak_doc": "EFTA00008744"
         },
         {
+          "rank": 47,
+          "text": "261 1902 balt annap 410",
+          "count": 119,
+          "docs": 8,
+          "score": 2650.58,
+          "peak_doc": "EFTA00008744"
+        },
+        {
+          "rank": 48,
+          "text": "1902 balt annap 410 974",
+          "count": 119,
+          "docs": 8,
+          "score": 2622.0,
+          "peak_doc": "EFTA00008744"
+        },
+        {
+          "rank": 49,
+          "text": "balt annap 410 974 0947",
+          "count": 119,
+          "docs": 8,
+          "score": 2622.0,
+          "peak_doc": "EFTA00008744"
+        },
+        {
+          "rank": 50,
+          "text": "distance international charges continued date",
+          "count": 82,
+          "docs": 8,
+          "score": 2529.12,
+          "peak_doc": "EFTA00006487"
+        },
+        {
+          "rank": 51,
+          "text": "international charges continued date call",
+          "count": 82,
+          "docs": 8,
+          "score": 2507.69,
+          "peak_doc": "EFTA00006487"
+        },
+        {
+          "rank": 52,
+          "text": "flags 1060865 read yes invitation",
+          "count": 58,
+          "docs": 23,
+          "score": 2465.78,
+          "peak_doc": "HOUSE_OVERSIGHT_025479"
+        },
+        {
           "rank": 53,
-          "text": "billed phone call date time",
-          "count": 80,
-          "docs": 4,
-          "score": 1249.78,
-          "peak_doc": "EFTA00006970"
+          "text": "case 20 cr 00330 ajn",
+          "count": 34,
+          "docs": 106,
+          "score": 2394.22,
+          "peak_doc": "EFTA00029540_djvu"
         },
         {
           "rank": 54,
-          "text": "work product deliberative process fed",
-          "count": 86,
-          "docs": 4,
-          "score": 1119.71,
-          "peak_doc": "EFTA02731082"
+          "text": "1060865 read yes invitation guid",
+          "count": 57,
+          "docs": 23,
+          "score": 2386.63,
+          "peak_doc": "HOUSE_OVERSIGHT_025479"
         },
         {
           "rank": 55,
-          "text": "dialed number dest number dir",
-          "count": 70,
-          "docs": 4,
-          "score": 1114.06,
-          "peak_doc": "EFTA00006870"
+          "text": "id flab experiment id 421",
+          "count": 67,
+          "docs": 5,
+          "score": 2246.25,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 56,
-          "text": "false https flemail flipboard com",
-          "count": 42,
-          "docs": 6,
-          "score": 1107.68,
+          "text": "flab experiment id 421 uid",
+          "count": 67,
+          "docs": 5,
+          "score": 2246.25,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 57,
-          "text": "china variant false https flemail",
-          "count": 42,
-          "docs": 6,
-          "score": 1102.43,
+          "text": "experiment id 421 uid 3646186",
+          "count": 67,
+          "docs": 5,
+          "score": 2246.25,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 58,
-          "text": "variant false https flemail flipboard",
-          "count": 42,
-          "docs": 6,
-          "score": 1102.43,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "20 cr 00330 ajn document",
+          "count": 34,
+          "docs": 90,
+          "score": 2173.06,
+          "peak_doc": "EFTA00029540_djvu"
         },
         {
           "rank": 59,
-          "text": "forward conference call data fax",
-          "count": 62,
-          "docs": 7,
-          "score": 1100.63,
-          "peak_doc": "EFTA00006387"
+          "text": "joseph nascimento esq ross amsel",
+          "count": 29,
+          "docs": 26,
+          "score": 2147.67,
+          "peak_doc": "EFTA00010587_djvu"
         },
         {
           "rank": 60,
-          "text": "410 974 0947 gm glsdny",
-          "count": 80,
-          "docs": 5,
-          "score": 1097.26,
-          "peak_doc": "EFTA00008744"
+          "text": "nascimento esq ross amsel raben",
+          "count": 29,
+          "docs": 26,
+          "score": 2147.67,
+          "peak_doc": "EFTA00010587_djvu"
         }
       ]
     },
@@ -18134,162 +18390,162 @@
       "rows": [
         {
           "rank": 1,
-          "text": "local airtime long distance",
-          "count": 108,
-          "docs": 8,
-          "score": 3160.77,
-          "peak_doc": "EFTA00007401"
+          "text": "epstein search warrant documents",
+          "count": 40,
+          "docs": 46,
+          "score": 5379.02,
+          "peak_doc": "EFTA00030392_djvu"
         },
         {
           "rank": 2,
-          "text": "number 800 937 8997",
-          "count": 95,
-          "docs": 8,
-          "score": 2932.52,
-          "peak_doc": "EFTA00006487"
+          "text": "re epstein search warrant",
+          "count": 40,
+          "docs": 51,
+          "score": 5159.72,
+          "peak_doc": "EFTA00032104_djvu"
         },
         {
           "rank": 3,
-          "text": "number customer number 800",
-          "count": 97,
+          "text": "local airtime long distance",
+          "count": 108,
           "docs": 8,
-          "score": 2927.56,
-          "peak_doc": "EFTA00006387"
+          "score": 4550.99,
+          "peak_doc": "EFTA00007401"
         },
         {
           "rank": 4,
-          "text": "customer number 800 937",
-          "count": 95,
-          "docs": 8,
-          "score": 2927.56,
-          "peak_doc": "EFTA00006487"
+          "text": "06 17 2020 run",
+          "count": 506,
+          "docs": 2,
+          "score": 4325.07,
+          "peak_doc": "EFTA00017143_djvu"
         },
         {
           "rank": 5,
-          "text": "account number customer number",
-          "count": 98,
+          "text": "number 800 937 8997",
+          "count": 95,
           "docs": 8,
-          "score": 2892.83,
-          "peak_doc": "EFTA00006387"
-        },
-        {
-          "rank": 6,
-          "text": "call minutes airtime toll",
-          "count": 96,
-          "docs": 8,
-          "score": 2803.51,
+          "score": 4222.34,
           "peak_doc": "EFTA00006487"
         },
         {
-          "rank": 7,
-          "text": "number call minutes airtime",
+          "rank": 6,
+          "text": "number customer number 800",
           "count": 97,
           "docs": 8,
-          "score": 2798.55,
+          "score": 4215.2,
+          "peak_doc": "EFTA00006387"
+        },
+        {
+          "rank": 7,
+          "text": "customer number 800 937",
+          "count": 95,
+          "docs": 8,
+          "score": 4215.2,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 8,
-          "text": "minutes airtime toll total",
-          "count": 95,
+          "text": "account number customer number",
+          "count": 98,
           "docs": 8,
-          "score": 2778.7,
-          "peak_doc": "EFTA00006487"
+          "score": 4165.19,
+          "peak_doc": "EFTA00006387"
         },
         {
           "rank": 9,
-          "text": "time number call minutes",
-          "count": 95,
+          "text": "call minutes airtime toll",
+          "count": 96,
           "docs": 8,
-          "score": 2763.82,
+          "score": 4036.59,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 10,
-          "text": "call time number call",
-          "count": 91,
+          "text": "number call minutes airtime",
+          "count": 97,
           "docs": 8,
-          "score": 2570.3,
+          "score": 4029.45,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 11,
-          "text": "destination called type charges",
-          "count": 92,
+          "text": "minutes airtime toll total",
+          "count": 95,
           "docs": 8,
-          "score": 2550.45,
-          "peak_doc": "EFTA00006387"
+          "score": 4000.87,
+          "peak_doc": "EFTA00006487"
         },
         {
           "rank": 12,
-          "text": "called type charges charges",
-          "count": 92,
+          "text": "time number call minutes",
+          "count": 95,
           "docs": 8,
-          "score": 2545.49,
-          "peak_doc": "EFTA00006387"
+          "score": 3979.43,
+          "peak_doc": "EFTA00006487"
         },
         {
           "rank": 13,
           "text": "sender jeeitunes gmail com",
           "count": 96,
           "docs": 23,
-          "score": 2476.35,
+          "score": 3860.02,
           "peak_doc": "HOUSE_OVERSIGHT_025734"
         },
         {
           "rank": 14,
-          "text": "long distance international charges",
-          "count": 98,
-          "docs": 8,
-          "score": 2446.25,
-          "peak_doc": "EFTA00006487"
+          "text": "jeeitunes gmail com time",
+          "count": 92,
+          "docs": 23,
+          "score": 3750.43,
+          "peak_doc": "HOUSE_OVERSIGHT_025734"
         },
         {
           "rank": 15,
-          "text": "airtime long distance international",
-          "count": 98,
+          "text": "call time number call",
+          "count": 91,
           "docs": 8,
-          "score": 2441.29,
+          "score": 3700.8,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 16,
-          "text": "date call time number",
-          "count": 89,
+          "text": "destination called type charges",
+          "count": 92,
           "docs": 8,
-          "score": 2436.33,
-          "peak_doc": "EFTA00006487"
+          "score": 3672.23,
+          "peak_doc": "EFTA00006387"
         },
         {
           "rank": 17,
-          "text": "jeeitunes gmail com time",
+          "text": "called type charges charges",
           "count": 92,
-          "docs": 23,
-          "score": 2406.05,
-          "peak_doc": "HOUSE_OVERSIGHT_025734"
+          "docs": 8,
+          "score": 3665.08,
+          "peak_doc": "EFTA00006387"
         },
         {
           "rank": 18,
-          "text": "toll total destination called",
-          "count": 85,
+          "text": "long distance international charges",
+          "count": 98,
           "docs": 8,
-          "score": 2371.82,
+          "score": 3522.19,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 19,
-          "text": "airtime toll total destination",
-          "count": 85,
+          "text": "airtime long distance international",
+          "count": 98,
           "docs": 8,
-          "score": 2342.05,
+          "score": 3515.05,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 20,
-          "text": "charges continued date call",
-          "count": 86,
+          "text": "date call time number",
+          "count": 89,
           "docs": 8,
-          "score": 2267.62,
+          "score": 3507.9,
           "peak_doc": "EFTA00006487"
         }
       ]
@@ -18303,163 +18559,163 @@
       "rows": [
         {
           "rank": 21,
-          "text": "continued date call time",
-          "count": 86,
-          "docs": 8,
-          "score": 2232.89,
-          "peak_doc": "EFTA00006487"
+          "text": "2996479 06 17 2020",
+          "count": 416,
+          "docs": 3,
+          "score": 3420.72,
+          "peak_doc": "EFTA00017143_djvu"
         },
         {
           "rank": 22,
-          "text": "total destination called type",
-          "count": 77,
+          "text": "toll total destination called",
+          "count": 85,
           "docs": 8,
-          "score": 2163.42,
-          "peak_doc": "EFTA00006587"
+          "score": 3415.03,
+          "peak_doc": "EFTA00006487"
         },
         {
           "rank": 23,
-          "text": "distance international charges continued",
-          "count": 94,
+          "text": "airtime toll total destination",
+          "count": 85,
           "docs": 8,
-          "score": 2103.88,
+          "score": 3372.16,
           "peak_doc": "EFTA00006487"
         },
         {
           "rank": 24,
-          "text": "details account number customer",
-          "count": 95,
-          "docs": 8,
-          "score": 2088.99,
-          "peak_doc": "EFTA00006387"
+          "text": "jeff jocks jjocks sondeeracine",
+          "count": 36,
+          "docs": 31,
+          "score": 3288.64,
+          "peak_doc": "EFTA00028168_djvu"
         },
         {
           "rank": 25,
-          "text": "flags 1085445 read invitation",
-          "count": 81,
-          "docs": 21,
-          "score": 2046.41,
-          "peak_doc": "HOUSE_OVERSIGHT_025734"
+          "text": "jocks jjocks sondeeracine com",
+          "count": 36,
+          "docs": 31,
+          "score": 3288.64,
+          "peak_doc": "EFTA00028168_djvu"
         },
         {
           "rank": 26,
-          "text": "itemized details account number",
-          "count": 95,
+          "text": "charges continued date call",
+          "count": 86,
           "docs": 8,
-          "score": 2019.52,
-          "peak_doc": "EFTA00006387"
+          "score": 3264.99,
+          "peak_doc": "EFTA00006487"
         },
         {
           "rank": 27,
-          "text": "1085445 read invitation guid",
-          "count": 80,
-          "docs": 21,
-          "score": 1998.44,
-          "peak_doc": "HOUSE_OVERSIGHT_025734"
+          "text": "continued date call time",
+          "count": 86,
+          "docs": 8,
+          "score": 3214.98,
+          "peak_doc": "EFTA00006487"
         },
         {
           "rank": 28,
-          "text": "free state reporting inc",
-          "count": 120,
-          "docs": 8,
-          "score": 1984.79,
-          "peak_doc": "EFTA00008744"
+          "text": "flags 1085445 read invitation",
+          "count": 81,
+          "docs": 21,
+          "score": 3163.82,
+          "peak_doc": "HOUSE_OVERSIGHT_025734"
         },
         {
           "rank": 29,
-          "text": "state reporting inc court",
-          "count": 119,
+          "text": "total destination called type",
+          "count": 77,
           "docs": 8,
-          "score": 1940.13,
-          "peak_doc": "EFTA00008744"
+          "score": 3114.96,
+          "peak_doc": "EFTA00006587"
         },
         {
           "rank": 30,
-          "text": "reporting inc court reporting",
-          "count": 119,
-          "docs": 8,
-          "score": 1940.13,
-          "peak_doc": "EFTA00008744"
+          "text": "1085445 read invitation guid",
+          "count": 80,
+          "docs": 21,
+          "score": 3089.66,
+          "peak_doc": "HOUSE_OVERSIGHT_025734"
         },
         {
           "rank": 31,
-          "text": "inc court reporting transcription",
-          "count": 119,
+          "text": "distance international charges continued",
+          "count": 94,
           "docs": 8,
-          "score": 1935.17,
-          "peak_doc": "EFTA00008744"
+          "score": 3029.23,
+          "peak_doc": "EFTA00006487"
         },
         {
           "rank": 32,
-          "text": "court reporting transcription area",
-          "count": 119,
-          "docs": 8,
-          "score": 1920.28,
-          "peak_doc": "EFTA00008744"
+          "text": "08 cv 80736 kam",
+          "count": 69,
+          "docs": 23,
+          "score": 3025.91,
+          "peak_doc": "EFTA00021442_djvu"
         },
         {
           "rank": 33,
-          "text": "reporting transcription area 301",
-          "count": 119,
-          "docs": 8,
-          "score": 1920.28,
-          "peak_doc": "EFTA00008744"
+          "text": "case 08 cv 80736",
+          "count": 69,
+          "docs": 23,
+          "score": 3013.74,
+          "peak_doc": "EFTA00021442_djvu"
         },
         {
           "rank": 34,
-          "text": "area 301 261 1902",
-          "count": 119,
+          "text": "details account number customer",
+          "count": 95,
           "docs": 8,
-          "score": 1920.28,
-          "peak_doc": "EFTA00008744"
+          "score": 3007.8,
+          "peak_doc": "EFTA00006387"
         },
         {
           "rank": 35,
-          "text": "transcription area 301 261",
-          "count": 119,
-          "docs": 8,
-          "score": 1910.36,
-          "peak_doc": "EFTA00008744"
+          "text": "cv 80736 kam document",
+          "count": 69,
+          "docs": 17,
+          "score": 2946.08,
+          "peak_doc": "EFTA00021442_djvu"
         },
         {
           "rank": 36,
-          "text": "https flemail flipboard com",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "subpoena interlochen center arts",
+          "count": 32,
+          "docs": 35,
+          "score": 2913.61,
+          "peak_doc": "EFTA00025041_djvu"
         },
         {
           "rank": 37,
-          "text": "flemail flipboard com redirect",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "itemized details account number",
+          "count": 95,
+          "docs": 8,
+          "score": 2907.77,
+          "peak_doc": "EFTA00006387"
         },
         {
           "rank": 38,
-          "text": "lang en utm campaign",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "read yes invitation guid",
+          "count": 73,
+          "docs": 23,
+          "score": 2898.06,
+          "peak_doc": "HOUSE_OVERSIGHT_025479"
         },
         {
           "rank": 39,
-          "text": "en utm campaign 10",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "free state reporting inc",
+          "count": 120,
+          "docs": 8,
+          "score": 2857.76,
+          "peak_doc": "EFTA00008744"
         },
         {
           "rank": 40,
-          "text": "utm campaign 10 today",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "state reporting inc court",
+          "count": 119,
+          "docs": 8,
+          "score": 2793.46,
+          "peak_doc": "EFTA00008744"
         }
       ]
     },
@@ -18472,162 +18728,162 @@
       "rows": [
         {
           "rank": 41,
-          "text": "campaign 10 today styling",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "reporting inc court reporting",
+          "count": 119,
+          "docs": 8,
+          "score": 2793.46,
+          "peak_doc": "EFTA00008744"
         },
         {
           "rank": 42,
-          "text": "10 today styling flab",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "inc court reporting transcription",
+          "count": 119,
+          "docs": 8,
+          "score": 2786.32,
+          "peak_doc": "EFTA00008744"
         },
         {
           "rank": 43,
-          "text": "today styling flab cell",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "court reporting transcription area",
+          "count": 119,
+          "docs": 8,
+          "score": 2764.89,
+          "peak_doc": "EFTA00008744"
         },
         {
           "rank": 44,
-          "text": "styling flab cell id",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "reporting transcription area 301",
+          "count": 119,
+          "docs": 8,
+          "score": 2764.89,
+          "peak_doc": "EFTA00008744"
         },
         {
           "rank": 45,
-          "text": "flab cell id flab",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "area 301 261 1902",
+          "count": 119,
+          "docs": 8,
+          "score": 2764.89,
+          "peak_doc": "EFTA00008744"
         },
         {
           "rank": 46,
-          "text": "cell id flab experiment",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "transcription area 301 261",
+          "count": 119,
+          "docs": 8,
+          "score": 2750.6,
+          "peak_doc": "EFTA00008744"
         },
         {
           "rank": 47,
-          "text": "id flab experiment id",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
+          "text": "re subpoena interlochen center",
+          "count": 31,
+          "docs": 31,
+          "score": 2750.18,
+          "peak_doc": "EFTA00025041_djvu"
         },
         {
           "rank": 48,
-          "text": "utm source web url",
-          "count": 67,
-          "docs": 6,
-          "score": 1879.38,
-          "peak_doc": "HOUSE_OVERSIGHT_029866"
-        },
-        {
-          "rank": 49,
           "text": "annap 410 974 0947",
           "count": 119,
           "docs": 8,
-          "score": 1875.62,
+          "score": 2700.59,
+          "peak_doc": "EFTA00008744"
+        },
+        {
+          "rank": 49,
+          "text": "301 261 1902 balt",
+          "count": 119,
+          "docs": 8,
+          "score": 2693.44,
           "peak_doc": "EFTA00008744"
         },
         {
           "rank": 50,
-          "text": "301 261 1902 balt",
-          "count": 119,
-          "docs": 8,
-          "score": 1870.66,
-          "peak_doc": "EFTA00008744"
+          "text": "https flemail flipboard com",
+          "count": 67,
+          "docs": 6,
+          "score": 2660.69,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 51,
-          "text": "read yes invitation guid",
-          "count": 73,
-          "docs": 23,
-          "score": 1859.22,
-          "peak_doc": "HOUSE_OVERSIGHT_025479"
+          "text": "flemail flipboard com redirect",
+          "count": 67,
+          "docs": 6,
+          "score": 2660.69,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 52,
-          "text": "261 1902 balt annap",
-          "count": 119,
-          "docs": 8,
-          "score": 1845.85,
-          "peak_doc": "EFTA00008744"
+          "text": "lang en utm campaign",
+          "count": 67,
+          "docs": 6,
+          "score": 2660.69,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 53,
-          "text": "1902 balt annap 410",
-          "count": 119,
-          "docs": 8,
-          "score": 1840.89,
-          "peak_doc": "EFTA00008744"
+          "text": "en utm campaign 10",
+          "count": 67,
+          "docs": 6,
+          "score": 2660.69,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 54,
-          "text": "balt annap 410 974",
-          "count": 119,
-          "docs": 8,
-          "score": 1826.01,
-          "peak_doc": "EFTA00008744"
+          "text": "utm campaign 10 today",
+          "count": 67,
+          "docs": 6,
+          "score": 2660.69,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 55,
-          "text": "start textstyle anf ts",
-          "count": 171,
-          "docs": 5,
-          "score": 1792.55,
-          "peak_doc": "HOUSE_OVERSIGHT_028382"
+          "text": "campaign 10 today styling",
+          "count": 67,
+          "docs": 6,
+          "score": 2660.69,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 56,
-          "text": "international charges continued date",
-          "count": 82,
-          "docs": 8,
-          "score": 1756.54,
-          "peak_doc": "EFTA00006487"
+          "text": "10 today styling flab",
+          "count": 67,
+          "docs": 6,
+          "score": 2660.69,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 57,
-          "text": "flags 1060865 read yes",
-          "count": 60,
-          "docs": 23,
-          "score": 1636.58,
-          "peak_doc": "HOUSE_OVERSIGHT_025479"
+          "text": "today styling flab cell",
+          "count": 67,
+          "docs": 6,
+          "score": 2660.69,
+          "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 58,
-          "text": "flab experiment id 421",
+          "text": "styling flab cell id",
           "count": 67,
-          "docs": 5,
-          "score": 1602.43,
+          "docs": 6,
+          "score": 2660.69,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 59,
-          "text": "experiment id 421 uid",
+          "text": "flab cell id flab",
           "count": 67,
-          "docs": 5,
-          "score": 1602.43,
+          "docs": 6,
+          "score": 2660.69,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         },
         {
           "rank": 60,
-          "text": "id 421 uid 3646186",
+          "text": "cell id flab experiment",
           "count": 67,
-          "docs": 5,
-          "score": 1602.43,
+          "docs": 6,
+          "score": 2660.69,
           "peak_doc": "HOUSE_OVERSIGHT_029866"
         }
       ]
@@ -18640,123 +18896,123 @@
       "rows": [
         {
           "rank": 1,
-          "text": "copying jeevacation gmail com including copyright",
-          "count": 564,
-          "docs": 269
+          "text": "assistant united states southern district new",
+          "count": 1396,
+          "docs": 958
         },
         {
           "rank": 2,
+          "text": "united states office southern district new",
+          "count": 495,
+          "docs": 464
+        },
+        {
+          "rank": 3,
+          "text": "united states district court southern district",
+          "count": 471,
+          "docs": 320
+        },
+        {
+          "rank": 4,
+          "text": "southern district new st andrew plaza",
+          "count": 586,
+          "docs": 273
+        },
+        {
+          "rank": 5,
+          "text": "copying jeevacation gmail com including copyright",
+          "count": 565,
+          "docs": 270
+        },
+        {
+          "rank": 6,
+          "text": "states district court southern district new",
+          "count": 406,
+          "docs": 265
+        },
+        {
+          "rank": 7,
+          "text": "ghislaine maxwell 20 cr 330 ajn",
+          "count": 286,
+          "docs": 252
+        },
+        {
+          "rank": 8,
+          "text": "southern district new one saint andrew",
+          "count": 272,
+          "docs": 251
+        },
+        {
+          "rank": 9,
+          "text": "district new one saint andrew plaza",
+          "count": 272,
+          "docs": 251
+        },
+        {
+          "rank": 10,
+          "text": "united states southern district new st",
+          "count": 541,
+          "docs": 242
+        },
+        {
+          "rank": 11,
+          "text": "states southern district new st andrew",
+          "count": 540,
+          "docs": 241
+        },
+        {
+          "rank": 12,
           "text": "gmail com including copyright house oversight",
           "count": 271,
           "docs": 241
         },
         {
-          "rank": 3,
+          "rank": 13,
           "text": "jeevacation gmail com including copyright house",
           "count": 270,
           "docs": 240
         },
         {
-          "rank": 4,
-          "text": "constitute inside addressee property jee copying",
-          "count": 553,
-          "docs": 238
-        },
-        {
-          "rank": 5,
-          "text": "note constitute inside addressee property jee",
-          "count": 530,
-          "docs": 235
-        },
-        {
-          "rank": 6,
-          "text": "addressee property jee copying jeevacation gmail",
-          "count": 494,
-          "docs": 228
-        },
-        {
-          "rank": 7,
-          "text": "property jee copying jeevacation gmail com",
-          "count": 494,
-          "docs": 228
-        },
-        {
-          "rank": 8,
-          "text": "inside addressee property jee copying jeevacation",
-          "count": 486,
-          "docs": 228
-        },
-        {
-          "rank": 9,
-          "text": "jee copying jeevacation gmail com including",
-          "count": 479,
-          "docs": 222
-        },
-        {
-          "rank": 10,
-          "text": "jeevacation gmail com including copyright note",
-          "count": 261,
-          "docs": 104
-        },
-        {
-          "rank": 11,
-          "text": "copyright note constitute inside addressee property",
-          "count": 252,
-          "docs": 99
-        },
-        {
-          "rank": 12,
-          "text": "including copyright note constitute inside addressee",
-          "count": 250,
-          "docs": 99
-        },
-        {
-          "rank": 13,
-          "text": "com including copyright note constitute inside",
-          "count": 246,
-          "docs": 98
-        },
-        {
           "rank": 14,
-          "text": "gmail com including copyright note constitute",
-          "count": 241,
-          "docs": 96
+          "text": "constitute inside addressee property jee copying",
+          "count": 554,
+          "docs": 239
         },
         {
           "rank": 15,
-          "text": "pm jeffrey jeevacation gmail com wrote",
-          "count": 149,
-          "docs": 69
+          "text": "district new st andrew plaza new",
+          "count": 530,
+          "docs": 237
         },
         {
           "rank": 16,
-          "text": "constitute inside addressee property jeffrey epstein",
-          "count": 106,
-          "docs": 68
+          "text": "note constitute inside addressee property jee",
+          "count": 531,
+          "docs": 236
         },
         {
           "rank": 17,
-          "text": "inside addressee property jeffrey epstein copying",
-          "count": 102,
-          "docs": 67
+          "text": "new st andrew plaza new 10007",
+          "count": 525,
+          "docs": 233
         },
         {
           "rank": 18,
-          "text": "jeffrey epstein copying jeevacation gmail com",
-          "count": 101,
-          "docs": 67
+          "text": "new one saint andrew plaza new",
+          "count": 249,
+          "docs": 230
         },
         {
           "rank": 19,
-          "text": "addressee property jeffrey epstein copying jeevacation",
-          "count": 97,
-          "docs": 66
+          "text": "addressee property jee copying jeevacation gmail",
+          "count": 495,
+          "docs": 229
         },
         {
           "rank": 20,
-          "text": "property jeffrey epstein copying jeevacation gmail",
-          "count": 97,
-          "docs": 66
+          "text": "property jee copying jeevacation gmail com",
+          "count": 495,
+          "docs": 229
         }
       ]
     },
@@ -18768,123 +19024,123 @@
       "rows": [
         {
           "rank": 21,
-          "text": "epstein copying jeevacation gmail com including",
-          "count": 97,
-          "docs": 65
+          "text": "inside addressee property jee copying jeevacation",
+          "count": 487,
+          "docs": 229
         },
         {
           "rank": 22,
-          "text": "pm jeffrey jeeyacation gmail com re",
-          "count": 53,
-          "docs": 53
+          "text": "united states ghislaine maxwell 20 cr",
+          "count": 246,
+          "docs": 226
         },
         {
           "rank": 23,
-          "text": "am jeffrey jeevacation gmail com wrote",
-          "count": 93,
-          "docs": 50
+          "text": "states ghislaine maxwell 20 cr 330",
+          "count": 244,
+          "docs": 226
         },
         {
           "rank": 24,
-          "text": "jeeyacation gmail com re importance high",
-          "count": 50,
-          "docs": 50
+          "text": "jee copying jeevacation gmail com including",
+          "count": 480,
+          "docs": 223
         },
         {
           "rank": 25,
-          "text": "pm jeffrey epstein jeeyacation gmail com",
-          "count": 48,
-          "docs": 48
+          "text": "one saint andrew plaza new 10007",
+          "count": 237,
+          "docs": 221
         },
         {
           "rank": 26,
-          "text": "responsible delivery message person read copy",
-          "count": 130,
-          "docs": 39
+          "text": "united states southern district new one",
+          "count": 235,
+          "docs": 218
         },
         {
           "rank": 27,
-          "text": "delivery message person read copy forward",
-          "count": 130,
-          "docs": 39
+          "text": "states southern district new one saint",
+          "count": 231,
+          "docs": 214
         },
         {
           "rank": 28,
-          "text": "message person read copy forward message",
-          "count": 130,
-          "docs": 39
+          "text": "states united states office southern district",
+          "count": 209,
+          "docs": 206
         },
         {
           "rank": 29,
-          "text": "delete message including hereof kindly sender",
-          "count": 130,
-          "docs": 39
+          "text": "united states united states office southern",
+          "count": 206,
+          "docs": 203
         },
         {
           "rank": 30,
-          "text": "message including hereof kindly sender reply",
-          "count": 130,
-          "docs": 39
+          "text": "assistant united states united states office",
+          "count": 193,
+          "docs": 192
         },
         {
           "rank": 31,
-          "text": "person read copy forward message anyone",
-          "count": 128,
-          "docs": 39
+          "text": "one saint andrew plaza new new",
+          "count": 192,
+          "docs": 186
         },
         {
           "rank": 32,
-          "text": "read copy forward message anyone case",
-          "count": 128,
-          "docs": 39
+          "text": "metropolitan correctional center 150 park row",
+          "count": 246,
+          "docs": 181
         },
         {
           "rank": 33,
-          "text": "anyone case delete message including hereof",
-          "count": 128,
-          "docs": 39
+          "text": "southern district new silvio mollo building",
+          "count": 182,
+          "docs": 177
         },
         {
           "rank": 34,
-          "text": "case delete message including hereof kindly",
-          "count": 128,
-          "docs": 39
+          "text": "150 park row new new 10007",
+          "count": 262,
+          "docs": 176
         },
         {
           "rank": 35,
-          "text": "addressee indicated message responsible delivery message",
-          "count": 127,
-          "docs": 39
+          "text": "correctional center 150 park row new",
+          "count": 232,
+          "docs": 176
         },
         {
           "rank": 36,
-          "text": "copy forward message anyone case delete",
-          "count": 126,
-          "docs": 39
+          "text": "united states southern district new silvio",
+          "count": 181,
+          "docs": 176
         },
         {
           "rank": 37,
-          "text": "forward message anyone case delete message",
-          "count": 126,
-          "docs": 39
+          "text": "states southern district new silvio mollo",
+          "count": 180,
+          "docs": 175
         },
         {
           "rank": 38,
-          "text": "message anyone case delete message including",
-          "count": 126,
-          "docs": 39
+          "text": "saint andrew plaza new new 10007",
+          "count": 180,
+          "docs": 174
         },
         {
           "rank": 39,
-          "text": "work product addressee indicated message responsible",
-          "count": 126,
-          "docs": 38
+          "text": "mollo building one saint andrew plaza",
+          "count": 178,
+          "docs": 173
         },
         {
           "rank": 40,
-          "text": "product addressee indicated message responsible delivery",
-          "count": 126,
-          "docs": 38
+          "text": "building one saint andrew plaza new",
+          "count": 177,
+          "docs": 172
         }
       ]
     },
@@ -18896,123 +19152,123 @@
       "rows": [
         {
           "rank": 41,
-          "text": "indicated message responsible delivery message person",
-          "count": 126,
-          "docs": 38
+          "text": "re united states ghislaine maxwell 20",
+          "count": 190,
+          "docs": 169
         },
         {
           "rank": 42,
-          "text": "message responsible delivery message person read",
-          "count": 126,
-          "docs": 38
+          "text": "department justice united states southern district",
+          "count": 164,
+          "docs": 155
         },
         {
           "rank": 43,
-          "text": "contain work product addressee indicated message",
-          "count": 124,
-          "docs": 38
+          "text": "states office southern district new one",
+          "count": 160,
+          "docs": 155
         },
         {
           "rank": 44,
-          "text": "jeffrey jeeyacation gmail com re importance",
-          "count": 35,
-          "docs": 35
+          "text": "silvio mollo building one saint andrew",
+          "count": 160,
+          "docs": 155
         },
         {
           "rank": 45,
-          "text": "pm jeffrey epstein jeevacation gmail com",
-          "count": 38,
-          "docs": 33
+          "text": "district new silvio mollo building one",
+          "count": 159,
+          "docs": 154
         },
         {
           "rank": 46,
-          "text": "inside addressee property jee copying house",
-          "count": 38,
-          "docs": 29
+          "text": "new silvio mollo building one saint",
+          "count": 159,
+          "docs": 154
         },
         {
           "rank": 47,
-          "text": "addressee property jee copying house oversight",
-          "count": 38,
-          "docs": 29
+          "text": "bobbi sternheim esq law offices bobbi",
+          "count": 206,
+          "docs": 150
         },
         {
           "rank": 48,
-          "text": "environment printing contain work product addressee",
-          "count": 74,
-          "docs": 25
+          "text": "sternheim esq law offices bobbi sternheim",
+          "count": 204,
+          "docs": 149
         },
         {
           "rank": 49,
-          "text": "printing contain work product addressee indicated",
-          "count": 74,
-          "docs": 25
+          "text": "one st andrew plaza new new",
+          "count": 144,
+          "docs": 143
         },
         {
           "rank": 50,
-          "text": "jeffrey epstein jeeyacation gmail com re",
-          "count": 24,
-          "docs": 24
+          "text": "st andrew plaza new new 10007",
+          "count": 144,
+          "docs": 143
         },
         {
           "rank": 51,
-          "text": "flags 1060865 read yes invitation guid",
-          "count": 400,
-          "docs": 23
+          "text": "best assistant united states southern district",
+          "count": 248,
+          "docs": 142
         },
         {
           "rank": 52,
-          "text": "including hereof kindly sender reply phone",
-          "count": 84,
-          "docs": 23
+          "text": "child exploitation human trafficking task force",
+          "count": 217,
+          "docs": 142
         },
         {
           "rank": 53,
-          "text": "consider environment printing contain work product",
-          "count": 68,
-          "docs": 23
+          "text": "united states southern district new new",
+          "count": 161,
+          "docs": 142
         },
         {
           "rank": 54,
-          "text": "macintosh hd root users jee library",
-          "count": 23,
-          "docs": 23
+          "text": "mcc new 150 park row new",
+          "count": 187,
+          "docs": 140
         },
         {
           "rank": 55,
-          "text": "hd root users jee library messages",
-          "count": 23,
-          "docs": 23
+          "text": "using e2solutions help support available online",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 56,
-          "text": "root users jee library messages archive",
-          "count": 23,
-          "docs": 23
+          "text": "e2solutions help support available online selecting",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 57,
-          "text": "html note constitute inside addressee property",
-          "count": 27,
-          "docs": 21
+          "text": "help support available online selecting online",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 58,
-          "text": "copying jeevacation gmail com house oversight",
-          "count": 25,
-          "docs": 21
+          "text": "support available online selecting online help",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 59,
-          "text": "presentity ids jeeitunes gmail com messages",
-          "count": 21,
-          "docs": 21
+          "text": "available online selecting online help link",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 60,
-          "text": "ids jeeitunes gmail com messages sender",
-          "count": 21,
-          "docs": 21
+          "text": "e2 notifications optional manage notifications go",
+          "count": 138,
+          "docs": 138
         }
       ]
     },
@@ -19024,123 +19280,123 @@
       "rows": [
         {
           "rank": 61,
-          "text": "including hereof kindly sender reply facsimile",
-          "count": 46,
-          "docs": 19
+          "text": "notifications optional manage notifications go e2",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 62,
-          "text": "hereof kindly sender reply facsimile phone",
-          "count": 46,
-          "docs": 19
+          "text": "optional manage notifications go e2 solutions",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 63,
-          "text": "19 20 21 22 23 24",
-          "count": 39,
-          "docs": 19
+          "text": "manage notifications go e2 solutions change",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 64,
-          "text": "575 lexington avenue 4th floor new",
-          "count": 35,
-          "docs": 19
+          "text": "notifications go e2 solutions change settings",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 65,
-          "text": "chat room participants jee presentity ids",
-          "count": 19,
-          "docs": 19
+          "text": "go e2 solutions change settings click",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 66,
-          "text": "room participants jee presentity ids jeeitunes",
-          "count": 19,
-          "docs": 19
+          "text": "e2 solutions change settings click task",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 67,
-          "text": "participants jee presentity ids jeeitunes gmail",
-          "count": 19,
-          "docs": 19
+          "text": "solutions change settings click task bar",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 68,
-          "text": "jee presentity ids jeeitunes gmail com",
-          "count": 19,
-          "docs": 19
+          "text": "change settings click task bar click",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 69,
-          "text": "17 18 19 20 21 22",
-          "count": 40,
-          "docs": 18
+          "text": "settings click task bar click edit",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 70,
-          "text": "18 19 20 21 22 23",
-          "count": 39,
-          "docs": 18
+          "text": "click task bar click edit notifications",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 71,
-          "text": "16 17 18 19 20 21",
-          "count": 37,
-          "docs": 18
+          "text": "task bar click edit notifications link",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 72,
-          "text": "20 21 22 23 24 25",
-          "count": 35,
-          "docs": 18
+          "text": "bar click edit notifications link manage",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 73,
-          "text": "15 16 17 18 19 20",
-          "count": 35,
-          "docs": 18
+          "text": "click edit notifications link manage emails",
+          "count": 137,
+          "docs": 137
         },
         {
           "rank": 74,
-          "text": "14 15 16 17 18 19",
-          "count": 32,
-          "docs": 18
+          "text": "edit notifications link manage emails receive",
+          "count": 137,
+          "docs": 137
         },
         {
           "rank": 75,
-          "text": "elisa new powell cabot professor literature",
-          "count": 30,
-          "docs": 18
+          "text": "notifications link manage emails receive reference",
+          "count": 137,
+          "docs": 137
         },
         {
           "rank": 76,
-          "text": "jee copying jeevacation gmail com house",
-          "count": 22,
-          "docs": 18
+          "text": "online selecting online help link note",
+          "count": 136,
+          "docs": 136
         },
         {
           "rank": 77,
-          "text": "source entry macintosh hd root users",
-          "count": 18,
-          "docs": 18
+          "text": "selecting online help link note replies",
+          "count": 136,
+          "docs": 136
         },
         {
           "rank": 78,
-          "text": "entry macintosh hd root users jee",
-          "count": 18,
-          "docs": 18
+          "text": "online help link note replies mailbox",
+          "count": 136,
+          "docs": 136
         },
         {
           "rank": 79,
-          "text": "13 14 15 16 17 18",
-          "count": 30,
-          "docs": 17
+          "text": "help link note replies mailbox monitored",
+          "count": 136,
+          "docs": 136
         },
         {
           "rank": 80,
-          "text": "148 barker center 12 quincy street",
-          "count": 30,
-          "docs": 17
+          "text": "note replies mailbox monitored e2 notifications",
+          "count": 136,
+          "docs": 136
         }
       ]
     },
@@ -19152,123 +19408,123 @@
       "rows": [
         {
           "rank": 81,
-          "text": "harvard university 148 barker center 12",
-          "count": 29,
-          "docs": 17
+          "text": "replies mailbox monitored e2 notifications optional",
+          "count": 136,
+          "docs": 136
         },
         {
           "rank": 82,
-          "text": "university 148 barker center 12 quincy",
-          "count": 29,
-          "docs": 17
+          "text": "mailbox monitored e2 notifications optional manage",
+          "count": 136,
+          "docs": 136
         },
         {
           "rank": 83,
-          "text": "barker center 12 quincy street cambridge",
-          "count": 29,
-          "docs": 17
+          "text": "monitored e2 notifications optional manage notifications",
+          "count": 136,
+          "docs": 136
         },
         {
           "rank": 84,
-          "text": "copying jeevacation gmail com including house",
-          "count": 18,
-          "docs": 17
+          "text": "link manage emails receive reference id",
+          "count": 136,
+          "docs": 136
         },
         {
           "rank": 85,
-          "text": "jeevacation gmail com including house oversight",
-          "count": 18,
-          "docs": 17
+          "text": "e2 manual login user id password",
+          "count": 134,
+          "docs": 134
         },
         {
           "rank": 86,
-          "text": "9a 4p 530p 7p thur 9a",
-          "count": 202,
-          "docs": 16
+          "text": "link note replies mailbox monitored e2",
+          "count": 134,
+          "docs": 134
         },
         {
           "rank": 87,
-          "text": "4p 530p 7p thur 9a 530p",
-          "count": 202,
-          "docs": 16
+          "text": "justice united states southern district new",
+          "count": 138,
+          "docs": 133
         },
         {
           "rank": 88,
-          "text": "flags 1126401 read yes invitation guid",
-          "count": 54,
-          "docs": 16
+          "text": "read copy distribute transmission sender reply",
+          "count": 190,
+          "docs": 128
         },
         {
           "rank": 89,
-          "text": "llp 85 fifth avenue new 10003",
-          "count": 36,
-          "docs": 16
+          "text": "copy distribute transmission sender reply delete",
+          "count": 190,
+          "docs": 128
         },
         {
           "rank": 90,
-          "text": "assistant united states southern district new",
-          "count": 30,
-          "docs": 16
+          "text": "distribute transmission sender reply delete message",
+          "count": 190,
+          "docs": 128
         },
         {
           "rank": 91,
-          "text": "landon thomas jr financial reporter new",
-          "count": 30,
-          "docs": 16
+          "text": "southern district new one st andrew",
+          "count": 129,
+          "docs": 128
         },
         {
           "rank": 92,
-          "text": "thomas jr financial reporter new times",
-          "count": 30,
-          "docs": 16
+          "text": "district new one st andrew plaza",
+          "count": 129,
+          "docs": 128
         },
         {
           "rank": 93,
-          "text": "center 12 quincy street cambridge ma",
-          "count": 28,
-          "docs": 16
+          "text": "login user id password https e2",
+          "count": 128,
+          "docs": 128
         },
         {
           "rank": 94,
-          "text": "12 13 14 15 16 17",
-          "count": 27,
-          "docs": 16
+          "text": "user id password https e2 gov",
+          "count": 128,
+          "docs": 128
         },
         {
           "rank": 95,
-          "text": "jr financial reporter new times http",
-          "count": 26,
-          "docs": 16
+          "text": "id password https e2 gov cwtsatotravel",
+          "count": 128,
+          "docs": 128
         },
         {
           "rank": 96,
-          "text": "financial reporter new times http topics",
-          "count": 26,
-          "docs": 16
+          "text": "password https e2 gov cwtsatotravel com",
+          "count": 128,
+          "docs": 128
         },
         {
           "rank": 97,
-          "text": "12 quincy street cambridge ma 02138",
-          "count": 26,
-          "docs": 16
+          "text": "fbi child exploitation human trafficking task",
+          "count": 202,
+          "docs": 127
         },
         {
           "rank": 98,
-          "text": "jeffrey epstein jeevacation gmail com wrote",
-          "count": 25,
-          "docs": 16
+          "text": "nypd fbi child exploitation human trafficking",
+          "count": 201,
+          "docs": 126
         },
         {
           "rank": 99,
-          "text": "constitute inside addressee property house oversight",
-          "count": 16,
-          "docs": 16
+          "text": "manual login user id password https",
+          "count": 126,
+          "docs": 126
         },
         {
           "rank": 100,
-          "text": "wigdor llp 85 fifth avenue new",
-          "count": 34,
-          "docs": 15
+          "text": "https e2 gov cwtsatotravel com using",
+          "count": 126,
+          "docs": 126
         }
       ]
     },
@@ -19280,123 +19536,123 @@
       "rows": [
         {
           "rank": 1,
-          "text": "copying jeevacation gmail com including",
-          "count": 588,
-          "docs": 287
+          "text": "united states southern district new",
+          "count": 1870,
+          "docs": 1337
         },
         {
           "rank": 2,
-          "text": "jeevacation gmail com including copyright",
-          "count": 615,
-          "docs": 277
+          "text": "assistant united states southern district",
+          "count": 1403,
+          "docs": 965
         },
         {
           "rank": 3,
-          "text": "com including copyright house oversight",
-          "count": 275,
-          "docs": 244
+          "text": "united states office southern district",
+          "count": 522,
+          "docs": 486
         },
         {
           "rank": 4,
-          "text": "gmail com including copyright house",
-          "count": 271,
-          "docs": 241
+          "text": "states office southern district new",
+          "count": 496,
+          "docs": 465
         },
         {
           "rank": 5,
-          "text": "constitute inside addressee property jee",
-          "count": 563,
-          "docs": 239
+          "text": "one saint andrew plaza new",
+          "count": 435,
+          "docs": 410
         },
         {
           "rank": 6,
-          "text": "inside addressee property jee copying",
-          "count": 553,
-          "docs": 238
+          "text": "maxwell 20 cr 330 ajn",
+          "count": 762,
+          "docs": 370
         },
         {
           "rank": 7,
-          "text": "note constitute inside addressee property",
-          "count": 546,
-          "docs": 237
+          "text": "states district court southern district",
+          "count": 478,
+          "docs": 323
         },
         {
           "rank": 8,
-          "text": "jee copying jeevacation gmail com",
-          "count": 507,
-          "docs": 229
+          "text": "district court southern district new",
+          "count": 468,
+          "docs": 322
         },
         {
           "rank": 9,
-          "text": "addressee property jee copying jeevacation",
-          "count": 499,
-          "docs": 229
+          "text": "united states district court southern",
+          "count": 472,
+          "docs": 320
         },
         {
           "rank": 10,
-          "text": "property jee copying jeevacation gmail",
-          "count": 494,
-          "docs": 228
+          "text": "andrew plaza new new 10007",
+          "count": 326,
+          "docs": 308
         },
         {
           "rank": 11,
-          "text": "jeffrey jeevacation gmail com wrote",
-          "count": 278,
-          "docs": 109
+          "text": "st andrew plaza new 10007",
+          "count": 602,
+          "docs": 290
         },
         {
           "rank": 12,
-          "text": "gmail com including copyright note",
-          "count": 265,
-          "docs": 105
+          "text": "copying jeevacation gmail com including",
+          "count": 591,
+          "docs": 290
         },
         {
           "rank": 13,
-          "text": "including copyright note constitute inside",
-          "count": 263,
-          "docs": 100
+          "text": "jeevacation gmail com including copyright",
+          "count": 616,
+          "docs": 278
         },
         {
           "rank": 14,
-          "text": "copyright note constitute inside addressee",
-          "count": 252,
-          "docs": 99
+          "text": "southern district new st andrew",
+          "count": 588,
+          "docs": 275
         },
         {
           "rank": 15,
-          "text": "com including copyright note constitute",
-          "count": 246,
-          "docs": 98
+          "text": "district new st andrew plaza",
+          "count": 587,
+          "docs": 273
         },
         {
           "rank": 16,
-          "text": "jeffrey epstein jeevacation gmail com",
-          "count": 107,
-          "docs": 84
+          "text": "0000 importance normal text htm",
+          "count": 266,
+          "docs": 266
         },
         {
           "rank": 17,
-          "text": "jeffrey epstein jeeyacation gmail com",
-          "count": 82,
-          "docs": 82
+          "text": "ghislaine maxwell 20 cr 330",
+          "count": 293,
+          "docs": 258
         },
         {
           "rank": 18,
-          "text": "pm jeffrey jeevacation gmail com",
-          "count": 161,
-          "docs": 77
+          "text": "southern district new one saint",
+          "count": 279,
+          "docs": 258
         },
         {
           "rank": 19,
-          "text": "pm jeffrey jeeyacation gmail com",
-          "count": 74,
-          "docs": 73
+          "text": "district new one saint andrew",
+          "count": 272,
+          "docs": 251
         },
         {
           "rank": 20,
-          "text": "constitute inside addressee property jeffrey",
-          "count": 106,
-          "docs": 68
+          "text": "new one saint andrew plaza",
+          "count": 272,
+          "docs": 251
         }
       ]
     },
@@ -19408,123 +19664,123 @@
       "rows": [
         {
           "rank": 21,
-          "text": "inside addressee property jeffrey epstein",
-          "count": 106,
-          "docs": 68
+          "text": "com including copyright house oversight",
+          "count": 275,
+          "docs": 244
         },
         {
           "rank": 22,
-          "text": "addressee property jeffrey epstein copying",
-          "count": 104,
-          "docs": 67
+          "text": "states southern district new st",
+          "count": 542,
+          "docs": 243
         },
         {
           "rank": 23,
-          "text": "jeffrey epstein copying jeevacation gmail",
-          "count": 101,
-          "docs": 67
+          "text": "gmail com including copyright house",
+          "count": 271,
+          "docs": 241
         },
         {
           "rank": 24,
-          "text": "epstein copying jeevacation gmail com",
-          "count": 101,
-          "docs": 67
+          "text": "constitute inside addressee property jee",
+          "count": 564,
+          "docs": 240
         },
         {
           "rank": 25,
-          "text": "property jeffrey epstein copying jeevacation",
-          "count": 97,
-          "docs": 66
+          "text": "inside addressee property jee copying",
+          "count": 554,
+          "docs": 239
         },
         {
           "rank": 26,
-          "text": "jeffrey jeeyacation gmail com re",
-          "count": 66,
-          "docs": 66
+          "text": "note constitute inside addressee property",
+          "count": 547,
+          "docs": 238
         },
         {
           "rank": 27,
-          "text": "gmail com re importance high",
-          "count": 61,
-          "docs": 61
+          "text": "new st andrew plaza new",
+          "count": 530,
+          "docs": 237
         },
         {
           "rank": 28,
-          "text": "am jeffrey jeevacation gmail com",
-          "count": 103,
-          "docs": 59
+          "text": "saint andrew plaza new 10007",
+          "count": 248,
+          "docs": 231
         },
         {
           "rank": 29,
-          "text": "jeeyacation gmail com re importance",
-          "count": 50,
-          "docs": 50
+          "text": "jee copying jeevacation gmail com",
+          "count": 508,
+          "docs": 230
         },
         {
           "rank": 30,
-          "text": "pm jeffrey epstein jeeyacation gmail",
-          "count": 48,
-          "docs": 48
+          "text": "addressee property jee copying jeevacation",
+          "count": 500,
+          "docs": 230
         },
         {
           "rank": 31,
-          "text": "work product addressee indicated message",
-          "count": 130,
-          "docs": 39
+          "text": "re united states ghislaine maxwell",
+          "count": 262,
+          "docs": 230
         },
         {
           "rank": 32,
-          "text": "responsible delivery message person read",
-          "count": 130,
-          "docs": 39
+          "text": "property jee copying jeevacation gmail",
+          "count": 495,
+          "docs": 229
         },
         {
           "rank": 33,
-          "text": "delivery message person read copy",
-          "count": 130,
-          "docs": 39
+          "text": "united states ghislaine maxwell 20",
+          "count": 256,
+          "docs": 228
         },
         {
           "rank": 34,
-          "text": "message person read copy forward",
-          "count": 130,
-          "docs": 39
+          "text": "states ghislaine maxwell 20 cr",
+          "count": 246,
+          "docs": 226
         },
         {
           "rank": 35,
-          "text": "person read copy forward message",
-          "count": 130,
-          "docs": 39
+          "text": "states southern district new one",
+          "count": 238,
+          "docs": 221
         },
         {
           "rank": 36,
-          "text": "delete message including hereof kindly",
-          "count": 130,
-          "docs": 39
+          "text": "00 00 0000 end date",
+          "count": 220,
+          "docs": 220
         },
         {
           "rank": 37,
-          "text": "message including hereof kindly sender",
-          "count": 130,
-          "docs": 39
+          "text": "united states united states office",
+          "count": 212,
+          "docs": 209
         },
         {
           "rank": 38,
-          "text": "including hereof kindly sender reply",
-          "count": 130,
-          "docs": 39
+          "text": "states united states office southern",
+          "count": 209,
+          "docs": 206
         },
         {
           "rank": 39,
-          "text": "read copy forward message anyone",
-          "count": 128,
-          "docs": 39
+          "text": "department justice federal bureau prisons",
+          "count": 282,
+          "docs": 199
         },
         {
           "rank": 40,
-          "text": "copy forward message anyone case",
-          "count": 128,
-          "docs": 39
+          "text": "correctional center 150 park row",
+          "count": 260,
+          "docs": 195
         }
       ]
     },
@@ -19536,123 +19792,123 @@
       "rows": [
         {
           "rank": 41,
-          "text": "anyone case delete message including",
-          "count": 128,
-          "docs": 39
+          "text": "assistant united states united states",
+          "count": 193,
+          "docs": 192
         },
         {
           "rank": 42,
-          "text": "case delete message including hereof",
-          "count": 128,
-          "docs": 39
+          "text": "saint andrew plaza new new",
+          "count": 192,
+          "docs": 186
         },
         {
           "rank": 43,
-          "text": "addressee indicated message responsible delivery",
-          "count": 127,
-          "docs": 39
+          "text": "metropolitan correctional center 150 park",
+          "count": 247,
+          "docs": 182
         },
         {
           "rank": 44,
-          "text": "indicated message responsible delivery message",
-          "count": 127,
-          "docs": 39
+          "text": "center 150 park row new",
+          "count": 238,
+          "docs": 182
         },
         {
           "rank": 45,
-          "text": "forward message anyone case delete",
-          "count": 126,
-          "docs": 39
+          "text": "150 park row new new",
+          "count": 264,
+          "docs": 178
         },
         {
           "rank": 46,
-          "text": "message anyone case delete message",
-          "count": 126,
-          "docs": 39
+          "text": "00 0000 end date 2019",
+          "count": 178,
+          "docs": 178
         },
         {
           "rank": 47,
-          "text": "product addressee indicated message responsible",
-          "count": 126,
-          "docs": 38
+          "text": "park row new new 10007",
+          "count": 263,
+          "docs": 177
         },
         {
           "rank": 48,
-          "text": "message responsible delivery message person",
-          "count": 126,
-          "docs": 38
+          "text": "southern district new silvio mollo",
+          "count": 182,
+          "docs": 177
         },
         {
           "rank": 49,
-          "text": "contain work product addressee indicated",
-          "count": 124,
-          "docs": 38
+          "text": "district new silvio mollo building",
+          "count": 182,
+          "docs": 177
         },
         {
           "rank": 50,
-          "text": "pm jeffrey epstein jeevacation gmail",
-          "count": 38,
-          "docs": 33
+          "text": "class personal comment date created",
+          "count": 177,
+          "docs": 177
         },
         {
           "rank": 51,
-          "text": "addressee property jee copying house",
-          "count": 38,
-          "docs": 29
+          "text": "southern district new united states",
+          "count": 196,
+          "docs": 176
         },
         {
           "rank": 52,
-          "text": "property jee copying house oversight",
-          "count": 38,
-          "docs": 29
+          "text": "states southern district new silvio",
+          "count": 181,
+          "docs": 176
         },
         {
           "rank": 53,
-          "text": "85 fifth avenue new 10003",
-          "count": 72,
-          "docs": 28
+          "text": "building one saint andrew plaza",
+          "count": 179,
+          "docs": 174
         },
         {
           "rank": 54,
-          "text": "epstein jeeyacation gmail com re",
-          "count": 26,
-          "docs": 26
+          "text": "mollo building one saint andrew",
+          "count": 178,
+          "docs": 173
         },
         {
           "rank": 55,
-          "text": "environment printing contain work product",
-          "count": 74,
-          "docs": 25
+          "text": "one st andrew plaza new",
+          "count": 166,
+          "docs": 165
         },
         {
           "rank": 56,
-          "text": "printing contain work product addressee",
-          "count": 74,
-          "docs": 25
+          "text": "office southern district new one",
+          "count": 163,
+          "docs": 158
         },
         {
           "rank": 57,
-          "text": "sender jeeitunes gmail com time",
-          "count": 619,
-          "docs": 23
+          "text": "silvio mollo building one saint",
+          "count": 161,
+          "docs": 156
         },
         {
           "rank": 58,
-          "text": "flags 1060865 read yes invitation",
-          "count": 413,
-          "docs": 23
+          "text": "department justice united states southern",
+          "count": 164,
+          "docs": 155
         },
         {
           "rank": 59,
-          "text": "1060865 read yes invitation guid",
-          "count": 400,
-          "docs": 23
+          "text": "justice united states southern district",
+          "count": 164,
+          "docs": 155
         },
         {
           "rank": 60,
-          "text": "hereof kindly sender reply phone",
-          "count": 84,
-          "docs": 23
+          "text": "new silvio mollo building one",
+          "count": 159,
+          "docs": 154
         }
       ]
     },
@@ -19664,123 +19920,123 @@
       "rows": [
         {
           "rank": 61,
-          "text": "consider environment printing contain work",
-          "count": 68,
-          "docs": 23
+          "text": "united states assistant united states",
+          "count": 154,
+          "docs": 153
         },
         {
           "rank": 62,
-          "text": "jeevacation gmail com house oversight",
-          "count": 27,
-          "docs": 23
+          "text": "esq law offices bobbi sternheim",
+          "count": 207,
+          "docs": 152
         },
         {
           "rank": 63,
-          "text": "macintosh hd root users jee",
-          "count": 23,
-          "docs": 23
+          "text": "mcc new 150 park row",
+          "count": 204,
+          "docs": 152
         },
         {
           "rank": 64,
-          "text": "hd root users jee library",
-          "count": 23,
-          "docs": 23
+          "text": "bobbi sternheim esq law offices",
+          "count": 206,
+          "docs": 150
         },
         {
           "rank": 65,
-          "text": "root users jee library messages",
-          "count": 23,
-          "docs": 23
+          "text": "sternheim esq law offices bobbi",
+          "count": 206,
+          "docs": 150
         },
         {
           "rank": 66,
-          "text": "users jee library messages archive",
-          "count": 23,
-          "docs": 23
+          "text": "audrey strauss acting united states",
+          "count": 156,
+          "docs": 147
         },
         {
           "rank": 67,
-          "text": "presentity ids jeeitunes gmail com",
-          "count": 23,
-          "docs": 23
+          "text": "new 150 park row new",
+          "count": 192,
+          "docs": 145
         },
         {
           "rank": 68,
-          "text": "flags 1085445 read invitation guid",
-          "count": 501,
-          "docs": 21
+          "text": "st andrew plaza new new",
+          "count": 146,
+          "docs": 145
         },
         {
           "rank": 69,
-          "text": "united states southern district new",
-          "count": 36,
-          "docs": 21
+          "text": "exploitation human trafficking task force",
+          "count": 218,
+          "docs": 143
         },
         {
           "rank": 70,
-          "text": "html note constitute inside addressee",
-          "count": 27,
-          "docs": 21
+          "text": "west palm beach fl 33401",
+          "count": 200,
+          "docs": 143
         },
         {
           "rank": 71,
-          "text": "copying jeevacation gmail com house",
-          "count": 25,
-          "docs": 21
+          "text": "states southern district new new",
+          "count": 162,
+          "docs": 143
         },
         {
           "rank": 72,
-          "text": "ids jeeitunes gmail com messages",
-          "count": 21,
-          "docs": 21
+          "text": "best assistant united states southern",
+          "count": 248,
+          "docs": 142
         },
         {
           "rank": 73,
-          "text": "jeeitunes gmail com messages sender",
-          "count": 21,
-          "docs": 21
+          "text": "child exploitation human trafficking task",
+          "count": 217,
+          "docs": 142
         },
         {
           "rank": 74,
-          "text": "hereof kindly sender reply facsimile",
-          "count": 46,
-          "docs": 19
+          "text": "using e2solutions help support available",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 75,
-          "text": "kindly sender reply facsimile phone",
-          "count": 46,
-          "docs": 19
+          "text": "e2solutions help support available online",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 76,
-          "text": "17 18 19 20 21",
-          "count": 45,
-          "docs": 19
+          "text": "help support available online selecting",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 77,
-          "text": "19 20 21 22 23",
-          "count": 45,
-          "docs": 19
+          "text": "support available online selecting online",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 78,
-          "text": "16 17 18 19 20",
-          "count": 42,
-          "docs": 19
+          "text": "available online selecting online help",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 79,
-          "text": "20 21 22 23 24",
-          "count": 42,
-          "docs": 19
+          "text": "online selecting online help link",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 80,
-          "text": "575 lexington avenue 4th floor",
-          "count": 35,
-          "docs": 19
+          "text": "e2 notifications optional manage notifications",
+          "count": 138,
+          "docs": 138
         }
       ]
     },
@@ -19792,123 +20048,123 @@
       "rows": [
         {
           "rank": 81,
-          "text": "lexington avenue 4th floor new",
-          "count": 35,
-          "docs": 19
+          "text": "notifications optional manage notifications go",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 82,
-          "text": "chat room participants jee presentity",
-          "count": 19,
-          "docs": 19
+          "text": "optional manage notifications go e2",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 83,
-          "text": "room participants jee presentity ids",
-          "count": 19,
-          "docs": 19
+          "text": "manage notifications go e2 solutions",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 84,
-          "text": "participants jee presentity ids jeeitunes",
-          "count": 19,
-          "docs": 19
+          "text": "notifications go e2 solutions change",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 85,
-          "text": "jee presentity ids jeeitunes gmail",
-          "count": 19,
-          "docs": 19
+          "text": "go e2 solutions change settings",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 86,
-          "text": "18 19 20 21 22",
-          "count": 46,
-          "docs": 18
+          "text": "e2 solutions change settings click",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 87,
-          "text": "21 22 23 24 25",
-          "count": 39,
-          "docs": 18
+          "text": "solutions change settings click task",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 88,
-          "text": "14 15 16 17 18",
-          "count": 36,
-          "docs": 18
+          "text": "change settings click task bar",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 89,
-          "text": "15 16 17 18 19",
-          "count": 35,
-          "docs": 18
+          "text": "settings click task bar click",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 90,
-          "text": "13 14 15 16 17",
-          "count": 33,
-          "docs": 18
+          "text": "click task bar click edit",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 91,
-          "text": "barker center 12 quincy street",
-          "count": 31,
-          "docs": 18
+          "text": "task bar click edit notifications",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 92,
-          "text": "elisa new powell cabot professor",
-          "count": 30,
-          "docs": 18
+          "text": "bar click edit notifications link",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 93,
-          "text": "new powell cabot professor literature",
-          "count": 30,
-          "docs": 18
+          "text": "click edit notifications link manage",
+          "count": 138,
+          "docs": 138
         },
         {
           "rank": 94,
-          "text": "source entry macintosh hd root",
-          "count": 18,
-          "docs": 18
+          "text": "150 park row new 10007",
+          "count": 159,
+          "docs": 137
         },
         {
           "rank": 95,
-          "text": "entry macintosh hd root users",
-          "count": 18,
-          "docs": 18
+          "text": "edit notifications link manage emails",
+          "count": 137,
+          "docs": 137
         },
         {
           "rank": 96,
-          "text": "jeanne christensen partner wigdor llp",
-          "count": 40,
-          "docs": 17
+          "text": "notifications link manage emails receive",
+          "count": 137,
+          "docs": 137
         },
         {
           "rank": 97,
-          "text": "148 barker center 12 quincy",
-          "count": 30,
-          "docs": 17
+          "text": "link manage emails receive reference",
+          "count": 137,
+          "docs": 137
         },
         {
           "rank": 98,
-          "text": "harvard university 148 barker center",
-          "count": 29,
-          "docs": 17
+          "text": "contain proprietary sender reply delete",
+          "count": 137,
+          "docs": 137
         },
         {
           "rank": 99,
-          "text": "university 148 barker center 12",
-          "count": 29,
-          "docs": 17
+          "text": "selecting online help link note",
+          "count": 136,
+          "docs": 136
         },
         {
           "rank": 100,
-          "text": "center 12 quincy street cambridge",
-          "count": 29,
-          "docs": 17
+          "text": "online help link note replies",
+          "count": 136,
+          "docs": 136
         }
       ]
     },
@@ -19920,123 +20176,123 @@
       "rows": [
         {
           "rank": 1,
-          "text": "constitute inside addressee property",
-          "count": 691,
-          "docs": 309
+          "text": "united states southern district",
+          "count": 1932,
+          "docs": 1382
         },
         {
           "rank": 2,
-          "text": "copying jeevacation gmail com",
-          "count": 621,
-          "docs": 296
+          "text": "states southern district new",
+          "count": 1878,
+          "docs": 1344
         },
         {
           "rank": 3,
-          "text": "jeevacation gmail com including",
-          "count": 640,
-          "docs": 295
+          "text": "assistant united states southern",
+          "count": 1403,
+          "docs": 965
         },
         {
           "rank": 4,
-          "text": "gmail com including copyright",
-          "count": 626,
-          "docs": 281
+          "text": "office southern district new",
+          "count": 765,
+          "docs": 684
         },
         {
           "rank": 5,
-          "text": "including copyright house oversight",
-          "count": 285,
-          "docs": 253
+          "text": "20 cr 330 ajn",
+          "count": 1045,
+          "docs": 568
         },
         {
           "rank": 6,
-          "text": "com including copyright house",
-          "count": 275,
-          "docs": 244
+          "text": "andrew plaza new 10007",
+          "count": 850,
+          "docs": 515
         },
         {
           "rank": 7,
-          "text": "addressee property jee copying",
-          "count": 567,
-          "docs": 239
+          "text": "states office southern district",
+          "count": 523,
+          "docs": 487
         },
         {
           "rank": 8,
-          "text": "inside addressee property jee",
-          "count": 563,
-          "docs": 239
+          "text": "united states office southern",
+          "count": 522,
+          "docs": 486
         },
         {
           "rank": 9,
-          "text": "note constitute inside addressee",
-          "count": 546,
-          "docs": 237
+          "text": "assistant southern district new",
+          "count": 501,
+          "docs": 457
         },
         {
           "rank": 10,
-          "text": "jee copying jeevacation gmail",
-          "count": 507,
-          "docs": 229
+          "text": "one saint andrew plaza",
+          "count": 463,
+          "docs": 436
         },
         {
           "rank": 11,
-          "text": "property jee copying jeevacation",
-          "count": 499,
-          "docs": 229
+          "text": "st andrew plaza new",
+          "count": 754,
+          "docs": 431
         },
         {
           "rank": 12,
-          "text": "jeffrey jeevacation gmail com",
-          "count": 386,
-          "docs": 158
+          "text": "united states district court",
+          "count": 638,
+          "docs": 427
         },
         {
           "rank": 13,
-          "text": "jeevacation gmail com wrote",
-          "count": 336,
-          "docs": 144
+          "text": "saint andrew plaza new",
+          "count": 446,
+          "docs": 420
         },
         {
           "rank": 14,
-          "text": "jeffrey jeeyacation gmail com",
-          "count": 144,
-          "docs": 143
+          "text": "southern district new one",
+          "count": 414,
+          "docs": 391
         },
         {
           "rank": 15,
-          "text": "com including copyright note",
-          "count": 271,
-          "docs": 107
+          "text": "plaza new new 10007",
+          "count": 410,
+          "docs": 391
         },
         {
           "rank": 16,
-          "text": "copyright note constitute inside",
-          "count": 265,
-          "docs": 100
+          "text": "maxwell 20 cr 330",
+          "count": 779,
+          "docs": 382
         },
         {
           "rank": 17,
-          "text": "including copyright note constitute",
-          "count": 263,
-          "docs": 100
+          "text": "district court southern district",
+          "count": 557,
+          "docs": 381
         },
         {
           "rank": 18,
-          "text": "epstein jeevacation gmail com",
-          "count": 117,
-          "docs": 93
+          "text": "00 0000 end date",
+          "count": 362,
+          "docs": 362
         },
         {
           "rank": 19,
-          "text": "jeeyacation gmail com re",
-          "count": 93,
-          "docs": 93
+          "text": "court southern district new",
+          "count": 500,
+          "docs": 341
         },
         {
           "rank": 20,
-          "text": "epstein jeeyacation gmail com",
-          "count": 87,
-          "docs": 87
+          "text": "constitute inside addressee property",
+          "count": 730,
+          "docs": 337
         }
       ]
     },
@@ -20048,123 +20304,123 @@
       "rows": [
         {
           "rank": 21,
-          "text": "jeffrey epstein jeevacation gmail",
-          "count": 107,
-          "docs": 84
+          "text": "united states ghislaine maxwell",
+          "count": 425,
+          "docs": 336
         },
         {
           "rank": 22,
-          "text": "jeffrey epstein jeeyacation gmail",
-          "count": 82,
-          "docs": 82
+          "text": "states district court southern",
+          "count": 479,
+          "docs": 323
         },
         {
           "rank": 23,
-          "text": "pm jeffrey jeevacation gmail",
-          "count": 162,
-          "docs": 77
+          "text": "150 park row new",
+          "count": 447,
+          "docs": 320
         },
         {
           "rank": 24,
-          "text": "pm jeffrey jeeyacation gmail",
-          "count": 74,
-          "docs": 73
+          "text": "andrew plaza new new",
+          "count": 340,
+          "docs": 314
         },
         {
           "rank": 25,
-          "text": "addressee property jeffrey epstein",
-          "count": 108,
-          "docs": 68
+          "text": "copying jeevacation gmail com",
+          "count": 624,
+          "docs": 299
         },
         {
           "rank": 26,
-          "text": "inside addressee property jeffrey",
-          "count": 106,
-          "docs": 68
+          "text": "jeevacation gmail com including",
+          "count": 643,
+          "docs": 298
         },
         {
           "rank": 27,
-          "text": "property jeffrey epstein copying",
-          "count": 104,
-          "docs": 67
+          "text": "southern district new st",
+          "count": 602,
+          "docs": 288
         },
         {
           "rank": 28,
-          "text": "jeffrey epstein copying jeevacation",
-          "count": 101,
-          "docs": 67
+          "text": "gmail com including copyright",
+          "count": 627,
+          "docs": 282
         },
         {
           "rank": 29,
-          "text": "epstein copying jeevacation gmail",
-          "count": 101,
-          "docs": 67
+          "text": "district new st andrew",
+          "count": 589,
+          "docs": 275
         },
         {
           "rank": 30,
-          "text": "gmail com re importance",
-          "count": 61,
-          "docs": 61
+          "text": "new st andrew plaza",
+          "count": 587,
+          "docs": 273
         },
         {
           "rank": 31,
-          "text": "com re importance high",
-          "count": 61,
-          "docs": 61
+          "text": "0000 importance normal text",
+          "count": 268,
+          "docs": 268
         },
         {
           "rank": 32,
-          "text": "am jeffrey jeevacation gmail",
-          "count": 103,
-          "docs": 59
+          "text": "importance normal text htm",
+          "count": 266,
+          "docs": 266
         },
         {
           "rank": 33,
-          "text": "pm jeffrey epstein jeeyacation",
-          "count": 48,
-          "docs": 48
+          "text": "ghislaine maxwell 20 cr",
+          "count": 295,
+          "docs": 258
         },
         {
           "rank": 34,
-          "text": "jeevacation gmail com re",
-          "count": 42,
-          "docs": 42
+          "text": "district new one saint",
+          "count": 279,
+          "docs": 258
         },
         {
           "rank": 35,
-          "text": "work product addressee indicated",
-          "count": 130,
-          "docs": 39
+          "text": "including copyright house oversight",
+          "count": 285,
+          "docs": 253
         },
         {
           "rank": 36,
-          "text": "product addressee indicated message",
-          "count": 130,
-          "docs": 39
+          "text": "new one saint andrew",
+          "count": 272,
+          "docs": 251
         },
         {
           "rank": 37,
-          "text": "responsible delivery message person",
-          "count": 130,
-          "docs": 39
+          "text": "metropolitan correctional center new",
+          "count": 572,
+          "docs": 247
         },
         {
           "rank": 38,
-          "text": "delivery message person read",
-          "count": 130,
-          "docs": 39
+          "text": "child exploitation human trafficking",
+          "count": 366,
+          "docs": 247
         },
         {
           "rank": 39,
-          "text": "message person read copy",
-          "count": 130,
-          "docs": 39
+          "text": "com including copyright house",
+          "count": 275,
+          "docs": 244
         },
         {
           "rank": 40,
-          "text": "person read copy forward",
-          "count": 130,
-          "docs": 39
+          "text": "addressee property jee copying",
+          "count": 568,
+          "docs": 240
         }
       ]
     },
@@ -20176,123 +20432,123 @@
       "rows": [
         {
           "rank": 41,
-          "text": "read copy forward message",
-          "count": 130,
-          "docs": 39
+          "text": "inside addressee property jee",
+          "count": 564,
+          "docs": 240
         },
         {
           "rank": 42,
-          "text": "delete message including hereof",
-          "count": 130,
-          "docs": 39
+          "text": "note constitute inside addressee",
+          "count": 547,
+          "docs": 238
         },
         {
           "rank": 43,
-          "text": "message including hereof kindly",
-          "count": 130,
-          "docs": 39
+          "text": "0000 inline images image001",
+          "count": 232,
+          "docs": 232
         },
         {
           "rank": 44,
-          "text": "including hereof kindly sender",
-          "count": 130,
-          "docs": 39
+          "text": "jee copying jeevacation gmail",
+          "count": 508,
+          "docs": 230
         },
         {
           "rank": 45,
-          "text": "hereof kindly sender reply",
-          "count": 130,
-          "docs": 39
+          "text": "property jee copying jeevacation",
+          "count": 500,
+          "docs": 230
         },
         {
           "rank": 46,
-          "text": "copy forward message anyone",
-          "count": 128,
-          "docs": 39
+          "text": "re united states ghislaine",
+          "count": 262,
+          "docs": 230
         },
         {
           "rank": 47,
-          "text": "forward message anyone case",
-          "count": 128,
-          "docs": 39
+          "text": "states ghislaine maxwell 20",
+          "count": 256,
+          "docs": 228
         },
         {
           "rank": 48,
-          "text": "anyone case delete message",
-          "count": 128,
-          "docs": 39
+          "text": "united states united states",
+          "count": 238,
+          "docs": 220
         },
         {
           "rank": 49,
-          "text": "case delete message including",
-          "count": 128,
-          "docs": 39
+          "text": "00 00 0000 end",
+          "count": 220,
+          "docs": 220
         },
         {
           "rank": 50,
-          "text": "addressee indicated message responsible",
-          "count": 127,
-          "docs": 39
+          "text": "department justice federal bureau",
+          "count": 327,
+          "docs": 215
         },
         {
           "rank": 51,
-          "text": "indicated message responsible delivery",
-          "count": 127,
-          "docs": 39
+          "text": "states united states office",
+          "count": 215,
+          "docs": 212
         },
         {
           "rank": 52,
-          "text": "message responsible delivery message",
-          "count": 127,
-          "docs": 39
+          "text": "united states department justice",
+          "count": 467,
+          "docs": 211
         },
         {
           "rank": 53,
-          "text": "message anyone case delete",
-          "count": 126,
-          "docs": 39
+          "text": "justice federal bureau prisons",
+          "count": 292,
+          "docs": 207
         },
         {
           "rank": 54,
-          "text": "contain work product addressee",
-          "count": 124,
-          "docs": 38
+          "text": "inline images image001 jpg",
+          "count": 202,
+          "docs": 202
         },
         {
           "rank": 55,
-          "text": "pm jeevacation gmail com",
-          "count": 42,
-          "docs": 35
+          "text": "west palm beach fl",
+          "count": 316,
+          "docs": 201
         },
         {
           "rank": 56,
-          "text": "pm jeffrey epstein jeevacation",
-          "count": 39,
-          "docs": 34
+          "text": "center 150 park row",
+          "count": 266,
+          "docs": 201
         },
         {
           "rank": 57,
-          "text": "mailto jeevacation gmail com",
-          "count": 53,
-          "docs": 32
+          "text": "southern district new new",
+          "count": 222,
+          "docs": 198
         },
         {
           "rank": 58,
-          "text": "palm beach police department",
-          "count": 188,
-          "docs": 31
+          "text": "correctional center 150 park",
+          "count": 262,
+          "docs": 197
         },
         {
           "rank": 59,
-          "text": "gmail com house oversight",
-          "count": 45,
-          "docs": 31
+          "text": "assistant united states united",
+          "count": 193,
+          "docs": 192
         },
         {
           "rank": 60,
-          "text": "property jee copying house",
-          "count": 38,
-          "docs": 29
+          "text": "law offices bobbi sternheim",
+          "count": 425,
+          "docs": 190
         }
       ]
     },
@@ -20304,123 +20560,123 @@
       "rows": [
         {
           "rank": 61,
-          "text": "jee copying house oversight",
-          "count": 38,
-          "docs": 29
+          "text": "assistant united states attorneys",
+          "count": 204,
+          "docs": 190
         },
         {
           "rank": 62,
-          "text": "jeanne jeanne christensen partner",
-          "count": 80,
-          "docs": 28
+          "text": "class personal date created",
+          "count": 183,
+          "docs": 183
         },
         {
           "rank": 63,
-          "text": "fifth avenue new 10003",
-          "count": 74,
-          "docs": 28
+          "text": "metropolitan correctional center 150",
+          "count": 247,
+          "docs": 182
         },
         {
           "rank": 64,
-          "text": "85 fifth avenue new",
-          "count": 72,
-          "docs": 28
+          "text": "park row new new",
+          "count": 266,
+          "docs": 180
         },
         {
           "rank": 65,
-          "text": "united states southern district",
-          "count": 46,
-          "docs": 26
+          "text": "southern district new silvio",
+          "count": 183,
+          "docs": 178
         },
         {
           "rank": 66,
-          "text": "consider environment printing contain",
-          "count": 74,
-          "docs": 25
+          "text": "one st andrew plaza",
+          "count": 181,
+          "docs": 178
         },
         {
           "rank": 67,
-          "text": "environment printing contain work",
-          "count": 74,
-          "docs": 25
+          "text": "0000 end date 2019",
+          "count": 178,
+          "docs": 178
         },
         {
           "rank": 68,
-          "text": "printing contain work product",
-          "count": 74,
-          "docs": 25
+          "text": "row new new 10007",
+          "count": 263,
+          "docs": 177
         },
         {
           "rank": 69,
-          "text": "sender jeeitunes gmail com",
-          "count": 637,
-          "docs": 23
+          "text": "district new united states",
+          "count": 197,
+          "docs": 177
         },
         {
           "rank": 70,
-          "text": "jeeitunes gmail com time",
-          "count": 619,
-          "docs": 23
+          "text": "district new silvio mollo",
+          "count": 182,
+          "docs": 177
         },
         {
           "rank": 71,
-          "text": "read yes invitation guid",
-          "count": 480,
-          "docs": 23
+          "text": "new silvio mollo building",
+          "count": 182,
+          "docs": 177
         },
         {
           "rank": 72,
-          "text": "flags 1060865 read yes",
-          "count": 427,
-          "docs": 23
+          "text": "class personal comment date",
+          "count": 177,
+          "docs": 177
         },
         {
           "rank": 73,
-          "text": "1060865 read yes invitation",
-          "count": 413,
-          "docs": 23
+          "text": "personal comment date created",
+          "count": 177,
+          "docs": 177
         },
         {
           "rank": 74,
-          "text": "kindly sender reply phone",
-          "count": 84,
-          "docs": 23
+          "text": "southern district new united",
+          "count": 196,
+          "docs": 176
         },
         {
           "rank": 75,
-          "text": "jeevacation gmail com house",
-          "count": 27,
-          "docs": 23
+          "text": "0000 date modified 2019",
+          "count": 175,
+          "docs": 175
         },
         {
           "rank": 76,
-          "text": "com jeevacation gmail com",
-          "count": 23,
-          "docs": 23
+          "text": "building one saint andrew",
+          "count": 179,
+          "docs": 174
         },
         {
           "rank": 77,
-          "text": "macintosh hd root users",
-          "count": 23,
-          "docs": 23
+          "text": "mollo building one saint",
+          "count": 179,
+          "docs": 174
         },
         {
           "rank": 78,
-          "text": "hd root users jee",
-          "count": 23,
-          "docs": 23
+          "text": "0000 priority dtstamp 2019",
+          "count": 173,
+          "docs": 173
         },
         {
           "rank": 79,
-          "text": "root users jee library",
-          "count": 23,
-          "docs": 23
+          "text": "fbi new field office",
+          "count": 241,
+          "docs": 169
         },
         {
           "rank": 80,
-          "text": "users jee library messages",
-          "count": 23,
-          "docs": 23
+          "text": "verizon samsung galaxy smartphone",
+          "count": 251,
+          "docs": 168
         }
       ]
     },
@@ -20432,123 +20688,123 @@
       "rows": [
         {
           "rank": 81,
-          "text": "jee library messages archive",
-          "count": 23,
-          "docs": 23
+          "text": "best assistant united states",
+          "count": 275,
+          "docs": 167
         },
         {
           "rank": 82,
-          "text": "ichat imessage start time",
-          "count": 23,
-          "docs": 23
+          "text": "jeffrey jeevacation gmail com",
+          "count": 388,
+          "docs": 159
         },
         {
           "rank": 83,
-          "text": "chat room participants jee",
-          "count": 23,
-          "docs": 23
+          "text": "department justice united states",
+          "count": 168,
+          "docs": 159
         },
         {
           "rank": 84,
-          "text": "presentity ids jeeitunes gmail",
-          "count": 23,
-          "docs": 23
+          "text": "new 150 park row",
+          "count": 209,
+          "docs": 157
         },
         {
           "rank": 85,
-          "text": "ids jeeitunes gmail com",
-          "count": 23,
-          "docs": 23
+          "text": "federal bureau investigation fbi",
+          "count": 163,
+          "docs": 156
         },
         {
           "rank": 86,
-          "text": "html note constitute inside",
-          "count": 28,
-          "docs": 22
+          "text": "silvio mollo building one",
+          "count": 161,
+          "docs": 156
         },
         {
           "rank": 87,
-          "text": "former president bill clinton",
-          "count": 22,
-          "docs": 22
+          "text": "justice united states southern",
+          "count": 164,
+          "docs": 155
         },
         {
           "rank": 88,
-          "text": "flags 1085445 read invitation",
-          "count": 513,
-          "docs": 21
+          "text": "united states district judge",
+          "count": 211,
+          "docs": 154
         },
         {
           "rank": 89,
-          "text": "1085445 read invitation guid",
-          "count": 501,
-          "docs": 21
+          "text": "states assistant united states",
+          "count": 155,
+          "docs": 154
         },
         {
           "rank": 90,
-          "text": "states southern district new",
-          "count": 36,
-          "docs": 21
+          "text": "esq law offices bobbi",
+          "count": 209,
+          "docs": 153
         },
         {
           "rank": 91,
-          "text": "jeeitunes gmail com messages",
-          "count": 21,
-          "docs": 21
+          "text": "united states assistant united",
+          "count": 154,
+          "docs": 153
         },
         {
           "rank": 92,
-          "text": "gmail com messages sender",
-          "count": 21,
-          "docs": 21
+          "text": "inline images image001 png",
+          "count": 153,
+          "docs": 153
         },
         {
           "rank": 93,
-          "text": "17 18 19 20",
-          "count": 50,
-          "docs": 20
+          "text": "mcc new 150 park",
+          "count": 204,
+          "docs": 152
         },
         {
           "rank": 94,
-          "text": "575 lexington avenue 4th",
-          "count": 37,
-          "docs": 20
+          "text": "bobbi sternheim esq law",
+          "count": 206,
+          "docs": 150
         },
         {
           "rank": 95,
-          "text": "avenue 4th floor new",
-          "count": 36,
-          "docs": 20
+          "text": "sternheim esq law offices",
+          "count": 206,
+          "docs": 150
         },
         {
           "rank": 96,
-          "text": "west palm beach fl",
-          "count": 74,
-          "docs": 19
+          "text": "associate warden mcc new",
+          "count": 203,
+          "docs": 149
         },
         {
           "rank": 97,
-          "text": "new 10003 wigdorlaw com",
-          "count": 66,
-          "docs": 19
+          "text": "human trafficking task force",
+          "count": 228,
+          "docs": 147
         },
         {
           "rank": 98,
-          "text": "19 20 21 22",
-          "count": 52,
-          "docs": 19
+          "text": "strauss acting united states",
+          "count": 157,
+          "docs": 147
         },
         {
           "rank": 99,
-          "text": "18 19 20 21",
-          "count": 51,
-          "docs": 19
+          "text": "audrey strauss acting united",
+          "count": 156,
+          "docs": 147
         },
         {
           "rank": 100,
-          "text": "20 21 22 23",
-          "count": 50,
-          "docs": 19
+          "text": "jeevacation gmail com wrote",
+          "count": 337,
+          "docs": 145
         }
       ]
     }
