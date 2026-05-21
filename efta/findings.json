@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T03:22:59.385811+00:00",
+  "generated_at": "2026-05-21T03:26:29.385293+00:00",
   "corpus": {
     "n_documents": 5542,
     "n_entity_hits": 95332,
@@ -15277,7 +15277,7 @@
       "category": "banker",
       "page": 1,
       "title": "DS10 financial — JPMorgan banker names",
-      "subtitle": "158464 DS10 docs scanned · 30248 unique values",
+      "subtitle": "158464 DS10 docs scanned · 29557 unique values",
       "rows": [
         {
           "rank": 1,
@@ -15294,136 +15294,6 @@
         },
         {
           "rank": 2,
-          "text": "Estate, Mineral",
-          "count": 706,
-          "docs": 706,
-          "sample_doc_ids": [
-            "EFTA01350845",
-            "EFTA01464701",
-            "EFTA01464828",
-            "EFTA01464848",
-            "EFTA01464998"
-          ]
-        },
-        {
-          "rank": 3,
-          "text": "Fees, Charges",
-          "count": 962,
-          "docs": 650,
-          "sample_doc_ids": [
-            "EFTA01374056",
-            "EFTA01419596",
-            "EFTA01482248",
-            "EFTA01482258",
-            "EFTA01482270"
-          ]
-        },
-        {
-          "rank": 4,
-          "text": "Sales, Maturities",
-          "count": 834,
-          "docs": 650,
-          "sample_doc_ids": [
-            "EFTA01449588",
-            "EFTA01449688",
-            "EFTA01464701",
-            "EFTA01464848",
-            "EFTA01483965"
-          ]
-        },
-        {
-          "rank": 5,
-          "text": "Fri, Jan",
-          "count": 729,
-          "docs": 556,
-          "sample_doc_ids": [
-            "EFTA01300418",
-            "EFTA01300428",
-            "EFTA01300460",
-            "EFTA01368601",
-            "EFTA01375023"
-          ]
-        },
-        {
-          "rank": 6,
-          "text": "Park, Inside",
-          "count": 818,
-          "docs": 538,
-          "sample_doc_ids": [
-            "EFTA01299275",
-            "EFTA01299292",
-            "EFTA01299326",
-            "EFTA01299330",
-            "EFTA01345368"
-          ]
-        },
-        {
-          "rank": 7,
-          "text": "Park, Western",
-          "count": 881,
-          "docs": 529,
-          "sample_doc_ids": [
-            "EFTA01298260",
-            "EFTA01298802",
-            "EFTA01299277",
-            "EFTA01299279",
-            "EFTA01299281"
-          ]
-        },
-        {
-          "rank": 8,
-          "text": "Mon, Jan",
-          "count": 642,
-          "docs": 519,
-          "sample_doc_ids": [
-            "EFTA01300081",
-            "EFTA01300084",
-            "EFTA01300087",
-            "EFTA01300091",
-            "EFTA01300094"
-          ]
-        },
-        {
-          "rank": 9,
-          "text": "Mon, Mar",
-          "count": 580,
-          "docs": 479,
-          "sample_doc_ids": [
-            "EFTA01300509",
-            "EFTA01300511",
-            "EFTA01344738",
-            "EFTA01344739",
-            "EFTA01344742"
-          ]
-        },
-        {
-          "rank": 10,
-          "text": "Mon, Feb",
-          "count": 643,
-          "docs": 474,
-          "sample_doc_ids": [
-            "EFTA01300947",
-            "EFTA01300950",
-            "EFTA01300951",
-            "EFTA01300994",
-            "EFTA01447815"
-          ]
-        },
-        {
-          "rank": 11,
-          "text": "Mon, Dec",
-          "count": 611,
-          "docs": 471,
-          "sample_doc_ids": [
-            "EFTA01300363",
-            "EFTA01459150",
-            "EFTA01731424",
-            "EFTA01731638",
-            "EFTA01731821"
-          ]
-        },
-        {
-          "rank": 12,
           "text": "Madam, Please",
           "count": 470,
           "docs": 470,
@@ -15436,7 +15306,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 3,
           "text": "Valuations, Estimated",
           "count": 470,
           "docs": 470,
@@ -15449,7 +15319,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 4,
           "text": "Jaipur, India",
           "count": 636,
           "docs": 445,
@@ -15462,94 +15332,7 @@
           ]
         },
         {
-          "rank": 15,
-          "text": "Thu, Jan",
-          "count": 552,
-          "docs": 437,
-          "sample_doc_ids": [
-            "EFTA01300449",
-            "EFTA01300452",
-            "EFTA01300876",
-            "EFTA01300899",
-            "EFTA01300901"
-          ]
-        },
-        {
-          "rank": 16,
-          "text": "Thu, Mar",
-          "count": 545,
-          "docs": 436,
-          "sample_doc_ids": [
-            "EFTA01300499",
-            "EFTA01447011",
-            "EFTA01447066",
-            "EFTA01447838",
-            "EFTA01447839"
-          ]
-        },
-        {
-          "rank": 17,
-          "text": "Fri, Dec",
-          "count": 581,
-          "docs": 434,
-          "sample_doc_ids": [
-            "EFTA01300401",
-            "EFTA01300866",
-            "EFTA01337165",
-            "EFTA01577466",
-            "EFTA01732012"
-          ]
-        },
-        {
-          "rank": 18,
-          "text": "Wed, Jan",
-          "count": 576,
-          "docs": 431,
-          "sample_doc_ids": [
-            "EFTA01300080",
-            "EFTA01300407",
-            "EFTA01300420",
-            "EFTA01300423",
-            "EFTA01300444"
-          ]
-        },
-        {
-          "rank": 19,
-          "text": "Wed, Feb",
-          "count": 503,
-          "docs": 428,
-          "sample_doc_ids": [
-            "EFTA01300924",
-            "EFTA01300954",
-            "EFTA01300956",
-            "EFTA01300958",
-            "EFTA01300960"
-          ]
-        },
-        {
-          "rank": 20,
-          "text": "Thu, Dec",
-          "count": 545,
-          "docs": 427,
-          "sample_doc_ids": [
-            "EFTA01300073",
-            "EFTA01300383",
-            "EFTA01300386",
-            "EFTA01300398",
-            "EFTA01300399"
-          ]
-        }
-      ]
-    },
-    {
-      "kind": "ds10_financial",
-      "category": "banker",
-      "page": 2,
-      "title": "DS10 financial — JPMorgan banker names (page 2)",
-      "subtitle": "158464 DS10 docs scanned · 30248 unique values",
-      "rows": [
-        {
-          "rank": 21,
+          "rank": 5,
           "text": "Mumbai, Nirlon",
           "count": 710,
           "docs": 424,
@@ -15562,20 +15345,7 @@
           ]
         },
         {
-          "rank": 22,
-          "text": "Tue, Jan",
-          "count": 519,
-          "docs": 421,
-          "sample_doc_ids": [
-            "EFTA01446689",
-            "EFTA01446695",
-            "EFTA01446701",
-            "EFTA01446707",
-            "EFTA01446714"
-          ]
-        },
-        {
-          "rank": 23,
+          "rank": 6,
           "text": "East, Mumbai",
           "count": 707,
           "docs": 415,
@@ -15588,33 +15358,7 @@
           ]
         },
         {
-          "rank": 24,
-          "text": "Sun, Jan",
-          "count": 560,
-          "docs": 411,
-          "sample_doc_ids": [
-            "EFTA01300433",
-            "EFTA01300436",
-            "EFTA01300470",
-            "EFTA01300885",
-            "EFTA01300908"
-          ]
-        },
-        {
-          "rank": 25,
-          "text": "Fri, Feb",
-          "count": 561,
-          "docs": 408,
-          "sample_doc_ids": [
-            "EFTA01300933",
-            "EFTA01300983",
-            "EFTA01300985",
-            "EFTA01300987",
-            "EFTA01452480"
-          ]
-        },
-        {
-          "rank": 26,
+          "rank": 7,
           "text": "Regards, Brad",
           "count": 510,
           "docs": 379,
@@ -15627,20 +15371,7 @@
           ]
         },
         {
-          "rank": 27,
-          "text": "Tue, Feb",
-          "count": 439,
-          "docs": 368,
-          "sample_doc_ids": [
-            "EFTA01300485",
-            "EFTA01300486",
-            "EFTA01447817",
-            "EFTA01452491",
-            "EFTA01452525"
-          ]
-        },
-        {
-          "rank": 28,
+          "rank": 8,
           "text": "Funds, American",
           "count": 420,
           "docs": 366,
@@ -15653,20 +15384,7 @@
           ]
         },
         {
-          "rank": 29,
-          "text": "Wed, Dec",
-          "count": 451,
-          "docs": 365,
-          "sample_doc_ids": [
-            "EFTA01300077",
-            "EFTA01300404",
-            "EFTA01301228",
-            "EFTA01450659",
-            "EFTA01450694"
-          ]
-        },
-        {
-          "rank": 30,
+          "rank": 9,
           "text": "All, Please",
           "count": 420,
           "docs": 365,
@@ -15679,159 +15397,7 @@
           ]
         },
         {
-          "rank": 31,
-          "text": "Wed, Oct",
-          "count": 501,
-          "docs": 354,
-          "sample_doc_ids": [
-            "EFTA01300300",
-            "EFTA01367562",
-            "EFTA01368475",
-            "EFTA01375170",
-            "EFTA01388967"
-          ]
-        },
-        {
-          "rank": 32,
-          "text": "Tue, Oct",
-          "count": 446,
-          "docs": 349,
-          "sample_doc_ids": [
-            "EFTA01300282",
-            "EFTA01301189",
-            "EFTA01386370",
-            "EFTA01430756",
-            "EFTA01433718"
-          ]
-        },
-        {
-          "rank": 33,
-          "text": "Thu, Oct",
-          "count": 479,
-          "docs": 347,
-          "sample_doc_ids": [
-            "EFTA01300290",
-            "EFTA01300786",
-            "EFTA01300795",
-            "EFTA01450193",
-            "EFTA01450196"
-          ]
-        },
-        {
-          "rank": 34,
-          "text": "Wed, Mar",
-          "count": 430,
-          "docs": 346,
-          "sample_doc_ids": [
-            "EFTA01301018",
-            "EFTA01301020",
-            "EFTA01301031",
-            "EFTA01447833",
-            "EFTA01447834"
-          ]
-        },
-        {
-          "rank": 35,
-          "text": "Mon, Oct",
-          "count": 452,
-          "docs": 338,
-          "sample_doc_ids": [
-            "EFTA01300308",
-            "EFTA01300310",
-            "EFTA01300312",
-            "EFTA01447790",
-            "EFTA01455913"
-          ]
-        },
-        {
-          "rank": 36,
-          "text": "Sat, Jan",
-          "count": 462,
-          "docs": 336,
-          "sample_doc_ids": [
-            "EFTA01300414",
-            "EFTA01731785",
-            "EFTA01732015",
-            "EFTA01740830",
-            "EFTA01741078"
-          ]
-        },
-        {
-          "rank": 37,
-          "text": "Mon, Nov",
-          "count": 458,
-          "docs": 332,
-          "sample_doc_ids": [
-            "EFTA01268551",
-            "EFTA01268555",
-            "EFTA01268563",
-            "EFTA01268568",
-            "EFTA01268584"
-          ]
-        },
-        {
-          "rank": 38,
-          "text": "Thu, Feb",
-          "count": 405,
-          "docs": 331,
-          "sample_doc_ids": [
-            "EFTA01300488",
-            "EFTA01300930",
-            "EFTA01300962",
-            "EFTA01300980",
-            "EFTA01650580"
-          ]
-        },
-        {
-          "rank": 39,
-          "text": "Sat, Dec",
-          "count": 437,
-          "docs": 330,
-          "sample_doc_ids": [
-            "EFTA01300850",
-            "EFTA01300854",
-            "EFTA01337165",
-            "EFTA01421327",
-            "EFTA01423708"
-          ]
-        },
-        {
-          "rank": 40,
-          "text": "Tue, Mar",
-          "count": 388,
-          "docs": 322,
-          "sample_doc_ids": [
-            "EFTA01300502",
-            "EFTA01300524",
-            "EFTA01447739",
-            "EFTA01453430",
-            "EFTA01456911"
-          ]
-        }
-      ]
-    },
-    {
-      "kind": "ds10_financial",
-      "category": "banker",
-      "page": 3,
-      "title": "DS10 financial — JPMorgan banker names (page 3)",
-      "subtitle": "158464 DS10 docs scanned · 30248 unique values",
-      "rows": [
-        {
-          "rank": 41,
-          "text": "Thu, Apr",
-          "count": 444,
-          "docs": 320,
-          "sample_doc_ids": [
-            "EFTA01300108",
-            "EFTA01300546",
-            "EFTA01300561",
-            "EFTA01300562",
-            "EFTA01447744"
-          ]
-        },
-        {
-          "rank": 42,
+          "rank": 10,
           "text": "Best, Vahe",
           "count": 377,
           "docs": 316,
@@ -15844,33 +15410,7 @@
           ]
         },
         {
-          "rank": 43,
-          "text": "Tue, Dec",
-          "count": 374,
-          "docs": 315,
-          "sample_doc_ids": [
-            "EFTA01344650",
-            "EFTA01344654",
-            "EFTA01351270",
-            "EFTA01420992",
-            "EFTA01447726"
-          ]
-        },
-        {
-          "rank": 44,
-          "text": "Fri, Mar",
-          "count": 392,
-          "docs": 311,
-          "sample_doc_ids": [
-            "EFTA01301005",
-            "EFTA01447001",
-            "EFTA01452907",
-            "EFTA01452924",
-            "EFTA01453259"
-          ]
-        },
-        {
-          "rank": 45,
+          "rank": 11,
           "text": "Center, Brooklyn",
           "count": 457,
           "docs": 307,
@@ -15883,59 +15423,7 @@
           ]
         },
         {
-          "rank": 46,
-          "text": "Sun, Dec",
-          "count": 366,
-          "docs": 299,
-          "sample_doc_ids": [
-            "EFTA01731620",
-            "EFTA01731628",
-            "EFTA01731826",
-            "EFTA01731833",
-            "EFTA01731919"
-          ]
-        },
-        {
-          "rank": 47,
-          "text": "Sun, Feb",
-          "count": 370,
-          "docs": 293,
-          "sample_doc_ids": [
-            "EFTA01741535",
-            "EFTA01741580",
-            "EFTA01741727",
-            "EFTA01741759",
-            "EFTA01741800"
-          ]
-        },
-        {
-          "rank": 48,
-          "text": "Fri, Oct",
-          "count": 355,
-          "docs": 290,
-          "sample_doc_ids": [
-            "EFTA01300279",
-            "EFTA01300304",
-            "EFTA01301218",
-            "EFTA01356969",
-            "EFTA01356970"
-          ]
-        },
-        {
-          "rank": 49,
-          "text": "Fri, Nov",
-          "count": 363,
-          "docs": 286,
-          "sample_doc_ids": [
-            "EFTA01268683",
-            "EFTA01300350",
-            "EFTA01365193",
-            "EFTA01365348",
-            "EFTA01365360"
-          ]
-        },
-        {
-          "rank": 50,
+          "rank": 12,
           "text": "Team, Please",
           "count": 302,
           "docs": 286,
@@ -15948,85 +15436,7 @@
           ]
         },
         {
-          "rank": 51,
-          "text": "Sat, Mar",
-          "count": 381,
-          "docs": 284,
-          "sample_doc_ids": [
-            "EFTA01300515",
-            "EFTA01301008",
-            "EFTA01738753",
-            "EFTA01738836",
-            "EFTA01746159"
-          ]
-        },
-        {
-          "rank": 52,
-          "text": "Mon, Apr",
-          "count": 372,
-          "docs": 283,
-          "sample_doc_ids": [
-            "EFTA01400950",
-            "EFTA01447851",
-            "EFTA01447853",
-            "EFTA01457180",
-            "EFTA01462861"
-          ]
-        },
-        {
-          "rank": 53,
-          "text": "Tue, Nov",
-          "count": 350,
-          "docs": 272,
-          "sample_doc_ids": [
-            "EFTA01268683",
-            "EFTA01300340",
-            "EFTA01450473",
-            "EFTA01458802",
-            "EFTA01462788"
-          ]
-        },
-        {
-          "rank": 54,
-          "text": "Mon, Sep",
-          "count": 365,
-          "docs": 271,
-          "sample_doc_ids": [
-            "EFTA01300232",
-            "EFTA01300235",
-            "EFTA01300275",
-            "EFTA01301172",
-            "EFTA01301174"
-          ]
-        },
-        {
-          "rank": 55,
-          "text": "Tue, Apr",
-          "count": 362,
-          "docs": 267,
-          "sample_doc_ids": [
-            "EFTA01300568",
-            "EFTA01381001",
-            "EFTA01382152",
-            "EFTA01384370",
-            "EFTA01384372"
-          ]
-        },
-        {
-          "rank": 56,
-          "text": "Thu, Nov",
-          "count": 338,
-          "docs": 257,
-          "sample_doc_ids": [
-            "EFTA01300337",
-            "EFTA01300807",
-            "EFTA01300808",
-            "EFTA01300809",
-            "EFTA01300814"
-          ]
-        },
-        {
-          "rank": 57,
+          "rank": 13,
           "text": "Alex, Brown",
           "count": 418,
           "docs": 253,
@@ -16039,7 +15449,7 @@
           ]
         },
         {
-          "rank": 58,
+          "rank": 14,
           "text": "Pritzker, Tom",
           "count": 652,
           "docs": 252,
@@ -16052,29 +15462,619 @@
           ]
         },
         {
-          "rank": 59,
-          "text": "Sun, Mar",
-          "count": 323,
-          "docs": 252,
+          "rank": 15,
+          "text": "Payment, Credits",
+          "count": 266,
+          "docs": 237,
           "sample_doc_ids": [
-            "EFTA01300517",
-            "EFTA01744172",
-            "EFTA01744942",
-            "EFTA01744980",
-            "EFTA01746115"
+            "EFTA01531644",
+            "EFTA01531651",
+            "EFTA01531659",
+            "EFTA01531667",
+            "EFTA01531674"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "Epstein, Jeffrey",
+          "count": 445,
+          "docs": 233,
+          "sample_doc_ids": [
+            "EFTA01300573",
+            "EFTA01300609",
+            "EFTA01300712",
+            "EFTA01300713",
+            "EFTA01300718"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "Barrett, Paul S",
+          "count": 379,
+          "docs": 230,
+          "sample_doc_ids": [
+            "EFTA01300914",
+            "EFTA01300921",
+            "EFTA01344538",
+            "EFTA01344539",
+            "EFTA01344541"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": "Best, Ari",
+          "count": 284,
+          "docs": 229,
+          "sample_doc_ids": [
+            "EFTA01357083",
+            "EFTA01357097",
+            "EFTA01357884",
+            "EFTA01358324",
+            "EFTA01359632"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "City, State",
+          "count": 475,
+          "docs": 219,
+          "sample_doc_ids": [
+            "EFTA01279464",
+            "EFTA01282278",
+            "EFTA01282593",
+            "EFTA01282660",
+            "EFTA01282882"
+          ]
+        },
+        {
+          "rank": 20,
+          "text": "Regards, Vijay",
+          "count": 205,
+          "docs": 200,
+          "sample_doc_ids": [
+            "EFTA01298260",
+            "EFTA01299277",
+            "EFTA01299279",
+            "EFTA01299281",
+            "EFTA01345150"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "banker",
+      "page": 2,
+      "title": "DS10 financial — JPMorgan banker names (page 2)",
+      "subtitle": "158464 DS10 docs scanned · 29557 unique values",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "Best, Armen",
+          "count": 260,
+          "docs": 193,
+          "sample_doc_ids": [
+            "EFTA01357334",
+            "EFTA01357380",
+            "EFTA01357381",
+            "EFTA01358030",
+            "EFTA01359270"
+          ]
+        },
+        {
+          "rank": 22,
+          "text": "Young, Janet E",
+          "count": 332,
+          "docs": 192,
+          "sample_doc_ids": [
+            "EFTA01344016",
+            "EFTA01344076",
+            "EFTA01344078",
+            "EFTA01344148",
+            "EFTA01344153"
+          ]
+        },
+        {
+          "rank": 23,
+          "text": "Equity, Hedge",
+          "count": 183,
+          "docs": 183,
+          "sample_doc_ids": [
+            "EFTA01464701",
+            "EFTA01464848",
+            "EFTA01492560",
+            "EFTA01492669",
+            "EFTA01492713"
+          ]
+        },
+        {
+          "rank": 24,
+          "text": "Thanks, Lesley",
+          "count": 175,
+          "docs": 174,
+          "sample_doc_ids": [
+            "EFTA01343929",
+            "EFTA01343932",
+            "EFTA01343962",
+            "EFTA01344012",
+            "EFTA01344018"
+          ]
+        },
+        {
+          "rank": 25,
+          "text": "Notice, How",
+          "count": 202,
+          "docs": 173,
+          "sample_doc_ids": [
+            "EFTA01487200",
+            "EFTA01531644",
+            "EFTA01531651",
+            "EFTA01531659",
+            "EFTA01531667"
+          ]
+        },
+        {
+          "rank": 26,
+          "text": "Darren, Please",
+          "count": 179,
+          "docs": 173,
+          "sample_doc_ids": [
+            "EFTA01268339",
+            "EFTA01357213",
+            "EFTA01357250",
+            "EFTA01357536",
+            "EFTA01357538"
+          ]
+        },
+        {
+          "rank": 27,
+          "text": "Officer, Chief",
+          "count": 274,
+          "docs": 167,
+          "sample_doc_ids": [
+            "EFTA01268751",
+            "EFTA01269261",
+            "EFTA01269292",
+            "EFTA01269354",
+            "EFTA01269509"
+          ]
+        },
+        {
+          "rank": 28,
+          "text": "Director, Cosmology",
+          "count": 245,
+          "docs": 166,
+          "sample_doc_ids": [
+            "EFTA01300383",
+            "EFTA01731537",
+            "EFTA01731722",
+            "EFTA01732169",
+            "EFTA01733522"
+          ]
+        },
+        {
+          "rank": 29,
+          "text": "Thanks, Vahe",
+          "count": 168,
+          "docs": 157,
+          "sample_doc_ids": [
+            "EFTA01344170",
+            "EFTA01345118",
+            "EFTA01345130",
+            "EFTA01345666",
+            "EFTA01351002"
+          ]
+        },
+        {
+          "rank": 30,
+          "text": "Staley, Jes",
+          "count": 327,
+          "docs": 155,
+          "sample_doc_ids": [
+            "EFTA01300868",
+            "EFTA01300871",
+            "EFTA01300872",
+            "EFTA01300873",
+            "EFTA01300876"
+          ]
+        },
+        {
+          "rank": 31,
+          "text": "Member, General",
+          "count": 162,
+          "docs": 153,
+          "sample_doc_ids": [
+            "EFTA01268833",
+            "EFTA01269292",
+            "EFTA01269393",
+            "EFTA01269509",
+            "EFTA01269520"
+          ]
+        },
+        {
+          "rank": 32,
+          "text": "Funds, Real",
+          "count": 152,
+          "docs": 152,
+          "sample_doc_ids": [
+            "EFTA01464701",
+            "EFTA01464848",
+            "EFTA01492093",
+            "EFTA01492196",
+            "EFTA01492264"
+          ]
+        },
+        {
+          "rank": 33,
+          "text": "Rate, Annual",
+          "count": 180,
+          "docs": 151,
+          "sample_doc_ids": [
+            "EFTA01531644",
+            "EFTA01531651",
+            "EFTA01531659",
+            "EFTA01531667",
+            "EFTA01531674"
+          ]
+        },
+        {
+          "rank": 34,
+          "text": "Funds, Exchange",
+          "count": 151,
+          "docs": 151,
+          "sample_doc_ids": [
+            "EFTA01449613",
+            "EFTA01449725",
+            "EFTA01464701",
+            "EFTA01464848",
+            "EFTA01492905"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "Dividends, Interest",
+          "count": 266,
+          "docs": 148,
+          "sample_doc_ids": [
+            "EFTA01288458",
+            "EFTA01289724",
+            "EFTA01290105",
+            "EFTA01290514",
+            "EFTA01290526"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "Jacksonville, Florida",
+          "count": 156,
+          "docs": 148,
+          "sample_doc_ids": [
+            "EFTA01299262",
+            "EFTA01299264",
+            "EFTA01299275",
+            "EFTA01299277",
+            "EFTA01299279"
+          ]
+        },
+        {
+          "rank": 37,
+          "text": "Amanda, Please",
+          "count": 148,
+          "docs": 147,
+          "sample_doc_ids": [
+            "EFTA01299239",
+            "EFTA01344060",
+            "EFTA01344071",
+            "EFTA01344074",
+            "EFTA01344101"
+          ]
+        },
+        {
+          "rank": 38,
+          "text": "Regards, Tazia",
+          "count": 149,
+          "docs": 144,
+          "sample_doc_ids": [
+            "EFTA01344785",
+            "EFTA01344786",
+            "EFTA01359940",
+            "EFTA01368473",
+            "EFTA01403241"
+          ]
+        },
+        {
+          "rank": 39,
+          "text": "Telephone, Facsimile",
+          "count": 146,
+          "docs": 144,
+          "sample_doc_ids": [
+            "EFTA01282278",
+            "EFTA01282873",
+            "EFTA01282879",
+            "EFTA01282882",
+            "EFTA01282889"
+          ]
+        },
+        {
+          "rank": 40,
+          "text": "Partner, President",
+          "count": 150,
+          "docs": 141,
+          "sample_doc_ids": [
+            "EFTA01268689",
+            "EFTA01268751",
+            "EFTA01269261",
+            "EFTA01269292",
+            "EFTA01269509"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "banker",
+      "page": 3,
+      "title": "DS10 financial — JPMorgan banker names (page 3)",
+      "subtitle": "158464 DS10 docs scanned · 29557 unique values",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "Epstein, Jeffrey E",
+          "count": 216,
+          "docs": 135,
+          "sample_doc_ids": [
+            "EFTA01282195",
+            "EFTA01298970",
+            "EFTA01308891",
+            "EFTA01333905",
+            "EFTA01334281"
+          ]
+        },
+        {
+          "rank": 42,
+          "text": "Regards, Marjorie",
+          "count": 144,
+          "docs": 134,
+          "sample_doc_ids": [
+            "EFTA01366012",
+            "EFTA01366024",
+            "EFTA01366142",
+            "EFTA01366163",
+            "EFTA01366182"
+          ]
+        },
+        {
+          "rank": 43,
+          "text": "Regards, Signature",
+          "count": 138,
+          "docs": 134,
+          "sample_doc_ids": [
+            "EFTA01357103",
+            "EFTA01358506",
+            "EFTA01358517",
+            "EFTA01358524",
+            "EFTA01358537"
+          ]
+        },
+        {
+          "rank": 44,
+          "text": "Americas, Deutsche",
+          "count": 122,
+          "docs": 122,
+          "sample_doc_ids": [
+            "EFTA01353399",
+            "EFTA01353979",
+            "EFTA01354045",
+            "EFTA01354409",
+            "EFTA01354476"
+          ]
+        },
+        {
+          "rank": 45,
+          "text": "Thanks, Stew",
+          "count": 122,
+          "docs": 122,
+          "sample_doc_ids": [
+            "EFTA01357116",
+            "EFTA01357118",
+            "EFTA01361933",
+            "EFTA01368847",
+            "EFTA01368932"
+          ]
+        },
+        {
+          "rank": 46,
+          "text": "Regards, Raunak",
+          "count": 230,
+          "docs": 119,
+          "sample_doc_ids": [
+            "EFTA01357319",
+            "EFTA01357320",
+            "EFTA01357604",
+            "EFTA01357606",
+            "EFTA01357607"
+          ]
+        },
+        {
+          "rank": 47,
+          "text": "Best, Tazia",
+          "count": 115,
+          "docs": 114,
+          "sample_doc_ids": [
+            "EFTA01364381",
+            "EFTA01364408",
+            "EFTA01369059",
+            "EFTA01369767",
+            "EFTA01370321"
+          ]
+        },
+        {
+          "rank": 48,
+          "text": "Lang, Caroline",
+          "count": 302,
+          "docs": 111,
+          "sample_doc_ids": [
+            "EFTA01731983",
+            "EFTA01738674",
+            "EFTA01738839",
+            "EFTA01738924",
+            "EFTA01739053"
+          ]
+        },
+        {
+          "rank": 49,
+          "text": "Parkway, Suite",
+          "count": 163,
+          "docs": 111,
+          "sample_doc_ids": [
+            "EFTA01299308",
+            "EFTA01356376",
+            "EFTA01356377",
+            "EFTA01356381",
+            "EFTA01356385"
+          ]
+        },
+        {
+          "rank": 50,
+          "text": "Indyke, Richard",
+          "count": 125,
+          "docs": 109,
+          "sample_doc_ids": [
+            "EFTA01283834",
+            "EFTA01284012",
+            "EFTA01295009",
+            "EFTA01295581",
+            "EFTA01357160"
+          ]
+        },
+        {
+          "rank": 51,
+          "text": "Regards, Daniel",
+          "count": 117,
+          "docs": 109,
+          "sample_doc_ids": [
+            "EFTA01356504",
+            "EFTA01357638",
+            "EFTA01358243",
+            "EFTA01361127",
+            "EFTA01361916"
+          ]
+        },
+        {
+          "rank": 52,
+          "text": "Vahe, Please",
+          "count": 107,
+          "docs": 107,
+          "sample_doc_ids": [
+            "EFTA01352201",
+            "EFTA01352204",
+            "EFTA01352223",
+            "EFTA01352225",
+            "EFTA01352231"
+          ]
+        },
+        {
+          "rank": 53,
+          "text": "Rich, Hope",
+          "count": 111,
+          "docs": 106,
+          "sample_doc_ids": [
+            "EFTA01354924",
+            "EFTA01359966",
+            "EFTA01363384",
+            "EFTA01368867",
+            "EFTA01368903"
+          ]
+        },
+        {
+          "rank": 54,
+          "text": "Paris, France",
+          "count": 392,
+          "docs": 105,
+          "sample_doc_ids": [
+            "EFTA01263156",
+            "EFTA01266134",
+            "EFTA01266168",
+            "EFTA01266204",
+            "EFTA01266359"
+          ]
+        },
+        {
+          "rank": 55,
+          "text": "Act, Chapter",
+          "count": 105,
+          "docs": 104,
+          "sample_doc_ids": [
+            "EFTA01269520",
+            "EFTA01269548",
+            "EFTA01269598",
+            "EFTA01269637",
+            "EFTA01282440"
+          ]
+        },
+        {
+          "rank": 56,
+          "text": "Hello, Please",
+          "count": 105,
+          "docs": 104,
+          "sample_doc_ids": [
+            "EFTA01343924",
+            "EFTA01345615",
+            "EFTA01345652",
+            "EFTA01350645",
+            "EFTA01350648"
+          ]
+        },
+        {
+          "rank": 57,
+          "text": "Thanks, Warwick",
+          "count": 158,
+          "docs": 103,
+          "sample_doc_ids": [
+            "EFTA01777032",
+            "EFTA01779379",
+            "EFTA01779428",
+            "EFTA01779486",
+            "EFTA01779518"
+          ]
+        },
+        {
+          "rank": 58,
+          "text": "Regards, Janice P",
+          "count": 145,
+          "docs": 101,
+          "sample_doc_ids": [
+            "EFTA01299334",
+            "EFTA01299337",
+            "EFTA01357358",
+            "EFTA01357360",
+            "EFTA01357362"
+          ]
+        },
+        {
+          "rank": 59,
+          "text": "Lad, Primary",
+          "count": 101,
+          "docs": 101,
+          "sample_doc_ids": [
+            "EFTA01482292",
+            "EFTA01482301",
+            "EFTA01482327",
+            "EFTA01482350",
+            "EFTA01483823"
           ]
         },
         {
           "rank": 60,
-          "text": "Wed, Jul",
-          "count": 334,
-          "docs": 248,
+          "text": "Disciplinary, Regulatory",
+          "count": 166,
+          "docs": 99,
           "sample_doc_ids": [
-            "EFTA01358307",
-            "EFTA01447585",
-            "EFTA01447589",
-            "EFTA01457786",
-            "EFTA01457788"
+            "EFTA01294867",
+            "EFTA01295997",
+            "EFTA01296179",
+            "EFTA01296834",
+            "EFTA01297243"
           ]
         }
       ]
