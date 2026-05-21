@@ -7,7 +7,7 @@
 @media (min-width: 1080px) {
     .efta-main {
         display: grid;
-        grid-template-columns: 16rem 1fr;
+        grid-template-columns: 22rem 1fr;
         grid-template-areas:
             "toc pager-top"
             "toc content"
