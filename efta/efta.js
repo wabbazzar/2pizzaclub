@@ -33,6 +33,42 @@ function escapeHTML(s) {
     }[c]));
 }
 
+// Render a doc_id as a clickable button that opens the doc viewer side-panel.
+function docLink(id) {
+    if (!id) return '';
+    return `<button class="doc-link" type="button" data-doc-id="${escapeHTML(id)}">${escapeHTML(id)}</button>`;
+}
+
+// Map a dataset name to one of the 4 filter buckets.
+const DATASET_BUCKET = {
+    dataset_3: 'court', dataset_4: 'court', dataset_6: 'court', dataset_7: 'court',
+    dataset_11: 'personal', dataset_12: 'personal',
+    emails: 'personal', estate: 'personal', dems: 'personal',
+    dataset_8: 'doj_feb',
+    dataset_10: 'financial',
+    dataset_1: 'court', dataset_2: 'court', dataset_5: 'court',  // photo-heavy
+};
+function rowMatchesFilter(row, enabledBuckets) {
+    // Per-row datasets dict (NER rank pages, press_recreate, codeword_top, etc.)
+    if (row.datasets && Object.keys(row.datasets).length) {
+        return Object.keys(row.datasets).some(ds => enabledBuckets.has(DATASET_BUCKET[ds] || 'other'));
+    }
+    // Single-dataset row (topic_search, imessages)
+    if (row.dataset) {
+        return enabledBuckets.has(DATASET_BUCKET[row.dataset] || 'other');
+    }
+    // Sample doc_ids may give us datasets indirectly — fallback: keep if no dataset info
+    return true;
+}
+
+function getEnabledBuckets() {
+    const set = new Set();
+    document.querySelectorAll('.filter-chip input[type=checkbox]').forEach(cb => {
+        if (cb.checked) set.add(cb.dataset.bucket);
+    });
+    return set;
+}
+
 function fmtDatasets(d) {
     if (!d) return '';
     return Object.entries(d).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`${k}:${v}`).join('  ');
@@ -103,12 +139,21 @@ function renderPagerLabels() {
 
 function renderPage() {
     const root = $('findings');
-    const page = (state.data.pages || [])[state.pageIdx];
-    if (!page) {
+    const origPage = (state.data.pages || [])[state.pageIdx];
+    if (!origPage) {
         root.innerHTML = '<p class="placeholder">No findings yet. Re-run the pipeline.</p>';
         return;
     }
+    // Apply current filter — wrap the original page with filtered rows so the
+    // subsequent renderers don't need to know about filtering.
+    const enabledBuckets = getEnabledBuckets();
+    const filteredRows = (origPage.rows || []).filter(r => rowMatchesFilter(r, enabledBuckets));
+    const filterApplied = filteredRows.length !== (origPage.rows || []).length;
+    const page = { ...origPage, rows: filteredRows };
     let html = '';
+    if (filterApplied) {
+        html += `<div class="filter-status">showing ${filteredRows.length} of ${(origPage.rows||[]).length} rows after datasource filter</div>`;
+    }
     html += `<div class="page-title-row">`
           + `<h2>${escapeHTML(page.title)}</h2>`
           + (page.explainer ? `<button class="info-btn" type="button" aria-label="what is this?" data-target="info-${state.pageIdx}">ⓘ</button>` : '')
@@ -176,7 +221,7 @@ function renderPage() {
             html += `<tr>`
                   + `<td class="rank-cell">${r.rank}</td>`
                   + `<td class="docs-cell">${escapeHTML(d)}</td>`
-                  + `<td class="text-cell"><code>${escapeHTML(r.doc_id)}</code><br><small style="color:var(--ink-soft)">${escapeHTML(r.dataset || '')}</small></td>`
+                  + `<td class="text-cell">${docLink(r.doc_id)}<br><small style="color:var(--ink-soft)">${escapeHTML(r.dataset || '')}</small></td>`
                   + `<td class="count-cell"><mark>${escapeHTML(r.matched)}</mark></td>`
                   + `<td class="datasets-cell">${escapeHTML(r.context)}</td>`
                   + `</tr>`;
@@ -197,7 +242,7 @@ function renderPage() {
                   + `<span class="imsg-ts">${escapeHTML(r.note || '?')}</span>`
                   + `<span class="imsg-sender">${escapeHTML(r.sender === 'epstein' ? 'JE' : '◼')}</span>`
                   + `<span class="imsg-body">${escapeHTML(r.text)}</span>`
-                  + `<span class="imsg-doc">${escapeHTML(r.doc_id || '')}</span>`
+                  + `<span class="imsg-doc">${docLink(r.doc_id || '')}</span>`
                   + `</div>`;
         }
         html += '</div>';
@@ -227,7 +272,7 @@ function renderPage() {
                 if (r.samples && r.samples.length) {
                     for (const s of r.samples) {
                         html += `<blockquote>`
-                              + `<span class="quote-meta">[${escapeHTML(s.doc_id)} · ${escapeHTML(s.dataset)}]</span>`
+                              + `<span class="quote-meta">[${docLink(s.doc_id)} · ${escapeHTML(s.dataset)}]</span>`
                               + `<br><span class="quote-context">…${escapeHTML(s.context)}…</span>`
                               + `</blockquote>`;
                     }
@@ -301,13 +346,60 @@ function bindNav() {
     $('next-bottom').addEventListener('click', () => goto(state.pageIdx + 1));
     $('toc-collapse-all').addEventListener('click', (e) => { e.preventDefault(); setAllGroups(false); });
     $('toc-expand-all').addEventListener('click', (e) => { e.preventDefault(); setAllGroups(true); });
+    // Datasource filter — re-render current page whenever a checkbox flips
+    document.querySelectorAll('.filter-chip input[type=checkbox]').forEach(cb => {
+        cb.addEventListener('change', () => renderPage());
+    });
+    // Delegated doc-link clicks → open doc viewer
+    document.body.addEventListener('click', (e) => {
+        const a = e.target.closest('.doc-link');
+        if (a) {
+            e.preventDefault();
+            openDocViewer(a.dataset.docId);
+        }
+    });
+    // Doc viewer close
+    $('doc-viewer-close').addEventListener('click', () => {
+        $('doc-viewer').hidden = true;
+    });
     window.addEventListener('keydown', (e) => {
-        // Don't hijack arrow keys when user is in a form field
         const t = e.target;
         if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+        // Esc closes doc viewer
+        if (e.key === 'Escape' && !$('doc-viewer').hidden) {
+            $('doc-viewer').hidden = true;
+            return;
+        }
         if (e.key === 'ArrowLeft') goto(state.pageIdx - 1);
         else if (e.key === 'ArrowRight') goto(state.pageIdx + 1);
     });
+}
+
+// Cache fetched doc snippets to avoid re-fetching on re-open.
+const docCache = new Map();
+async function openDocViewer(docId) {
+    if (!docId) return;
+    const viewer = $('doc-viewer');
+    $('doc-viewer-id').textContent = docId;
+    $('doc-viewer-meta').textContent = 'loading…';
+    $('doc-viewer-text').textContent = '';
+    viewer.hidden = false;
+    let doc = docCache.get(docId);
+    if (!doc) {
+        try {
+            const r = await fetch(`docs/${encodeURIComponent(docId)}.json`, { cache: 'force-cache' });
+            if (!r.ok) throw new Error(`HTTP ${r.status}`);
+            doc = await r.json();
+            docCache.set(docId, doc);
+        } catch (e) {
+            $('doc-viewer-meta').textContent = `(no snippet available — ${e.message})`;
+            return;
+        }
+    }
+    $('doc-viewer-meta').textContent =
+        `dataset: ${doc.dataset} · ${doc.n_chars.toLocaleString()} chars · ${doc.n_words.toLocaleString()} words` +
+        (doc.text.endsWith('…') ? ' · truncated to ~5KB' : '');
+    $('doc-viewer-text').textContent = doc.text;
 }
 
 async function init() {

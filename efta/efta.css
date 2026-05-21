@@ -4,6 +4,127 @@
     padding: 1.25rem var(--gutter, 1.25rem) 4rem;
 }
 
+/* Sticky datasource filter bar */
+.filter-bar {
+    position: sticky;
+    top: 0;
+    z-index: 8;
+    background: var(--chrome-bg);
+    border-bottom: 1px solid var(--chrome-rule);
+    padding: 0.4rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+}
+.filter-bar .filter-label {
+    color: var(--chrome-ink-dim);
+    margin-right: 0.25rem;
+}
+.filter-chip {
+    background: rgba(255, 248, 231, 0.1);
+    color: var(--chrome-ink);
+    border: 1px solid var(--chrome-ink-dim);
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    cursor: pointer;
+    user-select: none;
+}
+.filter-chip:has(input:checked) {
+    background: var(--bus-yellow);
+    color: var(--ink);
+    border-color: var(--ink);
+}
+.filter-chip input[type=checkbox] { margin-right: 0.35rem; transform: translateY(1px); }
+
+.filter-status {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+    background: rgba(230, 57, 70, 0.08);
+    border-left: 3px solid var(--accent);
+    padding: 0.4rem 0.65rem;
+    margin: 0 0 0.85rem;
+    border-radius: 2px;
+}
+
+/* Clickable doc-id button (inline, looks like a styled link) */
+.doc-link {
+    background: transparent;
+    color: var(--accent);
+    border: none;
+    border-bottom: 1px dashed var(--accent);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: inherit;
+    padding: 0;
+    cursor: pointer;
+}
+.doc-link:hover {
+    background: var(--bus-yellow);
+    color: var(--ink);
+}
+
+/* Side-panel doc viewer */
+.doc-viewer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: min(40rem, 95vw);
+    height: 100vh;
+    background: var(--paper);
+    color: var(--ink);
+    border-left: 3px solid var(--ink);
+    box-shadow: -6px 0 0 var(--bus-yellow);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.doc-viewer-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 0.85rem;
+    border-bottom: 2px solid var(--ink);
+    background: var(--bus-yellow);
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    color: var(--ink);
+}
+.doc-viewer-close {
+    background: transparent;
+    border: 1px solid var(--ink);
+    width: 1.6rem;
+    height: 1.6rem;
+    padding: 0;
+    font-family: 'JetBrains Mono', monospace;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.doc-viewer-close:hover { background: var(--accent); color: var(--paper); }
+.doc-viewer-meta {
+    padding: 0.45rem 0.85rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--ink-soft);
+    border-bottom: 1px dashed var(--ink-soft);
+}
+.doc-viewer-text {
+    flex: 1;
+    overflow: auto;
+    padding: 1rem 1rem 2rem;
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: var(--ink);
+    background: var(--paper);
+}
+
 /* TOC at top of page, replacing the old intro + bottom chip rail */
 .efta-toc {
     background: var(--paper);

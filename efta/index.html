@@ -35,6 +35,25 @@
         <a class="exit-mark" href="../">← timeline</a>
     </header>
 
+    <!-- Datasource filter bar (sticky, applies to every page) -->
+    <nav class="filter-bar" aria-label="datasource filter">
+      <span class="filter-label">show:</span>
+      <label class="filter-chip"><input type="checkbox" data-bucket="personal" checked> personal correspondence</label>
+      <label class="filter-chip"><input type="checkbox" data-bucket="court" checked> court proceedings</label>
+      <label class="filter-chip"><input type="checkbox" data-bucket="doj_feb" checked> DOJ Feb-2026</label>
+      <label class="filter-chip"><input type="checkbox" data-bucket="financial"> DS10 financial (off)</label>
+    </nav>
+
+    <!-- Doc viewer side-panel (hidden until a doc_id is clicked) -->
+    <aside class="doc-viewer" id="doc-viewer" hidden aria-label="document viewer">
+      <header class="doc-viewer-head">
+        <span id="doc-viewer-id">—</span>
+        <button class="doc-viewer-close" id="doc-viewer-close" type="button" aria-label="close">✕</button>
+      </header>
+      <div class="doc-viewer-meta" id="doc-viewer-meta"></div>
+      <pre class="doc-viewer-text" id="doc-viewer-text"></pre>
+    </aside>
+
     <main class="efta-main">
         <nav class="efta-toc" id="efta-toc" aria-label="contents">
             <p class="toc-hint">click to jump · arrow keys to page · <a href="#" id="toc-collapse-all">collapse all</a> · <a href="#" id="toc-expand-all">expand all</a></p>
