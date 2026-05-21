@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T03:18:56.717770+00:00",
+  "generated_at": "2026-05-21T03:22:59.385811+00:00",
   "corpus": {
     "n_documents": 5542,
     "n_entity_hits": 95332,
@@ -15277,7 +15277,7 @@
       "category": "banker",
       "page": 1,
       "title": "DS10 financial — JPMorgan banker names",
-      "subtitle": "158464 DS10 docs scanned · 31289 unique values",
+      "subtitle": "158464 DS10 docs scanned · 30248 unique values",
       "rows": [
         {
           "rank": 1,
@@ -15294,240 +15294,6 @@
         },
         {
           "rank": 2,
-          "text": "Thursday, October",
-          "count": 1300,
-          "docs": 971,
-          "sample_doc_ids": [
-            "EFTA01268397",
-            "EFTA01279870",
-            "EFTA01299339",
-            "EFTA01333248",
-            "EFTA01334241"
-          ]
-        },
-        {
-          "rank": 3,
-          "text": "Checks, Withdrawals",
-          "count": 968,
-          "docs": 913,
-          "sample_doc_ids": [
-            "EFTA01482355",
-            "EFTA01482373",
-            "EFTA01482391",
-            "EFTA01482408",
-            "EFTA01482432"
-          ]
-        },
-        {
-          "rank": 4,
-          "text": "Tuesday, October",
-          "count": 1146,
-          "docs": 865,
-          "sample_doc_ids": [
-            "EFTA01268395",
-            "EFTA01268403",
-            "EFTA01269433",
-            "EFTA01299339",
-            "EFTA01300770"
-          ]
-        },
-        {
-          "rank": 5,
-          "text": "Monday, March",
-          "count": 1434,
-          "docs": 858,
-          "sample_doc_ids": [
-            "EFTA01300510",
-            "EFTA01300511",
-            "EFTA01305746",
-            "EFTA01345047",
-            "EFTA01345362"
-          ]
-        },
-        {
-          "rank": 6,
-          "text": "Monday, October",
-          "count": 1061,
-          "docs": 818,
-          "sample_doc_ids": [
-            "EFTA01268393",
-            "EFTA01279729",
-            "EFTA01297869",
-            "EFTA01299337",
-            "EFTA01300284"
-          ]
-        },
-        {
-          "rank": 7,
-          "text": "Monday, April",
-          "count": 1126,
-          "docs": 804,
-          "sample_doc_ids": [
-            "EFTA01268471",
-            "EFTA01344895",
-            "EFTA01344900",
-            "EFTA01344905",
-            "EFTA01344908"
-          ]
-        },
-        {
-          "rank": 8,
-          "text": "Tuesday, April",
-          "count": 1164,
-          "docs": 792,
-          "sample_doc_ids": [
-            "EFTA01300532",
-            "EFTA01344219",
-            "EFTA01344220",
-            "EFTA01344926",
-            "EFTA01345950"
-          ]
-        },
-        {
-          "rank": 9,
-          "text": "Thursday, March",
-          "count": 1236,
-          "docs": 779,
-          "sample_doc_ids": [
-            "EFTA01324976",
-            "EFTA01345057",
-            "EFTA01351793",
-            "EFTA01351795",
-            "EFTA01353255"
-          ]
-        },
-        {
-          "rank": 10,
-          "text": "Friday, October",
-          "count": 1079,
-          "docs": 775,
-          "sample_doc_ids": [
-            "EFTA01269433",
-            "EFTA01299302",
-            "EFTA01299330",
-            "EFTA01299334",
-            "EFTA01299337"
-          ]
-        },
-        {
-          "rank": 11,
-          "text": "Wednesday, October",
-          "count": 1025,
-          "docs": 775,
-          "sample_doc_ids": [
-            "EFTA01297236",
-            "EFTA01299252",
-            "EFTA01299330",
-            "EFTA01305746",
-            "EFTA01334281"
-          ]
-        },
-        {
-          "rank": 12,
-          "text": "Tuesday, May",
-          "count": 1092,
-          "docs": 762,
-          "sample_doc_ids": [
-            "EFTA01268334",
-            "EFTA01268473",
-            "EFTA01268476",
-            "EFTA01300572",
-            "EFTA01305746"
-          ]
-        },
-        {
-          "rank": 13,
-          "text": "Friday, January",
-          "count": 1031,
-          "docs": 756,
-          "sample_doc_ids": [
-            "EFTA01263291",
-            "EFTA01300901",
-            "EFTA01345763",
-            "EFTA01345765",
-            "EFTA01345767"
-          ]
-        },
-        {
-          "rank": 14,
-          "text": "Tuesday, March",
-          "count": 1114,
-          "docs": 740,
-          "sample_doc_ids": [
-            "EFTA01263156",
-            "EFTA01300522",
-            "EFTA01305746",
-            "EFTA01324974",
-            "EFTA01324978"
-          ]
-        },
-        {
-          "rank": 15,
-          "text": "Monday, November",
-          "count": 997,
-          "docs": 733,
-          "sample_doc_ids": [
-            "EFTA01268549",
-            "EFTA01268551",
-            "EFTA01268555",
-            "EFTA01268563",
-            "EFTA01268568"
-          ]
-        },
-        {
-          "rank": 16,
-          "text": "Tuesday, November",
-          "count": 1011,
-          "docs": 725,
-          "sample_doc_ids": [
-            "EFTA01268415",
-            "EFTA01268555",
-            "EFTA01268683",
-            "EFTA01279946",
-            "EFTA01299339"
-          ]
-        },
-        {
-          "rank": 17,
-          "text": "Wednesday, July",
-          "count": 1129,
-          "docs": 724,
-          "sample_doc_ids": [
-            "EFTA01268504",
-            "EFTA01268510",
-            "EFTA01268545",
-            "EFTA01300174",
-            "EFTA01305746"
-          ]
-        },
-        {
-          "rank": 18,
-          "text": "Monday, December",
-          "count": 973,
-          "docs": 723,
-          "sample_doc_ids": [
-            "EFTA01263272",
-            "EFTA01269683",
-            "EFTA01344161",
-            "EFTA01344173",
-            "EFTA01344176"
-          ]
-        },
-        {
-          "rank": 19,
-          "text": "Tuesday, December",
-          "count": 1031,
-          "docs": 717,
-          "sample_doc_ids": [
-            "EFTA01268515",
-            "EFTA01268604",
-            "EFTA01268833",
-            "EFTA01269683",
-            "EFTA01279943"
-          ]
-        },
-        {
-          "rank": 20,
           "text": "Estate, Mineral",
           "count": 706,
           "docs": 706,
@@ -15538,96 +15304,9 @@
             "EFTA01464848",
             "EFTA01464998"
           ]
-        }
-      ]
-    },
-    {
-      "kind": "ds10_financial",
-      "category": "banker",
-      "page": 2,
-      "title": "DS10 financial — JPMorgan banker names (page 2)",
-      "subtitle": "158464 DS10 docs scanned · 31289 unique values",
-      "rows": [
-        {
-          "rank": 21,
-          "text": "Friday, December",
-          "count": 1010,
-          "docs": 705,
-          "sample_doc_ids": [
-            "EFTA01299256",
-            "EFTA01345361",
-            "EFTA01345756",
-            "EFTA01346057",
-            "EFTA01346058"
-          ]
         },
         {
-          "rank": 22,
-          "text": "Tuesday, February",
-          "count": 980,
-          "docs": 698,
-          "sample_doc_ids": [
-            "EFTA01299262",
-            "EFTA01299264",
-            "EFTA01300476",
-            "EFTA01305746",
-            "EFTA01344872"
-          ]
-        },
-        {
-          "rank": 23,
-          "text": "Thursday, July",
-          "count": 1095,
-          "docs": 696,
-          "sample_doc_ids": [
-            "EFTA01263156",
-            "EFTA01265789",
-            "EFTA01305746",
-            "EFTA01308629",
-            "EFTA01345148"
-          ]
-        },
-        {
-          "rank": 24,
-          "text": "Wednesday, February",
-          "count": 943,
-          "docs": 691,
-          "sample_doc_ids": [
-            "EFTA01268427",
-            "EFTA01299256",
-            "EFTA01305746",
-            "EFTA01351482",
-            "EFTA01351485"
-          ]
-        },
-        {
-          "rank": 25,
-          "text": "Monday, July",
-          "count": 974,
-          "docs": 675,
-          "sample_doc_ids": [
-            "EFTA01263156",
-            "EFTA01299260",
-            "EFTA01299930",
-            "EFTA01305746",
-            "EFTA01308629"
-          ]
-        },
-        {
-          "rank": 26,
-          "text": "Tuesday, January",
-          "count": 1008,
-          "docs": 658,
-          "sample_doc_ids": [
-            "EFTA01268420",
-            "EFTA01296105",
-            "EFTA01299256",
-            "EFTA01344804",
-            "EFTA01344805"
-          ]
-        },
-        {
-          "rank": 27,
+          "rank": 3,
           "text": "Fees, Charges",
           "count": 962,
           "docs": 650,
@@ -15640,7 +15319,7 @@
           ]
         },
         {
-          "rank": 28,
+          "rank": 4,
           "text": "Sales, Maturities",
           "count": 834,
           "docs": 650,
@@ -15653,302 +15332,7 @@
           ]
         },
         {
-          "rank": 29,
-          "text": "Tuesday, September",
-          "count": 872,
-          "docs": 649,
-          "sample_doc_ids": [
-            "EFTA01268375",
-            "EFTA01268380",
-            "EFTA01269433",
-            "EFTA01300721",
-            "EFTA01305746"
-          ]
-        },
-        {
-          "rank": 30,
-          "text": "Wednesday, January",
-          "count": 858,
-          "docs": 644,
-          "sample_doc_ids": [
-            "EFTA01333488",
-            "EFTA01333923",
-            "EFTA01344934",
-            "EFTA01344937",
-            "EFTA01344942"
-          ]
-        },
-        {
-          "rank": 31,
-          "text": "Friday, November",
-          "count": 901,
-          "docs": 638,
-          "sample_doc_ids": [
-            "EFTA01263272",
-            "EFTA01268683",
-            "EFTA01296395",
-            "EFTA01298799",
-            "EFTA01298802"
-          ]
-        },
-        {
-          "rank": 32,
-          "text": "Thursday, January",
-          "count": 987,
-          "docs": 634,
-          "sample_doc_ids": [
-            "EFTA01299256",
-            "EFTA01299272",
-            "EFTA01305746",
-            "EFTA01333125",
-            "EFTA01344940"
-          ]
-        },
-        {
-          "rank": 33,
-          "text": "Wednesday, April",
-          "count": 892,
-          "docs": 633,
-          "sample_doc_ids": [
-            "EFTA01304453",
-            "EFTA01333125",
-            "EFTA01344902",
-            "EFTA01344903",
-            "EFTA01345950"
-          ]
-        },
-        {
-          "rank": 34,
-          "text": "Monday, May",
-          "count": 867,
-          "docs": 630,
-          "sample_doc_ids": [
-            "EFTA01268341",
-            "EFTA01300587",
-            "EFTA01305746",
-            "EFTA01344930",
-            "EFTA01351584"
-          ]
-        },
-        {
-          "rank": 35,
-          "text": "Thursday, April",
-          "count": 808,
-          "docs": 623,
-          "sample_doc_ids": [
-            "EFTA01300562",
-            "EFTA01352730",
-            "EFTA01357619",
-            "EFTA01358103",
-            "EFTA01358522"
-          ]
-        },
-        {
-          "rank": 36,
-          "text": "Friday, March",
-          "count": 924,
-          "docs": 620,
-          "sample_doc_ids": [
-            "EFTA01301043",
-            "EFTA01344892",
-            "EFTA01345481",
-            "EFTA01345483",
-            "EFTA01345490"
-          ]
-        },
-        {
-          "rank": 37,
-          "text": "Wednesday, May",
-          "count": 785,
-          "docs": 620,
-          "sample_doc_ids": [
-            "EFTA01268370",
-            "EFTA01268481",
-            "EFTA01268483",
-            "EFTA01268485",
-            "EFTA01268490"
-          ]
-        },
-        {
-          "rank": 38,
-          "text": "Monday, February",
-          "count": 906,
-          "docs": 616,
-          "sample_doc_ids": [
-            "EFTA01263156",
-            "EFTA01299262",
-            "EFTA01299264",
-            "EFTA01299266",
-            "EFTA01300482"
-          ]
-        },
-        {
-          "rank": 39,
-          "text": "Wednesday, November",
-          "count": 855,
-          "docs": 613,
-          "sample_doc_ids": [
-            "EFTA01268555",
-            "EFTA01268662",
-            "EFTA01268664",
-            "EFTA01268667",
-            "EFTA01268671"
-          ]
-        },
-        {
-          "rank": 40,
-          "text": "Thursday, February",
-          "count": 813,
-          "docs": 606,
-          "sample_doc_ids": [
-            "EFTA01299256",
-            "EFTA01324810",
-            "EFTA01344877",
-            "EFTA01344879",
-            "EFTA01351491"
-          ]
-        }
-      ]
-    },
-    {
-      "kind": "ds10_financial",
-      "category": "banker",
-      "page": 3,
-      "title": "DS10 financial — JPMorgan banker names (page 3)",
-      "subtitle": "158464 DS10 docs scanned · 31289 unique values",
-      "rows": [
-        {
-          "rank": 41,
-          "text": "Tuesday, July",
-          "count": 863,
-          "docs": 600,
-          "sample_doc_ids": [
-            "EFTA01305746",
-            "EFTA01308629",
-            "EFTA01345942",
-            "EFTA01345944",
-            "EFTA01352649"
-          ]
-        },
-        {
-          "rank": 42,
-          "text": "Friday, May",
-          "count": 846,
-          "docs": 596,
-          "sample_doc_ids": [
-            "EFTA01268370",
-            "EFTA01268485",
-            "EFTA01268490",
-            "EFTA01353358",
-            "EFTA01354928"
-          ]
-        },
-        {
-          "rank": 43,
-          "text": "Thursday, November",
-          "count": 858,
-          "docs": 588,
-          "sample_doc_ids": [
-            "EFTA01279948",
-            "EFTA01296395",
-            "EFTA01301220",
-            "EFTA01344855",
-            "EFTA01344857"
-          ]
-        },
-        {
-          "rank": 44,
-          "text": "Wednesday, March",
-          "count": 831,
-          "docs": 587,
-          "sample_doc_ids": [
-            "EFTA01301020",
-            "EFTA01344884",
-            "EFTA01344885",
-            "EFTA01344886",
-            "EFTA01344888"
-          ]
-        },
-        {
-          "rank": 45,
-          "text": "Friday, April",
-          "count": 774,
-          "docs": 584,
-          "sample_doc_ids": [
-            "EFTA01305746",
-            "EFTA01333125",
-            "EFTA01356302",
-            "EFTA01357619",
-            "EFTA01358103"
-          ]
-        },
-        {
-          "rank": 46,
-          "text": "Friday, September",
-          "count": 746,
-          "docs": 583,
-          "sample_doc_ids": [
-            "EFTA01279729",
-            "EFTA01297869",
-            "EFTA01304561",
-            "EFTA01308370",
-            "EFTA01334261"
-          ]
-        },
-        {
-          "rank": 47,
-          "text": "Thursday, September",
-          "count": 805,
-          "docs": 582,
-          "sample_doc_ids": [
-            "EFTA01268343",
-            "EFTA01268374",
-            "EFTA01268380",
-            "EFTA01268391",
-            "EFTA01279729"
-          ]
-        },
-        {
-          "rank": 48,
-          "text": "Monday, January",
-          "count": 693,
-          "docs": 565,
-          "sample_doc_ids": [
-            "EFTA01300405",
-            "EFTA01300868",
-            "EFTA01344956",
-            "EFTA01346069",
-            "EFTA01346072"
-          ]
-        },
-        {
-          "rank": 49,
-          "text": "Thursday, December",
-          "count": 712,
-          "docs": 563,
-          "sample_doc_ids": [
-            "EFTA01268515",
-            "EFTA01268604",
-            "EFTA01268662",
-            "EFTA01300377",
-            "EFTA01324971"
-          ]
-        },
-        {
-          "rank": 50,
-          "text": "Monday, September",
-          "count": 699,
-          "docs": 559,
-          "sample_doc_ids": [
-            "EFTA01268397",
-            "EFTA01268409",
-            "EFTA01298260",
-            "EFTA01301174",
-            "EFTA01334281"
-          ]
-        },
-        {
-          "rank": 51,
+          "rank": 5,
           "text": "Fri, Jan",
           "count": 729,
           "docs": 556,
@@ -15961,33 +15345,7 @@
           ]
         },
         {
-          "rank": 52,
-          "text": "Friday, February",
-          "count": 737,
-          "docs": 553,
-          "sample_doc_ids": [
-            "EFTA01299244",
-            "EFTA01299266",
-            "EFTA01300985",
-            "EFTA01344208",
-            "EFTA01344213"
-          ]
-        },
-        {
-          "rank": 53,
-          "text": "Wednesday, September",
-          "count": 791,
-          "docs": 540,
-          "sample_doc_ids": [
-            "EFTA01267632",
-            "EFTA01268375",
-            "EFTA01269433",
-            "EFTA01279729",
-            "EFTA01300268"
-          ]
-        },
-        {
-          "rank": 54,
+          "rank": 6,
           "text": "Park, Inside",
           "count": 818,
           "docs": 538,
@@ -16000,7 +15358,7 @@
           ]
         },
         {
-          "rank": 55,
+          "rank": 7,
           "text": "Park, Western",
           "count": 881,
           "docs": 529,
@@ -16013,20 +15371,7 @@
           ]
         },
         {
-          "rank": 56,
-          "text": "Monday, June",
-          "count": 786,
-          "docs": 522,
-          "sample_doc_ids": [
-            "EFTA01299279",
-            "EFTA01345852",
-            "EFTA01345857",
-            "EFTA01345858",
-            "EFTA01352574"
-          ]
-        },
-        {
-          "rank": 57,
+          "rank": 8,
           "text": "Mon, Jan",
           "count": 642,
           "docs": 519,
@@ -16039,42 +15384,697 @@
           ]
         },
         {
-          "rank": 58,
-          "text": "Wednesday, December",
-          "count": 628,
-          "docs": 513,
+          "rank": 9,
+          "text": "Mon, Mar",
+          "count": 580,
+          "docs": 479,
           "sample_doc_ids": [
-            "EFTA01300069",
-            "EFTA01324978",
-            "EFTA01356281",
-            "EFTA01356522",
-            "EFTA01356541"
+            "EFTA01300509",
+            "EFTA01300511",
+            "EFTA01344738",
+            "EFTA01344739",
+            "EFTA01344742"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "Mon, Feb",
+          "count": 643,
+          "docs": 474,
+          "sample_doc_ids": [
+            "EFTA01300947",
+            "EFTA01300950",
+            "EFTA01300951",
+            "EFTA01300994",
+            "EFTA01447815"
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "Mon, Dec",
+          "count": 611,
+          "docs": 471,
+          "sample_doc_ids": [
+            "EFTA01300363",
+            "EFTA01459150",
+            "EFTA01731424",
+            "EFTA01731638",
+            "EFTA01731821"
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "Madam, Please",
+          "count": 470,
+          "docs": 470,
+          "sample_doc_ids": [
+            "EFTA01364928",
+            "EFTA01450655",
+            "EFTA01450692",
+            "EFTA01450760",
+            "EFTA01450918"
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "Valuations, Estimated",
+          "count": 470,
+          "docs": 470,
+          "sample_doc_ids": [
+            "EFTA01344098",
+            "EFTA01350845",
+            "EFTA01449611",
+            "EFTA01449635",
+            "EFTA01449648"
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "Jaipur, India",
+          "count": 636,
+          "docs": 445,
+          "sample_doc_ids": [
+            "EFTA01299275",
+            "EFTA01299292",
+            "EFTA01299306",
+            "EFTA01299326",
+            "EFTA01299330"
+          ]
+        },
+        {
+          "rank": 15,
+          "text": "Thu, Jan",
+          "count": 552,
+          "docs": 437,
+          "sample_doc_ids": [
+            "EFTA01300449",
+            "EFTA01300452",
+            "EFTA01300876",
+            "EFTA01300899",
+            "EFTA01300901"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "Thu, Mar",
+          "count": 545,
+          "docs": 436,
+          "sample_doc_ids": [
+            "EFTA01300499",
+            "EFTA01447011",
+            "EFTA01447066",
+            "EFTA01447838",
+            "EFTA01447839"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "Fri, Dec",
+          "count": 581,
+          "docs": 434,
+          "sample_doc_ids": [
+            "EFTA01300401",
+            "EFTA01300866",
+            "EFTA01337165",
+            "EFTA01577466",
+            "EFTA01732012"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": "Wed, Jan",
+          "count": 576,
+          "docs": 431,
+          "sample_doc_ids": [
+            "EFTA01300080",
+            "EFTA01300407",
+            "EFTA01300420",
+            "EFTA01300423",
+            "EFTA01300444"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "Wed, Feb",
+          "count": 503,
+          "docs": 428,
+          "sample_doc_ids": [
+            "EFTA01300924",
+            "EFTA01300954",
+            "EFTA01300956",
+            "EFTA01300958",
+            "EFTA01300960"
+          ]
+        },
+        {
+          "rank": 20,
+          "text": "Thu, Dec",
+          "count": 545,
+          "docs": 427,
+          "sample_doc_ids": [
+            "EFTA01300073",
+            "EFTA01300383",
+            "EFTA01300386",
+            "EFTA01300398",
+            "EFTA01300399"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "banker",
+      "page": 2,
+      "title": "DS10 financial — JPMorgan banker names (page 2)",
+      "subtitle": "158464 DS10 docs scanned · 30248 unique values",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "Mumbai, Nirlon",
+          "count": 710,
+          "docs": 424,
+          "sample_doc_ids": [
+            "EFTA01298260",
+            "EFTA01298802",
+            "EFTA01299277",
+            "EFTA01299279",
+            "EFTA01299281"
+          ]
+        },
+        {
+          "rank": 22,
+          "text": "Tue, Jan",
+          "count": 519,
+          "docs": 421,
+          "sample_doc_ids": [
+            "EFTA01446689",
+            "EFTA01446695",
+            "EFTA01446701",
+            "EFTA01446707",
+            "EFTA01446714"
+          ]
+        },
+        {
+          "rank": 23,
+          "text": "East, Mumbai",
+          "count": 707,
+          "docs": 415,
+          "sample_doc_ids": [
+            "EFTA01299277",
+            "EFTA01299279",
+            "EFTA01345162",
+            "EFTA01345249",
+            "EFTA01351884"
+          ]
+        },
+        {
+          "rank": 24,
+          "text": "Sun, Jan",
+          "count": 560,
+          "docs": 411,
+          "sample_doc_ids": [
+            "EFTA01300433",
+            "EFTA01300436",
+            "EFTA01300470",
+            "EFTA01300885",
+            "EFTA01300908"
+          ]
+        },
+        {
+          "rank": 25,
+          "text": "Fri, Feb",
+          "count": 561,
+          "docs": 408,
+          "sample_doc_ids": [
+            "EFTA01300933",
+            "EFTA01300983",
+            "EFTA01300985",
+            "EFTA01300987",
+            "EFTA01452480"
+          ]
+        },
+        {
+          "rank": 26,
+          "text": "Regards, Brad",
+          "count": 510,
+          "docs": 379,
+          "sample_doc_ids": [
+            "EFTA01298260",
+            "EFTA01298799",
+            "EFTA01298802",
+            "EFTA01345355",
+            "EFTA01345357"
+          ]
+        },
+        {
+          "rank": 27,
+          "text": "Tue, Feb",
+          "count": 439,
+          "docs": 368,
+          "sample_doc_ids": [
+            "EFTA01300485",
+            "EFTA01300486",
+            "EFTA01447817",
+            "EFTA01452491",
+            "EFTA01452525"
+          ]
+        },
+        {
+          "rank": 28,
+          "text": "Funds, American",
+          "count": 420,
+          "docs": 366,
+          "sample_doc_ids": [
+            "EFTA01485373",
+            "EFTA01485385",
+            "EFTA01485397",
+            "EFTA01485406",
+            "EFTA01485674"
+          ]
+        },
+        {
+          "rank": 29,
+          "text": "Wed, Dec",
+          "count": 451,
+          "docs": 365,
+          "sample_doc_ids": [
+            "EFTA01300077",
+            "EFTA01300404",
+            "EFTA01301228",
+            "EFTA01450659",
+            "EFTA01450694"
+          ]
+        },
+        {
+          "rank": 30,
+          "text": "All, Please",
+          "count": 420,
+          "docs": 365,
+          "sample_doc_ids": [
+            "EFTA01346000",
+            "EFTA01346001",
+            "EFTA01346004",
+            "EFTA01346006",
+            "EFTA01352742"
+          ]
+        },
+        {
+          "rank": 31,
+          "text": "Wed, Oct",
+          "count": 501,
+          "docs": 354,
+          "sample_doc_ids": [
+            "EFTA01300300",
+            "EFTA01367562",
+            "EFTA01368475",
+            "EFTA01375170",
+            "EFTA01388967"
+          ]
+        },
+        {
+          "rank": 32,
+          "text": "Tue, Oct",
+          "count": 446,
+          "docs": 349,
+          "sample_doc_ids": [
+            "EFTA01300282",
+            "EFTA01301189",
+            "EFTA01386370",
+            "EFTA01430756",
+            "EFTA01433718"
+          ]
+        },
+        {
+          "rank": 33,
+          "text": "Thu, Oct",
+          "count": 479,
+          "docs": 347,
+          "sample_doc_ids": [
+            "EFTA01300290",
+            "EFTA01300786",
+            "EFTA01300795",
+            "EFTA01450193",
+            "EFTA01450196"
+          ]
+        },
+        {
+          "rank": 34,
+          "text": "Wed, Mar",
+          "count": 430,
+          "docs": 346,
+          "sample_doc_ids": [
+            "EFTA01301018",
+            "EFTA01301020",
+            "EFTA01301031",
+            "EFTA01447833",
+            "EFTA01447834"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "Mon, Oct",
+          "count": 452,
+          "docs": 338,
+          "sample_doc_ids": [
+            "EFTA01300308",
+            "EFTA01300310",
+            "EFTA01300312",
+            "EFTA01447790",
+            "EFTA01455913"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "Sat, Jan",
+          "count": 462,
+          "docs": 336,
+          "sample_doc_ids": [
+            "EFTA01300414",
+            "EFTA01731785",
+            "EFTA01732015",
+            "EFTA01740830",
+            "EFTA01741078"
+          ]
+        },
+        {
+          "rank": 37,
+          "text": "Mon, Nov",
+          "count": 458,
+          "docs": 332,
+          "sample_doc_ids": [
+            "EFTA01268551",
+            "EFTA01268555",
+            "EFTA01268563",
+            "EFTA01268568",
+            "EFTA01268584"
+          ]
+        },
+        {
+          "rank": 38,
+          "text": "Thu, Feb",
+          "count": 405,
+          "docs": 331,
+          "sample_doc_ids": [
+            "EFTA01300488",
+            "EFTA01300930",
+            "EFTA01300962",
+            "EFTA01300980",
+            "EFTA01650580"
+          ]
+        },
+        {
+          "rank": 39,
+          "text": "Sat, Dec",
+          "count": 437,
+          "docs": 330,
+          "sample_doc_ids": [
+            "EFTA01300850",
+            "EFTA01300854",
+            "EFTA01337165",
+            "EFTA01421327",
+            "EFTA01423708"
+          ]
+        },
+        {
+          "rank": 40,
+          "text": "Tue, Mar",
+          "count": 388,
+          "docs": 322,
+          "sample_doc_ids": [
+            "EFTA01300502",
+            "EFTA01300524",
+            "EFTA01447739",
+            "EFTA01453430",
+            "EFTA01456911"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "banker",
+      "page": 3,
+      "title": "DS10 financial — JPMorgan banker names (page 3)",
+      "subtitle": "158464 DS10 docs scanned · 30248 unique values",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "Thu, Apr",
+          "count": 444,
+          "docs": 320,
+          "sample_doc_ids": [
+            "EFTA01300108",
+            "EFTA01300546",
+            "EFTA01300561",
+            "EFTA01300562",
+            "EFTA01447744"
+          ]
+        },
+        {
+          "rank": 42,
+          "text": "Best, Vahe",
+          "count": 377,
+          "docs": 316,
+          "sample_doc_ids": [
+            "EFTA01345665",
+            "EFTA01351409",
+            "EFTA01352325",
+            "EFTA01356883",
+            "EFTA01357106"
+          ]
+        },
+        {
+          "rank": 43,
+          "text": "Tue, Dec",
+          "count": 374,
+          "docs": 315,
+          "sample_doc_ids": [
+            "EFTA01344650",
+            "EFTA01344654",
+            "EFTA01351270",
+            "EFTA01420992",
+            "EFTA01447726"
+          ]
+        },
+        {
+          "rank": 44,
+          "text": "Fri, Mar",
+          "count": 392,
+          "docs": 311,
+          "sample_doc_ids": [
+            "EFTA01301005",
+            "EFTA01447001",
+            "EFTA01452907",
+            "EFTA01452924",
+            "EFTA01453259"
+          ]
+        },
+        {
+          "rank": 45,
+          "text": "Center, Brooklyn",
+          "count": 457,
+          "docs": 307,
+          "sample_doc_ids": [
+            "EFTA01344316",
+            "EFTA01350845",
+            "EFTA01437566",
+            "EFTA01449633",
+            "EFTA01464701"
+          ]
+        },
+        {
+          "rank": 46,
+          "text": "Sun, Dec",
+          "count": 366,
+          "docs": 299,
+          "sample_doc_ids": [
+            "EFTA01731620",
+            "EFTA01731628",
+            "EFTA01731826",
+            "EFTA01731833",
+            "EFTA01731919"
+          ]
+        },
+        {
+          "rank": 47,
+          "text": "Sun, Feb",
+          "count": 370,
+          "docs": 293,
+          "sample_doc_ids": [
+            "EFTA01741535",
+            "EFTA01741580",
+            "EFTA01741727",
+            "EFTA01741759",
+            "EFTA01741800"
+          ]
+        },
+        {
+          "rank": 48,
+          "text": "Fri, Oct",
+          "count": 355,
+          "docs": 290,
+          "sample_doc_ids": [
+            "EFTA01300279",
+            "EFTA01300304",
+            "EFTA01301218",
+            "EFTA01356969",
+            "EFTA01356970"
+          ]
+        },
+        {
+          "rank": 49,
+          "text": "Fri, Nov",
+          "count": 363,
+          "docs": 286,
+          "sample_doc_ids": [
+            "EFTA01268683",
+            "EFTA01300350",
+            "EFTA01365193",
+            "EFTA01365348",
+            "EFTA01365360"
+          ]
+        },
+        {
+          "rank": 50,
+          "text": "Team, Please",
+          "count": 302,
+          "docs": 286,
+          "sample_doc_ids": [
+            "EFTA01353264",
+            "EFTA01353358",
+            "EFTA01355905",
+            "EFTA01355909",
+            "EFTA01355912"
+          ]
+        },
+        {
+          "rank": 51,
+          "text": "Sat, Mar",
+          "count": 381,
+          "docs": 284,
+          "sample_doc_ids": [
+            "EFTA01300515",
+            "EFTA01301008",
+            "EFTA01738753",
+            "EFTA01738836",
+            "EFTA01746159"
+          ]
+        },
+        {
+          "rank": 52,
+          "text": "Mon, Apr",
+          "count": 372,
+          "docs": 283,
+          "sample_doc_ids": [
+            "EFTA01400950",
+            "EFTA01447851",
+            "EFTA01447853",
+            "EFTA01457180",
+            "EFTA01462861"
+          ]
+        },
+        {
+          "rank": 53,
+          "text": "Tue, Nov",
+          "count": 350,
+          "docs": 272,
+          "sample_doc_ids": [
+            "EFTA01268683",
+            "EFTA01300340",
+            "EFTA01450473",
+            "EFTA01458802",
+            "EFTA01462788"
+          ]
+        },
+        {
+          "rank": 54,
+          "text": "Mon, Sep",
+          "count": 365,
+          "docs": 271,
+          "sample_doc_ids": [
+            "EFTA01300232",
+            "EFTA01300235",
+            "EFTA01300275",
+            "EFTA01301172",
+            "EFTA01301174"
+          ]
+        },
+        {
+          "rank": 55,
+          "text": "Tue, Apr",
+          "count": 362,
+          "docs": 267,
+          "sample_doc_ids": [
+            "EFTA01300568",
+            "EFTA01381001",
+            "EFTA01382152",
+            "EFTA01384370",
+            "EFTA01384372"
+          ]
+        },
+        {
+          "rank": 56,
+          "text": "Thu, Nov",
+          "count": 338,
+          "docs": 257,
+          "sample_doc_ids": [
+            "EFTA01300337",
+            "EFTA01300807",
+            "EFTA01300808",
+            "EFTA01300809",
+            "EFTA01300814"
+          ]
+        },
+        {
+          "rank": 57,
+          "text": "Alex, Brown",
+          "count": 418,
+          "docs": 253,
+          "sample_doc_ids": [
+            "EFTA01350943",
+            "EFTA01350950",
+            "EFTA01357279",
+            "EFTA01357283",
+            "EFTA01357555"
+          ]
+        },
+        {
+          "rank": 58,
+          "text": "Pritzker, Tom",
+          "count": 652,
+          "docs": 252,
+          "sample_doc_ids": [
+            "EFTA01300542",
+            "EFTA01300638",
+            "EFTA01300901",
+            "EFTA01732113",
+            "EFTA01732134"
           ]
         },
         {
           "rank": 59,
-          "text": "Friday, July",
-          "count": 775,
-          "docs": 512,
+          "text": "Sun, Mar",
+          "count": 323,
+          "docs": 252,
           "sample_doc_ids": [
-            "EFTA01268504",
-            "EFTA01268510",
-            "EFTA01299260",
-            "EFTA01299330",
-            "EFTA01305746"
+            "EFTA01300517",
+            "EFTA01744172",
+            "EFTA01744942",
+            "EFTA01744980",
+            "EFTA01746115"
           ]
         },
         {
           "rank": 60,
-          "text": "Thursday, May",
-          "count": 644,
-          "docs": 508,
+          "text": "Wed, Jul",
+          "count": 334,
+          "docs": 248,
           "sample_doc_ids": [
-            "EFTA01268331",
-            "EFTA01268481",
-            "EFTA01299275",
-            "EFTA01299287",
-            "EFTA01299292"
+            "EFTA01358307",
+            "EFTA01447585",
+            "EFTA01447589",
+            "EFTA01457786",
+            "EFTA01457788"
           ]
         }
       ]
@@ -16891,7 +16891,7 @@
       "category": "money",
       "page": 1,
       "title": "DS10 financial — Dollar amounts",
-      "subtitle": "158464 DS10 docs scanned · 80584 unique values",
+      "subtitle": "158464 DS10 docs scanned · 74153 unique values",
       "rows": [
         {
           "rank": 1,
@@ -16921,45 +16921,6 @@
         },
         {
           "rank": 3,
-          "text": "$100",
-          "count": 1424,
-          "docs": 1080,
-          "sample_doc_ids": [
-            "EFTA01265460",
-            "EFTA01266014",
-            "EFTA01266724",
-            "EFTA01268590",
-            "EFTA01268612"
-          ]
-        },
-        {
-          "rank": 4,
-          "text": "$2",
-          "count": 1426,
-          "docs": 1032,
-          "sample_doc_ids": [
-            "EFTA01266434",
-            "EFTA01266601",
-            "EFTA01269100",
-            "EFTA01269393",
-            "EFTA01270704"
-          ]
-        },
-        {
-          "rank": 5,
-          "text": "$5",
-          "count": 1071,
-          "docs": 835,
-          "sample_doc_ids": [
-            "EFTA01265318",
-            "EFTA01268751",
-            "EFTA01268833",
-            "EFTA01269100",
-            "EFTA01273265"
-          ]
-        },
-        {
-          "rank": 6,
           "text": "$250,000",
           "count": 1031,
           "docs": 774,
@@ -16972,46 +16933,7 @@
           ]
         },
         {
-          "rank": 7,
-          "text": "$4",
-          "count": 1036,
-          "docs": 771,
-          "sample_doc_ids": [
-            "EFTA01266350",
-            "EFTA01266498",
-            "EFTA01266690",
-            "EFTA01267546",
-            "EFTA01268515"
-          ]
-        },
-        {
-          "rank": 8,
-          "text": "$50",
-          "count": 1070,
-          "docs": 748,
-          "sample_doc_ids": [
-            "EFTA01266498",
-            "EFTA01266601",
-            "EFTA01269393",
-            "EFTA01269485",
-            "EFTA01269598"
-          ]
-        },
-        {
-          "rank": 9,
-          "text": "$3",
-          "count": 3315,
-          "docs": 718,
-          "sample_doc_ids": [
-            "EFTA01263124",
-            "EFTA01263293",
-            "EFTA01266601",
-            "EFTA01268833",
-            "EFTA01268890"
-          ]
-        },
-        {
-          "rank": 10,
+          "rank": 4,
           "text": "$50,000.00",
           "count": 1492,
           "docs": 708,
@@ -17024,20 +16946,7 @@
           ]
         },
         {
-          "rank": 11,
-          "text": "$10",
-          "count": 948,
-          "docs": 681,
-          "sample_doc_ids": [
-            "EFTA01262805",
-            "EFTA01263024",
-            "EFTA01265318",
-            "EFTA01266168",
-            "EFTA01269100"
-          ]
-        },
-        {
-          "rank": 12,
+          "rank": 5,
           "text": "$100,000.00",
           "count": 1048,
           "docs": 664,
@@ -17050,7 +16959,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 6,
           "text": "$200",
           "count": 899,
           "docs": 663,
@@ -17063,7 +16972,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 7,
           "text": "$500",
           "count": 756,
           "docs": 637,
@@ -17076,20 +16985,7 @@
           ]
         },
         {
-          "rank": 15,
-          "text": "$20",
-          "count": 722,
-          "docs": 570,
-          "sample_doc_ids": [
-            "EFTA01268590",
-            "EFTA01268612",
-            "EFTA01268689",
-            "EFTA01269149",
-            "EFTA01276243"
-          ]
-        },
-        {
-          "rank": 16,
+          "rank": 8,
           "text": "$000",
           "count": 583,
           "docs": 523,
@@ -17102,7 +16998,7 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 9,
           "text": "$10,000",
           "count": 783,
           "docs": 491,
@@ -17115,20 +17011,7 @@
           ]
         },
         {
-          "rank": 18,
-          "text": "$25",
-          "count": 654,
-          "docs": 467,
-          "sample_doc_ids": [
-            "EFTA01269598",
-            "EFTA01269637",
-            "EFTA01271378",
-            "EFTA01273285",
-            "EFTA01274015"
-          ]
-        },
-        {
-          "rank": 19,
+          "rank": 10,
           "text": "$50,000",
           "count": 647,
           "docs": 430,
@@ -17141,7 +17024,7 @@
           ]
         },
         {
-          "rank": 20,
+          "rank": 11,
           "text": "USD 5",
           "count": 514,
           "docs": 428,
@@ -17152,31 +17035,9 @@
             "EFTA01312590",
             "EFTA01312608"
           ]
-        }
-      ]
-    },
-    {
-      "kind": "ds10_financial",
-      "category": "money",
-      "page": 2,
-      "title": "DS10 financial — Dollar amounts (page 2)",
-      "subtitle": "158464 DS10 docs scanned · 80584 unique values",
-      "rows": [
-        {
-          "rank": 21,
-          "text": "$6",
-          "count": 545,
-          "docs": 417,
-          "sample_doc_ids": [
-            "EFTA01268833",
-            "EFTA01275639",
-            "EFTA01277649",
-            "EFTA01279595",
-            "EFTA01280082"
-          ]
         },
         {
-          "rank": 22,
+          "rank": 12,
           "text": "$800.00",
           "count": 615,
           "docs": 397,
@@ -17189,20 +17050,7 @@
           ]
         },
         {
-          "rank": 23,
-          "text": "$7",
-          "count": 513,
-          "docs": 394,
-          "sample_doc_ids": [
-            "EFTA01269100",
-            "EFTA01269292",
-            "EFTA01276243",
-            "EFTA01284861",
-            "EFTA01285998"
-          ]
-        },
-        {
-          "rank": 24,
+          "rank": 13,
           "text": "$2,000.00",
           "count": 605,
           "docs": 380,
@@ -17215,20 +17063,7 @@
           ]
         },
         {
-          "rank": 25,
-          "text": "$11",
-          "count": 443,
-          "docs": 374,
-          "sample_doc_ids": [
-            "EFTA01265318",
-            "EFTA01268833",
-            "EFTA01269100",
-            "EFTA01275639",
-            "EFTA01281726"
-          ]
-        },
-        {
-          "rank": 26,
+          "rank": 14,
           "text": "$1,000",
           "count": 797,
           "docs": 370,
@@ -17241,20 +17076,7 @@
           ]
         },
         {
-          "rank": 27,
-          "text": "$40",
-          "count": 523,
-          "docs": 345,
-          "sample_doc_ids": [
-            "EFTA01265810",
-            "EFTA01273284",
-            "EFTA01273285",
-            "EFTA01283334",
-            "EFTA01283490"
-          ]
-        },
-        {
-          "rank": 28,
+          "rank": 15,
           "text": "$5 million",
           "count": 668,
           "docs": 337,
@@ -17267,7 +17089,7 @@
           ]
         },
         {
-          "rank": 29,
+          "rank": 16,
           "text": "$25,000.00",
           "count": 474,
           "docs": 326,
@@ -17280,20 +17102,7 @@
           ]
         },
         {
-          "rank": 30,
-          "text": "$50.00",
-          "count": 451,
-          "docs": 308,
-          "sample_doc_ids": [
-            "EFTA01266498",
-            "EFTA01266690",
-            "EFTA01268604",
-            "EFTA01268833",
-            "EFTA01269322"
-          ]
-        },
-        {
-          "rank": 31,
+          "rank": 17,
           "text": "$300",
           "count": 441,
           "docs": 304,
@@ -17306,33 +17115,7 @@
           ]
         },
         {
-          "rank": 32,
-          "text": "$30",
-          "count": 431,
-          "docs": 302,
-          "sample_doc_ids": [
-            "EFTA01266498",
-            "EFTA01279531",
-            "EFTA01279924",
-            "EFTA01282110",
-            "EFTA01287880"
-          ]
-        },
-        {
-          "rank": 33,
-          "text": "$9",
-          "count": 371,
-          "docs": 299,
-          "sample_doc_ids": [
-            "EFTA01268751",
-            "EFTA01268833",
-            "EFTA01277649",
-            "EFTA01279595",
-            "EFTA01281025"
-          ]
-        },
-        {
-          "rank": 34,
+          "rank": 18,
           "text": "$5,000.00",
           "count": 493,
           "docs": 292,
@@ -17345,7 +17128,7 @@
           ]
         },
         {
-          "rank": 35,
+          "rank": 19,
           "text": "$5,000",
           "count": 433,
           "docs": 290,
@@ -17358,7 +17141,7 @@
           ]
         },
         {
-          "rank": 36,
+          "rank": 20,
           "text": "$10,000.00",
           "count": 475,
           "docs": 289,
@@ -17369,9 +17152,18 @@
             "EFTA01280665",
             "EFTA01280667"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "money",
+      "page": 2,
+      "title": "DS10 financial — Dollar amounts (page 2)",
+      "subtitle": "158464 DS10 docs scanned · 74153 unique values",
+      "rows": [
         {
-          "rank": 37,
+          "rank": 21,
           "text": "$100.00",
           "count": 432,
           "docs": 288,
@@ -17384,7 +17176,7 @@
           ]
         },
         {
-          "rank": 38,
+          "rank": 22,
           "text": "$1,000.00",
           "count": 426,
           "docs": 288,
@@ -17397,68 +17189,7 @@
           ]
         },
         {
-          "rank": 39,
-          "text": "$12",
-          "count": 350,
-          "docs": 285,
-          "sample_doc_ids": [
-            "EFTA01263293",
-            "EFTA01281611",
-            "EFTA01285841",
-            "EFTA01287423",
-            "EFTA01288388"
-          ]
-        },
-        {
-          "rank": 40,
-          "text": "$10.00",
-          "count": 515,
-          "docs": 282,
-          "sample_doc_ids": [
-            "EFTA01265318",
-            "EFTA01266114",
-            "EFTA01266498",
-            "EFTA01266601",
-            "EFTA01268751"
-          ]
-        }
-      ]
-    },
-    {
-      "kind": "ds10_financial",
-      "category": "money",
-      "page": 3,
-      "title": "DS10 financial — Dollar amounts (page 3)",
-      "subtitle": "158464 DS10 docs scanned · 80584 unique values",
-      "rows": [
-        {
-          "rank": 41,
-          "text": "$8",
-          "count": 384,
-          "docs": 275,
-          "sample_doc_ids": [
-            "EFTA01265180",
-            "EFTA01265969",
-            "EFTA01285557",
-            "EFTA01286402",
-            "EFTA01297822"
-          ]
-        },
-        {
-          "rank": 42,
-          "text": "$0.01",
-          "count": 483,
-          "docs": 273,
-          "sample_doc_ids": [
-            "EFTA01269598",
-            "EFTA01269637",
-            "EFTA01279595",
-            "EFTA01279764",
-            "EFTA01281712"
-          ]
-        },
-        {
-          "rank": 43,
+          "rank": 23,
           "text": "$500.00",
           "count": 364,
           "docs": 270,
@@ -17471,7 +17202,7 @@
           ]
         },
         {
-          "rank": 44,
+          "rank": 24,
           "text": "$2,800.00",
           "count": 416,
           "docs": 269,
@@ -17484,7 +17215,7 @@
           ]
         },
         {
-          "rank": 45,
+          "rank": 25,
           "text": "$250",
           "count": 379,
           "docs": 267,
@@ -17497,20 +17228,7 @@
           ]
         },
         {
-          "rank": 46,
-          "text": "$25.00",
-          "count": 356,
-          "docs": 250,
-          "sample_doc_ids": [
-            "EFTA01266114",
-            "EFTA01266498",
-            "EFTA01269322",
-            "EFTA01269485",
-            "EFTA01269548"
-          ]
-        },
-        {
-          "rank": 47,
+          "rank": 26,
           "text": "USD 3",
           "count": 395,
           "docs": 248,
@@ -17523,7 +17241,7 @@
           ]
         },
         {
-          "rank": 48,
+          "rank": 27,
           "text": "$150",
           "count": 290,
           "docs": 242,
@@ -17536,7 +17254,7 @@
           ]
         },
         {
-          "rank": 49,
+          "rank": 28,
           "text": "$5,000,000",
           "count": 651,
           "docs": 240,
@@ -17549,7 +17267,7 @@
           ]
         },
         {
-          "rank": 50,
+          "rank": 29,
           "text": "$1,000,000.00",
           "count": 461,
           "docs": 240,
@@ -17562,7 +17280,7 @@
           ]
         },
         {
-          "rank": 51,
+          "rank": 30,
           "text": "$400",
           "count": 275,
           "docs": 240,
@@ -17575,20 +17293,7 @@
           ]
         },
         {
-          "rank": 52,
-          "text": "$0.03",
-          "count": 329,
-          "docs": 235,
-          "sample_doc_ids": [
-            "EFTA01279509",
-            "EFTA01281720",
-            "EFTA01310323",
-            "EFTA01310516",
-            "EFTA01311581"
-          ]
-        },
-        {
-          "rank": 53,
+          "rank": 31,
           "text": "$150,000.00",
           "count": 336,
           "docs": 234,
@@ -17601,46 +17306,7 @@
           ]
         },
         {
-          "rank": 54,
-          "text": "$35",
-          "count": 295,
-          "docs": 226,
-          "sample_doc_ids": [
-            "EFTA01297822",
-            "EFTA01311006",
-            "EFTA01313396",
-            "EFTA01313422",
-            "EFTA01313426"
-          ]
-        },
-        {
-          "rank": 55,
-          "text": "$20.00",
-          "count": 411,
-          "docs": 224,
-          "sample_doc_ids": [
-            "EFTA01266601",
-            "EFTA01269100",
-            "EFTA01279595",
-            "EFTA01279838",
-            "EFTA01280366"
-          ]
-        },
-        {
-          "rank": 56,
-          "text": "$14",
-          "count": 302,
-          "docs": 219,
-          "sample_doc_ids": [
-            "EFTA01265978",
-            "EFTA01266690",
-            "EFTA01282494",
-            "EFTA01283126",
-            "EFTA01283490"
-          ]
-        },
-        {
-          "rank": 57,
+          "rank": 32,
           "text": "$40,000.00",
           "count": 421,
           "docs": 214,
@@ -17653,7 +17319,7 @@
           ]
         },
         {
-          "rank": 58,
+          "rank": 33,
           "text": "$200,000.00",
           "count": 275,
           "docs": 211,
@@ -17666,20 +17332,7 @@
           ]
         },
         {
-          "rank": 59,
-          "text": "$15",
-          "count": 270,
-          "docs": 210,
-          "sample_doc_ids": [
-            "EFTA01266498",
-            "EFTA01266601",
-            "EFTA01268890",
-            "EFTA01269149",
-            "EFTA01269354"
-          ]
-        },
-        {
-          "rank": 60,
+          "rank": 34,
           "text": "$25 million",
           "count": 257,
           "docs": 207,
@@ -17689,6 +17342,353 @@
             "EFTA01282143",
             "EFTA01282195",
             "EFTA01282492"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "$011",
+          "count": 205,
+          "docs": 205,
+          "sample_doc_ids": [
+            "EFTA01268751",
+            "EFTA01280082",
+            "EFTA01280092",
+            "EFTA01282376",
+            "EFTA01283310"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "$500 B",
+          "count": 200,
+          "docs": 200,
+          "sample_doc_ids": [
+            "EFTA01279784",
+            "EFTA01279786",
+            "EFTA01279788",
+            "EFTA01279790",
+            "EFTA01279792"
+          ]
+        },
+        {
+          "rank": 37,
+          "text": "$111",
+          "count": 217,
+          "docs": 198,
+          "sample_doc_ids": [
+            "EFTA01262965",
+            "EFTA01280092",
+            "EFTA01281293",
+            "EFTA01283298",
+            "EFTA01283334"
+          ]
+        },
+        {
+          "rank": 38,
+          "text": "$100 million",
+          "count": 281,
+          "docs": 190,
+          "sample_doc_ids": [
+            "EFTA01282492",
+            "EFTA01353856",
+            "EFTA01353864",
+            "EFTA01353874",
+            "EFTA01354018"
+          ]
+        },
+        {
+          "rank": 39,
+          "text": "$750",
+          "count": 257,
+          "docs": 190,
+          "sample_doc_ids": [
+            "EFTA01279531",
+            "EFTA01293176",
+            "EFTA01301096",
+            "EFTA01334058",
+            "EFTA01345385"
+          ]
+        },
+        {
+          "rank": 40,
+          "text": "$1,000,000",
+          "count": 324,
+          "docs": 187,
+          "sample_doc_ids": [
+            "EFTA01266134",
+            "EFTA01266168",
+            "EFTA01266204",
+            "EFTA01266346",
+            "EFTA01266350"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "money",
+      "page": 3,
+      "title": "DS10 financial — Dollar amounts (page 3)",
+      "subtitle": "158464 DS10 docs scanned · 74153 unique values",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "$120",
+          "count": 245,
+          "docs": 184,
+          "sample_doc_ids": [
+            "EFTA01266498",
+            "EFTA01279595",
+            "EFTA01282402",
+            "EFTA01282476",
+            "EFTA01282802"
+          ]
+        },
+        {
+          "rank": 42,
+          "text": "$101",
+          "count": 229,
+          "docs": 182,
+          "sample_doc_ids": [
+            "EFTA01285877",
+            "EFTA01286702",
+            "EFTA01288115",
+            "EFTA01295292",
+            "EFTA01296643"
+          ]
+        },
+        {
+          "rank": 43,
+          "text": "$50 million",
+          "count": 343,
+          "docs": 179,
+          "sample_doc_ids": [
+            "EFTA01282412",
+            "EFTA01282499",
+            "EFTA01283085",
+            "EFTA01283124",
+            "EFTA01296335"
+          ]
+        },
+        {
+          "rank": 44,
+          "text": "$108.38",
+          "count": 334,
+          "docs": 179,
+          "sample_doc_ids": [
+            "EFTA01497253",
+            "EFTA01497254",
+            "EFTA01497264",
+            "EFTA01497273",
+            "EFTA01497274"
+          ]
+        },
+        {
+          "rank": 45,
+          "text": "$25,000",
+          "count": 265,
+          "docs": 177,
+          "sample_doc_ids": [
+            "EFTA01266434",
+            "EFTA01267633",
+            "EFTA01269354",
+            "EFTA01269548",
+            "EFTA01269598"
+          ]
+        },
+        {
+          "rank": 46,
+          "text": "$600",
+          "count": 213,
+          "docs": 177,
+          "sample_doc_ids": [
+            "EFTA01279595",
+            "EFTA01284940",
+            "EFTA01297830",
+            "EFTA01298113",
+            "EFTA01304411"
+          ]
+        },
+        {
+          "rank": 47,
+          "text": "$300.00",
+          "count": 314,
+          "docs": 174,
+          "sample_doc_ids": [
+            "EFTA01266498",
+            "EFTA01279595",
+            "EFTA01284180",
+            "EFTA01285627",
+            "EFTA01285829"
+          ]
+        },
+        {
+          "rank": 48,
+          "text": "$250.00",
+          "count": 303,
+          "docs": 174,
+          "sample_doc_ids": [
+            "EFTA01265841",
+            "EFTA01266498",
+            "EFTA01266601",
+            "EFTA01269393",
+            "EFTA01269485"
+          ]
+        },
+        {
+          "rank": 49,
+          "text": "$30,000.00",
+          "count": 246,
+          "docs": 174,
+          "sample_doc_ids": [
+            "EFTA01280384",
+            "EFTA01280671",
+            "EFTA01280705",
+            "EFTA01285824",
+            "EFTA01287726"
+          ]
+        },
+        {
+          "rank": 50,
+          "text": "$15,000",
+          "count": 207,
+          "docs": 172,
+          "sample_doc_ids": [
+            "EFTA01265460",
+            "EFTA01267633",
+            "EFTA01268751",
+            "EFTA01268890",
+            "EFTA01269433"
+          ]
+        },
+        {
+          "rank": 51,
+          "text": "$40,000",
+          "count": 202,
+          "docs": 172,
+          "sample_doc_ids": [
+            "EFTA01265476",
+            "EFTA01266380",
+            "EFTA01266403",
+            "EFTA01266434",
+            "EFTA01296884"
+          ]
+        },
+        {
+          "rank": 52,
+          "text": "$20,000",
+          "count": 207,
+          "docs": 170,
+          "sample_doc_ids": [
+            "EFTA01282264",
+            "EFTA01283822",
+            "EFTA01283881",
+            "EFTA01283935",
+            "EFTA01284012"
+          ]
+        },
+        {
+          "rank": 53,
+          "text": "$250,000.00",
+          "count": 235,
+          "docs": 167,
+          "sample_doc_ids": [
+            "EFTA01269261",
+            "EFTA01280947",
+            "EFTA01285114",
+            "EFTA01285125",
+            "EFTA01285540"
+          ]
+        },
+        {
+          "rank": 54,
+          "text": "$3,000.00",
+          "count": 228,
+          "docs": 166,
+          "sample_doc_ids": [
+            "EFTA01286971",
+            "EFTA01287213",
+            "EFTA01287494",
+            "EFTA01354914",
+            "EFTA01359394"
+          ]
+        },
+        {
+          "rank": 55,
+          "text": "$7,500",
+          "count": 203,
+          "docs": 163,
+          "sample_doc_ids": [
+            "EFTA01265457",
+            "EFTA01279505",
+            "EFTA01279509",
+            "EFTA01279517",
+            "EFTA01279525"
+          ]
+        },
+        {
+          "rank": 56,
+          "text": "$200.00",
+          "count": 424,
+          "docs": 155,
+          "sample_doc_ids": [
+            "EFTA01266498",
+            "EFTA01266601",
+            "EFTA01268833",
+            "EFTA01281223",
+            "EFTA01281555"
+          ]
+        },
+        {
+          "rank": 57,
+          "text": "$2,000",
+          "count": 246,
+          "docs": 154,
+          "sample_doc_ids": [
+            "EFTA01265460",
+            "EFTA01305154",
+            "EFTA01308891",
+            "EFTA01333248",
+            "EFTA01334058"
+          ]
+        },
+        {
+          "rank": 58,
+          "text": "$3 billion",
+          "count": 162,
+          "docs": 153,
+          "sample_doc_ids": [
+            "EFTA01353847",
+            "EFTA01353848",
+            "EFTA01353864",
+            "EFTA01353970",
+            "EFTA01353992"
+          ]
+        },
+        {
+          "rank": 59,
+          "text": "$75,000.00",
+          "count": 228,
+          "docs": 152,
+          "sample_doc_ids": [
+            "EFTA01337179",
+            "EFTA01363831",
+            "EFTA01369042",
+            "EFTA01373547",
+            "EFTA01386787"
+          ]
+        },
+        {
+          "rank": 60,
+          "text": "$3 million",
+          "count": 378,
+          "docs": 149,
+          "sample_doc_ids": [
+            "EFTA01353931",
+            "EFTA01353932",
+            "EFTA01354051",
+            "EFTA01354053",
+            "EFTA01354351"
           ]
         }
       ]
