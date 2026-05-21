@@ -15,16 +15,16 @@ const KIND_GROUP = {
     verbatim_quote:     { order:  4, label: 'Verbatim press quotes' },
     press_recreate:     { order:  5, label: 'Press-cited terms — counts' },
     codeword_top:       { order:  6, label: 'Code-language counts' },
-    ds10_financial:     { order:  7, label: 'DS10 financial dossier' },
-    cooccur_pairs:      { order:  8, label: 'Co-occurrence pairs' },
-    email_threads:      { order:  9, label: 'Email threads' },
-    imessages:          { order: 10, label: 'Epstein iMessages (chrono)' },
-    doc_dates_year:     { order: 11, label: 'Doc-date histogram' },
-    mention_dates_year: { order: 12, label: 'Mention-date histogram' },
-    tfidf:              { order: 13, label: 'TF-IDF n-grams' },
-    ngram:              { order: 14, label: 'Doc-spread n-grams' },
-    label_top:          { order: 15, label: 'Other PII labels (NER)' },
-    email_top:          { order: 16, label: 'Top email addresses (NER)' },
+    cooccur_pairs:      { order:  7, label: 'Co-occurrence pairs' },
+    email_threads:      { order:  8, label: 'Email threads' },
+    imessages:          { order:  9, label: 'Epstein iMessages (chrono)' },
+    doc_dates_year:     { order: 10, label: 'Doc-date histogram' },
+    mention_dates_year: { order: 11, label: 'Mention-date histogram' },
+    tfidf:              { order: 12, label: 'TF-IDF n-grams' },
+    ngram:              { order: 13, label: 'Doc-spread n-grams' },
+    label_top:          { order: 14, label: 'Other PII labels (NER)' },
+    email_top:          { order: 15, label: 'Top email addresses (NER)' },
+    ds10_financial:     { order: 16, label: 'DS10 financial dossier (end)' },
 };
 
 function escapeHTML(s) {
@@ -145,23 +145,24 @@ function renderPage() {
     if (page.kind === 'topic_search') {
         const by = page.by_year || {};
         const years = Object.keys(by).map(Number).sort((a,b)=>a-b);
+        const dated = Object.values(by).reduce((a,b)=>a+b, 0);
+        const total = (page.rows || []).length;
+        const undated = total - dated;
         if (years.length) {
-            // Backfill missing years for cleaner visual continuity
             const ymin = Math.min(...years), ymax = Math.max(...years);
             const filled = [];
             for (let y = ymin; y <= ymax; y++) filled.push([y, by[y] || 0]);
             const maxBar = Math.max(1, ...filled.map(([_,c])=>c));
             html += '<div class="topic-histo">';
-            html += '<p class="topic-histo-label">matches by year ('
-                  + '<span class="pre2020">pre-2020 yellow</span> · '
-                  + '<span class="post2020">2020+ red</span>):</p>';
+            html += `<p class="topic-histo-label">matches by year — <strong>${dated} dated, ${undated} undated</strong> (histogram shows dated only). `
+                  + 'Bars: <span class="pre2020">pre-2020</span> · <span class="post2020">2020+</span></p>';
             html += '<div class="histo">';
             for (const [y, c] of filled) {
                 const pct = c ? Math.max(2, Math.round(100 * c / maxBar)) : 0;
-                const cls = y >= 2020 ? 'histo-fill post' : 'histo-fill pre';
+                const era = y >= 2020 ? 'post' : 'pre';
                 html += `<div class="histo-row">`
                   + `<span class="histo-label">${y}</span>`
-                  + `<span class="histo-bar"><span class="${cls}" style="width:${pct}%"></span></span>`
+                  + `<span class="histo-bar"><span class="histo-fill histo-${era}" style="width:${pct}%"></span></span>`
                   + `<span class="histo-count">${c}</span>`
                   + `</div>`;
             }
@@ -207,7 +208,7 @@ function renderPage() {
         return;
     }
 
-    // Verbatim quotes (samples + context)
+    // Verbatim quotes (samples + context) — collapsible "why this matters"
     if (page.kind === 'verbatim_quote') {
         html += '<div class="quote-list">';
         for (const r of page.rows || []) {
@@ -217,14 +218,21 @@ function renderPage() {
             html += `<header><span class="quote-rank">${r.rank}</span>`
                   + `<span class="quote-phrase">${escapeHTML(r.text)}</span>`
                   + `<span class="quote-counts">${r.count} hits / ${r.docs} docs</span></header>`;
-            html += `<p class="quote-source"><em>${escapeHTML(r.note || '')}</em></p>`;
-            if (r.samples && r.samples.length) {
-                for (const s of r.samples) {
-                    html += `<blockquote>`
-                          + `<span class="quote-meta">[${escapeHTML(s.doc_id)} · ${escapeHTML(s.dataset)}]</span>`
-                          + `<br><span class="quote-context">…${escapeHTML(s.context)}…</span>`
-                          + `</blockquote>`;
+            // Collapsible source + sample context
+            if ((r.note && r.note.length) || (r.samples && r.samples.length)) {
+                html += `<details class="quote-details"><summary>why this matters · ${r.samples ? r.samples.length : 0} sample${r.samples && r.samples.length===1?'':'s'}</summary>`;
+                if (r.note && r.note.length) {
+                    html += `<p class="quote-source"><em>${escapeHTML(r.note)}</em></p>`;
                 }
+                if (r.samples && r.samples.length) {
+                    for (const s of r.samples) {
+                        html += `<blockquote>`
+                              + `<span class="quote-meta">[${escapeHTML(s.doc_id)} · ${escapeHTML(s.dataset)}]</span>`
+                              + `<br><span class="quote-context">…${escapeHTML(s.context)}…</span>`
+                              + `</blockquote>`;
+                    }
+                }
+                html += `</details>`;
             }
             html += '</article>';
         }

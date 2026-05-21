@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T14:11:28.881507+00:00",
+  "generated_at": "2026-05-21T14:41:18.247650+00:00",
   "corpus": {
     "n_documents": 784,
     "n_entity_hits": 46900,
@@ -198,24 +198,22 @@
         },
         {
           "rank": 8,
-          "text": "Ep",
-          "count": 135,
-          "docs": 33,
+          "text": "Krischer",
+          "count": 122,
+          "docs": 12,
           "datasets": {
-            "dataset_12": 33,
-            "dataset_4": 7,
-            "estate": 95
+            "estate": 116,
+            "dataset_7": 3,
+            "dataset_4": 3
           },
           "sample_doc_ids": [
             "003",
-            "EFTA00007157",
-            "EFTA02730996",
-            "EFTA02731018",
-            "EFTA02731023"
+            "HOUSE_OVERSIGHT_010486",
+            "HOUSE_OVERSIGHT_016420"
           ],
           "label_breakdown": {
-            "GIVENNAME": 96,
-            "SURNAME": 39
+            "GIVENNAME": 14,
+            "SURNAME": 108
           },
           "ocr_variants": []
         },
@@ -237,31 +235,6 @@
         },
         {
           "rank": 10,
-          "text": "Krischer",
-          "count": 108,
-          "docs": 12,
-          "datasets": {
-            "dataset_7": 3,
-            "dataset_4": 3,
-            "estate": 102
-          },
-          "sample_doc_ids": [
-            "003",
-            "EFTA00007157",
-            "EFTA00009229",
-            "HOUSE_OVERSIGHT_010486",
-            "HOUSE_OVERSIGHT_016420"
-          ],
-          "label_breakdown": {
-            "SURNAME": 108
-          },
-          "ocr_variants": [
-            "K.Rischer",
-            "Krisher"
-          ]
-        },
-        {
-          "rank": 11,
           "text": "Jean Luc",
           "count": 105,
           "docs": 11,
@@ -287,7 +260,7 @@
           ]
         },
         {
-          "rank": 12,
+          "rank": 11,
           "text": "Rabin",
           "count": 105,
           "docs": 5,
@@ -310,7 +283,7 @@
           ]
         },
         {
-          "rank": 13,
+          "rank": 12,
           "text": "Recarey",
           "count": 101,
           "docs": 5,
@@ -332,7 +305,7 @@
           ]
         },
         {
-          "rank": 14,
+          "rank": 13,
           "text": "Alessi",
           "count": 99,
           "docs": 6,
@@ -353,7 +326,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 15,
+          "rank": 14,
           "text": "Sayeret",
           "count": 96,
           "docs": 1,
@@ -369,7 +342,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 16,
+          "rank": 15,
           "text": "Matkal",
           "count": 93,
           "docs": 1,
@@ -385,7 +358,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 17,
+          "rank": 16,
           "text": "Jeffrey Epstein",
           "count": 87,
           "docs": 40,
@@ -407,7 +380,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 18,
+          "rank": 17,
           "text": "Maxwell",
           "count": 86,
           "docs": 25,
@@ -433,7 +406,7 @@
           ]
         },
         {
-          "rank": 19,
+          "rank": 18,
           "text": "Yitzhak",
           "count": 83,
           "docs": 1,
@@ -451,7 +424,7 @@
           ]
         },
         {
-          "rank": 20,
+          "rank": 19,
           "text": "Acosta",
           "count": 80,
           "docs": 26,
@@ -473,7 +446,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 21,
+          "rank": 20,
           "text": "Ivanka",
           "count": 71,
           "docs": 1,
@@ -491,7 +464,7 @@
           ]
         },
         {
-          "rank": 22,
+          "rank": 21,
           "text": "Avraham",
           "count": 70,
           "docs": 2,
@@ -510,7 +483,7 @@
           ]
         },
         {
-          "rank": 23,
+          "rank": 22,
           "text": "Turki",
           "count": 68,
           "docs": 2,
@@ -527,7 +500,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 24,
+          "rank": 23,
           "text": "Kushner",
           "count": 66,
           "docs": 2,
@@ -544,7 +517,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 25,
+          "rank": 24,
           "text": "Ruemmler",
           "count": 66,
           "docs": 34,
@@ -565,7 +538,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 26,
+          "rank": 25,
           "text": "Ailes",
           "count": 64,
           "docs": 2,
@@ -582,7 +555,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 27,
+          "rank": 26,
           "text": "Nava",
           "count": 64,
           "docs": 2,
@@ -599,6 +572,27 @@
           "ocr_variants": [
             "Nova"
           ]
+        },
+        {
+          "rank": 27,
+          "text": "Reiter",
+          "count": 63,
+          "docs": 13,
+          "datasets": {
+            "estate": 63
+          },
+          "sample_doc_ids": [
+            "003",
+            "HOUSE_OVERSIGHT_010486",
+            "HOUSE_OVERSIGHT_016420",
+            "HOUSE_OVERSIGHT_018872",
+            "HOUSE_OVERSIGHT_021790"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 15,
+            "SURNAME": 48
+          },
+          "ocr_variants": []
         },
         {
           "rank": 28,
@@ -637,25 +631,6 @@
         },
         {
           "rank": 30,
-          "text": "Kyl",
-          "count": 60,
-          "docs": 3,
-          "datasets": {
-            "estate": 60
-          },
-          "sample_doc_ids": [
-            "HOUSE_OVERSIGHT_017603",
-            "HOUSE_OVERSIGHT_017635",
-            "HOUSE_OVERSIGHT_017714"
-          ],
-          "label_breakdown": {
-            "GIVENNAME": 42,
-            "SURNAME": 18
-          },
-          "ocr_variants": []
-        },
-        {
-          "rank": 31,
           "text": "Salman",
           "count": 57,
           "docs": 3,
@@ -673,7 +648,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 32,
+          "rank": 31,
           "text": "Priebus",
           "count": 56,
           "docs": 2,
@@ -690,7 +665,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 33,
+          "rank": 32,
           "text": "Darren",
           "count": 54,
           "docs": 24,
@@ -714,7 +689,7 @@
           ]
         },
         {
-          "rank": 34,
+          "rank": 33,
           "text": "Hoffenberg",
           "count": 54,
           "docs": 19,
@@ -734,36 +709,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 35,
-          "text": "Jean",
-          "count": 52,
-          "docs": 17,
-          "datasets": {
-            "dataset_4": 4,
-            "estate": 43,
-            "dataset_12": 5
-          },
-          "sample_doc_ids": [
-            "003",
-            "EFTA00007582",
-            "EFTA00007609",
-            "EFTA02731082",
-            "EFTA02731168"
-          ],
-          "label_breakdown": {
-            "GIVENNAME": 52
-          },
-          "ocr_variants": [
-            "Jaan",
-            "Jan",
-            "Jcan",
-            "Jean-",
-            "Jenn",
-            "Juan"
-          ]
-        },
-        {
-          "rank": 36,
+          "rank": 34,
           "text": "Belohlavek",
           "count": 50,
           "docs": 10,
@@ -784,46 +730,24 @@
           "ocr_variants": []
         },
         {
-          "rank": 37,
+          "rank": 35,
           "text": "Bibi",
-          "count": 49,
+          "count": 48,
           "docs": 2,
           "datasets": {
-            "estate": 49
+            "estate": 48
           },
           "sample_doc_ids": [
             "HOUSE_OVERSIGHT_024419",
             "HOUSE_OVERSIGHT_027849"
           ],
           "label_breakdown": {
-            "GIVENNAME": 49
-          },
-          "ocr_variants": [
-            "Bib"
-          ]
-        },
-        {
-          "rank": 38,
-          "text": "Reiter",
-          "count": 48,
-          "docs": 13,
-          "datasets": {
-            "estate": 48
-          },
-          "sample_doc_ids": [
-            "003",
-            "HOUSE_OVERSIGHT_010486",
-            "HOUSE_OVERSIGHT_011908",
-            "HOUSE_OVERSIGHT_016420",
-            "HOUSE_OVERSIGHT_018872"
-          ],
-          "label_breakdown": {
-            "SURNAME": 48
+            "GIVENNAME": 48
           },
           "ocr_variants": []
         },
         {
-          "rank": 39,
+          "rank": 36,
           "text": "Indyke",
           "count": 46,
           "docs": 22,
@@ -846,7 +770,27 @@
           ]
         },
         {
-          "rank": 40,
+          "rank": 37,
+          "text": "Dayan",
+          "count": 45,
+          "docs": 2,
+          "datasets": {
+            "estate": 45
+          },
+          "sample_doc_ids": [
+            "003",
+            "HOUSE_OVERSIGHT_027849"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 30,
+            "SURNAME": 15
+          },
+          "ocr_variants": [
+            "Daan"
+          ]
+        },
+        {
+          "rank": 38,
           "text": "Marcinkova",
           "count": 45,
           "docs": 9,
@@ -866,7 +810,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 41,
+          "rank": 39,
           "text": "Ransome",
           "count": 45,
           "docs": 4,
@@ -884,7 +828,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 42,
+          "rank": 40,
           "text": "Sultan",
           "count": 44,
           "docs": 7,
@@ -904,7 +848,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 43,
+          "rank": 41,
           "text": "Arafat",
           "count": 43,
           "docs": 2,
@@ -921,7 +865,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 44,
+          "rank": 42,
           "text": "Goldberger",
           "count": 43,
           "docs": 15,
@@ -942,24 +886,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 45,
-          "text": "Dayan",
-          "count": 42,
-          "docs": 1,
-          "datasets": {
-            "estate": 42
-          },
-          "sample_doc_ids": [
-            "HOUSE_OVERSIGHT_027849"
-          ],
-          "label_breakdown": {
-            "GIVENNAME": 27,
-            "SURNAME": 15
-          },
-          "ocr_variants": []
-        },
-        {
-          "rank": 46,
+          "rank": 43,
           "text": "E Stein",
           "count": 42,
           "docs": 6,
@@ -983,7 +910,35 @@
           ]
         },
         {
-          "rank": 47,
+          "rank": 44,
+          "text": "Jean",
+          "count": 42,
+          "docs": 14,
+          "datasets": {
+            "dataset_4": 4,
+            "estate": 33,
+            "dataset_12": 5
+          },
+          "sample_doc_ids": [
+            "003",
+            "EFTA00007582",
+            "EFTA00007609",
+            "EFTA02731082",
+            "EFTA02731168"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 42
+          },
+          "ocr_variants": [
+            "Jaan",
+            "Jcan",
+            "Jean-",
+            "Jenn",
+            "Juan"
+          ]
+        },
+        {
+          "rank": 45,
           "text": "Mohamed",
           "count": 42,
           "docs": 13,
@@ -1005,7 +960,7 @@
           ]
         },
         {
-          "rank": 48,
+          "rank": 46,
           "text": "Naif",
           "count": 41,
           "docs": 1,
@@ -1021,7 +976,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 49,
+          "rank": 47,
           "text": "Scarola",
           "count": 41,
           "docs": 13,
@@ -1041,7 +996,7 @@
           "ocr_variants": []
         },
         {
-          "rank": 50,
+          "rank": 48,
           "text": "Ehud",
           "count": 40,
           "docs": 5,
@@ -1060,6 +1015,49 @@
             "GIVENNAME": 40
           },
           "ocr_variants": []
+        },
+        {
+          "rank": 49,
+          "text": "Fronstin",
+          "count": 40,
+          "docs": 3,
+          "datasets": {
+            "dataset_4": 14,
+            "estate": 26
+          },
+          "sample_doc_ids": [
+            "EFTA00007157",
+            "HOUSE_OVERSIGHT_010486",
+            "HOUSE_OVERSIGHT_018872"
+          ],
+          "label_breakdown": {
+            "SURNAME": 40
+          },
+          "ocr_variants": [
+            "Fronstein"
+          ]
+        },
+        {
+          "rank": 50,
+          "text": "Virginia",
+          "count": 40,
+          "docs": 7,
+          "datasets": {
+            "estate": 40
+          },
+          "sample_doc_ids": [
+            "003",
+            "GOP_rebuttal",
+            "GOP_rebuttal_111625",
+            "HOUSE_OVERSIGHT_012103",
+            "HOUSE_OVERSIGHT_015590"
+          ],
+          "label_breakdown": {
+            "GIVENNAME": 40
+          },
+          "ocr_variants": [
+            "Virgina"
+          ]
         }
       ],
       "explainer": "Names extracted from the corpus by the Piiranha-v1 PII NER model (DeBERTa-v3 fine-tune). The model finds person-name spans in text WITHOUT a pre-curated list — it discovers names rather than checking for known ones. Counts here are over the ~909-doc text-rich subset (court docs, grand jury transcripts, personal-correspondence emails, House Oversight estate bundles — DS10 financial statements excluded). For cross-corpus (173K) counts of journalist-cited names, see the 'Top names — curated grep' page below."

@@ -186,6 +186,35 @@
     line-height: 1.4;
 }
 
+/* Per-topic year histogram (pre/post 2020 coloring) */
+.topic-histo {
+    margin: 0.25rem 0 1rem;
+    background: var(--placeholder-bg);
+    padding: 0.75rem 1rem;
+    border: 1px dashed var(--ink-soft);
+    border-radius: 4px;
+}
+.topic-histo-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+    margin: 0 0 0.5rem;
+}
+.topic-histo-label .pre2020 {
+    color: var(--ink);
+    background: var(--bus-yellow);
+    padding: 0.05em 0.4em;
+    border-radius: 2px;
+}
+.topic-histo-label .post2020 {
+    color: var(--paper);
+    background: var(--accent);
+    padding: 0.05em 0.4em;
+    border-radius: 2px;
+}
+.histo-pre  { background: var(--bus-yellow) !important; }
+.histo-post { background: var(--accent) !important; }
+
 .efta-table {
     width: 100%;
     border-collapse: collapse;
@@ -270,6 +299,22 @@
     .imsg { grid-template-columns: 1fr; gap: 0.15rem; }
     .imsg-ts, .imsg-doc { font-size: 0.7rem; }
 }
+
+/* Collapsible "why this matters" inside a verbatim-quote card */
+.quote-details {
+    margin: 0.4rem 0 0;
+}
+.quote-details > summary {
+    cursor: pointer;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+    padding: 0.2rem 0;
+    list-style: none;
+}
+.quote-details > summary::-webkit-details-marker { display: none; }
+.quote-details > summary::before { content: '▸ '; color: var(--accent); }
+.quote-details[open] > summary::before { content: '▾ '; }
 
 /* Verbatim quote render */
 .quote-list { display: grid; gap: 1.25rem; }
