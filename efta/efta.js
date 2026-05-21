@@ -9,9 +9,10 @@ const state = {
 
 // Display order + label for each kind, when building the TOC.
 const KIND_GROUP = {
-    names_top20:        { order:  1, label: 'Top names — NER discovered' },
-    names_grep:         { order:  2, label: 'Top names — curated grep (cross-check)' },
-    topic_search:       { order:  3, label: 'Topic search' },
+    person_dossier:     { order:  1, label: 'Person dossiers' },
+    names_top20:        { order:  2, label: 'Top names — NER discovered' },
+    names_grep:         { order:  3, label: 'Top names — curated grep (cross-check)' },
+    topic_search:       { order:  4, label: 'Topic search' },
     verbatim_quote:     { order:  4, label: 'Verbatim press quotes' },
     press_recreate:     { order:  5, label: 'Press-cited terms — counts' },
     codeword_top:       { order:  6, label: 'Code-language counts' },
@@ -186,6 +187,101 @@ function renderPage() {
         return;
     }
 
+    // Email thread expanders
+    if (page.kind === 'email_threads') {
+        html += '<div class="thread-list">';
+        for (const r of page.rows || []) {
+            const fs = r.first_sent ? r.first_sent.slice(0,10) : '?';
+            const ls = r.last_sent ? r.last_sent.slice(0,10) : '?';
+            const fromList = (r.participants_from || []).slice(0,3).join(', ') || '—';
+            html += `<details class="thread-card">`;
+            html += `<summary>`
+                  + `<span class="thread-rank">${r.rank}</span>`
+                  + `<span class="thread-subject">${escapeHTML(r.subject)}</span>`
+                  + `<span class="thread-count">${r.n_messages} msgs</span>`
+                  + `<span class="thread-dates">${fs} → ${ls}</span>`
+                  + `</summary>`;
+            html += `<div class="thread-meta"><strong>senders:</strong> ${escapeHTML(fromList)} · <strong>datasets:</strong> ${(r.datasets_list||[]).join(', ')||'—'}</div>`;
+            if (r.messages && r.messages.length) {
+                html += `<table class="efta-table thread-msgs"><thead><tr>`
+                      + `<th>#</th><th>sent</th><th>doc</th><th>from</th><th>to</th><th>subject</th>`
+                      + `</tr></thead><tbody>`;
+                r.messages.forEach((m, i) => {
+                    const s = m.sent_iso ? m.sent_iso.slice(0,16).replace('T',' ') : '—';
+                    html += `<tr>`
+                          + `<td class="rank-cell">${i+1}</td>`
+                          + `<td class="docs-cell">${escapeHTML(s)}</td>`
+                          + `<td class="text-cell">${docLink(m.id)}</td>`
+                          + `<td class="datasets-cell">${escapeHTML(m.from || '')}</td>`
+                          + `<td class="datasets-cell">${escapeHTML(m.to || '')}</td>`
+                          + `<td class="datasets-cell">${escapeHTML(m.subject || '')}</td>`
+                          + `</tr>`;
+                });
+                html += `</tbody></table>`;
+            }
+            html += `</details>`;
+        }
+        html += '</div>';
+        root.innerHTML = html;
+        renderTOC(); renderPagerLabels(); bindInfoBtn();
+        history.replaceState(null, '', `#p=${state.pageIdx + 1}`);
+        return;
+    }
+
+    // Person dossier cards
+    if (page.kind === 'person_dossier') {
+        html += '<div class="person-list">';
+        for (const p of page.rows || []) {
+            const topDs = Object.entries(p.by_dataset || {}).sort((a,b)=>b[1]-a[1])[0];
+            const yrs = Object.keys(p.by_year || {}).map(Number).sort((a,b)=>a-b);
+            const wikiSlug = p.wiki ? p.wiki.slug : '';
+            html += `<article class="person-card">`;
+            html += `<header class="person-head">`;
+            html += `<img class="person-thumb" data-wiki-slug="${escapeHTML(wikiSlug)}" alt="" loading="lazy">`;
+            html += `<div class="person-info">`;
+            html += `<h3 class="person-name">${escapeHTML(p.name)}</h3>`;
+            html += `<p class="person-stats">${p.mentions.toLocaleString()} mentions · ${p.docs.toLocaleString()} docs`;
+            if (topDs) html += ` · top: ${escapeHTML(topDs[0])} (${topDs[1]})`;
+            html += `</p>`;
+            if (p.wiki && p.wiki.url) {
+                html += ` <a class="person-wiki" href="${escapeHTML(p.wiki.url)}" target="_blank" rel="noopener">wiki ↗</a>`;
+            }
+            html += `</div></header>`;
+            // Year sparkline
+            if (yrs.length) {
+                const max = Math.max(...yrs.map(y => p.by_year[y]));
+                html += `<div class="person-spark">`;
+                for (const y of yrs) {
+                    const c = p.by_year[y] || 0;
+                    const pct = Math.max(5, Math.round(100 * c / max));
+                    const era = y >= 2020 ? 'post' : 'pre';
+                    html += `<span class="spark-bar histo-${era}" style="height:${pct}%" title="${y}: ${c}"></span>`;
+                }
+                html += `<span class="spark-yrange">${yrs[0]}–${yrs[yrs.length-1]}</span></div>`;
+            }
+            // Sample contexts
+            if (p.samples && p.samples.length) {
+                html += `<details class="person-samples"><summary>${p.samples.length} sample context${p.samples.length===1?'':'s'}</summary>`;
+                for (const s of p.samples) {
+                    const d = s.date ? s.date.slice(0,10) : '—';
+                    html += `<blockquote class="person-sample">`
+                          + `<div class="sample-meta">${docLink(s.doc_id)} · ${escapeHTML(s.dataset)} · ${escapeHTML(d)}</div>`
+                          + `<div class="sample-context">…${escapeHTML(s.context)}…</div>`
+                          + `</blockquote>`;
+                }
+                html += `</details>`;
+            }
+            html += `</article>`;
+        }
+        html += '</div>';
+        root.innerHTML = html;
+        renderTOC(); renderPagerLabels(); bindInfoBtn();
+        // Lazy-load Wikipedia thumbnails after render
+        loadWikiThumbs();
+        history.replaceState(null, '', `#p=${state.pageIdx + 1}`);
+        return;
+    }
+
     // Topic-search render: year histogram at top, then per-match table
     if (page.kind === 'topic_search') {
         const by = page.by_year || {};
@@ -233,16 +329,20 @@ function renderPage() {
         return;
     }
 
-    // iMessage chronological
+    // iMessage chronological — visual divider when source doc (=session) changes
     if (page.kind === 'imessages') {
         html += '<div class="imsg-list">';
+        let lastDoc = null;
         for (const r of page.rows || []) {
+            if (r.doc_id && r.doc_id !== lastDoc) {
+                html += `<div class="imsg-session-break">— session ${docLink(r.doc_id)} —</div>`;
+                lastDoc = r.doc_id;
+            }
             const cls = r.sender === 'epstein' ? 'imsg-jee' : 'imsg-other';
             html += `<div class="imsg ${cls}">`
                   + `<span class="imsg-ts">${escapeHTML(r.note || '?')}</span>`
                   + `<span class="imsg-sender">${escapeHTML(r.sender === 'epstein' ? 'JE' : '◼')}</span>`
                   + `<span class="imsg-body">${escapeHTML(r.text)}</span>`
-                  + `<span class="imsg-doc">${docLink(r.doc_id || '')}</span>`
                   + `</div>`;
         }
         html += '</div>';
@@ -373,6 +473,32 @@ function bindNav() {
         if (e.key === 'ArrowLeft') goto(state.pageIdx - 1);
         else if (e.key === 'ArrowRight') goto(state.pageIdx + 1);
     });
+}
+
+// Wikipedia thumbnail cache (slug -> url or null if 404)
+const wikiThumbCache = new Map();
+async function loadWikiThumbs() {
+    const imgs = Array.from(document.querySelectorAll('img.person-thumb[data-wiki-slug]'));
+    for (const img of imgs) {
+        const slug = img.dataset.wikiSlug;
+        if (!slug) continue;
+        if (wikiThumbCache.has(slug)) {
+            const url = wikiThumbCache.get(slug);
+            if (url) img.src = url; else img.style.display = 'none';
+            continue;
+        }
+        try {
+            const r = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(slug)}`, { cache: 'force-cache' });
+            if (!r.ok) throw new Error(`HTTP ${r.status}`);
+            const data = await r.json();
+            const url = data.thumbnail ? data.thumbnail.source : null;
+            wikiThumbCache.set(slug, url);
+            if (url) img.src = url; else img.style.display = 'none';
+        } catch (e) {
+            wikiThumbCache.set(slug, null);
+            img.style.display = 'none';
+        }
+    }
 }
 
 // Cache fetched doc snippets to avoid re-fetching on re-open.
