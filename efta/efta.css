@@ -1,7 +1,31 @@
 .efta-main {
-    max-width: 66rem;
+    max-width: 80rem;
     margin: 0 auto;
     padding: 1.25rem var(--gutter, 1.25rem) 4rem;
+}
+/* Desktop: TOC as sticky-left sidebar, content fills the right */
+@media (min-width: 1080px) {
+    .efta-main {
+        display: grid;
+        grid-template-columns: 16rem 1fr;
+        grid-template-areas:
+            "toc pager-top"
+            "toc content"
+            "toc pager-bot";
+        column-gap: 1.25rem;
+        align-items: start;
+    }
+    .efta-toc {
+        grid-area: toc;
+        position: sticky;
+        top: 110px;                  /* below dossier-header (~58) + filter-bar (~44) */
+        max-height: calc(100vh - 130px);
+        overflow-y: auto;
+        margin: 0;
+    }
+    #efta-pager-top    { grid-area: pager-top; }
+    #findings          { grid-area: content; }
+    #efta-pager-bottom { grid-area: pager-bot; }
 }
 
 /* Sticky datasource filter bar */
