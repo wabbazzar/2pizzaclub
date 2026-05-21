@@ -275,8 +275,20 @@ function renderPage() {
         html += '<div class="person-list">';
         for (const p of page.rows || []) {
             const fc = filteredPersonCounts(p, enabledBuckets);
-            // Sanity-bound years — anything outside 1990..2026 is OCR garbage
-            const yrs = Object.keys(p.by_year || {})
+            // Filter-aware year breakdown: prefer per-(year, dataset) if present.
+            let yearTotals = {};
+            if (p.by_year_dataset) {
+                for (const [y, ds] of Object.entries(p.by_year_dataset)) {
+                    let s = 0;
+                    for (const [d, n] of Object.entries(ds)) {
+                        if (enabledBuckets.has(DATASET_BUCKET[d] || 'other')) s += n;
+                    }
+                    if (s > 0) yearTotals[y] = s;
+                }
+            } else {
+                yearTotals = p.by_year || {};
+            }
+            const yrs = Object.keys(yearTotals)
                 .map(Number)
                 .filter(y => y >= 1990 && y <= 2026)
                 .sort((a,b)=>a-b);
@@ -300,12 +312,12 @@ function renderPage() {
                 html += `<a class="person-wiki" href="${escapeHTML(p.wiki.url)}" target="_blank" rel="noopener">wiki ↗</a>`;
             }
             html += `</div></header>`;
-            // Year sparkline
+            // Year sparkline (filter-aware via yearTotals)
             if (yrs.length) {
-                const max = Math.max(...yrs.map(y => p.by_year[y]));
+                const max = Math.max(...yrs.map(y => yearTotals[y]));
                 html += `<div class="person-spark">`;
                 for (const y of yrs) {
-                    const c = p.by_year[y] || 0;
+                    const c = yearTotals[y] || 0;
                     const pct = Math.max(5, Math.round(100 * c / max));
                     const era = y >= 2020 ? 'post' : 'pre';
                     html += `<span class="spark-bar histo-${era}" style="height:${pct}%" title="${y}: ${c}"></span>`;
@@ -337,10 +349,24 @@ function renderPage() {
 
     // Topic-search render: year histogram at top, then per-match table
     if (page.kind === 'topic_search') {
-        const by = page.by_year || {};
+        // Prefer the per-(year, dataset) breakdown if present (filter-aware).
+        // Fall back to total by_year if the data is older.
+        let by = {};
+        if (page.by_year_dataset) {
+            for (const [y, dsCounts] of Object.entries(page.by_year_dataset)) {
+                let sum = 0;
+                for (const [ds, n] of Object.entries(dsCounts)) {
+                    if (enabledBuckets.has(DATASET_BUCKET[ds] || 'other')) sum += n;
+                }
+                if (sum > 0) by[y] = sum;
+            }
+        } else {
+            by = page.by_year || {};
+        }
         const years = Object.keys(by).map(Number).sort((a,b)=>a-b);
+        // Dated count: matches whose dataset is in an enabled bucket AND has a date.
         const dated = Object.values(by).reduce((a,b)=>a+b, 0);
-        const total = (page.rows || []).length;
+        const total = (page.rows || []).length;  // already filtered above
         const undated = total - dated;
         if (years.length) {
             const ymin = Math.min(...years), ymax = Math.max(...years);
