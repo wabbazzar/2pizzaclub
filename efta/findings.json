@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T00:01:12.666286+00:00",
+  "generated_at": "2026-05-21T00:06:10.989320+00:00",
   "corpus": {
     "n_documents": 309,
     "n_entity_hits": 10432,
@@ -742,6 +742,412 @@
             "EFTA02212883"
           ],
           "ocr_variants": []
+        }
+      ]
+    },
+    {
+      "kind": "verbatim_quote",
+      "title": "Verbatim press-finding recreations",
+      "subtitle": "16 of 20 journalist-cited phrases located in our corpus",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "Snow White",
+          "count": 1,
+          "docs": 1,
+          "note": "Jul 9 2010 Jes Staley → Epstein (Bloomberg)",
+          "samples": [
+            {
+              "doc_id": "EFTA00029432_djvu",
+              "dataset": "dataset_8",
+              "context": "010 Subject: Re: what character would you like next On Fri, Jul 9, 2010 at 8:45 PM, Jes Staley - ee > wrote: Maybe they're tracking u?? That was fun. Say hi to Snow White This email is confidential and subject to important disclaimers and conditions including on offers for the purchase or sale of securities, accuracy and complet",
+              "matched": "Snow White"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "Beauty and the Beast",
+          "count": 3,
+          "docs": 3,
+          "note": "Same Staley thread / also victim's description of Epstein's library",
+          "samples": [
+            {
+              "doc_id": "EFTA02731039",
+              "dataset": "dataset_12",
+              "context": "sidence in great detail, including describing the artwork in the massage room, a stuffed dog in the living room, and a library that she compared to the one in \"Beauty and the Beast.\" It would be extraordinarily unlikely that Victim-1 could describe these aspects of the residence in such detail if she had not spent significant time there.",
+              "matched": "Beauty and the Beast"
+            },
+            {
+              "doc_id": "EFTA00008529",
+              "dataset": "dataset_6",
+              "context": "hes or paintings of naked females on them. And she 13 also talked about a library in his residence that looked 14 like it was something from out of Beauty and the Beast. 15 Q. Is that how she described it to you? 16 A. Yes. 17 Q. So we've been talking about what you've learned 18 during i",
+              "matched": "Beauty and the Beast"
+            },
+            {
+              "doc_id": "EFTA00029432_djvu",
+              "dataset": "dataset_8",
+              "context": "rey Epstein < To: Jes Staley < Sent: 7/10/2010 3:27:04 PM Subject: Re: well one side is availble On Sat, Jul 10, 2010 at 10:17 AM, Jes Staley - ee e i > wrote: Beauty and the Beast..... From: Jeffrey Epstein < - To: Jes Staley Sent: Fri Jul 09 21:02:03 2010 Subject: Re: what character would you like next On Fri, Jul 9, 2010 at 8:45 PM, Je",
+              "matched": "Beauty and the Beast"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "highly valued friend",
+          "count": 1,
+          "docs": 1,
+          "note": "Noam Chomsky LOR (NPR Nov 20 2025)",
+          "samples": [
+            {
+              "doc_id": "HOUSE_OVERSIGHT_022405",
+              "dataset": "estate",
+              "context": "knowledge, penetrating insights, and thoughtful appraisals is only heightened by his easy informality, without a trace of pretentiousness. He quickly became a highly valued friend and regular source of intellectual exchange and stimulation. Noam Chomsky Institute Professor (emeritus), MIT; Laureate Professor, U. of Arizona",
+              "matched": "highly valued friend"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "Invisible Man",
+          "count": 5,
+          "docs": 4,
+          "note": "Aug 18 2001 Maxwell contact label for 'A' / Andrew (CNN/ITV Dec 2025)",
+          "samples": [
+            {
+              "doc_id": "EFTA00011440_djvu",
+              "dataset": "dataset_8",
+              "context": "From: \"The Invisible Man\" <abx17@dial.pipex.com> To: \"G. Maxwell\" <gmax1@mindspring.com> Subject: RE: Sent: Sat, 18 Aug 2001 22:42:18 +0100 Distraught! You probably wouldn't know but |",
+              "matched": "Invisible Man"
+            },
+            {
+              "doc_id": "EFTA00011437_djvu",
+              "dataset": "dataset_8",
+              "context": "From: \"The Invisible Man\" <abx17@dial.pipex.com> To: \"Ghislaine Maxwell (E-mail)\" <gmax1@mindspring.com> Subject: Summer Camp Sent: Thu, 16 Aug 2001 11:09:45 +0100 | am up here at Balm",
+              "matched": "Invisible Man"
+            },
+            {
+              "doc_id": "EFTA00011438_djvu",
+              "dataset": "dataset_8",
+              "context": "From: \"The Invisible Man\" <aace@dial.pipex.com> To: \"G. Max\" <gmax1@mindspring.com> Subject: RE: Re: Sent: Thu, 28 Feb 2002 06:30:20 -0000 | am overwhelmed at the kindness and generosi",
+              "matched": "Invisible Man"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "Mohammed bin Salman",
+          "count": 17,
+          "docs": 4,
+          "note": "2016 House Oversight estate emails (CBS Nov 12 2025)",
+          "samples": [
+            {
+              "doc_id": "HOUSE_OVERSIGHT_016111",
+              "dataset": "estate",
+              "context": "s, with implementation carried out by several government entities. The Vision continues to centralize decision-making into CEDA, chaired by Deputy Crown Prince Mohammed bin Salman, and reporting to the Council of Ministers. The Ministry of Economy and Planning also retains an important role, with lower emphasis being put on the Ministry",
+              "matched": "Mohammed bin\nSalman"
+            },
+            {
+              "doc_id": "HOUSE_OVERSIGHT_016111",
+              "dataset": "estate",
+              "context": "llow greater focus on achieving a diversified foreign asset base which could support in turn the build-up of non-oil revenues. According to Deputy Crown Prince Mohammed bin Salman, government ownership of Saudi Aramco would be transferred to the PIF, which will be transformed into a SWF that will look to increase its overseas assets (fro",
+              "matched": "Mohammed bin Salman"
+            },
+            {
+              "doc_id": "HOUSE_OVERSIGHT_016111",
+              "dataset": "estate",
+              "context": "gressive market share strategy, in our view. Privatization of energy sector could start by 2018 In a recent interview with Bloomberg, Saudi Deputy Crown Prince Mohammed bin Salman outlined an array of measures the Saudi government could introduce to help diversify the economy, reduce its reliance on the hydrocarbon industry and ultimatel",
+              "matched": "Mohammed bin\nSalman"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "Ruemmler",
+          "count": 185,
+          "docs": 45,
+          "note": "Kathryn Ruemmler — Goldman CLO (CNBC)",
+          "samples": [
+            {
+              "doc_id": "EFTA02212984",
+              "dataset": "dataset_11",
+              "context": "EFTA02212984 Hello Brad. Jeffrey is asking if you would like to join him and Kathy Ruemmler tomorrow at the house at 5:30pm..might this work for you? 9 East 71st Street between 5th and Madison Please let me know. Thank you, This messag",
+              "matched": "Ruemmler"
+            },
+            {
+              "doc_id": "EFTA02213016",
+              "dataset": "dataset_11",
+              "context": "To: 'effre E. 'eevacation@gmail.com] From: Sent Thur 5/18/2017 9:46:54 PM Subject: Re: Paul Barrett is coming at 5pm and Kathy Ruemmler/Brad Karp are coming at 5:30. Do you still wish me to change Ehud to 5pm tomorrow? 8:30am BREAKFAST w/Leon Black 10:00am Appt w/Barry Cohen 10:30am Appt w/",
+              "matched": "Ruemmler"
+            },
+            {
+              "doc_id": "EFTA02213016",
+              "dataset": "dataset_11",
+              "context": "z recommended Chen) 51 West 515' Street, andfloor Suite 375 JOJO TO DRIVE YOU! 4:00pm App: w/Ehud 5:00pm Appt w/Paul Barrett t M 5:30pm w/Kathy Ruemmler and Brad Karp (Kathy (Brad Sent from my iPhone On May 18, 2017, at 5:32 PM, Jeffrey E. icevacation@gmail.com> wrote: Move Ehud to",
+              "matched": "Ruemmler"
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "Operation Leap Year",
+          "count": 13,
+          "docs": 10,
+          "note": "Federal Grand Jury 07-103, West Palm Beach, May 8 2007 (DS7)",
+          "samples": [
+            {
+              "doc_id": "EFTA00009440",
+              "dataset": "dataset_7",
+              "context": "Page 1 UNITED STATES DISTRICT COURT SOUTHERN DISTRICT OF FLORIDA IN RE: OPERATION LEAP YEAR Federal Grand Jury, 07-103 West Palm Beach, Florida Ma",
+              "matched": "OPERATION LEAP YEAR"
+            },
+            {
+              "doc_id": "EFTA00009440",
+              "dataset": "dataset_7",
+              "context": "A I'm a special agent, and have been so for four 14 years. 15 Q Are you one of the agents assigned to the 16 investigation known as Operation Leap Year? 17 A Yes, I am. 18 Q Were subpoenas caused to be issued on behalf of 19 this grand jury in connection with that investigation? 20",
+              "matched": "Operation Leap Year"
+            },
+            {
+              "doc_id": "EFTA00009512",
+              "dataset": "dataset_7",
+              "context": "SOUTHERN DISTRICT OF FLORIDA 2 WEST PALM BEACH 3 4 5 6 7 8 IN RE: OPERATION LEAP YEAR 9 10 11 Grand Jury #07-103 (TUES-wPB) arb 12 west Palm Beach, Flori",
+              "matched": "OPERATION LEAP YEAR"
+            }
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "Free State Reporting",
+          "count": 400,
+          "docs": 8,
+          "note": "Court-reporting company that transcribed SDNY Maxwell grand jury",
+          "samples": [
+            {
+              "doc_id": "EFTA02731812",
+              "dataset": "dataset_12",
+              "context": "States Attorney 16 17 18 19 20 21 22 23 Jury Reporter 24 25 FREE STATE REPORTING, INC. Court Reporting Transcription D.C. Area 301-261-1902 Balt. & Annap. 410-974-0947",
+              "matched": "FREE STATE REPORTING"
+            },
+            {
+              "doc_id": "EFTA02731812",
+              "dataset": "dataset_12",
+              "context": "is case? 23 A. Yes. 24 Q. Have you reviewed reports and documents prepared 25 by others regarding this case? FREE STATE REPORTING, INC. Court Reporting Transcription D.C. Area 301-261-1902 Balt. & Annap. 410-97",
+              "matched": "FREE STATE REPORTING"
+            },
+            {
+              "doc_id": "EFTA02731812",
+              "dataset": "dataset_12",
+              "context": "e, 24 intensive video review of the video available in the SHU 25 from July 23rd to August 10, 2019. And there have been FREE STATE REPORTING, INC. Court Reporting Transcription D.C. Area 301-261-1902 Balt. & Annap. 410-97",
+              "matched": "FREE STATE REPORTING"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "Centurion",
+          "count": 240,
+          "docs": 22,
+          "note": "AmEx black-card concierge (CBS, Bloomberg May 2026)",
+          "samples": [
+            {
+              "doc_id": "EFTA02205827",
+              "dataset": "dataset_11",
+              "context": "alia Molotkova ‹ > wrote: Middle seats OK? Regards, Natalia (Natasha) Molotkova Centurion Relationship Manager Hours: Mon, Wed 9a-4p, 530p-7p Tue, Thur, Fri 9a - 530p EST No, I don't think so, it is like a visa, has expir",
+              "matched": "Centurion"
+            },
+            {
+              "doc_id": "EFTA02205827",
+              "dataset": "dataset_11",
+              "context": "No, I don't think so, it is like a visa, has expiration, don't really know much about it... Regards, Natalia (Natasha) Molotkova Centurion Relationship Manager Hours: Mon, Wed 9a-4p, 530p-7p Tue, Thur, Fri 9a - 530p EST What is the fee? Sent from my iPhone",
+              "matched": "Centurion"
+            },
+            {
+              "doc_id": "EFTA02205827",
+              "dataset": "dataset_11",
+              "context": "middle seats at no fee. Do you want better seats for fee? Fare is $816.66, non refundable coach with EUR150 change fee. Regards, Natalia (Natasha) Molotkova Centurion Relationship Manager Hours: Mon, Wed 9a-4p, 530p-7p Tue, Thur, Fri 9a - 530p EST Please book this ticket for Lasma and get her seats! If we need to Pay t",
+              "matched": "Centurion"
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "Little Saint James",
+          "count": 426,
+          "docs": 108,
+          "note": "Epstein's USVI island",
+          "samples": [
+            {
+              "doc_id": "EFTA02730486",
+              "dataset": "dataset_12",
+              "context": "king - 190904-175728 (U) Follow-Up Law Enforcement Inquiries Pertaining to [REDACTED] (U) Interview Of [REDACTED] (U) (REDACTED] (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U) Searc",
+              "matched": "Little Saint James"
+            },
+            {
+              "doc_id": "EFTA02730486",
+              "dataset": "dataset_12",
+              "context": "Inquiries Pertaining to [REDACTED] (U) Interview Of [REDACTED] (U) (REDACTED] (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U) Searc",
+              "matched": "Little Saint James"
+            },
+            {
+              "doc_id": "EFTA02730486",
+              "dataset": "dataset_12",
+              "context": "Of [REDACTED] (U) (REDACTED] (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U//FOUO)",
+              "matched": "Little Saint James"
+            }
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "Zorro Ranch",
+          "count": 42,
+          "docs": 30,
+          "note": "Epstein's New Mexico ranch",
+          "samples": [
+            {
+              "doc_id": "EFTA02730486",
+              "dataset": "dataset_12",
+              "context": "Female U NTOC2020 195hmb02 Potential Sex Trafficking by [REDACTED] and [REDACTED) in New York, NY (NY) U Email regarding information for sale about the Epstein Zorro Ranch U//FOUO NTOC2021Conceming Comments by (REDACTED]. (NY) (U) Reimbursement of expenses incurred for trial (U) Reimbursement of expenses incurred for trial (U) Fe",
+              "matched": "Zorro Ranch"
+            },
+            {
+              "doc_id": "EFTA02730486",
+              "dataset": "dataset_12",
+              "context": "Female U NTOC2020 19Shmb02 Potential Sex Trafficking by {REDACTED} and {REDACTED} in New York, NY (NY) U Email regarding information for sale about the Epstein Zorro Ranch U//FOUO NTOC2021Conceming Comments by {REDACTED}. (NY) (U) Reimbursement of expenses incurred for trial (U) Fed-Ex Delivery Confirmation U Victim of Jeffrey Ep",
+              "matched": "Zorro Ranch"
+            },
+            {
+              "doc_id": "EFTA00008631",
+              "dataset": "dataset_6",
+              "context": "also 21 own a ranch in New Mexico? 22 A. Yes, he did. 23 Q. And turning to the next slide. Was that property 24 located at 49 Zorro Ranch Road in Stanley, New Mexico? 25 A. Yes. FREE STATE REPORTING, INC. Court Reporting Transcription",
+              "matched": "Zorro Ranch"
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "El Brillo",
+          "count": 387,
+          "docs": 46,
+          "note": "358 El Brillo Way, Palm Beach mansion",
+          "samples": [
+            {
+              "doc_id": "EFTA00008599",
+              "dataset": "dataset_6",
+              "context": "9 East 71st Street, New York, New York GM_GLSDNY_00000002 EFTA00008600 358 El Brillo Way, Palm Beach, Florida GM_Gl_SDNY_00000003 EFTA00008601 4 GM_",
+              "matched": "El Brillo"
+            },
+            {
+              "doc_id": "EFTA00008631",
+              "dataset": "dataset_6",
+              "context": "lk more about that later, but 4 for now, moving on to the other properties. Did he maintain 5 an address in Palm Beach, Florida, located at 358 El Brillo 6 Way? 7 A. Yes. 8 Q. Turning to the next slide. Does this slide fairly 9 and accurately depict that residence? 10",
+              "matched": "El Brillo"
+            },
+            {
+              "doc_id": "EFTA00008631",
+              "dataset": "dataset_6",
+              "context": "Q. Have you become aware that in 2005, police 11 officers from the Palm Beach Police Department executed a 12 search warrant at Epstein's house at the El Brillo Way 13 address in Palm Beach? 14 A. Yes. 15 Q. Have you reviewed some of the materials seized 16 during the search? 17 A. Y",
+              "matched": "El Brillo"
+            }
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "Darren awol",
+          "count": 1,
+          "docs": 1,
+          "note": "From Epstein's iMessages, Jun-Jul 2019 — 'Darren' = Darren Indyke, his attorney",
+          "samples": [
+            {
+              "doc_id": "HOUSE_OVERSIGHT_027794",
+              "dataset": "estate",
+              "context": "027794 Sender: Time: 06/15/19 02:19:26 AM (582283166) Flags: 1060865 Is Read: Yes Is Invitation: No GUID: 2CB94E3C-4AB6-4462-80C2-16FAECOF7A90 Message: Darren awol Sender: e:jeeitunes@gmail.com Time: 06/15/19 02:52:19 AM (582285139) Flags: 1085445 Is Read: No Is Invitation: No GUID: 3A887095-1268-4571-A575-AAB62FDDD",
+              "matched": "Darren awol"
+            }
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "Ranch island. Paris. Harvard",
+          "count": 1,
+          "docs": 1,
+          "note": "Epstein iMessage to redacted counterpart, Jun 15 2019 — travel schedule request",
+          "samples": [
+            {
+              "doc_id": "HOUSE_OVERSIGHT_027794",
+              "dataset": "estate",
+              "context": "3:33 AM (582285213) Flags: 1085445 Is Read: No Is Invitation: No GUID: BO2C9AFF-8C6E-4D4B-A4A3-0A2DF3E1B905 Message: Can you give me a proposed schedule . Ranch island. Paris. Harvard. Sender: Time: 06/15/19 03:36:33 AM (582287793) Flags: 1060865 Is Read: Yes Is Invitation: No GUID: 928A2998-7B7D-4DF7-AE69-389150A63704 Message: Standb",
+              "matched": "Ranch island. Paris. Harvard"
+            }
+          ]
+        },
+        {
+          "rank": 15,
+          "text": "Chinese blink on extradition",
+          "count": 1,
+          "docs": 1,
+          "note": "Epstein iMessage Jun 15 2019",
+          "samples": [
+            {
+              "doc_id": "HOUSE_OVERSIGHT_027794",
+              "dataset": "estate",
+              "context": "eitunes@gmail.com Time: 06/15/19 02:52:32 AM (582285152) Flags: 1085445 Is Read: No Is Invitation: No GUID: 41A4OCB1-D91F-459A-BCOB-F9798024EB86 Message: Chinese blink on extradition. I will speak to Sender: e:jeeitunes@gmail.com Time: 06/15/19 02:53:33 AM (582285213) Flags: 1085445 Is Read: No Is Invitation: No GUID: BO2C9AFF-8C6E-4",
+              "matched": "Chinese blink on extradition"
+            }
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "Aka MBS",
+          "count": 1,
+          "docs": 1,
+          "note": "House Oversight 019874 — Mohammed bin Salman decode",
+          "samples": [
+            {
+              "doc_id": "HOUSE_OVERSIGHT_019874",
+              "dataset": "estate",
+              "context": "ers who will be happy to piggyback on your grandiosity. Enter the Crown Prince of the House of Saud, Mohammed bin Salman bin Abdulaziz Al Saud, age thirty-one. Aka MBS. The fortuitous circumstance was that the king of Saudi Arabia, MBS’s father, was losing it. The consensus in the Saudi royal family about a need to modernize",
+              "matched": "Aka MBS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "verbatim_quote",
+      "title": "Press-finding phrases NOT (yet) in our corpus",
+      "subtitle": "likely live in House-Oversight-Dems-specific releases we have not pulled",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "dog that hasn't barked",
+          "count": 0,
+          "docs": 0,
+          "note": "Apr 2011 Epstein → Maxwell re Trump (PBS, CBS, Senator Reed)",
+          "samples": []
+        },
+        {
+          "rank": 2,
+          "text": "knew about the girls",
+          "count": 0,
+          "docs": 0,
+          "note": "Jan 31 2019 Epstein → Wolff (CBS Nov 12 2025)",
+          "samples": []
+        },
+        {
+          "rank": 3,
+          "text": "let him hang himself",
+          "count": 0,
+          "docs": 0,
+          "note": "Dec 2015 Wolff → Epstein on Trump CNN interview (PBS)",
+          "samples": []
+        },
+        {
+          "rank": 4,
+          "text": "dirty donald",
+          "count": 0,
+          "docs": 0,
+          "note": "Epstein → Ruemmler (CNBC)",
+          "samples": []
         }
       ]
     },
@@ -3344,6 +3750,153 @@
             "EFTA02731168",
             "EFTA02731200"
           ]
+        }
+      ]
+    },
+    {
+      "kind": "email_threads",
+      "title": "Longest reconstructed email threads",
+      "subtitle": "742 emails grouped by normalized subject (371 distinct threads)",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "RE: [External] Jeffrey Epstein",
+          "count": 29,
+          "docs": 29,
+          "note": "2017-04-28 → ?  ·  from: Attachments:"
+        },
+        {
+          "rank": 2,
+          "text": "Re: Leon Black",
+          "count": 12,
+          "docs": 12,
+          "note": "? → ?  ·  from: Douglas Wigdor"
+        },
+        {
+          "rank": 3,
+          "text": "RE: Leon Black/Additional HT Subject Referral -- Update",
+          "count": 10,
+          "docs": 10,
+          "note": "? → ?  ·  from: Sent:                   Wednesday. June "
+        },
+        {
+          "rank": 4,
+          "text": "[EXTERNAL] Leon Black follow up",
+          "count": 9,
+          "docs": 9,
+          "note": "? → ?  ·  from: Jeanne M. Christensen"
+        },
+        {
+          "rank": 5,
+          "text": "Re: Follow up",
+          "count": 8,
+          "docs": 8,
+          "note": "2016-02-27 → ?  ·  from: Jeanne M. Christensen"
+        },
+        {
+          "rank": 6,
+          "text": "jeffrey E. [jeeyacation@gmail.com]",
+          "count": 7,
+          "docs": 7,
+          "note": "? → ?  ·  from: Attachments:"
+        },
+        {
+          "rank": 7,
+          "text": "Fwd: Reuters / lawsuit against Jeffrey Epstein",
+          "count": 6,
+          "docs": 6,
+          "note": "2016-04-28 → ?  ·  from: Alan Dershowitz ______"
+        },
+        {
+          "rank": 8,
+          "text": "RE: [EXTERNAL]            / Leon Black",
+          "count": 5,
+          "docs": 5,
+          "note": "? → ?  ·  from: (USANYS) </O=USA/OU=EXTERNAL (FYDIBOHF25"
+        },
+        {
+          "rank": 9,
+          "text": "RE: Spinoff interview from Maxwell",
+          "count": 5,
+          "docs": 5,
+          "note": "? → ?  ·  from: Subject          RE: Spinoff mtennew fro"
+        },
+        {
+          "rank": 10,
+          "text": "Re: Trump",
+          "count": 5,
+          "docs": 5,
+          "note": "2015-12-08 → 2016-05-25  ·  from: Thomas Jr., Landon"
+        },
+        {
+          "rank": 11,
+          "text": "RE: FW: Please forward",
+          "count": 5,
+          "docs": 5,
+          "note": "? → ?  ·  from: Jack Goldberger <"
+        },
+        {
+          "rank": 12,
+          "text": "Re: 3d party credit card authorization form",
+          "count": 4,
+          "docs": 4,
+          "note": "2017-05-19 → 2017-05-22  ·  from: Lesley Groff"
+        },
+        {
+          "rank": 13,
+          "text": "RE: Appointment for Mr. Epstein",
+          "count": 4,
+          "docs": 4,
+          "note": "2017-05-11 → ?  ·  from: Sent      Tue 5/16/2017 6:25:39 PM"
+        },
+        {
+          "rank": 14,
+          "text": "Ticket for             May 21-29",
+          "count": 4,
+          "docs": 4,
+          "note": "? → ?  ·  from: Lesley Groff"
+        },
+        {
+          "rank": 15,
+          "text": "Re: michael & kimberly call tomorrow at 1pm and contact info",
+          "count": 4,
+          "docs": 4,
+          "note": "2017-05-23 → ?  ·  from: Richard Kahn"
+        },
+        {
+          "rank": 16,
+          "text": "Karyna's flights to France",
+          "count": 4,
+          "docs": 4,
+          "note": "2017-05-24 → ?  ·  from: Iata la Toot ova"
+        },
+        {
+          "rank": 17,
+          "text": "Re: Flight dates",
+          "count": 4,
+          "docs": 4,
+          "note": "2017-05-21 → ?  ·  from: Sent     Sun 5/21/2017 2:26:34 PM"
+        },
+        {
+          "rank": 18,
+          "text": "Re: Fwd: FW: Ghislaine Maxwell",
+          "count": 4,
+          "docs": 4,
+          "note": "? → ?  ·  from: GMAX <gmax 1 @ellmax.com>"
+        },
+        {
+          "rank": 19,
+          "text": "Re: Saudi money",
+          "count": 4,
+          "docs": 4,
+          "note": "2016-10-19 → 2016-10-19  ·  from: Thomas Jr., Landon"
+        },
+        {
+          "rank": 20,
+          "text": "christopher",
+          "count": 3,
+          "docs": 3,
+          "note": "2017-05-01 → 2017-05-01  ·  from: Karyna Shuliak"
         }
       ]
     },

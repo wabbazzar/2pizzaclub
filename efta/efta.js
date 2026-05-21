@@ -20,6 +20,8 @@ const KIND_LABEL = {
     cooccur_pairs: 'co-occurrence',
     tfidf: 'tf-idf',
     ngram: 'n-gram',
+    verbatim_quote: 'verbatim quotes',
+    email_threads: 'email threads',
 };
 
 function escapeHTML(s) {
@@ -115,9 +117,38 @@ function renderPage() {
         return;
     }
 
+    // Verbatim-quote render: show samples with context
+    if (page.kind === 'verbatim_quote') {
+        html += '<div class="quote-list">';
+        for (const r of page.rows || []) {
+            const found = r.count > 0;
+            const cls = found ? 'quote-hit' : 'quote-miss';
+            html += `<article class="${cls}">`;
+            html += `<header><span class="quote-rank">${r.rank}</span>`
+                  + `<span class="quote-phrase">${escapeHTML(r.text)}</span>`
+                  + `<span class="quote-counts">${r.count} hits / ${r.docs} docs</span></header>`;
+            html += `<p class="quote-source"><em>${escapeHTML(r.note || '')}</em></p>`;
+            if (r.samples && r.samples.length) {
+                for (const s of r.samples) {
+                    html += `<blockquote>`
+                          + `<span class="quote-meta">[${escapeHTML(s.doc_id)} · ${escapeHTML(s.dataset)}]</span>`
+                          + `<br><span class="quote-context">…${escapeHTML(s.context)}…</span>`
+                          + `</blockquote>`;
+                }
+            }
+            html += '</article>';
+        }
+        html += '</div>';
+        root.innerHTML = html;
+        renderTOC();
+        renderPagerLabels();
+        history.replaceState(null, '', `#p=${state.pageIdx + 1}`);
+        return;
+    }
+
     // Default table render
-    const showDatasets = !['ngram','tfidf','doc_dates_year','mention_dates_year'].includes(page.kind);
-    const showNote = ['press_recreate','codeword_top'].includes(page.kind);
+    const showDatasets = !['ngram','tfidf','doc_dates_year','mention_dates_year','email_threads'].includes(page.kind);
+    const showNote = ['press_recreate','codeword_top','email_threads'].includes(page.kind);
     const showPeakDoc = page.kind === 'tfidf';
     html += '<table class="efta-table"><thead><tr>';
     html += '<th>#</th><th>text</th><th>count</th><th>docs</th>';
