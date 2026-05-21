@@ -30,10 +30,11 @@ regex = '''sk-(proj-)?[A-Za-z0-9_-]{20,}'''
 tags = ["openai", "api-key"]
 
 [allowlist]
-description = "Editorial source material, evidence records, and transcripts are public by design"
+description = "Editorial source material, evidence records, transcripts, and the EFTA findings (which displays OCR'd context excerpts from publicly-released DOJ documents — high-entropy strings inside are article IDs, doc IDs, iMessage GUIDs, etc., not secrets) are public by design"
 paths = [
   '''^sources/evidence/.+\.json$''',
   '''^sources/captures/.+/transcript\.txt$''',
   '''^sources/captures/.+/meta\.json$''',
   '''^chapters/.+\.json$''',
+  '''^efta/findings\.json$''',
 ]
