@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="description" content="2pizzaclub.com — EFTA findings. Statistical extraction from publicly-released Epstein Files Transparency Act documents.">
+    <meta name="description" content="2pizzaclub.com — EFTA findings.">
     <meta name="robots" content="noindex">
     <title>2pizzaclub.com — EFTA findings</title>
 
@@ -17,7 +17,6 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="2pizzaclub.com">
     <meta property="og:title" content="2pizzaclub.com — EFTA findings">
-    <meta property="og:description" content="Statistical extraction from publicly-released Epstein Files Transparency Act documents.">
     <meta property="og:url" content="https://2pizzaclub.com/efta/">
     <meta property="og:image" content="https://2pizzaclub.com/og-image.png">
     <meta property="og:image:width" content="1200">
@@ -27,39 +26,20 @@
     <link rel="stylesheet" href="efta.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Quicksand:wght@400;500;600;700&family=Schoolbell&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <a class="skip-link" href="#findings">Skip to findings</a>
     <header class="dossier-header">
-        <div class="filemark">// 2pizzaclub.com — EFTA</div>
+        <div class="filemark">// 2pizzaclub.com — EFTA &nbsp;·&nbsp; <span id="meta-summary">…</span></div>
         <a class="exit-mark" href="../">← timeline</a>
     </header>
 
     <main class="efta-main">
-        <section class="efta-intro">
-            <p class="kicker">// PUBLIC LAW 119-38</p>
-            <h1>EFTA findings.</h1>
-            <p class="lede">
-                Statistical extraction from documents released under the Epstein Files Transparency Act
-                (DOJ Data Sets 1&ndash;12 and the House Oversight estate release).
-                Names ranked by mention count. N-gram phrases ranked by repetition.
-                A small PII model
-                (<code>iiiorg/piiranha-v1-detect-personal-information</code>) tags entities;
-                the counts are what you see.
-            </p>
-            <p class="lede">
-                What appears here is what the model found, not what we picked. Re-runs as more
-                of the release lands locally; the corpus and date are stamped on each finding.
-            </p>
-        </section>
-
-        <section class="efta-meta" id="efta-meta">
-            <span class="meta-chip" id="meta-docs">documents: …</span>
-            <span class="meta-chip" id="meta-hits">entity hits: …</span>
-            <span class="meta-chip" id="meta-datasets">datasets: …</span>
-            <span class="meta-chip" id="meta-generated">generated: …</span>
-        </section>
+        <nav class="efta-toc" id="efta-toc" aria-label="contents">
+            <p class="toc-hint">click to jump · arrow keys to page · <a href="#" id="toc-collapse-all">collapse all</a> · <a href="#" id="toc-expand-all">expand all</a></p>
+            <div id="toc-groups"></div>
+        </nav>
 
         <nav class="efta-pager" id="efta-pager-top" aria-label="finding pages">
             <button class="pager-btn" id="prev-top" type="button">← prev</button>
@@ -76,21 +56,6 @@
             <span class="pager-label" id="page-label-bottom">page 1 / —</span>
             <button class="pager-btn" id="next-bottom" type="button">next →</button>
         </nav>
-
-        <section class="efta-toc" id="efta-toc">
-            <p class="toc-label">jump to</p>
-            <div class="toc-chips" id="toc-chips"></div>
-        </section>
-
-        <section class="efta-footer-note">
-            <p>
-                Source: <a href="https://www.justice.gov/epstein">justice.gov/epstein</a> +
-                <a href="https://oversight.house.gov/release/oversight-committee-releases-additional-epstein-estate-documents/">oversight.house.gov</a>.
-                Mirror chain: <a href="https://github.com/yung-megafone/Epstein-Files">github.com/yung-megafone/Epstein-Files</a>.
-                Pipeline: <code>portadoc/scripts/efta/</code> (build_corpus → ner_tag → rank_entities → ngrams → export_findings).
-                Numbers carry their detection confidence forward; nothing is interpreted for you.
-            </p>
-        </section>
     </main>
 
     <script type="module" src="efta.js"></script>

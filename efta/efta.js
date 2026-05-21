@@ -1,6 +1,4 @@
-// /efta/ findings viewer.
-// Loads findings.json (built by portadoc/scripts/efta/export_findings.py) and
-// paginates the pages array with prev/next + a TOC.
+// /efta/ findings viewer. Loads findings.json and paginates pages array.
 
 const $ = (id) => document.getElementById(id);
 
@@ -9,20 +7,22 @@ const state = {
     pageIdx: 0,
 };
 
-const KIND_LABEL = {
-    names_top20: 'names',
-    label_top: 'label',
-    email_top: 'emails',
-    press_recreate: 'press recreate',
-    codeword_top: 'code language',
-    doc_dates_year: 'doc dates',
-    mention_dates_year: 'mention dates',
-    cooccur_pairs: 'co-occurrence',
-    tfidf: 'tf-idf',
-    ngram: 'n-gram',
-    verbatim_quote: 'verbatim quotes',
-    email_threads: 'email threads',
-    imessages: 'iMessages',
+// Display order + label for each kind, when building the TOC.
+const KIND_GROUP = {
+    names_top20:        { order:  1, label: 'Top names' },
+    email_top:          { order:  2, label: 'Top email addresses' },
+    label_top:          { order:  3, label: 'Other PII labels' },
+    verbatim_quote:     { order:  4, label: 'Verbatim press quotes' },
+    press_recreate:     { order:  5, label: 'Press-cited terms — counts' },
+    codeword_top:       { order:  6, label: 'Code-language counts' },
+    ds10_financial:     { order:  7, label: 'DS10 financial dossier' },
+    cooccur_pairs:      { order:  8, label: 'Co-occurrence pairs' },
+    email_threads:      { order:  9, label: 'Email threads' },
+    imessages:          { order: 10, label: 'Epstein iMessages (chrono)' },
+    doc_dates_year:     { order: 11, label: 'Doc-date histogram' },
+    mention_dates_year: { order: 12, label: 'Mention-date histogram' },
+    tfidf:              { order: 13, label: 'TF-IDF n-grams' },
+    ngram:              { order: 14, label: 'Doc-spread n-grams' },
 };
 
 function escapeHTML(s) {
@@ -33,37 +33,59 @@ function escapeHTML(s) {
 
 function fmtDatasets(d) {
     if (!d) return '';
-    const entries = Object.entries(d).sort((a, b) => b[1] - a[1]);
-    return entries.map(([k, v]) => `${k}:${v}`).join('  ');
+    return Object.entries(d).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`${k}:${v}`).join('  ');
 }
 
-function renderMeta() {
+function renderHeaderMeta() {
     const c = state.data.corpus || {};
-    $('meta-docs').textContent = `documents: ${c.n_documents ?? '—'}`;
-    $('meta-hits').textContent = `entity hits: ${c.n_entity_hits ?? '—'}`;
-    $('meta-datasets').textContent = `datasets: ${(c.datasets_present || []).join(', ') || '—'}`;
-    const g = state.data.generated_at ? state.data.generated_at.slice(0, 10) : '—';
-    $('meta-generated').textContent = `generated: ${g}`;
+    const g = state.data.generated_at ? state.data.generated_at.slice(0, 10) : '';
+    $('meta-summary').textContent =
+        `${c.n_documents ?? '—'} docs · ${state.data.pages.length} pages · ${g}`;
 }
 
 function renderTOC() {
-    const chips = $('toc-chips');
-    chips.innerHTML = '';
+    const root = $('toc-groups');
     const pages = state.data.pages || [];
-    // Build short labels per page
+    // Group pages by kind, preserving original index for navigation
+    const groups = new Map();  // kind -> [{idx, page}]
     pages.forEach((p, i) => {
-        let lbl;
-        if (p.kind === 'names_top20') lbl = 'NAMES';
-        else if (p.kind === 'label_top') lbl = `${p.label}·${p.page}`;
-        else if (p.kind === 'ngram') lbl = `${p.n}-gram·${p.page}`;
-        else lbl = String(i + 1);
-        const b = document.createElement('button');
-        b.type = 'button';
-        b.className = 'toc-chip' + (i === state.pageIdx ? ' active' : '');
-        b.textContent = lbl;
-        b.addEventListener('click', () => goto(i));
-        chips.appendChild(b);
+        const arr = groups.get(p.kind) || [];
+        arr.push({ idx: i, page: p });
+        groups.set(p.kind, arr);
     });
+    const ordered = Array.from(groups.entries()).sort((a, b) => {
+        const ao = (KIND_GROUP[a[0]]?.order ?? 999);
+        const bo = (KIND_GROUP[b[0]]?.order ?? 999);
+        return ao - bo;
+    });
+
+    root.innerHTML = '';
+    for (const [kind, items] of ordered) {
+        const label = KIND_GROUP[kind]?.label || kind;
+        // Auto-open the group containing the current page
+        const containsCurrent = items.some(it => it.idx === state.pageIdx);
+        const det = document.createElement('details');
+        if (containsCurrent) det.open = true;
+        det.className = 'toc-group';
+        det.dataset.kind = kind;
+        const sum = document.createElement('summary');
+        sum.innerHTML = `<span class="toc-label">${escapeHTML(label)}</span>`
+                      + `<span class="toc-count">${items.length} page${items.length===1?'':'s'}</span>`;
+        det.appendChild(sum);
+        const ul = document.createElement('ul');
+        for (const { idx, page } of items) {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = `#p=${idx + 1}`;
+            a.textContent = page.title;
+            if (idx === state.pageIdx) a.className = 'toc-current';
+            a.addEventListener('click', (e) => { e.preventDefault(); goto(idx); });
+            li.appendChild(a);
+            ul.appendChild(li);
+        }
+        det.appendChild(ul);
+        root.appendChild(det);
+    }
 }
 
 function renderPagerLabels() {
@@ -84,21 +106,13 @@ function renderPage() {
         root.innerHTML = '<p class="placeholder">No findings yet. Re-run the pipeline.</p>';
         return;
     }
-    const subParts = [];
-    subParts.push(`// ${KIND_LABEL[page.kind] || page.kind}`);
-    if (page.label) subParts.push(`label: ${page.label}`);
-    if (page.n) subParts.push(`n=${page.n}`);
-    if (page.page) subParts.push(`page ${page.page}`);
-
     let html = '';
     html += `<h2>${escapeHTML(page.title)}</h2>`;
     if (page.subtitle) {
-        html += `<p class="page-sub">${escapeHTML(subParts.join(' · '))} — ${escapeHTML(page.subtitle)}</p>`;
-    } else {
-        html += `<p class="page-sub">${escapeHTML(subParts.join(' · '))}</p>`;
+        html += `<p class="page-sub">${escapeHTML(page.subtitle)}</p>`;
     }
 
-    // Bar-histogram render for date pages
+    // Bar-histogram render
     if (page.kind === 'doc_dates_year' || page.kind === 'mention_dates_year') {
         const maxBar = Math.max(1, ...page.rows.map(r => r.count));
         html += '<div class="histo">';
@@ -118,7 +132,7 @@ function renderPage() {
         return;
     }
 
-    // iMessage chronological render
+    // iMessage chronological
     if (page.kind === 'imessages') {
         html += '<div class="imsg-list">';
         for (const r of page.rows || []) {
@@ -138,7 +152,7 @@ function renderPage() {
         return;
     }
 
-    // Verbatim-quote render: show samples with context
+    // Verbatim quotes (samples + context)
     if (page.kind === 'verbatim_quote') {
         html += '<div class="quote-list">';
         for (const r of page.rows || []) {
@@ -168,7 +182,7 @@ function renderPage() {
     }
 
     // Default table render
-    const showDatasets = !['ngram','tfidf','doc_dates_year','mention_dates_year','email_threads'].includes(page.kind);
+    const showDatasets = !['ngram','tfidf','doc_dates_year','mention_dates_year','email_threads','ds10_financial'].includes(page.kind);
     const showNote = ['press_recreate','codeword_top','email_threads'].includes(page.kind);
     const showPeakDoc = page.kind === 'tfidf';
     html += '<table class="efta-table"><thead><tr>';
@@ -202,12 +216,21 @@ function goto(i) {
     window.scrollTo({ top: 0, behavior: 'instant' });
 }
 
+function setAllGroups(open) {
+    document.querySelectorAll('.toc-group').forEach(d => { d.open = open; });
+}
+
 function bindNav() {
     $('prev-top').addEventListener('click', () => goto(state.pageIdx - 1));
     $('prev-bottom').addEventListener('click', () => goto(state.pageIdx - 1));
     $('next-top').addEventListener('click', () => goto(state.pageIdx + 1));
     $('next-bottom').addEventListener('click', () => goto(state.pageIdx + 1));
+    $('toc-collapse-all').addEventListener('click', (e) => { e.preventDefault(); setAllGroups(false); });
+    $('toc-expand-all').addEventListener('click', (e) => { e.preventDefault(); setAllGroups(true); });
     window.addEventListener('keydown', (e) => {
+        // Don't hijack arrow keys when user is in a form field
+        const t = e.target;
+        if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
         if (e.key === 'ArrowLeft') goto(state.pageIdx - 1);
         else if (e.key === 'ArrowRight') goto(state.pageIdx + 1);
     });
@@ -222,16 +245,13 @@ async function init() {
         data = await r.json();
     } catch (e) {
         $('findings').innerHTML =
-            `<p class="placeholder">findings.json not loaded (${escapeHTML(e.message)}).<br>` +
-            `Run <code>bash ~/code/portadoc/scripts/efta/run_pipeline.sh</code> ` +
-            `then <code>cp ~/data/epstein-files/work/findings.json ./</code>.</p>`;
+            `<p class="placeholder">findings.json not loaded (${escapeHTML(e.message)}).</p>`;
         return;
     }
     state.data = data;
-    // Honor #p=N deep-link
     const m = location.hash.match(/p=(\d+)/);
     if (m) state.pageIdx = Math.max(0, parseInt(m[1], 10) - 1);
-    renderMeta();
+    renderHeaderMeta();
     renderPage();
 }
 

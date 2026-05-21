@@ -1,63 +1,85 @@
 .efta-main {
-    max-width: 60rem;
+    max-width: 66rem;
     margin: 0 auto;
-    padding: 2.5rem var(--gutter, 2rem) 6rem;
+    padding: 1.25rem var(--gutter, 1.25rem) 4rem;
 }
 
-.efta-intro {
+/* TOC at top of page, replacing the old intro + bottom chip rail */
+.efta-toc {
     background: var(--paper);
     color: var(--ink);
-    border: 3px solid var(--ink);
-    padding: 2.5rem 2.5rem 2rem;
-    max-width: var(--content-max);
-    margin: 0 auto 2.5rem;
-    box-shadow: 10px 10px 0 var(--bus-yellow), 10px 10px 0 3px var(--ink);
-    border-radius: 8px;
-}
-.efta-intro .kicker {
-    font-family: var(--mono);
-    font-size: 0.78rem;
-    letter-spacing: 0.06em;
-    color: var(--accent);
-    margin: 0 0 0.5rem;
-}
-.efta-intro h1 {
-    font-family: var(--display);
-    font-weight: 400;
-    font-size: clamp(2.8rem, 6vw, 4rem);
-    margin: 0 0 1.25rem;
-    line-height: 1;
-    color: var(--accent);
-    text-shadow: 3px 3px 0 var(--bus-yellow);
-}
-.efta-intro .lede {
-    margin: 0 0 0.9rem;
-    border-left: 2px solid var(--ink-soft);
-    padding-left: 1rem;
-}
-.efta-intro code {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 0.85em;
-    background: var(--placeholder-bg);
-    padding: 0.05em 0.4em;
-    border-radius: 3px;
-}
-
-.efta-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    justify-content: center;
-    margin: 0 0 2rem;
-}
-.meta-chip {
-    background: var(--chrome-ink);
-    color: var(--ink);
     border: 2px solid var(--ink);
-    border-radius: 999px;
-    padding: 0.3rem 0.9rem;
+    border-radius: 6px;
+    padding: 0.85rem 1rem;
+    margin: 0 0 1.25rem;
+    box-shadow: 4px 4px 0 var(--bus-yellow);
+}
+.toc-hint {
+    margin: 0 0 0.6rem;
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.78rem;
+    color: var(--ink-soft);
+}
+.toc-hint a {
+    color: var(--accent);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.toc-group {
+    border-top: 1px dashed var(--ink-soft);
+    padding: 0.25rem 0;
+}
+.toc-group:first-child { border-top: none; }
+.toc-group > summary {
+    cursor: pointer;
+    padding: 0.35rem 0.25rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+    color: var(--ink);
+    list-style: none;
+}
+.toc-group > summary::-webkit-details-marker { display: none; }
+.toc-group > summary::before {
+    content: '▸';
+    color: var(--accent);
+    font-size: 0.8rem;
+    width: 1rem;
+    display: inline-block;
+}
+.toc-group[open] > summary::before { content: '▾'; }
+.toc-group > summary .toc-label {
+    font-weight: 600;
+    flex: 1;
+}
+.toc-group > summary .toc-count {
+    color: var(--ink-soft);
+    font-size: 0.78rem;
+}
+.toc-group ul {
+    list-style: none;
+    margin: 0.15rem 0 0.45rem 1.6rem;
+    padding: 0;
+    border-left: 1px dashed var(--ink-soft);
+}
+.toc-group li {
+    padding: 0.15rem 0 0.15rem 0.6rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+}
+.toc-group li a {
+    color: var(--ink);
+    text-decoration: none;
+}
+.toc-group li a:hover { color: var(--accent); text-decoration: underline; }
+.toc-group li a.toc-current {
+    color: var(--accent);
+    font-weight: 700;
+    background: var(--bus-yellow);
+    padding: 0.05em 0.4em;
+    border-radius: 2px;
 }
 
 .efta-pager {
@@ -171,55 +193,7 @@
     max-width: 14rem;
 }
 
-.efta-toc {
-    margin: 2.5rem 0 0;
-    text-align: center;
-}
-.toc-label {
-    font-family: var(--mono);
-    font-size: 0.78rem;
-    color: var(--chrome-ink-dim);
-    letter-spacing: 0.08em;
-    margin: 0 0 0.6rem;
-}
-.toc-chips {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.4rem;
-}
-.toc-chip {
-    background: transparent;
-    color: var(--chrome-ink);
-    border: 1px solid var(--chrome-ink-dim);
-    padding: 0.25rem 0.65rem;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 0.78rem;
-    cursor: pointer;
-    border-radius: 3px;
-}
-.toc-chip:hover,
-.toc-chip.active {
-    background: var(--bus-yellow);
-    color: var(--ink);
-    border-color: var(--ink);
-}
-
-.efta-footer-note {
-    margin: 3rem auto 0;
-    max-width: var(--content-max);
-    font-family: var(--mono);
-    font-size: 0.82rem;
-    color: var(--chrome-ink-dim);
-    text-align: center;
-}
-.efta-footer-note a {
-    color: var(--bus-yellow);
-}
-.efta-footer-note code {
-    font-family: 'JetBrains Mono', monospace;
-    color: var(--chrome-ink);
-}
+/* (bottom chip-rail + footer note removed — TOC now lives at top) */
 
 .placeholder {
     font-family: var(--mono);
