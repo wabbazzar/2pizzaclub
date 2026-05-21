@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T15:05:16.076185+00:00",
+  "generated_at": "2026-05-21T15:39:53.789547+00:00",
   "corpus": {
     "n_documents": 784,
     "n_entity_hits": 46900,
@@ -25,6 +25,7 @@
       "rows": [
         {
           "name": "Jeffrey Epstein",
+          "relation": "The subject of the DOJ disclosure.",
           "aliases": [
             "Jeffrey\\s+E?\\.?\\s*Epstein",
             "\\bJeffrey\\s+Epstein\\b"
@@ -106,6 +107,7 @@
         },
         {
           "name": "Richard Kahn",
+          "relation": "Longtime accountant (HBRK Associates); co-executor of Epstein's estate.",
           "aliases": [
             "Richard\\s+Kahn",
             "\\bKahn\\b"
@@ -176,6 +178,7 @@
         },
         {
           "name": "Darren Indyke",
+          "relation": "Longtime personal attorney; co-executor of Epstein's estate.",
           "aliases": [
             "Darren\\s+(?:K\\.\\s+)?Indyke",
             "\\bIndyke\\b"
@@ -246,6 +249,7 @@
         },
         {
           "name": "Ghislaine Maxwell",
+          "relation": "Longtime girlfriend and co-conspirator; convicted of sex trafficking 2021.",
           "aliases": [
             "Ghislaine\\s+Maxwell",
             "\\bGhislaine\\b"
@@ -322,6 +326,7 @@
         },
         {
           "name": "Lesley Groff",
+          "relation": "Executive assistant for 20+ years; on the 2019 FBI co-conspirator list.",
           "aliases": [
             "Lesley\\s+Groff",
             "\\bGroff\\b"
@@ -388,6 +393,7 @@
         },
         {
           "name": "Boris Nikolic",
+          "relation": "Bill Gates's science adviser; recurring Epstein iMessage correspondent.",
           "aliases": [
             "Boris\\s+Nikolic",
             "\\bNikolic\\b"
@@ -452,6 +458,7 @@
         },
         {
           "name": "Jes Staley",
+          "relation": "JPMorgan private banker who managed Epstein's accounts; later Barclays CEO.",
           "aliases": [
             "Jes\\s+Staley",
             "\\bStaley\\b"
@@ -512,6 +519,7 @@
         },
         {
           "name": "Amanda Best",
+          "relation": "JPMorgan Private Bank relationship officer on the Epstein accounts.",
           "aliases": [
             "Amanda\\s+Best",
             "Best,\\s+Amanda"
@@ -568,6 +576,7 @@
         },
         {
           "name": "Karyna Shuliak",
+          "relation": "Longtime girlfriend in Epstein's later years.",
           "aliases": [
             "Karyna\\s+Shuliak",
             "\\bShuliak\\b"
@@ -628,6 +637,7 @@
         },
         {
           "name": "Larry Visoski",
+          "relation": "Epstein's personal pilot for ~28 years; testified at Maxwell trial.",
           "aliases": [
             "Larry\\s+Visoski",
             "\\bVisoski\\b"
@@ -700,6 +710,7 @@
       "rows": [
         {
           "name": "Peter Mandelson",
+          "relation": "UK Labour politician; Epstein-defender emails post-2008; arrested Feb 2026.",
           "aliases": [
             "Peter\\s+Mandelson",
             "\\bMandelson\\b"
@@ -757,6 +768,7 @@
         },
         {
           "name": "Leon Black",
+          "relation": "Apollo Global Mgmt founder; paid Epstein ~$170M in advisory fees ('Mr. Big').",
           "aliases": [
             "Leon\\s+Black"
           ],
@@ -824,6 +836,7 @@
         },
         {
           "name": "Les Wexner",
+          "relation": "Longtime financial patron; transferred the 9 E 71st St townhouse to Epstein.",
           "aliases": [
             "Les\\s+Wexner",
             "Leslie\\s+Wexner",
@@ -888,6 +901,7 @@
         },
         {
           "name": "Prince Andrew",
+          "relation": "Photographed with victim Virginia Giuffre; settled civil suit 2022.",
           "aliases": [
             "Prince\\s+Andrew",
             "Andrew\\s+Mountbatten[\\s\\-]Windsor"
@@ -953,6 +967,7 @@
         },
         {
           "name": "Donald Trump",
+          "relation": "Longtime acquaintance from 1990s NYC and Mar-a-Lago social circuit.",
           "aliases": [
             "Donald\\s+J?\\.?\\s*Trump",
             "\\bDJT\\b",
@@ -1018,6 +1033,7 @@
         },
         {
           "name": "Bill Clinton",
+          "relation": "Took multiple flights on Epstein's plane in the early 2000s.",
           "aliases": [
             "Bill\\s+Clinton",
             "William\\s+J?\\.?\\s*Clinton"
@@ -1083,6 +1099,7 @@
         },
         {
           "name": "Lawrence Krauss",
+          "relation": "Theoretical physicist; LSJ visitor; sent Epstein his BuzzFeed-harassment response draft.",
           "aliases": [
             "(?:Lawrence|Larry)\\s+Krauss",
             "\\bKrauss\\b"
@@ -1144,6 +1161,7 @@
         },
         {
           "name": "Joi Ito",
+          "relation": "MIT Media Lab director; took ~$1.7M Epstein donations laundered as 'anonymous'.",
           "aliases": [
             "Joi\\s+Ito"
           ],
@@ -1199,6 +1217,7 @@
         },
         {
           "name": "Steve Bannon",
+          "relation": "Post-2018 PR and legal-strategy coaching contact (recorded interviews).",
           "aliases": [
             "Steve(?:n)?\\s+Bannon",
             "\\bBannon\\b"
@@ -1256,6 +1275,7 @@
         },
         {
           "name": "Alexander Acosta",
+          "relation": "AUSA who signed off on Epstein's 2007 non-prosecution agreement; later Trump Labor Secretary.",
           "aliases": [
             "Alex(?:ander)?\\s+Acosta",
             "\\bAcosta\\b"
@@ -1325,6 +1345,7 @@
       "rows": [
         {
           "name": "Yitzhak Rabin",
+          "relation": "Late Israeli Prime Minister (assassinated 1995); referenced in Israeli-context docs.",
           "aliases": [
             "Yitzhak\\s+Rabin",
             "\\bRabin\\b"
@@ -1379,6 +1400,7 @@
         },
         {
           "name": "Jean-Luc Brunel",
+          "relation": "Modeling agent and Epstein associate accused of trafficking; died in French custody 2022.",
           "aliases": [
             "Jean[\\s\\-]Luc\\s+Brunel",
             "\\bBrunel\\b"
@@ -1440,6 +1462,7 @@
         },
         {
           "name": "Larry Summers",
+          "relation": "Ex-Treasury Secretary and Harvard President; close email correspondent through 2018.",
           "aliases": [
             "Lar+y\\s+Summers",
             "L\\.\\s*H\\.\\s*Summers"
@@ -1502,6 +1525,7 @@
         },
         {
           "name": "Alan Dershowitz",
+          "relation": "Defense attorney on Epstein's 2008 plea deal; later named (and settled) in Giuffre suit.",
           "aliases": [
             "Alan\\s+Dershowitz",
             "\\bDershowitz\\b"
@@ -1565,6 +1589,7 @@
         },
         {
           "name": "Noam Chomsky",
+          "relation": "MIT linguist; wrote a letter calling Epstein a 'highly valued friend'.",
           "aliases": [
             "Noam\\s+Chomsky",
             "\\bChomsky\\b"
@@ -1620,6 +1645,7 @@
         },
         {
           "name": "Ariane de Rothschild",
+          "relation": "Edmond de Rothschild banker; in 2013 scheduling thread with Ehud Barak.",
           "aliases": [
             "Ariane\\s+(?:de\\s+)?Rothschild"
           ],
@@ -1673,6 +1699,7 @@
         },
         {
           "name": "Michael Wolff",
+          "relation": "Journalist; recipient of the 'knew about the girls' and 'let him hang himself' emails.",
           "aliases": [
             "Michael\\s+Wolff",
             "\\bM\\.?\\s*Wolff\\b"
@@ -1735,6 +1762,7 @@
         },
         {
           "name": "Ehud Barak",
+          "relation": "Former Israeli PM; 60+ documented meetings with Epstein 2010-19.",
           "aliases": [
             "Ehud\\s+Barak"
           ],
@@ -1791,6 +1819,7 @@
         },
         {
           "name": "Alfredo Alessi",
+          "relation": "Epstein's Palm Beach household manager; testified for the prosecution.",
           "aliases": [
             "Alfredo\\s+Alessi",
             "\\bAlessi\\b"
@@ -1847,6 +1876,7 @@
         },
         {
           "name": "Hillary Clinton",
+          "relation": "Surfaces in flight log marginalia.",
           "aliases": [
             "Hillary\\s+(?:R\\.\\s+|Rodham\\s+)?Clinton"
           ],
@@ -1915,6 +1945,7 @@
       "rows": [
         {
           "name": "Bill Gates",
+          "relation": "Met with Epstein post-conviction including a 2011 dinner with Summers and Staley.",
           "aliases": [
             "Bill\\s+Gates",
             "William\\s+H?\\.?\\s*Gates"
@@ -1976,6 +2007,7 @@
         },
         {
           "name": "Kathryn Ruemmler",
+          "relation": "Goldman Sachs CLO and ex-Obama WH Counsel; recipient of the 'dirty donald' email.",
           "aliases": [
             "Kathryn\\s+Ruemmler",
             "\\bRuemmler\\b"
@@ -2035,6 +2067,7 @@
         },
         {
           "name": "Steven Hoffenberg",
+          "relation": "Towers Financial Ponzi schemer; Epstein's 1980s-90s associate and claimed mentor.",
           "aliases": [
             "Stev(?:e|en)\\s+Hoffenberg",
             "\\bHoffenberg\\b"
@@ -2092,6 +2125,7 @@
         },
         {
           "name": "Elon Musk",
+          "relation": "Trip to Little Saint James scheduled per the Sept 2025 Estate release.",
           "aliases": [
             "Elon\\s+Musk"
           ],
@@ -2147,6 +2181,7 @@
         },
         {
           "name": "Reid Hoffman",
+          "relation": "LinkedIn co-founder; two 2014 trips to Little Saint James, also brought Joi Ito.",
           "aliases": [
             "Reid\\s+Hoffman"
           ],
@@ -2199,6 +2234,7 @@
         },
         {
           "name": "Peter Thiel",
+          "relation": "Scheduled meetings with Epstein per the Estate release.",
           "aliases": [
             "Peter\\s+Thiel"
           ],
@@ -2254,6 +2290,7 @@
         },
         {
           "name": "Jared Kushner",
+          "relation": "Trump son-in-law; named in Epstein's iMessages with redacted counterpart Jan 2017.",
           "aliases": [
             "Jared\\s+Kushner",
             "\\bKushner\\b"
@@ -2312,6 +2349,7 @@
         },
         {
           "name": "Mohammed bin Salman",
+          "relation": "Saudi Crown Prince; gifted Epstein a tent 'carpets and all' in 2016.",
           "aliases": [
             "Mohammed\\s+bin\\s+Salman",
             "\\bMBS\\b"
@@ -2367,6 +2405,7 @@
         },
         {
           "name": "Bruce Krischer",
+          "relation": "Palm Beach County State Attorney 2005-09; declined to upgrade Epstein's charges.",
           "aliases": [
             "Bruce\\s+Krischer",
             "\\bKrischer\\b"
@@ -2422,6 +2461,7 @@
         },
         {
           "name": "Virginia Giuffre",
+          "relation": "Maxwell-trafficking victim turned principal accuser; sued Prince Andrew and Dershowitz.",
           "aliases": [
             "Virginia\\s+Giuffre",
             "\\bGiuffre\\b"
@@ -2485,6 +2525,7 @@
       "rows": [
         {
           "name": "Misha Gromov",
+          "relation": "Abel Prize-winning mathematician (IHES); featured in Epstein's 'Radical Breakthroughs' book.",
           "aliases": [
             "Misha\\s+Gromov",
             "Mikhail\\s+Gromov"
@@ -2538,6 +2579,7 @@
         },
         {
           "name": "Hamad bin Jassim",
+          "relation": "Former Qatari PM (HBJ); subject of Apr 2018 'HBJ sun. MBS mon.' iMessage.",
           "aliases": [
             "Hamad\\s+bin\\s+Jassim",
             "\\bHBJ\\b"
@@ -2595,6 +2637,7 @@
         },
         {
           "name": "Tom Barrack",
+          "relation": "Trump's longtime friend and Inaugural Committee chair; in Epstein's iMessages Jan 2017.",
           "aliases": [
             "Tom\\s+Barrack",
             "Thomas\\s+J?\\.?\\s*Barrack"
@@ -2651,6 +2694,7 @@
         },
         {
           "name": "Sarah Kellen",
+          "relation": "Maxwell's assistant; named co-conspirator in Epstein's 2008 non-prosecution agreement.",
           "aliases": [
             "Sarah\\s+Kellen",
             "\\bKellen\\b"
@@ -2701,6 +2745,7 @@
         },
         {
           "name": "Joe Recarey",
+          "relation": "Lead Palm Beach Police detective on the 2005-06 Epstein investigation.",
           "aliases": [
             "Joe\\s+Recarey",
             "\\bRecarey\\b"
@@ -2755,6 +2800,7 @@
         },
         {
           "name": "Nadia Marcinkova",
+          "relation": "Named co-conspirator in Epstein's 2008 non-prosecution agreement.",
           "aliases": [
             "Nadia\\s+Marcinkova",
             "\\bMarcinkova\\b"
@@ -2805,6 +2851,7 @@
         },
         {
           "name": "Natalia Molotkova",
+          "relation": "American Express Centurion concierge who booked Epstein's international flights.",
           "aliases": [
             "Natalia\\s+Molotkova",
             "\\bMolotkova\\b"
@@ -2859,6 +2906,7 @@
         },
         {
           "name": "Murray Gell-Mann",
+          "relation": "Caltech Nobel-laureate physicist; contributor to Epstein's 50th birthday book.",
           "aliases": [
             "Murray\\s+Gell[\\s\\-]Mann"
           ],
@@ -2911,6 +2959,7 @@
         },
         {
           "name": "Robert Lawrence Kuhn",
+          "relation": "PBS 'Closer to Truth' host; AI / probability / Misha Gromov correspondence 2016-17.",
           "aliases": [
             "Robert\\s+Lawrence\\s+Kuhn",
             "\\bRobert\\s+Kuhn\\b"
@@ -2964,6 +3013,7 @@
         },
         {
           "name": "Adriana Ross",
+          "relation": "Named co-conspirator in Epstein's 2008 non-prosecution agreement.",
           "aliases": [
             "Adriana\\s+Ross",
             "\\bMucinska\\b"
@@ -3023,6 +3073,7 @@
       "rows": [
         {
           "name": "Matthew Hiltzik",
+          "relation": "NYC PR fixer (Hiltzik Strategies); Epstein's post-conviction PR contact.",
           "aliases": [
             "Matt(?:hew)?\\s+Hiltzik",
             "\\bHiltzik\\b"
@@ -3077,6 +3128,7 @@
         },
         {
           "name": "Anthony Scaramucci",
+          "relation": "Briefly Trump's communications director; SkyBridge Capital founder; in Epstein's orbit.",
           "aliases": [
             "Anthony\\s+Scaramucci",
             "\\bScaramucci\\b"
