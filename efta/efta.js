@@ -233,7 +233,11 @@ function renderPage() {
         html += '<div class="person-list">';
         for (const p of page.rows || []) {
             const topDs = Object.entries(p.by_dataset || {}).sort((a,b)=>b[1]-a[1])[0];
-            const yrs = Object.keys(p.by_year || {}).map(Number).sort((a,b)=>a-b);
+            // Sanity-bound years — anything outside 1990..2026 is OCR garbage
+            const yrs = Object.keys(p.by_year || {})
+                .map(Number)
+                .filter(y => y >= 1990 && y <= 2026)
+                .sort((a,b)=>a-b);
             const wikiSlug = p.wiki ? p.wiki.slug : '';
             html += `<article class="person-card">`;
             html += `<header class="person-head">`;
