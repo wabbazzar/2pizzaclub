@@ -1,0 +1,48 @@
+{
+    "id": "2020-fbi-epstein-mossad-memo-001",
+    "anchor": "y2019",
+    "year": 2020,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "fbi",
+        "mossad",
+        "israel",
+        "intelligence"
+    ],
+    "claim": "An FBI memo produced by the Bureau's Los Angeles field office in October 2020 — released as part of the Department of Justice's Epstein file production in early 2026 — recorded that a confidential human source (CHS) close to Harvard law professor Alan Dershowitz believed Jeffrey Epstein \"was a co-opted Mossad agent\" who had been \"trained as a spy\" by former Israeli Prime Minister Ehud Barak. The memo is a record of a source's belief; it does not represent a corroborated FBI finding and presents no independent intelligence-community confirmation. Israeli officials and a number of ex-intelligence figures have rejected the underlying claim. The memo is, however, an FBI-generated document released by the U.S. government as part of the official Epstein production.",
+    "sources": [
+        {
+            "label": "Middle East Eye — \"Epstein trained as an Israeli spy, FBI document says.\"",
+            "type": "secondary",
+            "url": "https://www.middleeasteye.net/news/epstein-trained-israeli-spy-fbi-document-says"
+        },
+        {
+            "label": "Middle East Monitor — \"FBI document: Epstein trained as spy under Ehud Barak and worked for Mossad,\" February 5, 2026.",
+            "type": "secondary",
+            "url": "https://www.middleeastmonitor.com/20260205-fbi-document-epstein-trained-as-spy-under-ehud-barak-and-worked-for-mossad/"
+        },
+        {
+            "label": "The Week — \"FBI document claims Jeffrey Epstein was a Mossad agent. Here is how he was tied to Israel,\" February 10, 2026.",
+            "type": "secondary",
+            "url": "https://www.theweek.in/news/middle-east/2026/02/10/doj-files-fbi-document-claims-jeffrey-epstein-was-a-mossad-agent-here-is-how-he-was-tied-to-israel-ehud-barak.html"
+        },
+        {
+            "label": "Novara Media — \"Epstein Was an Israeli Spy, FBI Source Claims,\" February 10, 2026.",
+            "type": "secondary",
+            "url": "https://novaramedia.com/2026/02/10/epstein-was-an-israeli-spy-fbi-source-claims/"
+        },
+        {
+            "label": "Fox News — \"Israeli intelligence sources reject claims Jeffrey Epstein was Mossad operative following document releases.\"",
+            "type": "secondary",
+            "url": "https://www.foxnews.com/world/israeli-intelligence-sources-reject-claims-jeffrey-epstein-mossad-operative-following-document-releases"
+        },
+        {
+            "label": "Times of Israel — \"No, the Epstein files don't show that he worked for Mossad.\"",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/no-the-epstein-files-dont-show-that-he-worked-for-mossad/"
+        }
+    ],
+    "status": "draft",
+    "notes": "Group-B style claim: the FBI memo is real and government-released; the underlying allegation in the memo is contested. The slide deck framing should foreground that it is a CHS-attributed belief inside an FBI memo, not an FBI finding. Pairs naturally with the Koren record (concrete documented contact) and the Barak record (named ex-PM with 60+ Epstein meetings)."
+}

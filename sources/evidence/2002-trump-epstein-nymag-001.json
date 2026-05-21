@@ -1,0 +1,28 @@
+{
+    "id": "2002-trump-epstein-nymag-001",
+    "anchor": "y2019",
+    "year": 2002,
+    "era": "iii",
+    "themes": [
+        "trump",
+        "epstein",
+        "journalism"
+    ],
+    "claim": "In a profile of Jeffrey Epstein published October 28, 2002 in New York magazine — \"Jeffrey Epstein: International Moneyman of Mystery,\" written by Landon Thomas Jr. — Donald Trump is quoted by name on Epstein: \"I've known Jeff for fifteen years. Terrific guy. He's a lot of fun to be with. It is even said that he likes beautiful women as much as I do, and many of them are on the younger side.\" The profile was published six years before Epstein's 2008 Florida non-prosecution agreement and seventeen years before his 2019 federal indictment.",
+    "sources": [
+        {
+            "label": "New York magazine — Landon Thomas Jr., \"Jeffrey Epstein: International Moneyman of Mystery,\" October 28, 2002.",
+            "type": "primary",
+            "url": "https://nymag.com/nymetro/news/people/n_7912/",
+            "quote": "I've known Jeff for fifteen years. Terrific guy. He's a lot of fun to be with. It is even said that he likes beautiful women as much as I do, and many of them are on the younger side."
+        },
+        {
+            "label": "Newsweek — fact check, \"Did Donald Trump call Jeffrey Epstein a 'terrific guy'?\"",
+            "type": "secondary",
+            "url": "https://www.newsweek.com/fact-check-did-donald-trump-call-jeffrey-epstein-terrific-guy-1857207",
+            "quote": "I've known Jeff for fifteen years. Terrific guy. He's a lot of fun to be with. It is even said that he likes beautiful women as much as I do, and many of them are on the younger side."
+        }
+    ],
+    "status": "draft",
+    "notes": "The original nymag.com page is paywalled / blocked to headless browsers but is the canonical primary source; the quote is verbatim and independently reproduced across the press record (Newsweek, Yahoo, ABC) including in 2019 reporting following Epstein's indictment."
+}

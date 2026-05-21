@@ -1,0 +1,32 @@
+{
+    "id": "2017-wolff-epstein-tapes-001",
+    "anchor": "y2019",
+    "year": 2017,
+    "era": "iv",
+    "themes": [
+        "trump",
+        "epstein",
+        "journalism"
+    ],
+    "claim": "In approximately 100 hours of taped interviews recorded by journalist Michael Wolff while reporting his book Fire and Fury: Inside the Trump White House (2018), Jeffrey Epstein characterized his relationship with Donald Trump as having been \"Donald's closest friend for ten years\" before the two had a falling out in the early 2000s over a Palm Beach property bid. Wolff has said he has roughly 100 hours of recordings across more than 30 sessions and that on the tapes Epstein and Trump are described as having \"hunted girls together,\" with a \"close relationship for more than a decade.\"",
+    "sources": [
+        {
+            "label": "Yale Review — \"Michael Wolff on Donald Trump, Jeffrey Epstein, and Their Friendship,\" November 25, 2024.",
+            "type": "primary",
+            "url": "https://yalereview.org/article/michael-wolff-donald-trump-jeffrey-epstein-interview",
+            "quote": "Donald's closest friend for ten years"
+        },
+        {
+            "label": "Washington Monthly — \"The Wolff-Epstein Tapes,\" July 20, 2025.",
+            "type": "secondary",
+            "url": "https://washingtonmonthly.com/2025/07/20/the-wolff-epstein-tapes/"
+        },
+        {
+            "label": "U.S. House Judiciary Committee — submitted hearing material referencing the Wolff recordings (\"I Was Donald Trump's Closest Friend\"), filed February 27, 2025.",
+            "type": "doc",
+            "url": "https://docs.house.gov/meetings/JU/JU08/20250227/117951/HHRG-119-JU08-20250227-SD006-U6.pdf"
+        }
+    ],
+    "status": "draft",
+    "notes": "Wolff's tapes were recorded in 2017 during the reporting for Fire and Fury; he has selectively released excerpts since 2024. The 'closest friend for ten years' framing is Epstein's, on tape, transcribed into Wolff's reporting and onward into the press record. Episode references on Fire and Fury: The Podcast (omny.fm) carry the same wording."
+}

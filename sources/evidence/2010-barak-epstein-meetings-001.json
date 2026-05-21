@@ -1,0 +1,41 @@
+{
+    "id": "2010-barak-epstein-meetings-001",
+    "anchor": "y2019",
+    "year": 2010,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "israel",
+        "intelligence"
+    ],
+    "claim": "Former Israeli Prime Minister and IDF Chief of Staff Ehud Barak met with Jeffrey Epstein in person more than sixty times between September 2010 and March 2019 — usually in New York, but also in Florida, Boston, Paris, and at Epstein's private island Little Saint James in the U.S. Virgin Islands (a January 2014 visit by Barak is documented in correspondence). Barak also stayed at Epstein's New York apartment building at 301 East 66th Street more than two dozen times. Barak has publicly acknowledged the visits and the friendship and said he regrets ever meeting Epstein after Epstein's 2008 Florida conviction.",
+    "sources": [
+        {
+            "label": "Times of Israel — \"Ehud Barak met with Jeffrey Epstein dozens of times, flew on private plane — report,\" 2023.",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/ehud-barak-met-with-jeffrey-epstein-dozens-of-times-flew-on-private-plane-report/"
+        },
+        {
+            "label": "Al Jazeera — \"Former Israeli PM Barak responds to criticism over close Epstein links,\" February 13, 2026.",
+            "type": "secondary",
+            "url": "https://www.aljazeera.com/news/2026/2/13/former-israeli-pm-barak-responds-to-criticism-over-close-epstein-links"
+        },
+        {
+            "label": "Haaretz — \"Island Visit, NYC Flat and 'Belarusian Girls': Ex-Israel PM Ehud Barak Addresses Jeffrey Epstein Ties,\" February 13, 2026.",
+            "type": "secondary",
+            "url": "https://www.haaretz.com/israel-news/israel-politics/2026-02-13/ty-article/ex-israel-pm-ehud-barak-addresses-jeffrey-epstein-ties/0000019c-576c-d5d5-a5fc-ffeeb0af0000"
+        },
+        {
+            "label": "Jacobin — \"Ehud Barak Had a Very Close Friendship With Jeffrey Epstein,\" February 2026.",
+            "type": "secondary",
+            "url": "https://jacobin.com/2026/02/epstein-files-barak-israel-relationship"
+        },
+        {
+            "label": "Middle East Eye — \"Epstein brokered meetings between Ehud Barak and UAE billionaire before Abraham Accords: Report.\"",
+            "type": "secondary",
+            "url": "https://www.middleeasteye.net/news/jeffrey-epstein-brokered-meetings-between-ehud-barak-and-uae-billionaire-abraham-accords"
+        }
+    ],
+    "status": "draft",
+    "notes": "Barak was IDF Chief of Staff (1991-1995) and Prime Minister (1999-2001); his Mossad-adjacent intelligence posture is part of why his Epstein contact pattern is central to the Israeli-intelligence reading of the network. The meeting count (60+ documented face-to-face) traces to leaked emails and scheduling records released through the DOJ/oversight productions; the 30-visits-2013-17 figure widely cited in 2023 reporting is a subset of the longer corpus surfaced later. Anchor y2019 keeps this with the Epstein-network cluster."
+}

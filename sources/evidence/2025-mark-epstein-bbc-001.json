@@ -1,0 +1,34 @@
+{
+    "id": "2025-mark-epstein-bbc-001",
+    "anchor": "y2019",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "clinton",
+        "trump",
+        "journalism"
+    ],
+    "claim": "On July 25, 2025, BBC Newsnight broadcast an interview with Mark Epstein — Jeffrey Epstein's brother — in which Mark Epstein recounted a conversation he had with his brother during the 2016 presidential election. Mark Epstein said: \"In the 2016 election, we were talking about the election and Jeffrey told me that if he said what he knew about the candidates, they would have to cancel the election.\" In the same interview Mark Epstein said that his brother \"had dirt on people\" but never told him what the material was. Mark Epstein did not corroborate the underlying allegation; he reported what his brother said to him.",
+    "sources": [
+        {
+            "label": "BBC Newsnight — official Newsnight social post of the interview clip, July 25, 2025.",
+            "type": "primary",
+            "url": "https://x.com/BBCNewsnight/status/1948876297263858143",
+            "quote": "In the 2016 election... Jeffrey told me that if he said what he knew about the candidates they'd have to cancel the election."
+        },
+        {
+            "label": "Newsweek — \"Jeffrey Epstein had 'dirt' on Donald Trump, Hillary Clinton, brother says,\" July 29, 2025.",
+            "type": "secondary",
+            "url": "https://www.newsweek.com/jeffrey-epstein-dirt-donald-trump-hillary-clinton-brother-mark-2105478",
+            "quote": "If I said what I knew about the candidates, they'd have to cancel the election."
+        },
+        {
+            "label": "The Daily Beast — \"Jeffrey Epstein Had Dirt on Trump and Hillary That Could Have Derailed 2016 Race: Brother.\"",
+            "type": "secondary",
+            "url": "https://www.thedailybeast.com/jeffrey-epstein-had-dirt-on-trump-and-hillary-that-could-have-derailed-2016-race-brother/"
+        }
+    ],
+    "status": "draft",
+    "notes": "Primary source is Mark Epstein's televised statement on BBC Newsnight. The site cannot reach Newsnight's archived video page (BBC requires a UK license check) so the X repost from the official @BBCNewsnight account is the most stable canonical link. Mark Epstein has separately given interviews to other outlets pushing the homicide-vs-suicide line on Jeffrey Epstein's death; the 'cancel the election' quote is specific to this Newsnight interview."
+}

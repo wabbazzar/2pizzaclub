@@ -1,0 +1,37 @@
+{
+    "id": "2013-koren-epstein-apartment-001",
+    "anchor": "y2019",
+    "year": 2013,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "israel",
+        "mossad",
+        "intelligence"
+    ],
+    "claim": "Yoni Koren — an Israeli military intelligence officer who built his career in covert operations alongside the Mossad and who remained a lieutenant colonel in reserve duty after leaving the intelligence directorate — stayed at Jeffrey Epstein's Manhattan apartment on at least three documented occasions: in February 2013 (while serving as a senior aide to then-Israeli Defense Minister Ehud Barak), for two weeks in October 2014, and for ten days in September 2015. Drop Site News, which surfaced the stays in November 2025 from material in the DOJ Epstein files, reported correspondence between Epstein and Koren and a money transfer from Epstein to Koren, plus communications between Barak and Koren that researchers reading the files have flagged as plausibly coded.",
+    "sources": [
+        {
+            "label": "Drop Site News — \"Israeli Spy Stayed for Weeks at a Time at Jeffrey Epstein's Mansion,\" November 2025.",
+            "type": "primary",
+            "url": "https://www.dropsitenews.com/p/israeli-spy-yoni-koren-stayed-jeffrey-epstein-apartment-ehud-barak"
+        },
+        {
+            "label": "Democracy Now! — \"Epstein & Israel: Drop Site News Investigates Jeffrey Epstein's Ties to Israeli Intelligence,\" November 12, 2025.",
+            "type": "secondary",
+            "url": "https://www.democracynow.org/2025/11/12/epstein_israel"
+        },
+        {
+            "label": "Middle East Monitor — \"Further evidence emerges of Israel's Mossad links to sex offender Jeffrey Epstein,\" November 12, 2025.",
+            "type": "secondary",
+            "url": "https://www.middleeastmonitor.com/20251112-further-evidence-emerges-of-israels-mossad-links-to-sex-offender-jeffrey-epstein/"
+        },
+        {
+            "label": "FAIR — \"Emails Reveal Epstein's Ties to Mossad — But Corporate Media Looked Away.\"",
+            "type": "secondary",
+            "url": "https://fair.org/home/emails-reveal-epsteins-ties-to-mossad-but-corporate-media-looked-away/"
+        }
+    ],
+    "status": "draft",
+    "notes": "The Koren stays are the strongest documented Mossad-adjacent body in the released Epstein files: a named, ranked Israeli intelligence officer with a documented career in covert ops, repeatedly housed by Epstein in New York while serving Barak. Drop Site's reporting also covers Epstein brokering a Mongolia-Israel security agreement and an Israel-Russia Syria backchannel — separate records can carve those out later."
+}

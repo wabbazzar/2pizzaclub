@@ -1,0 +1,47 @@
+{
+    "id": "2013-gates-std-letter-001",
+    "anchor": "y2019",
+    "year": 2013,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "gates",
+        "blackmail"
+    ],
+    "claim": "Among the documents released by the U.S. Department of Justice under the Epstein Files Transparency Act is a draft letter dated July 2013, written by Jeffrey Epstein, addressed to Bill Gates and apparently intended to be sent by Bill Gates's former science adviser Boris Nikolic. In the draft, Epstein writes: \"To add insult to the injury you then implore me to please delete the emails regarding your std, your request that I provide you antibiotics that you can surreptitiously give to Melinda and the description of your penis.\" The same draft alleges Gates contracted a sexually transmitted infection following encounters with \"Russian girls\" Epstein had introduced. There is no record in the released file of the draft having been sent or of Nikolic having endorsed its contents. A spokesperson for Bill Gates told reporters in response: \"These claims are absolutely absurd and completely false. The only thing these documents demonstrate is Epstein's frustration that he did not have an ongoing relationship with Gates and the lengths he would go to entrap and defame.\" The exhibit is catalogued in the DOJ release as EFTA01967528.",
+    "sources": [
+        {
+            "label": "CNN — \"Bill Gates faces fresh scrutiny for Epstein ties following Justice Department's document release,\" February 5, 2026.",
+            "type": "secondary",
+            "url": "https://www.cnn.com/2026/02/05/politics/kfile-gates-scrutiny-justice-department-documents"
+        },
+        {
+            "label": "International Business Times UK — \"Epstein Files Reveal Bill Gates Caught An STD And Asked For Antibiotics To Give Wife Melinda 'In Secret',\" January 31, 2026.",
+            "type": "secondary",
+            "url": "https://www.ibtimes.co.uk/epstein-files-reveal-bill-gates-caught-std-asked-antibiotics-give-wife-melinda-secret-1775255",
+            "quote": "delete the emails regarding your std, your request that I provide you antibiotics that you can surreptitiously give to Melinda"
+        },
+        {
+            "label": "The Daily Beast — \"Bill Gates' Ex Responds to Alleged STD Drug Plot in Epstein Files.\"",
+            "type": "secondary",
+            "url": "https://www.thedailybeast.com/bill-gates-ex-responds-to-alleged-std-drug-plot-in-epstein-files/"
+        },
+        {
+            "label": "NPR — \"Melinda French Gates reacts to ex-husband Bill Gates being mentioned in the Epstein files,\" February 3, 2026.",
+            "type": "secondary",
+            "url": "https://www.npr.org/2026/02/03/nx-s1-5697080/melinda-french-gates-reacts-to-ex-husband-bill-gates-being-mentioned-in-epstein-files"
+        },
+        {
+            "label": "CBS News — \"Bill Gates, Elon Musk among big names in Epstein files. Here's what the latest documents show.\"",
+            "type": "secondary",
+            "url": "https://www.cbsnews.com/news/bill-gates-elon-musk-epstein-files-what-documents-show/"
+        },
+        {
+            "label": "U.S. Department of Justice — Epstein Files Transparency Act release, exhibit EFTA01967528.",
+            "type": "primary",
+            "url": null
+        }
+    ],
+    "status": "draft",
+    "notes": "Group-B claim: the document itself is real, government-released, and verbatim quoted; the underlying allegation it makes about Gates is unverified and denied. The framing for any slide or card should be document-centric ('this is what Epstein drafted in his own files') rather than allegation-centric ('Gates did X'). The COUQ-Foundation/Gates-MIT-donations link to Joi Ito is documented separately and is the more conventional Gates-Epstein corruption thread; this letter is the lurid one and needs the highest care. Primary URL for the EFTA exhibit itself is null pending a stable direct link — the DOJ/Oversight productions are accessible via the House Oversight release pages and the yung-megafone aggregator."
+}

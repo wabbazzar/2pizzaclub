@@ -1,0 +1,39 @@
+{
+    "id": "1991-maxwell-funeral-001",
+    "anchor": "y2019",
+    "year": 1991,
+    "era": "iii",
+    "themes": [
+        "epstein",
+        "maxwell",
+        "israel",
+        "mossad",
+        "intelligence"
+    ],
+    "claim": "Ghislaine Maxwell — Jeffrey Epstein's longtime partner, convicted in 2021 for sex trafficking — is the youngest of nine children of British media baron Robert Maxwell. Robert Maxwell died at sea on November 5, 1991, in circumstances ruled an accidental drowning. He was buried on the Mount of Olives in Jerusalem on November 10, 1991, in a ceremony attended by Israeli Prime Minister Yitzhak Shamir, Israeli President Chaim Herzog (who delivered the eulogy), and — according to investigative journalist Gordon Thomas in Gideon's Spies — six serving and former heads of Israeli intelligence. Maxwell's reported Mossad ties were the subject of Seymour Hersh's October 1991 book The Samson Option: Israel's Nuclear Arsenal and American Foreign Policy, which alleged that Maxwell had tipped Israeli officials in 1986 about Mordechai Vanunu's leak of Israel's nuclear program — leading to Vanunu's Mossad kidnapping — and that Maxwell helped distribute a back-doored version of the PROMIS software for Israeli intelligence use.",
+    "sources": [
+        {
+            "label": "Washington Post — \"Israel Gives Maxwell Farewell Fit for Hero,\" November 11, 1991.",
+            "type": "primary",
+            "url": "https://www.washingtonpost.com/archive/politics/1991/11/11/israel-gives-maxwell-farewell-fit-for-hero/1773995a-0eac-4a3e-abed-1d3254cc0baa/",
+            "quote": "He scaled the heights of human endeavor. Kings and princes waited on him. Many admired him. Many disliked him. But none was indifferent to him."
+        },
+        {
+            "label": "Jewish Telegraphic Agency — \"Maxwell, Colossus Even in Death, Laid to Rest on Mount of Olives,\" November 11, 1991.",
+            "type": "primary",
+            "url": "https://www.jta.org/1991/11/11/archive/maxwell-colossus-even-in-death-laid-to-rest-on-mount-of-olives"
+        },
+        {
+            "label": "UPI Archives — \"Maxwell buried on Mount of Olives,\" November 10, 1991.",
+            "type": "primary",
+            "url": "https://www.upi.com/Archives/1991/11/10/Maxwell-buried-on-Mount-of-Olives/4340689749200/"
+        },
+        {
+            "label": "Wikipedia — Robert Maxwell (citing Gordon Thomas, Gideon's Spies, and Seymour Hersh, The Samson Option, 1991).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Robert_Maxwell"
+        }
+    ],
+    "status": "draft",
+    "notes": "The Hersh allegations were contested at the time — Maxwell sued Hersh and his publisher for libel before his death — but the funeral itself, attended at the head-of-state level by Shamir, Herzog, and Israeli intelligence leadership, is documented in contemporaneous wire reporting (UPI, JTA, Reuters). The 'six serving and former heads of Israeli intelligence' figure traces to Gordon Thomas's Gideon's Spies. Anchor parked at y2019 (Epstein-network cluster) until/unless a dedicated y1991-maxwell chapter is added; the Mossad-allegation thread predates and partially frames the Epstein-Maxwell trafficking operation in the user's intended slide deck."
+}
