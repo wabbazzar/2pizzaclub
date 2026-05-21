@@ -181,11 +181,20 @@ function renderPage() {
     // Apply current filter — wrap the original page with filtered rows so the
     // subsequent renderers don't need to know about filtering.
     const enabledBuckets = getEnabledBuckets();
-    const filteredRows = (origPage.rows || []).filter(r => rowMatchesFilter(r, enabledBuckets));
-    const filterApplied = filteredRows.length !== (origPage.rows || []).length;
+    // Aggregate page kinds compute their numbers across ALL sources at build time —
+    // the filter would be misleading there. Flag them so the user knows.
+    const AGGREGATE_KINDS = new Set(['ngram','tfidf','doc_dates_year','mention_dates_year']);
+    const isAggregate = AGGREGATE_KINDS.has(origPage.kind);
+    const filteredRows = isAggregate
+        ? (origPage.rows || [])
+        : (origPage.rows || []).filter(r => rowMatchesFilter(r, enabledBuckets));
+    const filterApplied = !isAggregate && filteredRows.length !== (origPage.rows || []).length;
+    const allBucketsOn = enabledBuckets.size === document.querySelectorAll('.filter-chip input').length;
     const page = { ...origPage, rows: filteredRows };
     let html = '';
-    if (filterApplied) {
+    if (isAggregate && !allBucketsOn) {
+        html += `<div class="filter-status filter-status-aggregate">datasource filter does <strong>not</strong> apply to this view — the totals here are computed across <em>all</em> sources at build time. Per-row dataset tagging would require re-running the n-gram / TF-IDF / date pipeline; that's a known limitation.</div>`;
+    } else if (filterApplied) {
         html += `<div class="filter-status">showing ${filteredRows.length} of ${(origPage.rows||[]).length} rows after datasource filter</div>`;
     }
     html += `<div class="page-title-row">`

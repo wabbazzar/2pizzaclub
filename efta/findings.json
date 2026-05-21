@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T15:39:53.789547+00:00",
+  "generated_at": "2026-05-21T16:05:28.888094+00:00",
   "corpus": {
     "n_documents": 784,
     "n_entity_hits": 46900,
@@ -59255,7 +59255,11 @@
               "context": "To: Fran: Jeffrey Epstein Sent Sun 6/20/2010 11:28:21 PM Subject Re: brett ratner ,is going to film a big movie„ Snow White, i would love to take photos of you in a snow white costume. you can get it from the costume store On Sun, Jun 20, 2010 at 6:13 PM,",
               "matched": "Snow White"
             }
-          ]
+          ],
+          "datasets": {
+            "dataset_8": 1,
+            "dataset_10": 2
+          }
         },
         {
           "rank": 2,
@@ -59282,7 +59286,12 @@
               "context": "rey Epstein < To: Jes Staley < Sent: 7/10/2010 3:27:04 PM Subject: Re: well one side is availble On Sat, Jul 10, 2010 at 10:17 AM, Jes Staley - ee e i > wrote: Beauty and the Beast..... From: Jeffrey Epstein < - To: Jes Staley Sent: Fri Jul 09 21:02:03 2010 Subject: Re: what character would you like next On Fri, Jul 9, 2010 at 8:45 PM, Je",
               "matched": "Beauty and the Beast"
             }
-          ]
+          ],
+          "datasets": {
+            "dataset_8": 1,
+            "dataset_6": 1,
+            "dataset_12": 1
+          }
         },
         {
           "rank": 3,
@@ -59297,7 +59306,10 @@
               "context": "knowledge, penetrating insights, and thoughtful appraisals is only heightened by his easy informality, without a trace of pretentiousness. He quickly became a highly valued friend and regular source of intellectual exchange and stimulation. Noam Chomsky Institute Professor (emeritus), MIT; Laureate Professor, U. of Arizona",
               "matched": "highly valued friend"
             }
-          ]
+          ],
+          "datasets": {
+            "estate": 1
+          }
         },
         {
           "rank": 4,
@@ -59324,7 +59336,10 @@
               "context": "From: \"The Invisible Man\" <aace@dial.pipex.com> To: \"G. Max\" <gmax1@mindspring.com> Subject: RE: Re: Sent: Thu, 28 Feb 2002 06:30:20 -0000 | am overwhelmed at the kindness and generosi",
               "matched": "Invisible Man"
             }
-          ]
+          ],
+          "datasets": {
+            "dataset_8": 3
+          }
         },
         {
           "rank": 5,
@@ -59351,7 +59366,10 @@
               "context": "gressive market share strategy, in our view. Privatization of energy sector could start by 2018 In a recent interview with Bloomberg, Saudi Deputy Crown Prince Mohammed bin Salman outlined an array of measures the Saudi government could introduce to help diversify the economy, reduce its reliance on the hydrocarbon industry and ultimatel",
               "matched": "Mohammed bin\nSalman"
             }
-          ]
+          ],
+          "datasets": {
+            "estate": 3
+          }
         },
         {
           "rank": 6,
@@ -59378,7 +59396,11 @@
               "context": "----- Original Message ----- From: Jeffrey Epstein <jeevacation@gmail.com> To: Gmax Sent: Sat Apr 02 14:25:45 2011 Subject: i want you to realize that that dog that hasn't barked is trump.. FPN spent hours at my house with him ,, he has never once been mentioned. police chief. etc. im 75 % there ER 2K a a a aR a aR a a 2 a 2 a a a a a",
               "matched": "dog that hasn't barked"
             }
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1,
+            "estate": 2
+          }
         },
         {
           "rank": 7,
@@ -59405,7 +59427,10 @@
               "context": "ns against Prince Andrew, and was recruited by Ghislaine Maxwell in the parking lot. This changes the meaning in Epstein’s email where he states, “of course he knew about the girls as he asked Ghislaine to stop.” 6 After Democrats made redactions and posted these three emails on X, they made the rounds on television and claimed they di",
               "matched": "knew about the girls"
             }
-          ]
+          ],
+          "datasets": {
+            "estate": 3
+          }
         },
         {
           "rank": 8,
@@ -59426,7 +59451,10 @@
               "context": "ights reserved fom ——_Michae! Sent: 12/16/2015 4:26:32 PM To: jeffrey E. [jeevacation@gmail.com] Subject: Re: Heads up Importance: High I think you should let him hang himself. If he says he hasn't been on the plane or to the house, then that gives you a valuable PR and political currency. You can hang him in a way that potentially g",
               "matched": "let him hang himself"
             }
-          ]
+          ],
+          "datasets": {
+            "estate": 2
+          }
         },
         {
           "rank": 9,
@@ -59453,7 +59481,10 @@
               "context": "z recommended Chen) 51 West 515' Street, andfloor Suite 375 JOJO TO DRIVE YOU! 4:00pm App: w/Ehud 5:00pm Appt w/Paul Barrett t M 5:30pm w/Kathy Ruemmler and Brad Karp (Kathy (Brad Sent from my iPhone On May 18, 2017, at 5:32 PM, Jeffrey E. icevacation@gmail.com> wrote: Move Ehud to",
               "matched": "Ruemmler"
             }
-          ]
+          ],
+          "datasets": {
+            "dataset_11": 3
+          }
         },
         {
           "rank": 10,
@@ -59480,7 +59511,10 @@
               "context": "SOUTHERN DISTRICT OF FLORIDA 2 WEST PALM BEACH 3 4 5 6 7 8 IN RE: OPERATION LEAP YEAR 9 10 11 Grand Jury #07-103 (TUES-wPB) arb 12 west Palm Beach, Flori",
               "matched": "OPERATION LEAP YEAR"
             }
-          ]
+          ],
+          "datasets": {
+            "dataset_7": 3
+          }
         },
         {
           "rank": 11,
@@ -59507,7 +59541,10 @@
               "context": "e, 24 intensive video review of the video available in the SHU 25 from July 23rd to August 10, 2019. And there have been FREE STATE REPORTING, INC. Court Reporting Transcription D.C. Area 301-261-1902 Balt. & Annap. 410-97",
               "matched": "FREE STATE REPORTING"
             }
-          ]
+          ],
+          "datasets": {
+            "dataset_12": 3
+          }
         },
         {
           "rank": 12,
@@ -59534,7 +59571,10 @@
               "context": "middle seats at no fee. Do you want better seats for fee? Fare is $816.66, non refundable coach with EUR150 change fee. Regards, Natalia (Natasha) Molotkova Centurion Relationship Manager Hours: Mon, Wed 9a-4p, 530p-7p Tue, Thur, Fri 9a - 530p EST Please book this ticket for Lasma and get her seats! If we need to Pay t",
               "matched": "Centurion"
             }
-          ]
+          ],
+          "datasets": {
+            "dataset_11": 3
+          }
         },
         {
           "rank": 13,
@@ -59561,7 +59601,10 @@
               "context": "Of [REDACTED] (U) (REDACTED] (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U) Search Warrant Execution - Little Saint James (U//FOUO)",
               "matched": "Little Saint James"
             }
-          ]
+          ],
+          "datasets": {
+            "dataset_12": 3
+          }
         },
         {
           "rank": 14,
@@ -59588,7 +59631,11 @@
               "context": "also 21 own a ranch in New Mexico? 22 A. Yes, he did. 23 Q. And turning to the next slide. Was that property 24 located at 49 Zorro Ranch Road in Stanley, New Mexico? 25 A. Yes. FREE STATE REPORTING, INC. Court Reporting Transcription",
               "matched": "Zorro Ranch"
             }
-          ]
+          ],
+          "datasets": {
+            "dataset_6": 1,
+            "dataset_12": 2
+          }
         },
         {
           "rank": 15,
@@ -59615,7 +59662,10 @@
               "context": "Q. Have you become aware that in 2005, police 11 officers from the Palm Beach Police Department executed a 12 search warrant at Epstein's house at the El Brillo Way 13 address in Palm Beach? 14 A. Yes. 15 Q. Have you reviewed some of the materials seized 16 during the search? 17 A. Y",
               "matched": "El Brillo"
             }
-          ]
+          ],
+          "datasets": {
+            "dataset_6": 3
+          }
         },
         {
           "rank": 16,
@@ -59636,7 +59686,11 @@
               "context": "2019/06/15 Steve Bannon https://www.bbc.com/news/world-asia-china-48645342 B B ci NEWS 06:39:21 am Darren awol SB 09:19:26 am No worry , with me as well. His mom back in hospital. I will speak to your lawyer directly if you like 09:52:19 a",
               "matched": "Darren awol"
             }
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1,
+            "estate": 1
+          }
         },
         {
           "rank": 17,
@@ -59657,7 +59711,11 @@
               "context": "link on extradition. 09:52:32 am Can you give me a proposed schedule . Ranch island. Paris. Harvard. 09:53:33 am •",
               "matched": "Ranch island. Paris. Harvard"
             }
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1,
+            "estate": 1
+          }
         },
         {
           "rank": 18,
@@ -59678,7 +59736,11 @@
               "context": "back in hospital. I will speak to your lawyer directly if you like 09:52:19 am Chinese blink on extradition. 09:52:32 am Can you give me a proposed schedule . Ranch island. Paris",
               "matched": "Chinese blink on extradition"
             }
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1,
+            "estate": 1
+          }
         },
         {
           "rank": 19,
@@ -59693,7 +59755,10 @@
               "context": "ers who will be happy to piggyback on your grandiosity. Enter the Crown Prince of the House of Saud, Mohammed bin Salman bin Abdulaziz Al Saud, age thirty-one. Aka MBS. The fortuitous circumstance was that the king of Saudi Arabia, MBS’s father, was losing it. The consensus in the Saudi royal family about a need to modernize",
               "matched": "Aka MBS"
             }
-          ]
+          ],
+          "datasets": {
+            "estate": 1
+          }
         }
       ]
     },
@@ -71204,7 +71269,10 @@
           "docs": 1,
           "sample_doc_ids": [
             "EFTA01583844"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -71227,7 +71295,10 @@
             "EFTA01359812",
             "EFTA01360721",
             "EFTA01363090"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 49
+          }
         },
         {
           "rank": 2,
@@ -71240,7 +71311,10 @@
             "EFTA01578785",
             "EFTA01578844",
             "EFTA01578877"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 38
+          }
         },
         {
           "rank": 3,
@@ -71253,7 +71327,10 @@
             "EFTA01362538",
             "EFTA01362757",
             "EFTA01362758"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 35
+          }
         },
         {
           "rank": 4,
@@ -71266,7 +71343,10 @@
             "EFTA01353696",
             "EFTA01368742",
             "EFTA01383370"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 29
+          }
         },
         {
           "rank": 5,
@@ -71279,7 +71359,10 @@
             "EFTA01360015",
             "EFTA01363123",
             "EFTA01363125"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 30
+          }
         },
         {
           "rank": 6,
@@ -71292,7 +71375,10 @@
             "EFTA01268283",
             "EFTA01268291",
             "EFTA01268357"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 36
+          }
         },
         {
           "rank": 7,
@@ -71305,7 +71391,10 @@
             "EFTA01375156",
             "EFTA01375158",
             "EFTA01375160"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 18
+          }
         },
         {
           "rank": 8,
@@ -71318,7 +71407,10 @@
             "EFTA01401367",
             "EFTA01406024",
             "EFTA01411753"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 18
+          }
         },
         {
           "rank": 9,
@@ -71331,7 +71423,10 @@
             "EFTA01314970",
             "EFTA01315028",
             "EFTA01315576"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 17
+          }
         },
         {
           "rank": 10,
@@ -71344,7 +71439,10 @@
             "EFTA01273082",
             "EFTA01273089",
             "EFTA01273102"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 168
+          }
         },
         {
           "rank": 11,
@@ -71357,7 +71455,10 @@
             "EFTA01268283",
             "EFTA01268360",
             "EFTA01268363"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 15
+          }
         },
         {
           "rank": 12,
@@ -71370,7 +71471,10 @@
             "EFTA01359812",
             "EFTA01399653",
             "EFTA01399658"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 14
+          }
         },
         {
           "rank": 13,
@@ -71383,7 +71487,10 @@
             "EFTA01359198",
             "EFTA01359880",
             "EFTA01361009"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 8
+          }
         },
         {
           "rank": 14,
@@ -71396,7 +71503,10 @@
             "EFTA01580113",
             "EFTA01580164",
             "EFTA01580297"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 7
+          }
         },
         {
           "rank": 15,
@@ -71409,7 +71519,10 @@
             "EFTA01580252",
             "EFTA01580362",
             "EFTA01580398"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 7
+          }
         },
         {
           "rank": 16,
@@ -71422,7 +71535,10 @@
             "EFTA01579905",
             "EFTA01580048",
             "EFTA01581619"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 6
+          }
         },
         {
           "rank": 17,
@@ -71435,7 +71551,10 @@
             "EFTA01346768",
             "EFTA01346783",
             "EFTA01376463"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 7
+          }
         },
         {
           "rank": 18,
@@ -71448,7 +71567,10 @@
             "EFTA01580273",
             "EFTA01580426",
             "EFTA01589976"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 5
+          }
         },
         {
           "rank": 19,
@@ -71461,7 +71583,10 @@
             "EFTA01362837",
             "EFTA01370670",
             "EFTA01371646"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 5
+          }
         },
         {
           "rank": 20,
@@ -71474,7 +71599,10 @@
             "EFTA01266403",
             "EFTA01266434",
             "EFTA01266457"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 5
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -71497,7 +71625,10 @@
             "EFTA01580333",
             "EFTA01580448",
             "EFTA01589668"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 5
+          }
         },
         {
           "rank": 22,
@@ -71509,7 +71640,10 @@
             "EFTA01325289",
             "EFTA01325291",
             "EFTA01333088"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 5
+          }
         },
         {
           "rank": 23,
@@ -71521,7 +71655,10 @@
             "EFTA01580407",
             "EFTA01580432",
             "EFTA01580473"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4
+          }
         },
         {
           "rank": 24,
@@ -71533,7 +71670,10 @@
             "EFTA01583738",
             "EFTA01583842",
             "EFTA01584924"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4
+          }
         },
         {
           "rank": 25,
@@ -71545,7 +71685,10 @@
             "EFTA01579905",
             "EFTA01579934",
             "EFTA01591892"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4
+          }
         },
         {
           "rank": 26,
@@ -71557,7 +71700,10 @@
             "EFTA01578939",
             "EFTA01578978",
             "EFTA01579014"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4
+          }
         },
         {
           "rank": 27,
@@ -71569,7 +71715,10 @@
             "EFTA01580198",
             "EFTA01580211",
             "EFTA01589586"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4
+          }
         },
         {
           "rank": 28,
@@ -71581,7 +71730,10 @@
             "EFTA01580191",
             "EFTA01580401",
             "EFTA01590006"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4
+          }
         },
         {
           "rank": 29,
@@ -71593,7 +71745,10 @@
             "EFTA01580292",
             "EFTA01580459",
             "EFTA01590148"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4
+          }
         },
         {
           "rank": 30,
@@ -71605,7 +71760,10 @@
             "EFTA01580066",
             "EFTA01580186",
             "EFTA01580305"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4
+          }
         },
         {
           "rank": 31,
@@ -71617,7 +71775,10 @@
             "EFTA01580357",
             "EFTA01588562",
             "EFTA01589970"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4
+          }
         },
         {
           "rank": 32,
@@ -71628,7 +71789,10 @@
             "EFTA01325290",
             "EFTA01333086",
             "EFTA01682426"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4
+          }
         },
         {
           "rank": 33,
@@ -71639,7 +71803,10 @@
             "EFTA01281143",
             "EFTA01293650",
             "EFTA01293710"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4
+          }
         },
         {
           "rank": 34,
@@ -71650,7 +71817,10 @@
             "EFTA01360218",
             "EFTA01361043",
             "EFTA01361122"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3
+          }
         },
         {
           "rank": 35,
@@ -71661,7 +71831,10 @@
             "EFTA01266134",
             "EFTA01266168",
             "EFTA01266457"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3
+          }
         },
         {
           "rank": 36,
@@ -71672,7 +71845,10 @@
             "EFTA01266359",
             "EFTA01266380",
             "EFTA01266403"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3
+          }
         },
         {
           "rank": 37,
@@ -71683,7 +71859,10 @@
             "EFTA01741746",
             "EFTA01741763",
             "EFTA01741825"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3
+          }
         },
         {
           "rank": 38,
@@ -71694,7 +71873,10 @@
             "EFTA01580334",
             "EFTA01580423",
             "EFTA01580444"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3
+          }
         },
         {
           "rank": 39,
@@ -71705,7 +71887,10 @@
             "EFTA01580097",
             "EFTA01580316",
             "EFTA01580424"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3
+          }
         },
         {
           "rank": 40,
@@ -71716,7 +71901,10 @@
             "EFTA01580139",
             "EFTA01580458",
             "EFTA01589719"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -71737,7 +71925,10 @@
             "EFTA01580170",
             "EFTA01580383",
             "EFTA01590018"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3
+          }
         },
         {
           "rank": 42,
@@ -71748,7 +71939,10 @@
             "EFTA01414299",
             "EFTA01414308",
             "EFTA01427380"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3
+          }
         },
         {
           "rank": 43,
@@ -71759,7 +71953,10 @@
             "EFTA01317319",
             "EFTA01317401",
             "EFTA01318286"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3
+          }
         },
         {
           "rank": 44,
@@ -71770,7 +71967,10 @@
             "EFTA01369662",
             "EFTA01370175",
             "EFTA01460216"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3
+          }
         },
         {
           "rank": 45,
@@ -71781,7 +71981,10 @@
             "EFTA01580209",
             "EFTA01580395",
             "EFTA01580430"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3
+          }
         },
         {
           "rank": 46,
@@ -71792,7 +71995,10 @@
             "EFTA01584000",
             "EFTA01584051",
             "EFTA01595035"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3
+          }
         },
         {
           "rank": 47,
@@ -71803,7 +72009,10 @@
             "EFTA01404888",
             "EFTA01580222",
             "EFTA01589760"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3
+          }
         },
         {
           "rank": 48,
@@ -71814,7 +72023,10 @@
             "EFTA01580278",
             "EFTA01580365",
             "EFTA01580388"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3
+          }
         },
         {
           "rank": 49,
@@ -71824,7 +72036,10 @@
           "sample_doc_ids": [
             "EFTA01273079",
             "EFTA01273089"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4
+          }
         },
         {
           "rank": 50,
@@ -71834,7 +72049,10 @@
           "sample_doc_ids": [
             "EFTA01366428",
             "EFTA01368020"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2
+          }
         },
         {
           "rank": 51,
@@ -71844,7 +72062,10 @@
           "sample_doc_ids": [
             "EFTA01580205",
             "EFTA01589735"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2
+          }
         },
         {
           "rank": 52,
@@ -71854,7 +72075,10 @@
           "sample_doc_ids": [
             "EFTA01580461",
             "EFTA01590148"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2
+          }
         },
         {
           "rank": 53,
@@ -71864,7 +72088,10 @@
           "sample_doc_ids": [
             "EFTA01580163",
             "EFTA01590154"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2
+          }
         },
         {
           "rank": 54,
@@ -71874,7 +72101,10 @@
           "sample_doc_ids": [
             "EFTA01580379",
             "EFTA01580431"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2
+          }
         },
         {
           "rank": 55,
@@ -71884,7 +72114,10 @@
           "sample_doc_ids": [
             "EFTA01580435",
             "EFTA01580476"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2
+          }
         },
         {
           "rank": 56,
@@ -71894,7 +72127,10 @@
           "sample_doc_ids": [
             "EFTA01580060",
             "EFTA01580704"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2
+          }
         },
         {
           "rank": 57,
@@ -71904,7 +72140,10 @@
           "sample_doc_ids": [
             "EFTA01399653",
             "EFTA01399658"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2
+          }
         },
         {
           "rank": 58,
@@ -71914,7 +72153,10 @@
           "sample_doc_ids": [
             "EFTA01580351",
             "EFTA01580379"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2
+          }
         },
         {
           "rank": 59,
@@ -71924,7 +72166,10 @@
           "sample_doc_ids": [
             "EFTA01580131",
             "EFTA01589604"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2
+          }
         },
         {
           "rank": 60,
@@ -71934,7 +72179,10 @@
           "sample_doc_ids": [
             "EFTA01589593",
             "EFTA01589597"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -71957,7 +72205,10 @@
             "EFTA01400176",
             "EFTA01400180",
             "EFTA01400185"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 235
+          }
         },
         {
           "rank": 2,
@@ -71970,7 +72221,10 @@
             "EFTA01305853",
             "EFTA01305863",
             "EFTA01305875"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 143
+          }
         },
         {
           "rank": 3,
@@ -71983,7 +72237,10 @@
             "EFTA01305827",
             "EFTA01305841",
             "EFTA01305853"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 746
+          }
         },
         {
           "rank": 4,
@@ -71996,7 +72253,10 @@
             "EFTA01357199",
             "EFTA01357283",
             "EFTA01357285"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 112
+          }
         },
         {
           "rank": 5,
@@ -72009,7 +72269,10 @@
             "EFTA01305827",
             "EFTA01305841",
             "EFTA01305853"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 526
+          }
         },
         {
           "rank": 6,
@@ -72022,7 +72285,10 @@
             "EFTA01578782",
             "EFTA01578799",
             "EFTA01578839"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 94
+          }
         },
         {
           "rank": 7,
@@ -72035,7 +72301,10 @@
             "EFTA01400517",
             "EFTA01400519",
             "EFTA01400565"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 73
+          }
         },
         {
           "rank": 8,
@@ -72048,7 +72317,10 @@
             "EFTA01282195",
             "EFTA01282264",
             "EFTA01283088"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 70
+          }
         },
         {
           "rank": 9,
@@ -72061,7 +72333,10 @@
             "EFTA01283228",
             "EFTA01283242",
             "EFTA01283254"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 334
+          }
         },
         {
           "rank": 10,
@@ -72074,7 +72349,10 @@
             "EFTA01362057",
             "EFTA01362058",
             "EFTA01362097"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 69
+          }
         },
         {
           "rank": 11,
@@ -72087,7 +72365,10 @@
             "EFTA01316207",
             "EFTA01356964",
             "EFTA01357084"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 56
+          }
         },
         {
           "rank": 12,
@@ -72100,7 +72381,10 @@
             "EFTA01358314",
             "EFTA01360305",
             "EFTA01360541"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 39
+          }
         },
         {
           "rank": 13,
@@ -72113,7 +72397,10 @@
             "EFTA01365790",
             "EFTA01365942",
             "EFTA01370621"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 40
+          }
         },
         {
           "rank": 14,
@@ -72126,7 +72413,10 @@
             "EFTA01283935",
             "EFTA01295042",
             "EFTA01299082"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 39
+          }
         },
         {
           "rank": 15,
@@ -72139,7 +72429,10 @@
             "EFTA01368982",
             "EFTA01369052",
             "EFTA01369171"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 34
+          }
         },
         {
           "rank": 16,
@@ -72152,7 +72445,10 @@
             "EFTA01360769",
             "EFTA01360770",
             "EFTA01372302"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 47
+          }
         },
         {
           "rank": 17,
@@ -72165,7 +72461,10 @@
             "EFTA01380460",
             "EFTA01400224",
             "EFTA01400265"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 32
+          }
         },
         {
           "rank": 18,
@@ -72178,7 +72477,10 @@
             "EFTA01578832",
             "EFTA01578969",
             "EFTA01579029"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 31
+          }
         },
         {
           "rank": 19,
@@ -72191,7 +72493,10 @@
             "EFTA01579101",
             "EFTA01580005",
             "EFTA01581116"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 28
+          }
         },
         {
           "rank": 20,
@@ -72204,7 +72509,10 @@
             "EFTA01578986",
             "EFTA01579018",
             "EFTA01579052"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 28
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -72227,7 +72535,10 @@
             "EFTA01376936",
             "EFTA01383627",
             "EFTA01384824"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 24
+          }
         },
         {
           "rank": 22,
@@ -72240,7 +72551,10 @@
             "EFTA01732388",
             "EFTA01732422",
             "EFTA01732572"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 23
+          }
         },
         {
           "rank": 23,
@@ -72253,7 +72567,10 @@
             "EFTA01299262",
             "EFTA01299264",
             "EFTA01299277"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 23
+          }
         },
         {
           "rank": 24,
@@ -72266,7 +72583,10 @@
             "EFTA01577791",
             "EFTA01577831",
             "EFTA01577873"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 55
+          }
         },
         {
           "rank": 25,
@@ -72279,7 +72599,10 @@
             "EFTA01283202",
             "EFTA01283216",
             "EFTA01283228"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 43
+          }
         },
         {
           "rank": 26,
@@ -72292,7 +72615,10 @@
             "EFTA01748582",
             "EFTA01782604",
             "EFTA01783216"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 19
+          }
         },
         {
           "rank": 27,
@@ -72305,7 +72631,10 @@
             "EFTA01299210",
             "EFTA01299211",
             "EFTA01299250"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 19
+          }
         },
         {
           "rank": 28,
@@ -72318,7 +72647,10 @@
             "EFTA01283126",
             "EFTA01355848",
             "EFTA01355850"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 20
+          }
         },
         {
           "rank": 29,
@@ -72331,7 +72663,10 @@
             "EFTA01282815",
             "EFTA01298685",
             "EFTA01298734"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 18
+          }
         },
         {
           "rank": 30,
@@ -72344,7 +72679,10 @@
             "EFTA01310369",
             "EFTA01310375",
             "EFTA01311539"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 70
+          }
         },
         {
           "rank": 31,
@@ -72357,7 +72695,10 @@
             "EFTA01297264",
             "EFTA01298590",
             "EFTA01299286"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 32
+          }
         },
         {
           "rank": 32,
@@ -72370,7 +72711,10 @@
             "EFTA01283228",
             "EFTA01283242",
             "EFTA01283254"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 31
+          }
         },
         {
           "rank": 33,
@@ -72383,7 +72727,10 @@
             "EFTA01368608",
             "EFTA01368787",
             "EFTA01368955"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 17
+          }
         },
         {
           "rank": 34,
@@ -72396,7 +72743,10 @@
             "EFTA01354955",
             "EFTA01355141",
             "EFTA01364620"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 17
+          }
         },
         {
           "rank": 35,
@@ -72409,7 +72759,10 @@
             "EFTA01369007",
             "EFTA01370806",
             "EFTA01370810"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 17
+          }
         },
         {
           "rank": 36,
@@ -72422,7 +72775,10 @@
             "EFTA01360433",
             "EFTA01360434",
             "EFTA01365147"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 42
+          }
         },
         {
           "rank": 37,
@@ -72435,7 +72791,10 @@
             "EFTA01374954",
             "EFTA01379279",
             "EFTA01380998"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 20
+          }
         },
         {
           "rank": 38,
@@ -72448,7 +72807,10 @@
             "EFTA01581115",
             "EFTA01581164",
             "EFTA01581220"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 16
+          }
         },
         {
           "rank": 39,
@@ -72461,7 +72823,10 @@
             "EFTA01345415",
             "EFTA01345466",
             "EFTA01345478"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 16
+          }
         },
         {
           "rank": 40,
@@ -72474,7 +72839,10 @@
             "EFTA01295555",
             "EFTA01345195",
             "EFTA01345270"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 17
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -72497,7 +72865,10 @@
             "EFTA01298462",
             "EFTA01298809",
             "EFTA01298890"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 16
+          }
         },
         {
           "rank": 42,
@@ -72510,7 +72881,10 @@
             "EFTA01369017",
             "EFTA01369480",
             "EFTA01370960"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 15
+          }
         },
         {
           "rank": 43,
@@ -72523,7 +72897,10 @@
             "EFTA01580033",
             "EFTA01581138",
             "EFTA01581181"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 15
+          }
         },
         {
           "rank": 44,
@@ -72536,7 +72913,10 @@
             "EFTA01767115",
             "EFTA01777682",
             "EFTA01778484"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 14
+          }
         },
         {
           "rank": 45,
@@ -72549,7 +72929,10 @@
             "EFTA01580809",
             "EFTA01581104",
             "EFTA01581539"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 14
+          }
         },
         {
           "rank": 46,
@@ -72562,7 +72945,10 @@
             "EFTA01355783",
             "EFTA01360432",
             "EFTA01365154"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 14
+          }
         },
         {
           "rank": 47,
@@ -72575,7 +72961,10 @@
             "EFTA01283242",
             "EFTA01283270",
             "EFTA01283322"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 25
+          }
         },
         {
           "rank": 48,
@@ -72588,7 +72977,10 @@
             "EFTA01283935",
             "EFTA01299082",
             "EFTA01355652"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 15
+          }
         },
         {
           "rank": 49,
@@ -72601,7 +72993,10 @@
             "EFTA01379343",
             "EFTA01379827",
             "EFTA01414064"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 13
+          }
         },
         {
           "rank": 50,
@@ -72614,7 +73009,10 @@
             "EFTA01579288",
             "EFTA01580011",
             "EFTA01580091"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 13
+          }
         },
         {
           "rank": 51,
@@ -72627,7 +73025,10 @@
             "EFTA01376787",
             "EFTA01378370",
             "EFTA01380131"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 13
+          }
         },
         {
           "rank": 52,
@@ -72640,7 +73041,10 @@
             "EFTA01372534",
             "EFTA01384068",
             "EFTA01441270"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 17
+          }
         },
         {
           "rank": 53,
@@ -72653,7 +73057,10 @@
             "EFTA01581288",
             "EFTA01589410",
             "EFTA01590937"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 12
+          }
         },
         {
           "rank": 54,
@@ -72666,7 +73073,10 @@
             "EFTA01262863",
             "EFTA01262900",
             "EFTA01262965"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 30
+          }
         },
         {
           "rank": 55,
@@ -72679,7 +73089,10 @@
             "EFTA01309735",
             "EFTA01310033",
             "EFTA01310045"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 18
+          }
         },
         {
           "rank": 56,
@@ -72692,7 +73105,10 @@
             "EFTA01372802",
             "EFTA01377864",
             "EFTA01378943"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 11
+          }
         },
         {
           "rank": 57,
@@ -72705,7 +73121,10 @@
             "EFTA01585391",
             "EFTA01587623",
             "EFTA01589362"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 11
+          }
         },
         {
           "rank": 58,
@@ -72718,7 +73137,10 @@
             "EFTA01344174",
             "EFTA01344179",
             "EFTA01344184"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 11
+          }
         },
         {
           "rank": 59,
@@ -72731,7 +73153,10 @@
             "EFTA01361494",
             "EFTA01371314",
             "EFTA01376951"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 11
+          }
         },
         {
           "rank": 60,
@@ -72744,7 +73169,10 @@
             "EFTA01777305",
             "EFTA01777318",
             "EFTA01777445"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 10
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -72767,7 +73195,10 @@
             "EFTA01282376",
             "EFTA01282402",
             "EFTA01282412"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 10362
+          }
         },
         {
           "rank": 2,
@@ -72780,7 +73211,10 @@
             "EFTA01268271",
             "EFTA01268275",
             "EFTA01268279"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 5181
+          }
         },
         {
           "rank": 3,
@@ -72793,7 +73227,10 @@
             "EFTA01282012",
             "EFTA01282015",
             "EFTA01282345"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 5540
+          }
         },
         {
           "rank": 4,
@@ -72806,7 +73243,10 @@
             "EFTA01268347",
             "EFTA01268370",
             "EFTA01268391"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4492
+          }
         },
         {
           "rank": 5,
@@ -72819,7 +73259,10 @@
             "EFTA01344109",
             "EFTA01344234",
             "EFTA01344455"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2904
+          }
         },
         {
           "rank": 6,
@@ -72832,7 +73275,10 @@
             "EFTA01353731",
             "EFTA01353732",
             "EFTA01353733"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 15008
+          }
         },
         {
           "rank": 7,
@@ -72845,7 +73291,10 @@
             "EFTA01353752",
             "EFTA01353753",
             "EFTA01353756"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 6854
+          }
         },
         {
           "rank": 8,
@@ -72858,7 +73307,10 @@
             "EFTA01340298",
             "EFTA01340325",
             "EFTA01344083"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2384
+          }
         },
         {
           "rank": 9,
@@ -72871,7 +73323,10 @@
             "EFTA01482371",
             "EFTA01482380",
             "EFTA01482389"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3818
+          }
         },
         {
           "rank": 10,
@@ -72884,7 +73339,10 @@
             "EFTA01268308",
             "EFTA01268309",
             "EFTA01268324"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4451
+          }
         },
         {
           "rank": 11,
@@ -72897,7 +73355,10 @@
             "EFTA01482371",
             "EFTA01482389",
             "EFTA01482398"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1874
+          }
         },
         {
           "rank": 12,
@@ -72910,7 +73371,10 @@
             "EFTA01482371",
             "EFTA01482380",
             "EFTA01482389"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1870
+          }
         },
         {
           "rank": 13,
@@ -72923,7 +73387,10 @@
             "EFTA01369983",
             "EFTA01374473",
             "EFTA01386076"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2491
+          }
         },
         {
           "rank": 14,
@@ -72936,7 +73403,10 @@
             "EFTA01298802",
             "EFTA01299277",
             "EFTA01299279"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2499
+          }
         },
         {
           "rank": 15,
@@ -72949,7 +73419,10 @@
             "EFTA01353789",
             "EFTA01353796",
             "EFTA01353797"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 15843
+          }
         },
         {
           "rank": 16,
@@ -72962,7 +73435,10 @@
             "EFTA01344159",
             "EFTA01344188",
             "EFTA01344560"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1835
+          }
         },
         {
           "rank": 17,
@@ -72975,7 +73451,10 @@
             "EFTA01282367",
             "EFTA01282416",
             "EFTA01282501"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1655
+          }
         },
         {
           "rank": 18,
@@ -72988,7 +73467,10 @@
             "EFTA01297236",
             "EFTA01299256",
             "EFTA01299260"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2045
+          }
         },
         {
           "rank": 19,
@@ -73001,7 +73483,10 @@
             "EFTA01344084",
             "EFTA01344099",
             "EFTA01344198"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1792
+          }
         },
         {
           "rank": 20,
@@ -73014,7 +73499,10 @@
             "EFTA01269485",
             "EFTA01282092",
             "EFTA01282195"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2161
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -73037,7 +73525,10 @@
             "EFTA01344940",
             "EFTA01344941",
             "EFTA01344943"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1247
+          }
         },
         {
           "rank": 22,
@@ -73050,7 +73541,10 @@
             "EFTA01353847",
             "EFTA01353856",
             "EFTA01353864"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1629
+          }
         },
         {
           "rank": 23,
@@ -73063,7 +73557,10 @@
             "EFTA01353848",
             "EFTA01353854",
             "EFTA01353856"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2026
+          }
         },
         {
           "rank": 24,
@@ -73076,7 +73573,10 @@
             "EFTA01368504",
             "EFTA01376351",
             "EFTA01378675"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 803
+          }
         },
         {
           "rank": 25,
@@ -73089,7 +73589,10 @@
             "EFTA01353845",
             "EFTA01353846",
             "EFTA01353847"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 785
+          }
         },
         {
           "rank": 26,
@@ -73102,7 +73605,10 @@
             "EFTA01353841",
             "EFTA01353847",
             "EFTA01353851"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1235
+          }
         },
         {
           "rank": 27,
@@ -73115,7 +73621,10 @@
             "EFTA01343955",
             "EFTA01343957",
             "EFTA01343959"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 934
+          }
         },
         {
           "rank": 28,
@@ -73128,7 +73637,10 @@
             "EFTA01350845",
             "EFTA01449612",
             "EFTA01449649"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 703
+          }
         },
         {
           "rank": 29,
@@ -73141,7 +73653,10 @@
             "EFTA01482371",
             "EFTA01482380",
             "EFTA01482389"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 698
+          }
         },
         {
           "rank": 30,
@@ -73154,7 +73669,10 @@
             "EFTA01353835",
             "EFTA01353846",
             "EFTA01353848"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1111
+          }
         },
         {
           "rank": 31,
@@ -73167,7 +73685,10 @@
             "EFTA01368779",
             "EFTA01368780",
             "EFTA01368782"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 671
+          }
         },
         {
           "rank": 32,
@@ -73180,7 +73701,10 @@
             "EFTA01269548",
             "EFTA01282092",
             "EFTA01282195"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1827
+          }
         },
         {
           "rank": 33,
@@ -73193,7 +73717,10 @@
             "EFTA01357129",
             "EFTA01358428",
             "EFTA01358453"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 683
+          }
         },
         {
           "rank": 34,
@@ -73206,7 +73733,10 @@
             "EFTA01353758",
             "EFTA01353764",
             "EFTA01353773"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1897
+          }
         },
         {
           "rank": 35,
@@ -73219,7 +73749,10 @@
             "EFTA01268485",
             "EFTA01268490",
             "EFTA01369995"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 682
+          }
         },
         {
           "rank": 36,
@@ -73232,7 +73765,10 @@
             "EFTA01282041",
             "EFTA01282143",
             "EFTA01282185"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1318
+          }
         },
         {
           "rank": 37,
@@ -73245,7 +73781,10 @@
             "EFTA01464701",
             "EFTA01464848",
             "EFTA01482353"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 760
+          }
         },
         {
           "rank": 38,
@@ -73258,7 +73797,10 @@
             "EFTA01353805",
             "EFTA01353807",
             "EFTA01353808"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 814
+          }
         },
         {
           "rank": 39,
@@ -73271,7 +73813,10 @@
             "EFTA01464828",
             "EFTA01464848",
             "EFTA01529356"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 656
+          }
         },
         {
           "rank": 40,
@@ -73284,7 +73829,10 @@
             "EFTA01350950",
             "EFTA01357216",
             "EFTA01357219"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 541
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -73307,7 +73855,10 @@
             "EFTA01368459",
             "EFTA01368505",
             "EFTA01368506"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1233
+          }
         },
         {
           "rank": 42,
@@ -73320,7 +73871,10 @@
             "EFTA01449612",
             "EFTA01449649",
             "EFTA01449724"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 526
+          }
         },
         {
           "rank": 43,
@@ -73333,7 +73887,10 @@
             "EFTA01492073",
             "EFTA01492074",
             "EFTA01492075"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 517
+          }
         },
         {
           "rank": 44,
@@ -73346,7 +73903,10 @@
             "EFTA01284262",
             "EFTA01284277",
             "EFTA01284288"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 519
+          }
         },
         {
           "rank": 45,
@@ -73359,7 +73919,10 @@
             "EFTA01449649",
             "EFTA01449724",
             "EFTA01464701"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 490
+          }
         },
         {
           "rank": 46,
@@ -73372,7 +73935,10 @@
             "EFTA01293126",
             "EFTA01293176",
             "EFTA01293710"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 797
+          }
         },
         {
           "rank": 47,
@@ -73385,7 +73951,10 @@
             "EFTA01353857",
             "EFTA01353858",
             "EFTA01353859"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 605
+          }
         },
         {
           "rank": 48,
@@ -73398,7 +73967,10 @@
             "EFTA01350950",
             "EFTA01356828",
             "EFTA01357229"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 476
+          }
         },
         {
           "rank": 49,
@@ -73411,7 +73983,10 @@
             "EFTA01449556",
             "EFTA01449619",
             "EFTA01449654"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 435
+          }
         },
         {
           "rank": 50,
@@ -73424,7 +73999,10 @@
             "EFTA01346189",
             "EFTA01346190",
             "EFTA01346192"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 657
+          }
         },
         {
           "rank": 51,
@@ -73437,7 +74015,10 @@
             "EFTA01296188",
             "EFTA01296686",
             "EFTA01297143"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 629
+          }
         },
         {
           "rank": 52,
@@ -73450,7 +74031,10 @@
             "EFTA01282416",
             "EFTA01282593",
             "EFTA01282660"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1058
+          }
         },
         {
           "rank": 53,
@@ -73463,7 +74047,10 @@
             "EFTA01312633",
             "EFTA01312636",
             "EFTA01312679"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 671
+          }
         },
         {
           "rank": 54,
@@ -73476,7 +74063,10 @@
             "EFTA01285692",
             "EFTA01285788",
             "EFTA01286068"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 419
+          }
         },
         {
           "rank": 55,
@@ -73489,7 +74079,10 @@
             "EFTA01297231",
             "EFTA01297269",
             "EFTA01299248"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 509
+          }
         },
         {
           "rank": 56,
@@ -73502,7 +74095,10 @@
             "EFTA01482560",
             "EFTA01482568",
             "EFTA01482585"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 792
+          }
         },
         {
           "rank": 57,
@@ -73515,7 +74111,10 @@
             "EFTA01353992",
             "EFTA01353993",
             "EFTA01354001"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 391
+          }
         },
         {
           "rank": 58,
@@ -73528,7 +74127,10 @@
             "EFTA01485699",
             "EFTA01485709",
             "EFTA01485718"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 566
+          }
         },
         {
           "rank": 59,
@@ -73541,7 +74143,10 @@
             "EFTA01482568",
             "EFTA01482585",
             "EFTA01482627"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 386
+          }
         },
         {
           "rank": 60,
@@ -73554,7 +74159,10 @@
             "EFTA01482627",
             "EFTA01482681",
             "EFTA01482824"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 384
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -73577,7 +74185,10 @@
             "EFTA01343929",
             "EFTA01343930",
             "EFTA01343931"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1346
+          }
         },
         {
           "rank": 2,
@@ -73590,7 +74201,10 @@
             "EFTA01450692",
             "EFTA01450760",
             "EFTA01450918"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 470
+          }
         },
         {
           "rank": 3,
@@ -73603,7 +74217,10 @@
             "EFTA01449611",
             "EFTA01449635",
             "EFTA01449648"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 470
+          }
         },
         {
           "rank": 4,
@@ -73616,7 +74233,10 @@
             "EFTA01299306",
             "EFTA01299326",
             "EFTA01299330"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 636
+          }
         },
         {
           "rank": 5,
@@ -73629,7 +74249,10 @@
             "EFTA01299277",
             "EFTA01299279",
             "EFTA01299281"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 710
+          }
         },
         {
           "rank": 6,
@@ -73642,7 +74265,10 @@
             "EFTA01345162",
             "EFTA01345249",
             "EFTA01351884"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 707
+          }
         },
         {
           "rank": 7,
@@ -73655,7 +74281,10 @@
             "EFTA01298802",
             "EFTA01345355",
             "EFTA01345357"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 510
+          }
         },
         {
           "rank": 8,
@@ -73668,7 +74297,10 @@
             "EFTA01485397",
             "EFTA01485406",
             "EFTA01485674"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 420
+          }
         },
         {
           "rank": 9,
@@ -73681,7 +74313,10 @@
             "EFTA01346004",
             "EFTA01346006",
             "EFTA01352742"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 420
+          }
         },
         {
           "rank": 10,
@@ -73694,7 +74329,10 @@
             "EFTA01352325",
             "EFTA01356883",
             "EFTA01357106"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 377
+          }
         },
         {
           "rank": 11,
@@ -73707,7 +74345,10 @@
             "EFTA01437566",
             "EFTA01449633",
             "EFTA01464701"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 457
+          }
         },
         {
           "rank": 12,
@@ -73720,7 +74361,10 @@
             "EFTA01355905",
             "EFTA01355909",
             "EFTA01355912"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 302
+          }
         },
         {
           "rank": 13,
@@ -73733,7 +74377,10 @@
             "EFTA01357279",
             "EFTA01357283",
             "EFTA01357555"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 418
+          }
         },
         {
           "rank": 14,
@@ -73746,7 +74393,10 @@
             "EFTA01300901",
             "EFTA01732113",
             "EFTA01732134"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 652
+          }
         },
         {
           "rank": 15,
@@ -73759,7 +74409,10 @@
             "EFTA01531659",
             "EFTA01531667",
             "EFTA01531674"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 266
+          }
         },
         {
           "rank": 16,
@@ -73772,7 +74425,10 @@
             "EFTA01300712",
             "EFTA01300713",
             "EFTA01300718"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 445
+          }
         },
         {
           "rank": 17,
@@ -73785,7 +74441,10 @@
             "EFTA01344538",
             "EFTA01344539",
             "EFTA01344541"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 379
+          }
         },
         {
           "rank": 18,
@@ -73798,7 +74457,10 @@
             "EFTA01357884",
             "EFTA01358324",
             "EFTA01359632"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 284
+          }
         },
         {
           "rank": 19,
@@ -73811,7 +74473,10 @@
             "EFTA01282593",
             "EFTA01282660",
             "EFTA01282882"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 475
+          }
         },
         {
           "rank": 20,
@@ -73824,7 +74489,10 @@
             "EFTA01299279",
             "EFTA01299281",
             "EFTA01345150"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 205
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -73847,7 +74515,10 @@
             "EFTA01357381",
             "EFTA01358030",
             "EFTA01359270"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 260
+          }
         },
         {
           "rank": 22,
@@ -73860,7 +74531,10 @@
             "EFTA01344078",
             "EFTA01344148",
             "EFTA01344153"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 332
+          }
         },
         {
           "rank": 23,
@@ -73873,7 +74547,10 @@
             "EFTA01492560",
             "EFTA01492669",
             "EFTA01492713"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 183
+          }
         },
         {
           "rank": 24,
@@ -73886,7 +74563,10 @@
             "EFTA01343962",
             "EFTA01344012",
             "EFTA01344018"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 175
+          }
         },
         {
           "rank": 25,
@@ -73899,7 +74579,10 @@
             "EFTA01531651",
             "EFTA01531659",
             "EFTA01531667"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 202
+          }
         },
         {
           "rank": 26,
@@ -73912,7 +74595,10 @@
             "EFTA01357250",
             "EFTA01357536",
             "EFTA01357538"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 179
+          }
         },
         {
           "rank": 27,
@@ -73925,7 +74611,10 @@
             "EFTA01269292",
             "EFTA01269354",
             "EFTA01269509"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 274
+          }
         },
         {
           "rank": 28,
@@ -73938,7 +74627,10 @@
             "EFTA01731722",
             "EFTA01732169",
             "EFTA01733522"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 245
+          }
         },
         {
           "rank": 29,
@@ -73951,7 +74643,10 @@
             "EFTA01345130",
             "EFTA01345666",
             "EFTA01351002"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 168
+          }
         },
         {
           "rank": 30,
@@ -73964,7 +74659,10 @@
             "EFTA01300872",
             "EFTA01300873",
             "EFTA01300876"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 327
+          }
         },
         {
           "rank": 31,
@@ -73977,7 +74675,10 @@
             "EFTA01269393",
             "EFTA01269509",
             "EFTA01269520"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 162
+          }
         },
         {
           "rank": 32,
@@ -73990,7 +74691,10 @@
             "EFTA01492093",
             "EFTA01492196",
             "EFTA01492264"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 152
+          }
         },
         {
           "rank": 33,
@@ -74003,7 +74707,10 @@
             "EFTA01531659",
             "EFTA01531667",
             "EFTA01531674"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 180
+          }
         },
         {
           "rank": 34,
@@ -74016,7 +74723,10 @@
             "EFTA01464701",
             "EFTA01464848",
             "EFTA01492905"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 151
+          }
         },
         {
           "rank": 35,
@@ -74029,7 +74739,10 @@
             "EFTA01290105",
             "EFTA01290514",
             "EFTA01290526"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 266
+          }
         },
         {
           "rank": 36,
@@ -74042,7 +74755,10 @@
             "EFTA01299275",
             "EFTA01299277",
             "EFTA01299279"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 156
+          }
         },
         {
           "rank": 37,
@@ -74055,7 +74771,10 @@
             "EFTA01344071",
             "EFTA01344074",
             "EFTA01344101"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 148
+          }
         },
         {
           "rank": 38,
@@ -74068,7 +74787,10 @@
             "EFTA01359940",
             "EFTA01368473",
             "EFTA01403241"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 149
+          }
         },
         {
           "rank": 39,
@@ -74081,7 +74803,10 @@
             "EFTA01282879",
             "EFTA01282882",
             "EFTA01282889"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 146
+          }
         },
         {
           "rank": 40,
@@ -74094,7 +74819,10 @@
             "EFTA01269261",
             "EFTA01269292",
             "EFTA01269509"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 150
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -74117,7 +74845,10 @@
             "EFTA01308891",
             "EFTA01333905",
             "EFTA01334281"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 216
+          }
         },
         {
           "rank": 42,
@@ -74130,7 +74861,10 @@
             "EFTA01366142",
             "EFTA01366163",
             "EFTA01366182"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 144
+          }
         },
         {
           "rank": 43,
@@ -74143,7 +74877,10 @@
             "EFTA01358517",
             "EFTA01358524",
             "EFTA01358537"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 138
+          }
         },
         {
           "rank": 44,
@@ -74156,7 +74893,10 @@
             "EFTA01354045",
             "EFTA01354409",
             "EFTA01354476"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 122
+          }
         },
         {
           "rank": 45,
@@ -74169,7 +74909,10 @@
             "EFTA01361933",
             "EFTA01368847",
             "EFTA01368932"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 122
+          }
         },
         {
           "rank": 46,
@@ -74182,7 +74925,10 @@
             "EFTA01357604",
             "EFTA01357606",
             "EFTA01357607"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 230
+          }
         },
         {
           "rank": 47,
@@ -74195,7 +74941,10 @@
             "EFTA01369059",
             "EFTA01369767",
             "EFTA01370321"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 115
+          }
         },
         {
           "rank": 48,
@@ -74208,7 +74957,10 @@
             "EFTA01738839",
             "EFTA01738924",
             "EFTA01739053"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 302
+          }
         },
         {
           "rank": 49,
@@ -74221,7 +74973,10 @@
             "EFTA01356377",
             "EFTA01356381",
             "EFTA01356385"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 163
+          }
         },
         {
           "rank": 50,
@@ -74234,7 +74989,10 @@
             "EFTA01295009",
             "EFTA01295581",
             "EFTA01357160"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 125
+          }
         },
         {
           "rank": 51,
@@ -74247,7 +75005,10 @@
             "EFTA01358243",
             "EFTA01361127",
             "EFTA01361916"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 117
+          }
         },
         {
           "rank": 52,
@@ -74260,7 +75021,10 @@
             "EFTA01352223",
             "EFTA01352225",
             "EFTA01352231"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 107
+          }
         },
         {
           "rank": 53,
@@ -74273,7 +75037,10 @@
             "EFTA01363384",
             "EFTA01368867",
             "EFTA01368903"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 111
+          }
         },
         {
           "rank": 54,
@@ -74286,7 +75053,10 @@
             "EFTA01266168",
             "EFTA01266204",
             "EFTA01266359"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 392
+          }
         },
         {
           "rank": 55,
@@ -74299,7 +75069,10 @@
             "EFTA01269598",
             "EFTA01269637",
             "EFTA01282440"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 105
+          }
         },
         {
           "rank": 56,
@@ -74312,7 +75085,10 @@
             "EFTA01345652",
             "EFTA01350645",
             "EFTA01350648"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 105
+          }
         },
         {
           "rank": 57,
@@ -74325,7 +75101,10 @@
             "EFTA01779428",
             "EFTA01779486",
             "EFTA01779518"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 158
+          }
         },
         {
           "rank": 58,
@@ -74338,7 +75117,10 @@
             "EFTA01357358",
             "EFTA01357360",
             "EFTA01357362"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 145
+          }
         },
         {
           "rank": 59,
@@ -74351,7 +75133,10 @@
             "EFTA01482327",
             "EFTA01482350",
             "EFTA01483823"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 101
+          }
         },
         {
           "rank": 60,
@@ -74364,7 +75149,10 @@
             "EFTA01296179",
             "EFTA01296834",
             "EFTA01297243"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 166
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -74387,7 +75175,10 @@
             "EFTA01269144",
             "EFTA01269149",
             "EFTA01269485"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 82948
+          }
         },
         {
           "rank": 2,
@@ -74400,7 +75191,10 @@
             "EFTA01282264",
             "EFTA01283088",
             "EFTA01283800"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 128748
+          }
         },
         {
           "rank": 3,
@@ -74413,7 +75207,10 @@
             "EFTA01268279",
             "EFTA01268291",
             "EFTA01268352"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 96895
+          }
         },
         {
           "rank": 4,
@@ -74426,7 +75223,10 @@
             "EFTA01283812",
             "EFTA01283822",
             "EFTA01283834"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 7624
+          }
         },
         {
           "rank": 5,
@@ -74439,7 +75239,10 @@
             "EFTA01266056",
             "EFTA01266092",
             "EFTA01266095"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 10379
+          }
         },
         {
           "rank": 6,
@@ -74452,7 +75255,10 @@
             "EFTA01268279",
             "EFTA01268283",
             "EFTA01268324"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 6862
+          }
         },
         {
           "rank": 7,
@@ -74465,7 +75271,10 @@
             "EFTA01279167",
             "EFTA01284548",
             "EFTA01284648"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 8477
+          }
         },
         {
           "rank": 8,
@@ -74478,7 +75287,10 @@
             "EFTA01273102",
             "EFTA01273155",
             "EFTA01273198"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3937
+          }
         },
         {
           "rank": 9,
@@ -74491,7 +75303,10 @@
             "EFTA01266032",
             "EFTA01266036",
             "EFTA01266040"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2377
+          }
         },
         {
           "rank": 10,
@@ -74504,7 +75319,10 @@
             "EFTA01299808",
             "EFTA01353844",
             "EFTA01353845"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2154
+          }
         },
         {
           "rank": 11,
@@ -74517,7 +75335,10 @@
             "EFTA01265479",
             "EFTA01265978",
             "EFTA01266077"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1262
+          }
         },
         {
           "rank": 12,
@@ -74530,7 +75351,10 @@
             "EFTA01279167",
             "EFTA01283188",
             "EFTA01288458"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1646
+          }
         },
         {
           "rank": 13,
@@ -74543,7 +75367,10 @@
             "EFTA01279497",
             "EFTA01279501",
             "EFTA01279505"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1233
+          }
         },
         {
           "rank": 14,
@@ -74556,7 +75383,10 @@
             "EFTA01281059",
             "EFTA01290526",
             "EFTA01303351"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1012
+          }
         },
         {
           "rank": 15,
@@ -74569,7 +75399,10 @@
             "EFTA01299937",
             "EFTA01299951",
             "EFTA01299952"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1014
+          }
         },
         {
           "rank": 16,
@@ -74582,7 +75415,10 @@
             "EFTA01300990",
             "EFTA01300992",
             "EFTA01300994"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1744
+          }
         },
         {
           "rank": 17,
@@ -74595,7 +75431,10 @@
             "EFTA01299437",
             "EFTA01299633",
             "EFTA01300317"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1185
+          }
         },
         {
           "rank": 18,
@@ -74608,7 +75447,10 @@
             "EFTA01276243",
             "EFTA01277005",
             "EFTA01278975"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1123
+          }
         },
         {
           "rank": 19,
@@ -74621,7 +75463,10 @@
             "EFTA01273244",
             "EFTA01273245",
             "EFTA01273246"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 11689
+          }
         },
         {
           "rank": 20,
@@ -74634,7 +75479,10 @@
             "EFTA01273059",
             "EFTA01273181",
             "EFTA01273198"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1200
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -74657,7 +75505,10 @@
             "EFTA01300377",
             "EFTA01344843",
             "EFTA01344844"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1135
+          }
         },
         {
           "rank": 22,
@@ -74670,7 +75521,10 @@
             "EFTA01265245",
             "EFTA01265301",
             "EFTA01265314"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1672
+          }
         },
         {
           "rank": 23,
@@ -74683,7 +75537,10 @@
             "EFTA01265245",
             "EFTA01265318",
             "EFTA01265457"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 890
+          }
         },
         {
           "rank": 24,
@@ -74696,7 +75553,10 @@
             "EFTA01322030",
             "EFTA01322110",
             "EFTA01322192"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 834
+          }
         },
         {
           "rank": 25,
@@ -74709,7 +75569,10 @@
             "EFTA01284894",
             "EFTA01285161",
             "EFTA01285800"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 609
+          }
         },
         {
           "rank": 26,
@@ -74722,7 +75585,10 @@
             "EFTA01279223",
             "EFTA01283744",
             "EFTA01285426"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 464
+          }
         },
         {
           "rank": 27,
@@ -74735,7 +75601,10 @@
             "EFTA01275639",
             "EFTA01276243",
             "EFTA01277005"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 786
+          }
         },
         {
           "rank": 28,
@@ -74748,7 +75617,10 @@
             "EFTA01308476",
             "EFTA01332994",
             "EFTA01333681"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 599
+          }
         },
         {
           "rank": 29,
@@ -74761,7 +75633,10 @@
             "EFTA01279974",
             "EFTA01279979",
             "EFTA01283526"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 585
+          }
         },
         {
           "rank": 30,
@@ -74774,7 +75649,10 @@
             "EFTA01292738",
             "EFTA01292798",
             "EFTA01292858"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 326
+          }
         },
         {
           "rank": 31,
@@ -74787,7 +75665,10 @@
             "EFTA01304421",
             "EFTA01308282",
             "EFTA01308327"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 735
+          }
         },
         {
           "rank": 32,
@@ -74800,7 +75681,10 @@
             "EFTA01279539",
             "EFTA01296335",
             "EFTA01296834"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 402
+          }
         },
         {
           "rank": 33,
@@ -74813,7 +75697,10 @@
             "EFTA01265479",
             "EFTA01266026",
             "EFTA01266029"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 615
+          }
         },
         {
           "rank": 34,
@@ -74826,7 +75713,10 @@
             "EFTA01298778",
             "EFTA01298864",
             "EFTA01300433"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 240
+          }
         },
         {
           "rank": 35,
@@ -74839,7 +75729,10 @@
             "EFTA01402237",
             "EFTA01505711",
             "EFTA01505762"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 409
+          }
         },
         {
           "rank": 36,
@@ -74852,7 +75745,10 @@
             "EFTA01292706",
             "EFTA01347982",
             "EFTA01348032"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 501
+          }
         },
         {
           "rank": 37,
@@ -74865,7 +75761,10 @@
             "EFTA01296627",
             "EFTA01299486",
             "EFTA01299494"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 189
+          }
         },
         {
           "rank": 38,
@@ -74878,7 +75777,10 @@
             "EFTA01287870",
             "EFTA01287941",
             "EFTA01288003"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 270
+          }
         },
         {
           "rank": 39,
@@ -74891,7 +75793,10 @@
             "EFTA01482300",
             "EFTA01482312",
             "EFTA01482861"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 164
+          }
         },
         {
           "rank": 40,
@@ -74904,7 +75809,10 @@
             "EFTA01279852",
             "EFTA01280333",
             "EFTA01287077"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 265
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -74927,7 +75835,10 @@
             "EFTA01283438",
             "EFTA01283526",
             "EFTA01283564"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 199
+          }
         },
         {
           "rank": 42,
@@ -74940,7 +75851,10 @@
             "EFTA01273155",
             "EFTA01273181",
             "EFTA01279412"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 132
+          }
         },
         {
           "rank": 43,
@@ -74953,7 +75867,10 @@
             "EFTA01286368",
             "EFTA01286592",
             "EFTA01286840"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 313
+          }
         },
         {
           "rank": 44,
@@ -74966,7 +75883,10 @@
             "EFTA01284648",
             "EFTA01284943",
             "EFTA01285491"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 147
+          }
         },
         {
           "rank": 45,
@@ -74979,7 +75899,10 @@
             "EFTA01297243",
             "EFTA01297464",
             "EFTA01297650"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 101
+          }
         },
         {
           "rank": 46,
@@ -74992,7 +75915,10 @@
             "EFTA01273250",
             "EFTA01273253",
             "EFTA01273257"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 913
+          }
         },
         {
           "rank": 47,
@@ -75005,7 +75931,10 @@
             "EFTA01282339",
             "EFTA01299412",
             "EFTA01299418"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 187
+          }
         },
         {
           "rank": 48,
@@ -75018,7 +75947,10 @@
             "EFTA01305210",
             "EFTA01305670",
             "EFTA01326828"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 161
+          }
         },
         {
           "rank": 49,
@@ -75031,7 +75963,10 @@
             "EFTA01312770",
             "EFTA01312877",
             "EFTA01314184"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 104
+          }
         },
         {
           "rank": 50,
@@ -75044,7 +75979,10 @@
             "EFTA01301084",
             "EFTA01301085",
             "EFTA01301087"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 998
+          }
         },
         {
           "rank": 51,
@@ -75057,7 +75995,10 @@
             "EFTA01361501",
             "EFTA01362943",
             "EFTA01363039"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 137
+          }
         },
         {
           "rank": 52,
@@ -75070,7 +76011,10 @@
             "EFTA01291389",
             "EFTA01291467",
             "EFTA01291899"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 54
+          }
         },
         {
           "rank": 53,
@@ -75083,7 +76027,10 @@
             "EFTA01614867",
             "EFTA01614891",
             "EFTA01616031"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 64
+          }
         },
         {
           "rank": 54,
@@ -75096,7 +76043,10 @@
             "EFTA01353380",
             "EFTA01366014",
             "EFTA01366015"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 69
+          }
         },
         {
           "rank": 55,
@@ -75109,7 +76059,10 @@
             "EFTA01283386",
             "EFTA01292412",
             "EFTA01311486"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 52
+          }
         },
         {
           "rank": 56,
@@ -75122,7 +76075,10 @@
             "EFTA01345944",
             "EFTA01352649",
             "EFTA01352654"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 61
+          }
         },
         {
           "rank": 57,
@@ -75135,7 +76091,10 @@
             "EFTA01283322",
             "EFTA01283424",
             "EFTA01283452"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 41
+          }
         },
         {
           "rank": 58,
@@ -75148,7 +76107,10 @@
             "EFTA01285170",
             "EFTA01285260",
             "EFTA01285365"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 36
+          }
         },
         {
           "rank": 59,
@@ -75161,7 +76123,10 @@
             "EFTA01463751",
             "EFTA01463763",
             "EFTA01463770"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 52
+          }
         },
         {
           "rank": 60,
@@ -75174,7 +76139,10 @@
             "EFTA01353974",
             "EFTA01354402",
             "EFTA01354404"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 32
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -75197,7 +76165,10 @@
             "EFTA01266298",
             "EFTA01266380",
             "EFTA01266403"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1432
+          }
         },
         {
           "rank": 2,
@@ -75210,7 +76181,10 @@
             "EFTA01266434",
             "EFTA01266457",
             "EFTA01267633"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1370
+          }
         },
         {
           "rank": 3,
@@ -75223,7 +76197,10 @@
             "EFTA01263024",
             "EFTA01266134",
             "EFTA01266168"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1031
+          }
         },
         {
           "rank": 4,
@@ -75236,7 +76213,10 @@
             "EFTA01279808",
             "EFTA01285426",
             "EFTA01285692"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1492
+          }
         },
         {
           "rank": 5,
@@ -75249,7 +76229,10 @@
             "EFTA01280384",
             "EFTA01280396",
             "EFTA01284188"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1048
+          }
         },
         {
           "rank": 6,
@@ -75262,7 +76245,10 @@
             "EFTA01283911",
             "EFTA01283998",
             "EFTA01284740"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 899
+          }
         },
         {
           "rank": 7,
@@ -75275,7 +76261,10 @@
             "EFTA01266017",
             "EFTA01268890",
             "EFTA01269393"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 756
+          }
         },
         {
           "rank": 8,
@@ -75288,7 +76277,10 @@
             "EFTA01279509",
             "EFTA01279595",
             "EFTA01283131"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 583
+          }
         },
         {
           "rank": 9,
@@ -75301,7 +76293,10 @@
             "EFTA01268751",
             "EFTA01269520",
             "EFTA01279497"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 783
+          }
         },
         {
           "rank": 10,
@@ -75314,7 +76309,10 @@
             "EFTA01269149",
             "EFTA01269322",
             "EFTA01269509"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 647
+          }
         },
         {
           "rank": 11,
@@ -75327,7 +76325,10 @@
             "EFTA01312586",
             "EFTA01312590",
             "EFTA01312608"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 514
+          }
         },
         {
           "rank": 12,
@@ -75340,7 +76341,10 @@
             "EFTA01285167",
             "EFTA01287912",
             "EFTA01288288"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 615
+          }
         },
         {
           "rank": 13,
@@ -75353,7 +76357,10 @@
             "EFTA01277649",
             "EFTA01287414",
             "EFTA01287488"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 605
+          }
         },
         {
           "rank": 14,
@@ -75366,7 +76373,10 @@
             "EFTA01266724",
             "EFTA01269393",
             "EFTA01269433"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 797
+          }
         },
         {
           "rank": 15,
@@ -75379,7 +76389,10 @@
             "EFTA01297505",
             "EFTA01304561",
             "EFTA01333276"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 668
+          }
         },
         {
           "rank": 16,
@@ -75392,7 +76405,10 @@
             "EFTA01280959",
             "EFTA01285404",
             "EFTA01288034"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 474
+          }
         },
         {
           "rank": 17,
@@ -75405,7 +76421,10 @@
             "EFTA01284321",
             "EFTA01284327",
             "EFTA01284558"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 441
+          }
         },
         {
           "rank": 18,
@@ -75418,7 +76437,10 @@
             "EFTA01268642",
             "EFTA01280477",
             "EFTA01280983"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 493
+          }
         },
         {
           "rank": 19,
@@ -75431,7 +76453,10 @@
             "EFTA01269322",
             "EFTA01269433",
             "EFTA01269548"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 433
+          }
         },
         {
           "rank": 20,
@@ -75444,7 +76469,10 @@
             "EFTA01279893",
             "EFTA01280665",
             "EFTA01280667"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 475
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -75467,7 +76495,10 @@
             "EFTA01266601",
             "EFTA01269100",
             "EFTA01279782"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 432
+          }
         },
         {
           "rank": 22,
@@ -75480,7 +76511,10 @@
             "EFTA01269705",
             "EFTA01280090",
             "EFTA01280853"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 426
+          }
         },
         {
           "rank": 23,
@@ -75493,7 +76527,10 @@
             "EFTA01269509",
             "EFTA01269548",
             "EFTA01269598"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 364
+          }
         },
         {
           "rank": 24,
@@ -75506,7 +76543,10 @@
             "EFTA01496663",
             "EFTA01496665",
             "EFTA01496670"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 416
+          }
         },
         {
           "rank": 25,
@@ -75519,7 +76559,10 @@
             "EFTA01269322",
             "EFTA01269548",
             "EFTA01269637"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 379
+          }
         },
         {
           "rank": 26,
@@ -75532,7 +76575,10 @@
             "EFTA01312648",
             "EFTA01312656",
             "EFTA01312706"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 395
+          }
         },
         {
           "rank": 27,
@@ -75545,7 +76591,10 @@
             "EFTA01268574",
             "EFTA01269548",
             "EFTA01269637"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 290
+          }
         },
         {
           "rank": 28,
@@ -75558,7 +76607,10 @@
             "EFTA01266325",
             "EFTA01266359",
             "EFTA01266380"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 651
+          }
         },
         {
           "rank": 29,
@@ -75571,7 +76623,10 @@
             "EFTA01282471",
             "EFTA01282797",
             "EFTA01282866"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 461
+          }
         },
         {
           "rank": 30,
@@ -75584,7 +76639,10 @@
             "EFTA01282471",
             "EFTA01283985",
             "EFTA01284762"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 275
+          }
         },
         {
           "rank": 31,
@@ -75597,7 +76655,10 @@
             "EFTA01286017",
             "EFTA01286029",
             "EFTA01286194"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 336
+          }
         },
         {
           "rank": 32,
@@ -75610,7 +76671,10 @@
             "EFTA01363911",
             "EFTA01364033",
             "EFTA01364109"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 421
+          }
         },
         {
           "rank": 33,
@@ -75623,7 +76687,10 @@
             "EFTA01284303",
             "EFTA01284306",
             "EFTA01284359"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 275
+          }
         },
         {
           "rank": 34,
@@ -75636,7 +76703,10 @@
             "EFTA01282143",
             "EFTA01282195",
             "EFTA01282492"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 257
+          }
         },
         {
           "rank": 35,
@@ -75649,7 +76719,10 @@
             "EFTA01280092",
             "EFTA01282376",
             "EFTA01283310"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 205
+          }
         },
         {
           "rank": 36,
@@ -75662,7 +76735,10 @@
             "EFTA01279788",
             "EFTA01279790",
             "EFTA01279792"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 200
+          }
         },
         {
           "rank": 37,
@@ -75675,7 +76751,10 @@
             "EFTA01281293",
             "EFTA01283298",
             "EFTA01283334"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 217
+          }
         },
         {
           "rank": 38,
@@ -75688,7 +76767,10 @@
             "EFTA01353864",
             "EFTA01353874",
             "EFTA01354018"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 281
+          }
         },
         {
           "rank": 39,
@@ -75701,7 +76783,10 @@
             "EFTA01301096",
             "EFTA01334058",
             "EFTA01345385"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 257
+          }
         },
         {
           "rank": 40,
@@ -75714,7 +76799,10 @@
             "EFTA01266204",
             "EFTA01266346",
             "EFTA01266350"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 324
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -75737,7 +76825,10 @@
             "EFTA01282402",
             "EFTA01282476",
             "EFTA01282802"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 245
+          }
         },
         {
           "rank": 42,
@@ -75750,7 +76841,10 @@
             "EFTA01288115",
             "EFTA01295292",
             "EFTA01296643"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 229
+          }
         },
         {
           "rank": 43,
@@ -75763,7 +76857,10 @@
             "EFTA01283085",
             "EFTA01283124",
             "EFTA01296335"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 343
+          }
         },
         {
           "rank": 44,
@@ -75776,7 +76873,10 @@
             "EFTA01497264",
             "EFTA01497273",
             "EFTA01497274"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 334
+          }
         },
         {
           "rank": 45,
@@ -75789,7 +76889,10 @@
             "EFTA01269354",
             "EFTA01269548",
             "EFTA01269598"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 265
+          }
         },
         {
           "rank": 46,
@@ -75802,7 +76905,10 @@
             "EFTA01297830",
             "EFTA01298113",
             "EFTA01304411"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 213
+          }
         },
         {
           "rank": 47,
@@ -75815,7 +76921,10 @@
             "EFTA01284180",
             "EFTA01285627",
             "EFTA01285829"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 314
+          }
         },
         {
           "rank": 48,
@@ -75828,7 +76937,10 @@
             "EFTA01266601",
             "EFTA01269393",
             "EFTA01269485"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 303
+          }
         },
         {
           "rank": 49,
@@ -75841,7 +76953,10 @@
             "EFTA01280705",
             "EFTA01285824",
             "EFTA01287726"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 246
+          }
         },
         {
           "rank": 50,
@@ -75854,7 +76969,10 @@
             "EFTA01268751",
             "EFTA01268890",
             "EFTA01269433"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 207
+          }
         },
         {
           "rank": 51,
@@ -75867,7 +76985,10 @@
             "EFTA01266403",
             "EFTA01266434",
             "EFTA01296884"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 202
+          }
         },
         {
           "rank": 52,
@@ -75880,7 +77001,10 @@
             "EFTA01283881",
             "EFTA01283935",
             "EFTA01284012"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 207
+          }
         },
         {
           "rank": 53,
@@ -75893,7 +77017,10 @@
             "EFTA01285114",
             "EFTA01285125",
             "EFTA01285540"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 235
+          }
         },
         {
           "rank": 54,
@@ -75906,7 +77033,10 @@
             "EFTA01287494",
             "EFTA01354914",
             "EFTA01359394"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 228
+          }
         },
         {
           "rank": 55,
@@ -75919,7 +77049,10 @@
             "EFTA01279509",
             "EFTA01279517",
             "EFTA01279525"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 203
+          }
         },
         {
           "rank": 56,
@@ -75932,7 +77065,10 @@
             "EFTA01268833",
             "EFTA01281223",
             "EFTA01281555"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 424
+          }
         },
         {
           "rank": 57,
@@ -75945,7 +77081,10 @@
             "EFTA01308891",
             "EFTA01333248",
             "EFTA01334058"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 246
+          }
         },
         {
           "rank": 58,
@@ -75958,7 +77097,10 @@
             "EFTA01353864",
             "EFTA01353970",
             "EFTA01353992"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 162
+          }
         },
         {
           "rank": 59,
@@ -75971,7 +77113,10 @@
             "EFTA01369042",
             "EFTA01373547",
             "EFTA01386787"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 228
+          }
         },
         {
           "rank": 60,
@@ -75984,7 +77129,10 @@
             "EFTA01354051",
             "EFTA01354053",
             "EFTA01354351"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 378
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -76007,7 +77155,10 @@
             "EFTA01266134",
             "EFTA01266168",
             "EFTA01266204"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 7590
+          }
         },
         {
           "rank": 2,
@@ -76020,7 +77171,10 @@
             "EFTA01268890",
             "EFTA01269149",
             "EFTA01269433"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 8785
+          }
         },
         {
           "rank": 3,
@@ -76033,7 +77187,10 @@
             "EFTA01263124",
             "EFTA01263330",
             "EFTA01264394"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 5239
+          }
         },
         {
           "rank": 4,
@@ -76046,7 +77203,10 @@
             "EFTA01268275",
             "EFTA01268279",
             "EFTA01268283"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 5326
+          }
         },
         {
           "rank": 5,
@@ -76059,7 +77219,10 @@
             "EFTA01265314",
             "EFTA01265318",
             "EFTA01265814"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4457
+          }
         },
         {
           "rank": 6,
@@ -76072,7 +77235,10 @@
             "EFTA01268283",
             "EFTA01268291",
             "EFTA01268354"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3113
+          }
         },
         {
           "rank": 7,
@@ -76085,7 +77251,10 @@
             "EFTA01265969",
             "EFTA01266298",
             "EFTA01266327"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 5403
+          }
         },
         {
           "rank": 8,
@@ -76098,7 +77267,10 @@
             "EFTA01279539",
             "EFTA01279778",
             "EFTA01280074"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2874
+          }
         },
         {
           "rank": 9,
@@ -76111,7 +77283,10 @@
             "EFTA01266204",
             "EFTA01266236",
             "EFTA01266247"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 7772
+          }
         },
         {
           "rank": 10,
@@ -76124,7 +77299,10 @@
             "EFTA01265318",
             "EFTA01265800",
             "EFTA01266498"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4083
+          }
         },
         {
           "rank": 11,
@@ -76137,7 +77315,10 @@
             "EFTA01268283",
             "EFTA01268291",
             "EFTA01268310"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2885
+          }
         },
         {
           "rank": 12,
@@ -76150,7 +77331,10 @@
             "EFTA01266204",
             "EFTA01266260",
             "EFTA01266298"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3217
+          }
         },
         {
           "rank": 13,
@@ -76163,7 +77347,10 @@
             "EFTA01266168",
             "EFTA01266204",
             "EFTA01266359"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4201
+          }
         },
         {
           "rank": 14,
@@ -76176,7 +77363,10 @@
             "EFTA01279842",
             "EFTA01279852",
             "EFTA01289724"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 3230
+          }
         },
         {
           "rank": 15,
@@ -76189,7 +77379,10 @@
             "EFTA01268689",
             "EFTA01270242",
             "EFTA01270704"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1225
+          }
         },
         {
           "rank": 16,
@@ -76202,7 +77395,10 @@
             "EFTA01265962",
             "EFTA01265969",
             "EFTA01266134"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 2005
+          }
         },
         {
           "rank": 17,
@@ -76215,7 +77411,10 @@
             "EFTA01268283",
             "EFTA01268291",
             "EFTA01268325"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 4999
+          }
         },
         {
           "rank": 18,
@@ -76228,7 +77427,10 @@
             "EFTA01266690",
             "EFTA01267633",
             "EFTA01268295"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1347
+          }
         },
         {
           "rank": 19,
@@ -76241,7 +77443,10 @@
             "EFTA01282195",
             "EFTA01282278",
             "EFTA01282339"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1390
+          }
         },
         {
           "rank": 20,
@@ -76254,7 +77459,10 @@
             "EFTA01266298",
             "EFTA01266759",
             "EFTA01267633"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 870
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -76277,7 +77485,10 @@
             "EFTA01266601",
             "EFTA01268515",
             "EFTA01268590"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1574
+          }
         },
         {
           "rank": 22,
@@ -76290,7 +77501,10 @@
             "EFTA01265962",
             "EFTA01265969",
             "EFTA01268498"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 860
+          }
         },
         {
           "rank": 23,
@@ -76303,7 +77517,10 @@
             "EFTA01578854",
             "EFTA01578855",
             "EFTA01578856"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 629
+          }
         },
         {
           "rank": 24,
@@ -76316,7 +77533,10 @@
             "EFTA01375161",
             "EFTA01375167",
             "EFTA01375178"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 569
+          }
         },
         {
           "rank": 25,
@@ -76329,7 +77549,10 @@
             "EFTA01421457",
             "EFTA01421929",
             "EFTA01525220"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 513
+          }
         },
         {
           "rank": 26,
@@ -76342,7 +77565,10 @@
             "EFTA01268612",
             "EFTA01273259",
             "EFTA01279716"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 1473
+          }
         },
         {
           "rank": 27,
@@ -76355,7 +77581,10 @@
             "EFTA01279893",
             "EFTA01282345",
             "EFTA01282402"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 656
+          }
         },
         {
           "rank": 28,
@@ -76368,7 +77597,10 @@
             "EFTA01265978",
             "EFTA01266601",
             "EFTA01267546"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 329
+          }
         },
         {
           "rank": 29,
@@ -76381,7 +77613,10 @@
             "EFTA01283044",
             "EFTA01283164",
             "EFTA01283176"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 313
+          }
         },
         {
           "rank": 30,
@@ -76394,7 +77629,10 @@
             "EFTA01282292",
             "EFTA01295536",
             "EFTA01295845"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 304
+          }
         },
         {
           "rank": 31,
@@ -76407,7 +77645,10 @@
             "EFTA01282018",
             "EFTA01282297",
             "EFTA01282316"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 212
+          }
         },
         {
           "rank": 32,
@@ -76420,7 +77661,10 @@
             "EFTA01279974",
             "EFTA01280219",
             "EFTA01283131"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 127
+          }
         },
         {
           "rank": 33,
@@ -76433,7 +77677,10 @@
             "EFTA01365375",
             "EFTA01365390",
             "EFTA01365394"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 222
+          }
         },
         {
           "rank": 34,
@@ -76446,7 +77693,10 @@
             "EFTA01279782",
             "EFTA01279786",
             "EFTA01279788"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 397
+          }
         },
         {
           "rank": 35,
@@ -76459,7 +77709,10 @@
             "EFTA01269705",
             "EFTA01279531",
             "EFTA01280755"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 105
+          }
         },
         {
           "rank": 36,
@@ -76472,7 +77725,10 @@
             "EFTA01282476",
             "EFTA01282802",
             "EFTA01283044"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 158
+          }
         },
         {
           "rank": 37,
@@ -76485,7 +77741,10 @@
             "EFTA01282041",
             "EFTA01282471",
             "EFTA01294102"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 118
+          }
         },
         {
           "rank": 38,
@@ -76498,7 +77757,10 @@
             "EFTA01275639",
             "EFTA01276243",
             "EFTA01277005"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 161
+          }
         },
         {
           "rank": 39,
@@ -76511,7 +77773,10 @@
             "EFTA01269705",
             "EFTA01270242",
             "EFTA01270704"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 188
+          }
         },
         {
           "rank": 40,
@@ -76524,7 +77789,10 @@
             "EFTA01288458",
             "EFTA01291968",
             "EFTA01294582"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 86
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."
@@ -76547,7 +77815,10 @@
             "EFTA01356069",
             "EFTA01356192",
             "EFTA01365366"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 65
+          }
         },
         {
           "rank": 42,
@@ -76560,7 +77831,10 @@
             "EFTA01263210",
             "EFTA01263213",
             "EFTA01268689"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 103
+          }
         },
         {
           "rank": 43,
@@ -76573,7 +77847,10 @@
             "EFTA01265962",
             "EFTA01265969",
             "EFTA01268515"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 141
+          }
         },
         {
           "rank": 44,
@@ -76586,7 +77863,10 @@
             "EFTA01267546",
             "EFTA01292666",
             "EFTA01292798"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 95
+          }
         },
         {
           "rank": 45,
@@ -76599,7 +77879,10 @@
             "EFTA01357473",
             "EFTA01358035",
             "EFTA01359959"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 59
+          }
         },
         {
           "rank": 46,
@@ -76612,7 +77895,10 @@
             "EFTA01367790",
             "EFTA01369222",
             "EFTA01384027"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 35
+          }
         },
         {
           "rank": 47,
@@ -76625,7 +77911,10 @@
             "EFTA01281143",
             "EFTA01293126",
             "EFTA01293650"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 29
+          }
         },
         {
           "rank": 48,
@@ -76638,7 +77927,10 @@
             "EFTA01360793",
             "EFTA01361056",
             "EFTA01361762"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 23
+          }
         },
         {
           "rank": 49,
@@ -76651,7 +77943,10 @@
             "EFTA01580216",
             "EFTA01580264",
             "EFTA01580353"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 21
+          }
         },
         {
           "rank": 50,
@@ -76664,7 +77959,10 @@
             "EFTA01344016",
             "EFTA01350748",
             "EFTA01356614"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 32
+          }
         },
         {
           "rank": 51,
@@ -76677,7 +77975,10 @@
             "EFTA01347655",
             "EFTA01347760",
             "EFTA01347790"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 18
+          }
         },
         {
           "rank": 52,
@@ -76690,7 +77991,10 @@
             "EFTA01619894",
             "EFTA01619930",
             "EFTA01620085"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 19
+          }
         },
         {
           "rank": 53,
@@ -76703,7 +78007,10 @@
             "EFTA01386244",
             "EFTA01406060",
             "EFTA01412865"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 15
+          }
         },
         {
           "rank": 54,
@@ -76716,7 +78023,10 @@
             "EFTA01315977",
             "EFTA01324366",
             "EFTA01383580"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 14
+          }
         },
         {
           "rank": 55,
@@ -76729,7 +78039,10 @@
             "EFTA01378505",
             "EFTA01378781",
             "EFTA01387936"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 12
+          }
         },
         {
           "rank": 56,
@@ -76742,7 +78055,10 @@
             "EFTA01356590",
             "EFTA01362316",
             "EFTA01383885"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 12
+          }
         },
         {
           "rank": 57,
@@ -76755,7 +78071,10 @@
             "EFTA01349015",
             "EFTA01517102",
             "EFTA01525395"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 10
+          }
         },
         {
           "rank": 58,
@@ -76768,7 +78087,10 @@
             "EFTA01415711",
             "EFTA01415724",
             "EFTA01425933"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 9
+          }
         },
         {
           "rank": 59,
@@ -76781,7 +78103,10 @@
             "EFTA01376049",
             "EFTA01409014",
             "EFTA01422335"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 6
+          }
         },
         {
           "rank": 60,
@@ -76794,7 +78119,10 @@
             "EFTA01584053",
             "EFTA01656376",
             "EFTA01656464"
-          ]
+          ],
+          "datasets": {
+            "dataset_10": 13
+          }
         }
       ],
       "explainer": "Regex-based extractors run on DS10 (the JPM Private Bank + Deutsche Bank correspondence dossier, 158K docs). Captures counterparty entities, JPM banker names, money amounts, beneficiaries, and account holders."

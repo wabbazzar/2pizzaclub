@@ -73,6 +73,11 @@
     margin: 0 0 0.85rem;
     border-radius: 2px;
 }
+.filter-status-aggregate {
+    background: rgba(255, 217, 61, 0.18);
+    border-left-color: var(--bus-yellow);
+    color: var(--ink);
+}
 
 /* Clickable doc-id button (inline, looks like a styled link) */
 .doc-link {
