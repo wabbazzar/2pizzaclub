@@ -54,12 +54,39 @@ function rowMatchesFilter(row, enabledBuckets) {
     if (row.datasets && Object.keys(row.datasets).length) {
         return Object.keys(row.datasets).some(ds => enabledBuckets.has(DATASET_BUCKET[ds] || 'other'));
     }
+    // Person dossier uses `by_dataset`
+    if (row.by_dataset && Object.keys(row.by_dataset).length) {
+        return Object.keys(row.by_dataset).some(ds => enabledBuckets.has(DATASET_BUCKET[ds] || 'other'));
+    }
+    // datasets_list (email threads carry it as an array)
+    if (Array.isArray(row.datasets_list) && row.datasets_list.length) {
+        return row.datasets_list.some(ds => enabledBuckets.has(DATASET_BUCKET[ds] || 'other'));
+    }
     // Single-dataset row (topic_search, imessages)
     if (row.dataset) {
         return enabledBuckets.has(DATASET_BUCKET[row.dataset] || 'other');
     }
-    // Sample doc_ids may give us datasets indirectly — fallback: keep if no dataset info
+    // No dataset info → keep visible
     return true;
+}
+
+// For person dossiers, recompute displayed mention/doc counts based on filter.
+// Returns { mentions, docs, topDs } restricted to enabled buckets.
+function filteredPersonCounts(p, enabledBuckets) {
+    const by = p.by_dataset || {};
+    let mentions = 0;
+    let topDs = null;
+    for (const [ds, n] of Object.entries(by)) {
+        const bucket = DATASET_BUCKET[ds] || 'other';
+        if (!enabledBuckets.has(bucket)) continue;
+        mentions += n;
+        if (!topDs || n > topDs[1]) topDs = [ds, n];
+    }
+    // We don't have per-dataset doc-set info, so docs becomes an estimate.
+    // Approximate: scale total docs by (filtered_mentions / total_mentions).
+    const totalMentions = p.mentions || 1;
+    const docsApprox = Math.round((p.docs || 0) * mentions / totalMentions);
+    return { mentions, docs: docsApprox, topDs };
 }
 
 function getEnabledBuckets() {
@@ -232,7 +259,7 @@ function renderPage() {
     if (page.kind === 'person_dossier') {
         html += '<div class="person-list">';
         for (const p of page.rows || []) {
-            const topDs = Object.entries(p.by_dataset || {}).sort((a,b)=>b[1]-a[1])[0];
+            const fc = filteredPersonCounts(p, enabledBuckets);
             // Sanity-bound years — anything outside 1990..2026 is OCR garbage
             const yrs = Object.keys(p.by_year || {})
                 .map(Number)
@@ -244,11 +271,18 @@ function renderPage() {
             html += `<img class="person-thumb" data-wiki-slug="${escapeHTML(wikiSlug)}" alt="" loading="lazy">`;
             html += `<div class="person-info">`;
             html += `<h3 class="person-name">${escapeHTML(p.name)}</h3>`;
-            html += `<p class="person-stats">${p.mentions.toLocaleString()} mentions · ${p.docs.toLocaleString()} docs`;
-            if (topDs) html += ` · top: ${escapeHTML(topDs[0])} (${topDs[1]})`;
+            if (p.relation) {
+                html += `<p class="person-relation">${escapeHTML(p.relation)}</p>`;
+            }
+            html += `<p class="person-stats">`;
+            html += `${fc.mentions.toLocaleString()} mentions · ~${fc.docs.toLocaleString()} docs`;
+            if (fc.topDs) html += ` · top: ${escapeHTML(fc.topDs[0])} (${fc.topDs[1]})`;
+            if (fc.mentions !== p.mentions) {
+                html += ` <span class="filtered-tag">(filter applied · full ${p.mentions.toLocaleString()})</span>`;
+            }
             html += `</p>`;
             if (p.wiki && p.wiki.url) {
-                html += ` <a class="person-wiki" href="${escapeHTML(p.wiki.url)}" target="_blank" rel="noopener">wiki ↗</a>`;
+                html += `<a class="person-wiki" href="${escapeHTML(p.wiki.url)}" target="_blank" rel="noopener">wiki ↗</a>`;
             }
             html += `</div></header>`;
             // Year sparkline
@@ -478,8 +512,20 @@ function bindNav() {
     });
 }
 
-// Wikipedia thumbnail cache (slug -> url or null if 404)
+// Wikipedia thumbnail cache (slug -> url or null if not usable)
 const wikiThumbCache = new Map();
+
+// Returns true if the Wikipedia page returned is actually about the queried slug
+// (rather than e.g. Sarah_Kellen → redirect → Jeffrey_Epstein).
+function pageMatchesSlug(returnedTitle, queriedSlug) {
+    if (!returnedTitle || !queriedSlug) return false;
+    const norm = (s) => s.toLowerCase().replace(/[_\s\-]+/g, ' ').trim();
+    const q = norm(queriedSlug);
+    const t = norm(returnedTitle);
+    // Allow disambig-suffixed pages like "Richard Kahn (economist)"
+    return t === q || t.startsWith(q + ' ') || t.startsWith(q + '(');
+}
+
 async function loadWikiThumbs() {
     const imgs = Array.from(document.querySelectorAll('img.person-thumb[data-wiki-slug]'));
     for (const img of imgs) {
@@ -491,9 +537,20 @@ async function loadWikiThumbs() {
             continue;
         }
         try {
-            const r = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(slug)}`, { cache: 'force-cache' });
+            // redirect=false stops the REST API from auto-following redirects, so we can
+            // detect a mismatch (e.g. Sarah_Kellen -> Jeffrey_Epstein).
+            const r = await fetch(
+                `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(slug)}?redirect=false`,
+                { cache: 'force-cache' }
+            );
             if (!r.ok) throw new Error(`HTTP ${r.status}`);
             const data = await r.json();
+            // If Wikipedia returned a different person's page, treat as no image.
+            if (!pageMatchesSlug(data.title || '', slug)) {
+                wikiThumbCache.set(slug, null);
+                img.style.display = 'none';
+                continue;
+            }
             const url = data.thumbnail ? data.thumbnail.source : null;
             wikiThumbCache.set(slug, url);
             if (url) img.src = url; else img.style.display = 'none';

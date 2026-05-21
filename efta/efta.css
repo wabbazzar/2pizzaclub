@@ -498,11 +498,22 @@
     color: var(--accent);
     line-height: 1.1;
 }
+.person-relation {
+    margin: 0 0 0.25rem;
+    font-size: 0.85rem;
+    line-height: 1.35;
+    color: var(--ink);
+    font-style: italic;
+}
 .person-stats {
     margin: 0;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     color: var(--ink-soft);
+}
+.filtered-tag {
+    color: var(--accent);
+    font-size: 0.7rem;
 }
 .person-wiki {
     font-family: 'JetBrains Mono', monospace;
