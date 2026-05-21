@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T02:15:35.217945+00:00",
+  "generated_at": "2026-05-21T03:18:56.717770+00:00",
   "corpus": {
     "n_documents": 5542,
     "n_entity_hits": 95332,
@@ -12909,6 +12909,5593 @@
             "EFTA00022201_djvu",
             "EFTA00023782_djvu",
             "EFTA00023783_djvu"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "poa_grantee",
+      "page": 1,
+      "title": "DS10 financial — Power-of-attorney grantees",
+      "subtitle": "158464 DS10 docs scanned · 1 unique values",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "Darren K",
+          "count": 1,
+          "docs": 1,
+          "sample_doc_ids": [
+            "EFTA01583844"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "beneficiary",
+      "page": 1,
+      "title": "DS10 financial — Wire-transfer beneficiaries",
+      "subtitle": "158464 DS10 docs scanned · 449 unique values",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "Account",
+          "count": 49,
+          "docs": 49,
+          "sample_doc_ids": [
+            "EFTA01356255",
+            "EFTA01356614",
+            "EFTA01359812",
+            "EFTA01360721",
+            "EFTA01363090"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "Merchants Commercial Bank",
+          "count": 38,
+          "docs": 38,
+          "sample_doc_ids": [
+            "EFTA01578524",
+            "EFTA01578666",
+            "EFTA01578785",
+            "EFTA01578844",
+            "EFTA01578877"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "Pershing LLC",
+          "count": 35,
+          "docs": 35,
+          "sample_doc_ids": [
+            "EFTA01357130",
+            "EFTA01358445",
+            "EFTA01362538",
+            "EFTA01362757",
+            "EFTA01362758"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "Tax Representations",
+          "count": 29,
+          "docs": 23,
+          "sample_doc_ids": [
+            "EFTA01282547",
+            "EFTA01282752",
+            "EFTA01353696",
+            "EFTA01368742",
+            "EFTA01383370"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "Bank",
+          "count": 30,
+          "docs": 22,
+          "sample_doc_ids": [
+            "EFTA01357341",
+            "EFTA01358081",
+            "EFTA01360015",
+            "EFTA01363123",
+            "EFTA01363125"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "Roth IRA",
+          "count": 36,
+          "docs": 19,
+          "sample_doc_ids": [
+            "EFTA01268275",
+            "EFTA01268279",
+            "EFTA01268283",
+            "EFTA01268291",
+            "EFTA01268357"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "Information",
+          "count": 18,
+          "docs": 18,
+          "sample_doc_ids": [
+            "EFTA01268324",
+            "EFTA01367924",
+            "EFTA01375156",
+            "EFTA01375158",
+            "EFTA01375160"
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "Jeffrey E Epstein",
+          "count": 18,
+          "docs": 18,
+          "sample_doc_ids": [
+            "EFTA01362180",
+            "EFTA01367532",
+            "EFTA01401367",
+            "EFTA01406024",
+            "EFTA01411753"
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "Shipper",
+          "count": 17,
+          "docs": 16,
+          "sample_doc_ids": [
+            "EFTA01313406",
+            "EFTA01313866",
+            "EFTA01314970",
+            "EFTA01315028",
+            "EFTA01315576"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "Bank-to-Bank Information",
+          "count": 168,
+          "docs": 15,
+          "sample_doc_ids": [
+            "EFTA01273059",
+            "EFTA01273079",
+            "EFTA01273082",
+            "EFTA01273089",
+            "EFTA01273102"
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "IRAs where the",
+          "count": 15,
+          "docs": 15,
+          "sample_doc_ids": [
+            "EFTA01268275",
+            "EFTA01268279",
+            "EFTA01268283",
+            "EFTA01268360",
+            "EFTA01268363"
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "Name",
+          "count": 14,
+          "docs": 14,
+          "sample_doc_ids": [
+            "EFTA01334267",
+            "EFTA01356614",
+            "EFTA01359812",
+            "EFTA01399653",
+            "EFTA01399658"
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "Please call Bella Klein if you have any questions",
+          "count": 8,
+          "docs": 8,
+          "sample_doc_ids": [
+            "EFTA01357301",
+            "EFTA01358037",
+            "EFTA01359198",
+            "EFTA01359880",
+            "EFTA01361009"
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "Martin G. Weinberg, PC",
+          "count": 7,
+          "docs": 7,
+          "sample_doc_ids": [
+            "EFTA01400301",
+            "EFTA01580067",
+            "EFTA01580113",
+            "EFTA01580164",
+            "EFTA01580297"
+          ]
+        },
+        {
+          "rank": 15,
+          "text": "NES LLC",
+          "count": 7,
+          "docs": 7,
+          "sample_doc_ids": [
+            "EFTA01580108",
+            "EFTA01580160",
+            "EFTA01580252",
+            "EFTA01580362",
+            "EFTA01580398"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "Address",
+          "count": 6,
+          "docs": 6,
+          "sample_doc_ids": [
+            "EFTA01404360",
+            "EFTA01579893",
+            "EFTA01579905",
+            "EFTA01580048",
+            "EFTA01581619"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "THE RITZ-CARLTON CLUB, ST. THOMAS",
+          "count": 7,
+          "docs": 5,
+          "sample_doc_ids": [
+            "EFTA01293126",
+            "EFTA01346745",
+            "EFTA01346768",
+            "EFTA01346783",
+            "EFTA01376463"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": "Account it",
+          "count": 5,
+          "docs": 5,
+          "sample_doc_ids": [
+            "EFTA01580200",
+            "EFTA01580205",
+            "EFTA01580273",
+            "EFTA01580426",
+            "EFTA01589976"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "EteeNeni",
+          "count": 5,
+          "docs": 5,
+          "sample_doc_ids": [
+            "EFTA01357143",
+            "EFTA01358490",
+            "EFTA01362837",
+            "EFTA01370670",
+            "EFTA01371646"
+          ]
+        },
+        {
+          "rank": 20,
+          "text": "If EVA ANDERSSON DUBIN",
+          "count": 5,
+          "docs": 5,
+          "sample_doc_ids": [
+            "EFTA01266359",
+            "EFTA01266380",
+            "EFTA01266403",
+            "EFTA01266434",
+            "EFTA01266457"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "beneficiary",
+      "page": 2,
+      "title": "DS10 financial — Wire-transfer beneficiaries (page 2)",
+      "subtitle": "158464 DS10 docs scanned · 449 unique values",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "Tonja Haddad PA Trust Account",
+          "count": 5,
+          "docs": 5,
+          "sample_doc_ids": [
+            "EFTA01580090",
+            "EFTA01580110",
+            "EFTA01580333",
+            "EFTA01580448",
+            "EFTA01589668"
+          ]
+        },
+        {
+          "rank": 22,
+          "text": "Amount Description",
+          "count": 5,
+          "docs": 4,
+          "sample_doc_ids": [
+            "EFTA01325288",
+            "EFTA01325289",
+            "EFTA01325291",
+            "EFTA01333088"
+          ]
+        },
+        {
+          "rank": 23,
+          "text": "ARS Export Supply",
+          "count": 4,
+          "docs": 4,
+          "sample_doc_ids": [
+            "EFTA01580378",
+            "EFTA01580407",
+            "EFTA01580432",
+            "EFTA01580473"
+          ]
+        },
+        {
+          "rank": 24,
+          "text": "Account t",
+          "count": 4,
+          "docs": 4,
+          "sample_doc_ids": [
+            "EFTA01583486",
+            "EFTA01583738",
+            "EFTA01583842",
+            "EFTA01584924"
+          ]
+        },
+        {
+          "rank": 25,
+          "text": "Bank ABA",
+          "count": 4,
+          "docs": 4,
+          "sample_doc_ids": [
+            "EFTA01579007",
+            "EFTA01579905",
+            "EFTA01579934",
+            "EFTA01591892"
+          ]
+        },
+        {
+          "rank": 26,
+          "text": "Commerce National Bank",
+          "count": 4,
+          "docs": 4,
+          "sample_doc_ids": [
+            "EFTA01578873",
+            "EFTA01578939",
+            "EFTA01578978",
+            "EFTA01579014"
+          ]
+        },
+        {
+          "rank": 27,
+          "text": "International Jet Interiors Inc",
+          "count": 4,
+          "docs": 4,
+          "sample_doc_ids": [
+            "EFTA01580123",
+            "EFTA01580198",
+            "EFTA01580211",
+            "EFTA01589586"
+          ]
+        },
+        {
+          "rank": 28,
+          "text": "Ion Nicola",
+          "count": 4,
+          "docs": 4,
+          "sample_doc_ids": [
+            "EFTA01580163",
+            "EFTA01580191",
+            "EFTA01580401",
+            "EFTA01590006"
+          ]
+        },
+        {
+          "rank": 29,
+          "text": "JEGE Inc",
+          "count": 4,
+          "docs": 4,
+          "sample_doc_ids": [
+            "EFTA01578854",
+            "EFTA01580292",
+            "EFTA01580459",
+            "EFTA01590148"
+          ]
+        },
+        {
+          "rank": 30,
+          "text": "Neptune LLC",
+          "count": 4,
+          "docs": 4,
+          "sample_doc_ids": [
+            "EFTA01578852",
+            "EFTA01580066",
+            "EFTA01580186",
+            "EFTA01580305"
+          ]
+        },
+        {
+          "rank": 31,
+          "text": "Southern Trust Company, Inc",
+          "count": 4,
+          "docs": 4,
+          "sample_doc_ids": [
+            "EFTA01580217",
+            "EFTA01580357",
+            "EFTA01588562",
+            "EFTA01589970"
+          ]
+        },
+        {
+          "rank": 32,
+          "text": "Amount",
+          "count": 4,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01325290",
+            "EFTA01333086",
+            "EFTA01682426"
+          ]
+        },
+        {
+          "rank": 33,
+          "text": "The Order Of",
+          "count": 4,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01281143",
+            "EFTA01293650",
+            "EFTA01293710"
+          ]
+        },
+        {
+          "rank": 34,
+          "text": "Amar Siad",
+          "count": 3,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01360218",
+            "EFTA01361043",
+            "EFTA01361122"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "Any attempted",
+          "count": 3,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01266134",
+            "EFTA01266168",
+            "EFTA01266457"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "Any attempted pledge",
+          "count": 3,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01266359",
+            "EFTA01266380",
+            "EFTA01266403"
+          ]
+        },
+        {
+          "rank": 37,
+          "text": "Clause 4. Term",
+          "count": 3,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01741746",
+            "EFTA01741763",
+            "EFTA01741825"
+          ]
+        },
+        {
+          "rank": 38,
+          "text": "Darren K Indyke PLLC",
+          "count": 3,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01580334",
+            "EFTA01580423",
+            "EFTA01580444"
+          ]
+        },
+        {
+          "rank": 39,
+          "text": "HBRK Associates Inc",
+          "count": 3,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01580097",
+            "EFTA01580316",
+            "EFTA01580424"
+          ]
+        },
+        {
+          "rank": 40,
+          "text": "Hyperion Air",
+          "count": 3,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01580139",
+            "EFTA01580458",
+            "EFTA01589719"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "beneficiary",
+      "page": 3,
+      "title": "DS10 financial — Wire-transfer beneficiaries (page 3)",
+      "subtitle": "158464 DS10 docs scanned · 449 unique values",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "Kellerhals Ferguson Fletcher Krobli",
+          "count": 3,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01580170",
+            "EFTA01580383",
+            "EFTA01590018"
+          ]
+        },
+        {
+          "rank": 42,
+          "text": "Priority",
+          "count": 3,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01414299",
+            "EFTA01414308",
+            "EFTA01427380"
+          ]
+        },
+        {
+          "rank": 43,
+          "text": "Recipient",
+          "count": 3,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01317319",
+            "EFTA01317401",
+            "EFTA01318286"
+          ]
+        },
+        {
+          "rank": 44,
+          "text": "Thon-US Beneficial Owner Name",
+          "count": 3,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01369662",
+            "EFTA01370175",
+            "EFTA01460216"
+          ]
+        },
+        {
+          "rank": 45,
+          "text": "Troutman Sanders LLP",
+          "count": 3,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01580209",
+            "EFTA01580395",
+            "EFTA01580430"
+          ]
+        },
+        {
+          "rank": 46,
+          "text": "Western Surety Company",
+          "count": 3,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01584000",
+            "EFTA01584051",
+            "EFTA01595035"
+          ]
+        },
+        {
+          "rank": 47,
+          "text": "World Fuel Services",
+          "count": 3,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01404888",
+            "EFTA01580222",
+            "EFTA01589760"
+          ]
+        },
+        {
+          "rank": 48,
+          "text": "Zorro Development Corp",
+          "count": 3,
+          "docs": 3,
+          "sample_doc_ids": [
+            "EFTA01580278",
+            "EFTA01580365",
+            "EFTA01580388"
+          ]
+        },
+        {
+          "rank": 49,
+          "text": "F T REAL ESTATE, INC",
+          "count": 4,
+          "docs": 2,
+          "sample_doc_ids": [
+            "EFTA01273079",
+            "EFTA01273089"
+          ]
+        },
+        {
+          "rank": 50,
+          "text": "AMAR SIAD",
+          "count": 2,
+          "docs": 2,
+          "sample_doc_ids": [
+            "EFTA01366428",
+            "EFTA01368020"
+          ]
+        },
+        {
+          "rank": 51,
+          "text": "ASM DBA Stambaugh Aviation",
+          "count": 2,
+          "docs": 2,
+          "sample_doc_ids": [
+            "EFTA01580205",
+            "EFTA01589735"
+          ]
+        },
+        {
+          "rank": 52,
+          "text": "ATC Lasham Limited",
+          "count": 2,
+          "docs": 2,
+          "sample_doc_ids": [
+            "EFTA01580461",
+            "EFTA01590148"
+          ]
+        },
+        {
+          "rank": 53,
+          "text": "Account It",
+          "count": 2,
+          "docs": 2,
+          "sample_doc_ids": [
+            "EFTA01580163",
+            "EFTA01590154"
+          ]
+        },
+        {
+          "rank": 54,
+          "text": "Account N",
+          "count": 2,
+          "docs": 2,
+          "sample_doc_ids": [
+            "EFTA01580379",
+            "EFTA01580431"
+          ]
+        },
+        {
+          "rank": 55,
+          "text": "Account a",
+          "count": 2,
+          "docs": 2,
+          "sample_doc_ids": [
+            "EFTA01580435",
+            "EFTA01580476"
+          ]
+        },
+        {
+          "rank": 56,
+          "text": "Account ft",
+          "count": 2,
+          "docs": 2,
+          "sample_doc_ids": [
+            "EFTA01580060",
+            "EFTA01580704"
+          ]
+        },
+        {
+          "rank": 57,
+          "text": "Account no",
+          "count": 2,
+          "docs": 2,
+          "sample_doc_ids": [
+            "EFTA01399653",
+            "EFTA01399658"
+          ]
+        },
+        {
+          "rank": 58,
+          "text": "American Export Company",
+          "count": 2,
+          "docs": 2,
+          "sample_doc_ids": [
+            "EFTA01580351",
+            "EFTA01580379"
+          ]
+        },
+        {
+          "rank": 59,
+          "text": "Big Wheel Connection, Inc",
+          "count": 2,
+          "docs": 2,
+          "sample_doc_ids": [
+            "EFTA01580131",
+            "EFTA01589604"
+          ]
+        },
+        {
+          "rank": 60,
+          "text": "Bobcat of",
+          "count": 2,
+          "docs": 2,
+          "sample_doc_ids": [
+            "EFTA01589593",
+            "EFTA01589597"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "account_holder",
+      "page": 1,
+      "title": "DS10 financial — Account holder mentions",
+      "subtitle": "158464 DS10 docs scanned · 1456 unique values",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "Wire",
+          "count": 235,
+          "docs": 231,
+          "sample_doc_ids": [
+            "EFTA01350943",
+            "EFTA01399534",
+            "EFTA01400176",
+            "EFTA01400180",
+            "EFTA01400185"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "Signature",
+          "count": 143,
+          "docs": 136,
+          "sample_doc_ids": [
+            "EFTA01305801",
+            "EFTA01305827",
+            "EFTA01305853",
+            "EFTA01305863",
+            "EFTA01305875"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "Date of Invoice",
+          "count": 746,
+          "docs": 123,
+          "sample_doc_ids": [
+            "EFTA01305801",
+            "EFTA01305815",
+            "EFTA01305827",
+            "EFTA01305841",
+            "EFTA01305853"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "Jeffrey E Epstein",
+          "count": 112,
+          "docs": 112,
+          "sample_doc_ids": [
+            "EFTA01269485",
+            "EFTA01350943",
+            "EFTA01357199",
+            "EFTA01357283",
+            "EFTA01357285"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "JEFFREY E EPSTEIN",
+          "count": 526,
+          "docs": 96,
+          "sample_doc_ids": [
+            "EFTA01305801",
+            "EFTA01305815",
+            "EFTA01305827",
+            "EFTA01305841",
+            "EFTA01305853"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "American Export Company",
+          "count": 94,
+          "docs": 94,
+          "sample_doc_ids": [
+            "EFTA01578643",
+            "EFTA01578650",
+            "EFTA01578782",
+            "EFTA01578799",
+            "EFTA01578839"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "Check",
+          "count": 73,
+          "docs": 72,
+          "sample_doc_ids": [
+            "EFTA01400224",
+            "EFTA01400310",
+            "EFTA01400517",
+            "EFTA01400519",
+            "EFTA01400565"
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "Jeffrey Epstein",
+          "count": 70,
+          "docs": 67,
+          "sample_doc_ids": [
+            "EFTA01268751",
+            "EFTA01268890",
+            "EFTA01282195",
+            "EFTA01282264",
+            "EFTA01283088"
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "JEFFREY EPSTEIN",
+          "count": 334,
+          "docs": 64,
+          "sample_doc_ids": [
+            "EFTA01283176",
+            "EFTA01283188",
+            "EFTA01283228",
+            "EFTA01283242",
+            "EFTA01283254"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "Deutsche Bank",
+          "count": 69,
+          "docs": 55,
+          "sample_doc_ids": [
+            "EFTA01358408",
+            "EFTA01359989",
+            "EFTA01362057",
+            "EFTA01362058",
+            "EFTA01362097"
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "Account Number",
+          "count": 56,
+          "docs": 55,
+          "sample_doc_ids": [
+            "EFTA01310213",
+            "EFTA01310832",
+            "EFTA01316207",
+            "EFTA01356964",
+            "EFTA01357084"
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "NES. LLC",
+          "count": 39,
+          "docs": 39,
+          "sample_doc_ids": [
+            "EFTA01358051",
+            "EFTA01358122",
+            "EFTA01358314",
+            "EFTA01360305",
+            "EFTA01360541"
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "Deutsche Bank AG, London Branch",
+          "count": 40,
+          "docs": 36,
+          "sample_doc_ids": [
+            "EFTA01356857",
+            "EFTA01365742",
+            "EFTA01365790",
+            "EFTA01365942",
+            "EFTA01370621"
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "Southern Trust Company, Inc",
+          "count": 39,
+          "docs": 35,
+          "sample_doc_ids": [
+            "EFTA01282264",
+            "EFTA01283800",
+            "EFTA01283935",
+            "EFTA01295042",
+            "EFTA01299082"
+          ]
+        },
+        {
+          "rank": 15,
+          "text": "NES, LLC",
+          "count": 34,
+          "docs": 34,
+          "sample_doc_ids": [
+            "EFTA01283911",
+            "EFTA01283998",
+            "EFTA01368982",
+            "EFTA01369052",
+            "EFTA01369171"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "Title",
+          "count": 47,
+          "docs": 33,
+          "sample_doc_ids": [
+            "EFTA01282415",
+            "EFTA01359560",
+            "EFTA01360769",
+            "EFTA01360770",
+            "EFTA01372302"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "Jeffrey E",
+          "count": 32,
+          "docs": 32,
+          "sample_doc_ids": [
+            "EFTA01374797",
+            "EFTA01379836",
+            "EFTA01380460",
+            "EFTA01400224",
+            "EFTA01400265"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": "Atterbury, Goldberger, Richardson & Weiss",
+          "count": 31,
+          "docs": 31,
+          "sample_doc_ids": [
+            "EFTA01578746",
+            "EFTA01578748",
+            "EFTA01578832",
+            "EFTA01578969",
+            "EFTA01579029"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "Caricement",
+          "count": 28,
+          "docs": 28,
+          "sample_doc_ids": [
+            "EFTA01579012",
+            "EFTA01579094",
+            "EFTA01579101",
+            "EFTA01580005",
+            "EFTA01581116"
+          ]
+        },
+        {
+          "rank": 20,
+          "text": "Michael J. Glidden Inc",
+          "count": 28,
+          "docs": 28,
+          "sample_doc_ids": [
+            "EFTA01578642",
+            "EFTA01578927",
+            "EFTA01578986",
+            "EFTA01579018",
+            "EFTA01579052"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "account_holder",
+      "page": 2,
+      "title": "DS10 financial — Account holder mentions (page 2)",
+      "subtitle": "158464 DS10 docs scanned · 1456 unique values",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "HBRK Associates Inc",
+          "count": 24,
+          "docs": 24,
+          "sample_doc_ids": [
+            "EFTA01357412",
+            "EFTA01372231",
+            "EFTA01376936",
+            "EFTA01383627",
+            "EFTA01384824"
+          ]
+        },
+        {
+          "rank": 22,
+          "text": "PMW Bulletin",
+          "count": 23,
+          "docs": 23,
+          "sample_doc_ids": [
+            "EFTA01732189",
+            "EFTA01732301",
+            "EFTA01732388",
+            "EFTA01732422",
+            "EFTA01732572"
+          ]
+        },
+        {
+          "rank": 23,
+          "text": "PWMUS AMLKYC",
+          "count": 23,
+          "docs": 23,
+          "sample_doc_ids": [
+            "EFTA01297236",
+            "EFTA01299252",
+            "EFTA01299262",
+            "EFTA01299264",
+            "EFTA01299277"
+          ]
+        },
+        {
+          "rank": 24,
+          "text": "Ghislaine Maxwell",
+          "count": 55,
+          "docs": 22,
+          "sample_doc_ids": [
+            "EFTA01324812",
+            "EFTA01577747",
+            "EFTA01577791",
+            "EFTA01577831",
+            "EFTA01577873"
+          ]
+        },
+        {
+          "rank": 25,
+          "text": "JEFFREY FPSTFIN",
+          "count": 43,
+          "docs": 22,
+          "sample_doc_ids": [
+            "EFTA01283164",
+            "EFTA01283188",
+            "EFTA01283202",
+            "EFTA01283216",
+            "EFTA01283228"
+          ]
+        },
+        {
+          "rank": 26,
+          "text": "Fleur du",
+          "count": 19,
+          "docs": 19,
+          "sample_doc_ids": [
+            "EFTA01732739",
+            "EFTA01733459",
+            "EFTA01748582",
+            "EFTA01782604",
+            "EFTA01783216"
+          ]
+        },
+        {
+          "rank": 27,
+          "text": "NYSE Arca",
+          "count": 19,
+          "docs": 19,
+          "sample_doc_ids": [
+            "EFTA01294867",
+            "EFTA01294869",
+            "EFTA01299210",
+            "EFTA01299211",
+            "EFTA01299250"
+          ]
+        },
+        {
+          "rank": 28,
+          "text": "Southern Trust Company Inc",
+          "count": 20,
+          "docs": 18,
+          "sample_doc_ids": [
+            "EFTA01282195",
+            "EFTA01282797",
+            "EFTA01283126",
+            "EFTA01355848",
+            "EFTA01355850"
+          ]
+        },
+        {
+          "rank": 29,
+          "text": "The undersigned hereby authorizes",
+          "count": 18,
+          "docs": 18,
+          "sample_doc_ids": [
+            "EFTA01282414",
+            "EFTA01282500",
+            "EFTA01282815",
+            "EFTA01298685",
+            "EFTA01298734"
+          ]
+        },
+        {
+          "rank": 30,
+          "text": "MARTIN GOLICK",
+          "count": 70,
+          "docs": 17,
+          "sample_doc_ids": [
+            "EFTA01310335",
+            "EFTA01310347",
+            "EFTA01310369",
+            "EFTA01310375",
+            "EFTA01311539"
+          ]
+        },
+        {
+          "rank": 31,
+          "text": "NYSE Arca. Respondents are",
+          "count": 32,
+          "docs": 17,
+          "sample_doc_ids": [
+            "EFTA01295991",
+            "EFTA01296234",
+            "EFTA01297264",
+            "EFTA01298590",
+            "EFTA01299286"
+          ]
+        },
+        {
+          "rank": 32,
+          "text": "JEFFFIFY FPSTFIN",
+          "count": 31,
+          "docs": 17,
+          "sample_doc_ids": [
+            "EFTA01283164",
+            "EFTA01283202",
+            "EFTA01283228",
+            "EFTA01283242",
+            "EFTA01283254"
+          ]
+        },
+        {
+          "rank": 33,
+          "text": "JEGE, LLC",
+          "count": 17,
+          "docs": 17,
+          "sample_doc_ids": [
+            "EFTA01357123",
+            "EFTA01358120",
+            "EFTA01368608",
+            "EFTA01368787",
+            "EFTA01368955"
+          ]
+        },
+        {
+          "rank": 34,
+          "text": "Limited Partners investing",
+          "count": 17,
+          "docs": 17,
+          "sample_doc_ids": [
+            "EFTA01354106",
+            "EFTA01354537",
+            "EFTA01354955",
+            "EFTA01355141",
+            "EFTA01364620"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "Neptune, LLC",
+          "count": 17,
+          "docs": 17,
+          "sample_doc_ids": [
+            "EFTA01367528",
+            "EFTA01368981",
+            "EFTA01369007",
+            "EFTA01370806",
+            "EFTA01370810"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "Please Describe",
+          "count": 42,
+          "docs": 16,
+          "sample_doc_ids": [
+            "EFTA01360425",
+            "EFTA01360426",
+            "EFTA01360433",
+            "EFTA01360434",
+            "EFTA01365147"
+          ]
+        },
+        {
+          "rank": 37,
+          "text": "Jeffrey E. Epstein",
+          "count": 20,
+          "docs": 16,
+          "sample_doc_ids": [
+            "EFTA01365858",
+            "EFTA01367488",
+            "EFTA01374954",
+            "EFTA01379279",
+            "EFTA01380998"
+          ]
+        },
+        {
+          "rank": 38,
+          "text": "Pro Concrete Pumping",
+          "count": 16,
+          "docs": 16,
+          "sample_doc_ids": [
+            "EFTA01579096",
+            "EFTA01579098",
+            "EFTA01581115",
+            "EFTA01581164",
+            "EFTA01581220"
+          ]
+        },
+        {
+          "rank": 39,
+          "text": "TheBranch Staff",
+          "count": 16,
+          "docs": 16,
+          "sample_doc_ids": [
+            "EFTA01345397",
+            "EFTA01345398",
+            "EFTA01345415",
+            "EFTA01345466",
+            "EFTA01345478"
+          ]
+        },
+        {
+          "rank": 40,
+          "text": "Gratitude America, Ltd",
+          "count": 17,
+          "docs": 15,
+          "sample_doc_ids": [
+            "EFTA01282092",
+            "EFTA01284048",
+            "EFTA01295555",
+            "EFTA01345195",
+            "EFTA01345270"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "account_holder",
+      "page": 3,
+      "title": "DS10 financial — Account holder mentions (page 3)",
+      "subtitle": "158464 DS10 docs scanned · 1456 unique values",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "Name",
+          "count": 16,
+          "docs": 15,
+          "sample_doc_ids": [
+            "EFTA01294852",
+            "EFTA01298052",
+            "EFTA01298462",
+            "EFTA01298809",
+            "EFTA01298890"
+          ]
+        },
+        {
+          "rank": 42,
+          "text": "Amlcompliance Inquiries",
+          "count": 15,
+          "docs": 15,
+          "sample_doc_ids": [
+            "EFTA01360489",
+            "EFTA01368675",
+            "EFTA01369017",
+            "EFTA01369480",
+            "EFTA01370960"
+          ]
+        },
+        {
+          "rank": 43,
+          "text": "TSG Technologies, Inc",
+          "count": 15,
+          "docs": 15,
+          "sample_doc_ids": [
+            "EFTA01578519",
+            "EFTA01580016",
+            "EFTA01580033",
+            "EFTA01581138",
+            "EFTA01581181"
+          ]
+        },
+        {
+          "rank": 44,
+          "text": "Gerald Barton",
+          "count": 14,
+          "docs": 14,
+          "sample_doc_ids": [
+            "EFTA01765597",
+            "EFTA01765653",
+            "EFTA01767115",
+            "EFTA01777682",
+            "EFTA01778484"
+          ]
+        },
+        {
+          "rank": 45,
+          "text": "Pro-Tekt Services Inc",
+          "count": 14,
+          "docs": 14,
+          "sample_doc_ids": [
+            "EFTA01578784",
+            "EFTA01578985",
+            "EFTA01580809",
+            "EFTA01581104",
+            "EFTA01581539"
+          ]
+        },
+        {
+          "rank": 46,
+          "text": "Southern Financial LLC",
+          "count": 14,
+          "docs": 14,
+          "sample_doc_ids": [
+            "EFTA01350645",
+            "EFTA01350648",
+            "EFTA01355783",
+            "EFTA01360432",
+            "EFTA01365154"
+          ]
+        },
+        {
+          "rank": 47,
+          "text": "JFFFRFY FPSTFIN",
+          "count": 25,
+          "docs": 13,
+          "sample_doc_ids": [
+            "EFTA01283216",
+            "EFTA01283228",
+            "EFTA01283242",
+            "EFTA01283270",
+            "EFTA01283322"
+          ]
+        },
+        {
+          "rank": 48,
+          "text": "Southern Financial, LLC",
+          "count": 15,
+          "docs": 13,
+          "sample_doc_ids": [
+            "EFTA01283800",
+            "EFTA01283881",
+            "EFTA01283935",
+            "EFTA01299082",
+            "EFTA01355652"
+          ]
+        },
+        {
+          "rank": 49,
+          "text": "Karyna Shul",
+          "count": 13,
+          "docs": 13,
+          "sample_doc_ids": [
+            "EFTA01377591",
+            "EFTA01379026",
+            "EFTA01379343",
+            "EFTA01379827",
+            "EFTA01414064"
+          ]
+        },
+        {
+          "rank": 50,
+          "text": "One Clearlake Centre, LLC",
+          "count": 13,
+          "docs": 13,
+          "sample_doc_ids": [
+            "EFTA01578739",
+            "EFTA01579022",
+            "EFTA01579288",
+            "EFTA01580011",
+            "EFTA01580091"
+          ]
+        },
+        {
+          "rank": 51,
+          "text": "Product Family",
+          "count": 13,
+          "docs": 13,
+          "sample_doc_ids": [
+            "EFTA01368889",
+            "EFTA01372545",
+            "EFTA01376787",
+            "EFTA01378370",
+            "EFTA01380131"
+          ]
+        },
+        {
+          "rank": 52,
+          "text": "The Haze Trust",
+          "count": 17,
+          "docs": 12,
+          "sample_doc_ids": [
+            "EFTA01282866",
+            "EFTA01294910",
+            "EFTA01372534",
+            "EFTA01384068",
+            "EFTA01441270"
+          ]
+        },
+        {
+          "rank": 53,
+          "text": "LMT International",
+          "count": 12,
+          "docs": 12,
+          "sample_doc_ids": [
+            "EFTA01581101",
+            "EFTA01581251",
+            "EFTA01581288",
+            "EFTA01589410",
+            "EFTA01590937"
+          ]
+        },
+        {
+          "rank": 54,
+          "text": "EPSTEIN, placed",
+          "count": 30,
+          "docs": 11,
+          "sample_doc_ids": [
+            "EFTA01262805",
+            "EFTA01262829",
+            "EFTA01262863",
+            "EFTA01262900",
+            "EFTA01262965"
+          ]
+        },
+        {
+          "rank": 55,
+          "text": "Date of Invoke",
+          "count": 18,
+          "docs": 11,
+          "sample_doc_ids": [
+            "EFTA01309657",
+            "EFTA01309683",
+            "EFTA01309735",
+            "EFTA01310033",
+            "EFTA01310045"
+          ]
+        },
+        {
+          "rank": 56,
+          "text": "Butterfly Trust",
+          "count": 11,
+          "docs": 11,
+          "sample_doc_ids": [
+            "EFTA01353396",
+            "EFTA01359173",
+            "EFTA01372802",
+            "EFTA01377864",
+            "EFTA01378943"
+          ]
+        },
+        {
+          "rank": 57,
+          "text": "Gary Kerney",
+          "count": 11,
+          "docs": 11,
+          "sample_doc_ids": [
+            "EFTA01578762",
+            "EFTA01585041",
+            "EFTA01585391",
+            "EFTA01587623",
+            "EFTA01589362"
+          ]
+        },
+        {
+          "rank": 58,
+          "text": "Pershin LLC",
+          "count": 11,
+          "docs": 11,
+          "sample_doc_ids": [
+            "EFTA01344157",
+            "EFTA01344162",
+            "EFTA01344174",
+            "EFTA01344179",
+            "EFTA01344184"
+          ]
+        },
+        {
+          "rank": 59,
+          "text": "Zorro Development Corp",
+          "count": 11,
+          "docs": 11,
+          "sample_doc_ids": [
+            "EFTA01294880",
+            "EFTA01358500",
+            "EFTA01361494",
+            "EFTA01371314",
+            "EFTA01376951"
+          ]
+        },
+        {
+          "rank": 60,
+          "text": "Ben Goertzel",
+          "count": 10,
+          "docs": 10,
+          "sample_doc_ids": [
+            "EFTA01766020",
+            "EFTA01777081",
+            "EFTA01777305",
+            "EFTA01777318",
+            "EFTA01777445"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "entity",
+      "page": 1,
+      "title": "DS10 financial — Counterparty entities (LLC / Inc / Corp / Trust)",
+      "subtitle": "158464 DS10 docs scanned · 24042 unique values",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "Deutsche Bank Securities Inc",
+          "count": 10362,
+          "docs": 7622,
+          "sample_doc_ids": [
+            "EFTA01282345",
+            "EFTA01282367",
+            "EFTA01282376",
+            "EFTA01282402",
+            "EFTA01282412"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "SOUTHERN FINANCIAL LLC",
+          "count": 5181,
+          "docs": 3543,
+          "sample_doc_ids": [
+            "EFTA01265973",
+            "EFTA01265978",
+            "EFTA01268271",
+            "EFTA01268275",
+            "EFTA01268279"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "Deutsche Bank Trust",
+          "count": 5540,
+          "docs": 3200,
+          "sample_doc_ids": [
+            "EFTA01265978",
+            "EFTA01282009",
+            "EFTA01282012",
+            "EFTA01282015",
+            "EFTA01282345"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "Richard Kahn HBRK Associates Inc",
+          "count": 4492,
+          "docs": 3040,
+          "sample_doc_ids": [
+            "EFTA01268343",
+            "EFTA01268345",
+            "EFTA01268347",
+            "EFTA01268370",
+            "EFTA01268391"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "Key Client Partners",
+          "count": 2904,
+          "docs": 2254,
+          "sample_doc_ids": [
+            "EFTA01297869",
+            "EFTA01343976",
+            "EFTA01344109",
+            "EFTA01344234",
+            "EFTA01344455"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "Underlying Fund",
+          "count": 15008,
+          "docs": 2158,
+          "sample_doc_ids": [
+            "EFTA01353728",
+            "EFTA01353730",
+            "EFTA01353731",
+            "EFTA01353732",
+            "EFTA01353733"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "Limited Partners",
+          "count": 6854,
+          "docs": 2095,
+          "sample_doc_ids": [
+            "EFTA01273265",
+            "EFTA01353751",
+            "EFTA01353752",
+            "EFTA01353753",
+            "EFTA01353756"
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "J.P. Morgan Securities LLC",
+          "count": 2384,
+          "docs": 1967,
+          "sample_doc_ids": [
+            "EFTA01298891",
+            "EFTA01300739",
+            "EFTA01340298",
+            "EFTA01340325",
+            "EFTA01344083"
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "Tang Distributors Inc",
+          "count": 3818,
+          "docs": 1921,
+          "sample_doc_ids": [
+            "EFTA01482353",
+            "EFTA01482361",
+            "EFTA01482371",
+            "EFTA01482380",
+            "EFTA01482389"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "Southern Financial LLC",
+          "count": 4451,
+          "docs": 1912,
+          "sample_doc_ids": [
+            "EFTA01268279",
+            "EFTA01268297",
+            "EFTA01268308",
+            "EFTA01268309",
+            "EFTA01268324"
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "Connecticut Daily Tax Free Income Fund",
+          "count": 1874,
+          "docs": 1874,
+          "sample_doc_ids": [
+            "EFTA01482353",
+            "EFTA01482361",
+            "EFTA01482371",
+            "EFTA01482389",
+            "EFTA01482398"
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "New Jersey Daily Municipal Income Fund",
+          "count": 1870,
+          "docs": 1870,
+          "sample_doc_ids": [
+            "EFTA01482353",
+            "EFTA01482361",
+            "EFTA01482371",
+            "EFTA01482380",
+            "EFTA01482389"
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "J.P. Morgan Securities Inc",
+          "count": 2491,
+          "docs": 1834,
+          "sample_doc_ids": [
+            "EFTA01299930",
+            "EFTA01340307",
+            "EFTA01369983",
+            "EFTA01374473",
+            "EFTA01386076"
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "Deutsche Bank Group",
+          "count": 2499,
+          "docs": 1662,
+          "sample_doc_ids": [
+            "EFTA01297271",
+            "EFTA01298260",
+            "EFTA01298802",
+            "EFTA01299277",
+            "EFTA01299279"
+          ]
+        },
+        {
+          "rank": 15,
+          "text": "Access Fund",
+          "count": 15843,
+          "docs": 1470,
+          "sample_doc_ids": [
+            "EFTA01353728",
+            "EFTA01353764",
+            "EFTA01353789",
+            "EFTA01353796",
+            "EFTA01353797"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "Securities Inc",
+          "count": 1835,
+          "docs": 1459,
+          "sample_doc_ids": [
+            "EFTA01297029",
+            "EFTA01297869",
+            "EFTA01344159",
+            "EFTA01344188",
+            "EFTA01344560"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "Federal Deposit Insurance Corporation",
+          "count": 1655,
+          "docs": 1431,
+          "sample_doc_ids": [
+            "EFTA01265318",
+            "EFTA01282345",
+            "EFTA01282367",
+            "EFTA01282416",
+            "EFTA01282501"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": "Assistant Vice President Deutsche Bank Trust",
+          "count": 2045,
+          "docs": 1316,
+          "sample_doc_ids": [
+            "EFTA01296105",
+            "EFTA01297231",
+            "EFTA01297236",
+            "EFTA01299256",
+            "EFTA01299260"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "J.P. Morgan Clearing Corp",
+          "count": 1792,
+          "docs": 1237,
+          "sample_doc_ids": [
+            "EFTA01300739",
+            "EFTA01343941",
+            "EFTA01344084",
+            "EFTA01344099",
+            "EFTA01344198"
+          ]
+        },
+        {
+          "rank": 20,
+          "text": "Southern Trust",
+          "count": 2161,
+          "docs": 1145,
+          "sample_doc_ids": [
+            "EFTA01265973",
+            "EFTA01269433",
+            "EFTA01269485",
+            "EFTA01282092",
+            "EFTA01282195"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "entity",
+      "page": 2,
+      "title": "DS10 financial — Counterparty entities (LLC / Inc / Corp / Trust) (page 2)",
+      "subtitle": "158464 DS10 docs scanned · 24042 unique values",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "CAIA Director Deutsche Bank Trust",
+          "count": 1247,
+          "docs": 1082,
+          "sample_doc_ids": [
+            "EFTA01344934",
+            "EFTA01344937",
+            "EFTA01344940",
+            "EFTA01344941",
+            "EFTA01344943"
+          ]
+        },
+        {
+          "rank": 22,
+          "text": "The Fund",
+          "count": 1629,
+          "docs": 926,
+          "sample_doc_ids": [
+            "EFTA01273265",
+            "EFTA01273285",
+            "EFTA01353847",
+            "EFTA01353856",
+            "EFTA01353864"
+          ]
+        },
+        {
+          "rank": 23,
+          "text": "Glendower Capital",
+          "count": 2026,
+          "docs": 857,
+          "sample_doc_ids": [
+            "EFTA01353797",
+            "EFTA01353847",
+            "EFTA01353848",
+            "EFTA01353854",
+            "EFTA01353856"
+          ]
+        },
+        {
+          "rank": 24,
+          "text": "Confirmation. Deutsche Bank Group",
+          "count": 803,
+          "docs": 803,
+          "sample_doc_ids": [
+            "EFTA01344662",
+            "EFTA01364930",
+            "EFTA01368504",
+            "EFTA01376351",
+            "EFTA01378675"
+          ]
+        },
+        {
+          "rank": 25,
+          "text": "Secondary Opportunities Fund IV. LP",
+          "count": 785,
+          "docs": 785,
+          "sample_doc_ids": [
+            "EFTA01353843",
+            "EFTA01353844",
+            "EFTA01353845",
+            "EFTA01353846",
+            "EFTA01353847"
+          ]
+        },
+        {
+          "rank": 26,
+          "text": "Secondary Opportunities Fund",
+          "count": 1235,
+          "docs": 779,
+          "sample_doc_ids": [
+            "EFTA01353728",
+            "EFTA01353729",
+            "EFTA01353841",
+            "EFTA01353847",
+            "EFTA01353851"
+          ]
+        },
+        {
+          "rank": 27,
+          "text": "Amanda Kirby Associate Deutsche Bank Trust",
+          "count": 934,
+          "docs": 720,
+          "sample_doc_ids": [
+            "EFTA01343953",
+            "EFTA01343954",
+            "EFTA01343955",
+            "EFTA01343957",
+            "EFTA01343959"
+          ]
+        },
+        {
+          "rank": 28,
+          "text": "Securities Investor Protection Corp",
+          "count": 703,
+          "docs": 703,
+          "sample_doc_ids": [
+            "EFTA01297189",
+            "EFTA01344341",
+            "EFTA01350845",
+            "EFTA01449612",
+            "EFTA01449649"
+          ]
+        },
+        {
+          "rank": 29,
+          "text": "JPMorgan Bond Fund",
+          "count": 698,
+          "docs": 698,
+          "sample_doc_ids": [
+            "EFTA01482353",
+            "EFTA01482361",
+            "EFTA01482371",
+            "EFTA01482380",
+            "EFTA01482389"
+          ]
+        },
+        {
+          "rank": 30,
+          "text": "Glendower Capital Secondary Opportunities Fund",
+          "count": 1111,
+          "docs": 674,
+          "sample_doc_ids": [
+            "EFTA01353796",
+            "EFTA01353804",
+            "EFTA01353835",
+            "EFTA01353846",
+            "EFTA01353848"
+          ]
+        },
+        {
+          "rank": 31,
+          "text": "BLOOD-HORSE LLC",
+          "count": 671,
+          "docs": 671,
+          "sample_doc_ids": [
+            "EFTA01353360",
+            "EFTA01353539",
+            "EFTA01368779",
+            "EFTA01368780",
+            "EFTA01368782"
+          ]
+        },
+        {
+          "rank": 32,
+          "text": "Financial Trust",
+          "count": 1827,
+          "docs": 649,
+          "sample_doc_ids": [
+            "EFTA01268890",
+            "EFTA01269149",
+            "EFTA01269548",
+            "EFTA01282092",
+            "EFTA01282195"
+          ]
+        },
+        {
+          "rank": 33,
+          "text": "Deutsche Bank. Key Client Partners",
+          "count": 683,
+          "docs": 644,
+          "sample_doc_ids": [
+            "EFTA01353544",
+            "EFTA01356550",
+            "EFTA01357129",
+            "EFTA01358428",
+            "EFTA01358453"
+          ]
+        },
+        {
+          "rank": 34,
+          "text": "Feeder Fund",
+          "count": 1897,
+          "docs": 615,
+          "sample_doc_ids": [
+            "EFTA01300550",
+            "EFTA01353753",
+            "EFTA01353758",
+            "EFTA01353764",
+            "EFTA01353773"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "Alpha Group Capital",
+          "count": 682,
+          "docs": 601,
+          "sample_doc_ids": [
+            "EFTA01268391",
+            "EFTA01268403",
+            "EFTA01268485",
+            "EFTA01268490",
+            "EFTA01369995"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "Butterfly Trust",
+          "count": 1318,
+          "docs": 596,
+          "sample_doc_ids": [
+            "EFTA01281966",
+            "EFTA01282018",
+            "EFTA01282041",
+            "EFTA01282143",
+            "EFTA01282185"
+          ]
+        },
+        {
+          "rank": 37,
+          "text": "JPMorgan Fund",
+          "count": 760,
+          "docs": 559,
+          "sample_doc_ids": [
+            "EFTA01449614",
+            "EFTA01449726",
+            "EFTA01464701",
+            "EFTA01464848",
+            "EFTA01482353"
+          ]
+        },
+        {
+          "rank": 38,
+          "text": "The Access Fund",
+          "count": 814,
+          "docs": 550,
+          "sample_doc_ids": [
+            "EFTA01353796",
+            "EFTA01353804",
+            "EFTA01353805",
+            "EFTA01353807",
+            "EFTA01353808"
+          ]
+        },
+        {
+          "rank": 39,
+          "text": "Contents Account Summary Holdings",
+          "count": 656,
+          "docs": 545,
+          "sample_doc_ids": [
+            "EFTA01350845",
+            "EFTA01464701",
+            "EFTA01464828",
+            "EFTA01464848",
+            "EFTA01529356"
+          ]
+        },
+        {
+          "rank": 40,
+          "text": "Journal Holdings",
+          "count": 541,
+          "docs": 532,
+          "sample_doc_ids": [
+            "EFTA01344146",
+            "EFTA01350943",
+            "EFTA01350950",
+            "EFTA01357216",
+            "EFTA01357219"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "entity",
+      "page": 3,
+      "title": "DS10 financial — Counterparty entities (LLC / Inc / Corp / Trust) (page 3)",
+      "subtitle": "158464 DS10 docs scanned · 24042 unique values",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "FINANCIAL. LLC",
+          "count": 1233,
+          "docs": 527,
+          "sample_doc_ids": [
+            "EFTA01357904",
+            "EFTA01364931",
+            "EFTA01368459",
+            "EFTA01368505",
+            "EFTA01368506"
+          ]
+        },
+        {
+          "rank": 42,
+          "text": "J.P.Morgan Securities LLC",
+          "count": 526,
+          "docs": 526,
+          "sample_doc_ids": [
+            "EFTA01344341",
+            "EFTA01350845",
+            "EFTA01449612",
+            "EFTA01449649",
+            "EFTA01449724"
+          ]
+        },
+        {
+          "rank": 43,
+          "text": "Tax Cost Unrealized Est. Annual Inc",
+          "count": 517,
+          "docs": 517,
+          "sample_doc_ids": [
+            "EFTA01448833",
+            "EFTA01448834",
+            "EFTA01492073",
+            "EFTA01492074",
+            "EFTA01492075"
+          ]
+        },
+        {
+          "rank": 44,
+          "text": "Deutsche Rank Trust",
+          "count": 519,
+          "docs": 512,
+          "sample_doc_ids": [
+            "EFTA01284188",
+            "EFTA01284247",
+            "EFTA01284262",
+            "EFTA01284277",
+            "EFTA01284288"
+          ]
+        },
+        {
+          "rank": 45,
+          "text": "May Lose Value Fund",
+          "count": 490,
+          "docs": 490,
+          "sample_doc_ids": [
+            "EFTA01350845",
+            "EFTA01449612",
+            "EFTA01449649",
+            "EFTA01449724",
+            "EFTA01464701"
+          ]
+        },
+        {
+          "rank": 46,
+          "text": "NES LLC",
+          "count": 797,
+          "docs": 486,
+          "sample_doc_ids": [
+            "EFTA01292738",
+            "EFTA01292798",
+            "EFTA01293126",
+            "EFTA01293176",
+            "EFTA01293710"
+          ]
+        },
+        {
+          "rank": 47,
+          "text": "IV. LP",
+          "count": 605,
+          "docs": 468,
+          "sample_doc_ids": [
+            "EFTA01353848",
+            "EFTA01353856",
+            "EFTA01353857",
+            "EFTA01353858",
+            "EFTA01353859"
+          ]
+        },
+        {
+          "rank": 48,
+          "text": "Journal All Holdings",
+          "count": 476,
+          "docs": 466,
+          "sample_doc_ids": [
+            "EFTA01344142",
+            "EFTA01350943",
+            "EFTA01350950",
+            "EFTA01356828",
+            "EFTA01357229"
+          ]
+        },
+        {
+          "rank": 49,
+          "text": "Securities Insurance Protection Corporation",
+          "count": 435,
+          "docs": 435,
+          "sample_doc_ids": [
+            "EFTA01344083",
+            "EFTA01350845",
+            "EFTA01449556",
+            "EFTA01449619",
+            "EFTA01449654"
+          ]
+        },
+        {
+          "rank": 50,
+          "text": "Litchford Associate Banker Deutsche Bank Trust",
+          "count": 657,
+          "docs": 431,
+          "sample_doc_ids": [
+            "EFTA01346185",
+            "EFTA01346188",
+            "EFTA01346189",
+            "EFTA01346190",
+            "EFTA01346192"
+          ]
+        },
+        {
+          "rank": 51,
+          "text": "NEW YORK STRATEGY GROUP LLC",
+          "count": 629,
+          "docs": 426,
+          "sample_doc_ids": [
+            "EFTA01295343",
+            "EFTA01295770",
+            "EFTA01296188",
+            "EFTA01296686",
+            "EFTA01297143"
+          ]
+        },
+        {
+          "rank": 52,
+          "text": "Pershing LLC",
+          "count": 1058,
+          "docs": 424,
+          "sample_doc_ids": [
+            "EFTA01282367",
+            "EFTA01282376",
+            "EFTA01282416",
+            "EFTA01282593",
+            "EFTA01282660"
+          ]
+        },
+        {
+          "rank": 53,
+          "text": "NYSG LLC",
+          "count": 671,
+          "docs": 423,
+          "sample_doc_ids": [
+            "EFTA01312563",
+            "EFTA01312568",
+            "EFTA01312633",
+            "EFTA01312636",
+            "EFTA01312679"
+          ]
+        },
+        {
+          "rank": 54,
+          "text": "JSC INTERIORS LLC",
+          "count": 419,
+          "docs": 407,
+          "sample_doc_ids": [
+            "EFTA01282080",
+            "EFTA01285588",
+            "EFTA01285692",
+            "EFTA01285788",
+            "EFTA01286068"
+          ]
+        },
+        {
+          "rank": 55,
+          "text": "HBRK Associates Inc",
+          "count": 509,
+          "docs": 399,
+          "sample_doc_ids": [
+            "EFTA01282044",
+            "EFTA01295105",
+            "EFTA01297231",
+            "EFTA01297269",
+            "EFTA01299248"
+          ]
+        },
+        {
+          "rank": 56,
+          "text": "Equity Fund",
+          "count": 792,
+          "docs": 398,
+          "sample_doc_ids": [
+            "EFTA01365837",
+            "EFTA01482551",
+            "EFTA01482560",
+            "EFTA01482568",
+            "EFTA01482585"
+          ]
+        },
+        {
+          "rank": 57,
+          "text": "Glendower STRICTLY CONFIDENTIAL Capital",
+          "count": 391,
+          "docs": 391,
+          "sample_doc_ids": [
+            "EFTA01353989",
+            "EFTA01353990",
+            "EFTA01353992",
+            "EFTA01353993",
+            "EFTA01354001"
+          ]
+        },
+        {
+          "rank": 58,
+          "text": "J.P.Morgan Clearing Corp",
+          "count": 566,
+          "docs": 388,
+          "sample_doc_ids": [
+            "EFTA01485682",
+            "EFTA01485691",
+            "EFTA01485699",
+            "EFTA01485709",
+            "EFTA01485718"
+          ]
+        },
+        {
+          "rank": 59,
+          "text": "Tax Free Income Fund",
+          "count": 386,
+          "docs": 386,
+          "sample_doc_ids": [
+            "EFTA01482551",
+            "EFTA01482560",
+            "EFTA01482568",
+            "EFTA01482585",
+            "EFTA01482627"
+          ]
+        },
+        {
+          "rank": 60,
+          "text": "JPMorgan California Bond Fund",
+          "count": 384,
+          "docs": 384,
+          "sample_doc_ids": [
+            "EFTA01482551",
+            "EFTA01482560",
+            "EFTA01482627",
+            "EFTA01482681",
+            "EFTA01482824"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "banker",
+      "page": 1,
+      "title": "DS10 financial — JPMorgan banker names",
+      "subtitle": "158464 DS10 docs scanned · 31289 unique values",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "Best, Amanda",
+          "count": 1346,
+          "docs": 1009,
+          "sample_doc_ids": [
+            "EFTA01299239",
+            "EFTA01343928",
+            "EFTA01343929",
+            "EFTA01343930",
+            "EFTA01343931"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "Thursday, October",
+          "count": 1300,
+          "docs": 971,
+          "sample_doc_ids": [
+            "EFTA01268397",
+            "EFTA01279870",
+            "EFTA01299339",
+            "EFTA01333248",
+            "EFTA01334241"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "Checks, Withdrawals",
+          "count": 968,
+          "docs": 913,
+          "sample_doc_ids": [
+            "EFTA01482355",
+            "EFTA01482373",
+            "EFTA01482391",
+            "EFTA01482408",
+            "EFTA01482432"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "Tuesday, October",
+          "count": 1146,
+          "docs": 865,
+          "sample_doc_ids": [
+            "EFTA01268395",
+            "EFTA01268403",
+            "EFTA01269433",
+            "EFTA01299339",
+            "EFTA01300770"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "Monday, March",
+          "count": 1434,
+          "docs": 858,
+          "sample_doc_ids": [
+            "EFTA01300510",
+            "EFTA01300511",
+            "EFTA01305746",
+            "EFTA01345047",
+            "EFTA01345362"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "Monday, October",
+          "count": 1061,
+          "docs": 818,
+          "sample_doc_ids": [
+            "EFTA01268393",
+            "EFTA01279729",
+            "EFTA01297869",
+            "EFTA01299337",
+            "EFTA01300284"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "Monday, April",
+          "count": 1126,
+          "docs": 804,
+          "sample_doc_ids": [
+            "EFTA01268471",
+            "EFTA01344895",
+            "EFTA01344900",
+            "EFTA01344905",
+            "EFTA01344908"
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "Tuesday, April",
+          "count": 1164,
+          "docs": 792,
+          "sample_doc_ids": [
+            "EFTA01300532",
+            "EFTA01344219",
+            "EFTA01344220",
+            "EFTA01344926",
+            "EFTA01345950"
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "Thursday, March",
+          "count": 1236,
+          "docs": 779,
+          "sample_doc_ids": [
+            "EFTA01324976",
+            "EFTA01345057",
+            "EFTA01351793",
+            "EFTA01351795",
+            "EFTA01353255"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "Friday, October",
+          "count": 1079,
+          "docs": 775,
+          "sample_doc_ids": [
+            "EFTA01269433",
+            "EFTA01299302",
+            "EFTA01299330",
+            "EFTA01299334",
+            "EFTA01299337"
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "Wednesday, October",
+          "count": 1025,
+          "docs": 775,
+          "sample_doc_ids": [
+            "EFTA01297236",
+            "EFTA01299252",
+            "EFTA01299330",
+            "EFTA01305746",
+            "EFTA01334281"
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "Tuesday, May",
+          "count": 1092,
+          "docs": 762,
+          "sample_doc_ids": [
+            "EFTA01268334",
+            "EFTA01268473",
+            "EFTA01268476",
+            "EFTA01300572",
+            "EFTA01305746"
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "Friday, January",
+          "count": 1031,
+          "docs": 756,
+          "sample_doc_ids": [
+            "EFTA01263291",
+            "EFTA01300901",
+            "EFTA01345763",
+            "EFTA01345765",
+            "EFTA01345767"
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "Tuesday, March",
+          "count": 1114,
+          "docs": 740,
+          "sample_doc_ids": [
+            "EFTA01263156",
+            "EFTA01300522",
+            "EFTA01305746",
+            "EFTA01324974",
+            "EFTA01324978"
+          ]
+        },
+        {
+          "rank": 15,
+          "text": "Monday, November",
+          "count": 997,
+          "docs": 733,
+          "sample_doc_ids": [
+            "EFTA01268549",
+            "EFTA01268551",
+            "EFTA01268555",
+            "EFTA01268563",
+            "EFTA01268568"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "Tuesday, November",
+          "count": 1011,
+          "docs": 725,
+          "sample_doc_ids": [
+            "EFTA01268415",
+            "EFTA01268555",
+            "EFTA01268683",
+            "EFTA01279946",
+            "EFTA01299339"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "Wednesday, July",
+          "count": 1129,
+          "docs": 724,
+          "sample_doc_ids": [
+            "EFTA01268504",
+            "EFTA01268510",
+            "EFTA01268545",
+            "EFTA01300174",
+            "EFTA01305746"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": "Monday, December",
+          "count": 973,
+          "docs": 723,
+          "sample_doc_ids": [
+            "EFTA01263272",
+            "EFTA01269683",
+            "EFTA01344161",
+            "EFTA01344173",
+            "EFTA01344176"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "Tuesday, December",
+          "count": 1031,
+          "docs": 717,
+          "sample_doc_ids": [
+            "EFTA01268515",
+            "EFTA01268604",
+            "EFTA01268833",
+            "EFTA01269683",
+            "EFTA01279943"
+          ]
+        },
+        {
+          "rank": 20,
+          "text": "Estate, Mineral",
+          "count": 706,
+          "docs": 706,
+          "sample_doc_ids": [
+            "EFTA01350845",
+            "EFTA01464701",
+            "EFTA01464828",
+            "EFTA01464848",
+            "EFTA01464998"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "banker",
+      "page": 2,
+      "title": "DS10 financial — JPMorgan banker names (page 2)",
+      "subtitle": "158464 DS10 docs scanned · 31289 unique values",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "Friday, December",
+          "count": 1010,
+          "docs": 705,
+          "sample_doc_ids": [
+            "EFTA01299256",
+            "EFTA01345361",
+            "EFTA01345756",
+            "EFTA01346057",
+            "EFTA01346058"
+          ]
+        },
+        {
+          "rank": 22,
+          "text": "Tuesday, February",
+          "count": 980,
+          "docs": 698,
+          "sample_doc_ids": [
+            "EFTA01299262",
+            "EFTA01299264",
+            "EFTA01300476",
+            "EFTA01305746",
+            "EFTA01344872"
+          ]
+        },
+        {
+          "rank": 23,
+          "text": "Thursday, July",
+          "count": 1095,
+          "docs": 696,
+          "sample_doc_ids": [
+            "EFTA01263156",
+            "EFTA01265789",
+            "EFTA01305746",
+            "EFTA01308629",
+            "EFTA01345148"
+          ]
+        },
+        {
+          "rank": 24,
+          "text": "Wednesday, February",
+          "count": 943,
+          "docs": 691,
+          "sample_doc_ids": [
+            "EFTA01268427",
+            "EFTA01299256",
+            "EFTA01305746",
+            "EFTA01351482",
+            "EFTA01351485"
+          ]
+        },
+        {
+          "rank": 25,
+          "text": "Monday, July",
+          "count": 974,
+          "docs": 675,
+          "sample_doc_ids": [
+            "EFTA01263156",
+            "EFTA01299260",
+            "EFTA01299930",
+            "EFTA01305746",
+            "EFTA01308629"
+          ]
+        },
+        {
+          "rank": 26,
+          "text": "Tuesday, January",
+          "count": 1008,
+          "docs": 658,
+          "sample_doc_ids": [
+            "EFTA01268420",
+            "EFTA01296105",
+            "EFTA01299256",
+            "EFTA01344804",
+            "EFTA01344805"
+          ]
+        },
+        {
+          "rank": 27,
+          "text": "Fees, Charges",
+          "count": 962,
+          "docs": 650,
+          "sample_doc_ids": [
+            "EFTA01374056",
+            "EFTA01419596",
+            "EFTA01482248",
+            "EFTA01482258",
+            "EFTA01482270"
+          ]
+        },
+        {
+          "rank": 28,
+          "text": "Sales, Maturities",
+          "count": 834,
+          "docs": 650,
+          "sample_doc_ids": [
+            "EFTA01449588",
+            "EFTA01449688",
+            "EFTA01464701",
+            "EFTA01464848",
+            "EFTA01483965"
+          ]
+        },
+        {
+          "rank": 29,
+          "text": "Tuesday, September",
+          "count": 872,
+          "docs": 649,
+          "sample_doc_ids": [
+            "EFTA01268375",
+            "EFTA01268380",
+            "EFTA01269433",
+            "EFTA01300721",
+            "EFTA01305746"
+          ]
+        },
+        {
+          "rank": 30,
+          "text": "Wednesday, January",
+          "count": 858,
+          "docs": 644,
+          "sample_doc_ids": [
+            "EFTA01333488",
+            "EFTA01333923",
+            "EFTA01344934",
+            "EFTA01344937",
+            "EFTA01344942"
+          ]
+        },
+        {
+          "rank": 31,
+          "text": "Friday, November",
+          "count": 901,
+          "docs": 638,
+          "sample_doc_ids": [
+            "EFTA01263272",
+            "EFTA01268683",
+            "EFTA01296395",
+            "EFTA01298799",
+            "EFTA01298802"
+          ]
+        },
+        {
+          "rank": 32,
+          "text": "Thursday, January",
+          "count": 987,
+          "docs": 634,
+          "sample_doc_ids": [
+            "EFTA01299256",
+            "EFTA01299272",
+            "EFTA01305746",
+            "EFTA01333125",
+            "EFTA01344940"
+          ]
+        },
+        {
+          "rank": 33,
+          "text": "Wednesday, April",
+          "count": 892,
+          "docs": 633,
+          "sample_doc_ids": [
+            "EFTA01304453",
+            "EFTA01333125",
+            "EFTA01344902",
+            "EFTA01344903",
+            "EFTA01345950"
+          ]
+        },
+        {
+          "rank": 34,
+          "text": "Monday, May",
+          "count": 867,
+          "docs": 630,
+          "sample_doc_ids": [
+            "EFTA01268341",
+            "EFTA01300587",
+            "EFTA01305746",
+            "EFTA01344930",
+            "EFTA01351584"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "Thursday, April",
+          "count": 808,
+          "docs": 623,
+          "sample_doc_ids": [
+            "EFTA01300562",
+            "EFTA01352730",
+            "EFTA01357619",
+            "EFTA01358103",
+            "EFTA01358522"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "Friday, March",
+          "count": 924,
+          "docs": 620,
+          "sample_doc_ids": [
+            "EFTA01301043",
+            "EFTA01344892",
+            "EFTA01345481",
+            "EFTA01345483",
+            "EFTA01345490"
+          ]
+        },
+        {
+          "rank": 37,
+          "text": "Wednesday, May",
+          "count": 785,
+          "docs": 620,
+          "sample_doc_ids": [
+            "EFTA01268370",
+            "EFTA01268481",
+            "EFTA01268483",
+            "EFTA01268485",
+            "EFTA01268490"
+          ]
+        },
+        {
+          "rank": 38,
+          "text": "Monday, February",
+          "count": 906,
+          "docs": 616,
+          "sample_doc_ids": [
+            "EFTA01263156",
+            "EFTA01299262",
+            "EFTA01299264",
+            "EFTA01299266",
+            "EFTA01300482"
+          ]
+        },
+        {
+          "rank": 39,
+          "text": "Wednesday, November",
+          "count": 855,
+          "docs": 613,
+          "sample_doc_ids": [
+            "EFTA01268555",
+            "EFTA01268662",
+            "EFTA01268664",
+            "EFTA01268667",
+            "EFTA01268671"
+          ]
+        },
+        {
+          "rank": 40,
+          "text": "Thursday, February",
+          "count": 813,
+          "docs": 606,
+          "sample_doc_ids": [
+            "EFTA01299256",
+            "EFTA01324810",
+            "EFTA01344877",
+            "EFTA01344879",
+            "EFTA01351491"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "banker",
+      "page": 3,
+      "title": "DS10 financial — JPMorgan banker names (page 3)",
+      "subtitle": "158464 DS10 docs scanned · 31289 unique values",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "Tuesday, July",
+          "count": 863,
+          "docs": 600,
+          "sample_doc_ids": [
+            "EFTA01305746",
+            "EFTA01308629",
+            "EFTA01345942",
+            "EFTA01345944",
+            "EFTA01352649"
+          ]
+        },
+        {
+          "rank": 42,
+          "text": "Friday, May",
+          "count": 846,
+          "docs": 596,
+          "sample_doc_ids": [
+            "EFTA01268370",
+            "EFTA01268485",
+            "EFTA01268490",
+            "EFTA01353358",
+            "EFTA01354928"
+          ]
+        },
+        {
+          "rank": 43,
+          "text": "Thursday, November",
+          "count": 858,
+          "docs": 588,
+          "sample_doc_ids": [
+            "EFTA01279948",
+            "EFTA01296395",
+            "EFTA01301220",
+            "EFTA01344855",
+            "EFTA01344857"
+          ]
+        },
+        {
+          "rank": 44,
+          "text": "Wednesday, March",
+          "count": 831,
+          "docs": 587,
+          "sample_doc_ids": [
+            "EFTA01301020",
+            "EFTA01344884",
+            "EFTA01344885",
+            "EFTA01344886",
+            "EFTA01344888"
+          ]
+        },
+        {
+          "rank": 45,
+          "text": "Friday, April",
+          "count": 774,
+          "docs": 584,
+          "sample_doc_ids": [
+            "EFTA01305746",
+            "EFTA01333125",
+            "EFTA01356302",
+            "EFTA01357619",
+            "EFTA01358103"
+          ]
+        },
+        {
+          "rank": 46,
+          "text": "Friday, September",
+          "count": 746,
+          "docs": 583,
+          "sample_doc_ids": [
+            "EFTA01279729",
+            "EFTA01297869",
+            "EFTA01304561",
+            "EFTA01308370",
+            "EFTA01334261"
+          ]
+        },
+        {
+          "rank": 47,
+          "text": "Thursday, September",
+          "count": 805,
+          "docs": 582,
+          "sample_doc_ids": [
+            "EFTA01268343",
+            "EFTA01268374",
+            "EFTA01268380",
+            "EFTA01268391",
+            "EFTA01279729"
+          ]
+        },
+        {
+          "rank": 48,
+          "text": "Monday, January",
+          "count": 693,
+          "docs": 565,
+          "sample_doc_ids": [
+            "EFTA01300405",
+            "EFTA01300868",
+            "EFTA01344956",
+            "EFTA01346069",
+            "EFTA01346072"
+          ]
+        },
+        {
+          "rank": 49,
+          "text": "Thursday, December",
+          "count": 712,
+          "docs": 563,
+          "sample_doc_ids": [
+            "EFTA01268515",
+            "EFTA01268604",
+            "EFTA01268662",
+            "EFTA01300377",
+            "EFTA01324971"
+          ]
+        },
+        {
+          "rank": 50,
+          "text": "Monday, September",
+          "count": 699,
+          "docs": 559,
+          "sample_doc_ids": [
+            "EFTA01268397",
+            "EFTA01268409",
+            "EFTA01298260",
+            "EFTA01301174",
+            "EFTA01334281"
+          ]
+        },
+        {
+          "rank": 51,
+          "text": "Fri, Jan",
+          "count": 729,
+          "docs": 556,
+          "sample_doc_ids": [
+            "EFTA01300418",
+            "EFTA01300428",
+            "EFTA01300460",
+            "EFTA01368601",
+            "EFTA01375023"
+          ]
+        },
+        {
+          "rank": 52,
+          "text": "Friday, February",
+          "count": 737,
+          "docs": 553,
+          "sample_doc_ids": [
+            "EFTA01299244",
+            "EFTA01299266",
+            "EFTA01300985",
+            "EFTA01344208",
+            "EFTA01344213"
+          ]
+        },
+        {
+          "rank": 53,
+          "text": "Wednesday, September",
+          "count": 791,
+          "docs": 540,
+          "sample_doc_ids": [
+            "EFTA01267632",
+            "EFTA01268375",
+            "EFTA01269433",
+            "EFTA01279729",
+            "EFTA01300268"
+          ]
+        },
+        {
+          "rank": 54,
+          "text": "Park, Inside",
+          "count": 818,
+          "docs": 538,
+          "sample_doc_ids": [
+            "EFTA01299275",
+            "EFTA01299292",
+            "EFTA01299326",
+            "EFTA01299330",
+            "EFTA01345368"
+          ]
+        },
+        {
+          "rank": 55,
+          "text": "Park, Western",
+          "count": 881,
+          "docs": 529,
+          "sample_doc_ids": [
+            "EFTA01298260",
+            "EFTA01298802",
+            "EFTA01299277",
+            "EFTA01299279",
+            "EFTA01299281"
+          ]
+        },
+        {
+          "rank": 56,
+          "text": "Monday, June",
+          "count": 786,
+          "docs": 522,
+          "sample_doc_ids": [
+            "EFTA01299279",
+            "EFTA01345852",
+            "EFTA01345857",
+            "EFTA01345858",
+            "EFTA01352574"
+          ]
+        },
+        {
+          "rank": 57,
+          "text": "Mon, Jan",
+          "count": 642,
+          "docs": 519,
+          "sample_doc_ids": [
+            "EFTA01300081",
+            "EFTA01300084",
+            "EFTA01300087",
+            "EFTA01300091",
+            "EFTA01300094"
+          ]
+        },
+        {
+          "rank": 58,
+          "text": "Wednesday, December",
+          "count": 628,
+          "docs": 513,
+          "sample_doc_ids": [
+            "EFTA01300069",
+            "EFTA01324978",
+            "EFTA01356281",
+            "EFTA01356522",
+            "EFTA01356541"
+          ]
+        },
+        {
+          "rank": 59,
+          "text": "Friday, July",
+          "count": 775,
+          "docs": 512,
+          "sample_doc_ids": [
+            "EFTA01268504",
+            "EFTA01268510",
+            "EFTA01299260",
+            "EFTA01299330",
+            "EFTA01305746"
+          ]
+        },
+        {
+          "rank": 60,
+          "text": "Thursday, May",
+          "count": 644,
+          "docs": 508,
+          "sample_doc_ids": [
+            "EFTA01268331",
+            "EFTA01268481",
+            "EFTA01299275",
+            "EFTA01299287",
+            "EFTA01299292"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "bank",
+      "page": 1,
+      "title": "DS10 financial — External bank mentions",
+      "subtitle": "158464 DS10 docs scanned · 138 unique values",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "Chase",
+          "count": 82948,
+          "docs": 40210,
+          "sample_doc_ids": [
+            "EFTA01268347",
+            "EFTA01268689",
+            "EFTA01269144",
+            "EFTA01269149",
+            "EFTA01269485"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "JPMorgan",
+          "count": 128748,
+          "docs": 39971,
+          "sample_doc_ids": [
+            "EFTA01265978",
+            "EFTA01282044",
+            "EFTA01282264",
+            "EFTA01283088",
+            "EFTA01283800"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "Deutsche Bank",
+          "count": 96895,
+          "docs": 27073,
+          "sample_doc_ids": [
+            "EFTA01263246",
+            "EFTA01265978",
+            "EFTA01268279",
+            "EFTA01268291",
+            "EFTA01268352"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "JP Morgan",
+          "count": 7624,
+          "docs": 6087,
+          "sample_doc_ids": [
+            "EFTA01268347",
+            "EFTA01282070",
+            "EFTA01283812",
+            "EFTA01283822",
+            "EFTA01283834"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "CHASE",
+          "count": 10379,
+          "docs": 3968,
+          "sample_doc_ids": [
+            "EFTA01265978",
+            "EFTA01266036",
+            "EFTA01266056",
+            "EFTA01266092",
+            "EFTA01266095"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "DEUTSCHE BANK",
+          "count": 6862,
+          "docs": 2936,
+          "sample_doc_ids": [
+            "EFTA01265180",
+            "EFTA01268275",
+            "EFTA01268279",
+            "EFTA01268283",
+            "EFTA01268324"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "JP MORGAN",
+          "count": 8477,
+          "docs": 2702,
+          "sample_doc_ids": [
+            "EFTA01273059",
+            "EFTA01274015",
+            "EFTA01279167",
+            "EFTA01284548",
+            "EFTA01284648"
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "JPMORGAN",
+          "count": 3937,
+          "docs": 2056,
+          "sample_doc_ids": [
+            "EFTA01265978",
+            "EFTA01273059",
+            "EFTA01273102",
+            "EFTA01273155",
+            "EFTA01273198"
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "American Express",
+          "count": 2377,
+          "docs": 938,
+          "sample_doc_ids": [
+            "EFTA01266026",
+            "EFTA01266029",
+            "EFTA01266032",
+            "EFTA01266036",
+            "EFTA01266040"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "CREDIT SUISSE",
+          "count": 2154,
+          "docs": 836,
+          "sample_doc_ids": [
+            "EFTA01299423",
+            "EFTA01299639",
+            "EFTA01299808",
+            "EFTA01353844",
+            "EFTA01353845"
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "BANK OF AMERICA",
+          "count": 1262,
+          "docs": 833,
+          "sample_doc_ids": [
+            "EFTA01265180",
+            "EFTA01265476",
+            "EFTA01265479",
+            "EFTA01265978",
+            "EFTA01266077"
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "HSBC",
+          "count": 1646,
+          "docs": 807,
+          "sample_doc_ids": [
+            "EFTA01273198",
+            "EFTA01274015",
+            "EFTA01279167",
+            "EFTA01283188",
+            "EFTA01288458"
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "Wells Fargo",
+          "count": 1233,
+          "docs": 759,
+          "sample_doc_ids": [
+            "EFTA01279491",
+            "EFTA01279493",
+            "EFTA01279497",
+            "EFTA01279501",
+            "EFTA01279505"
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "Bank of America",
+          "count": 1012,
+          "docs": 750,
+          "sample_doc_ids": [
+            "EFTA01265180",
+            "EFTA01268409",
+            "EFTA01281059",
+            "EFTA01290526",
+            "EFTA01303351"
+          ]
+        },
+        {
+          "rank": 15,
+          "text": "jpmorgan",
+          "count": 1014,
+          "docs": 720,
+          "sample_doc_ids": [
+            "EFTA01299933",
+            "EFTA01299934",
+            "EFTA01299937",
+            "EFTA01299951",
+            "EFTA01299952"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "Credit Suisse",
+          "count": 1744,
+          "docs": 681,
+          "sample_doc_ids": [
+            "EFTA01300433",
+            "EFTA01300436",
+            "EFTA01300990",
+            "EFTA01300992",
+            "EFTA01300994"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "JPMC",
+          "count": 1185,
+          "docs": 669,
+          "sample_doc_ids": [
+            "EFTA01265457",
+            "EFTA01279167",
+            "EFTA01299437",
+            "EFTA01299633",
+            "EFTA01300317"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": "chase",
+          "count": 1123,
+          "docs": 637,
+          "sample_doc_ids": [
+            "EFTA01269192",
+            "EFTA01269705",
+            "EFTA01276243",
+            "EFTA01277005",
+            "EFTA01278975"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "UBS",
+          "count": 11689,
+          "docs": 633,
+          "sample_doc_ids": [
+            "EFTA01265476",
+            "EFTA01266601",
+            "EFTA01273244",
+            "EFTA01273245",
+            "EFTA01273246"
+          ]
+        },
+        {
+          "rank": 20,
+          "text": "WELLS FARGO",
+          "count": 1200,
+          "docs": 608,
+          "sample_doc_ids": [
+            "EFTA01265457",
+            "EFTA01265841",
+            "EFTA01273059",
+            "EFTA01273181",
+            "EFTA01273198"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "bank",
+      "page": 2,
+      "title": "DS10 financial — External bank mentions (page 2)",
+      "subtitle": "158464 DS10 docs scanned · 138 unique values",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "Apollo",
+          "count": 1135,
+          "docs": 590,
+          "sample_doc_ids": [
+            "EFTA01288458",
+            "EFTA01296884",
+            "EFTA01300377",
+            "EFTA01344843",
+            "EFTA01344844"
+          ]
+        },
+        {
+          "rank": 22,
+          "text": "Citibank",
+          "count": 1672,
+          "docs": 573,
+          "sample_doc_ids": [
+            "EFTA01265224",
+            "EFTA01265225",
+            "EFTA01265245",
+            "EFTA01265301",
+            "EFTA01265314"
+          ]
+        },
+        {
+          "rank": 23,
+          "text": "CITIBANK",
+          "count": 890,
+          "docs": 418,
+          "sample_doc_ids": [
+            "EFTA01265224",
+            "EFTA01265225",
+            "EFTA01265245",
+            "EFTA01265318",
+            "EFTA01265457"
+          ]
+        },
+        {
+          "rank": 24,
+          "text": "GOLDMAN SACHS",
+          "count": 834,
+          "docs": 401,
+          "sample_doc_ids": [
+            "EFTA01265978",
+            "EFTA01274015",
+            "EFTA01322030",
+            "EFTA01322110",
+            "EFTA01322192"
+          ]
+        },
+        {
+          "rank": 25,
+          "text": "APOLLO",
+          "count": 609,
+          "docs": 358,
+          "sample_doc_ids": [
+            "EFTA01265978",
+            "EFTA01284600",
+            "EFTA01284894",
+            "EFTA01285161",
+            "EFTA01285800"
+          ]
+        },
+        {
+          "rank": 26,
+          "text": "BARCLAYS",
+          "count": 464,
+          "docs": 318,
+          "sample_doc_ids": [
+            "EFTA01265457",
+            "EFTA01265479",
+            "EFTA01279223",
+            "EFTA01283744",
+            "EFTA01285426"
+          ]
+        },
+        {
+          "rank": 27,
+          "text": "Barclays",
+          "count": 786,
+          "docs": 281,
+          "sample_doc_ids": [
+            "EFTA01274015",
+            "EFTA01275587",
+            "EFTA01275639",
+            "EFTA01276243",
+            "EFTA01277005"
+          ]
+        },
+        {
+          "rank": 28,
+          "text": "Citi",
+          "count": 599,
+          "docs": 270,
+          "sample_doc_ids": [
+            "EFTA01265225",
+            "EFTA01265318",
+            "EFTA01308476",
+            "EFTA01332994",
+            "EFTA01333681"
+          ]
+        },
+        {
+          "rank": 29,
+          "text": "Morgan Stanley",
+          "count": 585,
+          "docs": 269,
+          "sample_doc_ids": [
+            "EFTA01279842",
+            "EFTA01279969",
+            "EFTA01279974",
+            "EFTA01279979",
+            "EFTA01283526"
+          ]
+        },
+        {
+          "rank": 30,
+          "text": "JPMorgan Chase",
+          "count": 326,
+          "docs": 268,
+          "sample_doc_ids": [
+            "EFTA01292606",
+            "EFTA01292706",
+            "EFTA01292738",
+            "EFTA01292798",
+            "EFTA01292858"
+          ]
+        },
+        {
+          "rank": 31,
+          "text": "Amex",
+          "count": 735,
+          "docs": 257,
+          "sample_doc_ids": [
+            "EFTA01269705",
+            "EFTA01275587",
+            "EFTA01304421",
+            "EFTA01308282",
+            "EFTA01308327"
+          ]
+        },
+        {
+          "rank": 32,
+          "text": "TD Bank",
+          "count": 402,
+          "docs": 240,
+          "sample_doc_ids": [
+            "EFTA01268345",
+            "EFTA01268415",
+            "EFTA01279539",
+            "EFTA01296335",
+            "EFTA01296834"
+          ]
+        },
+        {
+          "rank": 33,
+          "text": "AMEX",
+          "count": 615,
+          "docs": 231,
+          "sample_doc_ids": [
+            "EFTA01265457",
+            "EFTA01265476",
+            "EFTA01265479",
+            "EFTA01266026",
+            "EFTA01266029"
+          ]
+        },
+        {
+          "rank": 34,
+          "text": "Goldman Sachs",
+          "count": 240,
+          "docs": 199,
+          "sample_doc_ids": [
+            "EFTA01298161",
+            "EFTA01298392",
+            "EFTA01298778",
+            "EFTA01298864",
+            "EFTA01300433"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "HIGHBRIDGE",
+          "count": 409,
+          "docs": 185,
+          "sample_doc_ids": [
+            "EFTA01359231",
+            "EFTA01359426",
+            "EFTA01402237",
+            "EFTA01505711",
+            "EFTA01505762"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "Centurion",
+          "count": 501,
+          "docs": 159,
+          "sample_doc_ids": [
+            "EFTA01292606",
+            "EFTA01292666",
+            "EFTA01292706",
+            "EFTA01347982",
+            "EFTA01348032"
+          ]
+        },
+        {
+          "rank": 37,
+          "text": "ROYAL BANK",
+          "count": 189,
+          "docs": 148,
+          "sample_doc_ids": [
+            "EFTA01286657",
+            "EFTA01288458",
+            "EFTA01296627",
+            "EFTA01299486",
+            "EFTA01299494"
+          ]
+        },
+        {
+          "rank": 38,
+          "text": "AMERICAN EXPRESS",
+          "count": 270,
+          "docs": 146,
+          "sample_doc_ids": [
+            "EFTA01287640",
+            "EFTA01287726",
+            "EFTA01287870",
+            "EFTA01287941",
+            "EFTA01288003"
+          ]
+        },
+        {
+          "rank": 39,
+          "text": "Hsbc",
+          "count": 164,
+          "docs": 132,
+          "sample_doc_ids": [
+            "EFTA01421840",
+            "EFTA01482250",
+            "EFTA01482300",
+            "EFTA01482312",
+            "EFTA01482861"
+          ]
+        },
+        {
+          "rank": 40,
+          "text": "MORGAN STANLEY",
+          "count": 265,
+          "docs": 121,
+          "sample_doc_ids": [
+            "EFTA01269705",
+            "EFTA01273131",
+            "EFTA01279852",
+            "EFTA01280333",
+            "EFTA01287077"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "bank",
+      "page": 3,
+      "title": "DS10 financial — External bank mentions (page 3)",
+      "subtitle": "158464 DS10 docs scanned · 138 unique values",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "BNP PARIBAS",
+          "count": 199,
+          "docs": 109,
+          "sample_doc_ids": [
+            "EFTA01273181",
+            "EFTA01283228",
+            "EFTA01283438",
+            "EFTA01283526",
+            "EFTA01283564"
+          ]
+        },
+        {
+          "rank": 42,
+          "text": "TD BANK",
+          "count": 132,
+          "docs": 106,
+          "sample_doc_ids": [
+            "EFTA01266095",
+            "EFTA01273122",
+            "EFTA01273155",
+            "EFTA01273181",
+            "EFTA01279412"
+          ]
+        },
+        {
+          "rank": 43,
+          "text": "PNC",
+          "count": 313,
+          "docs": 99,
+          "sample_doc_ids": [
+            "EFTA01280438",
+            "EFTA01280444",
+            "EFTA01286368",
+            "EFTA01286592",
+            "EFTA01286840"
+          ]
+        },
+        {
+          "rank": 44,
+          "text": "CAPITAL ONE",
+          "count": 147,
+          "docs": 96,
+          "sample_doc_ids": [
+            "EFTA01277649",
+            "EFTA01279688",
+            "EFTA01284648",
+            "EFTA01284943",
+            "EFTA01285491"
+          ]
+        },
+        {
+          "rank": 45,
+          "text": "BNP Paribas",
+          "count": 101,
+          "docs": 94,
+          "sample_doc_ids": [
+            "EFTA01296335",
+            "EFTA01296834",
+            "EFTA01297243",
+            "EFTA01297464",
+            "EFTA01297650"
+          ]
+        },
+        {
+          "rank": 46,
+          "text": "ubs",
+          "count": 913,
+          "docs": 93,
+          "sample_doc_ids": [
+            "EFTA01273248",
+            "EFTA01273249",
+            "EFTA01273250",
+            "EFTA01273253",
+            "EFTA01273257"
+          ]
+        },
+        {
+          "rank": 47,
+          "text": "STATE STREET",
+          "count": 187,
+          "docs": 91,
+          "sample_doc_ids": [
+            "EFTA01265841",
+            "EFTA01279860",
+            "EFTA01282339",
+            "EFTA01299412",
+            "EFTA01299418"
+          ]
+        },
+        {
+          "rank": 48,
+          "text": "State Street",
+          "count": 161,
+          "docs": 91,
+          "sample_doc_ids": [
+            "EFTA01282339",
+            "EFTA01298618",
+            "EFTA01305210",
+            "EFTA01305670",
+            "EFTA01326828"
+          ]
+        },
+        {
+          "rank": 49,
+          "text": "CENTURION",
+          "count": 104,
+          "docs": 84,
+          "sample_doc_ids": [
+            "EFTA01307676",
+            "EFTA01312690",
+            "EFTA01312770",
+            "EFTA01312877",
+            "EFTA01314184"
+          ]
+        },
+        {
+          "rank": 50,
+          "text": "Highbridge",
+          "count": 998,
+          "docs": 70,
+          "sample_doc_ids": [
+            "EFTA01301037",
+            "EFTA01301083",
+            "EFTA01301084",
+            "EFTA01301085",
+            "EFTA01301087"
+          ]
+        },
+        {
+          "rank": 51,
+          "text": "Societe Generale",
+          "count": 137,
+          "docs": 60,
+          "sample_doc_ids": [
+            "EFTA01357186",
+            "EFTA01361053",
+            "EFTA01361501",
+            "EFTA01362943",
+            "EFTA01363039"
+          ]
+        },
+        {
+          "rank": 52,
+          "text": "BNY MELLON",
+          "count": 54,
+          "docs": 49,
+          "sample_doc_ids": [
+            "EFTA01289724",
+            "EFTA01291114",
+            "EFTA01291389",
+            "EFTA01291467",
+            "EFTA01291899"
+          ]
+        },
+        {
+          "rank": 53,
+          "text": "amex",
+          "count": 64,
+          "docs": 47,
+          "sample_doc_ids": [
+            "EFTA01436564",
+            "EFTA01614858",
+            "EFTA01614867",
+            "EFTA01614891",
+            "EFTA01616031"
+          ]
+        },
+        {
+          "rank": 54,
+          "text": "BNY Mellon",
+          "count": 69,
+          "docs": 45,
+          "sample_doc_ids": [
+            "EFTA01291114",
+            "EFTA01291389",
+            "EFTA01353380",
+            "EFTA01366014",
+            "EFTA01366015"
+          ]
+        },
+        {
+          "rank": 55,
+          "text": "citi",
+          "count": 52,
+          "docs": 42,
+          "sample_doc_ids": [
+            "EFTA01265301",
+            "EFTA01265318",
+            "EFTA01283386",
+            "EFTA01292412",
+            "EFTA01311486"
+          ]
+        },
+        {
+          "rank": 56,
+          "text": "BofA",
+          "count": 61,
+          "docs": 38,
+          "sample_doc_ids": [
+            "EFTA01265180",
+            "EFTA01345942",
+            "EFTA01345944",
+            "EFTA01352649",
+            "EFTA01352654"
+          ]
+        },
+        {
+          "rank": 57,
+          "text": "SOCIETE GENERALE",
+          "count": 41,
+          "docs": 35,
+          "sample_doc_ids": [
+            "EFTA01273102",
+            "EFTA01283254",
+            "EFTA01283322",
+            "EFTA01283424",
+            "EFTA01283452"
+          ]
+        },
+        {
+          "rank": 58,
+          "text": "CITI",
+          "count": 36,
+          "docs": 33,
+          "sample_doc_ids": [
+            "EFTA01273122",
+            "EFTA01284803",
+            "EFTA01285170",
+            "EFTA01285260",
+            "EFTA01285365"
+          ]
+        },
+        {
+          "rank": 59,
+          "text": "apollo",
+          "count": 52,
+          "docs": 32,
+          "sample_doc_ids": [
+            "EFTA01448767",
+            "EFTA01448775",
+            "EFTA01463751",
+            "EFTA01463763",
+            "EFTA01463770"
+          ]
+        },
+        {
+          "rank": 60,
+          "text": "Deutsche bank",
+          "count": 32,
+          "docs": 32,
+          "sample_doc_ids": [
+            "EFTA01298782",
+            "EFTA01353972",
+            "EFTA01353974",
+            "EFTA01354402",
+            "EFTA01354404"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "money",
+      "page": 1,
+      "title": "DS10 financial — Dollar amounts",
+      "subtitle": "158464 DS10 docs scanned · 80584 unique values",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "$500,000",
+          "count": 1432,
+          "docs": 1152,
+          "sample_doc_ids": [
+            "EFTA01266134",
+            "EFTA01266168",
+            "EFTA01266298",
+            "EFTA01266380",
+            "EFTA01266403"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "$100,000",
+          "count": 1370,
+          "docs": 1102,
+          "sample_doc_ids": [
+            "EFTA01262900",
+            "EFTA01265913",
+            "EFTA01266434",
+            "EFTA01266457",
+            "EFTA01267633"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "$100",
+          "count": 1424,
+          "docs": 1080,
+          "sample_doc_ids": [
+            "EFTA01265460",
+            "EFTA01266014",
+            "EFTA01266724",
+            "EFTA01268590",
+            "EFTA01268612"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "$2",
+          "count": 1426,
+          "docs": 1032,
+          "sample_doc_ids": [
+            "EFTA01266434",
+            "EFTA01266601",
+            "EFTA01269100",
+            "EFTA01269393",
+            "EFTA01270704"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "$5",
+          "count": 1071,
+          "docs": 835,
+          "sample_doc_ids": [
+            "EFTA01265318",
+            "EFTA01268751",
+            "EFTA01268833",
+            "EFTA01269100",
+            "EFTA01273265"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "$250,000",
+          "count": 1031,
+          "docs": 774,
+          "sample_doc_ids": [
+            "EFTA01262900",
+            "EFTA01262965",
+            "EFTA01263024",
+            "EFTA01266134",
+            "EFTA01266168"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "$4",
+          "count": 1036,
+          "docs": 771,
+          "sample_doc_ids": [
+            "EFTA01266350",
+            "EFTA01266498",
+            "EFTA01266690",
+            "EFTA01267546",
+            "EFTA01268515"
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "$50",
+          "count": 1070,
+          "docs": 748,
+          "sample_doc_ids": [
+            "EFTA01266498",
+            "EFTA01266601",
+            "EFTA01269393",
+            "EFTA01269485",
+            "EFTA01269598"
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "$3",
+          "count": 3315,
+          "docs": 718,
+          "sample_doc_ids": [
+            "EFTA01263124",
+            "EFTA01263293",
+            "EFTA01266601",
+            "EFTA01268833",
+            "EFTA01268890"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "$50,000.00",
+          "count": 1492,
+          "docs": 708,
+          "sample_doc_ids": [
+            "EFTA01269705",
+            "EFTA01275639",
+            "EFTA01279808",
+            "EFTA01285426",
+            "EFTA01285692"
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "$10",
+          "count": 948,
+          "docs": 681,
+          "sample_doc_ids": [
+            "EFTA01262805",
+            "EFTA01263024",
+            "EFTA01265318",
+            "EFTA01266168",
+            "EFTA01269100"
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "$100,000.00",
+          "count": 1048,
+          "docs": 664,
+          "sample_doc_ids": [
+            "EFTA01279860",
+            "EFTA01279893",
+            "EFTA01280384",
+            "EFTA01280396",
+            "EFTA01284188"
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "$200",
+          "count": 899,
+          "docs": 663,
+          "sample_doc_ids": [
+            "EFTA01268751",
+            "EFTA01269149",
+            "EFTA01283911",
+            "EFTA01283998",
+            "EFTA01284740"
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "$500",
+          "count": 756,
+          "docs": 637,
+          "sample_doc_ids": [
+            "EFTA01265180",
+            "EFTA01265460",
+            "EFTA01266017",
+            "EFTA01268890",
+            "EFTA01269393"
+          ]
+        },
+        {
+          "rank": 15,
+          "text": "$20",
+          "count": 722,
+          "docs": 570,
+          "sample_doc_ids": [
+            "EFTA01268590",
+            "EFTA01268612",
+            "EFTA01268689",
+            "EFTA01269149",
+            "EFTA01276243"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "$000",
+          "count": 583,
+          "docs": 523,
+          "sample_doc_ids": [
+            "EFTA01274015",
+            "EFTA01277649",
+            "EFTA01279509",
+            "EFTA01279595",
+            "EFTA01283131"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "$10,000",
+          "count": 783,
+          "docs": 491,
+          "sample_doc_ids": [
+            "EFTA01265479",
+            "EFTA01268689",
+            "EFTA01268751",
+            "EFTA01269520",
+            "EFTA01279497"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": "$25",
+          "count": 654,
+          "docs": 467,
+          "sample_doc_ids": [
+            "EFTA01269598",
+            "EFTA01269637",
+            "EFTA01271378",
+            "EFTA01273285",
+            "EFTA01274015"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "$50,000",
+          "count": 647,
+          "docs": 430,
+          "sample_doc_ids": [
+            "EFTA01268689",
+            "EFTA01268751",
+            "EFTA01269149",
+            "EFTA01269322",
+            "EFTA01269509"
+          ]
+        },
+        {
+          "rank": 20,
+          "text": "USD 5",
+          "count": 514,
+          "docs": 428,
+          "sample_doc_ids": [
+            "EFTA01312568",
+            "EFTA01312573",
+            "EFTA01312586",
+            "EFTA01312590",
+            "EFTA01312608"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "money",
+      "page": 2,
+      "title": "DS10 financial — Dollar amounts (page 2)",
+      "subtitle": "158464 DS10 docs scanned · 80584 unique values",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "$6",
+          "count": 545,
+          "docs": 417,
+          "sample_doc_ids": [
+            "EFTA01268833",
+            "EFTA01275639",
+            "EFTA01277649",
+            "EFTA01279595",
+            "EFTA01280082"
+          ]
+        },
+        {
+          "rank": 22,
+          "text": "$800.00",
+          "count": 615,
+          "docs": 397,
+          "sample_doc_ids": [
+            "EFTA01280865",
+            "EFTA01284648",
+            "EFTA01285167",
+            "EFTA01287912",
+            "EFTA01288288"
+          ]
+        },
+        {
+          "rank": 23,
+          "text": "$7",
+          "count": 513,
+          "docs": 394,
+          "sample_doc_ids": [
+            "EFTA01269100",
+            "EFTA01269292",
+            "EFTA01276243",
+            "EFTA01284861",
+            "EFTA01285998"
+          ]
+        },
+        {
+          "rank": 24,
+          "text": "$2,000.00",
+          "count": 605,
+          "docs": 380,
+          "sample_doc_ids": [
+            "EFTA01268751",
+            "EFTA01269100",
+            "EFTA01277649",
+            "EFTA01287414",
+            "EFTA01287488"
+          ]
+        },
+        {
+          "rank": 25,
+          "text": "$11",
+          "count": 443,
+          "docs": 374,
+          "sample_doc_ids": [
+            "EFTA01265318",
+            "EFTA01268833",
+            "EFTA01269100",
+            "EFTA01275639",
+            "EFTA01281726"
+          ]
+        },
+        {
+          "rank": 26,
+          "text": "$1,000",
+          "count": 797,
+          "docs": 370,
+          "sample_doc_ids": [
+            "EFTA01265457",
+            "EFTA01266690",
+            "EFTA01266724",
+            "EFTA01269393",
+            "EFTA01269433"
+          ]
+        },
+        {
+          "rank": 27,
+          "text": "$40",
+          "count": 523,
+          "docs": 345,
+          "sample_doc_ids": [
+            "EFTA01265810",
+            "EFTA01273284",
+            "EFTA01273285",
+            "EFTA01283334",
+            "EFTA01283490"
+          ]
+        },
+        {
+          "rank": 28,
+          "text": "$5 million",
+          "count": 668,
+          "docs": 337,
+          "sample_doc_ids": [
+            "EFTA01273285",
+            "EFTA01296179",
+            "EFTA01297505",
+            "EFTA01304561",
+            "EFTA01333276"
+          ]
+        },
+        {
+          "rank": 29,
+          "text": "$25,000.00",
+          "count": 474,
+          "docs": 326,
+          "sample_doc_ids": [
+            "EFTA01269100",
+            "EFTA01269705",
+            "EFTA01280959",
+            "EFTA01285404",
+            "EFTA01288034"
+          ]
+        },
+        {
+          "rank": 30,
+          "text": "$50.00",
+          "count": 451,
+          "docs": 308,
+          "sample_doc_ids": [
+            "EFTA01266498",
+            "EFTA01266690",
+            "EFTA01268604",
+            "EFTA01268833",
+            "EFTA01269322"
+          ]
+        },
+        {
+          "rank": 31,
+          "text": "$300",
+          "count": 441,
+          "docs": 304,
+          "sample_doc_ids": [
+            "EFTA01268751",
+            "EFTA01279595",
+            "EFTA01284321",
+            "EFTA01284327",
+            "EFTA01284558"
+          ]
+        },
+        {
+          "rank": 32,
+          "text": "$30",
+          "count": 431,
+          "docs": 302,
+          "sample_doc_ids": [
+            "EFTA01266498",
+            "EFTA01279531",
+            "EFTA01279924",
+            "EFTA01282110",
+            "EFTA01287880"
+          ]
+        },
+        {
+          "rank": 33,
+          "text": "$9",
+          "count": 371,
+          "docs": 299,
+          "sample_doc_ids": [
+            "EFTA01268751",
+            "EFTA01268833",
+            "EFTA01277649",
+            "EFTA01279595",
+            "EFTA01281025"
+          ]
+        },
+        {
+          "rank": 34,
+          "text": "$5,000.00",
+          "count": 493,
+          "docs": 292,
+          "sample_doc_ids": [
+            "EFTA01268498",
+            "EFTA01268576",
+            "EFTA01268642",
+            "EFTA01280477",
+            "EFTA01280983"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "$5,000",
+          "count": 433,
+          "docs": 290,
+          "sample_doc_ids": [
+            "EFTA01268890",
+            "EFTA01269149",
+            "EFTA01269322",
+            "EFTA01269433",
+            "EFTA01269548"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "$10,000.00",
+          "count": 475,
+          "docs": 289,
+          "sample_doc_ids": [
+            "EFTA01265225",
+            "EFTA01269705",
+            "EFTA01279893",
+            "EFTA01280665",
+            "EFTA01280667"
+          ]
+        },
+        {
+          "rank": 37,
+          "text": "$100.00",
+          "count": 432,
+          "docs": 288,
+          "sample_doc_ids": [
+            "EFTA01266298",
+            "EFTA01266498",
+            "EFTA01266601",
+            "EFTA01269100",
+            "EFTA01279782"
+          ]
+        },
+        {
+          "rank": 38,
+          "text": "$1,000.00",
+          "count": 426,
+          "docs": 288,
+          "sample_doc_ids": [
+            "EFTA01268304",
+            "EFTA01269637",
+            "EFTA01269705",
+            "EFTA01280090",
+            "EFTA01280853"
+          ]
+        },
+        {
+          "rank": 39,
+          "text": "$12",
+          "count": 350,
+          "docs": 285,
+          "sample_doc_ids": [
+            "EFTA01263293",
+            "EFTA01281611",
+            "EFTA01285841",
+            "EFTA01287423",
+            "EFTA01288388"
+          ]
+        },
+        {
+          "rank": 40,
+          "text": "$10.00",
+          "count": 515,
+          "docs": 282,
+          "sample_doc_ids": [
+            "EFTA01265318",
+            "EFTA01266114",
+            "EFTA01266498",
+            "EFTA01266601",
+            "EFTA01268751"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "money",
+      "page": 3,
+      "title": "DS10 financial — Dollar amounts (page 3)",
+      "subtitle": "158464 DS10 docs scanned · 80584 unique values",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "$8",
+          "count": 384,
+          "docs": 275,
+          "sample_doc_ids": [
+            "EFTA01265180",
+            "EFTA01265969",
+            "EFTA01285557",
+            "EFTA01286402",
+            "EFTA01297822"
+          ]
+        },
+        {
+          "rank": 42,
+          "text": "$0.01",
+          "count": 483,
+          "docs": 273,
+          "sample_doc_ids": [
+            "EFTA01269598",
+            "EFTA01269637",
+            "EFTA01279595",
+            "EFTA01279764",
+            "EFTA01281712"
+          ]
+        },
+        {
+          "rank": 43,
+          "text": "$500.00",
+          "count": 364,
+          "docs": 270,
+          "sample_doc_ids": [
+            "EFTA01265841",
+            "EFTA01266498",
+            "EFTA01269509",
+            "EFTA01269548",
+            "EFTA01269598"
+          ]
+        },
+        {
+          "rank": 44,
+          "text": "$2,800.00",
+          "count": 416,
+          "docs": 269,
+          "sample_doc_ids": [
+            "EFTA01494795",
+            "EFTA01496657",
+            "EFTA01496663",
+            "EFTA01496665",
+            "EFTA01496670"
+          ]
+        },
+        {
+          "rank": 45,
+          "text": "$250",
+          "count": 379,
+          "docs": 267,
+          "sample_doc_ids": [
+            "EFTA01265180",
+            "EFTA01266457",
+            "EFTA01269322",
+            "EFTA01269548",
+            "EFTA01269637"
+          ]
+        },
+        {
+          "rank": 46,
+          "text": "$25.00",
+          "count": 356,
+          "docs": 250,
+          "sample_doc_ids": [
+            "EFTA01266114",
+            "EFTA01266498",
+            "EFTA01269322",
+            "EFTA01269485",
+            "EFTA01269548"
+          ]
+        },
+        {
+          "rank": 47,
+          "text": "USD 3",
+          "count": 395,
+          "docs": 248,
+          "sample_doc_ids": [
+            "EFTA01312599",
+            "EFTA01312620",
+            "EFTA01312648",
+            "EFTA01312656",
+            "EFTA01312706"
+          ]
+        },
+        {
+          "rank": 48,
+          "text": "$150",
+          "count": 290,
+          "docs": 242,
+          "sample_doc_ids": [
+            "EFTA01266690",
+            "EFTA01266724",
+            "EFTA01268574",
+            "EFTA01269548",
+            "EFTA01269637"
+          ]
+        },
+        {
+          "rank": 49,
+          "text": "$5,000,000",
+          "count": 651,
+          "docs": 240,
+          "sample_doc_ids": [
+            "EFTA01266204",
+            "EFTA01266298",
+            "EFTA01266325",
+            "EFTA01266359",
+            "EFTA01266380"
+          ]
+        },
+        {
+          "rank": 50,
+          "text": "$1,000,000.00",
+          "count": 461,
+          "docs": 240,
+          "sample_doc_ids": [
+            "EFTA01266204",
+            "EFTA01279464",
+            "EFTA01282471",
+            "EFTA01282797",
+            "EFTA01282866"
+          ]
+        },
+        {
+          "rank": 51,
+          "text": "$400",
+          "count": 275,
+          "docs": 240,
+          "sample_doc_ids": [
+            "EFTA01265460",
+            "EFTA01269433",
+            "EFTA01282471",
+            "EFTA01283985",
+            "EFTA01284762"
+          ]
+        },
+        {
+          "rank": 52,
+          "text": "$0.03",
+          "count": 329,
+          "docs": 235,
+          "sample_doc_ids": [
+            "EFTA01279509",
+            "EFTA01281720",
+            "EFTA01310323",
+            "EFTA01310516",
+            "EFTA01311581"
+          ]
+        },
+        {
+          "rank": 53,
+          "text": "$150,000.00",
+          "count": 336,
+          "docs": 234,
+          "sample_doc_ids": [
+            "EFTA01279842",
+            "EFTA01280090",
+            "EFTA01286017",
+            "EFTA01286029",
+            "EFTA01286194"
+          ]
+        },
+        {
+          "rank": 54,
+          "text": "$35",
+          "count": 295,
+          "docs": 226,
+          "sample_doc_ids": [
+            "EFTA01297822",
+            "EFTA01311006",
+            "EFTA01313396",
+            "EFTA01313422",
+            "EFTA01313426"
+          ]
+        },
+        {
+          "rank": 55,
+          "text": "$20.00",
+          "count": 411,
+          "docs": 224,
+          "sample_doc_ids": [
+            "EFTA01266601",
+            "EFTA01269100",
+            "EFTA01279595",
+            "EFTA01279838",
+            "EFTA01280366"
+          ]
+        },
+        {
+          "rank": 56,
+          "text": "$14",
+          "count": 302,
+          "docs": 219,
+          "sample_doc_ids": [
+            "EFTA01265978",
+            "EFTA01266690",
+            "EFTA01282494",
+            "EFTA01283126",
+            "EFTA01283490"
+          ]
+        },
+        {
+          "rank": 57,
+          "text": "$40,000.00",
+          "count": 421,
+          "docs": 214,
+          "sample_doc_ids": [
+            "EFTA01280400",
+            "EFTA01284924",
+            "EFTA01363911",
+            "EFTA01364033",
+            "EFTA01364109"
+          ]
+        },
+        {
+          "rank": 58,
+          "text": "$200,000.00",
+          "count": 275,
+          "docs": 211,
+          "sample_doc_ids": [
+            "EFTA01266427",
+            "EFTA01284300",
+            "EFTA01284303",
+            "EFTA01284306",
+            "EFTA01284359"
+          ]
+        },
+        {
+          "rank": 59,
+          "text": "$15",
+          "count": 270,
+          "docs": 210,
+          "sample_doc_ids": [
+            "EFTA01266498",
+            "EFTA01266601",
+            "EFTA01268890",
+            "EFTA01269149",
+            "EFTA01269354"
+          ]
+        },
+        {
+          "rank": 60,
+          "text": "$25 million",
+          "count": 257,
+          "docs": 207,
+          "sample_doc_ids": [
+            "EFTA01273265",
+            "EFTA01282092",
+            "EFTA01282143",
+            "EFTA01282195",
+            "EFTA01282492"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "acct_type",
+      "page": 1,
+      "title": "DS10 financial — Account type tokens",
+      "subtitle": "158464 DS10 docs scanned · 106 unique values",
+      "rows": [
+        {
+          "rank": 1,
+          "text": "brokerage",
+          "count": 7590,
+          "docs": 3731,
+          "sample_doc_ids": [
+            "EFTA01265962",
+            "EFTA01265969",
+            "EFTA01266134",
+            "EFTA01266168",
+            "EFTA01266204"
+          ]
+        },
+        {
+          "rank": 2,
+          "text": "DDA",
+          "count": 8785,
+          "docs": 3335,
+          "sample_doc_ids": [
+            "EFTA01268689",
+            "EFTA01268833",
+            "EFTA01268890",
+            "EFTA01269149",
+            "EFTA01269433"
+          ]
+        },
+        {
+          "rank": 3,
+          "text": "custody",
+          "count": 5239,
+          "docs": 3131,
+          "sample_doc_ids": [
+            "EFTA01262900",
+            "EFTA01262965",
+            "EFTA01263124",
+            "EFTA01263330",
+            "EFTA01264394"
+          ]
+        },
+        {
+          "rank": 4,
+          "text": "Money Market",
+          "count": 5326,
+          "docs": 2813,
+          "sample_doc_ids": [
+            "EFTA01265224",
+            "EFTA01265318",
+            "EFTA01268275",
+            "EFTA01268279",
+            "EFTA01268283"
+          ]
+        },
+        {
+          "rank": 5,
+          "text": "CD",
+          "count": 4457,
+          "docs": 2557,
+          "sample_doc_ids": [
+            "EFTA01262965",
+            "EFTA01263213",
+            "EFTA01265314",
+            "EFTA01265318",
+            "EFTA01265814"
+          ]
+        },
+        {
+          "rank": 6,
+          "text": "money market",
+          "count": 3113,
+          "docs": 2088,
+          "sample_doc_ids": [
+            "EFTA01268275",
+            "EFTA01268279",
+            "EFTA01268283",
+            "EFTA01268291",
+            "EFTA01268354"
+          ]
+        },
+        {
+          "rank": 7,
+          "text": "IRA",
+          "count": 5403,
+          "docs": 1920,
+          "sample_doc_ids": [
+            "EFTA01263124",
+            "EFTA01265962",
+            "EFTA01265969",
+            "EFTA01266298",
+            "EFTA01266327"
+          ]
+        },
+        {
+          "rank": 8,
+          "text": "PAY TO",
+          "count": 2874,
+          "docs": 1889,
+          "sample_doc_ids": [
+            "EFTA01265978",
+            "EFTA01270704",
+            "EFTA01279539",
+            "EFTA01279778",
+            "EFTA01280074"
+          ]
+        },
+        {
+          "rank": 9,
+          "text": "Trustee",
+          "count": 7772,
+          "docs": 1718,
+          "sample_doc_ids": [
+            "EFTA01266134",
+            "EFTA01266168",
+            "EFTA01266204",
+            "EFTA01266236",
+            "EFTA01266247"
+          ]
+        },
+        {
+          "rank": 10,
+          "text": "ACH",
+          "count": 4083,
+          "docs": 1651,
+          "sample_doc_ids": [
+            "EFTA01265225",
+            "EFTA01265245",
+            "EFTA01265318",
+            "EFTA01265800",
+            "EFTA01266498"
+          ]
+        },
+        {
+          "rank": 11,
+          "text": "Brokerage",
+          "count": 2885,
+          "docs": 1594,
+          "sample_doc_ids": [
+            "EFTA01268275",
+            "EFTA01268279",
+            "EFTA01268283",
+            "EFTA01268291",
+            "EFTA01268310"
+          ]
+        },
+        {
+          "rank": 12,
+          "text": "trustee",
+          "count": 3217,
+          "docs": 1583,
+          "sample_doc_ids": [
+            "EFTA01266134",
+            "EFTA01266168",
+            "EFTA01266204",
+            "EFTA01266260",
+            "EFTA01266298"
+          ]
+        },
+        {
+          "rank": 13,
+          "text": "Beneficiary",
+          "count": 4201,
+          "docs": 1435,
+          "sample_doc_ids": [
+            "EFTA01263152",
+            "EFTA01266134",
+            "EFTA01266168",
+            "EFTA01266204",
+            "EFTA01266359"
+          ]
+        },
+        {
+          "rank": 14,
+          "text": "MONEY MARKET",
+          "count": 3230,
+          "docs": 1246,
+          "sample_doc_ids": [
+            "EFTA01273155",
+            "EFTA01275587",
+            "EFTA01279842",
+            "EFTA01279852",
+            "EFTA01289724"
+          ]
+        },
+        {
+          "rank": 15,
+          "text": "pay to",
+          "count": 1225,
+          "docs": 1081,
+          "sample_doc_ids": [
+            "EFTA01266298",
+            "EFTA01266334",
+            "EFTA01268689",
+            "EFTA01270242",
+            "EFTA01270704"
+          ]
+        },
+        {
+          "rank": 16,
+          "text": "beneficiary",
+          "count": 2005,
+          "docs": 958,
+          "sample_doc_ids": [
+            "EFTA01263124",
+            "EFTA01265318",
+            "EFTA01265962",
+            "EFTA01265969",
+            "EFTA01266134"
+          ]
+        },
+        {
+          "rank": 17,
+          "text": "BROKERAGE",
+          "count": 4999,
+          "docs": 870,
+          "sample_doc_ids": [
+            "EFTA01268275",
+            "EFTA01268279",
+            "EFTA01268283",
+            "EFTA01268291",
+            "EFTA01268325"
+          ]
+        },
+        {
+          "rank": 18,
+          "text": "cd",
+          "count": 1347,
+          "docs": 808,
+          "sample_doc_ids": [
+            "EFTA01263124",
+            "EFTA01265913",
+            "EFTA01266690",
+            "EFTA01267633",
+            "EFTA01268295"
+          ]
+        },
+        {
+          "rank": 19,
+          "text": "Custody",
+          "count": 1390,
+          "docs": 792,
+          "sample_doc_ids": [
+            "EFTA01268833",
+            "EFTA01269322",
+            "EFTA01282195",
+            "EFTA01282278",
+            "EFTA01282339"
+          ]
+        },
+        {
+          "rank": 20,
+          "text": "Ira",
+          "count": 870,
+          "docs": 714,
+          "sample_doc_ids": [
+            "EFTA01263332",
+            "EFTA01265450",
+            "EFTA01266298",
+            "EFTA01266759",
+            "EFTA01267633"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "acct_type",
+      "page": 2,
+      "title": "DS10 financial — Account type tokens (page 2)",
+      "subtitle": "158464 DS10 docs scanned · 106 unique values",
+      "rows": [
+        {
+          "rank": 21,
+          "text": "POA",
+          "count": 1574,
+          "docs": 599,
+          "sample_doc_ids": [
+            "EFTA01265318",
+            "EFTA01265978",
+            "EFTA01266601",
+            "EFTA01268515",
+            "EFTA01268590"
+          ]
+        },
+        {
+          "rank": 22,
+          "text": "wire transfer",
+          "count": 860,
+          "docs": 580,
+          "sample_doc_ids": [
+            "EFTA01265318",
+            "EFTA01265800",
+            "EFTA01265962",
+            "EFTA01265969",
+            "EFTA01268498"
+          ]
+        },
+        {
+          "rank": 23,
+          "text": "Funds Transfer Request",
+          "count": 629,
+          "docs": 536,
+          "sample_doc_ids": [
+            "EFTA01578852",
+            "EFTA01578853",
+            "EFTA01578854",
+            "EFTA01578855",
+            "EFTA01578856"
+          ]
+        },
+        {
+          "rank": 24,
+          "text": "Domestic Wire",
+          "count": 569,
+          "docs": 471,
+          "sample_doc_ids": [
+            "EFTA01265318",
+            "EFTA01375160",
+            "EFTA01375161",
+            "EFTA01375167",
+            "EFTA01375178"
+          ]
+        },
+        {
+          "rank": 25,
+          "text": "International Wire",
+          "count": 513,
+          "docs": 419,
+          "sample_doc_ids": [
+            "EFTA01265318",
+            "EFTA01375298",
+            "EFTA01421457",
+            "EFTA01421929",
+            "EFTA01525220"
+          ]
+        },
+        {
+          "rank": 26,
+          "text": "Power of Attorney",
+          "count": 1473,
+          "docs": 378,
+          "sample_doc_ids": [
+            "EFTA01268515",
+            "EFTA01268590",
+            "EFTA01268612",
+            "EFTA01273259",
+            "EFTA01279716"
+          ]
+        },
+        {
+          "rank": 27,
+          "text": "power of attorney",
+          "count": 656,
+          "docs": 278,
+          "sample_doc_ids": [
+            "EFTA01266457",
+            "EFTA01273285",
+            "EFTA01279893",
+            "EFTA01282345",
+            "EFTA01282402"
+          ]
+        },
+        {
+          "rank": 28,
+          "text": "Cd",
+          "count": 329,
+          "docs": 253,
+          "sample_doc_ids": [
+            "EFTA01263293",
+            "EFTA01265450",
+            "EFTA01265978",
+            "EFTA01266601",
+            "EFTA01267546"
+          ]
+        },
+        {
+          "rank": 29,
+          "text": "CUSTODY",
+          "count": 313,
+          "docs": 226,
+          "sample_doc_ids": [
+            "EFTA01282339",
+            "EFTA01282345",
+            "EFTA01283044",
+            "EFTA01283164",
+            "EFTA01283176"
+          ]
+        },
+        {
+          "rank": 30,
+          "text": "TRUSTEE",
+          "count": 304,
+          "docs": 205,
+          "sample_doc_ids": [
+            "EFTA01273285",
+            "EFTA01280059",
+            "EFTA01282292",
+            "EFTA01295536",
+            "EFTA01295845"
+          ]
+        },
+        {
+          "rank": 31,
+          "text": "BENEFICIARY",
+          "count": 212,
+          "docs": 149,
+          "sample_doc_ids": [
+            "EFTA01269354",
+            "EFTA01269433",
+            "EFTA01282018",
+            "EFTA01282297",
+            "EFTA01282316"
+          ]
+        },
+        {
+          "rank": 32,
+          "text": "ach",
+          "count": 127,
+          "docs": 119,
+          "sample_doc_ids": [
+            "EFTA01270704",
+            "EFTA01277649",
+            "EFTA01279974",
+            "EFTA01280219",
+            "EFTA01283131"
+          ]
+        },
+        {
+          "rank": 33,
+          "text": "Letter of Credit",
+          "count": 222,
+          "docs": 114,
+          "sample_doc_ids": [
+            "EFTA01304411",
+            "EFTA01365367",
+            "EFTA01365375",
+            "EFTA01365390",
+            "EFTA01365394"
+          ]
+        },
+        {
+          "rank": 34,
+          "text": "LOC",
+          "count": 397,
+          "docs": 99,
+          "sample_doc_ids": [
+            "EFTA01265460",
+            "EFTA01269100",
+            "EFTA01279782",
+            "EFTA01279786",
+            "EFTA01279788"
+          ]
+        },
+        {
+          "rank": 35,
+          "text": "ira",
+          "count": 105,
+          "docs": 99,
+          "sample_doc_ids": [
+            "EFTA01268833",
+            "EFTA01269485",
+            "EFTA01269705",
+            "EFTA01279531",
+            "EFTA01280755"
+          ]
+        },
+        {
+          "rank": 36,
+          "text": "POWER OF ATTORNEY",
+          "count": 158,
+          "docs": 96,
+          "sample_doc_ids": [
+            "EFTA01282345",
+            "EFTA01282402",
+            "EFTA01282476",
+            "EFTA01282802",
+            "EFTA01283044"
+          ]
+        },
+        {
+          "rank": 37,
+          "text": "Pay to",
+          "count": 118,
+          "docs": 83,
+          "sample_doc_ids": [
+            "EFTA01280712",
+            "EFTA01281942",
+            "EFTA01282041",
+            "EFTA01282471",
+            "EFTA01294102"
+          ]
+        },
+        {
+          "rank": 38,
+          "text": "Money market",
+          "count": 161,
+          "docs": 82,
+          "sample_doc_ids": [
+            "EFTA01274015",
+            "EFTA01275587",
+            "EFTA01275639",
+            "EFTA01276243",
+            "EFTA01277005"
+          ]
+        },
+        {
+          "rank": 39,
+          "text": "WIRE TRANSFER",
+          "count": 188,
+          "docs": 70,
+          "sample_doc_ids": [
+            "EFTA01265318",
+            "EFTA01265800",
+            "EFTA01269705",
+            "EFTA01270242",
+            "EFTA01270704"
+          ]
+        },
+        {
+          "rank": 40,
+          "text": "loc",
+          "count": 86,
+          "docs": 69,
+          "sample_doc_ids": [
+            "EFTA01268689",
+            "EFTA01268751",
+            "EFTA01288458",
+            "EFTA01291968",
+            "EFTA01294582"
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "ds10_financial",
+      "category": "acct_type",
+      "page": 3,
+      "title": "DS10 financial — Account type tokens (page 3)",
+      "subtitle": "158464 DS10 docs scanned · 106 unique values",
+      "rows": [
+        {
+          "rank": 41,
+          "text": "letter of credit",
+          "count": 65,
+          "docs": 57,
+          "sample_doc_ids": [
+            "EFTA01355991",
+            "EFTA01356027",
+            "EFTA01356069",
+            "EFTA01356192",
+            "EFTA01365366"
+          ]
+        },
+        {
+          "rank": 42,
+          "text": "Loc",
+          "count": 103,
+          "docs": 54,
+          "sample_doc_ids": [
+            "EFTA01263197",
+            "EFTA01263204",
+            "EFTA01263210",
+            "EFTA01263213",
+            "EFTA01268689"
+          ]
+        },
+        {
+          "rank": 43,
+          "text": "Wire Transfer",
+          "count": 141,
+          "docs": 52,
+          "sample_doc_ids": [
+            "EFTA01265180",
+            "EFTA01265318",
+            "EFTA01265962",
+            "EFTA01265969",
+            "EFTA01268515"
+          ]
+        },
+        {
+          "rank": 44,
+          "text": "cD",
+          "count": 95,
+          "docs": 42,
+          "sample_doc_ids": [
+            "EFTA01265814",
+            "EFTA01266724",
+            "EFTA01267546",
+            "EFTA01292666",
+            "EFTA01292798"
+          ]
+        },
+        {
+          "rank": 45,
+          "text": "international wire",
+          "count": 59,
+          "docs": 41,
+          "sample_doc_ids": [
+            "EFTA01265318",
+            "EFTA01265973",
+            "EFTA01357473",
+            "EFTA01358035",
+            "EFTA01359959"
+          ]
+        },
+        {
+          "rank": 46,
+          "text": "International wire",
+          "count": 35,
+          "docs": 23,
+          "sample_doc_ids": [
+            "EFTA01265318",
+            "EFTA01352325",
+            "EFTA01367790",
+            "EFTA01369222",
+            "EFTA01384027"
+          ]
+        },
+        {
+          "rank": 47,
+          "text": "Pay To",
+          "count": 29,
+          "docs": 23,
+          "sample_doc_ids": [
+            "EFTA01281059",
+            "EFTA01281073",
+            "EFTA01281143",
+            "EFTA01293126",
+            "EFTA01293650"
+          ]
+        },
+        {
+          "rank": 48,
+          "text": "poa",
+          "count": 23,
+          "docs": 22,
+          "sample_doc_ids": [
+            "EFTA01292352",
+            "EFTA01358263",
+            "EFTA01360793",
+            "EFTA01361056",
+            "EFTA01361762"
+          ]
+        },
+        {
+          "rank": 49,
+          "text": "international Wire",
+          "count": 21,
+          "docs": 21,
+          "sample_doc_ids": [
+            "EFTA01579631",
+            "EFTA01579686",
+            "EFTA01580216",
+            "EFTA01580264",
+            "EFTA01580353"
+          ]
+        },
+        {
+          "rank": 50,
+          "text": "Ach",
+          "count": 32,
+          "docs": 19,
+          "sample_doc_ids": [
+            "EFTA01266134",
+            "EFTA01283400",
+            "EFTA01344016",
+            "EFTA01350748",
+            "EFTA01356614"
+          ]
+        },
+        {
+          "rank": 51,
+          "text": "PAY To",
+          "count": 18,
+          "docs": 18,
+          "sample_doc_ids": [
+            "EFTA01281007",
+            "EFTA01347454",
+            "EFTA01347655",
+            "EFTA01347760",
+            "EFTA01347790"
+          ]
+        },
+        {
+          "rank": 52,
+          "text": "dda",
+          "count": 19,
+          "docs": 16,
+          "sample_doc_ids": [
+            "EFTA01511595",
+            "EFTA01619843",
+            "EFTA01619894",
+            "EFTA01619930",
+            "EFTA01620085"
+          ]
+        },
+        {
+          "rank": 53,
+          "text": "Wire transfer",
+          "count": 15,
+          "docs": 15,
+          "sample_doc_ids": [
+            "EFTA01265800",
+            "EFTA01366197",
+            "EFTA01386244",
+            "EFTA01406060",
+            "EFTA01412865"
+          ]
+        },
+        {
+          "rank": 54,
+          "text": "AcH",
+          "count": 14,
+          "docs": 13,
+          "sample_doc_ids": [
+            "EFTA01309573",
+            "EFTA01310347",
+            "EFTA01315977",
+            "EFTA01324366",
+            "EFTA01383580"
+          ]
+        },
+        {
+          "rank": 55,
+          "text": "POAs",
+          "count": 12,
+          "docs": 12,
+          "sample_doc_ids": [
+            "EFTA01373341",
+            "EFTA01376269",
+            "EFTA01378505",
+            "EFTA01378781",
+            "EFTA01387936"
+          ]
+        },
+        {
+          "rank": 56,
+          "text": "irA",
+          "count": 12,
+          "docs": 11,
+          "sample_doc_ids": [
+            "EFTA01308669",
+            "EFTA01349617",
+            "EFTA01356590",
+            "EFTA01362316",
+            "EFTA01383885"
+          ]
+        },
+        {
+          "rank": 57,
+          "text": "IrA",
+          "count": 10,
+          "docs": 10,
+          "sample_doc_ids": [
+            "EFTA01277649",
+            "EFTA01300667",
+            "EFTA01349015",
+            "EFTA01517102",
+            "EFTA01525395"
+          ]
+        },
+        {
+          "rank": 58,
+          "text": "Power of attorney",
+          "count": 9,
+          "docs": 9,
+          "sample_doc_ids": [
+            "EFTA01406182",
+            "EFTA01415698",
+            "EFTA01415711",
+            "EFTA01415724",
+            "EFTA01425933"
+          ]
+        },
+        {
+          "rank": 59,
+          "text": "Domestic wire",
+          "count": 6,
+          "docs": 6,
+          "sample_doc_ids": [
+            "EFTA01363983",
+            "EFTA01367909",
+            "EFTA01376049",
+            "EFTA01409014",
+            "EFTA01422335"
+          ]
+        },
+        {
+          "rank": 60,
+          "text": "LETTER OF CREDIT",
+          "count": 13,
+          "docs": 5,
+          "sample_doc_ids": [
+            "EFTA01584045",
+            "EFTA01584046",
+            "EFTA01584053",
+            "EFTA01656376",
+            "EFTA01656464"
           ]
         }
       ]
