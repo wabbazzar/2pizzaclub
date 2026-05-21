@@ -37,4 +37,5 @@ paths = [
   '''^sources/captures/.+/meta\.json$''',
   '''^chapters/.+\.json$''',
   '''^efta/findings\.json$''',
+  '''^efta/docs/.+\.json$''',
 ]
