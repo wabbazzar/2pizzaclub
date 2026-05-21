@@ -40,14 +40,20 @@ function docLink(id) {
     return `<button class="doc-link" type="button" data-doc-id="${escapeHTML(id)}">${escapeHTML(id)}</button>`;
 }
 
-// Map a dataset name to one of the 4 filter buckets.
+// Map a dataset name to one of the 5 filter buckets.
+//   personal = parsed emails (DS11/12, emails/, dems-released 3-Emails)
+//   estate   = House Oversight estate dump — mixed (emails, library scans, iMessages)
+//   court    = court / police / grand jury text (DS3/4/6/7) + photo-only (DS1/2/5)
+//   doj_feb  = DOJ Feb-2026 release (DS8)
+//   financial= DS10 financial dossier
 const DATASET_BUCKET = {
     dataset_3: 'court', dataset_4: 'court', dataset_6: 'court', dataset_7: 'court',
     dataset_11: 'personal', dataset_12: 'personal',
-    emails: 'personal', estate: 'personal', dems: 'personal',
+    emails: 'personal', dems: 'personal',
+    estate: 'estate',
     dataset_8: 'doj_feb',
     dataset_10: 'financial',
-    dataset_1: 'court', dataset_2: 'court', dataset_5: 'court',  // photo-heavy
+    dataset_1: 'court', dataset_2: 'court', dataset_5: 'court',  // photo-only
 };
 function rowMatchesFilter(row, enabledBuckets) {
     // Per-row datasets dict (NER rank pages, press_recreate, codeword_top, etc.)
@@ -512,6 +518,19 @@ function bindNav() {
     });
 }
 
+// Hand-curated portrait map (loaded once on first call).
+let curatedPortraits = null;
+async function getCuratedPortraits() {
+    if (curatedPortraits !== null) return curatedPortraits;
+    try {
+        const r = await fetch('portraits.json', { cache: 'force-cache' });
+        curatedPortraits = r.ok ? await r.json() : {};
+    } catch (e) {
+        curatedPortraits = {};
+    }
+    return curatedPortraits;
+}
+
 // Wikipedia thumbnail cache (slug -> url or null if not usable)
 const wikiThumbCache = new Map();
 
@@ -527,10 +546,17 @@ function pageMatchesSlug(returnedTitle, queriedSlug) {
 }
 
 async function loadWikiThumbs() {
+    const curated = await getCuratedPortraits();
     const imgs = Array.from(document.querySelectorAll('img.person-thumb[data-wiki-slug]'));
     for (const img of imgs) {
         const slug = img.dataset.wikiSlug;
         if (!slug) continue;
+        // 1. Curated overrides win first (handles the Wikipedia-redirect cases)
+        const personName = slug.replace(/_/g, ' ');
+        if (curated[personName]) {
+            img.src = curated[personName];
+            continue;
+        }
         if (wikiThumbCache.has(slug)) {
             const url = wikiThumbCache.get(slug);
             if (url) img.src = url; else img.style.display = 'none';

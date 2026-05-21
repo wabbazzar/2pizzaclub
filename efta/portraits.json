@@ -1,0 +1,8 @@
+{
+  "_comment": "Hand-curated portrait overrides. JS uses this map first; only falls back to Wikipedia REST API if the name isn't here. Use Wikimedia Commons file paths (CC-licensed, hot-linkable).",
+  "_format": "<canonical name>: <image URL>",
+
+  "Leon Black": "https://commons.wikimedia.org/wiki/Special:FilePath/Leon%20Black.jpg?width=200",
+  "Darren Indyke": "https://commons.wikimedia.org/wiki/Special:FilePath/Darren%20Indyke%20Deposition%20Crop.png?width=200",
+  "Matthew Hiltzik": "https://commons.wikimedia.org/wiki/Special:FilePath/Matthew-Hiltzik-Headshot.jpg?width=200"
+}
