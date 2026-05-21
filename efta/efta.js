@@ -9,6 +9,7 @@ const state = {
 
 // Display order + label for each kind, when building the TOC.
 const KIND_GROUP = {
+    intro_slide:        { order:  0, label: 'Intro slides' },
     person_dossier:     { order:  1, label: 'Person dossiers' },
     names_top20:        { order:  2, label: 'Top names — NER discovered' },
     names_grep:         { order:  3, label: 'Top names — curated grep (cross-check)' },
@@ -178,6 +179,30 @@ function renderPage() {
         root.innerHTML = '<p class="placeholder">No findings yet. Re-run the pipeline.</p>';
         return;
     }
+    // Intro slide pages: clone the static slide article from #intro-deck into #findings.
+    if (origPage.kind === 'intro_slide') {
+        const src = document.querySelector(`#intro-deck .slide[data-slide-idx="${origPage.slideIdx}"]`);
+        root.classList.add('findings-as-slide');
+        root.innerHTML = '';
+        // Fullscreen button — injected so the slide page works in full-screen mode too.
+        const fsBtn = document.createElement('button');
+        fsBtn.type = 'button';
+        fsBtn.className = 'deck-fullscreen';
+        fsBtn.dataset.fsTarget = 'findings';
+        fsBtn.setAttribute('aria-label', 'enter fullscreen');
+        fsBtn.innerHTML = '<span class="deck-fs-glyph" aria-hidden="true">⛶</span><span class="deck-fs-label">fullscreen</span>';
+        root.appendChild(fsBtn);
+        if (src) {
+            const clone = src.cloneNode(true);
+            clone.removeAttribute('hidden');
+            root.appendChild(clone);
+        }
+        renderTOC();
+        renderPagerLabels();
+        history.replaceState(null, '', `#p=${state.pageIdx + 1}`);
+        return;
+    }
+    root.classList.remove('findings-as-slide');
     // Apply current filter — wrap the original page with filtered rows so the
     // subsequent renderers don't need to know about filtering.
     const enabledBuckets = getEnabledBuckets();
@@ -667,6 +692,14 @@ async function init() {
             `<p class="placeholder">findings.json not loaded (${escapeHTML(e.message)}).</p>`;
         return;
     }
+    // Prepend the 4 intro slides as pages 1-4 (person dossier shifts to page 5).
+    const INTRO_SLIDES = [
+        { kind: 'intro_slide', slideIdx: 0, title: '01 / 04 — the brother on the record' },
+        { kind: 'intro_slide', slideIdx: 1, title: '02 / 04 — three receipts, three people' },
+        { kind: 'intro_slide', slideIdx: 2, title: '03 / 04 — the corridor' },
+        { kind: 'intro_slide', slideIdx: 3, title: '04 / 04 — the price of the petition' },
+    ];
+    data.pages = [...INTRO_SLIDES, ...(data.pages || [])];
     state.data = data;
     const m = location.hash.match(/p=(\d+)/);
     if (m) state.pageIdx = Math.max(0, parseInt(m[1], 10) - 1);

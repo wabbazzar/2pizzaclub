@@ -738,7 +738,24 @@
     .efta-table .text-cell { font-size: 0.85rem; }
 }
 
-/* intro deck — 3 fullscreen-able slides above the EFTA findings */
+/* intro deck — slides rendered into #findings as pages 1-4 of the pager */
+#findings.findings-as-slide {
+    position: relative;
+    padding: 0;
+}
+#findings.findings-as-slide:fullscreen {
+    background: var(--paper);
+    overflow-y: auto;
+    height: 100vh;
+}
+#findings.findings-as-slide:fullscreen .slide {
+    border-radius: 0;
+    border-width: 0;
+    box-shadow: none;
+    min-height: 100vh;
+    margin: 0;
+}
+
 .intro-deck {
     position: relative;
     margin: 1.25rem auto 2rem;
