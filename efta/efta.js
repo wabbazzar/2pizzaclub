@@ -442,11 +442,17 @@ function renderPage() {
             html += `<header><span class="quote-rank">${r.rank}</span>`
                   + `<span class="quote-phrase">${escapeHTML(r.text)}</span>`
                   + `<span class="quote-counts">${r.count} hits / ${r.docs} docs</span></header>`;
-            // Collapsible source + sample context
-            if ((r.note && r.note.length) || (r.samples && r.samples.length)) {
+            // Collapsible "why this matters" body + samples
+            if ((r.significance && r.significance.length) || (r.note && r.note.length) || (r.samples && r.samples.length)) {
                 html += `<details class="quote-details"><summary>why this matters · ${r.samples ? r.samples.length : 0} sample${r.samples && r.samples.length===1?'':'s'}</summary>`;
+                if (r.significance && r.significance.length) {
+                    html += `<p class="quote-significance">${escapeHTML(r.significance)}</p>`;
+                }
                 if (r.note && r.note.length) {
-                    html += `<p class="quote-source"><em>${escapeHTML(r.note)}</em></p>`;
+                    const sourceLine = r.url
+                        ? `source: <a href="${escapeHTML(r.url)}" target="_blank" rel="noopener">${escapeHTML(r.note)}</a> ↗`
+                        : `source: ${escapeHTML(r.note)}`;
+                    html += `<p class="quote-source">${sourceLine}</p>`;
                 }
                 if (r.samples && r.samples.length) {
                     for (const s of r.samples) {

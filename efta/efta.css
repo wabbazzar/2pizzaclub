@@ -628,6 +628,16 @@
 .quote-details > summary::-webkit-details-marker { display: none; }
 .quote-details > summary::before { content: '▸ '; color: var(--accent); }
 .quote-details[open] > summary::before { content: '▾ '; }
+.quote-significance {
+    margin: 0.5rem 0 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--ink);
+}
+.quote-source a {
+    color: var(--accent);
+    text-decoration: underline;
+}
 
 /* Verbatim quote render */
 .quote-list { display: grid; gap: 1.25rem; }

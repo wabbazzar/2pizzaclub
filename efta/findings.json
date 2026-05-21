@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T16:05:28.888094+00:00",
+  "generated_at": "2026-05-21T16:43:04.580505+00:00",
   "corpus": {
     "n_documents": 784,
     "n_entity_hits": 46900,
@@ -5768,6 +5768,7 @@
         "2024": 5,
         "2025": 1
       },
+      "by_year_dataset": {},
       "rows": [
         {
           "rank": 1,
@@ -6300,6 +6301,7 @@
         "2020": 1,
         "2025": 1
       },
+      "by_year_dataset": {},
       "rows": [
         {
           "rank": 1,
@@ -8229,6 +8231,7 @@
         "2024": 25,
         "2025": 29
       },
+      "by_year_dataset": {},
       "rows": [
         {
           "rank": 1,
@@ -15864,6 +15867,7 @@
         "2017": 1,
         "2020": 3
       },
+      "by_year_dataset": {},
       "rows": [
         {
           "rank": 1,
@@ -16196,6 +16200,7 @@
       "by_year": {
         "2016": 1
       },
+      "by_year_dataset": {},
       "rows": [
         {
           "rank": 1,
@@ -16441,6 +16446,7 @@
         "2024": 1,
         "2025": 16
       },
+      "by_year_dataset": {},
       "rows": [
         {
           "rank": 1,
@@ -21293,6 +21299,7 @@
         "2024": 14,
         "2025": 29
       },
+      "by_year_dataset": {},
       "rows": [
         {
           "rank": 1,
@@ -30756,6 +30763,7 @@
         "2024": 50,
         "2025": 343
       },
+      "by_year_dataset": {},
       "rows": [
         {
           "rank": 1,
@@ -59232,151 +59240,12 @@
       "rows": [
         {
           "rank": 1,
-          "text": "Snow White",
-          "count": 9,
-          "docs": 7,
-          "note": "Jul 9 2010 Jes Staley → Epstein (Bloomberg)",
-          "samples": [
-            {
-              "doc_id": "EFTA00029432_djvu",
-              "dataset": "dataset_8",
-              "context": "010 Subject: Re: what character would you like next On Fri, Jul 9, 2010 at 8:45 PM, Jes Staley - ee > wrote: Maybe they're tracking u?? That was fun. Say hi to Snow White This email is confidential and subject to important disclaimers and conditions including on offers for the purchase or sale of securities, accuracy and complet",
-              "matched": "Snow White"
-            },
-            {
-              "doc_id": "EFTA01813818",
-              "dataset": "dataset_10",
-              "context": "er would you like next On Fri, Jul 9, 2010 at 8:45 PM, Jes Staley wrote: Maybe they're tracking u?? That was fun. Say hi to Snow White. This email is confidential and subject to important disclaimers and conditions including on offers for the purchase or sale of securities, accuracy and comple",
-              "matched": "Snow White"
-            },
-            {
-              "doc_id": "EFTA01815151",
-              "dataset": "dataset_10",
-              "context": "To: Fran: Jeffrey Epstein Sent Sun 6/20/2010 11:28:21 PM Subject Re: brett ratner ,is going to film a big movie„ Snow White, i would love to take photos of you in a snow white costume. you can get it from the costume store On Sun, Jun 20, 2010 at 6:13 PM,",
-              "matched": "Snow White"
-            }
-          ],
-          "datasets": {
-            "dataset_8": 1,
-            "dataset_10": 2
-          }
-        },
-        {
-          "rank": 2,
-          "text": "Beauty and the Beast",
-          "count": 9,
-          "docs": 9,
-          "note": "Same Staley thread / also victim's description of Epstein's library",
-          "samples": [
-            {
-              "doc_id": "EFTA02731039",
-              "dataset": "dataset_12",
-              "context": "sidence in great detail, including describing the artwork in the massage room, a stuffed dog in the living room, and a library that she compared to the one in \"Beauty and the Beast.\" It would be extraordinarily unlikely that Victim-1 could describe these aspects of the residence in such detail if she had not spent significant time there.",
-              "matched": "Beauty and the Beast"
-            },
-            {
-              "doc_id": "EFTA00008529",
-              "dataset": "dataset_6",
-              "context": "hes or paintings of naked females on them. And she 13 also talked about a library in his residence that looked 14 like it was something from out of Beauty and the Beast. 15 Q. Is that how she described it to you? 16 A. Yes. 17 Q. So we've been talking about what you've learned 18 during i",
-              "matched": "Beauty and the Beast"
-            },
-            {
-              "doc_id": "EFTA00029432_djvu",
-              "dataset": "dataset_8",
-              "context": "rey Epstein < To: Jes Staley < Sent: 7/10/2010 3:27:04 PM Subject: Re: well one side is availble On Sat, Jul 10, 2010 at 10:17 AM, Jes Staley - ee e i > wrote: Beauty and the Beast..... From: Jeffrey Epstein < - To: Jes Staley Sent: Fri Jul 09 21:02:03 2010 Subject: Re: what character would you like next On Fri, Jul 9, 2010 at 8:45 PM, Je",
-              "matched": "Beauty and the Beast"
-            }
-          ],
-          "datasets": {
-            "dataset_8": 1,
-            "dataset_6": 1,
-            "dataset_12": 1
-          }
-        },
-        {
-          "rank": 3,
-          "text": "highly valued friend",
-          "count": 1,
-          "docs": 1,
-          "note": "Noam Chomsky LOR (NPR Nov 20 2025)",
-          "samples": [
-            {
-              "doc_id": "HOUSE_OVERSIGHT_022405",
-              "dataset": "estate",
-              "context": "knowledge, penetrating insights, and thoughtful appraisals is only heightened by his easy informality, without a trace of pretentiousness. He quickly became a highly valued friend and regular source of intellectual exchange and stimulation. Noam Chomsky Institute Professor (emeritus), MIT; Laureate Professor, U. of Arizona",
-              "matched": "highly valued friend"
-            }
-          ],
-          "datasets": {
-            "estate": 1
-          }
-        },
-        {
-          "rank": 4,
-          "text": "Invisible Man",
-          "count": 6,
-          "docs": 5,
-          "note": "Aug 18 2001 Maxwell contact label for 'A' / Andrew (CNN/ITV Dec 2025)",
-          "samples": [
-            {
-              "doc_id": "EFTA00011440_djvu",
-              "dataset": "dataset_8",
-              "context": "From: \"The Invisible Man\" <abx17@dial.pipex.com> To: \"G. Maxwell\" <gmax1@mindspring.com> Subject: RE: Sent: Sat, 18 Aug 2001 22:42:18 +0100 Distraught! You probably wouldn't know but |",
-              "matched": "Invisible Man"
-            },
-            {
-              "doc_id": "EFTA00011437_djvu",
-              "dataset": "dataset_8",
-              "context": "From: \"The Invisible Man\" <abx17@dial.pipex.com> To: \"Ghislaine Maxwell (E-mail)\" <gmax1@mindspring.com> Subject: Summer Camp Sent: Thu, 16 Aug 2001 11:09:45 +0100 | am up here at Balm",
-              "matched": "Invisible Man"
-            },
-            {
-              "doc_id": "EFTA00011438_djvu",
-              "dataset": "dataset_8",
-              "context": "From: \"The Invisible Man\" <aace@dial.pipex.com> To: \"G. Max\" <gmax1@mindspring.com> Subject: RE: Re: Sent: Thu, 28 Feb 2002 06:30:20 -0000 | am overwhelmed at the kindness and generosi",
-              "matched": "Invisible Man"
-            }
-          ],
-          "datasets": {
-            "dataset_8": 3
-          }
-        },
-        {
-          "rank": 5,
-          "text": "Mohammed bin Salman",
-          "count": 32,
-          "docs": 16,
-          "note": "2016 House Oversight estate emails (CBS Nov 12 2025)",
-          "samples": [
-            {
-              "doc_id": "HOUSE_OVERSIGHT_016111",
-              "dataset": "estate",
-              "context": "s, with implementation carried out by several government entities. The Vision continues to centralize decision-making into CEDA, chaired by Deputy Crown Prince Mohammed bin Salman, and reporting to the Council of Ministers. The Ministry of Economy and Planning also retains an important role, with lower emphasis being put on the Ministry",
-              "matched": "Mohammed bin\nSalman"
-            },
-            {
-              "doc_id": "HOUSE_OVERSIGHT_016111",
-              "dataset": "estate",
-              "context": "llow greater focus on achieving a diversified foreign asset base which could support in turn the build-up of non-oil revenues. According to Deputy Crown Prince Mohammed bin Salman, government ownership of Saudi Aramco would be transferred to the PIF, which will be transformed into a SWF that will look to increase its overseas assets (fro",
-              "matched": "Mohammed bin Salman"
-            },
-            {
-              "doc_id": "HOUSE_OVERSIGHT_016111",
-              "dataset": "estate",
-              "context": "gressive market share strategy, in our view. Privatization of energy sector could start by 2018 In a recent interview with Bloomberg, Saudi Deputy Crown Prince Mohammed bin Salman outlined an array of measures the Saudi government could introduce to help diversify the economy, reduce its reliance on the hydrocarbon industry and ultimatel",
-              "matched": "Mohammed bin\nSalman"
-            }
-          ],
-          "datasets": {
-            "estate": 3
-          }
-        },
-        {
-          "rank": 6,
           "text": "dog that hasn't barked",
           "count": 3,
           "docs": 3,
-          "note": "Apr 2011 Epstein → Maxwell re Trump (PBS, CBS, Senator Reed)",
+          "note": "Apr 2 2011 Epstein → Maxwell email (House Oversight Nov 12 2025 release)",
+          "url": "https://www.pbs.org/newshour/politics/read-jeffrey-epsteins-newly-released-emails-about-trump",
+          "significance": "One of THE most-cited Epstein quotes in the entire release. Epstein writes Maxwell: '… that dog that hasn't barked is trump.. FPN spent hours at my house with him … he has never once been mentioned. police chief. etc. im 75% there.' Epstein is observing — three years after his 2008 plea — that Trump KNOWS about the abuse but has never been named publicly. The 'silent dog' is the press / law enforcement not coming for Trump. Senator Reed and others have cited this as evidence that Trump's name was deliberately scrubbed from earlier filings.",
           "samples": [
             {
               "doc_id": "EFTA01788696",
@@ -59403,11 +59272,13 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 2,
           "text": "knew about the girls",
           "count": 4,
           "docs": 4,
-          "note": "Jan 31 2019 Epstein → Wolff (CBS Nov 12 2025)",
+          "note": "Jan 31 2019 Epstein → Michael Wolff (House Oversight Nov 12 2025 release)",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-donald-trump-emails-house-oversight/",
+          "significance": "Epstein's own words to journalist Michael Wolff, six months before his arrest: 'trump said he asked me to resign, nevera member ever. . of course he knew about the girls as he asked ghislaine to stop.' This is Epstein's direct, contemporaneous statement that Trump knew about the trafficking AND personally asked Ghislaine Maxwell to stop. The 'asked me to resign' refers to Trump's claim he kicked Epstein out of Mar-a-Lago — which Epstein here disputes ('never a member ever').",
           "samples": [
             {
               "doc_id": "GOP_rebuttal_111625",
@@ -59433,11 +59304,13 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 3,
           "text": "let him hang himself",
           "count": 2,
           "docs": 2,
-          "note": "Dec 2015 Wolff → Epstein on Trump CNN interview (PBS)",
+          "note": "Dec 16 2015 Michael Wolff → Epstein email (House Oversight Nov 12 2025 release)",
+          "url": "https://www.pbs.org/newshour/politics/read-jeffrey-epsteins-newly-released-emails-about-trump",
+          "significance": "Wolff coaches Epstein on how to handle Trump's upcoming CNN interview where Trump will be asked about him: 'I think you should let him hang himself.' Reveals an active media strategy between Epstein and a sympathetic journalist to manage Trump's public statements — and that Wolff thought Trump would self-incriminate if pushed. Pre-presidency context; pre-Epstein's 2019 re-arrest.",
           "samples": [
             {
               "doc_id": "3-Emails.ocr",
@@ -59457,101 +59330,164 @@
           }
         },
         {
+          "rank": 4,
+          "text": "Snow White",
+          "count": 9,
+          "docs": 7,
+          "note": "Jul 9 2010 Jes Staley (JPMorgan) → Epstein, 'Snow White / Beauty and the Beast' thread",
+          "url": "https://www.bloomberg.com/news/articles/2026-02-04/us-reviewed-allegations-against-staley-black-in-epstein-case",
+          "significance": "JPMorgan's senior banker for Epstein, Jes Staley (later Barclays CEO), refers to the young women in Epstein's circle using fairy-tale code names. Bloomberg reporting confirms federal prosecutors reviewed this thread when evaluating whether to charge Staley. This is internal-bank communication, NOT casual social, and demonstrates that Epstein's most senior banker spoke about the trafficked women in a knowing, jocular way.",
+          "samples": [
+            {
+              "doc_id": "EFTA00029432_djvu",
+              "dataset": "dataset_8",
+              "context": "010 Subject: Re: what character would you like next On Fri, Jul 9, 2010 at 8:45 PM, Jes Staley - ee > wrote: Maybe they're tracking u?? That was fun. Say hi to Snow White This email is confidential and subject to important disclaimers and conditions including on offers for the purchase or sale of securities, accuracy and complet",
+              "matched": "Snow White"
+            },
+            {
+              "doc_id": "EFTA01813818",
+              "dataset": "dataset_10",
+              "context": "er would you like next On Fri, Jul 9, 2010 at 8:45 PM, Jes Staley wrote: Maybe they're tracking u?? That was fun. Say hi to Snow White. This email is confidential and subject to important disclaimers and conditions including on offers for the purchase or sale of securities, accuracy and comple",
+              "matched": "Snow White"
+            },
+            {
+              "doc_id": "EFTA01815151",
+              "dataset": "dataset_10",
+              "context": "To: Fran: Jeffrey Epstein Sent Sun 6/20/2010 11:28:21 PM Subject Re: brett ratner ,is going to film a big movie„ Snow White, i would love to take photos of you in a snow white costume. you can get it from the costume store On Sun, Jun 20, 2010 at 6:13 PM,",
+              "matched": "Snow White"
+            }
+          ],
+          "datasets": {
+            "dataset_8": 1,
+            "dataset_10": 2
+          }
+        },
+        {
+          "rank": 5,
+          "text": "Beauty and the Beast",
+          "count": 9,
+          "docs": 9,
+          "note": "Same 2010 Staley thread + cited by victim 'Carolyn' at Maxwell trial",
+          "url": "https://www.bloomberg.com/news/articles/2026-02-04/us-reviewed-allegations-against-staley-black-in-epstein-case",
+          "significance": "Used in two contexts: (a) Jes Staley's coded reference in the 2010 thread, and (b) victim 'Carolyn' at the 2021 Maxwell trial describing Epstein's library 'like the one in Beauty and the Beast' — testimony that helped corroborate that she had been inside the residence as a minor. The library description proved hard for the defense to attack because only victims would know it.",
+          "samples": [
+            {
+              "doc_id": "EFTA02731039",
+              "dataset": "dataset_12",
+              "context": "sidence in great detail, including describing the artwork in the massage room, a stuffed dog in the living room, and a library that she compared to the one in \"Beauty and the Beast.\" It would be extraordinarily unlikely that Victim-1 could describe these aspects of the residence in such detail if she had not spent significant time there.",
+              "matched": "Beauty and the Beast"
+            },
+            {
+              "doc_id": "EFTA00008529",
+              "dataset": "dataset_6",
+              "context": "hes or paintings of naked females on them. And she 13 also talked about a library in his residence that looked 14 like it was something from out of Beauty and the Beast. 15 Q. Is that how she described it to you? 16 A. Yes. 17 Q. So we've been talking about what you've learned 18 during i",
+              "matched": "Beauty and the Beast"
+            },
+            {
+              "doc_id": "EFTA00029432_djvu",
+              "dataset": "dataset_8",
+              "context": "rey Epstein < To: Jes Staley < Sent: 7/10/2010 3:27:04 PM Subject: Re: well one side is availble On Sat, Jul 10, 2010 at 10:17 AM, Jes Staley - ee e i > wrote: Beauty and the Beast..... From: Jeffrey Epstein < - To: Jes Staley Sent: Fri Jul 09 21:02:03 2010 Subject: Re: what character would you like next On Fri, Jul 9, 2010 at 8:45 PM, Je",
+              "matched": "Beauty and the Beast"
+            }
+          ],
+          "datasets": {
+            "dataset_6": 1,
+            "dataset_8": 1,
+            "dataset_12": 1
+          }
+        },
+        {
+          "rank": 6,
+          "text": "highly valued friend",
+          "count": 1,
+          "docs": 1,
+          "note": "Noam Chomsky character reference (House Oversight 022405)",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats",
+          "significance": "Noam Chomsky's signed letter — written WELL AFTER Epstein's 2008 conviction — calls Epstein a 'highly valued friend and regular source of intellectual exchange.' Documents continued elite-academic legitimization of Epstein post-conviction. Chomsky later said he met Epstein only to discuss ideas; this letter contradicts the framing.",
+          "samples": [
+            {
+              "doc_id": "HOUSE_OVERSIGHT_022405",
+              "dataset": "estate",
+              "context": "knowledge, penetrating insights, and thoughtful appraisals is only heightened by his easy informality, without a trace of pretentiousness. He quickly became a highly valued friend and regular source of intellectual exchange and stimulation. Noam Chomsky Institute Professor (emeritus), MIT; Laureate Professor, U. of Arizona",
+              "matched": "highly valued friend"
+            }
+          ],
+          "datasets": {
+            "estate": 1
+          }
+        },
+        {
+          "rank": 7,
+          "text": "Invisible Man",
+          "count": 6,
+          "docs": 5,
+          "note": "Aug 18 2001 'The Invisible Man' <abx17@dial.pipex.com> → 'G. Maxwell' <gmax1@mindspring.com>",
+          "url": "https://www.cnn.com/2025/12/23/europe/ghislaine-maxwell-email-british-royal-family-latam-intl",
+          "significance": "Prince Andrew's pseudonym in Ghislaine Maxwell's address book. The 2001 email signed 'The Invisible Man' (from a UK-ISP Pipex address typical of late-90s royal staff) reads: 'Distraught! You probably wouldn't [know] inappropriate friends [redacted]…' CNN, ITV, and ABC published this as one of the strongest pieces of evidence that 'A' / 'Invisible Man' was Andrew, contradicting his denials.",
+          "samples": [
+            {
+              "doc_id": "EFTA00011440_djvu",
+              "dataset": "dataset_8",
+              "context": "From: \"The Invisible Man\" <abx17@dial.pipex.com> To: \"G. Maxwell\" <gmax1@mindspring.com> Subject: RE: Sent: Sat, 18 Aug 2001 22:42:18 +0100 Distraught! You probably wouldn't know but |",
+              "matched": "Invisible Man"
+            },
+            {
+              "doc_id": "EFTA00011437_djvu",
+              "dataset": "dataset_8",
+              "context": "From: \"The Invisible Man\" <abx17@dial.pipex.com> To: \"Ghislaine Maxwell (E-mail)\" <gmax1@mindspring.com> Subject: Summer Camp Sent: Thu, 16 Aug 2001 11:09:45 +0100 | am up here at Balm",
+              "matched": "Invisible Man"
+            },
+            {
+              "doc_id": "EFTA00011438_djvu",
+              "dataset": "dataset_8",
+              "context": "From: \"The Invisible Man\" <aace@dial.pipex.com> To: \"G. Max\" <gmax1@mindspring.com> Subject: RE: Re: Sent: Thu, 28 Feb 2002 06:30:20 -0000 | am overwhelmed at the kindness and generosi",
+              "matched": "Invisible Man"
+            }
+          ],
+          "datasets": {
+            "dataset_8": 3
+          }
+        },
+        {
+          "rank": 8,
+          "text": "Mohammed bin Salman",
+          "count": 32,
+          "docs": 16,
+          "note": "2016 House Oversight estate email re Saudi crown prince's gift",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-donald-trump-emails-house-oversight/",
+          "significance": "Documents Epstein's direct relationship with Mohammed bin Salman, including MBS gifting Epstein a Bedouin tent 'carpets and all' that was displayed in Epstein's NY townhouse. MBS visited Epstein in NY post-Khashoggi (2018), per the released emails. One of the strongest foreign-state linkages in the release.",
+          "samples": [
+            {
+              "doc_id": "HOUSE_OVERSIGHT_016111",
+              "dataset": "estate",
+              "context": "s, with implementation carried out by several government entities. The Vision continues to centralize decision-making into CEDA, chaired by Deputy Crown Prince Mohammed bin Salman, and reporting to the Council of Ministers. The Ministry of Economy and Planning also retains an important role, with lower emphasis being put on the Ministry",
+              "matched": "Mohammed bin\nSalman"
+            },
+            {
+              "doc_id": "HOUSE_OVERSIGHT_016111",
+              "dataset": "estate",
+              "context": "llow greater focus on achieving a diversified foreign asset base which could support in turn the build-up of non-oil revenues. According to Deputy Crown Prince Mohammed bin Salman, government ownership of Saudi Aramco would be transferred to the PIF, which will be transformed into a SWF that will look to increase its overseas assets (fro",
+              "matched": "Mohammed bin Salman"
+            },
+            {
+              "doc_id": "HOUSE_OVERSIGHT_016111",
+              "dataset": "estate",
+              "context": "gressive market share strategy, in our view. Privatization of energy sector could start by 2018 In a recent interview with Bloomberg, Saudi Deputy Crown Prince Mohammed bin Salman outlined an array of measures the Saudi government could introduce to help diversify the economy, reduce its reliance on the hydrocarbon industry and ultimatel",
+              "matched": "Mohammed bin\nSalman"
+            }
+          ],
+          "datasets": {
+            "estate": 3
+          }
+        },
+        {
           "rank": 9,
-          "text": "Ruemmler",
-          "count": 333,
-          "docs": 130,
-          "note": "Kathryn Ruemmler — Goldman CLO (CNBC)",
-          "samples": [
-            {
-              "doc_id": "EFTA02212984",
-              "dataset": "dataset_11",
-              "context": "EFTA02212984 Hello Brad. Jeffrey is asking if you would like to join him and Kathy Ruemmler tomorrow at the house at 5:30pm..might this work for you? 9 East 71st Street between 5th and Madison Please let me know. Thank you, This messag",
-              "matched": "Ruemmler"
-            },
-            {
-              "doc_id": "EFTA02213016",
-              "dataset": "dataset_11",
-              "context": "To: 'effre E. 'eevacation@gmail.com] From: Sent Thur 5/18/2017 9:46:54 PM Subject: Re: Paul Barrett is coming at 5pm and Kathy Ruemmler/Brad Karp are coming at 5:30. Do you still wish me to change Ehud to 5pm tomorrow? 8:30am BREAKFAST w/Leon Black 10:00am Appt w/Barry Cohen 10:30am Appt w/",
-              "matched": "Ruemmler"
-            },
-            {
-              "doc_id": "EFTA02213016",
-              "dataset": "dataset_11",
-              "context": "z recommended Chen) 51 West 515' Street, andfloor Suite 375 JOJO TO DRIVE YOU! 4:00pm App: w/Ehud 5:00pm Appt w/Paul Barrett t M 5:30pm w/Kathy Ruemmler and Brad Karp (Kathy (Brad Sent from my iPhone On May 18, 2017, at 5:32 PM, Jeffrey E. icevacation@gmail.com> wrote: Move Ehud to",
-              "matched": "Ruemmler"
-            }
-          ],
-          "datasets": {
-            "dataset_11": 3
-          }
-        },
-        {
-          "rank": 10,
-          "text": "Operation Leap Year",
-          "count": 29,
-          "docs": 14,
-          "note": "Federal Grand Jury 07-103, West Palm Beach, May 8 2007 (DS7)",
-          "samples": [
-            {
-              "doc_id": "EFTA00009440",
-              "dataset": "dataset_7",
-              "context": "Page 1 UNITED STATES DISTRICT COURT SOUTHERN DISTRICT OF FLORIDA IN RE: OPERATION LEAP YEAR Federal Grand Jury, 07-103 West Palm Beach, Florida Ma",
-              "matched": "OPERATION LEAP YEAR"
-            },
-            {
-              "doc_id": "EFTA00009440",
-              "dataset": "dataset_7",
-              "context": "A I'm a special agent, and have been so for four 14 years. 15 Q Are you one of the agents assigned to the 16 investigation known as Operation Leap Year? 17 A Yes, I am. 18 Q Were subpoenas caused to be issued on behalf of 19 this grand jury in connection with that investigation? 20",
-              "matched": "Operation Leap Year"
-            },
-            {
-              "doc_id": "EFTA00009512",
-              "dataset": "dataset_7",
-              "context": "SOUTHERN DISTRICT OF FLORIDA 2 WEST PALM BEACH 3 4 5 6 7 8 IN RE: OPERATION LEAP YEAR 9 10 11 Grand Jury #07-103 (TUES-wPB) arb 12 west Palm Beach, Flori",
-              "matched": "OPERATION LEAP YEAR"
-            }
-          ],
-          "datasets": {
-            "dataset_7": 3
-          }
-        },
-        {
-          "rank": 11,
-          "text": "Free State Reporting",
-          "count": 400,
-          "docs": 8,
-          "note": "Court-reporting company that transcribed SDNY Maxwell grand jury",
-          "samples": [
-            {
-              "doc_id": "EFTA02731812",
-              "dataset": "dataset_12",
-              "context": "States Attorney 16 17 18 19 20 21 22 23 Jury Reporter 24 25 FREE STATE REPORTING, INC. Court Reporting Transcription D.C. Area 301-261-1902 Balt. & Annap. 410-974-0947",
-              "matched": "FREE STATE REPORTING"
-            },
-            {
-              "doc_id": "EFTA02731812",
-              "dataset": "dataset_12",
-              "context": "is case? 23 A. Yes. 24 Q. Have you reviewed reports and documents prepared 25 by others regarding this case? FREE STATE REPORTING, INC. Court Reporting Transcription D.C. Area 301-261-1902 Balt. & Annap. 410-97",
-              "matched": "FREE STATE REPORTING"
-            },
-            {
-              "doc_id": "EFTA02731812",
-              "dataset": "dataset_12",
-              "context": "e, 24 intensive video review of the video available in the SHU 25 from July 23rd to August 10, 2019. And there have been FREE STATE REPORTING, INC. Court Reporting Transcription D.C. Area 301-261-1902 Balt. & Annap. 410-97",
-              "matched": "FREE STATE REPORTING"
-            }
-          ],
-          "datasets": {
-            "dataset_12": 3
-          }
-        },
-        {
-          "rank": 12,
           "text": "Centurion",
           "count": 856,
           "docs": 206,
-          "note": "AmEx black-card concierge (CBS, Bloomberg May 2026)",
+          "note": "American Express Black Card concierge — flight-booking thread (DS11)",
+          "url": "https://www.cbsnews.com/news/american-express-epstein-files-doj-trafficking-women-girls/",
+          "significance": "Epstein held an AmEx Centurion card (the invitation-only Black Card). His executive assistant Lesley Groff booked all the international flights for the women — under Epstein's Centurion concierge — using AmEx's concierge to manufacture legitimate-looking travel itineraries that doubled as US visa support documents. CBS broke the AmEx-as-trafficking-enabler angle in May 2026.",
           "samples": [
             {
               "doc_id": "EFTA02205827",
@@ -59577,11 +59513,109 @@
           }
         },
         {
+          "rank": 10,
+          "text": "Ruemmler",
+          "count": 333,
+          "docs": 130,
+          "note": "Kathryn Ruemmler — Goldman Sachs CLO + ex-Obama WH Counsel",
+          "url": "https://www.cnbc.com/2025/11/12/trump-jeffrey-epstein-ghislaine-maxwell-emails-house-democrats.html",
+          "significance": "Recipient of Epstein's 'I know how dirty donald is' email. Career trajectory: Obama White House Counsel → Latham & Watkins partner → Goldman Sachs Chief Legal Officer. Her presence in the corpus shows Epstein's network reached into top-tier US legal-political circles. She resigned from Goldman after the emails surfaced.",
+          "samples": [
+            {
+              "doc_id": "EFTA02212984",
+              "dataset": "dataset_11",
+              "context": "EFTA02212984 Hello Brad. Jeffrey is asking if you would like to join him and Kathy Ruemmler tomorrow at the house at 5:30pm..might this work for you? 9 East 71st Street between 5th and Madison Please let me know. Thank you, This messag",
+              "matched": "Ruemmler"
+            },
+            {
+              "doc_id": "EFTA02213016",
+              "dataset": "dataset_11",
+              "context": "To: 'effre E. 'eevacation@gmail.com] From: Sent Thur 5/18/2017 9:46:54 PM Subject: Re: Paul Barrett is coming at 5pm and Kathy Ruemmler/Brad Karp are coming at 5:30. Do you still wish me to change Ehud to 5pm tomorrow? 8:30am BREAKFAST w/Leon Black 10:00am Appt w/Barry Cohen 10:30am Appt w/",
+              "matched": "Ruemmler"
+            },
+            {
+              "doc_id": "EFTA02213016",
+              "dataset": "dataset_11",
+              "context": "z recommended Chen) 51 West 515' Street, andfloor Suite 375 JOJO TO DRIVE YOU! 4:00pm App: w/Ehud 5:00pm Appt w/Paul Barrett t M 5:30pm w/Kathy Ruemmler and Brad Karp (Kathy (Brad Sent from my iPhone On May 18, 2017, at 5:32 PM, Jeffrey E. icevacation@gmail.com> wrote: Move Ehud to",
+              "matched": "Ruemmler"
+            }
+          ],
+          "datasets": {
+            "dataset_11": 3
+          }
+        },
+        {
+          "rank": 11,
+          "text": "Operation Leap Year",
+          "count": 29,
+          "docs": 14,
+          "note": "Federal Grand Jury 07-103, West Palm Beach FL, May 8 2007 (DS7)",
+          "url": "https://www.justice.gov/usao-sdny/programs/victim-witness-services/united-states-v-jeffrey-epstein-19-cr-490-rmb",
+          "significance": "The DOJ code name for the 2006-08 federal investigation into Epstein. The grand jury transcripts (DS7) are the most direct record of what federal prosecutors HAD on Epstein before the 2008 plea deal was struck — the deal that AUSA Alex Acosta later defended as 'the best we could get.' These transcripts are the strongest evidence that prosecutors had ample basis to charge Epstein federally in 2008.",
+          "samples": [
+            {
+              "doc_id": "EFTA00009440",
+              "dataset": "dataset_7",
+              "context": "Page 1 UNITED STATES DISTRICT COURT SOUTHERN DISTRICT OF FLORIDA IN RE: OPERATION LEAP YEAR Federal Grand Jury, 07-103 West Palm Beach, Florida Ma",
+              "matched": "OPERATION LEAP YEAR"
+            },
+            {
+              "doc_id": "EFTA00009440",
+              "dataset": "dataset_7",
+              "context": "A I'm a special agent, and have been so for four 14 years. 15 Q Are you one of the agents assigned to the 16 investigation known as Operation Leap Year? 17 A Yes, I am. 18 Q Were subpoenas caused to be issued on behalf of 19 this grand jury in connection with that investigation? 20",
+              "matched": "Operation Leap Year"
+            },
+            {
+              "doc_id": "EFTA00009512",
+              "dataset": "dataset_7",
+              "context": "SOUTHERN DISTRICT OF FLORIDA 2 WEST PALM BEACH 3 4 5 6 7 8 IN RE: OPERATION LEAP YEAR 9 10 11 Grand Jury #07-103 (TUES-wPB) arb 12 west Palm Beach, Flori",
+              "matched": "OPERATION LEAP YEAR"
+            }
+          ],
+          "datasets": {
+            "dataset_7": 3
+          }
+        },
+        {
+          "rank": 12,
+          "text": "Free State Reporting",
+          "count": 400,
+          "docs": 8,
+          "note": "MD-based court reporting firm that transcribed the SDNY Maxwell grand jury (2019-21)",
+          "url": "https://www.epsteininvestigation.org/",
+          "significance": "Not a person — but their distinctive footer ('D.C. Area 301-261-1902 / Balt. & Annap. 410-974-0947') appears on every page of the SDNY grand-jury transcript, which is why these phone numbers and the words 'Annap' and 'Balt' show up as anomalous high-frequency signals in our PII analysis. Discovering this explains a bunch of false positives in the NER output.",
+          "samples": [
+            {
+              "doc_id": "EFTA02731812",
+              "dataset": "dataset_12",
+              "context": "States Attorney 16 17 18 19 20 21 22 23 Jury Reporter 24 25 FREE STATE REPORTING, INC. Court Reporting Transcription D.C. Area 301-261-1902 Balt. & Annap. 410-974-0947",
+              "matched": "FREE STATE REPORTING"
+            },
+            {
+              "doc_id": "EFTA02731812",
+              "dataset": "dataset_12",
+              "context": "is case? 23 A. Yes. 24 Q. Have you reviewed reports and documents prepared 25 by others regarding this case? FREE STATE REPORTING, INC. Court Reporting Transcription D.C. Area 301-261-1902 Balt. & Annap. 410-97",
+              "matched": "FREE STATE REPORTING"
+            },
+            {
+              "doc_id": "EFTA02731812",
+              "dataset": "dataset_12",
+              "context": "e, 24 intensive video review of the video available in the SHU 25 from July 23rd to August 10, 2019. And there have been FREE STATE REPORTING, INC. Court Reporting Transcription D.C. Area 301-261-1902 Balt. & Annap. 410-97",
+              "matched": "FREE STATE REPORTING"
+            }
+          ],
+          "datasets": {
+            "dataset_12": 3
+          }
+        },
+        {
           "rank": 13,
           "text": "Little Saint James",
           "count": 7772,
           "docs": 3351,
-          "note": "Epstein's USVI island",
+          "note": "Epstein's USVI private island; site of much of the documented abuse",
+          "url": "https://www.cnn.com/2026/03/13/us/jeffrey-epstein-little-st-james-island-invs-vis",
+          "significance": "The island is the geographic center of the trafficking. CNN's March 2026 investigation, based on the released LSJ house manual, documented that staff were required to call Epstein 'the Principal' and address him only as 'sir/ma'am.' Most of the named guests (Andrew, Hawking, Krauss, Hoffman, Ito, Musk per schedules) appear in flight logs and security records to/from LSJ.",
           "samples": [
             {
               "doc_id": "EFTA02730486",
@@ -59611,7 +59645,9 @@
           "text": "Zorro Ranch",
           "count": 953,
           "docs": 516,
-          "note": "Epstein's New Mexico ranch",
+          "note": "Epstein's 8,000-acre New Mexico ranch — site of the planned 'baby ranch' eugenics fantasy",
+          "url": "https://www.nytimes.com/2019/07/31/business/jeffrey-epstein-eugenics.html",
+          "significance": "The NM property is the location of Epstein's documented 'baby ranch' fantasy — he told scientists he wanted to seed the human race using himself, citing Zorro Ranch as the venue. NYT broke this story July 2019. The ranch and its science-elite visitors (Hawking, Gell-Mann, Minsky etc.) are also the bridge between the trafficking operation and the AI/eugenics correspondence we surfaced in the corpus.",
           "samples": [
             {
               "doc_id": "EFTA02730486",
@@ -59642,7 +59678,9 @@
           "text": "El Brillo",
           "count": 1803,
           "docs": 497,
-          "note": "358 El Brillo Way, Palm Beach mansion",
+          "note": "358 El Brillo Way, Palm Beach FL — Epstein's mansion + crime scene of the 2005-08 investigation",
+          "url": "https://www.miamiherald.com/news/local/article220097825.html",
+          "significance": "The Palm Beach mansion is where the abuse documented by the 2005-08 Palm Beach Police investigation (Det. Joe Recarey, lead detective) took place. The Miami Herald's 'Perversion of Justice' series — which forced the federal re-prosecution — centered on this address. DS4 in our corpus IS the Palm Beach Police case file.",
           "samples": [
             {
               "doc_id": "EFTA00008599",
@@ -59672,7 +59710,9 @@
           "text": "Darren awol",
           "count": 2,
           "docs": 2,
-          "note": "From Epstein's iMessages, Jun-Jul 2019 — 'Darren' = Darren Indyke, his attorney",
+          "note": "Apr 30 2019 iMessage (HOUSE_OVERSIGHT_027794)",
+          "url": "https://oversightdemocrats.house.gov/news/press-releases/house-oversight-committee-releases-jeffrey-epstein-email-correspondence-raising",
+          "significance": "From Epstein's iMessages with a REDACTED counterpart, ~2 months before his July 6 2019 arrest. The 'Darren' is Darren Indyke, Epstein's longtime personal attorney (now estate co-executor). 'Darren awol' = his lawyer is unreachable while they are planning a legal-strategy / PR-rehabilitation campaign that same week. The full thread is one of the most damning windows into Epstein's pre-arrest scrambling.",
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_027794",
@@ -59697,7 +59737,9 @@
           "text": "Ranch island. Paris. Harvard",
           "count": 2,
           "docs": 2,
-          "note": "Epstein iMessage to redacted counterpart, Jun 15 2019 — travel schedule request",
+          "note": "Epstein iMessage Jun 15 2019",
+          "url": "https://oversightdemocrats.house.gov/news/press-releases/house-oversight-committee-releases-jeffrey-epstein-email-correspondence-raising",
+          "significance": "21 days before his arrest, Epstein asks his iMessage counterpart for a travel schedule covering Zorro Ranch (NM), Little Saint James (USVI), Paris (his Avenue Foch apartment), and Harvard (where he had ongoing science-philanthropy ties). Demonstrates active multi-property operation right up to the moment of arrest — and that Harvard remained on his itinerary years after the 2008 conviction.",
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_027794",
@@ -59723,6 +59765,8 @@
           "count": 2,
           "docs": 2,
           "note": "Epstein iMessage Jun 15 2019",
+          "url": "https://oversightdemocrats.house.gov/news/press-releases/house-oversight-committee-releases-jeffrey-epstein-email-correspondence-raising",
+          "significance": "Epstein commenting in iMessage on Trump-era US-China extradition negotiations. Unusual for someone with no public foreign-policy role to be discussing extradition-policy signaling. Together with the 'Pompeo' mentions in the same thread, suggests Epstein was still serving as some kind of informal back-channel up to his arrest.",
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_027794",
@@ -59747,7 +59791,9 @@
           "text": "Aka MBS",
           "count": 1,
           "docs": 1,
-          "note": "House Oversight 019874 — Mohammed bin Salman decode",
+          "note": "HOUSE_OVERSIGHT_019874 — explicit decode that 'MBS' = Mohammed bin Salman",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-donald-trump-emails-house-oversight/",
+          "significance": "Our discovery: a doc in the release explicitly spells out 'Crown Prince of the House of Saud, Mohammed bin Salman bin Abdulaziz Al Saud, age thirty-one. Aka MBS.' Confirms that the 'MBS' initials in other emails (e.g., the Apr 2018 'HBJ sun. MBS mon.' iMessage) refer to MBS the Saudi crown prince — not someone else.",
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_019874",
@@ -59773,7 +59819,7 @@
           "text": "dirty donald",
           "count": 0,
           "docs": 0,
-          "note": "Epstein → Ruemmler (CNBC)",
+          "note": "Aug 2018 Epstein → Kathryn Ruemmler email (Oversight Dems Nov 20 release)",
           "samples": []
         }
       ]
@@ -68798,7 +68844,7 @@
           "note": "AmEx black-card concierge service (CBS, Bloomberg)"
         }
       ],
-      "explainer": "Counts of journalist-cited names and phrases across the full corpus. Each row links to its source (which article first surfaced the quote/name)."
+      "explainer": "Counts of journalist-cited names and phrases across the full corpus. The \"source\" column is a short citation only — NOT a clickable URL. (For phrases with real article links + significance blurbs, see the Verbatim press quotes page above.)"
     },
     {
       "kind": "codeword_top",
