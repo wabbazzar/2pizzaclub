@@ -22,6 +22,7 @@ const KIND_LABEL = {
     ngram: 'n-gram',
     verbatim_quote: 'verbatim quotes',
     email_threads: 'email threads',
+    imessages: 'iMessages',
 };
 
 function escapeHTML(s) {
@@ -108,6 +109,26 @@ function renderPage() {
               + `<span class="histo-bar"><span class="histo-fill" style="width:${pct}%"></span></span>`
               + `<span class="histo-count">${r.count}</span>`
               + `</div>`;
+        }
+        html += '</div>';
+        root.innerHTML = html;
+        renderTOC();
+        renderPagerLabels();
+        history.replaceState(null, '', `#p=${state.pageIdx + 1}`);
+        return;
+    }
+
+    // iMessage chronological render
+    if (page.kind === 'imessages') {
+        html += '<div class="imsg-list">';
+        for (const r of page.rows || []) {
+            const cls = r.sender === 'epstein' ? 'imsg-jee' : 'imsg-other';
+            html += `<div class="imsg ${cls}">`
+                  + `<span class="imsg-ts">${escapeHTML(r.note || '?')}</span>`
+                  + `<span class="imsg-sender">${escapeHTML(r.sender === 'epstein' ? 'JE' : '◼')}</span>`
+                  + `<span class="imsg-body">${escapeHTML(r.text)}</span>`
+                  + `<span class="imsg-doc">${escapeHTML(r.doc_id || '')}</span>`
+                  + `</div>`;
         }
         html += '</div>';
         root.innerHTML = html;
