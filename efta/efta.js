@@ -9,21 +9,21 @@ const state = {
 
 // Display order + label for each kind, when building the TOC.
 const KIND_GROUP = {
-    names_grep:         { order:  1, label: 'Top names (full-corpus grep)' },
-    topic_search:       { order:  2, label: 'Topic search' },
-    verbatim_quote:     { order:  3, label: 'Verbatim press quotes' },
-    press_recreate:     { order:  4, label: 'Press-cited terms — counts' },
-    codeword_top:       { order:  5, label: 'Code-language counts' },
-    ds10_financial:     { order:  6, label: 'DS10 financial dossier' },
-    cooccur_pairs:      { order:  7, label: 'Co-occurrence pairs' },
-    email_threads:      { order:  8, label: 'Email threads' },
-    imessages:          { order:  9, label: 'Epstein iMessages (chrono)' },
-    doc_dates_year:     { order: 10, label: 'Doc-date histogram' },
-    mention_dates_year: { order: 11, label: 'Mention-date histogram' },
-    tfidf:              { order: 12, label: 'TF-IDF n-grams' },
-    ngram:              { order: 13, label: 'Doc-spread n-grams' },
-    label_top:          { order: 14, label: 'Other PII labels (NER, partial)' },
-    names_top20:        { order: 15, label: '(deprecated) NER top names' },
+    names_top20:        { order:  1, label: 'Top names — NER discovered' },
+    names_grep:         { order:  2, label: 'Top names — curated grep (cross-check)' },
+    topic_search:       { order:  3, label: 'Topic search' },
+    verbatim_quote:     { order:  4, label: 'Verbatim press quotes' },
+    press_recreate:     { order:  5, label: 'Press-cited terms — counts' },
+    codeword_top:       { order:  6, label: 'Code-language counts' },
+    ds10_financial:     { order:  7, label: 'DS10 financial dossier' },
+    cooccur_pairs:      { order:  8, label: 'Co-occurrence pairs' },
+    email_threads:      { order:  9, label: 'Email threads' },
+    imessages:          { order: 10, label: 'Epstein iMessages (chrono)' },
+    doc_dates_year:     { order: 11, label: 'Doc-date histogram' },
+    mention_dates_year: { order: 12, label: 'Mention-date histogram' },
+    tfidf:              { order: 13, label: 'TF-IDF n-grams' },
+    ngram:              { order: 14, label: 'Doc-spread n-grams' },
+    label_top:          { order: 15, label: 'Other PII labels (NER)' },
     email_top:          { order: 16, label: 'Top email addresses (NER)' },
 };
 
@@ -141,8 +141,32 @@ function renderPage() {
         return;
     }
 
-    // Topic-search render: per-match table (date, doc_id, matched, context)
+    // Topic-search render: year histogram at top, then per-match table
     if (page.kind === 'topic_search') {
+        const by = page.by_year || {};
+        const years = Object.keys(by).map(Number).sort((a,b)=>a-b);
+        if (years.length) {
+            // Backfill missing years for cleaner visual continuity
+            const ymin = Math.min(...years), ymax = Math.max(...years);
+            const filled = [];
+            for (let y = ymin; y <= ymax; y++) filled.push([y, by[y] || 0]);
+            const maxBar = Math.max(1, ...filled.map(([_,c])=>c));
+            html += '<div class="topic-histo">';
+            html += '<p class="topic-histo-label">matches by year ('
+                  + '<span class="pre2020">pre-2020 yellow</span> · '
+                  + '<span class="post2020">2020+ red</span>):</p>';
+            html += '<div class="histo">';
+            for (const [y, c] of filled) {
+                const pct = c ? Math.max(2, Math.round(100 * c / maxBar)) : 0;
+                const cls = y >= 2020 ? 'histo-fill post' : 'histo-fill pre';
+                html += `<div class="histo-row">`
+                  + `<span class="histo-label">${y}</span>`
+                  + `<span class="histo-bar"><span class="${cls}" style="width:${pct}%"></span></span>`
+                  + `<span class="histo-count">${c}</span>`
+                  + `</div>`;
+            }
+            html += '</div></div>';
+        }
         html += '<table class="efta-table topic-table"><thead><tr>'
               + '<th>#</th><th>date</th><th>doc id</th><th>matched</th><th>context</th>'
               + '</tr></thead><tbody>';
