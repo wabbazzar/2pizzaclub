@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T16:43:04.580505+00:00",
+  "generated_at": "2026-05-21T16:57:23.620854+00:00",
   "corpus": {
     "n_documents": 784,
     "n_entity_hits": 46900,
@@ -67,6 +67,95 @@
             "2021": 3,
             "2025": 2,
             "2035": 14
+          },
+          "by_year_dataset": {
+            "1111": {
+              "dataset_10": 1
+            },
+            "1970": {
+              "dataset_10": 1
+            },
+            "2005": {
+              "dataset_10": 1
+            },
+            "2006": {
+              "dataset_10": 3
+            },
+            "2007": {
+              "dataset_8": 3,
+              "dataset_10": 2
+            },
+            "2008": {
+              "dataset_8": 5,
+              "dataset_10": 4
+            },
+            "2009": {
+              "estate": 8,
+              "dataset_10": 2828
+            },
+            "2010": {
+              "estate": 7,
+              "dataset_8": 5,
+              "dataset_10": 5089
+            },
+            "2011": {
+              "estate": 18,
+              "dataset_8": 2,
+              "dataset_10": 2996
+            },
+            "2012": {
+              "estate": 9,
+              "dataset_10": 2721
+            },
+            "2013": {
+              "dataset_12": 1,
+              "emails": 1,
+              "estate": 16,
+              "dataset_10": 274
+            },
+            "2014": {
+              "estate": 10,
+              "dataset_10": 577
+            },
+            "2015": {
+              "estate": 13,
+              "dataset_10": 405
+            },
+            "2016": {
+              "estate": 20,
+              "dataset_10": 245
+            },
+            "2017": {
+              "dataset_11": 21,
+              "emails": 20,
+              "estate": 15,
+              "dataset_10": 223
+            },
+            "2018": {
+              "estate": 23,
+              "dataset_8": 1,
+              "dataset_10": 302
+            },
+            "2019": {
+              "estate": 11,
+              "dataset_8": 34,
+              "dataset_10": 110
+            },
+            "2020": {
+              "dataset_8": 7,
+              "dataset_10": 4
+            },
+            "2021": {
+              "dataset_8": 2,
+              "dataset_10": 1
+            },
+            "2025": {
+              "dataset_12": 1,
+              "dataset_10": 1
+            },
+            "2035": {
+              "dataset_10": 14
+            }
           },
           "samples": [
             {
@@ -139,6 +228,58 @@
             "2035": 13,
             "2915": 1
           },
+          "by_year_dataset": {
+            "2008": {
+              "dataset_10": 1
+            },
+            "2009": {
+              "dataset_10": 72
+            },
+            "2010": {
+              "dataset_10": 113
+            },
+            "2011": {
+              "estate": 1,
+              "dataset_10": 92
+            },
+            "2012": {
+              "estate": 1,
+              "dataset_10": 66
+            },
+            "2013": {
+              "dataset_10": 86
+            },
+            "2014": {
+              "dataset_10": 406
+            },
+            "2015": {
+              "estate": 2,
+              "dataset_10": 297
+            },
+            "2016": {
+              "estate": 4,
+              "dataset_10": 233
+            },
+            "2017": {
+              "dataset_11": 5,
+              "emails": 5,
+              "estate": 3,
+              "dataset_10": 357
+            },
+            "2018": {
+              "estate": 4,
+              "dataset_10": 292
+            },
+            "2019": {
+              "dataset_10": 144
+            },
+            "2035": {
+              "dataset_10": 13
+            },
+            "2915": {
+              "dataset_10": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA02731082",
@@ -209,6 +350,60 @@
             "2019": 49,
             "2020": 1,
             "2035": 4
+          },
+          "by_year_dataset": {
+            "2008": {
+              "dataset_10": 1
+            },
+            "2009": {
+              "estate": 3,
+              "dataset_10": 11
+            },
+            "2010": {
+              "dataset_10": 15
+            },
+            "2011": {
+              "dataset_10": 6
+            },
+            "2012": {
+              "estate": 2,
+              "dataset_10": 3
+            },
+            "2013": {
+              "estate": 4,
+              "dataset_10": 51
+            },
+            "2014": {
+              "dataset_10": 270
+            },
+            "2015": {
+              "dataset_10": 267
+            },
+            "2016": {
+              "estate": 4,
+              "dataset_10": 238
+            },
+            "2017": {
+              "dataset_11": 1,
+              "emails": 1,
+              "estate": 1,
+              "dataset_10": 229
+            },
+            "2018": {
+              "estate": 1,
+              "dataset_10": 258
+            },
+            "2019": {
+              "estate": 1,
+              "dataset_8": 1,
+              "dataset_10": 47
+            },
+            "2020": {
+              "dataset_8": 1
+            },
+            "2035": {
+              "dataset_10": 4
+            }
           },
           "samples": [
             {
@@ -287,6 +482,68 @@
             "2022": 2,
             "2025": 2
           },
+          "by_year_dataset": {
+            "1961": {
+              "dataset_8": 1
+            },
+            "2003": {
+              "dataset_10": 1
+            },
+            "2006": {
+              "dataset_10": 1
+            },
+            "2009": {
+              "estate": 3,
+              "dataset_10": 16
+            },
+            "2010": {
+              "estate": 2,
+              "dataset_10": 18
+            },
+            "2011": {
+              "estate": 5,
+              "dataset_10": 34
+            },
+            "2012": {
+              "dataset_10": 2
+            },
+            "2013": {
+              "dataset_10": 5
+            },
+            "2014": {
+              "estate": 1,
+              "dataset_10": 4
+            },
+            "2015": {
+              "estate": 5,
+              "dataset_10": 4
+            },
+            "2016": {
+              "dataset_10": 1
+            },
+            "2017": {
+              "estate": 2
+            },
+            "2018": {
+              "estate": 1
+            },
+            "2019": {
+              "dataset_10": 3
+            },
+            "2020": {
+              "dataset_8": 18
+            },
+            "2021": {
+              "dataset_8": 15
+            },
+            "2022": {
+              "dataset_8": 2
+            },
+            "2025": {
+              "dataset_12": 1,
+              "dataset_10": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA02730267",
@@ -354,6 +611,52 @@
             "2020": 1,
             "2035": 11
           },
+          "by_year_dataset": {
+            "2009": {
+              "dataset_10": 23
+            },
+            "2010": {
+              "dataset_10": 166
+            },
+            "2011": {
+              "estate": 2,
+              "dataset_10": 168
+            },
+            "2012": {
+              "estate": 3,
+              "dataset_10": 306
+            },
+            "2013": {
+              "estate": 1,
+              "dataset_10": 97
+            },
+            "2014": {
+              "estate": 2,
+              "dataset_10": 142
+            },
+            "2015": {
+              "estate": 2,
+              "dataset_10": 61
+            },
+            "2016": {
+              "estate": 1,
+              "dataset_10": 36
+            },
+            "2017": {
+              "dataset_11": 18,
+              "emails": 17,
+              "dataset_10": 5
+            },
+            "2019": {
+              "dataset_10": 2
+            },
+            "2020": {
+              "dataset_10": 1
+            },
+            "2035": {
+              "dataset_10": 11
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA02731200",
@@ -419,6 +722,41 @@
             "2016": 18,
             "2017": 2
           },
+          "by_year_dataset": {
+            "2009": {
+              "dataset_10": 36
+            },
+            "2010": {
+              "dataset_10": 89
+            },
+            "2011": {
+              "estate": 2,
+              "dataset_10": 128
+            },
+            "2012": {
+              "estate": 5,
+              "dataset_10": 71
+            },
+            "2013": {
+              "dataset_12": 1,
+              "emails": 1,
+              "dataset_10": 26
+            },
+            "2014": {
+              "dataset_10": 12
+            },
+            "2015": {
+              "dataset_10": 26
+            },
+            "2016": {
+              "estate": 1,
+              "dataset_10": 17
+            },
+            "2017": {
+              "dataset_11": 1,
+              "emails": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA02730265",
@@ -480,6 +818,29 @@
             "2012": 30,
             "2013": 2
           },
+          "by_year_dataset": {
+            "2008": {
+              "dataset_10": 19
+            },
+            "2009": {
+              "dataset_8": 1,
+              "dataset_10": 157
+            },
+            "2010": {
+              "dataset_8": 4,
+              "dataset_10": 240
+            },
+            "2011": {
+              "dataset_8": 1,
+              "dataset_10": 172
+            },
+            "2012": {
+              "dataset_10": 30
+            },
+            "2013": {
+              "dataset_10": 2
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA02731737",
@@ -536,6 +897,23 @@
             "2015": 41,
             "2016": 6,
             "2035": 3
+          },
+          "by_year_dataset": {
+            "2013": {
+              "dataset_10": 190
+            },
+            "2014": {
+              "dataset_10": 101
+            },
+            "2015": {
+              "dataset_10": 41
+            },
+            "2016": {
+              "dataset_10": 6
+            },
+            "2035": {
+              "dataset_10": 3
+            }
           },
           "samples": [
             {
@@ -597,6 +975,34 @@
             "2017": 17,
             "2018": 7,
             "2019": 6
+          },
+          "by_year_dataset": {
+            "2011": {
+              "dataset_10": 7
+            },
+            "2012": {
+              "dataset_10": 160
+            },
+            "2013": {
+              "dataset_10": 28
+            },
+            "2014": {
+              "dataset_10": 1
+            },
+            "2016": {
+              "dataset_10": 4
+            },
+            "2017": {
+              "dataset_11": 4,
+              "emails": 4,
+              "dataset_10": 9
+            },
+            "2018": {
+              "dataset_10": 7
+            },
+            "2019": {
+              "dataset_10": 6
+            }
           },
           "samples": [
             {
@@ -661,6 +1067,34 @@
             "2015": 1,
             "2017": 12,
             "2018": 8
+          },
+          "by_year_dataset": {
+            "2006": {
+              "dataset_10": 1
+            },
+            "2010": {
+              "dataset_10": 7
+            },
+            "2011": {
+              "dataset_10": 4
+            },
+            "2012": {
+              "dataset_10": 8
+            },
+            "2013": {
+              "dataset_10": 2
+            },
+            "2015": {
+              "dataset_10": 1
+            },
+            "2017": {
+              "dataset_11": 5,
+              "emails": 5,
+              "estate": 2
+            },
+            "2018": {
+              "dataset_10": 8
+            }
           },
           "samples": [
             {
@@ -728,6 +1162,24 @@
             "2011": 80,
             "2012": 13,
             "2016": 2
+          },
+          "by_year_dataset": {
+            "2009": {
+              "estate": 1,
+              "dataset_10": 103
+            },
+            "2010": {
+              "dataset_10": 158
+            },
+            "2011": {
+              "dataset_10": 80
+            },
+            "2012": {
+              "dataset_10": 13
+            },
+            "2016": {
+              "estate": 2
+            }
           },
           "samples": [
             {
@@ -797,6 +1249,55 @@
             "2023": 6,
             "2035": 2
           },
+          "by_year_dataset": {
+            "2009": {
+              "dataset_10": 6
+            },
+            "2010": {
+              "dataset_10": 10
+            },
+            "2011": {
+              "estate": 2,
+              "dataset_10": 16
+            },
+            "2012": {
+              "dataset_10": 13
+            },
+            "2013": {
+              "dataset_10": 11
+            },
+            "2014": {
+              "estate": 4,
+              "dataset_10": 38
+            },
+            "2015": {
+              "estate": 3,
+              "dataset_10": 11
+            },
+            "2016": {
+              "estate": 1,
+              "dataset_10": 5
+            },
+            "2017": {
+              "dataset_11": 1,
+              "emails": 1,
+              "estate": 1,
+              "dataset_10": 19
+            },
+            "2018": {
+              "dataset_10": 9
+            },
+            "2019": {
+              "dataset_10": 6
+            },
+            "2023": {
+              "dataset_12": 3,
+              "emails": 3
+            },
+            "2035": {
+              "dataset_10": 2
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA02731718",
@@ -861,6 +1362,36 @@
             "2016": 1,
             "2018": 6,
             "2019": 4
+          },
+          "by_year_dataset": {
+            "2010": {
+              "estate": 2,
+              "dataset_10": 6
+            },
+            "2011": {
+              "estate": 2,
+              "dataset_10": 12
+            },
+            "2013": {
+              "dataset_10": 1
+            },
+            "2014": {
+              "estate": 1,
+              "dataset_10": 3
+            },
+            "2015": {
+              "estate": 3
+            },
+            "2016": {
+              "estate": 1
+            },
+            "2018": {
+              "dataset_10": 6
+            },
+            "2019": {
+              "dataset_8": 1,
+              "dataset_10": 3
+            }
           },
           "samples": [
             {
@@ -928,6 +1459,42 @@
             "2018": 3,
             "2019": 1
           },
+          "by_year_dataset": {
+            "2009": {
+              "dataset_10": 5
+            },
+            "2010": {
+              "dataset_8": 1,
+              "dataset_10": 11
+            },
+            "2011": {
+              "estate": 3,
+              "dataset_10": 33
+            },
+            "2012": {
+              "dataset_10": 1
+            },
+            "2013": {
+              "estate": 3
+            },
+            "2015": {
+              "estate": 5,
+              "dataset_10": 3
+            },
+            "2016": {
+              "estate": 1
+            },
+            "2017": {
+              "dataset_10": 1
+            },
+            "2018": {
+              "estate": 1,
+              "dataset_10": 2
+            },
+            "2019": {
+              "estate": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA02730267",
@@ -993,6 +1560,49 @@
             "2018": 24,
             "2019": 9,
             "2020": 2
+          },
+          "by_year_dataset": {
+            "2009": {
+              "estate": 2
+            },
+            "2010": {
+              "estate": 3,
+              "dataset_10": 6
+            },
+            "2011": {
+              "estate": 2,
+              "dataset_10": 4
+            },
+            "2012": {
+              "dataset_10": 1
+            },
+            "2013": {
+              "estate": 1
+            },
+            "2014": {
+              "estate": 1
+            },
+            "2015": {
+              "estate": 3
+            },
+            "2016": {
+              "estate": 9
+            },
+            "2017": {
+              "estate": 16,
+              "dataset_10": 1
+            },
+            "2018": {
+              "estate": 23,
+              "dataset_10": 1
+            },
+            "2019": {
+              "estate": 8,
+              "dataset_10": 1
+            },
+            "2020": {
+              "dataset_10": 2
+            }
           },
           "samples": [
             {
@@ -1060,6 +1670,47 @@
             "2018": 13,
             "2019": 1
           },
+          "by_year_dataset": {
+            "2009": {
+              "dataset_10": 2
+            },
+            "2010": {
+              "estate": 1,
+              "dataset_10": 5
+            },
+            "2011": {
+              "estate": 8,
+              "dataset_10": 10
+            },
+            "2012": {
+              "estate": 5
+            },
+            "2013": {
+              "estate": 2
+            },
+            "2014": {
+              "estate": 4
+            },
+            "2015": {
+              "estate": 14,
+              "dataset_10": 1
+            },
+            "2016": {
+              "estate": 3
+            },
+            "2017": {
+              "estate": 2,
+              "dataset_10": 1
+            },
+            "2018": {
+              "estate": 10,
+              "dataset_8": 1,
+              "dataset_10": 2
+            },
+            "2019": {
+              "dataset_8": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA02731082",
@@ -1122,6 +1773,33 @@
             "2018": 3,
             "2019": 1
           },
+          "by_year_dataset": {
+            "2009": {
+              "dataset_10": 38
+            },
+            "2010": {
+              "dataset_10": 79
+            },
+            "2011": {
+              "estate": 3,
+              "dataset_10": 19
+            },
+            "2012": {
+              "dataset_10": 4
+            },
+            "2015": {
+              "estate": 1
+            },
+            "2017": {
+              "estate": 4
+            },
+            "2018": {
+              "estate": 3
+            },
+            "2019": {
+              "estate": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA02731465",
@@ -1177,6 +1855,24 @@
             "2015": 1,
             "2016": 3,
             "2017": 1
+          },
+          "by_year_dataset": {
+            "2013": {
+              "dataset_10": 5
+            },
+            "2014": {
+              "estate": 1
+            },
+            "2015": {
+              "estate": 1
+            },
+            "2016": {
+              "estate": 2,
+              "dataset_10": 1
+            },
+            "2017": {
+              "estate": 1
+            }
           },
           "samples": [
             {
@@ -1235,6 +1931,25 @@
             "2018": 43,
             "2019": 12,
             "2020": 2
+          },
+          "by_year_dataset": {
+            "2016": {
+              "estate": 7
+            },
+            "2017": {
+              "estate": 9
+            },
+            "2018": {
+              "estate": 42,
+              "dataset_10": 1
+            },
+            "2019": {
+              "estate": 8,
+              "dataset_10": 4
+            },
+            "2020": {
+              "dataset_8": 2
+            }
           },
           "samples": [
             {
@@ -1296,6 +2011,24 @@
             "2017": 1,
             "2018": 3,
             "2019": 8
+          },
+          "by_year_dataset": {
+            "2007": {
+              "dataset_8": 10
+            },
+            "2011": {
+              "dataset_10": 7
+            },
+            "2017": {
+              "dataset_10": 1
+            },
+            "2018": {
+              "estate": 3
+            },
+            "2019": {
+              "estate": 5,
+              "dataset_10": 3
+            }
           },
           "samples": [
             {
@@ -1361,6 +2094,14 @@
             "2011": 1,
             "2017": 1
           },
+          "by_year_dataset": {
+            "2011": {
+              "dataset_10": 1
+            },
+            "2017": {
+              "estate": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_026652",
@@ -1422,6 +2163,28 @@
             "2011": 17,
             "2012": 11,
             "2016": 5
+          },
+          "by_year_dataset": {
+            "2006": {
+              "dataset_10": 1
+            },
+            "2009": {
+              "dataset_10": 15
+            },
+            "2010": {
+              "dataset_10": 17
+            },
+            "2011": {
+              "estate": 1,
+              "dataset_10": 16
+            },
+            "2012": {
+              "dataset_10": 11
+            },
+            "2016": {
+              "dataset_8": 1,
+              "dataset_10": 4
+            }
           },
           "samples": [
             {
@@ -1485,6 +2248,36 @@
             "2015": 2,
             "2016": 6,
             "2017": 4
+          },
+          "by_year_dataset": {
+            "2009": {
+              "dataset_10": 6
+            },
+            "2010": {
+              "dataset_10": 3
+            },
+            "2011": {
+              "dataset_10": 35
+            },
+            "2012": {
+              "dataset_10": 9
+            },
+            "2013": {
+              "estate": 1
+            },
+            "2014": {
+              "dataset_10": 6
+            },
+            "2015": {
+              "estate": 2
+            },
+            "2016": {
+              "estate": 4,
+              "dataset_10": 2
+            },
+            "2017": {
+              "estate": 4
+            }
           },
           "samples": [
             {
@@ -1550,6 +2343,32 @@
             "2018": 3,
             "2019": 2
           },
+          "by_year_dataset": {
+            "2010": {
+              "estate": 1
+            },
+            "2011": {
+              "estate": 1,
+              "dataset_10": 1
+            },
+            "2015": {
+              "estate": 5,
+              "dataset_10": 2
+            },
+            "2016": {
+              "estate": 5
+            },
+            "2017": {
+              "estate": 1
+            },
+            "2018": {
+              "estate": 3
+            },
+            "2019": {
+              "estate": 1,
+              "dataset_10": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA02731082",
@@ -1606,6 +2425,21 @@
             "2018": 3,
             "2019": 4
           },
+          "by_year_dataset": {
+            "2015": {
+              "estate": 4
+            },
+            "2016": {
+              "estate": 3
+            },
+            "2018": {
+              "estate": 3
+            },
+            "2019": {
+              "estate": 3,
+              "dataset_10": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_026406",
@@ -1659,6 +2493,17 @@
             "2015": 2,
             "2016": 2,
             "2017": 1
+          },
+          "by_year_dataset": {
+            "2015": {
+              "dataset_10": 2
+            },
+            "2016": {
+              "dataset_10": 2
+            },
+            "2017": {
+              "estate": 1
+            }
           },
           "samples": [
             {
@@ -1723,6 +2568,38 @@
             "2018": 9,
             "2019": 9
           },
+          "by_year_dataset": {
+            "2010": {
+              "dataset_10": 1
+            },
+            "2011": {
+              "estate": 2,
+              "dataset_10": 1
+            },
+            "2012": {
+              "dataset_10": 4
+            },
+            "2014": {
+              "estate": 1
+            },
+            "2015": {
+              "estate": 5
+            },
+            "2016": {
+              "estate": 7
+            },
+            "2017": {
+              "dataset_11": 1,
+              "emails": 1,
+              "estate": 4
+            },
+            "2018": {
+              "estate": 9
+            },
+            "2019": {
+              "estate": 9
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA02212946",
@@ -1780,6 +2657,27 @@
             "2013": 2,
             "2015": 4
           },
+          "by_year_dataset": {
+            "2009": {
+              "dataset_10": 5
+            },
+            "2010": {
+              "dataset_10": 2
+            },
+            "2011": {
+              "dataset_10": 2
+            },
+            "2012": {
+              "dataset_10": 5
+            },
+            "2013": {
+              "estate": 1,
+              "dataset_10": 1
+            },
+            "2015": {
+              "estate": 4
+            }
+          },
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_023035",
@@ -1836,6 +2734,14 @@
           "by_year": {
             "2006": 1,
             "2011": 1
+          },
+          "by_year_dataset": {
+            "2006": {
+              "dataset_10": 1
+            },
+            "2011": {
+              "dataset_10": 1
+            }
           },
           "samples": [
             {
@@ -1896,6 +2802,32 @@
             "2016": 3,
             "2017": 4,
             "2018": 3
+          },
+          "by_year_dataset": {
+            "2010": {
+              "dataset_10": 1
+            },
+            "2011": {
+              "dataset_10": 2
+            },
+            "2012": {
+              "dataset_10": 3
+            },
+            "2013": {
+              "estate": 2
+            },
+            "2015": {
+              "estate": 1
+            },
+            "2016": {
+              "estate": 3
+            },
+            "2017": {
+              "estate": 4
+            },
+            "2018": {
+              "estate": 3
+            }
           },
           "samples": [
             {
@@ -1968,6 +2900,32 @@
             "2016": 1,
             "2019": 1
           },
+          "by_year_dataset": {
+            "2009": {
+              "dataset_10": 4
+            },
+            "2010": {
+              "dataset_10": 2
+            },
+            "2011": {
+              "estate": 1,
+              "dataset_10": 12
+            },
+            "2012": {
+              "dataset_10": 1
+            },
+            "2013": {
+              "dataset_12": 1,
+              "emails": 1,
+              "dataset_10": 4
+            },
+            "2016": {
+              "estate": 1
+            },
+            "2019": {
+              "estate": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA02730265",
@@ -2028,6 +2986,28 @@
             "2018": 8,
             "2019": 1
           },
+          "by_year_dataset": {
+            "2014": {
+              "estate": 9
+            },
+            "2015": {
+              "estate": 4
+            },
+            "2016": {
+              "estate": 2
+            },
+            "2017": {
+              "dataset_11": 3,
+              "emails": 3,
+              "estate": 6
+            },
+            "2018": {
+              "estate": 8
+            },
+            "2019": {
+              "estate": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA02212984",
@@ -2086,6 +3066,24 @@
             "2018": 5,
             "2019": 1
           },
+          "by_year_dataset": {
+            "2011": {
+              "estate": 2,
+              "dataset_10": 9
+            },
+            "2015": {
+              "estate": 1
+            },
+            "2016": {
+              "estate": 4
+            },
+            "2018": {
+              "dataset_10": 5
+            },
+            "2019": {
+              "dataset_10": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_030420",
@@ -2142,6 +3140,20 @@
             "2016": 2,
             "2018": 1
           },
+          "by_year_dataset": {
+            "2009": {
+              "dataset_10": 11
+            },
+            "2011": {
+              "dataset_10": 1
+            },
+            "2016": {
+              "estate": 2
+            },
+            "2018": {
+              "estate": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_026731",
@@ -2194,6 +3206,14 @@
           "by_year": {
             "2012": 1,
             "2014": 1
+          },
+          "by_year_dataset": {
+            "2012": {
+              "estate": 1
+            },
+            "2014": {
+              "dataset_10": 1
+            }
           },
           "samples": [
             {
@@ -2250,6 +3270,25 @@
             "2012": 2,
             "2014": 3,
             "2016": 3
+          },
+          "by_year_dataset": {
+            "2009": {
+              "dataset_10": 2
+            },
+            "2010": {
+              "dataset_10": 2
+            },
+            "2012": {
+              "estate": 1,
+              "dataset_10": 1
+            },
+            "2014": {
+              "dataset_10": 3
+            },
+            "2016": {
+              "estate": 1,
+              "dataset_10": 2
+            }
           },
           "samples": [
             {
@@ -2310,6 +3349,26 @@
             "2018": 1,
             "2019": 2
           },
+          "by_year_dataset": {
+            "2010": {
+              "dataset_10": 1
+            },
+            "2013": {
+              "estate": 3
+            },
+            "2015": {
+              "estate": 2
+            },
+            "2017": {
+              "estate": 1
+            },
+            "2018": {
+              "estate": 1
+            },
+            "2019": {
+              "estate": 2
+            }
+          },
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_031751",
@@ -2365,6 +3424,17 @@
             "2016": 2,
             "2018": 3,
             "2019": 3
+          },
+          "by_year_dataset": {
+            "2016": {
+              "dataset_10": 2
+            },
+            "2018": {
+              "estate": 3
+            },
+            "2019": {
+              "estate": 3
+            }
           },
           "samples": [
             {
@@ -2422,6 +3492,12 @@
           "by_year": {
             "2010": 2
           },
+          "by_year_dataset": {
+            "2010": {
+              "estate": 1,
+              "dataset_10": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA00009229",
@@ -2476,6 +3552,14 @@
           "by_year": {
             "2017": 2,
             "2018": 1
+          },
+          "by_year_dataset": {
+            "2017": {
+              "estate": 2
+            },
+            "2018": {
+              "estate": 1
+            }
           },
           "samples": [
             {
@@ -2540,6 +3624,14 @@
             "2017": 2,
             "2018": 1
           },
+          "by_year_dataset": {
+            "2017": {
+              "estate": 2
+            },
+            "2018": {
+              "estate": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_029143",
@@ -2598,6 +3690,26 @@
             "2018": 4,
             "2019": 1
           },
+          "by_year_dataset": {
+            "2010": {
+              "dataset_10": 1
+            },
+            "2012": {
+              "dataset_10": 1
+            },
+            "2015": {
+              "dataset_10": 6
+            },
+            "2016": {
+              "estate": 1
+            },
+            "2018": {
+              "estate": 4
+            },
+            "2019": {
+              "estate": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_027307",
@@ -2655,6 +3767,23 @@
             "2017": 3,
             "2018": 1
           },
+          "by_year_dataset": {
+            "2010": {
+              "dataset_10": 8
+            },
+            "2011": {
+              "dataset_10": 1
+            },
+            "2012": {
+              "dataset_10": 10
+            },
+            "2017": {
+              "estate": 3
+            },
+            "2018": {
+              "estate": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_025133",
@@ -2706,6 +3835,7 @@
             "dataset_10": 155
           },
           "by_year": {},
+          "by_year_dataset": {},
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_010566",
@@ -2761,6 +3891,11 @@
           "by_year": {
             "2007": 1
           },
+          "by_year_dataset": {
+            "2007": {
+              "dataset_10": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA00007157",
@@ -2812,6 +3947,7 @@
             "dataset_10": 41
           },
           "by_year": {},
+          "by_year_dataset": {},
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_010566",
@@ -2867,6 +4003,15 @@
             "2016": 1,
             "2017": 30
           },
+          "by_year_dataset": {
+            "2016": {
+              "dataset_10": 1
+            },
+            "2017": {
+              "dataset_11": 15,
+              "emails": 15
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA02205827",
@@ -2919,6 +4064,11 @@
           },
           "by_year": {
             "2011": 1
+          },
+          "by_year_dataset": {
+            "2011": {
+              "dataset_10": 1
+            }
           },
           "samples": [
             {
@@ -2974,6 +4124,14 @@
             "2017": 3,
             "2018": 1
           },
+          "by_year_dataset": {
+            "2017": {
+              "estate": 3
+            },
+            "2018": {
+              "estate": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_029143",
@@ -3025,6 +4183,7 @@
             "dataset_10": 9
           },
           "by_year": {},
+          "by_year_dataset": {},
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_010566",
@@ -3089,6 +4248,13 @@
           "by_year": {
             "2017": 7
           },
+          "by_year_dataset": {
+            "2017": {
+              "dataset_11": 3,
+              "emails": 3,
+              "estate": 1
+            }
+          },
           "samples": [
             {
               "doc_id": "EFTA02213045",
@@ -3141,6 +4307,7 @@
             "dataset_10": 1
           },
           "by_year": {},
+          "by_year_dataset": {},
           "samples": [
             {
               "doc_id": "HOUSE_OVERSIGHT_016413",
@@ -5768,7 +6935,31 @@
         "2024": 5,
         "2025": 1
       },
-      "by_year_dataset": {},
+      "by_year_dataset": {
+        "2012": {
+          "dataset_10": 13
+        },
+        "2013": {
+          "dataset_10": 6,
+          "estate": 1
+        },
+        "2014": {
+          "dataset_10": 2
+        },
+        "2016": {
+          "dataset_10": 2,
+          "estate": 1
+        },
+        "2020": {
+          "dataset_10": 5
+        },
+        "2024": {
+          "dataset_10": 5
+        },
+        "2025": {
+          "dataset_10": 1
+        }
+      },
       "rows": [
         {
           "rank": 1,
@@ -6301,7 +7492,38 @@
         "2020": 1,
         "2025": 1
       },
-      "by_year_dataset": {},
+      "by_year_dataset": {
+        "2010": {
+          "dataset_10": 5
+        },
+        "2011": {
+          "dataset_10": 1
+        },
+        "2012": {
+          "dataset_10": 3
+        },
+        "2013": {
+          "dataset_10": 2,
+          "estate": 59
+        },
+        "2014": {
+          "dataset_10": 2
+        },
+        "2016": {
+          "dataset_10": 3,
+          "estate": 2
+        },
+        "2019": {
+          "dataset_12": 2,
+          "emails": 1
+        },
+        "2020": {
+          "dataset_10": 1
+        },
+        "2025": {
+          "dataset_10": 1
+        }
+      },
       "rows": [
         {
           "rank": 1,
@@ -8231,7 +9453,28 @@
         "2024": 25,
         "2025": 29
       },
-      "by_year_dataset": {},
+      "by_year_dataset": {
+        "2012": {
+          "estate": 2
+        },
+        "2020": {
+          "dataset_10": 669,
+          "dataset_8": 100
+        },
+        "2021": {
+          "dataset_10": 22,
+          "dataset_8": 20
+        },
+        "2022": {
+          "dataset_10": 4
+        },
+        "2024": {
+          "dataset_10": 25
+        },
+        "2025": {
+          "dataset_10": 29
+        }
+      },
       "rows": [
         {
           "rank": 1,
@@ -15867,7 +17110,32 @@
         "2017": 1,
         "2020": 3
       },
-      "by_year_dataset": {},
+      "by_year_dataset": {
+        "2010": {
+          "dataset_10": 1
+        },
+        "2011": {
+          "dataset_10": 5
+        },
+        "2012": {
+          "dataset_10": 1
+        },
+        "2014": {
+          "dataset_10": 2
+        },
+        "2015": {
+          "dataset_10": 9
+        },
+        "2016": {
+          "dataset_10": 1
+        },
+        "2017": {
+          "dataset_10": 1
+        },
+        "2020": {
+          "dataset_10": 3
+        }
+      },
       "rows": [
         {
           "rank": 1,
@@ -16200,7 +17468,11 @@
       "by_year": {
         "2016": 1
       },
-      "by_year_dataset": {},
+      "by_year_dataset": {
+        "2016": {
+          "dataset_10": 1
+        }
+      },
       "rows": [
         {
           "rank": 1,
@@ -16446,7 +17718,67 @@
         "2024": 1,
         "2025": 16
       },
-      "by_year_dataset": {},
+      "by_year_dataset": {
+        "2005": {
+          "dataset_10": 1
+        },
+        "2007": {
+          "dataset_10": 1
+        },
+        "2008": {
+          "dataset_10": 2
+        },
+        "2009": {
+          "dataset_10": 5
+        },
+        "2010": {
+          "dataset_10": 4
+        },
+        "2011": {
+          "dataset_10": 2
+        },
+        "2012": {
+          "dataset_10": 14
+        },
+        "2013": {
+          "dataset_10": 19,
+          "estate": 5
+        },
+        "2014": {
+          "dataset_10": 17
+        },
+        "2015": {
+          "dataset_10": 27
+        },
+        "2016": {
+          "dataset_10": 28
+        },
+        "2017": {
+          "dataset_10": 11
+        },
+        "2018": {
+          "dataset_10": 1,
+          "estate": 1
+        },
+        "2019": {
+          "dataset_10": 10,
+          "dataset_8": 9
+        },
+        "2020": {
+          "dataset_10": 20,
+          "dataset_12": 1,
+          "dataset_8": 12
+        },
+        "2021": {
+          "dataset_8": 1
+        },
+        "2024": {
+          "dataset_10": 1
+        },
+        "2025": {
+          "dataset_10": 16
+        }
+      },
       "rows": [
         {
           "rank": 1,
@@ -21299,7 +22631,95 @@
         "2024": 14,
         "2025": 29
       },
-      "by_year_dataset": {},
+      "by_year_dataset": {
+        "1999": {
+          "dataset_10": 1
+        },
+        "2001": {
+          "dataset_10": 2
+        },
+        "2002": {
+          "dataset_10": 4
+        },
+        "2003": {
+          "dataset_10": 2
+        },
+        "2004": {
+          "dataset_10": 10
+        },
+        "2005": {
+          "dataset_10": 2
+        },
+        "2006": {
+          "dataset_10": 6
+        },
+        "2007": {
+          "dataset_10": 4
+        },
+        "2008": {
+          "dataset_10": 2
+        },
+        "2009": {
+          "dataset_10": 5,
+          "dataset_8": 1
+        },
+        "2010": {
+          "dataset_10": 5
+        },
+        "2011": {
+          "dataset_10": 21,
+          "estate": 1
+        },
+        "2012": {
+          "dataset_10": 27,
+          "dataset_12": 1
+        },
+        "2013": {
+          "dataset_10": 29,
+          "estate": 2
+        },
+        "2014": {
+          "dataset_10": 17
+        },
+        "2015": {
+          "dataset_10": 8
+        },
+        "2016": {
+          "dataset_10": 45,
+          "estate": 3
+        },
+        "2017": {
+          "dataset_10": 11,
+          "estate": 3
+        },
+        "2018": {
+          "dataset_10": 4,
+          "estate": 3
+        },
+        "2019": {
+          "dataset_10": 11,
+          "dataset_8": 1,
+          "estate": 5
+        },
+        "2020": {
+          "dataset_10": 61
+        },
+        "2021": {
+          "dataset_10": 1,
+          "dataset_12": 1,
+          "emails": 1
+        },
+        "2023": {
+          "dataset_10": 58,
+          "dataset_8": 1
+        },
+        "2024": {
+          "dataset_10": 14
+        },
+        "2025": {
+          "dataset_10": 29
+        }
+      },
       "rows": [
         {
           "rank": 1,
@@ -30763,7 +32183,102 @@
         "2024": 50,
         "2025": 343
       },
-      "by_year_dataset": {},
+      "by_year_dataset": {
+        "2005": {
+          "dataset_10": 2
+        },
+        "2006": {
+          "dataset_10": 12,
+          "dataset_8": 5
+        },
+        "2007": {
+          "dataset_10": 25,
+          "dataset_7": 4,
+          "dataset_8": 1
+        },
+        "2008": {
+          "dataset_10": 6,
+          "dataset_8": 4,
+          "estate": 4
+        },
+        "2009": {
+          "dataset_10": 4,
+          "dataset_8": 2,
+          "estate": 3
+        },
+        "2010": {
+          "dataset_10": 55,
+          "dataset_8": 1,
+          "estate": 16
+        },
+        "2011": {
+          "dataset_10": 109,
+          "estate": 36
+        },
+        "2012": {
+          "dataset_10": 3
+        },
+        "2014": {
+          "dataset_10": 10,
+          "estate": 1
+        },
+        "2015": {
+          "dataset_10": 16,
+          "estate": 7
+        },
+        "2016": {
+          "dataset_10": 7,
+          "estate": 13
+        },
+        "2017": {
+          "dataset_10": 3,
+          "dataset_8": 1,
+          "estate": 12
+        },
+        "2018": {
+          "dataset_10": 45,
+          "dataset_6": 1,
+          "dataset_8": 2,
+          "estate": 8
+        },
+        "2019": {
+          "dataset_10": 59,
+          "dataset_12": 3,
+          "dataset_6": 4,
+          "dataset_7": 3,
+          "dataset_8": 129,
+          "emails": 2,
+          "estate": 30
+        },
+        "2020": {
+          "dataset_10": 219,
+          "dataset_12": 2,
+          "dataset_6": 2,
+          "dataset_8": 75
+        },
+        "2021": {
+          "dataset_10": 8,
+          "dataset_6": 3,
+          "dataset_8": 72
+        },
+        "2022": {
+          "dataset_10": 2,
+          "dataset_12": 1,
+          "dataset_8": 1
+        },
+        "2023": {
+          "dataset_12": 2,
+          "dataset_8": 29,
+          "emails": 1
+        },
+        "2024": {
+          "dataset_10": 50
+        },
+        "2025": {
+          "dataset_10": 338,
+          "dataset_12": 5
+        }
+      },
       "rows": [
         {
           "rank": 1,
@@ -59267,8 +60782,8 @@
             }
           ],
           "datasets": {
-            "dataset_10": 1,
-            "estate": 2
+            "estate": 2,
+            "dataset_10": 1
           }
         },
         {
@@ -59391,9 +60906,9 @@
             }
           ],
           "datasets": {
-            "dataset_6": 1,
             "dataset_8": 1,
-            "dataset_12": 1
+            "dataset_12": 1,
+            "dataset_6": 1
           }
         },
         {
@@ -59669,8 +61184,8 @@
             }
           ],
           "datasets": {
-            "dataset_6": 1,
-            "dataset_12": 2
+            "dataset_12": 2,
+            "dataset_6": 1
           }
         },
         {
@@ -59728,8 +61243,8 @@
             }
           ],
           "datasets": {
-            "dataset_10": 1,
-            "estate": 1
+            "estate": 1,
+            "dataset_10": 1
           }
         },
         {
@@ -59755,8 +61270,8 @@
             }
           ],
           "datasets": {
-            "dataset_10": 1,
-            "estate": 1
+            "estate": 1,
+            "dataset_10": 1
           }
         },
         {
@@ -59782,8 +61297,8 @@
             }
           ],
           "datasets": {
-            "dataset_10": 1,
-            "estate": 1
+            "estate": 1,
+            "dataset_10": 1
           }
         },
         {
