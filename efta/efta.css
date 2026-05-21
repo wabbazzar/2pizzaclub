@@ -66,9 +66,9 @@
     color: var(--ink);
 }
 
-/* Side-panel doc viewer — hidden by default, only shown when a doc-link is clicked */
-.doc-viewer[hidden] { display: none !important; }
+/* Side-panel doc viewer — DEFAULT HIDDEN; .open class shows it */
 .doc-viewer {
+    display: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -79,10 +79,10 @@
     border-left: 3px solid var(--ink);
     box-shadow: -6px 0 0 var(--bus-yellow);
     z-index: 100;
-    display: flex;
     flex-direction: column;
     overflow: hidden;
 }
+.doc-viewer.open { display: flex; }
 .doc-viewer-head {
     display: flex;
     align-items: center;

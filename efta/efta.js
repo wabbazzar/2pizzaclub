@@ -460,14 +460,13 @@ function bindNav() {
     });
     // Doc viewer close
     $('doc-viewer-close').addEventListener('click', () => {
-        $('doc-viewer').hidden = true;
+        $('doc-viewer').classList.remove('open');
     });
     window.addEventListener('keydown', (e) => {
         const t = e.target;
         if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
-        // Esc closes doc viewer
-        if (e.key === 'Escape' && !$('doc-viewer').hidden) {
-            $('doc-viewer').hidden = true;
+        if (e.key === 'Escape' && $('doc-viewer').classList.contains('open')) {
+            $('doc-viewer').classList.remove('open');
             return;
         }
         if (e.key === 'ArrowLeft') goto(state.pageIdx - 1);
@@ -509,7 +508,7 @@ async function openDocViewer(docId) {
     $('doc-viewer-id').textContent = docId;
     $('doc-viewer-meta').textContent = 'loading…';
     $('doc-viewer-text').textContent = '';
-    viewer.hidden = false;
+    viewer.classList.add('open');
     let doc = docCache.get(docId);
     if (!doc) {
         try {
