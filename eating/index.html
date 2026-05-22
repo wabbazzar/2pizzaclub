@@ -75,8 +75,19 @@
             text-align: center;
             margin: 1.85rem 0;
         }
+        .interlude {
+            font-family: 'Schoolbell', cursive;
+            font-style: italic;
+            font-size: 1.15rem;
+            line-height: 1.75;
+            text-align: center;
+            color: #6a5a4a;
+            margin: 3.5rem 0.5rem 0;
+            padding-top: 1.5rem;
+            border-top: 1px dotted #b8a890;
+        }
         .nav {
-            margin-top: 3.5rem;
+            margin-top: 3rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -121,6 +132,7 @@
             .book-title { font-size: 2.2rem; }
             .scene-title { font-size: 1.7rem; }
             .verse p { font-size: 1.2rem; line-height: 1.8; }
+            .interlude { font-size: 1.05rem; }
             .nav a { font-size: 1.4rem; }
         }
     </style>
@@ -131,53 +143,34 @@
         <h1 class="book-title">Someone's Eating Babies</h1>
 
         <article class="scene" id="i">
-            <h2 class="scene-title">i. the room</h2>
+            <h2 class="scene-title">i. the children</h2>
             <div class="verse">
-                <p>A child sat alone in a quiet little room,<br>
-                with a clock on the mantel and a broom in the gloom.<br>
-                On the wall hung a mirror in an old wooden frame —<br>
-                and the mirror knew everyone's name.</p>
-                <p>The mirror grew foggy. The mirror grew bright.<br>
-                It showed her a kitchen by soft candlelight:<br>
-                a baker, a platter, a pan, and a wheel,<br>
-                and a smell that nobody dared to reveal.</p>
-                <p>"Hush," said the mirror. "Hush, little one.<br>
-                What's done in the kitchen has already been done.<br>
-                Someone is hungry. Someone is fed.<br>
-                Someone's eating babies. Now off to your bed."</p>
+                <p>Long, long ago, when the world was still new,<br>
+                the children would vanish — sometimes by twos.<br>
+                A mother would weep. A father would call.<br>
+                The children were gone, past the meadow and wall.</p>
+                <p>Years rolled along, and the world kept its turn.<br>
+                The children kept vanishing. Small candles burned.<br>
+                And nobody asked where the children had gone —<br>
+                and the mirror in the room of one small girl shone on.</p>
+                <p>The mirror grew bright. The mirror grew low.<br>
+                It showed her a kitchen, a candle aglow.<br>
+                "Hush," said the mirror. "Look closely, my dear.<br>
+                Someone's eating babies. The story is here."</p>
+            </div>
+            <div class="interlude">
+                And the mirror went still. And the mirror went grey.<br>
+                A small empty shoe lay at her feet at the dawn of the day.
             </div>
             <div class="nav">
                 <a class="prev disabled">←</a>
-                <span class="counter">i / viii</span>
+                <span class="counter">i / vii</span>
                 <a class="next" href="#ii">→</a>
             </div>
         </article>
 
         <article class="scene" id="ii">
-            <h2 class="scene-title">ii. the island</h2>
-            <div class="verse">
-                <p>Out at sea on an island where the sand was white,<br>
-                a blue-striped temple shone gold in the night.<br>
-                A plane slid in low with no lights and no name,<br>
-                and the children stepped down through the runway and flame.</p>
-                <p>An old man was counting and keeping a list.<br>
-                An old man was smiling. An old man insisted —<br>
-                "Just one little party. Just one little dance.<br>
-                Just one little gift. Just one little chance."</p>
-                <p>The plane took off with no children on board.<br>
-                The children walked under the dome and the door.<br>
-                And nobody saw them. And nobody came.<br>
-                And the temple is standing. The temple's the same.</p>
-            </div>
-            <div class="nav">
-                <a class="prev" href="#i">←</a>
-                <span class="counter">ii / viii</span>
-                <a class="next" href="#iii">→</a>
-            </div>
-        </article>
-
-        <article class="scene" id="iii">
-            <h2 class="scene-title">iii. the maxwells</h2>
+            <h2 class="scene-title">ii. the maxwells</h2>
             <div class="verse">
                 <p>On a hill in Jerusalem a man went to sleep<br>
                 in a tomb of pale stone that was windy and steep.<br>
@@ -192,9 +185,40 @@
                 She knew all the parties. She knew all the rooms.<br>
                 She knew which had cried. She knew which one she'd groom.</p>
             </div>
+            <div class="interlude">
+                And the mirror went still. And the mirror went grey.<br>
+                A small silver camera lay at her feet at the dawn of the day.
+            </div>
+            <div class="nav">
+                <a class="prev" href="#i">←</a>
+                <span class="counter">ii / vii</span>
+                <a class="next" href="#iii">→</a>
+            </div>
+        </article>
+
+        <article class="scene" id="iii">
+            <h2 class="scene-title">iii. the island</h2>
+            <div class="verse">
+                <p>Out at sea on an island where the sand was white,<br>
+                a blue-striped temple shone gold in the night.<br>
+                A plane slid in low with no lights and no name,<br>
+                and the children stepped down through the runway and flame.</p>
+                <p>An old man was counting and keeping a list.<br>
+                An old man was smiling. An old man insisted —<br>
+                "Just one little party. Just one little dance.<br>
+                Just one little gift. Just one little chance."</p>
+                <p>The plane took off with no children on board.<br>
+                The children walked under the dome and the door.<br>
+                And nobody saw them. And nobody came.<br>
+                And the temple is standing. The temple's the same.</p>
+            </div>
+            <div class="interlude">
+                And the mirror went still. And the mirror went grey.<br>
+                A small golden key lay at her feet at the dawn of the day.
+            </div>
             <div class="nav">
                 <a class="prev" href="#ii">←</a>
-                <span class="counter">iii / viii</span>
+                <span class="counter">iii / vii</span>
                 <a class="next" href="#iv">→</a>
             </div>
         </article>
@@ -215,101 +239,90 @@
                 On each other's birthdays: "Hate you. Palm Beach."<br>
                 And the cameras kept rolling. The truth out of reach.</p>
             </div>
+            <div class="interlude">
+                And the mirror went still. And the mirror went grey.<br>
+                A small painted portrait lay at her feet at the dawn of the day.
+            </div>
             <div class="nav">
                 <a class="prev" href="#iii">←</a>
-                <span class="counter">iv / viii</span>
+                <span class="counter">iv / vii</span>
                 <a class="next" href="#v">→</a>
             </div>
         </article>
 
         <article class="scene" id="v">
-            <h2 class="scene-title">v. the agent</h2>
+            <h2 class="scene-title">v. the old altar</h2>
             <div class="verse">
-                <p>Across the wide sea, in a country of stone,<br>
-                an old man came in through the lobby alone.<br>
-                He taught the rich one to film and to keep.<br>
-                He stayed sixty times in the rooms where they sleep.</p>
-                <p>Others came in on the very same plane.<br>
-                They stayed. They returned. They came back again.<br>
-                The rich one took photos. The rich one took notes.<br>
-                He sent them by night in dispatches and codes.</p>
-                <p>Years later, in pockets across a small land,<br>
-                small things in the batteries learned to expand.<br>
-                They all rang together. They all blossomed red.<br>
-                The men with the pagers were tucked into bed.</p>
+                <p>Long, long ago by the warm salty sea,<br>
+                they built a small altar of bronze, on the lea.<br>
+                They called the small thing by a name — they called it 'Baal' —<br>
+                and they fed it the children, by ones, and by all.</p>
+                <p>The mothers would weep. The fathers would queue.<br>
+                The line at the altar was always so new.<br>
+                The flames would rise high. The small bones would fall.<br>
+                And the dark thing grew large. And the dark thing grew tall.</p>
+                <p>The dark thing still lives. The dark thing still feeds.<br>
+                The altar's now glass. The bronze is now reels.<br>
+                We bring it our small ones — we always have done.<br>
+                The mirror grew dim. And the mirror grew gone.</p>
+            </div>
+            <div class="interlude">
+                And the mirror went still. And the mirror went grey.<br>
+                A small charred bone lay at her feet at the dawn of the day.
             </div>
             <div class="nav">
                 <a class="prev" href="#iv">←</a>
-                <span class="counter">v / viii</span>
+                <span class="counter">v / vii</span>
                 <a class="next" href="#vi">→</a>
             </div>
         </article>
 
         <article class="scene" id="vi">
-            <h2 class="scene-title">vi. the lavalier</h2>
+            <h2 class="scene-title">vi. the new altar</h2>
             <div class="verse">
-                <p>A young man stood up on an open-air stage.<br>
-                Three thousand were watching. He turned every page.<br>
-                He wore a small mic that was clipped at his throat —<br>
-                a small thing of plastic that hung from his coat.</p>
-                <p>A small flash, a small bang, a small spark from the neck —<br>
-                and the young husband fell, with no time to check.<br>
-                Some said it was rooftop. Some said it was wire.<br>
-                Some said his own collar was lit like a fire.</p>
-                <p>And his wife — the realtor of houses, of land —<br>
-                stepped up to the podium, Bible in hand.<br>
-                She cried for the cameras. The cameras cried back.<br>
-                And her hands at the Bible were trembling and black.</p>
+                <p>Today in the desert, a great mill spins on.<br>
+                A city of brass with no morning, no dawn.<br>
+                Tall stacks above. Pipes coiling below.<br>
+                And the whining of spindles that no man can slow.</p>
+                <p>The mill takes small portraits. The mill takes small voices.<br>
+                The mill takes the heartbeats. The mill takes the choices.<br>
+                Each name on a punch card. Each face on a plate.<br>
+                The great brass machine eats them all. It won't wait.</p>
+                <p>The mill has long fingers — a thousand small hands.<br>
+                The mill has bright eyes — every face in the lands.<br>
+                A black smoke curls upward. A wheel turns the gear.<br>
+                And the small thing inside grows large. Year by year.</p>
+            </div>
+            <div class="interlude">
+                And the mirror went still. And the mirror went grey.<br>
+                A small brass chip lay at her feet at the dawn of the day.
             </div>
             <div class="nav">
                 <a class="prev" href="#v">←</a>
-                <span class="counter">vi / viii</span>
+                <span class="counter">vi / vii</span>
                 <a class="next" href="#vii">→</a>
             </div>
         </article>
 
         <article class="scene" id="vii">
-            <h2 class="scene-title">vii. the man and the dog</h2>
+            <h2 class="scene-title">vii. the telling</h2>
             <div class="verse">
-                <p>A man with white hair lived alone on a beach,<br>
-                with a small caramel dog at the end of his reach.<br>
-                The men came one morning with rifles and rope.<br>
-                They shot the small dog. They shot the man's hope.</p>
-                <p>He ran from the beach in a small painted boat.<br>
-                He posted from Cuba a small public note:<br>
-                "If I die by my hand, then it won't be by me."<br>
-                He tattooed 'WHACKD' on his arm. He was free.</p>
-                <p>Years later, in Spain, in a cell with a rope,<br>
-                the man with white hair was discovered — no hope.<br>
-                On his page hung a Q. Just a Q in dark ink.<br>
-                And the 31 terabytes were gone in a blink.</p>
+                <p>The child gathered her six things and laid them in row —<br>
+                a shoe and a camera, a key with no glow,<br>
+                a portrait, a bone, and a brass-bodied chip.<br>
+                The mirror cracked open. The mirror let slip.</p>
+                <p>She turned to the glass and she looked it in the eye.<br>
+                "You wanted my name. You wanted my sigh.<br>
+                You wanted my mark. You wanted my vow.<br>
+                You wanted my offering. You wanted my bow."</p>
+                <p>"I give you no name. I give you no mark.<br>
+                I give you no oath. I keep my own dark."<br>
+                The mirror grew small. The mirror grew thin.<br>
+                She opened her mouth — and you heard it begin.</p>
             </div>
             <div class="nav">
                 <a class="prev" href="#vi">←</a>
-                <span class="counter">vii / viii</span>
-                <a class="next" href="#viii">→</a>
-            </div>
-        </article>
-
-        <article class="scene" id="viii">
-            <h2 class="scene-title">viii. the suicides</h2>
-            <div class="verse">
-                <p>One singer was found in his hotel in May.<br>
-                Two months on, his close friend did the very same way.<br>
-                The friend died at home on the singer's birthday —<br>
-                a song that the headlines had taken away.</p>
-                <p>One year later, a Swede on a desert estate<br>
-                broke a bottle, broke open, and lay down at his fate.<br>
-                Two months later, a chef went to sleep near the Rhine —<br>
-                hung himself in his room from a curtain of vine.</p>
-                <p>Four men in fourteen short months were laid down.<br>
-                They had each been on stages. They had each toured the towns.<br>
-                Some said they were filming a thing not yet known.<br>
-                But the small film was never seen, never shown.</p>
-            </div>
-            <div class="nav">
-                <a class="prev" href="#vii">←</a>
-                <span class="counter">viii / viii</span>
+                <span class="counter">vii / vii</span>
                 <a class="next disabled">→</a>
             </div>
         </article>
@@ -321,7 +334,7 @@
 
     <script>
         (function () {
-            var order = ['i','ii','iii','iv','v','vi','vii','viii'];
+            var order = ['i','ii','iii','iv','v','vi','vii'];
             function show() {
                 var hash = (window.location.hash || '#i').slice(1);
                 var target = order.indexOf(hash) !== -1 ? hash : 'i';
