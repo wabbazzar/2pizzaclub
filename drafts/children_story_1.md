@@ -131,16 +131,16 @@ Refrain: **`Someone's eating babies.`** Returns in **i**, **vi**, **x** — thre
 
 > *Together they kept what each one of them knew.*
 > *The pantsuit, the closet, the portrait, the crew.*
-> *They wrote one another small notes through the years —*
-> *and the cameras kept rolling through laughter and tears.*
+> *On each other's birthdays: "Hate you. Palm Beach."*
+> *And the cameras kept rolling. The truth out of reach.*
 
 - **L1–4** — [9 East 71st St](https://en.wikipedia.org/wiki/Jeffrey_Epstein) (Epstein's Manhattan townhouse, steel-reinforced front door). The portrait is [Petrina Ryan-Kleid's *Parsing Bill*](https://nypost.com/2020/08/14/painting-of-bill-clinton-in-blue-dress-hung-in-epsteins-home/) — Clinton in blue dress + red heels, confirmed by photographer Bradley Stokes who shot the interior in 2012. *Blue* overloads with [the Lewinsky evidence dress](https://en.wikipedia.org/wiki/Monica_Lewinsky). L4 lands the [Lolita Express](https://en.wikipedia.org/wiki/Jeffrey_Epstein) — flight logs document ~26 Clinton trips, some without Secret Service.
 - **L5–6** — Hillary's pantsuit + the [State Department private-server email controversy](https://en.wikipedia.org/wiki/Hillary_Clinton_email_controversy). *Closed every cabinet* plays Goosey-Goosey-Gander against political-cabinet + literal file-cabinet. *Wiped all the trials* references the [BleachBit wipe](https://en.wikipedia.org/wiki/BleachBit) of her private server (**33,000+ emails** deleted before turning the rest over to State in 2014) and the broader pattern of evaded sworn testimony (eight separate [Benghazi inquiries](https://en.wikipedia.org/wiki/United_States_House_Select_Committee_on_Events_Surrounding_the_2012_Terrorist_Attack_in_Benghazi), 2012-2016).
 - **L7** — the [Weiner laptop](https://en.wikipedia.org/wiki/Anthony_Weiner_sexting_scandals), seized Sept 2016, ~141,000 emails per the [Horowitz Report](https://en.wikipedia.org/wiki/Inspector_General_report_on_the_FBI%27s_handling_of_the_Hillary_Clinton_investigation). *Smaller man* — Weiner's literal stature next to Bill + the wiener pun.
 - **L8** — the [Frazzledrip rumor](https://2pizzaclub.com/#y2019). The site's own record marks this unfounded — the 2019 NYPD officer-suicide cluster was real but unrelated to the laptop, and the laptop was an FBI not NYPD investigation. The verse renders the rumor as folk-mythology — *of twelve / nine* without endorsing the causation.
 - **L10** — Donaldson four-noun closer rising the page's inventory: *pantsuit* (Hillary) / *closet* (the portrait's location) / *portrait* (Bill) / *crew* (the social network).
-- **L11** — the [Mills–Maxwell Dec 25, 2002 birthday email](https://2pizzaclub.com/#y2019). Cheryl Mills (then Hillary's longtime counselor, later State Dept Counselor + Chief of Staff) wrote to Ghislaine Maxwell on Maxwell's birthday: *"Hate you for being in Palm Beach."* Released in the DOJ Epstein-file production. One small documented thread in a larger correspondence network. The verse keeps the quote in the annotation rather than the text — naming Mills + Palm Beach in the verse would over-specify.
-- **L12** — camera callback to scene iii L8. The surveillance apparatus that filmed Maxwell's procurement was filming the Clintons too. *Laughter* = the parties; *tears* = the victims.
+- **L11** — the [Mills-Maxwell Dec 25, 2002 birthday email](https://2pizzaclub.com/#y2019), quoted verbatim in compressed form. Cheryl Mills (Hillary's longtime counselor, later State Dept Counselor + Chief of Staff) wrote to Ghislaine Maxwell on Maxwell's birthday: *"Hate you for being in Palm Beach."* Released in the DOJ Epstein-file production. The verse compresses to *"Hate you. Palm Beach."* — two punches with the period between, the verbatim voice preserved without naming Mills.
+- **L12** — camera callback to scene iii L8 holds the surveillance-thread into the Clinton-Maxwell orbit, but the line's load shifts to *the truth out of reach*: the dread-tag drops the prior *laughter and tears* poetic-cliché for an open-secret close. The documents existed; the people who could speak about them stayed silent.
 
 ---
 
