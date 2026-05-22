@@ -1,0 +1,42 @@
+{
+    "id": "2024-vought-foia-undercover-001",
+    "anchor": "y2025",
+    "year": 2024,
+    "era": "iv",
+    "themes": [
+        "surveillance",
+        "civil-liberties",
+        "neoconservatism",
+        "journalism"
+    ],
+    "claim": "On August 15, 2024, the Centre for Climate Reporting — a UK-based investigative outlet — published hidden-camera footage of Russell Vought and Micah Meadowcroft, two senior architects of Project 2025. Vought is now Director of the Office of Management and Budget in the second Trump administration; Meadowcroft is the research director of Vought's think tank, the Center for Renewing America. The undercover meeting was set up via a journalist and a paid actor posing as the brother and son-in-law of a reclusive New Mexico investor offering a seven-figure contribution, with three hidden cameras trained on the meeting at the Presidential Suite of the Rosewood Hotel. On the recording Meadowcroft tells the meeting that the Project 2025 \"second phase\" policy documents — including drafts of executive orders Vought said he had prepared for Trump — \"will be distributed during the transition period, but not as part of the transition. Because obviously, you want as little of it to be FOIA-able…\" — i.e., were intentionally being routed off transition-team email systems to evade Freedom of Information Act disclosure.",
+    "sources": [
+        {
+            "label": "Centre for Climate Reporting — \"Undercover in Project 2025,\" August 15, 2024.",
+            "type": "primary",
+            "url": "https://climate-reporting.org/undercover-in-project-2025/"
+        },
+        {
+            "label": "CNN — \"In secretly recorded video, Project 2025 co-author says he's drafted hundreds of executive orders for Trump,\" August 15, 2024.",
+            "type": "secondary",
+            "url": "https://www.cnn.com/2024/08/15/politics/russ-vought-project-2025-trump-secret-recording-invs"
+        },
+        {
+            "label": "Democracy Now! — \"Watch Undercover Video: Project 2025 Co-Author Lays Out 'Radical Agenda' for Next Trump Term,\" August 16, 2024.",
+            "type": "secondary",
+            "url": "https://www.democracynow.org/2024/8/16/project_2025_undercover_video"
+        },
+        {
+            "label": "Salon — \"Secret video: Project 2025 author says Trump 'blessed' the 'second phase' of their agenda,\" August 16, 2024.",
+            "type": "secondary",
+            "url": "https://www.salon.com/2024/08/16/secret-video-project-2025-author-says-blessed-the-second-phase-of-their-agenda_partner/"
+        },
+        {
+            "label": "Centre for Climate Reporting (YouTube) — full undercover video.",
+            "type": "primary",
+            "url": "https://www.youtube.com/watch?v=PY_chqyaRHo"
+        }
+    ],
+    "status": "verified",
+    "notes": "The verbatim \"as little of it to be FOIA-able\" line is Meadowcroft's, not Vought's directly. The reel's compression (\"Architect Russ Vogt was caught on hidden camera admitting they designed it so the documents wouldn't be, quote, F-O-I-A-able\") attributes it to Vought; the on-the-record statement is from Vought's aide / research director Meadowcroft, in Vought's presence, describing distribution of materials Vought was overseeing."
+}

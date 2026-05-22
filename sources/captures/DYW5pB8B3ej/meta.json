@@ -1,0 +1,30 @@
+{
+    "id": "DYW5pB8B3ej",
+    "url": "https://www.instagram.com/reel/DYW5pB8B3ej/",
+    "platform": "instagram",
+    "captured_at": "2026-05-22",
+    "handle": "@_paperplanet_",
+    "author_display_name": "Paper Planet",
+    "posted_at": "2026-05-12",
+    "engagement": {
+        "likes": 25000,
+        "comments": 883
+    },
+    "caption": "The U.S. is experiencing a severe fuel crisis driven by the conflict with Iran and the shutdown of the Strait of Hormuz. Spirit Airlines ceased operations and began an orderly wind-down, following a failure to secure a $500 million government bailout. After years of financial struggles, two bankruptcies in 18 months, and rising fuel costs, the 34-year-old budget carrier went out of business. Over 17,000 employees lost their jobs and all flights were canceled. At the same time the fuel crisis has caused gasoline prices to average $4.30 per gallon, a four-year peak, with some California stations exceeding $8. The crisis is fueled by a global supply shock, with diesel rising fast and refineries prioritizing jet fuel over gasoline\n\n#spirit #project2025 #corporategreed #fuelprices #gasprices\n\nSources include:\nCentre for Climate Reporting 8.15.2024 “Undercover in Project 2025”\n\nCBS News 5.2.2026 “Spirit Airlines shutting down after failed effort at government rescue deal”\n\nThe Hill 7.25.2024 “What to know about Project 2025’s plan for agriculture, and how it could lead to real chaos”\n\nWBUR 4.2.2026 “Skyrocketing fuel prices squeeze Rhode Island fishermen”\n\nSpectrum News 5.8.2026 “Texas farmers struggle with higher costs due to war with Iran”\n\nBlackRock Inc. 2.2026 “Form 10-K Annual Report for Fiscal Year 2025”",
+    "hashtags": [
+        "spirit",
+        "project2025",
+        "corporategreed",
+        "fuelprices",
+        "gasprices"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "",
+    "audio_content_summary": "",
+    "implied_frame": "",
+    "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
+    "video_download_status": "Captured: ~24 MB, vp9 720x1280, 121s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [],
+    "supporting_research_links": []
+}

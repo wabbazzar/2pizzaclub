@@ -96,7 +96,9 @@
     "2024-aipac-bowman-001.json",
     "2024-netanyahu-congress-001.json",
     "2024-pagers-001.json",
+    "2024-project-2025-rural-001.json",
     "2024-us-israel-aid-001.json",
+    "2024-vought-foia-undercover-001.json",
     "2025-aes-dod-contracts-001.json",
     "2025-aes-explosion-001.json",
     "2025-ai-datacenter-capex-001.json",
@@ -122,6 +124,7 @@
     "2026-patel-fbi-bulk-data-001.json",
     "2026-priestley-2029-prediction-001.json",
     "2026-sde-teiman-001.json",
+    "2026-spirit-airlines-shutdown-001.json",
     "2026-theovon-israel-001.json"
   ]
 }

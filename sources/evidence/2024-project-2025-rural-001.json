@@ -1,0 +1,41 @@
+{
+    "id": "2024-project-2025-rural-001",
+    "anchor": "y2025",
+    "year": 2024,
+    "era": "iv",
+    "themes": [
+        "inequality",
+        "neoconservatism",
+        "regional-conflicts"
+    ],
+    "claim": "Project 2025's \"Mandate for Leadership\" — the 920-page Republican policy blueprint coordinated by the Heritage Foundation and contributors drawn heavily from Russell Vought's Center for Renewing America — proposes three programmatic changes that disproportionately affect rural and small-operator America: (1) the repeal of the Agricultural Risk Coverage and Price Loss Coverage crop-insurance programs (the twin pillars insuring roughly 81% of U.S. food-producing acres) and a ban on farmers receiving both ARC/PLC payments and crop-insurance indemnities in the same year; (2) shrinking the Farm Service Agency and tightening access to FSA direct and guaranteed loans used by small and family farmers; and (3) ending the Essential Air Service program, which subsidizes commercial flights to small rural airports.",
+    "sources": [
+        {
+            "label": "The Hill — \"Project 2025's proposals for farming and food aid: What to know,\" July 25, 2024.",
+            "type": "secondary",
+            "url": "https://thehill.com/policy/energy-environment/4791069-project-2025-farming-food-aid/"
+        },
+        {
+            "label": "U.S. Senate Democrats — \"How Project 2025 Would Affect Farmers,\" August 2024.",
+            "type": "primary",
+            "url": "https://www.democrats.senate.gov/imo/media/doc/project2025_farmers.pdf"
+        },
+        {
+            "label": "Civil Eats — \"What Will Republicans' Project 2025 Mean for the Farm Safety Net?\" July 22, 2024.",
+            "type": "secondary",
+            "url": "https://civileats.com/2024/07/22/republican-plans-for-ag-policy-may-bring-big-changes-to-farm-country/"
+        },
+        {
+            "label": "Investigate Midwest — \"Farm programs, USDA would shrink under Project 2025 goals for ag,\" July 19, 2024.",
+            "type": "secondary",
+            "url": "https://investigatemidwest.org/2024/07/19/farm-programs-usda-would-shrink-under-project-2025-goals-for-ag/"
+        },
+        {
+            "label": "Center for American Progress — \"Project 2025's Plan To Gut Checks and Balances Harms Rural America.\"",
+            "type": "secondary",
+            "url": "https://www.americanprogress.org/article/project-2025s-plan-to-gut-checks-and-balances-harms-rural-america/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Each provision is in the public Project 2025 \"Mandate for Leadership\" volume. The @_paperplanet_ reel's editorial proposition — that these provisions plus the 2026 fuel-price shock combine to drive small operators into bankruptcy at prices favorable to corporate consolidators — is the speaker's synthesis. The provisions themselves are individually verifiable."
+}

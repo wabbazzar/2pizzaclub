@@ -1,0 +1,37 @@
+{
+    "id": "2026-spirit-airlines-shutdown-001",
+    "anchor": "y2025",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "finance",
+        "inequality",
+        "war",
+        "iran"
+    ],
+    "claim": "At approximately 3:00 a.m. Eastern Time on May 2, 2026, Spirit Airlines — America's eighth-largest carrier and largest ultra-low-cost operator — ceased all operations after the Trump administration declined an eleventh-hour $500 million federal rescue. The shutdown ended 34 years of service, eliminated roughly 17,000 jobs, canceled every Spirit flight in the network, and stranded passengers nationwide. It marked the first time a major U.S. airline had gone out of business for financial reasons in 25 years. The collapse followed two Spirit bankruptcies in 18 months and a fuel-cost shock tied to the U.S.-Iran conflict and the disruption of shipping through the Strait of Hormuz, with the U.S. national gasoline average reaching $4.30/gal and some California stations exceeding $8/gal.",
+    "sources": [
+        {
+            "label": "CBS News — \"Spirit Airlines shutting down after failed effort at government rescue deal,\" May 2, 2026.",
+            "type": "primary",
+            "url": "https://www.cbsnews.com/news/spirit-airlines-shutting-down-failed-rescue-deal/"
+        },
+        {
+            "label": "CNN Business — \"Spirit Airlines canceled all flights and is going out of business,\" May 2, 2026.",
+            "type": "secondary",
+            "url": "https://www.cnn.com/2026/05/02/business/spirit-to-halt-all-flights"
+        },
+        {
+            "label": "NPR — \"Spirit Airlines ceases operations after escalating financial struggles,\" May 2, 2026.",
+            "type": "secondary",
+            "url": "https://www.npr.org/2026/05/02/nx-s1-5807933/spirit-airlines-ceases-operations-folds"
+        },
+        {
+            "label": "CNBC — \"Spirit Airlines' final hours: 'Godspeed my friend' as terminals go dark,\" May 2, 2026.",
+            "type": "secondary",
+            "url": "https://www.cnbc.com/2026/05/02/spirit-airlines-shutdown-inside-the-final-hours.html"
+        }
+    ],
+    "status": "verified",
+    "notes": "Spirit's collapse is the marquee 2026 example of fuel-price shock + budget-carrier balance-sheet inability to absorb sustained cost increases — a pattern the @_paperplanet_ reel ties to the broader Project-2025 / corporate-consolidation thesis. Trump-admin rescue denial is independently corroborated across CBS, CNN, NPR; the 17K headcount and 25-year first-of-its-kind framing are CBS's."
+}
