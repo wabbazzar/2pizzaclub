@@ -200,9 +200,36 @@ Refrain: **`Someone's eating babies.`** Returns in **i**, **vi**, **x** — thre
 
 ---
 
-## Scenes vii–viii (still to draft)
+## vii. the man and the dog
 
-- **vii. the man and the dog** — [John McAfee](https://2pizzaclub.com/#y2021-surfside) dead Spanish cell June 23 2021; Caramelo shot in Belize GSU raid April 30 2012; the 2019 *"WHACKD"* Cuba tweet; the [31TB dead-man's-switch](https://www.snopes.com/fact-check/mcafee-tweet-31tb/); the **Q** posted to his Instagram hours before death.
+> *A man with white hair lived alone on a beach,*
+> *with a small caramel dog at the end of his reach.*
+> *The men came one morning with rifles and rope.*
+> *They shot the small dog. They shot the man's hope.*
+
+> *He ran from the beach in a small painted boat.*
+> *He posted from Cuba a small public note:*
+> *"If I die by my hand, then it won't be by me."*
+> *He tattooed 'WHACKD' on his arm. He was free.*
+
+> *Years later, in Spain, in a cell with a rope,*
+> *the man with white hair was discovered — no hope.*
+> *On his page hung a Q. Just a Q in dark ink.*
+> *And the 31 terabytes were gone in a blink.*
+
+- **L1–2** — McAfee in Belize, Orange Walk District, his dog [Caramelo](https://en.wikipedia.org/wiki/John_McAfee). *Small caramel dog* — the name's color encoded as descriptor, "in the know" reader supplies the proper noun.
+- **L3–4** — [April 30, 2012 Belize Gang Suppression Unit raid](https://2pizzaclub.com/#y2012-mcafee-belize) (paramilitary unit established 2010, [Israeli-training-supported](https://2pizzaclub.com/#y2012-mcafee-belize) per documented record). Caramelo shot during the raid. McAfee detained 14 hours, released without charge. *Rope* = the GSU restraint apparatus + the foreshadow of L9's cell-rope.
+- **L5** — McAfee fled Belize November 2012 after being named "person of interest" in neighbor Gregory Faull's murder; Belize never charged him. Overland to Guatemala, eventually to Cuba.
+- **L6–7** — McAfee's [June 9, 2019 Cuba tweet](https://2pizzaclub.com/#y2021-surfside): *"If I suicide myself, I didn't. I was whackd."* L7 compresses to *"If I die by my hand, then it won't be by me"* — preserves the gist, fits the meter.
+- **L8** — McAfee literally got *WHACKD* tattooed on his arm and showed it in interviews + posts. Direct visual anchor.
+- **L9–10** — [McAfee found dead at Brians 2 prison](https://2pizzaclub.com/#y2021-surfside) near Barcelona, **June 23, 2021**, hours after the Spanish National Court approved his extradition to the U.S. on federal tax-evasion charges. Ruled suicide by hanging. His widow Janice publicly disputed the ruling. *Rope* in L9 closes the rope-thread from L3.
+- **L11** — McAfee's [verified Instagram (@officialmcafee) posted a large letter **Q**](https://2pizzaclub.com/#y2021-surfside) around 4 p.m. Eastern on June 23 — within hours of his death. The post activated QAnon-aligned channels.
+- **L12** — McAfee's [2019 dead-man's-switch claim](https://www.snopes.com/fact-check/mcafee-tweet-31tb/) from Cuba threatened to release **31+ terabytes of incriminating data on government corruption** if he were arrested or disappeared. After his death the data never surfaced. *Gone in a blink* = the dead-switch never triggered.
+
+---
+
+## Scene viii (still to draft)
+
 - **viii. the suicides** — Chris Cornell (May 18 2017, Detroit); Chester Bennington (July 20 2017, *on Cornell's birthday*); Tim "Avicii" Bergling (April 20 2018, Muscat); Anthony Bourdain (June 8 2018, Kaysersberg); the [rumored *Silent Children* documentary](https://2pizzaclub.com/#y2017-bennington); the [FBI 2007 pedophile-symbols bulletin](https://2pizzaclub.com/#y2017-bennington). *Reptilian/Icke thread folds into ix–x as the AI-incarnation, not closed here.*
 
 ---
