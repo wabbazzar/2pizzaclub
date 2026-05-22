@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="A creepy nursery rhyme.">
+    <meta name="robots" content="noindex">
+    <title>Someone's Eating Babies</title>
+
+    <link rel="icon" type="image/svg+xml" href="/icon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="theme-color" content="#ede4d3">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Quicksand:wght@400;500;600;700&family=Schoolbell&display=swap" rel="stylesheet">
+
+    <style>
+        * { box-sizing: border-box; }
+        html, body {
+            margin: 0;
+            padding: 0;
+            background: #ede4d3;
+            color: #2a1a0f;
+            font-family: 'Schoolbell', cursive;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 2rem 1.25rem 5rem;
+        }
+        .filemark {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.7rem;
+            color: #6a5a4a;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+        .book-title {
+            font-family: 'Caveat Brush', cursive;
+            font-size: 2.75rem;
+            color: #2a1a0f;
+            text-align: center;
+            margin: 1.5rem 0 3.5rem;
+            letter-spacing: 0.02em;
+            line-height: 1.1;
+            font-weight: normal;
+        }
+        .scene { display: none; }
+        .scene.active {
+            display: block;
+            animation: fadeIn 0.4s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .scene-title {
+            font-family: 'Caveat Brush', cursive;
+            font-size: 2.1rem;
+            color: #8b3a3a;
+            text-align: center;
+            margin: 2rem 0 2.5rem;
+            letter-spacing: 0.04em;
+            font-weight: normal;
+        }
+        .verse p {
+            font-size: 1.35rem;
+            line-height: 1.9;
+            text-align: center;
+            margin: 1.85rem 0;
+        }
+        .nav {
+            margin-top: 3.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Quicksand', sans-serif;
+            border-top: 1px dashed #b8a890;
+            padding-top: 1.25rem;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #2a1a0f;
+            font-size: 1.6rem;
+            padding: 0.2rem 0.8rem;
+            transition: color 0.2s;
+            cursor: pointer;
+        }
+        .nav a:hover { color: #8b3a3a; }
+        .nav a.disabled {
+            opacity: 0.2;
+            pointer-events: none;
+            cursor: default;
+        }
+        .counter {
+            font-size: 0.8rem;
+            color: #6a5a4a;
+            letter-spacing: 0.18em;
+            font-family: 'Quicksand', sans-serif;
+            text-transform: lowercase;
+        }
+        .footer-back {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 0.8rem;
+            text-align: center;
+            margin-top: 3.5rem;
+            letter-spacing: 0.08em;
+        }
+        .footer-back a {
+            color: #6a5a4a;
+            text-decoration: none;
+        }
+        .footer-back a:hover { color: #8b3a3a; }
+        @media (max-width: 480px) {
+            .book-title { font-size: 2.2rem; }
+            .scene-title { font-size: 1.7rem; }
+            .verse p { font-size: 1.2rem; line-height: 1.8; }
+            .nav a { font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="filemark">// 2pizzaclub.com — eating</div>
+        <h1 class="book-title">Someone's Eating Babies</h1>
+
+        <article class="scene" id="i">
+            <h2 class="scene-title">i. the room</h2>
+            <div class="verse">
+                <p>A child sat alone in a quiet little room,<br>
+                with a clock on the mantel and a broom in the gloom.<br>
+                On the wall hung a mirror in an old wooden frame —<br>
+                and the mirror knew everyone's name.</p>
+                <p>The mirror grew foggy. The mirror grew bright.<br>
+                It showed her a kitchen by soft candlelight:<br>
+                a baker, a platter, a pan, and a wheel,<br>
+                and a smell that nobody dared to reveal.</p>
+                <p>"Hush," said the mirror. "Hush, little one.<br>
+                What's done in the kitchen has already been done.<br>
+                Someone is hungry. Someone is fed.<br>
+                Someone's eating babies. Now off to your bed."</p>
+            </div>
+            <div class="nav">
+                <a class="prev disabled">←</a>
+                <span class="counter">i / viii</span>
+                <a class="next" href="#ii">→</a>
+            </div>
+        </article>
+
+        <article class="scene" id="ii">
+            <h2 class="scene-title">ii. the island</h2>
+            <div class="verse">
+                <p>Out at sea on an island where the sand was white,<br>
+                a blue-striped temple shone gold in the night.<br>
+                A plane slid in low with no lights and no name,<br>
+                and the children stepped down through the runway and flame.</p>
+                <p>An old man was counting and keeping a list.<br>
+                An old man was smiling. An old man insisted —<br>
+                "Just one little party. Just one little dance.<br>
+                Just one little gift. Just one little chance."</p>
+                <p>The plane took off with no children on board.<br>
+                The children walked under the dome and the door.<br>
+                And nobody saw them. And nobody came.<br>
+                And the temple is standing. The temple's the same.</p>
+            </div>
+            <div class="nav">
+                <a class="prev" href="#i">←</a>
+                <span class="counter">ii / viii</span>
+                <a class="next" href="#iii">→</a>
+            </div>
+        </article>
+
+        <article class="scene" id="iii">
+            <h2 class="scene-title">iii. the maxwells</h2>
+            <div class="verse">
+                <p>On a hill in Jerusalem a man went to sleep<br>
+                in a tomb of pale stone that was windy and steep.<br>
+                Six men in long dark coats stood by him to weep —<br>
+                six men whose old debts to the dead man ran deep.</p>
+                <p>His daughter went diving in a small silver sub,<br>
+                down past the seaweed, down through the scrub.<br>
+                She counted the children, she wrote down their names,<br>
+                and she grinned at the cameras tucked into the frames.</p>
+                <p>She brought them in pairs to the parties she'd planned,<br>
+                each little girl holding another girl's hand.<br>
+                She knew all the parties. She knew all the rooms.<br>
+                She knew which had cried. She knew which one she'd groom.</p>
+            </div>
+            <div class="nav">
+                <a class="prev" href="#ii">←</a>
+                <span class="counter">iii / viii</span>
+                <a class="next" href="#iv">→</a>
+            </div>
+        </article>
+
+        <article class="scene" id="iv">
+            <h2 class="scene-title">iv. the clintons</h2>
+            <div class="verse">
+                <p>Up the steps of a townhouse, behind a tall door,<br>
+                there hung a strange portrait nobody could ignore:<br>
+                a President smiling in red shoes and blue,<br>
+                and the plane to the island had flown him there too.</p>
+                <p>His wife wore a pantsuit. His wife kept the files.<br>
+                She closed every cabinet and wiped all the trials.<br>
+                A laptop was found in a smaller man's drawer.<br>
+                Of twelve men who watched it, nine watched no more.</p>
+                <p>Together they kept what each one of them knew.<br>
+                The pantsuit, the closet, the portrait, the crew.<br>
+                On each other's birthdays: "Hate you. Palm Beach."<br>
+                And the cameras kept rolling. The truth out of reach.</p>
+            </div>
+            <div class="nav">
+                <a class="prev" href="#iii">←</a>
+                <span class="counter">iv / viii</span>
+                <a class="next" href="#v">→</a>
+            </div>
+        </article>
+
+        <article class="scene" id="v">
+            <h2 class="scene-title">v. the agent</h2>
+            <div class="verse">
+                <p>Across the wide sea, in a country of stone,<br>
+                an old man came in through the lobby alone.<br>
+                He taught the rich one to film and to keep.<br>
+                He stayed sixty times in the rooms where they sleep.</p>
+                <p>Others came in on the very same plane.<br>
+                They stayed. They returned. They came back again.<br>
+                The rich one took photos. The rich one took notes.<br>
+                He sent them by night in dispatches and codes.</p>
+                <p>Years later, in pockets across a small land,<br>
+                small things in the batteries learned to expand.<br>
+                They all rang together. They all blossomed red.<br>
+                The men with the pagers were tucked into bed.</p>
+            </div>
+            <div class="nav">
+                <a class="prev" href="#iv">←</a>
+                <span class="counter">v / viii</span>
+                <a class="next" href="#vi">→</a>
+            </div>
+        </article>
+
+        <article class="scene" id="vi">
+            <h2 class="scene-title">vi. the lavalier</h2>
+            <div class="verse">
+                <p>A young man stood up on an open-air stage.<br>
+                Three thousand were watching. He turned every page.<br>
+                He wore a small mic that was clipped at his throat —<br>
+                a small thing of plastic that hung from his coat.</p>
+                <p>A small flash, a small bang, a small spark from the neck —<br>
+                and the young husband fell, with no time to check.<br>
+                Some said it was rooftop. Some said it was wire.<br>
+                Some said his own collar was lit like a fire.</p>
+                <p>And his wife — the realtor of houses, of land —<br>
+                stepped up to the podium, Bible in hand.<br>
+                She cried for the cameras. The cameras cried back.<br>
+                And her hands at the Bible were trembling and black.</p>
+            </div>
+            <div class="nav">
+                <a class="prev" href="#v">←</a>
+                <span class="counter">vi / viii</span>
+                <a class="next" href="#vii">→</a>
+            </div>
+        </article>
+
+        <article class="scene" id="vii">
+            <h2 class="scene-title">vii. the man and the dog</h2>
+            <div class="verse">
+                <p>A man with white hair lived alone on a beach,<br>
+                with a small caramel dog at the end of his reach.<br>
+                The men came one morning with rifles and rope.<br>
+                They shot the small dog. They shot the man's hope.</p>
+                <p>He ran from the beach in a small painted boat.<br>
+                He posted from Cuba a small public note:<br>
+                "If I die by my hand, then it won't be by me."<br>
+                He tattooed 'WHACKD' on his arm. He was free.</p>
+                <p>Years later, in Spain, in a cell with a rope,<br>
+                the man with white hair was discovered — no hope.<br>
+                On his page hung a Q. Just a Q in dark ink.<br>
+                And the 31 terabytes were gone in a blink.</p>
+            </div>
+            <div class="nav">
+                <a class="prev" href="#vi">←</a>
+                <span class="counter">vii / viii</span>
+                <a class="next" href="#viii">→</a>
+            </div>
+        </article>
+
+        <article class="scene" id="viii">
+            <h2 class="scene-title">viii. the suicides</h2>
+            <div class="verse">
+                <p>One singer was found in his hotel in May.<br>
+                Two months on, his close friend did the very same way.<br>
+                The friend died at home on the singer's birthday —<br>
+                a song that the headlines had taken away.</p>
+                <p>One year later, a Swede on a desert estate<br>
+                broke a bottle, broke open, and lay down at his fate.<br>
+                Two months later, a chef went to sleep near the Rhine —<br>
+                hung himself in his room from a curtain of vine.</p>
+                <p>Four men in fourteen short months were laid down.<br>
+                They had each been on stages. They had each toured the towns.<br>
+                Some said they were filming a thing not yet known.<br>
+                But the small film was never seen, never shown.</p>
+            </div>
+            <div class="nav">
+                <a class="prev" href="#vii">←</a>
+                <span class="counter">viii / viii</span>
+                <a class="next disabled">→</a>
+            </div>
+        </article>
+
+        <div class="footer-back">
+            <a href="/">← timeline</a>
+        </div>
+    </div>
+
+    <script>
+        (function () {
+            var order = ['i','ii','iii','iv','v','vi','vii','viii'];
+            function show() {
+                var hash = (window.location.hash || '#i').slice(1);
+                var target = order.indexOf(hash) !== -1 ? hash : 'i';
+                var scenes = document.querySelectorAll('.scene');
+                for (var i = 0; i < scenes.length; i++) scenes[i].classList.remove('active');
+                document.getElementById(target).classList.add('active');
+                window.scrollTo({ top: 0, behavior: 'instant' });
+            }
+            function nav(dir) {
+                var cur = (window.location.hash || '#i').slice(1);
+                var idx = order.indexOf(cur);
+                if (idx === -1) return;
+                var next = idx + dir;
+                if (next < 0 || next >= order.length) return;
+                window.location.hash = order[next];
+            }
+            window.addEventListener('hashchange', show);
+            window.addEventListener('DOMContentLoaded', show);
+            window.addEventListener('keydown', function (e) {
+                if (e.key === 'ArrowRight') nav(1);
+                else if (e.key === 'ArrowLeft') nav(-1);
+            });
+        })();
+    </script>
+</body>
+</html>
