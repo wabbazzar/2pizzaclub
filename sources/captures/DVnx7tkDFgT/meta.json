@@ -20,7 +20,7 @@
     "video_download_status": "Captured: ~23 MB, vp9 720x1280, 124s.",
     "audio_transcription_status": "Transcribed with openai-whisper base.en.",
     "evidence_records": [
-        "2018-mcafee-clinton-embassy-001"
+        "2012-mcafee-clinton-embassy-001"
     ],
     "supporting_research_links": [
         "https://x.com/officialmcafee/status/1160501406626791424",
