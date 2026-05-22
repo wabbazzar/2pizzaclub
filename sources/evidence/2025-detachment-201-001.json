@@ -1,0 +1,44 @@
+{
+    "id": "2025-detachment-201-001",
+    "anchor": "y2025",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "surveillance",
+        "ai",
+        "war",
+        "intelligence",
+        "tech-billionaires"
+    ],
+    "claim": "On June 13, 2025, the United States Army stood up Detachment 201 — the \"Executive Innovation Corps\" — and directly commissioned four senior technology executives as lieutenant colonels in the Army Reserve: Shyam Sankar (Chief Technology Officer of Palantir Technologies), Andrew \"Boz\" Bosworth (Chief Technology Officer of Meta Platforms), Kevin Weil (Chief Product Officer of OpenAI), and Bob McGrew (former Chief Research Officer of OpenAI, now an advisor at Thinking Machines Lab). The four are part-time Army Reserve officers serving as senior advisors on \"targeted projects to help guide rapid and scalable tech solutions,\" with the stated aim of making \"the force leaner, smarter, and more lethal.\"",
+    "sources": [
+        {
+            "label": "U.S. Army — \"Army Launches Detachment 201: Executive Innovation Corps to Drive Tech Transformation,\" June 13, 2025.",
+            "type": "primary",
+            "url": "https://www.army.mil/article/286317/army_launches_detachment_201_executive_innovation_corps_to_drive_tech_transformation",
+            "quote": "A new initiative designed to fuse cutting-edge tech expertise with military innovation"
+        },
+        {
+            "label": "U.S. Army Reserve — \"Army Reserve Soldiers front and center of Army's new Detachment 201: Executive Innovation Corps.\"",
+            "type": "primary",
+            "url": "https://www.usar.army.mil/News/News-Display/Article/4216167/army-reserve-soldiers-front-and-center-of-armys-new-detachment-201-executive-in/"
+        },
+        {
+            "label": "DefenseScoop — \"Army recruits officers from Meta, OpenAI and Palantir to serve in new detachment,\" June 13, 2025.",
+            "type": "secondary",
+            "url": "https://defensescoop.com/2025/06/13/army-detachment-201-executive-innovation-corps-meta-openai-palantir/"
+        },
+        {
+            "label": "Wikipedia — Detachment 201.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Detachment_201"
+        },
+        {
+            "label": "DVIDS — Commissioning Ceremony for Detachment 201: The Army's Executive Innovation Corps (official photo set).",
+            "type": "primary",
+            "url": "https://www.dvidshub.net/image/9111135/commissioning-ceremony-detachment-201-armys-executive-innovation-corps"
+        }
+    ],
+    "status": "verified",
+    "notes": "Anchor parked at y2025 (\"Where things stand\") since this is the 2025 state-tech convergence backdrop — Detachment 201 + the FY2027 DAWG line item + Palantir/Meta/OpenAI data fusion. Could later move to a dedicated y2025-detachment-201 chapter if the surveillance-stack story warrants its own anchor."
+}

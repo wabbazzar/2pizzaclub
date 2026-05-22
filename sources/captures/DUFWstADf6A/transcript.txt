@@ -1,0 +1,34 @@
+Source: reel.webm
+Audio: opus 48kHz stereo extracted to 16kHz mono WAV
+Transcribed: 2026-05-22, openai-whisper base.en
+
+— FULL TEXT —
+
+in versa. I need you to picture a map. Okay, picture Google Maps of your neighborhood. You and
+everybody, all of your neighbors, you and everybody in your household, everybody, you know, loading
+over top of your house like Sims, there's a little arrow and that arrow contains a trust score.
+Pendant upon what that trust score is, you could be labeled as a domestic terrorist. So what does
+that number mean? How do they gather that information? And how do you get a good verse bad score?
+Well, I'll tell you, here we go. The CTO, Chief Technology Officer of Palantir of Meta and two
+of OpenAI's chief research officers have been sworn on as another branch in the U.S. government
+called Detachment 201 as Lieutenant Colonel Andrew Bosworth, Bob McGrew, Shaim Sankir and Kevin
+Wheel. What does Palantir bring to the mix? Why would they hire him on? Let me go with law enforcement
+records, immigration files, travel records, financial transaction, metadata, phone metadata,
+and all call records, utility usage, license plate reader data, facial recognition, social
+graphs, social network graphs built from existing records, what existing records, that's where
+meta comes meta brings identity data, social graphs, friends, followers, interactions, messages,
+metadata, behavioral data, like shares, comments, wall time, scroll, speed, content data,
+and your sleep schedule is in there. Photos, videos, captions, metadata, location data,
+per site GPS, if enabled, Wi-Fi, Bluetooth, proximity, IP-based location,
+off-platform data being tracking pixels. Does meta infer which way you lean politically? Relationship
+status, income bracket, shopping intent, health-related interest, emotional states, pregnancy likelihood,
+relocation intent, and you have the two chief research execs from OpenAI, facial recognition,
+any information you've ever given AI. You guys are worried about the TikTok purchase,
+they already had it. If you research Detachment 201, the branch in the US government, and then
+you mosey on over to whitehouse.gov, research NSPM-7, they tell you what they're doing. It's never
+been more important to absolutely do everything in your power to lock down your data. Get a DNS,
+get a VPN, make sure you're limiting what you are sharing. Be careful with your verbed. Have
+a secure backup plan with people that you trust. This goes so much to do, but you cannot fit that
+I have been looking into this for hours, hours. I love you, drink your water.
+
+— END —

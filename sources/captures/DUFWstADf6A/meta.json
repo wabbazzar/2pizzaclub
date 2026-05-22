@@ -1,0 +1,37 @@
+{
+    "id": "DUFWstADf6A",
+    "url": "https://www.instagram.com/reel/DUFWstADf6A/",
+    "platform": "instagram",
+    "captured_at": "2026-05-22",
+    "handle": null,
+    "author_display_name": "Dr. Laura Valentina",
+    "posted_at": null,
+    "engagement": null,
+    "caption": "🚨🚨🚨 #privacy #america #drlauravalentina \n\nTy to @megmykal44 https://www.youtube.com/MykalHut4 for this information!!",
+    "hashtags": [
+        "privacy",
+        "america",
+        "drlauravalentina"
+    ],
+    "audio_track_actual": "A single female voice speaking directly to the camera in an urgent register; no music bed. Speaker self-identifies via the on-account brand as Dr. Laura Valentina. Hand gestures and a map visible on the wall behind her in the opening frames.",
+    "video_overlay_text_observed": "Selfie-style head-and-shoulders framing, indoors against a wall holding what appears to be a U.S. map. A red on-screen header card reads \"🚨IMPORTANT Surveillance Safety Information🚨\" with intermittent burned-in captions (\"FOR A SEC.\" visible on frame 1). No document inserts, B-roll, or chyrons.",
+    "audio_content_summary": "The speaker frames the U.S. surveillance posture as a \"trust score\" overlaid on a Google-Maps-style picture of a viewer's neighborhood, where the score determines whether one could be labeled a domestic terrorist. She names two pieces of underlying public-record infrastructure: (1) the U.S. Army's Detachment 201, the \"Executive Innovation Corps,\" which on June 13, 2025 directly commissioned Palantir CTO Shyam Sankar, Meta CTO Andrew Bosworth, OpenAI Chief Product Officer Kevin Weil, and former OpenAI Chief Research Officer Bob McGrew as lieutenant colonels in the Army Reserve; and (2) National Security Presidential Memorandum 7, issued by President Trump on September 25, 2025, directing the Joint Terrorism Task Force, Treasury, and IRS to investigate, prosecute, disrupt, and de-fund entities and individuals tied to \"anti-Americanism, anti-capitalism, and anti-Christianity\" and related ideological markers, citing the assassination of Charlie Kirk. She lists the categories of data she contends are being fused — Palantir's reach into law-enforcement records, immigration files, travel, financial transactions, phone metadata, call records, utility usage, license-plate readers, facial recognition, and social graphs; Meta's identity, social-graph, behavioral, location, and off-platform tracking-pixel data; and OpenAI's interaction history and facial recognition — and instructs viewers to look up Detachment 201 and NSPM-7 directly at whitehouse.gov. She closes with operational privacy guidance (DNS, VPN, limit sharing, secure backup with trusted contacts).",
+    "implied_frame": "The video's editorial proposition is that Detachment 201 (June 2025) and NSPM-7 (September 2025) form complementary halves of a single new domestic-surveillance posture: Detachment 201 brings the data-fusion CTOs of Palantir, Meta, and OpenAI into the Army Reserve in dress uniform, and NSPM-7 supplies the legal designation framework — a national-security memo branding ideological categories (anti-Americanism, anti-capitalism, anti-Christianity, gender/race/migration extremism) as terrorism-adjacent and directing JTTF / Treasury / IRS to investigate, disrupt, and de-fund them. The two underlying federal artifacts are documented and primary-source-verified; the speaker's specific \"trust score on a Google-Maps overlay labels you a domestic terrorist\" framing is the editorial synthesis, not a publicly documented product output. The Palantir / Meta / OpenAI data categories she lists are independently documented in those companies' own marketing and disclosures.",
+    "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
+    "video_download_status": "Captured: ~25 MB, vp9 720x1280, 146s.",
+    "audio_transcription_status": "Transcribed with openai-whisper base.en.",
+    "evidence_records": [
+        "2025-detachment-201-001",
+        "2025-nspm-7-001"
+    ],
+    "supporting_research_links": [
+        "https://www.army.mil/article/286317/army_launches_detachment_201_executive_innovation_corps_to_drive_tech_transformation",
+        "https://www.usar.army.mil/News/News-Display/Article/4216167/army-reserve-soldiers-front-and-center-of-armys-new-detachment-201-executive-in/",
+        "https://defensescoop.com/2025/06/13/army-detachment-201-executive-innovation-corps-meta-openai-palantir/",
+        "https://en.wikipedia.org/wiki/Detachment_201",
+        "https://www.whitehouse.gov/presidential-actions/2025/09/countering-domestic-terrorism-and-organized-political-violence/",
+        "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-develops-new-strategy-to-counter-domestic-terrorism-and-organized-political-violence/",
+        "https://www.aclu.org/news/national-security/how-nspm-7-seeks-to-use-domestic-terrorism-to-target-nonprofits-and-activists",
+        "https://en.wikipedia.org/wiki/NSPM-7"
+    ]
+}

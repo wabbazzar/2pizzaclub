@@ -1,0 +1,48 @@
+{
+    "id": "2025-nspm-7-001",
+    "anchor": "y2025-kirk",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "surveillance",
+        "fbi",
+        "prosecution",
+        "civil-liberties"
+    ],
+    "claim": "On September 25, 2025 — four days after the assassination of conservative activist Charlie Kirk — President Donald Trump issued National Security Presidential Memorandum 7, \"Countering Domestic Terrorism and Organized Political Violence\" (NSPM-7). The memo cites the Kirk assassination by name and identifies the \"common threads\" linking the violence it targets as \"anti-Americanism, anti-capitalism, and anti-Christianity; support for the overthrow of the United States Government; extremism on migration, race, and gender; and hostility towards those who hold traditional American views on family, religion, and morality.\" It directs the Joint Terrorism Task Force to \"coordinate and supervise a comprehensive national strategy to investigate, prosecute, and disrupt entities and individuals engaged in acts of political violence,\" the Treasury Secretary to identify and disrupt the financial networks of domestic-terrorism funding, and the IRS Commissioner to ensure that no tax-exempt entities are \"directly or indirectly financing political violence\" — with referral to the Department of Justice for any flagged organization.",
+    "sources": [
+        {
+            "label": "The White House — Presidential Memorandum: \"Countering Domestic Terrorism and Organized Political Violence,\" September 25, 2025.",
+            "type": "primary",
+            "url": "https://www.whitehouse.gov/presidential-actions/2025/09/countering-domestic-terrorism-and-organized-political-violence/",
+            "quote": "anti-Americanism, anti-capitalism, and anti-Christianity; support for the overthrow of the United States Government; extremism on migration, race, and gender; and hostility towards those who hold traditional American views on family, religion, and morality."
+        },
+        {
+            "label": "The White House — \"Fact Sheet: President Donald J. Trump Develops New Strategy to Counter Domestic Terrorism and Organized Political Violence,\" September 25, 2025.",
+            "type": "primary",
+            "url": "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-develops-new-strategy-to-counter-domestic-terrorism-and-organized-political-violence/"
+        },
+        {
+            "label": "ACLU — \"How NSPM-7 Seeks to Use 'Domestic Terrorism' to Target Nonprofits and Activists.\"",
+            "type": "secondary",
+            "url": "https://www.aclu.org/news/national-security/how-nspm-7-seeks-to-use-domestic-terrorism-to-target-nonprofits-and-activists"
+        },
+        {
+            "label": "DLA Piper — \"NSPM-7: New federal strategy for countering domestic terrorism and political violence adds enforcement risks,\" December 2025.",
+            "type": "secondary",
+            "url": "https://www.dlapiper.com/en-us/insights/publications/2025/12/new-federal-strategy-for-countering-domestic-terrorism-and-political-violence-adds-enforcement-risks"
+        },
+        {
+            "label": "Arnold & Porter — \"Turning Powerful Post 9-11 Counterterrorism Tools Onto Domestic Policy Targets,\" September 2025.",
+            "type": "secondary",
+            "url": "https://www.arnoldporter.com/en/perspectives/blogs/enforcement-edge/2025/09/turning-counterterrorism-tools-onto-domestic-policy-targets"
+        },
+        {
+            "label": "Wikipedia — NSPM-7.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/NSPM-7"
+        }
+    ],
+    "status": "verified",
+    "notes": "Anchored at y2025-kirk because NSPM-7 explicitly cites the Kirk assassination in its findings. Paired with 2025-detachment-201-001 — the reel's editorial proposition is that NSPM-7's designation framework + Detachment 201's data-fusion infrastructure converge into a new domestic-surveillance posture. That synthesis is documented in the capture's implied_frame, not asserted in either record."
+}
