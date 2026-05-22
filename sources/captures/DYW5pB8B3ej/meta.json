@@ -18,13 +18,26 @@
         "fuelprices",
         "gasprices"
     ],
-    "audio_track_actual": "",
-    "video_overlay_text_observed": "",
-    "audio_content_summary": "",
-    "implied_frame": "",
+    "audio_track_actual": "A single female voice-over narrating in a steady, declarative register over stop-motion / paper-craft cardboard tableaux. No music bed.",
+    "video_overlay_text_observed": "Stop-motion / paper-craft animation: cardboard newspaper headlines (\"SPIRIT AIRLINES WAS A WARNING\"), paper hands holding paper airplanes, blue paper-sky backgrounds. Burned-in chyrons identify dollar figures and policy names as the narration introduces them. No on-screen B-roll of real events.",
+    "audio_content_summary": "The narrator argues that the May 2026 Spirit Airlines shutdown is the marquee event of a coordinated consolidation playbook in which a fuel-price shock — driven by the U.S.-Iran conflict and Strait of Hormuz disruption — bankrupts small operators (small farmers, fishing boats, budget airlines, main-street businesses) at fire-sale prices, then Project 2025's policy provisions finish the job. The reel names three specific Project 2025 provisions said to disadvantage rural and small operators: repeal of crop insurance, cuts to Farm Service Agency loans, and ending the Essential Air Service program. It cites Russell Vought's August-2024 hidden-camera admission (via the Centre for Climate Reporting) that the second-phase Project 2025 documents were being intentionally distributed off-channel to avoid FOIA disclosure. It closes by naming BlackRock, Vanguard, and State Street — \"$30 trillion under management\" — as the largest shareholders in the oil, airline, and agribusiness incumbents positioned to absorb the consolidated assets.",
+    "implied_frame": "The editorial proposition is that the 2026 fuel-price shock is not exogenous chaos but is the operational mechanism of a deliberate consolidation strategy. The reel binds three pieces of evidence — Project 2025's documented rural provisions, the Vought/Meadowcroft FOIA-avoidance recording, and Spirit Airlines' May 2 shutdown — into a single causal chain whose end-state is the largest passive asset managers acquiring small-operator inventory at depressed prices. The three named federal-policy artifacts (Project 2025 ARC/PLC repeal, FSA shrinkage, Essential Air Service termination) and the May 2 2026 Spirit collapse are independently primary-source-verified. The synthesis — that the price spike is causally engineered, not consequentially exploited — is the speaker's, and is not asserted in the three corresponding evidence records.",
     "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
     "video_download_status": "Captured: ~24 MB, vp9 720x1280, 121s.",
-    "audio_transcription_status": "Transcribed with openai-whisper.",
-    "evidence_records": [],
-    "supporting_research_links": []
+    "audio_transcription_status": "Transcribed with openai-whisper base.en.",
+    "evidence_records": [
+        "2026-spirit-airlines-shutdown-001",
+        "2024-vought-foia-undercover-001",
+        "2024-project-2025-rural-001"
+    ],
+    "supporting_research_links": [
+        "https://www.cbsnews.com/news/spirit-airlines-shutting-down-failed-rescue-deal/",
+        "https://www.cnn.com/2026/05/02/business/spirit-to-halt-all-flights",
+        "https://www.npr.org/2026/05/02/nx-s1-5807933/spirit-airlines-ceases-operations-folds",
+        "https://climate-reporting.org/undercover-in-project-2025/",
+        "https://www.cnn.com/2024/08/15/politics/russ-vought-project-2025-trump-secret-recording-invs",
+        "https://thehill.com/policy/energy-environment/4791069-project-2025-farming-food-aid/",
+        "https://www.democrats.senate.gov/imo/media/doc/project2025_farmers.pdf",
+        "https://civileats.com/2024/07/22/republican-plans-for-ag-policy-may-bring-big-changes-to-farm-country/"
+    ]
 }
