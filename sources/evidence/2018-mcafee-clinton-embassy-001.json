@@ -1,0 +1,39 @@
+{
+    "id": "2018-mcafee-clinton-embassy-001",
+    "anchor": "y2012-mcafee-belize",
+    "year": 2018,
+    "era": "iv",
+    "themes": [
+        "mcafee",
+        "clinton",
+        "regional-conflicts",
+        "surveillance"
+    ],
+    "claim": "In a sit-down interview given roughly six years after he fled Belize (placing the recording around 2018-2019), John McAfee stated on camera, for the first time publicly, that during his November 2012 flight from Belize his pre-arranged entry to the U.S. Embassy in Belmopan was blocked on direct orders from then-U.S. Secretary of State Hillary Clinton. McAfee said the head of embassy security told him: \"sir, we have it from the highest authority. We are not to allow you entry into the US Embassy.\" McAfee identified that \"highest authority\" as Clinton. He then describes his retaliation: donating laptops loaded with viral spyware to Belize government secretaries, claiming that within a week he had \"the entire government computer system\" under his surveillance, and that he discovered (per McAfee's on-camera statement) that the Belize Minister of National Defense was \"the largest drug trafficker in all of Central America\" and the Minister of Immigration was \"the largest human trafficker.\" The Hillary-Clinton-embassy-block claim is also documented in McAfee's own contemporaneous tweets in August 2019.",
+    "sources": [
+        {
+            "label": "Interview clip — John McAfee on the U.S. Embassy block and the Belize spyware operation (mirrored on Instagram @correct_culture1 reel DVnx7tkDFgT, posted March 8, 2026).",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DVnx7tkDFgT/",
+            "quote": "It was the highest authority in the State Department, Hillary Clinton."
+        },
+        {
+            "label": "John McAfee (@officialmcafee) on X, August 11, 2019 — \"People asking: Do I have goods on Hillary Clinton? Why would I bother, other than she was Secretry of State while I was on the run from the Belize Army in 2012 and The U.S. Embassy in Belmopan denied me entrance - almost guaranteeing my death? Somehow I survived. Goods?????\"",
+            "type": "primary",
+            "url": "https://x.com/officialmcafee/status/1160501406626791424",
+            "quote": "she was Secretry of State while I was on the run from the Belize Army in 2012 and The U.S. Embassy in Belmopan denied me entrance - almost guaranteeing my death?"
+        },
+        {
+            "label": "John McAfee (@officialmcafee) on X — \"Hillary Clinton was Secretary of State when I was denied entry into the U.S. Embassy in Belize while on the run from the Belizean Army.\"",
+            "type": "primary",
+            "url": "https://x.com/officialmcafee/status/1160499309499969536"
+        },
+        {
+            "label": "Canada Free Press — \"John McAfee explains to Vice how Hillary Clinton blocked his entry into an American Embassy.\"",
+            "type": "secondary",
+            "url": "https://canadafreepress.com/article/john-mcafee-explains-to-vice-how-hillary-clinton-blocked-his-entry-into-an-american-embassy"
+        }
+    ],
+    "status": "verified",
+    "notes": "Claim type: McAfee on the record. The interview clip is McAfee speaking in his own voice, so the reel itself is the primary record of him saying it. His August 2019 tweets are an independent on-the-record restatement of the same allegation. What McAfee SAID is documented; whether the underlying allegation is TRUE — that Clinton personally directed the embassy block, that two named Belize cabinet ministers were Central America's top drug- and human-traffickers — is not independently verified outside McAfee's own claims. Pairs with the existing 2012-mcafee-belize-001 (the GSU raid that triggered all of this) and 2021-mcafee-death-001 (his death in Spanish custody two years after these tweets)."
+}

@@ -1,0 +1,32 @@
+{
+    "id": "DVnx7tkDFgT",
+    "url": "https://www.instagram.com/reel/DVnx7tkDFgT/",
+    "platform": "instagram",
+    "captured_at": "2026-05-22",
+    "handle": "@correct_culture1",
+    "author_display_name": "CORRECT CULTURE",
+    "posted_at": "2026-03-08",
+    "engagement": {
+        "likes": 53000,
+        "comments": 544
+    },
+    "caption": "John McAfee (1945–2021) was a British-American computer programmer, entrepreneur, and controversial public figure best known for founding the cybersecurity company McAfee. His life combined major contributions to early computer security with a long series of legal troubles, political ambitions, and unusual personal behavior.\n-\nBefore his death, McAfee had publicly claimed that:\n\t•\tHe had information about corruption in governments and powerful figures.\n\t•\tIf he died in prison, it would not be suicide.\n\nBecause of those statements, some supporters believe his death might be suspicious.\n\nWhat he claimed to expose\n\nMcAfee often said he possessed data about:\n\t•\tGovernment corruption\n\t•\tFinancial crimes and tax systems\n\t•\tConnections between politicians and powerful elites\n\nHowever, no verified evidence has been released proving he had such information, and authorities have not confirmed any government-exposure claims.",
+    "hashtags": [],
+    "audio_track_actual": "Two-shot sit-down interview between John McAfee (older man, weathered, on the right of the frame in profile) and a female interviewer (mid-shot, white blouse, drink in hand, on the left). Dialogue is the entire audio track. No music bed. McAfee speaks in a low-register, methodical, profanity-punctuated register; the interviewer's role is to push him to make the disclosure on tape.",
+    "video_overlay_text_observed": "Interior living-room set, large window behind the interviewer, soft daylight. Burned-in caption frame above the video reads \"John Mcafee exposing the truth that made him 'suicidal'\". The clip is letterboxed within a larger Instagram-mobile composition with the caption overlaid above.",
+    "audio_content_summary": "John McAfee, on camera, breaks a six-year silence about why he believes the Belize government was hunting him in 2012-2013. He alleges (1) that during his flight from Belize, the U.S. Embassy in Belmopan denied his pre-arranged entry on orders that the head of embassy security attributed to \"the highest authority in the State Department\" — which McAfee identifies as Secretary of State Hillary Clinton; (2) that the trigger for the Belize government raid on his property was bogus, and that after the GSU shot his dog and destroyed roughly half a million dollars worth of his property he retaliated by donating laptops preloaded with viral spyware to government secretaries; (3) that within a week he had \"the entire government computer system\" under his surveillance and discovered, per his account, that the Belize Minister of National Defense was \"the largest drug trafficker in all of Central America\" and the Minister of Immigration was \"the largest human trafficker.\" The clip closes with him explaining why he did not pursue or publish the names — \"we don't want to get killed by them either\" — and a cheers / drinks toast.",
+    "implied_frame": "The reel's editorial proposition is that McAfee's June 2021 death in Spanish prison custody — ruled a suicide despite his \"WHACKD\" tweet/tattoo — is contextually re-read in light of this six-years-earlier interview, where he places himself on the wrong side of the U.S. Secretary of State and claims to have intercepted on-government-network material implicating named Central American cabinet ministers in drug- and human-trafficking. The reel is itself the evidentiary artifact: McAfee speaking in his own voice on camera. What is verifiable from the public record: McAfee SAID these things, on multiple occasions (Vice interview footage from circa 2018-2019, his August 2019 tweets restating the Clinton-embassy claim, his repeated 2012-onward public allegations about Belize cabinet corruption). What is not independently verified: the underlying truth of any of the allegations (Clinton personal involvement, the specific cabinet-minister trafficking claims, the scope of the spyware operation).",
+    "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
+    "video_download_status": "Captured: ~23 MB, vp9 720x1280, 124s.",
+    "audio_transcription_status": "Transcribed with openai-whisper base.en.",
+    "evidence_records": [
+        "2018-mcafee-clinton-embassy-001"
+    ],
+    "supporting_research_links": [
+        "https://x.com/officialmcafee/status/1160501406626791424",
+        "https://x.com/officialmcafee/status/1160499309499969536",
+        "https://canadafreepress.com/article/john-mcafee-explains-to-vice-how-hillary-clinton-blocked-his-entry-into-an-american-embassy",
+        "https://en.wikipedia.org/wiki/John_McAfee",
+        "https://gizmodo.com/meth-labs-and-dead-dogs-how-the-founder-of-mcafee-anti-5912379"
+    ]
+}
