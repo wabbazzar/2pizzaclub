@@ -228,9 +228,32 @@ Refrain: **`Someone's eating babies.`** Returns in **i**, **vi**, **x** — thre
 
 ---
 
-## Scene viii (still to draft)
+## viii. the suicides
 
-- **viii. the suicides** — Chris Cornell (May 18 2017, Detroit); Chester Bennington (July 20 2017, *on Cornell's birthday*); Tim "Avicii" Bergling (April 20 2018, Muscat); Anthony Bourdain (June 8 2018, Kaysersberg); the [rumored *Silent Children* documentary](https://2pizzaclub.com/#y2017-bennington); the [FBI 2007 pedophile-symbols bulletin](https://2pizzaclub.com/#y2017-bennington). *Reptilian/Icke thread folds into ix–x as the AI-incarnation, not closed here.*
+> *One singer was found in his hotel in May.*
+> *Two months on, his close friend did the very same way.*
+> *The friend died at home on the singer's birthday —*
+> *a song that the headlines had taken away.*
+
+> *One year later, a Swede on a desert estate*
+> *broke a bottle, broke open, and lay down at his fate.*
+> *Two months later, a chef went to sleep near the Rhine —*
+> *hung himself in his room from a curtain of vine.*
+
+> *Four men in fourteen short months were laid down.*
+> *They had each been on stages. They had each toured the towns.*
+> *Some said they were filming a thing not yet known.*
+> *But the small film was never seen, never shown.*
+
+- **L1** — [Chris Cornell](https://en.wikipedia.org/wiki/Chris_Cornell) found dead **May 18, 2017** at the MGM Grand Detroit, age 52. Suicide by hanging.
+- **L2** — [Chester Bennington](https://en.wikipedia.org/wiki/Chester_Bennington) found dead **July 20, 2017** at his home in Palos Verdes Estates, age 41. Suicide by hanging.
+- **L3** — Bennington died on what would have been Cornell's **53rd birthday**. The birthday-coincidence is the iconic conspiracy-anchor of the cluster.
+- **L4** — *song that the headlines had taken away* lands the [rumored *Silent Children* documentary](https://2pizzaclub.com/#y2017-bennington) thread: the conspiracy reading that the press did not connect the deaths to alleged elite-trafficking exposure.
+- **L5–6** — [Tim Bergling (Avicii)](https://en.wikipedia.org/wiki/Avicii) died **April 20, 2018** in Muscat, Oman, age 28, at an Omani royal-family estate. Cause: self-inflicted injuries with a broken wine bottle. *Desert estate* = Oman; *broke a bottle, broke open* = the literal cause of death.
+- **L7–8** — [Anthony Bourdain](https://en.wikipedia.org/wiki/Anthony_Bourdain) found dead **June 8, 2018** at Le Chambard hotel in Kaysersberg, France, age 61. Suicide by hanging. *Near the Rhine* + *curtain of vine* = Alsace wine-region setting.
+- **L9** — *Four men in fourteen short months* — Cornell May 2017 → Bourdain June 2018 = ~13 months, slight compression.
+- **L10** — all four were touring performers (Cornell with Soundgarden, Bennington with Linkin Park, Bergling with EDM tours, Bourdain with *Parts Unknown*). Donaldson pattern-repetition.
+- **L11–12** — the [rumored *Silent Children* documentary](https://2pizzaclub.com/#y2017-bennington) rendered as folk-mythology, not asserted fact. The site notes no verifiable production record exists.
 
 ---
 
