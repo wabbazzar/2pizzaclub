@@ -743,17 +743,76 @@
     position: relative;
     padding: 0;
 }
-#findings.findings-as-slide:fullscreen {
+/* Scope-override font vars so slides stay legible on /efta/ (which doesn't
+   load the main site's hand-drawn Caveat Brush / Schoolbell fonts). Quicksand
+   and JetBrains Mono ARE loaded by efta/index.html, so they're guaranteed. */
+.intro-deck,
+#findings.findings-as-slide {
+    --display: 'Quicksand', system-ui, -apple-system, 'Helvetica Neue', sans-serif;
+    --mono: 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace;
+}
+.intro-deck .slide-headline,
+#findings.findings-as-slide .slide-headline {
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+.intro-deck .slide-quote p,
+#findings.findings-as-slide .slide-quote p {
+    font-weight: 600;
+}
+.intro-deck .stat-num,
+#findings.findings-as-slide .stat-num {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+.intro-deck .receipt-quote,
+#findings.findings-as-slide .receipt-quote,
+.intro-deck .stat-text,
+#findings.findings-as-slide .stat-text {
+    font-family: 'Quicksand', system-ui, -apple-system, sans-serif;
+}
+
+/* Fullscreen — native API where supported. */
+#findings.findings-as-slide:fullscreen,
+#findings.findings-as-slide:-webkit-full-screen {
     background: var(--paper);
     overflow-y: auto;
     height: 100vh;
 }
-#findings.findings-as-slide:fullscreen .slide {
+#findings.findings-as-slide:fullscreen .slide,
+#findings.findings-as-slide:-webkit-full-screen .slide {
     border-radius: 0;
     border-width: 0;
     box-shadow: none;
     min-height: 100vh;
     margin: 0;
+}
+/* iOS Safari fallback — requestFullscreen rejects on non-video elements there,
+   so the JS adds .is-pseudo-fullscreen which pins us to the viewport via CSS. */
+#findings.findings-as-slide.is-pseudo-fullscreen {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: var(--paper);
+    overflow-y: auto;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+}
+#findings.findings-as-slide.is-pseudo-fullscreen .slide {
+    border-radius: 0;
+    border-width: 0;
+    box-shadow: none;
+    min-height: 100vh;
+    margin: 0;
+}
+#findings.findings-as-slide.is-pseudo-fullscreen .deck-fullscreen {
+    position: fixed;
+    top: 1.25rem;
+    right: 1.25rem;
+}
+html.body-locked, html.body-locked body {
+    overflow: hidden !important;
 }
 
 .intro-deck {
