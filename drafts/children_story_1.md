@@ -171,9 +171,37 @@ Refrain: **`Someone's eating babies.`** Returns in **i**, **vi**, **x** — thre
 
 ---
 
-## Scenes vi–viii (still to draft)
+## vi. the lavalier
 
-- **vi. the lavalier** — Erika Kirk (Corcoran / [Pamela Liebman](https://2pizzaclub.com/#y2019) NDA / TPUSA-widow podium) **+** Charlie Kirk killed Sept 10 2025 at UVU (single bullet, neck, ~142 yds, [Tyler Robinson](https://2pizzaclub.com/#y2025-kirk) charged) + the [Bray microshape-charge-in-the-lavalier theory](https://2pizzaclub.com/#y2025-kirk) + brown-shirt-guy meme + the Mossad-pager echo from scene v. *Most legally-exposed page; Erika-as-conduit framing is unsubstantiated on the site.*
+> *A young man stood up on an open-air stage.*
+> *Three thousand were watching. He turned every page.*
+> *He wore a small mic that was clipped at his throat —*
+> *a small thing of plastic that hung from his coat.*
+
+> *A small flash, a small bang, a small spark from the neck —*
+> *and the young husband fell, with no time to check.*
+> *Some said it was rooftop. Some said it was wire.*
+> *Some said his own collar was lit like a fire.*
+
+> *And his wife — the realtor of houses, of land —*
+> *stepped up to the podium, Bible in hand.*
+> *She cried for the cameras. The cameras cried back.*
+> *And her hands at the Bible were trembling and black.*
+
+- **L1–2** — [Charlie Kirk killed Sept 10, 2025](https://2pizzaclub.com/#y2025-kirk) at [Utah Valley University](https://en.wikipedia.org/wiki/Utah_Valley_University) in Orem, Utah, outdoor campus debate. ~3,000 attendance. *Open-air stage* + *turned every page* lands the venue and the live-debate format.
+- **L3–4** — the [Shure wireless lavalier](https://en.wikipedia.org/wiki/Lavalier_microphone) Kirk wore clipped at the collar. *Small thing of plastic that hung from his coat* describes the device innocuously — the visual the alternative-theory reading hangs its case on.
+- **L5–6** — wound: single bullet to the neck, ~142 yards. *Small spark from the neck* deliberately ambiguates ballistic vs. electrical/explosive etiology — the artform's hinge.
+- **L7** — *rooftop* = official record. [Tyler Robinson](https://2pizzaclub.com/#y2025-kirk) charged Sept 12, .30-06 bolt-action recovered, DNA match on rifle/towel/screwdriver, [Maher audio forensics](https://2pizzaclub.com/#y2025-kirk) consistent with a single supersonic rifle gunshot.
+- **L8** — *wire* / *lit like a fire* = the [Jon Bray microshape-charge-in-the-lavalier theory](https://2pizzaclub.com/#y2025-kirk): wound source was a small explosive in the lavalier's battery compartment, modeled on the [September 2024 Hezbollah pager operation](https://en.wikipedia.org/wiki/2024_Lebanon_pager_explosions). The buried Mossad-pager echo from scene v — same technology framework, applied to a single target. The official record does not support the mic-charge reading; the verse renders both as folk-options without endorsing.
+- **L9** — *the realtor of houses, of land* gestures at the [@bubba.bosco implied-frame](https://2pizzaclub.com/gallery/) tying Erika Kirk to the [Corcoran Group / 9 East 71st St NDA chain](https://2pizzaclub.com/#y2019). **The site explicitly marks this framing as the heaviest-allegation, unsubstantiated.** The verse gestures; the annotation discloses; the reader supplies.
+- **L10** — [Erika Kirk's post-Kirk podium turn](https://en.wikipedia.org/wiki/Charlie_Kirk_(activist)): she was elected TPUSA CEO **three days** after her husband's death, performed widow speeches at the [Glendale State Farm Stadium memorial](https://en.wikipedia.org/wiki/Charlie_Kirk_(activist)) (Sept 21, 2025, ~100,000 attendance), and has continued at major TPUSA chapters since. *Bible in hand* is literal — every podium turn has featured a Bible held aloft.
+- **L11** — surveillance/performance ambiguity. *The cameras cried back* reads on first pass as audience tears reflected through broadcast; on second pass as the apparatus that's been recording everything since scene iii recording her too.
+- **L12** — *trembling and black* = black mourning gloves at the podium. The doubled *Bible* (L10, L12) underscores the religious-performance register.
+
+---
+
+## Scenes vii–viii (still to draft)
+
 - **vii. the man and the dog** — [John McAfee](https://2pizzaclub.com/#y2021-surfside) dead Spanish cell June 23 2021; Caramelo shot in Belize GSU raid April 30 2012; the 2019 *"WHACKD"* Cuba tweet; the [31TB dead-man's-switch](https://www.snopes.com/fact-check/mcafee-tweet-31tb/); the **Q** posted to his Instagram hours before death.
 - **viii. the suicides** — Chris Cornell (May 18 2017, Detroit); Chester Bennington (July 20 2017, *on Cornell's birthday*); Tim "Avicii" Bergling (April 20 2018, Muscat); Anthony Bourdain (June 8 2018, Kaysersberg); the [rumored *Silent Children* documentary](https://2pizzaclub.com/#y2017-bennington); the [FBI 2007 pedophile-symbols bulletin](https://2pizzaclub.com/#y2017-bennington). *Reptilian/Icke thread folds into ix–x as the AI-incarnation, not closed here.*
 
