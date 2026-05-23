@@ -1,0 +1,66 @@
+{
+    "id": "1999-clinton-body-count-reel-001",
+    "anchor": "y2019",
+    "year": 1999,
+    "era": "iii",
+    "themes": [
+        "clinton",
+        "body-count",
+        "journalism"
+    ],
+    "claim": "An Instagram reel posted in March 2026 by @fromhustle2homestead recirculates the long-running \"Clinton body count\" thesis — that a chain of suspicious deaths surrounding Bill and Hillary Clinton between 1993 and 2017 represents evidence of foul play. The reel lists eight names. Each named death is a verifiable real event; the reel's specific framings, however, are contested or inverted by the established record: (1) John F. Kennedy Jr. died with his wife Carolyn Bessette-Kennedy and her sister Lauren Bessette in a Piper Saratoga crash off Martha's Vineyard on July 16, 1999. NTSB attributed the crash to spatial disorientation while descending over water at night. He had not declared his candidacy for U.S. Senate; Hillary Clinton, however, had formed her exploratory committee nine days earlier (July 7, 1999) and went on to win the seat in November 2000. (2) Mary Caitrin Mahoney, a former White House intern, was killed alongside two other employees — Emory Evans (25) and Aaron Goodrich (18) — in the July 6, 1997 Georgetown Starbucks triple murder. Carl Derek Cooper was convicted in 2000 and sentenced to life without parole; he confessed to casing the store for an armed robbery. Mahoney is not in any public record of Clinton-impeachment witnesses; the impeachment proceedings began in 1998, after her death. (3) White House Deputy Counsel Vincent Foster was found dead in Fort Marcy Park on July 20, 1993; five separate investigations (Park Police, Fiske, Senate Banking, Senate, and Ken Starr) concluded suicide. The bullet from Foster's death was recovered by Park Police on the day of death. (4) James McDougal — Susan McDougal's husband and a central Whitewater figure — died of a heart attack on March 8, 1998 at the Fort Worth Federal Medical Center while serving a three-year sentence for fraud. He had been a cooperating witness for Ken Starr's Office of Independent Counsel against the Clintons, not a \"key witness for White House prosecutors.\" (5) Walter Scheib, the executive White House chef hired under Bill Clinton (1994-2005), died on a solo hike in the Pecos Wilderness, New Mexico, in June 2015. His body was recovered 1.5 miles from where he was last seen; the Office of the Medical Investigator ruled the death an accidental drowning consistent with a hiking fall into a flooded stream. (6) Seth Rich, a 27-year-old Democratic National Committee staffer, was shot in the back during a botched robbery in Washington D.C. on July 10, 2016. DC police identified no political motive; Fox News retracted its May 2017 story linking him to the DNC email leak; the Mueller indictment of GRU officers identified Russian military intelligence as the source. (7) Shawn Lucas, a 38-year-old process server who delivered the complaint in a class-action suit against the DNC, was found dead in his Washington-area home on August 2, 2016; the medical examiner ruled accidental — combined drug toxicity (cyclobenzaprine, fentanyl, hydrocodone). The lead attorney in the case was Jared Beck; Lucas was the process server. None of the eight names listed in the reel appear anywhere in this site's local mirror of the released DOJ Epstein-files corpus (4,333 documents searched by word boundary, May 22, 2026).",
+    "sources": [
+        {
+            "label": "Wikipedia — 1999 Martha's Vineyard plane crash (NTSB findings).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/1999_Martha%27s_Vineyard_plane_crash"
+        },
+        {
+            "label": "CNN — \"Hillary Clinton files 'statement of candidacy' for Senate,\" October 8, 1999.",
+            "type": "primary",
+            "url": "https://www.cnn.com/ALLPOLITICS/stories/1999/10/08/hrc.candidacy/"
+        },
+        {
+            "label": "Wikipedia — Starbucks murders.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Starbucks_murders"
+        },
+        {
+            "label": "Washington Post — \"3 Employees Killed at D.C. Starbucks,\" July 8, 1997.",
+            "type": "primary",
+            "url": "https://www.washingtonpost.com/archive/politics/1997/07/08/3-employees-killed-at-dc-starbucks/7937f5fa-5c5a-4b47-8dd9-4c94288740f8/"
+        },
+        {
+            "label": "Wikipedia — Death of Vince Foster (covers the five investigations).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Death_of_Vince_Foster"
+        },
+        {
+            "label": "Wikipedia — James McDougal.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/James_McDougal"
+        },
+        {
+            "label": "Wikipedia — Walter Scheib (executive WH chef; June 2015 hiking death).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Walter_Scheib"
+        },
+        {
+            "label": "Wikipedia — Murder of Seth Rich (includes Fox News retraction).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Murder_of_Seth_Rich"
+        },
+        {
+            "label": "U.S. Department of Justice — \"GRU Officers Indicted for Hacking the 2016 U.S. Election\" (Mueller, July 13, 2018) — identifies Russian military intelligence as the source of the leaked DNC emails.",
+            "type": "primary",
+            "url": "https://www.justice.gov/file/1080281/download"
+        },
+        {
+            "label": "Ingestion record — capture DVsDhrDjEtY (Instagram reel, @fromhustle2homestead).",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DVsDhrDjEtY/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group-B record: each death is real and verifiable; each framing the reel attaches is contested or inverted by the official investigatory record. Mahoney was not an impeachment witness (the impeachment was post-mortem). Foster's bullet WAS recovered. McDougal was a Starr-OIC cooperator against the Clintons, not a White House witness. Scheib's death was a hiking fall ruled accidental drowning. Rich's case is the most-litigated of the bunch — Fox News retracted, GRU was indicted. The reel mis-attributes \"James Adoule\" (likely whisper mishearing of McDougal) and \"Walter Schide\" (Scheib). Anchor parked at y2019 (Clinton/Epstein-network cluster); year=1999 matches the headline death (JFK Jr.) the reel leads with. Corpus check (May 22 2026) shows zero hits across all 8 names in the local 4,333-doc Epstein-files mirror — these allegations predate and are unrelated to the EFTA release."
+}
