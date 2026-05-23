@@ -23,7 +23,7 @@ The child learns these and refuses them. The book the reader holds is her tellin
 
 | # | Title | Function | Object |
 |---|---|---|---|
-| 1 | **the children** | the premise — children vanish across history; child-witness introduced; refrain sealed | a small empty shoe |
+| 1 | **the room** | the premise — child-witness in her room, mirror activates, refrain sealed | a small empty shoe |
 | 2 | **the maxwells** | the procurer (specific actor) | a small silver camera |
 | 3 | **the island** | the destination (specific place) | a small golden key |
 | 4 | **the clintons** | the protected orbit (specific elite class) | a small painted portrait |
@@ -33,27 +33,32 @@ The child learns these and refuses them. The book the reader holds is her tellin
 
 ---
 
-## 1. the children
+## 1. the room
 
-> *Long, long ago, when the world was still new,*
-> *the children would vanish — sometimes by twos.*
-> *A mother would weep. A father would call.*
-> *The children were gone, past the meadow and wall.*
+> *A child sat alone in a small quiet room,*
+> *with a clock on the mantel and a broom in the gloom.*
+> *On the wall hung a mirror in an old wooden frame —*
+> *and the mirror it knew everyone's name.*
 
-> *Years rolled along, and the world kept its turn.*
-> *The children kept vanishing. Small candles burned.*
-> *And nobody asked where the children had gone —*
-> *and the mirror in the room of one small girl shone on.*
+> *The mirror grew foggy. The mirror grew bright.*
+> *It opened its glass to a far candlelight.*
+> *"Hush," said the mirror. "Hush, little child.*
+> *Step into the dark. See who's beguiled."*
 
-> *The mirror grew bright. The mirror grew low.*
-> *It showed her a kitchen, a candle aglow.*
-> *"Hush," said the mirror. "Look closely, my dear.*
-> *Someone's eating babies. The story is here."*
+> *She crossed through the frame, past the statehouses, banks,*
+> *past presidents, senators, the courts and their ranks.*
+> *Past temples and altars and back-doored machines,*
+> *past Jerusalem's secrets — and Washington's screens.*
 
-- **L1–4** — establishes the historical pattern: children have vanished across centuries. Generic, mythic register. *Past the meadow and wall* = the children gone *beyond* the visible world.
-- **L5–8** — the pattern persists across time. *Small candles burned* = candles of memorial, of vigil. *The mirror in the room of one small girl shone on* — introduces the child witness. She has been here, watching.
-- **L9–10** — the mirror activates. *Soft candlelight* + *kitchen* loads the [Pizzagate / adrenochrome](https://en.wikipedia.org/wiki/Pizzagate_conspiracy_theory) folk-mythology layer from the original opener.
-- **L11–12** — the refrain debut. *Look closely, my dear* invites the reader. *The story is here* = the meta-claim: this book IS the story.
+> *And under the noise of the world's great affairs,*
+> *small mouths in small rooms, small hands on the stairs.*
+> *Small bodies, small bones, small breath in small beds —*
+> *Someone's eating babies, the old mirror said.*
+
+- **L1–4** — the room. The child-witness is introduced sitting alone with two ordinary nursery-room objects (clock, broom) and the scrying device (mirror in old wooden frame). *The mirror it knew everyone's name* — the device's omniscience is the load-bearing claim; it is what allows scenes 2–6 to be *what the mirror shows her*. Mirror-scrying is the cross-traditional anchor (catoptromancy in Greek/Roman practice; *Mirror, mirror* in the Grimm corpus; Snow White's queen; the obsidian mirror in Aztec Tezcatlipoca cult; John Dee's black mirror) — the book does not name any of these, but the figure carries them.
+- **L5–8** — the mirror activates. *Foggy* + *bright* is the scrying-glass coming alive. *Far candlelight* = the kitchen-table soft-candle load that the previous draft made explicit, now compressed into a single image and held at distance. *"Hush, little child"* mirrors the lullaby register (*Hush, little baby, don't say a word*) and inverts it — instead of being soothed to sleep, the child is invited into the dark. *See who's beguiled* names the spell-state the book will catalogue across scenes 2–6: each scene is a beguilement, an open door, a soul that gave its assent.
+- **L9–12** — the foreshadow montage. The mirror sweeps the geography of the beguilement before showing any single scene. *Statehouses* + *banks* anchor the regulatory and financial capture: the [27 US state anti-BDS laws](https://www.aclu.org/issues/free-speech/rights-protesters/anti-boycott-bills) Robert Steele names directly (`sources/captures/DSkvtpnjtDQ`), JPMorgan's [$290M Epstein settlement (2023)](https://www.reuters.com/legal/jpmorgan-reach-290-mln-settlement-with-jeffrey-epstein-accusers-2023-06-12/), Deutsche Bank's [$75M (2022)](https://www.reuters.com/legal/deutsche-bank-pays-75-mln-settle-claims-it-aided-jeffrey-epsteins-sex-trafficking-2022-05-18/), and the Bear Stearns "sheep-dip" placement Steele describes. *Presidents* = Clinton (~26 Lolita Express trips) + Trump (the Mar-a-Lago overlap, the 1992 NBC tape, multiple [black-book](https://www.epsteininvestigation.org/guides/epstein-black-book-explained) entries) — and per Steele the operation was taken "up to the presidential level". *Senators* = the named figures in the black book + the legislators who passed the anti-BDS bills. *The courts and their ranks* = [Acosta non-prosecution agreement (2008)](https://en.wikipedia.org/wiki/Alexander_Acosta), [Berman SDNY firing (2020)](https://en.wikipedia.org/wiki/Geoffrey_Berman), the [cell-suicide](https://en.wikipedia.org/wiki/Death_of_Jeffrey_Epstein), and Steele's claim that "all of them" — the 50 Mossad pedophilia entrapment operations he names — are "protected by the FBI". *Temples and altars and back-doored machines* foreshadows scenes 3 (the temple), 5/6 (the altars), and the appendix scene *the small doors* ([PROMIS](https://en.wikipedia.org/wiki/Inslaw), per Steele the prototype of "blackmail for back-door computer access"). *Jerusalem's secrets — and Washington's screens* is the central diptych of the book's argument: foreign-intelligence source of the kompromat (Mossad — the [Mount of Olives funeral](https://www.washingtonpost.com/archive/politics/1991/11/11/israel-gives-maxwell-farewell-fit-for-hero/1773995a-0eac-4a3e-abed-1d3254cc0baa/), [PROMIS](https://en.wikipedia.org/wiki/Inslaw), [Samson Option](https://en.wikipedia.org/wiki/The_Samson_Option), [Vanunu](https://en.wikipedia.org/wiki/Mordechai_Vanunu)) and the captured American politics (FBI/CIA non-prosecution, the surveillance screens, the back-doored computers, the data-center of scene 6).
+- **L13–16** — contraction to the intimate horror, and the refrain. *Under the noise of the world's great affairs* = the geopolitical cover that buries the dossier — Steele: *"the media today is not covering"*. *Small mouths in small rooms, small hands on the stairs* contracts the lens from the global sweep to the trafficking architecture proper. *Stairs* lifts from Mother Goose's *Goosey Goosey Gander* (*Upstairs, downstairs, and in my lady's chamber*) and lands on the staircase at Maxwell's London house where the [2001 Andrew / Virginia Giuffre photograph](https://en.wikipedia.org/wiki/Virginia_Giuffre) was taken. *Small bodies, small bones, small breath in small beds* — four contractions of the trafficked child. *Small bones* = scene 5 forecast (the [Tophet](https://en.wikipedia.org/wiki/Tophet), the charred infant bones at Carthage). *Small breath* = the sigh that becomes the entity's permission #4 in scene 7 (interior assent — Sethian Gnostic [*Apocryphon of John*](https://en.wikipedia.org/wiki/Apocryphon_of_John) breath, Christian deliverance's "open doors"). *Someone's eating babies, the old mirror said* — the refrain debut. *Old* (not *soft*) flags the mirror's continuity with the *long, long ago* of scene 5: the same device that watched Carthage.
 
 > *And the mirror went still. And the mirror went grey.*
 > *A small empty shoe lay at her feet at the dawn of the day.*
@@ -62,27 +67,27 @@ The child learns these and refuses them. The book the reader holds is her tellin
 
 ## 2. the maxwells
 
-> *On a hill in Jerusalem a man went to sleep*
+> *They sped to a hill where a man went to sleep*
 > *in a tomb of pale stone that was windy and steep.*
-> *Six men in long dark coats stood by him to weep —*
+> *Six men in dark coats stood by him to weep —*
 > *six men whose old debts to the dead man ran deep.*
 
 > *His daughter went diving in a small silver sub,*
 > *down past the seaweed, down through the scrub.*
-> *She counted the children, she wrote down their names,*
-> *and she grinned at the cameras tucked into the frames.*
+> *She counted the children. She logged every name.*
+> *And cameras in mirrors caught faces in frame.*
 
 > *She brought them in pairs to the parties she'd planned,*
 > *each little girl holding another girl's hand.*
 > *She knew all the parties. She knew all the rooms.*
 > *She knew which had cried. She knew which one she'd groom.*
 
-- **L1–2** — [Robert Maxwell](https://en.wikipedia.org/wiki/Robert_Maxwell), British media baron and father of Ghislaine, drowned off his yacht the *Lady Ghislaine* on **November 5, 1991**, and was buried on the [Mount of Olives](https://www.washingtonpost.com/archive/politics/1991/11/11/israel-gives-maxwell-farewell-fit-for-hero/1773995a-0eac-4a3e-abed-1d3254cc0baa/) — one of Judaism's most sacred burial sites — on **November 10, 1991**. The Mount of Olives is limestone; *pale stone* is literal.
+- **L1–2** — *They sped to a hill* is the mirror's transport — the child and the reader are pulled to the burial site. The site is [Robert Maxwell](https://en.wikipedia.org/wiki/Robert_Maxwell)'s tomb on the [Mount of Olives](https://www.washingtonpost.com/archive/politics/1991/11/11/israel-gives-maxwell-farewell-fit-for-hero/1773995a-0eac-4a3e-abed-1d3254cc0baa/) — Maxwell drowned off his yacht the *Lady Ghislaine* on **November 5, 1991**, and was buried there — one of Judaism's most sacred burial sites — on **November 10, 1991**. The Mount of Olives is limestone; *pale stone* is literal. The place is left unnamed in the verse so the image lands first; the reader who knows the dossier sees Jerusalem, the reader who doesn't sees a hill.
 - **L3** — per [Gordon Thomas, *Gideon's Spies*](https://en.wikipedia.org/wiki/Robert_Maxwell) and corroborating press, **six serving and former heads of Israeli intelligence** attended. The wider published roster includes PM Yitzhak Shamir, President Chaim Herzog, Shimon Peres, and Natan Sharansky; the six intelligence figures are the buried-headline.
 - **L4** — *Old debts to the dead man ran deep* anchors the Maxwell–Israel-intelligence relationship: per Thomas and [Seymour Hersh's *The Samson Option*](https://en.wikipedia.org/wiki/The_Samson_Option), Maxwell brokered the back-doored [PROMIS software](https://en.wikipedia.org/wiki/Inslaw) for Mossad use, tipped Israeli intelligence on the [Vanunu leak](https://en.wikipedia.org/wiki/Mordechai_Vanunu) in 1986, and ran cross-border currency operations.
 - **L5–6** — [Ghislaine Maxwell](https://en.wikipedia.org/wiki/Ghislaine_Maxwell) was a [licensed submersible pilot](https://www.nytimes.com/2020/07/02/nyregion/ghislaine-maxwell-arrested-jeffrey-epstein.html), trained on the **Triton 1000-2** deep-sea sub Epstein owned at Little St James.
-- **L7** — [Maxwell was convicted](https://en.wikipedia.org/wiki/Trial_of_Ghislaine_Maxwell) in December 2021 on **five of six federal counts** including sex trafficking of a minor; sentenced to **20 years** in June 2022.
-- **L8** — *cameras tucked into the frames* picks up the surveillance/blackmail beat: per [Maria Farmer's testimony](https://en.wikipedia.org/wiki/Virginia_Giuffre), Sarah Ransome's published account, and the [FBI CHS memo EFTA00090314](https://www.justice.gov/epstein/files/DataSet%209/EFTA00090314.pdf), Epstein's properties were laced with surveillance.
+- **L7** — [Maxwell was convicted](https://en.wikipedia.org/wiki/Trial_of_Ghislaine_Maxwell) in December 2021 on **five of six federal counts** including sex trafficking of a minor; sentenced to **20 years** in June 2022. *She logged every name* tightens the language to compress her bookkeeping role.
+- **L8** — *Cameras in mirrors caught faces in frame* picks up the surveillance/blackmail beat and threads back to scene 1's mirror: per [Maria Farmer's testimony](https://en.wikipedia.org/wiki/Virginia_Giuffre), Sarah Ransome's published account, and the [FBI CHS memo EFTA00090314](https://www.justice.gov/epstein/files/DataSet%209/EFTA00090314.pdf), Epstein's properties were laced with surveillance — including two-way mirrors with cameras documented in the Palm Beach house. The device of scene 1 (the mirror that knew everyone's name) reappears here as the literal blackmail apparatus.
 - **L9** — *brought them in pairs* + *parties she'd planned*: Maxwell's [convicted](https://en.wikipedia.org/wiki/Trial_of_Ghislaine_Maxwell) recruitment pattern. Trial testimony documented the paired-procurement protocol.
 - **L10** — the pair-supports-pair visual. The famous 2001 [Prince Andrew / Virginia Giuffre photograph](https://en.wikipedia.org/wiki/Virginia_Giuffre) at Maxwell's London house is exactly this configuration.
 - **L11** — anchor line. Maxwell ran the calendars, the address books, the property staff schedules.
@@ -100,15 +105,15 @@ The child learns these and refuses them. The book the reader holds is her tellin
 > *A plane slid in low with no lights and no name,*
 > *and the children stepped down through the runway and flame.*
 
-> *An old man was counting and keeping a list.*
-> *An old man was smiling. An old man insisted —*
+> *An old man was waiting. An old man kept score.*
+> *An old man was smiling and asking for more —*
 > *"Just one little party. Just one little dance.*
-> *Just one little gift. Just one little chance."*
+> *Just one little gift. For a really great chance."*
 
 > *The plane took off with no children on board.*
-> *The children walked under the dome and the door.*
+> *The dome of the temple yawned open: a door.*
 > *And nobody saw them. And nobody came.*
-> *And the temple is standing. The temple's the same.*
+> *The temple still stands. The silence the same.*
 
 - **L1** — [Little Saint James](https://en.wikipedia.org/wiki/Little_Saint_James), Epstein's **70-acre** island in the U.S. Virgin Islands.
 - **L2** — the famous [structure on the island](https://www.nbcnews.com/news/us-news/jeffrey-epstein-s-bizarre-blue-striped-building-private-island-raised-n1037511): a white cube with **eight large blue stripes**, capped with a **gold dome** (added between July 2013 and March 2014; blown off in Hurricane Maria, September 2017). Officially a "music pavilion."
@@ -116,8 +121,8 @@ The child learns these and refuses them. The book the reader holds is her tellin
 - **L4** — atmospheric/figural; *flame* lands the jet-wash + Hell-mouth undertone.
 - **L5–6** — Epstein's [little black book](https://www.epsteininvestigation.org/guides/epstein-black-book-explained): **97 pages, 1,500+ names**. His Palm Beach houseman [Alfredo Rodriguez](https://www.yahoo.com/news/articles/epstein-butler-tried-sell-little-151605928.html) tried to sell it to an undercover FBI agent for $50,000 in 2009.
 - **L7–8** — the grooming language. [Maxwell was convicted](https://en.wikipedia.org/wiki/Trial_of_Ghislaine_Maxwell) of recruiting minors under exactly this framing.
-- **L9–10** — the visual inversion: planes arrive full, leave empty; children enter the temple.
-- **L11–12** — present-tense persistence. The dome was blown off in Hurricane Maria; the structure remains. The island was [sold for $60 million in May 2023](https://en.wikipedia.org/wiki/Little_Saint_James).
+- **L9–10** — the visual inversion: planes arrive full, leave empty. *The dome of the temple yawned open: a door* makes the temple itself the maw — the gold dome (added 2013–2014, blown off in Hurricane Maria, September 2017) reframed as a mouth.
+- **L11–12** — present-tense persistence. The dome was blown off in Hurricane Maria; the structure remains. The island was [sold for $60 million in May 2023](https://en.wikipedia.org/wiki/Little_Saint_James). *The silence the same* lands the editorial register flat — no rescue, no consequence, no closure of the file.
 
 > *And the mirror went still. And the mirror went grey.*
 > *A small golden key lay at her feet at the dawn of the day.*
@@ -237,8 +242,55 @@ The child learns these and refuses them. The book the reader holds is her tellin
 - **L5–8** — the child names what the entity wanted, each pair mapping to a permission-condition from the cross-tradition research: *name* (the name spoken, per grimoire + Crowley + Exodus), *sigh* (interior assent / breath, per Gnostic *Apocryphon of John*), *mark* (the mark accepted, per Revelation + Crowley sigils), *vow* (the oath sworn, per Sinai + Faust + Goetia pacts), *offering* (the offering given, per Tophet + Leviticus), *bow* (threshold-crossing submission, per Slavic vampire folklore + Briggs's fairies + Derek Prince).
 - **L9–10** — the refusal. *No name, no mark, no oath* = explicit refusal of the load-bearing permissions across traditions. *I keep my own dark* = she retains her interior — the assent she will not give.
 - **L11** — the mirror dies. The entity loses its hold. Donaldson's *bog-covered animals scare the dragon* moment — the burden becomes the salvation.
-- **L12** — meta-reveal. *She opened her mouth — and you heard it begin* — the book the reader is closing IS the child's telling. The first words of the book (*Long, long ago, when the world was still new*) are her words, just spoken. The book loops to its own beginning.
+- **L12** — meta-reveal. *She opened her mouth — and you heard it begin* — the book the reader is closing IS the child's telling. The first words of the book (*A child sat alone in a small quiet room*) are her words, just spoken — third-person because she is telling her own story from outside it, the way fairy tales do. The book loops to its own beginning.
 
 ---
 
 *Working notes preserved in git history. Prior drafts of scenes that have been dropped (the agent / the lavalier / the man and the dog / the suicides) and parked drafts (the stargate / the seed) live in commit ca7ef63 and earlier — recoverable via `git show ca7ef63:drafts/children_story_1.md`.*
+
+---
+
+## Appendix — proposed scene: the small doors
+
+**Status:** drafted, not yet wired into `eating/index.html`. Would slot between current scene **5 (the old altar)** and current scene **6 (the new altar)**, renumbering subsequent scenes (new altar → 7, the telling → 8). Function: the bridge between the ancient mechanism (bronze altar, Baal/Moloch) and the modern mechanism (the brass mill, the data center). Names the specific 1980s — early 1990s engineering moment — the back-doored software, the surveillance-state distribution channel, the journalist killed for chasing it — that made the modern altar materially possible. The dark thing of scene 5 reaches into every wall through this scene; in scene 6 it arrives in the desert as the small thing inside the mill.
+
+### 6. the small doors
+
+> *Past a hill in Jerusalem the dead man slept deep.*
+> *Round his tomb stood the six men with old debts to keep.*
+> *Once living, he made — on his yacht, on his ship —*
+> *Many small things with hidden doors that could slip.*
+
+> *Inside each small thing, a small key for his hand.*
+> *Sold to banks and to states near and far in the land.*
+> *Through the door he could read every list and each name.*
+> *He watched while they slept. He saw it all the same.*
+
+> *Each lock had no lock. Each wall was a door.*
+> *Only the dead man could come through the floor.*
+> *Came a young man named Danny with notes for a book.*
+> *To his brother he said, "If I die, do not look."*
+
+> *Open they found him. The bathwater red.*
+> *Pages all missing. The book left for dead.*
+> *Under our floors, under all of our walls,*
+> *Stand the doors of the dead man. No lock at all.*
+
+**Acrostic.** The 16 line-initial letters read top-to-bottom spell **PROMIS THE OCTOPUS** — the case-management software (PROMIS) stolen from Inslaw and back-doored, and the title of Danny Casolaro's unpublished book (*The Octopus*) — concealed in plain sight, never announced.
+
+- **L1–4 (PROM-)** — Robert Maxwell as *the dead man* of scene 2, here in flashback. *Past a hill in Jerusalem* / *round his tomb stood the six men* are direct callbacks to scene 2's opening stanza (the Mount of Olives funeral, the six Israeli intelligence chiefs). *On his yacht, on his ship* anchors his death aboard the *Lady Ghislaine* off the Canaries, Nov 5, 1991. *Many small things with hidden doors that could slip* = the back-doored [PROMIS software](https://en.wikipedia.org/wiki/Inslaw) — per [Seymour Hersh's *The Samson Option*](https://en.wikipedia.org/wiki/The_Samson_Option) and Gordon Thomas's *Gideon's Spies*, Maxwell was the principal distribution channel for the Mossad-modified version. The "small things" diction is held over from scene 2 (*small silver sub*, *cameras tucked into the frames*) and reaches forward to scene 6 (*small portraits*, *small voices*, *small hands*).
+- **L5–8 (-IS / TH-)** — *Inside each small thing, a small key for his hand* = the literal back door — a master access path retained by the distributor. *Sold to banks and to states* = the documented PROMIS distribution: per the [Brooks Report (1992)](https://www.govinfo.gov/content/pkg/CRPT-102hrpt857/pdf/CRPT-102hrpt857.pdf) and subsequent Inslaw filings, the software was placed in foreign intelligence services, finance ministries, and major banks. *Read every list and each name* = the surveillance return-channel; case-management software stores rosters of subjects, dates, case notes — exactly the database content an operator would harvest. *He watched while they slept* keeps the operator-as-watcher figure invariant across scenes (echoes scene 1's *the mirror knew everyone's name*).
+- **L9–10 (EO)** — *Each lock had no lock. Each wall was a door.* The mechanism universalized. *Only the dead man could come through the floor* — the master-key holder. This couplet is the load-bearing transition into the modern altar: every barrier is already breached, by the time scene 7 opens *today in the desert*.
+- **L11–12 (CT)** — [Daniel Casolaro](https://en.wikipedia.org/wiki/Danny_Casolaro), 44, freelance investigative journalist, working on a book titled *The Octopus* — the network connecting Inslaw / PROMIS, Iran-Contra, October Surprise, and BCCI. *To his brother he said, "If I die, do not look."* — compression of Casolaro's verbatim statement to his brother Anthony in the days before the trip: *"if anything happens to me on this trip, it won't be an accident."* The cryptic *do not look* carries the deliberate double reading: don't accept the cover, *and* don't look away.
+- **L13–16 (OPUS)** — Casolaro found Aug 10, 1991, in a Sheraton Hotel bathtub in Martinsburg, West Virginia, wrists slashed 10–12 times. Ruled suicide; the briefcase reportedly carrying his Octopus notes was missing from the room. The [House Judiciary Brooks Report (Sept 1992)](https://www.govinfo.gov/content/pkg/CRPT-102hrpt857/pdf/CRPT-102hrpt857.pdf) concluded his investigation merited further inquiry; no federal investigation of his death was opened. *Under our floors, under all of our walls / stand the doors of the dead man. No lock at all* — present tense; the back doors of the 1980s are the substrate the modern altar (scene 7) sits on.
+
+> *And the mirror went still. And the mirror went grey.*
+> *A small empty notebook lay at her feet at the dawn of the day.*
+
+**Object:** *a small empty notebook* — Casolaro's missing manuscript, the testimony killed alongside him. Joins the inventory the child carries to scene 8.
+
+**Knock-on changes if accepted:**
+- Scene roster grows to **7 + telling**. Counters in `eating/index.html` go from `i/vii` to `i/viii` across all scenes.
+- Scene 8 (the telling) opening stanza updates to *seven things* with the notebook added: `a portrait, a bone, a small notebook, a chip`.
+- The six-permissions refusal (name / sigh / mark / vow / offering / bow) **does not change** — the back door isn't a separate theological permission; it's the *mechanism* by which the entity exploits permission #4 (interior assent / forgetting / Christian-deliverance "open doors") at scale.
+- Character consistency commitment: Maxwell is **the dead man** wherever he appears (scenes 2, 6); the epithet does not vary.
