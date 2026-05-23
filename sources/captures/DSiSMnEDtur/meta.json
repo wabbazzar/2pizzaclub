@@ -1,0 +1,40 @@
+{
+    "id": "DSiSMnEDtur",
+    "url": "https://www.instagram.com/reel/DSiSMnEDtur/",
+    "platform": "instagram",
+    "captured_at": "2026-05-23",
+    "handle": "@trueearth911",
+    "author_display_name": "Jack Maclean",
+    "posted_at": "2025-12-21",
+    "engagement": {
+        "likes": 627000,
+        "comments": 6548
+    },
+    "caption": "baron trump time traveler? listen closely... \n#timetravel #trump #barontrump",
+    "hashtags": [
+        "timetravel",
+        "trump",
+        "barontrump"
+    ],
+    "audio_track_actual": "Young male voice, selfie-style direct-address, urgent register, no music bed. Speaker references his own notes throughout.",
+    "video_overlay_text_observed": "Selfie-style head-and-shoulders framing of the speaker against a brick wall, indoors. Burned-in caption frame above the video reads \"KID GOES MISSING AFTER DROPPING TRUTH ON TRUMP FAMILY AND ELON MUSK\" with a \"TRUE EARTHER 911 / WAKE UP SHEEPLE\" channel banner at the bottom. No primary-source document overlays.",
+    "audio_content_summary": "The speaker proposes that Ingersoll Lockwood's 1889-1896 Baron-Trump book series and his separate 1896 novel '1900: or; The Last President' predicted the Donald J. Trump presidency, that Lockwood's authorship coincided with Nikola Tesla's time-travel work because they lived on the same street, and that John G. Trump (Donald Trump's uncle) was sent with the CIA to collect Tesla's blueprints when Tesla died in 1943. He then extends the narrative to Wernher von Braun's 'Project Mars' novel containing a character named 'Elon,' framing the chain Trump-Tesla-von Braun-Musk as evidence the present is a simulation.",
+    "implied_frame": "The video's editorial proposition is the simulation/time-travel reading: a chain of name-coincidences (Baron Trump as a fictional character; the Elon character in von Braun's manuscript) plus a real historical fact (John G. Trump's 1943 inspection of Tesla's papers) presented as evidence of predictive authorship across centuries. Three of the four named artifacts are genuine and verifiable: (1) Lockwood's two Baron Trump children's novels (1889, 1893) and his separate dystopian 1896 work '1900: or; The Last President' all exist; (2) John G. Trump did inspect Tesla's papers under Office of Alien Property custody in January 1943 — but his classified report concluded the papers had no military value, the inspection was OAP/FBI not CIA (the CIA was not created until 1947), and Tesla died in his hotel room as the official record reflects; (3) Wernher von Braun's manuscript does feature a Martian leader named 'Elon,' but the English-language novel containing that character was not published until 2006 — the 1953 publication was the technical-appendix-only 'The Mars Project,' so the implied prediction was not in print during Musk's early life. The reel's further claims — that the Baron Trump books form a unified trilogy with The Last President, that Lockwood lived on the same street as Tesla, and that von Braun founded NASA — are inaccurate. Three evidence records document the actual existence and content of each of the three real underlying artifacts.",
+    "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
+    "video_download_status": "Captured: ~35 MB, vp9 720x1280, 176s.",
+    "audio_transcription_status": "Transcribed with openai-whisper base.en.",
+    "evidence_records": [
+        "1889-lockwood-baron-trump-001",
+        "1943-tesla-john-g-trump-001",
+        "1953-von-braun-mars-elon-001"
+    ],
+    "supporting_research_links": [
+        "https://en.wikipedia.org/wiki/Baron_Trump_novels",
+        "https://en.wikipedia.org/wiki/Ingersoll_Lockwood",
+        "https://www.history.com/articles/nikola-tesla-files-declassified-fbi",
+        "https://www.muckrock.com/news/archives/2018/mar/19/fbi-tesla-ii/",
+        "https://en.wikipedia.org/wiki/John_G._Trump",
+        "https://en.wikipedia.org/wiki/Project_Mars:_A_Technical_Tale",
+        "https://www.snopes.com/news/2025/02/04/musk-leader-mars/"
+    ]
+}

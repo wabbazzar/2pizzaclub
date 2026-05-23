@@ -1,0 +1,38 @@
+{
+    "id": "1943-tesla-john-g-trump-001",
+    "anchor": "y1944",
+    "year": 1943,
+    "era": "ii",
+    "themes": [
+        "trump",
+        "intelligence",
+        "fbi",
+        "war",
+        "ai"
+    ],
+    "claim": "Inventor Nikola Tesla died on January 7, 1943, in Room 3327 of the Hotel New Yorker in Manhattan. The following day, with World War II at its height, the U.S. Office of Alien Property took possession of Tesla's personal effects, papers, and laboratory notes from the hotel. Three weeks later, the Federal Bureau of Investigation called in John George Trump — a Massachusetts Institute of Technology electrical engineer, then director of the British branch of MIT's Radiation Laboratory, and Donald J. Trump's paternal uncle — to evaluate whether anything in the Tesla materials posed a wartime national-security risk. After three days of review (January 26-28, 1943), John G. Trump filed a classified report to the Office of Alien Property Custodian concluding that Tesla's writings from his last 15 years were \"primarily of a speculative, philosophical, and somewhat promotional character\" and that they presented neither military value to the United States nor a hazard in unfriendly hands. The FBI released a catalog of the seized Tesla writings via FOIA in 2018.",
+    "sources": [
+        {
+            "label": "History.com — \"The Mystery of Nikola Tesla's Missing Files.\"",
+            "type": "secondary",
+            "url": "https://www.history.com/articles/nikola-tesla-files-declassified-fbi"
+        },
+        {
+            "label": "MuckRock — \"FBI releases catalog of Nikola Tesla's writings seized after his death,\" March 19, 2018.",
+            "type": "primary",
+            "url": "https://www.muckrock.com/news/archives/2018/mar/19/fbi-tesla-ii/"
+        },
+        {
+            "label": "Wikipedia — John G. Trump.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/John_G._Trump"
+        },
+        {
+            "label": "PBS — \"Tesla: Master of Lightning — The Missing Papers.\"",
+            "type": "secondary",
+            "url": "https://www.pbs.org/tesla/ll/ll_mispapers.html"
+        }
+    ],
+    "status": "verified",
+    "notes": "Anchor parked at y1944 (closest existing era-II chapter) until/unless a dedicated y1943-tesla anchor is added. The factual chain — Tesla's death at the New Yorker, OAP seizure, John G. Trump's three-day inspection, the 'no military value' report — is independently corroborated across History.com, PBS's Tesla documentary research, the Wikipedia entry on John G. Trump, and the 2018 FBI FOIA release of the Tesla-writings catalog. The reel's editorial framing — Trump-as-blood-uncle-CIA-collector and Tesla's-time-travel-blueprints — combines a real fact (the inspection) with a contested claim (that Tesla had working time-travel research, and that the inspection was a CIA operation rather than an OAP/FBI one)."
+}

@@ -1,0 +1,31 @@
+{
+    "id": "1953-von-braun-mars-elon-001",
+    "anchor": "y1953",
+    "year": 1953,
+    "era": "ii",
+    "themes": [
+        "ai",
+        "war",
+        "tech-billionaires"
+    ],
+    "claim": "Wernher von Braun — the German rocket engineer who oversaw the Nazi V-2 program at Peenemünde, was brought to the United States under Operation Paperclip in 1945, and went on to direct NASA's Marshall Space Flight Center and to design the Saturn V Apollo launch vehicle — completed a German-language science-fiction manuscript titled \"Das Marsprojekt\" between 1948 and 1949. Its technical appendix was published in German in 1952 and in English in 1953 as \"The Mars Project,\" widely cited as the first technically rigorous Mars-mission plan. The full novel containing the manuscript's story — in which the head of Martian government, elected by universal suffrage to a five-year term over a ten-member cabinet and a two-chamber legislature, holds the title \"Elon\" — was not published in English until 2006 (Apogee Books, edited by Roger D. Launius) under the title \"Project Mars: A Technical Tale.\" The \"Elon\" character predates Elon Musk's birth (1971) by more than two decades.",
+    "sources": [
+        {
+            "label": "Wikipedia — Project Mars: A Technical Tale.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Project_Mars:_A_Technical_Tale"
+        },
+        {
+            "label": "Snopes — \"Unpacking claim famed rocket scientist 'predicted' in 1953 that Elon Musk would be leader of Mars,\" February 4, 2025.",
+            "type": "secondary",
+            "url": "https://www.snopes.com/news/2025/02/04/musk-leader-mars/"
+        },
+        {
+            "label": "Fox Business — \"'Elon' would lead humans on Mars, legendary rocket scientist Wernher von Braun predicted in 1953 book.\"",
+            "type": "secondary",
+            "url": "https://www.foxbusiness.com/technology/wernher-von-braun-elon-musk-mars-1953-book"
+        }
+    ],
+    "status": "verified",
+    "notes": "Important distinction the @trueearth911 reel collapses: the 1953 publication is the TECHNICAL APPENDIX (rocket-math + mission plan). The novel containing the \"Elon\" character was not published in English until 2006 — though the German manuscript was complete by 1949. So the \"Elon\" name does predate Musk's 1971 birth by more than two decades, but the published English-language \"Elon\" character is contemporaneous with Musk's early SpaceX years, not his birth. The reel's claim that von Braun \"founded NASA\" is incorrect — von Braun directed Marshall Space Flight Center and designed the Saturn V; NASA was created by the 1958 National Aeronautics and Space Act. The record documents only the manuscript / publication history and the Elon-character existence."
+}

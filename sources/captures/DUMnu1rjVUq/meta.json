@@ -1,0 +1,34 @@
+{
+    "id": "DUMnu1rjVUq",
+    "url": "https://www.instagram.com/reel/DUMnu1rjVUq/",
+    "platform": "instagram",
+    "captured_at": "2026-05-23",
+    "handle": null,
+    "author_display_name": "Ian Byington",
+    "posted_at": null,
+    "engagement": null,
+    "caption": "Code Bugs Strate Labs, AlgoRx #america #news #politics #business #2026",
+    "hashtags": [
+        "america",
+        "news",
+        "politics",
+        "business",
+        "2026"
+    ],
+    "audio_track_actual": "Male voice-over narration in a steady, declarative register, no music bed. The audio begins mid-sentence (whisper cut: \"deity, which people would sacrifice their children to\"), suggesting the opening framing is about Baal/Moloch deity-worship cued by the on-screen artwork.",
+    "video_overlay_text_observed": "Opens on a stylized illustration of a horned, child-cradling deity figure (Baal/Moloch iconography) against a red background. Later frames show what appear to be screenshots of document excerpts framed as quotes from the released Epstein files, with chyron-style overlays naming Roger Schank, the Rothschild family, Peggy Siegal, Joshua Finkelstein, Larry Fink/BlackRock, Svetlana, and Maria Farmer. The screenshots are not high enough resolution in the capture to verify their provenance.",
+    "audio_content_summary": "The narrator presents a chain of specific claims framed as readings from the released DOJ Epstein documents: (1) a victim's diary describing forced impregnation and birth for Ghislaine Maxwell and Jeffrey Epstein; (2) Israel is mentioned twice as often as Donald Trump in the new documents; (3) Epstein telling Roger Schank (described as a \"Jewish American academic and hedge fund worker\") that Jews create vast fortunes by manipulating markets, with the line \"let the goyim deal in the real world\"; (4) an Epstein-Rothschild conversation in which Epstein says overthrowing the Ukrainian government would yield great opportunities; (5) the Rothschild family paying Epstein $25 million for certain algorithms; (6) Epstein's August 7 2010 exchange with PR fixer Peggy Siegal in which he says an event will be \"goyim in abundance\" and have \"brilliant wasps from JP Morgan\"; (7) Joshua Finkelstein, described as BlackRock CEO Larry Fink's son, accused by ex-girlfriend Svetlana of not respecting non-Jews and pressuring her to have an abortion; (8) a 2017 Epstein conversation about hiring only those who can prove they are \"genetically Jewish\"; (9) Maria Farmer testimony that she was told a country club was \"a Jewish country club, you're not Jewish, they're not gonna serve you,\" with the line \"their operation was motivated by Jewish supremacy.\"",
+    "implied_frame": "The reel's editorial proposition is that the released Epstein documents reveal both ritual-deity child sacrifice and a coordinated ethno-supremacist financial operation. Direct word-boundary search of this site's local mirror of the released DOJ Epstein-files corpus (4,333 indexed documents at /efta/, including all DataSets 1-12 plus the House Oversight production) does not support the central claims: (a) whole-word \"Baal\" returns 5 hits, all of which are visually verifiable OCR artifacts on Deutsche Bank statement scans and a customer-ID form (the OCR engine reads \"Total\" as \"Baal\" and \"Last name, first\" as \"Baal name, firs\"). No human-authored Baal/Moloch/child-sacrifice reference appears. (b) Trump is mentioned 1,187 times in 376 documents; Israel + Israeli are mentioned 412 times in ~120 documents — Trump is roughly 2.9× MORE frequent than Israel, the opposite of the reel's quantitative claim. (c) Roger Schank does correspond with Epstein in the corpus, but as an AI/education academic (founder of Engines for Education), not a hedge-fund worker, and the actual emails are about Gates Foundation education policy, not the \"goyim deal in the real world\" content the reel attributes. (d) Zero documents contain both \"Rothschild\" and any \"Ukrain*\" form; \"Larry Fink,\" \"Joshua Fink,\" \"genetically Jewish,\" \"Hire Jews,\" \"100% Jewish,\" and \"child sacrifice\" all return zero matches; the corpus's single \"Svetlana\" appears in a Commerzbank wire-transfer schedule unrelated to a BlackRock-son ex-girlfriend narrative; the corpus's single \"Jewish supremacy\" hit is a 2025 forwarded external email circulating a Medium op-ed, not testimony.",
+    "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
+    "video_download_status": "Captured: ~22 MB, vp9 720x1280, 101s.",
+    "audio_transcription_status": "Transcribed with openai-whisper base.en (opening word missing from capture; first sentence begins mid-utterance).",
+    "evidence_records": [
+        "2026-byington-claims-vs-corpus-001"
+    ],
+    "supporting_research_links": [
+        "https://2pizzaclub.com/efta/",
+        "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01286938.pdf",
+        "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01286560.pdf",
+        "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01392673.pdf"
+    ]
+}

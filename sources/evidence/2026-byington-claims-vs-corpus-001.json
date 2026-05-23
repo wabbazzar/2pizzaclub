@@ -1,0 +1,53 @@
+{
+    "id": "2026-byington-claims-vs-corpus-001",
+    "anchor": "y2019",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "journalism",
+        "israel",
+        "trump"
+    ],
+    "claim": "An Instagram reel posted by Ian Byington (Instagram URL https://www.instagram.com/reel/DUMnu1rjVUq/) opens with an image of a horned Baal/Moloch deity and asserts a series of specific claims about what the released Epstein documents contain. Tested against this site's local mirror of the DOJ Epstein-files release (4,333 documents, indexed at /efta/), the reel's central claims fail verification: (1) Whole-word \"Baal\" returns five hits — all of which are optical-character-recognition artifacts from low-quality Deutsche Bank statement scans (the OCR engine read \"Total NSF return item\" and \"Legal name, first\" as \"Baal\"). No human-authored reference to Baal, Moloch, or child-sacrifice deity-worship appears in the corpus. (2) The reel claims \"Israel is mentioned twice as much as Donald Trump in the new documents.\" In the corpus, word-boundary case-insensitive counts give Trump 1,187 mentions across 376 documents versus Israel + Israeli 412 mentions across ~120 documents — Trump is mentioned roughly 2.9× MORE often than Israel, the opposite of the reel's claim. (3) The reel attributes a \"Jews create vast fortunes by manipulating markets… let the goyim deal in the real world\" quote to a conversation between Jeffrey Epstein and Roger Schank, characterized as a \"Jewish American academic and hedge fund worker.\" Schank is a real Epstein correspondent in the corpus, but he was an artificial-intelligence and education researcher (founder of Engines for Education), not a hedge-fund worker; and the actual Schank ↔ Epstein emails in the corpus (HOUSE_OVERSIGHT_030483, _030484, _029901, EFTA01788342) are about Bill & Melinda Gates Foundation education-grant policy and teacher pay, not the quoted content. (4) The reel's Rothschild–Ukraine \"overthrow\" conversation and $25-million-for-algorithms payment do not appear in the corpus: zero documents contain both \"Rothschild\" and any \"Ukrain*\" form. (5) Searches for \"Larry Fink,\" \"Joshua Fink,\" \"Joshua Finkelstein,\" \"100% Jewish,\" \"Hire Jews,\" \"genetically Jewish,\" and \"child sacrifice\" return zero matches. The corpus's only \"Svetlana\" hit is a Commerzbank account holder named in a Deutsche Bank wire-transfer schedule, unrelated to the BlackRock-son narrative the reel asserts. (6) The corpus's single \"Jewish supremacy\" hit (EFTA01652796) is a 2025 forwarded external email circulating a Medium opinion piece by Rima Najjar — not a finding in Epstein's own files.",
+    "sources": [
+        {
+            "label": "Ingestion record — capture DUMnu1rjVUq (Instagram reel, Ian Byington).",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DUMnu1rjVUq/"
+        },
+        {
+            "label": "Local Epstein-files corpus indexed at /efta/ — 4,333 documents from the DOJ Epstein Files Transparency Act release (datasets 1-12 + House Oversight production).",
+            "type": "data",
+            "url": "https://2pizzaclub.com/efta/"
+        },
+        {
+            "label": "Sample Baal-as-OCR-noise: EFTA01286938, page 2 — Deutsche Bank statement service-charges page. Four rows all begin \"Total\" (\"Total NSF return item fees for this statement period,\" same for calendar year, then two Overdraft rows). The OCR engine read the second row's \"Total\" as \"Baal.\" Visible in the page image.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01286938.pdf",
+            "clip": "clips/2026-byington-claims-vs-corpus-001-1.png",
+            "clip_status": "ok-pdftoppm"
+        },
+        {
+            "label": "Sample Baal-as-OCR-noise: EFTA01286560, page 2 — same Deutsche Bank service-charges page template as EFTA01286938 (different account statement). Same \"Total\" → \"Baal\" OCR error on the second row.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01286560.pdf",
+            "clip": "clips/2026-byington-claims-vs-corpus-001-2.png",
+            "clip_status": "ok-pdftoppm"
+        },
+        {
+            "label": "Sample Baal-as-OCR-noise: EFTA01392673, page 1 — Customer Identification Policy / joint-account application form. OCR mis-tokenized field labels (\"Last name, first\" → \"Baal name, firs\"). Visible in the page image.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01392673.pdf",
+            "clip": "clips/2026-byington-claims-vs-corpus-001-3.png",
+            "clip_status": "ok-pdftoppm"
+        },
+        {
+            "label": "Actual Roger-Schank-to-Epstein correspondence in the corpus is about Gates Foundation education policy, not the content the reel attributes — HOUSE_OVERSIGHT_030483 / _030484, Oct 31 2009 email thread.",
+            "type": "primary",
+            "url": null
+        }
+    ],
+    "status": "verified",
+    "notes": "This record exists to publish a viral-claim-vs-record verification — the editorial premise of 2pizzaclub.com. The reel's specific named individuals who DO appear in the corpus appear in DIFFERENT contexts than the reel claims: Schank correspondence is about education, Svetlana is a banking account holder, Maria Farmer is named in a third-party tip-style document (EFTA01652971) rather than testimony. The reel's central deity-worship/child-sacrifice framing and its quantitative Israel-vs-Trump claim both fail against the actual documents. The corpus is the published DOJ release; the reel's claims are not. Local search methodology: case-insensitive word-boundary regex against the `text` field of each document JSON under efta/docs/. Counts on 2026-05-22."
+}
