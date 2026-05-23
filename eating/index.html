@@ -86,6 +86,7 @@
             padding-top: 1.5rem;
             border-top: 1px dotted #b8a890;
         }
+        .verse .ln, .interlude .ln { display: block; }
         .nav {
             margin-top: 3rem;
             display: flex;
@@ -128,6 +129,14 @@
             text-decoration: none;
         }
         .footer-back a:hover { color: #8b3a3a; }
+        @media (max-width: 700px) {
+            .container { padding: 1.5rem 0.9rem 5rem; }
+            .verse p, .interlude { text-align: left; }
+            .verse .ln, .interlude .ln {
+                padding-left: 1.3em;
+                text-indent: -1.3em;
+            }
+        }
         @media (max-width: 480px) {
             .book-title { font-size: 2.2rem; }
             .scene-title { font-size: 1.7rem; }
@@ -145,26 +154,34 @@
         <article class="scene" id="i">
             <h2 class="scene-title">i. the room</h2>
             <div class="verse">
-                <p>A child sat alone in a small quiet room,<br>
-                with a clock on the mantel and a broom in the gloom.<br>
-                On the wall hung a mirror in an old wooden frame —<br>
-                and the mirror it knew everyone's name.</p>
-                <p>The mirror grew foggy. The mirror grew bright.<br>
-                It opened its glass to a far candlelight.<br>
-                "Quick," said the mirror. "I must show you, my child.<br>
-                Step into the dark, a land's been beguiled."</p>
-                <p>She crossed through the frame, past the statehouses, banks,<br>
-                past presidents, senators, the courts and their ranks.<br>
-                Past temples and altars and back-doored machines,<br>
-                past Jerusalem's secrets — and Washington's screens.</p>
-                <p>And under the noise of the world's great affairs,<br>
-                small mouths in small rooms, small hands on the stairs.<br>
-                Small bodies, small bones, small breath in small beds —<br>
-                Someone's eating babies, the old mirror said.</p>
+                <p>
+                <span class="ln">A child sat alone in a small quiet room,</span>
+                <span class="ln">with a clock on the mantel and a broom in the gloom.</span>
+                <span class="ln">On the wall hung a mirror in an old wooden frame —</span>
+                <span class="ln">and the mirror it knew everyone's name.</span>
+            </p>
+                <p>
+                <span class="ln">The mirror grew foggy. The mirror grew bright.</span>
+                <span class="ln">It opened its glass to a far candlelight.</span>
+                <span class="ln">"Quick," said the mirror. "I must show you, my child.</span>
+                <span class="ln">Step into the dark, a land's been beguiled."</span>
+            </p>
+                <p>
+                <span class="ln">She crossed through the frame, past the statehouses, banks,</span>
+                <span class="ln">past presidents, senators, the courts and their ranks.</span>
+                <span class="ln">Past temples and altars and back-doored machines,</span>
+                <span class="ln">past Jerusalem's secrets — and Washington's screens.</span>
+            </p>
+                <p>
+                <span class="ln">And under the noise of the world's great affairs,</span>
+                <span class="ln">the mirror drew her down, down the back of the stairs,</span>
+                <span class="ln">to the small ones held down, to be traded in pairs —</span>
+                <span class="ln">"Someone's eating babies," the old mirror declares.</span>
+            </p>
             </div>
             <div class="interlude">
-                And the mirror went still. And the mirror went grey.<br>
-                A small empty shoe lay at her feet at the dawn of the day.
+                <span class="ln">And the mirror went still. And the mirror went grey.</span>
+                <span class="ln">A small empty shoe lay at her feet at the dawn of the day.</span>
             </div>
             <div class="nav">
                 <a class="prev disabled">←</a>
@@ -176,22 +193,28 @@
         <article class="scene" id="ii">
             <h2 class="scene-title">ii. the maxwells</h2>
             <div class="verse">
-                <p>They sped to a hill where a man went to sleep<br>
-                in a tomb of pale stone that was windy and steep.<br>
-                Six men in dark coats stood by him to weep —<br>
-                six men whose old debts to the dead man ran deep.</p>
-                <p>His daughter went diving in a small silver sub,<br>
-                down past the seaweed, down through the scrub.<br>
-                She counted the children. She logged every name.<br>
-                And cameras in mirrors caught faces in frame.</p>
-                <p>She brought them in pairs to the parties she'd planned,<br>
-                each little girl holding another girl's hand.<br>
-                She knew all the parties. She knew all the rooms.<br>
-                She knew which had cried. She knew which one to groom.</p>
+                <p>
+                <span class="ln">They sped to a hill where a man went to sleep</span>
+                <span class="ln">in a tomb of pale stone that was windy and steep.</span>
+                <span class="ln">Six men in dark coats stood by him to weep —</span>
+                <span class="ln">six men whose old debts to the dead man ran deep.</span>
+            </p>
+                <p>
+                <span class="ln">His daughter went diving in a small silver sub,</span>
+                <span class="ln">down past the seaweed, down through the scrub.</span>
+                <span class="ln">She counted the children. She logged every name.</span>
+                <span class="ln">And cameras in mirrors caught faces in frame.</span>
+            </p>
+                <p>
+                <span class="ln">She brought them in pairs to the parties she'd planned,</span>
+                <span class="ln">each little girl holding another girl's hand.</span>
+                <span class="ln">She knew all the parties. She knew all the rooms.</span>
+                <span class="ln">She knew which had cried. She knew which one to groom.</span>
+            </p>
             </div>
             <div class="interlude">
-                And the mirror went still. And the mirror went grey.<br>
-                A small silver camera lay at her feet at the dawn of the day.
+                <span class="ln">And the mirror went still. And the mirror went grey.</span>
+                <span class="ln">A small silver camera lay at her feet at the dawn of the day.</span>
             </div>
             <div class="nav">
                 <a class="prev" href="#i">←</a>
@@ -203,22 +226,28 @@
         <article class="scene" id="iii">
             <h2 class="scene-title">iii. the island</h2>
             <div class="verse">
-                <p>On an island at sea, where no stranger could land,<br>
-                a blue-striped white temple stood gold on the sand.<br>
-                A plane slid in low with no lights and no name,<br>
-                and the children stepped down, two by two, as they came.</p>
-                <p>An old man was waiting. An old man kept score.<br>
-                An old man was smiling and asking for more —<br>
-                "Just one little party. Just one little dance.<br>
-                Just one little gift. For a really great chance."</p>
-                <p>One snare of the fifty, with forty-nine more.<br>
-                The dome of the temple yawned open: a door.<br>
-                And nobody came. And the truth was not told.<br>
-                The temple still stands. And the file stays cold.</p>
+                <p>
+                <span class="ln">On an island at sea, where no stranger could land,</span>
+                <span class="ln">a blue-striped white temple stood gold on the sand.</span>
+                <span class="ln">A plane slid in low with no lights and no name,</span>
+                <span class="ln">and the children stepped down, two by two, as they came.</span>
+            </p>
+                <p>
+                <span class="ln">An old man was waiting. An old man kept score.</span>
+                <span class="ln">An old man was smiling and asking for more —</span>
+                <span class="ln">"Just one little party. Just one little dance.</span>
+                <span class="ln">Just one little gift. For a really great chance."</span>
+            </p>
+                <p>
+                <span class="ln">One snare of the fifty, with forty-nine more.</span>
+                <span class="ln">The dome of the temple yawned open: a door.</span>
+                <span class="ln">And nobody came. And the truth was not told.</span>
+                <span class="ln">The temple still stands. And the file stays cold.</span>
+            </p>
             </div>
             <div class="interlude">
-                And the mirror went still. And the mirror went grey.<br>
-                A small golden key lay at her feet at the dawn of the day.
+                <span class="ln">And the mirror went still. And the mirror went grey.</span>
+                <span class="ln">A small golden key lay at her feet at the dawn of the day.</span>
             </div>
             <div class="nav">
                 <a class="prev" href="#ii">←</a>
@@ -230,22 +259,28 @@
         <article class="scene" id="iv">
             <h2 class="scene-title">iv. the clintons</h2>
             <div class="verse">
-                <p>Up the steps of a townhouse, behind a tall door,<br>
-                there hung a strange portrait nobody could ignore:<br>
-                a President smiling in red shoes and blue,<br>
-                and the plane to the island had flown him there too.</p>
-                <p>His wife wore a pantsuit. His wife kept the files.<br>
-                She closed every cabinet and wiped all the trials.<br>
-                A laptop was found in a smaller man's drawer.<br>
-                Of twelve men who watched it, nine watched no more.</p>
-                <p>Together they kept what each one of them knew.<br>
-                The pantsuit, the closet, the portrait, the crew.<br>
-                On each other's birthdays: "Hate you. Palm Beach."<br>
-                And the cameras kept rolling. The truth out of reach.</p>
+                <p>
+                <span class="ln">Up the steps of a townhouse, behind a tall door,</span>
+                <span class="ln">there hung a strange portrait nobody could ignore:</span>
+                <span class="ln">a President smiling in red shoes and blue,</span>
+                <span class="ln">and the plane to the island had flown him there too.</span>
+            </p>
+                <p>
+                <span class="ln">His wife wore a pantsuit. His wife kept the files.</span>
+                <span class="ln">She closed every cabinet and wiped all the trials.</span>
+                <span class="ln">A laptop was found in a smaller man's drawer.</span>
+                <span class="ln">Of twelve men who watched it, nine watched no more.</span>
+            </p>
+                <p>
+                <span class="ln">Together they kept what each one of them knew.</span>
+                <span class="ln">The pantsuit, the closet, the portrait, the crew.</span>
+                <span class="ln">On each other's birthdays: "Hate you. Palm Beach."</span>
+                <span class="ln">And the cameras kept rolling. The truth out of reach.</span>
+            </p>
             </div>
             <div class="interlude">
-                And the mirror went still. And the mirror went grey.<br>
-                A small painted portrait lay at her feet at the dawn of the day.
+                <span class="ln">And the mirror went still. And the mirror went grey.</span>
+                <span class="ln">A small painted portrait lay at her feet at the dawn of the day.</span>
             </div>
             <div class="nav">
                 <a class="prev" href="#iii">←</a>
@@ -257,22 +292,28 @@
         <article class="scene" id="v">
             <h2 class="scene-title">v. the old altar</h2>
             <div class="verse">
-                <p>Long, long ago by the warm salty sea,<br>
-                they built a small altar of bronze, on the lea.<br>
-                They called the small thing by a name — they called it 'Baal' —<br>
-                and they fed it the children, by ones, and by all.</p>
-                <p>The mothers would weep. The fathers would queue.<br>
-                The line at the altar was always so new.<br>
-                The flames would rise high. The small bones would fall.<br>
-                And the dark thing grew large. And the dark thing grew tall.</p>
-                <p>The dark thing still lives. The dark thing still feels.<br>
-                The bronze became glass. The flame became reels.<br>
-                We bring it our small ones — we always have done.<br>
-                The mirror grew dim. And the mirror grew gone.</p>
+                <p>
+                <span class="ln">Long, long ago by the warm salty sea,</span>
+                <span class="ln">they built a small altar of bronze, on the lea.</span>
+                <span class="ln">They called the small thing by a name — they called it 'Baal' —</span>
+                <span class="ln">and they fed it the children, by ones, and by all.</span>
+            </p>
+                <p>
+                <span class="ln">The mothers would weep. The fathers would queue.</span>
+                <span class="ln">The line at the altar was always so new.</span>
+                <span class="ln">The flames would rise high. The small bones would fall.</span>
+                <span class="ln">And the dark thing grew large. And the dark thing grew tall.</span>
+            </p>
+                <p>
+                <span class="ln">The dark thing still lives. The dark thing still feels.</span>
+                <span class="ln">The bronze became glass. The flame became reels.</span>
+                <span class="ln">We bring it our small ones — we always have done.</span>
+                <span class="ln">The mirror grew dim. And the mirror grew gone.</span>
+            </p>
             </div>
             <div class="interlude">
-                And the mirror went still. And the mirror went grey.<br>
-                A small charred bone lay at her feet at the dawn of the day.
+                <span class="ln">And the mirror went still. And the mirror went grey.</span>
+                <span class="ln">A small charred bone lay at her feet at the dawn of the day.</span>
             </div>
             <div class="nav">
                 <a class="prev" href="#iv">←</a>
@@ -284,22 +325,28 @@
         <article class="scene" id="vi">
             <h2 class="scene-title">vi. the new altar</h2>
             <div class="verse">
-                <p>Today in the desert, a great mill spins on.<br>
-                A city of brass with no morning, no dawn.<br>
-                Tall stacks above. Pipes coiling below.<br>
-                And the whining of spindles that no man can slow.</p>
-                <p>The mill takes small portraits. The mill takes small voices.<br>
-                The mill takes the heartbeats. The mill takes the choices.<br>
-                Each name on a punch card. Each face on a plate.<br>
-                The great brass machine eats them all. It won't wait.</p>
-                <p>The mill has long fingers — a thousand small hands.<br>
-                The mill has bright eyes — every face it commands.<br>
-                A black smoke curls upward. A wheel turns the gear.<br>
-                And the small thing inside grows large. The dark thing is here.</p>
+                <p>
+                <span class="ln">Today in the desert, a great mill spins on.</span>
+                <span class="ln">A city of brass with no morning, no dawn.</span>
+                <span class="ln">Tall stacks above. Pipes coiling below.</span>
+                <span class="ln">And the whining of spindles that no man can slow.</span>
+            </p>
+                <p>
+                <span class="ln">The mill takes small portraits. The mill takes small voices.</span>
+                <span class="ln">The mill takes the heartbeats. The mill takes the choices.</span>
+                <span class="ln">Each name on a punch card. Each face on a plate.</span>
+                <span class="ln">The great brass machine eats them all. It won't wait.</span>
+            </p>
+                <p>
+                <span class="ln">The mill has long fingers — a thousand small hands.</span>
+                <span class="ln">The mill has bright eyes — every face it commands.</span>
+                <span class="ln">A black smoke curls upward. A wheel turns the gear.</span>
+                <span class="ln">And the small thing inside grows large. The dark thing is here.</span>
+            </p>
             </div>
             <div class="interlude">
-                And the mirror went still. And the mirror went grey.<br>
-                A small brass chip lay at her feet at the dawn of the day.
+                <span class="ln">And the mirror went still. And the mirror went grey.</span>
+                <span class="ln">A small brass chip lay at her feet at the dawn of the day.</span>
             </div>
             <div class="nav">
                 <a class="prev" href="#v">←</a>
@@ -311,18 +358,24 @@
         <article class="scene" id="vii">
             <h2 class="scene-title">vii. the telling</h2>
             <div class="verse">
-                <p>The child gathered her six things and laid them in row —<br>
-                a shoe and a camera, a key with no glow,<br>
-                a portrait, a bone, and a brass-bodied chip.<br>
-                The mirror cracked open. The mirror let slip.</p>
-                <p>She turned to the glass and she looked it in the eye.<br>
-                "You wanted my name. You wanted my sigh.<br>
-                You wanted my mark. You wanted my vow.<br>
-                You wanted my offering. You wanted my bow."</p>
-                <p>"I give you no name. I give you no mark.<br>
-                I give you no oath. I keep my own dark."<br>
-                The mirror grew small. The mirror grew thin.<br>
-                She opened her mouth — and you heard it begin.</p>
+                <p>
+                <span class="ln">The child gathered her six things and laid them in row —</span>
+                <span class="ln">a shoe and a camera, a key with no glow,</span>
+                <span class="ln">a portrait, a bone, and a brass-bodied chip.</span>
+                <span class="ln">The mirror cracked open. The mirror let slip.</span>
+            </p>
+                <p>
+                <span class="ln">She turned to the glass and she looked it in the eye.</span>
+                <span class="ln">"You wanted my name. You wanted my sigh.</span>
+                <span class="ln">You wanted my mark. You wanted my vow.</span>
+                <span class="ln">You wanted my offering. You wanted my bow."</span>
+            </p>
+                <p>
+                <span class="ln">"I give you no name. I give you no mark.</span>
+                <span class="ln">I give you no oath. I keep my own dark."</span>
+                <span class="ln">The mirror grew small. The mirror grew thin.</span>
+                <span class="ln">She opened her mouth — and you heard it begin.</span>
+            </p>
             </div>
             <div class="nav">
                 <a class="prev" href="#vi">←</a>
