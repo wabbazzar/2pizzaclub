@@ -100,29 +100,29 @@ The child learns these and refuses them. The book the reader holds is her tellin
 
 ## 3. the island
 
-> *Out at sea on an island where the sand was white,*
-> *a blue-striped temple shone gold in the night.*
+> *On an island at sea, where no stranger could land,*
+> *a blue-striped white temple stood gold on the sand.*
 > *A plane slid in low with no lights and no name,*
-> *and the children stepped down, and they vanished the same.*
+> *and the children stepped down, two by two, as they came.*
 
 > *An old man was waiting. An old man kept score.*
 > *An old man was smiling and asking for more —*
 > *"Just one little party. Just one little dance.*
 > *Just one little gift. For a really great chance."*
 
-> *The plane took off with no children on board.*
+> *One snare of the fifty, with forty-nine more.*
 > *The dome of the temple yawned open: a door.*
-> *And nobody saw them. And nobody came.*
-> *The temple still stands. The silence the same.*
+> *And nobody came. And the truth was not told.*
+> *The temple still stands. And the file stays cold.*
 
-- **L1** — [Little Saint James](https://en.wikipedia.org/wiki/Little_Saint_James), Epstein's **70-acre** island in the U.S. Virgin Islands.
-- **L2** — the famous [structure on the island](https://www.nbcnews.com/news/us-news/jeffrey-epstein-s-bizarre-blue-striped-building-private-island-raised-n1037511): a white cube with **eight large blue stripes**, capped with a **gold dome** (added between July 2013 and March 2014; blown off in Hurricane Maria, September 2017). Officially a "music pavilion."
+- **L1–2** — [Little Saint James](https://en.wikipedia.org/wiki/Little_Saint_James), Epstein's **70-acre** private island in the U.S. Virgin Islands. *Where no stranger could land* = the island's controlled-access privacy (guests flown or ferried in; no public landing) — the grounded replacement for the earlier rhyme-filler *where the sand was white*. The [structure](https://www.nbcnews.com/news/us-news/jeffrey-epstein-s-bizarre-blue-striped-building-private-island-raised-n1037511): a white cube with **eight large blue stripes**, capped with a **gold dome** (added July 2013–March 2014; blown off in Hurricane Maria, September 2017), officially a "music pavilion." *Stood gold on the sand* = the gold dome.
 - **L3** — the [Lolita Express](https://en.wikipedia.org/wiki/Jeffrey_Epstein), Epstein's Boeing 727 (registration **N908JE**).
-- **L4** — the children disembark the 727 and disappear. *Vanished the same* = vanished all the same / nonetheless — the trafficking vanishing rendered plain. Children were flown to Little St James and not recovered; the line states the disappearance without inventing an image (replaces the earlier, opaque *runway and flame*).
+- **L4** — *Two by two* = the paired-recruitment pattern [Maxwell was convicted](https://en.wikipedia.org/wiki/Trial_of_Ghislaine_Maxwell) on, held over from scene 2 (*She brought them in pairs… each little girl holding another girl's hand*); the Noah's-ark cadence under it heightens the nursery register. The children disembark the 727 in pairs. Replaces the earlier opaque *runway and flame* and the filler *vanished the same*.
 - **L5–6** — Epstein's [little black book](https://www.epsteininvestigation.org/guides/epstein-black-book-explained): **97 pages, 1,500+ names**. His Palm Beach houseman [Alfredo Rodriguez](https://www.yahoo.com/news/articles/epstein-butler-tried-sell-little-151605928.html) tried to sell it to an undercover FBI agent for $50,000 in 2009.
 - **L7–8** — the grooming language. [Maxwell was convicted](https://en.wikipedia.org/wiki/Trial_of_Ghislaine_Maxwell) of recruiting minors under exactly this framing.
-- **L9–10** — the visual inversion: planes arrive full, leave empty. *The dome of the temple yawned open: a door* makes the temple itself the maw — the gold dome (added 2013–2014, blown off in Hurricane Maria, September 2017) reframed as a mouth.
-- **L11–12** — present-tense persistence. The dome was blown off in Hurricane Maria; the structure remains. The island was [sold for $60 million in May 2023](https://en.wikipedia.org/wiki/Little_Saint_James). *The silence the same* lands the editorial register flat — no rescue, no consequence, no closure of the file.
+- **L9** — the magnitude. Robert Steele, capture `sources/captures/DSkvtpnjtDQ`: *"Epstein is just one of 50 Mossad pedophilia entrapment operations across the United States… There are 49 others, all of them protected by the FBI."* **This is Steele's single-source assertion, not an independently verified count** — the referent is the captured reel, not an established fact; the verse renders it as the mirror's vision. *Snare* (not *isle*) keeps the count on the operations, not the island — there is one island (plus its sister Great St James), not fifty.
+- **L10** — *The dome of the temple yawned open: a door* makes the temple itself the maw — the gold dome (2013–2014, blown off in Hurricane Maria, 2017) reframed as a mouth.
+- **L11–12** — non-prosecution + persistence. *The truth was not told* = the institutional non-coverage Steele names (*"the media today is not covering"*; CIA/FBI *"complicit from day one"*). *The file stays cold* = no federal investigation, the case unclosed (Epstein died pre-trial; co-conspirators uncharged). *The temple still stands* = the structure remains, the island [sold for $60 million in May 2023](https://en.wikipedia.org/wiki/Little_Saint_James). The closing couplet deliberately avoids an *-ay* ending so it does not jangle against the refrain's *grey/day*; the rewrite also clears both instances of the filler *the same* from the page.
 
 > *And the mirror went still. And the mirror went grey.*
 > *A small golden key lay at her feet at the dawn of the day.*
