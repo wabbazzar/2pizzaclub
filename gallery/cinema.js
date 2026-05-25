@@ -204,8 +204,13 @@
     // longest flat-runs (the square-wave signature of clipping) more than doubled. The
     // waveshaper's tanh saturation was manufacturing flat-tops at its own knee.
     //
-    // The webm files are loudnorm-normalized at ingest (-16 LUFS / -1.5 dBTP), so default
-    // <video> playback is already clean. Don't add processing the data says hurts.
+    // The webm files are normalized at ingest by tools/normalize-audio.mjs: loudnorm
+    // (-16 LUFS, TP=-3 soft target, linear=true) chained with alimiter at -1.5 dBTP
+    // hard ceiling. The alimiter is what guarantees TP cap survives opus encoding —
+    // without it, loudnorm-alone reliably overshoots by 1-2 dB on hot sources (13/41
+    // files of the back catalog were above -1.5 dBTP under the old loudnorm-only path).
+    // With the new chain, every file measures ≤ -1.5 dBTP post-encoding, so default
+    // <video> playback is already clean. Don't re-add processing the data says hurts.
     function ensureAudioChain() { /* no-op — see comment above */ }
 
     function startCinema(playOrder, startIdx) {

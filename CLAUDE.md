@@ -93,7 +93,7 @@ node /home/wabbazzar/code/2pizzaclub/tools/ingest-reel.mjs "<URL or SHORTCODE>"
 This runs ~1–4 minutes per reel:
 1. Headless Chromium captures the in-page `<video>` element via `MediaRecorder` over `captureStream()` (bypasses IG's auth wall, which only blocks the poster image)
 2. Scrapes `og:*` metadata (caption, handle, posted date, engagement)
-3a. `ffmpeg loudnorm` (two-pass, target −16 LUFS / −1.5 dBTP / LRA 11) rewrites `reel.webm` in place — Instagram audio often arrives over digital max and would clip on playback. Video stream is copied; only audio is re-encoded (libopus 96k). The cinema-mode Web Audio compressor in `gallery/cinema.js` is a redundant backup; the inline `<video>` player has no compressor, so this ingest pass is what keeps it clean.
+3a. `ffmpeg loudnorm` (two-pass, target −16 LUFS, soft TP −3 dBTP, LRA 11) chained with `alimiter=limit=-1.5dB` rewrites `reel.webm` in place — Instagram audio often arrives over digital max and would clip on playback. The alimiter is the belt-and-suspenders that guarantees TP ≤ −1.5 dBTP post-opus-encoding; loudnorm-alone silently falls back to dynamic mode and overshoots by 1–2 dB on hot sources (measured: 13 of 41 catalog files were above −1.5 dBTP under the loudnorm-only pipeline before the alimiter was added). Video stream is copied; only audio is re-encoded (libopus 96k). No Web Audio compressor on either player — the ingest chain is what keeps playback clean.
 3b. `ffmpeg` → WAV (16 kHz mono) for whisper
 4. `ffmpeg` → frames at 0.5 fps under `frames/` (only `f001.png` survives; the rest are `.gitignore`d)
 5. `whisper base.en` → `transcript.{txt,srt,vtt,json}`
