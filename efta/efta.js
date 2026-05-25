@@ -517,7 +517,13 @@ function renderPage() {
         html += `<td class="docs-cell">${r.docs ?? ''}</td>`;
         if (showDatasets) html += `<td class="datasets-cell">${escapeHTML(fmtDatasets(r.datasets))}</td>`;
         if (showPeakDoc)  html += `<td class="datasets-cell">${escapeHTML(r.peak_doc || '')}</td>`;
-        if (showNote)     html += `<td class="datasets-cell">${escapeHTML(r.note || '')}</td>`;
+        if (showNote) {
+            const noteText = escapeHTML(r.note || '');
+            const cell = r.url
+                ? `<a href="${escapeHTML(r.url)}" target="_blank" rel="noopener noreferrer">${noteText}</a>`
+                : noteText;
+            html += `<td class="datasets-cell">${cell}</td>`;
+        }
         html += '</tr>';
     }
     html += '</tbody></table>';

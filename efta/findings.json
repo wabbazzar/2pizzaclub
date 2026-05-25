@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T16:57:23.620854+00:00",
+  "generated_at": "2026-05-25T21:38:01.024641+00:00",
   "corpus": {
     "n_documents": 784,
     "n_entity_hits": 46900,
@@ -60750,14 +60750,14 @@
     {
       "kind": "verbatim_quote",
       "title": "Verbatim press-finding recreations",
-      "subtitle": "19 of 20 journalist-cited phrases located in our corpus",
+      "subtitle": "22 of 22 journalist-cited phrases located in our corpus",
       "explainer": "Phrases that named journalists / press releases have publicly quoted from these EFTA documents. Each entry shows where we found that exact phrase in our locally-mirrored copy. The blockquote is verbatim — same text reporters were quoting.",
       "rows": [
         {
           "rank": 1,
           "text": "dog that hasn't barked",
-          "count": 3,
-          "docs": 3,
+          "count": 5,
+          "docs": 5,
           "note": "Apr 2 2011 Epstein → Maxwell email (House Oversight Nov 12 2025 release)",
           "url": "https://www.pbs.org/newshour/politics/read-jeffrey-epsteins-newly-released-emails-about-trump",
           "significance": "One of THE most-cited Epstein quotes in the entire release. Epstein writes Maxwell: '… that dog that hasn't barked is trump.. FPN spent hours at my house with him … he has never once been mentioned. police chief. etc. im 75% there.' Epstein is observing — three years after his 2008 plea — that Trump KNOWS about the abuse but has never been named publicly. The 'silent dog' is the press / law enforcement not coming for Trump. Senator Reed and others have cited this as evidence that Trump's name was deliberately scrubbed from earlier filings.",
@@ -60846,9 +60846,75 @@
         },
         {
           "rank": 4,
+          "text": "dirty donald",
+          "count": 1,
+          "docs": 1,
+          "note": "Aug 23 2018 Epstein → Kathryn Ruemmler email, in re: NYT 'Donald Trump's High Crimes and Misdemeanors' (House Oversight Republican estate release Nov 12 2025, HOUSE_OVERSIGHT_026505)",
+          "url": "https://www.cnbc.com/2025/11/12/trump-jeffrey-epstein-ghislaine-maxwell-emails-house-democrats.html",
+          "significance": "Epstein to Kathryn Ruemmler (then Goldman Sachs Chief Legal Officer and ex-Obama White House Counsel), responding to her forwarded NYT op-ed: 'you see, i know how dirty donald is. my guess is that non lawyers ny biz people have no idea. what it means to have your fixer flip.' This was the day Cohen pleaded guilty. Demonstrates Epstein cultivating a senior legal/political insider with explicit anti-Trump opposition research. Ruemmler RESIGNED from Goldman Sachs in late 2025 after this email surfaced.",
+          "samples": [
+            {
+              "doc_id": "HOUSE_OVERSIGHT_026505",
+              "dataset": "estate",
+              "context": "vacation@gmail.com] Sent: 8/23/2018 3:16:47 PM To: Kathy Ruemmle Subject: Re: NYTimes: Donald Trump’s High Crimes and Misdemeanors you see , i know how dirty donald is. my guess is that non lawyers ny biz people have no idea. what it means to have your fixer flip On Thu, Aug 23, 2018 at 11:13 AM, Kathy Ruemmler <> wrot",
+              "matched": "dirty donald"
+            }
+          ],
+          "datasets": {
+            "estate": 1
+          }
+        },
+        {
+          "rank": 5,
+          "text": "I know how dirty donald is",
+          "count": 1,
+          "docs": 1,
+          "note": "Same Aug 23 2018 Ruemmler thread (HOUSE_OVERSIGHT_026505) — longer-form match for the most-quoted exact phrasing",
+          "url": "https://www.cnbc.com/2025/11/12/trump-jeffrey-epstein-ghislaine-maxwell-emails-house-democrats.html",
+          "significance": "The exact phrasing reporters have quoted verbatim. Co-located in the Aug 23 2018 Ruemmler thread alongside 'fixer flip' (a reference to Michael Cohen, who had pleaded guilty earlier that day).",
+          "samples": [
+            {
+              "doc_id": "HOUSE_OVERSIGHT_026505",
+              "dataset": "estate",
+              "context": "rey E. [jeevacation@gmail.com] Sent: 8/23/2018 3:16:47 PM To: Kathy Ruemmle Subject: Re: NYTimes: Donald Trump’s High Crimes and Misdemeanors you see , i know how dirty donald is. my guess is that non lawyers ny biz people have no idea. what it means to have your fixer flip On Thu, Aug 23, 2018 at 11:13 AM, Kathy Ruemmler <> wrote:",
+              "matched": "i know how dirty donald is"
+            }
+          ],
+          "datasets": {
+            "estate": 1
+          }
+        },
+        {
+          "rank": 6,
+          "text": "carpets and all",
+          "count": 2,
+          "docs": 2,
+          "note": "Dec 15 2016 Epstein → Tom Pritzker email (House Oversight Republican estate release Nov 12 2025, HOUSE_OVERSIGHT_032391)",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-saudi-arabia/",
+          "significance": "Epstein to Hyatt executive chairman Tom Pritzker: 'can you belive MBS sent mea TENT carpets and all.' Sent shortly after Epstein's solo Gulfstream trip Paris → Riyadh. Bedouin tents are a traditional Saudi hospitality gift; Pritzker replies playfully, 'I think that is code for I love you. Or maybe code for go pound sand. Better check your KSA urban dictionary.' The lavish gift's purpose is undocumented — and unexplained — but it dates the personal MBS-Epstein channel to before Trump's first inauguration.",
+          "samples": [
+            {
+              "doc_id": "HOUSE_OVERSIGHT_032944",
+              "dataset": "estate",
+              "context": "com] Sent: 12/15/2016 3:58:59 PM To: Pritzker, Torn Subject: Re: Importance: High yes, any word on karyyna plans. . can you belive MBS sent mea TENT carpets and all. On Thu, Dec 15, 2016 at 10:54 AM, Pritzker, Tom hii wrote: I’m stuck in the cold! Five degrees. Aspen next week to warm up. Tilerson is a good move for",
+              "matched": "carpets and all"
+            },
+            {
+              "doc_id": "HOUSE_OVERSIGHT_032391",
+              "dataset": "estate",
+              "context": "[mailto:jeevacation@gmail.com] Sent: Thursday, December 15, 2016 9:59 AM Subject: Re: yes, any word on karyyna plans. . can you belive MBS sent mea TENT carpets and all. On Thu, Dec 15, 2016 at 10:54 AM, Pritzker, Tom [_ wrote: I’m stuck in the cold! Five degrees. Aspen next week to warm up. Tilerson is a good move for T",
+              "matched": "carpets and all"
+            }
+          ],
+          "datasets": {
+            "estate": 2
+          }
+        },
+        {
+          "rank": 7,
           "text": "Snow White",
-          "count": 9,
-          "docs": 7,
+          "count": 18,
+          "docs": 13,
           "note": "Jul 9 2010 Jes Staley (JPMorgan) → Epstein, 'Snow White / Beauty and the Beast' thread",
           "url": "https://www.bloomberg.com/news/articles/2026-02-04/us-reviewed-allegations-against-staley-black-in-epstein-case",
           "significance": "JPMorgan's senior banker for Epstein, Jes Staley (later Barclays CEO), refers to the young women in Epstein's circle using fairy-tale code names. Bloomberg reporting confirms federal prosecutors reviewed this thread when evaluating whether to charge Staley. This is internal-bank communication, NOT casual social, and demonstrates that Epstein's most senior banker spoke about the trafficked women in a knowing, jocular way.",
@@ -60873,15 +60939,15 @@
             }
           ],
           "datasets": {
-            "dataset_8": 1,
-            "dataset_10": 2
+            "dataset_10": 2,
+            "dataset_8": 1
           }
         },
         {
-          "rank": 5,
+          "rank": 8,
           "text": "Beauty and the Beast",
-          "count": 9,
-          "docs": 9,
+          "count": 16,
+          "docs": 15,
           "note": "Same 2010 Staley thread + cited by victim 'Carolyn' at Maxwell trial",
           "url": "https://www.bloomberg.com/news/articles/2026-02-04/us-reviewed-allegations-against-staley-black-in-epstein-case",
           "significance": "Used in two contexts: (a) Jes Staley's coded reference in the 2010 thread, and (b) victim 'Carolyn' at the 2021 Maxwell trial describing Epstein's library 'like the one in Beauty and the Beast' — testimony that helped corroborate that she had been inside the residence as a minor. The library description proved hard for the defense to attack because only victims would know it.",
@@ -60906,13 +60972,13 @@
             }
           ],
           "datasets": {
-            "dataset_8": 1,
             "dataset_12": 1,
-            "dataset_6": 1
+            "dataset_6": 1,
+            "dataset_8": 1
           }
         },
         {
-          "rank": 6,
+          "rank": 9,
           "text": "highly valued friend",
           "count": 1,
           "docs": 1,
@@ -60932,10 +60998,10 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 10,
           "text": "Invisible Man",
-          "count": 6,
-          "docs": 5,
+          "count": 9,
+          "docs": 7,
           "note": "Aug 18 2001 'The Invisible Man' <abx17@dial.pipex.com> → 'G. Maxwell' <gmax1@mindspring.com>",
           "url": "https://www.cnn.com/2025/12/23/europe/ghislaine-maxwell-email-british-royal-family-latam-intl",
           "significance": "Prince Andrew's pseudonym in Ghislaine Maxwell's address book. The 2001 email signed 'The Invisible Man' (from a UK-ISP Pipex address typical of late-90s royal staff) reads: 'Distraught! You probably wouldn't [know] inappropriate friends [redacted]…' CNN, ITV, and ABC published this as one of the strongest pieces of evidence that 'A' / 'Invisible Man' was Andrew, contradicting his denials.",
@@ -60964,10 +61030,10 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 11,
           "text": "Mohammed bin Salman",
-          "count": 32,
-          "docs": 16,
+          "count": 35,
+          "docs": 19,
           "note": "2016 House Oversight estate email re Saudi crown prince's gift",
           "url": "https://www.cbsnews.com/news/jeffrey-epstein-donald-trump-emails-house-oversight/",
           "significance": "Documents Epstein's direct relationship with Mohammed bin Salman, including MBS gifting Epstein a Bedouin tent 'carpets and all' that was displayed in Epstein's NY townhouse. MBS visited Epstein in NY post-Khashoggi (2018), per the released emails. One of the strongest foreign-state linkages in the release.",
@@ -60996,10 +61062,10 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 12,
           "text": "Centurion",
-          "count": 856,
-          "docs": 206,
+          "count": 18392,
+          "docs": 2958,
           "note": "American Express Black Card concierge — flight-booking thread (DS11)",
           "url": "https://www.cbsnews.com/news/american-express-epstein-files-doj-trafficking-women-girls/",
           "significance": "Epstein held an AmEx Centurion card (the invitation-only Black Card). His executive assistant Lesley Groff booked all the international flights for the women — under Epstein's Centurion concierge — using AmEx's concierge to manufacture legitimate-looking travel itineraries that doubled as US visa support documents. CBS broke the AmEx-as-trafficking-enabler angle in May 2026.",
@@ -61028,10 +61094,10 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 13,
           "text": "Ruemmler",
-          "count": 333,
-          "docs": 130,
+          "count": 1674,
+          "docs": 938,
           "note": "Kathryn Ruemmler — Goldman Sachs CLO + ex-Obama WH Counsel",
           "url": "https://www.cnbc.com/2025/11/12/trump-jeffrey-epstein-ghislaine-maxwell-emails-house-democrats.html",
           "significance": "Recipient of Epstein's 'I know how dirty donald is' email. Career trajectory: Obama White House Counsel → Latham & Watkins partner → Goldman Sachs Chief Legal Officer. Her presence in the corpus shows Epstein's network reached into top-tier US legal-political circles. She resigned from Goldman after the emails surfaced.",
@@ -61060,10 +61126,10 @@
           }
         },
         {
-          "rank": 11,
+          "rank": 14,
           "text": "Operation Leap Year",
-          "count": 29,
-          "docs": 14,
+          "count": 40,
+          "docs": 17,
           "note": "Federal Grand Jury 07-103, West Palm Beach FL, May 8 2007 (DS7)",
           "url": "https://www.justice.gov/usao-sdny/programs/victim-witness-services/united-states-v-jeffrey-epstein-19-cr-490-rmb",
           "significance": "The DOJ code name for the 2006-08 federal investigation into Epstein. The grand jury transcripts (DS7) are the most direct record of what federal prosecutors HAD on Epstein before the 2008 plea deal was struck — the deal that AUSA Alex Acosta later defended as 'the best we could get.' These transcripts are the strongest evidence that prosecutors had ample basis to charge Epstein federally in 2008.",
@@ -61092,7 +61158,7 @@
           }
         },
         {
-          "rank": 12,
+          "rank": 15,
           "text": "Free State Reporting",
           "count": 400,
           "docs": 8,
@@ -61124,10 +61190,10 @@
           }
         },
         {
-          "rank": 13,
+          "rank": 16,
           "text": "Little Saint James",
-          "count": 7772,
-          "docs": 3351,
+          "count": 20460,
+          "docs": 11049,
           "note": "Epstein's USVI private island; site of much of the documented abuse",
           "url": "https://www.cnn.com/2026/03/13/us/jeffrey-epstein-little-st-james-island-invs-vis",
           "significance": "The island is the geographic center of the trafficking. CNN's March 2026 investigation, based on the released LSJ house manual, documented that staff were required to call Epstein 'the Principal' and address him only as 'sir/ma'am.' Most of the named guests (Andrew, Hawking, Krauss, Hoffman, Ito, Musk per schedules) appear in flight logs and security records to/from LSJ.",
@@ -61156,10 +61222,10 @@
           }
         },
         {
-          "rank": 14,
+          "rank": 17,
           "text": "Zorro Ranch",
-          "count": 953,
-          "docs": 516,
+          "count": 2438,
+          "docs": 1363,
           "note": "Epstein's 8,000-acre New Mexico ranch — site of the planned 'baby ranch' eugenics fantasy",
           "url": "https://www.nytimes.com/2019/07/31/business/jeffrey-epstein-eugenics.html",
           "significance": "The NM property is the location of Epstein's documented 'baby ranch' fantasy — he told scientists he wanted to seed the human race using himself, citing Zorro Ranch as the venue. NYT broke this story July 2019. The ranch and its science-elite visitors (Hawking, Gell-Mann, Minsky etc.) are also the bridge between the trafficking operation and the AI/eugenics correspondence we surfaced in the corpus.",
@@ -61189,10 +61255,10 @@
           }
         },
         {
-          "rank": 15,
+          "rank": 18,
           "text": "El Brillo",
-          "count": 1803,
-          "docs": 497,
+          "count": 2815,
+          "docs": 776,
           "note": "358 El Brillo Way, Palm Beach FL — Epstein's mansion + crime scene of the 2005-08 investigation",
           "url": "https://www.miamiherald.com/news/local/article220097825.html",
           "significance": "The Palm Beach mansion is where the abuse documented by the 2005-08 Palm Beach Police investigation (Det. Joe Recarey, lead detective) took place. The Miami Herald's 'Perversion of Justice' series — which forced the federal re-prosecution — centered on this address. DS4 in our corpus IS the Palm Beach Police case file.",
@@ -61221,7 +61287,7 @@
           }
         },
         {
-          "rank": 16,
+          "rank": 19,
           "text": "Darren awol",
           "count": 2,
           "docs": 2,
@@ -61248,7 +61314,7 @@
           }
         },
         {
-          "rank": 17,
+          "rank": 20,
           "text": "Ranch island. Paris. Harvard",
           "count": 2,
           "docs": 2,
@@ -61275,7 +61341,7 @@
           }
         },
         {
-          "rank": 18,
+          "rank": 21,
           "text": "Chinese blink on extradition",
           "count": 2,
           "docs": 2,
@@ -61302,7 +61368,7 @@
           }
         },
         {
-          "rank": 19,
+          "rank": 22,
           "text": "Aka MBS",
           "count": 1,
           "docs": 1,
@@ -61320,22 +61386,6 @@
           "datasets": {
             "estate": 1
           }
-        }
-      ]
-    },
-    {
-      "kind": "verbatim_quote",
-      "title": "Press-finding phrases NOT (yet) in our corpus",
-      "subtitle": "likely live in House-Oversight-Dems-specific releases we have not pulled",
-      "explainer": "Press-cited phrases the pipeline could NOT locate in our local corpus. These almost certainly live in House Oversight Democrats releases distributed as individual Google Drive previews rather than bulk downloads. Pull plan documented in WORK_LOG.",
-      "rows": [
-        {
-          "rank": 1,
-          "text": "dirty donald",
-          "count": 0,
-          "docs": 0,
-          "note": "Aug 2018 Epstein → Kathryn Ruemmler email (Oversight Dems Nov 20 release)",
-          "samples": []
         }
       ]
     },
@@ -69926,128 +69976,15 @@
       "rows": [
         {
           "rank": 1,
-          "text": "Maxwell",
-          "count": 37562,
-          "docs": 8761,
-          "datasets": {
-            "dataset_12": 625,
-            "dataset_6": 771,
-            "dataset_7": 3,
-            "dataset_3": 15,
-            "dataset_4": 51,
-            "emails": 422,
-            "estate": 813,
-            "dataset_8": 14480,
-            "dataset_10": 20382
-          },
-          "sample_doc_ids": [
-            "EFTA02731501",
-            "EFTA02731612",
-            "EFTA02731655",
-            "EFTA02731721",
-            "EFTA02731737"
-          ],
-          "note": "Ghislaine Maxwell"
-        },
-        {
-          "rank": 2,
-          "text": "Kahn",
-          "count": 24215,
-          "docs": 9245,
-          "datasets": {
-            "dataset_12": 2,
-            "dataset_11": 18,
-            "emails": 20,
-            "estate": 94,
-            "dataset_8": 56,
-            "dataset_10": 24025
-          },
-          "sample_doc_ids": [
-            "EFTA02212937",
-            "EFTA02212972",
-            "EFTA02213019",
-            "EFTA02213043",
-            "EFTA02731082"
-          ],
-          "note": "Richard Kahn, estate co-accountant (Bloomberg)"
-        },
-        {
-          "rank": 3,
-          "text": "Indyke",
-          "count": 17867,
-          "docs": 8600,
-          "datasets": {
-            "dataset_12": 3,
-            "dataset_11": 4,
-            "emails": 6,
-            "estate": 135,
-            "dataset_8": 216,
-            "dataset_10": 17503
-          },
-          "sample_doc_ids": [
-            "EFTA02213040",
-            "EFTA02731082",
-            "EFTA02731200",
-            "HOUSE_OVERSIGHT_019467",
-            "HOUSE_OVERSIGHT_031751"
-          ],
-          "note": "Darren Indyke, estate co-executor (Bloomberg)"
-        },
-        {
-          "rank": 4,
-          "text": "Trump",
-          "count": 13009,
-          "docs": 1252,
-          "datasets": {
-            "dataset_12": 1,
-            "estate": 4258,
-            "dataset_8": 752,
-            "dataset_10": 7998
-          },
-          "sample_doc_ids": [
-            "EFTA02731433",
-            "HOUSE_OVERSIGHT_022187",
-            "HOUSE_OVERSIGHT_025100",
-            "HOUSE_OVERSIGHT_026232",
-            "HOUSE_OVERSIGHT_029143"
-          ],
-          "note": "Oversight Dems: 'easily more than a thousand' mentions across Nov-2025 batch"
-        },
-        {
-          "rank": 5,
-          "text": "Andrew",
-          "count": 12159,
-          "docs": 4176,
-          "datasets": {
-            "dataset_12": 26,
-            "dataset_11": 1,
-            "dataset_7": 5,
-            "dataset_4": 10,
-            "emails": 24,
-            "estate": 806,
-            "dataset_8": 2293,
-            "dataset_10": 8994
-          },
-          "sample_doc_ids": [
-            "EFTA02730267",
-            "EFTA02731684",
-            "EFTA02731689",
-            "EFTA02731715",
-            "EFTA02731737"
-          ],
-          "note": "Prince Andrew / 'A' / 'Invisible Man'"
-        },
-        {
-          "rank": 6,
           "text": "Groff",
-          "count": 5914,
-          "docs": 3039,
+          "count": 84542,
+          "docs": 49285,
           "datasets": {
             "dataset_12": 55,
             "dataset_11": 31,
             "emails": 84,
             "estate": 52,
-            "dataset_10": 5692
+            "dataset_10": 84320
           },
           "sample_doc_ids": [
             "EFTA02205827",
@@ -70056,298 +69993,119 @@
             "EFTA02731082",
             "EFTA02731200"
           ],
-          "note": "Lesley Groff, Epstein exec asst (Yahoo / DOJ co-conspirator list)"
+          "note": "Lesley Groff, Epstein exec asst (Yahoo / DOJ co-conspirator list)",
+          "url": null
         },
         {
-          "rank": 7,
-          "text": "the Principal",
-          "count": 4389,
-          "docs": 2737,
+          "rank": 2,
+          "text": "Maxwell",
+          "count": 52692,
+          "docs": 11726,
           "datasets": {
-            "dataset_12": 1,
-            "dataset_4": 1,
-            "emails": 1,
-            "estate": 39,
-            "dataset_8": 40,
-            "dataset_10": 4307
+            "dataset_12": 625,
+            "dataset_6": 771,
+            "dataset_7": 3,
+            "dataset_3": 15,
+            "dataset_4": 51,
+            "emails": 422,
+            "estate": 813,
+            "dataset_8": 14546,
+            "dataset_10": 35446
           },
           "sample_doc_ids": [
-            "EFTA00008320",
-            "EFTA02731069",
-            "HOUSE_OVERSIGHT_017830",
-            "HOUSE_OVERSIGHT_026360",
-            "HOUSE_OVERSIGHT_031146"
-          ],
-          "note": "LSJ house manual term for Epstein (CNN)"
-        },
-        {
-          "rank": 8,
-          "text": "Bannon",
-          "count": 3849,
-          "docs": 347,
-          "datasets": {
-            "estate": 1166,
-            "dataset_8": 25,
-            "dataset_10": 2658
-          },
-          "sample_doc_ids": [
-            "HOUSE_OVERSIGHT_026304",
-            "HOUSE_OVERSIGHT_027307",
-            "HOUSE_OVERSIGHT_030731",
-            "HOUSE_OVERSIGHT_030873",
-            "HOUSE_OVERSIGHT_030878"
-          ],
-          "note": "Steve Bannon; 'europe by remote doesn't work' 2018 thread"
-        },
-        {
-          "rank": 9,
-          "text": "Clinton",
-          "count": 3041,
-          "docs": 828,
-          "datasets": {
-            "dataset_12": 3,
-            "dataset_7": 1,
-            "dataset_3": 451,
-            "dataset_4": 1,
-            "emails": 2,
-            "estate": 1427,
-            "dataset_8": 124,
-            "dataset_10": 1032
-          },
-          "sample_doc_ids": [
-            "EFTA00004577",
-            "EFTA00005386",
-            "EFTA00009116",
-            "EFTA02731039",
-            "EFTA02731082"
-          ],
-          "note": "Bill Clinton; First Fifty Years + Dec 2025 photo batch"
-        },
-        {
-          "rank": 10,
-          "text": "Dershowitz",
-          "count": 2708,
-          "docs": 283,
-          "datasets": {
-            "dataset_12": 4,
-            "dataset_7": 6,
-            "dataset_4": 12,
-            "emails": 4,
-            "estate": 1940,
-            "dataset_8": 135,
-            "dataset_10": 607
-          },
-          "sample_doc_ids": [
-            "EFTA00007157",
-            "EFTA00009116",
-            "EFTA00009329",
-            "EFTA02731082",
-            "HOUSE_OVERSIGHT_029398"
-          ],
-          "note": "Alan Dershowitz; First Fifty Years contributor"
-        },
-        {
-          "rank": 11,
-          "text": "Staley",
-          "count": 2127,
-          "docs": 1015,
-          "datasets": {
-            "dataset_12": 11,
-            "emails": 10,
-            "estate": 36,
-            "dataset_8": 63,
-            "dataset_10": 2007
-          },
-          "sample_doc_ids": [
-            "EFTA02731082",
-            "EFTA02731465",
-            "EFTA02731662",
-            "EFTA02731737",
-            "HOUSE_OVERSIGHT_030501"
-          ],
-          "note": "Jes Staley, JPM; ~1,200 emails 2008–12; Snow White / Beauty and the Beast thread"
-        },
-        {
-          "rank": 12,
-          "text": "Krauss",
-          "count": 1513,
-          "docs": 371,
-          "datasets": {
-            "dataset_12": 1,
-            "estate": 223,
-            "dataset_8": 3,
-            "dataset_10": 1286
-          },
-          "sample_doc_ids": [
-            "EFTA02731465",
-            "HOUSE_OVERSIGHT_014697",
-            "HOUSE_OVERSIGHT_023120",
-            "HOUSE_OVERSIGHT_029180",
-            "HOUSE_OVERSIGHT_031031"
-          ],
-          "note": "Lawrence Krauss, sent Epstein draft of BuzzFeed harassment response"
-        },
-        {
-          "rank": 13,
-          "text": "358 El Brillo",
-          "count": 1508,
-          "docs": 431,
-          "datasets": {
-            "dataset_6": 7,
-            "dataset_7": 1,
-            "dataset_4": 80,
-            "estate": 60,
-            "dataset_8": 169,
-            "dataset_10": 1191
-          },
-          "sample_doc_ids": [
-            "EFTA00008599",
-            "EFTA00008631",
-            "EFTA00008716",
-            "EFTA00008744",
-            "EFTA00008920"
-          ],
-          "note": "Palm Beach mansion address (DS4 police reports)"
-        },
-        {
-          "rank": 14,
-          "text": "Brunel",
-          "count": 1491,
-          "docs": 332,
-          "datasets": {
-            "dataset_12": 25,
-            "dataset_3": 1,
-            "emails": 24,
-            "estate": 627,
-            "dataset_8": 72,
-            "dataset_10": 742
-          },
-          "sample_doc_ids": [
-            "EFTA00004477",
-            "EFTA02731082",
-            "EFTA02731361",
-            "EFTA02731662",
+            "EFTA02731501",
+            "EFTA02731612",
+            "EFTA02731655",
+            "EFTA02731721",
             "EFTA02731737"
           ],
-          "note": "Jean-Luc Brunel; 2019 FBI co-conspirator list"
+          "note": "Ghislaine Maxwell",
+          "url": "https://www.bbc.com/news/world-us-canada-58191641"
         },
         {
-          "rank": 15,
-          "text": "Wexner",
-          "count": 1441,
-          "docs": 587,
-          "datasets": {
-            "dataset_12": 51,
-            "dataset_4": 1,
-            "emails": 50,
-            "estate": 118,
-            "dataset_8": 62,
-            "dataset_10": 1159
-          },
-          "sample_doc_ids": [
-            "EFTA00007157",
-            "EFTA02731039",
-            "EFTA02731069",
-            "EFTA02731082",
-            "HOUSE_OVERSIGHT_022219"
-          ],
-          "note": "Les Wexner; 2019 FBI co-conspirator list (NPR Feb 3 2026)"
-        },
-        {
-          "rank": 16,
-          "text": "Acosta",
-          "count": 1382,
-          "docs": 327,
-          "datasets": {
-            "dataset_12": 1,
-            "dataset_7": 20,
-            "dataset_4": 2,
-            "estate": 318,
-            "dataset_8": 475,
-            "dataset_10": 566
-          },
-          "sample_doc_ids": [
-            "EFTA00009016",
-            "EFTA00009116",
-            "EFTA00009229",
-            "EFTA00009329",
-            "EFTA02731039"
-          ],
-          "note": "Alexander Acosta, AUSA who gave the 2007 NPA"
-        },
-        {
-          "rank": 17,
-          "text": "Leon Black",
-          "count": 1323,
-          "docs": 536,
-          "datasets": {
-            "dataset_12": 322,
-            "dataset_11": 1,
-            "emails": 311,
-            "estate": 21,
-            "dataset_8": 69,
-            "dataset_10": 599
-          },
-          "sample_doc_ids": [
-            "EFTA02731552",
-            "EFTA02731636",
-            "EFTA02731637",
-            "EFTA02731718",
-            "EFTA02731721"
-          ],
-          "note": "Apollo Global; 'Mr. Big' per Puck"
-        },
-        {
-          "rank": 18,
-          "text": "Mandelson",
-          "count": 1188,
-          "docs": 613,
-          "datasets": {
-            "estate": 16,
-            "dataset_8": 3,
-            "dataset_10": 1169
-          },
-          "sample_doc_ids": [
-            "HOUSE_OVERSIGHT_026631",
-            "HOUSE_OVERSIGHT_030456",
-            "HOUSE_OVERSIGHT_030458",
-            "HOUSE_OVERSIGHT_030486",
-            "HOUSE_OVERSIGHT_030516"
-          ],
-          "note": "Peter Mandelson; arrested Feb 23 2026 (ABC)"
-        },
-        {
-          "rank": 19,
-          "text": "Summers",
-          "count": 1067,
-          "docs": 452,
+          "rank": 3,
+          "text": "Kahn",
+          "count": 50378,
+          "docs": 21677,
           "datasets": {
             "dataset_12": 2,
-            "emails": 1,
-            "estate": 164,
-            "dataset_8": 1,
-            "dataset_10": 899
+            "dataset_11": 18,
+            "dataset_1": 1,
+            "emails": 20,
+            "estate": 94,
+            "dataset_8": 56,
+            "dataset_10": 50187
           },
           "sample_doc_ids": [
-            "EFTA02731420",
-            "EFTA02731721",
-            "HOUSE_OVERSIGHT_025133",
-            "HOUSE_OVERSIGHT_029355",
-            "HOUSE_OVERSIGHT_029839"
+            "EFTA02212937",
+            "EFTA02212972",
+            "EFTA02213019",
+            "EFTA02213043",
+            "EFTA02731082"
           ],
-          "note": "Larry Summers; stepped back from Harvard / OpenAI after release"
+          "note": "Richard Kahn, estate co-accountant (Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-02-04/us-reviewed-allegations-against-staley-black-in-epstein-case"
         },
         {
-          "rank": 20,
+          "rank": 4,
+          "text": "Indyke",
+          "count": 26687,
+          "docs": 13103,
+          "datasets": {
+            "dataset_12": 3,
+            "dataset_11": 4,
+            "dataset_1": 1,
+            "emails": 6,
+            "estate": 135,
+            "dataset_8": 216,
+            "dataset_10": 26322
+          },
+          "sample_doc_ids": [
+            "EFTA00003149",
+            "EFTA02213040",
+            "EFTA02731082",
+            "EFTA02731200",
+            "HOUSE_OVERSIGHT_031751"
+          ],
+          "note": "Darren Indyke, estate co-executor (Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-02-04/us-reviewed-allegations-against-staley-black-in-epstein-case"
+        },
+        {
+          "rank": 5,
+          "text": "Andrew",
+          "count": 20343,
+          "docs": 7882,
+          "datasets": {
+            "dataset_12": 26,
+            "dataset_11": 1,
+            "dataset_7": 5,
+            "dataset_4": 10,
+            "emails": 24,
+            "estate": 806,
+            "dataset_8": 2303,
+            "dataset_10": 17168
+          },
+          "sample_doc_ids": [
+            "EFTA02730267",
+            "EFTA02731684",
+            "EFTA02731689",
+            "EFTA02731715",
+            "EFTA02731737"
+          ],
+          "note": "Prince Andrew / 'A' / 'Invisible Man'",
+          "url": "https://www.cnn.com/2025/12/23/europe/ghislaine-maxwell-email-british-royal-family-latam-intl"
+        },
+        {
+          "rank": 6,
           "text": "Centurion",
-          "count": 856,
-          "docs": 206,
+          "count": 18393,
+          "docs": 2959,
           "datasets": {
             "dataset_11": 117,
             "emails": 117,
             "estate": 5,
             "dataset_8": 1,
-            "dataset_10": 616
+            "dataset_10": 18153
           },
           "sample_doc_ids": [
             "EFTA02205655",
@@ -70356,10 +70114,320 @@
             "EFTA02212932",
             "EFTA02212966"
           ],
-          "note": "AmEx black-card concierge service (CBS, Bloomberg)"
+          "note": "AmEx black-card concierge service (CBS, Bloomberg)",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-american-express-centurion-flights/"
+        },
+        {
+          "rank": 7,
+          "text": "Trump",
+          "count": 13481,
+          "docs": 1509,
+          "datasets": {
+            "dataset_12": 1,
+            "estate": 4274,
+            "dataset_8": 753,
+            "dataset_10": 8453
+          },
+          "sample_doc_ids": [
+            "EFTA02731433",
+            "HOUSE_OVERSIGHT_022187",
+            "HOUSE_OVERSIGHT_025100",
+            "HOUSE_OVERSIGHT_026232",
+            "HOUSE_OVERSIGHT_029143"
+          ],
+          "note": "Oversight Dems: 'easily more than a thousand' mentions across Nov-2025 batch",
+          "url": "https://www.cnbc.com/2025/11/12/trump-jeffrey-epstein-ghislaine-maxwell-emails-house-democrats.html"
+        },
+        {
+          "rank": 8,
+          "text": "Staley",
+          "count": 5283,
+          "docs": 3229,
+          "datasets": {
+            "dataset_12": 11,
+            "emails": 10,
+            "estate": 36,
+            "dataset_8": 63,
+            "dataset_10": 5163
+          },
+          "sample_doc_ids": [
+            "EFTA02731082",
+            "EFTA02731465",
+            "EFTA02731662",
+            "EFTA02731737",
+            "HOUSE_OVERSIGHT_030501"
+          ],
+          "note": "Jes Staley, JPM; ~1,200 emails 2008–12; Snow White / Beauty and the Beast thread",
+          "url": "https://www.bloomberg.com/news/articles/2026-02-04/us-reviewed-allegations-against-staley-black-in-epstein-case"
+        },
+        {
+          "rank": 9,
+          "text": "the Principal",
+          "count": 4940,
+          "docs": 2902,
+          "datasets": {
+            "dataset_12": 1,
+            "dataset_4": 1,
+            "emails": 1,
+            "estate": 39,
+            "dataset_8": 40,
+            "dataset_10": 4858
+          },
+          "sample_doc_ids": [
+            "EFTA00008320",
+            "EFTA02731069",
+            "HOUSE_OVERSIGHT_017830",
+            "HOUSE_OVERSIGHT_026360",
+            "HOUSE_OVERSIGHT_031146"
+          ],
+          "note": "LSJ house manual term for Epstein (CNN)",
+          "url": "https://www.cnn.com/2025/12/23/europe/lsj-house-manual-the-principal"
+        },
+        {
+          "rank": 10,
+          "text": "9 East 71",
+          "count": 4917,
+          "docs": 4262,
+          "datasets": {
+            "dataset_12": 9,
+            "dataset_11": 3,
+            "dataset_6": 7,
+            "dataset_1": 1,
+            "dataset_4": 1,
+            "emails": 3,
+            "estate": 2,
+            "dataset_8": 74,
+            "dataset_10": 4817
+          },
+          "sample_doc_ids": [
+            "EFTA00008599",
+            "EFTA02209622",
+            "EFTA02212908",
+            "EFTA02212984",
+            "EFTA02730486"
+          ],
+          "note": "Manhattan townhouse",
+          "url": null
+        },
+        {
+          "rank": 11,
+          "text": "Krauss",
+          "count": 4714,
+          "docs": 1340,
+          "datasets": {
+            "dataset_12": 1,
+            "estate": 223,
+            "dataset_8": 3,
+            "dataset_10": 4487
+          },
+          "sample_doc_ids": [
+            "EFTA02731465",
+            "HOUSE_OVERSIGHT_014697",
+            "HOUSE_OVERSIGHT_023120",
+            "HOUSE_OVERSIGHT_029180",
+            "HOUSE_OVERSIGHT_031031"
+          ],
+          "note": "Lawrence Krauss, sent Epstein draft of BuzzFeed harassment response",
+          "url": null
+        },
+        {
+          "rank": 12,
+          "text": "Leon Black",
+          "count": 4500,
+          "docs": 2735,
+          "datasets": {
+            "dataset_12": 323,
+            "dataset_11": 1,
+            "emails": 312,
+            "estate": 21,
+            "dataset_8": 70,
+            "dataset_10": 3773
+          },
+          "sample_doc_ids": [
+            "EFTA02731552",
+            "EFTA02731636",
+            "EFTA02731637",
+            "EFTA02731718",
+            "EFTA02731721"
+          ],
+          "note": "Apollo Global; 'Mr. Big' per Puck",
+          "url": "https://www.puck.news/leon-black-mr-big-epstein/"
+        },
+        {
+          "rank": 13,
+          "text": "Woody Allen",
+          "count": 4365,
+          "docs": 2616,
+          "datasets": {
+            "estate": 36,
+            "dataset_8": 2,
+            "dataset_10": 4327
+          },
+          "sample_doc_ids": [
+            "HOUSE_OVERSIGHT_019330",
+            "HOUSE_OVERSIGHT_029251",
+            "HOUSE_OVERSIGHT_029773",
+            "HOUSE_OVERSIGHT_029839",
+            "HOUSE_OVERSIGHT_031607"
+          ],
+          "note": "Dec 2025 photo batch",
+          "url": null
+        },
+        {
+          "rank": 14,
+          "text": "Brunel",
+          "count": 4030,
+          "docs": 1973,
+          "datasets": {
+            "dataset_12": 25,
+            "dataset_3": 1,
+            "emails": 24,
+            "estate": 627,
+            "dataset_8": 72,
+            "dataset_10": 3281
+          },
+          "sample_doc_ids": [
+            "EFTA00004477",
+            "EFTA02731082",
+            "EFTA02731361",
+            "EFTA02731662",
+            "EFTA02731737"
+          ],
+          "note": "Jean-Luc Brunel; 2019 FBI co-conspirator list",
+          "url": null
+        },
+        {
+          "rank": 15,
+          "text": "Summers",
+          "count": 3936,
+          "docs": 2242,
+          "datasets": {
+            "dataset_12": 2,
+            "emails": 1,
+            "estate": 164,
+            "dataset_8": 1,
+            "dataset_10": 3768
+          },
+          "sample_doc_ids": [
+            "EFTA02731420",
+            "EFTA02731721",
+            "HOUSE_OVERSIGHT_025133",
+            "HOUSE_OVERSIGHT_029355",
+            "HOUSE_OVERSIGHT_029839"
+          ],
+          "note": "Larry Summers; stepped back from Harvard / OpenAI after release",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "rank": 16,
+          "text": "Bannon",
+          "count": 3874,
+          "docs": 364,
+          "datasets": {
+            "estate": 1169,
+            "dataset_8": 25,
+            "dataset_10": 2680
+          },
+          "sample_doc_ids": [
+            "HOUSE_OVERSIGHT_026304",
+            "HOUSE_OVERSIGHT_027307",
+            "HOUSE_OVERSIGHT_030731",
+            "HOUSE_OVERSIGHT_030873",
+            "HOUSE_OVERSIGHT_030878"
+          ],
+          "note": "Steve Bannon; 'europe by remote doesn't work' 2018 thread",
+          "url": "https://www.npr.org/2025/11/20/nx-s1-5613427/epstein-files-chomsky-bannon-summers-democrats"
+        },
+        {
+          "rank": 17,
+          "text": "Clinton",
+          "count": 3869,
+          "docs": 1151,
+          "datasets": {
+            "dataset_12": 3,
+            "dataset_7": 1,
+            "dataset_3": 451,
+            "dataset_4": 1,
+            "emails": 2,
+            "estate": 1429,
+            "dataset_8": 124,
+            "dataset_10": 1858
+          },
+          "sample_doc_ids": [
+            "EFTA00004577",
+            "EFTA00005386",
+            "EFTA00009116",
+            "EFTA02731039",
+            "EFTA02731082"
+          ],
+          "note": "Bill Clinton; First Fifty Years + Dec 2025 photo batch",
+          "url": "https://www.washingtonpost.com/national-security/2025/12/clinton-first-fifty-years-epstein-book/"
+        },
+        {
+          "rank": 18,
+          "text": "Joi Ito",
+          "count": 3407,
+          "docs": 1981,
+          "datasets": {
+            "estate": 10,
+            "dataset_10": 3397
+          },
+          "sample_doc_ids": [
+            "HOUSE_OVERSIGHT_025606",
+            "HOUSE_OVERSIGHT_026360",
+            "HOUSE_OVERSIGHT_028847",
+            "HOUSE_OVERSIGHT_028964",
+            "HOUSE_OVERSIGHT_029500"
+          ],
+          "note": "MIT Media Lab; $1.7M 'anonymous' donation routing",
+          "url": "https://www.newyorker.com/news/news-desk/the-mit-media-labs-jeffrey-epstein-debacle-explained"
+        },
+        {
+          "rank": 19,
+          "text": "Mandelson",
+          "count": 3123,
+          "docs": 1914,
+          "datasets": {
+            "estate": 16,
+            "dataset_8": 3,
+            "dataset_10": 3104
+          },
+          "sample_doc_ids": [
+            "HOUSE_OVERSIGHT_026631",
+            "HOUSE_OVERSIGHT_030456",
+            "HOUSE_OVERSIGHT_030458",
+            "HOUSE_OVERSIGHT_030486",
+            "HOUSE_OVERSIGHT_030516"
+          ],
+          "note": "Peter Mandelson; arrested Feb 23 2026 (ABC)",
+          "url": "https://abcnews.go.com/International/peter-mandelson-arrested-epstein/story?id=mandelson-2026"
+        },
+        {
+          "rank": 20,
+          "text": "Dershowitz",
+          "count": 2926,
+          "docs": 317,
+          "datasets": {
+            "dataset_12": 4,
+            "dataset_7": 6,
+            "dataset_4": 12,
+            "emails": 4,
+            "estate": 1940,
+            "dataset_8": 136,
+            "dataset_10": 824
+          },
+          "sample_doc_ids": [
+            "EFTA00007157",
+            "EFTA00009116",
+            "EFTA00009329",
+            "EFTA02731082",
+            "HOUSE_OVERSIGHT_029398"
+          ],
+          "note": "Alan Dershowitz; First Fifty Years contributor",
+          "url": null
         }
       ],
-      "explainer": "Counts of journalist-cited names and phrases across the full corpus. The \"source\" column is a short citation only — NOT a clickable URL. (For phrases with real article links + significance blurbs, see the Verbatim press quotes page above.)"
+      "explainer": "Counts of journalist-cited names and phrases across the full corpus. Rows with a primary-source citation link out to the original article; the rest list a short citation note only. (For phrases with full significance blurbs + verbatim quotes, see the Verbatim press quotes page above.)"
     },
     {
       "kind": "codeword_top",
@@ -70369,17 +70437,20 @@
         {
           "rank": 1,
           "text": "GM",
-          "count": 168145,
-          "docs": 82937,
+          "count": 241034,
+          "docs": 117568,
           "datasets": {
             "dataset_12": 16,
             "dataset_6": 430,
+            "dataset_5": 1,
+            "dataset_2": 1,
+            "dataset_1": 1,
             "dataset_3": 18,
             "dataset_4": 5,
             "emails": 10,
             "estate": 31,
-            "dataset_8": 2089,
-            "dataset_10": 165546
+            "dataset_8": 2111,
+            "dataset_10": 238410
           },
           "sample_doc_ids": [
             "EFTA02731168",
@@ -70388,166 +70459,25 @@
             "EFTA02731515",
             "EFTA02731737"
           ],
-          "note": "Ghislaine Maxwell"
+          "note": "Ghislaine Maxwell",
+          "url": null
         },
         {
           "rank": 2,
-          "text": "model",
-          "count": 15152,
-          "docs": 5704,
-          "datasets": {
-            "dataset_12": 51,
-            "dataset_6": 9,
-            "dataset_7": 2,
-            "dataset_3": 10,
-            "dataset_4": 57,
-            "emails": 29,
-            "estate": 2058,
-            "dataset_8": 1464,
-            "dataset_10": 11472
-          },
-          "sample_doc_ids": [
-            "EFTA02731200",
-            "EFTA02731361",
-            "EFTA02731643",
-            "EFTA02731644",
-            "EFTA02731646"
-          ],
-          "note": "Recruitment cover (Brunel/MC2 context)"
-        },
-        {
-          "rank": 3,
-          "text": "minor",
-          "count": 12095,
-          "docs": 2217,
-          "datasets": {
-            "dataset_12": 120,
-            "dataset_11": 2,
-            "dataset_6": 239,
-            "dataset_7": 37,
-            "dataset_4": 13,
-            "emails": 76,
-            "estate": 733,
-            "dataset_8": 4980,
-            "dataset_10": 5895
-          },
-          "sample_doc_ids": [
-            "EFTA02731018",
-            "EFTA02731023",
-            "EFTA02731636",
-            "EFTA02731637",
-            "EFTA02731736"
-          ],
-          "note": ""
-        },
-        {
-          "rank": 4,
-          "text": "massage",
-          "count": 11793,
-          "docs": 1212,
-          "datasets": {
-            "dataset_12": 527,
-            "dataset_6": 276,
-            "dataset_7": 169,
-            "dataset_4": 2961,
-            "emails": 409,
-            "estate": 1466,
-            "dataset_8": 1262,
-            "dataset_10": 4723
-          },
-          "sample_doc_ids": [
-            "EFTA02730996",
-            "EFTA02731643",
-            "EFTA02731655",
-            "EFTA02731729",
-            "EFTA02731737"
-          ],
-          "note": "Giuffre 2016 depo: 'their code word' for commercial sex/abuse"
-        },
-        {
-          "rank": 5,
-          "text": "discretion",
-          "count": 11772,
-          "docs": 6061,
-          "datasets": {
-            "dataset_7": 26,
-            "dataset_4": 1,
-            "estate": 248,
-            "dataset_8": 434,
-            "dataset_10": 11063
-          },
-          "sample_doc_ids": [
-            "EFTA00009016",
-            "EFTA00009116",
-            "EFTA00009229",
-            "EFTA00009329",
-            "EFTA00009654"
-          ],
-          "note": ""
-        },
-        {
-          "rank": 6,
-          "text": "NM",
-          "count": 6595,
-          "docs": 2902,
-          "datasets": {
-            "dataset_12": 6,
-            "dataset_6": 2,
-            "dataset_7": 5,
-            "dataset_3": 5,
-            "dataset_4": 19,
-            "emails": 4,
-            "estate": 49,
-            "dataset_8": 193,
-            "dataset_10": 6312
-          },
-          "sample_doc_ids": [
-            "EFTA00008716",
-            "EFTA00008892",
-            "EFTA02731260",
-            "EFTA02731361",
-            "EFTA02731528"
-          ],
-          "note": "Nadia Marcinkova — 2008 NPA unindicted co-conspirator"
-        },
-        {
-          "rank": 7,
-          "text": "LSJ",
-          "count": 6591,
-          "docs": 2870,
-          "datasets": {
-            "dataset_12": 4,
-            "dataset_11": 2,
-            "dataset_3": 135,
-            "emails": 1,
-            "estate": 3,
-            "dataset_8": 43,
-            "dataset_10": 6403
-          },
-          "sample_doc_ids": [
-            "EFTA00004663",
-            "EFTA00005091",
-            "EFTA02212971",
-            "EFTA02213042",
-            "EFTA02730486"
-          ],
-          "note": "Little Saint James"
-        },
-        {
-          "rank": 8,
           "text": "JE",
-          "count": 6474,
-          "docs": 3794,
+          "count": 51868,
+          "docs": 32695,
           "datasets": {
             "dataset_12": 82,
             "dataset_11": 7,
             "dataset_6": 11,
+            "dataset_1": 5,
             "dataset_3": 117,
             "dataset_4": 23,
             "emails": 83,
             "estate": 38,
-            "dataset_8": 660,
-            "dataset_10": 5453
+            "dataset_8": 664,
+            "dataset_10": 50838
           },
           "sample_doc_ids": [
             "EFTA02731260",
@@ -70556,47 +70486,133 @@
             "EFTA02731512",
             "EFTA02731737"
           ],
-          "note": "Jeffrey Epstein"
+          "note": "Jeffrey Epstein",
+          "url": null
         },
         {
-          "rank": 9,
-          "text": "Zorro",
-          "count": 6420,
-          "docs": 4034,
+          "rank": 3,
+          "text": "model",
+          "count": 24442,
+          "docs": 8273,
           "datasets": {
-            "dataset_12": 2,
-            "dataset_6": 5,
-            "dataset_3": 81,
-            "dataset_4": 3,
-            "estate": 20,
-            "dataset_8": 29,
-            "dataset_10": 6280
+            "dataset_12": 51,
+            "dataset_6": 9,
+            "dataset_7": 2,
+            "dataset_1": 12,
+            "dataset_3": 10,
+            "dataset_4": 57,
+            "emails": 29,
+            "estate": 2058,
+            "dataset_8": 1466,
+            "dataset_10": 20748
           },
           "sample_doc_ids": [
-            "EFTA00008631",
-            "EFTA00008716",
-            "EFTA00008744",
-            "EFTA00008920",
-            "EFTA02730486"
+            "EFTA02731200",
+            "EFTA02731361",
+            "EFTA02731643",
+            "EFTA02731644",
+            "EFTA02731646"
           ],
-          "note": "Zorro Ranch NM"
+          "note": "Recruitment cover (Brunel/MC2 context)",
+          "url": null
         },
         {
-          "rank": 10,
+          "rank": 4,
+          "text": "massage",
+          "count": 19543,
+          "docs": 2243,
+          "datasets": {
+            "dataset_12": 527,
+            "dataset_6": 276,
+            "dataset_7": 169,
+            "dataset_4": 2961,
+            "emails": 409,
+            "estate": 1466,
+            "dataset_8": 1262,
+            "dataset_10": 12473
+          },
+          "sample_doc_ids": [
+            "EFTA02730996",
+            "EFTA02731643",
+            "EFTA02731655",
+            "EFTA02731729",
+            "EFTA02731737"
+          ],
+          "note": "Giuffre 2016 depo: 'their code word' for commercial sex/abuse",
+          "url": null
+        },
+        {
+          "rank": 5,
+          "text": "LSJ",
+          "count": 17963,
+          "docs": 9815,
+          "datasets": {
+            "dataset_12": 4,
+            "dataset_11": 2,
+            "dataset_1": 1,
+            "dataset_3": 135,
+            "emails": 1,
+            "estate": 3,
+            "dataset_8": 44,
+            "dataset_10": 17773
+          },
+          "sample_doc_ids": [
+            "EFTA00002178",
+            "EFTA00004663",
+            "EFTA02212971",
+            "EFTA02213042",
+            "EFTA02730486"
+          ],
+          "note": "Little Saint James",
+          "url": null
+        },
+        {
+          "rank": 6,
+          "text": "NM",
+          "count": 16400,
+          "docs": 4402,
+          "datasets": {
+            "dataset_12": 6,
+            "dataset_6": 2,
+            "dataset_7": 5,
+            "dataset_2": 1,
+            "dataset_1": 5,
+            "dataset_3": 5,
+            "dataset_4": 19,
+            "emails": 4,
+            "estate": 49,
+            "dataset_8": 193,
+            "dataset_10": 16111
+          },
+          "sample_doc_ids": [
+            "EFTA00008716",
+            "EFTA00008892",
+            "EFTA02731260",
+            "EFTA02731361",
+            "EFTA02731528"
+          ],
+          "note": "Nadia Marcinkova — 2008 NPA unindicted co-conspirator",
+          "url": null
+        },
+        {
+          "rank": 7,
           "text": "AR",
-          "count": 6135,
-          "docs": 3873,
+          "count": 14622,
+          "docs": 7081,
           "datasets": {
             "dataset_12": 19,
             "dataset_11": 2,
             "dataset_6": 5,
+            "dataset_5": 6,
             "dataset_7": 1,
+            "dataset_2": 13,
+            "dataset_1": 21,
             "dataset_3": 7,
             "dataset_4": 27,
             "emails": 11,
-            "estate": 86,
-            "dataset_8": 380,
-            "dataset_10": 5597
+            "estate": 87,
+            "dataset_8": 381,
+            "dataset_10": 14042
           },
           "sample_doc_ids": [
             "EFTA02731168",
@@ -70605,23 +70621,122 @@
             "EFTA02731433",
             "EFTA02731790"
           ],
-          "note": "Adriana Ross — 2008 NPA unindicted co-conspirator"
+          "note": "Adriana Ross — 2008 NPA unindicted co-conspirator",
+          "url": null
+        },
+        {
+          "rank": 8,
+          "text": "minor",
+          "count": 14410,
+          "docs": 2821,
+          "datasets": {
+            "dataset_12": 120,
+            "dataset_11": 2,
+            "dataset_6": 239,
+            "dataset_7": 37,
+            "dataset_4": 13,
+            "emails": 76,
+            "estate": 733,
+            "dataset_8": 4983,
+            "dataset_10": 8207
+          },
+          "sample_doc_ids": [
+            "EFTA02731018",
+            "EFTA02731023",
+            "EFTA02731636",
+            "EFTA02731637",
+            "EFTA02731736"
+          ],
+          "note": "",
+          "url": null
+        },
+        {
+          "rank": 9,
+          "text": "discretion",
+          "count": 13336,
+          "docs": 6334,
+          "datasets": {
+            "dataset_7": 26,
+            "dataset_4": 1,
+            "estate": 248,
+            "dataset_8": 434,
+            "dataset_10": 12627
+          },
+          "sample_doc_ids": [
+            "EFTA00009016",
+            "EFTA00009116",
+            "EFTA00009229",
+            "EFTA00009329",
+            "EFTA00009654"
+          ],
+          "note": "",
+          "url": null
+        },
+        {
+          "rank": 10,
+          "text": "Zorro",
+          "count": 11921,
+          "docs": 6982,
+          "datasets": {
+            "dataset_12": 2,
+            "dataset_6": 5,
+            "dataset_1": 2,
+            "dataset_3": 81,
+            "dataset_4": 3,
+            "estate": 20,
+            "dataset_8": 29,
+            "dataset_10": 11779
+          },
+          "sample_doc_ids": [
+            "EFTA00008631",
+            "EFTA00008716",
+            "EFTA00008744",
+            "EFTA00008920",
+            "EFTA02730486"
+          ],
+          "note": "Zorro Ranch NM",
+          "url": null
         },
         {
           "rank": 11,
+          "text": "Alert -",
+          "count": 10425,
+          "docs": 10229,
+          "datasets": {
+            "dataset_11": 9,
+            "emails": 9,
+            "estate": 4,
+            "dataset_8": 2,
+            "dataset_10": 10401
+          },
+          "sample_doc_ids": [
+            "EFTA02212890",
+            "EFTA02212906",
+            "EFTA02212924",
+            "EFTA02212936",
+            "EFTA02212996"
+          ],
+          "note": "Calendar-system subject prefix",
+          "url": null
+        },
+        {
+          "rank": 12,
           "text": "DI",
-          "count": 5792,
-          "docs": 3657,
+          "count": 10403,
+          "docs": 5426,
           "datasets": {
             "dataset_12": 18,
             "dataset_11": 2,
             "dataset_6": 2,
+            "dataset_5": 5,
+            "dataset_2": 3,
+            "dataset_1": 7,
             "dataset_3": 1,
             "dataset_4": 35,
             "emails": 7,
             "estate": 104,
             "dataset_8": 123,
-            "dataset_10": 5500
+            "dataset_10": 10096
           },
           "sample_doc_ids": [
             "EFTA02730486",
@@ -70630,57 +70745,14 @@
             "EFTA02731341",
             "EFTA02731361"
           ],
-          "note": "Darren Indyke, attorney — same list"
-        },
-        {
-          "rank": 12,
-          "text": "models",
-          "count": 4863,
-          "docs": 2335,
-          "datasets": {
-            "dataset_12": 2,
-            "dataset_4": 15,
-            "emails": 2,
-            "estate": 518,
-            "dataset_8": 41,
-            "dataset_10": 4285
-          },
-          "sample_doc_ids": [
-            "EFTA00007893",
-            "EFTA00008020",
-            "EFTA00008120",
-            "EFTA00008220",
-            "EFTA02731082"
-          ],
-          "note": ""
+          "note": "Darren Indyke, attorney — same list",
+          "url": null
         },
         {
           "rank": 13,
-          "text": "the Principal",
-          "count": 4389,
-          "docs": 2737,
-          "datasets": {
-            "dataset_12": 1,
-            "dataset_4": 1,
-            "emails": 1,
-            "estate": 39,
-            "dataset_8": 40,
-            "dataset_10": 4307
-          },
-          "sample_doc_ids": [
-            "EFTA00008320",
-            "EFTA02731069",
-            "HOUSE_OVERSIGHT_017830",
-            "HOUSE_OVERSIGHT_026360",
-            "HOUSE_OVERSIGHT_031146"
-          ],
-          "note": "LSJ house manual: required staff term for Epstein"
-        },
-        {
-          "rank": 14,
           "text": "appointment",
-          "count": 3046,
-          "docs": 1725,
+          "count": 9946,
+          "docs": 6225,
           "datasets": {
             "dataset_12": 39,
             "dataset_11": 22,
@@ -70690,7 +70762,7 @@
             "emails": 47,
             "estate": 186,
             "dataset_8": 381,
-            "dataset_10": 2269
+            "dataset_10": 9169
           },
           "sample_doc_ids": [
             "EFTA02730477",
@@ -70699,37 +70771,14 @@
             "EFTA02731082",
             "EFTA02731200"
           ],
-          "note": "Groff/Kellen scheduled 'massage appointments'"
+          "note": "Groff/Kellen scheduled 'massage appointments'",
+          "url": null
         },
         {
-          "rank": 15,
-          "text": "underage",
-          "count": 2568,
-          "docs": 792,
-          "datasets": {
-            "dataset_12": 22,
-            "dataset_6": 17,
-            "dataset_7": 23,
-            "dataset_4": 4,
-            "emails": 10,
-            "estate": 558,
-            "dataset_8": 454,
-            "dataset_10": 1480
-          },
-          "sample_doc_ids": [
-            "EFTA02730996",
-            "EFTA02731018",
-            "EFTA02731023",
-            "EFTA02731200",
-            "EFTA02731488"
-          ],
-          "note": ""
-        },
-        {
-          "rank": 16,
+          "rank": 14,
           "text": "the Island",
-          "count": 2410,
-          "docs": 1437,
+          "count": 7982,
+          "docs": 6046,
           "datasets": {
             "dataset_12": 5,
             "dataset_11": 3,
@@ -70738,7 +70787,7 @@
             "emails": 6,
             "estate": 148,
             "dataset_8": 247,
-            "dataset_10": 1994
+            "dataset_10": 7566
           },
           "sample_doc_ids": [
             "EFTA02213009",
@@ -70747,23 +70796,50 @@
             "EFTA02731465",
             "EFTA02731488"
           ],
-          "note": "LSJ"
+          "note": "LSJ",
+          "url": null
         },
         {
-          "rank": 17,
+          "rank": 15,
+          "text": "models",
+          "count": 6513,
+          "docs": 3019,
+          "datasets": {
+            "dataset_12": 2,
+            "dataset_4": 15,
+            "emails": 2,
+            "estate": 518,
+            "dataset_8": 41,
+            "dataset_10": 5935
+          },
+          "sample_doc_ids": [
+            "EFTA00007893",
+            "EFTA00008020",
+            "EFTA00008120",
+            "EFTA00008220",
+            "EFTA02731082"
+          ],
+          "note": "",
+          "url": null
+        },
+        {
+          "rank": 16,
           "text": "tea",
-          "count": 2319,
-          "docs": 1744,
+          "count": 5805,
+          "docs": 2769,
           "datasets": {
             "dataset_12": 7,
             "dataset_11": 1,
             "dataset_6": 23,
+            "dataset_5": 2,
+            "dataset_2": 3,
+            "dataset_1": 5,
             "dataset_3": 1,
             "dataset_4": 18,
             "emails": 5,
             "estate": 104,
             "dataset_8": 38,
-            "dataset_10": 2122
+            "dataset_10": 5598
           },
           "sample_doc_ids": [
             "EFTA00008631",
@@ -70772,58 +70848,62 @@
             "EFTA02731168",
             "EFTA02731260"
           ],
-          "note": "Recurring social-invite token (CNN, Couric/Epstein 2010 emails)"
+          "note": "Recurring social-invite token (CNN, Couric/Epstein 2010 emails)",
+          "url": null
+        },
+        {
+          "rank": 17,
+          "text": " PBI ",
+          "count": 5000,
+          "docs": 885,
+          "datasets": {
+            "dataset_11": 5,
+            "dataset_6": 2,
+            "dataset_3": 1,
+            "dataset_4": 18,
+            "emails": 5,
+            "estate": 13,
+            "dataset_8": 24,
+            "dataset_10": 4932
+          },
+          "sample_doc_ids": [
+            "EFTA00008529",
+            "EFTA00008744",
+            "EFTA02212929",
+            "EFTA02212997",
+            "EFTA02213008"
+          ],
+          "note": "PBI shorthand",
+          "url": null
         },
         {
           "rank": 18,
-          "text": "LW",
-          "count": 2233,
-          "docs": 1622,
+          "text": "the Principal",
+          "count": 4940,
+          "docs": 2902,
           "datasets": {
-            "dataset_12": 3,
-            "dataset_3": 2,
-            "dataset_4": 2,
+            "dataset_12": 1,
+            "dataset_4": 1,
             "emails": 1,
-            "estate": 13,
-            "dataset_8": 7,
-            "dataset_10": 2205
+            "estate": 39,
+            "dataset_8": 40,
+            "dataset_10": 4858
           },
           "sample_doc_ids": [
-            "EFTA00004070",
-            "EFTA00005569",
-            "EFTA00006069",
-            "EFTA00006870",
-            "EFTA02731260"
+            "EFTA00008320",
+            "EFTA02731069",
+            "HOUSE_OVERSIGHT_017830",
+            "HOUSE_OVERSIGHT_026360",
+            "HOUSE_OVERSIGHT_031146"
           ],
-          "note": "Les Wexner — same 2019 FBI co-conspirator list"
+          "note": "LSJ house manual: required staff term for Epstein",
+          "url": null
         },
         {
           "rank": 19,
-          "text": "El Brillo",
-          "count": 1734,
-          "docs": 493,
-          "datasets": {
-            "dataset_6": 10,
-            "dataset_7": 3,
-            "dataset_4": 86,
-            "estate": 97,
-            "dataset_8": 176,
-            "dataset_10": 1362
-          },
-          "sample_doc_ids": [
-            "EFTA00008599",
-            "EFTA00008631",
-            "EFTA00008716",
-            "EFTA00008744",
-            "EFTA00008920"
-          ],
-          "note": "Palm Beach residence street"
-        },
-        {
-          "rank": 20,
           "text": "spa",
-          "count": 1547,
-          "docs": 678,
+          "count": 4174,
+          "docs": 1523,
           "datasets": {
             "dataset_12": 1,
             "dataset_3": 3,
@@ -70831,7 +70911,7 @@
             "emails": 1,
             "estate": 36,
             "dataset_8": 27,
-            "dataset_10": 1280
+            "dataset_10": 3907
           },
           "sample_doc_ids": [
             "EFTA00004070",
@@ -70840,7 +70920,32 @@
             "EFTA00008220",
             "EFTA02731260"
           ],
-          "note": "Recruitment venue (Mar-a-Lago spa)"
+          "note": "Recruitment venue (Mar-a-Lago spa)",
+          "url": null
+        },
+        {
+          "rank": 20,
+          "text": "LW",
+          "count": 3654,
+          "docs": 2050,
+          "datasets": {
+            "dataset_12": 3,
+            "dataset_3": 2,
+            "dataset_4": 2,
+            "emails": 1,
+            "estate": 13,
+            "dataset_8": 7,
+            "dataset_10": 3626
+          },
+          "sample_doc_ids": [
+            "EFTA00004070",
+            "EFTA00005569",
+            "EFTA00006069",
+            "EFTA00006870",
+            "EFTA02731260"
+          ],
+          "note": "Les Wexner — same 2019 FBI co-conspirator list",
+          "url": null
         }
       ],
       "explainer": "Documented Epstein-network code language from court filings + journalist reporting. Counts the literal terms across the corpus."
@@ -70848,426 +70953,228 @@
     {
       "kind": "doc_dates_year",
       "title": "Document dates by year (when each doc was written)",
-      "subtitle": "method breakdown: {'first_body_date': 83139, 'none': 35751, 'bare_year_fallback': 12838, 'sent_header': 22196, 'report_date_header': 4759}",
+      "subtitle": "method breakdown: {'first_body_date': 141366, 'none': 50865, 'bare_year_fallback': 17163, 'sent_header': 238775, 'report_date_header': 6202}",
       "rows": [
         {
           "rank": 1,
-          "text": "1950",
-          "count": 1,
+          "text": "1990",
+          "count": 38,
           "bar_pct": 0
         },
         {
           "rank": 2,
-          "text": "1951",
-          "count": 1,
+          "text": "1991",
+          "count": 31,
           "bar_pct": 0
         },
         {
           "rank": 3,
-          "text": "1952",
-          "count": 3,
+          "text": "1992",
+          "count": 28,
           "bar_pct": 0
         },
         {
           "rank": 4,
-          "text": "1953",
-          "count": 49,
+          "text": "1993",
+          "count": 28,
           "bar_pct": 0
         },
         {
           "rank": 5,
-          "text": "1954",
-          "count": 1,
+          "text": "1994",
+          "count": 31,
           "bar_pct": 0
         },
         {
           "rank": 6,
-          "text": "1955",
-          "count": 5,
+          "text": "1995",
+          "count": 28,
           "bar_pct": 0
         },
         {
           "rank": 7,
-          "text": "1956",
-          "count": 4,
+          "text": "1996",
+          "count": 77,
           "bar_pct": 0
         },
         {
           "rank": 8,
-          "text": "1957",
-          "count": 1,
+          "text": "1997",
+          "count": 42,
           "bar_pct": 0
         },
         {
           "rank": 9,
-          "text": "1958",
-          "count": 2,
+          "text": "1998",
+          "count": 87,
           "bar_pct": 0
         },
         {
           "rank": 10,
-          "text": "1959",
-          "count": 2,
+          "text": "1999",
+          "count": 144,
           "bar_pct": 0
         },
         {
           "rank": 11,
-          "text": "1960",
-          "count": 1,
+          "text": "2000",
+          "count": 569,
           "bar_pct": 0
         },
         {
           "rank": 12,
-          "text": "1961",
-          "count": 6,
+          "text": "2001",
+          "count": 597,
           "bar_pct": 0
         },
         {
           "rank": 13,
-          "text": "1962",
-          "count": 1,
-          "bar_pct": 0
+          "text": "2002",
+          "count": 1416,
+          "bar_pct": 1
         },
         {
           "rank": 14,
-          "text": "1964",
-          "count": 1,
-          "bar_pct": 0
+          "text": "2003",
+          "count": 2108,
+          "bar_pct": 2
         },
         {
           "rank": 15,
-          "text": "1965",
-          "count": 4,
-          "bar_pct": 0
+          "text": "2004",
+          "count": 2968,
+          "bar_pct": 3
         },
         {
           "rank": 16,
-          "text": "1966",
-          "count": 2,
-          "bar_pct": 0
+          "text": "2005",
+          "count": 2026,
+          "bar_pct": 2
         },
         {
           "rank": 17,
-          "text": "1969",
-          "count": 7,
-          "bar_pct": 0
+          "text": "2006",
+          "count": 2437,
+          "bar_pct": 3
         },
         {
           "rank": 18,
-          "text": "1970",
-          "count": 1,
-          "bar_pct": 0
+          "text": "2007",
+          "count": 3371,
+          "bar_pct": 4
         },
         {
           "rank": 19,
-          "text": "1972",
-          "count": 2,
-          "bar_pct": 0
+          "text": "2008",
+          "count": 3691,
+          "bar_pct": 4
         },
         {
           "rank": 20,
-          "text": "1974",
-          "count": 2,
-          "bar_pct": 0
+          "text": "2009",
+          "count": 10609,
+          "bar_pct": 14
         },
         {
           "rank": 21,
-          "text": "1975",
-          "count": 1,
-          "bar_pct": 0
+          "text": "2010",
+          "count": 23971,
+          "bar_pct": 32
         },
         {
           "rank": 22,
-          "text": "1976",
-          "count": 5,
-          "bar_pct": 0
+          "text": "2011",
+          "count": 58590,
+          "bar_pct": 78
         },
         {
           "rank": 23,
-          "text": "1977",
-          "count": 6,
-          "bar_pct": 0
+          "text": "2012",
+          "count": 66616,
+          "bar_pct": 89
         },
         {
           "rank": 24,
-          "text": "1978",
-          "count": 3,
-          "bar_pct": 0
+          "text": "2013",
+          "count": 74221,
+          "bar_pct": 100
         },
         {
           "rank": 25,
-          "text": "1981",
-          "count": 2,
-          "bar_pct": 0
+          "text": "2014",
+          "count": 50799,
+          "bar_pct": 68
         },
         {
           "rank": 26,
-          "text": "1985",
-          "count": 6,
-          "bar_pct": 0
+          "text": "2015",
+          "count": 26140,
+          "bar_pct": 35
         },
         {
           "rank": 27,
-          "text": "1986",
-          "count": 2,
-          "bar_pct": 0
+          "text": "2016",
+          "count": 30299,
+          "bar_pct": 40
         },
         {
           "rank": 28,
-          "text": "1987",
-          "count": 3,
-          "bar_pct": 0
+          "text": "2017",
+          "count": 12943,
+          "bar_pct": 17
         },
         {
           "rank": 29,
-          "text": "1988",
-          "count": 2,
-          "bar_pct": 0
+          "text": "2018",
+          "count": 7004,
+          "bar_pct": 9
         },
         {
           "rank": 30,
-          "text": "1989",
-          "count": 7,
-          "bar_pct": 0
+          "text": "2019",
+          "count": 13573,
+          "bar_pct": 18
         },
         {
           "rank": 31,
-          "text": "1990",
-          "count": 28,
-          "bar_pct": 0
+          "text": "2020",
+          "count": 5793,
+          "bar_pct": 7
         },
         {
           "rank": 32,
-          "text": "1991",
-          "count": 28,
-          "bar_pct": 0
+          "text": "2021",
+          "count": 2238,
+          "bar_pct": 3
         },
         {
           "rank": 33,
-          "text": "1992",
-          "count": 19,
+          "text": "2022",
+          "count": 156,
           "bar_pct": 0
         },
         {
           "rank": 34,
-          "text": "1993",
-          "count": 25,
+          "text": "2023",
+          "count": 169,
           "bar_pct": 0
         },
         {
           "rank": 35,
-          "text": "1994",
-          "count": 26,
+          "text": "2024",
+          "count": 144,
           "bar_pct": 0
         },
         {
           "rank": 36,
-          "text": "1995",
-          "count": 23,
+          "text": "2025",
+          "count": 515,
           "bar_pct": 0
         },
         {
           "rank": 37,
-          "text": "1996",
-          "count": 58,
-          "bar_pct": 0
-        },
-        {
-          "rank": 38,
-          "text": "1997",
-          "count": 27,
-          "bar_pct": 0
-        },
-        {
-          "rank": 39,
-          "text": "1998",
-          "count": 66,
-          "bar_pct": 0
-        },
-        {
-          "rank": 40,
-          "text": "1999",
-          "count": 122,
-          "bar_pct": 0
-        },
-        {
-          "rank": 41,
-          "text": "2000",
-          "count": 385,
-          "bar_pct": 2
-        },
-        {
-          "rank": 42,
-          "text": "2001",
-          "count": 453,
-          "bar_pct": 3
-        },
-        {
-          "rank": 43,
-          "text": "2002",
-          "count": 1050,
-          "bar_pct": 7
-        },
-        {
-          "rank": 44,
-          "text": "2003",
-          "count": 1740,
-          "bar_pct": 12
-        },
-        {
-          "rank": 45,
-          "text": "2004",
-          "count": 2487,
-          "bar_pct": 17
-        },
-        {
-          "rank": 46,
-          "text": "2005",
-          "count": 1624,
-          "bar_pct": 11
-        },
-        {
-          "rank": 47,
-          "text": "2006",
-          "count": 1929,
-          "bar_pct": 13
-        },
-        {
-          "rank": 48,
-          "text": "2007",
-          "count": 2603,
-          "bar_pct": 18
-        },
-        {
-          "rank": 49,
-          "text": "2008",
-          "count": 2518,
-          "bar_pct": 18
-        },
-        {
-          "rank": 50,
-          "text": "2009",
-          "count": 5871,
-          "bar_pct": 42
-        },
-        {
-          "rank": 51,
-          "text": "2010",
-          "count": 11757,
-          "bar_pct": 84
-        },
-        {
-          "rank": 52,
-          "text": "2011",
-          "count": 13563,
-          "bar_pct": 97
-        },
-        {
-          "rank": 53,
-          "text": "2012",
-          "count": 11279,
-          "bar_pct": 80
-        },
-        {
-          "rank": 54,
-          "text": "2013",
-          "count": 13946,
-          "bar_pct": 100
-        },
-        {
-          "rank": 55,
-          "text": "2014",
-          "count": 9562,
-          "bar_pct": 68
-        },
-        {
-          "rank": 56,
-          "text": "2015",
-          "count": 8862,
-          "bar_pct": 63
-        },
-        {
-          "rank": 57,
-          "text": "2016",
-          "count": 8688,
-          "bar_pct": 62
-        },
-        {
-          "rank": 58,
-          "text": "2017",
-          "count": 5222,
-          "bar_pct": 37
-        },
-        {
-          "rank": 59,
-          "text": "2018",
-          "count": 5861,
-          "bar_pct": 42
-        },
-        {
-          "rank": 60,
-          "text": "2019",
-          "count": 7370,
-          "bar_pct": 52
-        },
-        {
-          "rank": 61,
-          "text": "2020",
-          "count": 2778,
-          "bar_pct": 19
-        },
-        {
-          "rank": 62,
-          "text": "2021",
-          "count": 2050,
-          "bar_pct": 14
-        },
-        {
-          "rank": 63,
-          "text": "2022",
-          "count": 115,
-          "bar_pct": 0
-        },
-        {
-          "rank": 64,
-          "text": "2023",
-          "count": 148,
-          "bar_pct": 1
-        },
-        {
-          "rank": 65,
-          "text": "2024",
-          "count": 124,
-          "bar_pct": 0
-        },
-        {
-          "rank": 66,
-          "text": "2025",
-          "count": 362,
-          "bar_pct": 2
-        },
-        {
-          "rank": 67,
           "text": "2026",
-          "count": 4,
-          "bar_pct": 0
-        },
-        {
-          "rank": 68,
-          "text": "2028",
-          "count": 5,
-          "bar_pct": 0
-        },
-        {
-          "rank": 69,
-          "text": "2029",
-          "count": 8,
-          "bar_pct": 0
-        },
-        {
-          "rank": 70,
-          "text": "2030",
-          "count": 13,
+          "count": 9,
           "bar_pct": 0
         }
       ],
@@ -71280,488 +71187,224 @@
       "rows": [
         {
           "rank": 1,
-          "text": "1950",
-          "count": 29,
+          "text": "1990",
+          "count": 149,
           "bar_pct": 0
         },
         {
           "rank": 2,
-          "text": "1951",
-          "count": 34,
+          "text": "1991",
+          "count": 181,
           "bar_pct": 0
         },
         {
           "rank": 3,
-          "text": "1952",
-          "count": 24,
+          "text": "1992",
+          "count": 128,
           "bar_pct": 0
         },
         {
           "rank": 4,
-          "text": "1953",
-          "count": 563,
-          "bar_pct": 3
+          "text": "1993",
+          "count": 163,
+          "bar_pct": 0
         },
         {
           "rank": 5,
-          "text": "1954",
-          "count": 37,
+          "text": "1994",
+          "count": 207,
           "bar_pct": 0
         },
         {
           "rank": 6,
-          "text": "1955",
-          "count": 26,
+          "text": "1995",
+          "count": 224,
           "bar_pct": 0
         },
         {
           "rank": 7,
-          "text": "1956",
-          "count": 34,
+          "text": "1996",
+          "count": 257,
           "bar_pct": 0
         },
         {
           "rank": 8,
-          "text": "1957",
-          "count": 14,
+          "text": "1997",
+          "count": 260,
           "bar_pct": 0
         },
         {
           "rank": 9,
-          "text": "1958",
-          "count": 80,
+          "text": "1998",
+          "count": 268,
           "bar_pct": 0
         },
         {
           "rank": 10,
-          "text": "1959",
-          "count": 21,
+          "text": "1999",
+          "count": 561,
           "bar_pct": 0
         },
         {
           "rank": 11,
-          "text": "1960",
-          "count": 33,
-          "bar_pct": 0
+          "text": "2000",
+          "count": 1120,
+          "bar_pct": 1
         },
         {
           "rank": 12,
-          "text": "1961",
-          "count": 64,
-          "bar_pct": 0
+          "text": "2001",
+          "count": 1314,
+          "bar_pct": 1
         },
         {
           "rank": 13,
-          "text": "1962",
-          "count": 44,
-          "bar_pct": 0
+          "text": "2002",
+          "count": 1984,
+          "bar_pct": 2
         },
         {
           "rank": 14,
-          "text": "1963",
-          "count": 34,
-          "bar_pct": 0
+          "text": "2003",
+          "count": 3091,
+          "bar_pct": 4
         },
         {
           "rank": 15,
-          "text": "1964",
-          "count": 22,
-          "bar_pct": 0
+          "text": "2004",
+          "count": 3971,
+          "bar_pct": 5
         },
         {
           "rank": 16,
-          "text": "1965",
-          "count": 95,
-          "bar_pct": 0
+          "text": "2005",
+          "count": 3181,
+          "bar_pct": 4
         },
         {
           "rank": 17,
-          "text": "1966",
-          "count": 29,
-          "bar_pct": 0
+          "text": "2006",
+          "count": 3181,
+          "bar_pct": 4
         },
         {
           "rank": 18,
-          "text": "1967",
-          "count": 27,
-          "bar_pct": 0
+          "text": "2007",
+          "count": 4402,
+          "bar_pct": 5
         },
         {
           "rank": 19,
-          "text": "1968",
-          "count": 19,
-          "bar_pct": 0
+          "text": "2008",
+          "count": 5171,
+          "bar_pct": 6
         },
         {
           "rank": 20,
-          "text": "1969",
-          "count": 36,
-          "bar_pct": 0
+          "text": "2009",
+          "count": 12207,
+          "bar_pct": 15
         },
         {
           "rank": 21,
-          "text": "1970",
-          "count": 37,
-          "bar_pct": 0
+          "text": "2010",
+          "count": 26090,
+          "bar_pct": 34
         },
         {
           "rank": 22,
-          "text": "1971",
-          "count": 22,
-          "bar_pct": 0
+          "text": "2011",
+          "count": 61229,
+          "bar_pct": 79
         },
         {
           "rank": 23,
-          "text": "1972",
-          "count": 51,
-          "bar_pct": 0
+          "text": "2012",
+          "count": 68855,
+          "bar_pct": 89
         },
         {
           "rank": 24,
-          "text": "1973",
-          "count": 25,
-          "bar_pct": 0
+          "text": "2013",
+          "count": 76708,
+          "bar_pct": 100
         },
         {
           "rank": 25,
-          "text": "1974",
-          "count": 45,
-          "bar_pct": 0
+          "text": "2014",
+          "count": 53410,
+          "bar_pct": 69
         },
         {
           "rank": 26,
-          "text": "1975",
-          "count": 46,
-          "bar_pct": 0
+          "text": "2015",
+          "count": 28935,
+          "bar_pct": 37
         },
         {
           "rank": 27,
-          "text": "1976",
-          "count": 28,
-          "bar_pct": 0
+          "text": "2016",
+          "count": 32306,
+          "bar_pct": 42
         },
         {
           "rank": 28,
-          "text": "1977",
-          "count": 44,
-          "bar_pct": 0
+          "text": "2017",
+          "count": 14801,
+          "bar_pct": 19
         },
         {
           "rank": 29,
-          "text": "1978",
-          "count": 40,
-          "bar_pct": 0
+          "text": "2018",
+          "count": 8632,
+          "bar_pct": 11
         },
         {
           "rank": 30,
-          "text": "1979",
-          "count": 22,
-          "bar_pct": 0
+          "text": "2019",
+          "count": 14570,
+          "bar_pct": 18
         },
         {
           "rank": 31,
-          "text": "1980",
-          "count": 28,
-          "bar_pct": 0
+          "text": "2020",
+          "count": 6961,
+          "bar_pct": 9
         },
         {
           "rank": 32,
-          "text": "1981",
-          "count": 57,
-          "bar_pct": 0
+          "text": "2021",
+          "count": 2941,
+          "bar_pct": 3
         },
         {
           "rank": 33,
-          "text": "1982",
-          "count": 37,
+          "text": "2022",
+          "count": 614,
           "bar_pct": 0
         },
         {
           "rank": 34,
-          "text": "1983",
-          "count": 31,
+          "text": "2023",
+          "count": 555,
           "bar_pct": 0
         },
         {
           "rank": 35,
-          "text": "1984",
-          "count": 65,
+          "text": "2024",
+          "count": 379,
           "bar_pct": 0
         },
         {
           "rank": 36,
-          "text": "1985",
-          "count": 41,
-          "bar_pct": 0
+          "text": "2025",
+          "count": 791,
+          "bar_pct": 1
         },
         {
           "rank": 37,
-          "text": "1986",
-          "count": 38,
-          "bar_pct": 0
-        },
-        {
-          "rank": 38,
-          "text": "1987",
-          "count": 53,
-          "bar_pct": 0
-        },
-        {
-          "rank": 39,
-          "text": "1988",
-          "count": 101,
-          "bar_pct": 0
-        },
-        {
-          "rank": 40,
-          "text": "1989",
-          "count": 78,
-          "bar_pct": 0
-        },
-        {
-          "rank": 41,
-          "text": "1990",
-          "count": 99,
-          "bar_pct": 0
-        },
-        {
-          "rank": 42,
-          "text": "1991",
-          "count": 140,
-          "bar_pct": 0
-        },
-        {
-          "rank": 43,
-          "text": "1992",
-          "count": 89,
-          "bar_pct": 0
-        },
-        {
-          "rank": 44,
-          "text": "1993",
-          "count": 113,
-          "bar_pct": 0
-        },
-        {
-          "rank": 45,
-          "text": "1994",
-          "count": 150,
-          "bar_pct": 0
-        },
-        {
-          "rank": 46,
-          "text": "1995",
-          "count": 152,
-          "bar_pct": 0
-        },
-        {
-          "rank": 47,
-          "text": "1996",
-          "count": 206,
-          "bar_pct": 1
-        },
-        {
-          "rank": 48,
-          "text": "1997",
-          "count": 194,
-          "bar_pct": 1
-        },
-        {
-          "rank": 49,
-          "text": "1998",
-          "count": 192,
-          "bar_pct": 1
-        },
-        {
-          "rank": 50,
-          "text": "1999",
-          "count": 444,
-          "bar_pct": 2
-        },
-        {
-          "rank": 51,
-          "text": "2000",
-          "count": 798,
-          "bar_pct": 4
-        },
-        {
-          "rank": 52,
-          "text": "2001",
-          "count": 1007,
-          "bar_pct": 6
-        },
-        {
-          "rank": 53,
-          "text": "2002",
-          "count": 1530,
-          "bar_pct": 9
-        },
-        {
-          "rank": 54,
-          "text": "2003",
-          "count": 2596,
-          "bar_pct": 16
-        },
-        {
-          "rank": 55,
-          "text": "2004",
-          "count": 3362,
-          "bar_pct": 20
-        },
-        {
-          "rank": 56,
-          "text": "2005",
-          "count": 2627,
-          "bar_pct": 16
-        },
-        {
-          "rank": 57,
-          "text": "2006",
-          "count": 2582,
-          "bar_pct": 15
-        },
-        {
-          "rank": 58,
-          "text": "2007",
-          "count": 3498,
-          "bar_pct": 21
-        },
-        {
-          "rank": 59,
-          "text": "2008",
-          "count": 3719,
-          "bar_pct": 22
-        },
-        {
-          "rank": 60,
-          "text": "2009",
-          "count": 7201,
-          "bar_pct": 44
-        },
-        {
-          "rank": 61,
-          "text": "2010",
-          "count": 13508,
-          "bar_pct": 83
-        },
-        {
-          "rank": 62,
-          "text": "2011",
-          "count": 15948,
-          "bar_pct": 98
-        },
-        {
-          "rank": 63,
-          "text": "2012",
-          "count": 13278,
-          "bar_pct": 82
-        },
-        {
-          "rank": 64,
-          "text": "2013",
-          "count": 16181,
-          "bar_pct": 100
-        },
-        {
-          "rank": 65,
-          "text": "2014",
-          "count": 12064,
-          "bar_pct": 74
-        },
-        {
-          "rank": 66,
-          "text": "2015",
-          "count": 11557,
-          "bar_pct": 71
-        },
-        {
-          "rank": 67,
-          "text": "2016",
-          "count": 10440,
-          "bar_pct": 64
-        },
-        {
-          "rank": 68,
-          "text": "2017",
-          "count": 6930,
-          "bar_pct": 42
-        },
-        {
-          "rank": 69,
-          "text": "2018",
-          "count": 7418,
-          "bar_pct": 45
-        },
-        {
-          "rank": 70,
-          "text": "2019",
-          "count": 8297,
-          "bar_pct": 51
-        },
-        {
-          "rank": 71,
-          "text": "2020",
-          "count": 3774,
-          "bar_pct": 23
-        },
-        {
-          "rank": 72,
-          "text": "2021",
-          "count": 2695,
-          "bar_pct": 16
-        },
-        {
-          "rank": 73,
-          "text": "2022",
-          "count": 497,
-          "bar_pct": 3
-        },
-        {
-          "rank": 74,
-          "text": "2023",
-          "count": 486,
-          "bar_pct": 3
-        },
-        {
-          "rank": 75,
-          "text": "2024",
-          "count": 314,
-          "bar_pct": 1
-        },
-        {
-          "rank": 76,
-          "text": "2025",
-          "count": 587,
-          "bar_pct": 3
-        },
-        {
-          "rank": 77,
           "text": "2026",
-          "count": 227,
-          "bar_pct": 1
-        },
-        {
-          "rank": 78,
-          "text": "2027",
-          "count": 46,
-          "bar_pct": 0
-        },
-        {
-          "rank": 79,
-          "text": "2028",
-          "count": 79,
-          "bar_pct": 0
-        },
-        {
-          "rank": 80,
-          "text": "2029",
-          "count": 188,
-          "bar_pct": 1
-        },
-        {
-          "rank": 81,
-          "text": "2030",
-          "count": 73,
+          "count": 281,
           "bar_pct": 0
         }
       ],
