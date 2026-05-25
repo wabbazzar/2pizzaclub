@@ -56,14 +56,82 @@
             <div class="mnav-sheet-head">
                 <div class="mnav-tabs" role="tablist">
                     <button class="mnav-tab is-active" type="button" role="tab" data-tab="captures" aria-selected="true">Captures</button>
+                    <button class="mnav-tab" type="button" role="tab" data-tab="themes" aria-selected="false">Themes</button>
                 </div>
                 <button class="mnav-close" type="button" aria-label="Close">✕</button>
             </div>
             <div class="mnav-tab-panel is-active mnav-gallery-list" data-panel="captures"></div>
+            <div class="mnav-tab-panel mnav-themes-inner mnav-cinema-themes" data-panel="themes">
+                <div class="mnav-cinema-themes-chips"></div>
+                <div class="mnav-cinema-themes-foot">
+                    <span class="mnav-cinema-themes-hint">tap once = include · tap twice = exclude · tap again = off</span>
+                    <button class="theme-clear mnav-cinema-themes-clear" type="button" hidden>clear</button>
+                </div>
+            </div>
         `;
         body.appendChild(sheet);
 
         const listPanel = sheet.querySelector('[data-panel="captures"]');
+        const themesPanel = sheet.querySelector('[data-panel="themes"]');
+        const themesChips = themesPanel.querySelector('.mnav-cinema-themes-chips');
+        const themesClear = themesPanel.querySelector('.mnav-cinema-themes-clear');
+
+        // ---- tab switching ----
+        sheet.querySelectorAll('.mnav-tab').forEach((tab) => {
+            tab.addEventListener('click', () => {
+                const name = tab.dataset.tab;
+                sheet.querySelectorAll('.mnav-tab').forEach((t) => {
+                    const on = t === tab;
+                    t.classList.toggle('is-active', on);
+                    t.setAttribute('aria-selected', on ? 'true' : 'false');
+                });
+                sheet.querySelectorAll('.mnav-tab-panel').forEach((p) => {
+                    p.classList.toggle('is-active', p.dataset.panel === name);
+                });
+                if (name === 'themes') buildThemesChips();
+            });
+        });
+
+        // ---- themes chips wired to cinema.js shared state ----
+        function escAttr(s) {
+            return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+        }
+        function buildThemesChips() {
+            const api = window.__cinemaThemes;
+            if (!api) {
+                themesChips.innerHTML = '<span class="mnav-cinema-themes-hint">loading themes…</span>';
+                return;
+            }
+            const index = api.getIndex();
+            if (!index.length) {
+                themesChips.innerHTML = '<span class="mnav-cinema-themes-hint">no themes yet</span>';
+                themesClear.hidden = true;
+                return;
+            }
+            themesChips.innerHTML = index.map(([t, n]) =>
+                `<button class="theme-chip" type="button" data-theme="${escAttr(t)}" data-state="off" aria-pressed="false">${escAttr(t)} · ${n}</button>`
+            ).join('');
+            themesChips.querySelectorAll('.theme-chip').forEach((el) => {
+                el.addEventListener('click', () => api.toggle(el.dataset.theme));
+            });
+            syncThemesChipStates();
+        }
+        function syncThemesChipStates() {
+            const api = window.__cinemaThemes;
+            if (!api) return;
+            themesChips.querySelectorAll('.theme-chip').forEach((el) => {
+                const s = api.stateOf(el.dataset.theme);
+                el.dataset.state = s;
+                el.classList.toggle('is-active', s === 'include');
+                el.setAttribute('aria-pressed', s === 'include' ? 'true' : 'false');
+            });
+            themesClear.hidden = api.include.size === 0 && api.exclude.size === 0;
+        }
+        themesClear.addEventListener('click', () => {
+            const api = window.__cinemaThemes;
+            if (api) api.clear();
+        });
+        document.addEventListener('cinema:themes-changed', syncThemesChipStates);
 
         // ---- populate sheet from the rendered gallery items ----
         function buildList() {
