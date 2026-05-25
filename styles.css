@@ -615,10 +615,74 @@ body.prose-off .narrative-blurb { display: none; }
 
 /* filter hide states */
 .filter-hidden { display: none !important; }
+.search-hidden { display: none !important; }
 .timeline-list a.filter-dim {
     opacity: 0.28;
 }
 .timeline-list a.filter-dim .t-year { opacity: 1; }
+
+/* ---------------- search bar (desktop) ---------------- */
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    flex: 0 1 16rem;
+    min-width: 10rem;
+}
+.search-input {
+    flex: 1;
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    background: var(--paper);
+    color: var(--ink);
+    border: 1px solid var(--chrome-rule);
+    border-radius: 1px;
+    padding: 0.28rem 0.5rem;
+    min-width: 0;
+}
+.search-input::placeholder { color: var(--ink-soft); opacity: 0.7; }
+.search-input:focus {
+    outline: none;
+    border-color: var(--chrome-ink);
+    box-shadow: 0 0 0 1px var(--chrome-ink);
+}
+.search-nav { display: flex; gap: 2px; }
+.search-nav[hidden] { display: none; }
+.search-nav-btn {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    background: transparent;
+    color: var(--chrome-ink-dim);
+    border: 1px solid var(--chrome-rule);
+    padding: 0.18rem 0.4rem;
+    cursor: pointer;
+    line-height: 1;
+    border-radius: 1px;
+}
+.search-nav-btn:hover { color: var(--chrome-ink); }
+.search-count {
+    color: var(--chrome-ink-dim);
+    font-size: 0.72rem;
+    white-space: nowrap;
+}
+.search-box.is-empty-result .search-input {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 1px var(--accent);
+}
+.search-box.is-empty-result .search-count { color: var(--accent-soft); }
+
+/* highlight + hit border */
+mark.search-mark {
+    background: var(--bus-yellow);
+    color: var(--ink);
+    padding: 0 1px;
+    border-radius: 1px;
+}
+.evidence-card.search-hit {
+    border-left: 3px solid var(--accent);
+    padding-left: 0.5rem;
+    margin-left: -0.5rem;
+}
 
 /* bump timeline rail's sticky top to clear header + theme bar */
 .timeline {
@@ -765,6 +829,22 @@ body.prose-off .narrative-blurb { display: none; }
     .mnav-pill:focus-visible {
         background: var(--bus-yellow);
         outline: none;
+    }
+    .mnav-pill-search {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border: 2px solid var(--ink);
+        border-radius: 999px;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: var(--mono);
+        font-size: 1.1rem;
+        line-height: 1;
+        cursor: pointer;
+        flex-shrink: 0;
     }
     .mnav-pill-prefix {
         font-family: var(--mono);
@@ -1009,6 +1089,71 @@ body.prose-off .narrative-blurb { display: none; }
         border: none;
         padding: 0.4rem 0.55rem;
         text-decoration: underline;
+    }
+
+    /* Search tab panel */
+    .mnav-search-box {
+        position: sticky;
+        top: 0;
+        background: var(--paper);
+        padding: 0.25rem 0 0.5rem;
+        border-bottom: 1px dashed var(--paper-rule);
+        margin-bottom: 0.5rem;
+        z-index: 1;
+    }
+    .mnav-search-input {
+        width: 100%;
+        font-family: var(--mono);
+        font-size: 16px; /* >=16px to suppress iOS zoom */
+        background: var(--paper);
+        color: var(--ink);
+        border: 2px solid var(--ink);
+        border-radius: 6px;
+        padding: 0.55rem 0.7rem;
+        box-sizing: border-box;
+    }
+    .mnav-search-input:focus {
+        outline: none;
+        border-color: var(--accent);
+    }
+    .mnav-search-count {
+        margin: 0.4rem 0 0;
+        font-family: var(--mono);
+        font-size: 0.8rem;
+        color: var(--ink-soft);
+    }
+    .mnav-search-results {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .mnav-search-results li > a {
+        display: flex;
+        align-items: baseline;
+        gap: 0.6rem;
+        padding: 0.65rem 0.4rem;
+        color: var(--ink);
+        text-decoration: none;
+        border-bottom: 1px dashed var(--paper-rule);
+        font-family: var(--serif);
+        font-size: 1rem;
+    }
+    .mnav-search-results .mnav-search-year {
+        font-family: var(--mono);
+        font-size: 0.78rem;
+        color: var(--ink-soft);
+        font-weight: 700;
+        min-width: 3.5em;
+        flex-shrink: 0;
+    }
+    .mnav-search-results .mnav-search-title {
+        flex: 1;
+    }
+    .mnav-search-results .mnav-search-hits {
+        font-family: var(--mono);
+        font-size: 0.75rem;
+        color: var(--accent);
+        flex-shrink: 0;
     }
 
     /* prevent background scroll while sheet is open */

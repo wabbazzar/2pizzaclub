@@ -23,6 +23,7 @@
     pill.type = 'button';
     pill.setAttribute('aria-label', 'Open chapter navigation');
     pill.innerHTML = `
+        <span class="mnav-pill-search" role="button" aria-label="Open search" tabindex="0">⌕</span>
         <span class="mnav-pill-prefix">// chapter</span>
         <span class="mnav-pill-label">Open file</span>
         <span class="mnav-pill-caret" aria-hidden="true">▴</span>
@@ -43,11 +44,13 @@
         <div class="mnav-sheet-handle" aria-hidden="true"></div>
         <div class="mnav-sheet-head">
             <div class="mnav-tabs" role="tablist">
+                <button class="mnav-tab" type="button" role="tab" data-tab="search" aria-selected="false">Search</button>
                 <button class="mnav-tab is-active" type="button" role="tab" data-tab="timeline" aria-selected="true">Timeline</button>
                 <button class="mnav-tab" type="button" role="tab" data-tab="themes" aria-selected="false">Themes</button>
             </div>
             <button class="mnav-close" type="button" aria-label="Close">✕</button>
         </div>
+        <div class="mnav-tab-panel" data-panel="search"></div>
         <div class="mnav-tab-panel is-active" data-panel="timeline"></div>
         <div class="mnav-tab-panel" data-panel="themes"></div>
     `;
@@ -71,6 +74,9 @@
         themesPanel.innerHTML = '';
         const cloned = themeInner.cloneNode(true);
         cloned.classList.add('mnav-themes-inner');
+        // strip the desktop search-box if search.js has injected it; the mobile
+        // Search tab is the canonical mobile search surface.
+        cloned.querySelectorAll('.search-box').forEach((el) => el.remove());
         themesPanel.appendChild(cloned);
         // Forward chip clicks to the original buttons so existing themes.js stays the source of truth.
         themesPanel.querySelectorAll('[data-theme]').forEach((chip) => {
@@ -103,7 +109,7 @@
     }
 
     // ---- open / close behavior ----
-    function openSheet() {
+    function openSheet(initialTab) {
         backdrop.hidden = false;
         sheet.hidden = false;
         // force reflow before adding class for transition
@@ -112,12 +118,19 @@
             sheet.classList.add('is-open');
         });
         body.classList.add('mnav-locked');
-        // ensure timeline tab is active by default + scroll active chapter into view
-        const timelineTab = sheet.querySelector('.mnav-tab[data-tab="timeline"]');
-        if (timelineTab && !timelineTab.classList.contains('is-active')) timelineTab.click();
-        const activeInSheet = sheet.querySelector('.mnav-timeline-list a.is-active');
-        if (activeInSheet) {
-            setTimeout(() => activeInSheet.scrollIntoView({ block: 'center', behavior: 'instant' }), 280);
+        // activate the requested tab (defaults to timeline)
+        const want = initialTab || 'timeline';
+        const tab = sheet.querySelector(`.mnav-tab[data-tab="${want}"]`);
+        if (tab && !tab.classList.contains('is-active')) tab.click();
+        else if (tab) {
+            // tab is already active — emit a synthetic "opened" so search can autofocus
+            sheet.dispatchEvent(new CustomEvent('mnav:tab-opened', { detail: { tab: want } }));
+        }
+        if (want === 'timeline') {
+            const activeInSheet = sheet.querySelector('.mnav-timeline-list a.is-active');
+            if (activeInSheet) {
+                setTimeout(() => activeInSheet.scrollIntoView({ block: 'center', behavior: 'instant' }), 280);
+            }
         }
     }
     function closeSheet() {
@@ -132,7 +145,10 @@
             }
         }, 250);
     }
-    pill.addEventListener('click', openSheet);
+    pill.addEventListener('click', (e) => {
+        const wantsSearch = !!e.target.closest('.mnav-pill-search');
+        openSheet(wantsSearch ? 'search' : 'timeline');
+    });
     backdrop.addEventListener('click', closeSheet);
     sheet.querySelector('.mnav-close').addEventListener('click', closeSheet);
     document.addEventListener('keydown', (e) => {

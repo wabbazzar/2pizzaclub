@@ -269,6 +269,8 @@
             if (themes.size === 0) count.textContent = '';
             else count.textContent = `showing ${shown} of ${total}`;
         }
+
+        document.dispatchEvent(new CustomEvent('receipts:filter-applied'));
     }
 
     function init() {
