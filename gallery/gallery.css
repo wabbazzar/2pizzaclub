@@ -241,6 +241,19 @@
     .gallery-item-body { padding: 1rem 1rem 0.75rem; }
     /* leave room for the bottom-pill so last item isn't covered */
     .gallery-main { padding-bottom: 6rem; }
+
+    /* inline cinema theme picker: bump chips to finger-sized targets
+       (mirror .mnav-themes-inner .theme-chip sizing from ../styles.css) */
+    .cinema-theme-picker-chips .theme-chip {
+        font-size: 0.85rem;
+        padding: 0.55rem 0.85rem;
+        min-height: 44px;
+        border-radius: 999px;
+        border-width: 2px;
+        line-height: 1.1;
+    }
+    .cinema-theme-picker-toggle { font-size: 0.85rem; padding: 0.55rem 0.85rem; }
+    .cinema-theme-picker-clear { font-size: 0.85rem; padding: 0.35rem 0.6rem; }
 }
 
 /* ---------------- cinema button (marquee) ---------------- */
@@ -324,6 +337,107 @@
 @keyframes cinema-pulse {
     0%, 100% { opacity: 0.4; }
     50% { opacity: 1; }
+}
+.cinema-btn-disabled,
+.cinema-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+    box-shadow: 4px 4px 0 var(--ink);
+}
+.cinema-btn-disabled:hover,
+.cinema-btn:disabled:hover {
+    transform: none;
+    box-shadow: 4px 4px 0 var(--ink);
+}
+
+/* ---------------- cinema theme picker (inline, under marquee btn) ---------------- */
+
+.cinema-theme-picker {
+    margin: 0.65rem auto 0;
+    width: 100%;
+    max-width: 32rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.45rem;
+}
+.cinema-theme-picker-toggle {
+    cursor: pointer;
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    color: var(--ink);
+    background: transparent;
+    border: 1px solid var(--paper-rule);
+    border-radius: 4px;
+    padding: 0.35rem 0.6rem;
+    letter-spacing: 0.04em;
+    align-self: center;
+}
+.cinema-theme-picker-toggle:hover {
+    background: rgba(0,0,0,0.04);
+    color: var(--accent);
+}
+.cinema-theme-picker-panel[hidden] { display: none; }
+.cinema-theme-picker-panel {
+    background: var(--paper);
+    border: 2px dashed var(--paper-rule);
+    border-radius: 6px;
+    padding: 0.85rem 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.cinema-theme-picker-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+.cinema-theme-picker-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+.cinema-theme-picker-hint {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--ink-soft);
+    letter-spacing: 0.04em;
+}
+.cinema-theme-picker-empty {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+}
+.cinema-theme-picker-clear {
+    cursor: pointer;
+    font-family: var(--mono);
+    font-size: 0.74rem;
+    background: transparent;
+    color: var(--accent);
+    border: none;
+    padding: 0.15rem 0.35rem;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+.cinema-theme-picker-clear:hover { color: var(--accent-soft); }
+
+/* exclude-state chip variant — red border + strikethrough; reuse base .theme-chip
+   styles from ../styles.css so the include state inherits the timeline's look. */
+.cinema-theme-picker .theme-chip[data-state="exclude"],
+.mnav-cinema-themes .theme-chip[data-state="exclude"] {
+    color: #b91c1c;
+    border-color: #b91c1c;
+    background: transparent;
+    text-decoration: line-through;
+    font-weight: 600;
+}
+.cinema-theme-picker .theme-chip[data-state="exclude"]:hover,
+.mnav-cinema-themes .theme-chip[data-state="exclude"]:hover {
+    background: rgba(185, 28, 28, 0.08);
+    color: #b91c1c;
+    border-color: #b91c1c;
 }
 
 /* ---------------- cinema overlay ---------------- */

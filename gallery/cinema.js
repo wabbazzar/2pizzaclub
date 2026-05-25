@@ -25,16 +25,219 @@
     `;
     intro.appendChild(btn);
 
+    // ---- theme-picker state (shared across inline picker + bottom-sheet tab) ----
+    // Three-state per chip: off → include → exclude → off.
+    const includeThemes = new Set();
+    const excludeThemes = new Set();
+    const UNTAGGED = '(untagged)'; // synthetic chip so empty-themes captures are filterable
+
+    // Expose picker state for the mobile bottom-sheet (gallery-nav.js).
+    window.__cinemaThemes = {
+        include: includeThemes,
+        exclude: excludeThemes,
+        UNTAGGED,
+        // toggle returns the new state for callers that want to update UI
+        toggle(theme) {
+            if (includeThemes.has(theme)) {
+                includeThemes.delete(theme);
+                excludeThemes.add(theme);
+            } else if (excludeThemes.has(theme)) {
+                excludeThemes.delete(theme);
+            } else {
+                includeThemes.add(theme);
+            }
+            writeUrlState();
+            updatePickerStates();
+            updateCinemaButton();
+            document.dispatchEvent(new CustomEvent('cinema:themes-changed'));
+            return stateOf(theme);
+        },
+        stateOf,
+        clear() {
+            includeThemes.clear();
+            excludeThemes.clear();
+            writeUrlState();
+            updatePickerStates();
+            updateCinemaButton();
+            document.dispatchEvent(new CustomEvent('cinema:themes-changed'));
+        },
+        // Lets the bottom-sheet build its chips with the same data + counts cinema uses.
+        getIndex() { return buildThemesIndex(); },
+    };
+
+    function stateOf(theme) {
+        if (includeThemes.has(theme)) return 'include';
+        if (excludeThemes.has(theme)) return 'exclude';
+        return 'off';
+    }
+
     // DAG-readiness gate: dag.js fires `receipts:dag-ready` after every evidence
     // record is fetched. Until then, buildPlayOrder() has no themes and we'd
     // bucket everything as 'unsorted'.
     let dagReady = !!(window.RECEIPTS_DAG && window.RECEIPTS_DAG.nodes && window.RECEIPTS_DAG.nodes.some((n) => n.type === 'claim'));
-    document.addEventListener('receipts:dag-ready', () => { dagReady = true; btn.classList.remove('cinema-btn-loading'); });
+    document.addEventListener('receipts:dag-ready', () => {
+        dagReady = true;
+        btn.classList.remove('cinema-btn-loading');
+        renderThemePicker(); // re-render now that we know theme counts
+        updateCinemaButton();
+    });
     if (!dagReady) btn.classList.add('cinema-btn-loading');
 
     btn.addEventListener('click', async () => {
+        if (btn.disabled) return;
         await launchCinema();
     });
+
+    // ---- inline theme picker (mounts under .cinema-btn) ----
+    let pickerEl = null;
+    let pickerPanel = null;
+
+    function renderThemePicker() {
+        if (!pickerEl) {
+            pickerEl = document.createElement('div');
+            pickerEl.className = 'cinema-theme-picker';
+            pickerEl.innerHTML = `
+                <button class="cinema-theme-picker-toggle" type="button" aria-expanded="false">// or pick themes ▾</button>
+                <div class="cinema-theme-picker-panel" hidden>
+                    <div class="cinema-theme-picker-chips"></div>
+                    <div class="cinema-theme-picker-foot">
+                        <span class="cinema-theme-picker-hint">tap once = include · tap twice = exclude · tap again = off</span>
+                        <button class="cinema-theme-picker-clear" type="button" hidden>clear</button>
+                    </div>
+                </div>
+            `;
+            intro.appendChild(pickerEl);
+            pickerPanel = pickerEl.querySelector('.cinema-theme-picker-panel');
+            const toggleBtn = pickerEl.querySelector('.cinema-theme-picker-toggle');
+            toggleBtn.addEventListener('click', () => {
+                const open = pickerPanel.hasAttribute('hidden');
+                if (open) {
+                    pickerPanel.removeAttribute('hidden');
+                    toggleBtn.setAttribute('aria-expanded', 'true');
+                    toggleBtn.textContent = '// or pick themes ▴';
+                } else {
+                    pickerPanel.setAttribute('hidden', '');
+                    toggleBtn.setAttribute('aria-expanded', 'false');
+                    toggleBtn.textContent = '// or pick themes ▾';
+                }
+            });
+            pickerEl.querySelector('.cinema-theme-picker-clear').addEventListener('click', () => {
+                window.__cinemaThemes.clear();
+            });
+        }
+        const chipsContainer = pickerEl.querySelector('.cinema-theme-picker-chips');
+        const index = buildThemesIndex();
+        if (!index.length) {
+            chipsContainer.innerHTML = '<span class="cinema-theme-picker-empty">no themes yet — try the marquee button</span>';
+            return;
+        }
+        chipsContainer.innerHTML = index.map(([t, n]) => chipHtml(t, n)).join('');
+        chipsContainer.querySelectorAll('.theme-chip').forEach((el) => {
+            el.addEventListener('click', () => window.__cinemaThemes.toggle(el.dataset.theme));
+        });
+        // Auto-open picker if URL boots with a theme filter, so users see the active state.
+        if ((includeThemes.size > 0 || excludeThemes.size > 0) && pickerPanel.hasAttribute('hidden')) {
+            pickerEl.querySelector('.cinema-theme-picker-toggle').click();
+        }
+        updatePickerStates();
+    }
+
+    function chipHtml(theme, count) {
+        const label = theme === UNTAGGED ? `${theme}` : theme;
+        return `<button class="theme-chip" type="button" data-theme="${escAttr(theme)}" data-state="off" aria-pressed="false">${escHtml(label)} · ${count}</button>`;
+    }
+
+    function updatePickerStates() {
+        document.querySelectorAll('.cinema-theme-picker .theme-chip, .mnav-cinema-themes .theme-chip').forEach((el) => {
+            const s = stateOf(el.dataset.theme);
+            el.dataset.state = s;
+            el.classList.toggle('is-active', s === 'include');
+            el.setAttribute('aria-pressed', s === 'include' ? 'true' : 'false');
+        });
+        // show/hide the inline "clear" button
+        if (pickerEl) {
+            const clearBtn = pickerEl.querySelector('.cinema-theme-picker-clear');
+            if (clearBtn) clearBtn.hidden = includeThemes.size === 0 && excludeThemes.size === 0;
+        }
+    }
+
+    function updateCinemaButton() {
+        const label = btn.querySelector('.cinema-btn-label');
+        const sub = btn.querySelector('.cinema-btn-sub');
+        if (!label || !sub) return;
+        const hasFilter = includeThemes.size > 0 || excludeThemes.size > 0;
+        if (!hasFilter) {
+            label.textContent = 'Cinema';
+            sub.textContent = 'play all · grouped by theme';
+            btn.disabled = false;
+            btn.removeAttribute('title');
+            btn.classList.remove('cinema-btn-disabled');
+            return;
+        }
+        const order = buildPlayOrder({ include: includeThemes, exclude: excludeThemes });
+        if (order.length === 0) {
+            label.textContent = 'Cinema';
+            sub.textContent = 'no captures match — clear filters';
+            btn.disabled = true;
+            btn.setAttribute('title', 'no captures match — clear filters');
+            btn.classList.add('cinema-btn-disabled');
+        } else {
+            label.textContent = 'Cinema';
+            sub.textContent = `${order.length} video${order.length === 1 ? '' : 's'} queued`;
+            btn.disabled = false;
+            btn.removeAttribute('title');
+            btn.classList.remove('cinema-btn-disabled');
+        }
+    }
+
+    // ---- URL state read/write ----
+    // ?cinema=1                              — play all (existing)
+    // ?cinema=<capture-id>                   — start at that capture (existing)
+    // ?cinema=1&themes=epstein,israel        — include OR
+    // ?cinema=1&exclude=epstein              — exclude
+    // ?themes=… alone (no cinema=) is also honored so the picker can deep-link without
+    // auto-launching the overlay (matches landing-on-the-gallery-with-a-filter behavior).
+    function readUrlState() {
+        const url = new URL(window.location.href);
+        const themesParam = url.searchParams.get('themes');
+        const excludeParam = url.searchParams.get('exclude');
+        if (themesParam) {
+            for (const t of themesParam.split(',').map((s) => s.trim()).filter(Boolean)) includeThemes.add(t);
+        }
+        if (excludeParam) {
+            for (const t of excludeParam.split(',').map((s) => s.trim()).filter(Boolean)) excludeThemes.add(t);
+        }
+    }
+
+    function writeUrlState() {
+        const url = new URL(window.location.href);
+        if (includeThemes.size > 0) url.searchParams.set('themes', [...includeThemes].sort().join(','));
+        else url.searchParams.delete('themes');
+        if (excludeThemes.size > 0) url.searchParams.set('exclude', [...excludeThemes].sort().join(','));
+        else url.searchParams.delete('exclude');
+        window.history.replaceState({}, '', url.toString());
+    }
+
+    // Build [theme, count] sorted by count desc, name asc. Includes a synthetic
+    // (untagged) bucket if any capture has zero themes so it can be filtered too.
+    function buildThemesIndex() {
+        const items = Array.from(document.querySelectorAll('.gallery-item'));
+        const themesByCapture = computeThemesByCapture();
+        const counts = new Map();
+        let untaggedCount = 0;
+        for (const it of items) {
+            const id = it.dataset.captureId;
+            const themes = themesByCapture.get(id) || [];
+            if (themes.length === 0) {
+                untaggedCount++;
+                continue;
+            }
+            for (const t of themes) counts.set(t, (counts.get(t) || 0) + 1);
+        }
+        const arr = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+        if (untaggedCount > 0) arr.push([UNTAGGED, untaggedCount]);
+        return arr;
+    }
 
     async function launchCinema(startCaptureId) {
         if (!dagReady) {
@@ -45,7 +248,7 @@
             ]);
             btn.classList.remove('cinema-btn-loading');
         }
-        const order = buildPlayOrder();
+        const order = buildPlayOrder({ include: includeThemes, exclude: excludeThemes });
         if (!order.length) return;
         let startIdx = 0;
         if (startCaptureId) {
@@ -62,6 +265,7 @@
     // — the gallery renders items one-by-one with intermediate fetches, so we
     // poll until the item count stops growing for 600ms before launching.
     // Otherwise we'd build a play order from a partial DOM and miss recent reels.
+    readUrlState();
     const cinemaParam = new URLSearchParams(window.location.search).get('cinema');
     if (cinemaParam) {
         let lastCount = -1, stableSince = performance.now();
@@ -83,6 +287,20 @@
         setTimeout(startWhenReady, 100);
     }
 
+    // Even without auto-launch, render the picker once the gallery+DAG are ready so
+    // the chip strip reflects current counts. MutationObserver covers async ingest.
+    function tryRenderPicker() {
+        if (!dagReady) return;
+        if (document.querySelectorAll('.gallery-item').length === 0) return;
+        renderThemePicker();
+        updateCinemaButton();
+    }
+    tryRenderPicker();
+    const galleryList = document.getElementById('gallery-list');
+    if (galleryList) {
+        new MutationObserver(() => tryRenderPicker()).observe(galleryList, { childList: true });
+    }
+
     // ---- build play order from live data ----
     // Source of truth: the rendered gallery items (so we play what the reader can see).
     // Theme data: pulled from window.RECEIPTS_DAG (built at runtime by dag.js, includes
@@ -100,8 +318,7 @@
     // the reel is ABOUT? If no, it's meta — strip it.
     const META_TAGS = new Set(['contested', 'evidence', 'alt-theory', 'documents']);
 
-    function buildPlayOrder() {
-        const items = Array.from(document.querySelectorAll('.gallery-item'));
+    function computeThemesByCapture() {
         const dag = window.RECEIPTS_DAG;
         const themesByCapture = new Map();
         if (dag && dag.nodes) {
@@ -124,8 +341,17 @@
                 themesByCapture.set(captureId, Array.from(themes).sort());
             }
         }
+        return themesByCapture;
+    }
 
-        const entries = items.map((it) => {
+    function buildPlayOrder(filter) {
+        const include = (filter && filter.include) || null;
+        const exclude = (filter && filter.exclude) || null;
+
+        const items = Array.from(document.querySelectorAll('.gallery-item'));
+        const themesByCapture = computeThemesByCapture();
+
+        let entries = items.map((it) => {
             const id = it.dataset.captureId;
             const themes = themesByCapture.get(id) || [];
             const video = it.querySelector('video source')?.getAttribute('src') || it.querySelector('video')?.getAttribute('src');
@@ -133,6 +359,36 @@
             const posted = readPostedDate(it);
             return { id, themes, themeSet: new Set(themes), primary: themes[0] || 'unsorted', video, handle, posted };
         }).filter((e) => e.video);
+
+        // ---- filter: include = OR (matches timeline themes.js semantics),
+        //              exclude = NONE-OF (any match drops the capture).
+        // (untagged) is treated as a virtual theme so it can participate in both sides:
+        //   - include = [(untagged)]   keeps only captures with zero themes
+        //   - exclude = [(untagged)]   drops captures with zero themes
+        // When include is non-empty and DOES NOT contain (untagged), zero-theme captures
+        // are dropped (they have nothing to OR against).
+        if ((include && include.size > 0) || (exclude && exclude.size > 0)) {
+            entries = entries.filter((e) => {
+                const isUntagged = e.themes.length === 0;
+                if (include && include.size > 0) {
+                    let matched = false;
+                    if (isUntagged && include.has(UNTAGGED)) matched = true;
+                    else if (!isUntagged) {
+                        for (const t of e.themeSet) if (include.has(t)) { matched = true; break; }
+                    }
+                    if (!matched) return false;
+                }
+                if (exclude && exclude.size > 0) {
+                    if (isUntagged && exclude.has(UNTAGGED)) return false;
+                    if (!isUntagged) {
+                        for (const t of e.themeSet) if (exclude.has(t)) return false;
+                    }
+                }
+                return true;
+            });
+        }
+
+        if (entries.length === 0) return [];
 
         // Rank each capture's themes by global frequency (most-shared first).
         const themeFreq = new Map();
@@ -383,19 +639,23 @@
     }
 
     // ---- shareable deep link ----
+    // Round-trips the current capture id PLUS the active theme filter so the
+    // recipient lands on the same subset playlist at the same starting reel.
     function shareCurrent() {
         const cur = order[idx];
         if (!cur) return;
         const url = new URL(window.location.href);
         url.search = ''; url.hash = '';
         url.searchParams.set('cinema', cur.id);
+        if (includeThemes.size > 0) url.searchParams.set('themes', [...includeThemes].sort().join(','));
+        if (excludeThemes.size > 0) url.searchParams.set('exclude', [...excludeThemes].sort().join(','));
         const link = url.toString();
         const finish = (msg) => {
-            const btn = overlay.querySelector('.cinema-share');
-            if (!btn) return;
-            const orig = btn.textContent;
-            btn.textContent = msg;
-            setTimeout(() => { btn.textContent = orig; }, 1400);
+            const sb = overlay.querySelector('.cinema-share');
+            if (!sb) return;
+            const orig = sb.textContent;
+            sb.textContent = msg;
+            setTimeout(() => { sb.textContent = orig; }, 1400);
         };
         if (navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(link).then(() => finish('✓ link copied'), () => finish('copy failed'));
@@ -444,4 +704,9 @@
             if (video.paused) video.play(); else video.pause();
         }
     }
+
+    function escHtml(s) {
+        return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    }
+    function escAttr(s) { return escHtml(s); }
 })();
