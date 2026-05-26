@@ -695,6 +695,63 @@
     color: var(--ink);
 }
 
+/* Deep-read finding cards */
+.finding-list { display: grid; gap: 1.25rem; }
+.finding-card {
+    border: 2px solid var(--ink);
+    border-radius: 4px;
+    padding: 0.95rem 1.1rem;
+    background: var(--paper);
+    box-shadow: 5px 5px 0 var(--bus-yellow);
+}
+.finding-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+.finding-rank {
+    font-family: var(--display);
+    color: var(--accent);
+    font-size: 1.6rem;
+    line-height: 1;
+}
+.finding-headline {
+    margin: 0;
+    font-size: 1.15rem;
+    line-height: 1.25;
+    color: var(--ink);
+}
+.finding-quote {
+    margin: 0.5rem 0;
+    padding: 0.55rem 0.8rem;
+    border-left: 3px solid var(--accent);
+    background: rgba(230, 57, 70, 0.06);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--ink);
+}
+.finding-attr {
+    display: block;
+    margin-top: 0.45rem;
+    font-style: normal;
+    font-size: 0.74rem;
+    letter-spacing: 0.04em;
+    color: var(--ink-soft);
+}
+.finding-sig {
+    margin: 0.55rem 0 0.65rem;
+    font-size: 0.98rem;
+    line-height: 1.55;
+    color: var(--ink);
+}
+.finding-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.74rem;
+    color: var(--ink-soft);
+}
+
 /* Histogram render for date pages */
 .histo {
     display: grid;
@@ -1101,3 +1158,98 @@ html.body-locked, html.body-locked body {
     .slide { padding: 2rem 1.25rem; min-height: 70vh; }
     .slide-stats { grid-template-columns: 1fr; }
 }
+
+/* ===== Messages search page (messages.html) ===== */
+.msg-main {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 1.25rem var(--gutter, 1.25rem) 4rem;
+}
+.msg-intro { margin: 0.5rem 0 1.25rem; }
+.msg-title {
+    font-family: var(--display);
+    font-size: clamp(1.8rem, 5vw, 2.6rem);
+    margin: 0 0 0.4rem;
+    color: var(--chrome-ink);
+}
+.msg-lede {
+    max-width: 48rem;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--chrome-ink-dim);
+    margin: 0;
+}
+.msg-controls {
+    position: sticky;
+    top: 0;
+    z-index: 8;
+    background: var(--chrome-bg);
+    border: 1px solid var(--chrome-rule);
+    border-radius: 4px;
+    padding: 0.6rem 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1.1rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+}
+.msg-tabs { display: flex; gap: 0.35rem; }
+.msg-tab {
+    background: transparent;
+    color: var(--chrome-ink);
+    border: 1px solid var(--chrome-ink-dim);
+    padding: 0.3rem 0.7rem;
+    border-radius: 999px;
+    cursor: pointer;
+    font: inherit;
+}
+.msg-tab-active {
+    background: var(--bus-yellow);
+    color: var(--ink);
+    border-color: var(--ink);
+    font-weight: 700;
+}
+.msg-search {
+    flex: 1 1 14rem;
+    min-width: 10rem;
+    background: var(--paper);
+    color: var(--ink);
+    border: 1px solid var(--ink);
+    border-radius: 3px;
+    padding: 0.4rem 0.6rem;
+    font: inherit;
+}
+.msg-sender-filter { display: flex; gap: 0.3rem; }
+.msg-chip {
+    background: rgba(255, 248, 231, 0.1);
+    color: var(--chrome-ink);
+    border: 1px solid var(--chrome-ink-dim);
+    padding: 0.2rem 0.5rem;
+    border-radius: 999px;
+    cursor: pointer;
+    user-select: none;
+}
+.msg-chip:has(input:checked) {
+    background: var(--bus-yellow);
+    color: var(--ink);
+    border-color: var(--ink);
+}
+.msg-chip input { margin-right: 0.3rem; transform: translateY(1px); }
+.msg-count { color: var(--chrome-ink-dim); margin-left: auto; }
+@media (max-width: 640px) {
+    .msg-count { margin-left: 0; width: 100%; }
+}
+/* Results render on a cream paper panel (like the findings page) so the
+   message rows' ink/ink-soft text stays readable over the blue body. */
+.msg-results {
+    background: var(--paper);
+    color: var(--ink);
+    border: 3px solid var(--ink);
+    box-shadow: 6px 6px 0 var(--bus-yellow);
+    border-radius: 6px;
+    padding: 1.25rem 1.4rem;
+    min-height: 14rem;
+}
+.msg-results .placeholder { color: var(--ink-soft); }

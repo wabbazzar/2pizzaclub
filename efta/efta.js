@@ -10,6 +10,7 @@ const state = {
 // Display order + label for each kind, when building the TOC.
 const KIND_GROUP = {
     intro_slide:        { order:  0, label: 'Intro slides' },
+    narrative_finding:  { order:  0.5, label: 'The deep read' },
     person_dossier:     { order:  1, label: 'Person dossiers' },
     names_top20:        { order:  2, label: 'Top names — NER discovered' },
     names_grep:         { order:  3, label: 'Top names — curated grep (cross-check)' },
@@ -453,6 +454,30 @@ function renderPage() {
         root.innerHTML = html;
         renderTOC();
         renderPagerLabels();
+        history.replaceState(null, '', `#p=${state.pageIdx + 1}`);
+        return;
+    }
+
+    // Deep-read findings — one verified document quote per card
+    if (page.kind === 'narrative_finding') {
+        html += '<div class="finding-list">';
+        for (const r of page.rows || []) {
+            const rank = String(r.rank).padStart(2, '0');
+            html += `<article class="finding-card">`
+                  + `<header class="finding-head">`
+                  + `<span class="finding-rank">${rank}</span>`
+                  + `<h3 class="finding-headline">${escapeHTML(r.headline)}</h3>`
+                  + `</header>`
+                  + `<blockquote class="finding-quote">“${escapeHTML(r.quote)}”`
+                  + (r.attribution ? `<cite class="finding-attr">— ${escapeHTML(r.attribution)}</cite>` : '')
+                  + `</blockquote>`
+                  + `<p class="finding-sig">${escapeHTML(r.significance)}</p>`
+                  + `<div class="finding-meta">source: ${docLink(r.doc_id)} · ${escapeHTML(r.dataset || '')}</div>`
+                  + `</article>`;
+        }
+        html += '</div>';
+        root.innerHTML = html;
+        renderTOC(); renderPagerLabels(); bindInfoBtn();
         history.replaceState(null, '', `#p=${state.pageIdx + 1}`);
         return;
     }

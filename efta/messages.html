@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="2pizzaclub.com — EFTA messages: searchable iMessages + email threads.">
+    <meta name="robots" content="noindex">
+    <title>2pizzaclub.com — EFTA messages</title>
+
+    <link rel="icon" type="image/svg+xml" href="/icon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="theme-color" content="#1B3FB5">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="2pizzaclub.com">
+    <meta property="og:title" content="2pizzaclub.com — EFTA messages">
+    <meta property="og:url" content="https://2pizzaclub.com/efta/messages.html">
+    <meta property="og:image" content="https://2pizzaclub.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="efta.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a class="skip-link" href="#msg-results">Skip to results</a>
+    <header class="dossier-header">
+        <div class="filemark">// 2pizzaclub.com — EFTA &nbsp;·&nbsp; <span id="meta-summary">messages…</span></div>
+        <a class="exit-mark" href="./">← findings</a>
+    </header>
+
+    <!-- Doc viewer side-panel (hidden until a doc_id is clicked) -->
+    <aside class="doc-viewer" id="doc-viewer" aria-label="document viewer">
+      <header class="doc-viewer-head">
+        <span id="doc-viewer-id">—</span>
+        <button class="doc-viewer-close" id="doc-viewer-close" type="button" aria-label="close">✕</button>
+      </header>
+      <div class="doc-viewer-meta" id="doc-viewer-meta"></div>
+      <pre class="doc-viewer-text" id="doc-viewer-text"></pre>
+    </aside>
+
+    <main class="msg-main">
+        <div class="msg-intro">
+            <h1 class="msg-title">Messages</h1>
+            <p class="msg-lede">Every recovered Epstein iMessage and reconstructed email thread in the release, in one searchable place. The iMessage counterpart's address is redacted in the source files — only Epstein's account is identified. Click any document id to read the source.</p>
+        </div>
+
+        <nav class="msg-controls" aria-label="message search">
+            <div class="msg-tabs">
+                <button class="msg-tab" data-view="imessages" type="button">iMessages</button>
+                <button class="msg-tab" data-view="threads" type="button">Email threads</button>
+            </div>
+            <input class="msg-search" id="msg-search" type="search" placeholder="search messages…" autocomplete="off">
+            <div class="msg-sender-filter" id="msg-sender-filter">
+                <label class="msg-chip"><input type="radio" name="sender" value="all" checked> all</label>
+                <label class="msg-chip"><input type="radio" name="sender" value="epstein"> Epstein</label>
+                <label class="msg-chip"><input type="radio" name="sender" value="counterpart"> counterpart</label>
+            </div>
+            <span class="msg-count" id="msg-count">—</span>
+        </nav>
+
+        <section class="msg-results" id="msg-results" aria-live="polite">
+            <p class="placeholder">Loading messages…</p>
+        </section>
+    </main>
+
+    <script type="module" src="messages.js"></script>
+</body>
+</html>

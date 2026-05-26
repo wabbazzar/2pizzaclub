@@ -64,3 +64,11 @@ sources/captures/*/frames/f0[0-9][2-9].png
 sources/captures/*/frames/f01[0-9].png
 sources/captures/*/frames/f0[2-9][0-9].png
 sources/captures/*/frames/f[1-9][0-9][0-9].png
+
+# ---------- efta curation ----------
+# Full pre-curation pipeline output (156 pages). Kept LOCAL ONLY: the repo is
+# public, and the retired NER "PII" pages contain raw scraped identifiers (mostly
+# OCR noise, but not worth publishing). It is the input to efta/curate.mjs and is
+# recoverable from git history (the efta/findings.json committed before curation)
+# plus the external pipeline. See drafts/efta/README.md.
+drafts/efta/findings-full.json
