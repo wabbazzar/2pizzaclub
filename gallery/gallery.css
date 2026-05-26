@@ -512,7 +512,7 @@ body.cinema-on { overflow: hidden; }
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: max(4.5rem, calc(env(safe-area-inset-bottom) + 4.5rem));
+    bottom: max(7rem, calc(env(safe-area-inset-bottom) + 7rem));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -545,7 +545,7 @@ body.cinema-on { overflow: hidden; }
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: max(1rem, env(safe-area-inset-bottom));
+    bottom: max(3.75rem, calc(env(safe-area-inset-bottom) + 3.75rem));
     display: flex;
     gap: 0.5rem;
 }
@@ -637,3 +637,73 @@ body.cinema-on { overflow: hidden; }
 }
 .cinema-play:hover { background: var(--bus-yellow); color: var(--ink); transform: translate(-50%, -50%) scale(1.05); }
 .cinema-play:active { transform: translate(-50%, -50%) scale(0.95); }
+
+/* ---------------- cinema scrubber (seek line) ---------------- */
+.cinema-progress {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: max(1rem, env(safe-area-inset-bottom));
+    width: min(92vw, 40rem);
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 0.5rem 0.95rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 999px;
+    backdrop-filter: blur(4px);
+}
+.cinema-time {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--bus-yellow);
+    flex: 0 0 auto;
+    min-width: 2.7rem;
+    font-variant-numeric: tabular-nums;
+}
+.cinema-time-cur { text-align: right; }
+.cinema-time-dur { text-align: left; color: rgba(255, 248, 231, 0.7); }
+.cinema-scrub {
+    position: relative;
+    flex: 1 1 auto;
+    height: 22px;          /* finger-sized hit area; the visible groove is thin */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    touch-action: none;    /* the drag is ours, not the browser's */
+}
+.cinema-scrub::before {    /* the unfilled groove */
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    height: 4px;
+    border-radius: 999px;
+    background: rgba(255, 248, 231, 0.22);
+}
+.cinema-scrub-buffered,
+.cinema-scrub-played {
+    position: absolute;
+    left: 0;
+    height: 4px;
+    width: 0;
+    border-radius: 999px;
+    pointer-events: none;
+}
+.cinema-scrub-buffered { background: rgba(255, 248, 231, 0.38); }
+.cinema-scrub-played   { background: var(--bus-yellow); }
+.cinema-scrub-thumb {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 999px;
+    background: var(--bus-yellow);
+    border: 2px solid var(--ink);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.35);
+}
+.cinema-scrub:focus-visible { outline: none; }
+.cinema-scrub:focus-visible::before { box-shadow: 0 0 0 2px var(--bus-yellow); }
+.cinema-scrub.is-dragging .cinema-scrub-thumb { transform: translate(-50%, -50%) scale(1.25); }

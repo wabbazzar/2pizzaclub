@@ -500,6 +500,16 @@
                     <button class="cinema-next" type="button" aria-label="Next">next ▶</button>
                 </div>
                 <button class="cinema-play" type="button" aria-label="Play / pause">⏸</button>
+                <div class="cinema-progress">
+                    <span class="cinema-time cinema-time-cur">0:00</span>
+                    <div class="cinema-scrub" role="slider" tabindex="0" aria-label="Seek"
+                         aria-valuemin="0" aria-valuemax="0" aria-valuenow="0">
+                        <div class="cinema-scrub-buffered"></div>
+                        <div class="cinema-scrub-played"></div>
+                        <div class="cinema-scrub-thumb"></div>
+                    </div>
+                    <span class="cinema-time cinema-time-dur">0:00</span>
+                </div>
             </div>
         `;
         document.body.appendChild(overlay);
@@ -517,11 +527,114 @@
         video.addEventListener('play',  syncPlayBtn);
         video.addEventListener('pause', syncPlayBtn);
         syncPlayBtn();
+        wireScrubber();
         document.addEventListener('keydown', cinemaKey);
         document.addEventListener('fullscreenchange', () => {
             if (!document.fullscreenElement && overlay) exitCinema();
         });
         wireGestures();
+    }
+
+    // ---- scrubber: click/drag the seek line to jump within the current reel ----
+    // Lives on the chrome layer (fades with tap-to-hide). Drives video.currentTime
+    // directly; timeupdate feeds the fill back so the bar stays in sync during normal
+    // playback and during a hold-FF. Pointer-capture keeps the drag alive if the finger
+    // slides off the track.
+    function wireScrubber() {
+        const scrub = overlay.querySelector('.cinema-scrub');
+        const played = overlay.querySelector('.cinema-scrub-played');
+        const buffered = overlay.querySelector('.cinema-scrub-buffered');
+        const thumb = overlay.querySelector('.cinema-scrub-thumb');
+        const curLabel = overlay.querySelector('.cinema-time-cur');
+        const durLabel = overlay.querySelector('.cinema-time-dur');
+        if (!scrub) return;
+        let dragging = false;
+
+        const dur = () => (isFinite(video.duration) ? video.duration : 0);
+
+        function paint(frac) {
+            const pct = Math.max(0, Math.min(1, frac)) * 100;
+            played.style.width = pct + '%';
+            thumb.style.left = pct + '%';
+        }
+
+        function refresh() {
+            const d = dur();
+            const frac = d ? video.currentTime / d : 0;
+            if (!dragging) paint(frac);
+            curLabel.textContent = fmtTime(video.currentTime);
+            durLabel.textContent = d ? fmtTime(d) : '0:00';
+            scrub.setAttribute('aria-valuemax', String(Math.floor(d)));
+            scrub.setAttribute('aria-valuenow', String(Math.floor(video.currentTime)));
+            // buffered fill (best-effort; some browsers report empty ranges mid-load)
+            try {
+                if (d && video.buffered.length) {
+                    buffered.style.width = (video.buffered.end(video.buffered.length - 1) / d) * 100 + '%';
+                }
+            } catch (_) {}
+        }
+
+        function fracFromEvent(e) {
+            const r = scrub.getBoundingClientRect();
+            return r.width ? (e.clientX - r.left) / r.width : 0;
+        }
+
+        function seekTo(frac) {
+            const d = dur();
+            if (!d) return;
+            const f = Math.max(0, Math.min(1, frac));
+            video.currentTime = f * d;
+            paint(f);
+            curLabel.textContent = fmtTime(f * d);
+        }
+
+        scrub.addEventListener('pointerdown', (e) => {
+            e.stopPropagation();
+            dragging = true;
+            scrub.classList.add('is-dragging');
+            try { scrub.setPointerCapture(e.pointerId); } catch (_) {}
+            seekTo(fracFromEvent(e));
+        });
+        scrub.addEventListener('pointermove', (e) => {
+            if (!dragging) return;
+            seekTo(fracFromEvent(e));
+        });
+        const endDrag = (e) => {
+            if (!dragging) return;
+            dragging = false;
+            scrub.classList.remove('is-dragging');
+            try { scrub.releasePointerCapture(e.pointerId); } catch (_) {}
+        };
+        scrub.addEventListener('pointerup', endDrag);
+        scrub.addEventListener('pointercancel', endDrag);
+
+        // Keyboard seek while the slider is focused. stopPropagation so the global
+        // Arrow keys (prev/next reel) don't also fire.
+        scrub.addEventListener('keydown', (e) => {
+            const d = dur();
+            if (!d) return;
+            let handled = true;
+            if (e.key === 'ArrowRight') video.currentTime = Math.min(d, video.currentTime + 5);
+            else if (e.key === 'ArrowLeft') video.currentTime = Math.max(0, video.currentTime - 5);
+            else if (e.key === 'Home') video.currentTime = 0;
+            else if (e.key === 'End') video.currentTime = d;
+            else handled = false;
+            if (handled) { e.preventDefault(); e.stopPropagation(); refresh(); }
+        });
+
+        video.addEventListener('timeupdate', refresh);
+        video.addEventListener('durationchange', refresh);
+        video.addEventListener('loadedmetadata', refresh);
+        video.addEventListener('progress', refresh);
+        // zero the bar the instant a new reel starts loading
+        video.addEventListener('loadstart', () => { dragging = false; paint(0); buffered.style.width = '0'; curLabel.textContent = '0:00'; });
+    }
+
+    function fmtTime(s) {
+        if (!isFinite(s) || s < 0) s = 0;
+        const m = Math.floor(s / 60);
+        const sec = Math.floor(s % 60);
+        return m + ':' + (sec < 10 ? '0' : '') + sec;
     }
 
     // ---- gestures: tap = toggle chrome, press-hold = 2x FF, hold+swipe-down = lock FF ----
