@@ -7,8 +7,8 @@
     "author_display_name": "Ginger Theory",
     "posted_at": "2026-05-16",
     "engagement": {
-        "likes": 123000,
-        "comments": 1427
+        "likes": 387000,
+        "comments": 4067
     },
     "caption": "jfk wasn’t the only one \n•\n• this video is sped up for time \n•\n•\nthe sigmund freud book is in my linktree",
     "hashtags": [],
@@ -17,7 +17,7 @@
     "audio_content_summary": "The narrator threads a sequence of historical figures and institutions together as a single architecture: B'nai B'rith (Jewish fraternal organization founded 1843 in New York City); Simon Wolf, a B'nai B'rith member, friend of Lincoln, and — per his own 1918 memoir — drinking companion of John Wilkes Booth on April 14, 1865; the 1913 Leo Frank case (Frank was president of B'nai B'rith's Atlanta Gate City Lodge No. 144 at the time of the Mary Phagan murder, his conviction, the 1915 commutation by Gov. Slaton, and his subsequent lynching); B'nai B'rith's founding of the Anti-Defamation League in October 1913 in response to the Frank case; the 1993 ADL Spy Case (Roy Bullock, Tom Gerard, the FBI/SFPD raid, the 1999 class-action settlement); the 1958 Export Administration Act and the modern 36-38-state web of anti-BDS legislation; Hillel International's 2016 partnership with the Israeli Ministry of Diaspora Affairs through the $66 million Mosaic United initiative and the FARA-registration question; Chaim Weizmann's leadership of the Zionist movement in Manchester before becoming Israel's first president; and Sigmund Freud's 1897 affiliation with the B'nai B'rith Vienna lodge.",
     "implied_frame": "The video frames B'nai B'rith and its institutional descendants — the ADL, Hillel, the anti-BDS legislative push — as a single, continuous Jewish-organizational network that has shaped U.S. policy on Israel and constrained U.S. political speech about Israel for over a century, with documented institutional founding dates and personnel reaching back to the Lincoln era. The institutional history is largely on the public record (B'nai B'rith 1843, ADL 1913, ADL Spy Case 1993, Mosaic United 2016, anti-BDS legislation). The narrator's characterization of B'nai B'rith as a 'covert intelligence front for the House of Rothschild' is interpretive language not in the canonical institutional record; the substantive institutional facts under it are documented.",
     "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
-    "video_download_status": "Captured: ~36 MB, vp9 720x1280, 175s.",
+    "video_download_status": "Captured: ~37 MB, vp9 720x1280, 175s.",
     "audio_transcription_status": "Transcribed with openai-whisper.",
     "evidence_records": [
         "1865-lincoln-assassination-001",

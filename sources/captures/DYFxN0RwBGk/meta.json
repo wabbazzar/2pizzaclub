@@ -7,8 +7,8 @@
     "author_display_name": "Fight Back Podcast",
     "posted_at": "2026-05-08",
     "engagement": {
-        "likes": 288000,
-        "comments": 6247
+        "likes": 392000,
+        "comments": 8417
     },
     "caption": "Stew Peters talks about the connection between Pete Hegseth and Charlie Kirk",
     "hashtags": [],
@@ -18,7 +18,7 @@
     "implied_frame": "The video proposes that the Kirk killing, the DOD contract, the Fort Huachuca meeting, and the AES explosion are pieces of a single operation that a specific Special Air Mission flight is alleged to confirm. Verification of the underlying pieces is mixed: the AES explosion and AES's general DOD-contractor status are documented; the specific $440K micro-explosive line item is not yet visible in public procurement records; tail 99-0404 is a real aircraft but is not the one Hegseth was on in the closest publicly-documented incident; and the Fort Huachuca identification has a named witness and a named, publicly-documented rebuttal.",
     "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
     "video_download_status": "Captured: ~28 MB, vp9 720x1280, 131s.",
-    "audio_transcription_status": "Transcribed with openai-whisper base.en.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
     "evidence_records": [
         "2025-aes-explosion-001",
         "2025-aes-dod-contracts-001",

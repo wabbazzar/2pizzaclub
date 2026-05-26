@@ -1,0 +1,30 @@
+{
+    "id": "2001-mural-truck-001",
+    "anchor": "y2001-attack",
+    "year": 2001,
+    "era": "iii",
+    "themes": [
+        "september-11"
+    ],
+    "claim": "On September 11, 2001, a panel truck bearing a painting of a plane flying into the World Trade Center was stopped near New York City's temporary Office of Emergency Management mobile command post — set up at Sixth Avenue and 36th Street with Mayor Rudy Giuliani and OEM Commissioner John Odermatt aboard — after the OEM evacuation of WTC Building 7. The truck was rented to a group of 'ethnic Middle Eastern people who did not speak English.' NYPD evacuated the area, called the bomb squad, and detained the occupants until the search concluded. The Mineta Transportation Institute's 2003 academic report on NYC's 9/11 emergency response, written by Brian Michael Jenkins, is the cleanest primary citation; the report describes the vehicle as ultimately 'found to be an innocent delivery truck.' This is a different van from the Liberty State Park 'Dancing Israelis' van linked to Urban Moving Systems ([[2001-dancing-israelis-001]]) and from the contemporaneous George Washington Bridge 'van with explosives' reports that NYPD Commissioner Bernard Kerik publicly retracted the same day ([[2001-gw-bridge-001]]).",
+    "sources": [
+        {
+            "label": "Brian Michael Jenkins (Mineta Transportation Institute), 'Saving City Lifelines: Lessons Learned in the 9-11 Terrorist Attacks,' MTI Report 02-06, September 2003, section 'RESTORING OEM'S FUNCTIONS.'",
+            "type": "primary",
+            "url": "https://transweb.sjsu.edu/sites/default/files/02-06.pdf",
+            "quote": "A panel truck with a painting of a plane flying into the World Trade Center was stopped near the temporary command post. It proved to be rented to a group of ethnic Middle Eastern people who did not speak English. Fearing that it might be a truck bomb, the NYPD immediately evacuated the area, called out the bomb squad, and detained the occupants until a thorough search was made. The vehicle was found to be an innocent delivery truck."
+        },
+        {
+            "label": "SJSU ScholarWorks — Jenkins, 'Saving City Lifelines: Lessons Learned in the 9-11 Terrorist Attacks,' bibliographic record (Mineta Transportation Institute, Sep 1 2003, MTI Report 02-06).",
+            "type": "secondary",
+            "url": "https://scholarworks.sjsu.edu/mti_publications/142/"
+        },
+        {
+            "label": "Snopes — 'September 11 Mural' fact-check on the mural-van photographs in circulation (notes that the most-shared image is a photoshopped artist's impression).",
+            "type": "secondary",
+            "url": "https://www.snopes.com/fact-check/september-11-mural/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The 'mural van' lives in conspiratorial 9/11 literature mainly via paraphrase of an alleged NYPD radio dispatch — 'airplane diving into New York blowing up' — whose primary audio source has not been independently authenticated and whose most-shared photograph is a photoshopped reconstruction. The Mineta/Jenkins report is the only academically-published primary citation that confirms the underlying incident actually occurred. The report's framing is calmer than the radio-paraphrase ('plane flying into the World Trade Center' rather than 'diving into New York blowing up') and its conclusion ('innocent delivery truck') runs against the Mossad-mural-attack-team interpretation. Three separate van/truck incidents from 9/11 sometimes get conflated: this mural truck near the OEM command post in Manhattan, the Urban Moving Systems van in Liberty State Park, and the George Washington Bridge 'explosives van' that CBS/CNN reported and Kerik retracted. Each is a distinct chain of custody."
+}

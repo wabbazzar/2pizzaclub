@@ -1,0 +1,35 @@
+{
+    "id": "1997-simpsons-nyc-001",
+    "anchor": "y2001-attack",
+    "year": 1997,
+    "era": "iii",
+    "themes": [
+        "september-11",
+        "journalism"
+    ],
+    "claim": "Season 9, Episode 1 of The Simpsons — 'The City of New York vs. Homer Simpson' — first aired on September 21, 1997, four years before the attacks. The episode is set in Manhattan, with the World Trade Center's Twin Towers used as a backdrop for an entire act of the story (the Simpsons' car is towed to Tower One). One scene shows Lisa holding a New York promotional brochure where the price '$9' appears side-by-side with a silhouette of the Twin Towers — producing the optical reading '9/11'. Showrunner Bill Oakley has described the visual alignment on the record as 'eerie given that it's on the only episode of any series ever that had an entire act of World Trade Center jokes,' and explained that '$9 was picked as a comically cheap fare.' Following the attacks the episode was withdrawn from syndication and only quietly returned around 2006, with several Tower-specific jokes edited out.",
+    "sources": [
+        {
+            "label": "Wikipedia — 'The City of New York vs. Homer Simpson' (production details, airdate, syndication withdrawal).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/The_City_of_New_York_vs._Homer_Simpson"
+        },
+        {
+            "label": "Snopes — fact-check on the '$9 / Twin Towers' brochure visual (rating: True that the image exists; False that it constitutes prediction).",
+            "type": "secondary",
+            "url": "https://www.snopes.com/fact-check/simpsons-predicted-wtc/"
+        },
+        {
+            "label": "IMDb — 'The Simpsons' Season 9 Episode 1 'The City of New York vs. Homer Simpson' (TV episode 1997), original air date September 21, 1997.",
+            "type": "secondary",
+            "url": "https://www.imdb.com/title/tt0701230/"
+        },
+        {
+            "label": "@maverickapproach reel DVexPvyD81l (Mar 4, 2026) — surfacing source citing the '9/11 magazine' frame.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DVexPvyD81l/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Worth a record because (a) the image is real and predates 9/11 by four years, (b) the post-2001 withdrawal-from-syndication is documented, and (c) it is one of the longest-running pre-9/11 pop-culture references that conspiracists cite. The Simpsons writing-room explanation (cheap bus fare + NYC silhouette) is on the record and treated as the simplest reading. Surfaced by the @maverickapproach reel whose larger frame ('it's scripted, it's planned') belongs to the DVexPvyD81l record, not this one."
+}

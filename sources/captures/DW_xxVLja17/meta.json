@@ -7,8 +7,8 @@
     "author_display_name": "Cole Soiney",
     "posted_at": "2026-04-11",
     "engagement": {
-        "likes": 4851,
-        "comments": 84
+        "likes": 5164,
+        "comments": 87
     },
     "caption": "ISRAEL PT 2 - Oct. 7th, Gaza & the influence on American policy\n\nI have an hour breakdown on my podcast if you want a deeper dive! \n\n#fyp #israel #middleeast #gaza #education",
     "hashtags": [
@@ -23,7 +23,7 @@
     "audio_content_summary": "The speaker connects the IDF's October 7 response (an 8-12 hour gap against an exercise scenario that anticipated 30-60 minutes), Netanyahu's domestic political situation (the largest protest movement in Israeli history against his judicial-overhaul plans plus his ongoing Cases 1000/2000/4000 corruption trial), the May 2025 Gaza casualty totals (100,000 tons of explosives — equivalent to roughly eight Hiroshimas — at minimum 72,000 confirmed killed, 70 percent women and children, 1,000 medical workers, 300 journalists, 4,000-plus pediatric amputees, 60 percent of homes destroyed, 89 percent of water infrastructure damaged), the Sde Teiman detainee-abuse case and Netanyahu's “blood libel” response, the Jonathan Pollard espionage release, the U.S. aid commitment ($300 billion since 1946 with $3.8 billion annually through 2028), AIPAC's $14.5 million spend against Rep. Jamaal Bowman in the 2024 primary, Miriam Adelson's $100 million 2024 donation to Trump, and the anti-BDS legislation in approximately 36-38 U.S. states.",
     "implied_frame": "The video frames the May 2025 Gaza war metrics, the institutional shielding mechanisms (anti-BDS laws, IDF Sde Teiman dismissal, Pollard release), and the U.S.-domestic political-finance architecture (AIPAC, Adelson, anti-BDS) as components of a single coordinated U.S.-Israel relationship. Each numerical claim cited has primary documentation: Gaza casualty totals via Lancet/UN OCHA/Save the Children/IPC, AIPAC spending via FEC and OpenSecrets, Adelson via FEC, anti-BDS via ACLU and Palestine Legal, Sde Teiman via the IDF Military Advocate General and the contemporaneous Israeli press.",
     "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
-    "video_download_status": "Captured: ~38 MB, vp9 720x1280, 179s.",
+    "video_download_status": "Captured: ~39 MB, vp9 720x1280, 179s.",
     "audio_transcription_status": "Transcribed with openai-whisper.",
     "evidence_records": [
         "2024-aipac-bowman-001",

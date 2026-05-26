@@ -7,8 +7,8 @@
     "author_display_name": "CORRECT CULTURE",
     "posted_at": "2026-03-08",
     "engagement": {
-        "likes": 53000,
-        "comments": 544
+        "likes": 56000,
+        "comments": 586
     },
     "caption": "John McAfee (1945–2021) was a British-American computer programmer, entrepreneur, and controversial public figure best known for founding the cybersecurity company McAfee. His life combined major contributions to early computer security with a long series of legal troubles, political ambitions, and unusual personal behavior.\n-\nBefore his death, McAfee had publicly claimed that:\n\t•\tHe had information about corruption in governments and powerful figures.\n\t•\tIf he died in prison, it would not be suicide.\n\nBecause of those statements, some supporters believe his death might be suspicious.\n\nWhat he claimed to expose\n\nMcAfee often said he possessed data about:\n\t•\tGovernment corruption\n\t•\tFinancial crimes and tax systems\n\t•\tConnections between politicians and powerful elites\n\nHowever, no verified evidence has been released proving he had such information, and authorities have not confirmed any government-exposure claims.",
     "hashtags": [],
@@ -18,7 +18,7 @@
     "implied_frame": "The reel's editorial proposition is that McAfee's June 2021 death in Spanish prison custody — ruled a suicide despite his \"WHACKD\" tweet/tattoo — is contextually re-read in light of this six-years-earlier interview, where he places himself on the wrong side of the U.S. Secretary of State and claims to have intercepted on-government-network material implicating named Central American cabinet ministers in drug- and human-trafficking. The reel is itself the evidentiary artifact: McAfee speaking in his own voice on camera. What is verifiable from the public record: McAfee SAID these things, on multiple occasions (Vice interview footage from circa 2018-2019, his August 2019 tweets restating the Clinton-embassy claim, his repeated 2012-onward public allegations about Belize cabinet corruption). What is not independently verified: the underlying truth of any of the allegations (Clinton personal involvement, the specific cabinet-minister trafficking claims, the scope of the spyware operation).",
     "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
     "video_download_status": "Captured: ~23 MB, vp9 720x1280, 124s.",
-    "audio_transcription_status": "Transcribed with openai-whisper base.en.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
     "evidence_records": [
         "2012-mcafee-clinton-embassy-001"
     ],

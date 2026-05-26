@@ -7,8 +7,8 @@
     "author_display_name": "@nyc_wtc",
     "posted_at": "2026-03-31",
     "engagement": {
-        "likes": 983,
-        "comments": 94
+        "likes": 991,
+        "comments": 95
     },
     "caption": "Subscribe! Help us to reach 5000 subscribers!\n\n#wtc #911 #truth #neverforget #usa",
     "hashtags": [
@@ -23,8 +23,8 @@
     "audio_content_summary": "The narrator advances four claims about World Trade Center 7. First, that the building collapsed at free-fall speed into its own footprint (NIST has acknowledged a ~2.25-second pure-free-fall period in NCSTAR 1A; see 2001-wtc-collapse-physics-001). Second, that WTC 7 is one of only three steel-framed high-rises in history to have collapsed from fire — the other two being WTC 1 and 2 on the same day. The Plasco Building collapse in Tehran on January 19, 2017 is a documented fourth case; the narrator notes Plasco fell asymmetrically and uses it as a contrasting reference for what an unrigged fire-induced collapse looks like. Third, that Larry Silverstein's September 2002 PBS America Rebuilds statement — 'maybe the smartest thing to do is pull it' — was an instruction to demolish the building, an interpretation Silverstein's spokesperson disputed and that NIST's final report did not adopt (see 2002-silverstein-pull-it-001). Fourth, that the rapidity with which the attacks were officially attributed indicates pre-attack preparation rather than post-attack investigation.",
     "implied_frame": "The video pairs the physics-of-collapse claim with the 'pull it' semantic argument to advance the controlled-demolition reading of WTC 7. Each underlying fact (the collapse time, the Silverstein statement, the Plasco comparison) is documented; the synthesized inference — that WTC 7 was pre-rigged for demolition — is the contested editorial proposition NIST's WTC 7 final report directly rejects.",
     "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
-    "video_download_status": "Captured: ~21 MB, vp9 720x1280, 131s.",
-    "audio_transcription_status": "Transcribed with openai-whisper base.en.",
+    "video_download_status": "Captured: ~22 MB, vp9 720x1280, 131s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
     "evidence_records": [
         "2002-silverstein-pull-it-001",
         "2001-wtc-collapse-physics-001"

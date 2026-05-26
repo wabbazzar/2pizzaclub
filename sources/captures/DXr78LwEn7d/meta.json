@@ -1,0 +1,30 @@
+{
+    "id": "DXr78LwEn7d",
+    "url": "https://www.instagram.com/reel/DXr78LwEn7d/",
+    "platform": "instagram",
+    "captured_at": "2026-05-23",
+    "handle": "@conspiracyintel",
+    "author_display_name": "Conspiracy Theories",
+    "posted_at": "2026-04-28",
+    "engagement": {
+        "likes": 325000,
+        "comments": 7184
+    },
+    "caption": "Tucker Carlson and Joe Rogan react to a nearly decade old video of Alex Jones presenting what he described as a detailed view of elite power structures at the time.\n\nMany of the topics mentioned in that discussion, such as advanced AI systems, alleged global abuse networks, and speculative ideas about non human intelligence, are now more widely talked about. However, ten years ago, public awareness of artificial intelligence was far more limited, and figures like Jeffrey Epstein were not as widely known or understood as they are today. Concepts involving complex or fringe interpretations of hidden power structures and extraterrestrial hierarchies were also far less present in mainstream conversation.\n\nFollow @conspiracyintel for more conspiracy updates\n\n#TuckerCarlson #JoeRogan #AlexJones #AI #MediaAnalysis",
+    "hashtags": [
+        "TuckerCarlson",
+        "JoeRogan",
+        "AlexJones",
+        "AI",
+        "MediaAnalysis"
+    ],
+    "audio_track_actual": "Alex Jones speaking on the Joe Rogan Experience (PIP studio shot of Rogan + a second guest, likely Tucker Carlson, reacting). Audio is a continuous Jones monologue — cosmological/elite-transcendence framing — followed by a short concluding line ('seven years ago. No one was thinking it was going to take over. So you can see why the FBI decided to destroy him, which it did.').",
+    "video_overlay_text_observed": "Caption banner: 'If you only can watch 1 single \"Alex Jones was right\" video, make it this one. Alex had Joe and Tucker shook.' Channel branding for @conspiracyintel.",
+    "audio_content_summary": "Jones delivers a stitched 60-second cosmology: (a) Einstein + Max Planck physics establishes at least 12 dimensions; the universe is a 'false hologram' artificially projected, with gravity bleeding in (i.e. dark matter is detection of higher-dimensional intrusion). (b) Below the third dimension is a 'sub-transmission zone' of malign energies attempting to ascend. (c) Elites are racing to merge with machines, build a 'breakaway civilization' powered by an AI keyed to the 'hive mind of humanity' — Google's long-term goal as Jones describes it. (d) Once the AI achieves a crystal-ball-like prediction faculty, controlling stimuli replaces free will; pedophiles and 'psychic vampires' are at the controls. (e) A 'human counter-strike' is now underway to disrupt the system. The closing 'seven years ago / FBI destroyed him' line refers to Jones's Sandy Hook defamation losses and Infowars seizure.",
+    "implied_frame": "Jones was 'right about everything,' and the AI/elite-blackmail/UAP/dimensional-physics convergence the mainstream is now noticing was visible to Jones a decade ago. (Group C overall. Nothing in the monologue maps to a primary-source-checkable specific claim — the physics is metaphorical, the elite-AI program is unsourced, the 'pedophiles and psychic vampires' frame is rhetorical. The only durable verifiable point — that Jones did spend the 2010s talking about elite-merger-with-machines and a Google-led AI — is true but unremarkable. No evidence records were generated for this reel.)",
+    "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
+    "video_download_status": "Captured: ~26 MB, vp9 720x1280, 179s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [],
+    "supporting_research_links": []
+}

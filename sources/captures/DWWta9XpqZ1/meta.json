@@ -1,0 +1,36 @@
+{
+    "id": "DWWta9XpqZ1",
+    "url": "https://www.instagram.com/reel/DWWta9XpqZ1/",
+    "platform": "instagram",
+    "captured_at": "2026-05-24",
+    "handle": "@conspiracy.deception",
+    "author_display_name": "👁️Conspiracy👁️",
+    "posted_at": "2026-03-26",
+    "engagement": {
+        "likes": 71000,
+        "comments": 3081
+    },
+    "caption": "They told you it was a plane. They told you it was jet fuel, fire, structural failure.\n\nBut what if George Bush just accidentally admitted on live television that the Twin Towers were brought down by explosives, and the only thing more shocking than his slip is that no one in the media asked him to explain what he meant.\n\nHere’s what the official narrative, the NIST report, and the media gatekeepers don’t want you to replay:\n\n✅ “The operatives have been instructed to ensure that the explosives went off at a high point.” Listen again. Bush wasn’t talking about planes. He wasn’t talking about jet fuel. He was talking about explosives. The word came out of the president’s mouth. And then he kept talking, hoping no one would notice.\n\n✅ This wasn’t a slip—it was a leak. A moment where the script broke and the truth seeped through. For a few seconds, the man who was in the White House on 9/11 described exactly how the towers fell—with explosives placed at specific heights to trap those above. Then the narrative snapped back. But the word was already out.\n\n✅ Why didn’t the media ask? Because asking would mean admitting that the president of the United just confirmed what 9/11 truth advocates have been saying for decades: the towers were demolished, not collapsed. And that’s a story they’ve been burying since 2001.\n\n💬 Comment “FILES” and I’ll tell you what else he almost said—it’s all inside The Conspiracy Files.\n\n#GeorgeBush #Explosives #9/11Truth #HeSaidTheWord #TwinTowers",
+    "hashtags": [
+        "GeorgeBush",
+        "Explosives",
+        "9",
+        "HeSaidTheWord",
+        "TwinTowers"
+    ],
+    "audio_track_actual": "George W. Bush, East Room of the White House, September 6, 2006 — speech announcing the transfer of 14 high-value CIA detainees to Guantanamo. The clip loops the 'explosives went off at a point that was high enough to prevent the people trapped above from escaping' sentence three times.",
+    "video_overlay_text_observed": "On-screen text frames the clip as Bush 'slipping' that the Twin Towers were brought down by explosives.",
+    "audio_content_summary": "Excerpt from Bush's 2006 East Room speech describing what Khalid Sheikh Mohammed revealed during CIA interrogation. The full surrounding paragraph is about 'other plots to kill innocent Americans' that KSM described — specifically the post-9/11 'Second Wave' plot targeting the Library Tower (U.S. Bank Tower) in Los Angeles, which KSM described as bombing-from-inside. The reel cuts the framing line ('KSM also provided many details of other plots') and presents the remaining sentence as a 9/11 confession.",
+    "implied_frame": "Bush 'slipped' on live TV and admitted the Twin Towers were brought down by pre-planted explosives, not planes. (Group C: invented frame. The verbatim sentence is real but the speech is on its face describing KSM's account of OTHER plots, not 9/11. Bush's preceding sentence in the same paragraph: 'During questioning, KSM also provided many details of other plots to kill innocent Americans. For example, he described the design of planned attacks on buildings inside the United States, and how operatives were directed to carry them out.' Then the explosives sentence.)",
+    "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
+    "video_download_status": "Captured: ~14 MB, vp9 720x1280, 75s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2006-bush-explosives-quote-001"
+    ],
+    "supporting_research_links": [
+        "https://georgewbush-whitehouse.archives.gov/news/releases/2006/09/20060906-3.html",
+        "https://georgewbush-whitehouse.archives.gov/news/releases/2006/09/20060915-2.html",
+        "https://en.m.wikipedia.org/wiki/2005_Los_Angeles_bomb_plot"
+    ]
+}

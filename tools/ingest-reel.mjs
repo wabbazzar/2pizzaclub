@@ -111,15 +111,34 @@ async function captureAndScrape() {
         return new Promise(async (resolve) => {
             const v = document.querySelector("video");
             v.muted = false; v.volume = 1;
-            try { await v.play(); } catch { v.muted = true; await v.play().catch(() => {}); }
-            await new Promise(r => setTimeout(r, 600));
 
+            // Rewind to the very start and hold there. Instagram autoplays and
+            // loops, so by the time this runs the playhead may be anywhere in
+            // the reel — record from wherever it sits and the opening is lost.
+            try { v.pause(); } catch {}
+            try {
+                v.currentTime = 0;
+                if (v.currentTime > 0.05) {
+                    await new Promise((res) => {
+                        const done = () => { v.removeEventListener("seeked", done); res(); };
+                        v.addEventListener("seeked", done);
+                        setTimeout(res, 1500);
+                    });
+                }
+            } catch {}
+
+            // Arm the recorder on the held frame 0 BEFORE playback. The previous
+            // order (play, wait 600ms, then start recording) dropped the first
+            // ~0.6s+ of every reel while the stream/recorder spun up.
             const stream = v.captureStream();
             const mime = "video/webm;codecs=vp9,opus";
             const rec = new MediaRecorder(stream, { mimeType: mime, videoBitsPerSecond: 1_500_000, audioBitsPerSecond: 96_000 });
             const chunks = [];
             rec.ondataavailable = (e) => { if (e.data.size > 0) chunks.push(e.data); };
             rec.start(1000);
+
+            // Recorder is live on frame 0; now start playback.
+            try { await v.play(); } catch { v.muted = true; await v.play().catch(() => {}); }
 
             const target = v.duration || 160;
             const hardCapMs = Math.min(360_000, (target + 5) * 1000);
@@ -208,28 +227,42 @@ function parseOg(ogTitle, ogDescription) {
 // gallery skips empty strings, so leaving a field empty is preferable to filling it
 // with backstage prose.
 function writeStarterMeta(shortcode, parsed, captureSize, captureDuration) {
+    const metaPath = `${CAPS_DIR}/${shortcode}/meta.json`;
+    // Re-running ingest on an already-edited capture must NOT clobber the
+    // hand-written editorial pass. Merge onto any existing meta: refresh the
+    // machine-derived fields, keep a fresh OG value only when we scraped one,
+    // and preserve every editorial / custom field (incl. any not in this
+    // skeleton, e.g. video_overlay_text_persistent, notes).
+    const prev = fs.existsSync(metaPath) ? JSON.parse(fs.readFileSync(metaPath, "utf8")) : {};
+    const isEmpty = (x) => x === null || x === undefined || x === ""
+        || (Array.isArray(x) && x.length === 0);
+    const fresh = (next, prior) => (isEmpty(next) ? prior : next);
+
     const meta = {
+        ...prev,
         id: shortcode,
         url: `https://www.instagram.com/reel/${shortcode}/`,
         platform: "instagram",
-        captured_at: new Date().toISOString().slice(0, 10),
-        handle: parsed.handle,
-        author_display_name: parsed.author,
-        posted_at: parsed.posted_at,
-        engagement: parsed.engagement,
-        caption: parsed.caption,
-        hashtags: parsed.hashtags,
-        audio_track_actual: "",
-        video_overlay_text_observed: "",
-        audio_content_summary: "",
-        implied_frame: "",
+        captured_at: prev.captured_at ?? new Date().toISOString().slice(0, 10),
+        handle: fresh(parsed.handle, prev.handle ?? null),
+        author_display_name: fresh(parsed.author, prev.author_display_name ?? null),
+        posted_at: fresh(parsed.posted_at, prev.posted_at ?? null),
+        engagement: fresh(parsed.engagement, prev.engagement ?? null),
+        caption: fresh(parsed.caption, prev.caption ?? null),
+        hashtags: fresh(parsed.hashtags, prev.hashtags ?? []),
+        audio_track_actual: prev.audio_track_actual ?? "",
+        video_overlay_text_observed: prev.video_overlay_text_observed ?? "",
+        audio_content_summary: prev.audio_content_summary ?? "",
+        implied_frame: prev.implied_frame ?? "",
         capture_method: "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
-        video_download_status: `Captured: ~${Math.round(captureSize / 1_000_000)} MB, vp9 720x1280, ${Math.round(captureDuration)}s.`,
+        video_download_status: captureDuration > 0
+            ? `Captured: ~${Math.round(captureSize / 1_000_000)} MB, vp9 720x1280, ${Math.round(captureDuration)}s.`
+            : (prev.video_download_status ?? `Captured: ~${Math.round(captureSize / 1_000_000)} MB, vp9 720x1280.`),
         audio_transcription_status: "Transcribed with openai-whisper.",
-        evidence_records: [],
-        supporting_research_links: []
+        evidence_records: prev.evidence_records ?? [],
+        supporting_research_links: prev.supporting_research_links ?? []
     };
-    fs.writeFileSync(`${CAPS_DIR}/${shortcode}/meta.json`, JSON.stringify(meta, null, 4) + "\n");
+    fs.writeFileSync(metaPath, JSON.stringify(meta, null, 4) + "\n");
 }
 
 function writeTranscriptWrapper(shortcode, model) {

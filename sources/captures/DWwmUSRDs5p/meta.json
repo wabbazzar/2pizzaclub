@@ -7,8 +7,8 @@
     "author_display_name": "@nyc_wtc",
     "posted_at": "2026-04-05",
     "engagement": {
-        "likes": 5771,
-        "comments": 424
+        "likes": 5824,
+        "comments": 428
     },
     "caption": "Subscribe to support the 25th anniversary! \n\n#wtc #911 #truth #neverforget #usa",
     "hashtags": [
@@ -24,7 +24,7 @@
     "implied_frame": "The video frames the physics-based critique as definitionally settled — 'high school physics' — and presents NIST's position as a violation of established law. NIST's published responses (in its FAQs and the Europhysics News peer-reviewed treatment) engage the same physics with different boundary-condition assumptions. The video's argument is the most-cited public-facing form of the AE911Truth structural-engineering critique.",
     "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
     "video_download_status": "Captured: ~25 MB, vp9 720x1280, 169s.",
-    "audio_transcription_status": "Transcribed with openai-whisper base.en.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
     "evidence_records": [
         "2001-wtc-collapse-physics-001"
     ],

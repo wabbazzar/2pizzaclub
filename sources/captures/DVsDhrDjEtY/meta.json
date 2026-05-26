@@ -7,8 +7,8 @@
     "author_display_name": "Ceci | Unapologetic Content + Digital Income",
     "posted_at": "2026-03-09",
     "engagement": {
-        "likes": 50000,
-        "comments": 1424
+        "likes": 52000,
+        "comments": 1467
     },
     "caption": "The Cl!ntons are a modern day mob family. Do you agree?",
     "hashtags": [],
@@ -18,7 +18,7 @@
     "implied_frame": "The reel's editorial proposition is the longstanding \"Clinton body count\" / \"Arkancide\" framing: that a chain of inconvenient witnesses dies before testifying. The eight named deaths are individually real, but the connective framings are contested or inverted by the established record. JFK Jr. had not declared his Senate candidacy when he died; the NTSB ruled spatial disorientation. The 1997 Starbucks shooting killed three employees and was solved (Carl Cooper, life-without-parole 2000); Mahoney was not a documented impeachment witness, and the impeachment itself began after her death. Five independent investigations including Ken Starr's Office of Independent Counsel concluded Foster's death was suicide, and the bullet WAS recovered by Park Police on scene. James McDougal was a Starr-OIC cooperator against the Clintons, not a White House witness. Walter Scheib's death was a solo-hiking accident in the Pecos Wilderness ruled accidental drowning. Fox News retracted the Seth Rich / DNC-leak story in 2017; the Mueller indictment named Russian GRU officers as the source of the leaked DNC emails. Shawn Lucas's role was process server, not lead attorney; his death was ruled accidental combined drug toxicity. The released DOJ Epstein-files corpus (indexed locally at /efta/) contains zero word-boundary hits for any of the eight names.",
     "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
     "video_download_status": "Captured: ~23 MB, vp9 720x1280, 123s.",
-    "audio_transcription_status": "Transcribed with openai-whisper base.en. Two names mis-transcribed (\"James Adoule\" for James McDougal, \"Walter Schide\" for Walter Scheib).",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
     "evidence_records": [
         "1999-clinton-body-count-reel-001"
     ],

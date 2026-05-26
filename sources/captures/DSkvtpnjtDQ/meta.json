@@ -1,0 +1,38 @@
+{
+    "id": "DSkvtpnjtDQ",
+    "url": "https://www.instagram.com/reel/DSkvtpnjtDQ/",
+    "platform": "instagram",
+    "captured_at": "2026-05-23",
+    "handle": "@the.hiddenprotocol",
+    "author_display_name": "The Hidden Protocol",
+    "posted_at": "2025-12-22",
+    "engagement": {
+        "likes": 73000,
+        "comments": 759
+    },
+    "caption": "Epstein Wasn’t the Asset | Power, Blackmail, and the System Behind Him\n\nThis clip breaks down a disturbing claim that keeps resurfacing around Epstein — not as a lone operator, but as a tool.\n\nAccording to the speaker, Epstein was allegedly trained and positioned to expand influence into higher levels of power, using access, leverage, and recorded compromise as control. Not chaos — structure.\n\nThe discussion explores the idea of a long-running blackmail operation: powerful people placed into situations they could never publicly survive, then quietly guided afterward.\n\nThe video also questions why dozens of U.S. states signed specific speech-related legislation — and whether fear, leverage, or exposure plays a role when laws move this fast and this quietly.\nNo conclusions are forced here.\nBut the patterns are uncomfortable.\nPower doesn’t always rule with money.\nSometimes it rules with silence.\n\nWatch carefully.\nWhat’s not said matters just as much.\n\n#HiddenProtocol #DecodeTheCode #EpsteinCase\n#PowerStructures #BlackmailEconomy",
+    "hashtags": [
+        "HiddenProtocol",
+        "DecodeTheCode",
+        "EpsteinCase",
+        "PowerStructures",
+        "BlackmailEconomy"
+    ],
+    "audio_track_actual": "Male speaker monologue, apparently Robert David Steele (inferred from the 'Mozart' [Mossad] speech tic and the PROMIS/Maxwell talking-point set). Whisper repeatedly transcribes 'Mossad' as 'Mozart' due to the speaker's pronunciation; 'Epstein' renders as 'Epson' in places.",
+    "video_overlay_text_observed": "On-screen subtitles tracking the spoken text. Channel branding for @the.hiddenprotocol.",
+    "audio_content_summary": "Argument that Epstein was not the principal asset but a Mossad-managed front, scaffolded on top of Ghislaine Maxwell's pre-existing operation inherited from her father Robert Maxwell. Claims: (a) Robert Maxwell got a Mossad state funeral; (b) Promise / PROMIS software was the Maxwell intelligence-vector for installing back doors in government computers; (c) Les Wexner funded Epstein and 'may have funded 9/11'; (d) CIA and FBI were complicit in Epstein 'from day one'; (e) Epstein was one of '50 Mossad pedophilia entrapment operations' in the U.S., with 49 others 'all protected by the FBI'; (f) 27 states passed anti-BDS felony laws because half are bribed and half are blackmailed by Mossad.",
+    "implied_frame": "Israeli-intelligence-led blackmail apparatus is the throughline behind Epstein, U.S. financial-crimes corruption, and the anti-BDS legal architecture. Group A (verifiable): Maxwell-funeral attendance, PROMIS-software back-door history, Wexner-Epstein power-of-attorney, the 2020 FBI Mossad-belief memo, the existence of state anti-BDS laws. Group B (real but framing-contested): the felony-vs-civil reach of state anti-BDS laws (38 states have measures of varying severity, not all are felony statutes); the strength of evidence behind the FBI-CHS Mossad-belief memo. Group C (asserted without source): '50 Mossad pedophilia entrapment operations,' '49 protected by the FBI,' 'Wexner may have funded 9/11.'",
+    "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
+    "video_download_status": "Captured: ~35 MB, vp9 720x1280, 169s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2025-hidden-protocol-claims-001",
+        "1991-maxwell-funeral-001",
+        "2020-fbi-epstein-mossad-memo-001"
+    ],
+    "supporting_research_links": [
+        "https://www.aljazeera.com/news/2026/2/19/les-wexner-how-the-billionaire-enabled-jeffrey-epsteins-rise",
+        "https://en.wikipedia.org/wiki/Les_Wexner",
+        "https://en.wikipedia.org/wiki/Robert_Maxwell"
+    ]
+}

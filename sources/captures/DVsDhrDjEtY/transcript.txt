@@ -1,28 +1,36 @@
 Source: reel.webm
 Audio: opus 48kHz stereo extracted to 16kHz mono WAV
-Transcribed: 2026-05-23, openai-whisper base.en
+Transcribed: 2026-05-26, openai-whisper base.en
 
 — FULL TEXT —
 
-Remember John F. Kennedy Jr. He was declared the front runner for the New York Senate seat back in 1999.
-Days later, his plane crashed into the Atlantic Ocean and his rival, Hillary Clinton, was elected senator.
+Remember John F. Kennedy Jr.
+He was declared the front runner for the New York Senate seat back in 1999.
+Days later, his plane crashed into the Atlantic Ocean and his rival, Hillary Clinton, was
+elected senator.
 Mary Mahoney was a Clinton White House intern.
-She knew enough of the inner workings of Bill's sexual advancements to be a star witness during the Clinton impeachment trials.
+She knew enough of the inner workings of Bill's sexual advancements to be a star witness
+during the Clinton impeachment trials.
 She was brutally executed as a Starbucks she was managing in 1997.
-In 1993, White House counsel Vince Foster was found dead in Fort Marcy Park near D.C.
-He supposedly killed himself, and among a lengthy list of potential foul play, the bullet was never found.
-Then there's James Adoule, a key witness for White House prosecutors.
-He was serving his three-year sentence for bank fraud at the Fort Worth Federal Medical Center in Texas,
-and just before he was to give a testimony before the grand jury,
-would Douglass suffered a heart attack and solitary confinement.
-In 2015, Walter Schide, a White House chef hired under Bill Clinton, joined the list.
-His body was found at the bottom of her river, nearly two miles from the base of the trail he was reportedly hiking,
-and autopsy determined that Schide's dad was accidental drowning, but he might have known too much.
-27-year-old Democratic National Committee staffer Seth Rich was shot and killed in D.C. this year.
-There is speculation that he was the source of the controversial leaked emails allegedly sent by D.N.C. staffers,
-and that he may have been murdered in retaliation.
-Then Sean Lucas, the lead attorney in a fraud case against the D.N.C.,
-was found lying on the bathroom floor by his girlfriend when she returned home on August 2nd.
-His dad was reported classified, pending the results.
+In 1993, White House counsel Vince Foster was found dead in Fort Marcy Park, near D.C.
+He supposedly killed himself and among a lengthy list of potential foul play, the bullet was
+never found.
+Then there's James McDougal, a key witness for White House prosecutors.
+He was serving his three-year sentence for bank fraud at the Fort Worth Federal Medical
+Center in Texas, and just before he was to give a testimony before the grand jury, McDougal
+suffered a heart attack in solitary confinement.
+In 2015, Walter Scheidt, a White House chef hired under Bill Clinton, joined the list.
+His body was found at the bottom of a river, nearly two miles from the base of the trail
+he was reportedly hiking, and all tops he determined that Scheidt's dad was accidental
+drowning.
+But he might have known him too much.
+27-year-old Democratic National Committee staffer Seth Rich was shot and killed in D.C.
+this year.
+There is speculation that he was the source of the controversial leaked emails allegedly
+sent by D.N.C.
+staffers, and that he may have been murdered in retaliation.
+Then Sean Lucas, the lead attorney in a fraud case against the D.C., was found lying on
+the bathroom floor by his girlfriend when she returned home on August 2nd.
+His dad was reported classified, ending the results.
 
 — END —

@@ -7,8 +7,8 @@
     "author_display_name": "Paper Planet",
     "posted_at": "2026-05-12",
     "engagement": {
-        "likes": 25000,
-        "comments": 883
+        "likes": 29000,
+        "comments": 1023
     },
     "caption": "The U.S. is experiencing a severe fuel crisis driven by the conflict with Iran and the shutdown of the Strait of Hormuz. Spirit Airlines ceased operations and began an orderly wind-down, following a failure to secure a $500 million government bailout. After years of financial struggles, two bankruptcies in 18 months, and rising fuel costs, the 34-year-old budget carrier went out of business. Over 17,000 employees lost their jobs and all flights were canceled. At the same time the fuel crisis has caused gasoline prices to average $4.30 per gallon, a four-year peak, with some California stations exceeding $8. The crisis is fueled by a global supply shock, with diesel rising fast and refineries prioritizing jet fuel over gasoline\n\n#spirit #project2025 #corporategreed #fuelprices #gasprices\n\nSources include:\nCentre for Climate Reporting 8.15.2024 “Undercover in Project 2025”\n\nCBS News 5.2.2026 “Spirit Airlines shutting down after failed effort at government rescue deal”\n\nThe Hill 7.25.2024 “What to know about Project 2025’s plan for agriculture, and how it could lead to real chaos”\n\nWBUR 4.2.2026 “Skyrocketing fuel prices squeeze Rhode Island fishermen”\n\nSpectrum News 5.8.2026 “Texas farmers struggle with higher costs due to war with Iran”\n\nBlackRock Inc. 2.2026 “Form 10-K Annual Report for Fiscal Year 2025”",
     "hashtags": [
@@ -23,8 +23,8 @@
     "audio_content_summary": "The narrator argues that the May 2026 Spirit Airlines shutdown is the marquee event of a coordinated consolidation playbook in which a fuel-price shock — driven by the U.S.-Iran conflict and Strait of Hormuz disruption — bankrupts small operators (small farmers, fishing boats, budget airlines, main-street businesses) at fire-sale prices, then Project 2025's policy provisions finish the job. The reel names three specific Project 2025 provisions said to disadvantage rural and small operators: repeal of crop insurance, cuts to Farm Service Agency loans, and ending the Essential Air Service program. It cites Russell Vought's August-2024 hidden-camera admission (via the Centre for Climate Reporting) that the second-phase Project 2025 documents were being intentionally distributed off-channel to avoid FOIA disclosure. It closes by naming BlackRock, Vanguard, and State Street — \"$30 trillion under management\" — as the largest shareholders in the oil, airline, and agribusiness incumbents positioned to absorb the consolidated assets.",
     "implied_frame": "The editorial proposition is that the 2026 fuel-price shock is not exogenous chaos but is the operational mechanism of a deliberate consolidation strategy. The reel binds three pieces of evidence — Project 2025's documented rural provisions, the Vought/Meadowcroft FOIA-avoidance recording, and Spirit Airlines' May 2 shutdown — into a single causal chain whose end-state is the largest passive asset managers acquiring small-operator inventory at depressed prices. The three named federal-policy artifacts (Project 2025 ARC/PLC repeal, FSA shrinkage, Essential Air Service termination) and the May 2 2026 Spirit collapse are independently primary-source-verified. The synthesis — that the price spike is causally engineered, not consequentially exploited — is the speaker's, and is not asserted in the three corresponding evidence records.",
     "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
-    "video_download_status": "Captured: ~24 MB, vp9 720x1280, 121s.",
-    "audio_transcription_status": "Transcribed with openai-whisper base.en.",
+    "video_download_status": "Captured: ~25 MB, vp9 720x1280, 121s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
     "evidence_records": [
         "2026-spirit-airlines-shutdown-001",
         "2024-vought-foia-undercover-001",

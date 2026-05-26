@@ -7,10 +7,10 @@
     "author_display_name": "Tafsir Mahmood (李建军）",
     "posted_at": "2026-04-06",
     "engagement": {
-        "likes": 184000,
-        "comments": 3769
+        "likes": 221000,
+        "comments": 4493
     },
-    "caption": "Lincoln Park is the name of a military base where they (allegedly) performed disturbing experiments on a certain demographic that the band of the same name tried to expose to the world…? RIP 🕊️ #interesting #facts #theory #mkultra #chesterbennington — Disclaimer: Allegedly. ©@filspixel",
+    "caption": "Lincoln Park is the name of a military base where they (allegedly) performed disturbing experiments on a certain demographic that the band of the same name tried to expose to the world…? RIP 🕊️\n#interesting #facts #theory #mkultra #chesterbennington\nDisclaimer: Allegedly.\n©@filspixel",
     "hashtags": [
         "interesting",
         "facts",
@@ -24,7 +24,7 @@
     "implied_frame": "The video chains real, separately-documented public records — four high-profile suicides; the FBI's 2007 bulletin; a Cold-War-era RCAF base name — into a single conspiratorial sequence implying coordinated suppression of a whistle-blowing documentary. Each element exists. The connective tissue between them is the video's editorial proposition rather than a sourced finding.",
     "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
     "video_download_status": "Captured: ~24 MB, vp9 720x1280, 124s.",
-    "audio_transcription_status": "Transcribed with openai-whisper base.en.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
     "evidence_records": [
         "2017-bennington-001",
         "2017-cornell-001",

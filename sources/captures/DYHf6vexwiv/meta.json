@@ -7,7 +7,7 @@
     "author_display_name": "NewsToTrust",
     "posted_at": "2026-05-09",
     "engagement": {
-        "likes": 128000,
+        "likes": 157000,
         "comments": 0
     },
     "caption": "9/11: Does The Official Story Add Up? 🏙️\n\nThey really expect us to believe 19 cave dwellers with box cutters and a satellite phone outsmarted the entire US military on the most defended airspace in the world… while living wild lifestyles with strippers and coke? 🚨\n\nOne guy who could barely fly a Cessna allegedly pulled a perfect 270° corkscrew maneuver into the exact Pentagon office investigating $2.3 TRILLION in missing funds — the day after it was announced. ⚡\n\nA passport magically survives a fiery plane crash to land blocks away… yet the black boxes don’t? Buildings collapse at freefall speed into their own footprint. And WTC7? The official story barely mentions it. 🤔\n\nDare to notice the holes. The official narrative isn’t just flawed — it feels like an insult to basic intelligence. Who really benefited? The questions remain unanswered 20+ years later.\n\nDrop 🔥 if you see through the script. Comment “INSIDE JOB” if you’re not buying it anymore. Save this. Share this before it gets buried. Truth still matters. 🤫",
@@ -18,7 +18,7 @@
     "implied_frame": "The video argues that the official 9/11 account is internally inconsistent at multiple named points. Several of those named points — Rumsfeld's $2.3 trillion announcement, Sibel Edmonds, WTC 7, the Suqami passport, Hanjour's piloting — are matters of documented public record (linked below) and can be examined individually. Whether the sum of those facts amounts to a cover-up is the inference the video asks the reader to draw; the documented facts themselves are the reader's starting point.",
     "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
     "video_download_status": "Captured: ~13 MB, vp9 720x1280, 140s.",
-    "audio_transcription_status": "Transcribed with openai-whisper base.en.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
     "evidence_records": [
         "2001-rumsfeld-trillion-001",
         "2001-able-danger-001",

@@ -1,0 +1,43 @@
+{
+    "id": "2001-ua93-phone-calls-001",
+    "anchor": "y2001-attack",
+    "year": 2001,
+    "era": "iii",
+    "themes": [
+        "september-11",
+        "journalism",
+        "fbi"
+    ],
+    "claim": "An Instagram reel posted Jan 8, 2026 by @hallelu_yahuah (the 'WHAT REALLY HAPPENED ON 9/11?' series, part 46/56) argues the phone calls from UA Flight 93 were fabricated, on the theory that cell-phone calls at altitude were technically impossible. Checked against the FBI's 2006 Moussaoui-trial exhibit P200054, the record cuts the other way. The FBI's official tally of UA93 calls was '35 air phone calls and two cell phone calls' — 13 passengers and crew using GTE Airfones built into seat-backs in the last nine rows of the plane, and just two cell-phone calls, both placed at 9:58 a.m. by CeeCee Lyles and Edward Felt during the plane's final low-altitude descent (UA93 had descended to roughly 5,000 feet by the 9:58 mark). The reel's specific framing that 'CeCe's call took place at 9:47, which means she would have been at 20,000 feet' confuses two separate Lyles calls: the 9:47 a.m. call that went to her husband Lorne Lyles' answering machine was an Airfone call, while her 9:58 a.m. cell-phone call to a residential number happened during descent at ~5,000 feet. The reel's separate complaint about audio clarity ('no background noise') applies to Airfone audio, which is a wired in-flight handset and would not pick up cabin/engine background the way a cell-phone mic at altitude would. The reel's quote-pull from Theodore Olson — that 'the government has [an] inherent right' / 'legitimate reasons to give out false information' — is real. Olson, then Solicitor General, said it at oral argument in Christopher v. Harbury, 536 U.S. 403 (argued March 18, 2002, decided June 20, 2002), a case brought by Jennifer Harbury alleging State Department officials deceived her while her husband was being tortured and killed by CIA-paid Guatemalan army officers. The Supreme Court ruled unanimously against Harbury on access-to-courts grounds, dismissing the constitutional claim without resolving the underlying right-to-lie question.",
+    "sources": [
+        {
+            "label": "International Center for 9/11 Justice — Consensus Panel Point PC-4: 'Cell Phone Calls from the Planes: The Second Official Account' (compiles FBI Moussaoui-trial Exhibit P200054 and altitude analysis).",
+            "type": "secondary",
+            "url": "https://ic911.org/consensus-panel/consensus-points/point-pc-4/",
+            "quote": "13 of the terrified passengers and crew members made 35 air phone calls and two cell phone calls to family members and airline dispatchers"
+        },
+        {
+            "label": "9/11 Memorial — 'The Fight of a 9/11 Flight Attendant' (CeeCee Lyles call timing: 9:47 a.m. voicemail, follow-up call just before 10:03 a.m. crash).",
+            "type": "secondary",
+            "url": "https://911memorial.org/connect/blog/women-s-history-fight-911-flight-attendant"
+        },
+        {
+            "label": "Justia — Christopher v. Harbury, 536 U.S. 403 (2002) (full opinion + case posture).",
+            "type": "court",
+            "url": "https://supreme.justia.com/cases/federal/us/536/403/"
+        },
+        {
+            "label": "The American Prospect — Wendy Kaminer, 'Lies and Consequences' (Apr 25, 2002): contemporaneous reporting on Olson's 'legitimate reasons to give out false information' remark at oral argument.",
+            "type": "secondary",
+            "url": "https://prospect.org/2002/04/25/lies-consequences/",
+            "quote": "There are lots of different situations when the government has legitimate reasons to give out false information"
+        },
+        {
+            "label": "@hallelu_yahuah reel DTQpJYljOjf (Jan 8, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DTQpJYljOjf/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The reel's strongest hook is the Olson quote, which is verbatim and on the record. The weakest is the timeline conflation between CeeCee Lyles' 9:47 a.m. Airfone voicemail and her 9:58 a.m. cell-phone call — the same conflation appears in most of the 'cell phones don't work at 20,000 feet' truther material. The FBI's own count (35 Airfone + 2 cell) is the durable factual frame; the Lyles audio 'too clean' complaint dissolves once the call is identified as an in-flight Airfone rather than a cell connection. Theodore Olson's wife Barbara Olson, on AA77, was reported by Olson initially as a cell-phone call; FBI exhibits in the Moussaoui trial later listed AA77's call-records as zero connected cell calls and the Barbara Olson call as a possibly unconnected Airfone attempt — this is a separate thread and warrants its own record if pursued."
+}

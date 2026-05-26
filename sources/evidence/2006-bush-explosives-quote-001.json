@@ -1,0 +1,42 @@
+{
+    "id": "2006-bush-explosives-quote-001",
+    "anchor": "y2001-attack",
+    "year": 2006,
+    "era": "iii",
+    "themes": [
+        "september-11",
+        "journalism",
+        "cia"
+    ],
+    "claim": "An Instagram reel posted in March 2026 by @conspiracy.deception frames a short Bush clip as the President 'accidentally admitting on live television that the Twin Towers were brought down by explosives.' The sentence is real: 'He told us the operatives had been instructed to ensure that the explosives went off at a point that was high enough to prevent the people trapped above from escaping out the windows.' The framing is misleading. Bush delivered the line on September 6, 2006, in the East Room of the White House while announcing the transfer of fourteen high-value CIA-detained terrorists (including Khalid Sheikh Mohammed) to Guantanamo. The two sentences immediately preceding the cut, in the same paragraph, are explicit about the subject: 'During questioning, KSM also provided many details of other plots to kill innocent Americans. For example, he described the design of planned attacks on buildings inside the United States, and how operatives were directed to carry them out.' The 'explosives' sentence then follows as the third sentence in a paragraph that is, on its face, about post-9/11 plots KSM described, not the September 2001 attacks themselves. The specific 'other plot' KSM most prominently described in this manner was the so-called 'Second Wave' or Library Tower (U.S. Bank Tower, Los Angeles) plan — disrupted by the arrest of cell members in 2002. The reel cuts the framing sentences, loops the 'explosives' line three times, and overlays text inviting viewers to conclude Bush had let slip a controlled-demolition admission about the WTC.",
+    "sources": [
+        {
+            "label": "George W. Bush White House Archives — 'President Discusses Creation of Military Commissions to Try Suspected Terrorists,' East Room, September 6, 2006 (official transcript).",
+            "type": "primary",
+            "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2006/09/20060906-3.html",
+            "quote": "During questioning, KSM also provided many details of other plots to kill innocent Americans. For example, he described the design of planned attacks on buildings inside the United States, and how operatives were directed to carry them out. He told us the operatives had been instructed to ensure that the explosives went off at a point that was high enough to prevent the people trapped above from escaping out the windows."
+        },
+        {
+            "label": "George W. Bush White House Archives — Press Conference of the President, September 15, 2006 (Bush repeats a paraphrase of the same KSM-derived description nine days later in a press-conference setting).",
+            "type": "primary",
+            "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2006/09/20060915-2.html"
+        },
+        {
+            "label": "NPR — 'Bush Concedes CIA Ran Secret Prisons Abroad,' September 6, 2006 (contemporaneous news coverage establishing the speech's subject as KSM-derived intelligence on disrupted post-9/11 plots).",
+            "type": "secondary",
+            "url": "https://www.npr.org/2006/09/06/5776968/bush-concedes-cia-ran-secret-prisons-abroad"
+        },
+        {
+            "label": "Wikipedia — '2005 Los Angeles bomb plot' (the Library Tower / Second Wave plot referenced by KSM during interrogation; cell members arrested Feb 2002).",
+            "type": "secondary",
+            "url": "https://en.m.wikipedia.org/wiki/2005_Los_Angeles_bomb_plot"
+        },
+        {
+            "label": "@conspiracy.deception reel DWWta9XpqZ1 (Mar 26, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DWWta9XpqZ1/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Pattern: a single-sentence excerpt is removed from a paragraph whose preceding sentences explicitly establish the subject as 'other plots,' then looped under a 'Bush slipped on 9/11' caption. The reel's framing implies a controlled-demolition admission; the official transcript is unambiguous that Bush is paraphrasing KSM's account of plots disrupted after 9/11. This is the same speech in which Bush formally acknowledged the CIA's overseas black-site network — the speech is significant on its own terms and well-documented. Useful as a clean corpus-vs-claim example where the source the reel cites contradicts the reel's framing inside the same paragraph."
+}

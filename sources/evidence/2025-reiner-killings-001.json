@@ -1,0 +1,47 @@
+{
+    "id": "2025-reiner-killings-001",
+    "anchor": "y2025",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "body-count",
+        "journalism"
+    ],
+    "claim": "Filmmaker Rob Reiner, 78, and his wife Michele Singer Reiner, 70, were found stabbed to death in the master bedroom of their Brentwood, Los Angeles home on December 14, 2025; their daughter Romy's roommate placed the 911 call at 3:38 p.m. PST. The Los Angeles County Medical Examiner ruled both deaths homicide from 'multiple sharp force injuries.' Their son Nick Reiner, 32, was arrested near USC the same evening and charged on December 16, 2025 by the Los Angeles County District Attorney with two counts of first-degree murder with the special-circumstance allegation of multiple murder, plus a special allegation of personal use of a knife as a deadly weapon — under California law, that special-circumstance combination exposes a defendant to either life without parole or the death penalty. The night before the killings, on December 13, the Reiners and Nick had attended a Christmas party hosted by Conan O'Brien; multiple outlets (KTLA, Rolling Stone, Hollywood Reporter, TMZ) reported on contemporaneous witness accounts that Nick — who was reportedly living in the Reiners' guesthouse under his parents' supervision — showed up dressed in a hoodie while other guests wore formal attire, was 'freaking everyone out, acting crazy, kept asking people if they were famous,' and then had a 'very loud argument' with his father before his parents apologized to O'Brien and left. A Hollywood-executive guest disputed the severity of the argument to TheWrap, and a family associate told The New York Times that Nick's behavior was 'something the family had grown used to.'",
+    "sources": [
+        {
+            "label": "Los Angeles County District Attorney — press release, Dec 16 2025, 'Son Charged With Fatally Stabbing Parents Rob and Michele Reiner in Their Brentwood Home.'",
+            "type": "primary",
+            "url": "https://da.lacounty.gov/media/news/son-charged-fatally-stabbing-parents-rob-and-michele-reiner-their-brentwood-home",
+            "quote": "If convicted as charged, Reiner faces death or life in state prison without the possibility of parole"
+        },
+        {
+            "label": "Wikipedia — 'Killing of Rob and Michele Reiner' (consolidated timeline; medical-examiner findings; party attendance).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Killing_of_Rob_and_Michele_Reiner"
+        },
+        {
+            "label": "ABC News — 'Rob Reiner's son Nick Reiner charged with 1st-degree murder with special circumstances' (Dec 16 2025).",
+            "type": "secondary",
+            "url": "https://abcnews.com/US/reiner-murders-latest-son-nick-reiners-case-presented/story?id=128444693",
+            "quote": "On Saturday night, Rob and Nick Reiner got into an argument at a holiday party, and at the party Nick was seen acting strangely"
+        },
+        {
+            "label": "KTLA — 'Nick, Rob Reiner were seen arguing at Conan O'Brien's party Saturday, sources say.'",
+            "type": "secondary",
+            "url": "https://ktla.com/news/local-news/nick-reiners-behavior-unsettled-guests-at-conan-obrien-party-before-parents-deaths/"
+        },
+        {
+            "label": "TheWrap — 'No Reiner Fight at Conan O'Brien's Party, Says Attendee' (dissenting Hollywood-executive account).",
+            "type": "secondary",
+            "url": "https://www.thewrap.com/culture-lifestyle/culture/no-rob-nick-reiner-fight-conan-obrien-christmas-party/"
+        },
+        {
+            "label": "@maverickapproach reel DVexPvyD81l (Mar 4, 2026) — surfacing source linking the killings to the Bohemian Grove member list and asking whether 'MK Ultra' or some other interference at O'Brien's house drove the next-day attack.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DVexPvyD81l/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The reel asserts a sequence — Conan O'Brien on the leaked Bohemian Grove list → argument at his house → next-day murder-suicide-style killing — and floats MK Ultra activation by O'Brien. The underlying facts (party, argument, killing, charge) are documented. The narrative jump (party caused / was used to trigger the killing) is not in the record. Nick Reiner had a public history of struggle with drug addiction and mental-health issues across the prior decade, which the family had been managing; that context is part of how outlets like the NYT framed the incident. Pairs with [[2025-bohemian-grove-list-leak-001]]."
+}

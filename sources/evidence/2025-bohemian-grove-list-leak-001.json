@@ -1,0 +1,41 @@
+{
+    "id": "2025-bohemian-grove-list-leak-001",
+    "anchor": "y2025",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "journalism",
+        "intelligence"
+    ],
+    "claim": "Independent journalist Daniel Boguslaw published an alleged 2023 Bohemian Grove camp-membership list in early 2026 — approximately 2,200 names — obtained from a source he describes as a member ('I went to this person's office for a week straight'). The roster includes Conan O'Brien, Michael Bloomberg, former Google CEO Eric Schmidt, the late Jimmy Buffett, Edwin Meese III, James A. Baker III, James Belushi, Chris O'Donnell, Clint Black, Eric Church, and Mickey Hart, among others. A Bohemian Club spokesperson told The San Francisco Standard that 'the club does not keep member lists due to the nature of the secret society'; the Standard separately reported that 'an unnamed member' corroborated the list's authenticity. The list's inclusion of Paul Newman (died 2008) and Jimmy Buffett (died 2023) indicates the document references members from across multiple years rather than only current attendees.",
+    "sources": [
+        {
+            "label": "Fox News (Mar 2026) — 'Paul Newman, Jimmy Buffett among elites named in alleged secretive Bohemian Club membership list.'",
+            "type": "secondary",
+            "url": "https://www.foxnews.com/entertainment/paul-newman-jimmy-buffett-among-elites-named-alleged-secretive-bohemian-club-membership-list",
+            "quote": "the club does not keep member lists due to the nature of the secret society"
+        },
+        {
+            "label": "Yahoo News — 'Did the Top Secret Member List of Bohemian Grove Just Leak?'",
+            "type": "secondary",
+            "url": "https://www.yahoo.com/news/articles/did-top-secret-member-list-183144534.html"
+        },
+        {
+            "label": "Alternative Nation — 'Conan O'Brien & Jimmy Buffet On Reported Bohemian Grove List.'",
+            "type": "secondary",
+            "url": "https://www.alternativenation.net/conan-obrien-jimmy-buffet-on-reported-bohemian-grove-list/"
+        },
+        {
+            "label": "Cracked — 'Conan O'Brien Is On The Leaked List of Alleged Bohemian Grove Members.'",
+            "type": "secondary",
+            "url": "https://www.cracked.com/article_49756_conan-obrien-is-on-the-leaked-list-of-alleged-bohemian-grove-members.html"
+        },
+        {
+            "label": "@maverickapproach reel DVexPvyD81l (Mar 4, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DVexPvyD81l/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Boguslaw's underlying document and the SF Standard's reporting are the cleanest hooks. The Bohemian Club's standing public-relations posture is to deny keeping membership records; the Boguslaw release contradicts that posture if the document is authentic. The deceased-names problem (Newman, Buffett) means treat the list as historical-roster rather than 2023-only. Pairs with [[2025-reiner-killings-001]] in the DVexPvyD81l reel's chain-of-implication, but on its own this is just a leaked-list story."
+}

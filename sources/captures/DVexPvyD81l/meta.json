@@ -1,0 +1,36 @@
+{
+    "id": "DVexPvyD81l",
+    "url": "https://www.instagram.com/reel/DVexPvyD81l/",
+    "platform": "instagram",
+    "captured_at": "2026-05-23",
+    "handle": "@maverickapproach",
+    "author_display_name": "Maverick bailey",
+    "posted_at": "2026-03-04",
+    "engagement": {
+        "likes": 20000,
+        "comments": 409
+    },
+    "caption": "Conan O’Brien was just named as a member of the bohemian Grove society. The Simpsons theory makes sense now.\n\n#robreiner #conanobrien #simpsons",
+    "hashtags": [
+        "robreiner",
+        "conanobrien",
+        "simpsons"
+    ],
+    "audio_track_actual": "Two male hosts in casual studio-style conversation. The bearded host is Maverick Bailey (@maverickapproach).",
+    "video_overlay_text_observed": "Title/caption banner referencing Conan O'Brien's inclusion on the leaked Bohemian Grove member list and an alleged 'Simpsons → 9/11 prediction.'",
+    "audio_content_summary": "Three threaded claims: (1) Conan O'Brien is on a recently-leaked Bohemian Grove member list; (2) O'Brien is one of the original Simpsons writers, which the hosts argue connects The Simpsons' alleged 'predictions' — specifically the '$9 New York' brochure with Twin Towers from the 1997 episode — to a 'scripted' world-elite agenda; (3) Rob Reiner's son Nick had an argument with his father at Conan O'Brien's house the night before Nick killed Rob and Michele Reiner, which the hosts speculate could have been MK-Ultra triggering or some discovered secret. The episode-95 'crypto barn' reference appears garbled (no clean Simpsons episode matches that description).",
+    "implied_frame": "A coordinated elite-rituals-and-mind-control thesis: Bohemian Grove members script real-world events through media (The Simpsons) and trigger violence at-will (the Reiner killings). Group breakdown — Group A (verifiable): the Bohemian Grove leaked list including Conan O'Brien, the 1997 Simpsons New York episode with the '$9'/Twin Towers brochure, Nick Reiner's arrest and charging for the Dec 14 2025 killings, the Dec 13 2025 Christmas-party argument at O'Brien's house. Group B (real but contested in framing): the Simpsons writing-room intent behind the '$9' brochure — showrunner Bill Oakley on the record explains it as a cheap-fare gag. Group C (invented): MK-Ultra-style activation of Nick Reiner by O'Brien or other Grove members; The Simpsons being deliberately 'scripted' by world-leaders rather than coincidentally featuring the WTC during its pre-9/11 New York episode.",
+    "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
+    "video_download_status": "Captured: ~37 MB, vp9 720x1280, 178s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "1997-simpsons-nyc-001",
+        "2025-bohemian-grove-list-leak-001",
+        "2025-reiner-killings-001"
+    ],
+    "supporting_research_links": [
+        "https://en.wikipedia.org/wiki/The_City_of_New_York_vs._Homer_Simpson",
+        "https://en.wikipedia.org/wiki/Killing_of_Rob_and_Michele_Reiner",
+        "https://da.lacounty.gov/media/news/son-charged-fatally-stabbing-parents-rob-and-michele-reiner-their-brentwood-home"
+    ]
+}
