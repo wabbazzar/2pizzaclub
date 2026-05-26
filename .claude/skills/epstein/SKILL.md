@@ -113,3 +113,25 @@ After any detective run: relay findings, capture the READING META into this file
 - 2026-05-25 deep read: 6 parallel sonnet readers over the 647-doc estate slice
   produced 12 findings; weakness was citation drift (3 wrong doc ids) → added the
   mandatory verify-against-source step above.
+- 2026-05-26 Wolff drafts (sonnet, 51k tokens, ~30:1 compression, clean run):
+  lesson — for multi-draft / multi-version targets, run a `diff` pass between the
+  files BEFORE reading so the second read covers only the delta; and pre-grep for
+  `[TK ]` placeholders + named entities to surface structural gaps in one shot.
+  Finding worth noting: the two Wolff drafts are a draft + a revision Wolff emailed
+  to Epstein himself (`jeevacation@gmail.com`, 10/8/2016), and the revision
+  systematically softens the candid lines ("usefulness of disgrace" → "colorful
+  reputation"; "blackmail" → "under his spell"). The earlier draft 022746 is the
+  more candid source.
+- 2026-05-26 mystery contact (sonnet, 136k tokens, ~13 min): IDed the redacted
+  2017–2019 iMessage counterpart as **Steve Bannon** (very high confidence) —
+  Epstein names him directly ("wants Steve to succeed" [025734]; "Epstein Bannon
+  Kurz" [027307]), and public reporting (NBC/THR/Jacobin/CNN) already names him,
+  so this confirms rather than breaks. Two lessons: (1) the parsed `messages.json`
+  collapses every redacted sender into one "counterpart" — but doc 027225 carries
+  a June-4 birthday + "younger son at Stern" that does NOT fit Bannon (an archive
+  `1111`-labelled likely-different contact merged into the stream). The iMessage
+  parser should retain each message's source-archive filename so merged contacts
+  are visible without a raw read. **Do NOT assert "all counterpart messages =
+  Bannon".** (2) Earlier notes mis-stated direction on the "one holy shit after
+  another" briefing [025408] — that is Epstein describing HIS OWN briefing to the
+  counterpart, not the counterpart's. Re-verify direction of attribution on quotes.
