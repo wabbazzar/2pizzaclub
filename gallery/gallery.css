@@ -423,8 +423,33 @@
 }
 .cinema-theme-picker-clear:hover { color: var(--accent-soft); }
 
-/* exclude-state chip variant — red border + strikethrough; reuse base .theme-chip
-   styles from ../styles.css so the include state inherits the timeline's look. */
+/* Cinema picker chips live on cream paper, not the dark chrome bar — so we
+   override the base .theme-chip palette (which uses --chrome-ink, cream-on-blue)
+   to a paper-context palette (--ink, --paper-rule). Without these overrides
+   the chips render cream-on-cream and are invisible. */
+.cinema-theme-picker .theme-chip,
+.mnav-cinema-themes .theme-chip {
+    color: var(--ink);
+    border-color: var(--paper-rule);
+    background: transparent;
+}
+.cinema-theme-picker .theme-chip:hover,
+.mnav-cinema-themes .theme-chip:hover {
+    color: var(--ink);
+    border-color: var(--accent);
+    background: rgba(27, 63, 181, 0.06);
+}
+.cinema-theme-picker .theme-chip[data-state="include"],
+.cinema-theme-picker .theme-chip.is-active,
+.mnav-cinema-themes .theme-chip[data-state="include"],
+.mnav-cinema-themes .theme-chip.is-active {
+    color: var(--year-ink);
+    background: var(--year-bg);
+    border-color: var(--year-bg);
+    font-weight: 600;
+}
+
+/* exclude-state: red border + strikethrough, readable on cream. */
 .cinema-theme-picker .theme-chip[data-state="exclude"],
 .mnav-cinema-themes .theme-chip[data-state="exclude"] {
     color: #b91c1c;
