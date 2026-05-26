@@ -1164,3 +1164,42 @@ mark.search-mark {
     .timeline-toggle .caret { transition: none; }
     .mnav-sheet, .mnav-backdrop { transition: none; }
 }
+
+/* --- hidden "pyramid fracture" easter egg (eating-egg.js + fracture.js) --- */
+body.egg-arming { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
+/* Once the hold has engaged, lock scroll so the viewport can't shift under the fire. */
+body.egg-capturing {
+    touch-action: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+/* When the shatter takes over, fade the page content out so the revealed
+   iframe underneath takes the stage cleanly. */
+body.egg-shattering > *:not(.egg-stage):not(.egg-spark-layer) {
+    opacity: 0;
+    transition: opacity 500ms ease-out;
+    pointer-events: none;
+}
+body.egg-shattering { overflow: hidden; }
+.egg-stage, .egg-spark-layer { will-change: transform, opacity; }
+.egg-hint {
+    position: absolute;
+    /* Bottom-right, past the iOS safe-area so the home-indicator bar / rounded
+       corner never clips it. env() falls back to 0 where unsupported. */
+    right: calc(22px + env(safe-area-inset-right, 0px));
+    bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+    padding: 6px 10px;
+    font: 12px ui-monospace, monospace;
+    color: rgba(255, 255, 255, 0.82);
+    background: rgba(10, 12, 18, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 4px;
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 2;
+    opacity: 0;
+    animation: egg-hint-in 600ms ease-out 1800ms forwards;
+}
+.egg-hint:hover { background: rgba(20, 22, 28, 0.75); color: #fff; }
+@keyframes egg-hint-in { to { opacity: 1; } }
