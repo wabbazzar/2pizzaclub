@@ -1,0 +1,45 @@
+{
+    "id": "2019-zelensky-servant-of-the-people-001",
+    "anchor": "y2019-zelensky",
+    "year": 2019,
+    "era": "iv",
+    "themes": [
+        "ukraine",
+        "elections",
+        "journalism"
+    ],
+    "claim": "Before entering politics Volodymyr Zelensky was a comedian and producer with no government experience. From 16 November 2015 to 28 March 2019 his studio Kvartal 95 made the political-satire series Servant of the People, in which Zelensky starred as Vasyl Holoborodko, a high-school history teacher who goes viral with a profane rant against corruption and is unexpectedly elected president of Ukraine. While the show was still running, Kvartal 95 employees registered a real political party named after it — Servant of the People — on 31 March 2018. Zelensky announced his actual candidacy on 31 December 2018, during the channel's New Year's Eve broadcast, immediately before incumbent president Petro Poroshenko's address. He won the 21 April 2019 runoff with 73.22% of the vote, defeating Poroshenko.",
+    "sources": [
+        {
+            "label": "Servant of the People (2015 TV series) — series overview, network, production company, and run dates.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Servant_of_the_People_(2015_TV_series)",
+            "quote": "Zelenskyy stars as Vasyl Petrovych Holoborodko, a high school history teacher in his thirties, who was unexpectedly elected president of Ukraine after finding instant fame when a student recorded a video of him delivering a profane rant against government corruption.",
+            "clip": "clips/2019-zelensky-servant-of-the-people-001-00.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Servant of the People (political party) — party named after the show, registered 31 March 2018.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Servant_of_the_People",
+            "quote": "The party is named after the popular Ukrainian TV series Servant of the People, in which Zelenskyy played a fictional Ukrainian president. It was formed in late 2017 and was officially registered on 31 March 2018 on the basis of the previously registered Party of Decisive Changes.",
+            "clip": "clips/2019-zelensky-servant-of-the-people-001-01.png",
+            "clip_status": "ok-cross-node60"
+        },
+        {
+            "label": "Volodymyr Zelenskyy — candidacy announced on 1+1's New Year's Eve broadcast, 31 December 2018.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy",
+            "quote": "Zelenskyy announced his candidacy in the 2019 presidential election on the evening of 31 December 2018, alongside the New Year's Eve address of then-president Petro Poroshenko on the TV channel 1+1.",
+            "clip": "clips/2019-zelensky-servant-of-the-people-001-02.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "CNN — \"The TV series 'Servant of the People' tells the story of Zelensky's rise\" (April 20, 2019).",
+            "type": "secondary",
+            "url": "https://www.cnn.com/2019/04/20/europe/ukraine-election-tv-show-intl"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A spine for the de Becker reel (JRE #2411, DT5PK_niWOD). The reel says the candidacy was announced 'in April of 2019 on Instagram' — that is wrong. The announcement was 31 December 2018 on Kolomoisky's 1+1, preempting Poroshenko's New Year address, which is the more documented (and more on-point) version of the event. Runoff figure 73.22% is the official Central Election Commission result. Show ran on 1+1; ownership/Kolomoisky handled in the companion record 2019-zelensky-kolomoisky-1plus1-001."
+}

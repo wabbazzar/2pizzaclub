@@ -1,0 +1,35 @@
+{
+    "id": "DT5PK_niWOD",
+    "url": "https://www.instagram.com/reel/DT5PK_niWOD/",
+    "platform": "instagram",
+    "captured_at": "2026-05-27",
+    "handle": "@daily.money.matters",
+    "author_display_name": "Money | Mindset | Leverage | Business",
+    "posted_at": "2026-01-24",
+    "engagement": {
+        "likes": 35899,
+        "comments": 944
+    },
+    "caption": "There are moments when the truth becomes so obvious that it no longer needs explanation. When patterns repeat, results align, and consequences unfold clearly, awareness becomes a choice. Some people recognize what is happening, while others ignore the signs right in front of them.\n\nUnderstanding often requires attention, willingness, and honesty. Those who stay open minded see shifts earlier and adapt faster. Those who resist change or avoid reality usually remain stuck, missing opportunities that could have transformed their direction or strengthened their decisions long before it was too late.\n\nClarity is not only about intelligence but about perception. Seeing what matters demands focus and self reflection. People who pay attention grow wiser with time, while those who overlook important signals continue moving in circles without noticing why progress never arrives the way they expect.\n\nEventually, the difference becomes permanent. Some will understand the bigger picture and move forward with confidence, and others will remain unaware no matter how visible the truth becomes. Awareness is a skill that only develops in those willing to see beyond comfort and habit.\n\nWhat are your thoughts on this?\n\nFollow @daily.money.matters for more",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Podcast set with a red-curtain backdrop (The Joe Rogan Experience); the guest in headphones, speaking to camera. A burned-in caption frame above the video reads \"Those who don't see it by now probably never will,\" with the spoken text tracked in subtitles below. DAILY MONEY MATTERS branding bottom-center.",
+    "audio_content_summary": "Security expert Gavin de Becker, on The Joe Rogan Experience #2411 (Nov 13, 2025), tells \"the Zelensky story\": that Zelensky was an apolitical comedian and outsider who starred in a planned TV show, Servant of the People, whose lead becomes president by popular demand; that the show ran on a channel owned by oligarch Ihor Kolomoisky, who promoted it relentlessly; that in 2018 Zelensky quietly formed a real party of the same name; that he announced his candidacy with no campaign, skipped debates, and rode favorable Kolomoisky-channel coverage; that the CIA and NSA \"helped,\" with the U.S. \"$5 billion\" of democracy money funneled through NGOs and USAID advisers embedded in his campaign; that he won with 73%, then declared martial law and ended elections; and that he is \"a construct, like Epstein is a construct.\"",
+    "implied_frame": "Group A / B / C. Group A (verifiable, carded): the comedian-to-president arc through the Servant of the People series and the same-named party registered 31 March 2018, the candidacy launched on Kolomoisky's 1+1, the 73.22% win, and the elections later suspended under martial law (2019-zelensky-servant-of-the-people-001); the 1+1 ownership and the documented Zelensky-Kolomoisky links, which both men called strictly professional (2019-zelensky-kolomoisky-1plus1-001). Group B (real but mischaracterized): the \"$5 billion\" — Victoria Nuland's December 2013 figure for cumulative U.S. democracy assistance to Ukraine since 1991, six years before Zelensky ran and not campaign money; PolitiFact rated the \"spent on anti-government activity\" framing Pants on Fire (2013-nuland-5-billion-ukraine-001). Group C (asserted without primary source, not carded): that the CIA and NSA \"helped\" engineer the rise, that USAID \"embeds advisers in his organization to help with the campaign,\" and the closing \"he is a construct, like Epstein is a construct.\" The video also misdates the candidacy announcement to \"April 2019 on Instagram\" — it was 31 December 2018, on Kolomoisky's 1+1, preempting Poroshenko's New Year address.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~11.9 MB); delivery ~12.5 MB webm, 158s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2019-zelensky-servant-of-the-people-001",
+        "2019-zelensky-kolomoisky-1plus1-001",
+        "2013-nuland-5-billion-ukraine-001"
+    ],
+    "supporting_research_links": [
+        "https://podcasts.apple.com/us/podcast/2411-gavin-de-becker/id360084272?i=1000736633279",
+        "https://en.wikipedia.org/wiki/Servant_of_the_People_(2015_TV_series)",
+        "https://en.wikipedia.org/wiki/Servant_of_the_People",
+        "https://www.cnn.com/2019/04/20/europe/ukraine-election-tv-show-intl",
+        "https://2009-2017.state.gov/p/eur/rls/rm/2013/dec/218804.htm",
+        "https://www.politifact.com/factchecks/2014/mar/19/facebook-posts/united-states-spent-5-billion-ukraine-anti-governm/"
+    ]
+}

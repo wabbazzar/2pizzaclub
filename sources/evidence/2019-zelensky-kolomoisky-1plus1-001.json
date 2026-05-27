@@ -1,0 +1,33 @@
+{
+    "id": "2019-zelensky-kolomoisky-1plus1-001",
+    "anchor": "y2019-zelensky",
+    "year": 2019,
+    "era": "iv",
+    "themes": [
+        "ukraine",
+        "elections",
+        "journalism",
+        "regime-change"
+    ],
+    "claim": "Servant of the People aired on 1+1, the television channel owned by oligarch Ihor Kolomoisky. During the 2019 campaign 1+1 gave Zelensky heavy and favorable airtime, and his candidacy was announced on the channel's New Year's Eve broadcast. Reporting at the time documented overlapping personnel and business links between Zelensky's circle and Kolomoisky — shared associates, a former Kolomoisky adviser on the campaign team, and vehicles tied to Kolomoisky-linked entities — though both men publicly described the relationship as strictly professional. Kolomoisky, an opponent of incumbent Poroshenko, was later sanctioned by the United States in 2021 and arrested in Ukraine in 2023 on fraud and money-laundering charges.",
+    "sources": [
+        {
+            "label": "CNN — \"The TV series 'Servant of the People' tells the story of Zelensky's rise\" (April 20, 2019): 1+1 ownership and the Kolomoisky links.",
+            "type": "secondary",
+            "url": "https://www.cnn.com/2019/04/20/europe/ukraine-election-tv-show-intl",
+            "quote": "the incumbent president has blasted 1+1, the TV channel that broadcasts “Servant of the People,” and its owner, tycoon Ihor Kolomoisky.",
+            "clip": "clips/2019-zelensky-kolomoisky-1plus1-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Volodymyr Zelenskyy — the 31 December 2018 candidacy announcement on Kolomoisky's 1+1.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy",
+            "quote": "Zelenskyy announced his candidacy in the 2019 presidential election on the evening of 31 December 2018, alongside the New Year's Eve address of then-president Petro Poroshenko on the TV channel 1+1.",
+            "clip": "clips/2019-zelensky-kolomoisky-1plus1-001-01.png",
+            "clip_status": "ok-cross-node"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A. The reel's strongest verifiable point: the channel that aired the show-about-becoming-president, and that launched the real candidacy, was owned by the oligarch backing the candidate. Both Zelensky and Kolomoisky denied a political relationship — kept in the claim so the reader weighs it. U.S. sanctions (March 2021, State Dept) and the September 2023 Ukrainian fraud arrest are downstream context, not part of the 2019 campaign claim."
+}

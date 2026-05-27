@@ -1,0 +1,30 @@
+{
+    "id": "2013-nuland-5-billion-ukraine-001",
+    "anchor": "y2019-zelensky",
+    "year": 2013,
+    "era": "iv",
+    "themes": [
+        "ukraine",
+        "us-aid",
+        "regime-change",
+        "cia"
+    ],
+    "claim": "The \"$5 billion\" figure cited as proof the United States bought Zelensky's rise comes from a 13 December 2013 speech by Assistant Secretary of State Victoria Nuland to the U.S.-Ukraine Foundation. Nuland said the U.S. had \"invested over $5 billion\" to help Ukraine build democratic institutions since its independence in 1991 — a cumulative figure spanning more than two decades of governance, economic, security, and humanitarian programs, six years before Zelensky's 2019 candidacy and not tied to any campaign. PolitiFact rated the related claim that this money was \"spent on anti-government riots\" Pants on Fire, noting the sum covered democracy-support programs since 1992, not recent political activity.",
+    "sources": [
+        {
+            "label": "U.S. Department of State — Remarks by Victoria Nuland at the U.S.-Ukraine Foundation Conference, Washington, DC (December 13, 2013).",
+            "type": "primary",
+            "url": "https://2009-2017.state.gov/p/eur/rls/rm/2013/dec/218804.htm",
+            "quote": "Since Ukraine's independence in 1991, the United States has supported Ukrainians as they build democratic skills and institutions, as they promote civic participation and good governance, all of which are preconditions for Ukraine to achieve its European aspirations. We've invested over $5 billion to assist Ukraine in these and other goals that will ensure a secure and prosperous and democratic Ukraine.",
+            "clip": "clips/2013-nuland-5-billion-ukraine-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "PolitiFact — \"The United States spent $5 billion on Ukraine anti-government riots\" (March 19, 2014): rated Pants on Fire.",
+            "type": "secondary",
+            "url": "https://www.politifact.com/factchecks/2014/mar/19/facebook-posts/united-states-spent-5-billion-ukraine-anti-governm/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group B for the de Becker reel. The reel folds this into 'the U.S. intelligence agencies, CIA and NSA, helped — U.S. spending $5 billion on democracy campaigns in Ukraine, funneled through NGOs' and 'USAID embeds advisers in his organization to help with the campaign.' The $5B is real (Nuland, verbatim) but it is cumulative State Department assistance since 1991, not CIA/NSA money and not Zelensky campaign funding. The CIA/NSA-engineered-it and USAID-campaign-advisers claims have no primary trace — Group C, recorded only in the capture's implied_frame, not as evidence here."
+}
