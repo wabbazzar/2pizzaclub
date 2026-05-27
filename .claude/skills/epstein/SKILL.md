@@ -135,3 +135,13 @@ After any detective run: relay findings, capture the READING META into this file
   Bannon".** (2) Earlier notes mis-stated direction on the "one holy shit after
   another" briefing [025408] — that is Epstein describing HIS OWN briefing to the
   counterpart, not the counterpart's. Re-verify direction of attribution on quotes.
+- 2026-05-27 full-estate rerun (8 sonnet detectives over the 2,037 docs the first run
+  missed; synthesis at `tmp/epstein-deepread-new-2026-05-27/SYNTHESIS.md`). Confirmed
+  the new estate = Epstein's 2014–2019 bipartisan leverage/PR/brokerage machine (Bannon
+  spine, Wolff instrument, Ruemmler through-line, 2011 Osborne reputation blueprint).
+  Verify gate again caught citation drift (Ittihadieh "free information" misattributed to
+  032792). **Manifest-prep lesson (all 8 agents flagged it): before slicing, (1) content-hash
+  dedup on first ~200 chars — ~35-40% of estate docs are multi-recipient duplicates stored
+  once per Bates; (2) extract From/To/Sent into a sender table and slice by actor; (3)
+  date-sort (Bates order ≠ chronological); (4) auto-skip Flipboard / Apple-News JSON /
+  JPMorgan-GIO / HBRK news-clipping boilerplate. These cut the next read ~⅓ for free.**
