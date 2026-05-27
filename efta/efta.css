@@ -936,6 +936,24 @@ html.body-locked, html.body-locked body {
     border-width: 0;
     box-shadow: none;
 }
+/* Long slides must scroll in fullscreen. The base .slide is a flex column with
+   justify-content:space-between + min-height:100vh, and the deck snaps with
+   scroll-snap-type:y mandatory — together that traps any slide taller than the
+   viewport (its overflow becomes unreachable). In fullscreen: top-align the
+   content and let the slide grow past 100vh so the scroll container reaches all
+   of it, and relax snapping to 'proximity' so tall slides aren't pinned. */
+.intro-deck:fullscreen,
+.intro-deck:-webkit-full-screen { scroll-snap-type: y proximity; }
+.intro-deck:fullscreen .slide,
+.intro-deck:-webkit-full-screen .slide,
+#findings.findings-as-slide:fullscreen .slide,
+#findings.findings-as-slide:-webkit-full-screen .slide,
+#findings.findings-as-slide.is-pseudo-fullscreen .slide {
+    height: auto;
+    justify-content: flex-start;
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+}
 .slide-meta {
     display: flex;
     justify-content: space-between;
