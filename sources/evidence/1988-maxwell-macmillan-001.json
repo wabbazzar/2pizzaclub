@@ -1,0 +1,35 @@
+{
+    "id": "1988-maxwell-macmillan-001",
+    "anchor": "y2019",
+    "year": 1988,
+    "era": "iii",
+    "themes": [
+        "maxwell",
+        "mossad",
+        "israel",
+        "intelligence"
+    ],
+    "claim": "British media baron Robert Maxwell — Ghislaine Maxwell's father and the subject of long-standing Mossad-tie allegations — completed a roughly $2.5–2.6 billion hostile takeover of Macmillan Inc., the American publishing house, on November 4, 1988. It was the first hostile takeover of a U.S. publisher, and Macmillan was a major educational and reference publisher. Maxwell's media empire collapsed amid revelations of massive pension-fund fraud after his death at sea in November 1991. The surfacing reel's further claim — that Maxwell 'used it to control the contents of the textbooks distributed to American school children' to 'rewrite our past' — is unsupported: ownership of an education publisher is documented; editorial direction of textbook content by Maxwell is not.",
+    "sources": [
+        {
+            "label": "Wikipedia — Robert Maxwell (acquisitions).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Robert_Maxwell",
+            "quote": "Maxwell purchased Macmillan Inc, the American firm, for $2.6 billion in 1988.",
+            "clip": "clips/1988-maxwell-macmillan-001-00.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "UPI Archives — \"Robert Maxwell, who completed a $2.5 billion tender offer…,\" November 4, 1988.",
+            "type": "primary",
+            "url": "https://www.upi.com/Archives/1988/11/04/Robert-Maxwell-who-completed-a-25-billion-tender-offer/2052594622800/"
+        },
+        {
+            "label": "@senex__official (\"Senex\"), Instagram reel DYsdOnJyQ9N (May 23, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DYsdOnJyQ9N/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Companion to 1991-maxwell-funeral-001; both parked at the y2019 Epstein-network cluster until a dedicated Maxwell chapter exists. The acquisition is solidly documented (UPI contemporaneous reporting; Wikipedia). The reel's 'controlling textbook content / rewriting our past' is the Group C insinuation and is flagged in the claim itself — kept inside the record rather than asserted, because Maxwell's ownership is real but his alleged editorial control of curriculum is not on the record. UPI archive URL 403s to automated fetch but resolves in-browser; content confirmed via search excerpt ('completed a $2.5 billion tender offer for Macmillan Inc. on Friday, November 4, 1988')."
+}

@@ -1,0 +1,38 @@
+Source: reel.webm
+Audio: opus 48kHz stereo extracted to 16kHz mono WAV
+Transcribed: 2026-05-27, openai-whisper base.en
+
+— FULL TEXT —
+
+It's, uh, it's like being in the fourth dimension.
+Evan Fairbanks shot some very famous footage and appeared on ABC news the night of 9-11.
+Watch how the aircraft penetrates the building.
+Go ahead.
+Completely in one side and out the other.
+It just appears like a bad special effect.
+The airplane did disappear like a bad special effect.
+Exactly like a bad special effect.
+The plane doesn't break, twist, bend, crumple, explode, or even slow down.
+The building explodes from within long after the plane appears to go in.
+A good special effect would have parts exploding and bouncing off and tumbling to the streets below.
+I'm not sure it's even possible.
+I certainly can't animate a realistic airplane crash,
+but I can do one that's as good as Hezarkani.
+The result is footage that's every bit as convincing as the original ghost plane footage,
+which is to say, not completely convincing.
+In both shots, we don't see any parts of the airplane breaking or bending or twisting.
+Another thing that was bad about the special effect in Fairbanks
+is a blatant contradiction with the special effect in Hezarkani.
+Here's Hezarkani and here's Fairbanks.
+In Hezarkani, as the plane enters the tower, the engines turn into puffballs.
+We are to believe that these are the engines themselves or building materials or something.
+But whatever the puffballs are meant to represent,
+notice that they are clearly underneath the wings as the engines were.
+Now, look at the Fairbanks video.
+The location of the wing entrance can easily be marked,
+and obviously the puffball is well above the left wing.
+The over-under puffball is irreconcilable with reality,
+but has an easy explanation in video compositing.
+The mask was in the wrong place.
+
+— END —

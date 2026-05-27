@@ -1,0 +1,40 @@
+{
+    "id": "2026-hyperscaler-cds-001",
+    "anchor": "y2026-ai-bubble",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "ai",
+        "big-tech",
+        "finance",
+        "infrastructure-capex"
+    ],
+    "claim": "In March 2026, J.P. Morgan began offering clients a basket of credit default swaps referencing five hyperscalers — Alphabet, Amazon, Meta, Microsoft, and Oracle — a standardized way to hedge or speculate on the credit risk of the companies financing the AI build-out. Bloomberg reported the basket trades in $25 million increments, $5 million per name. The product followed a sharp widening in Oracle's credit-default-swap spreads, which traded around 126 basis points in late 2025 — described in the financial press as near the widest in years, with several outlets comparing it to levels last seen around the 2008 crisis — as Oracle's debt load passed $100 billion, largely to fund data-center capacity. The five hyperscalers issued roughly $121 billion of bonds in 2025, with analysts projecting up to $300 billion more in 2026.",
+    "sources": [
+        {
+            "label": "Bloomberg — “JPMorgan Offers Clients a New CDS Basket to Hedge AI Debt Risk,” March 23, 2026",
+            "type": "secondary",
+            "url": "https://www.bloomberg.com/news/articles/2026-03-23/jpmorgan-offers-clients-a-new-cds-basket-to-hedge-ai-debt-risk"
+        },
+        {
+            "label": "Yahoo Finance — “Oracle Credit Default Swaps Surge as AI Debt Concerns Grow”",
+            "type": "secondary",
+            "url": "https://finance.yahoo.com/news/oracle-credit-default-swaps-surge-133318853.html",
+            "quote": "Oracle's CDS trade around 126 basis points, well above levels for other AI-linked companies such as Nvidia and Meta",
+            "clip": "clips/2026-hyperscaler-cds-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Fortune — “Oracle defused ‘the key risk going into 2026,’ BofA argues, but the market isn’t buying it,” February 3, 2026",
+            "type": "secondary",
+            "url": "https://fortune.com/2026/02/03/oracle-debt-openai-stock-movement-key-risk-hyperscaler-market/"
+        },
+        {
+            "label": "@PeterBreaksTheSystem, Instagram reel DWVZWLJsBlW (Mar 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DWVZWLJsBlW/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Companion to 2025-ai-datacenter-capex-001 on the same anchor — that record carries the capex-forecast scale; this one carries the credit market starting to price the tail risk (JPMorgan's CDS basket on the same five names, Oracle's CDS widening). The surfacing reel is an AI-generated Family Guy 'brain rot' explainer, but its factual spine checks out: the JPMorgan basket (Bloomberg, Mar 23 2026), the five named hyperscalers, the $25M/$5M trade increments, Oracle's ~126bp CDS and $100B+ debt are all reported. The directly-fetched Yahoo source said Oracle's CDS rose 'close to record levels'; the explicit 'highest since 2008' figure (~128bp, Dec 2025) appears in secondary reporting (ainvest, Voya, Fortune coverage) and the reel's '310%' is consistent with the move from ~30bp to ~126–128bp, but the precise '2008' superlative is attributed reporting, not asserted here. The reel's leap — that the swaps are 'doomsday tickets' presaging a systemic reset that turns 'your online life into an unsecured asset in bankruptcy court' — is dramatization, not in the sourcing."
+}

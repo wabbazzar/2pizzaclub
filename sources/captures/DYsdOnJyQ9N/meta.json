@@ -1,0 +1,36 @@
+{
+    "id": "DYsdOnJyQ9N",
+    "url": "https://www.instagram.com/reel/DYsdOnJyQ9N/",
+    "platform": "instagram",
+    "captured_at": "2026-05-27",
+    "handle": "@senex__official",
+    "author_display_name": "Senex",
+    "posted_at": "2026-05-23",
+    "engagement": {
+        "likes": 37000,
+        "comments": 796
+    },
+    "caption": "Send this to someone who doesn’t know who decides what our children learn in school #education #drmartinlutherkingjr #malcolmx #politics #news",
+    "hashtags": [
+        "education",
+        "drmartinlutherkingjr",
+        "malcolmx",
+        "politics",
+        "news"
+    ],
+    "audio_track_actual": "A masked narrator's voiceover interleaved with archival audio clips of Martin Luther King Jr. and Malcolm X. No music bed; word-tracking subtitle overlays.",
+    "video_overlay_text_observed": "A masked presenter (silver face mask, white headdress, suit) seated at a desk; opening subtitle 'THE PERSON WHO'. Highlighted single-word subtitles track the narration throughout.",
+    "audio_content_summary": "Argues that 'who decides what your children learn' is the real story behind why MLK is canonized in U.S. schools while Malcolm X is comparatively sidelined. Splices a real MLK clip calling Israel 'one of the great outposts of democracy in the world' against Malcolm X's defense of Palestinians and his on-camera answer to being called anti-Semitic ('how can I be anti-Semitic when the Arabs are Semitic'). Claims MLK's speechwriter was Jewish and 'wrote I Have a Dream,' while Malcolm X was sympathetic to the Palestinian cause — and that this explains the curricular asymmetry and MLK's national holiday. Closes on Robert Maxwell: Ghislaine Maxwell's father and an alleged Mossad agent who bought Macmillan and 'used it to control the contents of the textbooks distributed to American school children… rewriting our past.'",
+    "implied_frame": "Mixed. Group A (verified, carded at 1988-maxwell-macmillan-001): Maxwell did complete a ~$2.5–2.6B takeover of Macmillan, a major U.S. education publisher, in 1988. The MLK and Malcolm X quotes are also real — MLK called Israel 'one of the great outposts of democracy' in a March 25, 1968 address to the Rabbinical Assembly; Malcolm X criticized Zionism in 'Zionist Logic' (1964) and gave the cited anti-Semitism answer on camera. Group C (unsupported): the causal spine. Both King and Malcolm X are standard figures in U.S. curricula; MLK's federal holiday (signed 1983, first observed 1986) reflects his role as the movement's central figure, not a documented decision to bury Malcolm X over Israel. The 'Jewish speechwriter wrote I Have a Dream' line conflates two different people — Stanley Levison, King's Jewish advisor who edited speeches, and Clarence B. Jones, the African-American attorney who drafted portions of the 1963 March on Washington address (the 'I have a dream' passage was largely improvised). And Maxwell's ownership of Macmillan is documented; his alleged editorial control of textbook content to 'rewrite the past' is not.",
+    "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
+    "video_download_status": "Captured: ~38 MB, vp9 720x1280, 156s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "1988-maxwell-macmillan-001"
+    ],
+    "supporting_research_links": [
+        "https://scholar.harvard.edu/files/martinkramer/files/where_mlk_really_stood_on_israel_and_the_palestinians.pdf",
+        "https://www.upi.com/Archives/1988/11/04/Robert-Maxwell-who-completed-a-25-billion-tender-offer/2052594622800/",
+        "https://en.wikipedia.org/wiki/Robert_Maxwell"
+    ]
+}

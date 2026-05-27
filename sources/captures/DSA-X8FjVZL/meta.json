@@ -1,0 +1,33 @@
+{
+    "id": "DSA-X8FjVZL",
+    "url": "https://www.instagram.com/reel/DSA-X8FjVZL/",
+    "platform": "instagram",
+    "captured_at": "2026-05-27",
+    "handle": "@andrewgold_ok",
+    "author_display_name": "Andrew Gold",
+    "posted_at": "2025-12-08",
+    "engagement": {
+        "likes": 110000,
+        "comments": 2980
+    },
+    "caption": "Shaun Attwood reveals the dark truth about Bill Clinton. 😳",
+    "hashtags": [],
+    "audio_track_actual": "Podcast interview audio — Shaun Attwood speaking on Andrew Gold's 'Heretics' show. No music bed; word-tracking subtitle overlays.",
+    "video_overlay_text_observed": "A 'Heretics' podcast set: guest Shaun Attwood (bald, checked blazer) mid-interview; a 'heretics' logo top-left, a 'CLINTON BUSH' lower-third, and a title card 'The dark truth about Bill Clinton.'",
+    "audio_content_summary": "Shaun Attwood, promoting his book chapter, runs through the 'Clinton crime family' thesis: the CIA picked Arkansas and 'the sleaziest, most corrupt governor' to smuggle South American cocaine to fund the Nicaraguan Contras, with Bill Clinton providing state security for the drug drops; his half-brother Roger Clinton was busted in a cocaine sting and recorded saying 'some of this is for Bill, he's got a nose like a vacuum cleaner'; Hillary Clinton hunted down accusers with private investigators, with threats, murdered pets, and people 'thrown off balconies' — 'the genesis of the hashtag Clinton Body Count'; and Arkansas medical examiner 'Fami Malek' adjusted causes of death (because Bill's mother had 'accidentally unalived someone' in the medical profession), ruling shootings and stranglings as drownings.",
+    "implied_frame": "A dense bundle spanning all three groups. Group A: Roger Clinton's 1985 federal cocaine conviction is real (carded at 1985-roger-clinton-cocaine-001). The Fahmy Malak controversy is real and contemporaneously documented by the Los Angeles Times (carded at 1992-fahmy-malak-001) — Clinton kept a much-criticized state medical examiner whose rulings touched a case involving his mother. Group B: the 'Mena' thesis — the CIA-Contra cocaine pipeline through Arkansas — rests on the real, documented Barry Seal / Mena operations, but no investigation has established Bill Clinton's knowing protection of the flights (adjacent to 1985-iran-contra-001). Group C: the lurid embellishments — murdered pets, victims 'thrown off balconies,' the 'nose like a vacuum cleaner' surveillance quote — are unverified, and the 'Clinton Body Count' framing is already documented as a chain of real deaths with contested or inverted framings (1999-clinton-body-count-reel-001). The reel also miscasts Malak as a 'senator'/'coroner' (he was the state Medical Examiner) and misnames him 'Fami Malek.'",
+    "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
+    "video_download_status": "Captured: ~23 MB, vp9 720x1280, 113s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "1985-roger-clinton-cocaine-001",
+        "1992-fahmy-malak-001",
+        "1985-iran-contra-001",
+        "1999-clinton-body-count-reel-001"
+    ],
+    "supporting_research_links": [
+        "https://idfiles.com/wp-content/uploads/2022/03/Clintons-Ties-to-Controversial-Medical-Examiner-Questioned-1.html",
+        "https://en.wikipedia.org/wiki/Roger_Clinton_Jr.",
+        "https://www.cbsnews.com/news/roger-clinton-arrested/"
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "id": "DWZbkWuiv4r",
+    "url": "https://www.instagram.com/reel/DWZbkWuiv4r/",
+    "platform": "instagram",
+    "captured_at": "2026-05-27",
+    "handle": "@iamstoneweisman",
+    "author_display_name": "Philosopher’s Stone",
+    "posted_at": "2026-03-27",
+    "engagement": {
+        "likes": 264000,
+        "comments": 1974
+    },
+    "caption": "The truth about 911. Wake up. \n\nPrimary sources include Allen M. Poteshman’s study Unusual Option Market Activity and the Terrorist Attacks of September 11, 2001, published in the Journal of Business (https://www.jstor.org/stable/10.1086/503645), which found airline put option activity reached the 99th percentile of historical trading. Additional research from Marc Chesney, Remo Crameri, and Loriano Mancini of the University of Zurich identified 13 abnormal trading events and ruled out standard hedging explanations (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1522157). Further analysis by Wing-Keung Wong, Howard E. Thompson, and Chi-Hong Kwan examined broader market indicators and found statistically significant anomalies in pre-attack volatility (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=920022). Official findings from the U.S. Securities and Exchange Commission are documented here (https://www.sec.gov/news/press/2004-38.htm), with additional records obtained through the National Security Archive via FOIA (https://nsarchive.gwu.edu/briefing-book/terrorism/2010-09-09/sec-documents-show-unusual-stock-trading-ahead-911). The SEC Office of Inspector General report on destroyed investigative records can be found here (https://www.sec.gov/oig/reportspubs/2009/oig-509.pdf). Supplemental reporting on unusual options activity is available from The Guardian (https://www.theguardian.com/business/2001/sep/18/globalisation.terrorism) and archival coverage from The Wall Street Journal. Background on A. B. Krongard and his roles at Alex. Brown and the CIA is documented by The Washington Post (https://www.washingtonpost.com/archive/politics/2002/03/02/cia-names-ex-banker-as-executive-director/).\n\n#awakening #epstinefiles #jeffreyepstein #cia #911",
+    "hashtags": [
+        "awakening",
+        "epstinefiles",
+        "jeffreyepstein",
+        "cia",
+        "911"
+    ],
+    "audio_track_actual": "Spoken first-person narration by the creator, no music bed. Word-tracking subtitle overlays.",
+    "video_overlay_text_observed": "Opening frame: a burning-Twin-Towers composite behind the speaker with the single word 'PSYCHOSIS' across the lower third. Subsequent frames carry highlighted subtitle words tracking the narration (e.g. 'put options', dollar figures, the cited author names).",
+    "audio_content_summary": "A 'follow the money' case for 9/11 foreknowledge. Claims: put options on United's parent spiked to ~3,300 on Sep 6, 2001 and American's to ~4,000+ on Sep 10 against a ~27/day baseline (~285x); Morgan Stanley ~80x normal put activity and Merrill Lynch ~12,000 puts in the four days before; three peer-reviewed studies (Poteshman; Chesney/Crameri/Mancini; 'Wong/Thompson/Kwan') independently found the activity statistically anomalous and consistent with informed trading; and the majority of the trades routed through the brokerage Alex. Brown, once run by A. B. 'Buzzy' Krongard, who 'later became the director of the CIA' and by 2001 oversaw its daily operations. Pitched as part one of two.",
+    "implied_frame": "The verifiable core (Group A): the three academic papers are real and each found the pre-9/11 options activity statistically unusual — this is the strongest part of the reel and is carded at 2001-put-options-002. The contested core (Group B): the unusual volumes themselves are real and were investigated; the SEC and 9/11 Commission attributed the bulk of the airline puts to non-terrorist trading (a single U.S. institutional investor for 95% of the UAL puts; a U.S. options newsletter for the AMR puts) — see 2001-put-options-001. The reel omits that rebuttal entirely. The insinuation (Group C): that a 'CIA brokerage' handled the trades. Krongard's bio is real (CEO 1991, chairman 1994 of Alex. Brown), but the reel mischaracterizes him as 'director of the CIA' — he was Executive Director, the third-ranking/COO role under DCI George Tenet — and he had already left Alex. Brown for the agency years before the 2001 trades. The 'studies prove anomaly' and 'anomaly = CIA foreknowledge' steps are doing different work; the reel collapses them. Author-name garble: the third paper is Wong, Thompson, and Teh, not 'Kwan'/'Huang'.",
+    "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
+    "video_download_status": "Captured: ~39 MB, vp9 720x1280, 177s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2001-put-options-002",
+        "2001-put-options-001"
+    ],
+    "supporting_research_links": [
+        "https://govinfo.library.unt.edu/911/staff_statements/911_TerrFin_App.pdf",
+        "https://www.sec.gov/news/press/2004-38.htm",
+        "https://www.washingtonpost.com/archive/politics/2002/03/02/cia-names-ex-banker-as-executive-director/"
+    ]
+}

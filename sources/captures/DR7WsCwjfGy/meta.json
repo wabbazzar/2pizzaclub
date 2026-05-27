@@ -1,0 +1,30 @@
+{
+    "id": "DR7WsCwjfGy",
+    "url": "https://www.instagram.com/reel/DR7WsCwjfGy/",
+    "platform": "instagram",
+    "captured_at": "2026-05-27",
+    "handle": "@paulotik0tok",
+    "author_display_name": "Paul Dixon",
+    "posted_at": "2025-12-06",
+    "engagement": {
+        "likes": 85000,
+        "comments": 2075
+    },
+    "caption": "Imagine, many still believe the ‘official’ story…🙄",
+    "hashtags": [],
+    "audio_track_actual": "Interview audio: a host recounts William Rodriguez's 9/11 morning in the second person ('you're the janitor…') while Rodriguez confirms and elaborates. No music bed; word-tracking subtitle overlays.",
+    "video_overlay_text_observed": "Split layout: two webcam interview frames up top (interviewer and guest), and the reel creator at the bottom wearing a tin-foil hat — a self-aware 'conspiracy' reaction framing. Overlay text 'IMAGINE THIS WASN'T WHAT WE HEARD IN THE NEWS…' and 'IT'S 9 11,' with a '@paulotik0tok' watermark.",
+    "audio_content_summary": "The William Rodriguez account. The North Tower janitor — punched in at 8:30, working sub-level 1 of six sub-basements — says that at 8:46 he heard and felt an explosion from beneath him, big enough to lift him and others upward, a few seconds before a second blast from above that 'turned out [to be] the plane.' He insists 'there was definitely an explosion before the first plane,' says other basement witnesses would confirm it, and that he gave the 9/11 Commission a list of those eyewitnesses but his testimony 'doesn't show anywhere' in the report. He notes he held one of the master keys ('one of five pastries' is a transcription error) granting access to all doors in the complex, and that he tells the story in a motivational speech worldwide, aired unedited only by C-SPAN.",
+    "implied_frame": "Group A / Group B, carded at 2001-rodriguez-001. Verifiable: Rodriguez was a real North Tower maintenance worker with a master key, decorated for heroism in the evacuation, who met the 9/11 Commission behind closed doors; his account is absent from the final report. Contested: the sub-basement explosion 'before the plane,' which is the load-bearing claim for the controlled-demolition reading. The both-sides hinge is in the record — Rodriguez's own account of a fireball racing down the elevator shaft (which burned co-worker Felipe David) matches the mainstream mechanism for basement damage: jet fuel descending the shafts from the impact above, not a pre-planted charge. The pre-impact timing is what the official timeline and NIST do not support. The reel's '576 pages' is a near-miss on the report's 567.",
+    "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
+    "video_download_status": "Captured: ~25 MB, vp9 720x1280, 124s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2001-rodriguez-001"
+    ],
+    "supporting_research_links": [
+        "https://voicescenter.org/living-memorial/911-stories/william-rodriguezs-story",
+        "https://en.wikipedia.org/wiki/William_Rodriguez",
+        "https://www.ksat.com/features/2021/09/10/a-key-rescue-on-911-how-a-janitor-at-the-world-trade-center-used-this-tool-to-save-lives/"
+    ]
+}

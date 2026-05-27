@@ -1,0 +1,46 @@
+Source: reel.webm
+Audio: opus 48kHz stereo extracted to 16kHz mono WAV
+Transcribed: 2026-05-27, openai-whisper base.en
+
+— FULL TEXT —
+
+It's 9-11, a very hard day for America, and especially hard for you.
+You're the janitor, you clean the stairways, 110 floors.
+Your office, sub-basement level one, there are six sub-levels.
+So the lobby, then sub-1, sub-2, sub-3, sub-4, sub-5, six.
+You're at sub-1, you punched in at 8.30 in the morning, you were late,
+you weren't going to go to work, it was a beautiful day, you were going to take off.
+You come in to work because your boss asked you to, you came in, you were a little bit late.
+At 8.46 you heard an explosion, from beneath you, from below, from below.
+It was so big that it lifted you up.
+Everybody who you have is 14 people, lifted you up.
+A few seconds later you heard another explosion.
+I mean, load away from the top of the building.
+Turned out that was the plane, the first plane.
+But there was definitely an explosion before the first plane.
+Oh, 100 percent, 100 percent sure.
+You have a lot of witnesses who were down there who would confirm that fact.
+You told that fact to the 9-11 Commission?
+Not only did I tell the fact to the 9-11 Commission, but I gave them a list of the eyewitnesses
+that were there that experienced the same threat as I do.
+And they will never put a testifier.
+And was your testimony included in the 9-11 report?
+No, it doesn't show anywhere.
+It doesn't show.
+Because it was immediately. There's 576 pages in that book.
+And you won't find my name anywhere.
+Anyway, you go all over the world and you speak about what happened to you on that day,
+the fact that you had one of five pastries that allowed you access to any and all doors
+in the complex.
+That is correct.
+And I have a speech that I do all over the world, that's a motivation speech, but it
+always tells the real story of what happened in the United States.
+And, you know, like I said, there's a lot of respect all over the world for this kind
+of story.
+Because when I come here, I am able to tell the story, but it's always either edited
+or presented in a different way.
+And only, I guess, C-Span had the only plans to actually put my story without editing for
+it.
+But basically, almost two hours.
+
+— END —

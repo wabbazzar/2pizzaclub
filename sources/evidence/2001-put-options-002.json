@@ -1,0 +1,40 @@
+{
+    "id": "2001-put-options-002",
+    "anchor": "y2001-attack",
+    "year": 2001,
+    "era": "iii",
+    "themes": [
+        "september-11",
+        "finance",
+        "sec"
+    ],
+    "claim": "Three peer-reviewed studies independently found that the options trading before September 11, 2001 was statistically anomalous. Allen M. Poteshman (Journal of Business, 2006) analyzed put-buying on the two airlines and concluded the activity was 'consistent with informed investors having traded options in advance of the attacks.' Marc Chesney, Remo Crameri, and Loriano Mancini (Journal of Empirical Finance, 2015) built a method to flag 'abnormal' option trades after excluding hedging-driven activity, and identified American and United among their detected events. Wong, Thompson, and Teh (Multinational Finance Journal, 2011) rejected the hypothesis of no abnormal trading in S&P 500 index options before the attacks. These studies establish the trading was statistically unusual; they do not identify who traded. The SEC and 9/11 Commission attributed the bulk of the airline activity to non-terrorist trading — see the companion record on this anchor.",
+    "sources": [
+        {
+            "label": "Allen M. Poteshman, “Unusual Option Market Activity and the Terrorist Attacks of September 11, 2001,” The Journal of Business 79, no. 4 (2006): 1703–1726",
+            "type": "primary",
+            "url": "https://www.jstor.org/stable/10.1086/503645",
+            "quote": "This finding is consistent with informed investors having traded options in advance of the attacks.",
+            "clip_status": "http-403"
+        },
+        {
+            "label": "Marc Chesney, Remo Crameri, Loriano Mancini, “Detecting abnormal trading activities in option markets,” Journal of Empirical Finance 33 (2015): 263–275 (SSRN working paper, 2010)",
+            "type": "primary",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1522157",
+            "quote": "We find that option informed trading tends to cluster prior to certain events, takes place more in put than call options, generates easily large gains exceeding millions, is not contemporaneously reflected in the underlying stock price, involves around the money options during calm times and out-of-the-money options during turbulent times.",
+            "clip_status": "http-403"
+        },
+        {
+            "label": "Wing-Keung Wong, Howard E. Thompson, Kweehong Teh, “Was There Abnormal Trading in the S&P 500 Index Options Prior to the September 11 Attacks?,” Multinational Finance Journal 15, no. 1–2 (2011): 1–46",
+            "type": "primary",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1588523"
+        },
+        {
+            "label": "@iamstoneweisman (“Philosopher’s Stone”), Instagram reel DWZbkWuiv4r (Mar 27, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DWZbkWuiv4r/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Companion to 2001-put-options-001, which documents the unusual volumes and the official no-foreknowledge conclusion (9/11 Commission Terrorist Financing monograph; SEC 'no evidence' statement). This record isolates the peer-reviewed statistical literature, which is the strongest part of the surfacing reel. The studies are real and all three find the activity statistically anomalous; the editorial caution is that statistical anomaly ≠ identified perpetrator. The reel garbles the third paper's authorship (it and its caption say 'Kwan'/'Huang'; the authors are Wong, Thompson, and Teh). The reel's CIA/Alex. Brown framing — A. B. 'Buzzy' Krongard's brokerage handled a cluster of the trades — is documented in the capture's implied_frame, not as an asserted record: Krongard was CIA Executive Director (third-ranking/COO), not 'Director of the CIA' as the reel says, and he had left Alex. Brown years before the trades."
+}

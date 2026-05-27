@@ -1,0 +1,33 @@
+{
+    "id": "1985-roger-clinton-cocaine-001",
+    "anchor": "y2019",
+    "year": 1985,
+    "era": "iii",
+    "themes": [
+        "clinton",
+        "cia"
+    ],
+    "claim": "Roger Clinton Jr., Bill Clinton's younger half-brother, was arrested in a 1984 federal sting in Hot Springs, Arkansas and pleaded guilty in 1985 to conspiracy to distribute cocaine, serving time in federal prison; Bill Clinton granted him a presidential pardon in January 2001. The surfacing reel embeds this verifiable conviction inside the broader, contested 'Mena' allegation — that the CIA used Arkansas as a transshipment point for cocaine financing the Nicaraguan Contras, with Governor Clinton providing state protection for the drops. The Mena, Arkansas operations of smuggler-turned-DEA-informant Barry Seal are real and documented, but no investigation has established that Bill Clinton knowingly protected CIA-linked drug flights. The quotation the reel attributes to surveillance tapes ('some of this is for Bill, he's got a nose like a vacuum cleaner') could not be verified.",
+    "sources": [
+        {
+            "label": "Wikipedia — Roger Clinton Jr.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Roger_Clinton_Jr.",
+            "quote": "Roger Clinton Jr. had served time in federal prison after being convicted following a sting operation of conspiracy to distribute cocaine.",
+            "clip": "clips/1985-roger-clinton-cocaine-001-00.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "CBS News — “Roger Clinton Arrested.”",
+            "type": "secondary",
+            "url": "https://www.cbsnews.com/news/roger-clinton-arrested/"
+        },
+        {
+            "label": "@andrewgold_ok (Andrew Gold / “Heretics,” interviewing Shaun Attwood), Instagram reel DSA-X8FjVZL (Dec 8, 2025) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DSA-X8FjVZL/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A on the conviction (Wikipedia/CBS; the January 2001 pardon is also documented), Group B on the Mena/CIA-Contra framing the reel wraps around it. The verifiable kernel is Roger's federal cocaine conviction; the CIA-drug-running-with-gubernatorial-protection thesis is the contested layer and sits adjacent to the site's Iran-Contra record (1985-iran-contra-001). Parked at the y2019 Clinton cluster alongside 1999-clinton-body-count-reel-001 and the Maxwell records. The 'nose like a vacuum cleaner' line is widely circulated as a surveillance-tape quote but was not verifiable against a primary source; explicitly flagged as unverified rather than asserted."
+}

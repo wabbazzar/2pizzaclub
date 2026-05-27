@@ -1,0 +1,34 @@
+{
+    "id": "DWVZWLJsBlW",
+    "url": "https://www.instagram.com/reel/DWVZWLJsBlW/",
+    "platform": "instagram",
+    "captured_at": "2026-05-27",
+    "handle": null,
+    "author_display_name": "PeterBreaksTheSystem",
+    "posted_at": null,
+    "engagement": null,
+    "caption": "Selling “Shark Spray” in the Desert: The J.P. Morgan CDS Play. ♟️🏛️\nIn March twenty twenty-six, the “Smart Money” at J.P. Morgan is running a genius racket: selling Credit Default Swaps on the Magnificent 7. They are betting that the tech gods of AI are too liquid to ever default, while charging panicked investors massive premiums for “protection” against a total market collapse. 📉💸 \nThis isn’t just a hedge; it’s Institutional Arbitrage. By underwriting the debt of the companies that literally build the world’s infrastructure, the banks are effectively becoming the “Sovereign Insurers” of the digital age. They are harvesting the fear of the “AI Bubble” bursting and turning it into pure, risk-neutral profit. 🧠💥\nBut look closer at the Systemic Pivot: These swaps aren’t meant to be paid out—they are used as collateral for a shadow-derivatives market worth hundreds of trillions. The system isn’t afraid of a default; it’s afraid of a Liquidity Gap. 🏛️🧱#explorepage #reelsinstagram #viralreels #finance #economy",
+    "hashtags": [
+        "explorepage",
+        "reelsinstagram",
+        "viralreels",
+        "finance",
+        "economy"
+    ],
+    "audio_track_actual": "AI-generated voices of Family Guy's Peter Griffin and Stewie in a mock dialogue, over a Minecraft-gameplay backdrop. Word-tracking subtitle overlays.",
+    "video_overlay_text_observed": "AI-rendered Peter Griffin in a tuxedo smoking a cigar over a Minecraft landscape (a floating entity and diamond blocks visible); opening subtitle 'STEWIE, I'. Highlighted single-word subtitles track the dialogue.",
+    "audio_content_summary": "A 'brain rot' explainer in Family Guy voices: JPMorgan is 'selling insurance policies on the Magnificent Seven' via a new basket of credit default swaps on Alphabet, Amazon, Meta, Microsoft, and Oracle. Claims: hyperscaler capex is projected past $500 billion this year; the names are ~25% of the whole market's capital spending; Oracle's CDS spreads have spiked 310% to 'levels we haven't witnessed since 2008'; and the banks are 'quietly printing doomsday tickets in the basement' against the very firms whose debt they underwrite. Frames a possible 'systemic reset' in which, if the hyperscalers falter, 'your online life becomes an unsecured asset in bankruptcy court.'",
+    "implied_frame": "Mostly Group A/B with dramatization on top. The factual spine is real and recent: J.P. Morgan did launch a CDS basket on exactly those five hyperscalers (Bloomberg, Mar 23 2026, $25M/$5M increments); Oracle's CDS did widen sharply (~126bp, late 2025) on a $100B+ AI-driven debt load; hyperscaler bond issuance (~$121B in 2025) and capex forecasts are at historic scale. Carded at 2026-hyperscaler-cds-001 and 2025-ai-datacenter-capex-001. The Group C layer is the editorial leap — that the swaps are 'doomsday tickets' presaging a 2008-scale collapse that converts users' data into bankruptcy-estate assets. CDS baskets are routine hedging/positioning instruments; their existence prices tail risk, it does not forecast a default. Note the format: AI-cloned cartoon voices and a Minecraft backdrop are the 'brain rot' delivery vehicle, not a signal about the underlying finance, which is sourced.",
+    "capture_method": "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
+    "video_download_status": "Captured: ~21 MB, vp9 720x1280, 109s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-hyperscaler-cds-001",
+        "2025-ai-datacenter-capex-001"
+    ],
+    "supporting_research_links": [
+        "https://www.bloomberg.com/news/articles/2026-03-23/jpmorgan-offers-clients-a-new-cds-basket-to-hedge-ai-debt-risk",
+        "https://finance.yahoo.com/news/oracle-credit-default-swaps-surge-133318853.html",
+        "https://fortune.com/2026/02/03/oracle-debt-openai-stock-movement-key-risk-hyperscaler-market/"
+    ]
+}

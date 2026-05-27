@@ -1,0 +1,24 @@
+Source: reel.webm
+Audio: opus 48kHz stereo extracted to 16kHz mono WAV
+Transcribed: 2026-05-27, openai-whisper base.en
+
+— FULL TEXT —
+
+Stewie, I just heard that JP Morgan is selling insurance policies on the Magnificent Seven,
+which feels like buying a life insurance policy on Superman.
+A shockingly astute observation, Peter. Although in this scenario, the Man of Steel is actually a collection of trillion-dollar tech giants currently drowning in a sea of artificial intelligence debt.
+Exactly. They've launched a new basket of credit default swaps for Alphabet, Amazon, Meta, Microsoft, and Oracle.
+Just in case the future of tech accidentally trips over its own shoelaces.
+The technical architecture here is a synthetic credit basket, allowing institutional predators to hedge against the credit risk of hyperscalers, whose capital expenditure is projected to exceed $500 billion this year alone.
+It's like building a skyscraper entirely out of credit cards, and then paying the guy who sold you the cards to bet on whether the wind blows too hard.
+The mid-script pivot is terrifying. Oracle's CDS spreads have already spiked 310%, reaching levels we haven't witnessed since the literal implosion of the global markets in 2008.
+Wait. So you're telling me the smart money isn't just checking their balances.
+They're prepping for a move that could make the Great Recession look like a minor accounting error?
+Precisely. If these tech behemoths, which now represent nearly 25% of the entire market's capital spending falter under the weight of their AI bets, the resulting liquidation will be a systemic reset.
+The ultimate irony is that we're told these companies are invincible, while the banks are quietly printing doomsday tickets in the basement.
+Think about your own digital footprint, your cloud storage, your emails, your social identity.
+If the companies holding that data can't pay their debts, your online life becomes an unsecured asset in a bankruptcy court.
+It's hard to feel like the future is bright when the people who built the sun are starting to buy fire extinguishers for the whole solar system.
+If the titans of the digital age are being hedged against by their own lenders, are we watching the birth of a new era or the final countdown for the old one?
+
+— END —
