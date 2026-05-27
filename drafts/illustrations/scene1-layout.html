@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>scene 1 layout — the room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Quicksand:wght@400;500;600&family=Schoolbell&display=swap" rel="stylesheet">
+<style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body { background: #cdbfa6; padding: 24px 0 60px; }
+
+    .filemark {
+        font-family: 'Quicksand', sans-serif; font-size: 0.7rem; color: #6a5a4a;
+        letter-spacing: 0.18em; text-transform: uppercase; text-align: center; margin-bottom: 14px;
+    }
+    .book-title {
+        font-family: 'Caveat Brush', cursive; font-size: 2.2rem; color: #2a1a0f;
+        text-align: center; margin: 0 0 6px; font-weight: normal;
+    }
+    .scene-title {
+        font-family: 'Caveat Brush', cursive; font-size: 1.5rem; color: #8b3a3a;
+        text-align: center; margin: 0 0 18px; font-weight: normal; letter-spacing: 0.04em;
+    }
+
+    /* The page: a fixed-ratio canvas the three panels tessellate across. */
+    .book-page {
+        position: relative; width: min(760px, 94vw); aspect-ratio: 760 / 1680;
+        margin: 0 auto; background: #1a1410; overflow: hidden;
+        box-shadow: 0 18px 60px rgba(0,0,0,0.45); border-radius: 2px;
+    }
+    .panel {
+        position: absolute; inset: 0; background-size: cover; background-repeat: no-repeat;
+    }
+    /* Diagonal tessellation. Seam A ~ y33->40, Seam B ~ y70->63 (alternating slants). */
+    .p1 { background-image: url('scene1-room-2.png');   background-position: center 34%;
+          clip-path: polygon(0 0, 100% 0, 100% 42%, 0 30%); }
+    .p2 { background-image: url('scene1-panel2-1.png');  background-position: center 52%;
+          clip-path: polygon(0 30%, 100% 42%, 100% 60%, 0 72%); }
+    .p3 { background-image: url('scene1-panel3-1.png');  background-position: center 60%;
+          clip-path: polygon(0 72%, 100% 60%, 100% 100%, 0 100%); }
+
+    /* Gold seam strokes drawn over the clip boundaries, with a cut-edge shadow. */
+    .seams { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none;
+             filter: drop-shadow(0 2px 2px rgba(0,0,0,0.85)); }
+
+    /* Caption blocks — verse on a soft scrim that blends into the art. */
+    .cap {
+        position: absolute; left: 0; right: 0; padding: 0 9%;
+        font-family: 'Schoolbell', cursive; color: #f4e7c9; text-align: center;
+        font-size: 1.12rem; line-height: 1.62; text-shadow: 0 1px 5px rgba(0,0,0,0.85);
+    }
+    .cap p { margin: 0; }
+    .cap .refrain {
+        font-family: 'Caveat Brush', cursive; font-size: 1.5rem; color: #e8b14e;
+        margin-top: 10px; letter-spacing: 0.02em;
+    }
+    /* per-panel placement + scrim */
+    .cap1 { top: 3%;  }
+    .cap2 { top: 51%; transform: translateY(-50%); }
+    .cap3 { bottom: 3%; }
+    .scrim {
+        position: absolute; left: 0; right: 0; pointer-events: none;
+    }
+    .scrim1 { top: 0;    height: 24%; background: linear-gradient(to bottom, rgba(10,8,6,0.66), rgba(10,8,6,0)); }
+    .scrim2 { top: 40%;  height: 24%; background: linear-gradient(to bottom, rgba(10,8,6,0), rgba(10,8,6,0.72) 50%, rgba(10,8,6,0)); }
+    .scrim3 { bottom: 0; height: 36%; background: linear-gradient(to top, rgba(10,8,6,0.78), rgba(10,8,6,0)); }
+</style>
+</head>
+<body>
+    <div class="filemark">// 2pizzaclub.com — eating</div>
+    <h1 class="book-title">Someone's Eating Babies</h1>
+    <h2 class="scene-title">i. the room</h2>
+
+    <div class="book-page">
+        <div class="panel p1"></div>
+        <div class="panel p2"></div>
+        <div class="panel p3"></div>
+
+        <div class="scrim scrim1"></div>
+        <div class="scrim scrim2"></div>
+        <div class="scrim scrim3"></div>
+
+        <svg class="seams" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <line x1="0" y1="30" x2="100" y2="42" stroke="#caa24e" stroke-width="0.4" opacity="0.8"/>
+            <line x1="0" y1="72" x2="100" y2="60" stroke="#caa24e" stroke-width="0.4" opacity="0.8"/>
+        </svg>
+
+        <div class="cap cap1">
+            <p>A child sat alone in a small quiet room,<br>
+            with a clock on the mantel and a broom in the gloom.<br>
+            On the wall hung a mirror in an old wooden frame —<br>
+            and the mirror it knew everyone's name.</p>
+        </div>
+
+        <div class="cap cap2">
+            <p>The mirror grew foggy. The mirror grew bright.<br>
+            It opened its glass to a far candlelight.<br>
+            "Quick," said the mirror. "I must show you, my child.<br>
+            Step into the dark, a land's been beguiled."</p>
+        </div>
+
+        <div class="cap cap3">
+            <p>She crossed through the frame, past the statehouses, banks,<br>
+            past presidents, senators, the courts and their ranks.<br>
+            Past temples and altars and back-doored machines,<br>
+            past Jerusalem's secrets — and Washington's screens.</p>
+            <p class="refrain">"Someone's eating babies," the old mirror declares.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>smoke-as-transition prototype</title>
+<style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; height: 100%; background: #100b08; overflow: hidden; }
+    #smoke-fx-canvas { position: fixed; inset: 0; width: 100%; height: 100%; }
+    .bar { position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); z-index: 9;
+           display: flex; gap: 10px; align-items: center; font: 13px ui-monospace, monospace; color: #f3e6c8;
+           background: rgba(12,9,6,.82); border: 1px solid rgba(230,180,80,.4); border-radius: 8px; padding: 8px 12px; }
+    .bar button { font: 12px ui-monospace, monospace; cursor: pointer; color: #1a1410; background: #e6b450; border: 0; border-radius: 5px; padding: 6px 12px; }
+</style>
+</head>
+<body>
+    <canvas id="smoke-fx-canvas"></canvas>
+    <div class="bar">
+        <button id="go" type="button">dissolve ▸</button>
+        <span>smoke reveals the new page (mirror → stairs) · press R</span>
+    </div>
+
+    <script src="fluid.js?v=5"></script>
+    <script>
+    (function () {
+        const SMOKE = { r: 0.17, g: 0.13, b: 0.09 };
+        // Replicate finger input: virtual "fingers" drift across the screen and
+        // splat at their position with velocity = (movement delta) * SPLAT_FORCE,
+        // exactly the sim's pointer math — coherent + gentle, painting trails.
+        let fingers = [], raf = 0, drawUntil = 0;
+        function strokeStep() {
+            const SF = window.SmokeFX, F = SF.config.SPLAT_FORCE;
+            for (const f of fingers) {
+                f.vx += (Math.random() - 0.5) * 0.0012;   // gentle wander -> organic curve
+                f.vy += (Math.random() - 0.5) * 0.0012;
+                f.vx = Math.max(-0.011, Math.min(0.011, f.vx));
+                f.vy = Math.max(-0.011, Math.min(0.011, f.vy));
+                f.x += f.vx; f.y += f.vy;
+                if (f.x < 0.06 || f.x > 0.94) { f.vx *= -1; f.x = Math.max(0.06, Math.min(0.94, f.x)); }
+                if (f.y < 0.06 || f.y > 0.94) { f.vy *= -1; f.y = Math.max(0.06, Math.min(0.94, f.y)); }
+                SF.splat(f.x, f.y, f.vx * F, f.vy * F, SMOKE);   // finger-math velocity
+            }
+            if (performance.now() < drawUntil) raf = requestAnimationFrame(strokeStep);
+        }
+        function run() {
+            const SF = window.SmokeFX;
+            if (!SF || !SF.beginTransition) return;
+            window.__SMOKE_STOP = false;
+            SF.config.DENSITY_DISSIPATION = 1.0;    // close to the calm finger defaults
+            SF.config.VELOCITY_DISSIPATION = 0.9;
+            SF.config.CURL = 26;
+            SF.config.SPLAT_RADIUS = 0.30;
+            SF.beginTransition('scene1-panel2-1.png', 'scene1-panel3b-2.png');
+            SF.update();
+            fingers = [
+                { x: 0.50, y: 0.58, vx: 0.000, vy: -0.007 },
+                { x: 0.33, y: 0.50, vx: -0.006, vy: -0.003 },
+                { x: 0.67, y: 0.50, vx: 0.006, vy: -0.003 },
+                { x: 0.40, y: 0.62, vx: -0.004, vy: 0.005 },
+                { x: 0.60, y: 0.62, vx: 0.004, vy: 0.005 },
+            ];
+            drawUntil = performance.now() + 1400;   // gentle "drawing" phase
+            cancelAnimationFrame(raf); raf = requestAnimationFrame(strokeStep);
+            setTimeout(() => { SF.config.DENSITY_DISSIPATION = 2.0; }, 1500); // clear (~2s total)
+            // complete the reveal everywhere as the smoke clears (fills any gaps the wisps missed)
+            const g0 = performance.now();
+            (function ramp() {
+                const t = (performance.now() - g0 - 1000) / 800;  // start 1.0s in, over 0.8s
+                if (t > 0) SF.setGlobalReveal(Math.min(1, t));
+                if (t < 1) requestAnimationFrame(ramp);
+            })();
+        }
+        document.getElementById('go').addEventListener('click', run);
+        window.addEventListener('keydown', e => { if (e.key === 'r' || e.key === 'R') run(); });
+        window.addEventListener('load', () => setTimeout(run, 500));
+    })();
+    </script>
+</body>
+</html>

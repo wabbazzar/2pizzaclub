@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>scene 1 spread — the room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Quicksand:wght@400;500;600&family=Schoolbell&display=swap" rel="stylesheet">
+<style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body { background: #cdbfa6; padding: 22px 0 50px; }
+    .filemark { font-family:'Quicksand',sans-serif; font-size:.7rem; color:#6a5a4a; letter-spacing:.18em; text-transform:uppercase; text-align:center; margin-bottom:12px; }
+    .book-title { font-family:'Caveat Brush',cursive; font-size:2.1rem; color:#2a1a0f; text-align:center; margin:0 0 4px; font-weight:normal; }
+    .scene-title { font-family:'Caveat Brush',cursive; font-size:1.4rem; color:#8b3a3a; text-align:center; margin:0 0 16px; font-weight:normal; letter-spacing:.04em; }
+
+    /* ---- desktop: landscape children's-book spread ---- */
+    .book-page {
+        position: relative; width: min(1180px, 96vw); aspect-ratio: 16 / 10;
+        margin: 0 auto; background:#15100c; overflow:hidden; border-radius:2px;
+        box-shadow: 0 18px 60px rgba(0,0,0,.45);
+    }
+    .panel { position:absolute; inset:0; background-size:cover; background-repeat:no-repeat; }
+    /* three slanted vertical bands (seam A 38->30, seam B 70->62) */
+    .p1 { background-image:url('scene1-room-1.png');    background-position:center 42%;
+          clip-path: polygon(0 0, 38% 0, 30% 100%, 0 100%); }
+    .p2 { background-image:url('scene1-panel2-1.png');   background-position:center 46%;
+          clip-path: polygon(38% 0, 70% 0, 62% 100%, 30% 100%); }
+    .p3 { background-image:url('scene1-panel3b-2.png');  background-position:center 50%;
+          clip-path: polygon(70% 0, 100% 0, 100% 100%, 62% 100%); }
+
+    .seams { position:absolute; inset:0; width:100%; height:100%; pointer-events:none;
+             filter: drop-shadow(0 0 2px rgba(0,0,0,.85)); }
+
+    /* verse blends over the lower third of the art */
+    .verse-scrim { position:absolute; left:0; right:0; bottom:0; height:46%; pointer-events:none;
+        background: linear-gradient(to top, rgba(8,6,4,.92) 12%, rgba(8,6,4,.55) 55%, rgba(8,6,4,0)); }
+    .verse-band { position:absolute; left:0; right:0; bottom:0; display:flex; align-items:flex-end;
+        font-family:'Schoolbell',cursive; color:#f4e7c9; }
+    .col { padding:0 1.1% 3.5%; text-align:center; line-height:1.5;
+        font-size: clamp(.6rem, 1.02vw, .82rem); text-shadow:0 1px 4px rgba(0,0,0,.9); }
+    .col p { margin:0 0 .5em; }
+    .c1 { width:30%; }
+    .c2 { width:32%; }
+    .c3 { width:38%; }
+    .refrain { font-family:'Caveat Brush',cursive; color:#e8b14e !important;
+        font-size: clamp(.85rem,1.45vw,1.2rem); margin-top:.2em !important; }
+
+    /* subtle occult overlays */
+    .sym { position:absolute; pointer-events:none; }
+    .sym-tree { left:7.5%; top:9%; width:13%; opacity:.42; }
+    .sym-eye  { left:75.5%; top:7%; width:13%; opacity:.5; }
+
+    /* ---- mobile: linear stack ---- */
+    @media (max-width: 760px) {
+        .book-page { aspect-ratio:auto; height:auto; display:flex; flex-direction:column; background:transparent; box-shadow:none; }
+        .panel { position:relative; inset:auto; width:100%; aspect-ratio:4/3; clip-path:none !important; margin-bottom:6px; border-radius:2px; }
+        .seams, .verse-scrim { display:none; }
+        .verse-band { position:static; flex-direction:column; }
+        /* captions handled inline on mobile via the .m-cap blocks */
+        .col { width:100% !important; color:#2a1a0f; text-shadow:none; font-size:1.1rem; padding:10px 16px 22px; }
+        .refrain { color:#8b3a3a !important; }
+        .sym { display:none; }
+    }
+</style>
+</head>
+<body>
+    <div class="filemark">// 2pizzaclub.com — eating</div>
+    <h1 class="book-title">Someone's Eating Babies</h1>
+    <h2 class="scene-title">i. the room</h2>
+
+    <div class="book-page">
+        <div class="panel p1"></div>
+        <div class="panel p2"></div>
+        <div class="panel p3"></div>
+
+        <!-- subtle: Tree of Life inlaid over the mirror (upright, intact) -->
+        <svg class="sym sym-tree" viewBox="0 0 100 130" fill="none" stroke="#e8c878" stroke-width="1.4">
+            <g stroke-opacity="0.9">
+                <line x1="50" y1="10" x2="78" y2="30"/><line x1="50" y1="10" x2="22" y2="30"/><line x1="50" y1="10" x2="50" y2="72"/>
+                <line x1="78" y1="30" x2="22" y2="30"/><line x1="78" y1="30" x2="78" y2="58"/><line x1="78" y1="30" x2="50" y2="72"/><line x1="78" y1="30" x2="22" y2="58"/>
+                <line x1="22" y1="30" x2="22" y2="58"/><line x1="22" y1="30" x2="50" y2="72"/><line x1="22" y1="30" x2="78" y2="58"/>
+                <line x1="78" y1="58" x2="22" y2="58"/><line x1="78" y1="58" x2="50" y2="72"/><line x1="78" y1="58" x2="78" y2="90"/>
+                <line x1="22" y1="58" x2="50" y2="72"/><line x1="22" y1="58" x2="22" y2="90"/>
+                <line x1="50" y1="72" x2="78" y2="90"/><line x1="50" y1="72" x2="22" y2="90"/><line x1="50" y1="72" x2="50" y2="104"/>
+                <line x1="78" y1="90" x2="22" y2="90"/><line x1="78" y1="90" x2="50" y2="104"/>
+                <line x1="22" y1="90" x2="50" y2="104"/>
+                <line x1="50" y1="104" x2="50" y2="122"/>
+            </g>
+            <g fill="#15100c" stroke="#e8c878" stroke-width="1.6">
+                <circle cx="50" cy="10" r="5.5"/><circle cx="78" cy="30" r="5.5"/><circle cx="22" cy="30" r="5.5"/>
+                <circle cx="78" cy="58" r="5.5"/><circle cx="22" cy="58" r="5.5"/><circle cx="50" cy="72" r="5.5"/>
+                <circle cx="78" cy="90" r="5.5"/><circle cx="22" cy="90" r="5.5"/><circle cx="50" cy="104" r="5.5"/><circle cx="50" cy="122" r="5.5"/>
+            </g>
+        </svg>
+
+        <!-- subtle: all-seeing eye in the dome's halo -->
+        <svg class="sym sym-eye" viewBox="0 0 120 80" fill="none" stroke="#e8c878" stroke-width="1.6">
+            <g stroke-opacity="0.85">
+                <path d="M14 40 Q60 8 106 40 Q60 72 14 40 Z"/>
+                <circle cx="60" cy="40" r="15"/><circle cx="60" cy="40" r="6.5" fill="#e8c878"/>
+            </g>
+            <g stroke-width="1" stroke-opacity="0.6">
+                <line x1="60" y1="2"  x2="60" y2="-12"/><line x1="92" y1="10" x2="103" y2="-2"/><line x1="28" y1="10" x2="17" y2="-2"/>
+                <line x1="60" y1="78" x2="60" y2="92"/>
+            </g>
+        </svg>
+
+        <svg class="seams" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <line x1="38" y1="0" x2="30" y2="100" stroke="#caa24e" stroke-width="0.4" opacity="0.8"/>
+            <line x1="70" y1="0" x2="62" y2="100" stroke="#caa24e" stroke-width="0.4" opacity="0.8"/>
+        </svg>
+
+        <div class="verse-scrim"></div>
+        <div class="verse-band">
+            <div class="col c1">
+                <p>A child sat alone in a small quiet room,<br>
+                with a clock on the mantel and a broom in the gloom.<br>
+                On the wall hung a mirror in an old wooden frame —<br>
+                and the mirror it knew everyone's name.</p>
+            </div>
+            <div class="col c2">
+                <p>The mirror grew foggy. The mirror grew bright.<br>
+                It opened its glass to a far candlelight.<br>
+                "Quick," said the mirror. "I must show you, my child.<br>
+                Step into the dark, a land's been beguiled."</p>
+            </div>
+            <div class="col c3">
+                <p>She crossed through the frame, past the statehouses, banks,<br>
+                past presidents, senators, the courts and their ranks.<br>
+                Past temples and altars and back-doored machines,<br>
+                past Jerusalem's secrets — and Washington's screens.</p>
+                <p>And under the noise of the world's great affairs,<br>
+                the mirror drew her down, down the back of the stairs,<br>
+                to the small ones held down, to be traded in pairs —</p>
+                <p class="refrain">"Someone's eating babies," the old mirror declares.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

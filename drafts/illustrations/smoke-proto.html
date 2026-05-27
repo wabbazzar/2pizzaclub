@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>smoke transition prototype</title>
+<style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; height: 100%; background: #15100c; overflow: hidden; }
+    .layer { position: fixed; inset: 0; width: 100%; height: 100%; border: 0; }
+    #bg     { z-index: 0; pointer-events: none; }
+    #target { z-index: 1; opacity: 0; transition: opacity 700ms ease-out; pointer-events: none; }
+    #smoke-fx-canvas { z-index: 2; pointer-events: none; }
+    .bar { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); z-index: 9;
+           display: flex; gap: 10px; align-items: center; font: 13px ui-monospace, monospace; color: #f3e6c8;
+           background: rgba(12,9,6,.82); border: 1px solid rgba(230,180,80,.4); border-radius: 8px; padding: 8px 12px; }
+    .bar button { font: 12px ui-monospace, monospace; cursor: pointer; color: #1a1410; background: #e6b450; border: 0; border-radius: 5px; padding: 6px 12px; }
+    .bar .hint { opacity: .7; }
+</style>
+</head>
+<body>
+    <iframe id="bg" class="layer" src="/" title="timeline"></iframe>
+    <iframe id="target" class="layer" src="/eating/" title="book"></iframe>
+    <canvas id="smoke-fx-canvas" class="layer"></canvas>
+
+    <div class="bar">
+        <button id="go" type="button">smoke ▸</button>
+        <span class="hint">press T to replay · smoke dissolves timeline → book</span>
+    </div>
+
+    <!-- vendored MIT fluid sim (Pavel Dobryakov), auto-inits on #smoke-fx-canvas -->
+    <script src="fluid.js"></script>
+    <script>
+    (function () {
+        const GOLD = { r: 0.17, g: 0.13, b: 0.09 };  // dark warm-grey smoke (low so it doesn't stack to fire)
+        const bg = document.getElementById('bg');
+        const target = document.getElementById('target');
+        let busy = false;
+
+        // emit a ring of smoke splats from (cx,cy) in [0,1] texcoords, biased upward
+        function burst(cx, cy, count, force, color) {
+            for (let i = 0; i < count; i++) {
+                const a = Math.random() * Math.PI * 2;
+                const f = force * (0.35 + Math.random() * 0.9);
+                const dx = Math.cos(a) * f;
+                const dy = Math.sin(a) * f + force * 0.16;  // mostly omnidirectional (fills), slight rise
+                const jx = (Math.random() - 0.5) * 0.11;     // broad bloom, no hot core
+                const jy = (Math.random() - 0.5) * 0.11;
+                splat(cx + jx, cy + jy, dx, dy, color);
+            }
+        }
+
+        function run() {
+            if (busy) return; busy = true;
+            window.__SMOKE_STOP = false;
+            // reset stage
+            bg.style.opacity = '1'; target.style.opacity = '0';
+
+            // slow, drifting smoke: gentle force, heavy velocity damping, and low
+            // density dissipation while it builds so it lingers (not a fast flash)
+            config.DENSITY_DISSIPATION = 0.85;   // less accumulation -> grey smoke, not stacked-to-fire
+            config.VELOCITY_DISSIPATION = 2.2;   // damp hard so it drifts and fills, not shoots
+            config.CURL = 12;
+
+            const F = 1200;                                      // gentle
+            burst(0.5, 0.52, 22, F, GOLD);                       // broad initial bloom near center
+            const pump = setInterval(() => burst(0.5, 0.5, 6, F * 0.85, GOLD), 110);  // slow feed
+
+            setTimeout(() => { bg.style.opacity = '0'; target.style.opacity = '1'; }, 1600); // swap once obscured
+            setTimeout(() => clearInterval(pump), 1900);         // stop feeding the plume
+            setTimeout(() => { config.DENSITY_DISSIPATION = 1.4; }, 2300); // phase 2: clear for the reveal
+            setTimeout(() => { busy = false; }, 7000);           // long, calm settle
+        }
+
+        document.getElementById('go').addEventListener('click', run);
+        window.addEventListener('keydown', e => { if (e.key === 't' || e.key === 'T') run(); });
+        // auto-fire once for screenshotting
+        window.addEventListener('load', () => setTimeout(run, 700));
+    })();
+    </script>
+</body>
+</html>

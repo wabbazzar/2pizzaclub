@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>scene 1 — the room (two-up)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Quicksand:wght@400;500;600&family=Schoolbell&display=swap" rel="stylesheet">
+<style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: #15100c; }
+
+    .spread { position: relative; width: 100vw; height: 100vh; overflow: hidden; background:#15100c; }
+
+    .panel { position: absolute; top: 0; height: 100vh; width: 52vw;
+             background-size: cover; background-repeat: no-repeat; }
+    .left  { left: 0;  background-image: url('scene1-panel2-1.png');  background-position: center 42%;
+             clip-path: polygon(0 0, 100% 0, 92.3% 100%, 0 100%); }
+    .right { right: 0; background-image: url('scene1-panel3b-2.png'); background-position: center top;
+             clip-path: polygon(7.7% 0, 100% 0, 100% 100%, 0 100%); }
+
+    /* each verse block carries its own soft radial scrim so it blends wherever it sits */
+    /* no box — text placed directly on dark zones, lifted off the art with a soft shadow */
+    .cap { position: absolute; color: #f4e7c9; font-family: 'Schoolbell', cursive; text-align: center;
+           line-height: 1.52; font-size: clamp(.84rem, 1.16vw, 1.06rem);
+           text-shadow: 0 1px 3px #000, 0 0 10px rgba(0,0,0,.92), 0 0 24px rgba(0,0,0,.7);
+           width: 68%; padding: 0; transform: translate(-50%, -50%); }
+    .cap p { margin: 0 0 .6em; }
+    .cap p:last-child { margin-bottom: 0; }
+    /* placements by visual judgement: left bumped clear of the desk; right split L/R of the stair, left higher */
+    .cap.left    { left: 35%; top: 80%; width: 50%; }
+    .cap.r-left  { left: 23%; top: 42%; width: 38%; font-size: clamp(.72rem, .98vw, .9rem); }
+    .cap.r-right { left: 77%; top: 60%; width: 38%; font-size: clamp(.72rem, .98vw, .9rem); }
+    .refrain { font-family: 'Caveat Brush', cursive; color: #e8b14e; margin-top: .3em !important;
+               font-size: clamp(1rem, 1.55vw, 1.3rem); }
+
+    /* gold diagonal seam over the join */
+    .seam { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none;
+            filter: drop-shadow(0 0 2px rgba(0,0,0,.85)); }
+
+    /* minimal title, top center on a faint scrim */
+    .head { position: absolute; top: 0; left: 0; right: 0; text-align: center; padding: 1.1rem 0 2.4rem;
+            background: linear-gradient(to bottom, rgba(8,6,4,.7), transparent); pointer-events: none; }
+    .head .t { font-family: 'Caveat Brush', cursive; color: #f4e7c9; font-size: 1.7rem; }
+    .head .s { font-family: 'Caveat Brush', cursive; color: #e8b14e; font-size: 1.05rem; letter-spacing: .04em; }
+
+    @media (max-width: 1200px) {
+        .cap { padding: 1.4em 1.1em; border-radius: 12px;
+               background: radial-gradient(ellipse 84% 122% at 50% 50%, rgba(8,6,4,.9) 40%, rgba(8,6,4,.55) 68%, rgba(8,6,4,0) 88%); }
+    }
+    @media (max-width: 760px) {
+        .spread { height: auto; }
+        .panel { position: relative; width: 100%; height: auto; aspect-ratio: 3/4; clip-path: none !important; }
+        .cap { width: 86% !important; left: 50% !important; right: auto !important; top: auto !important;
+               transform: translateX(-50%) !important; font-size: 1.05rem; }
+        .cap.left    { bottom: 5%; }
+        .cap.r-left  { bottom: 34%; }   /* stack the two right-page stanzas on mobile */
+        .cap.r-right { bottom: 5%; }
+        .seam { display: none; }
+    }
+</style>
+</head>
+<body>
+    <div class="spread">
+        <div class="panel left">
+        <div class="cap left">
+            <p>A child sat alone in a small quiet room,<br>
+            with a clock on the mantel and a broom in the gloom.<br>
+            On the wall hung a mirror in an old wooden frame —<br>
+            and the mirror it knew everyone's name.</p>
+            <p>The mirror grew foggy. The mirror grew bright.<br>
+            It opened its glass to a far candlelight.<br>
+            "Quick," said the mirror. "Come quickly my child.<br>
+            Step into the dark where a land lies beguiled."</p>
+        </div>
+        </div>
+
+        <div class="panel right">
+        <div class="cap r-left">
+            <p>She crossed through the frame, past the statehouses, banks,<br>
+            past presidents, senators, the courts and their ranks.<br>
+            Past temples and altars and back-doored machines,<br>
+            past Jerusalem's secrets — and Washington's screens.</p>
+        </div>
+        <div class="cap r-right">
+            <p>And under the noise of the world's great affairs,<br>
+            the mirror drew her down, down the back of the stairs,<br>
+            to the small ones held down, to be traded in pairs —</p>
+            <p class="refrain">"Someone's eating babies," the old mirror declares.</p>
+        </div>
+        </div>
+
+        <svg class="seam" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <line x1="52" y1="0" x2="48" y2="100" stroke="#caa24e" stroke-width="0.35" opacity="0.8"/>
+        </svg>
+
+        <div class="head">
+            <div class="t">Someone's Eating Babies</div>
+            <div class="s">i. the room</div>
+        </div>
+    </div>
+</body>
+</html>

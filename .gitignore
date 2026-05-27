@@ -80,3 +80,9 @@ sources/captures/*/frames/f[1-9][0-9][0-9].png
 # recoverable from git history (the efta/findings.json committed before curation)
 # plus the external pipeline. See drafts/efta/README.md.
 drafts/efta/findings-full.json
+
+# ---------- eating-book illustration intermediates ----------
+# fal.ai/Flux generation outputs and prototype crops under drafts/illustrations.
+# Kept LOCAL ONLY: large, regenerable from gen.py, and the chosen finals already
+# ship under eating/art/. The tooling (.py / .js / .html / .md) stays tracked.
+drafts/illustrations/*.png
