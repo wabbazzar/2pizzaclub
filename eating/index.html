@@ -136,87 +136,64 @@
             .nav a { font-size: 1.4rem; }
         }
 
-        /* ---- illustrated two-up spreads (scenes i + ii share this layout) ---- */
-        .spread { position: fixed; inset: 0; z-index: 6; overflow: hidden; background: #15100c; }
-        .spread .panel { position: absolute; top: 0; height: 100vh; width: 52vw; }
-        .spread .panel.left  { left: 0; }
-        .spread .panel.right { right: 0; }
+        /* ---- scene i: full-bleed two-up illustration ---- */
+        #i .spread { position: fixed; inset: 0; z-index: 6; overflow: hidden; background: #15100c; }
+        #i .panel { position: absolute; top: 0; height: 100vh; width: 52vw; }
+        #i .panel.left  { left: 0; }
+        #i .panel.right { right: 0; }
         /* the diagonal clip is on the .art (background only), so verse text on the
            panel is never chopped by the seam */
-        .spread .art { position: absolute; inset: 0; background-size: cover; background-repeat: no-repeat; }
-        .spread .cap { position: absolute; color: #f4e7c9; font-family: 'Schoolbell', cursive; text-align: center;
-                  line-height: 1.52; font-size: clamp(.84rem, 1.16vw, 1.06rem); margin: 0;
-                  text-shadow: 0 1px 3px #000, 0 0 10px rgba(0,0,0,.92), 0 0 24px rgba(0,0,0,.7);
-                  width: 68%; transform: translate(-50%, -50%); }
-        .spread .cap p { margin: 0 0 .6em; }
-        .spread .cap p:last-child { margin-bottom: 0; }
-        .spread .refrain { margin-top: .3em; }  /* same Schoolbell/cream as the rest of the verse */
-        .spread .seam { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none;
-                   filter: drop-shadow(0 0 2px rgba(0,0,0,.85)); }
-        .spread .head { position: absolute; top: 0; left: 0; right: 0; text-align: center; padding: 1rem 0 2.2rem;
-                   background: linear-gradient(to bottom, rgba(8,6,4,.72), transparent); pointer-events: none; z-index: 3; }
-        .spread .head .t { font-family: 'Caveat Brush', cursive; color: #f4e7c9; font-size: 1.7rem; }
-        .spread .head .s { font-family: 'Caveat Brush', cursive; color: #e8b14e; font-size: 1.05rem; }
-        .spread .nav { position: absolute; left: 50%; bottom: 1.4rem; transform: translateX(-50%);
-                  border: 0; padding: 0; margin: 0; display: flex; gap: 1.4rem; align-items: center; z-index: 4; }
-        .spread .nav a { color: #f4e7c9; }
-        .spread .nav a.disabled { opacity: .25; }
-        .spread .counter { color: #cbb892; }
-        .spread .timeline-link { position: absolute; top: 1.1rem; left: 1.2rem; z-index: 4;
-                  font-family: 'Quicksand', sans-serif; font-size: .8rem; color: #cbb892; text-decoration: none; }
-
-        /* scene i — the room */
+        #i .art { position: absolute; inset: 0; background-size: cover; background-repeat: no-repeat; }
         #i .panel.left .art  { background-image: url('art/scene1a.png'); background-position: center 42%;
                                clip-path: polygon(0 0, 100% 0, 92.3% 100%, 0 100%); }
         #i .panel.right .art { background-image: url('art/scene1b.png?v=2'); background-position: center top;
                                clip-path: polygon(7.7% 0, 100% 0, 100% 100%, 0 100%); }
-        /* caps slotted into the lowest-edge regions (drafts/illustrations/lowdetail.py) */
-        #i .cap.left    { left: 28%; top: 74%; width: 50%; }
-        #i .cap.r-left  { left: 80%; top: 34%; width: 34%; }
-        #i .cap.r-right { left: 21%; top: 66%; width: 36%; }
-        /* verse caps fade out-before / in-after every page change, so the smoke
-           dissolve runs on text-free covers (image only, never image + text) */
-        .spread .cap { opacity: 0; transition: opacity 700ms ease-out; }
-        .scene.caps-in .cap { opacity: 1; }
-        @media (prefers-reduced-motion: reduce) { .spread .cap { opacity: 1 !important; transition: none; } }
-
-        /* scene ii — the maxwells */
-        #ii .panel.left .art  { background-image: url('art/scene2a.png?v=3'); background-position: center 50%;
-                                clip-path: polygon(0 0, 100% 0, 92.3% 100%, 0 100%); }
-        #ii .panel.right .art { background-image: url('art/scene2b.png?v=2'); background-position: center 48%;
-                                clip-path: polygon(7.7% 0, 100% 0, 100% 100%, 0 100%); }
-        /* caps slotted into the lowest-edge regions (drafts/illustrations/lowdetail.py) */
-        #ii .cap.left    { left: 26%; top: 22%; width: 44%; }
-        #ii .cap.r-left  { left: 24%; top: 24%; width: 40%; }
-        #ii .cap.r-right { left: 71%; top: 72%; width: 42%; }
-
-        /* narrow screens: caps reflow onto brighter/edge areas, so give them a
-           dark scrim for legibility (large desktop keeps the clean look) */
+        #i .cap { position: absolute; color: #f4e7c9; font-family: 'Schoolbell', cursive; text-align: center;
+                  line-height: 1.52; font-size: clamp(.84rem, 1.16vw, 1.06rem); margin: 0;
+                  text-shadow: 0 1px 3px #000, 0 0 10px rgba(0,0,0,.92), 0 0 24px rgba(0,0,0,.7);
+                  width: 68%; transform: translate(-50%, -50%); }
+        #i .cap p { margin: 0 0 .6em; }
+        #i .cap p:last-child { margin-bottom: 0; }
+        /* the verse fades in after the smoke hands off (egg) or shortly after load (direct) */
+        #i .cap { opacity: 0; transition: opacity 1300ms ease-out; }
+        #i.text-in .cap { opacity: 1; }
+        @media (prefers-reduced-motion: reduce) { #i .cap { opacity: 1; transition: none; } }
+        #i .cap.left    { left: 35%; top: 80%; width: 50%; }
+        #i .cap.r-left  { left: 24%; top: 53%; width: 30%; }
+        #i .cap.r-right { left: 80%; top: 66%; width: 35%; }
+        #i .refrain { margin-top: .3em; }  /* same Schoolbell/cream as the rest of the verse */
+        #i .seam { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none;
+                   filter: drop-shadow(0 0 2px rgba(0,0,0,.85)); }
+        #i .head { position: absolute; top: 0; left: 0; right: 0; text-align: center; padding: 1rem 0 2.2rem;
+                   background: linear-gradient(to bottom, rgba(8,6,4,.72), transparent); pointer-events: none; z-index: 3; }
+        #i .head .t { font-family: 'Caveat Brush', cursive; color: #f4e7c9; font-size: 1.7rem; }
+        #i .head .s { font-family: 'Caveat Brush', cursive; color: #e8b14e; font-size: 1.05rem; }
+        #i .spread .nav { position: absolute; left: 50%; bottom: 1.4rem; transform: translateX(-50%);
+                          border: 0; padding: 0; margin: 0; display: flex; gap: 1.4rem; align-items: center; z-index: 4; }
+        #i .spread .nav a { color: #f4e7c9; }
+        #i .spread .nav a.disabled { opacity: .25; }
+        #i .spread .counter { color: #cbb892; }
+        #i .timeline-link { position: absolute; top: 1.1rem; left: 1.2rem; z-index: 4;
+                            font-family: 'Quicksand', sans-serif; font-size: .8rem; color: #cbb892; text-decoration: none; }
+        /* narrow screens: text reflows onto brighter/edge areas, so give it a
+           dark scrim again for legibility (large desktop keeps the clean look) */
         @media (max-width: 1200px) {
-            .spread .cap { padding: 1.3em 1.1em; border-radius: 12px;
-                      background: radial-gradient(ellipse 84% 120% at 50% 50%, rgba(8,6,4,.62) 38%, rgba(8,6,4,.34) 66%, rgba(8,6,4,0) 86%); }
+            #i .cap { padding: 1.3em 1.1em; border-radius: 12px;
+                      background: radial-gradient(ellipse 84% 120% at 50% 50%, rgba(8,6,4,.55) 38%, rgba(8,6,4,.3) 66%, rgba(8,6,4,0) 86%); }
         }
         @media (max-width: 760px) {
-            /* mobile: stack each illustration ABOVE its own verse on parchment, so the
-               art is never buried under text and the verse always fits the page
-               (overlaying two stanzas on one phone-width panel cramped the art) */
-            .spread { position: relative; height: auto; width: 100vw; margin-left: calc(50% - 50vw);
-                      background: #ede4d3; padding-bottom: 1rem; }
-            .spread .panel { position: relative; width: 100%; height: auto; }
-            .spread .art { position: relative; inset: auto; width: 100%; height: auto; aspect-ratio: 3/4;
-                      clip-path: none !important; }
-            /* verse drops into normal flow beneath its panel's art: dark on parchment, no scrim */
-            .spread .cap { position: static !important; transform: none !important; opacity: 1 !important;
-                      width: 100% !important; color: #2a1a0f; text-shadow: none; background: none;
-                      padding: 1rem 1.3rem .2rem; font-size: 1.15rem; line-height: 1.66; }
-            .spread .refrain { color: #8b3a3a; }
-            .spread .seam, .spread .head { display: none; }
-            .spread .nav { position: static; transform: none; margin: .8rem auto 0; }
-            .spread .nav a { color: #2a1a0f; }
-            .spread .counter { color: #6a5a4a; }
-            .spread .timeline-link { position: static; display: inline-block; margin: .8rem 0 0 1.3rem; color: #6a5a4a; }
-            body:has(.scene.active .spread) .container { padding: 0 0 1.2rem; }
-            body:has(.scene.active .spread) .filemark, body:has(.scene.active .spread) .book-title { display: none; }
+            /* immersive, full-bleed: no title, no cream border */
+            #i .spread { position: relative; height: auto; width: 100vw; margin-left: calc(50% - 50vw); }
+            #i .panel { position: relative; width: 100%; height: auto; aspect-ratio: 3/4; }
+            #i .art { clip-path: none !important; }
+            #i .cap { width: 86% !important; left: 50% !important; right: auto !important; top: auto !important;
+                      transform: translateX(-50%) !important; font-size: 1.05rem; }
+            #i .cap.left { bottom: 5%; } #i .cap.r-left { bottom: 34%; } #i .cap.r-right { bottom: 5%; }
+            #i .seam, #i .head { display: none; }
+            #i .spread .nav { position: static; transform: none; margin: 1rem auto; }
+            /* drop the page chrome (title/filemark) + padding while on the illustrated page */
+            body:has(#i.active) .container { padding: 0 0 1.2rem; }
+            body:has(#i.active) .filemark, body:has(#i.active) .book-title { display: none; }
         }
     </style>
 </head>
@@ -272,44 +249,29 @@
         </article>
 
         <article class="scene" id="ii">
-            <div class="spread">
-                <a class="timeline-link" href="/">← timeline</a>
-                <div class="panel left">
-                    <div class="art"></div>
-                    <div class="cap left">
-                        <p>They sped to a hill where a man went to sleep<br>
-                        in a tomb of pale stone that was windy and steep.<br>
-                        Six men in dark coats stood by him to weep —<br>
-                        six men whose old debts to the dead man ran deep.</p>
-                    </div>
-                </div>
-                <div class="panel right">
-                    <div class="art"></div>
-                    <div class="cap r-left">
-                        <p>His daughter went diving in a small silver sub,<br>
-                        down past the seaweed, down through the scrub.<br>
-                        She counted the children. She logged every name.<br>
-                        And cameras in mirrors caught faces in frame.</p>
-                    </div>
-                    <div class="cap r-right">
-                        <p>She brought them in pairs, but she ran, did not own.<br>
-                        The dead man had built it; the masters unknown.<br>
-                        She kept all the keys, but she answered to more —<br>
-                        to the hands that the cameras were harvesting for.</p>
-                    </div>
-                </div>
-                <svg class="seam" viewBox="0 0 100 100" preserveAspectRatio="none">
-                    <line x1="52" y1="0" x2="48" y2="100" stroke="#caa24e" stroke-width="0.35" opacity="0.8"/>
-                </svg>
-                <div class="head">
-                    <div class="t">Someone's Eating Babies</div>
-                    <div class="s">ii. the maxwells</div>
-                </div>
-                <div class="nav">
-                    <a class="prev" href="#i">←</a>
-                    <span class="counter">ii / vii</span>
-                    <a class="next" href="#iii">→</a>
-                </div>
+            <h2 class="scene-title">ii. the maxwells</h2>
+            <div class="verse">
+                <p>They sped to a hill where a man went to sleep<br>
+                in a tomb of pale stone that was windy and steep.<br>
+                Six men in dark coats stood by him to weep —<br>
+                six men whose old debts to the dead man ran deep.</p>
+                <p>His daughter went diving in a small silver sub,<br>
+                down past the seaweed, down through the scrub.<br>
+                She counted the children. She logged every name.<br>
+                And cameras in mirrors caught faces in frame.</p>
+                <p>She brought them in pairs to the parties she'd planned,<br>
+                each little girl holding another girl's hand.<br>
+                She knew all the parties. She knew all the rooms.<br>
+                She knew which had cried. She knew which one to groom.</p>
+            </div>
+            <div class="interlude">
+                And the mirror went still. And the mirror went grey.<br>
+                A small silver camera lay at her feet at the dawn of the day.
+            </div>
+            <div class="nav">
+                <a class="prev" href="#i">←</a>
+                <span class="counter">ii / vii</span>
+                <a class="next" href="#iii">→</a>
             </div>
         </article>
 
@@ -452,128 +414,40 @@
     <script>
         (function () {
             var order = ['i','ii','iii','iv','v','vi','vii'];
-            // Illustrated scenes carry a text-free cover the smoke dissolves between.
-            // Text scenes have no image to smoke through, so they fall back to a plain swap.
-            var COVERS = { i: 'art/cover-i.jpg?v=1', ii: 'art/cover-ii.jpg?v=1' };
-            var FLUID_SRC = '/fluid.js?v=7';
-            var DUR = 2000;
-            var SMOKE_COLOR = { r: 0.17, g: 0.13, b: 0.09 };
-            var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-            Object.keys(COVERS).forEach(function (k) { var im = new Image(); im.src = COVERS[k]; });
-            function el(id) { return document.getElementById(id); }
-            function curId() { var h = (location.hash || '#i').slice(1); return order.indexOf(h) !== -1 ? h : 'i'; }
-
-            function setActive(id, withCaps) {
+            function show() {
+                var hash = (window.location.hash || '#i').slice(1);
+                var target = order.indexOf(hash) !== -1 ? hash : 'i';
                 var scenes = document.querySelectorAll('.scene');
-                for (var i = 0; i < scenes.length; i++) scenes[i].classList.remove('active', 'caps-in');
-                var s = el(id); s.classList.add('active');
-                if (withCaps) requestAnimationFrame(function () { requestAnimationFrame(function () { s.classList.add('caps-in'); }); });
-            }
-
-            // ---- smoke dissolve (shares /fluid.js / window.SmokeFX with the timeline egg) ----
-            var smokeCanvas = null, libsPromise = null, fingers = [], strokeRAF = 0, drawUntil = 0;
-            function ensureLibs() {
-                if (libsPromise) return libsPromise;
-                smokeCanvas = document.createElement('canvas');
-                smokeCanvas.id = 'smoke-fx-canvas';   // fluid.js binds to this id on load
-                Object.assign(smokeCanvas.style, { position: 'fixed', inset: '0', width: '100%', height: '100%', pointerEvents: 'none', zIndex: '20', opacity: '0' });
-                document.body.appendChild(smokeCanvas);
-                libsPromise = window.SmokeFX ? Promise.resolve() : new Promise(function (res, rej) {
-                    var s = document.createElement('script'); s.src = FLUID_SRC; s.onload = res; s.onerror = rej; document.head.appendChild(s);
-                });
-                return libsPromise;
-            }
-            function strokeStep() {  // virtual "fingers" drift + splat with the sim's own pointer math (matches smoke-dissolve prototype)
-                var SF = window.SmokeFX, F = SF.config.SPLAT_FORCE;
-                for (var i = 0; i < fingers.length; i++) {
-                    var f = fingers[i];
-                    f.vx += (Math.random() - 0.5) * 0.0012; f.vy += (Math.random() - 0.5) * 0.0012;   // gentle wander -> organic curve
-                    f.vx = Math.max(-0.011, Math.min(0.011, f.vx)); f.vy = Math.max(-0.011, Math.min(0.011, f.vy));
-                    f.x += f.vx; f.y += f.vy;
-                    if (f.x < 0.06 || f.x > 0.94) { f.vx *= -1; f.x = Math.max(0.06, Math.min(0.94, f.x)); }
-                    if (f.y < 0.06 || f.y > 0.94) { f.vy *= -1; f.y = Math.max(0.06, Math.min(0.94, f.y)); }
-                    SF.splat(f.x, f.y, f.vx * F, f.vy * F, SMOKE_COLOR);   // emit every frame, like the prototype
-                }
-                if (performance.now() < drawUntil) strokeRAF = requestAnimationFrame(strokeStep);
-            }
-            function runSmoke(oldURL, newURL, dir, onReveal, onDone) {
-                var SF = window.SmokeFX;
-                // smoke texture from the smoke-dissolve prototype; trajectory is a directional EDGE SWEEP
-                // (not the egg's centered bloom) — a wall of smoke wipes across in the page-turn direction
-                SF.config.DENSITY_DISSIPATION = 1.0; SF.config.VELOCITY_DISSIPATION = 0.9; SF.config.CURL = 26; SF.config.SPLAT_RADIUS = 0.30;
-                SF.beginTransition(oldURL, newURL); SF.update();
-                var sx = dir < 0 ? 0.97 : 0.03, vx = dir < 0 ? -0.011 : 0.011;   // enter from the leading edge, sweep across
-                fingers = [ {x:sx,y:.14,vx:vx,vy:.0006}, {x:sx,y:.36,vx:vx,vy:-.0005}, {x:sx,y:.58,vx:vx,vy:.0006}, {x:sx,y:.80,vx:vx,vy:-.0005} ];
-                drawUntil = performance.now() + 1400; cancelAnimationFrame(strokeRAF); strokeRAF = requestAnimationFrame(strokeStep);
-                setTimeout(function () { SF.config.DENSITY_DISSIPATION = 2.0; }, 1500);   // clear (~2s total)
-                var g0 = performance.now(), revealed = false;
-                (function ramp() {   // start the global reveal 1.0s in, over 0.8s — fills gaps the wisps miss
-                    var t = (performance.now() - g0 - 1000) / 800;
-                    if (t > 0) SF.setGlobalReveal(Math.min(1, t));
-                    if (t < 1) requestAnimationFrame(ramp); else if (!revealed) { revealed = true; if (onReveal) onReveal(); }
-                })();
-                if (onDone) setTimeout(onDone, 2000);
-            }
-            function smokeTransition(fromId, toId, dir) {
-                el(fromId).classList.remove('caps-in');                 // 1) verse fades OUT first
-                ensureLibs().then(function () {
-                    if (!window.SmokeFX) { setActive(toId, true); return; }   // engine failed → plain swap
-                    setTimeout(function () {                             // 2) once caps are gone, raise the smoke (opaque cover composite)
-                        smokeCanvas.style.transition = 'none'; smokeCanvas.style.opacity = '1';
-                        var swapped = false;
-                        runSmoke(COVERS[fromId], COVERS[toId], dir,
-                            function () { if (!swapped) { swapped = true; setActive(toId, false); } },   // 3) swap the LIVE scene in under the opaque smoke (caps still hidden)
-                            function () {                                                                  // 4) drop the smoke to reveal the live scene, then fade the verse IN
-                                smokeCanvas.style.transition = 'opacity 600ms ease-out'; smokeCanvas.style.opacity = '0';
-                                setTimeout(function () { el(toId).classList.add('caps-in'); }, 260);
-                                setTimeout(function () { if (window.SmokeFX.endTransition) window.SmokeFX.endTransition(); }, 680);
-                            });
-                    }, 360);
-                });
-            }
-            function navigate(toId) {
-                if (navigate._busy) return;
-                var fromId = curId();
-                if (toId === fromId || order.indexOf(toId) === -1) return;
-                var mobile = window.matchMedia && window.matchMedia('(max-width: 760px)').matches;
-                if (!reduced && !mobile && COVERS[fromId] && COVERS[toId]) {  // desktop + both illustrated → smoke (covers are desktop spreads)
-                    navigate._busy = true;
-                    history.replaceState(null, '', '#' + toId);          // move the hash without firing the plain handler
-                    var dir = order.indexOf(toId) > order.indexOf(fromId) ? 1 : -1;   // +1 next, -1 prev → sweep direction
-                    smokeTransition(fromId, toId, dir);
-                    setTimeout(function () { navigate._busy = false; }, DUR + 900);
-                } else {
-                    location.hash = toId;                                // plain path → hashchange → show()
-                }
-            }
-
-            function show() {   // direct load / back-forward / plain (text-scene) nav
-                var id = curId();
-                var holdCaps = (id === 'i' && new URLSearchParams(location.search).get('smoke') === '1');
-                setActive(id, !holdCaps);
+                for (var i = 0; i < scenes.length; i++) scenes[i].classList.remove('active');
+                document.getElementById(target).classList.add('active');
                 window.scrollTo({ top: 0, behavior: 'instant' });
+            }
+            function nav(dir) {
+                var cur = (window.location.hash || '#i').slice(1);
+                var idx = order.indexOf(cur);
+                if (idx === -1) return;
+                var next = idx + dir;
+                if (next < 0 || next >= order.length) return;
+                window.location.hash = order[next];
             }
             window.addEventListener('hashchange', show);
             window.addEventListener('DOMContentLoaded', show);
             window.addEventListener('keydown', function (e) {
-                var i = order.indexOf(curId());
-                if (e.key === 'ArrowRight' && i < order.length - 1) navigate(order[i + 1]);
-                else if (e.key === 'ArrowLeft' && i > 0) navigate(order[i - 1]);
-            });
-            document.addEventListener('click', function (e) {           // route prev/next through navigate() so illustrated↔illustrated smokes
-                var a = e.target.closest && e.target.closest('.scene .nav a[href^="#"]');
-                if (!a || a.classList.contains('disabled')) return;
-                e.preventDefault(); navigate(a.getAttribute('href').slice(1));
+                if (e.key === 'ArrowRight') nav(1);
+                else if (e.key === 'ArrowLeft') nav(-1);
             });
 
-            // Egg handoff: the timeline→book smoke posts "eating:reveal-text"; reveal scene-i's
-            // verse once it clears (?smoke=1). Safety timer covers a missed message.
-            if (new URLSearchParams(location.search).get('smoke') === '1') {
-                window.addEventListener('message', function (e) { if (e.data === 'eating:reveal-text') el('i').classList.add('caps-in'); });
-                setTimeout(function () { el('i').classList.add('caps-in'); }, 4500);
+            // Scene-i verse reveal. Via the smoke egg (?smoke=1) it stays hidden until
+            // the egg posts "eating:reveal-text" after the smoke clears; a direct visit
+            // just fades it in shortly after load. Safety timer covers a missed message.
+            var sceneI = document.getElementById('i');
+            function revealText() { if (sceneI) sceneI.classList.add('text-in'); }
+            if (new URLSearchParams(window.location.search).get('smoke') === '1') {
+                window.addEventListener('message', function (e) { if (e.data === 'eating:reveal-text') revealText(); });
+                setTimeout(revealText, 4500);
+            } else {
+                setTimeout(revealText, 450);
             }
-            window.EatingBook = { navigate: navigate };
         })();
     </script>
 </body>
