@@ -9,7 +9,7 @@
 (function () {
     "use strict";
 
-    const REVEAL_URL = "/eating/";
+    const REVEAL_URL = "/eating/?smoke=1";   // ?smoke=1 → the book holds its verse hidden until the egg signals the smoke has cleared
     const FLUID_SRC = "/fluid.js?v=6";
     // The egg dissolves between two pre-rendered covers (timeline + book opening).
     // html2canvas can't render the book's scene i (position:fixed + clip-path) and
@@ -129,16 +129,19 @@
 
     // ---------- finger-math smoke strokes (calm) ----------
 
-    let fingers = [], strokeRAF = 0, drawUntil = 0;
+    let fingers = [], strokeRAF = 0, drawUntil = 0, strokeFrame = 0;
     function strokeStep() {
         const SF = window.SmokeFX, F = SF.config.SPLAT_FORCE;
+        // inject on alternating frames only — a continuous full-rate blast is what
+        // made the smoke boil; spacing the splats lets the field drift instead.
+        const emit = (strokeFrame++ & 1) === 0;
         for (const f of fingers) {
-            f.vx += (Math.random() - 0.5) * 0.0012; f.vy += (Math.random() - 0.5) * 0.0012;
-            f.vx = Math.max(-0.011, Math.min(0.011, f.vx)); f.vy = Math.max(-0.011, Math.min(0.011, f.vy));
+            f.vx += (Math.random() - 0.5) * 0.0007; f.vy += (Math.random() - 0.5) * 0.0007;
+            f.vx = Math.max(-0.006, Math.min(0.006, f.vx)); f.vy = Math.max(-0.006, Math.min(0.006, f.vy));
             f.x += f.vx; f.y += f.vy;
             if (f.x < 0.06 || f.x > 0.94) { f.vx *= -1; f.x = Math.max(0.06, Math.min(0.94, f.x)); }
             if (f.y < 0.06 || f.y > 0.94) { f.vy *= -1; f.y = Math.max(0.06, Math.min(0.94, f.y)); }
-            SF.splat(f.x, f.y, f.vx * F, f.vy * F, SMOKE_COLOR);
+            if (emit) SF.splat(f.x, f.y, f.vx * F, f.vy * F, SMOKE_COLOR);
         }
         if (performance.now() < drawUntil) strokeRAF = requestAnimationFrame(strokeStep);
     }
@@ -153,9 +156,9 @@
     function dissolve(oldURL, newURL, dur, onReveal, onDone) {
         const SF = window.SmokeFX;
         SF.config.DENSITY_DISSIPATION = 1.0;   // calm defaults (what finger input uses)
-        SF.config.VELOCITY_DISSIPATION = 0.9;
-        SF.config.CURL = 26;
-        SF.config.SPLAT_RADIUS = 0.30;
+        SF.config.VELOCITY_DISSIPATION = 0.35; // low, like the source sim — smoke drifts instead of boiling
+        SF.config.CURL = 30;                   // source-sim vorticity: finer, prettier curls
+        SF.config.SPLAT_RADIUS = 0.25;         // source-sim radius: tighter wisps, less billow
         window.__SMOKE_STOP = false;
         SF.beginTransition(oldURL, newURL);
         SF.update();
@@ -235,20 +238,22 @@
         // pyramid intro on the 2D canvas
         const introMs = PYRAMID_RISE_MS + PYRAMID_HOLD_MS;
         const start = performance.now();
+        // Decide PNG-vs-vector ONCE for the whole intro. Re-checking each frame let a
+        // mid-intro PNG load swap out the vector fallback — that swap was the flash.
+        const useImg = !!(pyramidImg && pyramidImg.complete && pyramidImg.naturalWidth);
         function cvFrame(now) {
             const t = now - start;
             ctx.clearRect(0, 0, v.w, v.h);
             const dim = Math.min(0.82, (t / PYRAMID_RISE_MS) * 0.82);
             ctx.fillStyle = `rgba(${DIM_RGB}, ${dim})`; ctx.fillRect(0, 0, v.w, v.h);
-            const usable = pyramidImg && pyramidImg.complete && pyramidImg.naturalWidth;
             if (t < introMs) {
                 const rise = Math.min(1, t / PYRAMID_RISE_MS);
-                if (usable) drawPyramidImg(ctx, P, pyramidImg, rise, 1);
+                if (useImg) drawPyramidImg(ctx, P, pyramidImg, rise, 1);
                 else { const eye = Math.min(1, Math.max(0, (t - (PYRAMID_RISE_MS - EYE_OPEN_MS)) / EYE_OPEN_MS)); drawPyramid(ctx, P, rise, eye, 1); }
                 requestAnimationFrame(cvFrame);
             } else if (t < introMs + PYRAMID_FADE_MS) {
                 const a = 1 - (t - introMs) / PYRAMID_FADE_MS;
-                if (usable) drawPyramidImg(ctx, P, pyramidImg, 1, a); else drawPyramid(ctx, P, 1, 1, a);
+                if (useImg) drawPyramidImg(ctx, P, pyramidImg, 1, a); else drawPyramid(ctx, P, 1, 1, a);
                 requestAnimationFrame(cvFrame);
             }
         }
@@ -260,8 +265,8 @@
             const SF = window.SmokeFX;
             smokeCanvas.style.opacity = "1";                          // composite (timeline + smoke) takes the screen
             cv.style.transition = "opacity 500ms ease-out"; cv.style.opacity = "0";  // pyramid dissolves into it
-            SF.config.DENSITY_DISSIPATION = 1.0; SF.config.VELOCITY_DISSIPATION = 0.9;
-            SF.config.CURL = 26; SF.config.SPLAT_RADIUS = 0.30;
+            SF.config.DENSITY_DISSIPATION = 1.0; SF.config.VELOCITY_DISSIPATION = 0.35;
+            SF.config.CURL = 30; SF.config.SPLAT_RADIUS = 0.25;
             window.__SMOKE_STOP = false;
             SF.beginTransition(TIMELINE_COVER, TIMELINE_COVER);      // smoke wafts over the timeline
             SF.update();
@@ -284,6 +289,8 @@
                 window.__SMOKE_STOP = true; cancelAnimationFrame(strokeRAF);
                 stage.style.pointerEvents = "auto"; iframe.style.pointerEvents = "auto"; cv.remove();
             }, 2900);
+            // once the smoke has cleared off the illustration, let the verse fade in
+            setTimeout(() => { try { iframe.contentWindow.postMessage("eating:reveal-text", "*"); } catch (e) {} }, 2500);
         });
     }
 
@@ -322,6 +329,7 @@
             if (ev.pointerType === "mouse" && ev.button !== 0) return;
             if (ignore(ev.target)) return;
             hold = { x: ev.clientX, y: ev.clientY, pointerId: ev.pointerId, captureTimer: 0, fireTimer: 0 };
+            ensurePyramidImg();  // warm the PNG during the 900ms hold so the intro never flashes the vector fallback
             document.body.classList.add("egg-arming");
             hold.captureTimer = setTimeout(() => { if (hold) { document.body.classList.add("egg-capturing"); suppressScroll = true; } }, HOLD_CAPTURE_MS);
             hold.fireTimer = setTimeout(() => { if (hold) { cancelHold("fire"); fireReveal(); } }, HOLD_FIRE_MS);

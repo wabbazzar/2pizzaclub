@@ -154,8 +154,14 @@
                   width: 68%; transform: translate(-50%, -50%); }
         #i .cap p { margin: 0 0 .6em; }
         #i .cap p:last-child { margin-bottom: 0; }
+        /* the verse fades in after the smoke hands off (egg) or shortly after load (direct) */
+        #i .cap { opacity: 0; transition: opacity 1300ms ease-out; }
+        #i.text-in .cap { opacity: 1; }
+        @media (prefers-reduced-motion: reduce) { #i .cap { opacity: 1; transition: none; } }
         #i .cap.left    { left: 35%; top: 80%; width: 50%; }
-        #i .cap.r-left  { left: 20%; top: 53%; width: 35%; font-size: clamp(.72rem, .98vw, .9rem); }
+        #i .cap.r-left  { left: 24%; top: 53%; width: 28%; font-size: clamp(.72rem, .98vw, .9rem);
+                          padding: 1.05em 1em; border-radius: 14px;
+                          background: radial-gradient(ellipse 86% 124% at 50% 50%, rgba(8,6,4,.62) 32%, rgba(8,6,4,.32) 64%, rgba(8,6,4,0) 85%); }
         #i .cap.r-right { left: 80%; top: 66%; width: 35%; font-size: clamp(.72rem, .98vw, .9rem); }
         #i .refrain { font-family: 'Caveat Brush', cursive; color: #e8b14e; margin-top: .3em !important;
                       font-size: clamp(1rem, 1.55vw, 1.3rem); }
@@ -221,7 +227,7 @@
                         <p>She crossed through the frame, past the statehouses, banks,<br>
                         past presidents, senators, the courts and their ranks.<br>
                         Past temples and altars and back-doored machines,<br>
-                        past Jerusalem's secrets — and Washington's screens.</p>
+                        past a war won by guile — and the mockingbird screens.</p>
                     </div>
                     <div class="cap r-right">
                         <p>And under the noise of the world's great affairs,<br>
@@ -433,6 +439,18 @@
                 if (e.key === 'ArrowRight') nav(1);
                 else if (e.key === 'ArrowLeft') nav(-1);
             });
+
+            // Scene-i verse reveal. Via the smoke egg (?smoke=1) it stays hidden until
+            // the egg posts "eating:reveal-text" after the smoke clears; a direct visit
+            // just fades it in shortly after load. Safety timer covers a missed message.
+            var sceneI = document.getElementById('i');
+            function revealText() { if (sceneI) sceneI.classList.add('text-in'); }
+            if (new URLSearchParams(window.location.search).get('smoke') === '1') {
+                window.addEventListener('message', function (e) { if (e.data === 'eating:reveal-text') revealText(); });
+                setTimeout(revealText, 4500);
+            } else {
+                setTimeout(revealText, 450);
+            }
         })();
     </script>
 </body>
