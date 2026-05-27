@@ -3,7 +3,7 @@
   "page": {
     "kind": "narrative_finding",
     "title": "The deep read — what's in the estate emails",
-    "subtitle": "Twelve findings from a full read of the House Oversight estate release (647 documents: estate emails, the DS11/DS12 email extracts, and the forensic iMessage exports pulled from Epstein's Mac on the day of his arrest). Each quote below is verbatim from the released document named on the card; open the document to read it in context.",
+    "subtitle": "Findings from a full read of the House Oversight estate release — the complete text production plus the forensic iMessage exports pulled from Epstein's Mac the day he was arrested. Every quote below is verbatim from the released document named on the card; click the document id to read it in context. Where a claim rests only on Epstein's own word, the card says so.",
     "explainer": "These are document-level findings, not statistical aggregates. Every quote was checked against the source file before publishing, and the Bates number on each card is the document's identifier in the public House Oversight release. Spelling and punctuation are reproduced as they appear in the OCR. The reader weighs what the documents say.",
     "rows": [
       {
@@ -113,6 +113,105 @@
         "doc_id": "HOUSE_OVERSIGHT_027133",
         "dataset": "estate",
         "significance": "The earliest message in the recovered iMessage archive. Eight days into the administration, Epstein names Steve Bannon and Tom Barrack as the \"puppet masters\" — a private assessment, in the same thread where he relays which appointments to push."
+      },
+      {
+        "rank": 13,
+        "headline": "Epstein's lawyers argued his wealth was the reason he was prosecuted at all",
+        "quote": "[the U.S. Attorney's Office] never would have contemplated a prosecution in this case if Mr. Epstein were just another ‘John’.",
+        "attribution": "Kenneth Starr's law firm, in a letter to the Deputy U.S. Attorney General, May 27, 2008",
+        "doc_id": "HOUSE_OVERSIGHT_025704",
+        "dataset": "estate",
+        "significance": "Kenneth Starr — the prosecutor whose 1990s investigation led to Bill Clinton's impeachment — was hired to help win Epstein the 2008 deal that spared him federal charges. His firm's letter argues prosecutors would never have brought the case if Epstein were ‘just another John’, slang for a man who pays for sex. The defense is stating plainly that Epstein's wealth and fame were what drew the prosecution."
+      },
+      {
+        "rank": 14,
+        "headline": "By Wolff's account, Bill Gates pushed Epstein to rebuild his public image",
+        "quote": "it is Gates who at the end of the summer began prodding Epstein to begin a process of public rehabilitation.",
+        "attribution": "Michael Wolff, unpublished profile of Epstein, c. 2015",
+        "doc_id": "HOUSE_OVERSIGHT_022707",
+        "dataset": "estate",
+        "significance": "Years after Epstein's conviction, the Wolff drafts say it was Bill Gates who urged him to start rehabilitating his public image — placing the world's best-known philanthropist as an active party to Epstein's comeback rather than a distant acquaintance. Gates has publicly called his dealings with Epstein a mistake."
+      },
+      {
+        "rank": 15,
+        "headline": "A 2011 memo laid out the reputation playbook: court editors, fund science, scrub search results",
+        "quote": "have hired an excellent team of Israeli experts for other clients",
+        "attribution": "Osborne & Partners reputation memo to Epstein, titled “Issues of Reputation”, June 2011",
+        "doc_id": "HOUSE_OVERSIGHT_030426",
+        "dataset": "estate",
+        "significance": "A public-relations firm's 2011 strategy memo reads like the blueprint for what followed: search-engine cleanup using an ‘excellent team of Israeli experts’, cultivation of named editors at major newspapers, and science funding as a way to buy back prestige. The media friendships and university donations the documents show over the next eight years track this plan."
+      },
+      {
+        "rank": 16,
+        "headline": "The author of “Fire and Fury” was privately working as Epstein's media strategist",
+        "quote": "Yeah, you're the Trump bullet.",
+        "attribution": "Michael Wolff to Epstein, February 2016",
+        "doc_id": "HOUSE_OVERSIGHT_032242",
+        "dataset": "estate",
+        "significance": "Michael Wolff published the best-selling Trump book “Fire and Fury” in 2018. The estate emails show that in 2016 he was privately coaching Epstein to treat his Trump connection as ammunition — hold what he knew, then choose whether to fire the ‘bullet’ or bank a favor. When the book came out, the documents show Epstein was cut from it while Trump's friend Tom Barrack was kept in."
+      },
+      {
+        "rank": 17,
+        "headline": "Bannon and Epstein discussed a crypto-funded political operation — and named the sitting White House lawyer to run its election-law work",
+        "quote": "I've got the 2nd best--best is don mcgahn who is occupied currently",
+        "attribution": "Steve Bannon to Epstein, February 2018",
+        "doc_id": "HOUSE_OVERSIGHT_026260",
+        "dataset": "estate",
+        "significance": "Steve Bannon, Trump's former chief strategist and (the documents confirm) Epstein's near-daily messaging partner, discussed a cryptocurrency-funded political operation with him. Asked who would handle its campaign-finance law, Bannon said his top choice was Don McGahn — who at that moment was the White House's chief counsel."
+      },
+      {
+        "rank": 18,
+        "headline": "Obama's former White House counsel wrote Epstein's press defense",
+        "quote": "Far from a receiving a sweetheart deal, Mr. Epstein was subjected to a lengthy, aggressive, and highly unusual federal investigation",
+        "attribution": "Statement Kathryn Ruemmler drafted for Epstein's reply to the Washington Post, March 2019",
+        "doc_id": "HOUSE_OVERSIGHT_027585",
+        "dataset": "estate",
+        "significance": "Kathryn Ruemmler was President Obama's White House Counsel. By 2019 she was drafting Epstein's public statements — telling him what to say to the Washington Post as it pressed on his 2008 deal — months before his arrest."
+      },
+      {
+        "rank": 19,
+        "headline": "Epstein claimed a hand in a live Middle East diplomatic opening",
+        "quote": "the book worked. :)",
+        "attribution": "Epstein to a Kuwaiti contact during the UN summit week, September 2017",
+        "doc_id": "HOUSE_OVERSIGHT_026168",
+        "dataset": "estate",
+        "significance": "In 2017 Saudi Arabia and its allies blockaded Qatar, and Kuwait's ruler tried to broker peace. During the UN's annual New York summit, as President Trump phoned Gulf leaders, Epstein messaged a Kuwaiti contact that ‘the book worked’, claiming credit for the opening — one of several Gulf back-channels the documents show him running that year."
+      },
+      {
+        "rank": 20,
+        "headline": "A senior British politician managed the Prince Andrew scandal alongside Epstein",
+        "quote": "you were right about staying away from andrew.",
+        "attribution": "Peter Mandelson to Epstein, U.S. election night, November 2016",
+        "doc_id": "HOUSE_OVERSIGHT_033184",
+        "dataset": "estate",
+        "significance": "Peter Mandelson — a former European Union trade commissioner and one of Britain's most senior Labour politicians — wrote to Epstein crediting his advice to distance himself from Prince Andrew before the scandal ‘went nuclear’. He appears not as a casual contact but as a partner in damage control."
+      },
+      {
+        "rank": 21,
+        "headline": "Epstein's science donations ran alongside a young-women program, and his own talk of choosing one",
+        "quote": "who is you r wife choice this year?",
+        "attribution": "Epstein to the head of a Stockholm program he funded, 2012",
+        "doc_id": "HOUSE_OVERSIGHT_031213",
+        "dataset": "estate",
+        "significance": "Epstein moved donations through an entity called ‘Enhanced Learning’, including $25,000 to the Stockholm School of Economics. The same Swedish contact ran a program described as involving 200 young women, and Epstein's note to him asks ‘who is your wife choice this year?’ The funding and the language of selecting women sit in the same correspondence."
+      },
+      {
+        "rank": 22,
+        "headline": "Epstein's reputation team reported hacking Wikipedia to swap out his mugshot",
+        "quote": "We hacked the site to replace the mug shot",
+        "attribution": "An associate running Epstein's online-reputation campaign, December 2010",
+        "doc_id": "HOUSE_OVERSIGHT_022216",
+        "dataset": "estate",
+        "significance": "Part of the cleanup was literal: an associate reported they had ‘hacked the site to replace the mug shot’ on Epstein's Wikipedia page, inside a paid effort to soften his online image."
+      },
+      {
+        "rank": 23,
+        "headline": "Days after Khashoggi vanished, Epstein floated that the UAE's ruler set him up",
+        "quote": "smells like something bigger to me. I wouldnt be surprised if MBZ set him up.",
+        "attribution": "Epstein to a Gulf contact, October 2018",
+        "doc_id": "HOUSE_OVERSIGHT_033412",
+        "dataset": "estate",
+        "significance": "Within days of the Saudi journalist Jamal Khashoggi's disappearance, Epstein told a Gulf contact he ‘wouldn't be surprised if MBZ set him up’ — MBZ being Mohammed bin Zayed, the ruler of the United Arab Emirates. It shows Epstein trading real-time speculation inside Gulf royal circles at the moment of an international murder."
       }
     ]
   }
