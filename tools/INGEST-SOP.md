@@ -34,14 +34,15 @@ Fields NOT rendered to consumers (safe place for internal notes):
 ## One-liner per reel
 
 ```bash
-cd /home/wabbazzar/.claude/plugins/cache/dev-browser-marketplace/dev-browser/66682fb0513a/skills/dev-browser
-node /home/wabbazzar/code/2pizzaclub/tools/ingest-reel.mjs <SHORTCODE>
+cd /home/wabbazzar/code/2pizzaclub
+node tools/ingest-reel.mjs <SHORTCODE>
 ```
 
-Accepts a full IG URL too (`https://www.instagram.com/reel/<SHORTCODE>/`). Default model is `base.en`. Override with `--model=small.en` for higher-stakes transcription. Use `--skip-capture` to reuse an existing `reel.webm`. Use `--skip-transcribe` to skip whisper.
+Capture is `yt-dlp` now — no dev-browser/Playwright. Keep `~/.local/bin/yt-dlp` current (the system build's IG extractor is broken). Accepts a full IG URL too. Default model is `base.en`; override with `--model=small.en`. `--skip-capture` reuses an existing `reel.orig.mkv`; `--force-download` re-pulls it; `--skip-transcribe` skips whisper; `--cookies-from-browser=chromium:<profile>` handles login-gated reels.
 
 What this writes:
-- `sources/captures/<SHORTCODE>/reel.webm` — full video, vp9/opus
+- `sources/captures/<SHORTCODE>/reel.orig.mkv` — pristine yt-dlp original (gitignored, local-only source of truth)
+- `sources/captures/<SHORTCODE>/reel.webm` — delivery, derived once from the original (vp9 copied, audio normalized off the source AAC)
 - `sources/captures/<SHORTCODE>/reel-audio.wav` — 16k mono for whisper
 - `sources/captures/<SHORTCODE>/reel-audio.{txt,srt,vtt,json}` — whisper output
 - `sources/captures/<SHORTCODE>/frames/f###.png` — frames @ 0.5fps for visual scan

@@ -4,42 +4,41 @@
 // One-shot ingest of an Instagram reel into the receipts pipeline.
 //
 // Usage:
-//   node tools/ingest-reel.mjs <SHORTCODE>           # full pipeline
-//   node tools/ingest-reel.mjs <SHORTCODE> --skip-capture   # reuse existing reel.webm
+//   node tools/ingest-reel.mjs <SHORTCODE>            # full pipeline
+//   node tools/ingest-reel.mjs <URL>                  # accepts full URL too
+//   node tools/ingest-reel.mjs <SHORTCODE> --skip-capture     # reuse reel.orig.mkv
+//   node tools/ingest-reel.mjs <SHORTCODE> --force-download   # re-pull the original
 //   node tools/ingest-reel.mjs <SHORTCODE> --skip-transcribe
-//   node tools/ingest-reel.mjs <URL>                 # accepts full URL too
+//   node tools/ingest-reel.mjs <SHORTCODE> --cookies-from-browser=chromium:<profile>
 //
-// Steps performed:
-//   1. Playwright headless capture (MediaRecorder over <video>.captureStream())
-//      - bypasses IG's auth-wall poster fallback because the <video> stream is real
-//   2. og:* meta scrape — caption, handle, posted date, engagement
-//   3. ffmpeg → audio (wav, mono 16k for whisper)
-//   4. ffmpeg → frames at 0.5fps under frames/
-//   5. whisper base.en → transcript.{txt,srt,vtt,json}
-//   6. Write meta.json skeleton with everything we know so far + editorial slots to fill
-//   7. Write transcript.txt with header + body + accuracy-note section
-//   8. Add capture id to sources/captures/manifest.json
+// Steps:
+//   1. yt-dlp → pristine original media (reel.orig.mkv: best ≤720 VP9 + source AAC)
+//      and complete metadata (caption, handle, display name, date, likes, comments)
+//   2. derive delivery reel.webm from the original ONCE — VP9 copied, audio
+//      normalized to -16 LUFS / -1.5 dBTP (single opus generation off the AAC)
+//   3. ffmpeg → audio (wav, mono 16k for whisper) from the original
+//   4. ffmpeg → frames at 0.5fps under frames/ from the original
+//   5. whisper → transcript.{txt,srt,vtt,json}
+//   6. write/merge meta.json (machine fields refreshed, editorial fields preserved)
+//   7. add capture id to sources/captures/manifest.json
 //
-// What this DOES NOT do (left to editorial pass):
-//   - decompose claims and write evidence records
-//   - search for primary sources
-//   - run clip-evidence.mjs (call separately once you've added `quote` fields)
+// reel.orig.mkv is the pristine source of truth and is kept LOCAL (gitignored,
+// regenerable via yt-dlp). Delivery is always derived from it, never re-encoded
+// in place — re-running ingest cannot degrade the audio.
 //
-// Dependencies (machine-local, see sources/SCHEMA.md):
-//   - playwright (used via the dev-browser plugin's node_modules)
+// Dependencies (machine-local):
+//   - yt-dlp (CURRENT build; see tools/reel-media.mjs for the install one-liner)
 //   - ffmpeg + ffprobe in PATH
-//   - whisper installed at /tmp/whisper-venv (`python3 -m venv /tmp/whisper-venv && /tmp/whisper-venv/bin/pip install openai-whisper`)
+//   - whisper at /tmp/whisper-venv (python3 -m venv + pip install openai-whisper)
 //
-// Invoke from the dev-browser plugin dir for playwright resolution:
-//   cd /home/wabbazzar/.claude/plugins/cache/dev-browser-marketplace/dev-browser/66682fb0513a/skills/dev-browser
-//   node /home/wabbazzar/code/2pizzaclub/tools/ingest-reel.mjs <SHORTCODE>
+// No headless browser / Playwright needed anymore.
 
-import { chromium } from "playwright";
 import { spawnSync } from "node:child_process";
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { normalizeAudio } from "./normalize-audio.mjs";
+import { deriveDeliveryWebm } from "./normalize-audio.mjs";
+import { fetchMeta, downloadOriginal, ytDlpVersion } from "./reel-media.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CAPS_DIR = `${ROOT}/sources/captures`;
@@ -47,11 +46,11 @@ const WHISPER = "/tmp/whisper-venv/bin/whisper";
 
 // ---------- argument parsing ----------
 const args = process.argv.slice(2);
-const flags = new Set(args.filter((a) => a.startsWith("--")));
+const flags = new Set(args.filter((a) => a.startsWith("--") && !a.includes("=")));
 const positional = args.filter((a) => !a.startsWith("--"));
 const inputArg = positional[0];
 if (!inputArg) {
-    console.error("usage: ingest-reel.mjs <SHORTCODE|URL> [--skip-capture] [--skip-transcribe] [--model=base.en|tiny.en|small.en]");
+    console.error("usage: ingest-reel.mjs <SHORTCODE|URL> [--skip-capture] [--force-download] [--skip-transcribe] [--model=base.en] [--cookies-from-browser=SPEC]");
     process.exit(1);
 }
 let shortcode;
@@ -60,8 +59,12 @@ if (urlMatch) shortcode = urlMatch[1];
 else if (/^[A-Za-z0-9_-]+$/.test(inputArg)) shortcode = inputArg;
 else { console.error(`invalid input: ${inputArg}`); process.exit(1); }
 
-const modelArg = args.find((a) => a.startsWith("--model="));
-const WHISPER_MODEL = modelArg ? modelArg.slice("--model=".length) : "base.en";
+const valFlag = (name) => {
+    const hit = args.find((a) => a.startsWith(`--${name}=`));
+    return hit ? hit.slice(`--${name}=`.length) : null;
+};
+const WHISPER_MODEL = valFlag("model") || "base.en";
+const COOKIES = valFlag("cookies-from-browser");
 
 const REEL_URL = `https://www.instagram.com/reel/${shortcode}/`;
 const outDir = `${CAPS_DIR}/${shortcode}`;
@@ -71,119 +74,21 @@ fs.mkdirSync(`${outDir}/frames`, { recursive: true });
 console.log(`==== ingest-reel: ${shortcode} ====`);
 console.log(`     url: ${REEL_URL}`);
 console.log(`     out: ${outDir}`);
-console.log(`     model: ${WHISPER_MODEL}`);
+console.log(`     model: ${WHISPER_MODEL}   yt-dlp: ${ytDlpVersion()}`);
 
-// ---------- step 1+2: playwright capture + meta scrape ----------
-async function captureAndScrape() {
-    const browser = await chromium.launch({
-        headless: true,
-        args: ["--autoplay-policy=no-user-gesture-required"]
-    });
-    const ctx = await browser.newContext({
-        viewport: { width: 1280, height: 800 },
-        userAgent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-    });
-    const page = await ctx.newPage();
-    await page.goto(REEL_URL, { waitUntil: "domcontentloaded" });
-    await page.waitForTimeout(2500);
-
-    const meta = await page.evaluate(() => {
-        const og = (k) => document.querySelector(`meta[property="${k}"]`)?.getAttribute("content") || null;
-        return {
-            ogTitle: og("og:title"),
-            ogDescription: og("og:description"),
-            ogImage: og("og:image"),
-            ogUrl: og("og:url"),
-            title: document.title
-        };
-    });
-
-    // wait for <video>
-    let hasVideo = false;
-    for (let i = 0; i < 12; i++) {
-        await page.waitForTimeout(1000);
-        hasVideo = await page.evaluate(() => !!document.querySelector("video"));
-        if (hasVideo) break;
-    }
-    if (!hasVideo) { await browser.close(); throw new Error("no <video> element appeared on page"); }
-
-    const captureResult = await page.evaluate(async () => {
-        return new Promise(async (resolve) => {
-            const v = document.querySelector("video");
-            v.muted = false; v.volume = 1;
-
-            // Rewind to the very start and hold there. Instagram autoplays and
-            // loops, so by the time this runs the playhead may be anywhere in
-            // the reel — record from wherever it sits and the opening is lost.
-            try { v.pause(); } catch {}
-            try {
-                v.currentTime = 0;
-                if (v.currentTime > 0.05) {
-                    await new Promise((res) => {
-                        const done = () => { v.removeEventListener("seeked", done); res(); };
-                        v.addEventListener("seeked", done);
-                        setTimeout(res, 1500);
-                    });
-                }
-            } catch {}
-
-            // Arm the recorder on the held frame 0 BEFORE playback. The previous
-            // order (play, wait 600ms, then start recording) dropped the first
-            // ~0.6s+ of every reel while the stream/recorder spun up.
-            const stream = v.captureStream();
-            const mime = "video/webm;codecs=vp9,opus";
-            const rec = new MediaRecorder(stream, { mimeType: mime, videoBitsPerSecond: 1_500_000, audioBitsPerSecond: 96_000 });
-            const chunks = [];
-            rec.ondataavailable = (e) => { if (e.data.size > 0) chunks.push(e.data); };
-            rec.start(1000);
-
-            // Recorder is live on frame 0; now start playback.
-            try { await v.play(); } catch { v.muted = true; await v.play().catch(() => {}); }
-
-            const target = v.duration || 160;
-            const hardCapMs = Math.min(360_000, (target + 5) * 1000);
-            const t0 = performance.now();
-            let prev = v.currentTime;
-
-            const watcher = setInterval(() => {
-                const t = v.currentTime;
-                if (prev - t > 5) { clearInterval(watcher); rec.stop(); return; }
-                prev = t;
-                if (v.ended) { clearInterval(watcher); rec.stop(); return; }
-                if (v.duration && t >= v.duration - 0.3) { clearInterval(watcher); rec.stop(); return; }
-                if (performance.now() - t0 >= hardCapMs) { clearInterval(watcher); rec.stop(); return; }
-            }, 500);
-
-            rec.onstop = async () => {
-                const blob = new Blob(chunks, { type: mime });
-                const buf = await blob.arrayBuffer();
-                const bin = new Uint8Array(buf);
-                let s = ""; const CHUNK = 0x8000;
-                for (let i = 0; i < bin.length; i += CHUNK) s += String.fromCharCode.apply(null, bin.subarray(i, i + CHUNK));
-                resolve({ size: bin.length, duration: v.duration, base64: btoa(s) });
-            };
-        });
-    });
-
-    await page.close(); await ctx.close(); await browser.close();
-    return { meta, capture: captureResult };
+// ---------- ffmpeg helpers ----------
+function runOrThrow(cmd, a) {
+    const r = spawnSync(cmd, a, { stdio: ["ignore", "ignore", "pipe"] });
+    if (r.status !== 0) throw new Error(`${cmd} ${a.join(" ")} failed: ${r.stderr?.toString().slice(0, 500)}`);
+}
+function extractAudio(srcPath, wavPath) {
+    runOrThrow("ffmpeg", ["-y", "-hide_banner", "-loglevel", "error", "-i", srcPath, "-vn", "-ac", "1", "-ar", "16000", wavPath]);
+}
+function extractFrames(srcPath, framesDir) {
+    runOrThrow("ffmpeg", ["-y", "-hide_banner", "-loglevel", "error", "-i", srcPath, "-vf", "fps=0.5", `${framesDir}/f%03d.png`]);
 }
 
-// ---------- step 3: ffmpeg audio + frames ----------
-function runOrThrow(cmd, args) {
-    const r = spawnSync(cmd, args, { stdio: ["ignore", "ignore", "pipe"] });
-    if (r.status !== 0) throw new Error(`${cmd} ${args.join(" ")} failed: ${r.stderr?.toString().slice(0, 500)}`);
-}
-
-function extractAudio(webmPath, wavPath) {
-    runOrThrow("ffmpeg", ["-y", "-hide_banner", "-loglevel", "error", "-i", webmPath, "-vn", "-ac", "1", "-ar", "16000", wavPath]);
-}
-function extractFrames(webmPath, framesDir) {
-    runOrThrow("ffmpeg", ["-y", "-hide_banner", "-loglevel", "error", "-i", webmPath, "-vf", "fps=0.5", `${framesDir}/f%03d.png`]);
-}
-
-
-// ---------- step 5: whisper transcribe ----------
+// ---------- whisper ----------
 function transcribe(wavPath, outDir, model) {
     const r = spawnSync(WHISPER, [wavPath, "--model", model, "--output_format", "all", "--output_dir", outDir, "--language", "en", "--fp16", "False"], {
         stdio: ["ignore", "ignore", "pipe"]
@@ -191,51 +96,20 @@ function transcribe(wavPath, outDir, model) {
     if (r.status !== 0) throw new Error(`whisper failed: ${r.stderr?.toString().slice(0, 500)}`);
 }
 
-// ---------- og:title parser ----------
-function parseOg(ogTitle, ogDescription) {
-    if (!ogTitle && !ogDescription) return { handle: null, author: null, caption: null, hashtags: [], posted_at: null, engagement: null };
-    // ogTitle pattern: '<Name> on Instagram: "<caption>..."'
-    const titleM = ogTitle?.match(/^(.+?)\s+on Instagram:\s*"([\s\S]+)"$/);
-    const author = titleM ? titleM[1].trim() : null;
-    const caption = titleM ? titleM[2].trim() : (ogTitle || ogDescription || "");
-    // ogDescription pattern: '<likes>K likes, <comments> comments - <handle> on <date>: "..."'
-    const descM = ogDescription?.match(/^([\d,.]+(?:K|M)?)\s*likes?,\s*([\d,.]+)\s*comments?\s*-\s*([\w._]+)\s+on\s+([A-Z][a-z]+\s+\d{1,2},\s+\d{4})/i);
-    let handle = null, posted_at = null, engagement = null;
-    if (descM) {
-        const likesRaw = descM[1].replace(/,/g, "");
-        const likes = likesRaw.endsWith("K") ? Math.round(parseFloat(likesRaw) * 1000)
-                    : likesRaw.endsWith("M") ? Math.round(parseFloat(likesRaw) * 1_000_000)
-                    : parseInt(likesRaw, 10);
-        const comments = parseInt(descM[2].replace(/,/g, ""), 10);
-        engagement = { likes, comments };
-        handle = `@${descM[3]}`;
-        // convert "January 8, 2026" -> "2026-01-08"
-        const d = new Date(descM[4] + " UTC");
-        if (!isNaN(d)) posted_at = d.toISOString().slice(0, 10);
-    }
-    // hashtag extract
-    const hashtags = Array.from((caption || "").matchAll(/#([A-Za-z0-9_]+)/g)).map((m) => m[1]);
-    return { handle, author, caption, hashtags, posted_at, engagement };
-}
-
 // ---------- starter meta.json ----------
 //
-// Consumer-facing reminder: every field below that the gallery surfaces to readers
-// (audio_track_actual, video_overlay_text_observed, audio_content_summary, implied_frame)
-// MUST be written in third-person factual prose. No "TODO:" markers, no second-person
-// address, no references to repo paths, evidence-record IDs, or workflow steps. The
-// gallery skips empty strings, so leaving a field empty is preferable to filling it
-// with backstage prose.
-function writeStarterMeta(shortcode, parsed, captureSize, captureDuration) {
+// Consumer-facing reminder: every field the gallery surfaces to readers
+// (audio_track_actual, video_overlay_text_observed, audio_content_summary,
+// implied_frame) MUST be third-person factual prose — no "TODO:" markers, no
+// second-person address, no repo paths / record IDs / workflow steps. Empty is
+// fine; the gallery skips empty strings.
+function writeStarterMeta(shortcode, parsed, status) {
     const metaPath = `${CAPS_DIR}/${shortcode}/meta.json`;
-    // Re-running ingest on an already-edited capture must NOT clobber the
-    // hand-written editorial pass. Merge onto any existing meta: refresh the
-    // machine-derived fields, keep a fresh OG value only when we scraped one,
-    // and preserve every editorial / custom field (incl. any not in this
-    // skeleton, e.g. video_overlay_text_persistent, notes).
+    // Re-running ingest must NOT clobber the hand-written editorial pass. Merge
+    // onto any existing meta: refresh machine-derived fields, keep a fresh OG
+    // value only when we got one, preserve every editorial / custom field.
     const prev = fs.existsSync(metaPath) ? JSON.parse(fs.readFileSync(metaPath, "utf8")) : {};
-    const isEmpty = (x) => x === null || x === undefined || x === ""
-        || (Array.isArray(x) && x.length === 0);
+    const isEmpty = (x) => x === null || x === undefined || x === "" || (Array.isArray(x) && x.length === 0);
     const fresh = (next, prior) => (isEmpty(next) ? prior : next);
 
     const meta = {
@@ -254,10 +128,8 @@ function writeStarterMeta(shortcode, parsed, captureSize, captureDuration) {
         video_overlay_text_observed: prev.video_overlay_text_observed ?? "",
         audio_content_summary: prev.audio_content_summary ?? "",
         implied_frame: prev.implied_frame ?? "",
-        capture_method: "Headless browser recording of the in-page <video> element via MediaRecorder over captureStream(), viewport 1280x800.",
-        video_download_status: captureDuration > 0
-            ? `Captured: ~${Math.round(captureSize / 1_000_000)} MB, vp9 720x1280, ${Math.round(captureDuration)}s.`
-            : (prev.video_download_status ?? `Captured: ~${Math.round(captureSize / 1_000_000)} MB, vp9 720x1280.`),
+        capture_method: "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+        video_download_status: status || (prev.video_download_status ?? ""),
         audio_transcription_status: "Transcribed with openai-whisper.",
         evidence_records: prev.evidence_records ?? [],
         supporting_research_links: prev.supporting_research_links ?? []
@@ -267,11 +139,11 @@ function writeStarterMeta(shortcode, parsed, captureSize, captureDuration) {
 
 function writeTranscriptWrapper(shortcode, model) {
     const raw = fs.readFileSync(`${CAPS_DIR}/${shortcode}/reel-audio.txt`, "utf8");
-    // Consumer-facing: this file is loaded into the gallery's transcript drawer.
-    // Editorial review (proper-noun fixes, miss-hears) belongs in the "Transcription notes"
-    // section below, populated during the editorial pass — not as a TODO marker.
-    const wrapped = `Source: reel.webm
-Audio: opus 48kHz stereo extracted to 16kHz mono WAV
+    // Consumer-facing: loaded into the gallery's transcript drawer. Editorial
+    // review (proper-noun fixes, miss-hears) belongs in a "Transcription notes"
+    // section added during the editorial pass — not as a TODO marker.
+    const wrapped = `Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
 Transcribed: ${new Date().toISOString().slice(0, 10)}, openai-whisper ${model}
 
 — FULL TEXT —
@@ -283,7 +155,7 @@ ${raw.trim()}
     fs.writeFileSync(`${CAPS_DIR}/${shortcode}/transcript.txt`, wrapped);
 }
 
-// ---------- manifest update ----------
+// ---------- manifest ----------
 function addToCapturesManifest(shortcode) {
     const p = `${CAPS_DIR}/manifest.json`;
     const m = JSON.parse(fs.readFileSync(p, "utf8"));
@@ -296,62 +168,58 @@ function addToCapturesManifest(shortcode) {
     }
 }
 
+const MB = (bytes) => (bytes / 1_000_000).toFixed(1);
+
 // ---------- main ----------
 async function main() {
+    const origPath = `${outDir}/reel.orig.mkv`;
     const webmPath = `${outDir}/reel.webm`;
     const wavPath = `${outDir}/reel-audio.wav`;
 
-    let captureMeta = { size: 0, duration: 0 };
-    let parsedOg = { handle: null, author: null, caption: null, hashtags: [], posted_at: null, engagement: null };
+    let parsed = { handle: null, author: null, caption: null, hashtags: [], posted_at: null, engagement: null, duration: null };
 
     if (!flags.has("--skip-capture")) {
-        console.log("[1/6] capture + scrape meta…");
-        const { meta, capture } = await captureAndScrape();
-        fs.writeFileSync(webmPath, Buffer.from(capture.base64, "base64"));
-        fs.writeFileSync(`${outDir}/_meta_raw.json`, JSON.stringify(meta, null, 2));
-        captureMeta = { size: capture.size, duration: capture.duration };
-        parsedOg = parseOg(meta.ogTitle, meta.ogDescription);
-        console.log(`     webm: ${Math.round(capture.size / 1_000_000)} MB, ${Math.round(capture.duration)}s`);
-        console.log(`     handle: ${parsedOg.handle}   posted: ${parsedOg.posted_at}`);
+        console.log("[1/6] fetch original + metadata (yt-dlp)…");
+        parsed = fetchMeta(REEL_URL, { cookiesFromBrowser: COOKIES });
+        const dl = downloadOriginal(REEL_URL, outDir, { maxShort: 720, force: flags.has("--force-download"), cookiesFromBrowser: COOKIES });
+        console.log(`     ${dl.skipped ? "reusing" : "downloaded"} reel.orig.mkv (${MB(fs.statSync(origPath).size)} MB)`);
+        console.log(`     handle: ${parsed.handle}   posted: ${parsed.posted_at}   likes: ${parsed.engagement?.likes ?? "?"}`);
     } else {
-        if (!fs.existsSync(webmPath)) { throw new Error(`--skip-capture but no ${webmPath}`); }
-        const raw = fs.existsSync(`${outDir}/_meta_raw.json`) ? JSON.parse(fs.readFileSync(`${outDir}/_meta_raw.json`, "utf8")) : {};
-        parsedOg = parseOg(raw.ogTitle, raw.ogDescription);
-        captureMeta = { size: fs.statSync(webmPath).size, duration: 0 };
-        console.log("[1/6] capture skipped (using existing reel.webm)");
+        if (!fs.existsSync(origPath)) throw new Error(`--skip-capture but no ${origPath} (run without --skip-capture to download it)`);
+        console.log("[1/6] capture skipped (using existing reel.orig.mkv)");
+        try { parsed = fetchMeta(REEL_URL, { cookiesFromBrowser: COOKIES }); }
+        catch (e) { console.warn(`     (metadata refresh skipped: ${e.message.slice(0, 120)})`); }
     }
 
-    console.log("[2a/6] normalize audio (ffmpeg loudnorm 2-pass)…");
-    const norm = normalizeAudio(webmPath);
-    console.log(`     in: I=${norm.input.I} LUFS, TP=${norm.input.TP} dBTP`);
-    console.log(`     out: I=${norm.output.I} LUFS, TP=${norm.output.TP} dBTP`);
+    console.log("[2/6] derive delivery webm (video copy + single-pass loudness)…");
+    const d = deriveDeliveryWebm(origPath, webmPath);
+    console.log(`     video: ${d.videoMode}   audio: I ${d.input.I}→${d.output.I} LUFS, TP ${d.input.TP}→${d.output.TP} dBTP`);
+    const status = `Original pulled via yt-dlp (~${MB(fs.statSync(origPath).size)} MB); delivery ~${MB(fs.statSync(webmPath).size)} MB webm`
+        + (parsed.duration ? `, ${Math.round(parsed.duration)}s.` : ".");
 
-    console.log("[2b/6] extract audio (ffmpeg)…");
-    extractAudio(webmPath, wavPath);
+    console.log("[3/6] extract audio for whisper (ffmpeg)…");
+    extractAudio(origPath, wavPath);
 
-    console.log("[3/6] extract frames (ffmpeg @ 0.5fps)…");
-    extractFrames(webmPath, `${outDir}/frames`);
-    const frameCount = fs.readdirSync(`${outDir}/frames`).length;
-    console.log(`     ${frameCount} frames`);
+    console.log("[4/6] extract frames (ffmpeg @ 0.5fps)…");
+    extractFrames(origPath, `${outDir}/frames`);
+    console.log(`     ${fs.readdirSync(`${outDir}/frames`).length} frames`);
 
     if (!flags.has("--skip-transcribe")) {
-        console.log(`[4/6] transcribe (whisper ${WHISPER_MODEL}, may take 1–3 min)…`);
+        console.log(`[5/6] transcribe (whisper ${WHISPER_MODEL}, may take 1–3 min)…`);
         transcribe(wavPath, outDir, WHISPER_MODEL);
-        console.log("     transcript.txt + .srt + .vtt + .json written");
+        console.log("     transcript written");
     } else {
-        console.log("[4/6] transcribe skipped");
+        console.log("[5/6] transcribe skipped");
     }
 
-    console.log("[5/6] write meta.json + transcript wrapper…");
-    writeStarterMeta(shortcode, parsedOg, captureMeta.size, captureMeta.duration);
+    console.log("[6/6] write meta.json + transcript wrapper + manifest…");
+    writeStarterMeta(shortcode, parsed, status);
     if (fs.existsSync(`${outDir}/reel-audio.txt`)) writeTranscriptWrapper(shortcode, WHISPER_MODEL);
-
-    console.log("[6/6] update captures manifest…");
     addToCapturesManifest(shortcode);
 
     console.log("\n==== DONE ====");
     console.log(`  open: ${outDir}/transcript.txt`);
-    console.log(`  edit: ${outDir}/meta.json   (TODO fields are explicit)`);
+    console.log(`  edit: ${outDir}/meta.json`);
     console.log(`\nNext steps (editorial pass):`);
     console.log("  1. Read transcript.txt; sketch claims into Group A/B/C (verifiable / disputed / invented).");
     console.log("  2. For each Group A claim, write sources/evidence/<id>.json with sourced URLs.");

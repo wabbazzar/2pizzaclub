@@ -35,13 +35,15 @@ A sourced editorial timeline. Static site: plain HTML + CSS + ES modules. No bui
 │   │   └── <shortcode>/
 │   │       ├── meta.json         # capture metadata (renders in gallery)
 │   │       ├── transcript.txt    # whisper transcript
-│   │       ├── reel.webm
+│   │       ├── reel.orig.mkv     # pristine yt-dlp original (gitignored, local-only source of truth)
+│   │       ├── reel.webm         # delivery file, derived once from reel.orig.mkv
 │   │       └── frames/f001.png   # poster frame (the rest are gitignored)
 │   └── clips/<id>-NN.png         # inline-evidence highlight clips for source quotes
 └── tools/
-    ├── ingest-reel.mjs           # full reel-to-disk ingest pipeline
-    ├── normalize-audio.mjs       # ffmpeg loudnorm helper (one webm in place)
-    ├── normalize-captures.mjs    # batch-normalize every capture; --dry-run for measurement only
+    ├── ingest-reel.mjs           # full reel-to-disk ingest pipeline (yt-dlp capture)
+    ├── reel-media.mjs            # yt-dlp helpers: original download + metadata
+    ├── normalize-audio.mjs       # deriveDeliveryWebm: pristine original → reel.webm (non-destructive)
+    ├── normalize-captures.mjs    # rebuild every capture's delivery from its original (idempotent)
     ├── clip-evidence.mjs         # renders highlighted-quote screenshots for sources[].quote
     ├── INGEST-SOP.md             # operational doc — read before running ingest
     └── CAPTURE-PROCEDURE.md
@@ -86,30 +88,30 @@ The user drops Instagram reel URLs. The pipeline produces a capture + transcript
 ### 1. Capture + transcribe
 
 ```bash
-cd /home/wabbazzar/.claude/plugins/cache/dev-browser-marketplace/dev-browser/66682fb0513a/skills/dev-browser
-node /home/wabbazzar/code/2pizzaclub/tools/ingest-reel.mjs "<URL or SHORTCODE>"
+cd /home/wabbazzar/code/2pizzaclub
+node tools/ingest-reel.mjs "<URL or SHORTCODE>"
 ```
 
-This runs ~1–4 minutes per reel:
-1. Headless Chromium captures the in-page `<video>` element via `MediaRecorder` over `captureStream()` (bypasses IG's auth wall, which only blocks the poster image)
-2. Scrapes `og:*` metadata (caption, handle, posted date, engagement)
-3a. `ffmpeg loudnorm` (two-pass, target −16 LUFS, soft TP −3 dBTP, LRA 11) chained with `alimiter=limit=-1.5dB` rewrites `reel.webm` in place — Instagram audio often arrives over digital max and would clip on playback. The alimiter is the belt-and-suspenders that guarantees TP ≤ −1.5 dBTP post-opus-encoding; loudnorm-alone silently falls back to dynamic mode and overshoots by 1–2 dB on hot sources (measured: 13 of 41 catalog files were above −1.5 dBTP under the loudnorm-only pipeline before the alimiter was added). Video stream is copied; only audio is re-encoded (libopus 96k). No Web Audio compressor on either player — the ingest chain is what keeps playback clean.
-3b. `ffmpeg` → WAV (16 kHz mono) for whisper
+No headless browser anymore — capture is `yt-dlp` straight from Instagram's CDN. This runs ~1–2 minutes per reel:
+1. `yt-dlp` downloads the **pristine original** (`reel.orig.mkv`: best ≤720-wide VP9 video + the source AAC audio) and pulls complete metadata — caption, handle, display name, post date, likes, comments, duration. (Replaces the old Playwright `og:*` scrape; the numbers are more accurate.)
+2. Derives the delivery `reel.webm` from the original **once**: VP9 video is **copied** (zero video re-encode), audio is loudness-normalized (loudnorm `I=-16`, soft `TP=-3`, `linear=true`, + `alimiter` at a −1.5 dBTP hard ceiling) and encoded to libopus 96k — a **single** opus generation off the source AAC.
+3. `ffmpeg` → WAV (16 kHz mono) for whisper, from the original
 4. `ffmpeg` → frames at 0.5 fps under `frames/` (only `f001.png` survives; the rest are `.gitignore`d)
 5. `whisper base.en` → `transcript.{txt,srt,vtt,json}`
-6. Writes `meta.json` skeleton with editorial fields empty (`audio_track_actual`, `video_overlay_text_observed`, `audio_content_summary`, `implied_frame`, `evidence_records`, `supporting_research_links`)
+6. Writes/merges `meta.json` (machine fields refreshed; hand-written editorial fields preserved)
 7. Adds the capture id to `sources/captures/manifest.json`
 
-**Multiple reels: ingest sequentially.** Parallel ingest crashed silently in earlier sessions.
+**Audio quality — the rule that matters.** Never re-encode `reel.webm` in place. `reel.orig.mkv` is the immutable source of truth (gitignored, local-only, re-downloadable); `reel.webm` is always *derived* from it. The earlier pipeline rewrote `reel.webm` in place with loudnorm on every ingest / batch run / "reprocess catalog", stacking 3–4 lossy opus generations on top of the MediaRecorder capture — peaks stayed capped (clipping metrics looked clean) while the audio audibly degraded. `tools/normalize-audio.mjs` (`deriveDeliveryWebm`) and `tools/normalize-captures.mjs` are now non-destructive and idempotent: re-running them reads the pristine original and cannot degrade anything. No Web Audio processing on either player — single-generation normalized audio is what keeps playback clean.
 
-If the dev-browser server isn't running:
+**`yt-dlp` must be current.** Instagram's extractor breaks often; a stale build (e.g. the 2024.x system package) fails with "unable to extract shared data." Install the latest standalone binary to `~/.local/bin` (shadows the system one):
 ```bash
-cd /home/wabbazzar/.claude/plugins/cache/dev-browser-marketplace/dev-browser/66682fb0513a/skills/dev-browser
-./server.sh --headless &
-# wait ~6 seconds for "Ready"
+curl -fsSL https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o ~/.local/bin/yt-dlp && chmod +x ~/.local/bin/yt-dlp
 ```
+Public reels resolve without auth. For a login-gated reel, pass `--cookies-from-browser=chromium:<profile>` to the ingest (or `--redownload`/`--cookies-from-browser=` to `normalize-captures.mjs`).
 
-If the ingest crashes mid-run, the `sources/captures/<id>/` dir may be partial. Re-run with `--skip-capture` to reuse the existing `reel.webm`.
+**Multiple reels: ingest sequentially** to stay polite to IG's rate limits (no more silent crashes — that was the old Playwright path).
+
+Re-run with `--skip-capture` to reuse an existing `reel.orig.mkv`, or `--force-download` to re-pull it. To rebuild the whole catalog's delivery files from originals: `node tools/normalize-captures.mjs` (add `--redownload` to re-pull originals first).
 
 ### 2. Editorial pass — Group A / B / C
 
@@ -205,7 +207,8 @@ gh api -X PUT repos/wabbazzar/2pizzaclub/pages -F 'https_enforced=true'
 
 ## Tools sitting outside this repo
 
-- **dev-browser plugin** at `/home/wabbazzar/.claude/plugins/cache/dev-browser-marketplace/dev-browser/66682fb0513a/skills/dev-browser/` — the headless Chromium that runs reel capture and OG-image rendering
+- **yt-dlp** at `~/.local/bin/yt-dlp` — reel capture (original media + metadata). Keep current; the system `/usr/bin/yt-dlp` is stale and its IG extractor is broken. Re-install one-liner is in the ingest section above.
+- **dev-browser plugin** at `/home/wabbazzar/.claude/plugins/cache/dev-browser-marketplace/dev-browser/66682fb0513a/skills/dev-browser/` — headless Chromium, now used only for OG-image rendering and `clip-evidence.mjs` screenshots (no longer for reel capture)
 - **whisper venv** at `/tmp/whisper-venv/bin/whisper` — transcription
 - **ffmpeg** — in `$PATH` (system install)
 - **Porkbun API keys** in `~/.env` (`pork-key`, `pork-secret-key`) for DNS — only needed if reconfiguring DNS; never `cat ~/.env`, extract specific keys via `grep '^pork-key:' ~/.env | cut -d':' -f2- | sed 's/^[[:space:]]*//;s/"//g'`
@@ -215,5 +218,6 @@ gh api -X PUT repos/wabbazzar/2pizzaclub/pages -F 'https_enforced=true'
 - **The `Co-Authored-By: Claude` footer in commits** — explicitly forbidden by project policy. The user will be annoyed if it shows up.
 - **Internal record-id link labels** — see-also and gallery-evidence link surfaces should use claim text, not record ids. Fixed in commit `c513346` (themes.js + gallery.js). If you regress this, links read as database fields instead of citations.
 - **`reel-audio.txt` polluting commits** — gitignored; if it sneaks in, add to `.gitignore` and remove. The whisper transcript that matters is `transcript.txt`.
+- **Re-encoding `reel.webm` in place** — never do this. Each pass adds a lossy opus generation; doing it on every ingest/batch run silently rotted the whole catalog's audio (clean by peak metrics, audibly degraded). Always derive `reel.webm` from the pristine `reel.orig.mkv`; if the original is gone, re-pull it with `yt-dlp` first. `deriveDeliveryWebm` refuses to run when src == out.
 - **Cache during local browser testing** — the dev-browser Chromium caches CSS/JS aggressively. To force-reload after edits, restart the python http.server on a new port AND create a new dev-browser page (the cache is per-context).
 - **Smooth scroll on filter** — overshoots. Use instant + RAF pattern.

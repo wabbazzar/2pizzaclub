@@ -53,6 +53,13 @@ tmp/
 # ---------- ingest intermediates (regenerable from reel.webm) ----------
 # Whisper extracts and large frame stacks are produced fresh by the ingest
 # pipeline. Keeping them out of the repo holds the public site lean.
+#
+# reel.orig.* is the PRISTINE downloaded original (yt-dlp, ~720p VP9 + source AAC)
+# and the source of truth that reel.webm is derived from. Kept LOCAL ONLY: it is
+# large and re-downloadable from the reel URL, and committing it would bloat the
+# public repo. The derived reel.webm is what ships.
+sources/captures/*/reel.orig.*
+sources/captures/*/reel.*.tmp.webm
 sources/captures/*/reel-audio.txt
 sources/captures/*/reel-audio.wav
 sources/captures/*/reel-audio.mp3
