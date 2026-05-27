@@ -26,6 +26,15 @@ function matchesQuery(haystack, q) {
     return haystack.toLowerCase().includes(q);
 }
 
+// Escape HTML, then wrap case-insensitive matches of the query in <mark> so the
+// exact (substring) hit is visible — search is a within-word substring match.
+function highlight(text, q) {
+    const safe = escapeHTML(text == null ? '' : String(text));
+    if (!q) return safe;
+    const esc = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return safe.replace(new RegExp(`(${esc})`, 'gi'), '<mark>$1</mark>');
+}
+
 // --- iMessages -----------------------------------------------------------
 function filteredIMessages() {
     const q = state.query;
@@ -51,9 +60,9 @@ function renderIMessages() {
         }
         const cls = r.sender === 'epstein' ? 'imsg-jee' : 'imsg-other';
         html += `<div class="imsg ${cls}">`
-              + `<span class="imsg-ts">${escapeHTML(r.note || '?')}</span>`
+              + `<span class="imsg-ts">${highlight(r.note || '?', state.query)}</span>`
               + `<span class="imsg-sender">${escapeHTML(r.sender === 'epstein' ? 'JE' : '◼')}</span>`
-              + `<span class="imsg-body">${escapeHTML(r.text)}</span>`
+              + `<span class="imsg-body">${highlight(r.text, state.query)}</span>`
               + `</div>`;
     }
     html += '</div>';
@@ -83,7 +92,7 @@ function renderThreads() {
         html += `<details class="thread-card"${q ? ' open' : ''}>`;
         html += `<summary>`
               + `<span class="thread-rank">${r.rank}</span>`
-              + `<span class="thread-subject">${escapeHTML(r.subject)}</span>`
+              + `<span class="thread-subject">${highlight(r.subject, state.query)}</span>`
               + `<span class="thread-count">${r.n_messages} msgs</span>`
               + `<span class="thread-dates">${fs} → ${ls}</span>`
               + `</summary>`;
@@ -98,9 +107,9 @@ function renderThreads() {
                       + `<td class="rank-cell">${i + 1}</td>`
                       + `<td class="docs-cell">${escapeHTML(s)}</td>`
                       + `<td class="text-cell">${docLink(m.id)}</td>`
-                      + `<td class="datasets-cell">${escapeHTML(m.from || '')}</td>`
-                      + `<td class="datasets-cell">${escapeHTML(m.to || '')}</td>`
-                      + `<td class="datasets-cell">${escapeHTML(m.subject || '')}</td>`
+                      + `<td class="datasets-cell">${highlight(m.from || '', state.query)}</td>`
+                      + `<td class="datasets-cell">${highlight(m.to || '', state.query)}</td>`
+                      + `<td class="datasets-cell">${highlight(m.subject || '', state.query)}</td>`
                       + `</tr>`;
             });
             html += `</tbody></table>`;

@@ -1328,3 +1328,11 @@ html.body-locked, html.body-locked body {
     min-height: 14rem;
 }
 .msg-results .placeholder { color: var(--ink-soft); }
+
+/* Search-hit highlight on the messages page (substring match made visible) */
+.msg-results mark {
+    background: var(--bus-yellow);
+    color: var(--ink);
+    padding: 0 1px;
+    border-radius: 2px;
+}
