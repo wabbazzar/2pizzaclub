@@ -56,7 +56,7 @@
     function renderMediaCell(meta) {
         const captureDir = `../sources/captures/${meta.id}`;
         const webm = `${captureDir}/reel.webm`;
-        const poster = `${captureDir}/frames/f001.png`;
+        const poster = `${captureDir}/frames/f001.webp`;
         return `<div class="gallery-item-media">
             <video controls preload="none" poster="${esc(poster)}" playsinline>
                 <source src="${esc(webm)}" type="video/webm">

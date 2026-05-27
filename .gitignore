@@ -68,10 +68,9 @@ sources/captures/*/reel-audio.vtt
 sources/captures/*/reel-audio.tsv
 sources/captures/*/reel-audio.json
 sources/captures/*/_meta_raw.json
-sources/captures/*/frames/f0[0-9][2-9].png
-sources/captures/*/frames/f01[0-9].png
-sources/captures/*/frames/f0[2-9][0-9].png
-sources/captures/*/frames/f[1-9][0-9][0-9].png
+# Frame PNGs are local-only and re-derivable from reel.orig.mkv. The committed
+# gallery poster is the much smaller f001.webp (derived from f001.png at ingest).
+sources/captures/*/frames/*.png
 
 # ---------- efta curation ----------
 # Full pre-curation pipeline output (156 pages). Kept LOCAL ONLY: the repo is

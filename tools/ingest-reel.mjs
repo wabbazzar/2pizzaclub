@@ -87,6 +87,15 @@ function extractAudio(srcPath, wavPath) {
 function extractFrames(srcPath, framesDir) {
     runOrThrow("ffmpeg", ["-y", "-hide_banner", "-loglevel", "error", "-i", srcPath, "-vf", "fps=0.5", `${framesDir}/f%03d.png`]);
 }
+// Derive the gallery poster: f001.png (full-res, local-only) -> f001.webp.
+// The webp is the committed delivery poster; the gallery <video poster> points
+// at it. q72 keeps a 720-wide frame sharp at the gallery's ~360px column while
+// cutting ~0.5–1.7MB PNGs to ~30–80KB. PNGs stay gitignored (re-derivable).
+function derivePosterWebp(framesDir) {
+    const png = `${framesDir}/f001.png`;
+    if (!fs.existsSync(png)) return;
+    runOrThrow("ffmpeg", ["-y", "-hide_banner", "-loglevel", "error", "-i", png, "-c:v", "libwebp", "-quality", "72", "-compression_level", "6", `${framesDir}/f001.webp`]);
+}
 
 // ---------- whisper ----------
 function transcribe(wavPath, outDir, model) {
@@ -203,6 +212,7 @@ async function main() {
     console.log("[4/6] extract frames (ffmpeg @ 0.5fps)…");
     extractFrames(origPath, `${outDir}/frames`);
     console.log(`     ${fs.readdirSync(`${outDir}/frames`).length} frames`);
+    derivePosterWebp(`${outDir}/frames`);
 
     if (!flags.has("--skip-transcribe")) {
         console.log(`[5/6] transcribe (whisper ${WHISPER_MODEL}, may take 1–3 min)…`);

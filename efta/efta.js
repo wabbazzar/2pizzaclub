@@ -198,12 +198,27 @@ function renderPage() {
             clone.removeAttribute('hidden');
             root.appendChild(clone);
         }
+        // In-slide prev/next — the only way to page in fullscreen, where the
+        // pager (#efta-pager-*) is off-screen and iOS Safari has no keyboard for
+        // the arrow-key handler. Shown only in fullscreen via CSS.
+        const total = (state.data.pages || []).length;
+        const nav = document.createElement('div');
+        nav.className = 'deck-nav';
+        nav.innerHTML =
+            `<button type="button" class="deck-nav-btn" data-deck-nav="prev" aria-label="previous page"${state.pageIdx === 0 ? ' disabled' : ''}>←</button>`
+          + `<span class="deck-nav-label">${state.pageIdx + 1} / ${total}</span>`
+          + `<button type="button" class="deck-nav-btn" data-deck-nav="next" aria-label="next page"${state.pageIdx >= total - 1 ? ' disabled' : ''}>→</button>`;
+        root.appendChild(nav);
         renderTOC();
         renderPagerLabels();
         history.replaceState(null, '', `#p=${state.pageIdx + 1}`);
         return;
     }
     root.classList.remove('findings-as-slide');
+    // Paging out of a slide into a data page: drop any fullscreen still pinned to
+    // #findings (native or the iOS pseudo-fullscreen class) so the reader lands
+    // back on the normal scrollable page with the real pager, not stuck fullscreen.
+    exitFindingsFullscreen();
     // Apply current filter — wrap the original page with filtered rows so the
     // subsequent renderers don't need to know about filtering.
     const enabledBuckets = getEnabledBuckets();
@@ -321,7 +336,7 @@ function renderPage() {
             const wikiSlug = p.wiki ? p.wiki.slug : '';
             html += `<article class="person-card">`;
             html += `<header class="person-head">`;
-            html += `<img class="person-thumb" data-wiki-slug="${escapeHTML(wikiSlug)}" alt="" loading="lazy">`;
+            html += `<img class="person-thumb" data-wiki-slug="${escapeHTML(wikiSlug)}" data-name="${escapeHTML(p.name)}" alt="" loading="lazy">`;
             html += `<div class="person-info">`;
             html += `<h3 class="person-name">${escapeHTML(p.name)}</h3>`;
             if (p.relation) {
@@ -569,6 +584,20 @@ function bindInfoBtn() {
     });
 }
 
+// Drop any fullscreen pinned to #findings — both the native Fullscreen API and
+// the iOS pseudo-fullscreen fallback (mirrors intro-deck.js's exit paths).
+function exitFindingsFullscreen() {
+    const root = $('findings');
+    if (root.classList.contains('is-pseudo-fullscreen')) {
+        root.classList.remove('is-pseudo-fullscreen');
+        document.documentElement.classList.remove('body-locked');
+    }
+    const fsEl = document.fullscreenElement || document.webkitFullscreenElement;
+    if (fsEl === root) {
+        (document.exitFullscreen || document.webkitExitFullscreen).call(document);
+    }
+}
+
 function goto(i) {
     const total = (state.data.pages || []).length;
     state.pageIdx = Math.max(0, Math.min(total - 1, i));
@@ -585,6 +614,13 @@ function bindNav() {
     $('prev-bottom').addEventListener('click', () => goto(state.pageIdx - 1));
     $('next-top').addEventListener('click', () => goto(state.pageIdx + 1));
     $('next-bottom').addEventListener('click', () => goto(state.pageIdx + 1));
+    // In-slide fullscreen nav (delegated — buttons are re-created on each render)
+    document.body.addEventListener('click', (e) => {
+        const nb = e.target.closest('[data-deck-nav]');
+        if (!nb || nb.disabled) return;
+        e.preventDefault();
+        goto(state.pageIdx + (nb.dataset.deckNav === 'next' ? 1 : -1));
+    });
     $('toc-collapse-all').addEventListener('click', (e) => { e.preventDefault(); setAllGroups(false); });
     $('toc-expand-all').addEventListener('click', (e) => { e.preventDefault(); setAllGroups(true); });
     // Datasource filter — re-render current page whenever a checkbox flips
@@ -642,6 +678,21 @@ function pageMatchesSlug(returnedTitle, queriedSlug) {
     return t === q || t.startsWith(q + ' ') || t.startsWith(q + '(');
 }
 
+// Fallback avatar — initials on a deterministic color — so no dossier card is
+// ever blank when a photo can't be resolved (or is withheld for privacy).
+function setMonogram(img) {
+    const name = img.dataset.name || (img.dataset.wikiSlug || '?').replace(/_/g, ' ');
+    const parts = name.trim().split(/\s+/);
+    const initials = ((parts[0] || '?')[0] + (parts.length > 1 ? parts[parts.length - 1][0] : '')).toUpperCase();
+    let h = 0; for (const c of name) h = (h * 31 + c.charCodeAt(0)) % 360;
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120">`
+        + `<rect width="120" height="120" fill="hsl(${h},42%,40%)"/>`
+        + `<text x="60" y="60" font-family="Quicksand,sans-serif" font-size="46" font-weight="600" `
+        + `fill="#FFF8E7" text-anchor="middle" dominant-baseline="central">${initials}</text></svg>`;
+    img.src = 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+    img.classList.add('person-thumb-monogram');
+}
+
 async function loadWikiThumbs() {
     const curated = await getCuratedPortraits();
     const imgs = Array.from(document.querySelectorAll('img.person-thumb[data-wiki-slug]'));
@@ -649,14 +700,14 @@ async function loadWikiThumbs() {
         const slug = img.dataset.wikiSlug;
         if (!slug) continue;
         // 1. Curated overrides win first (handles the Wikipedia-redirect cases)
-        const personName = slug.replace(/_/g, ' ');
+        const personName = img.dataset.name || slug.replace(/_/g, ' ');
         if (curated[personName]) {
             img.src = curated[personName];
             continue;
         }
         if (wikiThumbCache.has(slug)) {
             const url = wikiThumbCache.get(slug);
-            if (url) img.src = url; else img.style.display = 'none';
+            if (url) img.src = url; else setMonogram(img);
             continue;
         }
         try {
@@ -671,15 +722,15 @@ async function loadWikiThumbs() {
             // If Wikipedia returned a different person's page, treat as no image.
             if (!pageMatchesSlug(data.title || '', slug)) {
                 wikiThumbCache.set(slug, null);
-                img.style.display = 'none';
+                setMonogram(img);
                 continue;
             }
             const url = data.thumbnail ? data.thumbnail.source : null;
             wikiThumbCache.set(slug, url);
-            if (url) img.src = url; else img.style.display = 'none';
+            if (url) img.src = url; else setMonogram(img);
         } catch (e) {
             wikiThumbCache.set(slug, null);
-            img.style.display = 'none';
+            setMonogram(img);
         }
     }
 }
