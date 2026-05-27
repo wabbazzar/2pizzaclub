@@ -1628,10 +1628,13 @@ window.SmokeFX = { splat: splat, update: update, initFramebuffers: initFramebuff
         'void main(){ vec3 c = texture2D(uDye, vUv).rgb; float a = clamp(max(c.r, max(c.g, c.b)) * 2.5, 0.0, 1.0);' +
         ' float p = texture2D(uPrev, vUv).r; gl_FragColor = vec4(max(p, a), 0.0, 0.0, 1.0); }');
     var compFrag = compileShader(gl.FRAGMENT_SHADER,
-        'precision highp float; varying vec2 vUv; uniform sampler2D uOld; uniform sampler2D uNew; uniform sampler2D uReveal; uniform sampler2D uDye; uniform float uGlobal;' +
+        'precision highp float; varying vec2 vUv; uniform sampler2D uOld; uniform sampler2D uNew; uniform sampler2D uReveal; uniform sampler2D uDye;' +
+        ' uniform float uGlobal; uniform float uCanvasAspect; uniform float uOldAspect; uniform float uNewAspect;' +
+        // center-crop ("cover") so a cover image fills the canvas without distortion on any aspect (e.g. a tall phone)
+        ' vec2 cover(vec2 uv, float ca, float ia){ if (ca > ia) uv.y = 0.5 + (uv.y - 0.5) * (ia / ca); else uv.x = 0.5 + (uv.x - 0.5) * (ca / ia); return uv; }' +
         'void main(){ vec2 iuv = vec2(vUv.x, 1.0 - vUv.y);' +
         ' float r = max(uGlobal, smoothstep(0.04, 0.5, texture2D(uReveal, vUv).r));' +
-        ' vec3 oldC = texture2D(uOld, iuv).rgb; vec3 newC = texture2D(uNew, iuv).rgb;' +
+        ' vec3 oldC = texture2D(uOld, cover(iuv, uCanvasAspect, uOldAspect)).rgb; vec3 newC = texture2D(uNew, cover(iuv, uCanvasAspect, uNewAspect)).rgb;' +
         ' vec3 base = mix(oldC, newC, r); vec3 smoke = texture2D(uDye, vUv).rgb;' +
         ' float a = clamp(max(smoke.r, max(smoke.g, smoke.b)) * 5.0, 0.0, 1.0);' +
         ' gl_FragColor = vec4(base * (1.0 - a) + smoke, 1.0); }');  // over-blend (muted veil), not additive white
@@ -1671,6 +1674,9 @@ window.SmokeFX = { splat: splat, update: update, initFramebuffers: initFramebuff
         gl.uniform1i(compProgram.uniforms.uReveal, revealFBO.read.attach(2));
         gl.uniform1i(compProgram.uniforms.uDye, dye.read.attach(3));
         gl.uniform1f(compProgram.uniforms.uGlobal, globalReveal);
+        gl.uniform1f(compProgram.uniforms.uCanvasAspect, canvas.width / canvas.height);
+        gl.uniform1f(compProgram.uniforms.uOldAspect, texOld.width / texOld.height);
+        gl.uniform1f(compProgram.uniforms.uNewAspect, texNew.width / texNew.height);
         blit(null);
     };
 

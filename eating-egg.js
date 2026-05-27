@@ -10,7 +10,7 @@
     "use strict";
 
     const REVEAL_URL = "/eating/?smoke=1";   // ?smoke=1 → the book holds its verse hidden until the egg signals the smoke has cleared
-    const FLUID_SRC = "/fluid.js?v=6";
+    const FLUID_SRC = "/fluid.js?v=7";
     // The egg dissolves between two pre-rendered covers (timeline + book opening).
     // html2canvas can't render the book's scene i (position:fixed + clip-path) and
     // is too slow snapshotting the whole timeline to start the dissolve promptly,
