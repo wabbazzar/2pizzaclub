@@ -135,6 +135,63 @@
             .interlude { font-size: 1.05rem; }
             .nav a { font-size: 1.4rem; }
         }
+
+        /* ---- scene i: full-bleed two-up illustration ---- */
+        #i .spread { position: fixed; inset: 0; z-index: 6; overflow: hidden; background: #15100c; }
+        #i .panel { position: absolute; top: 0; height: 100vh; width: 52vw; }
+        #i .panel.left  { left: 0; }
+        #i .panel.right { right: 0; }
+        /* the diagonal clip is on the .art (background only), so verse text on the
+           panel is never chopped by the seam */
+        #i .art { position: absolute; inset: 0; background-size: cover; background-repeat: no-repeat; }
+        #i .panel.left .art  { background-image: url('art/scene1a.png'); background-position: center 42%;
+                               clip-path: polygon(0 0, 100% 0, 92.3% 100%, 0 100%); }
+        #i .panel.right .art { background-image: url('art/scene1b.png?v=2'); background-position: center top;
+                               clip-path: polygon(7.7% 0, 100% 0, 100% 100%, 0 100%); }
+        #i .cap { position: absolute; color: #f4e7c9; font-family: 'Schoolbell', cursive; text-align: center;
+                  line-height: 1.52; font-size: clamp(.84rem, 1.16vw, 1.06rem); margin: 0;
+                  text-shadow: 0 1px 3px #000, 0 0 10px rgba(0,0,0,.92), 0 0 24px rgba(0,0,0,.7);
+                  width: 68%; transform: translate(-50%, -50%); }
+        #i .cap p { margin: 0 0 .6em; }
+        #i .cap p:last-child { margin-bottom: 0; }
+        #i .cap.left    { left: 35%; top: 80%; width: 50%; }
+        #i .cap.r-left  { left: 20%; top: 53%; width: 35%; font-size: clamp(.72rem, .98vw, .9rem); }
+        #i .cap.r-right { left: 80%; top: 66%; width: 35%; font-size: clamp(.72rem, .98vw, .9rem); }
+        #i .refrain { font-family: 'Caveat Brush', cursive; color: #e8b14e; margin-top: .3em !important;
+                      font-size: clamp(1rem, 1.55vw, 1.3rem); }
+        #i .seam { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none;
+                   filter: drop-shadow(0 0 2px rgba(0,0,0,.85)); }
+        #i .head { position: absolute; top: 0; left: 0; right: 0; text-align: center; padding: 1rem 0 2.2rem;
+                   background: linear-gradient(to bottom, rgba(8,6,4,.72), transparent); pointer-events: none; z-index: 3; }
+        #i .head .t { font-family: 'Caveat Brush', cursive; color: #f4e7c9; font-size: 1.7rem; }
+        #i .head .s { font-family: 'Caveat Brush', cursive; color: #e8b14e; font-size: 1.05rem; }
+        #i .spread .nav { position: absolute; left: 50%; bottom: 1.4rem; transform: translateX(-50%);
+                          border: 0; padding: 0; margin: 0; display: flex; gap: 1.4rem; align-items: center; z-index: 4; }
+        #i .spread .nav a { color: #f4e7c9; }
+        #i .spread .nav a.disabled { opacity: .25; }
+        #i .spread .counter { color: #cbb892; }
+        #i .timeline-link { position: absolute; top: 1.1rem; left: 1.2rem; z-index: 4;
+                            font-family: 'Quicksand', sans-serif; font-size: .8rem; color: #cbb892; text-decoration: none; }
+        /* narrow screens: text reflows onto brighter/edge areas, so give it a
+           dark scrim again for legibility (large desktop keeps the clean look) */
+        @media (max-width: 1200px) {
+            #i .cap { padding: 1.3em 1.1em; border-radius: 12px;
+                      background: radial-gradient(ellipse 84% 120% at 50% 50%, rgba(8,6,4,.55) 38%, rgba(8,6,4,.3) 66%, rgba(8,6,4,0) 86%); }
+        }
+        @media (max-width: 760px) {
+            /* immersive, full-bleed: no title, no cream border */
+            #i .spread { position: relative; height: auto; width: 100vw; margin-left: calc(50% - 50vw); }
+            #i .panel { position: relative; width: 100%; height: auto; aspect-ratio: 3/4; }
+            #i .art { clip-path: none !important; }
+            #i .cap { width: 86% !important; left: 50% !important; right: auto !important; top: auto !important;
+                      transform: translateX(-50%) !important; font-size: 1.05rem; }
+            #i .cap.left { bottom: 5%; } #i .cap.r-left { bottom: 34%; } #i .cap.r-right { bottom: 5%; }
+            #i .seam, #i .head { display: none; }
+            #i .spread .nav { position: static; transform: none; margin: 1rem auto; }
+            /* drop the page chrome (title/filemark) + padding while on the illustrated page */
+            body:has(#i.active) .container { padding: 0 0 1.2rem; }
+            body:has(#i.active) .filemark, body:has(#i.active) .book-title { display: none; }
+        }
     </style>
 </head>
 <body>
@@ -143,33 +200,48 @@
         <h1 class="book-title">Someone's Eating Babies</h1>
 
         <article class="scene" id="i">
-            <h2 class="scene-title">i. the room</h2>
-            <div class="verse">
-                <p>A child sat alone in a small quiet room,<br>
-                with a clock on the mantel and a broom in the gloom.<br>
-                On the wall hung a mirror in an old wooden frame —<br>
-                and the mirror it knew everyone's name.</p>
-                <p>The mirror grew foggy. The mirror grew bright.<br>
-                It opened its glass to a far candlelight.<br>
-                "Quick," said the mirror. "I must show you, my child.<br>
-                Step into the dark, a land's been beguiled."</p>
-                <p>She crossed through the frame, past the statehouses, banks,<br>
-                past presidents, senators, the courts and their ranks.<br>
-                Past temples and altars and back-doored machines,<br>
-                past Jerusalem's secrets — and Washington's screens.</p>
-                <p>And under the noise of the world's great affairs,<br>
-                the mirror drew her down, down the back of the stairs,<br>
-                to the small ones held down, to be traded in pairs —<br>
-                "Someone's eating babies," the old mirror declares.</p>
-            </div>
-            <div class="interlude">
-                And the mirror went still. And the mirror went grey.<br>
-                A small empty shoe lay at her feet at the dawn of the day.
-            </div>
-            <div class="nav">
-                <a class="prev disabled">←</a>
-                <span class="counter">i / vii</span>
-                <a class="next" href="#ii">→</a>
+            <div class="spread">
+                <a class="timeline-link" href="/">← timeline</a>
+                <div class="panel left">
+                    <div class="art"></div>
+                    <div class="cap left">
+                        <p>A child sat alone in a small quiet room,<br>
+                        with a clock on the mantel and a broom in the gloom.<br>
+                        On the wall hung a mirror in an old wooden frame —<br>
+                        and the mirror it knew everyone's name.</p>
+                        <p>The mirror grew foggy. The mirror grew bright.<br>
+                        It opened its glass to a far candlelight.<br>
+                        "Quick," said the mirror. "Come quickly my child.<br>
+                        Step into the dark where a land lies beguiled."</p>
+                    </div>
+                </div>
+                <div class="panel right">
+                    <div class="art"></div>
+                    <div class="cap r-left">
+                        <p>She crossed through the frame, past the statehouses, banks,<br>
+                        past presidents, senators, the courts and their ranks.<br>
+                        Past temples and altars and back-doored machines,<br>
+                        past Jerusalem's secrets — and Washington's screens.</p>
+                    </div>
+                    <div class="cap r-right">
+                        <p>And under the noise of the world's great affairs,<br>
+                        the mirror drew her down, down the back of the stairs,<br>
+                        to the small ones held down, to be traded in pairs —</p>
+                        <p class="refrain">"Someone's eating babies," the old mirror declares.</p>
+                    </div>
+                </div>
+                <svg class="seam" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <line x1="52" y1="0" x2="48" y2="100" stroke="#caa24e" stroke-width="0.35" opacity="0.8"/>
+                </svg>
+                <div class="head">
+                    <div class="t">Someone's Eating Babies</div>
+                    <div class="s">i. the room</div>
+                </div>
+                <div class="nav">
+                    <a class="prev disabled">←</a>
+                    <span class="counter">i / vii</span>
+                    <a class="next" href="#ii">→</a>
+                </div>
             </div>
         </article>
 
