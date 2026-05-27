@@ -37,7 +37,7 @@ A sourced editorial timeline. Static site: plain HTML + CSS + ES modules. No bui
 │   │       ├── transcript.txt    # whisper transcript
 │   │       ├── reel.orig.mkv     # pristine yt-dlp original (gitignored, local-only source of truth)
 │   │       ├── reel.webm         # delivery file, derived once from reel.orig.mkv
-│   │       └── frames/f001.png   # poster frame (the rest are gitignored)
+│   │       └── frames/f001.webp  # gallery poster (derived from f001.png; all frame PNGs are gitignored, local-only)
 │   └── clips/<id>-NN.png         # inline-evidence highlight clips for source quotes
 └── tools/
     ├── ingest-reel.mjs           # full reel-to-disk ingest pipeline (yt-dlp capture)
@@ -96,7 +96,7 @@ No headless browser anymore — capture is `yt-dlp` straight from Instagram's CD
 1. `yt-dlp` downloads the **pristine original** (`reel.orig.mkv`: best ≤720-wide VP9 video + the source AAC audio) and pulls complete metadata — caption, handle, display name, post date, likes, comments, duration. (Replaces the old Playwright `og:*` scrape; the numbers are more accurate.)
 2. Derives the delivery `reel.webm` from the original **once**: VP9 video is **copied** (zero video re-encode), audio is loudness-normalized (loudnorm `I=-16`, soft `TP=-3`, `linear=true`, + `alimiter` at a −1.5 dBTP hard ceiling) and encoded to libopus 96k — a **single** opus generation off the source AAC.
 3. `ffmpeg` → WAV (16 kHz mono) for whisper, from the original
-4. `ffmpeg` → frames at 0.5 fps under `frames/` (only `f001.png` survives; the rest are `.gitignore`d)
+4. `ffmpeg` → frames at 0.5 fps under `frames/`, then derives the committed gallery poster `f001.webp` from `f001.png` (libwebp q72 — ~30–80KB vs 0.5–1.7MB PNG). All frame PNGs are `.gitignore`d, local-only, re-derivable from the original.
 5. `whisper base.en` → `transcript.{txt,srt,vtt,json}`
 6. Writes/merges `meta.json` (machine fields refreshed; hand-written editorial fields preserved)
 7. Adds the capture id to `sources/captures/manifest.json`

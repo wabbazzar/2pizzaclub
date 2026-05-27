@@ -800,6 +800,17 @@
     position: relative;
     padding: 0;
 }
+/* Center the slide content vertically in the pager (non-fullscreen). The base
+   .slide uses space-between + a flex:1 .slide-body, which pins the meta to the
+   top and strands a short slide's single quote in dead space. Stop the body
+   growing and center the whole meta+body group so it reads as a deliberate
+   card. Fullscreen rules below override back to top-aligned/scrollable. */
+#findings.findings-as-slide .slide {
+    justify-content: center;
+}
+#findings.findings-as-slide .slide-body {
+    flex: 0 0 auto;
+}
 /* Scope-override font vars so slides stay legible on /efta/ (which doesn't
    load the main site's hand-drawn Caveat Brush / Schoolbell fonts). Quicksand
    and JetBrains Mono ARE loaded by efta/index.html, so they're guaranteed. */
@@ -912,6 +923,52 @@ html.body-locked, html.body-locked body {
 .deck-fullscreen:hover { background: var(--bus-yellow); }
 .deck-fullscreen .deck-fs-glyph { font-size: 0.95rem; line-height: 1; }
 .intro-deck:fullscreen .deck-fullscreen { position: fixed; top: 1.25rem; right: 1.25rem; }
+
+/* In-slide prev/next. Hidden normally (the page has its own pager); shown only
+   in fullscreen, where the pager is off-screen — and on iOS, where there's no
+   keyboard for the arrow-key handler, this is the only way to page. */
+.deck-nav { display: none; }
+#findings.findings-as-slide:fullscreen .deck-nav,
+#findings.findings-as-slide:-webkit-full-screen .deck-nav,
+#findings.findings-as-slide.is-pseudo-fullscreen .deck-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: calc(1.1rem + env(safe-area-inset-bottom, 0px));
+    z-index: 10000;
+}
+.deck-nav-btn {
+    font-family: var(--mono);
+    font-size: 1.35rem;
+    line-height: 1;
+    width: 3.2rem;
+    height: 3.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--paper);
+    color: var(--ink);
+    border: 1.5px solid var(--ink);
+    border-radius: 999px;
+    box-shadow: 3px 3px 0 var(--bus-yellow);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.deck-nav-btn:hover { background: var(--bus-yellow); }
+.deck-nav-btn:disabled { opacity: 0.3; box-shadow: none; cursor: default; }
+.deck-nav-label {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    color: var(--ink);
+    background: var(--paper);
+    border: 1.5px solid var(--ink);
+    border-radius: 999px;
+    padding: 0.35rem 0.7rem;
+}
 
 .slide {
     position: relative;
