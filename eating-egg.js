@@ -11,23 +11,22 @@
 
     const REVEAL_URL = "/eating/?smoke=1";   // ?smoke=1 → the book holds its verse hidden until the egg signals the smoke has cleared
     const FLUID_SRC = "/fluid.js?v=8";
-    // The egg dissolves between two pre-rendered covers (timeline + book opening).
-    // html2canvas can't render the book's scene i (position:fixed + clip-path) and
-    // is too slow snapshotting the whole timeline to start the dissolve promptly,
-    // so pre-rendered covers keep it instant + faithful. The live interactive book
-    // is handed off underneath once the smoke clears.
-    const BOOK_COVER = "/eating/art/book-cover.jpg?v=2";      // illustration-only (no text-format jump)
-    const TIMELINE_COVER = "/eating/art/timeline-cover.jpg?v=1";
+    // No cover screenshots: the smoke renders in the engine's TRANSPARENT mode straight
+    // over the LIVE timeline (the page IS the backdrop), then the live /eating/ book
+    // iframe cross-fades in under the thickest smoke — so nothing is frozen and there is
+    // no still image to misalign at the reader's aspect ratio.
     const PYRAMID_IMG = "/eating/art/pyramid.png?v=2";        // fal.ai pyramid, background cut out (transparent)
 
     const HOLD_FIRE_MS = 900, HOLD_CAPTURE_MS = 300, CANCEL_MOVE_PX = 24;
     const PYRAMID_RISE_MS = 520, EYE_OPEN_MS = 460, PYRAMID_HOLD_MS = 280, PYRAMID_FADE_MS = 600;
-    const DISSOLVE_MS = 2200;  // the egg's smoke dissolve (a touch longer than page-to-page)
 
     const PYRAMID_HEIGHT_FRAC = 0.40;
     const GOLD_LIGHT = "#ffe9a8", GOLD_MID = "#e6b450", GOLD_DEEP = "#9a6f22";
     const DIM_RGB = "10, 8, 6";
-    const SMOKE_COLOR = { r: 0.17, g: 0.13, b: 0.09 };
+    // Light smoky grey: in the engine's TRANSPARENT mode the dye's brightness IS its alpha,
+    // so a dark smoke would barely veil the live page — this greys up enough to cover the
+    // timeline→book handoff under it (matches the book's page-to-page veil).
+    const SMOKE_COLOR = { r: 0.38, g: 0.34, b: 0.30 };
 
     const qs = new URLSearchParams(location.search);
     const DEBUG = qs.get("egg") === "debug";
@@ -121,12 +120,6 @@
         libsPromise = window.SmokeFX ? Promise.resolve() : loadScript(FLUID_SRC);
         return libsPromise;
     }
-    function preload(urls) {
-        return Promise.all(urls.map((u) => new Promise((res) => {
-            const im = new Image(); im.onload = im.onerror = () => res(); im.src = u;
-        })));
-    }
-
     // ---------- finger-math smoke strokes (calm) ----------
 
     let fingers = [], strokeRAF = 0, drawUntil = 0, strokeFrame = 0;
@@ -151,37 +144,6 @@
         if (smokeCanvas) smokeCanvas.style.opacity = "0";
     }
 
-    // Run the smoke dissolve between two image URLs in the opaque composite
-    // canvas; calls onDone() when the new image is fully revealed.
-    function dissolve(oldURL, newURL, dur, onReveal, onDone) {
-        const SF = window.SmokeFX;
-        SF.config.DENSITY_DISSIPATION = 1.0;   // calm defaults (what finger input uses)
-        SF.config.VELOCITY_DISSIPATION = 0.35; // low, like the source sim — smoke drifts instead of boiling
-        SF.config.CURL = 30;                   // source-sim vorticity: finer, prettier curls
-        SF.config.SPLAT_RADIUS = 0.25;         // source-sim radius: tighter wisps, less billow
-        window.__SMOKE_STOP = false;
-        SF.beginTransition(oldURL, newURL);
-        SF.update();
-        fingers = [
-            { x: 0.50, y: 0.58, vx: 0.000, vy: -0.007 },
-            { x: 0.33, y: 0.50, vx: -0.006, vy: -0.003 },
-            { x: 0.67, y: 0.50, vx: 0.006, vy: -0.003 },
-            { x: 0.40, y: 0.62, vx: -0.004, vy: 0.005 },
-            { x: 0.60, y: 0.62, vx: 0.004, vy: 0.005 },
-        ];
-        drawUntil = performance.now() + dur * 0.66;
-        cancelAnimationFrame(strokeRAF); strokeRAF = requestAnimationFrame(strokeStep);
-        setTimeout(() => { SF.config.DENSITY_DISSIPATION = 2.0; }, dur * 0.72);
-        // global reveal ramp fills any gaps the wisps miss, so it always completes
-        const g0 = performance.now();
-        (function ramp() {
-            const t = (performance.now() - g0 - dur * 0.42) / (dur * 0.4);
-            if (t > 0) SF.setGlobalReveal(Math.min(1, t));
-            if (t < 1) requestAnimationFrame(ramp); else if (onReveal) onReveal();
-        })();
-        if (onDone) setTimeout(onDone, dur);
-    }
-
     // ---------- fire ----------
 
     function fireReveal() {
@@ -192,7 +154,6 @@
 
         const reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
         const libs = ensureLibs().catch((e) => { dbg(e); return null; });
-        const covers = preload([TIMELINE_COVER]);  // smoke wafts over the timeline; reveals the LIVE book
         ensurePyramidImg();
 
         const stage = document.createElement("div");
@@ -259,16 +220,17 @@
         }
         requestAnimationFrame(cvFrame);
 
-        // once the pyramid has formed AND the libs + cover are ready, run the smoke
-        Promise.all([libs, covers, new Promise((r) => setTimeout(r, introMs))]).then(() => {
+        // once the pyramid has formed AND the libs are ready, run the smoke
+        Promise.all([libs, new Promise((r) => setTimeout(r, introMs))]).then(() => {
             if (!window.SmokeFX) { cv.style.transition = "opacity 700ms ease-out"; cv.style.opacity = "0"; handoff(); return; }
             const SF = window.SmokeFX;
-            smokeCanvas.style.opacity = "1";                          // composite (timeline + smoke) takes the screen
-            cv.style.transition = "opacity 500ms ease-out"; cv.style.opacity = "0";  // pyramid dissolves into it
+            SF.config.TRANSPARENT = true;             // render smoke with alpha — the LIVE timeline shows through
+            if (SF.endTransition) SF.endTransition(); // ensure the old opaque cover-composite path is OFF
+            smokeCanvas.style.transition = "none"; smokeCanvas.style.opacity = "1";   // transparent smoke canvas over the live page
+            cv.style.transition = "opacity 500ms ease-out"; cv.style.opacity = "0";   // un-dim: the pyramid + dim dissolve, baring the live timeline under the smoke
             SF.config.DENSITY_DISSIPATION = 1.0; SF.config.VELOCITY_DISSIPATION = 0.35;
-            SF.config.CURL = 30; SF.config.SPLAT_RADIUS = 0.25;
+            SF.config.CURL = 30; SF.config.SPLAT_RADIUS = 0.42;      // wider wisps → the veil actually covers the timeline→book swap in transparent mode
             window.__SMOKE_STOP = false;
-            SF.beginTransition(TIMELINE_COVER, TIMELINE_COVER);      // smoke wafts over the timeline
             SF.update();
             fingers = [
                 { x: 0.50, y: 0.58, vx: 0.000, vy: -0.007 },
@@ -279,7 +241,8 @@
             ];
             drawUntil = performance.now() + 1400;
             cancelAnimationFrame(strokeRAF); strokeRAF = requestAnimationFrame(strokeStep);
-            // the LIVE book (real dims, no shift) emerges as the smoke composite clears
+            setTimeout(() => { SF.config.DENSITY_DISSIPATION = 2.2; }, 1400);  // emission done → thin the dye so the veil dissipates, not just uniformly dims
+            // the LIVE book (real dims, no shift) emerges as the smoke veil clears
             setTimeout(() => {
                 iframe.style.opacity = "1";
                 smokeCanvas.style.transition = "opacity 1100ms ease-out"; smokeCanvas.style.opacity = "0";
