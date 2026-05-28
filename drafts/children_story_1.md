@@ -178,7 +178,7 @@ The roll-call gives each figure their **documented estate** — *builder* (Trump
 > *and each was a stone. And the stone made it feed.*
 
 > *And the more that it ate, the more wide it would yawn:*
-> *more tolls, and more taxes, and more children gone.*
+> *more tolls, and more taxes, and more children drawn.*
 > *The eye never blinked, and the eye never tired,*
 > *and nobody asked it, and no one inquired.*
 
@@ -195,7 +195,7 @@ The scene turns the gaze **up** — following scene 3's *the threads all run up 
 - **L13** — *as it is above, so it is below* — the **Hermetic axiom** (the [Emerald Tablet](https://en.wikipedia.org/wiki/Emerald_Tablet) of Hermes Trismegistus); the scene's spine — the apex is held up from beneath.
 - **L14–15** — *every wage, every tax, every yes … a coin in the plate and a name on the deed* — mass complicity: the taxpayer appropriation (the same $3.8B), defense-industry wages, and the **[anti-BDS certification](https://www.aclu.org/issues/free-speech/rights-protesters/anti-boycott-bills)** — the 27+ state laws requiring government contractors to certify they do not boycott Israel as a condition of the contract (held over from scene 1's *banks*). *A coin in the plate* = the toll/extraction of [Chris Hedges](https://en.wikipedia.org/wiki/Chris_Hedges)' interview (`sources/captures/DTQ0YwcD_2S`: *"they make their money by setting up toll booths"*).
 - **L16** — *each was a stone. And the stone made it feed* — every ordinary act a block in the pyramid; the structure built from below feeds the apex. Complicity rendered as architecture.
-- **L17–18** — *the more it ate, the more wide it would yawn: more tolls, more taxes, more children gone* — the siphon and the growth (echoes scene 5/6's *the dark thing grew large*); Hedges's toll-economy (`sources/captures/DTQ0YwcD_2S`) + the ongoing appropriation + the ongoing toll.
+- **L17–18** — *the more it ate, the more wide it would yawn: more tolls, more taxes, more children drawn* — the siphon and the growth (echoes scene 5/6's *the dark thing grew large*); Hedges's toll-economy (`sources/captures/DTQ0YwcD_2S`) + the ongoing appropriation + the ongoing toll.
 - **L19–20** — *the eye never blinked … nobody asked it, and no one inquired* — the unblinking apex (the all-seeing eye) and the non-accountability: media non-coverage ([Operation Mockingbird](https://en.wikipedia.org/wiki/Operation_Mockingbird), scene 1; Robert Steele, *"the media today is not covering"* — `sources/captures/DSkvtpnjtDQ`).
 
 **Mood / symbol sources, not line referents:** the *Pax Judaica / Greater Israel* reel (`sources/captures/DXaYOtHE-oG`) — the eye over one city, the imperial capital, the microchip-for-every-slave — informs the art's mood and the SYMBOL-KIT but anchors no line, per its appendix flag (prophecy, not record). Same handling as the contested Ben-Menashe account (scene 2).
