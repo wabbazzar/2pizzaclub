@@ -123,12 +123,24 @@ Read `transcript.txt` and the first frame (`frames/f001.png`) to identify the sp
 
 The `implied_frame` and `notes` fields in `meta.json` are where contested or unverified claims go — they describe what the video is framing without committing the site to assert it.
 
+**Check our own EFTA corpus FIRST — before any external source.** For every named person, entity, or event in the reel, search the Epstein holdings we already have before reaching for a third-party link:
+
+```bash
+# does the subject appear in our own released-document corpus?
+grep -rilE "ron(ald)?[. ]+lauder" efta/docs/*.json efta/findings.json efta/messages.json
+# then read the hit; messages live in efta/messages.json (Epstein's iMessage archive),
+# longer docs under efta/docs/<DOC_ID>.json (e.g. HOUSE_OVERSIGHT_*, EFTA*)
+```
+
+The `/efta/` page is our own searchable analysis of the release (`efta/findings.json`, `efta/messages.json`, and 7k+ documents under `efta/docs/`). If the subject is in there, **our own primary document is the strongest citation** — cite the doc id with `type: "primary"`, link to `https://2pizzaclub.com/efta/messages.html` (or the doc viewer), put the verbatim line in `quote`, and keep any outside reporting as *corroboration*, not the basis. (Lesson: the Ronald Lauder record first shipped citing only the Daily Pennsylvanian and a web tracker — he was in our own `HOUSE_OVERSIGHT_*` iMessage docs the entire time, with Epstein writing "meeting with lauder re alzheimer ... also with jim watson." Always grep our corpus first.) Watch for whisper/OCR spellings and name variants (initials, "Lauter"→"Lauder", redactions) when grepping.
+
 ### 3. Verify citations BEFORE writing records
 
 For every numerical claim, date, or quote in a record:
-1. Run a `WebSearch` to find the primary source
-2. Run a `WebFetch` against the canonical primary URL (govinfo.gov, archive.org, the actual organization's site) to retrieve the verbatim quote
-3. Include the verbatim quote in the record's `sources[].quote` field on the strongest primary source
+1. **First check our own EFTA corpus** (grep recipe above). If the subject is there, cite our primary doc(s) and link to `/efta/` before going external.
+2. Run a `WebSearch` to find the primary source
+3. Run a `WebFetch` against the canonical primary URL (govinfo.gov, archive.org, the actual organization's site) to retrieve the verbatim quote
+4. Include the verbatim quote in the record's `sources[].quote` field on the strongest primary source
 
 Skip the verification step ONLY when the claim is unambiguous historical fact AND the record cites a canonical aggregator (Wikipedia + a primary footnote).
 

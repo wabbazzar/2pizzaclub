@@ -70,6 +70,12 @@ After ingest:
    - **C. Pure invention / surfaced-only** — no external source. → Documented in meta, NOT promoted.
 
 4. **For each Group A item:**
+   0. **Grep our own EFTA corpus first** for every named person/entity/event:
+      `grep -rilE "<name>" efta/docs/*.json efta/findings.json efta/messages.json`.
+      If the subject is in there, our released document IS the strongest source —
+      cite the doc id as `type: "primary"`, link `https://2pizzaclub.com/efta/messages.html`
+      (or the doc viewer), and keep external reporting as corroboration. Watch for
+      name variants / OCR spellings (e.g. "Lauter"→"Lauder", initials, redactions).
    1. Search the web for 1–2 candidate primary URLs (`WebSearch`).
    2. Fetch the strongest URL (`WebFetch`) and extract a verbatim 15–25 word quote.
    3. Write `sources/evidence/<id>.json` per `sources/SCHEMA.md`. Include the reel as a `type: "reel"` surfacing source.
@@ -99,6 +105,7 @@ Maximize clip success rate by picking quotes the matcher can find on the actual 
 
 Per record, one clip from the strongest primary. Order of preference for clip target URL:
 
+0. **Our own EFTA corpus** (`efta/docs/`, `efta/findings.json`, `efta/messages.json`, surfaced at `/efta/`) — if the subject appears in the release we already hold, this is the primary; cite it first.
 1. Official government primary (DOJ, FBI, Senate, State Department, court records)
 2. Wikipedia (very reliable for clip matching, secondary but high-fidelity summaries)
 3. Mainstream news (CNN, ABC, NYT, WaPo) — often Cloudflare-walled in headless, retry with cookies if needed
