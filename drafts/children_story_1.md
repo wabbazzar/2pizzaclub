@@ -320,3 +320,31 @@ The roll-call gives each figure their **documented estate** — *builder* (Trump
 - Scene 8 (the telling) opening stanza updates to *seven things* with the notebook added: `a portrait, a bone, a small notebook, a chip`.
 - The six-permissions refusal (name / sigh / mark / vow / offering / bow) **does not change** — the back door isn't a separate theological permission; it's the *mechanism* by which the entity exploits permission #4 (interior assent / forgetting / Christian-deliverance "open doors") at scale.
 - Character consistency commitment: Maxwell is **the dead man** wherever he appears (scenes 2, 6); the epithet does not vary.
+
+---
+
+## Appendix — source note: the toll-based economy (future page)
+
+**Status:** tone/source note only — not yet drafted into verse. Intended as a **scene 6 (the new altar) extension or companion page** on *the future*. Scene 6 shows the mill that eats data; this page would name the economic mechanism underneath it — the privatized world where every civic thing becomes a gate you pay an oligarch to pass through. The "small thing inside the mill" grows by collecting **tolls**.
+
+**Source:** Chris Hedges, in conversation with Marc Lamont Hill (Al Jazeera), `sources/captures/DTQ0YwcD_2S` (reposted @celebrityscope, 2026-01-08; transcript at `sources/captures/DTQ0YwcD_2S/transcript.txt`). Hedges is the author of [*America: The Farewell Tour*](https://en.wikipedia.org/wiki/Chris_Hedges) (2018), which he name-checks in the clip.
+
+**The thesis (the tone to carry):** American democracy is a veneer — "the end of the Roman Empire: you have the symbols, the iconography and the language of a democracy, but internally corporations and oligarchs have seized all the levers of power." Hedges frames the political fight not as left vs. right but **corporatists vs. oligarchs**: corporatists (he names the Obama/Bush/Biden register) want *stability* and *decorum* to protect overseas investment; oligarchs want *chaos* — "deconstructing the administrative state" (he quotes Bannon) — because their money is **rentier / toll-booth capitalism**:
+
+> *"they make their money by setting up toll booths — Amazon, you know, all these digital media platforms — it's not about producing goods."*
+
+The endgame is privatization of everything civic. From his Scranton chapter: the sewer systems, the parking authority, the electricity — all privatized, rates jacked up, services degraded — and next the post office. Hedges closes on Aristotle: once you build an oligarchic system with those inequities, the only two outcomes are **tyranny or revolution**.
+
+**Why it fits the book:** scene 6's mill is the *harvest* engine (it eats portraits, voices, heartbeats, choices). The toll-economy page is the *extraction* engine that sits on the same altar — the children grow up into a world where the air, the road, the water, the page, the very gate to speak have been fenced and metered by the few who own the booths. Nursery register to reach for: turnstiles, tollgates, "a penny to pass," the troll-under-the-bridge demanding payment (*Three Billy Goats Gruff* is the obvious-but-usable folk anchor — the toll-keeper who eats whoever can't pay). Object candidate for the accumulation chain: *a small bent coin* / *a worn-out token*.
+
+---
+
+## Appendix — source note: Pax Judaica / Greater Israel (mood + symbol source)
+
+**Status:** tone/symbol source only — **NOT a referent for any verse line.** The book's first working rule is that every line names a real, documented referent; this reel is prophecy, not record, so it may inform the art's mood and the SYMBOL-KIT but cannot anchor a line (same handling as the contested Ben-Menashe account in scene 2 and the Sascha Riley audio — present in the thematic air, deliberately not cited).
+
+**Source:** "Professor Jiang," interviewed on Jack Neel's podcast, clipped by @thebigbasedtheory, `sources/captures/DXaYOtHE-oG` (posted 2026-04-21; transcript at `sources/captures/DXaYOtHE-oG/transcript.txt`).
+
+**The thesis (the imagery to carry):** two linked end-states. (1) A *Greater Israel Project* — a promised land from the Nile to the Euphrates taking in parts of Egypt, Iraq, Turkey and Saudi Arabia; regional war widened to pull those neighbors in; Jerusalem made the imperial capital; a Third Temple raised to bring the Messiah. (2) *Pax Judaica* — transnational capital financing the empire and "a one-world AI surveillance state ... headquartered in Jerusalem," run on Middle East data centers with "unlimited oil and energy," its labor "millions of Indians, Chinese, Filipinos to work as slaves," each one "given a microchip," kept in line by the surveillance grid. The speaker frames it as how "religious scientists" and "they" see the world turning out by ~2045.
+
+**Why it fits the book:** it rhymes, image-for-image, with the two altars already in place. The Third Temple at Jerusalem is the grown, imperial form of scene 3's *blue-striped white temple* on the island — the SYMBOL-KIT's temple motif scaled up to a world capital, the all-seeing eye now a throne. The "AI surveillance state / matrix of control" on desert data centers is precisely scene 6's *great mill ... in the desert* (Project Stargate), here given a religious justification. And the microchip-for-every-slave lands directly on permission **#6 — *the mark accepted*** (Revelation 13 / Crowley sigils / Goetia): scene 6's *brass chip* object and scene 7's *"I give you no mark"* refusal already carry it. The use is the book's whole method — render the prophets' own end-state flat, in nursery meter, shown and not asserted. Nursery register to reach for: a temple on a hill that swallows the whole map; one eye over a single city; "a chip for each child, to be counted and kept." **No new object needed** — the existing *brass chip* (scene 6) is the mark; this note thickens that beat rather than adding to the accumulation chain.
