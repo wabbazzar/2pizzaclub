@@ -201,9 +201,9 @@
            over the busy dance art; r-left left edge kept clear of the diagonal seam */
         #iii .cap { background: radial-gradient(ellipse 90% 122% at 50% 50%, rgba(8,6,4,.76) 44%, rgba(8,6,4,.44) 72%, rgba(8,6,4,0) 90%);
                     padding: 1.05em 1.05em; border-radius: 13px; }
-        #iii .cap.left    { left: 49%; top: 34%; width: 47%; }
-        #iii .cap.r-left  { left: 33%; top: 37%; width: 44%; }
-        #iii .cap.r-right { left: 69%; top: 78%; width: 46%; }
+        #iii .cap.left    { left: 49%; top: 36%; width: 47%; }
+        #iii .cap.r-left  { left: 33%; top: 38%; width: 44%; }
+        #iii .cap.r-right { left: 57%; top: 78%; width: 46%; }
 
         /* narrow screens: caps reflow onto brighter/edge areas, so give them a
            dark scrim for legibility (large desktop keeps the clean look) */
@@ -557,12 +557,20 @@
                         smokeCanvas.style.transition = 'none'; smokeCanvas.style.opacity = '1';
                         var swapped = false;
                         runVeil(
-                            function () {   // 3) cross-fade the live scene in under the smoke — no hard cut, so the swap is smooth even if the veil is thin (caps stay hidden)
+                            function () {   // 3) cross-fade the live new scene in over the old, under the smoke (caps stay hidden)
                                 if (swapped) return; swapped = true;
                                 var to = el(toId), from = el(fromId);
+                                to.style.animation = 'none';            // suppress the default 0.4s fadeIn — we want a longer, pure-opacity fade
+                                to.style.opacity = '0';
                                 to.style.zIndex = '7';                  // incoming spread above the outgoing, both under the smoke (z20)
-                                to.classList.add('active');             // fades its art in over the outgoing
-                                setTimeout(function () { from.classList.remove('active', 'caps-in'); to.style.zIndex = ''; }, 540);
+                                to.classList.add('active');
+                                void to.offsetWidth;                    // commit opacity:0 before transitioning from it
+                                to.style.transition = 'opacity 1000ms ease';
+                                to.style.opacity = '1';
+                                setTimeout(function () {                // once faded in, drop the outgoing + clear the inline overrides
+                                    from.classList.remove('active', 'caps-in');
+                                    to.style.zIndex = ''; to.style.transition = ''; to.style.opacity = ''; to.style.animation = '';
+                                }, 1100);
                             },
                             function () {                                                                  // 4) fade the veil away to reveal the live new scene, then bring the verse IN
                                 smokeCanvas.style.transition = 'opacity 700ms ease-out'; smokeCanvas.style.opacity = '0';
