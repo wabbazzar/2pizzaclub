@@ -1,0 +1,32 @@
+{
+    "id": "1972-watergate-operatives-001",
+    "anchor": "y1972-watergate",
+    "year": 1972,
+    "era": "ii",
+    "themes": [
+        "watergate",
+        "cia",
+        "fbi"
+    ],
+    "claim": "The Watergate break-in was run out of Nixon's re-election apparatus, not by the FBI. It was organized and directed by G. Gordon Liddy (a former FBI agent) and E. Howard Hunt (a former CIA officer), operating through the Committee to Re-elect the President (CRP). The five men arrested inside the DNC on June 17, 1972 were CRP security chief James McCord (a former CIA and FBI officer) and four Miami-based operatives with CIA / Cuban-exile backgrounds — Bernard Barker, Eugenio Martínez, Frank Sturgis and Virgilio González. The reel's claim that \"Watergate was coordinated by the FBI… it was all FBI agents that did it\" is false: of the principals only Liddy was ex-FBI; the operation was a political-intelligence job staffed largely by ex-CIA personnel.",
+    "sources": [
+        {
+            "label": "G. Gordon Liddy — organized and directed the DNC burglary with E. Howard Hunt.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/G._Gordon_Liddy",
+            "quote": "Working alongside E. Howard Hunt, Liddy organized and directed the burglary of the Democratic National Committee headquarters in the Watergate building in May and June 1972.",
+            "clip": "clips/1972-watergate-operatives-001-00.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "Watergate scandal — CRP hired former CIA officer James McCord as head of security.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Watergate_scandal",
+            "quote": "Attorney General John Mitchell (left) resigned to lead the CRP, which also hired former CIA officer James McCord (right) as its head of security.",
+            "clip": "clips/1972-watergate-operatives-001-01.png",
+            "clip_status": "ok-cross-node"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A that directly refutes a Group C claim in the reel ('it was all FBI agents that did it'). Liddy ex-FBI is likely the seed of that distortion; Hunt and most burglars were ex-CIA / Cuban exiles. The operation was CRP/'plumbers,' not an FBI operation. The deeper 'the agencies set Nixon up' thesis is the reel's editorial frame; the verifiable record is the personnel and chain of command."
+}

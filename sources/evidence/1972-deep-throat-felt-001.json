@@ -1,0 +1,29 @@
+{
+    "id": "1972-deep-throat-felt-001",
+    "anchor": "y1972-watergate",
+    "year": 1972,
+    "era": "ii",
+    "themes": [
+        "watergate",
+        "fbi",
+        "journalism"
+    ],
+    "claim": "\"Deep Throat,\" the secret source who guided Washington Post reporter Bob Woodward through the Watergate story, was W. Mark Felt — the second-ranking official of the FBI (Associate Director, with the title often given as Deputy Director) at the time. Felt's identity was a mystery for over three decades until he revealed it to Vanity Fair in 2005 at age 91; Post editor Ben Bradlee then confirmed it. The most consequential leaker of Watergate was therefore the FBI's own number-two, not an outside whistleblower.",
+    "sources": [
+        {
+            "label": "Mark Felt — 2005 Vanity Fair revelation that the FBI's deputy director was Deep Throat.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Mark_Felt",
+            "quote": "In 2005, at age 91, Felt revealed to Vanity Fair magazine that during his tenure as Deputy Director of the FBI he was Deep Throat, who provided The Washington Post reporters Bob Woodward and Carl Bernstein critical information about the Watergate scandal, ultimately leading to the resignation of President Richard Nixon.",
+            "clip": "clips/1972-deep-throat-felt-001-00.png",
+            "clip_status": "ok-cross-node60"
+        },
+        {
+            "label": "HISTORY — \"Deep Throat is revealed\" (May 31, 2005).",
+            "type": "secondary",
+            "url": "https://www.history.com/this-day-in-history/may-31/deep-throat-is-revealed"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A. The reel names Felt correctly ('Mark Felt, who is the deputy director of the FBI'). The fact that the FBI's #2 was the source feeds the reel's larger 'the agencies took Nixon down' framing — the verifiable part is Felt's role and rank; the 'FBI ran the whole operation' extrapolation is handled in 1972-watergate-operatives-001."
+}

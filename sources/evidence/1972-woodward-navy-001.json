@@ -1,0 +1,29 @@
+{
+    "id": "1972-woodward-navy-001",
+    "anchor": "y1972-watergate",
+    "year": 1972,
+    "era": "ii",
+    "themes": [
+        "watergate",
+        "journalism",
+        "intelligence"
+    ],
+    "claim": "Before journalism, Bob Woodward served five years (1965–1970) as a U.S. Navy communications officer, including a Pentagon tour handling sensitive message traffic. He has \"sometimes been cited as working in intelligence,\" which he denies. Authors Len Colodny and Robert Gettlin (Silent Coup, 1991) and others allege Woodward briefed White House aide Alexander Haig in 1969–70 — a claim three officials (Melvin Laird, Adm. Thomas Moorer, Jerry Friedheim) supported and Woodward denies. The reel's claim that \"Watergate was his very first job as a reporter\" is inaccurate: Woodward's first reporting job was the Montgomery County Sentinel (1970–71); he joined the Washington Post in 1971, about nine months before the June 1972 break-in.",
+    "sources": [
+        {
+            "label": "Bob Woodward — Navy communications officer; \"cited as working in intelligence,\" which he denies.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Bob_Woodward",
+            "quote": "After Yale, Woodward began a five-year tour of duty in the United States Navy, working as a communications officer. Woodward has sometimes been cited as working in intelligence, but Woodward denies this.",
+            "clip": "clips/1972-woodward-navy-001-00.png",
+            "clip_status": "ok-cross-node60"
+        },
+        {
+            "label": "Mediaite — \"Joe Rogan floored by Tucker Carlson claim that Bob Woodward was an FBI asset\" (the claim's origin).",
+            "type": "secondary",
+            "url": "https://www.mediaite.com/media/blew-my-fckin-mind-joe-rogan-floored-by-tucker-carlson-claim-that-bob-woodward-was-an-fbi-asset/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group B. Woodward's Navy communications service is real and documented; the 'naval spy ring / intelligence agent' framing and the Haig-briefing claim are contested (Silent Coup; Adrian Havill) and denied by Woodward. The 'very first job as a reporter was Watergate' point is wrong on the record (Montgomery County Sentinel came first). The reel is Rogan relaying Tucker Carlson's version."
+}

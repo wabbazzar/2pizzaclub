@@ -1,0 +1,28 @@
+{
+    "id": "1972-nixon-landslide-001",
+    "anchor": "y1972-watergate",
+    "year": 1972,
+    "era": "ii",
+    "themes": [
+        "watergate",
+        "elections"
+    ],
+    "claim": "In the November 1972 election Richard Nixon defeated Democrat George McGovern in a landslide: 60.7% of the popular vote to 37.5%, carrying 49 states and 520 electoral votes to McGovern's 17 (McGovern won only Massachusetts and the District of Columbia). The ~18 million-vote margin was the largest raw popular-vote margin in U.S. history to that point. The reel's claim that it was the \"biggest landslide ever\" is the strongest version: by other measures Nixon's win was not the single largest — Lyndon Johnson took a higher popular-vote share in 1964 (61.1%) and Ronald Reagan won more electoral votes in 1984 (525).",
+    "sources": [
+        {
+            "label": "1972 United States presidential election — popular vote, states, and electoral count.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/1972_United_States_presidential_election",
+            "quote": "Nixon won the election in a landslide victory, taking 60.7% of the popular vote, carrying 49 states and becoming the first Republican to sweep the South, whereas McGovern took just 37.5% of the popular vote.",
+            "clip": "clips/1972-nixon-landslide-001-00.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "National Archives — 1972 Electoral College results (520–17).",
+            "type": "primary",
+            "url": "https://www.archives.gov/electoral-college/1972"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A spine with a Group B superlative. The reel (Rogan relaying Tucker Carlson on American Alchemy, DRsrlmcEhzu) frames the landslide to set up 'why would he break into the DNC if he was winning anyway' — the paranoia premise. 'Biggest ever' is defensible by raw-vote margin, not by EV (Reagan 1984) or popular-vote % (LBJ 1964)."
+}

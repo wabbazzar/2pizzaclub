@@ -1,0 +1,32 @@
+{
+    "id": "1972-bay-of-pigs-jfk-001",
+    "anchor": "y1972-watergate",
+    "year": 1972,
+    "era": "ii",
+    "themes": [
+        "watergate",
+        "cia",
+        "intelligence"
+    ],
+    "claim": "On the same June 23, 1972 \"smoking gun\" tape, Nixon told Haldeman to warn the CIA that pursuing Watergate would \"open up the whole Bay of Pigs thing again.\" In his 1978 memoir The Ends of Power, Haldeman wrote that \"in all those references to the Bay of Pigs, he was actually referring to the Kennedy assassination,\" and recounted CIA Director Richard Helms reacting violently to the phrase. This is the documented basis for the reel's claim that Nixon \"knew who killed JFK.\" It is contested: the \"Bay of Pigs = JFK assassination\" reading is Haldeman's interpretation (his co-author Joseph DiMona has been credited with the wording, and Haldeman is reported to have later distanced himself), and there is no record of Nixon stating outright that he knew who killed Kennedy or why.",
+    "sources": [
+        {
+            "label": "H. R. Haldeman — Nixon's \"Bay of Pigs\" instruction and the JFK-assassination reading from The Ends of Power.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/H._R._Haldeman",
+            "quote": "Nixon instructed him to tell the CIA that the investigation would \"open up the whole Bay of Pigs thing again\". In his book, Haldeman later wrote: \"It seems that in all those references to the Bay of Pigs, he was actually referring to the Kennedy assassination.\"",
+            "clip": "clips/1972-bay-of-pigs-jfk-001-00.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Watergate.info — the \"Bay of Pigs\" line in the June 23, 1972 tape transcript.",
+            "type": "primary",
+            "url": "https://watergate.info/1972/06/23/the-smoking-gun-tape.html/",
+            "quote": "say: “Look, the problem is that this will open the whole, the whole Bay of Pigs thing",
+            "clip": "clips/1972-bay-of-pigs-jfk-001-01.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group B / C boundary. The 'whole Bay of Pigs thing' line is verbatim on the tape (Group A fact). Haldeman's JFK-code interpretation is real but contested (DiMona authorship; later walk-back). The reel's escalation — 'Nixon apparently had been saying, I know who killed JFK and I know why they did it' — is not a documented Nixon statement and is the Group C overreach; this record carries the sourced version and flags the gap. Cross-ref 1972-smoking-gun-tape-001."
+}

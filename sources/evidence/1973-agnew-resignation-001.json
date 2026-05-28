@@ -1,0 +1,31 @@
+{
+    "id": "1973-agnew-resignation-001",
+    "anchor": "y1972-watergate",
+    "year": 1973,
+    "era": "ii",
+    "themes": [
+        "watergate",
+        "prosecution"
+    ],
+    "claim": "Vice President Spiro Agnew resigned on October 10, 1973, while under federal investigation in Maryland for conspiracy, bribery, extortion and tax fraud — kickbacks he had taken from contractors as Baltimore County Executive and Governor of Maryland, payments that continued into his vice presidency. He pleaded nolo contendere (no contest) to a single felony count of federal income-tax evasion for 1967 and avoided prison. The corruption case was separate from Watergate, in which Agnew was not implicated. He was the second U.S. vice president ever to resign (after John C. Calhoun in 1832).",
+    "sources": [
+        {
+            "label": "Spiro Agnew — the October 10, 1973 nolo contendere plea and resignation.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Spiro_Agnew",
+            "quote": "On October 10, 1973, Agnew appeared before the federal court in Baltimore, and pleaded nolo contendere (no contest) to one felony charge, tax evasion, for the year 1967.",
+            "clip": "clips/1973-agnew-resignation-001-00.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "Spiro Agnew — the kickbacks were unrelated to Watergate.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Spiro_Agnew",
+            "quote": "Agnew took kickbacks from contractors during his time as Baltimore county executive and governor of Maryland. The payments had continued into his time as vice president, but had nothing to do with the Watergate scandal, in which he was not implicated.",
+            "clip": "clips/1973-agnew-resignation-001-01.png",
+            "clip_status": "ok-cross-node"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A. The reel presents Agnew's removal and Ford's installation as a deliberate sequencing ('then they bring in Gerald Ford... if anything happens'). The corruption case was real and independent of Watergate — kept in the claim so the reader weighs the sequencing theory against the documented timeline. Companion: 1973-ford-25th-amendment-001."
+}

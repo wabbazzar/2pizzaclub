@@ -1,0 +1,51 @@
+{
+    "id": "DRsrlmcEhzu",
+    "url": "https://www.instagram.com/reel/DRsrlmcEhzu/",
+    "platform": "instagram",
+    "captured_at": "2026-05-28",
+    "handle": "@joeyvantes",
+    "author_display_name": "JOEY VANTES",
+    "posted_at": "2025-11-30",
+    "engagement": {
+        "likes": 51446,
+        "comments": 738
+    },
+    "caption": "Did you see this? Joe Rogan drops the Tucker Carlson story on Jesse, Michaels regarding Nixon and a potential link to JFK. Perhaps history is repeating itself. #jfk #joerogan #reaction #nixon #truth #news #joeyvantes #jessemichels",
+    "hashtags": [
+        "jfk",
+        "joerogan",
+        "reaction",
+        "nixon",
+        "truth",
+        "news",
+        "joeyvantes",
+        "jessemichels"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Podcast set (red-lit, equipment-rack backdrop); Joe Rogan in a black hoodie at the mic. A burned-in caption above the video reads \"NIXON JFK LINK\" with \"DID YOU KNOW THIS?\" below; spoken text tracked in subtitles. @joeyvantes repost.",
+    "audio_content_summary": "Joe Rogan, talking with Jesse Michels (American Alchemy, Nov 30 2025), recounts \"the Tucker Carlson Nixon story\": that Nixon won the biggest landslide ever; that VP Spiro Agnew was forced out on corruption charges and replaced under the 25th Amendment by Gerald Ford — a Warren Commission member — \"if anything happens\"; that Watergate was coordinated by the FBI (\"it was all FBI agents that did it\") and Nixon was guilty only of agreeing to a cover-up; that Bob Woodward was a naval-intelligence \"spy\" whose first reporting job was Watergate; that Deep Throat was FBI deputy director Mark Felt; that Nixon had been saying \"I know who killed JFK and I know why\"; that DNC chairman Larry O'Brien — Howard Hughes's \"general counsel\" — was bugged because Nixon feared being framed for taking out his own opponent; and that Hughes set up the \"S-Force\" that killed JFK. Former Nixon aide Geoff Shepard is cited as the researcher behind the \"Nixon was railroaded\" case.",
+    "implied_frame": "Group A / B / C, carded under y1972-watergate. Group A (verifiable): the 1972 landslide (1972-nixon-landslide-001); Agnew's corruption resignation (1973-agnew-resignation-001); Ford as first 25th-Amendment VP and Warren Commission member (1973-ford-25th-amendment-001); Mark Felt = Deep Throat, the FBI's #2 (1972-deep-throat-felt-001); O'Brien/DNC as the bugging target (1972-obrien-dnc-hughes-001); the June 23 1972 'smoking gun' cover-up tape that forced resignation (1972-smoking-gun-tape-001); the operatives — Liddy (ex-FBI), Hunt (ex-CIA), McCord and the Cuban-exile burglars (1972-watergate-operatives-001). Group B (real but contested/overstated): 'biggest landslide ever' (true only by raw-vote margin); Woodward's Navy-intelligence background and 'first job was Watergate' (1972-woodward-navy-001); O'Brien as Hughes's 'general counsel' (he was a lobbyist; 1972-obrien-dnc-hughes-001); Nixon's 'whole Bay of Pigs thing' line and Haldeman's JFK-code reading (1972-bay-of-pigs-jfk-001). Group C (no primary trace, not carded): 'Watergate was an FBI operation / all FBI agents did it' (refuted by the operatives record); 'Nixon said I know who killed JFK and why' (overreach of the Bay-of-Pigs reading); 'Howard Hughes set up the S-Force that took out JFK' (no documented entity). The reel also muddles the chronology — the break-in (June 1972) preceded Agnew's resignation and Ford's appointment (late 1973), not the reverse.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~7.1 MB); delivery ~7.8 MB webm, 164s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "1972-nixon-landslide-001",
+        "1973-agnew-resignation-001",
+        "1973-ford-25th-amendment-001",
+        "1972-deep-throat-felt-001",
+        "1972-obrien-dnc-hughes-001",
+        "1972-smoking-gun-tape-001",
+        "1972-watergate-operatives-001",
+        "1972-woodward-navy-001",
+        "1972-bay-of-pigs-jfk-001"
+    ],
+    "supporting_research_links": [
+        "https://en.wikipedia.org/wiki/Watergate_scandal",
+        "https://en.wikipedia.org/wiki/Watergate_break-in_motives",
+        "https://watergate.info/1972/06/23/the-smoking-gun-tape.html/",
+        "https://en.wikipedia.org/wiki/H._R._Haldeman",
+        "https://en.wikipedia.org/wiki/Bob_Woodward",
+        "https://www.mediaite.com/media/blew-my-fckin-mind-joe-rogan-floored-by-tucker-carlson-claim-that-bob-woodward-was-an-fbi-asset/",
+        "https://shepardonwatergate.com/"
+    ]
+}

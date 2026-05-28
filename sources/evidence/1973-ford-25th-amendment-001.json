@@ -1,0 +1,31 @@
+{
+    "id": "1973-ford-25th-amendment-001",
+    "anchor": "y1972-watergate",
+    "year": 1973,
+    "era": "ii",
+    "themes": [
+        "watergate",
+        "congress"
+    ],
+    "claim": "After Agnew's resignation, Nixon nominated House Minority Leader Gerald Ford as vice president on October 12, 1973. Ford became the first person ever appointed to the vice presidency under the 25th Amendment, confirmed by the Senate 92–3 and the House 387–35 and sworn in December 6, 1973. A decade earlier Ford had served on the Warren Commission investigating the assassination of John F. Kennedy, and in 1965 co-authored Portrait of the Assassin, a book defending the Warren Report. When Nixon resigned in August 1974, Ford — never elected to national office — became president.",
+    "sources": [
+        {
+            "label": "Gerald Ford — first vice president appointed under the 25th Amendment.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Gerald_Ford",
+            "quote": "After the resignation of vice president Agnew, Ford became the first person appointed to the vice presidency under the terms of the 25th Amendment. After President Nixon resigned in August 1974, Ford immediately assumed the presidency.",
+            "clip": "clips/1973-ford-25th-amendment-001-00.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "Gerald Ford — Warren Commission service and Portrait of the Assassin (1965).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Gerald_Ford",
+            "quote": "In 1965, he published Portrait of the Assassin, co-written with John R. Stiles, which defended the Warren Report.",
+            "clip": "clips/1973-ford-25th-amendment-001-01.png",
+            "clip_status": "ok-cross-node"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A. The reel stresses 'Gerald Ford, who also, by the way, was on the Warren Commission' as the JFK tie-in. Both facts are documented. Wikipedia also notes Ford relayed information about the Commission's activities to FBI deputy director Cartha DeLoach — left out of the card to keep the claim to verifiable essentials, but relevant to the reel's intelligence-back-channel framing."
+}

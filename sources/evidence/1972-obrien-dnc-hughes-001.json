@@ -1,0 +1,29 @@
+{
+    "id": "1972-obrien-dnc-hughes-001",
+    "anchor": "y1972-watergate",
+    "year": 1972,
+    "era": "ii",
+    "themes": [
+        "watergate",
+        "elections",
+        "surveillance"
+    ],
+    "claim": "The Watergate burglars' target was the Democratic National Committee headquarters and specifically the office and telephone of DNC chairman Lawrence (Larry) O'Brien, whose phone they bugged. O'Brien had also been retained, from 1968, as Howard Hughes's Washington lobbyist/public-affairs representative. A leading explanation for the break-in — argued by Watergate historian J. Anthony Lukas — is that the White House wanted to learn what O'Brien knew about Nixon's own secret financial ties to Hughes. The reel's description of O'Brien as Hughes's \"longtime general counsel\" overstates the role: he was a paid lobbyist/PR consultant, not Hughes's general counsel.",
+    "sources": [
+        {
+            "label": "Watergate break-in motives — DNC chairman O'Brien as the target.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Watergate_break-in_motives",
+            "quote": "The simplest theory is that Watergate was an incompetent break-in to bug Democratic National Committee chair Larry O'Brien, emerging from White House paranoia, and that burglars E. Howard Hunt, G. Gordon Liddy, and James McCord were overzealous and acted without proper oversight.",
+            "clip": "clips/1972-obrien-dnc-hughes-001-00.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "Larry O'Brien — DNC chair and central Watergate figure; his Hughes work.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Larry_O%27Brien"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A (O'Brien target, DNC bugged) + Group B (the Hughes-motive theory; 'general counsel' imprecision). The reel uses the Hughes link to bridge into the JFK/'S-Force' claim — that bridge (Hughes set up a force that killed JFK) has no primary trace and is left in implied_frame, not carded. The O'Brien-as-Hughes-lobbyist fact and the Lukas motive theory are real and documented."
+}
