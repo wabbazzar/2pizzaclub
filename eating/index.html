@@ -186,7 +186,10 @@
                                 clip-path: polygon(7.7% 0, 100% 0, 100% 100%, 0 100%); }
         /* caps slotted into the lowest-edge regions (drafts/illustrations/lowdetail.py) */
         #ii .cap.left    { left: 26%; top: 22%; width: 44%; }
-        #ii .cap.r-left  { left: 24%; top: 24%; width: 40%; }
+        /* r-left center bumped 24%→30% so its left edge clears the diagonal seam
+           (seam runs ~52% at top → 48% at bottom of the spread; at width 40% the
+           cap extended past the seam and clipped leading letters of long lines) */
+        #ii .cap.r-left  { left: 30%; top: 24%; width: 40%; }
         #ii .cap.r-right { left: 71%; top: 72%; width: 42%; }
 
         /* narrow screens: caps reflow onto brighter/edge areas, so give them a
@@ -270,7 +273,9 @@
                 <div class="panel left">
                     <div class="art"></div>
                     <div class="cap left">
-                        <p>They sped to a hill where a man went to sleep<br>
+                        <p>And the stairs she came down now turned over and rose,<br>
+                        up out of the dark to a hill the world knows —<br>
+                        where a man had been carried and laid down to sleep<br>
                         in a tomb of pale stone that was windy and steep.<br>
                         Six men in dark coats stood by him to weep —<br>
                         six men whose old debts to the dead man ran deep.</p>
@@ -279,16 +284,16 @@
                 <div class="panel right">
                     <div class="art"></div>
                     <div class="cap r-left">
-                        <p>His daughter went diving in a small silver sub,<br>
-                        down past the seaweed, down through the scrub.<br>
+                        <p>Then the mirror breathed close: "His daughter would glide<br>
+                        in a small silver sub through the cold and the tide.<br>
                         She counted the children. She logged every name.<br>
-                        And cameras in mirrors caught faces in frame.</p>
+                        And it was me on the wall — I caught them in frame."</p>
                     </div>
                     <div class="cap r-right">
-                        <p>She brought them in pairs, but she ran, did not own.<br>
-                        The dead man had built it; the masters unknown.<br>
-                        She kept all the keys, but she answered to more —<br>
-                        to the hands that the cameras were harvesting for.</p>
+                        <p>"She brought them in pairs, but she ran, did not own.<br>
+                        The dead man had built it. The masters? Unknown.<br>
+                        She kept all the keys — but she answered to more,<br>
+                        to the hands up the stair that my faces were for."</p>
                     </div>
                 </div>
                 <svg class="seam" viewBox="0 0 100 100" preserveAspectRatio="none">
