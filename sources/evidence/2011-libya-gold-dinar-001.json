@@ -1,0 +1,28 @@
+{
+    "id": "2011-libya-gold-dinar-001",
+    "anchor": "y2011-libya",
+    "year": 2011,
+    "era": "iv",
+    "themes": [
+        "finance",
+        "regime-change",
+        "war"
+    ],
+    "claim": "A 2011 intelligence memo emailed to Secretary of State Hillary Clinton by Sidney Blumenthal — later released from her private server — listed among the motives behind France's push to intervene in Libya that Muammar Gaddafi held large gold and silver reserves intended to establish a pan-African currency, which would have rivaled the French-backed CFA franc. NATO bombed Libya, Gaddafi was killed in October 2011, and the country fragmented. Fact-checkers caution there is little independent evidence Gaddafi actually planned a gold-backed currency, and the memo's sourcing was never disclosed.",
+    "sources": [
+        {
+            "label": "Vice — “Libyan Oil, Gold, and Qaddafi: The Strange Email Sidney Blumenthal Sent Hillary Clinton in 2011” (reproducing the released State Department email).",
+            "type": "doc",
+            "url": "https://www.vice.com/en/article/libyan-oil-gold-and-qaddafi-the-strange-email-sidney-blumenthal-sent-hillary-clinton-in-2011/",
+            "quote": "Gaddafi to use $7 billion in secret gold and silver to prop up a new African currency",
+            "clip_status": "error: screenshot-clip-empty"
+        },
+        {
+            "label": "Africa Check — “Did Gaddafi plan to introduce an African currency backed by gold reserves? Maybe, but there's little evidence for this.”",
+            "type": "secondary",
+            "url": "https://africacheck.org/fact-checks/meta-programme-fact-checks/did-gaddafi-plan-introduce-african-currency-backed-gold"
+        }
+    ],
+    "status": "verified",
+    "notes": "From @ojas_speaks reel DY0Oj5EpTHZ (“a leaked email to Hillary Clinton listed it as a motive for NATO's intervention”). Group B: the email's existence and content are verified (released from Clinton's server; reproduced by Vice, titled “France's client & Q's gold”), but whether Gaddafi truly planned a gold-backed pan-African currency — and whether it drove the intervention — is contested; Africa Check finds little independent evidence. The claim is framed as “the email lists it as a factor,” not as established motive. New anchor y2011-libya. The reel's further claim that NATO “bombed the civilian irrigation system that served 70% of the population” (the Great Man-Made River) is documented separately but not asserted in this record."
+}

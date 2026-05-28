@@ -1,0 +1,26 @@
+{
+    "id": "2003-iraq-euro-oil-001",
+    "anchor": "y2003",
+    "year": 2000,
+    "era": "iii",
+    "themes": [
+        "finance",
+        "war",
+        "regime-change"
+    ],
+    "claim": "In 2000 Iraq, under Saddam Hussein, switched the currency of its U.N. oil-for-food sales from U.S. dollars to euros, the first major oil producer to price its crude away from the dollar. After the 2003 U.S.-led invasion and the lifting of sanctions, Iraqi oil sales reverted to dollars. The currency switch is one of the factors cited in the petrodollar reading of the war; the invasion's official justification rested on weapons-of-mass-destruction claims that proved false.",
+    "sources": [
+        {
+            "label": "Radio Free Europe/Radio Liberty — “Iraq: Baghdad Moves To Euro” (Nov. 2000).",
+            "type": "secondary",
+            "url": "https://www.rferl.org/a/1095057.html"
+        },
+        {
+            "label": "The Guardian — “Iraq nets handsome profit by dumping dollar for euro” (Feb. 16, 2003).",
+            "type": "secondary",
+            "url": "https://www.theguardian.com/business/2003/feb/16/iraq.theeuro"
+        }
+    ],
+    "status": "verified",
+    "notes": "From @ojas_speaks reel DY0Oj5EpTHZ. Iraq's 2000 euro switch and the post-2003 reversion to dollars are unambiguous historical record, corroborated by RFE/RL, the Guardian, CFR, Euromoney and RSIS. Both the RFE/RL and Guardian pages return anti-bot 403s to automated fetch, so no verbatim quote is embedded; the fact itself is not in dispute. The reel presents the euro switch as the cause of the invasion — that causal claim is contested (the documented case for war centered on WMD and post-9/11 regime-change strategy); see also y2007-wesley-clark and y2003 costs-of-war. Anchored to y2003; record year 2000."
+}

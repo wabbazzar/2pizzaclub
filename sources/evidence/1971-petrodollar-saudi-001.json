@@ -1,0 +1,28 @@
+{
+    "id": "1971-petrodollar-saudi-001",
+    "anchor": "y1971",
+    "year": 1974,
+    "era": "iii",
+    "themes": [
+        "finance",
+        "defense"
+    ],
+    "claim": "After Nixon ended dollar-gold convertibility in 1971, the dollar's reserve status was re-anchored to oil. In July 1974 Treasury Secretary William Simon and his deputy Gerry Parsky negotiated an arrangement with Saudi Arabia: the United States would buy Saudi oil and supply military aid and equipment, and in return the Saudis would recycle their petrodollar revenue into U.S. Treasury securities to finance American spending. At King Faisal's insistence the scale of Saudi Treasury holdings was kept secret, and the Treasury did not disclose the figure (about $117 billion) until a 2016 Freedom of Information Act release. Saudi oil continued to be priced in dollars and the rest of OPEC followed, obliging oil-importing nations to hold dollar reserves.",
+    "sources": [
+        {
+            "label": "Bloomberg — “The Untold Story Behind Saudi Arabia’s 41-Year U.S. Debt Secret” (May 30, 2016), built on a FOIA request to the National Archives.",
+            "type": "secondary",
+            "url": "https://www.bloomberg.com/news/features/2016-05-30/the-untold-story-behind-saudi-arabia-s-41-year-u-s-debt-secret"
+        },
+        {
+            "label": "The same Bloomberg report (full text mirror).",
+            "type": "secondary",
+            "url": "https://readersupportednews.org/news-section2/318-66/37173-the-untold-story-behind-saudi-arabias-41-year-us-debt-secret",
+            "quote": "The U.S. would buy oil from Saudi Arabia and provide the kingdom military aid and equipment. In return, the Saudis would plow billions of their petrodollar revenue back into Treasuries and finance America's spending.",
+            "clip": "clips/1971-petrodollar-saudi-001-01.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "From @ojas_speaks reel DY0Oj5EpTHZ (“Financial Terrorism”). The 1974 Simon mission and the secrecy demand are documented in the Bloomberg FOIA story; Bloomberg itself is paywalled to automated fetch, so the verbatim quote is taken from the full-text mirror. The reel's tighter framing (“we protect your oil fields, you price all your oil in dollars and refuse every other currency”) compresses the arrangement; the secret 1974 deal as released covers Treasury recycling and military aid, not an explicit ban on other currencies. Anchored to y1971 (the dollar-system chapter); the record year is 1974."
+}

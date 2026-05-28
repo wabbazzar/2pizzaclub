@@ -1,0 +1,29 @@
+{
+    "id": "1960-cuba-mallory-001",
+    "anchor": "y1960-cuba-embargo",
+    "year": 1960,
+    "era": "ii",
+    "themes": [
+        "finance",
+        "body-count",
+        "regime-change"
+    ],
+    "claim": "On April 6, 1960 — sixteen months after the Cuban Revolution — Deputy Assistant Secretary of State Lester D. Mallory wrote an internal State Department memorandum laying out the rationale for economic pressure on Cuba: since there was no effective political opposition, the path to ending support for Castro ran through “economic dissatisfaction and hardship.” He recommended a line of action to deny money and supplies to Cuba, decrease real wages, and “bring about hunger, desperation and overthrow of government.” The U.S. trade embargo that followed has remained in place for more than six decades.",
+    "sources": [
+        {
+            "label": "Foreign Relations of the United States, 1958–1960, Vol. VI, Cuba — Document 499, Memorandum from Mallory to Rubottom, April 6, 1960.",
+            "type": "primary",
+            "url": "https://history.state.gov/historicaldocuments/frus1958-60v06/d499",
+            "quote": "makes the greatest inroads in denying money and supplies to Cuba, to decrease monetary and real wages, to bring about hunger, desperation and overthrow of government.",
+            "clip": "clips/1960-cuba-mallory-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "National Security Archive — State Department memorandum, “The Decline and Fall of Castro,” Secret, April 6, 1960.",
+            "type": "primary",
+            "url": "https://nsarchive.gwu.edu/document/27400-document-1-state-department-memorandum-decline-and-fall-castro-secret-april-6-1960"
+        }
+    ],
+    "status": "verified",
+    "notes": "From @ojas_speaks reel DY0Oj5EpTHZ, which quotes the memo's “hunger, desperation, and overthrow of government” line. Verbatim confirmed against the FRUS primary (history.state.gov, Doc 499). New anchor y1960-cuba-embargo. The reel's claim that Cuba “last week ... completely ran out of oil and diesel” with 22-hour blackouts is recent and not independently verified here; it is left to the capture's implied_frame rather than asserted as a record."
+}

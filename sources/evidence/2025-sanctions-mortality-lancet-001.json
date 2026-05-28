@@ -1,0 +1,32 @@
+{
+    "id": "2025-sanctions-mortality-lancet-001",
+    "anchor": "y2025",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "finance",
+        "body-count"
+    ],
+    "claim": "A 2025 study in The Lancet Global Health by Francisco Rodríguez, Silvio Rendón and Mark Weisbrot estimated that economic sanctions imposed by the United States or the European Union were associated with about 564,000 deaths per year over 1971–2021 — more than the annual number of battle-related deaths (~106,000) and comparable to the total death toll of wars including civilian casualties. The study found the strongest effects for unilateral, economic and U.S. sanctions, with no statistically significant effect for U.N. sanctions, and children under five accounted for roughly half of the deaths.",
+    "sources": [
+        {
+            "label": "The Lancet Global Health — Rodríguez, Rendón & Weisbrot, “Effects of international sanctions on age-specific mortality: a cross-national panel data analysis” (2025).",
+            "type": "primary",
+            "url": "https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(25)00189-5/fulltext"
+        },
+        {
+            "label": "Tricontinental: Institute for Social Research — summary of the Lancet study with the headline figures.",
+            "type": "secondary",
+            "url": "https://thetricontinental.org/newsletterissue/unilateral-sanctions-civilian-deaths/",
+            "quote": "greater than the number of battle-related casualties (106,000 deaths per year) ... similar to some estimates in the total death toll of wars including civilian casualties (around half a million deaths per year)",
+            "clip_status": "error: screenshot-clip-empty"
+        },
+        {
+            "label": "CEPR — “New Study Estimates Over Half a Million People Die Each Year Due to Unilateral Economic Sanctions.”",
+            "type": "secondary",
+            "url": "https://cepr.net/newsroom/new-study-estimates-over-half-a-million-people-die-each-year-due-to-unilateral-economic-sanctions/"
+        }
+    ],
+    "status": "verified",
+    "notes": "From @ojas_speaks reel DY0Oj5EpTHZ. The reel cites “a 2025 study in the Lancet, estimated that sanctions are associated with 564,000 deaths per year ... comparable to all armed conflicts worldwide” — accurate (564,258/yr, 1971–2021). The Lancet fulltext and CEPR pages return anti-bot 403s; the verbatim comparison quote is taken from Tricontinental's summary. The study reports association, not proven causation — wording kept to “associated with.”"
+}

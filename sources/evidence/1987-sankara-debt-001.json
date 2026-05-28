@@ -1,0 +1,29 @@
+{
+    "id": "1987-sankara-debt-001",
+    "anchor": "y1987-sankara",
+    "year": 1987,
+    "era": "iii",
+    "themes": [
+        "finance",
+        "regime-change",
+        "body-count"
+    ],
+    "claim": "At the Organization of African Unity summit in Addis Ababa on July 29, 1987, Burkina Faso's president Thomas Sankara called for African states to form a united front and refuse to repay their external debt, arguing the debt was a tool of continued colonial control: “if we don't repay, lenders will not die ... But if we repay, we are going to die.” Less than three months later, on October 15, 1987, Sankara was killed in a coup that brought Blaise Compaoré to power; the new government reversed Sankara's policies and resumed dealings with the IMF.",
+    "sources": [
+        {
+            "label": "Thomas Sankara, “A United Front Against Debt,” speech to the OAU summit, Addis Ababa, July 29, 1987 (full text).",
+            "type": "primary",
+            "url": "https://www.marxists.org/archive/sankara/1987/july/29.htm",
+            "quote": "Debt cannot be repaid, first because if we don't repay, lenders will not die. That is for sure. But if we repay, we are going to die.",
+            "clip": "clips/1987-sankara-debt-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Tricontinental: Institute for Social Research — “Life or Debt: The Stranglehold of Neocolonialism” (Sankara's debt campaign and assassination).",
+            "type": "secondary",
+            "url": "https://thetricontinental.org/pan-africa/dossier-63-african-debt-crisis/"
+        }
+    ],
+    "status": "verified",
+    "notes": "From @ojas_speaks reel DY0Oj5EpTHZ (“Sankara called for African nations to refuse IMF debt, and he was assassinated three months later”). Speech date (July 29, 1987) and assassination date (Oct 15, 1987) confirmed — the gap is under three months. Verbatim from the speech text. New anchor y1987-sankara."
+}

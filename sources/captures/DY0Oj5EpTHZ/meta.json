@@ -1,0 +1,38 @@
+{
+    "id": "DY0Oj5EpTHZ",
+    "url": "https://www.instagram.com/reel/DY0Oj5EpTHZ/",
+    "platform": "instagram",
+    "captured_at": "2026-05-28",
+    "handle": "@ojas_speaks",
+    "author_display_name": "Ojas",
+    "posted_at": "2026-05-26",
+    "engagement": {
+        "likes": 8381,
+        "comments": 196
+    },
+    "caption": "Financial Terrorism",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "",
+    "audio_content_summary": "A single-thesis explainer: every U.S. war of the last 50 years can be read through the dollar. Traces the chain from Nixon ending gold convertibility (1971) and the 1974 U.S.-Saudi petrodollar arrangement, through the dollar's reserve status and Treasury-financed military spending, to the IMF/World Bank (1944) and structural-adjustment conditionality, to SWIFT cutoffs and a 2025 Lancet estimate of ~564,000 deaths/year from sanctions. Then a regime-change pattern for states that exit the dollar: Iraq (euro switch 2000 → invasion 2003), Libya (Gaddafi gold-dinar email, 2011), Venezuela (Maduro captured Jan 2026), Iran, Sankara's Burkina Faso (1987), and Cuba (1960 Mallory memo, 64-year embargo). Closes on de-dollarization: BRICS, gold-buying, the dollar's falling reserve share.",
+    "implied_frame": "Frames the dollar as a coercive system and presents each intervention as punishment for leaving it. Verifiable, primary-sourced threads were turned into records (petrodollar 1974, World Bank-American-president convention, Iraq's 2000 euro switch, the 1960 Mallory memo, Sankara 1987, the 2011 Blumenthal/Libya gold email, the 2025 Lancet sanctions study). The causal claim that de-dollarization *is* the motive for each war is the reel's interpretation, not asserted by the records. Group B/C left out of records: specific structural-adjustment statistics (Latin American wages −40%, Colombia −84%, “305,000 excess infant deaths in Kenya alone”) could not be tied to a primary source; the Maduro capture (Jan 3, 2026) is real but its stated cause is the reel's framing; Cuba's claimed last-week fuel exhaustion with 22-hour blackouts is recent and unverified; the “British vote worth 41 times” IMF-quota figure was not pinned to a primary.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~27.4 MB); delivery ~27.9 MB webm, 178s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "1944-world-bank-president-001",
+        "1960-cuba-mallory-001",
+        "1971-petrodollar-saudi-001",
+        "1987-sankara-debt-001",
+        "2003-iraq-euro-oil-001",
+        "2011-libya-gold-dinar-001",
+        "2025-sanctions-mortality-lancet-001"
+    ],
+    "supporting_research_links": [
+        "https://history.state.gov/historicaldocuments/frus1958-60v06/d499",
+        "https://www.marxists.org/archive/sankara/1987/july/29.htm",
+        "https://www.bloomberg.com/news/features/2016-05-30/the-untold-story-behind-saudi-arabia-s-41-year-u-s-debt-secret",
+        "https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(25)00189-5/fulltext",
+        "https://en.wikipedia.org/wiki/President_of_the_World_Bank_Group"
+    ]
+}

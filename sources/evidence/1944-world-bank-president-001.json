@@ -1,0 +1,28 @@
+{
+    "id": "1944-world-bank-president-001",
+    "anchor": "y1944",
+    "year": 1944,
+    "era": "i",
+    "themes": [
+        "finance",
+        "inequality"
+    ],
+    "claim": "The International Monetary Fund and the World Bank were created at the 1944 Bretton Woods conference, with voting power weighted by each member's financial quota rather than by population — concentrating control in the wealthiest shareholders led by the United States. By an informal convention that has held unbroken since the institutions opened, the World Bank president has always been a U.S. national nominated by Washington, the Bank's largest shareholder, and the IMF managing director has always been a European.",
+    "sources": [
+        {
+            "label": "Wikipedia — President of the World Bank Group (the U.S./European nomination convention).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/President_of_the_World_Bank_Group",
+            "quote": "Traditionally, the World Bank Group president has always been an American citizen nominated by the United States, the Bank's largest shareholder, and the IMF's managing director has been a European citizen.",
+            "clip": "clips/1944-world-bank-president-001-00.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "Congressional Research Service — “Selecting the World Bank President” (R42463), on the U.S.-nominee tradition.",
+            "type": "primary",
+            "url": "https://www.everycrsreport.com/reports/R42463.html"
+        }
+    ],
+    "status": "verified",
+    "notes": "From @ojas_speaks reel DY0Oj5EpTHZ. The reel says “the president of the World Bank has always been American” (whisper transcribed it as “Royal Bank”) and points to quota-weighted voting; both are accurate. The specific “a British person's vote is worth 41 times” figure in the reel is a quota-weighting illustration that is hard to pin to a single primary, so it is not asserted here — the unbroken U.S.-president convention is the verifiable core."
+}
