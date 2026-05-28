@@ -103,29 +103,50 @@ The child learns these and refuses them. The book the reader holds is her tellin
 
 ## 3. the island
 
-> *On an island at sea, where no stranger could land,*
+> *On an island at sea where no stranger could land,*
 > *a blue-striped white temple stood gold on the sand.*
 > *A plane slid in low with no lights and no name,*
 > *and the children stepped down, two by two, as they came.*
 
 > *An old man was waiting. An old man kept score.*
-> *An old man was smiling and asking for more —*
-> *"Just one little party. Just one little dance.*
-> *Just one little gift. For a really great chance."*
+> *He opened the dance, and he bolted the door.*
+> *Round and round by the temple, and no one let go —*
+> *for to loosen a hand was to fall, and to show.*
 
-> *One snare of the fifty, with forty-nine more.*
-> *The dome of the temple yawned open: a door.*
-> *And no savior came. And the truth was not told.*
+> *There's a man with a saxophone, charm from the South;*
+> *there's a man with gold towers and a loud, boasting mouth;*
+> *there's a man who made angels to sell to the world;*
+> *there's a man who made windows where secrets unfurled.*
+
+> *There's a man who once governed a land by the sea;*
+> *there's a lawyer who swore he was clean as could be;*
+> *and each held the next by a thread of their shame —*
+> *fifty rings round the world, and they all knew the game.*
+
+> *For the threads all run up to one hand in the dark,*
+> *that can lift them or drop them like toys in a park.*
+> *And the dance never stops. And the truth was not told.*
 > *The temple still stands. And the file stays cold.*
 
-- **L1–2** — [Little Saint James](https://en.wikipedia.org/wiki/Little_Saint_James), Epstein's **70-acre** private island in the U.S. Virgin Islands. *Where no stranger could land* = the island's controlled-access privacy (guests flown or ferried in; no public landing) — the grounded replacement for the earlier rhyme-filler *where the sand was white*. The [structure](https://www.nbcnews.com/news/us-news/jeffrey-epstein-s-bizarre-blue-striped-building-private-island-raised-n1037511): a white cube with **eight large blue stripes**, capped with a **gold dome** (added July 2013–March 2014; blown off in Hurricane Maria, September 2017), officially a "music pavilion." *Stood gold on the sand* = the gold dome.
+The scene was reworked (per user direction) from a three-stanza vignette to a five-stanza danse macabre: momentum, a dance that cannot be stopped, the elites all holding each other's compromise and all strung from one hand above — the puppet-master thread from scene 2. The island guests are alluded to **obliquely** — each line names no one and describes a documented association the reader is meant to look up. Several of these people deny the allegations against them; the verse asserts nothing specific and draws no conclusion.
+
+- **L1–2** — [Little Saint James](https://en.wikipedia.org/wiki/Little_Saint_James), Epstein's **70-acre** private island in the U.S. Virgin Islands. *Where no stranger could land* = controlled-access privacy (guests flown or ferried in; no public landing). The [structure](https://www.nbcnews.com/news/us-news/jeffrey-epstein-s-bizarre-blue-striped-building-private-island-raised-n1037511): a white cube with **eight blue stripes** and a **gold dome** (added 2013–2014; blown off in Hurricane Maria, 2017), officially a "music pavilion." *Stood gold on the sand* = the gold dome — rendered in scene3a's art as the all-seeing eye (SYMBOL-KIT).
 - **L3** — the [Lolita Express](https://en.wikipedia.org/wiki/Jeffrey_Epstein), Epstein's Boeing 727 (registration **N908JE**).
-- **L4** — *Two by two* = the paired-recruitment pattern [Maxwell was convicted](https://en.wikipedia.org/wiki/Trial_of_Ghislaine_Maxwell) on, held over from scene 2 (*She brought them in pairs…*); the Noah's-ark cadence under it heightens the nursery register. The children disembark the 727 in pairs. Replaces the earlier opaque *runway and flame* and the filler *vanished the same*.
-- **L5–6** — Epstein's [little black book](https://www.epsteininvestigation.org/guides/epstein-black-book-explained): **97 pages, 1,500+ names**. His Palm Beach houseman [Alfredo Rodriguez](https://www.yahoo.com/news/articles/epstein-butler-tried-sell-little-151605928.html) tried to sell it to an undercover FBI agent for $50,000 in 2009.
-- **L7–8** — the grooming language. [Maxwell was convicted](https://en.wikipedia.org/wiki/Trial_of_Ghislaine_Maxwell) of recruiting minors under exactly this framing.
-- **L9** — the magnitude. Robert Steele, capture `sources/captures/DSkvtpnjtDQ`: *"Epstein is just one of 50 Mossad pedophilia entrapment operations across the United States… There are 49 others, all of them protected by the FBI."* **This is Steele's single-source assertion, not an independently verified count** — the referent is the captured reel, not an established fact; the verse renders it as the mirror's vision. *Snare* (not *isle*) keeps the count on the operations, not the island — there is one island (plus its sister Great St James), not fifty.
-- **L10** — *The dome of the temple yawned open: a door* makes the temple itself the maw — the gold dome (2013–2014, blown off in Hurricane Maria, 2017) reframed as a mouth.
-- **L11–12** — non-rescue, non-prosecution, persistence. *No savior came* = no rescuer or authority ever intervened (the FBI/CIA non-intervention — complicit *"from day one"*, protective). *The truth was not told* = the institutional non-coverage Steele names (*"the media today is not covering"*; CIA/FBI *"complicit from day one"*). *The file stays cold* = no federal investigation, the case unclosed (Epstein died pre-trial; co-conspirators uncharged). *The temple still stands* = the structure remains, the island [sold for $60 million in May 2023](https://en.wikipedia.org/wiki/Little_Saint_James). The closing couplet deliberately avoids an *-ay* ending so it does not jangle against the refrain's *grey/day*; the rewrite also clears both instances of the filler *the same* from the page.
+- **L4** — *two by two* = the paired-recruitment pattern [Maxwell was convicted](https://en.wikipedia.org/wiki/Trial_of_Ghislaine_Maxwell) on, held over from scenes 1–2; the Noah's-ark cadence heightens the nursery register.
+- **L5** — *An old man… kept score* = Epstein, keeper of the [little black book](https://www.epsteininvestigation.org/guides/epstein-black-book-explained) (**97 pages, 1,500+ names**). *Kept score* = the ledger.
+- **L6** — *He opened the dance, and he bolted the door* = Epstein begins the entrapment and seals the exit — the trap. Replaces the original grooming line (*"Just one little party…"*), cut at the user's direction.
+- **L7–8** — *Round and round… no one let go / for to loosen a hand was to fall, and to show* = the mutual-blackmail web: each guest is compromised, so to defect or expose another is to expose yourself — a danse macabre that cannot stop. The leverage is documented: [Maria Farmer](https://en.wikipedia.org/wiki/Maria_Farmer) testified the surveillance was to "create leverage over powerful people" (cf. [EFTA00090314](https://www.justice.gov/epstein/files/DataSet%209/EFTA00090314.pdf)).
+- **L9** — *a man with a saxophone, charm from the South* → **Bill Clinton**, oblique. The referent is the documented flight-log record on Epstein's jet; the saxophone + the South are the look-it-up tells. **Clinton denies visiting the island itself** — the line points at the *planes*, not an act on the sand, which is the defensible framing. (Clinton is treated directly in scene 4.)
+- **L10** — *a man with gold towers and a loud, boasting mouth* → **Donald Trump**, oblique — the 1990s–2000s social orbit, [black-book](https://www.epsteininvestigation.org/guides/epstein-black-book-explained) entries, the 1992 NBC Mar-a-Lago party footage. Balances Clinton (both presidents named-but-unnamed). **Trump denies wrongdoing** and later described a falling-out.
+- **L11** — *a man who made angels to sell to the world* → **Les Wexner**, oblique — the L Brands / [Victoria's Secret](https://en.wikipedia.org/wiki/Victoria%27s_Secret) "Angels"; Epstein's principal client, who gave him [power of attorney](https://en.wikipedia.org/wiki/Jeffrey_Epstein) over his finances (1991). The money behind the operation. **Wexner says Epstein misappropriated his funds.**
+- **L12** — *a man who made windows where secrets unfurled* → **Bill Gates**, oblique — Microsoft Windows; Gates met Epstein repeatedly after 2011 and flew on his jet ([NYT, 2019](https://www.nytimes.com/2019/10/12/business/jeffrey-epstein-bill-gates.html)). **Gates says he regrets the meetings and denies wrongdoing.**
+- **L13** — *a man who once governed a land by the sea* → **Ehud Barak**, former Israeli PM, oblique — photographed entering Epstein's NY residence (2019) and tied to Epstein-linked investment (Carbyne). Quietly carries the intelligence / puppet-master thread up to the service of scene 2. **Barak denies wrongdoing.**
+- **L14** — *a lawyer who swore he was clean as could be* → **Alan Dershowitz**, oblique — named by [Virginia Giuffre](https://en.wikipedia.org/wiki/Virginia_Giuffre) amid the litigation. **Dershowitz has repeatedly and vehemently denied the allegations.**
+- **L15** — *each held the next by a thread of their shame* = the mutual-blackmail standoff as the binding of the ring; the "threads" are the compromising material (the children = the leverage) — the engine that makes the web self-protecting.
+- **L16** — *fifty rings round the world, and they all knew the game* → Robert Steele, capture `sources/captures/DSkvtpnjtDQ`: *"Epstein is just one of 50 Mossad pedophilia entrapment operations… 49 others, all protected by the FBI."* **Single-source assertion, not an independently verified count** — rendered as the mirror's vision. Carries the original's *one snare of the fifty*.
+- **L17–18** — *the threads all run up to one hand in the dark / that can lift them or drop them like toys* = the puppet-master above the operators — scene 2's *masters unknown* / *hands up the stair*; [Ben-Menashe](https://en.wikipedia.org/wiki/Ari_Ben-Menashe)'s contested intelligence-origin and Steele's "all protected." The web is itself strung from, and controlled by, the handler above. Rendered in scene3b's art as the marionette hand.
+- **L19** — *the dance never stops* = the operation as ongoing, never halted — the momentum the scene is built on.
+- **L20** — *the truth was not told / the temple still stands / the file stays cold* = institutional non-coverage (Steele: *"the media today is not covering"*), the structure remaining (the island [sold for $60M in May 2023](https://en.wikipedia.org/wiki/Little_Saint_James)), the case cold (Epstein died pre-trial; co-conspirators largely uncharged). Carried from the original close.
 
 > *And the mirror went still. And the mirror went grey.*
 > *A small golden key lay at her feet at the dawn of the day.*

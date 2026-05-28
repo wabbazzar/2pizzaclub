@@ -136,7 +136,7 @@
             .nav a { font-size: 1.4rem; }
         }
 
-        /* ---- illustrated two-up spreads (scenes i + ii share this layout) ---- */
+        /* ---- illustrated two-up spreads (scenes i, ii, iii share this layout) ---- */
         .spread { position: fixed; inset: 0; z-index: 6; overflow: hidden; background: #15100c; }
         .spread .panel { position: absolute; top: 0; height: 100vh; width: 52vw; }
         .spread .panel.left  { left: 0; }
@@ -192,6 +192,19 @@
         #ii .cap.r-left  { left: 30%; top: 24%; width: 40%; }
         #ii .cap.r-right { left: 71%; top: 72%; width: 42%; }
 
+        /* scene iii — the island (danse macabre) */
+        #iii .panel.left .art  { background-image: url('art/scene3a.png?v=1'); background-position: center 50%;
+                                 clip-path: polygon(0 0, 100% 0, 92.3% 100%, 0 100%); }
+        #iii .panel.right .art { background-image: url('art/scene3b.png?v=1'); background-position: center 48%;
+                                 clip-path: polygon(7.7% 0, 100% 0, 100% 100%, 0 100%); }
+        /* text-dense scene: every cap carries a soft scrim (desktop too) for legibility
+           over the busy dance art; r-left left edge kept clear of the diagonal seam */
+        #iii .cap { background: radial-gradient(ellipse 90% 122% at 50% 50%, rgba(8,6,4,.76) 44%, rgba(8,6,4,.44) 72%, rgba(8,6,4,0) 90%);
+                    padding: 1.05em 1.05em; border-radius: 13px; }
+        #iii .cap.left    { left: 49%; top: 34%; width: 47%; }
+        #iii .cap.r-left  { left: 33%; top: 37%; width: 44%; }
+        #iii .cap.r-right { left: 69%; top: 78%; width: 46%; }
+
         /* narrow screens: caps reflow onto brighter/edge areas, so give them a
            dark scrim for legibility (large desktop keeps the clean look) */
         @media (max-width: 1200px) {
@@ -209,6 +222,9 @@
             .spread .cap.left    { bottom: 5%; }
             .spread .cap.r-left   { top: 5%; bottom: auto; }
             .spread .cap.r-right  { bottom: 5%; }
+            /* scene iii carries two stacked caps on the dance panel; give it a taller
+               panel on mobile so the top-pinned + bottom-pinned caps never overlap */
+            #iii .panel.right { aspect-ratio: 3 / 5; }
             .spread .seam, .spread .head { display: none; }
             .spread .nav { position: static; transform: none; margin: 1rem auto; }
             body:has(.scene.active .spread) .container { padding: 0 0 1.2rem; }
@@ -312,29 +328,52 @@
         </article>
 
         <article class="scene" id="iii">
-            <h2 class="scene-title">iii. the island</h2>
-            <div class="verse">
-                <p>On an island at sea, where no stranger could land,<br>
-                a blue-striped white temple stood gold on the sand.<br>
-                A plane slid in low with no lights and no name,<br>
-                and the children stepped down, two by two, as they came.</p>
-                <p>An old man was waiting. An old man kept score.<br>
-                An old man was smiling and asking for more —<br>
-                "Just one little party. Just one little dance.<br>
-                Just one little gift. For a really great chance."</p>
-                <p>One snare of the fifty, with forty-nine more.<br>
-                The dome of the temple yawned open: a door.<br>
-                And no savior came. And the truth was not told.<br>
-                The temple still stands. And the file stays cold.</p>
-            </div>
-            <div class="interlude">
-                And the mirror went still. And the mirror went grey.<br>
-                A small golden key lay at her feet at the dawn of the day.
-            </div>
-            <div class="nav">
-                <a class="prev" href="#ii">←</a>
-                <span class="counter">iii / vii</span>
-                <a class="next" href="#iv">→</a>
+            <div class="spread">
+                <a class="timeline-link" href="/">← timeline</a>
+                <div class="panel left">
+                    <div class="art"></div>
+                    <div class="cap left">
+                        <p>On an island at sea where no stranger could land,<br>
+                        a blue-striped white temple stood gold on the sand.<br>
+                        A plane slid in low with no lights and no name,<br>
+                        and the children stepped down, two by two, as they came.</p>
+                        <p>An old man was waiting. An old man kept score.<br>
+                        He opened the dance, and he bolted the door.<br>
+                        Round and round by the temple, and no one let go —<br>
+                        for to loosen a hand was to fall, and to show.</p>
+                    </div>
+                </div>
+                <div class="panel right">
+                    <div class="art"></div>
+                    <div class="cap r-left">
+                        <p>There's a man with a saxophone, charm from the South;<br>
+                        there's a man with gold towers and a loud, boasting mouth;<br>
+                        there's a man who made angels to sell to the world;<br>
+                        there's a man who made windows where secrets unfurled.</p>
+                        <p>There's a man who once governed a land by the sea;<br>
+                        there's a lawyer who swore he was clean as could be;<br>
+                        and each held the next by a thread of their shame —<br>
+                        fifty rings round the world, and they all knew the game.</p>
+                    </div>
+                    <div class="cap r-right">
+                        <p>For the threads all run up to one hand in the dark,<br>
+                        that can lift them or drop them like toys in a park.<br>
+                        And the dance never stops. And the truth was not told.<br>
+                        The temple still stands. And the file stays cold.</p>
+                    </div>
+                </div>
+                <svg class="seam" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <line x1="52" y1="0" x2="48" y2="100" stroke="#caa24e" stroke-width="0.35" opacity="0.8"/>
+                </svg>
+                <div class="head">
+                    <div class="t">Someone's Eating Babies</div>
+                    <div class="s">iii. the island</div>
+                </div>
+                <div class="nav">
+                    <a class="prev" href="#ii">←</a>
+                    <span class="counter">iii / vii</span>
+                    <a class="next" href="#iv">→</a>
+                </div>
             </div>
         </article>
 
@@ -452,7 +491,7 @@
             var order = ['i','ii','iii','iv','v','vi','vii'];
             // Illustrated scenes carry a text-free cover the smoke dissolves between.
             // Text scenes have no image to smoke through, so they fall back to a plain swap.
-            var COVERS = { i: 'art/cover-i.jpg?v=1', ii: 'art/cover-ii.jpg?v=1' };
+            var COVERS = { i: 'art/cover-i.jpg?v=1', ii: 'art/cover-ii.jpg?v=1', iii: 'art/cover-iii.jpg?v=1' };
             var FLUID_SRC = '/fluid.js?v=7';
             var DUR = 2000;
             var SMOKE_COLOR = { r: 0.17, g: 0.13, b: 0.09 };
