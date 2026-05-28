@@ -7,8 +7,20 @@
         "epstein",
         "finance"
     ],
-    "claim": "Cosmetics heir and World Jewish Congress president Ronald Lauder appears hundreds of times across the Jeffrey Epstein files released by the Department of Justice, documenting contact that continued years after Epstein's 2008 conviction — meetings, home visits, and business dealings as late as 2017, with the two men's assistants coordinating breakfasts, dinners and museum visits. Lauder, Epstein and Apollo co-founder Leon Black formed a company, Friends Ventures LLC, to jointly hold a $25 million artwork on a rotating schedule. Lauder did not respond to requests for comment and has not been accused of any wrongdoing in connection with Epstein.",
+    "claim": "Jeffrey Epstein's own iMessages in the House Oversight estate release show him dealing with cosmetics heir and World Jewish Congress president Ronald Lauder in February 2017. On Feb. 22, 2017 Epstein writes that he is \"meeting with lauder re alzheimer on friday, also with jim watson\" — Lauder is a major Alzheimer's-research funder and \"jim watson\" is Nobel laureate James Watson, who had his own Epstein ties; days earlier Epstein writes \"I sent bill a note to suggest he talk to lauder.\" Outside reporting on the same DOJ release identifies the figure as Ronald Lauder, names him across hundreds of documents with contact continuing to 2017, and details a Friends Ventures LLC art arrangement with Epstein and Apollo's Leon Black. Lauder is not accused of any wrongdoing in connection with Epstein.",
     "sources": [
+        {
+            "label": "House Oversight estate release — Epstein iMessage archive, HOUSE_OVERSIGHT_027165 (Feb. 22, 2017), browsable in the 2pizzaclub EFTA message viewer.",
+            "type": "primary",
+            "url": "https://2pizzaclub.com/efta/messages.html",
+            "quote": "I'm meeting with lauder re alzheimer on friday, also with jim watson. you can tell bill he is always welcome to ask questions"
+        },
+        {
+            "label": "House Oversight estate release — Epstein iMessage archive, HOUSE_OVERSIGHT_027148 (Feb. 18, 2017).",
+            "type": "primary",
+            "url": "https://2pizzaclub.com/efta/messages.html",
+            "quote": "I sent bill a note to suggest he talk to lauder. donald also thinks bill wants not to help america first"
+        },
         {
             "label": "The Daily Pennsylvanian — \"Files show years of communication between former Penn donor Ronald Lauder and Jeffrey Epstein\" (Feb. 11, 2026).",
             "type": "secondary",
@@ -21,13 +33,8 @@
             "label": "ARTnews — \"Collector Ronald Lauder Repeatedly Named in Newly Released Jeffrey Epstein Files.\"",
             "type": "secondary",
             "url": "https://www.artnews.com/art-news/news/ronald-lauder-jeffrey-epstein-files-1234772151/"
-        },
-        {
-            "label": "Epstein Web Tracker — Ronald Lauder profile (appearances across the DOJ-released case documents).",
-            "type": "primary",
-            "url": "https://epsteinweb.org/ronald-lauder/"
         }
     ],
     "status": "verified",
-    "notes": "From @newswithbobby reel DXwwFlPRy5h (\"America you are occupied\"). The documented Lauder–Epstein contact (DOJ files, reported by The Daily Pennsylvanian and ARTnews in Feb 2026, with the Friends Ventures/Leon Black art deal) is the one clean, independently-sourced receipt in the reel; it stands on its own and Lauder is not accused of wrongdoing. The reel's surrounding claims are Group C and are NOT asserted here: that Lauder's son-in-law Kevin Warsh — confirmed Fed chair on May 13, 2026 and married to Lauder's daughter Jane Lauder — is therefore tied to Epstein/Maxwell (no evidence links Warsh to Epstein); the \"occupied America\" thesis; and the claim that an EFTA document shows an Ehud Barak signature on a West Bank document (the speaker's interpretation of a library image, unverified). Barak's own extensive Epstein ties are already covered at 2010-barak-epstein-meetings-001."
+    "notes": "From @newswithbobby reel DXwwFlPRy5h. Grounded in our own EFTA corpus: \"lauder\" appears in Epstein's Feb 2017 iMessages (HOUSE_OVERSIGHT_027148 and 027165, estate dataset). Identification as Ronald Lauder rests on the Alzheimer's-funding and James-Watson context, which matches the Feb-2017 Lauder–Watson meeting reported by The Daily Pennsylvanian and ARTnews on the same DOJ release; \"donald\" (Trump) also fits Ronald Lauder's politics. \"bill\" in this chain is tied by the /efta/ findings to Bill Gates / the Gates Foundation (PEPFAR thread). Lauder is not accused of wrongdoing. The reel's Group C claims — that this ties Fed chair Kevin Warsh (married to Lauder's daughter Jane) to Epstein/Maxwell, the \"occupied America\" thesis, and the unverified Barak/West-Bank-document reading — are documented in the capture's implied_frame, not asserted here. Ehud Barak's own Epstein ties: 2010-barak-epstein-meetings-001."
 }
