@@ -598,7 +598,10 @@
                                     to.style.opacity = '1';
                                     setTimeout(function () {            // once faded in, drop the outgoing + clear the inline overrides
                                         from.classList.remove('active', 'caps-in');
-                                        to.style.zIndex = ''; to.style.transition = ''; to.style.opacity = ''; to.style.animation = '';
+                                        // keep animation:'none' — clearing it reverts to .scene.active's `animation: fadeIn`,
+                                        // which RE-FIRES the entrance (snap to opacity 0 + translateY 6px) right after the
+                                        // cross-fade: the end-of-transition background blink/jump (cache-independent).
+                                        to.style.zIndex = ''; to.style.transition = ''; to.style.opacity = '';
                                     }, 1100);
                                 });
                             },
