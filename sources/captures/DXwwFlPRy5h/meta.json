@@ -1,0 +1,31 @@
+{
+    "id": "DXwwFlPRy5h",
+    "url": "https://www.instagram.com/reel/DXwwFlPRy5h/",
+    "platform": "instagram",
+    "captured_at": "2026-05-28",
+    "handle": "@newswithbobby",
+    "author_display_name": "Bobby Baran",
+    "posted_at": "2026-04-30",
+    "engagement": {
+        "likes": 7019,
+        "comments": 243
+    },
+    "caption": "Oh this isn't good 04/30/26",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "",
+    "audio_content_summary": "Walks through a document from the EFTA \"Full Epstein Library,\" claiming page one is missing and that the remaining pages show photos including a map/coastline the speaker reads as the West Bank and Gaza, bearing a signature he attributes to former Israeli PM Ehud Barak. From there: that Barak's presence in the files means Epstein was an intelligence operation tied to Israel (\"our greatest ally\"), and a second thread arguing the incoming Federal Reserve chair is compromised because he is married into the Lauder family, which the speaker links to Epstein and Ghislaine Maxwell. Closes on an \"America you are occupied\" thesis and teases a follow-up \"theory\" video.",
+    "implied_frame": "A guilt-by-association argument, explicitly framed by the speaker as his \"theory.\" One verifiable kernel was turned into a record: Ronald Lauder's documented appearances in the DOJ-released Epstein files (Lauder is not accused of wrongdoing). Group C, NOT asserted: (1) that an EFTA library image shows a Barak signature on a West Bank document — the speaker's interpretation of a partial document he says is missing page one; (2) that the Fed chair Kevin Warsh — confirmed May 13, 2026, married to Ronald Lauder's daughter Jane Lauder — is therefore connected to Epstein or Maxwell; there is no evidence linking Warsh to Epstein, and stating the marriage as proof of compromise is defamatory insinuation; (3) the \"occupied America\" / dual-loyalty framing. Ehud Barak's own extensive, separately-documented Epstein ties are already recorded at 2010-barak-epstein-meetings-001 and were not duplicated.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~16.3 MB); delivery ~17.2 MB webm, 179s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2019-lauder-epstein-files-001"
+    ],
+    "supporting_research_links": [
+        "https://www.thedp.com/article/2026/02/penn-ronald-lauder-jeffrey-epstein-relationship-wharton",
+        "https://www.artnews.com/art-news/news/ronald-lauder-jeffrey-epstein-files-1234772151/",
+        "https://epsteinweb.org/ronald-lauder/",
+        "https://www.timesofisrael.com/jeffrey-epstein-was-ehud-baraks-business-partner-as-late-as-2015-report/"
+    ]
+}
