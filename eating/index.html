@@ -549,6 +549,31 @@
                 setTimeout(function () { SF.config.DENSITY_DISSIPATION = 2.2; }, 1300);    // then let the veil clear off the new scene
                 if (onDone) setTimeout(onDone, 2000);
             }
+            // ---- scene art preload ----
+            // Each spread's PNGs are ~1MB, and a .scene sits display:none until it goes
+            // active — so the browser won't fetch a scene's art until that flip. Mid-
+            // transition that bares the empty #15100c spread until the art finally loads
+            // (the "hiccup" at the end of the dissolve). Fetch every illustrated scene up
+            // front during idle, and gate each swap on its art being ready, so the reveal
+            // is instant — never the bare spread.
+            var artReady = {};
+            function preloadScene(id) {
+                if (artReady[id]) return artReady[id];
+                var node = el(id), urls = [];
+                if (node) {
+                    var arts = node.querySelectorAll('.spread .art');
+                    for (var i = 0; i < arts.length; i++) {
+                        var m = getComputedStyle(arts[i]).backgroundImage.match(/url\(["']?(.*?)["']?\)/);
+                        if (m && m[1] && m[1] !== 'none') urls.push(m[1]);   // same URL+query as the CSS → shares the cache
+                    }
+                }
+                artReady[id] = Promise.all(urls.map(function (u) {
+                    return new Promise(function (res) { var im = new Image(); im.onload = im.onerror = function () { res(); }; im.src = u; });
+                }));
+                return artReady[id];
+            }
+            function preloadAllScenes() { Object.keys(ILLUSTRATED).forEach(preloadScene); }
+
             function smokeTransition(fromId, toId) {
                 el(fromId).classList.remove('caps-in');                 // 1) verse fades OUT first
                 ensureLibs().then(function () {
@@ -560,17 +585,22 @@
                             function () {   // 3) cross-fade the live new scene in over the old, under the smoke (caps stay hidden)
                                 if (swapped) return; swapped = true;
                                 var to = el(toId), from = el(fromId);
-                                to.style.animation = 'none';            // suppress the default 0.4s fadeIn — we want a longer, pure-opacity fade
-                                to.style.opacity = '0';
-                                to.style.zIndex = '7';                  // incoming spread above the outgoing, both under the smoke (z20)
-                                to.classList.add('active');
-                                void to.offsetWidth;                    // commit opacity:0 before transitioning from it
-                                to.style.transition = 'opacity 1000ms ease';
-                                to.style.opacity = '1';
-                                setTimeout(function () {                // once faded in, drop the outgoing + clear the inline overrides
-                                    from.classList.remove('active', 'caps-in');
-                                    to.style.zIndex = ''; to.style.transition = ''; to.style.opacity = ''; to.style.animation = '';
-                                }, 1100);
+                                // gate the reveal on the destination art being loaded so the swap
+                                // never bares the empty #15100c spread; capped so a slow/failed
+                                // fetch can't stall the dissolve (it'll just reveal a touch sooner)
+                                Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 1200); }) ]).then(function () {
+                                    to.style.animation = 'none';        // suppress the default 0.4s fadeIn — we want a longer, pure-opacity fade
+                                    to.style.opacity = '0';
+                                    to.style.zIndex = '7';              // incoming spread above the outgoing, both under the smoke (z20)
+                                    to.classList.add('active');
+                                    void to.offsetWidth;                // commit opacity:0 before transitioning from it
+                                    to.style.transition = 'opacity 1000ms ease';
+                                    to.style.opacity = '1';
+                                    setTimeout(function () {            // once faded in, drop the outgoing + clear the inline overrides
+                                        from.classList.remove('active', 'caps-in');
+                                        to.style.zIndex = ''; to.style.transition = ''; to.style.opacity = ''; to.style.animation = '';
+                                    }, 1100);
+                                });
                             },
                             function () {                                                                  // 4) fade the veil away to reveal the live new scene, then bring the verse IN
                                 smokeCanvas.style.transition = 'opacity 700ms ease-out'; smokeCanvas.style.opacity = '0';
@@ -602,6 +632,10 @@
             }
             window.addEventListener('hashchange', show);
             window.addEventListener('DOMContentLoaded', show);
+            window.addEventListener('DOMContentLoaded', function () {    // warm the spread art during idle so the first dissolve never reveals a bare spread
+                if (window.requestIdleCallback) requestIdleCallback(preloadAllScenes, { timeout: 2500 });
+                else setTimeout(preloadAllScenes, 1200);
+            });
             window.addEventListener('keydown', function (e) {
                 var i = order.indexOf(curId());
                 if (e.key === 'ArrowRight' && i < order.length - 1) navigate(order[i + 1]);
