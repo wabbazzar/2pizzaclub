@@ -67,7 +67,7 @@ Concrete settings (chamber, stairs), recognizable historical referent (the pries
 > When down came a blackbird
 > And bit her on the nose.
 
-Layered tableau (king + queen + maid), tight rhyme, and the closing landing the violence on the working woman, not on the royals. Class is in the structure. The book's scene 4 (the clintons) follows the same architecture — president, wife, the laptop, the disposable functionaries who watched it.
+Layered tableau (king + queen + maid), tight rhyme, and the closing landing the violence on the working woman, not on the royals. Class is in the structure. The book's parked clintons draft (now in git history) follows the same architecture — president, wife, the laptop, the disposable functionaries who watched it.
 
 **Three Blind Mice**:
 
