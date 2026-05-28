@@ -26,18 +26,30 @@
     const fetchJSON = (url) => fetch(url, { cache: 'no-cache' }).then((r) => r.ok ? r.json() : null).catch(() => null);
 
     async function build() {
-        const evidenceManifest = await fetchJSON('/sources/evidence/manifest.json') || { records: [] };
-        const capturesManifest = await fetchJSON('/sources/captures/manifest.json') || { captures: [] };
+        const [evidenceManifest, capturesManifest] = await Promise.all([
+            fetchJSON('/sources/evidence/manifest.json'),
+            fetchJSON('/sources/captures/manifest.json'),
+        ]);
+        const captureIds = (capturesManifest && capturesManifest.captures) || [];
+        const recordFiles = (evidenceManifest && evidenceManifest.records) || [];
 
         const nodes = new Map(); // id -> node
         const edges = [];
         const addNode = (n) => { if (!nodes.has(n.id)) nodes.set(n.id, n); };
         const addEdge = (from, to, kind) => edges.push({ from, to, kind });
 
+        // Fetch every capture meta and evidence record concurrently. The results stay
+        // index-aligned with captureIds / recordFiles, so the graph is then built in the
+        // same order as a serial walk would produce — identical nodes/edges, parallel I/O.
+        const [captureMetas, records] = await Promise.all([
+            Promise.all(captureIds.map((cid) => fetchJSON(`/sources/captures/${cid}/meta.json`))),
+            Promise.all(recordFiles.map((fname) => fetchJSON(`/sources/evidence/${fname}`))),
+        ]);
+
         // captures + their evidence links
-        for (const cid of capturesManifest.captures || []) {
-            const meta = await fetchJSON(`/sources/captures/${cid}/meta.json`);
-            if (!meta) continue;
+        captureIds.forEach((cid, ci) => {
+            const meta = captureMetas[ci];
+            if (!meta) return;
             addNode({
                 id: `capture:${cid}`,
                 type: 'capture',
@@ -52,13 +64,13 @@
             for (const eid of meta.evidence_records || []) {
                 addEdge(`capture:${cid}`, `claim:${eid}`, 'spawns');
             }
-        }
+        });
 
         // evidence records
-        for (const fname of evidenceManifest.records || []) {
+        recordFiles.forEach((fname, ri) => {
             const id = fname.replace(/\.json$/, '');
-            const rec = await fetchJSON(`/sources/evidence/${fname}`);
-            if (!rec) continue;
+            const rec = records[ri];
+            if (!rec) return;
             addNode({
                 id: `claim:${id}`,
                 type: 'claim',
@@ -100,7 +112,7 @@
                 });
                 addEdge(`claim:${id}`, sid, 'cites');
             }
-        }
+        });
 
         // stats
         const byType = {};
