@@ -227,8 +227,12 @@
             #iii .panel.right { aspect-ratio: 3 / 5; }
             .spread .seam, .spread .head { display: none; }
             .spread .nav { position: static; transform: none; margin: 1rem auto; }
-            body:has(.scene.active .spread) .container { padding: 0 0 1.2rem; }
-            body:has(.scene.active .spread) .filemark, body:has(.scene.active .spread) .book-title { display: none; }
+            body:has(.scene.active .spread) .container { padding: 0; }
+            /* illustrated spreads carry their own in-art "← timeline"; hide the document
+               filemark/title AND the footer back-link (the duplicate second back link) */
+            body:has(.scene.active .spread) .filemark,
+            body:has(.scene.active .spread) .book-title,
+            body:has(.scene.active .spread) .footer-back { display: none; }
         }
     </style>
 </head>
@@ -612,15 +616,32 @@
                     }, 360);
                 });
             }
+            // Mobile: scenes are position:relative and the page scrolls, so the desktop
+            // overlay cross-fade can't apply. Veil the viewport with transparent smoke,
+            // hard-swap the (preloaded) scene + jump to top under the thickest smoke, clear.
+            function smokeTransitionMobile(fromId, toId) {
+                ensureLibs().then(function () {
+                    if (!window.SmokeFX) { setActive(toId, true); window.scrollTo(0, 0); return; }   // engine failed → plain swap
+                    smokeCanvas.style.transition = 'none'; smokeCanvas.style.opacity = '1';
+                    runVeil(
+                        function () {   // under the thickest smoke: swap to the loaded scene + scroll to top
+                            Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 1200); }) ]).then(function () {
+                                setActive(toId, true);          // mobile caps are opacity:1, so they ride in with the scene
+                                window.scrollTo(0, 0);
+                            });
+                        },
+                        function () { smokeCanvas.style.transition = 'opacity 700ms ease-out'; smokeCanvas.style.opacity = '0'; });
+                });
+            }
             function navigate(toId) {
                 if (navigate._busy) return;
                 var fromId = curId();
                 if (toId === fromId || order.indexOf(toId) === -1) return;
                 var mobile = window.matchMedia && window.matchMedia('(max-width: 760px)').matches;
-                if (!reduced && !mobile && ILLUSTRATED[fromId] && ILLUSTRATED[toId]) {  // desktop + both illustrated → smoke veil
+                if (!reduced && ILLUSTRATED[fromId] && ILLUSTRATED[toId]) {  // both illustrated → smoke veil (desktop cross-fade / mobile hard-swap)
                     navigate._busy = true;
                     history.replaceState(null, '', '#' + toId);          // move the hash without firing the plain handler
-                    smokeTransition(fromId, toId);
+                    if (mobile) smokeTransitionMobile(fromId, toId); else smokeTransition(fromId, toId);
                     setTimeout(function () { navigate._busy = false; }, DUR + 900);
                 } else {
                     location.hash = toId;                                // plain path → hashchange → show()
