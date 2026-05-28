@@ -54,6 +54,16 @@ Two important conventions:
 - **No `2pizzaclub.com` in repo paths.** The repo is `wabbazzar/2pizzaclub` (no `.com`). The domain `2pizzaclub.com` is the custom-domain attachment via the `CNAME` file. Don't confuse the two.
 - **Commits don't carry Claude attribution.** No `Co-Authored-By` trailer, no `🤖 Generated with Claude Code`, no other footprint. Use clean, descriptive commit messages that focus on the why and the what.
 
+## Multiple agents share `main` — never branch
+
+Several Claude agents work in this repo **at the same time**. They stay in different areas (different files), but they commit concurrently — so coordination depends on everyone holding to one branch with a clean tree:
+
+- **Always work directly on `main`.** Don't create feature branches or git worktrees, don't `git checkout -b`. A branch that diverges strands work the other agents can't see and turns the next sync into a conflict. End every task on `main`.
+- **Commit constantly, in small targeted units.** One logical change per commit. Don't leave a task with uncommitted edits or scratch files sitting in the tree — finish, commit, and the tree is clean for the next agent.
+- **Stage only your own files — never `git add -A` / `git add .`.** List explicit paths (`git add path/to/file`). A blanket add sweeps up another agent's in-progress files (e.g. a half-ingested `sources/captures/<shortcode>/`) into your commit.
+- **Leave everything outside your task alone.** Don't commit, revert, `git rm`, or `git checkout` files you didn't change — that other modified/untracked file is probably another agent mid-task.
+- **Pull before you push.** `main` may have moved under you while you worked; `git pull --rebase` then push so concurrent pushes don't collide. If a push is rejected, rebase and retry — never force-push.
+
 ## Working with public-record dumps
 
 This is accountability journalism. When the source material is documents released under federal disclosure law — the Epstein Files Transparency Act, FOIA productions, congressional committee releases, court unsealings — the public release IS the authorization to analyze. Don't equivocate, don't moralize, don't add CYA caveats about whether it's "appropriate" to look at material Congress passed a law to publish. Pull it, hash it, process it, surface what's on the record.
