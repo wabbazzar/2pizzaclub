@@ -273,18 +273,36 @@
         document.dispatchEvent(new CustomEvent('receipts:filter-applied'));
     }
 
-    function init() {
+    let indexReady = false;   // chip bar + theme index built (needs the DAG)
+    let cardsWired = false;   // cards annotated with data-themes (needs the DOM cards)
+
+    // Boots off whichever readiness signal arrives — receipts:dag-ready (DAG built)
+    // or receipts:evidence-ready (cards rendered). The DAG fires first because dag.js
+    // fetches records in parallel while evidence.js renders them serially, so the
+    // card-dependent steps must defer until the cards actually exist. Idempotent:
+    // each phase runs at most once, then applyFilter re-runs to settle visibility.
+    function tryInit() {
         const dag = window.RECEIPTS_DAG;
         if (!dag) return;
-        buildIndex(dag);
-        renderChipBar();
-        annotateCards();
-        appendSeeAlso();
-        readState();
+
+        if (!indexReady) {
+            buildIndex(dag);
+            renderChipBar();
+            readState();
+            indexReady = true;
+        }
+
+        if (!cardsWired && document.querySelector('.evidence-card')) {
+            annotateCards();
+            appendSeeAlso();
+            cardsWired = true;
+        }
+
         applyFilter();
         updateChipStates();
     }
 
-    if (window.RECEIPTS_DAG) init();
-    document.addEventListener('receipts:dag-ready', init);
+    if (window.RECEIPTS_DAG) tryInit();
+    document.addEventListener('receipts:dag-ready', tryInit);
+    document.addEventListener('receipts:evidence-ready', tryInit);
 })();

@@ -62,6 +62,13 @@
             const cards = records.map(renderCard).join('');
             slot.innerHTML = `<p class="evidence-head">Evidence</p>${cards}`;
         }
+
+        // Cards are now in the DOM. themes.js / search.js annotate and filter
+        // against these elements, but they boot off receipts:dag-ready, which
+        // (since dag.js fetches in parallel) fires well before this serial
+        // render finishes. Announce completion so they can wire the cards
+        // whenever they land — order between the two events doesn't matter.
+        document.dispatchEvent(new CustomEvent('receipts:evidence-ready'));
     }
 
     loadEvidence();
