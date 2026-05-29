@@ -125,27 +125,18 @@
             font-family: 'Quicksand', sans-serif;
             text-transform: lowercase;
         }
-        /* one back-to-timeline link at the top of the document for the text scenes
-           (illustrated spreads carry their own in-art "← timeline" inside .spread,
-           and the fixed full-bleed spread covers this one on desktop) */
-        .back-to-timeline {
-            display: inline-block;
+        .footer-back {
             font-family: 'Quicksand', sans-serif;
-            font-size: 0.75rem;
+            font-size: 0.8rem;
+            text-align: center;
+            margin-top: 3.5rem;
+            letter-spacing: 0.08em;
+        }
+        .footer-back a {
             color: #6a5a4a;
             text-decoration: none;
-            letter-spacing: 0.06em;
-            margin-bottom: 1.5rem;
         }
-        .back-to-timeline:hover { color: #8b3a3a; }
-        /* short fade-to-black between pages — replaces the smoke veil, which
-           overlapped two live scenes through a thinning veil and read as a blink.
-           Pure CSS opacity over a fixed black div: in at 250ms, hold under it for
-           the swap, out at 250ms. */
-        .page-fade { position: fixed; inset: 0; background: #000; opacity: 0;
-                     pointer-events: none; z-index: 25;
-                     transition: opacity 250ms ease; }
-        .page-fade.up { opacity: 1; }
+        .footer-back a:hover { color: #8b3a3a; }
         @media (max-width: 480px) {
             .book-title { font-size: 2.2rem; }
             .scene-title { font-size: 1.7rem; }
@@ -191,8 +182,8 @@
         #i .cap.left    { left: 35%; top: 80%; width: 50%; }
         #i .cap.r-left  { left: 24%; top: 53%; width: 30%; }
         #i .cap.r-right { left: 80%; top: 66%; width: 35%; }
-        /* verse caps fade out-before / in-after every page change, so the
-           fade-to-black runs on text-free covers (image only, never image + text) */
+        /* verse caps fade out-before / in-after every page change, so the smoke
+           dissolve runs on text-free covers (image only, never image + text) */
         .spread .cap { opacity: 0; transition: opacity 700ms ease-out; }
         .scene.caps-in .cap { opacity: 1; }
         @media (prefers-reduced-motion: reduce) { .spread .cap { opacity: 1 !important; transition: none; } }
@@ -269,18 +260,16 @@
             .spread .seam, .spread .head { display: none; }
             .spread .nav { position: static; transform: none; margin: 1rem auto; }
             body:has(.scene.active .spread) .container { padding: 0; }
-            /* illustrated spreads carry their own in-art "← timeline" inside .spread;
-               on mobile the spread is in normal flow, so hide the document header
-               and the top back-link behind it */
+            /* illustrated spreads carry their own in-art "← timeline"; hide the document
+               filemark/title AND the footer back-link (the duplicate second back link) */
             body:has(.scene.active .spread) .filemark,
             body:has(.scene.active .spread) .book-title,
-            body:has(.scene.active .spread) .back-to-timeline { display: none; }
+            body:has(.scene.active .spread) .footer-back { display: none; }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <a class="back-to-timeline" href="/">← timeline</a>
         <div class="filemark">// 2pizzaclub.com — eating</div>
         <h1 class="book-title">Someone's Eating Babies</h1>
 
@@ -551,16 +540,23 @@
             </div>
         </article>
 
+        <div class="footer-back">
+            <a href="/">← timeline</a>
+        </div>
     </div>
-
-    <div class="page-fade" id="page-fade"></div>
 
     <script>
         (function () {
             var order = ['i','ii','iii','iv','v','vi','vii'];
-            // Illustrated scenes get their art preloaded; navigation between any pair of
-            // scenes (illustrated or text) goes through the same short fade-to-black overlay.
+            // Illustrated scenes get the smoke veil between them; text scenes fall back to a plain swap.
+            // No cover screenshots anymore — the smoke is transparent and the LIVE page is the backdrop.
             var ILLUSTRATED = { i: 1, ii: 1, iii: 1, iv: 1 };
+            var FLUID_SRC = '/fluid.js?v=8';
+            var DUR = 2000;
+            // Warm amber, matching the timeline→book egg (the smoke-dissolve prototype's hue). In the
+            // engine's TRANSPARENT mode the dye's brightness IS its alpha, so this is scaled brighter
+            // than the prototype's dark 0.17 to still veil the dark-page→dark-page swap under it.
+            var SMOKE_COLOR = { r: 0.44, g: 0.30, b: 0.15 };
             var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
             function el(id) { return document.getElementById(id); }
@@ -573,12 +569,60 @@
                 if (withCaps) requestAnimationFrame(function () { requestAnimationFrame(function () { s.classList.add('caps-in'); }); });
             }
 
+            // ---- smoke dissolve (shares /fluid.js / window.SmokeFX with the timeline egg) ----
+            var smokeCanvas = null, libsPromise = null, fingers = [], strokeRAF = 0, drawUntil = 0, strokeFrame = 0;
+            function ensureLibs() {
+                if (libsPromise) return libsPromise;
+                smokeCanvas = document.createElement('canvas');
+                smokeCanvas.id = 'smoke-fx-canvas';   // fluid.js binds to this id on load
+                Object.assign(smokeCanvas.style, { position: 'fixed', inset: '0', width: '100%', height: '100%', pointerEvents: 'none', zIndex: '20', opacity: '0' });
+                document.body.appendChild(smokeCanvas);
+                libsPromise = window.SmokeFX ? Promise.resolve() : new Promise(function (res, rej) {
+                    var s = document.createElement('script'); s.src = FLUID_SRC; s.onload = res; s.onerror = rej; document.head.appendChild(s);
+                });
+                return libsPromise;
+            }
+            function strokeStep() {  // virtual "fingers" drift + splat with the sim's own pointer math
+                var SF = window.SmokeFX, F = SF.config.SPLAT_FORCE;
+                var emit = (strokeFrame++ % 3) === 0;   // every third frame — slower emission, calmer drifting smoke
+                for (var i = 0; i < fingers.length; i++) {
+                    var f = fingers[i];
+                    f.vx += (Math.random() - 0.5) * 0.0012; f.vy += (Math.random() - 0.5) * 0.0012;   // gentle wander -> organic curve
+                    f.vx = Math.max(-0.011, Math.min(0.011, f.vx)); f.vy = Math.max(-0.011, Math.min(0.011, f.vy));
+                    f.x += f.vx; f.y += f.vy;
+                    if (f.x < 0.06 || f.x > 0.94) { f.vx *= -1; f.x = Math.max(0.06, Math.min(0.94, f.x)); }
+                    if (f.y < 0.06 || f.y > 0.94) { f.vy *= -1; f.y = Math.max(0.06, Math.min(0.94, f.y)); }
+                    if (emit) SF.splat(f.x, f.y, f.vx * F, f.vy * F, SMOKE_COLOR);
+                }
+                if (performance.now() < drawUntil) strokeRAF = requestAnimationFrame(strokeStep);
+            }
+            function runVeil(onSwap) {
+                var SF = window.SmokeFX;
+                SF.config.TRANSPARENT = true;             // render smoke with alpha — the live page shows through
+                if (SF.endTransition) SF.endTransition(); // make sure the old opaque cover-composite path is OFF
+                // a centered 5-finger bloom that curls and settles (reads as smoke), not a sweep or a boil
+                SF.config.DENSITY_DISSIPATION = 1.0; SF.config.VELOCITY_DISSIPATION = 0.9; SF.config.CURL = 26; SF.config.SPLAT_RADIUS = 0.42;
+                fingers = [ {x:.50,y:.58,vx:0,vy:-.007}, {x:.33,y:.50,vx:-.006,vy:-.003}, {x:.67,y:.50,vx:.006,vy:-.003}, {x:.40,y:.62,vx:-.004,vy:.005}, {x:.60,y:.62,vx:.004,vy:.005} ];
+                drawUntil = performance.now() + 1300;      // keep emitting so the veil thickens
+                cancelAnimationFrame(strokeRAF); strokeRAF = requestAnimationFrame(strokeStep);
+                setTimeout(onSwap, 850);                   // swap the live scene under the thick veil; the caller clears the veil only once the swap is settled
+            }
+            // Clear the veil: bump dye dissipation AND fade the canvas together, and ONLY
+            // after the swap is fully settled. (These used to be two fixed timers —
+            // dissipation→2.2 at 1300ms, opacity→0 at 2000ms — both decoupled from when the
+            // cross-fade actually finished, so the dye thinned mid-cross-fade and the
+            // half-swapped scene showed through the dissolving smoke: the "jump/blink".)
+            function clearVeil() {
+                window.SmokeFX.config.DENSITY_DISSIPATION = 2.2;
+                smokeCanvas.style.transition = 'opacity 700ms ease-out'; smokeCanvas.style.opacity = '0';
+            }
             // ---- scene art preload ----
             // Each spread's PNGs are ~1MB, and a .scene sits display:none until it goes
-            // active — so the browser won't fetch a scene's art until that flip, and a swap
-            // would bare the empty #15100c spread until the art finally loads. Fetch every
-            // illustrated scene up front during idle, and gate the swap-under-black on its
-            // art being ready, so the reveal is instant — never the bare spread.
+            // active — so the browser won't fetch a scene's art until that flip. Mid-
+            // transition that bares the empty #15100c spread until the art finally loads
+            // (the "hiccup" at the end of the dissolve). Fetch every illustrated scene up
+            // front during idle, and gate each swap on its art being ready, so the reveal
+            // is instant — never the bare spread.
             var artReady = {};
             function preloadScene(id) {
                 if (artReady[id]) return artReady[id];
@@ -597,36 +641,70 @@
             }
             function preloadAllScenes() { Object.keys(ILLUSTRATED).forEach(preloadScene); }
 
-            // ---- page transition: short fade to black ----
-            // The .page-fade div (z25) goes opaque in 250ms, the hard swap happens under it,
-            // then it fades back to clear in 250ms. The verse caps fade out on the way in
-            // (their own 700ms .cap transition) and fade in on the way out, riding the black.
-            // No two scenes are ever visible at once — no overlap to read as a blink.
-            function fadeTransition(fromId, toId) {
-                var fade = el('page-fade');
-                el(fromId).classList.remove('caps-in');                  // caps fade out under the rising black
-                fade.classList.add('up');                                // 250ms to opaque
-                setTimeout(function () {                                 // at peak: hard-swap, gated on art being ready so the reveal is never the bare #15100c
-                    Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 600); }) ]).then(function () {
-                        setActive(toId, false);
-                        window.scrollTo({ top: 0, behavior: 'instant' });
-                        requestAnimationFrame(function () { requestAnimationFrame(function () {
-                            fade.classList.remove('up');                                                  // 250ms from opaque back to clear
-                            setTimeout(function () { el(toId).classList.add('caps-in'); }, 120);          // caps fade in just behind the black-clear
-                        }); });
-                    });
-                }, 260);
+            function smokeTransition(fromId, toId) {
+                el(fromId).classList.remove('caps-in');                 // 1) verse fades OUT first
+                ensureLibs().then(function () {
+                    if (!window.SmokeFX) { setActive(toId, true); return; }   // engine failed → plain swap
+                    setTimeout(function () {                             // 2) once caps are gone, raise the transparent smoke canvas over the live page
+                        smokeCanvas.style.transition = 'none'; smokeCanvas.style.opacity = '1';
+                        var swapped = false;
+                        runVeil(function () {   // 3) cross-fade the live new scene in over the old, all under the thick veil (caps stay hidden)
+                            if (swapped) return; swapped = true;
+                            var to = el(toId), from = el(fromId);
+                            // gate the reveal on the destination art being loaded so the swap
+                            // never bares the empty #15100c spread; capped so a slow/failed
+                            // fetch can't stall the dissolve (it'll just reveal a touch sooner)
+                            Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 1200); }) ]).then(function () {
+                                to.style.animation = 'none';        // suppress the default 0.4s fadeIn — we want a longer, pure-opacity fade
+                                to.style.opacity = '0';
+                                to.style.zIndex = '7';              // incoming spread above the outgoing, both under the smoke (z20)
+                                to.classList.add('active');
+                                void to.offsetWidth;                // commit opacity:0 before transitioning from it
+                                to.style.transition = 'opacity 1000ms ease';
+                                to.style.opacity = '1';
+                                setTimeout(function () {            // 4) cross-fade done → drop the outgoing + clear overrides, THEN clear the veil (never before)
+                                    from.classList.remove('active', 'caps-in');
+                                    // keep animation:'none' — clearing it reverts to .scene.active's `animation: fadeIn`,
+                                    // which RE-FIRES the entrance (snap to opacity 0 + translateY 6px) right after the
+                                    // cross-fade: the end-of-transition background blink/jump (cache-independent).
+                                    to.style.zIndex = ''; to.style.transition = ''; to.style.opacity = '';
+                                    clearVeil();                                                          // veil clears only now, over the fully-settled new scene
+                                    setTimeout(function () { el(toId).classList.add('caps-in'); }, 300);  // then bring the verse IN
+                                }, 1100);
+                            });
+                        });
+                    }, 360);
+                });
             }
-
+            // Mobile: scenes are position:relative and the page scrolls, so the desktop
+            // overlay cross-fade can't apply. Veil the viewport with transparent smoke,
+            // hard-swap the (preloaded) scene + jump to top under the thickest smoke, clear.
+            function smokeTransitionMobile(fromId, toId) {
+                ensureLibs().then(function () {
+                    if (!window.SmokeFX) { setActive(toId, true); window.scrollTo(0, 0); return; }   // engine failed → plain swap
+                    smokeCanvas.style.transition = 'none'; smokeCanvas.style.opacity = '1';
+                    runVeil(function () {   // under the thick veil: hard-swap to the loaded scene + scroll to top, then clear
+                        Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 1200); }) ]).then(function () {
+                            setActive(toId, true);          // mobile caps are opacity:1, so they ride in with the scene
+                            window.scrollTo(0, 0);
+                            setTimeout(clearVeil, 250);     // hold the veil a beat over the swap, then clear
+                        });
+                    });
+                });
+            }
             function navigate(toId) {
                 if (navigate._busy) return;
                 var fromId = curId();
                 if (toId === fromId || order.indexOf(toId) === -1) return;
-                if (reduced) { location.hash = toId; return; }            // reduce-motion: plain hashchange swap, no fade
-                navigate._busy = true;
-                history.replaceState(null, '', '#' + toId);               // move the hash without firing the plain handler
-                fadeTransition(fromId, toId);
-                setTimeout(function () { navigate._busy = false; }, 1000);
+                var mobile = window.matchMedia && window.matchMedia('(max-width: 760px)').matches;
+                if (!reduced && ILLUSTRATED[fromId] && ILLUSTRATED[toId]) {  // both illustrated → smoke veil (desktop cross-fade / mobile hard-swap)
+                    navigate._busy = true;
+                    history.replaceState(null, '', '#' + toId);          // move the hash without firing the plain handler
+                    if (mobile) smokeTransitionMobile(fromId, toId); else smokeTransition(fromId, toId);
+                    setTimeout(function () { navigate._busy = false; }, DUR + 1500);  // veil now clears only after the swap settles, so the sequence runs a touch longer
+                } else {
+                    location.hash = toId;                                // plain path → hashchange → show()
+                }
             }
 
             function show() {   // direct load / back-forward / plain (text-scene) nav
@@ -637,7 +715,7 @@
             }
             window.addEventListener('hashchange', show);
             window.addEventListener('DOMContentLoaded', show);
-            window.addEventListener('DOMContentLoaded', function () {    // warm the spread art during idle so the first fade-swap never reveals a bare spread
+            window.addEventListener('DOMContentLoaded', function () {    // warm the spread art during idle so the first dissolve never reveals a bare spread
                 if (window.requestIdleCallback) requestIdleCallback(preloadAllScenes, { timeout: 2500 });
                 else setTimeout(preloadAllScenes, 1200);
             });
@@ -646,7 +724,7 @@
                 if (e.key === 'ArrowRight' && i < order.length - 1) navigate(order[i + 1]);
                 else if (e.key === 'ArrowLeft' && i > 0) navigate(order[i - 1]);
             });
-            document.addEventListener('click', function (e) {           // route prev/next through navigate() so every nav runs the fade-to-black
+            document.addEventListener('click', function (e) {           // route prev/next through navigate() so illustrated↔illustrated smokes
                 var a = e.target.closest && e.target.closest('.scene .nav a[href^="#"]');
                 if (!a || a.classList.contains('disabled')) return;
                 e.preventDefault(); navigate(a.getAttribute('href').slice(1));
