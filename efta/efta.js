@@ -112,9 +112,17 @@ function fmtDatasets(d) {
 
 function renderHeaderMeta() {
     const c = state.data.corpus || {};
+    const pages = state.data.pages || [];
     const g = state.data.generated_at ? state.data.generated_at.slice(0, 10) : '';
-    $('meta-summary').textContent =
-        `${c.n_documents ?? '—'} docs · ${state.data.pages.length} pages · ${g}`;
+    // "docs scanned" = the full-corpus figure the dossier pass reports. It lives
+    // only inside the person_dossier subtitle ("N curated persons · M docs
+    // scanned full corpus"), which the pipeline regenerates — so parse it from
+    // there rather than trust the much-narrower corpus.n_documents subset.
+    let docsLabel = `${c.n_documents ?? '—'} docs`;
+    const dossier = pages.find(p => p.kind === 'person_dossier' && p.subtitle);
+    const m = dossier && dossier.subtitle.match(/([\d,]+)\s*docs\s*scanned/i);
+    if (m) docsLabel = `${Number(m[1].replace(/,/g, '')).toLocaleString()} docs scanned`;
+    $('meta-summary').textContent = `${docsLabel} · ${pages.length} pages · ${g}`;
 }
 
 function renderTOC() {
