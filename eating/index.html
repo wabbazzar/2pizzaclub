@@ -596,7 +596,7 @@
                 }
                 if (performance.now() < drawUntil) strokeRAF = requestAnimationFrame(strokeStep);
             }
-            function runVeil(onSwap, onDone) {
+            function runVeil(onSwap) {
                 var SF = window.SmokeFX;
                 SF.config.TRANSPARENT = true;             // render smoke with alpha — the live page shows through
                 if (SF.endTransition) SF.endTransition(); // make sure the old opaque cover-composite path is OFF
@@ -605,9 +605,16 @@
                 fingers = [ {x:.50,y:.58,vx:0,vy:-.007}, {x:.33,y:.50,vx:-.006,vy:-.003}, {x:.67,y:.50,vx:.006,vy:-.003}, {x:.40,y:.62,vx:-.004,vy:.005}, {x:.60,y:.62,vx:.004,vy:.005} ];
                 drawUntil = performance.now() + 1300;      // keep emitting so the veil thickens
                 cancelAnimationFrame(strokeRAF); strokeRAF = requestAnimationFrame(strokeStep);
-                setTimeout(onSwap, 850);                                                  // swap the live scene under the thickest smoke
-                setTimeout(function () { SF.config.DENSITY_DISSIPATION = 2.2; }, 1300);    // then let the veil clear off the new scene
-                if (onDone) setTimeout(onDone, 2000);
+                setTimeout(onSwap, 850);                   // swap the live scene under the thick veil; the caller clears the veil only once the swap is settled
+            }
+            // Clear the veil: bump dye dissipation AND fade the canvas together, and ONLY
+            // after the swap is fully settled. (These used to be two fixed timers —
+            // dissipation→2.2 at 1300ms, opacity→0 at 2000ms — both decoupled from when the
+            // cross-fade actually finished, so the dye thinned mid-cross-fade and the
+            // half-swapped scene showed through the dissolving smoke: the "jump/blink".)
+            function clearVeil() {
+                window.SmokeFX.config.DENSITY_DISSIPATION = 2.2;
+                smokeCanvas.style.transition = 'opacity 700ms ease-out'; smokeCanvas.style.opacity = '0';
             }
             // ---- scene art preload ----
             // Each spread's PNGs are ~1MB, and a .scene sits display:none until it goes
@@ -641,34 +648,31 @@
                     setTimeout(function () {                             // 2) once caps are gone, raise the transparent smoke canvas over the live page
                         smokeCanvas.style.transition = 'none'; smokeCanvas.style.opacity = '1';
                         var swapped = false;
-                        runVeil(
-                            function () {   // 3) cross-fade the live new scene in over the old, under the smoke (caps stay hidden)
-                                if (swapped) return; swapped = true;
-                                var to = el(toId), from = el(fromId);
-                                // gate the reveal on the destination art being loaded so the swap
-                                // never bares the empty #15100c spread; capped so a slow/failed
-                                // fetch can't stall the dissolve (it'll just reveal a touch sooner)
-                                Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 1200); }) ]).then(function () {
-                                    to.style.animation = 'none';        // suppress the default 0.4s fadeIn — we want a longer, pure-opacity fade
-                                    to.style.opacity = '0';
-                                    to.style.zIndex = '7';              // incoming spread above the outgoing, both under the smoke (z20)
-                                    to.classList.add('active');
-                                    void to.offsetWidth;                // commit opacity:0 before transitioning from it
-                                    to.style.transition = 'opacity 1000ms ease';
-                                    to.style.opacity = '1';
-                                    setTimeout(function () {            // once faded in, drop the outgoing + clear the inline overrides
-                                        from.classList.remove('active', 'caps-in');
-                                        // keep animation:'none' — clearing it reverts to .scene.active's `animation: fadeIn`,
-                                        // which RE-FIRES the entrance (snap to opacity 0 + translateY 6px) right after the
-                                        // cross-fade: the end-of-transition background blink/jump (cache-independent).
-                                        to.style.zIndex = ''; to.style.transition = ''; to.style.opacity = '';
-                                    }, 1100);
-                                });
-                            },
-                            function () {                                                                  // 4) fade the veil away to reveal the live new scene, then bring the verse IN
-                                smokeCanvas.style.transition = 'opacity 700ms ease-out'; smokeCanvas.style.opacity = '0';
-                                setTimeout(function () { el(toId).classList.add('caps-in'); }, 300);
+                        runVeil(function () {   // 3) cross-fade the live new scene in over the old, all under the thick veil (caps stay hidden)
+                            if (swapped) return; swapped = true;
+                            var to = el(toId), from = el(fromId);
+                            // gate the reveal on the destination art being loaded so the swap
+                            // never bares the empty #15100c spread; capped so a slow/failed
+                            // fetch can't stall the dissolve (it'll just reveal a touch sooner)
+                            Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 1200); }) ]).then(function () {
+                                to.style.animation = 'none';        // suppress the default 0.4s fadeIn — we want a longer, pure-opacity fade
+                                to.style.opacity = '0';
+                                to.style.zIndex = '7';              // incoming spread above the outgoing, both under the smoke (z20)
+                                to.classList.add('active');
+                                void to.offsetWidth;                // commit opacity:0 before transitioning from it
+                                to.style.transition = 'opacity 1000ms ease';
+                                to.style.opacity = '1';
+                                setTimeout(function () {            // 4) cross-fade done → drop the outgoing + clear overrides, THEN clear the veil (never before)
+                                    from.classList.remove('active', 'caps-in');
+                                    // keep animation:'none' — clearing it reverts to .scene.active's `animation: fadeIn`,
+                                    // which RE-FIRES the entrance (snap to opacity 0 + translateY 6px) right after the
+                                    // cross-fade: the end-of-transition background blink/jump (cache-independent).
+                                    to.style.zIndex = ''; to.style.transition = ''; to.style.opacity = '';
+                                    clearVeil();                                                          // veil clears only now, over the fully-settled new scene
+                                    setTimeout(function () { el(toId).classList.add('caps-in'); }, 300);  // then bring the verse IN
+                                }, 1100);
                             });
+                        });
                     }, 360);
                 });
             }
@@ -679,14 +683,13 @@
                 ensureLibs().then(function () {
                     if (!window.SmokeFX) { setActive(toId, true); window.scrollTo(0, 0); return; }   // engine failed → plain swap
                     smokeCanvas.style.transition = 'none'; smokeCanvas.style.opacity = '1';
-                    runVeil(
-                        function () {   // under the thickest smoke: swap to the loaded scene + scroll to top
-                            Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 1200); }) ]).then(function () {
-                                setActive(toId, true);          // mobile caps are opacity:1, so they ride in with the scene
-                                window.scrollTo(0, 0);
-                            });
-                        },
-                        function () { smokeCanvas.style.transition = 'opacity 700ms ease-out'; smokeCanvas.style.opacity = '0'; });
+                    runVeil(function () {   // under the thick veil: hard-swap to the loaded scene + scroll to top, then clear
+                        Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 1200); }) ]).then(function () {
+                            setActive(toId, true);          // mobile caps are opacity:1, so they ride in with the scene
+                            window.scrollTo(0, 0);
+                            setTimeout(clearVeil, 250);     // hold the veil a beat over the swap, then clear
+                        });
+                    });
                 });
             }
             function navigate(toId) {
@@ -698,7 +701,7 @@
                     navigate._busy = true;
                     history.replaceState(null, '', '#' + toId);          // move the hash without firing the plain handler
                     if (mobile) smokeTransitionMobile(fromId, toId); else smokeTransition(fromId, toId);
-                    setTimeout(function () { navigate._busy = false; }, DUR + 900);
+                    setTimeout(function () { navigate._busy = false; }, DUR + 1500);  // veil now clears only after the swap settles, so the sequence runs a touch longer
                 } else {
                     location.hash = toId;                                // plain path → hashchange → show()
                 }
