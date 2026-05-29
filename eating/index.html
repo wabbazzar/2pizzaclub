@@ -205,6 +205,19 @@
         #iii .cap.r-left  { left: 33%; top: 38%; width: 44%; }
         #iii .cap.r-right { left: 57%; top: 78%; width: 46%; }
 
+        /* scene iv — the pyramid (as above, so below) */
+        #iv .panel.left .art  { background-image: url('art/scene4a.png?v=1'); background-position: center 50%;
+                                clip-path: polygon(0 0, 100% 0, 92.3% 100%, 0 100%); }
+        #iv .panel.right .art { background-image: url('art/scene4b.png?v=1'); background-position: center 50%;
+                                clip-path: polygon(7.7% 0, 100% 0, 100% 100%, 0 100%); }
+        /* dense Bruegel/Bosch tableau: every cap carries a scrim for legibility;
+           right caps kept clear of the diagonal seam (~52% top → 48% bottom) */
+        #iv .cap { background: radial-gradient(ellipse 90% 122% at 50% 50%, rgba(8,6,4,.82) 44%, rgba(8,6,4,.5) 72%, rgba(8,6,4,0) 90%);
+                   padding: 1.05em 1.05em; border-radius: 13px; }
+        #iv .cap.left    { left: 27%; top: 40%; width: 44%; }
+        #iv .cap.r-left  { left: 73%; top: 26%; width: 40%; }
+        #iv .cap.r-right { left: 73%; top: 74%; width: 42%; }
+
         /* narrow screens: caps reflow onto brighter/edge areas, so give them a
            dark scrim for legibility (large desktop keeps the clean look) */
         @media (max-width: 1200px) {
@@ -382,37 +395,52 @@
         </article>
 
         <article class="scene" id="iv">
-            <h2 class="scene-title">iv. the pyramid</h2>
-            <div class="verse">
-                <p>The hand drew its threads up and out of the day,<br>
-                and the room pulled apart, and the walls fell away.<br>
-                A pyramid rose round the child and the glass,<br>
-                with an eye in its cap made of gold and of brass.</p>
-                <p>And the eye, looking down, showed a shore by the sea<br>
-                where the children fell thin as the leaves off a tree.<br>
-                By thousands they fell — and the whole world could see.<br>
-                And the whole world looked on. And it let the eye be.</p>
-                <p>But the thing at the top cannot enter alone.<br>
-                It must wait to be asked. It must wait to be shown<br>
-                it is wanted, and welcomed, and given its bread.<br>
-                So the world sent its coin. And the world bowed its head.</p>
-                <p>For as it is above, so it is below:<br>
-                every wage, every tax, every yes makes it grow.<br>
-                A coin in the plate and a name on the deed,<br>
-                and each was a stone. And the stone made it feed.</p>
-                <p>And the more that it ate, the more wide it would yawn:<br>
-                more tolls, and more taxes, and more children drawn.<br>
-                The eye never blinked, and the eye never tired,<br>
-                and nobody asked it, and no one inquired.</p>
-            </div>
-            <div class="interlude">
-                And the mirror went still. And the mirror went grey.<br>
-                A small folded dollar lay at her feet at the dawn of the day.
-            </div>
-            <div class="nav">
-                <a class="prev" href="#iii">←</a>
-                <span class="counter">iv / vii</span>
-                <a class="next" href="#v">→</a>
+            <div class="spread">
+                <a class="timeline-link" href="/">← timeline</a>
+                <div class="panel left">
+                    <div class="art"></div>
+                    <div class="cap left">
+                        <p>The hand drew its threads up and out of the day,<br>
+                        and the room pulled apart, and the walls fell away.<br>
+                        A pyramid rose round the child and the glass,<br>
+                        with an eye in its cap made of gold and of brass.</p>
+                        <p>And the eye, looking down, showed a shore by the sea<br>
+                        where the children fell thin as the leaves off a tree.<br>
+                        By thousands they fell — and the whole world could see.<br>
+                        And the whole world looked on. And it let the eye be.</p>
+                    </div>
+                </div>
+                <div class="panel right">
+                    <div class="art"></div>
+                    <div class="cap r-left">
+                        <p>But the thing at the top cannot enter alone.<br>
+                        It must wait to be asked. It must wait to be shown<br>
+                        it is wanted, and welcomed, and given its bread.<br>
+                        So the world sent its coin. And the world bowed its head.</p>
+                    </div>
+                    <div class="cap r-right">
+                        <p>For as it is above, so it is below:<br>
+                        every wage, every tax, every yes makes it grow.<br>
+                        A coin in the plate and a name on the deed,<br>
+                        and each was a stone. And the stone made it feed.</p>
+                        <p>And the more that it ate, the more wide it would yawn:<br>
+                        more tolls, and more taxes, and more children drawn.<br>
+                        The eye never blinked, and the eye never tired,<br>
+                        and nobody asked it, and no one inquired.</p>
+                    </div>
+                </div>
+                <svg class="seam" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <line x1="52" y1="0" x2="48" y2="100" stroke="#caa24e" stroke-width="0.35" opacity="0.8"/>
+                </svg>
+                <div class="head">
+                    <div class="t">Someone's Eating Babies</div>
+                    <div class="s">iv. the pyramid</div>
+                </div>
+                <div class="nav">
+                    <a class="prev" href="#iii">←</a>
+                    <span class="counter">iv / vii</span>
+                    <a class="next" href="#v">→</a>
+                </div>
             </div>
         </article>
 
