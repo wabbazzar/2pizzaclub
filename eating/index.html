@@ -125,18 +125,14 @@
             font-family: 'Quicksand', sans-serif;
             text-transform: lowercase;
         }
-        .footer-back {
-            font-family: 'Quicksand', sans-serif;
-            font-size: 0.8rem;
-            text-align: center;
-            margin-top: 3.5rem;
-            letter-spacing: 0.08em;
-        }
-        .footer-back a {
-            color: #6a5a4a;
-            text-decoration: none;
-        }
-        .footer-back a:hover { color: #8b3a3a; }
+        /* short fade-to-black BRIDGE inside the smoke transition. Layered above the
+           smoke canvas (z25 > z20), so at the swap moment the page briefly goes pure
+           black — the hard-swap is hidden under it, and the new scene fades IN from
+           the black as it drops. The smoke continues its bloom + clear underneath. */
+        .page-fade { position: fixed; inset: 0; background: #000; opacity: 0;
+                     pointer-events: none; z-index: 25;
+                     transition: opacity 250ms ease; }
+        .page-fade.up { opacity: 1; }
         @media (max-width: 480px) {
             .book-title { font-size: 2.2rem; }
             .scene-title { font-size: 1.7rem; }
@@ -261,10 +257,9 @@
             .spread .nav { position: static; transform: none; margin: 1rem auto; }
             body:has(.scene.active .spread) .container { padding: 0; }
             /* illustrated spreads carry their own in-art "← timeline"; hide the document
-               filemark/title AND the footer back-link (the duplicate second back link) */
+               filemark/title behind them on mobile (where the spread is in normal flow) */
             body:has(.scene.active .spread) .filemark,
-            body:has(.scene.active .spread) .book-title,
-            body:has(.scene.active .spread) .footer-back { display: none; }
+            body:has(.scene.active .spread) .book-title { display: none; }
         }
     </style>
 </head>
@@ -313,7 +308,7 @@
                 </div>
                 <div class="nav">
                     <a class="prev disabled">←</a>
-                    <span class="counter">i / vii</span>
+                    <span class="counter">i / vi</span>
                     <a class="next" href="#ii">→</a>
                 </div>
             </div>
@@ -357,7 +352,7 @@
                 </div>
                 <div class="nav">
                     <a class="prev" href="#i">←</a>
-                    <span class="counter">ii / vii</span>
+                    <span class="counter">ii / vi</span>
                     <a class="next" href="#iii">→</a>
                 </div>
             </div>
@@ -407,7 +402,7 @@
                 </div>
                 <div class="nav">
                     <a class="prev" href="#ii">←</a>
-                    <span class="counter">iii / vii</span>
+                    <span class="counter">iii / vi</span>
                     <a class="next" href="#iv">→</a>
                 </div>
             </div>
@@ -457,7 +452,7 @@
                 </div>
                 <div class="nav">
                     <a class="prev" href="#iii">←</a>
-                    <span class="counter">iv / vii</span>
+                    <span class="counter">iv / vi</span>
                     <a class="next" href="#v">→</a>
                 </div>
             </div>
@@ -517,8 +512,8 @@
             </div>
         </article>
 
-        <article class="scene" id="vii">
-            <h2 class="scene-title">vii. the telling</h2>
+        <article class="scene" id="vi">
+            <h2 class="scene-title">vi. the telling</h2>
             <div class="verse">
                 <p>The child gathered her six things and laid them in row —<br>
                 a shoe and a camera, a key with no glow,<br>
@@ -534,16 +529,15 @@
                 She opened her mouth — and you heard it begin.</p>
             </div>
             <div class="nav">
-                <a class="prev" href="#vi">←</a>
-                <span class="counter">vii / vii</span>
+                <a class="prev" href="#v">←</a>
+                <span class="counter">vi / vi</span>
                 <a class="next disabled">→</a>
             </div>
         </article>
 
-        <div class="footer-back">
-            <a href="/">← timeline</a>
-        </div>
     </div>
+
+    <div class="page-fade" id="page-fade"></div>
 
     <script>
         (function () {
@@ -648,30 +642,23 @@
                     setTimeout(function () {                             // 2) once caps are gone, raise the transparent smoke canvas over the live page
                         smokeCanvas.style.transition = 'none'; smokeCanvas.style.opacity = '1';
                         var swapped = false;
-                        runVeil(function () {   // 3) cross-fade the live new scene in over the old, all under the thick veil (caps stay hidden)
+                        runVeil(function () {   // 3) at peak veil: SHORT FADE-TO-BLACK BRIDGE — black up over the smoke, hard-swap at peak black, black drops to reveal the new scene FROM the black (which doubles as the new scene's fade-in)
                             if (swapped) return; swapped = true;
-                            var to = el(toId), from = el(fromId);
-                            // gate the reveal on the destination art being loaded so the swap
-                            // never bares the empty #15100c spread; capped so a slow/failed
-                            // fetch can't stall the dissolve (it'll just reveal a touch sooner)
-                            Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 1200); }) ]).then(function () {
-                                to.style.animation = 'none';        // suppress the default 0.4s fadeIn — we want a longer, pure-opacity fade
-                                to.style.opacity = '0';
-                                to.style.zIndex = '7';              // incoming spread above the outgoing, both under the smoke (z20)
-                                to.classList.add('active');
-                                void to.offsetWidth;                // commit opacity:0 before transitioning from it
-                                to.style.transition = 'opacity 1000ms ease';
-                                to.style.opacity = '1';
-                                setTimeout(function () {            // 4) cross-fade done → drop the outgoing + clear overrides, THEN clear the veil (never before)
+                            var fade = el('page-fade');
+                            fade.classList.add('up');                                // 250ms to opaque black (z25 over the smoke z20)
+                            setTimeout(function () {                                 // at peak black: hard-swap, gated on art being ready so the reveal is never bare #15100c
+                                Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 600); }) ]).then(function () {
+                                    var to = el(toId), from = el(fromId);
                                     from.classList.remove('active', 'caps-in');
-                                    // keep animation:'none' — clearing it reverts to .scene.active's `animation: fadeIn`,
-                                    // which RE-FIRES the entrance (snap to opacity 0 + translateY 6px) right after the
-                                    // cross-fade: the end-of-transition background blink/jump (cache-independent).
-                                    to.style.zIndex = ''; to.style.transition = ''; to.style.opacity = '';
-                                    clearVeil();                                                          // veil clears only now, over the fully-settled new scene
-                                    setTimeout(function () { el(toId).classList.add('caps-in'); }, 300);  // then bring the verse IN
-                                }, 1100);
-                            });
+                                    to.style.animation = 'none';                     // suppress the default 0.4s fadeIn — the black-drop IS the fade-in
+                                    to.classList.add('active');
+                                    requestAnimationFrame(function () { requestAnimationFrame(function () {
+                                        fade.classList.remove('up');                                                  // 250ms drop from black — smoke veil continues underneath
+                                        clearVeil();                                                                  // smoke begins fading alongside the black
+                                        setTimeout(function () { el(toId).classList.add('caps-in'); }, 380);          // caps fade in once the bridge is gone and smoke is mostly cleared
+                                    }); });
+                                });
+                            }, 260);
                         });
                     }, 360);
                 });
@@ -683,12 +670,19 @@
                 ensureLibs().then(function () {
                     if (!window.SmokeFX) { setActive(toId, true); window.scrollTo(0, 0); return; }   // engine failed → plain swap
                     smokeCanvas.style.transition = 'none'; smokeCanvas.style.opacity = '1';
-                    runVeil(function () {   // under the thick veil: hard-swap to the loaded scene + scroll to top, then clear
-                        Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 1200); }) ]).then(function () {
-                            setActive(toId, true);          // mobile caps are opacity:1, so they ride in with the scene
-                            window.scrollTo(0, 0);
-                            setTimeout(clearVeil, 250);     // hold the veil a beat over the swap, then clear
-                        });
+                    runVeil(function () {   // under the thick veil: short fade-to-black bridge → hard-swap → drop black + clear veil
+                        var fade = el('page-fade');
+                        fade.classList.add('up');                                    // 250ms to opaque black
+                        setTimeout(function () {
+                            Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 600); }) ]).then(function () {
+                                setActive(toId, true);                                // mobile caps are opacity:1, ride in with the scene
+                                window.scrollTo(0, 0);
+                                requestAnimationFrame(function () { requestAnimationFrame(function () {
+                                    fade.classList.remove('up');                      // 250ms drop from black
+                                    setTimeout(clearVeil, 100);                       // smoke clears just behind the black
+                                }); });
+                            });
+                        }, 260);
                     });
                 });
             }
