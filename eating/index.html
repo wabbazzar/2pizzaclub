@@ -193,13 +193,13 @@
                                 clip-path: polygon(0 0, 100% 0, 92.3% 100%, 0 100%); }
         #ii .panel.right .art { background-image: url('art/scene2b.png?v=2'); background-position: center 48%;
                                 clip-path: polygon(7.7% 0, 100% 0, 100% 100%, 0 100%); }
-        /* caps slotted into the lowest-edge regions (drafts/illustrations/lowdetail.py) */
-        #ii .cap.left    { left: 26%; top: 22%; width: 44%; }
-        /* r-left center bumped 24%→30% so its left edge clears the diagonal seam
-           (seam runs ~52% at top → 48% at bottom of the spread; at width 40% the
-           cap extended past the seam and clipped leading letters of long lines) */
-        #ii .cap.r-left  { left: 30%; top: 24%; width: 40%; }
-        #ii .cap.r-right { left: 71%; top: 72%; width: 42%; }
+        /* caps placed on the lowest-edge regions via drafts/illustrations/lowdetail.py:
+           left cap drops below the head onto the dark sky; the right panel's two
+           stanzas run diagonal (r-left ↖ off the eye/pendants, r-right ↘ on the calm
+           lower water) in reading order, left edges clear of the diagonal seam */
+        #ii .cap.left    { left: 24%; top: 28%; width: 44%; }
+        #ii .cap.r-left  { left: 30%; top: 45%; width: 40%; }
+        #ii .cap.r-right { left: 71%; top: 75%; width: 42%; }
 
         /* scene iii — the island (danse macabre) */
         #iii .panel.left .art  { background-image: url('art/scene3a.png?v=1'); background-position: center 50%;
@@ -207,12 +207,15 @@
         #iii .panel.right .art { background-image: url('art/scene3b.png?v=1'); background-position: center 48%;
                                  clip-path: polygon(7.7% 0, 100% 0, 100% 100%, 0 100%); }
         /* text-dense scene: every cap carries a soft scrim (desktop too) for legibility
-           over the busy dance art; r-left left edge kept clear of the diagonal seam */
+           over the busy dance art. placed via drafts/illustrations/lowdetail.py: the
+           left cap shifts off the temple onto the calm left sky/sea; the right panel's
+           half-tall r-left + r-right run diagonal (r-left ↗, r-right ↙) to keep the
+           centre hand + child clear, scrim-carried, left edges clear of the seam */
         #iii .cap { background: radial-gradient(ellipse 90% 122% at 50% 50%, rgba(8,6,4,.76) 44%, rgba(8,6,4,.44) 72%, rgba(8,6,4,0) 90%);
                     padding: 1.05em 1.05em; border-radius: 13px; }
-        #iii .cap.left    { left: 49%; top: 36%; width: 47%; }
-        #iii .cap.r-left  { left: 33%; top: 38%; width: 44%; }
-        #iii .cap.r-right { left: 57%; top: 78%; width: 46%; }
+        #iii .cap.left    { left: 24%; top: 34%; width: 47%; }
+        #iii .cap.r-left  { left: 72%; top: 38%; width: 44%; }
+        #iii .cap.r-right { left: 30%; top: 79%; width: 46%; }
 
         /* scene iv — the pyramid (as above, so below) */
         #iv .panel.left .art  { background-image: url('art/scene4a.png?v=1'); background-position: center 50%;

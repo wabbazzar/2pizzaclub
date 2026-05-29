@@ -133,7 +133,8 @@ def main():
     ap.add_argument("--win-b", default="0.42,0.24", help="W,H of box B (panel frac)")
     ap.add_argument("--balance", type=float, default=0.25, help="pair-symmetry weight (tie-breaker, not a detail override)")
     ap.add_argument("--gap", type=float, default=0.02, help="min gap between boxes")
-    ap.add_argument("--order-ab", action="store_true", help="force box A above box B (reading order)")
+    ap.add_argument("--order-ab", action="store_true", help="force box A's centre above box B's (reading order)")
+    ap.add_argument("--stack", action="store_true", help="force box A FULLY above box B (true vertical stack, never side-by-side)")
     a = ap.parse_args()
 
     aspect = eval(a.aspect) if "/" in a.aspect else float(a.aspect)
@@ -166,6 +167,8 @@ def main():
         for _, _, sb, bx, by in candB:
             if a.order_ab and ay >= by:           # A must read above B
                 continue
+            if a.stack and (ay + wa[1] / 2 > by - wb[1] / 2 - a.gap):
+                continue                          # A must sit FULLY above B (no side-by-side)
             if overlap(ax, ay, wa[0], wa[1], bx, by, wb[0], wb[1], a.gap):
                 continue
             asym = abs((ax + bx) / 2 - 0.5) + abs((ay + by) / 2 - 0.5)
