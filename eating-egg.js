@@ -23,10 +23,11 @@
     const PYRAMID_HEIGHT_FRAC = 0.40;
     const GOLD_LIGHT = "#ffe9a8", GOLD_MID = "#e6b450", GOLD_DEEP = "#9a6f22";
     const DIM_RGB = "10, 8, 6";
-    // Light smoky grey: in the engine's TRANSPARENT mode the dye's brightness IS its alpha,
-    // so a dark smoke would barely veil the live page — this greys up enough to cover the
-    // timeline→book handoff under it (matches the book's page-to-page veil).
-    const SMOKE_COLOR = { r: 0.38, g: 0.34, b: 0.30 };
+    // Warm amber, over a black floor: the smoke-dissolve prototype's hue (r>g>b) — but the
+    // prototype's dark 0.17 value only reads in OPAQUE composite mode. In TRANSPARENT mode the
+    // dye's brightness IS its alpha, so this is scaled up to stay an actual veil while keeping
+    // the amber cast that reads against the black backdrop the pyramid fades to.
+    const SMOKE_COLOR = { r: 0.44, g: 0.30, b: 0.15 };
 
     const qs = new URLSearchParams(location.search);
     const DEBUG = qs.get("egg") === "debug";
@@ -122,19 +123,19 @@
     }
     // ---------- finger-math smoke strokes (calm) ----------
 
-    let fingers = [], strokeRAF = 0, drawUntil = 0, strokeFrame = 0;
+    let fingers = [], strokeRAF = 0, drawUntil = 0;
     function strokeStep() {
         const SF = window.SmokeFX, F = SF.config.SPLAT_FORCE;
-        // inject on alternating frames only — a continuous full-rate blast is what
-        // made the smoke boil; spacing the splats lets the field drift instead.
-        const emit = (strokeFrame++ & 1) === 0;
+        // the smoke-dissolve prototype's drift: emit every frame with a wider gentle wander.
+        // Over the opaque black floor this paints coherent amber trails (no boil — the dye
+        // is dissipating against black, not stacking over a bright live page).
         for (const f of fingers) {
-            f.vx += (Math.random() - 0.5) * 0.0007; f.vy += (Math.random() - 0.5) * 0.0007;
-            f.vx = Math.max(-0.006, Math.min(0.006, f.vx)); f.vy = Math.max(-0.006, Math.min(0.006, f.vy));
+            f.vx += (Math.random() - 0.5) * 0.0012; f.vy += (Math.random() - 0.5) * 0.0012;
+            f.vx = Math.max(-0.011, Math.min(0.011, f.vx)); f.vy = Math.max(-0.011, Math.min(0.011, f.vy));
             f.x += f.vx; f.y += f.vy;
             if (f.x < 0.06 || f.x > 0.94) { f.vx *= -1; f.x = Math.max(0.06, Math.min(0.94, f.x)); }
             if (f.y < 0.06 || f.y > 0.94) { f.vy *= -1; f.y = Math.max(0.06, Math.min(0.94, f.y)); }
-            if (emit) SF.splat(f.x, f.y, f.vx * F, f.vy * F, SMOKE_COLOR);
+            SF.splat(f.x, f.y, f.vx * F, f.vy * F, SMOKE_COLOR);
         }
         if (performance.now() < drawUntil) strokeRAF = requestAnimationFrame(strokeStep);
     }
@@ -169,7 +170,7 @@
         iframe.src = REVEAL_URL; iframe.title = "eating";
         Object.assign(iframe.style, {
             position: "absolute", inset: "0", width: "100%", height: "100%",
-            border: "0", background: "#ede4d3", opacity: "0", transition: "opacity 700ms ease-out",
+            border: "0", background: "#15100c", opacity: "0", transition: "opacity 700ms ease-out",
         });
         stage.appendChild(iframe);  // loads underneath for the live handoff
 
@@ -205,7 +206,7 @@
         function cvFrame(now) {
             const t = now - start;
             ctx.clearRect(0, 0, v.w, v.h);
-            const dim = Math.min(0.82, (t / PYRAMID_RISE_MS) * 0.82);
+            const dim = Math.min(0.98, (t / PYRAMID_RISE_MS) * 0.98);
             ctx.fillStyle = `rgba(${DIM_RGB}, ${dim})`; ctx.fillRect(0, 0, v.w, v.h);
             if (t < introMs) {
                 const rise = Math.min(1, t / PYRAMID_RISE_MS);
@@ -224,12 +225,17 @@
         Promise.all([libs, new Promise((r) => setTimeout(r, introMs))]).then(() => {
             if (!window.SmokeFX) { cv.style.transition = "opacity 700ms ease-out"; cv.style.opacity = "0"; handoff(); return; }
             const SF = window.SmokeFX;
-            SF.config.TRANSPARENT = true;             // render smoke with alpha — the LIVE timeline shows through
+            SF.config.TRANSPARENT = true;             // render smoke with alpha — what shows through is the black floor below
             if (SF.endTransition) SF.endTransition(); // ensure the old opaque cover-composite path is OFF
-            smokeCanvas.style.transition = "none"; smokeCanvas.style.opacity = "1";   // transparent smoke canvas over the live page
-            cv.style.transition = "opacity 500ms ease-out"; cv.style.opacity = "0";   // un-dim: the pyramid + dim dissolve, baring the live timeline under the smoke
-            SF.config.DENSITY_DISSIPATION = 1.0; SF.config.VELOCITY_DISSIPATION = 0.35;
-            SF.config.CURL = 30; SF.config.SPLAT_RADIUS = 0.42;      // wider wisps → the veil actually covers the timeline→book swap in transparent mode
+            // The pyramid has faded; repaint cv as a SOLID BLACK floor and leave it up through the
+            // whole smoke phase. The timeline is never bared (that was the white/bright flash), the
+            // amber smoke renders over black, and the LIVE book — already opaque underneath — is
+            // revealed only when this black lifts. The book emerges FROM black, never flashing cream.
+            ctx.clearRect(0, 0, v.w, v.h); ctx.fillStyle = "#000"; ctx.fillRect(0, 0, v.w, v.h);
+            iframe.style.opacity = "1";   // book sits opaque under the black cv — no cross-fade, so no cream first-paint flash
+            smokeCanvas.style.transition = "none"; smokeCanvas.style.opacity = "1";   // transparent amber smoke over the black floor
+            SF.config.DENSITY_DISSIPATION = 1.0; SF.config.VELOCITY_DISSIPATION = 0.9;
+            SF.config.CURL = 26; SF.config.SPLAT_RADIUS = 0.33;     // the smoke-dissolve prototype's calmer, prettier drift
             window.__SMOKE_STOP = false;
             SF.update();
             fingers = [
@@ -242,11 +248,10 @@
             drawUntil = performance.now() + 1400;
             cancelAnimationFrame(strokeRAF); strokeRAF = requestAnimationFrame(strokeStep);
             setTimeout(() => { SF.config.DENSITY_DISSIPATION = 2.2; }, 1400);  // emission done → thin the dye so the veil dissipates, not just uniformly dims
-            // the LIVE book (real dims, no shift) emerges as the smoke veil clears
+            // peak smoke → lift the black floor AND thin the smoke together; the live book emerges from black
             setTimeout(() => {
-                iframe.style.opacity = "1";
+                cv.style.transition = "opacity 1100ms ease-out"; cv.style.opacity = "0";
                 smokeCanvas.style.transition = "opacity 1100ms ease-out"; smokeCanvas.style.opacity = "0";
-                cv.style.opacity = "0";
             }, 1500);
             setTimeout(() => {
                 window.__SMOKE_STOP = true; cancelAnimationFrame(strokeRAF);

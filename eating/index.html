@@ -534,9 +534,10 @@
             var ILLUSTRATED = { i: 1, ii: 1, iii: 1 };
             var FLUID_SRC = '/fluid.js?v=8';
             var DUR = 2000;
-            // Light smoky grey: in the engine's TRANSPARENT mode the dye's brightness IS its alpha, so a
-            // dark smoke would barely veil the page — this greys up enough to cover the scene swap under it.
-            var SMOKE_COLOR = { r: 0.38, g: 0.34, b: 0.30 };
+            // Warm amber, matching the timeline→book egg (the smoke-dissolve prototype's hue). In the
+            // engine's TRANSPARENT mode the dye's brightness IS its alpha, so this is scaled brighter
+            // than the prototype's dark 0.17 to still veil the dark-page→dark-page swap under it.
+            var SMOKE_COLOR = { r: 0.44, g: 0.30, b: 0.15 };
             var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
             function el(id) { return document.getElementById(id); }
