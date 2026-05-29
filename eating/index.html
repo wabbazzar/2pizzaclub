@@ -27,6 +27,13 @@
             font-family: 'Schoolbell', cursive;
             min-height: 100vh;
         }
+        /* Illustrated spreads are full-bleed dark. On desktop the spread is position:fixed
+           and hides the page, but on mobile it's position:relative — so the cream paper
+           shows around it and iOS rubber-band overscroll reveals it too: the "flash of
+           white" in the egg/page-turns. Keep the page dark whenever a spread is active
+           (auto-reverts to cream paper for the text scenes, which have no .spread). */
+        html:has(.scene.active .spread),
+        body:has(.scene.active .spread) { background: #15100c; }
         .container {
             max-width: 680px;
             margin: 0 auto;
