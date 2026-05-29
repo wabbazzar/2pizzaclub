@@ -126,7 +126,7 @@ The child learns these and refuses them. The book the reader holds is her tellin
 > *For the threads all run up to one hand in the dark,*
 > *that can lift them or drop them like toys in a park.*
 > *And the dance never stops. And the truth was not told.*
-> *The temple still stands. And the file stays cold.*
+> *And not one ring was broken. And the file stays cold.*
 
 The scene was reworked (per user direction) from a three-stanza vignette to a five-stanza danse macabre: momentum, a dance that cannot be stopped, the elites all holding each other's compromise and all strung from one hand above — the puppet-master thread from scene 2. The island guests are alluded to **obliquely** — each line names no one and describes a documented association the reader is meant to look up. Several of these people deny the allegations against them; the verse asserts nothing specific and draws no conclusion.
 
@@ -148,7 +148,7 @@ The roll-call gives each figure their **documented estate** — *builder* (Trump
 - **L16** — *fifty rings round the world, and they all knew the game* → Robert Steele, capture `sources/captures/DSkvtpnjtDQ`: *"Epstein is just one of 50 Mossad pedophilia entrapment operations… 49 others, all protected by the FBI."* **Single-source assertion, not an independently verified count** — rendered as the mirror's vision. Carries the original's *one snare of the fifty*.
 - **L17–18** — *the threads all run up to one hand in the dark / that can lift them or drop them like toys* = the puppet-master above the operators — scene 2's *masters unknown* / *hands up the stair*; [Ben-Menashe](https://en.wikipedia.org/wiki/Ari_Ben-Menashe)'s contested intelligence-origin and Steele's "all protected." The web is itself strung from, and controlled by, the handler above. Rendered in scene3b's art as the marionette hand.
 - **L19** — *the dance never stops* = the operation as ongoing, never halted — the momentum the scene is built on.
-- **L20** — *the truth was not told / the temple still stands / the file stays cold* = institutional non-coverage (Steele: *"the media today is not covering"*), the structure remaining (the island [sold for $60M in May 2023](https://en.wikipedia.org/wiki/Little_Saint_James)), the case cold (Epstein died pre-trial; co-conspirators largely uncharged). Carried from the original close.
+- **L20** — *the truth was not told / not one ring was broken / the file stays cold* = institutional non-coverage (Steele: *"the media today is not covering"*), impunity (of the *fifty rings* of L16 none were broken or charged — Steele: *"all of them protected by the FBI"*), and the cold case (Epstein died pre-trial, co-conspirators largely uncharged, the island [sold for $60M in May 2023](https://en.wikipedia.org/wiki/Little_Saint_James)).
 
 > *And the mirror went still. And the mirror went grey.*
 > *A small golden key lay at her feet at the dawn of the day.*
@@ -180,7 +180,7 @@ The roll-call gives each figure their **documented estate** — *builder* (Trump
 > *And the more that it ate, the more wide it would yawn:*
 > *more tolls, and more taxes, and more children drawn.*
 > *The eye never blinked, and the eye never tired,*
-> *and nobody asked it, and no one inquired.*
+> *and the more that we fed it, the more it required.*
 
 The scene turns the gaze **up** — following scene 3's *the threads all run up to one hand in the dark* — into the apex itself. The pyramid that besets the child and the mirror is the structure of consent: the thing at the top cannot feed unless it is invited, and the invitation is the world's tacit approval of an atrocity it watches in full view. *As above, so below* — the apex is held up from beneath, by a million ordinary acts. Referents stay oblique (a shore by the sea, not Gaza; an eye in a cap, not the Great Seal); the reader who knows the dossier sees it, the reader who doesn't sees the image.
 
@@ -196,7 +196,7 @@ The scene turns the gaze **up** — following scene 3's *the threads all run up 
 - **L14–15** — *every wage, every tax, every yes … a coin in the plate and a name on the deed* — mass complicity: the taxpayer appropriation (the same $3.8B), defense-industry wages, and the **[anti-BDS certification](https://www.aclu.org/issues/free-speech/rights-protesters/anti-boycott-bills)** — the 27+ state laws requiring government contractors to certify they do not boycott Israel as a condition of the contract (held over from scene 1's *banks*). *A coin in the plate* = the toll/extraction of [Chris Hedges](https://en.wikipedia.org/wiki/Chris_Hedges)' interview (`sources/captures/DTQ0YwcD_2S`: *"they make their money by setting up toll booths"*).
 - **L16** — *each was a stone. And the stone made it feed* — every ordinary act a block in the pyramid; the structure built from below feeds the apex. Complicity rendered as architecture.
 - **L17–18** — *the more it ate, the more wide it would yawn: more tolls, more taxes, more children drawn* — the siphon and the growth (echoes scene 5/6's *the dark thing grew large*); Hedges's toll-economy (`sources/captures/DTQ0YwcD_2S`) + the ongoing appropriation + the ongoing toll.
-- **L19–20** — *the eye never blinked … nobody asked it, and no one inquired* — the unblinking apex (the all-seeing eye) and the non-accountability: media non-coverage ([Operation Mockingbird](https://en.wikipedia.org/wiki/Operation_Mockingbird), scene 1; Robert Steele, *"the media today is not covering"* — `sources/captures/DSkvtpnjtDQ`).
+- **L19–20** — *the eye never blinked, the eye never tired / the more that we fed it, the more it required* — the unblinking apex (the all-seeing eye) and its insatiable growth: the more the world feeds it — the wages, taxes and tribute of L14–15 — the more it demands, the siphon of L17–18 turned back on the complicit. The *we* is the in-story voice. Media non-coverage sits behind the silence ([Operation Mockingbird](https://en.wikipedia.org/wiki/Operation_Mockingbird), scene 1; Robert Steele, *"the media today is not covering"* — `sources/captures/DSkvtpnjtDQ`).
 
 **Mood / symbol sources, not line referents:** the *Pax Judaica / Greater Israel* reel (`sources/captures/DXaYOtHE-oG`) — the eye over one city, the imperial capital, the microchip-for-every-slave — informs the art's mood and the SYMBOL-KIT but anchors no line, per its appendix flag (prophecy, not record). Same handling as the contested Ben-Menashe account (scene 2).
 

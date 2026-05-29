@@ -74,6 +74,7 @@
             line-height: 1.9;
             text-align: center;
             margin: 1.85rem 0;
+            text-wrap: pretty;   /* keep a wrapped verse line from dangling a single word on its own row */
         }
         .interlude {
             font-family: 'Schoolbell', cursive;
@@ -82,6 +83,7 @@
             line-height: 1.75;
             text-align: center;
             color: #6a5a4a;
+            text-wrap: pretty;
             margin: 3.5rem 0.5rem 0;
             padding-top: 1.5rem;
             border-top: 1px dotted #b8a890;
@@ -230,8 +232,11 @@
             .spread { position: relative; height: auto; width: 100vw; margin-left: calc(50% - 50vw); }
             .spread .panel { position: relative; width: 100%; height: auto; aspect-ratio: 3/4; }
             .spread .art { clip-path: none !important; }
-            .spread .cap { width: 86% !important; left: 50% !important; right: auto !important; top: auto !important;
-                      transform: translateX(-50%) !important; opacity: 1 !important; font-size: clamp(.84rem, 3.8vw, 1rem); }
+            .spread .cap { width: 90% !important; left: 50% !important; right: auto !important; top: auto !important;
+                      transform: translateX(-50%) !important; opacity: 1 !important; font-size: clamp(.80rem, 3.5vw, .98rem); }
+            /* verse lines run ~50 chars: at this width most sit on one row, and pretty wrapping
+               keeps the few that don't from dangling a single word on a line of their own */
+            .spread .cap p { text-wrap: pretty; }
             .spread .cap.left    { bottom: 5%; }
             .spread .cap.r-left   { top: 5%; bottom: auto; }
             .spread .cap.r-right  { bottom: 5%; }
@@ -376,7 +381,7 @@
                         <p>For the threads all run up to one hand in the dark,<br>
                         that can lift them or drop them like toys in a park.<br>
                         And the dance never stops. And the truth was not told.<br>
-                        The temple still stands. And the file stays cold.</p>
+                        And not one ring was broken. And the file stays cold.</p>
                     </div>
                 </div>
                 <svg class="seam" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -426,7 +431,7 @@
                         <p>And the more that it ate, the more wide it would yawn:<br>
                         more tolls, and more taxes, and more children drawn.<br>
                         The eye never blinked, and the eye never tired,<br>
-                        and nobody asked it, and no one inquired.</p>
+                        and the more that we fed it, the more it required.</p>
                     </div>
                 </div>
                 <svg class="seam" viewBox="0 0 100 100" preserveAspectRatio="none">
