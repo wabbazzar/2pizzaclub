@@ -219,13 +219,17 @@
                                 clip-path: polygon(0 0, 100% 0, 92.3% 100%, 0 100%); }
         #iv .panel.right .art { background-image: url('art/scene4b.png?v=2'); background-position: center 50%;
                                 clip-path: polygon(7.7% 0, 100% 0, 100% 100%, 0 100%); }
-        /* dense Bruegel/Bosch tableau: every cap carries a scrim for legibility;
-           right caps kept clear of the diagonal seam (~52% top → 48% bottom) */
+        /* placed via drafts/illustrations/lowdetail.py (lowest-edge, not darkest).
+           left cap on the flat upper sky. right panel is a near-uniform crowd —
+           r-left takes the one calm patch (upper sky/sea), r-right is too tall to
+           clear the crowd anywhere, so it sits lower-right (least-busy of the bad
+           options) and leans on its scrim: r-left↖ / r-right↘ reads as diagonal
+           balance, in reading order, clear of the seam, head, and nav */
         #iv .cap { background: radial-gradient(ellipse 90% 122% at 50% 50%, rgba(8,6,4,.82) 44%, rgba(8,6,4,.5) 72%, rgba(8,6,4,0) 90%);
                    padding: 1.05em 1.05em; border-radius: 13px; }
-        #iv .cap.left    { left: 27%; top: 40%; width: 44%; }
-        #iv .cap.r-left  { left: 73%; top: 26%; width: 40%; }
-        #iv .cap.r-right { left: 73%; top: 74%; width: 42%; }
+        #iv .cap.left    { left: 24%; top: 27%; width: 44%; }
+        #iv .cap.r-left  { left: 30%; top: 26%; width: 40%; }
+        #iv .cap.r-right { left: 76%; top: 68%; width: 42%; }
 
         /* narrow screens: caps reflow onto brighter/edge areas, so give them a
            dark scrim for legibility (large desktop keeps the clean look) */
