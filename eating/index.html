@@ -130,12 +130,14 @@
            uncovered. The hard-swap happens under the opaque black bg, smoke still
            visible above. Earlier this was at z25 (over the smoke) which hid the
            smoke during the swap — that's wrong: just the bg fades, not the smoke. */
-        /* fade-OUT (to black) stays snappy at 250ms; fade-IN (from black, when .up
-           is removed) runs a touch longer at 400ms so the new scene eases in */
+        /* fade-OUT (to black) and fade-IN (from black) both slowed by 500ms:
+           750 ms to-black, 900 ms from-black. Swap + caps-in setTimeouts in
+           smokeTransition track these (swap at peak-black, caps-in after the
+           new scene fully reveals). */
         .page-fade { position: fixed; inset: 0; background: #000; opacity: 0;
                      pointer-events: none; z-index: 10;
-                     transition: opacity 400ms ease; }
-        .page-fade.up { opacity: 1; transition: opacity 250ms ease; }
+                     transition: opacity 900ms ease; }
+        .page-fade.up { opacity: 1; transition: opacity 750ms ease; }
         @media (max-width: 480px) {
             .book-title { font-size: 2.2rem; }
             .scene-title { font-size: 1.7rem; }
@@ -638,13 +640,13 @@
                                     from.classList.remove('active', 'caps-in');
                                     to.style.animation = 'none';                     // suppress the default 0.4s fadeIn — the bg-drop reveals the scene
                                     to.classList.add('active');
-                                    setTimeout(function () {                         // hold black 300ms so the smoke (still emitting through t=1660) peaks against pure black bg
-                                        fade.classList.remove('up');                                                  // bg drops back; new scene revealed under the smoke
+                                    setTimeout(function () {                         // hold black 300ms so the smoke peaks against pure black bg
+                                        fade.classList.remove('up');                                                  // 900ms bg-drop; new scene revealed under the smoke
                                         clearVeil();                                                                  // smoke's own arc: 700ms canvas fade + dye dissipation 2.2
-                                        setTimeout(function () { el(toId).classList.add('caps-in'); }, 500);          // caps fade in once bg + smoke have mostly cleared
+                                        setTimeout(function () { el(toId).classList.add('caps-in'); }, 1150);         // caps fade in 250ms after the bg-drop (900ms) completes
                                     }, 300);
                                 });
-                            }, 260);
+                            }, 760);
                         });
                     }, 360);
                 });
@@ -658,17 +660,17 @@
                     smokeCanvas.style.transition = 'none'; smokeCanvas.style.opacity = '1';
                     runVeil(function () {   // mobile: bg fades to black UNDER smoke → hard-swap under black → hold 300ms (smoke peaks) → bg drops back, smoke clears on top of the new scene
                         var fade = el('page-fade');
-                        fade.classList.add('up');                                    // 250ms: bg fades to opaque black, under the smoke
+                        fade.classList.add('up');                                    // 750ms: bg fades to opaque black, under the smoke
                         setTimeout(function () {                                     // at peak black: hard-swap
                             Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 600); }) ]).then(function () {
                                 setActive(toId, true);                                // mobile caps are opacity:1, ride in with the scene
                                 window.scrollTo(0, 0);
                                 setTimeout(function () {                              // hold black 300ms for smoke to peak against pure black
-                                    fade.classList.remove('up');                      // 250ms drop from black
+                                    fade.classList.remove('up');                      // 900ms drop from black
                                     clearVeil();                                      // smoke clears on top of the new scene
                                 }, 300);
                             });
-                        }, 260);
+                        }, 760);
                     });
                 });
             }
@@ -681,7 +683,7 @@
                     navigate._busy = true;
                     history.replaceState(null, '', '#' + toId);          // move the hash without firing the plain handler
                     if (mobile) smokeTransitionMobile(fromId, toId); else smokeTransition(fromId, toId);
-                    setTimeout(function () { navigate._busy = false; }, DUR + 1500);  // veil now clears only after the swap settles, so the sequence runs a touch longer
+                    setTimeout(function () { navigate._busy = false; }, DUR + 2500);  // covers the longer 750/900 ms bg-fades + 300 ms hold + 1150 ms caps-in delay + 700 ms cap fade
                 } else {
                     location.hash = toId;                                // plain path → hashchange → show()
                 }
