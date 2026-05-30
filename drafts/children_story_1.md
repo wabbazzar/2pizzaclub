@@ -6,7 +6,7 @@ A creepy/poetic children's book. Donaldson cadence (*Room on the Broom*) with Go
 
 **Refrain:** `Someone's eating babies.` Returns in scene **1** — once. The book trusts the line to echo on its own.
 
-**Permission framework (scene 6's payoff):** Research across Slavic vampire folklore, Sethian Gnostic Archon theology, the *Faustbuch*, the Sinai covenant, the Lesser Key of Solomon, the Tophet inscriptions, and Christian deliverance-ministry literature yielded **four load-bearing conditions** the entity requires before it can enter a soul, plus two secondary ones:
+**Permission framework (played out in scene 6):** Research across Slavic vampire folklore, Sethian Gnostic Archon theology, the *Faustbuch*, the Sinai covenant, the Lesser Key of Solomon, the Tophet inscriptions, and Christian deliverance-ministry literature yielded **four load-bearing conditions** the entity requires before it can enter a soul, plus two secondary ones:
 
 1. **invitation / threshold-crossing** (Slavic vampire folklore + Briggs's fairy scholarship + Derek Prince)
 2. **oath / covenant sworn** (Sinai → Faust → Goetia → generational-curse theology)
@@ -28,7 +28,7 @@ The child learns these and refuses them. The book the reader holds is her tellin
 | 3 | **the island** | the destination (specific place) | a small golden key |
 | 4 | **the pyramid** | the apex — as above so below; the world's tacit consent is the invitation that feeds the structure | a small folded dollar |
 | 5 | **the new god** | the AI / surveillance altar — Moloch reborn in silicon (Stargate / Palantir / Neuralink); the builders' own words (Musk: demon, Altman: god, Thiel: Beast) | a small bronze chip |
-| 6 | **the telling** | the child arranges what she's gathered, refuses the entity's six permissions, becomes the storyteller | (all five objects laid in row) |
+| 6 | **the morning** | the child wakes back in her room; her parents bring her the three use-objects (dollar, phone, creed) and leave; the book ends suspended in her bedroom, the three things on the sheet beside her, the mirror dim | (the three named in verse — no drop) |
 
 ---
 
@@ -190,7 +190,7 @@ The scene turns the gaze **up** — following scene 3's *the threads all run up 
 - **L7** — *by thousands they fell — and the whole world could see* — the toll: **100,000+** conflict-related deaths by October 2025 ([Max Planck Institute](https://www.mpg.de/25778228/1125-defo-gaza-study-reveals-unprecedented-losses-of-life-and-life-expectancy-154642-x)); **52,000+** confirmed by May 2025; the [Lancet](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01169-3/fulltext)'s ~41% undercount estimate (`2023-gaza-body-count-001`, `2025-gaza-may2025-update-001`). Broadcast before the world in real time.
 - **L8** — *the whole world looked on. And it let the eye be* — international inaction and the U.S. diplomatic shield (the body-count record: the campaign is "funded, armed, and diplomatically shielded"). Sets up the invitation in stanza 3.
 - **L9–11** — *the thing at the top cannot enter alone / must wait to be asked … given its bread* — the **vampire-invitation rule**: the entity cannot cross the threshold uninvited (Slavic vampire folklore; Katharine Briggs's fairy scholarship; Derek Prince) — permission **#1 (invitation)** and **#3 (offering)** of scene 6's framework. The world's willingness *is* the threshold-crossing.
-- **L12** — *the world sent its coin. And the world bowed its head* — U.S. military aid: **$3.8 billion/year** under the 2016 MOU plus post-October-2023 emergency supplementals ([CRS](https://crsreports.congress.gov/product/pdf/RL/RL33222); `2023-gaza-body-count-001`). *Bowed its head* = tacit consent, and seeds the *bow* the child refuses in scene 6.
+- **L12** — *the world sent its coin. And the world bowed its head* — U.S. military aid: **$3.8 billion/year** under the 2016 MOU plus post-October-2023 emergency supplementals ([CRS](https://crsreports.congress.gov/product/pdf/RL/RL33222); `2023-gaza-body-count-001`). *Bowed its head* = tacit consent, and seeds the *bow* the child enacts in scene 6 (the morning routine as the daily threshold-crossing).
 - **L13** — *as it is above, so it is below* — the **Hermetic axiom** (the [Emerald Tablet](https://en.wikipedia.org/wiki/Emerald_Tablet) of Hermes Trismegistus); the scene's spine — the apex is held up from beneath.
 - **L14–15** — *every wage, every tax, every yes … a coin in the plate and a name on the deed* — mass complicity: the taxpayer appropriation (the same $3.8B), defense-industry wages, and the **[anti-BDS certification](https://www.aclu.org/issues/free-speech/rights-protesters/anti-boycott-bills)** — the 27+ state laws requiring government contractors to certify they do not boycott Israel as a condition of the contract (held over from scene 1's *banks*). *A coin in the plate* = the toll/extraction of [Chris Hedges](https://en.wikipedia.org/wiki/Chris_Hedges)' interview (`sources/captures/DTQ0YwcD_2S`: *"they make their money by setting up toll booths"*).
 - **L16** — *each was a stone. And the stone made it feed* — every ordinary act a block in the pyramid; the structure built from below feeds the apex. Complicity rendered as architecture.
@@ -249,28 +249,36 @@ The scene fuses the cut old-altar (Baal/Moloch/Tophet) and the cut new-altar (th
 
 ---
 
-## 6. the telling
+## 6. the morning
 
-> *The child gathered her six things and laid them in row —*
-> *a shoe and a camera, a key with no glow,*
-> *a dollar, a bone, and a brass-bodied chip.*
-> *The mirror cracked open. The mirror let slip.*
+> *She woke. And the curtain was lit by the sun.*
+> *And the mirror was dim. And the night was undone.*
+> *Her parents came in, with their voices like song:*
+> *"Up, little love. You have slept far too long."*
 
-> *She turned to the glass and she looked it in the eye.*
-> *"You wanted my name. You wanted my sigh.*
-> *You wanted my mark. You wanted my vow.*
-> *You wanted my offering. You wanted my bow."*
+> *And they set down three things by her side on the sheet —*
+> *one dollar, one phone, one small creed to repeat.*
+> *They kissed her warm brow with a smile and a sigh —*
+> *then they slipped from the room with a soft, soft goodbye.*
 
-> *"I give you no name. I give you no mark.*
-> *I give you no oath. I keep my own dark."*
-> *The mirror grew small. The mirror grew thin.*
-> *She opened her mouth — and you heard it begin.*
+The book closes with the child back in her own room, the mirror dim, the night-journey done. Her parents enter with ordinary love and lay three things beside her on the sheet — the dollar, the phone, the creed — three of the entity's six permissions in living form (the *offering*, the *mark*, the *oath*). She is alone with them; parents gone; mirror watching. We do not see her pick any up. We do not see her leave the room. The reader's own morning supplies what follows; the book trusts the recognition to do the work.
 
-- **L1–4** — the child gathers her six accumulated objects: shoe (scene 1), camera (scene 2), key (scene 3), dollar (scene 4), bone (scene 5), brass chip (scene 6). *The mirror cracked open. The mirror let slip* — the device fails because the witness has the full inventory. (Donaldson's *the broom broke* moment — the cumulative weight breaks the system.)
-- **L5–8** — the child names what the entity wanted, each pair mapping to a permission-condition from the cross-tradition research: *name* (the name spoken, per grimoire + Crowley + Exodus), *sigh* (interior assent / breath, per Gnostic *Apocryphon of John*), *mark* (the mark accepted, per Revelation + Crowley sigils), *vow* (the oath sworn, per Sinai + Faust + Goetia pacts), *offering* (the offering given, per Tophet + Leviticus), *bow* (threshold-crossing submission, per Slavic vampire folklore + Briggs's fairies + Derek Prince).
-- **L9–10** — the refusal. *No name, no mark, no oath* = explicit refusal of the load-bearing permissions across traditions. *I keep my own dark* = she retains her interior — the assent she will not give.
-- **L11** — the mirror dies. The entity loses its hold. Donaldson's *bog-covered animals scare the dragon* moment — the burden becomes the salvation.
-- **L12** — meta-reveal. *She opened her mouth — and you heard it begin* — the book the reader is closing IS the child's telling. The first words of the book (*A child sat alone in a small quiet room*) are her words, just spoken — third-person because she is telling her own story from outside it, the way fairy tales do. The book loops to its own beginning.
+This is the inverse of the Donaldson refusal the prior draft attempted. The accumulated objects are not the salvation that breaks the system — they are the chains that finish the integration. Love is the delivery mechanism; the parents are not villains, they are already inside. The horror is the soft inevitability of participation. The book ends not in triumph or refusal, but in held breath.
+
+- **S1 — waking.** *The curtain was lit by the sun* + *the night was undone* = the mirror's journey is over; the dream releases its grip. *Her parents came in, with their voices like song* = ordinary domestic love, the system's gentlest face. *You have slept far too long* = the routine reasserting itself — the system's schedule speaks in this voice.
+- **S2 — the three.** *They set down three things by her side on the sheet*:
+    - **dollar** — the [coin in the plate](https://2pizzaclub.com/eating/#iv) from scene 4 (Great Seal pyramid + Eye of Providence on the U.S. one-dollar bill); permission **#3 (offering)** — the daily economic ratification (every spend, every tax).
+    - **phone** — the chip / lens of scene 5 in waking form; every screen is the god's eye; permission **#6 (mark accepted)**, [Rev 13:16–17](https://www.biblegateway.com/passage/?search=Revelation+13%3A16-17).
+    - **creed** — the [Pledge of Allegiance](https://en.wikipedia.org/wiki/Pledge_of_Allegiance) (Francis Bellamy, 1892; *"under God"* added 1954 during McCarthy) — or any creed a child or adult repeats by rote: prayer, mantra, brand jingle. Permission **#2 (oath / covenant sworn)**. Left deliberately ambiguous; the reader supplies their own.
+- **S2 — the close.** *They kissed her warm brow with a smile and a sigh* = the love that delivers — and the *sigh* is permission **#4 (interior assent / forgetting)** carried in a single breath. The parents have already given the assent they now hand down. *Then they slipped from the room with a soft, soft goodbye* = they leave. The book ends on the held moment. She is alone with the three things; the mirror is dim; we do not follow her out.
+
+**Vocabulary rule observed:** every distinctive content-word is new to the book (per the no-reuse rule from scene 5 onward). The mirror keeps its name (designated recurring fixture).
+
+**The 3-witness / 3-use architecture** of the full inventory (no rewrite of scenes 1–5 needed — the moral axis is already there):
+- **Witness** (what was done to others): shoe (1, the trafficked child's empty shoe), camera (2, Maxwell's surveillance), key (3, the locked door she does not open).
+- **Use** (what she does): dollar (4, the offering), phone (5, the mark), creed (6, the oath).
+
+Scenes 1–3 show the system devouring the unnamed; scenes 4–6 show her feeding it. The book ends by collapsing the witness into the actor — the reader recognizes their own morning.
 
 ---
 
