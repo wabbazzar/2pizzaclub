@@ -130,10 +130,12 @@
            uncovered. The hard-swap happens under the opaque black bg, smoke still
            visible above. Earlier this was at z25 (over the smoke) which hid the
            smoke during the swap — that's wrong: just the bg fades, not the smoke. */
+        /* fade-OUT (to black) stays snappy at 250ms; fade-IN (from black, when .up
+           is removed) runs a touch longer at 400ms so the new scene eases in */
         .page-fade { position: fixed; inset: 0; background: #000; opacity: 0;
                      pointer-events: none; z-index: 10;
-                     transition: opacity 250ms ease; }
-        .page-fade.up { opacity: 1; }
+                     transition: opacity 400ms ease; }
+        .page-fade.up { opacity: 1; transition: opacity 250ms ease; }
         @media (max-width: 480px) {
             .book-title { font-size: 2.2rem; }
             .scene-title { font-size: 1.7rem; }
