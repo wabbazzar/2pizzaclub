@@ -162,10 +162,6 @@
         Object.assign(stage.style, { position: "fixed", inset: "0", zIndex: "2147483630", pointerEvents: "none" });
         document.body.appendChild(stage);
 
-        const hint = document.createElement("button");
-        hint.type = "button"; hint.className = "egg-hint"; hint.textContent = "✕ exit";
-        stage.appendChild(hint);
-
         const iframe = document.createElement("iframe");
         iframe.src = REVEAL_URL; iframe.title = "eating";
         Object.assign(iframe.style, {
@@ -181,7 +177,7 @@
         const ctx = cv.getContext("2d"); ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
         stage.appendChild(cv);
 
-        installDismiss(stage, iframe, hint);
+        installDismiss(stage, iframe);
 
         function handoff() {  // reveal the live interactive book, drop the smoke + canvases
             iframe.style.opacity = "1";
@@ -262,7 +258,7 @@
         });
     }
 
-    function installDismiss(stage, iframe, hint) {
+    function installDismiss(stage, iframe) {
         let dismissed = false;
         function dismiss() {
             if (dismissed) return;
@@ -276,7 +272,6 @@
         function onMsg(ev) { const d = ev.data; if (d === "eating:exit" || (d && d.type === "eating:exit")) dismiss(); }
         window.addEventListener("keydown", onKey, true);
         window.addEventListener("message", onMsg);
-        hint.addEventListener("click", (ev) => { ev.stopPropagation(); dismiss(); });
         currentDismiss = dismiss;
     }
 
