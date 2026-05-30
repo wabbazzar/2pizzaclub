@@ -182,6 +182,50 @@ function renderPagerLabels() {
 }
 
 function renderPage() {
+    renderPageBody();
+    decorateDeck();
+}
+
+// Inject the deck chrome (fullscreen toggle + in-fullscreen pager) into #findings.
+// Slides always get the fullscreen button so the reader can enter the deck. Data
+// pages get the chrome only while already in fullscreen — so paging past the last
+// slide flows straight into the dossier without dropping out of fullscreen.
+function decorateDeck() {
+    const root = $('findings');
+    // Idempotent — strip any chrome from a previous pass so re-running on a
+    // fullscreen change (Esc, the exit button) doesn't stack duplicates.
+    root.querySelectorAll(':scope > .deck-fullscreen, :scope > .deck-nav').forEach(el => el.remove());
+    const isSlide = root.classList.contains('findings-as-slide');
+    const inFs = (document.fullscreenElement || document.webkitFullscreenElement) === root
+              || root.classList.contains('is-pseudo-fullscreen');
+    // Style the data page as a fullscreen deck slide only while actually fullscreen.
+    root.classList.toggle('findings-fs', inFs && !isSlide);
+    if (!isSlide && !inFs) return;
+
+    const total = (state.data.pages || []).length;
+
+    const fsBtn = document.createElement('button');
+    fsBtn.type = 'button';
+    fsBtn.className = 'deck-fullscreen' + (inFs ? ' is-fullscreen' : '');
+    fsBtn.dataset.fsTarget = 'findings';
+    fsBtn.setAttribute('aria-label', inFs ? 'exit fullscreen' : 'enter fullscreen');
+    fsBtn.innerHTML = '<span class="deck-fs-glyph" aria-hidden="true">⛶</span>'
+                    + `<span class="deck-fs-label">${inFs ? 'exit' : 'fullscreen'}</span>`;
+    root.appendChild(fsBtn);
+
+    // In-fullscreen prev/next — the only way to page in fullscreen, where the
+    // pager (#efta-pager-*) is off-screen and iOS Safari has no keyboard for the
+    // arrow-key handler. Shown only in fullscreen via CSS.
+    const nav = document.createElement('div');
+    nav.className = 'deck-nav';
+    nav.innerHTML =
+        `<button type="button" class="deck-nav-btn" data-deck-nav="prev" aria-label="previous page"${state.pageIdx === 0 ? ' disabled' : ''}>←</button>`
+      + `<span class="deck-nav-label">${state.pageIdx + 1} / ${total}</span>`
+      + `<button type="button" class="deck-nav-btn" data-deck-nav="next" aria-label="next page"${state.pageIdx >= total - 1 ? ' disabled' : ''}>→</button>`;
+    root.appendChild(nav);
+}
+
+function renderPageBody() {
     const root = $('findings');
     const origPage = (state.data.pages || [])[state.pageIdx];
     if (!origPage) {
@@ -193,40 +237,20 @@ function renderPage() {
         const src = document.querySelector(`#intro-deck .slide[data-slide-idx="${origPage.slideIdx}"]`);
         root.classList.add('findings-as-slide');
         root.innerHTML = '';
-        // Fullscreen button — injected so the slide page works in full-screen mode too.
-        const fsBtn = document.createElement('button');
-        fsBtn.type = 'button';
-        fsBtn.className = 'deck-fullscreen';
-        fsBtn.dataset.fsTarget = 'findings';
-        fsBtn.setAttribute('aria-label', 'enter fullscreen');
-        fsBtn.innerHTML = '<span class="deck-fs-glyph" aria-hidden="true">⛶</span><span class="deck-fs-label">fullscreen</span>';
-        root.appendChild(fsBtn);
         if (src) {
             const clone = src.cloneNode(true);
             clone.removeAttribute('hidden');
             root.appendChild(clone);
         }
-        // In-slide prev/next — the only way to page in fullscreen, where the
-        // pager (#efta-pager-*) is off-screen and iOS Safari has no keyboard for
-        // the arrow-key handler. Shown only in fullscreen via CSS.
-        const total = (state.data.pages || []).length;
-        const nav = document.createElement('div');
-        nav.className = 'deck-nav';
-        nav.innerHTML =
-            `<button type="button" class="deck-nav-btn" data-deck-nav="prev" aria-label="previous page"${state.pageIdx === 0 ? ' disabled' : ''}>←</button>`
-          + `<span class="deck-nav-label">${state.pageIdx + 1} / ${total}</span>`
-          + `<button type="button" class="deck-nav-btn" data-deck-nav="next" aria-label="next page"${state.pageIdx >= total - 1 ? ' disabled' : ''}>→</button>`;
-        root.appendChild(nav);
         renderTOC();
         renderPagerLabels();
         history.replaceState(null, '', `#p=${state.pageIdx + 1}`);
         return;
     }
     root.classList.remove('findings-as-slide');
-    // Paging out of a slide into a data page: drop any fullscreen still pinned to
-    // #findings (native or the iOS pseudo-fullscreen class) so the reader lands
-    // back on the normal scrollable page with the real pager, not stuck fullscreen.
-    exitFindingsFullscreen();
+    // Paging out of a slide into a data page no longer drops fullscreen — the deck
+    // flows straight on. decorateDeck() (called after every render) keeps the
+    // fullscreen pager available so the reader can keep paging, or exit.
     // Apply current filter — wrap the original page with filtered rows so the
     // subsequent renderers don't need to know about filtering.
     const enabledBuckets = getEnabledBuckets();
@@ -592,25 +616,14 @@ function bindInfoBtn() {
     });
 }
 
-// Drop any fullscreen pinned to #findings — both the native Fullscreen API and
-// the iOS pseudo-fullscreen fallback (mirrors intro-deck.js's exit paths).
-function exitFindingsFullscreen() {
-    const root = $('findings');
-    if (root.classList.contains('is-pseudo-fullscreen')) {
-        root.classList.remove('is-pseudo-fullscreen');
-        document.documentElement.classList.remove('body-locked');
-    }
-    const fsEl = document.fullscreenElement || document.webkitFullscreenElement;
-    if (fsEl === root) {
-        (document.exitFullscreen || document.webkitExitFullscreen).call(document);
-    }
-}
-
 function goto(i) {
     const total = (state.data.pages || []).length;
     state.pageIdx = Math.max(0, Math.min(total - 1, i));
     renderPage();
     window.scrollTo({ top: 0, behavior: 'instant' });
+    // In fullscreen, #findings is its own scroll container — reset it too so each
+    // page starts at the top rather than wherever the last one was scrolled.
+    $('findings').scrollTop = 0;
 }
 
 function setAllGroups(open) {
@@ -647,6 +660,15 @@ function bindNav() {
     $('doc-viewer-close').addEventListener('click', () => {
         $('doc-viewer').classList.remove('open');
     });
+    // Re-sync the deck chrome whenever fullscreen toggles without a page change —
+    // native Esc / the exit button (native) fire fullscreenchange; the iOS
+    // pseudo-fullscreen exit (button or Esc, handled in intro-deck.js) doesn't, so
+    // also refresh on the next frame after any .deck-fullscreen click and on Esc.
+    document.addEventListener('fullscreenchange', decorateDeck);
+    document.addEventListener('webkitfullscreenchange', decorateDeck);
+    document.body.addEventListener('click', (e) => {
+        if (e.target.closest('.deck-fullscreen')) requestAnimationFrame(decorateDeck);
+    });
     window.addEventListener('keydown', (e) => {
         const t = e.target;
         if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
@@ -654,6 +676,9 @@ function bindNav() {
             $('doc-viewer').classList.remove('open');
             return;
         }
+        // Esc out of iOS pseudo-fullscreen (handled in intro-deck.js) — re-sync the
+        // deck chrome on the next frame once that handler has dropped the class.
+        if (e.key === 'Escape') requestAnimationFrame(decorateDeck);
         if (e.key === 'ArrowLeft') goto(state.pageIdx - 1);
         else if (e.key === 'ArrowRight') goto(state.pageIdx + 1);
     });

@@ -930,7 +930,10 @@ html.body-locked, html.body-locked body {
 .deck-nav { display: none; }
 #findings.findings-as-slide:fullscreen .deck-nav,
 #findings.findings-as-slide:-webkit-full-screen .deck-nav,
-#findings.findings-as-slide.is-pseudo-fullscreen .deck-nav {
+#findings.findings-as-slide.is-pseudo-fullscreen .deck-nav,
+#findings.findings-fs:fullscreen .deck-nav,
+#findings.findings-fs:-webkit-full-screen .deck-nav,
+#findings.findings-fs.is-pseudo-fullscreen .deck-nav {
     display: flex;
     align-items: center;
     gap: 0.85rem;
@@ -939,6 +942,34 @@ html.body-locked, html.body-locked body {
     transform: translateX(-50%);
     bottom: calc(1.1rem + env(safe-area-inset-bottom, 0px));
     z-index: 10000;
+}
+
+/* Data (non-slide) pages kept in fullscreen when the reader pages past the last
+   slide — the deck flows straight on instead of dropping out. Same treatment as
+   the slides: paper background, own scroll container, fixed pager + exit button. */
+#findings.findings-fs:fullscreen,
+#findings.findings-fs:-webkit-full-screen {
+    background: var(--paper);
+    overflow-y: auto;
+    height: 100vh;
+    padding: 2rem 1.5rem 5.5rem;
+}
+#findings.findings-fs.is-pseudo-fullscreen {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh;
+    background: var(--paper);
+    overflow-y: auto;
+    padding: 2rem 1.5rem 5.5rem;
+}
+#findings.findings-fs:fullscreen .deck-fullscreen,
+#findings.findings-fs:-webkit-full-screen .deck-fullscreen,
+#findings.findings-fs.is-pseudo-fullscreen .deck-fullscreen {
+    position: fixed;
+    top: 1.25rem;
+    right: 1.25rem;
 }
 .deck-nav-btn {
     font-family: var(--mono);
