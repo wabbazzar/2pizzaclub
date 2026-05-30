@@ -1,0 +1,18 @@
+# GitHub Pages (Jekyll) build configuration.
+# The site itself is plain static HTML/CSS/ES-modules — Jekyll only copies files.
+# This file exists to keep the editorial backstage OUT of the published site:
+# the paths below stay tracked in the repo (the working agents rely on them),
+# but are not copied into the deployed _site, so they return 404 on 2pizzaclub.com.
+#
+# Do NOT add sources/evidence, sources/captures, chapters, or efta here — the
+# timeline and gallery fetch those at runtime; excluding them breaks the site.
+exclude:
+  - drafts/            # story drafts, illustration tooling, occult symbol kit, easter-egg prototypes
+  - tools/             # ingest pipeline (.mjs) + INGEST-SOP / CAPTURE-PROCEDURE docs
+  - CLAUDE.md          # internal project guide
+  - sources/SCHEMA.md  # evidence-record schema (internal authoring doc)
+  # Jekyll/Bundler defaults, kept so a stray build dir never publishes:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
