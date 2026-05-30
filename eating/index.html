@@ -125,12 +125,13 @@
             font-family: 'Quicksand', sans-serif;
             text-transform: lowercase;
         }
-        /* short fade-to-black BRIDGE inside the smoke transition. Layered above the
-           smoke canvas (z25 > z20), so at the swap moment the page briefly goes pure
-           black — the hard-swap is hidden under it, and the new scene fades IN from
-           the black as it drops. The smoke continues its bloom + clear underneath. */
+        /* Page BACKGROUND fade-to-black, layered BETWEEN the scenes (z6) and the
+           smoke canvas (z20) — so the smoke keeps drifting on top of the black,
+           uncovered. The hard-swap happens under the opaque black bg, smoke still
+           visible above. Earlier this was at z25 (over the smoke) which hid the
+           smoke during the swap — that's wrong: just the bg fades, not the smoke. */
         .page-fade { position: fixed; inset: 0; background: #000; opacity: 0;
-                     pointer-events: none; z-index: 25;
+                     pointer-events: none; z-index: 10;
                      transition: opacity 250ms ease; }
         .page-fade.up { opacity: 1; }
         @media (max-width: 480px) {
@@ -642,21 +643,27 @@
                     setTimeout(function () {                             // 2) once caps are gone, raise the transparent smoke canvas over the live page
                         smokeCanvas.style.transition = 'none'; smokeCanvas.style.opacity = '1';
                         var swapped = false;
-                        runVeil(function () {   // 3) at peak veil: SHORT FADE-TO-BLACK BRIDGE — black up over the smoke, hard-swap at peak black, black drops to reveal the new scene FROM the black (which doubles as the new scene's fade-in)
+                        runVeil(function () {   // 3) at peak smoke: BACKGROUND fades to black UNDER the smoke (z10<z20), so the smoke keeps drifting on top of the black. Hard-swap under the black bg, hold while smoke peaks against it, then bg drops back, smoke clears its own arc over the new scene. Math (t = ms since navigate; runVeil starts at 360, emits to 1660, onSwap fires at 1210):
+                            //   1210→1460  bg fades up 0→1   (smoke still emitting to 1660)
+                            //   1460       peak black; hard-swap under it (smoke still emitting)
+                            //   1460→1760  hold black 300ms — smoke peaks against pure black bg
+                            //   1760→2010  bg drops 1→0 — new scene revealed UNDER the still-drifting smoke
+                            //   1760→2460  clearVeil: smoke canvas fades 700ms + dye dissipation 2.2
+                            //   2260       caps-in (700ms CSS fade ends at 2960)
                             if (swapped) return; swapped = true;
                             var fade = el('page-fade');
-                            fade.classList.add('up');                                // 250ms to opaque black (z25 over the smoke z20)
-                            setTimeout(function () {                                 // at peak black: hard-swap, gated on art being ready so the reveal is never bare #15100c
+                            fade.classList.add('up');                                // bg fades to opaque black under the smoke
+                            setTimeout(function () {                                 // at peak black: hard-swap, gated on art being ready
                                 Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 600); }) ]).then(function () {
                                     var to = el(toId), from = el(fromId);
                                     from.classList.remove('active', 'caps-in');
-                                    to.style.animation = 'none';                     // suppress the default 0.4s fadeIn — the black-drop IS the fade-in
+                                    to.style.animation = 'none';                     // suppress the default 0.4s fadeIn — the bg-drop reveals the scene
                                     to.classList.add('active');
-                                    requestAnimationFrame(function () { requestAnimationFrame(function () {
-                                        fade.classList.remove('up');                                                  // 250ms drop from black — smoke veil continues underneath
-                                        clearVeil();                                                                  // smoke begins fading alongside the black
-                                        setTimeout(function () { el(toId).classList.add('caps-in'); }, 380);          // caps fade in once the bridge is gone and smoke is mostly cleared
-                                    }); });
+                                    setTimeout(function () {                         // hold black 300ms so the smoke (still emitting through t=1660) peaks against pure black bg
+                                        fade.classList.remove('up');                                                  // bg drops back; new scene revealed under the smoke
+                                        clearVeil();                                                                  // smoke's own arc: 700ms canvas fade + dye dissipation 2.2
+                                        setTimeout(function () { el(toId).classList.add('caps-in'); }, 500);          // caps fade in once bg + smoke have mostly cleared
+                                    }, 300);
                                 });
                             }, 260);
                         });
@@ -670,17 +677,17 @@
                 ensureLibs().then(function () {
                     if (!window.SmokeFX) { setActive(toId, true); window.scrollTo(0, 0); return; }   // engine failed → plain swap
                     smokeCanvas.style.transition = 'none'; smokeCanvas.style.opacity = '1';
-                    runVeil(function () {   // under the thick veil: short fade-to-black bridge → hard-swap → drop black + clear veil
+                    runVeil(function () {   // mobile: bg fades to black UNDER smoke → hard-swap under black → hold 300ms (smoke peaks) → bg drops back, smoke clears on top of the new scene
                         var fade = el('page-fade');
-                        fade.classList.add('up');                                    // 250ms to opaque black
-                        setTimeout(function () {
+                        fade.classList.add('up');                                    // 250ms: bg fades to opaque black, under the smoke
+                        setTimeout(function () {                                     // at peak black: hard-swap
                             Promise.race([ preloadScene(toId), new Promise(function (r) { setTimeout(r, 600); }) ]).then(function () {
                                 setActive(toId, true);                                // mobile caps are opacity:1, ride in with the scene
                                 window.scrollTo(0, 0);
-                                requestAnimationFrame(function () { requestAnimationFrame(function () {
+                                setTimeout(function () {                              // hold black 300ms for smoke to peak against pure black
                                     fade.classList.remove('up');                      // 250ms drop from black
-                                    setTimeout(clearVeil, 100);                       // smoke clears just behind the black
-                                }); });
+                                    clearVeil();                                      // smoke clears on top of the new scene
+                                }, 300);
                             });
                         }, 260);
                     });
