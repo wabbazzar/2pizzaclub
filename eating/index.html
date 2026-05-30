@@ -207,13 +207,12 @@
                                  clip-path: polygon(0 0, 100% 0, 92.3% 100%, 0 100%); }
         #iii .panel.right .art { background-image: url('art/scene3b.png?v=1'); background-position: center 48%;
                                  clip-path: polygon(7.7% 0, 100% 0, 100% 100%, 0 100%); }
-        /* text-dense scene: every cap carries a soft scrim (desktop too) for legibility
-           over the busy dance art. placed via drafts/illustrations/lowdetail.py: the
-           left cap shifts off the temple onto the calm left sky/sea; the right panel's
-           half-tall r-left + r-right run diagonal (r-left ↗, r-right ↙) to keep the
-           centre hand + child clear, scrim-carried, left edges clear of the seam */
-        #iii .cap { background: radial-gradient(ellipse 90% 122% at 50% 50%, rgba(8,6,4,.76) 44%, rgba(8,6,4,.44) 72%, rgba(8,6,4,0) 90%);
-                    padding: 1.05em 1.05em; border-radius: 13px; }
+        /* text-dense scene placed via drafts/illustrations/lowdetail.py: the left cap
+           shifts off the temple onto the calm left sky/sea; the right panel's half-tall
+           r-left + r-right run diagonal (r-left ↗, r-right ↙) to keep the centre hand +
+           child clear, left edges clear of the seam. Scrim only kicks in at ≤1200px
+           (the shared rule below), like scene i — clean over the art on wide desktop. */
+        #iii .cap { padding: 1.05em 1.05em; border-radius: 13px; }
         #iii .cap.left    { left: 24%; top: 34%; width: 47%; }
         #iii .cap.r-left  { left: 72%; top: 38%; width: 44%; }
         #iii .cap.r-right { left: 30%; top: 79%; width: 46%; }
@@ -227,10 +226,9 @@
            left cap on the flat upper sky. right panel is a near-uniform crowd —
            r-left takes the one calm patch (upper sky/sea), r-right is too tall to
            clear the crowd anywhere, so it sits lower-right (least-busy of the bad
-           options) and leans on its scrim: r-left↖ / r-right↘ reads as diagonal
-           balance, in reading order, clear of the seam, head, and nav */
-        #iv .cap { background: radial-gradient(ellipse 90% 122% at 50% 50%, rgba(8,6,4,.82) 44%, rgba(8,6,4,.5) 72%, rgba(8,6,4,0) 90%);
-                   padding: 1.05em 1.05em; border-radius: 13px; }
+           options): r-left↖ / r-right↘ reads as diagonal balance, in reading order,
+           clear of the seam, head, and nav. Scrim only at ≤1200px (shared rule below). */
+        #iv .cap { padding: 1.05em 1.05em; border-radius: 13px; }
         #iv .cap.left    { left: 24%; top: 27%; width: 44%; }
         #iv .cap.r-left  { left: 30%; top: 26%; width: 40%; }
         #iv .cap.r-right { left: 76%; top: 68%; width: 42%; }
@@ -246,8 +244,7 @@
            above them). right panel: two stanzas stack in the central corridor
            (between bright server-rack walls), clear of the child and the
            reaching mechanical arm. */
-        #v .cap { background: radial-gradient(ellipse 90% 122% at 50% 50%, rgba(8,6,4,.82) 44%, rgba(8,6,4,.5) 72%, rgba(8,6,4,0) 90%);
-                  padding: 1.05em 1.05em; border-radius: 13px; }
+        #v .cap { padding: 1.05em 1.05em; border-radius: 13px; }
         #v .cap.left    { left: 25%; top: 78%; width: 50%; }
         #v .cap.r-left  { left: 50%; top: 50%; width: 40%; }
         #v .cap.r-right { left: 51%; top: 71%; width: 42%; }
@@ -258,8 +255,7 @@
         #vi .panel.right .art { background-image: url('art/scene6b.png?v=1'); background-position: center 55%;
                                 clip-path: polygon(7.7% 0, 100% 0, 100% 100%, 0 100%); }
         /* one stanza per panel — caps sit on the upper-wall calm above the bed. */
-        #vi .cap { background: radial-gradient(ellipse 90% 122% at 50% 50%, rgba(8,6,4,.78) 44%, rgba(8,6,4,.46) 72%, rgba(8,6,4,0) 90%);
-                   padding: 1.05em 1.05em; border-radius: 13px; }
+        #vi .cap { padding: 1.05em 1.05em; border-radius: 13px; }
         #vi .cap.left    { left: 25%; top: 22%; width: 50%; }
         #vi .cap.r-right { left: 55%; top: 27%; width: 55%; }
 
