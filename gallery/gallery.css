@@ -30,7 +30,7 @@
     padding-left: 1rem;
 }
 
-.gallery-list { display: grid; gap: 2rem; }
+.gallery-list { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2rem; }
 
 .gallery-item {
     background: var(--paper);
@@ -39,8 +39,11 @@
     box-shadow: 6px 6px 0 var(--bus-yellow);
     border-radius: 6px;
     display: grid;
-    grid-template-columns: minmax(260px, 360px) 1fr;
+    /* minmax(0,…) on both tracks so a wide poster or long URL can't blow the
+       column past the viewport (the default `auto` minimum overflows on mobile) */
+    grid-template-columns: minmax(260px, 360px) minmax(0, 1fr);
     gap: 0;
+    min-width: 0;
 }
 .gallery-item-media {
     background: var(--chrome-bg);
@@ -74,6 +77,7 @@
     font-family: var(--serif);
     font-size: 1rem;
     line-height: 1.55;
+    min-width: 0;
 }
 .gallery-item-head {
     display: flex;
@@ -123,6 +127,9 @@
     margin: 0 0 0.85rem;
     padding-left: 0.85rem;
     border-left: 2px solid var(--ink-soft);
+    /* captions carry pasted URLs/hashtag runs — break them so they can't
+       force the card wider than the viewport on mobile */
+    overflow-wrap: anywhere;
 }
 .gallery-overlay-text {
     font-family: var(--mono);
@@ -133,6 +140,8 @@
     padding: 0.4rem 0.6rem;
     display: inline-block;
     margin-bottom: 0.85rem;
+    max-width: 100%;
+    overflow-wrap: anywhere;
 }
 
 .gallery-section-h {
@@ -203,6 +212,7 @@
 .gallery-evidence li::before { content: "▸ "; color: var(--accent); }
 .gallery-evidence a {
     color: var(--ink);
+    overflow-wrap: anywhere;
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;
@@ -222,6 +232,7 @@
     font-family: var(--serif);
     font-size: 0.95rem;
     color: var(--ink);
+    overflow-wrap: anywhere;
 }
 .gallery-notes strong {
     font-family: var(--mono);
@@ -234,9 +245,9 @@
 }
 
 @media (max-width: 880px) {
-    .gallery-item { grid-template-columns: 1fr; }
+    .gallery-item { grid-template-columns: minmax(0, 1fr); }
     .gallery-item-media { border-right: none; border-bottom: 1px solid var(--paper-rule); }
-    .gallery-item-media video, .gallery-item-media .poster-fallback { max-height: 60vh; }
+    .gallery-item-media video, .gallery-item-media .poster-fallback { max-width: 100%; max-height: 60vh; }
     .gallery-intro { padding: 2rem 1.25rem 1.5rem; box-shadow: 0 1px 0 var(--chrome-rule), 6px 6px 0 -1px rgba(0,0,0,0.4); }
     .gallery-item-body { padding: 1rem 1rem 0.75rem; }
     /* leave room for the bottom-pill so last item isn't covered */
