@@ -53,6 +53,7 @@ The session went through ~6 cover rewrites because the agent kept breaking these
 5. **Recognition over precision.** If an institution isn't recognizable to US Instagram readers, name a recognizable proxy and verify it's accurate. Maxwell → *"the British baron behind Macmillan textbooks"* (Macmillan is real; McGraw-Hill is **not** Maxwell-owned, common confusion). When using a proxy, also update the *receipt body* to lead with the same institutional anchor so the cover hook pays off.
 6. **Order matters.** Within each post, the receipt/stat that DIRECTLY answers the cover question goes first after the cover. The rest are backup. Renumber `num` fields ("01 / 04" etc.) to match the new ordering — they're hand-set in `cards.json`, not auto-derived.
 7. **Click + sense.** *"we want people to click on these but they need to make logical sense."* The cover must be a logical hook for the receipts. *"What did it cost to ask for the Epstein files?"* failed because asking is free — the actual cost was the seat. *"What does $32 million buy you in Kentucky?"* won.
+8. **Vary the construction across the SET.** Don't open every cover with "What ___?" — a stack of identical question stems reads repetitive (user: *"feels repetative"*). Mix formats across the carousel: question / flat statement / number-led / cause-effect / joke-setup. A cover only needs the question form when its mascot is the **asker** (the floating `?`); covers carrying an object icon (ballot box, money bag) or the **stater** kid can be statements. Worked set: 1A *"How much dirt does it take to cancel an election?"* (Q) · 1B *"A President, the Macmillan baron-Mossad agent, and Bill Gates walk into the same address book."* (joke, stater) · 2 *"The FBI wrote down what Jeffrey Epstein actually was."* (statement) · 3 number-led. Keep mascot↔voice matched: asker `?` = a question; stater/object = fine for a statement.
 
 ## Mascot library (`drafts/instagram/efta-intro/templates/mascots/`)
 
@@ -64,8 +65,15 @@ All Gemini Nano Banana (see [[reference-gemini-nano-banana-for-poses]]). Backgro
 | `SHIP-2-kid-callout.png` | same kid | cupped hand calling out | cover (split) when calling attention right |
 | `SHIP-3-man-thumbsup.png` | adult man, navy shirt + yellow badge | double thumbs-up | "everything is fine, citizen!" ironic |
 | `SHIP-4-man-pointing.png` | same man | finger pointing right | gesture-to-text-element |
-| **`SHIP-5-asker.png`** | kid, yellow shirt + navy suspenders | head tilt + finger on chin + floating `?` | **question covers** (current default) |
+| **`SHIP-5-asker.png`** | kid, yellow shirt + navy suspenders | head tilt + finger on chin + floating `?` | **question covers** (default character) |
 | `SHIP-6-announcer.png` | same man | old-timey megaphone, mid-shout | retired (was the announcement layer; cut) |
+| `SHIP-7-stater.png` | same kid | finger raised UP, declaring | statement covers (kid variant) |
+| `SHIP-8-gman.png` | **REJECTED** — stern federal G-man | arms crossed | do NOT use: cold/authoritarian, breaks the whimsical tone (user-rejected) |
+| **`SHIP-9-host-woman.png`** | whimsical blonde TV co-host, mustard blouse + red neckerchief | hands clasped at cheek, delighted | **statement covers** (Big Shot register; on post 2) |
+
+The kid and man share a face (man = "kid grown up"); the user dislikes that, so the man variants (`SHIP-3/4/6/8`) are effectively retired. The two characters in active use are the **kid** (`SHIP-5` asker) and the **host-woman** (`SHIP-9`). New characters should be visually DISTINCT, not age-variants of an existing one — see [[feedback-visual-tone-comic-big-shot]].
+
+Per-mascot split-layout offsets live in `card.html` (keyed on `data-mascot*=`): the asker uses the default `-280px`; `stater` and `host` are nudged right (`-225`/`-210px`) so their gesture/figure clears the left edge; an arms-crossed bust (`gman`) needs a narrower width. When a new mascot's limb or content clips at the card edge, give it its own `data-mascot` offset rather than changing the shared rule.
 
 **Statement covers want a different character** — the asker's floating `?` reads as "asking", mismatches statement copy. The user asked for a stater mascot but it hadn't been generated yet at session end. When generating:
 - Use Gemini Nano Banana (`fal-ai/nano-banana`), not Flux — Flux Pro v1.1 refuses every dynamic pose (validated over 16 generations, see memory)
@@ -73,6 +81,30 @@ All Gemini Nano Banana (see [[reference-gemini-nano-banana-for-poses]]). Backgro
 - Stater pose ideas: pointing at camera "matter of fact", hand on hip with knowing smile + raised index finger, holding up a small open hand "here's the thing"
 - Background: solid cream `#FFF8E7`, no patterns/sunbursts/halftone — Gemini still sometimes adds decoration; strip with the script
 - After generation, run `python3 strip-mascot-bg.py` to alpha-out the bg before compositing
+
+## Cover imagery — the per-card theme (the imagery rule)
+
+**Each cover's icon is drawn from THAT card's content. Do not reuse one generic mascot across every cover.** Repeating the same character (e.g. the kid-asker on 3 of 4 covers) makes the set read as a template and wastes the cover — the highest-value real estate for a click. The cover image should telegraph what the post is about before a word is read. (User correction, this session: "the repetitive nature of same person icon… tailor a theme/look/feel to each card.")
+
+Tone is fixed by CLAUDE.md "Visual tone" + [[feedback-visual-tone-comic-big-shot]]: warm, whimsical, comic — "fun and silly about dark things." Never cold/authoritarian.
+
+Two icon flavors, pick per card:
+
+1. **Anthropomorphized object** (a thing-with-a-face) — best for concept/number/abstract cards. The object is the card's subject. Worked examples (efta-intro):
+   - 1A "what cancels an election" → a nervous **modern ballot box**
+   - 3 "$32M buys a Congressman" → a smug **money bag**
+   - (tried, then cut: a **case file** for post 2 — user kept the host-woman there instead)
+2. **Character mascot** — the **kid** (`SHIP-5` asker) for question covers, the **host-woman** (`SHIP-9`) for statement covers. Use where a presenter actually fits the card.
+
+**Avoid real-person caricatures.** Cartoonized likenesses of named figures (Trump/Gates) were tried via Flux and dropped: Flux gets the likeness but renders too detailed/semi-realistic and clashes with the flat house style, while nano-banana refuses named politicians. Default to a house-style anthropomorphized icon instead (e.g. 1B "President / Macmillan baron / Gates" kept the kid rather than three caricatures). Only do caricatures if the user explicitly asks and accepts the style break.
+
+### Anthropomorphized-object recipe (`gen-anthro.mjs`, nano-banana)
+
+- Same HOUSE preamble as the mascots (flat-vector, thick uniform outlines, flat fills, cream `#FFF8E7` bg, restricted palette mustard/navy/red/cream/ink, **NO text/letters/numbers/symbols** — that includes `$` on a money bag; imply money with coins + bills instead).
+- Add: *"ANTHROPOMORPHIZED: a simple cute cartoon face (big round eyes with white sparkle), little cartoon white-gloved hands/arms."*
+- **Keep the face in clear space.** An object's internal detail must not compete with the eyes. Ballot-box lesson: a transparent box's internal ballots clashed with the face; fixed by floating the eyes on a clean panel with a margin and minimizing the internals. Whenever the subject has busy internals, give the face its own empty zone.
+- `gen-anthro.mjs <id-substring>` regenerates only matching jobs (e.g. `node gen-anthro.mjs ballotbox`) so iterating on one icon doesn't reroll the approved ones.
+- After it lands: `python3 strip-mascot-bg.py` (drop the icon into `templates/mascots/` first so the script picks it up), then point the card's `cover.mascot` at it and re-render. Same split-offset tuning as any mascot if it clips.
 
 ## The template stack
 
