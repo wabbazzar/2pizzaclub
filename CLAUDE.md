@@ -91,6 +91,14 @@ Other rules:
 - **Don't repeat in the blurb what the card already says.** Narrative blurbs orient — they give the why-this-is-here and the what-comes-below. Evidence cards do the citation work. If the blurb and the card both state the same date or the same number, trim the blurb.
 - **Internal jargon out.** No "the reel" references in reader-visible content (the gallery surfaces meta fields; use "the video" or "the post"). No record-id link labels ("1998-iraq-sanctions-halliday-001" is a database id, not a citation).
 
+## Visual tone — comic, not the prose
+
+The *prose* is flat (above). The *visuals* are the opposite axis: **fun and silly about dark things.** The personality is comic-strip — the Saturn-pizza brand mark, the atomic-age PSA / Vault-Boy mascots, the Instagram carousels. Playful, whimsical, friendly cartoon. The juxtaposition is the device: bright, goofy presentation carrying grim receipts.
+
+- **Mascots are warm and whimsical, never cold or authoritarian.** The reference register is Cowboy Bebop's *Big Shot* — the in-universe bounty-news show with its two over-the-top, cheery hosts (a Black man + a white woman). Friendly cartoon presenters who are fun to watch. A stern federal-agent/G-man type is the wrong direction — it reads cold and serious, which fights the silliness.
+- Keep the brand palette (mustard `#FFD93D`, navy `#1B3FB5`, dusty red `#E63946`, cream `#FFF8E7`, ink) so the goofiness stays on-brand.
+- This lives mostly in the `/insta-post` skill (mascot generation + cover voice) and the logo, but it governs any reader-facing illustration choice.
+
 ## Reel ingest — the standard procedure
 
 The user drops Instagram reel URLs. The pipeline produces a capture + transcript, then Claude does an editorial pass.
