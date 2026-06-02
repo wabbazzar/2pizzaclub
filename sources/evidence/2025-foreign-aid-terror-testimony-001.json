@@ -1,0 +1,38 @@
+{
+    "id": "2025-foreign-aid-terror-testimony-001",
+    "anchor": "y2025-foreign-aid-terror",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "us-aid",
+        "israel",
+        "congress"
+    ],
+    "claim": "At the House Committee on Oversight and Government Reform hearing \"America Last: How Foreign Aid Undermined U.S. Interests Around the World\" on February 26, 2025, Gregg Roman, executive director of the Middle East Forum, testified that U.S. foreign aid had indirectly reached terrorist organizations. Asked by Rep. Tim Burchett, \"Mr. Roman, are you aware that we are sending $40 million a week to the Taliban?\", Roman answered \"Yes, sir,\" and named al-Shabaab in Somalia, the Haqqani network, Hamas, Palestinian Islamic Jihad, Hezbollah, and Hayat Tahrir al-Sham in Syria among \"dozens of terror organizations [that] have received indirect assistance from U.S. foreign aid,\" claiming 90% of post-October-7 aid to Gaza ended up in Hamas-controlled areas. The testimony is on the record; the framing is contested. The \"$40 million a week to the Taliban\" figure is not a U.S. payment to the Taliban: it refers to UN humanitarian cash shipments to Afghanistan — averaging roughly $80 million every 10 to 14 days — which the U.S. government's own watchdog, the Special Inspector General for Afghanistan Reconstruction (SIGAR report 24-32, July 2024, \"UN Shipments Stabilized the Afghan Economy but Benefit the Taliban\"), found benefit the Taliban indirectly through the taxes and fees the regime extracts from NGOs, not through direct transfers, with State Department and USAID vetting intended to keep aid from going directly to prohibited groups. Roman's exchange compresses that indirect-benefit-via-taxation into a direct \"sending to the Taliban.\"",
+    "sources": [
+        {
+            "label": "U.S. House Committee on Oversight and Government Reform, \"America Last: How Foreign Aid Undermined U.S. Interests Around the World\" — printed hearing record (CHRG-119hhrg59000), Feb 26, 2025. The official transcript of the Burchett–Roman exchange.",
+            "type": "primary",
+            "url": "https://www.congress.gov/119/chrg/CHRG-119hhrg59000/CHRG-119hhrg59000.pdf",
+            "quote": "are you aware that we are sending $40 million a week to the Taliban?"
+        },
+        {
+            "label": "House Oversight Committee — hearing wrap-up page for the February 26, 2025 foreign-aid hearing (witness Gregg Roman, Middle East Forum).",
+            "type": "secondary",
+            "url": "https://oversight.house.gov/release/hearing-wrap-up-america-first-foreign-aid-protects-u-s-interests-at-home-and-abroad/"
+        },
+        {
+            "label": "SIGAR 24-32 Evaluation Report, \"U.S. Currency Shipments to Afghanistan: UN Shipments Stabilized the Afghan Economy but Benefit the Taliban\" (July 2024). The U.S. watchdog's finding that the cash is UN humanitarian shipments benefiting the Taliban indirectly via taxes/fees, not direct U.S. payments — the context Roman's exchange omits.",
+            "type": "primary",
+            "url": "https://www.sigar.mil/Portals/147/Files/Reports/Audits-and-Inspections/Evaluation/SIGAR-24-32-IP.pdf",
+            "quote": "UN Shipments Stabilized the Afghan Economy but Benefit the Taliban"
+        },
+        {
+            "label": "Snopes, \"Does Trump admin send $45M in cash weekly to Taliban? Here's what we know\" (Dec 11, 2025) — fact-check tracing the weekly-cash claim to the UN humanitarian shipments rather than direct payments.",
+            "type": "secondary",
+            "url": "https://www.snopes.com/news/2025/12/11/trump-45-million-taliban-afghanistan/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group B (real testimony, contested claims) from the @ericmoutsos montage capture DVkVmuejpEx — the third clip. Hearing: House Oversight & Government Reform, \"America Last: How Foreign Aid Undermined U.S. Interests Around the World,\" Feb 26, 2025; witness Gregg Roman (Middle East Forum, a hawkish think tank); questioner Rep. Tim Burchett (R-TN). Verbatim exchange + the al-Shabaab/Haqqani/Hamas/PIJ/Hezbollah/HTS list confirmed across House Oversight, congress.gov printed hearing CHRG-119hhrg59000, and multiple outlets. Dispute documented via SIGAR 24-32 (Jul 2024): the ~$40M/week is UN cash shipments (~$80M per 10-14 days) for humanitarian assistance; Taliban benefits indirectly through NGO taxes/fees, not direct US transfers. congress.gov + oversight.house.gov 403'd to WebFetch; cited from the canonical URLs (exchange independently corroborated). Whisper mangled names: \"Khumsi\"=Haqqani, \"Hayat al-Shamsen\"=Hayat Tahrir al-Sham, \"air fat\"=Arafat."
+}

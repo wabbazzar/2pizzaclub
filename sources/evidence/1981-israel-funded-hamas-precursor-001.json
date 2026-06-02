@@ -1,0 +1,37 @@
+{
+    "id": "1981-israel-funded-hamas-precursor-001",
+    "anchor": "y1981-israel-islamist-counterweight",
+    "year": 1981,
+    "era": "iii",
+    "themes": [
+        "israel",
+        "palestine"
+    ],
+    "claim": "After occupying Gaza in 1967, Israel tolerated and at times funded the Islamist movement there as a counterweight to the secular Palestine Liberation Organization and Fatah. The Israeli military governor of Gaza, Brigadier General Yitzhak Segev, told New York Times correspondent David K. Shipler in 1981 that he financed religious activists out of his budget; Shipler later wrote that Segev described financing the Islamic movement as a counter to the PLO and the communists. Sheikh Ahmed Yassin's charity Mujama al-Islamiya, licensed by Israel in 1979, was the organizational seedbed from which Hamas formed in 1987 at the start of the First Intifada. Avner Cohen, the Israeli official who had handled religious affairs in Gaza, told the Wall Street Journal in 2009: \"Hamas, to my great regret, is Israel's creation.\" The stronger claim that \"Israel created Hamas\" is contested and overstated: Hamas grew out of the Muslim Brotherhood and became an armed movement on its own; Israel funded the precursor charity, not the militant organization, and Palestinian and Israeli sources note the \"creation\" framing has been used by both sides for opposing political ends. What is documented is the early Israeli policy of building up the Islamists against the secular nationalists.",
+    "sources": [
+        {
+            "label": "David K. Shipler, The New York Times (1981) — Yitzhak Segev, then Israel's military governor of Gaza, on funding religious activists. The closest primary statement to the \"Israel financed the Islamists\" claim.",
+            "type": "primary",
+            "url": null,
+            "quote": "the Israeli Government gave me a budget and the military government gives to the mosques"
+        },
+        {
+            "label": "Andrew Higgins, \"How Israel Helped to Spawn Hamas,\" The Wall Street Journal (Jan 24, 2009) — interview with Avner Cohen, the Israeli religious-affairs official in Gaza who oversaw the policy.",
+            "type": "secondary",
+            "url": "https://www.analystnews.org/posts/how-israel-helped-prop-up-hamas-for-decades",
+            "quote": "Hamas, to my great regret, is Israel's creation."
+        },
+        {
+            "label": "\"Israeli support for Hamas\" (Wikipedia) — aggregator of the documented record: Mujama al-Islamiya licensed by Israel in 1979, Segev/Shipler, and the post-1967 counterweight policy, with primary footnotes.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Israeli_support_for_Hamas"
+        },
+        {
+            "label": "\"Debunking the lie that 'Israel created Hamas',\" The Electronic Intifada — the contra-view: Israel funded the precursor charity but did not create the militant organization; the \"creation\" framing is contested. Included for balance.",
+            "type": "secondary",
+            "url": "https://electronicintifada.net/content/debunking-lie-israel-created-hamas/51350"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group B (documented but contested) thread from the @ericmoutsos montage capture DVkVmuejpEx. The reel's audio clip asserts \"Hamas was encouraged to really start it by Israel ... to counteract ... Arafat.\" Documented core: post-1967 Israel tolerated/funded Mujama al-Islamiya (Sheikh Yassin, licensed 1979) as a counterweight to the secular PLO/Fatah; Segev told NYT (Shipler, 1981) he funded the mosques out of his budget; Avner Cohen told WSJ (Higgins, 2009) \"Hamas ... is Israel's creation.\" Overstatement to flag: Hamas (1987) emerged from the Muslim Brotherhood and militarized independently — \"Israel created Hamas\" is the contested overreach (Electronic Intifada). Segev verbatim sourced via repro (NYT 1981 archive URL still being chased — url null per hygiene). EFTA corpus grepped for Hamas — only tangential Wolff/Mashal analysis docs and Bahamas false matches; nothing to cite. Avner Cohen quote verified via analystnews fetch (reproduces the 2009 WSJ piece)."
+}

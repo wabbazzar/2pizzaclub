@@ -1,0 +1,27 @@
+{
+    "id": "DVkVmuejpEx",
+    "url": "https://www.instagram.com/reel/DVkVmuejpEx/",
+    "platform": "instagram",
+    "captured_at": "2026-06-02",
+    "handle": "@ericmoutsos",
+    "author_display_name": "Eric Moutsos",
+    "posted_at": "2026-03-07",
+    "engagement": {
+        "likes": 75652,
+        "comments": 3174
+    },
+    "caption": "The more you know",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Did you know the CIA and Mossad not only create and fund \"Muslim extremist\" terrorist groups but then orchestrate them for false flag attacks around the world to justify more fake wars?",
+    "audio_content_summary": "A montage of three unrelated archival clips stitched under one on-screen claim. (1) A documentary clip recounting that the Mossad's official English name is the \"Israeli Secret Intelligence Service\" — whose initials spell ISIS. (2) A clip asserting Israel encouraged Hamas early on to counteract Arafat. (3) Audio from a Feb 26, 2025 House Oversight hearing in which Gregg Roman (Middle East Forum), questioned by Rep. Tim Burchett, agrees the U.S. sends \"$40 million a week to the Taliban\" and lists al-Shabaab, the Haqqani network, Hamas, Islamic Jihad, Hezbollah, and Hayat Tahrir al-Sham among terror groups that received indirect U.S. aid.",
+    "implied_frame": "The on-screen text — CIA and Mossad \"create and fund\" Muslim terror groups and then \"orchestrate them for false flag attacks ... to justify more fake wars\" — is the Group C conspiracy overlay and is not supported; no evidence record asserts it. The montage stitches three separable items: (a) NAMING COINCIDENCE — the Mossad's official English name really is the \"Israeli Secret Intelligence Service\" (per mossad.gov.il/en), and the initials happen to spell ISIS; this is wordplay, not a link between the Mossad and the Islamic State, and no record treats it as evidence. (b) DOCUMENTED-BUT-CONTESTED — Israel did fund the Hamas precursor charity Mujama al-Islamiya as a counterweight to the PLO (see record 1981-israel-funded-hamas-precursor-001); the stronger \"Israel created Hamas\" reading is overstated. (c) REAL TESTIMONY, CONTESTED CLAIMS — the $40M/week Taliban exchange and the terror-aid list are Gregg Roman's Feb 2025 Oversight testimony (see record 2025-foreign-aid-terror-testimony-001); SIGAR finds the cash is UN humanitarian shipments benefiting the Taliban indirectly via taxes, not direct U.S. payments. Real underlying facts do not establish the coordinated CIA/Mossad false-flag architecture the overlay asserts.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~22.5 MB); delivery ~23.0 MB webm, 159s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "1981-israel-funded-hamas-precursor-001",
+        "2025-foreign-aid-terror-testimony-001"
+    ],
+    "supporting_research_links": []
+}
