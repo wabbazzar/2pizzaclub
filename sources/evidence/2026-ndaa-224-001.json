@@ -1,0 +1,56 @@
+{
+    "id": "2026-ndaa-224-001",
+    "anchor": "y2026-ndaa-224",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "ai",
+        "defense",
+        "weapons",
+        "congress",
+        "surveillance"
+    ],
+    "claim": "Section 224 of the House Armed Services Committee's Chairman's Mark of the FY2027 National Defense Authorization Act (H.R. 8800, marked up May 21, 2026), titled \"United States–Israel Defense Technology Cooperation Initiative,\" directs the Secretary of Defense to designate a standing executive agent (per DoD Directive 5101.01) \"responsible for synchronizing cooperative efforts between the United States and Israel, to expand and accelerate bilateral defense technology research, development, testing, evaluation, integration, and industrial cooperation\" — including identifying \"Israeli-origin technologies\" for \"integration into United States systems and programs of record\" and establishing \"United States-based co-production or manufacturing partnerships with Israeli industry.\" Subsection (b) lists ten cooperation domains, among them \"(4) Artificial intelligence, quantum, machine learning, and autonomous systems\" and \"(8) Network integration, data fusion, and contested logistics.\" The section's text is lifted from the U.S.-Israel FUTURES Act (H.R. 7540 / S. 3855), introduced February 12, 2026 by Rep. Ronny Jackson (R-TX-13) and Rep. Don Davis (D-NC-01), with a Senate companion from Sens. Ted Budd (R-NC) and Kirsten Gillibrand (D-NY); the standalone FUTURES bill authorizes $150 million per year for FY2027-2029. This is what is on the record. The bill text does NOT mention civilian data centers, does NOT grant Israel access to any data center, and contains no provision flagging a \"Palantir profile\" or sharing a U.S. person's profile with a foreign government — those elements of the @realstockes_tbr reel are the speaker's framing, not statutory language. The section is a defense-industrial R&D and co-production directive with reporting requirements (an interim briefing at 180 days, annual reports through 2030, and a public-transparency website); it does authorize sharing military AI and autonomous-weapons research with Israel, which is the verifiable core the reel builds on. Rep. Ro Khanna (D-CA) has vowed a floor amendment to strike it, calling it \"insidious.\"",
+    "sources": [
+        {
+            "label": "FY2027 NDAA Chairman's Mark (H.R. 8800), House Armed Services Committee — Sec. 224, \"United States–Israel Defense Technology Cooperation Initiative.\" The primary bill text.",
+            "type": "primary",
+            "url": "https://armedservices.house.gov/uploadedfiles/fy27_ndaa_chairmans_mark_-_final.pdf",
+            "quote": "The Secretary of Defense shall designate an executive agent, as such term is defined in Department of Defense Directive 5101.01 (relating to DoD Executive Agent, issued February 7, 2022), responsible for synchronizing cooperative efforts between the United States and Israel, to expand and accelerate bilateral defense technology research, development, testing, evaluation, integration, and industrial cooperation"
+        },
+        {
+            "label": "FY2027 NDAA Chairman's Mark (H.R. 8800), Sec. 224(b) — the ten cooperation domains, including AI/autonomous systems and network integration/data fusion.",
+            "type": "primary",
+            "url": "https://armedservices.house.gov/uploadedfiles/fy27_ndaa_chairmans_mark_-_final.pdf",
+            "quote": "(4) Artificial intelligence, quantum, machine learning, and autonomous systems. ... (8) Network integration, data fusion, and contested logistics."
+        },
+        {
+            "label": "H.R. 7540 — United States-Israel FUTURES Act of 2026 (GovTrack). Sponsor Rep. Ronny Jackson (R-TX13), introduced Feb 12, 2026; the source text Section 224 is drawn from. Companion S. 3855 (Budd / Gillibrand). Authorizes $150M/yr FY2027-2029.",
+            "type": "primary",
+            "url": "https://www.govtrack.us/congress/bills/119/hr7540"
+        },
+        {
+            "label": "Responsible Statecraft — \"Congress quietly moves to integrate US and Israeli militaries\" (Quincy Institute). Reporting on Section 224's scope and the AI / network-integration / data-fusion language.",
+            "type": "secondary",
+            "url": "https://responsiblestatecraft.org/israel-us-military/"
+        },
+        {
+            "label": "Common Dreams — \"Khanna Vows Amendment to Kill 'Insidious' Effort to Deepen Military Ties Between US, Israel.\" Documents the congressional opposition to Section 224.",
+            "type": "secondary",
+            "url": "https://www.commondreams.org/news/section-224-ndaa"
+        },
+        {
+            "label": "Al Jazeera — \"Congress advances American-Israeli military integration plan\" (May 30, 2026). Independent reporting on the markup.",
+            "type": "secondary",
+            "url": "https://www.aljazeera.com/news/2026/5/30/us-congress-advances-american-israeli-military-integration-plan"
+        },
+        {
+            "label": "Ingestion record — capture DY-te9EPkCd (Instagram reel, @realstockes_tbr, posted May 30, 2026; 17,614 likes at capture). The reel asserts Section 224 merges \"thousands of\" civilian data centers with Israel and would flag a viewer's \"Palantir profile\" — neither appears in the bill text.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DY-te9EPkCd/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A (verifiable, this record): Section 224 exists in the FY27 NDAA Chairman's Mark; verbatim title + executive-agent text + domain list (b)(4) AI/autonomous, (b)(8) network integration/data fusion quoted from the committee PDF (downloaded, pdftotext -layout, lines ~1625-1820). Derives from Jackson/Davis FUTURES Act H.R.7540 / S.3855 ($150M/yr FY27-29). Khanna opposition real (Common Dreams). Group B (real but tangential, NOT recorded here): Jackson 2021 DoD IG report — drank alcohol, made sexual comments, took Ambien on duty, Navy later demoted him (CNN 2021-03-02, Texas Tribune 2024); the reel's \"pill mill\" is a gloss on the separate White House Medical Unit controlled-substances IG finding. Group C (invented, in implied_frame, NOT recorded): \"thousands of data centers,\" \"Israel will gain access to them,\" \"surveillance state that reports back to greater Israel,\" the \"Talmudic Superstate\" framing, and \"DHS/FBI/DoD will flag your Palantir profile ... share that information with their foreign friends\" — none of these appear in Section 224, which is a defense-industrial R&D/co-production directive, not a civilian-surveillance or data-center statute. EFTA corpus grepped for Jackson/FUTURES — no hits. WebFetch of the committee PDF 403s; pulled via curl with a browser UA."
+}

@@ -1,0 +1,26 @@
+{
+    "id": "DY-te9EPkCd",
+    "url": "https://www.instagram.com/reel/DY-te9EPkCd/",
+    "platform": "instagram",
+    "captured_at": "2026-06-02",
+    "handle": "@realstockes_tbr",
+    "author_display_name": "Frankie Stockes",
+    "posted_at": "2026-05-30",
+    "engagement": {
+        "likes": 17614,
+        "comments": 1208
+    },
+    "caption": "Congress is about to codify Israeli access to American AI technology and American data under the guise of national defense.",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "",
+    "audio_content_summary": "Frankie Stockes narrates Section 224 of the FY2027 NDAA — sponsored-in via Rep. Ronny Jackson's U.S.-Israel FUTURES Act — as a merger of American AI infrastructure, autonomous weapons, and \"thousands of\" civilian data centers with Israel, building a surveillance state that \"reports back to greater Israel\" / a \"Talmudic Superstate.\" Closes by claiming DHS, the FBI, and DoD will flag a dissenter's \"Palantir profile,\" label them a national-security threat, and share it with \"foreign friends.\"",
+    "implied_frame": "VERIFIABLE CORE (recorded, see 2026-ndaa-224-001): Section 224 is real — \"United States–Israel Defense Technology Cooperation Initiative\" in the FY2027 NDAA Chairman's Mark (H.R. 8800), text drawn from Jackson's FUTURES Act. It directs DoD to name an executive agent to synchronize U.S.-Israel weapons R&D and co-production, and its domain list explicitly includes \"(4) Artificial intelligence, quantum, machine learning, and autonomous systems\" and \"(8) Network integration, data fusion.\" So the claim that the bill shares military AI and autonomous-weapons research with Israel is accurate to the statutory text. INVENTED OVERLAY (not recorded): the bill contains no mention of civilian data centers, grants Israel no access to any data center, and has no provision flagging a U.S. person's \"Palantir profile\" or sharing it with a foreign government. \"Surveillance state that reports back to greater Israel\" and \"Talmudic Superstate\" are the speaker's framing, not bill language. Jackson was Trump's White House physician; a 2021 DoD IG report found he drank, made sexual comments, and took Ambien on duty, and the Navy later demoted him — real, but the reel's \"pill mill\" is a gloss on a separate White House Medical Unit controlled-substances finding.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~9.5 MB); delivery ~10.1 MB webm, 130s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-ndaa-224-001"
+    ],
+    "supporting_research_links": []
+}
