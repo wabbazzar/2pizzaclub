@@ -89,7 +89,8 @@ User's own pre-existing voice (e.g. "If you believe the answer is anything other
 Other rules:
 - **The reader chooses.** Present what's on the record; let the reader weigh it. "Here are the receipts" is the editorial ethos. No conclusions drawn for the reader.
 - **Don't repeat in the blurb what the card already says.** Narrative blurbs orient — they give the why-this-is-here and the what-comes-below. Evidence cards do the citation work. If the blurb and the card both state the same date or the same number, trim the blurb.
-- **Internal jargon out.** No "the reel" references in reader-visible content (the gallery surfaces meta fields; use "the video" or "the post"). No record-id link labels ("1998-iraq-sanctions-halliday-001" is a database id, not a citation).
+- **Internal jargon out.** No record-id link labels ("1998-iraq-sanctions-halliday-001" is a database id, not a citation).
+- **The source video belongs to the gallery, nowhere else.** The gallery is the surface that reviews/indexes captures, so it references "the video." The **timeline and the Instagram carousels do NOT mention the source video at all** — not "the reel," not "the video," not "the post," not the creator's handle in reader-visible prose. The video is the *prompt* for the work, not its subject: present the bill, the documents, and the facts as standalone editorial. The capture may remain a bare provenance citation in an evidence record's `sources[]` (it's the mechanical gallery↔record link), but the reader-visible `claim`, narrative blurbs, and every IG card stand on their own — never "a video claims X, and here's our response." Backstage `notes` and `_comment` fields are exempt (not rendered).
 
 ## Visual tone — comic, not the prose
 
