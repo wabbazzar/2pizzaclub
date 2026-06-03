@@ -130,6 +130,17 @@ Read the probe. Only `curl`/`yt-dlp` the whole file once a probe confirms the ca
 - **Best frame:** if only an annotated still exists, inpaint the annotations out — detect bright-red arrows by colour mask, box-inpaint text watermarks, `cv2.inpaint(..., INPAINT_TELEA)`. State plainly that it's a re-compressed copy, not the original encode.
 - **Always report the resolution ceiling and how you proved provenance** (inlier counts, which candidates you *rejected* and why). Honesty about "the clean original was scrubbed; this is the best surviving copy" beats a confident wrong answer.
 
+## When the query is a degraded zoom-crop or a meme still
+
+Some queries are junk: a heavily-zoomed, re-compressed crop with a meme caption stapled on ("this is the shooter"). It's ORB-dead — sharpness varLap < ~30, and `match.py` reports near-zero query keypoints / 0 good matches against everything. **Don't conclude "not found" from a dead query.** Recover a better one and the case usually cracks fast:
+
+1. **Grab the fuller/sharper circulating copy as your real query.** Reverse image search returns a "Sites" list *with pixel dimensions* — the larger entries are usually a wider, sharper version of the same still (an annotated blog repost, a news frame). Match *that*, not the blurry crop. (Worked case: a blurry phone-screenshot crop scored 0 inliers everywhere; its fuller blog repost scored 65 against the source footage.)
+2. **Pixel-match against the commentary/analysis reposts.** Conspiracy "breakdown", news, and reaction videos *embed the source footage*. `yt-dlp` a couple, decode, match the still against them — a strong inlier cluster (30-65+) pins the exact scene, and the visible markers in the matched frame (banners, signage) confirm the event. Verify the matched frame visually: a host's eyeglasses/face can throw a false ~15-inlier hit on a talking-head segment.
+3. **Ladder to the cleanest original via the earliest viral posts.** Once you know the clip, `yt-dlp -F` the early big-account X/social posts that carried it — they hold the highest-res, least-watermarked copy. (Worked case: a Mario Nawfal X post served 1072×1270 un-watermarked vs a 640×360 "as TV" repost.) Crop any caption bar off the delivered frame.
+4. **Read the caption *history*, not just the current caption.** The same footage gets re-captioned over time — establishing earliest appearance separates the original claim from later relabels, which is often the actual story. (Worked case: the clip circulated as "hand signals" on Sept 11, then was relabeled "this is the shooter" on Sept 18 — the location was never the lie, the later caption was.)
+
+The positive signal: a junk query is a starting point, not a dead end — re-acquire a clean version of the same image, then the normal match → ladder pipeline applies.
+
 ---
 
 ## Editorial / ethics note
@@ -138,7 +149,7 @@ This is OSINT for accountability journalism. Public, news-documented events are 
 
 ## Gotchas
 
-- **Same event ≠ same camera.** The #1 trap. A match that lives entirely on banner/signage text is a different camera — reject it. Only a keypoint cluster on the *subject/scene geometry* counts.
+- **Same event ≠ same camera (or framing).** The #1 trap. A match that lives entirely on banner/signage text is a different camera or a wider/different framing — reject it. Only a keypoint cluster on the *subject/scene geometry* counts. (Worked case: a wide overhead of the same "Prove Me Wrong" tent scored 57 inliers purely on the banner — but didn't contain the two-men close-up at all.)
 - **Headless captchas.** Google Lens / TinEye usually block headless; Yandex and Bing usually don't. Don't burn time fighting a captcha — pivot engines.
 - **Kill the right Chrome.** The dev-browser playwright chromium ≠ the user's desktop `/opt/google/chrome`. Scope `pkill` to the server/playwright process or you'll close the user's browser.
 - **Re-compressed stills lie about quality.** 1920×1080 dimensions on a repost ≠ pristine 1080p. Note the degradation.
