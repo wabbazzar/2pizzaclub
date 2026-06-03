@@ -1,0 +1,44 @@
+{
+    "id": "1963-negev-uranium-001",
+    "anchor": "y1963-dimona",
+    "year": 1963,
+    "era": "ii",
+    "themes": [
+        "israel",
+        "weapons"
+    ],
+    "claim": "Israel's undeclared nuclear program has been fed in part by domestic uranium recovered as a by-product of phosphate mining in the Negev — reported at roughly ten tons of yellowcake a year, drawn from low-grade ore beds estimated to hold thirty to sixty thousand tons of uranium. Because Israel never joined the Nuclear Non-Proliferation Treaty, that fuel cycle carries no international safeguards. The output is consumed domestically to supply the Dimona reactor; Israel is not a uranium exporter and has never ranked among the world's leading uranium producers.",
+    "sources": [
+        {
+            "label": "GlobalSecurity.org — Mishor Rotem / Israel Special Weapons Facilities.",
+            "type": "secondary",
+            "url": "https://www.globalsecurity.org/wmd/world/israel/mishor_rotem.htm",
+            "quote": "it is reported that domestic production of uranium as a by-product of phosphate mining amounts to only 10 tons a year",
+            "clip_status": "ok-exact",
+            "clip": "clips/1963-negev-uranium-001-00.png"
+        },
+        {
+            "label": "Wisconsin Project on Nuclear Arms Control — Israel's Uranium Processing and Enrichment.",
+            "type": "secondary",
+            "url": "https://www.wisconsinproject.org/israel-uranium-processing-and-enrichment/",
+            "quote": "Israel has also devised a method of extracting uranium from the phosphate deposits in the Negev desert, where there is an estimated thirty to sixty thousand tons of uranium contained in low-level phosphate ores.",
+            "clip": "clips/1963-negev-uranium-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Lital Khaikin — \"Decay of the Third Kingdom: Israeli Nuclear Development, and the future of the Negev Desert, Part Four,\" Warscapes (2019).",
+            "type": "secondary",
+            "url": "https://www.warscapes.com/reportage/decay-third-kingdom-israeli-nuclear-development-and-future-negev-desert-part-four",
+            "quote": "uranium can be extracted from phosphate rock in the process of making fertilizers",
+            "clip": "clips/1963-negev-uranium-001-02.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "Capture DYZIIQQEiEF (provenance).",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DYZIIQQEiEF/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A (verifiable, recorded here): Israel recovers uranium as a by-product of Negev phosphate processing; the ~10 t/yr figure and the 30-60k-ton low-grade reserve estimate are in GlobalSecurity's Mishor Rotem entry and the Wisconsin Project profile, and the byproduct mechanism is in Khaikin's Warscapes piece (the reel's own source; clean full copy pulled to sources/captures/DYZIIQQEiEF/docs/warscapes-khaikin-part4.{html,txt} and archive.org). Israel's non-NPT status and the resulting absence of safeguards are documented; the arsenal/opacity itself is on the site at 1963-dimona-inspections-001 (cross-ref), so this card stays on the fuel-cycle fact and does not re-litigate it.\n\nGroup C (NOT recorded — false against the sources): the capture's claim that Israel is 'the world's number one exporter of uranium' and the 'central production hub' supplying every nuclear state including China and Russia. The documented reality is the opposite in scale — ~10 t/yr consumed domestically for Dimona, not an export operation. Left in the capture's implied_frame.\n\nGroup C (foundational claim, refuted against the primary document): the capture displays Edward Hull's 'Memoir on the Physical Geology and Geography of Arabia Petraea, Palestine, and Adjoining Districts' (Survey of Western Palestine, PEF, 1886) as proof the survey 'confirms phosphate is the most abundant mineral in Palestine.' The full memoir was pulled to sources/captures/DYZIIQQEiEF/docs/survey-western-palestine-hull-1886.pdf (+ OCR .txt); it contains zero occurrences of 'phosphate' or 'uranium' and maps limestone, sandstone, gypsum and Dead Sea rock-salt. The PEF was founded under Queen Victoria's patronage in 1865; the Survey of Western Palestine fieldwork ran 1871-77 and the volumes were published 1881-88. Not recorded as a reader-facing card because it has no meaning except as a rebuttal to the reel, which the timeline does not reference."
+}

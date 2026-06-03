@@ -1,0 +1,32 @@
+{
+    "id": "DYZIIQQEiEF",
+    "url": "https://www.instagram.com/reel/DYZIIQQEiEF/",
+    "platform": "instagram",
+    "captured_at": "2026-06-03",
+    "handle": "@alimcforever",
+    "author_display_name": "ali",
+    "posted_at": "2026-05-16",
+    "engagement": {
+        "likes": 8384,
+        "comments": 308
+    },
+    "caption": "I am allowed to care about people safety. That’s it at the end of the sentence I care about both people I care about all people I care about anyone who’s being exposed to radiation levels that are going to give their future generations leukaemia without them knowing I care about my own future I care about the fact that once you create uranium it stays around and has a half life for 24,000 years and we have producing more and more and more of this for the last 80 years. ##israel##palestine##war##nuclear##jpmorgan",
+    "hashtags": [
+        "israel",
+        "palestine",
+        "war",
+        "nuclear",
+        "jpmorgan"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "On-screen captions track the narration (\"the most abundant mineral in Palestine is phosphate\", \"Making enriched uranium\", \"No. 1 exporter\", \"proliferation hub\"). Long black text-plates carry a written essay restating the thesis: a PEF/Queen-Victoria origin, a 1922 Mandate geological survey of the Oron/Zin/Rotem/Efe phosphate beds, a Balfour-as-financial-instrument reading, and an 'Israel from 1957 was a hub, not a client state' summary.",
+    "audio_content_summary": "Argues a chain: an 1865 Queen-Victoria-era Survey of Western Palestine 'confirmed' phosphate as the region's most abundant mineral; phosphate is 'used for making enriched uranium'; Israel is therefore 'the world's number one exporter of uranium' and, from 1957, the 'central production hub' supplying every UN Security Council nuclear state including China and Russia; Israel was 'built to be the proliferation hub of the post-WWII Western nuclear order'; and 'the same bankers that funded the perpetrators of the Holocaust' are financially tied to the Israeli state and its nuclear secret.",
+    "implied_frame": "Group A (verifiable, recorded at 1963-negev-uranium-001): Israel does recover uranium as a by-product of Negev phosphate mining (~10 t/yr) and never joined the NPT, so the production is unsafeguarded. The undeclared Dimona arsenal and the U.S. inspection fight are already on the timeline (1963-dimona-inspections-001). Documented kernel of the 1957 date: the October 1957 France-Israel agreement that financed and built Dimona.\n\nGroup C (invented / false against the sources, not recorded): (1) That the displayed Survey of Western Palestine 'confirms phosphate is the most abundant mineral.' The book on screen is Edward Hull's 1886 PEF geology memoir (full copy: docs/survey-western-palestine-hull-1886.pdf) — it contains zero occurrences of 'phosphate' or 'uranium' and maps limestone, sandstone, gypsum and rock-salt. The PEF was founded under Queen Victoria's patronage in 1865; the survey fieldwork ran 1871-77, volumes published 1881-88. (2) 'Israel is the world's number one exporter of uranium' / the 'central production hub' for China, Russia and every nuclear state — the documented scale is ~10 t/yr consumed domestically for Dimona; Israel is not a uranium exporter. (3) The banker/Holocaust-financing chain has no primary trace. The Warscapes series the reel draws its phosphate-uranium material from (docs/warscapes-khaikin-part4.txt) says only that 'uranium can be extracted from phosphate rock in the process of making fertilizers' — a byproduct process, which the reel compresses into 'phosphate is used for making enriched uranium.'\n\nDocuments shown in the footage were pulled to docs/: the Hull 1886 PEF memoir (survey-western-palestine-hull-1886.pdf) and Khaikin's 'Decay of the Third Kingdom, Part Four', Warscapes 2019 (warscapes-khaikin-part4.html/.txt).",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~13.9 MB); delivery ~14.4 MB webm, 172s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "1963-negev-uranium-001"
+    ],
+    "supporting_research_links": []
+}

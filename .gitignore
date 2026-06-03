@@ -71,6 +71,10 @@ sources/captures/*/_meta_raw.json
 # Frame PNGs are local-only and re-derivable from reel.orig.mkv. The committed
 # gallery poster is the much smaller f001.webp (derived from f001.png at ingest).
 sources/captures/*/frames/*.png
+# Pulled source documents (PDFs/OCR/HTML from public URLs, doc screenshots cropped
+# from frames) — local-only working copies, all re-derivable. Records cite the
+# canonical public URLs; meta/record notes record the local paths.
+sources/captures/*/docs/
 
 # ---------- efta curation ----------
 # Full pre-curation pipeline output (156 pages). Kept LOCAL ONLY: the repo is
