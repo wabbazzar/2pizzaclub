@@ -102,6 +102,26 @@
 }
 .gallery-item-head .gallery-handle:hover { color: var(--accent); }
 
+/* 2pizzaclub originals — reels we produced, not external captures */
+.gallery-item.is-original {
+    border-color: var(--accent);
+    box-shadow: 6px 6px 0 var(--chrome-bg);
+}
+.gallery-item.is-original .gallery-item-head { flex-wrap: wrap; }
+.gallery-origin {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    background: var(--bus-yellow);
+    color: var(--ink);
+    border: 2px solid var(--ink);
+    padding: 0.18rem 0.5rem;
+    border-radius: 3px;
+    box-shadow: 2px 2px 0 var(--ink);
+    white-space: nowrap;
+}
+
 .gallery-meta {
     display: grid;
     grid-template-columns: auto 1fr;

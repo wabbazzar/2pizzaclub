@@ -103,10 +103,14 @@
             <pre class="gallery-transcript">${esc(transcript)}</pre>
         ` : '';
 
-        return `<article class="gallery-item" data-capture-id="${esc(captureId)}">
+        const isOriginal = meta.origin === '2pizza-original';
+        const originBadge = isOriginal ? '<span class="gallery-origin">★ 2PIZZA ORIGINAL</span>' : '';
+
+        return `<article class="gallery-item${isOriginal ? ' is-original' : ''}" data-capture-id="${esc(captureId)}">
             ${renderMediaCell(meta)}
             <div class="gallery-item-body">
                 <div class="gallery-item-head">
+                    ${originBadge}
                     <span class="filemark">// FILE — ${esc(meta.id)}</span>
                     <a class="gallery-handle" href="${esc(meta.url)}" target="_blank" rel="noopener">${esc(meta.handle || '')}</a>
                 </div>
@@ -142,7 +146,20 @@
             empty.textContent = 'Could not load gallery manifest.';
             return;
         }
-        const ids = manifest.captures || [];
+        // 2pizzaclub originals (our own produced reels) load first, badged, from a
+        // separate list so the ingest pipeline skips them and the shared manifest stays clean.
+        let originals = [];
+        try {
+            const o = await loadJSON('../sources/captures/originals.json');
+            originals = o.originals || [];
+        } catch (e) { /* no originals file is fine */ }
+
+        const seen = new Set();
+        const ids = [...originals, ...(manifest.captures || [])].filter((id) => {
+            if (seen.has(id)) return false;
+            seen.add(id);
+            return true;
+        });
         if (!ids.length) {
             empty.textContent = 'No captures filed yet.';
             return;

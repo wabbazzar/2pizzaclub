@@ -1,0 +1,7 @@
+{
+    "_comment": "2pizzaclub ORIGINALS — reels we produced (make-reel), not external captures. Kept separate from manifest.json so the ingest/normalize pipeline (which expects a yt-dlp reel.orig) skips them, and so the gallery can badge them. Originals must check out to A/B class only (no C). The gallery loads both lists.",
+    "version": 1,
+    "originals": [
+        "2pz-jfk-3shots"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2pz-jfk-3shots",
+  "origin": "2pizza-original",
+  "classification": "A/B",
+  "url": "https://www.instagram.com/reel/DZI0FynMDaH/",
+  "platform": "instagram",
+  "captured_at": "2026-06-03",
+  "handle": "@2pizzaclub",
+  "author_display_name": "2 Pizza Club",
+  "posted_at": "2026-06-03",
+  "caption": "May 20, 2025. The former Chief Analyst for Military Records of the Assassination Records Review Board — the federal board that reviewed the JFK files — testified to a House Oversight task force, under oath. His testimony: the surviving JFK skull X-rays in the National Archives are not originals but altered copy films, and two physicians granted archive access conclude they show a total of three head shots — one from behind, two from the front. That contradicts the Warren Commission and the House Select Committee on Assassinations. He also testified that the original X-rays, eight sets of autopsy photographs, and President Kennedy's brain are missing from the official collection. One cable network covered the hearing. The New York Times, the Washington Post, CNN, NBC, CBS, and ABC did not. The lone mainstream column that engaged the task force called it \"a bleak farce.\" See the receipts.",
+  "hashtags": [
+    "JFK",
+    "JFKfiles",
+    "DouglasHorne",
+    "ARRB",
+    "HouseOversight",
+    "declassify",
+    "assassinationrecords"
+  ],
+  "video_overlay_text_persistent": "SWORN TESTIMONY · JFK FILES · U.S. HOUSE OVERSIGHT — DOUGLAS P. HORNE, former Chief Analyst, JFK Records Review Board (ARRB). \"Three head shots: one from behind, two from the front.\" One cable network ran it; the NYT, WaPo, CNN, NBC, CBS, ABC did not.",
+  "audio_content_summary": "Verbatim sworn testimony of Douglas P. Horne (former ARRB Chief Analyst for Military Records) to the House Oversight JFK task force, May 20, 2025: the extant JFK skull x-rays are altered copy films and reveal a total of three head shots — one from behind, two from the front — contrary to the Warren Commission and the HSCA. A-class: that Horne gave this testimony is documented (his written testimony, oversight.house.gov; the hearing video). B-class: the medical finding itself is contested — four federal investigations (Warren 1964, Clark Panel 1968, Rockefeller 1975, HSCA 1979) concluded two shots from behind, and HSCA authentication panels deemed the x-rays/photos genuine. Presented as testimony, not asserted as settled fact.",
+  "implied_frame": "A 2pizzaclub original. The case: a former federal records official told Congress, under oath, that JFK's autopsy evidence was altered and shows shots from the front — and the national press (NYT, WaPo, CNN, NBC, CBS, ABC) did not cover it; only NewsNation did, and an MSNBC opinion column dismissed the task force as 'a bleak farce.' Every beat resolves to A or B class: the testimony and its existence (A), the contested medical conclusion (B, attributed not asserted), and the coverage record (A, verified who did and didn't run it). No C-class (invented/unsupported) content — a 2pizza original must check out to A/B.",
+  "capture_method": "2pizzaclub original — news-style 9:16 Reel built from the U.S. House Oversight hearing footage (May 20, 2025) via the make-reel + animate-logo skills: blurred-fill base, speech-synced animated chyrons, animated logo outro. No yt-dlp pristine original (reel.webm is the master, derived once from the reel mp4).",
+  "evidence_records": [],
+  "supporting_research_links": [
+    "https://oversight.house.gov/wp-content/uploads/2025/05/Horne-Written-Testimony.pdf",
+    "https://www.youtube.com/watch?v=HLvAWO6ph-k",
+    "https://www.newsnationnow.com/politics/kennedy-assassination-hearing-may-20/",
+    "https://www.americanthinker.com/articles/2025/06/the_media_s_failure_to_effectively_confront_recent_jfk_assassination_testimony.html"
+  ]
+}
