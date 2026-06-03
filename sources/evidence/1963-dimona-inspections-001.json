@@ -1,0 +1,39 @@
+{
+    "id": "1963-dimona-inspections-001",
+    "anchor": "y1963-dimona",
+    "year": 1963,
+    "era": "ii",
+    "themes": [
+        "israel",
+        "weapons",
+        "intelligence"
+    ],
+    "claim": "In 1963 President Kennedy pressed Israel through a series of near-ultimatum letters to accept twice-yearly U.S. inspections of its secret, French-assisted nuclear reactor at Dimona, warning in writing that Washington's \"commitment to and support of Israel\" could be \"seriously jeopardized\" if it could not obtain reliable information on the project. His final letter, dated June 15, 1963, was never delivered: Ben-Gurion announced his resignation the next day and the embassy was instructed to hold it pending further instructions. Under Lyndon Johnson the inspection pressure lapsed, and the United States settled into a standing posture of nuclear opacity toward Israel that has held across every administration since.",
+    "sources": [
+        {
+            "label": "National Security Archive — \"The Battle of the Letters, 1963: John F. Kennedy, David Ben-Gurion, Levi Eshkol, and the U.S. Inspections of Dimona.\"",
+            "type": "primary",
+            "url": "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2019-05-02/battle-letters-1963-john-f-kennedy-david-ben-gurion-levi-eshkol-us-inspections-dimona",
+            "quote": "commitment to and support of Israel",
+            "clip": "clips/1963-dimona-inspections-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "U.S. State Department, Foreign Relations of the United States, 1961–1963, Vol. XVIII — Kennedy's letter on visits to Dimona.",
+            "type": "primary",
+            "url": "https://history.state.gov/historicaldocuments/frus1961-63v18/d289"
+        },
+        {
+            "label": "The Times of Israel — \"Kennedy warned Eshkol US support was 'jeopardized' without nuclear inspections.\"",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/kennedy-warned-eshkol-us-support-was-jeopardized-without-nuclear-inspections/"
+        },
+        {
+            "label": "Capture DY_SSmiNmjF (provenance).",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DY_SSmiNmjF/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A (verifiable): the Kennedy-Ben-Gurion/Eshkol Dimona inspection standoff is fully documented in the NSA 'Battle of the Letters' briefing book and FRUS 1961-63 v18. Verified facts: France financed and helped build Dimona in secret; Kennedy demanded bi-annual (twice-yearly) U.S. inspections; the 'commitment to and support of Israel ... seriously jeopardized' warning is verbatim and recurred in every letter; the June 15 1963 letter was undelivered because Ben-Gurion resigned June 16, and on June 17 the embassy was told to hold it (a near-identical letter went to Eshkol on July 5). Under LBJ the pressure lapsed; the policy of nuclear opacity/ambiguity is real, though it was formalized later (the 1969 Nixon-Meir understanding), not 'made permanent American law' in 1963 as the source video overstates. Group C (NOT recorded): the video's closing implication that the JFK assassination was causally tied to the Dimona pressure has no primary trace — left in the capture's implied_frame, kept out of this claim. Cross-ref 1972-bay-of-pigs-jfk-001."
+}

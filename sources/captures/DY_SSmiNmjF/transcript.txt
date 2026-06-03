@@ -1,0 +1,38 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-06-03, openai-whisper base.en
+
+— FULL TEXT —
+
+This is a photograph of a nuclear facility in the Israeli desert.
+It was built in secret, paid for, by France.
+And one American president tried to shut it down.
+He was gone within the year.
+1963.
+President John F. Kennedy was locked in a confrontation with Israeli Prime Minister Ben Gurion
+over the Desmona nuclear facility.
+The documents exist.
+They are held at the National Security Archive in Washington, D.C.
+Kennedy's letters were near ultimatums.
+He demanded by annual inspections.
+He warned, in writing, that Washington's commitment to and support of Israel could be
+quote, seriously jeopardized if the program continued unchecked.
+Ben Gurion's response ignored the question entirely.
+On June 15, 1963, Kennedy's final ultimatum letter was drafted.
+It was never delivered.
+Because the day before it was due to arrive, Ben Gurion resigned.
+The U.S. embassy was instructed to hold the letter pending further instructions.
+Those instructions never came.
+Five months later, November 22, 1963, Dallas.
+Lyndon B. Johnson became president.
+Within months, the inspection demands were quietly dropped.
+Within years, the United States adopted what had called a policy of nuclear ambiguity,
+an official refusal to acknowledge Israel's nuclear capability.
+That policy has held through every administration since.
+No inspections, no acknowledgement, no pressure.
+A policy Kennedy died fighting against became permanent American law before the year was out.
+The documents are in Washington.
+The facility is still running.
+And the question nobody in government will answer is what exactly changed on November 22, 1963.
+
+— END —

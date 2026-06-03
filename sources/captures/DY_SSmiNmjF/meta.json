@@ -1,0 +1,32 @@
+{
+  "id": "DY_SSmiNmjF",
+  "url": "https://www.instagram.com/reel/DY_SSmiNmjF/",
+  "platform": "instagram",
+  "captured_at": "2026-06-03",
+  "handle": "@breakfromrealitytv",
+  "author_display_name": "Break From Reality",
+  "posted_at": "2026-05-31",
+  "engagement": {
+    "likes": 7955,
+    "comments": 385
+  },
+  "caption": "In 1963, President Kennedy sent near-ultimatum letters to Israel demanding inspections of their secret nuclear facility at Dimona.\nThe final letter was drafted June 15th, 1963.\nIt was never delivered.\nBen-Gurion resigned the day before it arrived.\nFive months later — Dallas.\nLyndon Johnson dropped the inspection demands within months of taking office. The policy of nuclear ambiguity has held through every administration since.\nThe documents are held at the National Security Archive in Washington D.C. They are declassified. They are real.\nPart 2 of 3. 📁\n#HiddenHistory #InvestigativeDocs #Declassified #JFK #NuclearHistory",
+  "hashtags": [
+    "HiddenHistory",
+    "InvestigativeDocs",
+    "Declassified",
+    "JFK",
+    "NuclearHistory"
+  ],
+  "audio_track_actual": "",
+  "video_overlay_text_observed": "",
+  "audio_content_summary": "",
+  "implied_frame": "Frames a documented 1963 standoff — Kennedy's near-ultimatum letters demanding inspection of Israel's secret Dimona reactor, the undelivered June 15 letter, Ben-Gurion's resignation the next day — and then closes by implying the JFK assassination five months later answered that pressure. The standoff is real and primary-sourced (National Security Archive, FRUS 1961-63 v18) and carries an evidence record. The closing causal implication that Dallas resolved the Dimona fight has no primary trace and is left here, not asserted on the timeline.",
+  "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+  "video_download_status": "Original pulled via yt-dlp (~10.7 MB); delivery ~11.5 MB webm, 131s.",
+  "audio_transcription_status": "Transcribed with openai-whisper.",
+  "evidence_records": [
+    "1963-dimona-inspections-001"
+  ],
+  "supporting_research_links": []
+}
