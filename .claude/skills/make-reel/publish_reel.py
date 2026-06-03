@@ -23,6 +23,9 @@ def main():
     ap.add_argument("--video", required=True)
     ap.add_argument("--caption-file", required=True)
     ap.add_argument("--thumbnail", default=None, help="JPEG cover (avoids moviepy)")
+    ap.add_argument("--replace", default=None,
+                    help="shortcode or media pk of an already-live post to DELETE "
+                         "after the new upload succeeds (no edit-media API). URL changes.")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
@@ -78,6 +81,15 @@ def main():
         print(f"https://www.instagram.com/reel/{code_}/")
     else:
         print("uploaded; media:", media)
+
+    # new upload succeeded -> delete the old post (never a gap with nothing live)
+    if args.replace:
+        try:
+            pk = args.replace if args.replace.isdigit() else cl.media_pk_from_code(args.replace)
+            cl.media_delete(pk)
+            log(f"deleted old post {args.replace}")
+        except Exception as e:
+            log(f"WARNING: new reel is live but deleting old post {args.replace} failed: {e!r}")
 
 
 if __name__ == "__main__":
