@@ -74,6 +74,15 @@ Operational defaults for these dumps:
 - Treat redactions in the source as authoritative — don't try to reverse them
 - Skip native-media datasets (videos, raw images) unless the analysis pipeline is text — the PII detector is the wrong tool for that surface
 
+## No official story is ground truth — attribute, don't adopt
+
+The premise of this operation is that official accounts get scrutinized, not assumed. This governs **analysis and investigation, not just published prose** — don't import the zeitgeist as a premise in your own reasoning, and don't narrate it back to the user as settled.
+
+- **An "official" account is a claim on the record, not a fact.** Charges, the named/arrested suspect, agency findings, the press consensus — all are *attributable claims* ("prosecutors charged X", "the FBI said Y", "outlets reported Z"), never stated in our own voice as truth. Don't write — or reason — as if the official version closed the question.
+- **Don't pedestalize the primary suspect or the consensus narrative.** That someone was named, arrested, or charged does not adjudicate a lead, validate or invalidate a piece of evidence, or make a competing observation "wrong." Never dismiss or rank a finding with "but the official suspect is X" / "but the official story says Y." The charge is one data point; weigh it like any other. Phrases like "the *actual* suspect" or "the *real* shooter" are the tell — cut them.
+- **This cuts both ways — neutrality, not counter-bias.** Refusing to adopt the official line is NOT license to adopt the fringe line. A 4chan post, a viral repost, and a DOJ press release are all claims weighed by their evidence and provenance. Don't flip "official = true" into "official = false." Follow the artifact, straight.
+- **Separate primary fact from attributed conclusion.** "This document exists / this video shows X / this timestamp reads Y" is verifiable — state it plainly. "Who did it / why / what it means" is attributed — name the source and stop. Surface both; let the operator and the reader weigh (see "The reader chooses," below).
+
 ## Editorial voice (the most-violated rule)
 
 **Direct. No "we". No flamboyance.** State the fact, cite the source, stop.
