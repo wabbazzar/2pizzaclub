@@ -1,0 +1,47 @@
+{
+    "id": "2026-hsas-israel-money-001",
+    "anchor": "y2026-ndaa-224",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "congress",
+        "lobbying",
+        "finance",
+        "defense"
+    ],
+    "claim": "FEC records show roughly $10.3 million in pro-Israel political money behind the 57 members of the House Armed Services Committee that marked up Section 224: about $2.27 million in direct PAC contributions and conduit-earmarked individual donations across the 2024 and 2026 cycles (AIPAC PAC $1.23M, DMFI PAC $526k, J Street $378k, NORPAC, RJC, and allied PACs the rest), plus $8.07 million in independent expenditures supporting members' races — $7.57M of it from United Democracy Project, AIPAC's super PAC ($4.22M supporting Sarah Elfreth, $3.36M supporting Wesley Bell, both in 2024). 52 of 57 members took pro-Israel PAC or conduit money. The two members who supported the June 4, 2026 amendment to strike Section 224 — Ro Khanna and Sara Jacobs — took $0 from the AIPAC network in either cycle; their only pro-Israel receipts are JStreetPAC ($17.1k and $5.1k respectively), the lobby that favors conditioning aid. Committee leadership who spoke against the amendment took AIPAC-network money: ranking member Adam Smith ~$48k, chairman Mike Rogers ~$20k. The largest recipients: Wesley Bell ~$790k in direct/conduit money (14.4% of his 2024 receipts) and Mark Messmer ~$308k (19.6% of his 2024 receipts). Seth Moulton's committee refunded $32.3k to AIPAC PAC in the 2026 cycle.",
+    "sources": [
+        {
+            "label": "FEC bulk data — itemized committee-to-candidate contributions, 2024 cycle (pas224) and 2026 cycle (pas226, filings through Q1 2026). The direct PAC contributions and AIPAC-conduit earmarked individual donations, summed per member.",
+            "type": "data",
+            "url": "https://www.fec.gov/files/bulk-downloads/2024/pas224.zip",
+            "clip": "clips/2026-hsas-israel-money-001-00.png",
+            "clip_status": "ok-manual"
+        },
+        {
+            "label": "FEC bulk data — independent expenditures, 2024 and 2026 cycles. United Democracy Project (C00799031) and DMFI PAC expenditures supporting committee members' races.",
+            "type": "data",
+            "url": "https://www.fec.gov/files/bulk-downloads/2024/independent_expenditure_2024.csv",
+            "clip": "clips/2026-hsas-israel-money-001-01.png",
+            "clip_status": "ok-manual"
+        },
+        {
+            "label": "FEC bulk data — all-candidate financial summaries (weball24 / weball26), the per-member total-receipts denominators for the percent-of-receipts figures.",
+            "type": "data",
+            "url": "https://www.fec.gov/files/bulk-downloads/2024/weball24.zip"
+        },
+        {
+            "label": "Clerk of the House, MemberData.xml — the authoritative House Armed Services Committee roster: 57 members, 30 R / 27 D, 119th Congress.",
+            "type": "primary",
+            "url": "https://clerk.house.gov/xml/lists/MemberData.xml"
+        },
+        {
+            "label": "Marc Rod, \"House committee blocks effort to strip U.S.-Israel cooperation provision from annual defense bill\" (Jewish Insider, June 4, 2026) — the vote this money map is laid against.",
+            "type": "secondary",
+            "url": "https://jewishinsider.com/2026/06/house-blocks-effort-strip-u-s-israel-cooperation-ndaa/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Own analysis from FEC primary data, June 5, 2026 — companion to 2026-ndaa-224-002 (the vote). Method: summed itemized committee→candidate contributions (itpas2, memo rows excluded to avoid conduit double-count) for ten pro-Israel committees — AIPAC PAC C00797670, DMFI PAC C00710848, NORPAC C00247403, To Protect Our Heritage C00135541, JACPAC C00139659, USI PAC C00127811, RJC PAC C00345132, JStreetPAC C00441949, J Street Action Fund C00815753, Pro-Israel America PAC C00699470 — matched to the 57 members' FEC candidate IDs (unitedstates/congress-legislators mapping). AIPAC PAC entries are predominantly conduit-earmarked individual contributions (hundreds of $250–$3,300 entries per member), so 'individual donors' are captured; what is NOT captured is pro-Israel individuals giving directly without a conduit — these figures are floors, not ceilings (OpenSecrets' broader 'pro-Israel' category would run higher; their site is bot-walled). IEs (Schedule E) counted only where sup_opp=Support and spender in {UDP C00799031, DMFI, RJC C90012063, Pro-Israel America Inc C90019431, J Street C90014028}. 'AIPAC network' = the ten PACs minus the two J Street committees. Caveats: 2026 cycle is partial (Q1 2026); DesJarlais nets negative (refund) and is counted in 'no pro-Israel PAC money'; Cisneros and McGuire lack weball24 receipt rows (different candidate IDs), so their 2024 percentages are omitted; voice vote means 'supported the amendment' rests on Jewish Insider's reporting, not a recorded tally. Full per-member CSV + plot script in drafts/instagram/jacobs-224-reel/work/ (local). Roster correction: an earlier web summary claimed 73 members; the Clerk XML says 57 — always pull the roster from the Clerk."
+}
