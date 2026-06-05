@@ -1,0 +1,35 @@
+{
+    "id": "2026-gaza-toll-001",
+    "anchor": "y2026-ndaa-224",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "palestine",
+        "body-count",
+        "idf"
+    ],
+    "claim": "In late January 2026, Israeli military officials acknowledged in a briefing to Israeli journalists that approximately 70,000 Palestinians were killed in the Gaza war and that the Gaza Health Ministry's figures — which Israeli officials had publicly disputed for two years — are largely accurate. Yedioth Ahronoth quoted military officials: \"We estimate that about 70,000 Gazans were killed in the war, not including the missing\"; Kan 11 attributed the briefing to COGAT, the Coordinator of Government Affairs in the Territories. An IDF spokesperson would not confirm the briefing, saying \"the details published do not reflect official IDF data.\" The Health Ministry's count stood at 71,667 killed as of the week of the briefing.",
+    "sources": [
+        {
+            "label": "CNN — \"Israeli military reportedly acknowledges 70,000 killed in Gaza after previously casting doubt on health ministry's count\" (January 30, 2026). Reports the Yedioth Ahronoth and Kan 11 briefings and the IDF response.",
+            "type": "secondary",
+            "url": "https://www.cnn.com/2026/01/30/middleeast/israeli-military-gaza-killed-numbers-intl",
+            "quote": "The Israeli military has acknowledged in a briefing to Israeli journalists that approximately 70,000 Palestinians were killed during the war in Gaza and that the figures from the health ministry in the enclave are largely accurate",
+            "clip": "clips/2026-gaza-toll-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Al Jazeera — \"Israel accepts Gaza's 70,000 death toll: A record of denialism, lies\" (January 30, 2026). Catalogues the two years of official Israeli statements disputing the count that preceded the acknowledgment.",
+            "type": "secondary",
+            "url": "https://www.aljazeera.com/news/2026/1/30/israel-accepts-gazas-70000-death-toll-a-record-of-denialism-lies"
+        },
+        {
+            "label": "Source capture DZLfqyDt0i3 (Instagram, @repsarajacobs, posted June 4, 2026) — provenance for the claim analyzed here.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZLfqyDt0i3/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Jacobs cited this on the markup record June 4, 2026: 'the Gaza Health Ministry has counted more than 70,000 Palestinians killed in Gaza, a number that the Israeli military itself has now reportedly accepted' — her 'reportedly' is accurate framing: the acknowledgment came in a press briefing attributed to COGAT, and the IDF spokesperson declined to make it official. CNN quote verified verbatim from page HTML (edition.cnn.com returns HTTP 451; www.cnn.com works). The 71,667 figure is the ministry count CNN reports for Jan 28, 2026. An August 2025 leak of an Israeli military intelligence database (reported by +972/Local Call/The Guardian) had already shown the military's own data tracking close to the ministry's count, with ~83% civilians among the dead — context, not this record's claim."
+}

@@ -1,0 +1,46 @@
+{
+    "id": "2026-nso-comeback-001",
+    "anchor": "y2026-ndaa-224",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "surveillance",
+        "intelligence",
+        "lobbying"
+    ],
+    "claim": "On November 4, 2021, the Commerce Department added NSO Group — the Israeli maker of Pegasus spyware — to the Entity List, finding the company \"developed and supplied spyware to foreign governments that used this tool to maliciously target government officials, journalists, businesspeople, activists, academics, and embassy workers.\" NSO began lobbying for removal within months, spending hundreds of thousands of dollars on Washington lobbyists, PR firms, and law firms; administrations of both parties kept it listed. In 2025 a group of U.S. investors acquired the company and installed former Trump ambassador to Israel David Friedman as executive chairman, and by January 2026 NSO was publishing a transparency report as part of an open push to get off the Entity List and enter the U.S. market.",
+    "sources": [
+        {
+            "label": "Federal Register, 86 FR 60759 — \"Addition of Certain Entities to the Entity List\" (Bureau of Industry and Security, effective November 4, 2021). The blacklisting rule.",
+            "type": "primary",
+            "url": "https://www.federalregister.gov/documents/2021/11/04/2021-24123/addition-of-certain-entities-to-the-entity-list",
+            "quote": "investigative information has shown that the Israeli companies NSO Group and Candiru developed and supplied spyware to foreign governments that used this tool to maliciously target government officials, journalists, businesspeople, activists, academics, and embassy workers",
+            "clip": "clips/2026-nso-comeback-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "ProPublica — \"Pegasus Spyware Maker NSO Is Conducting a Lobbying Campaign to Get Off U.S. Blacklist\" (July 12, 2022). The lobbying campaign that began within months of the listing.",
+            "type": "secondary",
+            "url": "https://www.propublica.org/article/pegasus-spyware-nso-israel-blacklist-lobbying",
+            "quote": "NSO has invested hundreds of thousands of dollars in the past year in payments to lobbyists, public relations companies and law firms in the U.S., in the hope of reversing the Biden administration's November decision.",
+            "clip": "clips/2026-nso-comeback-001-01.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "TechCrunch — \"Critics pan spyware maker NSO's transparency claims amid its push to enter US market\" (January 8, 2026). The U.S.-investor acquisition, the Friedman chairmanship, and the Entity-List removal campaign.",
+            "type": "secondary",
+            "url": "https://techcrunch.com/2026/01/08/critics-pan-spyware-maker-nsos-transparency-claims-amid-its-push-to-enter-us-market/",
+            "quote": "former Trump official David Friedman was appointed the new executive chairman",
+            "clip": "clips/2026-nso-comeback-001-02.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "Source capture DZLfqyDt0i3 (Instagram, @repsarajacobs, posted June 4, 2026) — provenance for the claim analyzed here.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZLfqyDt0i3/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Jacobs's markup argument: Section 224's 'emerging technology' domains include cyber, and the one Israeli cyber firm the U.S. has had to act against — NSO — is right now buying its way into the American market. Her '2021 ... blacklisted NSO Group ... for malicious cyber activity against U.S. interest after its software was used to target government officials and journalists' matches the Federal Register finding nearly verbatim; 'two administrations, from both parties, left it on that list' is supported by TechCrunch (as of May 2025 NSO 'had not been able to convince the new administration'). Federal Register quote verified from page HTML (WebFetch hits an unblock redirect; curl with browser UA works). Pegasus targeting of U.S. officials specifically: State Dept employees in Uganda (Reuters Dec 2021) — context. The connective tissue back to §224 is her argument on the record, attributed in 2026-ndaa-224-002; this record carries the NSO facts standalone."
+}

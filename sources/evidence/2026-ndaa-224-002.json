@@ -1,0 +1,65 @@
+{
+    "id": "2026-ndaa-224-002",
+    "anchor": "y2026-ndaa-224",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "congress",
+        "defense",
+        "weapons",
+        "lobbying"
+    ],
+    "claim": "On June 4, 2026, the House Armed Services Committee rejected by voice vote an amendment from Rep. Ro Khanna (D-CA) to strike Section 224 from the FY2027 NDAA; Rep. Sara Jacobs (D-CA) was the only member to join him. Jacobs argued in markup that the section would \"institutionalize and expand U.S. military integration beyond anything in the history of the relationship, fusing our defense industries across research production and emerging technologies,\" and that laws already on the books condition this kind of assistance: the Leahy Law (22 U.S.C. § 2378d) bars assistance to any foreign security-force unit credibly implicated in a gross violation of human rights, and Section 620I of the Foreign Assistance Act (22 U.S.C. § 2378-1) bars assistance to any country that restricts delivery of U.S. humanitarian assistance. Committee leaders of both parties — Chairman Mike Rogers (R-AL) and Ranking Member Adam Smith (D-WA) — said critics were misrepresenting the provision, and it advanced to the House floor. A Quinnipiac University national poll (Aug 21–25, 2025) found voters opposed sending more military aid to Israel 60–32 percent, the highest opposition Quinnipiac has recorded since it first asked the question in November 2023.",
+    "sources": [
+        {
+            "label": "Marc Rod, \"House committee blocks effort to strip U.S.-Israel cooperation provision from annual defense bill\" (Jewish Insider, June 4, 2026). The markup vote: voice vote, Khanna amendment, Jacobs the only supporter.",
+            "type": "secondary",
+            "url": "https://jewishinsider.com/2026/06/house-blocks-effort-strip-u-s-israel-cooperation-ndaa/",
+            "quote": "Rep. Sara Jacobs (D-CA) was the only member to join Khanna in supporting the amendment, claiming it would “institutionalize and expand U.S. military integration beyond anything in the history of the relationship, fusing our defense industries across research production and emerging technologies”",
+            "clip": "clips/2026-ndaa-224-002-00.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "22 U.S.C. § 2378d — the Leahy Law. Statutory bar on assistance to foreign security-force units credibly implicated in gross violations of human rights.",
+            "type": "primary",
+            "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title22-section2378d&num=0&edition=prelim",
+            "quote": "No assistance shall be furnished under this chapter or the Arms Export Control Act to any unit of the security forces of a foreign country if the Secretary of State has credible information that such unit has committed a gross violation of human rights.",
+            "clip": "clips/2026-ndaa-224-002-01.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "22 U.S.C. § 2378-1 — Section 620I of the Foreign Assistance Act. Statutory bar on assistance to countries restricting delivery of U.S. humanitarian assistance.",
+            "type": "primary",
+            "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title22-section2378-1&num=0&edition=prelim",
+            "quote": "No assistance shall be furnished under this chapter or the Arms Export Control Act to any country when it is made known to the President that the government of such country prohibits or otherwise restricts, directly or indirectly, the transport or delivery of United States humanitarian assistance.",
+            "clip": "clips/2026-ndaa-224-002-02.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Quinnipiac University national poll, August 27, 2025 release (fielded Aug 21–25, 1,220 registered voters). 60% oppose / 32% support sending more military aid to Israel.",
+            "type": "data",
+            "url": "https://poll.qu.edu/poll-release?releaseid=3929",
+            "quote": "the highest level of opposition and lowest level of support for the United States sending more military aid to Israel since Quinnipiac University first asked this question of registered voters on November 2, 2023",
+            "clip": "clips/2026-ndaa-224-002-03.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Responsible Statecraft — \"Pro-Israel voices win out, kill bill to stop US-Israel military integration\" (Quincy Institute). Independent reporting on the markup fight.",
+            "type": "secondary",
+            "url": "https://responsiblestatecraft.org/us-israel-military-congress/"
+        },
+        {
+            "label": "Al Jazeera — \"US measure to deepen Israel military cooperation faces bipartisan pushback\" (May 31, 2026).",
+            "type": "secondary",
+            "url": "https://www.aljazeera.com/news/2026/5/31/us-measure-to-deepen-israel-military-cooperation-faces-bipartisan-pushback"
+        },
+        {
+            "label": "Source capture DZLfqyDt0i3 (Instagram, @repsarajacobs, posted June 4, 2026) — Rep. Jacobs's markup remarks; provenance for the claims analyzed here.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZLfqyDt0i3/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Companion to 2026-ndaa-224-001 (the bill text itself, from the May 30 markup-week reel). This record is the June 4 vote. Jacobs's full markup statement is the capture transcript — every factual claim in it decomposed into this record plus 2026-gaza-toll-001, 2026-west-bank-001, 2026-nso-comeback-001. Her quote verified verbatim against both Jewish Insider's report and the capture transcript (they match word-for-word). Statute quotes are 2378d(a) and 2378-1(a) opening sentences. Her assertions that the Leahy/620I laws are 'not being followed or enforced' and that Israel 'has been consistently blocking and restricting humanitarian assistance' are her attributed characterizations (Group B — contested; State Dept under two administrations declined to make formal 620I findings, while UN agencies and ex-State officials like Josh Paul have documented restrictions); the record states the statutes and her argument, not the enforcement conclusion. Jewish Insider curled with browser UA (WebFetch ok but quote pulled from raw HTML)."
+}

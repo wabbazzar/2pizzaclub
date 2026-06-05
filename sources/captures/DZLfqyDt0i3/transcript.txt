@@ -1,0 +1,42 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-06-05, openai-whisper base.en
+
+— FULL TEXT —
+
+The United States should have the same standards for Israel as we do for everyone else.
+If any other country in the world had been credibly accused of violating U.S. and international law again and again,
+of killing tens of thousands of civilians, of blocking food and medicine from reaching a starving population,
+we would not be moving to deepen and permanently expand our military ties with them.
+And yet that is exactly what section 224 of this bill proposes.
+Since October of 2023, the Gaza Health Ministry has counted more than 70,000 Palestinians killed in Gaza,
+a number that the Israeli military itself has now reportedly accepted.
+Another 1,079 Palestinians, at least 235 of them children, have been killed in the West Bank.
+Settler violence has reached unprecedented levels, and the Israeli Security Cabinet has approved
+34 settlements at West Bank, another violation of international law.
+But even against that backdrop, section 224 would institutionalize and expand U.S.
+military integration beyond anything in the history of the relationship,
+fusing our defense industries across research production and emerging technologies.
+And for my colleagues who say that this vote is actually not about the actual provision,
+it is. Emerging technology is not an abstraction.
+It means cyber. And that is one field where we have already had to act against an Israeli firm
+for turning its tools on us. In 2021, the Commerce Department blacklisted NSO group,
+the maker of Pegasus spyware, for malicious cyber activity against U.S. interest after
+its software was used to target government officials and journalists. Two administrations,
+from both parties, left it on that list. And that same company is right now trying to buy its way
+into the American market. Fusing our defense and technology sectors together permanently
+with no conditions in the exact area where we have already been burned is reckless on its own
+terms. And it would do it through a must pass bill with almost no oversight and with none of
+the human rights conditions that govern the rest of our security assistance. We already have laws
+on the books that tell us what to do in this situation. The Leahy law prohibits assistance to
+foreign militaries that are committed gross violations of human rights. The Foreign Assistance
+Act prohibits arms transfers to countries that are restricting U.S. humanitarian aid and Israel
+has been consistently blocking and restricting humanitarian assistance. These laws exist and
+they're not being followed or enforced. And instead of demanding enforcement, this committee is
+proposing we will reward that conduct. This committee should enforce the laws we've already passed
+and condition offensive weapons as those laws require, not permanently entrench our
+militaries together with no strings attached. A clear majority of Americans, 60%, already
+opposed sending more military aid to Israel. They will not support this and neither should we.
+I urge my colleagues to support this amendment to strike section 224.
+
+— END —

@@ -153,6 +153,23 @@ async function clipOneSource(ctx, rec, idx) {
 
         await page.waitForTimeout(1500);
 
+        // dismiss cookie/consent overlays that would cover the highlight (e.g. CNN's "Agree" modal)
+        let dismissed = false;
+        try {
+            dismissed = await page.evaluate(() => {
+                const labels = /^(agree|accept|accept all|accept all cookies|i accept|i agree|got it|ok)$/i;
+                for (const el of document.querySelectorAll("button, [role='button'], input[type='button'], input[type='submit']")) {
+                    const text = (el.innerText || el.value || "").trim();
+                    if (labels.test(text)) { el.click(); return true; }
+                }
+                return false;
+            });
+        } catch (_) { dismissed = true; } // click can navigate and destroy the context — treat as dismissed
+        if (dismissed) {
+            await page.waitForLoadState("domcontentloaded").catch(() => {});
+            await page.waitForTimeout(1200);
+        }
+
         // pass the highlighter as a string so tsx/esbuild can't rewrite it
         const found = await page.evaluate(PAGE_HIGHLIGHTER, src.quote);
         if (!found) { src.clip_status = "quote-not-found"; await page.close(); return null; }

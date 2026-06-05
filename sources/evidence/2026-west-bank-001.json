@@ -1,0 +1,42 @@
+{
+    "id": "2026-west-bank-001",
+    "anchor": "y2026-ndaa-224",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "palestine",
+        "body-count",
+        "international-law"
+    ],
+    "claim": "Between October 7, 2023 and March 30, 2026, 1,079 Palestinians — at least 235 of them children — were killed in the occupied West Bank, including East Jerusalem, per UN OCHA's casualty count. In April 2026, The Times of Israel confirmed that Israel's security cabinet had approved 34 new West Bank settlements in a single meeting — the largest number approved by any Israeli government at one time, bringing the total approved by the current government to 103. By comparison, six new settlements were formally approved in the 30 years between the 1993 Oslo Accords and the current government taking office in 2022.",
+    "sources": [
+        {
+            "label": "UNRWA Situation Report #217 on the humanitarian crisis in the Gaza Strip and the occupied West Bank (reporting period April 8–14, 2026), citing OCHA casualty data.",
+            "type": "data",
+            "url": "https://www.unrwa.org/resources/reports/unrwa-situation-report-217-humanitarian-crisis-gaza-strip-and-occupied-west-bank",
+            "quote": "between 7 October 2023 and 30 March 2026, 1,079 Palestinians – at least 235 of them children – were killed in the occupied West Bank, including East Jerusalem",
+            "clip_status": "http-403"
+        },
+        {
+            "label": "OCHA oPt — Data on casualties (the underlying West Bank casualty dataset, updated continuously).",
+            "type": "data",
+            "url": "https://www.ochaopt.org/data/casualties"
+        },
+        {
+            "label": "Jeremy Sharon, \"Government approves a record 34 new settlements, as it acts to deepen hold on West Bank\" (The Times of Israel, April 9, 2026).",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/government-formally-approves-34-new-settlements-as-it-acts-to-deepen-hold-on-west-bank/",
+            "quote": "The security cabinet approved the establishment of 34 new West Bank settlements in a meeting two weeks ago, The Times of Israel has confirmed.",
+            "clip": "clips/2026-west-bank-001-02.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Source capture DZLfqyDt0i3 (Instagram, @repsarajacobs, posted June 4, 2026) — provenance for the claims analyzed here.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZLfqyDt0i3/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Jacobs's markup numbers — '1,079 Palestinians, at least 235 of them children' and '34 settlements' — both check out exactly against OCHA (via UNRWA SR #217) and The Times of Israel. Whisper transcript artifact: '34 settlements at West Bank' = 'in the West Bank.' Her 'another violation of international law' is the long-standing UN/ICJ position on settlements (Security Council res. 2334; ICJ July 2024 advisory opinion) — attributed framing, not adjudicated here. ToI subhead carries the 103-total and largest-at-one-time findings; the six-in-30-years comparison is verbatim in the article body ('only six new settlements were formally approved by Israel in the 30 years between the signing of the Oslo Accords in 1993 and the establishment of the current government'). UNRWA page is JS-rendered (curl gets a shell) — quote verified against the globalsecurity.org mirror of SR #217; clip may degrade to plain link. ToI curled with browser UA."
+}

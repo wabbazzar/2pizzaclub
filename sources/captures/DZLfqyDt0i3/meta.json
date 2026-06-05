@@ -1,0 +1,37 @@
+{
+    "id": "DZLfqyDt0i3",
+    "url": "https://www.instagram.com/reel/DZLfqyDt0i3/",
+    "platform": "instagram",
+    "captured_at": "2026-06-05",
+    "handle": "@repsarajacobs",
+    "author_display_name": "Congresswoman Sara Jacobs",
+    "posted_at": "2026-06-04",
+    "engagement": {
+        "likes": 4841,
+        "comments": 232
+    },
+    "caption": "Here’s why I support striking Section 224 from the NDAA.",
+    "hashtags": [],
+    "audio_track_actual": "Direct speech — Rep. Sara Jacobs's remarks at the House Armed Services Committee FY2027 NDAA markup, June 4, 2026. No music.",
+    "video_overlay_text_observed": "The U.S. absolutely should NOT further integrate our military relationship with Israel.",
+    "audio_content_summary": "Jacobs speaks in support of the Khanna amendment to strike Section 224 (the U.S.-Israel Defense Technology Cooperation Initiative) from the FY2027 NDAA. Her argument: the U.S. should hold Israel to the same standards as any other country; the Gaza Health Ministry's 70,000+ count has reportedly been accepted by the Israeli military; OCHA counts 1,079 West Bank deaths including 235 children; the security cabinet approved 34 new settlements; Section 224's 'emerging technology' domains include cyber, where Commerce blacklisted NSO Group in 2021 and NSO is now trying to buy into the U.S. market; the Leahy Law and FAA Section 620I already condition assistance and are not being enforced; Quinnipiac found 60% oppose more military aid to Israel. The amendment failed by voice vote with only Jacobs joining Khanna.",
+    "implied_frame": "A sitting member of Congress arguing her own amendment position on the record — essentially all of it Group A. Verified: the markup vote and outcome (2026-ndaa-224-002), the reported Israeli-military acceptance of the ~70,000 Gaza toll (2026-gaza-toll-001), the OCHA West Bank toll and the 34-settlement approval (2026-west-bank-001), the NSO blacklisting and U.S.-market comeback push (2026-nso-comeback-001), the statutes as described, and the Quinnipiac 60% figure. Group B (her attributed characterizations, not recorded as fact): that Israel 'has been consistently blocking and restricting humanitarian assistance' and that the Leahy/620I laws are 'not being followed or enforced' — both contested; UN agencies and ex-State officials document restrictions while State under two administrations has declined formal findings. No Group C: every checkable number in the speech checked out.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~41.6 MB); delivery ~42.3 MB webm, 180s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-ndaa-224-002",
+        "2026-gaza-toll-001",
+        "2026-west-bank-001",
+        "2026-nso-comeback-001"
+    ],
+    "supporting_research_links": [
+        "https://jewishinsider.com/2026/06/house-blocks-effort-strip-u-s-israel-cooperation-ndaa/",
+        "https://www.cnn.com/2026/01/30/middleeast/israeli-military-gaza-killed-numbers-intl",
+        "https://www.timesofisrael.com/government-formally-approves-34-new-settlements-as-it-acts-to-deepen-hold-on-west-bank/",
+        "https://www.unrwa.org/resources/reports/unrwa-situation-report-217-humanitarian-crisis-gaza-strip-and-occupied-west-bank",
+        "https://www.federalregister.gov/documents/2021/11/04/2021-24123/addition-of-certain-entities-to-the-entity-list",
+        "https://techcrunch.com/2026/01/08/critics-pan-spyware-maker-nsos-transparency-claims-amid-its-push-to-enter-us-market/",
+        "https://poll.qu.edu/poll-release?releaseid=3929"
+    ]
+}
