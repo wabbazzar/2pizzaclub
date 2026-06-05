@@ -1,0 +1,33 @@
+{
+    "id": "2023-alpha-gal-001",
+    "anchor": "y2023-food-supply",
+    "year": 2023,
+    "era": "iv",
+    "themes": [
+        "food-supply",
+        "biotech"
+    ],
+    "claim": "In July 2023 the CDC reported, in two Morbidity and Mortality Weekly Report papers, that more than 110,000 suspected cases of alpha-gal syndrome — a tick-bite-associated allergy to red meat and other mammal products — were identified in the United States between 2010 and 2022, and estimated that as many as 450,000 people may have been affected. The CDC states the syndrome is primarily associated in the US with the bite of the lone star tick (Amblyomma americanum).",
+    "sources": [
+        {
+            "label": "CDC Newsroom — 'Emerging Tick Bite-Associated Meat Allergy Potentially Affects Thousands' (July 27, 2023)",
+            "type": "primary",
+            "url": "https://www.cdc.gov/media/releases/2023/p0727-emerging-tick-bites.html",
+            "quote": "between 2010 and 2022, there were more than 110,000 suspected cases of alpha-gal syndrome identified",
+            "clip": "clips/2023-alpha-gal-001-00.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "CBS News — 'Up to 450,000 in U.S. have red meat allergies due to alpha-gal syndrome spread by ticks, CDC says' (July 2023)",
+            "type": "secondary",
+            "url": "https://www.cbsnews.com/news/alpha-gal-red-meat-allergy-lone-star-tick-bites-cdc/"
+        },
+        {
+            "label": "Kels Unfiltered / @unfilteredwithkels, Instagram reel DYkbLNVi8NG (May 20, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DYkbLNVi8NG/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Documented fact: alpha-gal syndrome cases rose sharply and the CDC quantified them in 2023 (>110k suspected 2010-2022; up to ~450k estimated). The CDC attributes the US vector to the lone star tick (Amblyomma americanum) and discusses range expansion factors including climate. The reel's framing — that the surge is deliberately engineered to force people off red meat — has no primary support; the CDC names no intentional cause. Distinct species point relevant to the reel's chain: the tick the Gates/Oxitec program targets is the Asian cattle tick Rhipicephalus microplus (see 2021-oxitec-gates-tick-001), not the lone star tick that causes alpha-gal — Politifact (Sep 1, 2023) rated the engineered-tick/alpha-gal connection false on that basis. This record asserts only the CDC's case counts and vector, not the reel's causal claim."
+}

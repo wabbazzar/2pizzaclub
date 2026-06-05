@@ -1,0 +1,34 @@
+{
+    "id": "DYkbLNVi8NG",
+    "url": "https://www.instagram.com/reel/DYkbLNVi8NG/",
+    "platform": "instagram",
+    "captured_at": "2026-06-05",
+    "handle": "@unfilteredwithkels",
+    "author_display_name": "ᴋᴇʟꜱ ᴜɴꜰɪʟᴛᴇʀᴇᴅ",
+    "posted_at": "2026-05-20",
+    "engagement": {
+        "likes": 12447,
+        "comments": 539
+    },
+    "caption": "Is it a coincidence?\n\nFrom global WEF white papers advocating for alternative proteins, to an explosion in red meat allergies. \n\nFrom ‘unverified’ pilot leaks in Ontario, to billionaire-funded genetic research out of Oxfordshire, UK.\n\nThe pressure on independent farming isn’t a theory.....it’s an ongoing economic and biological reality.\n\nI’m just looking at the receipts. \n\nWhat do you think?\n.\n.\n.\n.\n.\n.\n.\n.\n.\n#FoodSupply #IndependentFarming #FarmingLife #LandRights #QuestionEverything",
+    "hashtags": [
+        "FoodSupply",
+        "IndependentFarming",
+        "FarmingLife",
+        "LandRights",
+        "QuestionEverything"
+    ],
+    "audio_track_actual": "Single female voiceover (selfie/talking-head in a vehicle), no music bed.",
+    "video_overlay_text_observed": "Burned-in auto-captions mirroring the voiceover ('have you ever noticed how sometimes the world's biggest problems…'); occasional document/screenshot inserts referenced in narration (WEF papers, the Oxitec CEO quote).",
+    "audio_content_summary": "Argues a coordinated 'global blueprint' to dismantle traditional meat-eating: WEF papers urging a shift to alternative proteins (synthetic meat, plant-based, insects), an engineered surge in tick-borne alpha-gal red-meat allergy, ticks allegedly air-dropped onto farms, and a Gates-funded Oxitec cattle-tick genetic program based near Oxford — tied together as deliberate centralization of control over food production.",
+    "implied_frame": "Frames distinct, separately-documented items as one intentional chain ('shared global blueprint … where a select few control the technology behind what we eat'). Group A facts, each recorded on its own terms: WEF 'Alternative Proteins' white paper (2019-wef-alt-proteins-001); CDC's 2023 alpha-gal case count (2023-alpha-gal-001); the Gates/Oxitec genetically-engineered cattle-tick program (2021-oxitec-gates-tick-001). The CAUSAL LINK between them is the reel's inference, not in the records: the Oxitec tick is the Asian cattle tick R. microplus and its design suppresses the tick population, while alpha-gal in the US comes from the lone star tick (A. americanum) — a different species (PolitiFact rated the engineered-tick/meat-allergy connection false). Group C, no primary trace (NOT recorded): boxes of ticks 'falling from the sky' onto private fields, and an anonymous Ontario charter-pilot 'leak' claiming paid twice-yearly tick air-drops. The closing 'select few control … what we eat' is insinuation built by adjacency, not evidence.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~24.0 MB); delivery ~24.7 MB webm, 177s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2019-wef-alt-proteins-001",
+        "2023-alpha-gal-001",
+        "2021-oxitec-gates-tick-001"
+    ],
+    "supporting_research_links": []
+}

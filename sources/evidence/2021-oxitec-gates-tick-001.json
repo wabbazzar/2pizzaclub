@@ -1,0 +1,34 @@
+{
+    "id": "2021-oxitec-gates-tick-001",
+    "anchor": "y2023-food-supply",
+    "year": 2021,
+    "era": "iv",
+    "themes": [
+        "food-supply",
+        "biotech",
+        "gates"
+    ],
+    "claim": "In 2021 the Bill & Melinda Gates Foundation funded the biotechnology company Oxitec — based in Abingdon, Oxfordshire, UK — to develop a genetically engineered 'self-limiting' Asian cattle tick (Rhipicephalus microplus), in which released males carry a gene that prevents their offspring reaching maturity, suppressing the population. Oxitec and the foundation describe the project as protecting cattle herds and global food security; the modified ticks have been studied only in UK labs and not released in the wild.",
+    "sources": [
+        {
+            "label": "Alliance for Science — 'Gates Foundation funds research to control cattle ticks through biotechnology' (May 2021)",
+            "type": "secondary",
+            "url": "https://allianceforscience.org/blog/2021/05/gates-foundation-funds-research-to-control-cattle-ticks-through-biotechnology/",
+            "quote": "The cattle tick is a devastating pest, causing high rates of cattle mortality, which in turn impacts the lives of farmers and food security globally.",
+            "clip": "clips/2021-oxitec-gates-tick-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "PolitiFact — 'No connection between Gates-funded modified ticks and alpha-gal syndrome' (Sep 1, 2023)",
+            "type": "secondary",
+            "url": "https://www.politifact.com/factchecks/2023/sep/01/instagram-posts/no-connection-between-gates-funded-modified-ticks/"
+        },
+        {
+            "label": "Kels Unfiltered / @unfilteredwithkels, Instagram reel DYkbLNVi8NG (May 20, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DYkbLNVi8NG/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Documented fact: the Gates Foundation funded Oxitec's genetically-engineered cattle-tick program (reported grants include $1.283M and a later $4.85M), targeting Rhipicephalus microplus; Oxitec is headquartered in Oxfordshire ('right in the backyard of Oxford University' in the reel). Oxitec CEO Grey Frandsen is quoted: 'The foundation's investment will enable us to expand our technology to improve the lives and livelihoods of communities around the world.' The reel's CEO 'Oxetech' is a whisper rendering of Oxitec. The reel's inference — that a project to protect livestock proves an intent to centralize control over who may produce meat — is insinuation, not in the record. R. microplus is a different species from the lone star tick that causes alpha-gal in humans, and Oxitec's design suppresses the tick population rather than spreading it; PolitiFact rated the engineered-tick/meat-allergy link false. Group C claims from the reel with no primary trace (NOT recorded): ticks dropped from low-flying planes onto farms, and an anonymous Ontario charter-pilot 'leak' about paid tick air-drops."
+}

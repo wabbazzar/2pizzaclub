@@ -1,0 +1,31 @@
+{
+    "id": "2019-wef-alt-proteins-001",
+    "anchor": "y2023-food-supply",
+    "year": 2019,
+    "era": "iv",
+    "themes": [
+        "food-supply"
+    ],
+    "claim": "The World Economic Forum's 'Meat: the Future' white-paper series, beginning with 'Alternative Proteins' (January 2019), positions plant-based products, cultured/lab-grown meat, and insects as substitutes for conventional animal protein, framing the shift as a pathway to lower greenhouse-gas emissions and feed a projected 10-billion population. A companion WEF analysis stated that balancing diets with alternative proteins could cut diet-related deaths by about 5% and food-related emissions by about 25%.",
+    "sources": [
+        {
+            "label": "World Economic Forum — White Paper, 'Meat: the Future series — Alternative Proteins' (January 2019)",
+            "type": "primary",
+            "url": "https://www3.weforum.org/docs/WEF_White_Paper_Alternative_Proteins.pdf",
+            "quote": "Alternative proteins that can act as substitutes for traditional animal-based food are attracting considerable financial investment, research attention and interest in the media as a pathway to meeting the nutritional needs and food demands of a predicted mid-century population of 10 billion, in a healthy and sustainable manner.",
+            "clip_status": "error: source is a direct-download PDF — no HTML page to clip; quote verified against the white-paper PDF text (pdftotext)"
+        },
+        {
+            "label": "World Economic Forum — press release, 'Saving Lives and the Planet: Balancing Diet with Alternative Proteins Can Cut Deaths by 5% and Emissions by 25%' (Jan 2019)",
+            "type": "secondary",
+            "url": "https://www.weforum.org/press/2019/01/saving-lives-and-the-planet-balancing-diet-with-alternative-proteins-can-cut-deaths-by-5-and-emissions-by-25/"
+        },
+        {
+            "label": "Kels Unfiltered / @unfilteredwithkels, Instagram reel DYkbLNVi8NG (May 20, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DYkbLNVi8NG/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The WEF white paper and press release are public and explicitly advocate scaling alternative proteins (plant-based, cultured, insect) as substitutes for conventional animal protein on climate/health grounds — the reel's 'open published fact' framing is accurate as to the documents' existence and content. The reel's gloss 'declared a war on traditional meat consumption' is editorial; the papers frame it as one of three pathways to sustainable protein, not a ban. This record asserts only what the documents say; it does not assert the reel's further inference that this advocacy is connected to tick-borne meat allergy (see 2023-alpha-gal-001, 2021-oxitec-gates-tick-001)."
+}
