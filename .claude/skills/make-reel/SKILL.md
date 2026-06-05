@@ -47,6 +47,13 @@ that post-set as the template.
   position, horizontally centered. Don't scatter elements (reads sloppy).
 - **Everything animates over the video.** No static full-screen intro/outro panels —
   they're boring and kill retention. Swoop in/out (overshoot easing), keyword pops.
+- **NEVER pause/freeze the footage to host text** (user rule, June 2026). A frozen
+  frame with editorial beats on top is not a hookable format — it reads as a slideshow
+  and kills retention. The video keeps playing for the entire reel. Place text either
+  (a) synced to what the speaker is saying at that moment, or (b) in the natural gaps
+  between spoken passages — never on a freeze. If the editorial copy needs more time
+  than the clip gives, cut a longer clip, let beats overlap speech they relate to, or
+  trim the copy. The only freeze permitted is the short logo-outro tail (~4s).
 - **Order for a "coverage-led" piece:** hook → "don't feel bad if you missed it" →
   the coverage beat → the payoff (the subject's own words, synced) → logo.
 - **Fit within the clip length** — ride the footage; don't pad with long dead tails.
