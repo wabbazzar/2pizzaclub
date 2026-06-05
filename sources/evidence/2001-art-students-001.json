@@ -1,0 +1,37 @@
+{
+    "id": "2001-art-students-001",
+    "anchor": "y2001-attack",
+    "year": 2001,
+    "era": "iii",
+    "themes": [
+        "september-11",
+        "israel",
+        "mossad",
+        "surveillance"
+    ],
+    "claim": "In June 2001 the DEA's Office of Security Programs produced a 60-page internal report, 'Suspicious Activities Involving Israeli Art Students at DEA Facilities,' documenting young Israelis posing as art students who had attempted to penetrate DEA offices and visited the homes of DEA officers and other federal employees across the country. The report concluded the incidents 'may well be an organized intelligence gathering activity' and noted that a majority of those questioned said they had served in Israeli military intelligence, electronic signal intercept, or explosive ordnance units. Salon counted some 130 documented incidents across the DEA, ATF, Air Force, Secret Service, FBI, and U.S. Marshals Service. Dozens of the Israelis were deported on student-visa violations; a Justice Department spokeswoman dismissed the espionage reports as 'an urban myth.'",
+    "sources": [
+        {
+            "label": "DEA Office of Security Programs — 'Suspicious Activities Involving Israeli Art Students at DEA Facilities' (June 2001, leaked internal report)",
+            "type": "primary",
+            "url": "https://antiwar.com/rep/DEA_Report_redactedxx.pdf",
+            "quote": "the nature of the individuals' conduct, combined with intelligence information and historical information regarding past incidents involving Israeli Organized Crime, leads IS to believe the incidents may well be an organized intelligence gathering activity.",
+            "clip_status": "error: source is a direct-download PDF — no HTML page to clip; quote verified against the HTML transcription at 911timeline.s3.amazonaws.com/2001/dea0601.html"
+        },
+        {
+            "label": "Salon — Christopher Ketcham, “The Israeli 'art student' mystery” (May 7, 2002)",
+            "type": "secondary",
+            "url": "https://www.salon.com/2002/05/07/students/",
+            "quote": "Agents of the DEA, ATF, Air Force, Secret Service, FBI, and U.S. Marshals Service documented some 130 separate incidents of “art student” encounters.",
+            "clip": "clips/2001-art-students-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Based Whiteboy / @based_whiteboy, Instagram reel DZGE-psgUw1 (Jun 2, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZGE-psgUw1/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The leaked DEA memo is the primary document (mirrored at antiwar.com; an HTML transcription exists at 911timeline.s3.amazonaws.com/2001/dea0601.html). The memo's own language is 'organized intelligence gathering activity' — the reel's 'the DEA even called it a foreign espionage operation' is a gloss; the espionage characterization came from officials quoted in later press (Fox/Carl Cameron Dec 2001 series, Insight magazine Mar 2002). Reel embellishments NOT in the memo: surveillance of 'tenants in the Twin Towers' (the memo covers DEA/federal facilities and employees' homes), and 'the story disappeared just seven weeks before 9-11' (the memo is dated June 2001, ~3 months prior; the seven-weeks figure belongs to the Silverstein lease — see 2001-silverstein-001). DOJ 'urban myth' quote via Salon. Whether the activity was an Israeli intelligence operation remains officially unconfirmed; the memo's existence, contents, and the deportations are documented."
+}

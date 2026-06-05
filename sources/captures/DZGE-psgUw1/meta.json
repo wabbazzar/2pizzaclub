@@ -1,0 +1,34 @@
+{
+    "id": "DZGE-psgUw1",
+    "url": "https://www.instagram.com/reel/DZGE-psgUw1/",
+    "platform": "instagram",
+    "captured_at": "2026-06-05",
+    "handle": "@based_whiteboy",
+    "author_display_name": "Based Whiteboy",
+    "posted_at": "2026-06-02",
+    "engagement": {
+        "likes": 35148,
+        "comments": 289
+    },
+    "caption": "BUSH DID 9/11??? \n\nNo, I don’t think so. There is another party that might have had an interest in these attacks though…\n\n#politics #conspiracy #conservative",
+    "hashtags": [
+        "politics",
+        "conspiracy",
+        "conservative"
+    ],
+    "audio_track_actual": "Single male voiceover, explainer cadence; no music bed.",
+    "video_overlay_text_observed": "Minimal stick-figure 'Kyle' explainer cartoon on white. Opening thought bubble: 'NOTHING IS SUS ABOUT 9/11'. Red hand-lettered headers ('SEPTEMBER 11TH 2001:') with blue subtitle captions mirroring the voiceover.",
+    "audio_content_summary": "A 'Kyle is wrong' explainer arguing Israeli foreknowledge of 9/11: the DEA 'Israeli art students' surveillance report, Larry Silverstein's lease/insurance and skipped breakfast, the five Israelis arrested filming the burning towers, and the claim the US then invaded Israel's enemies (Iraq, Libya, Syria) rather than the hijackers' countries of origin.",
+    "implied_frame": "Frames 9/11 as serving Israeli interests ('another group interested in attacking America for their own gain'). Group A/B claims are documented: the June 2001 DEA report (2001-art-students-001), the Silverstein lease, insurance litigation, and dermatologist story (2001-silverstein-001/002/003), the five detained Israelis (2001-dancing-israelis-001). Embellishments with no primary trace (Group C): art students surveilling 'tenants in the Twin Towers' (the DEA memo covers DEA/federal facilities and employees' homes); the story 'disappeared seven weeks before 9-11' (the memo is dated June 2001 — the seven-weeks figure is the Silverstein lease signing); 'the DEA called it a foreign espionage operation' (memo language is 'organized intelligence gathering activity'); the US 'invaded Libya and Syria' (no ground invasion of either; omits Afghanistan entirely). The closing attribution of motive is insinuation, not evidence.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~2.3 MB); delivery ~2.7 MB webm, 78s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2001-art-students-001",
+        "2001-silverstein-001",
+        "2001-silverstein-002",
+        "2001-silverstein-003",
+        "2001-dancing-israelis-001"
+    ],
+    "supporting_research_links": []
+}
