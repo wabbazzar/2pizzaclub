@@ -5,7 +5,7 @@ description: Prime on the 2pizzaclub Instagram-carousel workflow at `drafts/inst
 
 # /insta-post — 2pizzaclub Instagram carousels
 
-A repeatable pipeline for editorial Instagram carousels derived from the timeline + the `/efta/` deck. Each post = one cover (the hook) + N receipts/stats (the evidence). The user is the editor; the agent is the structure-and-render layer. **The user picks voice. The agent presents options, never improvises punchlines.**
+A repeatable pipeline for editorial Instagram carousels derived from the timeline + the `/efta/` deck. Each post = receipts/stats (strongest first — the lead receipt is the hook) + a sign-off slide. No cover slides. The user is the editor; the agent is the structure-and-render layer. **The user picks voice. The agent presents options, never improvises punchlines.**
 
 Reference build (the one the system was developed on, 2026-06-01): **`drafts/instagram/efta-intro/`** — 4 carousels (1A · 1B · 2 · 3) cut from the 4-slide `/efta/` intro deck. Every script and template that exists, exists there. Copy that directory wholesale as the starting point for a new post set.
 
