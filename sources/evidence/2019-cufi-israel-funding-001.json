@@ -1,0 +1,38 @@
+{
+    "id": "2019-cufi-israel-funding-001",
+    "anchor": "y2019-cufi",
+    "year": 2019,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "lobbying",
+        "finance"
+    ],
+    "claim": "In February 2019, Concert — a \"public-benefit company\" created by Israel's Ministry of Strategic Affairs (originally named Kela Shlomo, \"Solomon's Sling\") to channel grants to advocacy groups — awarded nearly $1.3 million to Christians United for Israel, the largest pro-Israel group in America. Leaked documents reported by The Forward in 2020 showed U.S. pro-Israel groups failing to disclose Israeli government grants; none registered as foreign agents. CUFI's parent entity, the CUFI Church Association, is designated a church by the IRS, so it files no public financial reports. A 2026 Global Project Against Hate and Extremism report states CUFI has accepted direct funding from the Israeli government.",
+    "sources": [
+        {
+            "label": "The Forward — Aiden Pink, \"U.S. pro-Israel groups failed to disclose grants from Israeli government\" (Aug 31, 2020).",
+            "type": "secondary",
+            "url": "https://forward.com/israel/453286/us-pro-israel-groups-failed-to-disclose-grants-from-israeli-government/",
+            "quote": "Christians United for Israel, the largest pro-Israel group in America, which was awarded nearly $1.3 million in February 2019 for 10 week-long pilgrimages to the Holy Land",
+            "clip_status": "error: page.screenshot: Clipped area is either empty or outside the resulting image\nCall log:\n\u001b[2m  - taking page screenshot\u001b[2"
+        },
+        {
+            "label": "GPAHE — \"The Rapture Lobby: Christian Zionism and America's Holy War in Iran\" (April 7, 2026).",
+            "type": "secondary",
+            "url": "https://globalextremism.org/post/christian-zionism-and-americas-holy-war-in-iran/",
+            "quote": "CUFI raised $2.65 million in the weeks following October 7 and has accepted direct funding from the Israeli government.",
+            "clip_status": "http-403"
+        },
+        {
+            "label": "ProPublica Nonprofit Explorer — CUFI Church Association (EIN 20-4413244): church designation, no required filings.",
+            "type": "data",
+            "url": "https://projects.propublica.org/nonprofits/organizations/204413244",
+            "quote": "This organization is not required to submit tax filings because the IRS designates it as a church.",
+            "clip": "clips/2019-cufi-israel-funding-001-02.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "From @breakfromrealitytv reel DZC6powxFYt (part 4 of its CUFI series). The reel cites GPAHE 'published April 7th, 2026' — correct — and attributes the nondisclosure reporting to The Forward; the caption dates it 2022 but the Pink article is Aug 31, 2020. The Forward piece names the recipients of Concert money: CUFI ($1.3M, Feb 2019), Israel Allies Foundation (>$100k, 2019), Hasbara Fellowships (>$1M), StandWithUs, America-Israel Friendship League; the Ministry of Strategic Affairs pledged to match private donations to Concert up to $37.5M over four years."
+}

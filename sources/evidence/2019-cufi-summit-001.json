@@ -1,0 +1,34 @@
+{
+    "id": "2019-cufi-summit-001",
+    "anchor": "y2019-cufi",
+    "year": 2019,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "lobbying",
+        "netanyahu"
+    ],
+    "claim": "At CUFI's Washington Summit on July 8, 2019 — the week the organization announced it had passed 7 million members — attendees heard from Prime Minister Benjamin Netanyahu, Vice President Mike Pence, Secretary of State Mike Pompeo, and National Security Advisor John Bolton. Netanyahu has addressed CUFI summits by satellite repeatedly, including from Budapest in 2017.",
+    "sources": [
+        {
+            "label": "CUFI press release, July 8, 2019 — \"CUFI Crosses 7 Million Members As Washington Summit Welcomes U.S., Israeli Leaders.\"",
+            "type": "primary",
+            "url": "https://cufi.org/press-releases/cufi-crosses-7-million-members-as-washington-summit-welcomes-us-israeli-leaders/",
+            "quote": "more than 5,000 Summit attendees heard from Prime Minister of Israel Benjamin Netanyahu, Vice President Mike Pence, Secretary of State Mike Pompeo and National Security Adviser Ambassador John Bolton",
+            "clip": "clips/2019-cufi-summit-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "White House archive — Remarks by Vice President Pence at the CUFI Annual D.C. Summit (July 8, 2019).",
+            "type": "primary",
+            "url": "https://trumpwhitehouse.archives.gov/briefings-statements/remarks-vice-president-pence-christians-united-israel-annual-d-c-summit/"
+        },
+        {
+            "label": "Netanyahu's official page — his 2017 CUFI conference speech, delivered \"live via satellite\" during his state visit to Budapest.",
+            "type": "primary",
+            "url": "https://www.facebook.com/Netanyahu/videos/watch-my-speech-to-the-christians-united-for-israel-cufi-conference-live-via-sat/10154826220757076/"
+        }
+    ],
+    "status": "verified",
+    "notes": "From @breakfromrealitytv reel DZC6powxFYt. The reel places Sheldon Adelson being 'personally awarded by John Hagee' in the same room as the Pence/Pompeo/Bolton summit — the documented Hagee award to Sheldon and Miriam Adelson was at a 2014 CUFI event (Slate, July 2014), not the 2019 summit; left out of the claim. The 2019 'Defender of Israel' award went to Ambassador David Friedman."
+}
