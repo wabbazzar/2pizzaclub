@@ -26,6 +26,7 @@ The wordmark **2pizzaclub** + `2PIZZACLUB.COM` rise in after the mark lands (the
 | `spin`   | scales in while spinning a full turn, settles |
 | `glitch` | RGB-split / jitter glitch that snaps into place |
 | `stamp`  | slams in from oversize with a shake + white flash |
+| `dropout` | melt_slide's drop-in + settle-wiggle, lockup rises, then the whole thing exits out the bottom — text first, logo right behind with a pre-hop (4.0s; built 2026-06-06 to user spec) |
 
 The brand's visual register is **fun + silly about dark things** (Big Shot): warm,
 whimsical, bouncy — never cold. Favor `bounce` / `spray` / `drop` / `spin` over the
