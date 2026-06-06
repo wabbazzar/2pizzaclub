@@ -82,7 +82,11 @@ Per-mascot split-layout offsets live in `card.html` (keyed on `data-mascot*=`): 
 - Background: solid cream `#FFF8E7`, no patterns/sunbursts/halftone — Gemini still sometimes adds decoration; strip with the script
 - After generation, run `python3 strip-mascot-bg.py` to alpha-out the bg before compositing
 
-## Cover imagery — the per-card theme (the imagery rule)
+## Cover imagery — NO CARTOON COVERS (user rule, 2026-06-06)
+
+**Covers no longer carry cartoon mascots or anthro icons — at all.** The cover is **text-led**: the hook copy in the stat-card visual language (red accent rail, brush-font display lead, optional serif attr line, "swipe for the receipts →" foot). `card.html` renders this automatically when the cover card has no `mascot` field (first shipped on the sanctions-38m cover: "38,000,000. — no shots fired."). The mascot/anthro system below is retained for **non-cover** surfaces only (reference, and in case the user explicitly asks for one); do not put a cartoon on a cover again. The cartoon energy lives in the sign-off slide and the brand mark.
+
+### Deprecated — the per-card icon system (kept for reference)
 
 **Each cover's icon is drawn from THAT card's content. Do not reuse one generic mascot across every cover.** Repeating the same character (e.g. the kid-asker on 3 of 4 covers) makes the set read as a template and wastes the cover — the highest-value real estate for a click. The cover image should telegraph what the post is about before a word is read. (User correction, this session: "the repetitive nature of same person icon… tailor a theme/look/feel to each card.")
 

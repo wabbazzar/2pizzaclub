@@ -129,8 +129,14 @@ composited mp4, not the base.
 2. **Per-segment level match:** when concatenating clips from different sources,
    loudness-normalize EACH speech segment before the concat (remote/satellite
    feeds run 6–15 dB quieter than studio mics). Foreground segments must sit
-   within **±2 LU** of each other; intentionally ducked b-roll sits 10–14 dB
-   under the foreground.
+   within **±2 LU** of each other; intentionally ducked b-roll sits **6–9 dB**
+   under the foreground — still clearly audible speech, not a dead bed (user
+   correction 2026-06-06: a −12 dB duck read as "too low"; −7 dB landed).
+2b. **Measure every segment of the FINAL file** — not just the whole-file
+   number. Run ebur128 on each segment window of the composited mp4
+   (foreground and every bed) and put the per-segment list in the triage
+   caption. A whole-file pass hides a bed that's 5 dB off; checking only the
+   hook hides a quiet middle segment.
 3. **Joints:** every audio splice gets a **≥50 ms crossfade** (`acrossfade` or
    trim-overlap) — raw concat clicks. Segment boundaries land on **sentence
    boundaries even for ducked b-roll**: entering a clip mid-word/mid-sentence is
