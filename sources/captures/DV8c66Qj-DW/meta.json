@@ -1,0 +1,29 @@
+{
+    "id": "DV8c66Qj-DW",
+    "url": "https://www.instagram.com/reel/DV8c66Qj-DW/",
+    "platform": "instagram",
+    "captured_at": "2026-06-06",
+    "handle": "@analystnews_",
+    "author_display_name": "Analyst News",
+    "posted_at": "2026-03-16",
+    "engagement": {
+        "likes": 77019,
+        "comments": 2706
+    },
+    "caption": "American political scientist John Mearsheimer: 'The U.S. is a ruthless country that starved 38 million people with sanctions between 1971 and 2021.'",
+    "hashtags": [],
+    "audio_track_actual": "Live interview audio — John Mearsheimer speaking on a panel/interview mic; no music bed.",
+    "video_overlay_text_observed": "Analyst News watermark top-left; caption-style pull quote “The U.S. starves millions of people”; subtitle text over the speaker.",
+    "audio_content_summary": "John Mearsheimer (University of Chicago political scientist) argues the U.S. is 'an incredibly ruthless country,' citing the 2025 Lancet Global Health sanctions-mortality study — sanctions 1971–2021, which he summarizes as '38 million people' killed — then characterizes U.S. economic pressure on Venezuela, Cuba and Iran as deliberately starving populations to provoke uprisings, and concludes he finds it hard to call the U.S. a noble or exceptionally virtuous country in foreign policy.",
+    "implied_frame": "Group A (verifiable): the Lancet Global Health study exists and its estimates imply ~38 million deaths associated with US/EU unilateral sanctions over 1971–2021 — covered by record 2025-sanctions-mortality-lancet-001. Group B (framing/slips): Mearsheimer says the study came out 'November of 2025' (published online July 2025); calls it 'American sanctions' (the study covers US or EU sanctions, strongest effects for US ones); and renders the study's statistical association as 'we murdered' — the study reports association, not adjudicated intent. His reading of sanctions policy as deliberately starving Venezuelans/Cubans/Iranians to trigger uprisings is his characterization, attributable to him.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~8.0 MB); delivery ~8.2 MB webm, 95s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2025-sanctions-mortality-lancet-001"
+    ],
+    "supporting_research_links": [
+        "https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(25)00189-5/fulltext",
+        "https://jasonhickel.substack.com/p/the-staggering-death-toll-of-western"
+    ]
+}

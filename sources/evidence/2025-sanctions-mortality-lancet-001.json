@@ -7,7 +7,7 @@
         "finance",
         "body-count"
     ],
-    "claim": "A 2025 study in The Lancet Global Health by Francisco Rodríguez, Silvio Rendón and Mark Weisbrot estimated that economic sanctions imposed by the United States or the European Union were associated with about 564,000 deaths per year over 1971–2021 — more than the annual number of battle-related deaths (~106,000) and comparable to the total death toll of wars including civilian casualties. The study found the strongest effects for unilateral, economic and U.S. sanctions, with no statistically significant effect for U.N. sanctions, and children under five accounted for roughly half of the deaths.",
+    "claim": "A 2025 study in The Lancet Global Health by Francisco Rodríguez, Silvio Rendón and Mark Weisbrot estimated that economic sanctions imposed by the United States or the European Union were associated with about 564,000 deaths per year over 1971–2021 — more than the annual number of battle-related deaths (~106,000) and comparable to the total death toll of wars including civilian casualties. Over the full half-century the estimates imply roughly 38 million deaths associated with U.S. and E.U. unilateral sanctions. The study found the strongest effects for unilateral, economic and U.S. sanctions, with no statistically significant effect for U.N. sanctions, and children under five accounted for roughly half of the deaths.",
     "sources": [
         {
             "label": "The Lancet Global Health — Rodríguez, Rendón & Weisbrot, “Effects of international sanctions on age-specific mortality: a cross-national panel data analysis” (2025).",
@@ -19,14 +19,22 @@
             "type": "secondary",
             "url": "https://thetricontinental.org/newsletterissue/unilateral-sanctions-civilian-deaths/",
             "quote": "greater than the number of battle-related casualties (106,000 deaths per year) ... similar to some estimates in the total death toll of wars including civilian casualties (around half a million deaths per year)",
-            "clip_status": "error: screenshot-clip-empty"
+            "clip_status": "error: page.screenshot: Clipped area is either empty or outside the resulting image\nCall log:\n\u001b[2m  - taking page screenshot\u001b[2"
         },
         {
             "label": "CEPR — “New Study Estimates Over Half a Million People Die Each Year Due to Unilateral Economic Sanctions.”",
             "type": "secondary",
             "url": "https://cepr.net/newsroom/new-study-estimates-over-half-a-million-people-die-each-year-due-to-unilateral-economic-sanctions/"
+        },
+        {
+            "label": "Jason Hickel — “The staggering death toll of Western sanctions” (Sept 2025), stating the cumulative figure from the study's estimates.",
+            "type": "secondary",
+            "url": "https://jasonhickel.substack.com/p/the-staggering-death-toll-of-western",
+            "quote": "unilateral sanctions imposed by the US and EU since 1970 are associated with 38 million deaths",
+            "clip": "clips/2025-sanctions-mortality-lancet-001-03.png",
+            "clip_status": "ok-cross-node"
         }
     ],
     "status": "verified",
-    "notes": "From @ojas_speaks reel DY0Oj5EpTHZ. The reel cites “a 2025 study in the Lancet, estimated that sanctions are associated with 564,000 deaths per year ... comparable to all armed conflicts worldwide” — accurate (564,258/yr, 1971–2021). The Lancet fulltext and CEPR pages return anti-bot 403s; the verbatim comparison quote is taken from Tricontinental's summary. The study reports association, not proven causation — wording kept to “associated with.”"
+    "notes": "From @ojas_speaks reel DY0Oj5EpTHZ. The reel cites “a 2025 study in the Lancet, estimated that sanctions are associated with 564,000 deaths per year ... comparable to all armed conflicts worldwide” — accurate (564,258/yr, 1971–2021). The Lancet fulltext and CEPR pages return anti-bot 403s; the verbatim comparison quote is taken from Tricontinental's summary. The study reports association, not proven causation — wording kept to “associated with.” Also cited by @analystnews_ reel DV8c66Qj-DW (John Mearsheimer): his “38 million people” matches the cumulative estimate (564k/yr × 51 yrs ≈ 28.8M annualized; the authors' attributable total is ~38M — Hickel quote added). Two reel-side slips: Mearsheimer dates the study to “November of 2025” (published online July 2025, Sept 2025 issue) and calls it “American sanctions” (study covers US or EU sanctions, with the strongest effects for US ones)."
 }
