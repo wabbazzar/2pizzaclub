@@ -95,7 +95,7 @@ and gives a clean 16:9 for the blur-fill frame.
 - **Outro: randomly sample an animate-logo preset per reel** (user rule, 2026-06-06)
   so consecutive reels don't all end on the same sting. Approved pool to sample
   from: `stamp` (impact flash zeroed), `scale-bounce`, `spray`, `wipe`, `iris`,
-  `drop`, `spin`, `glitch`. Check the outro used by the last couple of published
+  `drop`, `spin`, `glitch`, `dropout` (user-approved 2026-06-06). Check the outro used by the last couple of published
   reels and re-roll if it repeats. Excluded (user-rejected): full-screen color
   flashes, the spark circles, and the melt family — melts read as
   squash-and-stretch, not liquid; skip until the engine has real displacement
