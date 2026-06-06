@@ -100,11 +100,42 @@ and gives a clean 16:9 for the blur-fill frame.
   flashes, the spark circles, and the melt family — melts read as
   squash-and-stretch, not liquid; skip until the engine has real displacement
   warping.
+- **Label the footage — always (user rule, 2026-06-06).** Every source clip carries
+  a CLEAR persistent "what you are watching" label (the topbar strip): the show /
+  venue, and **place labels always pair with date labels** — never one without the
+  other ("CUFI Washington Summit · July 2017 · via satellite", "The Alex Marlow
+  Show · May 8, 2026"). When the reel cuts between different source clips, the
+  label updates at each cut so the viewer always knows what's on screen. An
+  unlabeled clip is confusing even when a speaker plate has appeared — the plate
+  says who, the strip says what/where/when.
 - **House register:** Big Shot — friendly/bouncy graphics carrying grim receipts.
   Brand palette: ink `#07070b`, cream `#FFF8E7`, mustard `#FFD93D`, navy `#1B3FB5`,
   planet-red `#E63946`. Font Quicksand. Saturn brand chip + `2pizzaclub.com`.
 - **Editorial:** flat copy, reader-chooses, no source-video reference, attribute
   contested claims as testimony (not asserted fact). See project CLAUDE.md.
+
+## Final audio spec — REQUIRED before any Signal preview (user rule, 2026-06-06)
+
+Every reel passes this audio QC before it leaves the machine. Run it on the final
+composited mp4, not the base.
+
+1. **Loudness targets:** integrated **I = −16 LUFS ± 1**, true peak **≤ −2 dBTP**.
+   Measure with `ffmpeg -i out/reel.mp4 -af ebur128 -f null /dev/null` (or
+   `loudnorm=print_format=summary`). Record I and TP in the Signal triage caption.
+2. **Per-segment level match:** when concatenating clips from different sources,
+   loudness-normalize EACH speech segment before the concat (remote/satellite
+   feeds run 6–15 dB quieter than studio mics). Foreground segments must sit
+   within **±2 LU** of each other; intentionally ducked b-roll sits 10–14 dB
+   under the foreground.
+3. **Joints:** every audio splice gets a **≥50 ms crossfade** (`acrossfade` or
+   trim-overlap) — raw concat clicks. Segment boundaries land on **sentence
+   boundaries even for ducked b-roll**: entering a clip mid-word/mid-sentence is
+   jarring at any volume.
+4. **End fade:** the closing `afade` rides only the final word's natural decay —
+   never starts mid-word. Re-whisper the final cut and confirm the last words are
+   a complete sentence with the fade landing after them and before any next phrase.
+5. **Listen check:** extract and inspect the joints (`astats`/waveform or ears) —
+   levels at every cut, no clicks, no harsh cutoff at the end.
 
 ## Motion engine (`scene.html`)
 
