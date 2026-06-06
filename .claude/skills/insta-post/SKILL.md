@@ -233,6 +233,12 @@ Reusable sender at `drafts/instagram/efta-intro/send-mascots.mjs` (single messag
 - **Mascot bg halo.** Gemini's cream is slightly off-white from the page cream. Always run `strip-mascot-bg.py` (idempotent — backs up originals to `.bg-bak/`). `mix-blend-mode: multiply` is unreliable across mascots.
 - **8-character words in shout text.** The shout-text sizer in `card.html` is longest-word-aware — if you add new kinds of bold display copy, port the same `text.split(/\s+/).reduce((a,w)=>Math.max(a,w.length), 0)` check or single long words will overflow the 74% width container.
 - **Mascot limb overlapping the bubble.** When a mascot has an extended pose (horizontal pointing arm, raised megaphone, extended palm), the bubble in split layout (`z-index: 2` via `.ig-inner`) will paint over the mascot (`z-index: 1`). The pointing fingertip / megaphone bell / palm gets swallowed by the cream bubble fill. **This is the same class as text/image overlap and gets caught by the same inspection pass — every cover before sending, including checking that mascot extremities are fully visible against the bubble.** Fix: choose a vertical-axis pose (finger UP, salute, head tilt) for split layouts where the bubble sits horizontally beside the mascot; OR shrink the mascot width / push it further left; OR switch to `centered` layout where bubble-top + mascot-bottom don't compete horizontally. Validated 2026-06-01: stater-B (finger pointing right) failed on 1A/2; stater-A (finger pointing up) passed.
+- **Memos image memos look empty.** A memo that's just a dropped screenshot has empty `content`, so `mcp__memos__search_memos` (text search) never finds it. Instead `search_memos` with no query to list **recent** memos, then `list_memo_attachments` + `download_attachment` on the recent ones to find the image. (2026-06-02: the OpenSecrets PAC screenshot was invisible to every text query.)
+- **CSS `transform` override drops centering.** Transforms don't stack across rules — a per-style rule that sets `transform: rotate(...)` silently kills the base `transform: translate(-50%,0)`, flinging the element off-canvas (the sticker tape URL ran off the right edge). Always include the centering translate **in** the override: `transform: translate(-50%,0) rotate(...)`.
+- **Flexbox tall-image overflow clips the footer.** A `flex:1` image stage needs `min-height:0`, or a tall screenshot pushes the brand/footer row past the fixed 1350px card and the element-screenshot clips it. (Slide 1's tall PAC table ate the logo until `min-height:0` was added.)
+- **Riso/tint CSS trap.** `filter: brightness(0) …` collapses a *filled* logo tile to a solid-color silhouette block (not a recolored mark). For misregistration use real offset copies of the logo with `hue-rotate` + `mix-blend-mode: multiply`, never `brightness(0)`.
+- **Dark URL on dark background.** The `stamp` URL class is dark ink (built for cream paper). On a dark-bg sign-off family it vanishes — give those a cream variant with a dark text-shadow.
+- **Self-contained card families must suppress the globals.** A sign-off family that draws its own mark/URL inside a card (e.g. `nametag`) has to set `suppressMark`/`suppressUrl`, or the globally-centered mark peeks out behind the card (a yellow sliver above the name-tag) and a second URL double-renders.
 
 ## How to start a NEW post set (not editing efta-intro)
 
@@ -240,7 +246,7 @@ Reusable sender at `drafts/instagram/efta-intro/send-mascots.mjs` (single messag
 2. Clear `templates/cards.json` and start with the post-data-object workflow above. Present small multiples per post; don't pre-render.
 3. If new mascots are needed: edit `gen-mascots-roles.mjs` with new prompts, run it (~10 sec/gen via Gemini), copy chosen results to `templates/mascots/SHIP-N-<role>.png`, run `python3 strip-mascot-bg.py`.
 4. Update captions in `send-carousels.mjs` per new post id.
-5. `node render.mjs` → eyeball **every** card in `out/` → `node send-carousels.mjs` to push to Signal.
+5. `node render.mjs` → eyeball **every** card in `out/` → append a randomly-sampled sign-off slide (see "Sign-off tags" — required on every post) → `node send-carousels.mjs` to push to Signal.
 
 ## How to fix the existing efta-intro post set
 
@@ -252,6 +258,28 @@ The state at session end:
 - All 11 receipts/stats are in their final order (most-relevant first per post).
 
 To iterate: edit `templates/cards.json`, run `node render.mjs`, open the changed `out/*-cover.png` in Read tool, verify no overlap, then `node send-carousels.mjs`.
+
+## Format 2 — screenshot + black caption bar ("strange isn't it" style)
+
+A second, simpler post format that is **not** the mascot-cover carousel: a real screenshot (a chart, a newspaper headline, a bill) under a flat caption, meme-style. Built 2026-06-02 in `drafts/instagram/strange-isnt-it/`. Use when the receipt **is** the image — the editorial move is "look at this primary artifact" with a one-line rhetorical caption, not an illustrated cover.
+
+- **Voice is user-supplied; do not improvise.** The session voice was *"geez isn't it strange that …?"* — one rhetorical question per slide. Thread the escalation **geez → oh geez → and geez → and geez** across the carousel. Fix the user's spoken typos when they dictate copy (e.g. "pack" → **PAC**, "upseat" → **unseat**). Emphasis goes on the punch phrase only (yellow `#FFD93D`).
+- **Sourcing the images.** Pull dropped screenshots from Memos (see the empty-memo pitfall above). For "find a newspaper article that says X," `WebSearch` for the headline, then screenshot the live article with the **dev-browser** skill. Crop with PIL to drop ad banners / cookie bars / email-capture overlays / paywall boxes, and **verify the headline isn't clipped** before using (re-crop is cheap; a half-headline is not). Strong clean mastheads (The Intercept, Al Jazeera, Responsible Statecraft) read as "receipts."
+- **Vet the outlet, corroborate the viewpoint-driven ones.** Check each source's reputation and lean. Viewpoint outlets are usable if corroborated: e.g. *Responsible Statecraft* = the Quincy Institute's magazine — restraint/anti-interventionist POV, Koch+Soros funded, legitimate reporters (Ben Freeman on foreign-influence) — fine **because** the same NDAA §224 story is carried by Al Jazeera, Democracy Now, etc. Don't rest a slide on a single viewpoint outlet.
+- **Renderer.** `strange-isnt-it/{slides.json, render.mjs, raw/, crops/, out/}`. `render.mjs` builds a 1080×1350 **black** canvas: cream caption (`Quicksand` 600) up top, screenshot framed below (`object-fit: contain`, rounded corners + faint border + drop shadow on black), small Saturn logo + `2pizzaclub.com` footer. `slides.json` is `[{id, img, caption}]`. Same inspect-every-card-before-Signal rule as the carousels.
+- **Source-video rule still applies.** Present the bill / documents / facts as standalone editorial — no reel, post, or creator handle anywhere reader-visible.
+
+## Sign-off tags (the graffiti signature slide)
+
+A reusable **final-slide "signature"**: the Saturn-pizza mark, tagged a different way each time, with `2pizzaclub.com` under it — "same tag, hand-done each time." Built 2026-06-02 in `drafts/instagram/signoffs/`.
+
+**Every post ends with one — non-optional (user rule, 2026-06-06).** The sign-off slide is a standing part of the carousel: cover → receipts/stats → sign-off. Append it to every post set (both the mascot-cover carousels and the Format-2 black-caption posts) before the Signal FINAL send, and **randomly sample the family per post for variety** — don't reuse the same family on consecutive posts. Pick a random version index from the bg-compatible families (see "Picking one per post"), check which families the last few published posts used, and roll again if it repeats. The seeded renderer means a chosen version is still reproducible after the random pick.
+
+- **Programmatic, never AI.** `render-signoffs.mjs` composites pure SVG/CSS over the real `logo.png`, so the brand mark never mutates and output is **reproducible**. Seeded by version index (`mulberry32(v)`) → v3 always renders v3. `node render-signoffs.mjs N` renders the first N into `out/signoff-NN.png`.
+- **12 locked families** (user-approved): `halo` (neon mustard spray-glow), `drips` (spray-paint drips), `sticker` (white-border slap + stars + tape URL), `throwie` (fat bubble outline + keyline), `halftone` (pop-art Ben-Day starburst, cream), `chrome` (Y2K liquid-metal plaque), `poster` (torn wheatpaste + tape + grit), `holo` (holographic foil), `stencil` (spray box + overspray), `wildstyle` (graffiti arrows), `nametag` ("HELLO my name is" sticker, URL as the name), `eggshell` (distressed torn slap + peel corner). Vocabulary came from a graffiti + Y2K-design web search.
+- **Variation system.** `STYLES` cycles the 12; the `ACC` table rotates each family's accent on every reappearance (halo → mustard, then red, then cream; chrome → blue, purple, teal; halftone → color-pair swaps) so versions 13+ reuse families in fresh colors and read distinct. Per-version seed jitters speckle/drip/wobble/rotation. To extend, add a family `case` in `build()` + an `ACC[family]` entry + (if it needs them) a font and a `.url.<class>` style.
+- **Picking one per post.** Match the post's background: for the black-caption carousels use a **near-black-bg** family (`halo`/`drips`/`throwie`/`wildstyle`/`eggshell`/`holo`/`stencil`); the cream/blue/teal ones (`halftone`/`chrome`/`poster`/`nametag`) suit standalone use. The "strange isn't it" post shipped with **halo**.
+- **Delivering a finished post.** `cp` the carousel slides + the chosen `signoffs/out/signoff-NN.png` into `<post>/final/` in order, then send all of them to Signal as one message labelled FINAL. Publishing to IG is the separate, explicit `/insta-publish` step — never auto-publish.
 
 ## Conventions (from `/home/wabbazzar/code/2pizzaclub/CLAUDE.md`)
 
