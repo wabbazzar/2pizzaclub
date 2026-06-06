@@ -1,0 +1,33 @@
+{
+    "id": "DYU3W7Rxff_",
+    "url": "https://www.instagram.com/reel/DYU3W7Rxff_/",
+    "platform": "instagram",
+    "captured_at": "2026-06-06",
+    "handle": "@hemurahman_",
+    "author_display_name": "Hemu Rahman",
+    "posted_at": "2026-05-14",
+    "engagement": {
+        "likes": 119916,
+        "comments": 1850
+    },
+    "caption": "If you’re not staying informed and keeping up, well, you’re going to give up your rights. Let’s dig jnto NSPM-7, something that should be breaking news but somehow isn’t.",
+    "hashtags": [],
+    "audio_track_actual": "Direct-to-camera narration; no music bed prominent.",
+    "video_overlay_text_observed": "Opens on a mock cover: White House seal, 'United States Counterterrorism Strategy,' the word 'quietly,' and '2026' in gold.",
+    "audio_content_summary": "Narrator walks through the May 2026 U.S. Counterterrorism Strategy (which he attributes to 'the NSPM7 document'): Trump's intro ending 'we will find you and we will kill you'; the three named threat groups (narco-terrorists, Islamist terrorists, and — new — left-wing extremists including anarchists and anti-fascists); the 'anti-American' ideology language; the claim that the White House named Tucker Carlson and Nick Fuentes as potential targets; and counterterrorism head Sebastian Gorka's satisfaction with the sparse negative coverage ('delicious'). Points viewers to Ken Klippenstein's reporting.",
+    "implied_frame": "Group A (carried by the records): the strategy document's quotes are real and verified against the White House PDF — the Trump intro line, the three threat categories with left-wing extremists/anarchists/anti-fascists as a standing category, and the pledge to 'map' the membership of groups whose ideology is 'anti-American, radically pro-transgender, and anarchist.' Gorka's Breitbart remarks naming Carlson and Fuentes and his 'delicious' quote are sourced (Klippenstein, May 13, 2026). Group B (framing): the reel conflates the strategy with NSPM-7 (September 2025 — the memo that ordered the strategy; the quotes are from the May 2026 document); it renders 'violent secular political groups whose ideology is anti-American' as 'anyone whose ideology is anti-American,' dropping the document's 'violent' qualifier — the breadth concern is real but is the critics' argument (Charity & Security Network, The Intercept), attributed, not the document's text; and 'the White House has named Carlson and Fuentes as potential targets' is contested — Newsweek's fact-check rates the 'possible domestic terrorists' version false; Gorka invoked both when asked about right-wing extremism without applying the label. The extrapolation that negative views on healthcare or the economy are 'technically anti-American' is the reel's, not the document's.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~8.9 MB); delivery ~9.1 MB webm, 108s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-ct-strategy-001",
+        "2026-ct-strategy-gorka-001",
+        "2025-nspm-7-001"
+    ],
+    "supporting_research_links": [
+        "https://www.whitehouse.gov/wp-content/uploads/2026/05/2026-USCT-Strategy-1.pdf",
+        "https://www.kenklippenstein.com/p/new-counterterror-strategy-eyes-tucker",
+        "https://www.newsweek.com/fact-checkdid-trump-aide-name-tucker-carlson-possible-domestic-terrorist-11946474",
+        "https://www.lawfaremedia.org/article/trump-administration-releases-2026-counterterrorism-strategy"
+    ]
+}

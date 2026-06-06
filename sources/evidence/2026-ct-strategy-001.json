@@ -1,0 +1,39 @@
+{
+    "id": "2026-ct-strategy-001",
+    "anchor": "y2026-ct-strategy",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "surveillance",
+        "civil-liberties",
+        "state-terror"
+    ],
+    "claim": "On May 6, 2026 the White House released the United States Counterterrorism Strategy. Trump's introduction closes: \"if you hurt Americans, or are planning to hurt Americans, 'We Will Find You and We Will Kill You.'\" The strategy lists three priority threat categories — \"Narcoterrorists and Transnational Gangs,\" \"Legacy Islamist Terrorists,\" and \"Violent Left-Wing Extremists, including Anarchists and Anti-Fascists\" — the first time a U.S. counterterrorism strategy has named left-wing extremists as a standing category. It directs the \"rapid identification and neutralization of violent secular political groups whose ideology is anti-American, radically pro-transgender, and anarchist,\" pledging to \"map them at home, identify their membership, map their ties to international organizations like Antifa, and use law enforcement tools to cripple them operationally.\" The document cites the assassination of Charlie Kirk and follows the framework set by NSPM-7 in September 2025.",
+    "sources": [
+        {
+            "label": "The White House — U.S. Counterterrorism Strategy, May 2026 (full document, PDF).",
+            "type": "primary",
+            "url": "https://www.whitehouse.gov/wp-content/uploads/2026/05/2026-USCT-Strategy-1.pdf",
+            "quote": "our national CT activities will also prioritize the rapid identification and neutralization of violent secular political groups whose ideology is anti-American, radically pro-transgender, and anarchist. We will use all the tools constitutionally available to us to map them at home, identify their membership, map their ties to international organizations like Antifa, and use law enforcement tools to cripple them operationally before they can maim or kill the innocent.",
+            "clip_status": "ok-pdf-page-render",
+            "clip": "clips/2026-ct-strategy-001-00.png"
+        },
+        {
+            "label": "Lawfare — \"Trump Administration Releases 2026 Counterterrorism Strategy.\"",
+            "type": "secondary",
+            "url": "https://www.lawfaremedia.org/article/trump-administration-releases-2026-counterterrorism-strategy"
+        },
+        {
+            "label": "Time — \"New Trump 'Counterterrorism' Plan Highlights Cartels, Antifa\" (May 6, 2026).",
+            "type": "secondary",
+            "url": "https://time.com/article/2026/05/06/trump-new-counterterrorism-strategy/"
+        },
+        {
+            "label": "Charity & Security Network — \"2026 United States Counterterrorism Strategy Escalates Crackdown on Civil Society.\"",
+            "type": "secondary",
+            "url": "https://charityandsecurity.org/analysis/2026-united-states-counterterrorism-strategy-escalates-crackdown-on-civil-society/"
+        }
+    ],
+    "status": "verified",
+    "notes": "From @hemurahman_ reel DYU3W7Rxff_. All document quotes verified against the White House PDF directly (pdftotext): the Trump intro sentence is on p.2 ('As I said after our first successful counterterrorism mission, just days after I was sworn back in office – if you hurt Americans, or are planning to hurt Americans, \"We Will Find You and We Will Kill You.\"'), the three threat categories and the identification/neutralization passage are verbatim. The reel renders the doc's 'violent secular political groups whose ideology is anti-American' as 'anyone whose ideology is anti-American' — the doc carries the qualifier 'violent'; critics (Charity & Security Network, The Intercept) argue the undefined terms invite broad application. That dispute is attributed, not adopted. The 'first standing left-wing category' framing is per Lawfare/Time coverage. PDF quote can't be clipped by clip-evidence (HTML-only tool)."
+}
