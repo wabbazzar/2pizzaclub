@@ -19,14 +19,41 @@ Corpus root: `~/data/epstein-files/` (outside this repo). Map + status:
 
 | Slice | Path | State |
 |---|---|---|
+| **Full-text search layer** | `work/corpus.jsonl` (~2 GB) | **520,317 docs — the extracted text of the ENTIRE release in one grep-able JSONL.** One line per doc: `{id, source, dataset, text}`. Coverage: DS10 503,150 (≈100%), DS8 9,927, DS1 3,142, estate 2,710, DS2 574, DS1–7 the rest, DS11 100, DS12 151, parsed emails 194. **Any word/phrase search starts HERE** — see the search recipe below. `corpus.hi.jsonl` = text-heavy subset (456K). The 5,163/1,143 counts in `WORK_LOG.md` describe the pre-DS10 build and are stale. |
 | House Oversight estate text | `raw/estate/text_only/HOUSE_OVERSIGHT_*.txt` | **647 docs, text-ready** — the richest narrative/email slice |
 | DOJ DS8 (pre-OCR'd) | `raw/dataset_8/*_djvu.xml` | ~10,487 docs, police-report era |
-| DOJ DS10 ("financial") | `extracted/dataset_10/VOL00010/` | 503,154 PDFs. **Mislabelled: a 50-doc random sample is ~60% EMAIL, ~22% financial statements, 0 iMessage** (heavy OCR damage — `@`→`©`, `.com`→`.corn`). The biggest unread Epstein *email* trove. Load file (`DATA/VOL00010.DAT`) carries only Begin/End Bates — no email metadata, so content must be read, not queried. Only grep'd for financial signals so far. |
+| DOJ DS10 ("financial") | `extracted/dataset_10/VOL00010/` | 503,154 PDFs. **Mislabelled: a 50-doc random sample is ~60% EMAIL, ~22% financial statements, 0 iMessage** (heavy OCR damage — `@`→`©`, `.com`→`.corn`). The biggest unread Epstein *email* trove. **Full text already extracted into `work/corpus.jsonl` — searchable in seconds.** What's still missing is *metadata*: the load file (`DATA/VOL00010.DAT`) carries only Begin/End Bates, no sender/date table, so "all emails from X" still needs content reads; "every doc containing phrase Y" does not. |
 | DS11/DS12 emails | `extracted/dataset_11,12/` | text-extracted, 2017 ops |
 | Parsed email corpus | `emails/txt/` + `INDEX.csv` | 194 emails |
 | Estate bundles 002, 004–012 | not downloaded | **~20K of ~24K bates pages unpulled.** The 647-doc sample we have is 72% email + 25 iMessage forensic exports + court/news — the bundles are the same mix, i.e. the only source of *more iMessages* |
 | Pipeline output | `work/findings.json`, `work/corpus*.jsonl` | feeds the statistical layer |
 | Living work log | `WORK_LOG.md` | **read before any pipeline work — documents what's been tried + what failed** |
+
+### Word/phrase search — always do this first
+
+The whole release is one flat-file query away. Don't reach for subagents, don't
+gate, don't be skeptical — a phrase search over all 520K docs takes seconds:
+
+```bash
+# fast pre-filter (line-level), then exact extraction with context:
+grep -c -iE "PATTERN" ~/data/epstein-files/work/corpus.jsonl
+python3 - <<'EOF'
+import json, re
+pat = re.compile(r'PATTERN', re.I)
+for line in open('/home/wabbazzar/data/epstein-files/work/corpus.jsonl'):
+    if not pat.search(line): continue
+    d = json.loads(line); t = d['text']
+    for m in pat.finditer(t):
+        s,e = max(0,m.start()-150), min(len(t),m.end()+150)
+        print(d['id'], d['dataset'], '...'+' '.join(t[s:e].split())+'...')
+EOF
+```
+
+Account for OCR/encoding damage before concluding "not found": quoted-printable
+(`fr=m` = "from", `=` mid-word), `@`→`©`, `.com`→`.corn`, dropped letters. Search
+a distinctive *substring* first ("transfusi"), then tighten. Proof of value: the
+phrase "all you need is a blood transfusion" hit exactly one doc in 520K
+(EFTA01801501, Josephson→Epstein 2016, promoted to the timeline 2026-06-05).
 
 Already-extracted convenience data in THIS repo: `efta/messages.json` (1,200
 iMessages + 20 email threads, parsed) and `efta/docs/*.json` (doc-viewer
@@ -145,3 +172,12 @@ After any detective run: relay findings, capture the READING META into this file
   once per Bates; (2) extract From/To/Sent into a sender table and slice by actor; (3)
   date-sort (Bates order ≠ chronological); (4) auto-skip Flipboard / Apple-News JSON /
   JPMorgan-GIO / HBRK news-clipping boilerplate. These cut the next read ~⅓ for free.**
+- 2026-06-05 phrase search ("all you need is a blood transfusion"): single hit in 520K docs
+  (EFTA01801501, Josephson→Epstein, Jan 5 2016, subject "Dr. Agus") → promoted to the
+  timeline (record 2016-epstein-blood-transfusion-001, PDF hosted at efta/docs/). Two
+  lessons: (1) this skill's data map previously said DS10 "must be read, not queried" —
+  wrong since the May 27 corpus rebuild; `work/corpus.jsonl` carries full extracted text
+  of ~100% of DS10. Fixed above; trust the search layer first. (2) The verify gate caught
+  citation drift again, this time in MY OWN prose: the NYT 2019 eugenics article documents
+  cryonics/transhumanism, not young-blood transfusions — drafted claim said otherwise from
+  memory. Verbatim-verify every secondary citation too, not just Bates quotes.
