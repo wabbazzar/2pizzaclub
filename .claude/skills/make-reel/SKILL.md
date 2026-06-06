@@ -203,3 +203,12 @@ works well) so it doesn't need moviepy. Caption follows the JFK pattern: dated l
 attributed facts, "See the receipts.", site, hashtags — no reel/creator references.
 **Send cover + caption to Signal and get explicit sign-off before the (public,
 irreversible) post.**
+
+**NEVER replace or delete a live post without explicit, per-post permission
+(user correction, 2026-06-06).** `--replace` destroys the old post's comments
+and likes and changes the URL — that loss is irreversible. Feedback or a
+critique on a live reel is NOT permission to replace it; neither is an earlier
+offer to do so. Build the fix, Signal-preview it, state what the replacement
+will destroy ("this deletes N likes / M comments"), and wait for the user to
+explicitly say replace it. A live reel with real engagement was deleted on
+inferred permission once — never again.

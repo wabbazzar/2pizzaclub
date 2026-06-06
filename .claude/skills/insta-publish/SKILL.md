@@ -76,10 +76,21 @@ bash .claude/skills/insta-publish/run.sh --post <post-id> \
 ```
 
 `--replace` uploads the new carousel FIRST, then deletes the old post (so there's
-never a gap with nothing live). **The post URL changes** — share the new one. If
-the old post has real engagement (likes/comments), it's lost — only do this for
-fresh posts or when the user explicitly wants the correction. The `<old-shortcode>`
-is the `XXXX` in `instagram.com/p/XXXX/` (or the numeric media pk).
+never a gap with nothing live). **The post URL changes** — share the new one, and
+the old post's likes/comments are destroyed permanently.
+
+**HARD RULE (user correction, 2026-06-06): NEVER run `--replace` — or delete any
+live post by any means — without the user's EXPLICIT permission for that specific
+post, given after being told the engagement will be lost.** The user pointing out
+a problem with a live post is NOT permission to replace it. Past offers ("I can
+replace it if you want") are NOT standing permission. The correct response to
+feedback on a live post is: build the fix, preview it on Signal, state plainly
+"replacing will delete N likes / M comments and change the URL," and wait for the
+user to say replace it. This rule exists because a live reel with real comments
+and likes was deleted on inferred permission — irreversibly.
+
+The `<old-shortcode>` is the `XXXX` in `instagram.com/p/XXXX/` (or the numeric
+media pk).
 
 ## Challenges (first login from a new device/IP)
 
