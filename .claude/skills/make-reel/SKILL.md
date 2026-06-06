@@ -119,9 +119,13 @@ and gives a clean 16:9 for the blur-fill frame.
 Every reel passes this audio QC before it leaves the machine. Run it on the final
 composited mp4, not the base.
 
-1. **Loudness targets:** integrated **I = −16 LUFS ± 1**, true peak **≤ −2 dBTP**.
-   Measure with `ffmpeg -i out/reel.mp4 -af ebur128 -f null /dev/null` (or
-   `loudnorm=print_format=summary`). Record I and TP in the Signal triage caption.
+1. **Loudness targets:** the **foreground (full-volume) speech** hits integrated
+   **I = −16 LUFS ± 1**; true peak of the whole file **≤ −2 dBTP**. Measure with
+   `ffmpeg -i out/reel.mp4 -af ebur128 -f null /dev/null` (or
+   `loudnorm=print_format=summary`). A mostly-ducked-bed reel reads lower on the
+   whole-file integrated — that's expected; measure the foreground window(s)
+   separately and verify the bed sits in its duck range. Record the numbers
+   (whole-file + foreground) in the Signal triage caption.
 2. **Per-segment level match:** when concatenating clips from different sources,
    loudness-normalize EACH speech segment before the concat (remote/satellite
    feeds run 6–15 dB quieter than studio mics). Foreground segments must sit
