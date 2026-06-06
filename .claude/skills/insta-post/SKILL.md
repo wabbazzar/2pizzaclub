@@ -11,6 +11,8 @@ Reference build (the one the system was developed on, 2026-06-01): **`drafts/ins
 
 ## How the user works with the agent (THE workflow)
 
+**RECEIPTS-FIRST is the standing format (user rule, 2026-06-06): there is no cover slide.** The post is: **strongest receipt/stat as slide 1 → remaining receipts/stats → sign-off slide.** The lead slide IS the hook — pick the receipt with the most arresting verbatim quote or number and put it first (first shipped: sanctions-38m leads with the Lancet "38 million deaths" quote card). No cover copy to write, no cover candidates to present, no mascots.
+
 **For each new post,** lay it out as a data object before writing copy. Do not freestyle.
 
 ```
@@ -18,33 +20,22 @@ post {
   id, title, tag_top:    "// the editorial-section slug"
   what_the_slides_do:    one-sentence purpose
   contents:              the actual receipts/stats that will appear
-  leading_question:      what a reader naturally wants to know going in
-  punchline:             the payoff the receipts deliver
-  cover_candidates:      3–4 spunky options across formats — Q / statement
-                         / quote-led / number-led / cause-effect
+  lead_slide:            which receipt/stat opens, and why it's the hook
+  punchline:             the payoff the set delivers
 }
 ```
 
-Present the data object **plus a small-multiples table** of 3–4 cover candidates. The user picks one or rewrites. **Do not pre-render images during this discussion.** Once copy is locked, then render.
+Present the data object with the proposed slide order. **Do not pre-render images during this discussion.** Once copy is locked, then render, append the randomly-sampled sign-off, inspect every card, send.
 
-```
-| | Format | Cover copy |
-|---|---|---|
-| A | Question | "..."  |
-| B | Statement | "..."  |
-| C | Quote-led | "..."  |
-| D | Number-led | "..."  |
-```
+Ordering rule: the strongest single artifact leads; the rest are backup in descending punch. `num` fields ("01 / 04" etc.) are hand-set in `cards.json` — renumber when reordering.
 
-Pattern the user landed on (reference build):
-- **1A** (1 receipt) — verbatim quote on the cover: *"They would have to cancel the election."*
-- **1B** (3 receipts) — question naming the three institutions: *"What connects a US President, the British baron behind Macmillan textbooks, and Bill Gates?"*
-- **2** (4 stats) — bare question: *"What's a 'co-opted Mossad agent'?"*
-- **3** (3 stats) — question with subline answer: *"What does $32 million buy you in Kentucky? / One Congressman, removed."*
+## Deprecated — cover slides (historical reference only)
 
-## Cover-voice rules (THE most-violated)
+**Covers are no longer made at all** — the format went cartoon-covers → text-led covers → receipts-first (no cover), all on 2026-06-06. Everything in this section and the mascot/imagery sections below is retained only to understand the old reference builds (efta-intro) and in case the user explicitly revives covers.
 
-The session went through ~6 cover rewrites because the agent kept breaking these. Read them and don't drift.
+### Cover-voice rules (historical)
+
+The session went through ~6 cover rewrites because the agent kept breaking these.
 
 1. **The cover must be UNIQUE against the receipts. Never restate the receipt verbatim on the cover.** The cover asks the question the receipt *provokes*. Bad: cover says *"They would have to cancel the election"* + receipt repeats the exact quote → boring. Good: cover asks *"What are the grounds for canceling a 2016 election?"* + receipt delivers the Mark Epstein quote as the answer.
 2. **No call-and-response inserts.** Don't add an "announcement slide" between cover and receipts that just shouts the answer. The receipts ARE the statement. That layer was tried; user called it "noise that doesn't add anything to the story."
@@ -82,7 +73,7 @@ Per-mascot split-layout offsets live in `card.html` (keyed on `data-mascot*=`): 
 - Background: solid cream `#FFF8E7`, no patterns/sunbursts/halftone — Gemini still sometimes adds decoration; strip with the script
 - After generation, run `python3 strip-mascot-bg.py` to alpha-out the bg before compositing
 
-## Cover imagery — NO CARTOON COVERS (user rule, 2026-06-06)
+### Cover imagery — NO CARTOON COVERS (superseded by receipts-first: no covers at all)
 
 **Covers no longer carry cartoon mascots or anthro icons — at all.** The cover is **text-led**: the hook copy in the stat-card visual language (red accent rail, brush-font display lead, optional serif attr line, "swipe for the receipts →" foot). `card.html` renders this automatically when the cover card has no `mascot` field (first shipped on the sanctions-38m cover: "38,000,000. — no shots fired."). The mascot/anthro system below is retained for **non-cover** surfaces only (reference, and in case the user explicitly asks for one); do not put a cartoon on a cover again. The cartoon energy lives in the sign-off slide and the brand mark.
 
@@ -250,7 +241,7 @@ Reusable sender at `drafts/instagram/efta-intro/send-mascots.mjs` (single messag
 2. Clear `templates/cards.json` and start with the post-data-object workflow above. Present small multiples per post; don't pre-render.
 3. If new mascots are needed: edit `gen-mascots-roles.mjs` with new prompts, run it (~10 sec/gen via Gemini), copy chosen results to `templates/mascots/SHIP-N-<role>.png`, run `python3 strip-mascot-bg.py`.
 4. Update captions in `send-carousels.mjs` per new post id.
-5. `node render.mjs` → eyeball **every** card in `out/` → append a randomly-sampled sign-off slide (see "Sign-off tags" — required on every post) → `node send-carousels.mjs` to push to Signal.
+5. `node render.mjs` → eyeball **every** card in `out/` → append a randomly-sampled sign-off slide (see "Sign-off tags" — required on every post; the set is receipts-first, no cover) → `node send-carousels.mjs` to push to Signal.
 
 ## How to fix the existing efta-intro post set
 
@@ -277,7 +268,7 @@ A second, simpler post format that is **not** the mascot-cover carousel: a real 
 
 A reusable **final-slide "signature"**: the Saturn-pizza mark, tagged a different way each time, with `2pizzaclub.com` under it — "same tag, hand-done each time." Built 2026-06-02 in `drafts/instagram/signoffs/`.
 
-**Every post ends with one — non-optional (user rule, 2026-06-06).** The sign-off slide is a standing part of the carousel: cover → receipts/stats → sign-off. Append it to every post set (both the mascot-cover carousels and the Format-2 black-caption posts) before the Signal FINAL send, and **randomly sample the family per post for variety** — don't reuse the same family on consecutive posts. Pick a random version index from the bg-compatible families (see "Picking one per post"), check which families the last few published posts used, and roll again if it repeats. The seeded renderer means a chosen version is still reproducible after the random pick.
+**Every post ends with one — non-optional (user rule, 2026-06-06).** The sign-off slide is a standing part of the carousel: receipts/stats → sign-off (receipts-first, no cover). Append it to every post set (both the mascot-cover carousels and the Format-2 black-caption posts) before the Signal FINAL send, and **randomly sample the family per post for variety** — don't reuse the same family on consecutive posts. Pick a random version index from the bg-compatible families (see "Picking one per post"), check which families the last few published posts used, and roll again if it repeats. The seeded renderer means a chosen version is still reproducible after the random pick.
 
 - **Programmatic, never AI.** `render-signoffs.mjs` composites pure SVG/CSS over the real `logo.png`, so the brand mark never mutates and output is **reproducible**. Seeded by version index (`mulberry32(v)`) → v3 always renders v3. `node render-signoffs.mjs N` renders the first N into `out/signoff-NN.png`.
 - **12 locked families** (user-approved): `halo` (neon mustard spray-glow), `drips` (spray-paint drips), `sticker` (white-border slap + stars + tape URL), `throwie` (fat bubble outline + keyline), `halftone` (pop-art Ben-Day starburst, cream), `chrome` (Y2K liquid-metal plaque), `poster` (torn wheatpaste + tape + grit), `holo` (holographic foil), `stencil` (spray box + overspray), `wildstyle` (graffiti arrows), `nametag` ("HELLO my name is" sticker, URL as the name), `eggshell` (distressed torn slap + peel corner). Vocabulary came from a graffiti + Y2K-design web search.
