@@ -110,6 +110,17 @@ and gives a clean 16:9 for the blur-fill frame.
   rail the lower-right ~140px — the brand row at `bottom:50px` disappears
   under "Add comment…"; keep anything that must be READ above ~`bottom:300px`
   (the brand row is acceptable to lose; a text panel is not).
+- **Name every speaker with an ID plate, and land the takeaway (user rule,
+  2026-06-06 — caught twice, on both the Gorka and CUFI reels).** The topbar
+  strip is NOT enough to identify a person: every speaking figure gets the
+  blue/cream **plate** (l1 name, l2 role — make the role carry the stakes:
+  "the President's counterterrorism director — the strategy's architect",
+  "Prime Minister of Israel — live via satellite") popping early in their
+  first segment. And a hook quote never stands alone: follow it with an
+  explicit **takeaway panel** that states in one flat sentence why what was
+  just said matters ("The head of a foreign government, thanking the largest
+  pro-Israel organization in America."). Who → what they said → why it
+  matters — all three or the viewer is lost.
 - **Label the footage — always (user rule, 2026-06-06).** Every source clip carries
   a CLEAR persistent "what you are watching" label (the topbar strip): the show /
   venue, and **place labels always pair with date labels** — never one without the
