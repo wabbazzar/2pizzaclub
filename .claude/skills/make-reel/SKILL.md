@@ -100,6 +100,16 @@ and gives a clean 16:9 for the blur-fill frame.
   flashes, the spark circles, and the melt family — melts read as
   squash-and-stretch, not liquid; skip until the engine has real displacement
   warping.
+- **Reels safe area — the top ~170px is NOT yours (user screenshots, 2026-06-06).**
+  On a phone, the iPhone status bar / Dynamic Island plus Instagram's own
+  "Reels" header cover roughly the top 160px of the 1080×1920 canvas — a topbar
+  strip at `top:64px` gets its upper half hidden (verified on two published
+  reels: the FOOTAGE label and COMMITTEE RECORD strip were both cut). Put the
+  topbar at **`top:176px` or lower**. Same instinct at the bottom: IG's
+  caption/comment block covers roughly the bottom 280px and the right action
+  rail the lower-right ~140px — the brand row at `bottom:50px` disappears
+  under "Add comment…"; keep anything that must be READ above ~`bottom:300px`
+  (the brand row is acceptable to lose; a text panel is not).
 - **Label the footage — always (user rule, 2026-06-06).** Every source clip carries
   a CLEAR persistent "what you are watching" label (the topbar strip): the show /
   venue, and **place labels always pair with date labels** — never one without the
