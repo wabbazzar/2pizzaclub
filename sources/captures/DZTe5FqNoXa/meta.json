@@ -1,0 +1,32 @@
+{
+    "id": "DZTe5FqNoXa",
+    "url": "https://www.instagram.com/reel/DZTe5FqNoXa/",
+    "platform": "instagram",
+    "captured_at": "2026-06-08",
+    "handle": "@afeefness",
+    "author_display_name": "Afeef Nessouli",
+    "posted_at": "2026-06-08",
+    "engagement": {
+        "likes": -1,
+        "comments": 178
+    },
+    "caption": "“The AI debt bubble will precipitate a new global financial crisis”\n\n@patrickgaley of Global Witness explains the AI debt bubble crisis headed our way. Catch him Monday (tonight!) at around 8pm EST on WAN’s second live recorded show.\n\n #instagram #explore #explorepage #journalism #ai",
+    "hashtags": [
+        "instagram",
+        "explore",
+        "explorepage",
+        "journalism",
+        "ai"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Kinetic captions tracking the speech: \"There's currently two times the amount of debt tied up to generative AI on the books of Big Banks\"; \"half the data centers that they have generated debts to build\".",
+    "audio_content_summary": "An interview clip: the guest argues the generative-AI debt bubble will trigger a 2008-style global financial crisis. His spine of claims: big banks now hold more than twice the AI-tied debt that subprime mortgages represented before 2008; the large data-center constructors are 'under-reporting liabilities' and 'committing fraud' by keeping hundreds of billions of data-center liabilities off their books; they are not building half the data centers they have raised debt to build; and nearly a trillion dollars has been spent on products that cannot be monetized (no customer loyalty, no revenue growth without correspondingly high outlay), so he cannot see how investors get their money back.",
+    "implied_frame": "Group A (verifiable mechanism, documented): the off-balance-sheet SPV financing that keeps AI data-center debt out of reported liabilities — >$120B moved off balance sheets in ~18 months, Meta's $30B Hyperion SPV deal with a $28B footnote-only residual guarantee, Oracle's $60B+ leasebacks, Moody's 'disclosures may not show the full picture' warning, banks offloading exposure via significant risk transfers, ~$60B 2025 revenue vs ~$400B capex → record 2026-datacenter-offbalance-sheet-001. Group B (attributed framing, the speaker's analytical claims, cited as his): 'committing fraud,' the 'more than two times subprime on big banks' books' multiple, and the prediction of a new global financial crisis — real positions, contested, attributed to the speaker rather than asserted by the site. Group C / accuracy caveat (not asserted): the speaker names 'Anthropic, OpenAI, Microsoft' as keeping liabilities off their books, but the documented SPV users are Meta, Oracle, xAI, and CoreWeave; reporting holds that Microsoft, Google, and Amazon have funded data centers on balance sheet, and Anthropic is not a documented SPV user — so the specific company list is not corroborated and is excluded from the evidence record's verified claim.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~10.5 MB); delivery ~10.9 MB webm, 80s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-datacenter-offbalance-sheet-001"
+    ],
+    "supporting_research_links": []
+}

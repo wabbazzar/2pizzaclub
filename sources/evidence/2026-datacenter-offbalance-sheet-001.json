@@ -1,0 +1,49 @@
+{
+    "id": "2026-datacenter-offbalance-sheet-001",
+    "anchor": "y2026-ai-bubble",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "ai",
+        "big-tech",
+        "finance",
+        "infrastructure-capex",
+        "economic-crisis"
+    ],
+    "claim": "By early 2026, technology companies had moved more than $120 billion of AI data-center spending off their corporate balance sheets in roughly eighteen months, using special purpose vehicles (SPVs): separate entities that own the data center, raise the construction debt, and lease the facility back to the tech firm, keeping the borrowing out of the company's reported liabilities. Meta's October 2025 Hyperion deal — a $30 billion arrangement with Blue Owl Capital routed through an SPV — let it borrow roughly $30 billion 'without any debt appearing on its balance sheet,' with a $28 billion residual-value guarantee disclosed only in footnotes. Oracle structured more than $60 billion of similar leaseback financing for its OpenAI and other sites. Moody's warned that hyperscaler 'disclosures may not show the full picture' of these lease commitments. Through 2026, Wall Street banks — JPMorgan, Morgan Stanley, SMBC, MUFG — moved to offload portions of their AI data-center construction loans to private-credit and hedge-fund buyers via 'significant risk transfers,' as the industry's roughly $60 billion of 2025 revenue sat against roughly $400 billion in capital expenditure. Patrick Galey, head of investigations at Global Witness, characterized the off-balance-sheet treatment as the constructors 'under-reporting liabilities' and 'committing fraud,' and argued the generative-AI debt now carried on big banks' books exceeds — by more than two times — the subprime-mortgage exposure that preceded the 2008 crisis, predicting it will precipitate a new global financial crisis.",
+    "sources": [
+        {
+            "label": "Quinn Emanuel — “Client Alert: Emerging Litigation Risks in Financing AI Data Centers Boom”",
+            "type": "primary",
+            "url": "https://www.quinnemanuel.com/the-firm/publications/client-alert-emerging-litigation-risks-in-financing-ai-data-centers-boom/",
+            "quote": "Technology companies have moved more than $120 billion of data center spending off their balance sheets in approximately eighteen months.",
+            "clip_status": "ok-exact",
+            "clip": "clips/2026-datacenter-offbalance-sheet-001-00.png"
+        },
+        {
+            "label": "Bank for International Settlements — “Financing the AI boom: from cash flows to debt” (BIS Bulletin 120)",
+            "type": "primary",
+            "url": "https://www.bis.org/publ/bisbull120.pdf"
+        },
+        {
+            "label": "Bloomberg — “The $3 Trillion AI Data Center Build-Out Becomes All-Consuming for Debt Markets,” Feb 2, 2026",
+            "type": "secondary",
+            "url": "https://www.bloomberg.com/news/articles/2026-02-02/the-3-trillion-ai-data-center-build-out-spurs-a-debt-market-boom"
+        },
+        {
+            "label": "Banks seek to offload AI data-centre debt via significant risk transfers (Financial Times reporting, May 2026)",
+            "type": "secondary",
+            "url": "https://www.resultsense.com/news/2026-05-06-banks-offload-ai-data-centre-debt/",
+            "quote": "Banks are reportedly approaching investors about variants of significant risk transfers under which they shift the riskiest portions of data-centre loans off their books.",
+            "clip_status": "ok-head60",
+            "clip": "clips/2026-datacenter-offbalance-sheet-001-03.png"
+        },
+        {
+            "label": "@afeefness / WAN, Instagram reel DZTe5FqNoXa (Jun 8, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZTe5FqNoXa/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Companion on the y2026-ai-bubble anchor to 2025-ai-datacenter-capex-001 (the capex-forecast scale), 2026-hyperscaler-cds-001 (the credit market pricing the tail risk via CDS) and 2026-priestley-2029-prediction-001 (the 2029-meltdown thesis). This record carries the distinct mechanism the others don't: the off-balance-sheet SPV structures that keep data-center debt out of reported liabilities, and banks moving to shed their exposure via SRTs.\n\nSeparate the verified spine from the surfacing speaker's framing. VERIFIED (stated as fact): the >$120B moved off balance sheets in ~18 months and the SPV mechanics (Quinn Emanuel, citing the same $120B figure widely reported by Bloomberg/FT); Meta's $30B Hyperion deal with Blue Owl and its $28B footnote-only residual-value guarantee; Oracle's $60B+ leaseback financing; Moody's 'disclosures may not show the full picture' warning; banks (JPMorgan, Morgan Stanley, SMBC, MUFG) offloading AI data-center loans via significant risk transfers in 2026; ~$60B 2025 revenue vs ~$400B capex.\n\nATTRIBUTED (Galey's characterization, not asserted in our voice): 'under-reporting liabilities,' 'committing fraud,' the 'more than two times subprime on big banks' books' multiple, and the prediction of a new global financial crisis. The 2x-subprime figure is Galey's analytical framing and is not pinned here to a specific published dataset; various commentators cite different multiples vs. the 2008 subprime bubble.\n\nACCURACY CAVEAT on Galey's company list: in the clip he names 'Anthropic, OpenAI, Microsoft' as the constructors keeping liabilities off their books. The documented off-balance-sheet/SPV users are Meta, Oracle, xAI, and CoreWeave; reporting (Quinn Emanuel, Cryptopolitan, others) states Microsoft, Google, and Amazon have so far funded data centers with cash and on-balance-sheet bonds rather than SPVs, and OpenAI's exposure runs through Oracle's SPVs. Anthropic is not a documented SPV user. So the specific names Galey lists do not match the documented off-balance-sheet players — the structure is real; his attribution of it to those three companies is not corroborated and is left out of the verified claim above."
+}
