@@ -7,9 +7,11 @@ description: Prime on the "Someone's Eating Babies" children's-horror picture bo
 
 A sourced children's-horror picture book at **`/eating/`** (separate from the timeline). A nursery-rhyme on the surface; every line points at a documented fact about the network the timeline catalogues. The horror is the public record set in nursery meter. The reader is shown and decides — no conclusions drawn.
 
+**Status: the verse is finished.** The poem is written and sourced end-to-end — the active phase is *improving*, not drafting: tightening individual lines for cadence/sensory/legibility, and producing/wiring the illustrations. A line edit must preserve the stanza's rhyme scheme and syllable count (scan the neighbours first), and re-sync the canonical draft + its per-line annotation in `drafts/children_story_1.md` so the source-ties stay accurate. Don't introduce new scenes or re-architect the structure unless asked.
+
 ## Prose + sources — read these first
 - **`drafts/story_prompt.md`** — the spec: the voice, the structure (Donaldson *Room on the Broom* accumulating-objects engine; the mirror as scrying device set in scene 1, carried by the art after; the six-permissions refusal that pays off in the final scene), and the **four working rules** (every line must name a real referent; the agent annotates each line with its source before it stays).
-- **`drafts/children_story_1.md`** — the canonical draft: 7 scenes + "the telling", each with the verse AND per-line annotations tying every image to a primary source (govinfo/Wikipedia/court records/the capture reels). Appendix: "the small doors" (hides the acrostic PROMIS THE OCTOPUS — Casolaro/Inslaw), drafted, not yet wired.
+- **`drafts/children_story_1.md`** — the canonical, finished draft: 7 scenes + "the telling", each with the verse AND per-line annotations tying every image to a primary source (govinfo/Wikipedia/court records/the capture reels). This is the source of truth for the verse — keep it in lockstep with `eating/index.html` on any line edit, and update the affected annotation so it still describes the words on the page. Appendix: "the small doors" (hides the acrostic PROMIS THE OCTOPUS — Casolaro/Inslaw), drafted, not yet wired.
 - **`sources/evidence/` + the timeline** — the records the lines cite. `drafts/illustrations/SYMBOL-KIT.md` — the occult/Kabbalah symbol program (mirror frame = Tree of Life inverting to the Qliphoth; the entity = Yaldabaoth = Moloch/Baal Hammon = the brass mill; ouroboros/octopus = PROMIS) to weave into the art.
 
 ## Voice (most-violated rule)
