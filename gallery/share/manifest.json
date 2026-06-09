@@ -1,0 +1,365 @@
+{
+  "generated_variant": "a",
+  "targets": [
+    {
+      "slug": "all",
+      "topic": "All threads",
+      "count": 67,
+      "seconds": 9049
+    },
+    {
+      "slug": "adl",
+      "topic": "ADL",
+      "count": 1,
+      "seconds": 175
+    },
+    {
+      "slug": "aes",
+      "topic": "AES",
+      "count": 1,
+      "seconds": 131
+    },
+    {
+      "slug": "ai",
+      "topic": "AI",
+      "count": 10,
+      "seconds": 1220
+    },
+    {
+      "slug": "big-tech",
+      "topic": "Big Tech",
+      "count": 8,
+      "seconds": 998
+    },
+    {
+      "slug": "biotech",
+      "topic": "Biotech",
+      "count": 1,
+      "seconds": 177
+    },
+    {
+      "slug": "body-count",
+      "topic": "Body Count",
+      "count": 6,
+      "seconds": 867
+    },
+    {
+      "slug": "cia",
+      "topic": "CIA",
+      "count": 7,
+      "seconds": 1024
+    },
+    {
+      "slug": "civil-liberties",
+      "topic": "Civil Liberties",
+      "count": 3,
+      "seconds": 375
+    },
+    {
+      "slug": "clinton",
+      "topic": "Clinton",
+      "count": 4,
+      "seconds": 464
+    },
+    {
+      "slug": "congress",
+      "topic": "Congress",
+      "count": 6,
+      "seconds": 781
+    },
+    {
+      "slug": "defense",
+      "topic": "Defense",
+      "count": 10,
+      "seconds": 1543
+    },
+    {
+      "slug": "economic-crisis",
+      "topic": "Economic Crisis",
+      "count": 2,
+      "seconds": 144
+    },
+    {
+      "slug": "elections",
+      "topic": "Elections",
+      "count": 4,
+      "seconds": 677
+    },
+    {
+      "slug": "engineering",
+      "topic": "Engineering",
+      "count": 4,
+      "seconds": 536
+    },
+    {
+      "slug": "epstein",
+      "topic": "Epstein",
+      "count": 7,
+      "seconds": 986
+    },
+    {
+      "slug": "false-flag",
+      "topic": "False Flag",
+      "count": 3,
+      "seconds": 514
+    },
+    {
+      "slug": "fbi",
+      "topic": "FBI",
+      "count": 16,
+      "seconds": 2204
+    },
+    {
+      "slug": "finance",
+      "topic": "Finance",
+      "count": 16,
+      "seconds": 2345
+    },
+    {
+      "slug": "florida",
+      "topic": "Florida",
+      "count": 2,
+      "seconds": 236
+    },
+    {
+      "slug": "food-supply",
+      "topic": "Food Supply",
+      "count": 1,
+      "seconds": 177
+    },
+    {
+      "slug": "gates",
+      "topic": "Gates",
+      "count": 1,
+      "seconds": 177
+    },
+    {
+      "slug": "hegseth",
+      "topic": "Hegseth",
+      "count": 1,
+      "seconds": 131
+    },
+    {
+      "slug": "idf",
+      "topic": "IDF",
+      "count": 6,
+      "seconds": 845
+    },
+    {
+      "slug": "inequality",
+      "topic": "Inequality",
+      "count": 6,
+      "seconds": 740
+    },
+    {
+      "slug": "infrastructure-capex",
+      "topic": "Infrastructure Capex",
+      "count": 4,
+      "seconds": 342
+    },
+    {
+      "slug": "intelligence",
+      "topic": "Intelligence",
+      "count": 16,
+      "seconds": 2558
+    },
+    {
+      "slug": "international-law",
+      "topic": "International Law",
+      "count": 2,
+      "seconds": 359
+    },
+    {
+      "slug": "iran",
+      "topic": "Iran",
+      "count": 4,
+      "seconds": 593
+    },
+    {
+      "slug": "iraq",
+      "topic": "Iraq",
+      "count": 2,
+      "seconds": 203
+    },
+    {
+      "slug": "israel",
+      "topic": "Israel",
+      "count": 21,
+      "seconds": 2883
+    },
+    {
+      "slug": "journalism",
+      "topic": "Journalism",
+      "count": 20,
+      "seconds": 2759
+    },
+    {
+      "slug": "kirk",
+      "topic": "Kirk",
+      "count": 4,
+      "seconds": 559
+    },
+    {
+      "slug": "lobbying",
+      "topic": "Lobbying",
+      "count": 5,
+      "seconds": 794
+    },
+    {
+      "slug": "maxwell",
+      "topic": "Maxwell",
+      "count": 3,
+      "seconds": 429
+    },
+    {
+      "slug": "mcafee",
+      "topic": "McAfee",
+      "count": 3,
+      "seconds": 360
+    },
+    {
+      "slug": "mossad",
+      "topic": "Mossad",
+      "count": 5,
+      "seconds": 736
+    },
+    {
+      "slug": "neoconservatism",
+      "topic": "Neoconservatism",
+      "count": 2,
+      "seconds": 300
+    },
+    {
+      "slug": "netanyahu",
+      "topic": "Netanyahu",
+      "count": 5,
+      "seconds": 744
+    },
+    {
+      "slug": "new-mexico",
+      "topic": "New Mexico",
+      "count": 2,
+      "seconds": 253
+    },
+    {
+      "slug": "palestine",
+      "topic": "Palestine",
+      "count": 5,
+      "seconds": 872
+    },
+    {
+      "slug": "prosecution",
+      "topic": "Prosecution",
+      "count": 9,
+      "seconds": 1235
+    },
+    {
+      "slug": "regime-change",
+      "topic": "Regime Change",
+      "count": 3,
+      "seconds": 515
+    },
+    {
+      "slug": "regional-conflicts",
+      "topic": "Regional Conflicts",
+      "count": 8,
+      "seconds": 1246
+    },
+    {
+      "slug": "saudi-arabia",
+      "topic": "Saudi Arabia",
+      "count": 1,
+      "seconds": 132
+    },
+    {
+      "slug": "scientist-deaths",
+      "topic": "Scientist Deaths",
+      "count": 2,
+      "seconds": 278
+    },
+    {
+      "slug": "sec",
+      "topic": "SEC",
+      "count": 3,
+      "seconds": 471
+    },
+    {
+      "slug": "september-11",
+      "topic": "September 11",
+      "count": 12,
+      "seconds": 1623
+    },
+    {
+      "slug": "state-terror",
+      "topic": "State Terror",
+      "count": 2,
+      "seconds": 288
+    },
+    {
+      "slug": "surfside",
+      "topic": "Surfside",
+      "count": 2,
+      "seconds": 236
+    },
+    {
+      "slug": "surveillance",
+      "topic": "Surveillance",
+      "count": 12,
+      "seconds": 1706
+    },
+    {
+      "slug": "tech-billionaires",
+      "topic": "Tech Billionaires",
+      "count": 2,
+      "seconds": 322
+    },
+    {
+      "slug": "trump",
+      "topic": "Trump",
+      "count": 2,
+      "seconds": 277
+    },
+    {
+      "slug": "ukraine",
+      "topic": "Ukraine",
+      "count": 1,
+      "seconds": 158
+    },
+    {
+      "slug": "us-aid",
+      "topic": "US Aid",
+      "count": 5,
+      "seconds": 715
+    },
+    {
+      "slug": "war",
+      "topic": "War",
+      "count": 10,
+      "seconds": 1645
+    },
+    {
+      "slug": "watergate",
+      "topic": "Watergate",
+      "count": 1,
+      "seconds": 164
+    },
+    {
+      "slug": "weapons",
+      "topic": "Weapons",
+      "count": 9,
+      "seconds": 1276
+    },
+    {
+      "slug": "wellness",
+      "topic": "Wellness",
+      "count": 1,
+      "seconds": 147
+    },
+    {
+      "slug": "whistleblower",
+      "topic": "Whistleblower",
+      "count": 2,
+      "seconds": 294
+    }
+  ]
+}

@@ -812,12 +812,23 @@
     function shareCurrent() {
         const cur = order[idx];
         if (!cur) return;
-        const url = new URL(window.location.href);
-        url.search = ''; url.hash = '';
-        url.searchParams.set('cinema', cur.id);
-        if (includeThemes.size > 0) url.searchParams.set('themes', [...includeThemes].sort().join(','));
-        if (excludeThemes.size > 0) url.searchParams.set('exclude', [...excludeThemes].sort().join(','));
-        const link = url.toString();
+        let link;
+        // Single-theme cut → copy the pre-rendered share page (tools/share-pages.mjs):
+        // it carries a per-collection og:image so the link unfurls with a custom card,
+        // then redirects into /gallery/?cinema=1&themes=<theme>. Mixed include/exclude
+        // filters fall back to the raw cinema deeplink (default site og-image).
+        const singleTheme = includeThemes.size === 1 && excludeThemes.size === 0 && !includeThemes.has(UNTAGGED);
+        if (singleTheme) {
+            const slug = [...includeThemes][0];
+            link = `${window.location.origin}/gallery/share/${encodeURIComponent(slug)}/`;
+        } else {
+            const url = new URL(window.location.href);
+            url.search = ''; url.hash = '';
+            url.searchParams.set('cinema', cur.id);
+            if (includeThemes.size > 0) url.searchParams.set('themes', [...includeThemes].sort().join(','));
+            if (excludeThemes.size > 0) url.searchParams.set('exclude', [...excludeThemes].sort().join(','));
+            link = url.toString();
+        }
         const finish = (msg) => {
             const sb = overlay.querySelector('.cinema-share');
             if (!sb) return;
