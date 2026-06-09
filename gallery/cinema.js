@@ -437,6 +437,21 @@
         // chaining matters less than leading with the strongest, least-contested receipts.
         // Tie-break: more spawned records (more corroboration), then earliest posted.
         if (filterActive) {
+            // Label each reel with the theme being filtered on — not the alphabetically
+            // first tag. A september-11 cut must read "september-11", not "cia"/"body-count"
+            // (themes[] arrives alphabetical, so themes[0] would otherwise win the label).
+            const freq = new Map();
+            for (const e of entries) for (const t of e.themes) freq.set(t, (freq.get(t) || 0) + 1);
+            const moreFrequent = (t, best) => !best || (freq.get(t) || 0) > (freq.get(best) || 0);
+            const inc = include && include.size > 0 ? include : null;
+            for (const e of entries) {
+                let label = null;
+                // prefer an active include theme the reel actually carries (most frequent wins)
+                if (inc) for (const t of e.themes) if (inc.has(t) && moreFrequent(t, label)) label = t;
+                // exclude-only / untagged: fall back to the most salient theme in the cut
+                if (!label) for (const t of e.themes) if (moreFrequent(t, label)) label = t;
+                e.primary = label || e.primary;
+            }
             return entries.slice().sort((a, b) =>
                 (b.uncontested - a.uncontested) ||
                 (b.weight - a.weight) ||
