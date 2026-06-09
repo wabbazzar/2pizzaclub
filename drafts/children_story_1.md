@@ -262,29 +262,28 @@ The scene fuses the cut old-altar (Baal/Moloch/Tophet) and the cut new-altar (th
 > *Her parents came in, with their voices like song:*
 > *"Up, little love. You have slept far too long."*
 
-> *And they set down three things by her side on the sheet —*
-> *one dollar, one phone, one small creed to repeat.*
-> *They kissed her warm brow with a smile and a sigh —*
-> *then they slipped from the room with a soft, soft goodbye.*
+> *And they set down four things by her side for the day:*
+> *a phone and a dollar, a lunch packed away,*
+> *and a thick McGraw book that would tell her just so*
+> *all she should think, all she should say, all she should know.*
+> *They kissed her warm brow. "Come, love — it's time to dress."*
+> *And she gathered it up. And she rose. And said yes.*
 
-The book closes with the child back in her own room, the mirror dim, the night-journey done. Her parents enter with ordinary love and lay three things beside her on the sheet — the dollar, the phone, the creed — three of the entity's six permissions in living form (the *offering*, the *mark*, the *oath*). She is alone with them; parents gone; mirror watching. We do not see her pick any up. We do not see her leave the room. The reader's own morning supplies what follows; the book trusts the recognition to do the work.
+The book closes with the child back in her own room, the mirror dim, the night-journey done. Her parents enter with ordinary love and lay out **four things for the school day** — a phone, a dollar, a McGraw textbook, a packed lunch — the four ordinary ways a morning enrolls a child in the system: **money, attention, belief, consumption.** Then they call her along to dress, and she gathers all four, rises, and says yes. The witness becomes the actor, on the page.
 
-This is the inverse of the Donaldson refusal the prior draft attempted. The accumulated objects are not the salvation that breaks the system — they are the chains that finish the integration. Love is the delivery mechanism; the parents are not villains, they are already inside. The horror is the soft inevitability of participation. The book ends not in triumph or refusal, but in held breath.
+This is the inverse of the Donaldson refusal the prior draft attempted. The objects are not the salvation that breaks the system — they are the chains that finish the integration. Love is the delivery mechanism; the parents are not villains, they are already inside. The horror is the soft inevitability of participation: she is not coerced, she **consents** — *she rose, and said yes* — and carries the watcher (the mirror, now her phone) out into the day herself. The book ends not in triumph or refusal, but in the assent.
 
 - **S1 — waking.** *The curtain was lit by the sun* + *the night was undone* = the mirror's journey is over; the dream releases its grip. *Her parents came in, with their voices like song* = ordinary domestic love, the system's gentlest face. *You have slept far too long* = the routine reasserting itself — the system's schedule speaks in this voice.
-- **S2 — the three.** *They set down three things by her side on the sheet*:
-    - **dollar** — the [coin in the plate](https://2pizzaclub.com/eating/#iv) from scene 4 (Great Seal pyramid + Eye of Providence on the U.S. one-dollar bill); permission **#3 (offering)** — the daily economic ratification (every spend, every tax).
-    - **phone** — the chip / lens of scene 5 in waking form; every screen is the god's eye; permission **#6 (mark accepted)**, [Rev 13:16–17](https://www.biblegateway.com/passage/?search=Revelation+13%3A16-17).
-    - **creed** — the [Pledge of Allegiance](https://en.wikipedia.org/wiki/Pledge_of_Allegiance) (Francis Bellamy, 1892; *"under God"* added 1954 during McCarthy) — or any creed a child or adult repeats by rote: prayer, mantra, brand jingle. Permission **#2 (oath / covenant sworn)**. Left deliberately ambiguous; the reader supplies their own.
-- **S2 — the close.** *They kissed her warm brow with a smile and a sigh* = the love that delivers — and the *sigh* is permission **#4 (interior assent / forgetting)** carried in a single breath. The parents have already given the assent they now hand down. *Then they slipped from the room with a soft, soft goodbye* = they leave. The book ends on the held moment. She is alone with the three things; the mirror is dim; we do not follow her out.
+- **S2 — the four (the school-morning kit).** *They set down four things by her side for the day*:
+    - **phone** — the chip / lens of scene 5 in waking form; the dim mirror's daylight body (the scrying glass is just her phone now); every screen is the god's eye, and she carries it out in her pocket (scene 5's *a lens in each pocket*). Axis: **attention**; permission **#6 (mark accepted)**, [Rev 13:16–17](https://www.biblegateway.com/passage/?search=Revelation+13%3A16-17).
+    - **dollar** — the [coin in the plate](https://2pizzaclub.com/eating/#iv) from scene 4 (Great Seal pyramid + Eye of Providence on the U.S. one-dollar bill). Axis: **money**; permission **#3 (offering)** — the daily economic ratification (every spend, every tax).
+    - **McGraw book** — [McGraw Hill](https://en.wikipedia.org/wiki/McGraw_Hill), the dominant US schoolbook publisher; the standardized textbook as the modern creed — *all she should think, all she should say, all she should know* is the prescribed narrative repeated by rote. Replaces the earlier *Pledge of Allegiance* "creed to repeat." Axis: **belief**; permission **#2 (oath / covenant sworn)**.
+    - **packed lunch** — the meal handed to her with love; consumption, and the agribusiness/processed-food system the child is fed into. Lands the **title** on the protagonist: *Someone's Eating Babies* closes on the child being fed her own breakfast — the eaten among the eaters. Axis: **consumption**.
+- **S2 — the close.** *They kissed her warm brow. "Come, love — it's time to dress."* = the love that delivers, now summoning her into the day — no walk-away; the school-morning ritual completed (the prior draft had the parents slip out and leave her in held breath). *And she gathered it up. And she rose. And said yes.* = the witness→actor collapse **enacted**: she willingly takes up all four permissions (*gathered it up*), rises to follow, and gives her **own** assent — *said yes* is permission **#4 (interior assent)**, now spoken by her rather than carried in the parents' sigh.
 
 **Vocabulary rule observed:** every distinctive content-word is new to the book (per the no-reuse rule from scene 5 onward). The mirror keeps its name (designated recurring fixture).
 
-**The 3-witness / 3-use architecture** of the full inventory (no rewrite of scenes 1–5 needed — the moral axis is already there):
-- **Witness** (what was done to others): shoe (1, the trafficked child's empty shoe), camera (2, Maxwell's surveillance), key (3, the locked door she does not open).
-- **Use** (what she does): dollar (4, the offering), phone (5, the mark), creed (6, the oath).
-
-Scenes 1–3 show the system devouring the unnamed; scenes 4–6 show her feeding it. The book ends by collapsing the witness into the actor — the reader recognizes their own morning.
+**Note on the inventory.** The per-scene *"A small X lay at her feet at the dawn of the day"* enders (shoe / camera / key / dollar / chip) live only in this draft — they were **never wired into `eating/index.html`**. So the four morning objects are the *only* objects in the live book and carry the full symbolic load (money / attention / belief / consumption). Scenes 1–5 show the system devouring the unnamed; scene 6 shows the child taking up the tools to feed it, and consenting. (If the accumulation engine is ever wired in — see the parked [[eating-book-closing-revisits]] note — the witness objects of scenes 1–3 could be made to echo here.)
 
 ---
 
