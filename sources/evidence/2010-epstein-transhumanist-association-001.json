@@ -1,0 +1,33 @@
+{
+    "id": "2010-epstein-transhumanist-association-001",
+    "anchor": "y2019",
+    "year": 2010,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "eugenics"
+    ],
+    "claim": "A wire-transfer instruction in the DOJ's Epstein financial production directs the payment of \"TWENTY THOUSAND DOLLARS ($20,000)\" from a Jeffrey Epstein account to the \"World Transhumanist Association Inc.,\" dated September 14, 2010, with a corresponding entry appearing on the account statement. The World Transhumanist Association — now operating as Humanity Plus — is the movement's flagship organization. The New York Times, reporting separately in 2019, documented Epstein's longstanding interest in transhumanism and eugenics, including that he told scientists of an ambition to \"seed the human race with his DNA by impregnating women at his vast New Mexico ranch,\" an interest in cryonics, and that a charity he established gave $20,000 to the same association. The transfer record is a primary financial document from the federal release.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01589498 — wire-transfer instruction to the World Transhumanist Association Inc., 09/14/2010.",
+            "type": "primary",
+            "url": null,
+            "quote": "Please transfer TWENTY THOUSAND DOLLARS ($20,000) from the above account to: Bank: Wells Fargo Bank ... For Credit to: World Transhumanist Association Inc."
+        },
+        {
+            "label": "DOJ Epstein production, Data Set 10, Bates EFTA01577475 — account statement line listing the World Transhumanist Association Inc. transfer.",
+            "type": "primary",
+            "url": null,
+            "quote": "WORLD TRANSHUMANIST ASSOCIATION INC"
+        },
+        {
+            "label": "The New York Times, \"Jeffrey Epstein Hoped to Seed the Human Race With His DNA\" (July 31, 2019) — reproduced in the DOJ production, Data Set 8, Bates EFTA00018441.",
+            "type": "secondary",
+            "url": null,
+            "quote": "In 2011, a charity established by Mr. Epstein gave $20,000 to the Worldwide Transhumanist Association, which now operates under the name Humanity Plus."
+        }
+    ],
+    "status": "verified",
+    "notes": "Primary wire doc read verbatim from local corpus (work/corpus.jsonl, EFTA01589498). The wire instruction is dated 09/14/2010; the NYT (carried in DS8 as EFTA00018441) dates the $20K gift to 2011 and attributes it to 'a charity established by Mr. Epstein' — cite the primary doc's 2010 date, note the NYT account as corroboration. Surfaced via a full-corpus search of the newly-pulled release (2026-06-09), not a reel. Eugenics/transhumanism is its own thread (separate IG post queued); kept distinct from the artifact-collection trio. NYT also documents the cryonics interest (he reportedly wanted his head and penis frozen) — available if a follow-up record wants it."
+}
