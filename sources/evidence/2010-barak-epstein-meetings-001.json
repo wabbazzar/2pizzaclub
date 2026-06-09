@@ -34,6 +34,12 @@
             "label": "Middle East Eye — \"Epstein brokered meetings between Ehud Barak and UAE billionaire before Abraham Accords: Report.\"",
             "type": "secondary",
             "url": "https://www.middleeasteye.net/news/jeffrey-epstein-brokered-meetings-between-ehud-barak-and-uae-billionaire-abraham-accords"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00832976 — Epstein to Peter Thiel, 02/28/2016: Epstein soliciting an investor's read on Barak's company.",
+            "type": "primary",
+            "url": null,
+            "quote": "did you get any feedback on the valor guys view of ehud baraks co.?"
         }
     ],
     "status": "draft",

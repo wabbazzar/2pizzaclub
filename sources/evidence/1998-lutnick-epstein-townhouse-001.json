@@ -1,0 +1,32 @@
+{
+    "id": "1998-lutnick-epstein-townhouse-001",
+    "anchor": "y2019",
+    "year": 1998,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "finance"
+    ],
+    "claim": "Commerce Secretary Howard Lutnick's Manhattan townhouse at 11 East 71st Street — which he bought in 1998 for $7.6 million (with a $4 million mortgage paid off in 2018) — adjoins Jeffrey Epstein's townhouse at 9 East 71st Street, the former Herbert N. Straus House. Property records show 11 East 71st was acquired in 1988 by SAM Conversion Corp., an entity tied to Epstein; Epstein is listed as the building's trustee through the subsequent transfers and granted his lawyer power of attorney over the property in 1996, selling it weeks later to the Comet Trust, which in turn sold it to Lutnick in 1998. The Commerce Department has said Lutnick and Epstein \"had no personal relationship, contact, or direct dealings.\"",
+    "sources": [
+        {
+            "label": "Newsweek — \"Howard Lutnick's Ties to Jeffrey Epstein Come Under Scrutiny\" (2025): the 11 East 71st Street ownership chain and the Commerce Department's response.",
+            "type": "secondary",
+            "url": "https://www.newsweek.com/howard-lutnick-epstein-ties-2099660",
+            "quote": "SAM Conversion Corp. bought 11 E. 71st St. in 1988. It was later sold for an unknown consideration to a specialized trust, then to another, the Comet Trust, in 1996. Epstein was listed as the trustee of the building during these transactions and transfers, while playing a direct role in them.",
+            "clip_status": "error: page.$eval: Failed to find element matching selector \"#__clip_target__\""
+        },
+        {
+            "label": "Crain's New York Business — \"Unraveling the web of Jeffrey Epstein's Manhattan real estate.\"",
+            "type": "secondary",
+            "url": "https://www.crainsnewyork.com/real-estate/unraveling-web-jeffrey-epsteins-manhattan-real-estate"
+        },
+        {
+            "label": "Wikipedia — \"Properties of Jeffrey Epstein\" (Epstein's 9 East 71st Street townhouse, the Herbert N. Straus House).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Properties_of_Jeffrey_Epstein"
+        }
+    ],
+    "status": "verified",
+    "notes": "Documents only what the property record establishes: title chain of 11 E 71st (SAM Conversion Corp 1988 -> trusts -> Comet Trust 1996 -> Lutnick 1998), Epstein's trustee role in the transfers, the adjacency to Epstein's own 9 E 71st, and Commerce's 'no relationship' statement. Both the proximity/title facts and the official denial are on the record; the record asserts neither that the proximity is meaningful nor that it is innocent — the reader weighs it. The source reel (DZWGyNpNN6T) used the same chain to argue Lutnick is a planted 'Mossad asset'/'crisis actor' — that conclusion has no primary trace and is logged Group C in the capture's editorial_split, NOT asserted here. ACRIS deed images would upgrade the secondary cites to primary. Source capture: DZWGyNpNN6T."
+}

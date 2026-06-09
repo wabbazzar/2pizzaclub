@@ -1,0 +1,31 @@
+{
+    "id": "1996-dershowitz-rothschild-introduction-001",
+    "anchor": "y2019",
+    "year": 1996,
+    "era": "iv",
+    "themes": [
+        "epstein"
+    ],
+    "claim": "Alan Dershowitz — later one of Epstein's defense lawyers — has repeatedly said that he was introduced to Jeffrey Epstein by a Rothschild. In an interview he framed it: \"I was introduced to him by Lady de Rothschild as an academic colleague.\" In his book \"Guilt by Accusation\" he dates the introduction to about 1996 and names Lynn Forester de Rothschild (later Lady de Rothschild), who he says described Epstein as an \"interesting autodidact.\" The attribution is contested: Nat Rothschild has publicly stated that Dershowitz is mistaken — that the \"Lady and Lord Rothschild\" he sometimes cites were not Lord and Lady Jacob Rothschild, and that he likely conflated them with Sir Evelyn de Rothschild and his wife Lynn.",
+    "sources": [
+        {
+            "label": "House Oversight estate release — interview with Alan Dershowitz (originally published by Law.com), reproduced in the estate corpus (HOUSE_OVERSIGHT_017935).",
+            "type": "primary",
+            "url": "https://2pizzaclub.com/efta/messages.html",
+            "quote": "Let me tell you how I met him. I was introduced to him by Lady de Rothschild as an academic colleague. He was friendly with Larry Summers . . . He was in the process of contributing $50 million to Harvard for evolutionary biology.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Alan Dershowitz, \"Guilt by Accusation: The Challenge of Proving Innocence in the Age of #MeToo\" (2019) — dates the introduction to ~1996 via Lynn Forester de Rothschild.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Alan_Dershowitz"
+        },
+        {
+            "label": "Nat Rothschild, public statement (Aug. 2025) disputing Dershowitz's account — that the introduction was not by Lord and Lady Jacob Rothschild.",
+            "type": "secondary",
+            "url": "https://x.com/NatRothschild1/status/1951956072899469798"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group-B claim: this documents what Dershowitz has SAID (and the dispute over it), not an adjudicated fact about who introduced whom — so it stays B in the editorial_split, not A, even though the citations are checked. Primary is our own corpus (the law.com interview text in HOUSE_OVERSIGHT_017935, grepped from corpus.jsonl). Nuance: Lynn Forester only became 'Lady de Rothschild' on marrying Sir Evelyn in 2000, so the title is retrospective relative to a ~1996 introduction; Dershowitz's 'Lady and Lord Rothschild' phrasing is exactly what Nat Rothschild disputes. The source reel (DZWGyNpNN6T) cites the introduction as proof 'Epstein worked for the Rothschilds'; that inference is the reel's framing, not established here. Source capture: DZWGyNpNN6T."
+}
