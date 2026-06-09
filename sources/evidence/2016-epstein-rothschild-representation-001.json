@@ -1,0 +1,37 @@
+{
+    "id": "2016-epstein-rothschild-representation-001",
+    "anchor": "y2019",
+    "year": 2016,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "finance",
+        "tech-billionaires"
+    ],
+    "claim": "In a February 28, 2016 email to investor Peter Thiel — released in the DOJ's Epstein Files Transparency Act production (Data Set 9, Bates EFTA00832976) — Jeffrey Epstein wrote \"as you probably know I represent the Rothschilds,\" and proposed finding a way for \"the bank that has 160 b in mgmt\" to \"do something in tech.\" Epstein's largest known benefactor, Leslie Wexner, separately told the House Oversight Committee in a February 18, 2026 deposition that among the credentials Epstein presented to him was personal financial work for the Rothschild family in France. The documents establish that Epstein made and circulated the Rothschild-representation claim; they do not, on their own, establish what \"represent\" meant or that any such mandate existed.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00832976 — Jeffrey Epstein email to Peter Thiel, 02/28/2016.",
+            "type": "primary",
+            "url": null,
+            "quote": "as you probably know I represent the Rothschilds. I was hoping to figure out a way for the bank that has 160 b in mgmt can do something in tech. best client list in the world , prehistoric products. - it can wait."
+        },
+        {
+            "label": "U.S. House Committee on Oversight and Government Reform — release of Leslie Wexner deposition video (deposition taken Feb. 18, 2026), in which Wexner describes the credentials Epstein used to present himself, including personal work for the Rothschild family.",
+            "type": "primary",
+            "url": "https://oversight.house.gov/release/oversight-committee-releases-les-wexner-deposition-video/"
+        },
+        {
+            "label": "PBS NewsHour — \"Emails reveal Epstein's network of the rich and powerful despite sex offender status\" (coverage of the released Epstein files, including the Thiel correspondence).",
+            "type": "secondary",
+            "url": "https://www.pbs.org/newshour/politics/emails-reveal-epsteins-network-of-the-rich-and-powerful-despite-sex-offender-status"
+        },
+        {
+            "label": "CBS News — \"Les Wexner, longtime Epstein benefactor, tells Congress he was 'duped by a world-class con man'\" (Feb. 2026).",
+            "type": "secondary",
+            "url": "https://www.cbsnews.com/news/les-wexner-jeffrey-epstein-house-testimony/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Centerpiece is our own corpus primary: EFTA00832976 (DS9), Epstein->Thiel, 2016-02-28, verbatim line 'as you probably know I represent the Rothschilds.' Full thread also discusses Ehud Barak's company and a possible Saudi meeting. Wexner's Rothschild-credential detail corroborated across WOSU/CBS coverage of the Feb 18 2026 House Oversight deposition; cited the committee's own release as primary. Record states the documents straight and leaves 'what represent meant' to the reader — does NOT adopt the source reel's blackmail-ring/Mossad framing, which is Group B/C and lives only in the capture's editorial split. Source capture: DZWGyNpNN6T."
+}

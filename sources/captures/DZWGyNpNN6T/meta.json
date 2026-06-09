@@ -1,0 +1,27 @@
+{
+    "id": "DZWGyNpNN6T",
+    "url": "https://www.instagram.com/reel/DZWGyNpNN6T/",
+    "platform": "instagram",
+    "captured_at": "2026-06-09",
+    "handle": "@zachary.loft",
+    "author_display_name": "Zachary Foust | DELAWARE REALTOR 🏡",
+    "posted_at": "2026-06-09",
+    "engagement": {
+        "likes": 6893,
+        "comments": 223
+    },
+    "caption": "It’s true",
+    "hashtags": [],
+    "audio_track_actual": "Original audio — creator monologue, performed as a believer/skeptic two-voice bit.",
+    "video_overlay_text_observed": "Title card \"Rothschilds, Epstein, & Howard Lutnick\"; an on-screen Wikipedia \"Death\" excerpt about Robert Maxwell's Nov. 1991 death (argumentative call with son Kevin re a Bank of England meeting, the yacht Lady Ghislaine, the Canary Islands).",
+    "audio_content_summary": "Threads a chain from Robert Maxwell (Ghislaine's father) to Epstein to Commerce Secretary Howard Lutnick. Anchors on two real documents — Epstein's 2016 email to Peter Thiel saying he represented the Rothschilds, and Wexner's 2026 testimony that Epstein pitched personal work for the Rothschild family — then builds outward into a much larger unsourced claim: that Maxwell and Roy Cohn ran a Mossad-run global blackmail ring, that Ghislaine and Epstein inherited it, and that Lutnick is a planted asset / crisis actor living next to a former Epstein property.",
+    "implied_frame": "Frames a single hereditary Mossad/Rothschild-run blackmail operation passing from Maxwell+Cohn to Epstein+Ghislaine and seeding figures like Lutnick. Group A (documented): Epstein's own 'I represent the Rothschilds' email to Thiel (DS9 EFTA00832976) and Wexner's House Oversight testimony about Epstein's Rothschild-credential pitch (record 2016-epstein-rothschild-representation-001). Group B (contested): a Maxwell/Cohn 'Mossad blackmail ring,' Maxwell's Mossad ties, the Ghislaine-Epstein six-months-before-his-death timeline, Dershowitz's account of being introduced by the Rothschilds, the Lutnick townhouse / Comet Trust / former-Epstein-property chain, and 'profited off 9/11.' Group C (asserted, no primary trace): that Epstein+Ghislaine 'took on the reins' of a blackmail operation, that Lutnick is a 'Mossad plant being seeded' next to Epstein, and that he is a 'high-level crisis actor.' The verifiable core is that Epstein circulated a Rothschild-representation claim; the operation-spanning structure built on top of it is the creator's framing, not the documents'.",
+    "editorial_split": {"a": 1, "b": 10, "c": 3},
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~24.9 MB); delivery ~25.4 MB webm, 139s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2016-epstein-rothschild-representation-001"
+    ],
+    "supporting_research_links": []
+}
