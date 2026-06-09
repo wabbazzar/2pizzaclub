@@ -115,6 +115,8 @@ The *prose* is flat (above). The *visuals* are the opposite axis: **fun and sill
 
 The user drops Instagram reel URLs. The pipeline produces a capture + transcript, then Claude does an editorial pass.
 
+**This procedure is packaged as the `/reel` skill** (`.claude/skills/reel/SKILL.md`) — it auto-loads when the user pastes a reel URL or says `/reel`, and enforces two required outputs every time: the printed A/B/C split and a proposed-push (a go/no-go next-investigation suggestion). Prefer loading the skill; the steps below remain the reference it points back to.
+
 ### 1. Capture + transcribe
 
 ```bash
