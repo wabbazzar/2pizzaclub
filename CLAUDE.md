@@ -72,7 +72,7 @@ Operational defaults for these dumps:
 - Mirror from the canonical aggregator (e.g. `github.com/yung-megafone/Epstein-Files` for the DOJ release) and verify against the SHA256 manifests before analyzing
 - Run a PII-detector first pass before any quoting, so victim/witness redactions that slipped past the DOJ scrub get caught
 - Treat redactions in the source as authoritative — don't try to reverse them
-- Skip native-media datasets (videos, raw images) unless the analysis pipeline is text — the PII detector is the wrong tool for that surface
+- Skip native-media datasets (actual videos, audio) unless the analysis pipeline is text — the PII detector is the wrong tool for that surface. **"Native media" means video/audio, NOT scanned document images.** A dataset of document-image PDFs (e.g. DOJ Data Set 9, 531K scans) is text the moment it's OCR'd and belongs in the corpus — mislabeling DS9 "181 GB native media, photos only" left its whole bates range (EFTA00039025–01262781) unsearchable until it was pulled 2026-06-09. When a dataset is large, check what's actually in it (bates range, file types) before skipping.
 
 ## No official story is ground truth — attribute, don't adopt
 
@@ -151,16 +151,19 @@ Read `transcript.txt` and the first frame (`frames/f001.png`) to identify the sp
 
 The `implied_frame` and `notes` fields in `meta.json` are where contested or unverified claims go — they describe what the video is framing without committing the site to assert it.
 
-**Check our own EFTA corpus FIRST — before any external source.** For every named person, entity, or event in the reel, search the Epstein holdings we already have before reaching for a third-party link:
+**Check our own EFTA corpus FIRST — before any external source.** For every named person, entity, or event in the reel, search the Epstein holdings we already have before reaching for a third-party link.
+
+The complete release — the **full extracted text of all DOJ DataSets (1–12, including DS9), the House Oversight estate, and the parsed emails — lives in ONE grep-able file**: `~/data/epstein-files/work/corpus.jsonl` (~3.6 GB, 1,051,599 docs, `{id, source, dataset, text}` per line). **A word/phrase search starts HERE** — it covers the whole release, not just the published subset:
 
 ```bash
-# does the subject appear in our own released-document corpus?
-grep -rilE "ron(ald)?[. ]+lauder" efta/docs/*.json efta/findings.json efta/messages.json
-# then read the hit; messages live in efta/messages.json (Epstein's iMessage archive),
-# longer docs under efta/docs/<DOC_ID>.json (e.g. HOUSE_OVERSIGHT_*, EFTA*)
+# fast line-level pre-filter over the ENTIRE release (all datasets incl. DS9):
+grep -c -iE "ron(ald)?[. ]+lauder" ~/data/epstein-files/work/corpus.jsonl
+# then extract with context (python recipe + OCR-damage notes in the /epstein skill).
+# Per-file raw docs: ds9/text/EFTA*.txt (DS9), extracted/dataset_N/ (DS1–8,10–12),
+# raw/estate/text_only/HOUSE_OVERSIGHT_*.txt. Account for OCR damage (@→©, .com→.corn).
 ```
 
-The `/efta/` page is our own searchable analysis of the release (`efta/findings.json`, `efta/messages.json`, and 7k+ documents under `efta/docs/`). If the subject is in there, **our own primary document is the strongest citation** — cite the doc id with `type: "primary"`, link to `https://2pizzaclub.com/efta/messages.html` (or the doc viewer), put the verbatim line in `quote`, and keep any outside reporting as *corroboration*, not the basis. (Lesson: the Ronald Lauder record first shipped citing only the Daily Pennsylvanian and a web tracker — he was in our own `HOUSE_OVERSIGHT_*` iMessage docs the entire time, with Epstein writing "meeting with lauder re alzheimer ... also with jim watson." Always grep our corpus first.) Watch for whisper/OCR spellings and name variants (initials, "Lauter"→"Lauder", redactions) when grepping.
+The repo's `/efta/` page (`efta/findings.json`, `efta/messages.json`, 7k+ `efta/docs/*.json`) is the *published, curated subset* — a convenience cache, not the whole corpus. If the subject is in the release, **our own primary document is the strongest citation** — cite the doc id with `type: "primary"`, link to `https://2pizzaclub.com/efta/messages.html` (or the doc viewer), put the verbatim line in `quote`, and keep any outside reporting as *corroboration*, not the basis. (The full `/epstein` skill documents the dataset map, the DOJ per-file HTTP fetch for anything not yet local, and the detective-subagent protocol.) (Lesson: the Ronald Lauder record first shipped citing only the Daily Pennsylvanian and a web tracker — he was in our own `HOUSE_OVERSIGHT_*` iMessage docs the entire time, with Epstein writing "meeting with lauder re alzheimer ... also with jim watson." Always grep our corpus first.) Watch for whisper/OCR spellings and name variants (initials, "Lauter"→"Lauder", redactions) when grepping.
 
 ### 3. Verify citations BEFORE writing records
 

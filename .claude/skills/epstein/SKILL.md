@@ -19,7 +19,8 @@ Corpus root: `~/data/epstein-files/` (outside this repo). Map + status:
 
 | Slice | Path | State |
 |---|---|---|
-| **Full-text search layer** | `work/corpus.jsonl` (~2 GB) | **520,317 docs — the extracted text of the ENTIRE release in one grep-able JSONL.** One line per doc: `{id, source, dataset, text}`. Coverage: DS10 503,150 (≈100%), DS8 9,927, DS1 3,142, estate 2,710, DS2 574, DS1–7 the rest, DS11 100, DS12 151, parsed emails 194. **Any word/phrase search starts HERE** — see the search recipe below. `corpus.hi.jsonl` = text-heavy subset (456K). The 5,163/1,143 counts in `WORK_LOG.md` describe the pre-DS10 build and are stale. |
+| **Full-text search layer** | `work/corpus.jsonl` (~3.6 GB) | **1,051,599 docs — the extracted text of the ENTIRE release in one grep-able JSONL.** One line per doc: `{id, source, dataset, text}`. Coverage: DS10 503,150 (≈100%), **DS9 531,282 (≈100%, added 2026-06-09)**, DS8 9,927, DS1 3,142, estate 2,710, DS2 574, DS1–7 the rest, DS11 100, DS12 151, parsed emails 194. **Any word/phrase search starts HERE** — see the search recipe below. `corpus.hi.jsonl` = text-heavy subset (456K, pre-DS9). The 5,163/1,143 counts in `WORK_LOG.md` describe the pre-DS10 build and are stale. |
+| **DOJ DS9 (document images)** | `ds9/images/*.pdf` + `ds9/text/*.txt` | **531,282 document PDFs, bates EFTA00039025–01262781** — pulled + text-extracted 2026-06-09 (pdftotext ~89%, tesseract OCR ~11%). NOT "181 GB native media to skip" (an earlier wrong label that left this whole bates range unsearchable); the video/audio NATIVES (2,324 files) were the only part skipped. Already folded into `corpus.jsonl` (rebuild via `tools/build_ds9_corpus.py`). Per-file manifest under `ds9meta/`. |
 | House Oversight estate text | `raw/estate/text_only/HOUSE_OVERSIGHT_*.txt` | **647 docs, text-ready** — the richest narrative/email slice |
 | DOJ DS8 (pre-OCR'd) | `raw/dataset_8/*_djvu.xml` | ~10,487 docs, police-report era |
 | DOJ DS10 ("financial") | `extracted/dataset_10/VOL00010/` | 503,154 PDFs. **Mislabelled: a 50-doc random sample is ~60% EMAIL, ~22% financial statements, 0 iMessage** (heavy OCR damage — `@`→`©`, `.com`→`.corn`). The biggest unread Epstein *email* trove. **Full text already extracted into `work/corpus.jsonl` — searchable in seconds.** What's still missing is *metadata*: the load file (`DATA/VOL00010.DAT`) carries only Begin/End Bates, no sender/date table, so "all emails from X" still needs content reads; "every doc containing phrase Y" does not. |
@@ -59,6 +60,25 @@ Already-extracted convenience data in THIS repo: `efta/messages.json` (1,200
 iMessages + 20 email threads, parsed) and `efta/docs/*.json` (doc-viewer
 snippets). Prefer these compact files over re-reading raw docs when they cover
 the question.
+
+### Pulling more of the release on demand (DOJ HTTP)
+
+If a bates isn't in `corpus.jsonl`, the DOJ still serves every individual file
+over HTTP at full speed — the bulk ZIPs are gone (404) but per-file works behind
+a one-line age cookie:
+
+```bash
+# any file, any dataset — works with the cookie, 302→age-verify without it
+curl -sL -b "justiceGovAgeVerified=true" -A "Mozilla/5.0 Chrome/120" \
+  "https://www.justice.gov/epstein/files/DataSet%209/EFTA00578213.pdf" -o out.pdf
+# bulk: aria2c -i urls.txt -j20 --header "Cookie: justiceGovAgeVerified=true"
+```
+
+Bates→dataset map: DS1–8 `00000001–00039023`, **DS9 `00039025–01262781`**, DS10/11
+`01262782–02213051`, DS12 `02730265–02731852`. DS9's removed videos + ~25
+reconstruction-only images 404 on DOJ — those live only in the @jeefiles 181 GB
+torrent (magnet in the aggregator README; starved swarm, avoid). Per-file SHA256
+manifest + load files: `ds9meta/` (mirrored from the aggregator `notes/DS09/`).
 
 ## The /efta/ publish pipeline
 
@@ -181,3 +201,14 @@ After any detective run: relay findings, capture the READING META into this file
   citation drift again, this time in MY OWN prose: the NYT 2019 eugenics article documents
   cryonics/transhumanism, not young-blood transfusions — drafted claim said otherwise from
   memory. Verbatim-verify every secondary citation too, not just Bates quotes.
+- 2026-06-09 DS9 pulled + integrated: a reel cited an EFTA-bates doc that no local search could
+  find — root cause, DS9 (531K document PDFs, bates 00039025–01262781) had been skipped on a
+  wrong "181 GB native media, photos only" label. It is actually document scans; only the 2,324
+  video/audio NATIVES are media. Pulled all 531,282 PDFs over DOJ HTTP (age cookie, not the
+  starved torrent), text-extracted (pdftotext 89% / tesseract 11%), folded into `corpus.jsonl`
+  (now 1.05M docs). Verified three reel documents as genuine: Zorro Ranch petroglyph task list
+  (EFTA00578213), FBI Las Trampas "Death Bell" TIR (EFTA00129047), Kiswa/Kaaba-cloth customs
+  import to Little St James (EFTA00787686/697) → records under y2019. Lesson: when a search comes
+  up empty, check the dataset coverage list BEFORE concluding "not in the files" — a whole
+  dataset can be missing. Also: ~98% of DOJ image PDFs already carry a text layer; try
+  `pdftotext` before OCR.
