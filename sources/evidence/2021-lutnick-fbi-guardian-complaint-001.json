@@ -1,0 +1,32 @@
+{
+    "id": "2021-lutnick-fbi-guardian-complaint-001",
+    "anchor": "y2019",
+    "year": 2021,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "finance",
+        "fbi"
+    ],
+    "claim": "Among the documents in the DOJ's Epstein Files Transparency Act release is an FBI FD-71A \"Guardian\" complaint-intake form (Data Set 9, Bates EFTA01249210 / EFTA00095297), dated April 23, 2021, recording a tip phoned in to the FBI's National Threat Operations Center on October 14, 2020. The caller — described as a former compliance employee of BGC Financial / Cantor Fitzgerald — alleged money laundering, Ponzi-scheme activity (a \"global Ponzi share\" scheme said to force 3,500+ employees to contribute 10% of earnings), and regulatory breaches by Howard Lutnick (now Commerce Secretary) through those firms, said Lutnick \"used philanthropy as a smokescreen,\" and claimed to hold documents that \"could link Lutnick to Jeffrey Epstein and Ghislaine Maxwell\" — including an assertion that Epstein \"sold Lutnick a house for $10 ... through a trust fund.\" The form is logged \"MONEY LAUNDERING – ZERO FILE,\" the FBI's intake notation for a complaint on which no case is opened, and is cross-referenced to the Epstein case file (50D-NY-3027571), which is how it surfaced in the production. The document records that the allegation was made; it is an uninvestigated tip, not a finding — no evidence has surfaced that the FBI pursued it.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA01249210 (also stamped EFTA00095297) — FBI Form FD-71A Guardian Complaint Form, 04/23/2021.",
+            "type": "primary",
+            "url": null,
+            "quote": "Title: U NTOC2020 288hmb01 Alleged Money Laundering by Howard Lutnick via BGC Financial and Cantor Fitzgerald ... (U) MONEY LAUNDERING -ZERO FILE ... believes he has supporting documents which could link Lutnick to Jeffrey Epstein and Ghislaine Maxwell."
+        },
+        {
+            "label": "Public Citizen — \"Public Citizen and Democracy Defenders Call Upon Howard Lutnick to Resign as Commerce Secretary\" (March 10, 2026), citing the FBI complaint in the Epstein files.",
+            "type": "secondary",
+            "url": "https://www.citizen.org/article/public-citizen-and-democracy-defenders-call-upon-howard-lutnick-to-resign-as-commerce-secretary/"
+        },
+        {
+            "label": "Daily Kos — \"FBI Guardian Complaint in the Epstein Files That Howard Lutnick Was Involved in Money Laundering\" (Feb. 28, 2026).",
+            "type": "secondary",
+            "url": "https://www.dailykos.com/stories/2026/2/28/2370815/-FBI-Guardian-Complaint-in-the-Epstein-Files-That-Howard-Lutnick-Was-Involved-in-Money-Laundering"
+        }
+    ],
+    "status": "verified",
+    "notes": "Sensitive but squarely on the public record (DS9; surfaced and reported via Public Citizen/Democracy Defenders' resignation demand and Daily Kos). Written to the 'attribute, don't adopt / separate primary fact from attributed conclusion' rule: the PRIMARY FACT is that this FD-71A intake form exists in the release with this title, date, and 'ZERO FILE' status; the ALLEGATIONS within are an uninvestigated complainant tip, asserted here as made, not as true. 'Zero file' = no FBI investigation opened. Complainant PII (name/phone/DOB) is redacted in the source scrub — not reproduced here. NB the caller's 'Epstein sold Lutnick a house for $10 through a trust fund' claim does NOT match the documented deed chain in 1998-lutnick-epstein-townhouse-001 (a $7.6M 1998 purchase from the Comet Trust); the two are cross-related but the '$10' figure is the tipster's unverified assertion, not the property record. Source capture: DZWGyNpNN6T. See-also 1998-lutnick-epstein-townhouse-001."
+}
