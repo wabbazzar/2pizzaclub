@@ -1,0 +1,39 @@
+# 2pizzaclub agent install config
+# Read by /home/wabbazzar/code/guardian-quartet/agents/scribe/runner.sh via
+# the shared lib/load-config.sh path. Project-specific knobs only; the generic
+# scribe runner + role.md live in the guardian-quartet hub.
+#
+# Only scribe is installed here. 2pizzaclub is a no-build static site (plain
+# HTML/CSS/ES modules, GitHub Pages, custom domain 2pizzaclub.com) — there is
+# no test/typecheck/service surface for guardian/augur/medic to act on.
+
+project_name  = "2pizzaclub"
+project_dir   = "/home/wabbazzar/code/2pizzaclub"
+project_owner = "wabbazzar"
+branch        = "main"
+
+[install.timers]
+# OnCalendar written verbatim into ~/.config/systemd/user/2pizzaclub-scribe.timer.
+# 01:00 local matches the other projects' quiet-hours window.
+scribe = "*-*-* 01:00:00"
+
+[paths]
+result_dir = "tmp"   # gitignored; runner writes 2pizzaclub-scribe-result.json here
+
+[scribe]
+# Scribe's ONLY surface here is the pre-rendered cinema share cards under
+# gallery/share/. It re-runs tools/share-pages.mjs to keep each theme's card
+# (video count + total runtime) in sync with the live captures/evidence data,
+# and the runner commits the gallery/share/ diff. content_paths is deliberately
+# narrow: scribe must never stage sources/captures/ or evidence (other agents'
+# territory — a mid-ingest capture could be swept into a pathspec commit).
+content_paths          = ["gallery/share/"]
+budget                 = 1.50
+wall_clock_sec         = 900
+commit_message_prefix  = "scribe: refresh share cards"
+auto_commit            = true
+auto_push              = true
+allow_prose_rewrites   = false
+allow_file_moves       = false
+forbid_file_deletion   = false   # the generator prunes share dirs for removed themes
+forbid_ticket_creation = true
