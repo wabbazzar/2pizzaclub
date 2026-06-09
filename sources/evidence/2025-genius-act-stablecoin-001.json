@@ -1,0 +1,33 @@
+{
+    "id": "2025-genius-act-stablecoin-001",
+    "anchor": "y2025",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "crypto",
+        "finance"
+    ],
+    "claim": "On July 18, 2025, President Trump signed the GENIUS Act (Guiding and Establishing National Innovation for U.S. Stablecoins Act), the first federal regulatory framework for payment stablecoins. The law requires permitted issuers to hold reserves backing their stablecoins on at least a 1:1 basis in cash or other low-risk assets such as short-term U.S. Treasuries (generally barred from rehypothecation), subjects issuers to the Bank Secrecy Act's anti-money-laundering and sanctions regime, limits who may issue (bank subsidiaries and federally or state-qualified issuers), bars issuers from claiming their tokens are government-backed or federally insured, and requires issuers to retain the technical ability to seize, freeze, or burn tokens on lawful order. It takes effect the earlier of 18 months after enactment or 120 days after final implementing rules; the OCC issued proposed rules in early 2026.",
+    "sources": [
+        {
+            "label": "The White House — \"Fact Sheet: President Donald J. Trump Signs GENIUS Act into Law\" (July 18, 2025).",
+            "type": "primary",
+            "url": "https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-president-donald-j-trump-signs-genius-act-into-law/",
+            "quote": "The GENIUS Act requires 100% reserve backing with liquid assets like U.S. dollars or short-term Treasuries",
+            "clip": "clips/2025-genius-act-stablecoin-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Congress.gov — S.1582, 119th Congress, \"GENIUS Act\" (bill text and status).",
+            "type": "primary",
+            "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1582"
+        },
+        {
+            "label": "Covington & Burling LLP — \"The GENIUS Act Becomes Law: Key Provisions from the Federal Stablecoin Regulatory Framework\" (July 2025).",
+            "type": "secondary",
+            "url": "https://www.cov.com/news-and-insights/insights/2025/07/the-genius-act-becomes-law-key-provisions-from-the-federal-stablecoin-regulatory-framework"
+        }
+    ],
+    "status": "verified",
+    "notes": "The concrete 'crypto rails' law behind the broader crypto-policy push (companion thread to the 401k EO, 2025-401k-crypto-private-equity-001). Stated straight from the White House fact sheet + Congress.gov: what the statute requires. The freeze/seize/burn issuer-control requirement and the 1:1-Treasury backing are the load-bearing facts; readers can weigh whether a Treasury-backed, freezable federal stablecoin standard is consumer protection or programmable-money infrastructure — the record does not decide it. Source capture: DZVvMB6AFC8."
+}

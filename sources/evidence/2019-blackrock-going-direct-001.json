@@ -1,0 +1,33 @@
+{
+    "id": "2019-blackrock-going-direct-001",
+    "anchor": "y2020-pandemic-response",
+    "year": 2019,
+    "era": "iv",
+    "themes": [
+        "finance",
+        "federal-reserve"
+    ],
+    "claim": "In August 2019, four BlackRock executives — Philipp Hildebrand (former chairman of the Swiss National Bank), Stanley Fischer (former Vice Chairman of the U.S. Federal Reserve), Elga Bartsch, and Jean Boivin (former deputy governor of the Bank of Canada) — presented a paper, \"Dealing with the next downturn,\" at the Federal Reserve's Jackson Hole symposium. It argued that in the next downturn conventional monetary tools would be exhausted and proposed an \"unprecedented\" coordination of monetary and fiscal policy — \"going direct,\" putting central-bank money directly into the hands of public- and private-sector spenders through a monetary-financed facility. Seven months later, responding to the COVID-19 market disruption, the Federal Reserve expanded its balance sheet by roughly $3 trillion and retained BlackRock to manage several of its emergency corporate-bond purchase facilities.",
+    "sources": [
+        {
+            "label": "BlackRock Investment Institute — \"Dealing with the next downturn: From unconventional monetary policy to unprecedented policy coordination\" (Macro and market perspectives, August 2019).",
+            "type": "primary",
+            "url": "https://www.blackrock.com/corporate/literature/whitepaper/bii-macro-perspectives-august-2019.pdf"
+        },
+        {
+            "label": "Wall Street On Parade (Pam & Russ Martens) — \"BlackRock Authored the Bailout Plan Before There Was a Crisis – Now It's Been Hired by three Central Banks to Implement the Plan\" (June 2020).",
+            "type": "secondary",
+            "url": "https://wallstreetonparade.com/2020/06/blackrock-authored-the-bailout-plan-before-there-was-a-crisis-now-its-been-hired-by-three-central-banks-to-implement-the-plan/",
+            "quote": "in a downturn the only solution is for a more formal – and historically unusual – coordination of monetary and fiscal policy to provide effective stimulus",
+            "clip": "clips/2019-blackrock-going-direct-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Board of Governors of the Federal Reserve System — H.4.1 (balance-sheet expansion, March–June 2020); cross-referenced in 2020-pandemic-fed-response-001.",
+            "type": "primary",
+            "url": "https://www.federalreserve.gov/releases/h41/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The documented primary artifact under the Solari/Fitts-Titus 'Going Direct Reset' / 'financial coup' Fed thesis: the BlackRock paper is real, the authors and Jackson Hole venue check out, and the proposal ('going direct') is accurately stated. What is documented: the paper exists and proposed coordinated monetary-fiscal stimulus delivered directly; the Fed's subsequent ~$3T expansion and its hiring of BlackRock to run emergency facilities are also documented (see 2020-pandemic-fed-response-001). What is INTERPRETATION (Fitts/Titus, and the source reel): that the paper was the blueprint for a deliberate 'coup' or pre-planned wealth transfer — a causal/intent claim the documents themselves do not establish. Record holds to the artifacts. Source capture: DZVvMB6AFC8. See-also 2020-pandemic-fed-response-001."
+}

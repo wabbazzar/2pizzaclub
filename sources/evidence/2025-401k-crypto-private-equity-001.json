@@ -7,7 +7,7 @@
         "finance",
         "crypto"
     ],
-    "claim": "On August 7, 2025, President Trump signed an executive order, \"Democratizing Access to Alternative Assets for 401(K) Investors,\" directing the Department of Labor and other agencies to clear a regulatory path for 401(k) retirement plans to hold \"alternative assets\" — defined in the order to include private-market investments not traded on public exchanges, vehicles investing in digital assets (cryptocurrency), and real estate. The order tells the Secretary of Labor to re-examine fiduciary guidance within 180 days and to consider rescinding the Labor Department's December 21, 2021 Private Equity Statement, which had cautioned plan fiduciaries about such holdings. The change is not immediate: agencies must rewrite rules and employers revise plan menus, so any actual appearance of crypto or private equity in ordinary 401(k)s would take months to years. Regulators and analysts note alternative assets carry higher fees, lower liquidity, and — for crypto — greater volatility and weaker disclosure than the index funds and equities that 401(k)s traditionally hold.",
+    "claim": "On August 7, 2025, President Trump signed an executive order, \"Democratizing Access to Alternative Assets for 401(K) Investors,\" directing the Department of Labor and other agencies to clear a regulatory path for 401(k) retirement plans to hold \"alternative assets\" — defined in the order to include private-market investments not traded on public exchanges, vehicles investing in digital assets (cryptocurrency), and real estate. The order tells the Secretary of Labor to re-examine fiduciary guidance within 180 days and to consider rescinding the Labor Department's December 21, 2021 Private Equity Statement, which had cautioned plan fiduciaries about such holdings. The change is not immediate: agencies must rewrite rules and employers revise plan menus, so any actual appearance of crypto or private equity in ordinary 401(k)s would take months to years. On March 30, 2026, the Labor Department's Employee Benefits Security Administration issued the implementing step — a proposed rule expanding the fiduciary \"safe harbor\" for retirement plans that include alternative assets, opening a 60-day public comment period through June 1, 2026. Regulators and analysts note alternative assets carry higher fees, lower liquidity, and — for crypto — greater volatility and weaker disclosure than the index funds and equities that 401(k)s traditionally hold.",
     "sources": [
         {
             "label": "The White House — Presidential Action, \"Democratizing Access to Alternative Assets for 401(K) Investors\" (Aug. 7, 2025).",
@@ -26,6 +26,11 @@
             "label": "CBS News — \"Trump wants your 401(k) to access crypto and private equity. Here's what to know.\"",
             "type": "secondary",
             "url": "https://www.cbsnews.com/news/trump-401k-changes-executive-order-risk-what-to-know/"
+        },
+        {
+            "label": "U.S. Department of Labor / EBSA — news release on the proposed rule to expand access to alternative investments in 401(k) plans (March 30, 2026; 60-day comment period to June 1, 2026).",
+            "type": "primary",
+            "url": "https://www.dol.gov/newsroom/releases/ebsa/ebsa20260330"
         }
     ],
     "status": "verified",

@@ -1,28 +1,34 @@
 {
-    "id": "DZVvMB6AFC8",
-    "url": "https://www.instagram.com/reel/DZVvMB6AFC8/",
-    "platform": "instagram",
-    "captured_at": "2026-06-09",
-    "handle": "@solarireport",
-    "author_display_name": "Catherine Austin Fitts | The Solari Report",
-    "posted_at": "2026-06-08",
-    "engagement": {
-        "likes": 5289,
-        "comments": 228
-    },
-    "caption": "There Is a Reason That the European Leaders Need a War to Control Their Own Population\n\n\"American Psychos\"\n\nSolari Report Money & Markets: June 4, 2026 with Catherine Austin Fitts & John Titus \n\nFull Report available at Solari.",
-    "hashtags": [],
-    "audio_track_actual": "Original audio — Catherine Austin Fitts (Solari Report 'Money & Markets,' June 4 2026, with John Titus); 35-second excerpt.",
-    "video_overlay_text_observed": "\"Money & Markets\" / \"June 4, 2026\" header; \"The Solari Report\" lower-third.",
-    "audio_content_summary": "Short clip: notes Peter Thiel's reported move to Argentina ($12M mansion); asserts that rolling crypto and private-equity into 401(k)s amounts to a plan to 'steal everybody's 401k' and bury the risk in index funds; closes with the line that 'European leaders need a war to manage their own population.'",
-    "implied_frame": "Frames an elite financial restructuring — capital flight at the top (Thiel exiting the US) paired with a 'crypto/private-equity rollup' that loots ordinary retirement savings — plus a closing population-control claim about Europe. Group A (documented): Thiel did buy a ~$12M Buenos Aires mansion and relocate his family (record 2026-thiel-argentina-relocation-001); and the Aug. 7, 2025 executive order does direct the Labor Department to open 401(k)s to crypto, private equity, and real estate (record 2025-401k-crypto-private-equity-001). Group B (contested): that the 401(k) change is designed to 'steal' retirement savings / dump 'crap' into index funds — an attributed motive over a real but slow rulemaking. Group C (no primary trace): that Thiel is fleeing an imminent 'security issue' / 'doesn't want to walk down the street in America' (motive-reading), and that 'European leaders need a war to manage their own population.' The two underlying facts are real; the theft-intent and the war-for-control framing are the creator's.",
-    "editorial_split": {"a": 2, "b": 2, "c": 2},
-    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
-    "video_download_status": "Original pulled via yt-dlp (~2.5 MB); delivery ~2.6 MB webm, 35s.",
-    "audio_transcription_status": "Transcribed with openai-whisper.",
-    "evidence_records": [
-        "2025-401k-crypto-private-equity-001",
-        "2026-thiel-argentina-relocation-001"
-    ],
-    "supporting_research_links": []
+  "id": "DZVvMB6AFC8",
+  "url": "https://www.instagram.com/reel/DZVvMB6AFC8/",
+  "platform": "instagram",
+  "captured_at": "2026-06-09",
+  "handle": "@solarireport",
+  "author_display_name": "Catherine Austin Fitts | The Solari Report",
+  "posted_at": "2026-06-08",
+  "engagement": {
+    "likes": 5289,
+    "comments": 228
+  },
+  "caption": "There Is a Reason That the European Leaders Need a War to Control Their Own Population\n\n\"American Psychos\"\n\nSolari Report Money & Markets: June 4, 2026 with Catherine Austin Fitts & John Titus \n\nFull Report available at Solari.",
+  "hashtags": [],
+  "audio_track_actual": "Original audio — Catherine Austin Fitts (Solari Report 'Money & Markets,' June 4 2026, with John Titus); 35-second excerpt.",
+  "video_overlay_text_observed": "\"Money & Markets\" / \"June 4, 2026\" header; \"The Solari Report\" lower-third.",
+  "audio_content_summary": "Short clip: notes Peter Thiel's reported move to Argentina ($12M mansion); asserts that rolling crypto and private-equity into 401(k)s amounts to a plan to 'steal everybody's 401k' and bury the risk in index funds; closes with the line that 'European leaders need a war to manage their own population.'",
+  "implied_frame": "Frames an elite financial restructuring — capital flight at the top (Thiel exiting the US) paired with a 'crypto/private-equity rollup' that loots ordinary retirement savings — plus a closing population-control claim about Europe. Group A (documented): Thiel did buy a ~$12M Buenos Aires mansion and relocate his family (record 2026-thiel-argentina-relocation-001); and the Aug. 7, 2025 executive order does direct the Labor Department to open 401(k)s to crypto, private equity, and real estate (record 2025-401k-crypto-private-equity-001). Group B (contested): that the 401(k) change is designed to 'steal' retirement savings / dump 'crap' into index funds — an attributed motive over a real but slow rulemaking. Group C (no primary trace): that Thiel is fleeing an imminent 'security issue' / 'doesn't want to walk down the street in America' (motive-reading), and that 'European leaders need a war to manage their own population.' The two underlying facts are real; the theft-intent and the war-for-control framing are the creator's.",
+  "editorial_split": {
+    "a": 2,
+    "b": 2,
+    "c": 2
+  },
+  "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+  "video_download_status": "Original pulled via yt-dlp (~2.5 MB); delivery ~2.6 MB webm, 35s.",
+  "audio_transcription_status": "Transcribed with openai-whisper.",
+  "evidence_records": [
+    "2025-401k-crypto-private-equity-001",
+    "2026-thiel-argentina-relocation-001",
+    "2025-genius-act-stablecoin-001",
+    "2019-blackrock-going-direct-001"
+  ],
+  "supporting_research_links": []
 }
