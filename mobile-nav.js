@@ -154,11 +154,24 @@
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && sheet.classList.contains('is-open')) closeSheet();
     });
-    // Tap a chapter link in the sheet → close sheet
+    // Tap a chapter link in the sheet → close sheet, then jump to the chapter.
+    // Don't rely on native href="#anchor" scrolling: the body is still
+    // overflow:hidden (mnav-locked) when the browser would do the jump, so the
+    // scroll gets dropped — most visibly in a standalone PWA, which has no
+    // URL-bar/hash reconciliation to recover it. Close (unlock) first, then
+    // scroll the target into view ourselves.
     timelinePanel.addEventListener('click', (e) => {
         const a = e.target.closest('a[data-anchor]');
-        if (a) {
-            setTimeout(closeSheet, 50);
+        if (!a) return;
+        e.preventDefault();
+        const target = document.getElementById(a.dataset.anchor);
+        closeSheet();
+        if (target) {
+            // wait out the unlock + sheet-close transition, then jump
+            setTimeout(() => {
+                target.scrollIntoView({ behavior: 'instant', block: 'start' });
+                history.replaceState(null, '', '#' + a.dataset.anchor);
+            }, 260);
         }
     });
 
