@@ -1,0 +1,30 @@
+{
+    "id": "2026-thiel-argentina-relocation-001",
+    "anchor": "y2025",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "finance",
+        "tech-billionaires"
+    ],
+    "claim": "Peter Thiel — PayPal and Palantir co-founder — purchased a roughly $12 million mansion in the Palermo Chico enclave of Buenos Aires and relocated his family to Argentina, leaving California in late 2025; he enrolled his children in local schools and met President Javier Milei and other officials. Reporting (originating with The New York Times) attributes the move to a mix of tax, security, and ideological concerns, and notes the timing relative to a proposed California ballot initiative that would levy a 5% annual tax on residents worth over $1 billion, with a January 1, 2026 residency cutoff. The Times characterized the relocation as temporary; Thiel has previously obtained New Zealand citizenship (2011) and applied for a Maltese passport (2022).",
+    "sources": [
+        {
+            "label": "The Washington Times — \"Peter Thiel buys $12M Buenos Aires mansion, temporarily relocates family to Argentina\" (May 30, 2026).",
+            "type": "secondary",
+            "url": "https://www.washingtontimes.com/news/2026/may/30/peter-thiel-buys-12m-buenos-aires-mansion-temporarily-relocates/"
+        },
+        {
+            "label": "Ground News — fact-check aggregation of the New York Times report on Thiel's Argentina relocation (what the NYT report actually says).",
+            "type": "secondary",
+            "url": "https://ground.news/article/fact-check-has-peter-thiel-relocated-to-argentina-what-the-nyt-report-really-says"
+        },
+        {
+            "label": "Yahoo Finance — \"Peter Thiel Buys $12 Million Mansion In Argentina As Javier Milei Woos Silicon Valley.\"",
+            "type": "secondary",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/peter-thiel-buys-12-million-120108022.html"
+        }
+    ],
+    "status": "verified",
+    "notes": "The source reel's lead claim (Fitts), verified: the purchase and relocation are documented; the ~$12M figure and Palermo Chico location are consistent across reporting. Presented straight — the move plus the reasons reporting attributes to Thiel (California's proposed billionaire wealth tax and its Jan 1 2026 residency deadline, plus stated nuclear-war/AI concerns). The reel's gloss that he is 'fleeing' because of a coming 'security issue' is the creator's mind-reading and is logged Group C in the editorial_split, not asserted here. Thiel also appears in our EFTA corpus via the 2016 Epstein->Thiel email (record 2016-epstein-rothschild-representation-001), an unrelated thread. Source capture: DZVvMB6AFC8."
+}

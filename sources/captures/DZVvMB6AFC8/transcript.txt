@@ -1,0 +1,12 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-06-09, openai-whisper base.en
+
+— FULL TEXT —
+
+So, of course, big headlines for the last week or two about Peter Teal moving his family to Argentina, buying a $12 million dollar mansion and clearly not wanting to have to walk down the street in America over the next year.
+This is a security issue.
+If they roll up, if they put the crypto games and the private equity roll over into the 401ks and steal everybody's 401k, it'll take a while to do it and stick the crap in the index funds.
+You know, there's a reason the European leaders need a war to manage their own population.
+
+— END —

@@ -1,0 +1,33 @@
+{
+    "id": "2025-401k-crypto-private-equity-001",
+    "anchor": "y2025",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "finance",
+        "crypto"
+    ],
+    "claim": "On August 7, 2025, President Trump signed an executive order, \"Democratizing Access to Alternative Assets for 401(K) Investors,\" directing the Department of Labor and other agencies to clear a regulatory path for 401(k) retirement plans to hold \"alternative assets\" — defined in the order to include private-market investments not traded on public exchanges, vehicles investing in digital assets (cryptocurrency), and real estate. The order tells the Secretary of Labor to re-examine fiduciary guidance within 180 days and to consider rescinding the Labor Department's December 21, 2021 Private Equity Statement, which had cautioned plan fiduciaries about such holdings. The change is not immediate: agencies must rewrite rules and employers revise plan menus, so any actual appearance of crypto or private equity in ordinary 401(k)s would take months to years. Regulators and analysts note alternative assets carry higher fees, lower liquidity, and — for crypto — greater volatility and weaker disclosure than the index funds and equities that 401(k)s traditionally hold.",
+    "sources": [
+        {
+            "label": "The White House — Presidential Action, \"Democratizing Access to Alternative Assets for 401(K) Investors\" (Aug. 7, 2025).",
+            "type": "primary",
+            "url": "https://www.whitehouse.gov/presidential-actions/2025/08/democratizing-access-to-alternative-assets-for-401k-investors/",
+            "quote": "every American preparing for retirement should have access to funds that include investments in alternative assets when the relevant plan fiduciary determines that such access provides an appropriate opportunity",
+            "clip": "clips/2025-401k-crypto-private-equity-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "PBS NewsHour — \"Trump opens door for 401(k) retirement plans to invest in private equity and crypto\" (Aug. 2025).",
+            "type": "secondary",
+            "url": "https://www.pbs.org/newshour/politics/trump-opens-door-for-401k-retirement-plans-to-invest-in-private-equity-and-crypto"
+        },
+        {
+            "label": "CBS News — \"Trump wants your 401(k) to access crypto and private equity. Here's what to know.\"",
+            "type": "secondary",
+            "url": "https://www.cbsnews.com/news/trump-401k-changes-executive-order-risk-what-to-know/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The documented core of the source reel's '401k rollup' thread: the Aug 7 2025 EO is real and does direct DOL to open 401(k)s to crypto/private equity/real estate (White House primary cited with verbatim). Stated straight: an EO directing rulemaking, not an immediate change, and not (on its own) evidence of the reel's 'steal everybody's 401k' intent — that interpretation is the creator's and is logged Group B/C in the capture's editorial_split. The fee/liquidity/volatility caveats are from the mainstream coverage, attributed as such. New theme 'crypto'. Source capture: DZVvMB6AFC8."
+}
