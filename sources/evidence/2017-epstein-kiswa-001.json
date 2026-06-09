@@ -1,0 +1,38 @@
+{
+    "id": "2017-epstein-kiswa-001",
+    "anchor": "y2019",
+    "year": 2017,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "saudi-arabia"
+    ],
+    "claim": "Customs and shipping records in the DOJ's Epstein file production document a January–February 2017 import to Jeffrey Epstein's entities of three pieces of the Kiswa — the silk-and-gold cloth that drapes the Kaaba in Mecca, Islam's holiest site. A commercial invoice (No. 1700012, dated 19 Feb 2017) lists \"KISWA - INNER\" (green), \"KISWA - OUTER\" (black), and a black-and-gold piece of \"Gold threads, pure silk, fixed in wooden picture frame,\" with a declared total value of \"Ten thousand nine hundred eighty USD.\" A customs-broker invoice from Lund & Pullara Inc. bills \"Little St James Island / LSJE, LLC\" — Epstein's U.S. Virgin Islands company — and names the consignee as \"Banasiak, Janusz, 358 El Brillo Way, Palm Beach\" (Epstein's Palm Beach residence and its house manager); the shipment moved via British Airways from Saudi Arabia. An accompanying description states one exterior piece \"was covering the Kaaba for a year. People touch it and pray while their hands on it.\"",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00787697 / EFTA00787700 — commercial invoice No. 1700012 (19 Feb 2017), merchandise description.",
+            "type": "primary",
+            "url": null,
+            "quote": "KISWA - INNER ... KISWA - OUTER ... Gold threads, pure silk, fixed in wooden picture frame"
+        },
+        {
+            "label": "DOJ Epstein production, Data Set 9, Bates EFTA00787686 — Lund & Pullara Inc. customs-broker invoice, billed to Little St James Island / LSJE, LLC, British Airways, consignee Janusz Banasiak, 358 El Brillo Way, Palm Beach.",
+            "type": "primary",
+            "url": null,
+            "quote": "LITTLE ST JAMES ISLAND I LSJE, LLC"
+        },
+        {
+            "label": "DOJ Epstein production, Data Set 9, Bates EFTA00525525–EFTA00525528 — description of the three Kiswa pieces.",
+            "type": "primary",
+            "url": null,
+            "quote": "This piece is a part of The Kiswa (exterior) . Which cover the Kaaba and it was covering the Kaaba for a year. People touch it and pray while their hands on it."
+        },
+        {
+            "label": "@tayjmcm, Instagram reel DZTBs1dJlfz (June 7, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZTBs1dJlfz/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Primary docs read verbatim from local DS9 corpus (ds9/text/EFTA00787686.txt, EFTA00787697.txt, EFTA00525525.txt). The goods were declared on the freight manifest as 'PICTURE FRAMES' (1 crate, 168 lbs); the customs-broker invoice total was ~$511.07 in fees, separate from the $10,980 declared value of goods. Origin Saudi Arabia (handwritten 'Artwork from Saudi Arabia' appears on the broker paperwork). The reel claimed the cloth was 'touched by 10 million Muslims in active prayer'; the actual document says only 'People touch it and pray while their hands on it' — no figure — so the claim states the documented language, not the reel's embellishment. The surfacing reel's 'sex magic / charging spaces for ritual' framing is NOT adopted. url:null pending /efta/ doc-viewer publication. The bates was first misread off the blurry reel frame as 'EFTA00078769' (a 2020 Maxwell-case letter); correct cluster is EFTA007876xx."
+}

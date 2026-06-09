@@ -1,0 +1,29 @@
+{
+    "id": "DZTBs1dJlfz",
+    "url": "https://www.instagram.com/reel/DZTBs1dJlfz/",
+    "platform": "instagram",
+    "captured_at": "2026-06-08",
+    "handle": "@tayjmcm",
+    "author_display_name": "Taylor McMahon",
+    "posted_at": "2026-06-07",
+    "engagement": {
+        "likes": 71692,
+        "comments": 1287
+    },
+    "caption": "Day 2 of me trying to convince you that Jeffrey Epstein was trying to summon demons using the methods of Aleister Crowley. #epstein",
+    "hashtags": [
+        "epstein"
+    ],
+    "audio_track_actual": "creator voiceover (no music bed)",
+    "video_overlay_text_observed": "Kinetic captions transcribing the voiceover; on-screen document insert (see implied_frame).",
+    "audio_content_summary": "Series 'Day 2' (companion to DZQj3BxJIA1 'Day 1'). Thesis continues: Epstein 'charged' his properties for ritual sex by collecting sacred objects from multiple traditions (the 'Law of Contagion'). Three objects named: (1) the Pueblo petroglyphs near his home (recap of Day 1, with the 'two women buried after rough fetish sex' claim repeated); (2) the 'Las Trampas death bell' — a Catholic funeral bell said to be installed in a New Mexico mission church in 1760, stolen from the church in the 1930s, missing for decades, then turning up at Epstein's ranch; (3) three pieces of the Kiswa, the black-and-gold cloth covering the Kaaba in Mecca, said to have been sent to Epstein by a woman who claimed it had been 'touched by 10 million Muslims in active prayer'. Teases a 'Day 3' alleging Epstein used Crowley's building plans for an island temple.",
+    "implied_frame": "Decomposition (factual; no record written without operator sign-off). Group A (document artifact shown on screen): a customs/freight invoice insert — broker 'LUND & PULLARA INC.', dated 03/14/17, carrier 'BRITISH AIRWAYS P.L.C.', line items (customs clearance, single entry bond, airline handling, delivery order, inland freight, export forwarding), handwritten note 'Artwork from Saudi Arabia', 'TOTAL CHARGES DUE: $511.07', and a bates stamp reading 'EFTA0078769' (i.e. EFTA00078769). VERIFIED after pulling DOJ Data Set 9 (2026-06-08): the invoice is EFTA00787686 (Lund & Pullara Inc. customs broker, BILL TO 'LITTLE ST JAMES ISLAND / LSJE, LLC, 6100 Red Hook, St Thomas VI', British Airways, due 01/17/17), and the matching customs entry/manifest describing the merchandise as 'KISWA - INNER / KISWA - OUTER' is EFTA00787697 in the same cluster. The bates first read off the blurry, head-obscured frame as 'EFTA00078769' was a one-digit misread of EFTA007876xx. Group B (now verified present): the Las Trampas 'Death Bell' is documented in a law-enforcement report EFTA00129047-48 — stolen historical artifact from the San Jose de Gracia de Las Trampas mission church (Trampas, NM, built circa 1760), missing per witness statements. (The report's contents re: any Epstein tie still need a close read before asserting.) Group C (esoteric/unsupported framing, no record): the 'sex magic' / Crowley / 'Law of Contagion' interpretation overlaid on all three objects is the creator's reading, not in any shown document; 'Kiswa'/'Kiswah'/'Las Trampas'/'Kaaba'(as the shrine) all return 0 real hits in our corpus (the lone 'Kaaba' and 'Crowley' grep hits are unrelated law-firm names — 'Kaaba's Ferguson LLP', 'Crowley Fleck').",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~17.9 MB); delivery ~18.4 MB webm, 132s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2020-epstein-las-trampas-bell-001",
+        "2017-epstein-kiswa-001"
+    ],
+    "supporting_research_links": []
+}

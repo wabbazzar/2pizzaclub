@@ -1,0 +1,33 @@
+{
+    "id": "2020-epstein-las-trampas-bell-001",
+    "anchor": "y2019",
+    "year": 2020,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "fbi",
+        "new-mexico"
+    ],
+    "claim": "An FBI Albuquerque Tactical Intelligence Report dated August 2020 (case 374-AQ-3179705), released in the DOJ's Epstein file production, assessed \"with medium confidence that the possibility exists that the missing artifact, and possibly other artifacts, were housed at the Zorro Ranch in New Mexico\" — Jeffrey Epstein's ranch. The artifact is the \"Death Bell,\" a funeral bell stolen in the 1930s from the San Jose de Gracia mission church in Las Trampas, New Mexico (a National Historic Landmark, built circa 1760). The lead originated with a witness, Timothy Lopez, who recalled noticing a bell that resembled the missing one in a real-estate-magazine photograph of a Spanish-Colonial-art room, and later recognized the home as Epstein's Zorro Ranch from 2019 news coverage. The report is an FBI assessment — a medium-confidence intelligence judgment, not a proven finding — and the bell's presence at the ranch is not established as fact.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00129047–EFTA00129057 — FBI Albuquerque Tactical Intelligence Report, \"Historical Documents and Zorro Ranch Media Reports May Augment Known Facts Regarding the Missing San Jose de Gracia Church Artifact,\" August 2020.",
+            "type": "primary",
+            "url": null,
+            "quote": "FBI Albuquerque assesses with medium confidence that the possibility exists that the missing artifact, and possibly other artifacts, were housed at the Zorro Ranch in New Mexico."
+        },
+        {
+            "label": "DOJ Epstein production, Data Set 9, Bates EFTA00129048 — the missing artifact identified.",
+            "type": "primary",
+            "url": null,
+            "quote": "information is available which could enhance known information about the whereabouts of the \"Death Bell\"; an historical artifact missing from San Jose de Gracia de Church, Trampas, New Mexico."
+        },
+        {
+            "label": "@tayjmcm, Instagram reel DZTBs1dJlfz (June 7, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZTBs1dJlfz/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Primary doc read verbatim from local DS9 corpus (ds9/text/EFTA00129047.txt – EFTA00129057.txt). Added color from the same report: the church had two original bells, said in local lore to be a gold/silver/precious-metal mixture; the funeral bell ('Maria del Refugio,' rung for masses of the dead — 'refugio' archaically 'comfort in death') is the missing one, the surviving 'Maria de la Gracia' the 'happy' bell. Both bell towers were removed in the 1931–32 restoration, consistent with the bell going missing in the 1930s. The report also notes a June 16 2020 attempted burglary of a Zorro Ranch storage container, the FBI's Art & Artifacts theft jurisdiction, and that Zorro Ranch's front door had a bell-shaped ornamental feature. Attribution discipline: this is an FBI medium-confidence assessment built largely on a single witness's magazine recollection — presented as such, not as established fact. The surfacing reel's 'sex magic' framing is not adopted. url:null pending /efta/ doc-viewer publication."
+}

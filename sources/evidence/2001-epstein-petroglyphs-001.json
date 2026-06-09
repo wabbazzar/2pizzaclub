@@ -1,0 +1,32 @@
+{
+    "id": "2001-epstein-petroglyphs-001",
+    "anchor": "y2019",
+    "year": 2001,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "new-mexico"
+    ],
+    "claim": "A staff work-order in the U.S. Department of Justice's Epstein file production — a \"Zorro Ranch Projects / Tasks List\" dated 4/4/01 from Jeffrey Epstein's roughly-10,000-acre New Mexico ranch in Stanley — logs that ancient petroglyph rocks were relocated onto the property's grounds. Two entries read \"3/29 Petroglyph rocks moved to the main house\" and \"3/30 One rock has been brought up and placed in the old dog yard. JE to let us know the size, location and how many rocks he would like.\" Petroglyphs are stone carvings of archaeological and tribal significance; removing them from public or tribal land is regulated under federal antiquities law. The document records the movement of the rocks on the ranch and Epstein's direction over the collection; it is a primary record from the DOJ release.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00578213 — \"Zorro Ranch Projects / Tasks List 4/4/01.\"",
+            "type": "primary",
+            "url": null,
+            "quote": "3/29 Petroglyph rocks moved to the main house"
+        },
+        {
+            "label": "DOJ Epstein production, Data Set 9, Bates EFTA00578213 — task-list entry recording Epstein's (\"JE\") direction over the rock collection.",
+            "type": "primary",
+            "url": null,
+            "quote": "3/30 One rock has been brought up and placed in the old dog yard. JE to let us know the size, location and how many rocks he would like."
+        },
+        {
+            "label": "@tayjmcm, Instagram reel DZQj3BxJIA1 (June 6, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZQj3BxJIA1/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Primary doc read verbatim from local DS9 corpus (ds9/text/EFTA00578213.txt). Same task list also corroborated by the FBI Las Trampas TIR (EFTA00129048), which notes photos/videos showed Zorro Ranch held 'a collection of New Mexico Colonial style artwork and artifacts.' url:null pending publication of the DS9 doc to the /efta/ doc viewer. The surfacing reel's wider 'sex magic / Law of Contagion' framing is NOT adopted — claim states only what the document records. Pairs with the Las Trampas bell record (same artifact-collection thread) and the Kiswa import record."
+}

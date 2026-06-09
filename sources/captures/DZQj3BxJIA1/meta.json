@@ -1,0 +1,28 @@
+{
+    "id": "DZQj3BxJIA1",
+    "url": "https://www.instagram.com/reel/DZQj3BxJIA1/",
+    "platform": "instagram",
+    "captured_at": "2026-06-08",
+    "handle": "@tayjmcm",
+    "author_display_name": "Taylor McMahon",
+    "posted_at": "2026-06-06",
+    "engagement": {
+        "likes": 138911,
+        "comments": 2435
+    },
+    "caption": "Jeffrey Epstein was performing occult rituals modeled after Aleister Crowley. #epstein",
+    "hashtags": [
+        "epstein"
+    ],
+    "audio_track_actual": "creator voiceover (no music bed)",
+    "video_overlay_text_observed": "Kinetic captions transcribing the voiceover; on-screen document inserts (see implied_frame).",
+    "audio_content_summary": "Series 'Day 1' (companion to DZTBs1dJlfz 'Day 2'). Thesis: Epstein used Aleister Crowley 'sex magic' methods to summon entities, and the trail is buried in the Epstein files. Claims: (1) emails in the files direct staff to take ancient Pueblo petroglyphs from the New Mexico desert to Epstein's Zorro Ranch, earliest c.2001, collecting for ~20 years; (2) the esoteric 'Law of Contagion' explains the collecting (sacred objects store accumulated prayer-energy); (3) a leaked email from an alleged Epstein-staff whistleblower claims two foreign girls 'died by strangulation during rough fetish sex' and were buried in the hills near the petroglyphs 'on the orders of Jeffrey and Madam G', with now-redacted video links, and that New Mexico is searching the grounds; (4) Crowley link is 'provable by his book purchases' (deferred to a later video).",
+    "implied_frame": "Decomposition (factual; no record written without operator sign-off). Group A (document artifacts shown on screen): a typed 'Zorro Ranch Projects / Tasks List 4/4/01' insert reading '3/29 Petroglyph rocks moved to the main house' and '3/30 One rock has been brought up and placed in the old dog yard. JE to let us know the size, location and how many rocks he would like', plus contractor 'Monarch', a '$5,183.00' approved line, and 'JE' approvals. VERIFIED as genuine EFTA primary document EFTA00578213 ('Zorro Ranch Projects / Tasks List 4/4/01' — '3/29 Petroglyph rocks moved to the main house', '3/30 One rock has been brought up and placed in the old dog yard') after pulling DOJ Data Set 9 on 2026-06-08. It was absent earlier only because DS9 (bates EFTA00039025-01262781) had been skipped; it is now in the local corpus at ds9/text/EFTA00578213.txt. Group B (real-but-contested): Epstein's collecting of New Mexico rock art / petroglyphs at Zorro Ranch has been reported in mainstream coverage — verify against primary reporting before asserting. Group C (esoteric/unsupported framing, no record): the Crowley 'sex magic' / 'summon entities' thesis and the 'Law of Contagion' interpretation are the creator's reading, not stated in any shown document; the 'two girls buried by strangulation / Madam G / New Mexico searching the grounds' claim is attributed only to an anonymous, now-redacted 'whistleblower email' and has no primary trace in our corpus (grep: 'strangulation' 0, 'Madam G' 0; 'buried' hits are unrelated, e.g. the metaphorical 'buried evidence' of the Florida NPA).",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~15.2 MB); delivery ~15.8 MB webm, 121s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2001-epstein-petroglyphs-001"
+    ],
+    "supporting_research_links": []
+}
