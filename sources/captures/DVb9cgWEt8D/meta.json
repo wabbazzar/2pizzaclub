@@ -27,5 +27,10 @@
         "https://www.congress.gov/crs-product/RL33222",
         "https://www.cfr.org/articles/us-aid-israel-four-charts",
         "https://www.timesofisrael.com/meet-theo-von-the-popular-podcaster-who-asked-jd-vance-about-israels-genocide-in-gaza/"
-    ]
+    ],
+    "editorial_split": {
+        "a": 2,
+        "b": 1,
+        "c": 0
+    }
 }

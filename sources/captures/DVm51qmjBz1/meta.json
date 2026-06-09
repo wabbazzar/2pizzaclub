@@ -34,5 +34,10 @@
         "https://en.wikipedia.org/wiki/October_7_attacks",
         "https://www.timesofisrael.com/idfs-oct-7-probes-show-it-misread-hamas-for-years-left-southern-israel-utterly-vulnerable/",
         "https://ctc.westpoint.edu/the-october-7-attack-an-assessment-of-the-intelligence-failings/"
-    ]
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 2,
+        "c": 0
+    }
 }

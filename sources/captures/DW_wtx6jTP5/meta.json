@@ -42,5 +42,10 @@
         "https://en.wikipedia.org/wiki/A_Clean_Break:_A_New_Strategy_for_Securing_the_Realm",
         "https://en.wikipedia.org/wiki/Israeli_apartheid",
         "https://costsofwar.watson.brown.edu/findings"
-    ]
+    ],
+    "editorial_split": {
+        "a": 7,
+        "b": 1,
+        "c": 0
+    }
 }

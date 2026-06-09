@@ -30,5 +30,10 @@
         "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01286938.pdf",
         "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01286560.pdf",
         "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01392673.pdf"
-    ]
+    ],
+    "editorial_split": {
+        "a": 0,
+        "b": 0,
+        "c": 6
+    }
 }

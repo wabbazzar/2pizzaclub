@@ -33,5 +33,10 @@
         "https://govinfo.library.unt.edu/911/staff_statements/911_TerrFin_App.pdf",
         "https://www.sec.gov/news/press/2004-38.htm",
         "https://www.washingtonpost.com/archive/politics/2002/03/02/cia-names-ex-banker-as-executive-director/"
-    ]
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 1,
+        "c": 2
+    }
 }

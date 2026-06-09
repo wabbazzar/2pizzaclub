@@ -31,5 +31,10 @@
         "https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out",
         "https://www.bis.org/publ/bisbull120.pdf",
         "https://singjupost.com/diary-of-a-ceo-w-daniel-priestley-on-ais-seismic-shifts-transcript/"
-    ]
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+    }
 }

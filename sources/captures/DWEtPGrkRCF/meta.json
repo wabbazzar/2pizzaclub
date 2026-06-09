@@ -33,5 +33,10 @@
         "https://www.c-span.org/clip/house-committee/user-clip-netanyahus-expert-testimony-on-iraq-in-2002/4529120",
         "https://en.wikipedia.org/wiki/Iraq_War",
         "https://www.sanders.senate.gov/press-releases/news-sanders-statement-netanyahu-was-wrong-in-2002-he-is-wrong-now/"
-    ]
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+    }
 }

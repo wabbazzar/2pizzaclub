@@ -26,5 +26,10 @@
         "https://voicescenter.org/living-memorial/911-stories/william-rodriguezs-story",
         "https://en.wikipedia.org/wiki/William_Rodriguez",
         "https://www.ksat.com/features/2021/09/10/a-key-rescue-on-911-how-a-janitor-at-the-world-trade-center-used-this-tool-to-save-lives/"
-    ]
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+    }
 }

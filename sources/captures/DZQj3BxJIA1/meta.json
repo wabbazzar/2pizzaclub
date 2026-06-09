@@ -24,5 +24,10 @@
     "evidence_records": [
         "2001-epstein-petroglyphs-001"
     ],
-    "supporting_research_links": []
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 1,
+        "b": 1,
+        "c": 2
+    }
 }

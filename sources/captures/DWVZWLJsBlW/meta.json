@@ -30,5 +30,10 @@
         "https://www.bloomberg.com/news/articles/2026-03-23/jpmorgan-offers-clients-a-new-cds-basket-to-hedge-ai-debt-risk",
         "https://finance.yahoo.com/news/oracle-credit-default-swaps-surge-133318853.html",
         "https://fortune.com/2026/02/03/oracle-debt-openai-stock-movement-key-risk-hyperscaler-market/"
-    ]
+    ],
+    "editorial_split": {
+        "a": 2,
+        "b": 1,
+        "c": 1
+    }
 }

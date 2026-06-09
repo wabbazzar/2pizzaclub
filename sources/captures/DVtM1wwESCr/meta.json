@@ -32,5 +32,10 @@
         "https://en.wikipedia.org/wiki/2024_visit_by_Benjamin_Netanyahu_to_the_United_States",
         "https://thehill.com/homenews/house/4254384-brian-mast-israeli-military-uniform-capitol-hill/",
         "https://www.congress.gov/crs-product/RL33222"
-    ]
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 1,
+        "c": 0
+    }
 }

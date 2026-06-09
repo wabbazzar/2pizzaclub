@@ -29,5 +29,10 @@
         "https://idfiles.com/wp-content/uploads/2022/03/Clintons-Ties-to-Controversial-Medical-Examiner-Questioned-1.html",
         "https://en.wikipedia.org/wiki/Roger_Clinton_Jr.",
         "https://www.cbsnews.com/news/roger-clinton-arrested/"
-    ]
+    ],
+    "editorial_split": {
+        "a": 2,
+        "b": 1,
+        "c": 2
+    }
 }

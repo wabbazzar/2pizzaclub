@@ -53,5 +53,10 @@
         "https://www.complex.com/pop-culture/a/tracewilliamcowen/john-kiriakou-cia-tiktok",
         "https://911truth.org/former-explosives-loader-controlled-demolition-sullivan/",
         "https://en.wikipedia.org/wiki/World_Trade_Center_controlled_demolition_conspiracy_theories"
-    ]
+    ],
+    "editorial_split": {
+        "a": 4,
+        "b": 0,
+        "c": 1
+    }
 }

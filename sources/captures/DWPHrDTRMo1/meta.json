@@ -28,5 +28,10 @@
         "http://acebaker.blogspot.com/2008/07/theory-of-edited-non-live-911-airplane.html",
         "https://www.isgp-studies.com/911-no-planers",
         "https://en.wikipedia.org/wiki/9/11_conspiracy_theories"
-    ]
+    ],
+    "editorial_split": {
+        "a": 0,
+        "b": 0,
+        "c": 3
+    }
 }

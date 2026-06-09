@@ -33,5 +33,10 @@
         "https://globalextremism.org/post/christian-zionism-and-americas-holy-war-in-iran/",
         "https://forward.com/israel/453286/us-pro-israel-groups-failed-to-disclose-grants-from-israeli-government/",
         "https://slate.com/news-and-politics/2014/07/christians-united-for-israel-the-most-insanely-pro-israel-conference-of-the-year.html"
-    ]
+    ],
+    "editorial_split": {
+        "a": 5,
+        "b": 1,
+        "c": 1
+    }
 }

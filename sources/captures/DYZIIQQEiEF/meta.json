@@ -28,5 +28,10 @@
     "evidence_records": [
         "1963-negev-uranium-001"
     ],
-    "supporting_research_links": []
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 1,
+        "b": 0,
+        "c": 3
+    }
 }

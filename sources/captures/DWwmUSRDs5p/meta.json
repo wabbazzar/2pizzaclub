@@ -32,5 +32,10 @@
         "https://www.nist.gov/world-trade-center-investigation/study-faqs/wtc-towers-investigation",
         "https://www.europhysicsnews.org/articles/epn/pdf/2016/04/epn2016474p21.pdf",
         "https://www.ae911truth.org/evidence/near-free-fall-acceleration"
-    ]
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+    }
 }

@@ -32,5 +32,10 @@
         "https://en.wikipedia.org/wiki/The_City_of_New_York_vs._Homer_Simpson",
         "https://en.wikipedia.org/wiki/Killing_of_Rob_and_Michele_Reiner",
         "https://da.lacounty.gov/media/news/son-charged-fatally-stabbing-parents-rob-and-michele-reiner-their-brentwood-home"
-    ]
+    ],
+    "editorial_split": {
+        "a": 4,
+        "b": 1,
+        "c": 2
+    }
 }

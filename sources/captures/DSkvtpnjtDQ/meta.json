@@ -34,5 +34,10 @@
         "https://www.aljazeera.com/news/2026/2/19/les-wexner-how-the-billionaire-enabled-jeffrey-epsteins-rise",
         "https://en.wikipedia.org/wiki/Les_Wexner",
         "https://en.wikipedia.org/wiki/Robert_Maxwell"
-    ]
+    ],
+    "editorial_split": {
+        "a": 5,
+        "b": 2,
+        "c": 3
+    }
 }

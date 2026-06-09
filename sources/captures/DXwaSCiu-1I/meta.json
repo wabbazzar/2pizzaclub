@@ -36,5 +36,10 @@
         "https://comptroller.defense.gov/Budget-Materials/",
         "https://thenextweb.com/news/foundation-humanoid-robot-soldiers-pentagon",
         "https://www.semafor.com/article/04/03/2026/pentagon-taps-humanoid-robot-startups"
-    ]
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 0,
+        "c": 0
+    }
 }

@@ -33,5 +33,10 @@
         "https://archive.org/details/larrysilversteinpullbuilding7",
         "https://en.wikipedia.org/wiki/World_Trade_Center_controlled_demolition_conspiracy_theories",
         "https://www.snopes.com/fact-check/building-7-collapse/"
-    ]
+    ],
+    "editorial_split": {
+        "a": 2,
+        "b": 2,
+        "c": 0
+    }
 }

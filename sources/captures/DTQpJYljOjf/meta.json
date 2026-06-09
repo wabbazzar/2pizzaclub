@@ -41,5 +41,10 @@
         "https://911memorial.org/connect/blog/women-s-history-fight-911-flight-attendant",
         "https://supreme.justia.com/cases/federal/us/536/403/",
         "https://prospect.org/2002/04/25/lies-consequences/"
-    ]
+    ],
+    "editorial_split": {
+        "a": 4,
+        "b": 2,
+        "c": 1
+    }
 }

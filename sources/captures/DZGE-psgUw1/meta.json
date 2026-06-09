@@ -30,5 +30,10 @@
         "2001-silverstein-003",
         "2001-dancing-israelis-001"
     ],
-    "supporting_research_links": []
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 5,
+        "b": 0,
+        "c": 4
+    }
 }

@@ -59,7 +59,8 @@
                 posted_at: meta.posted_at,
                 caption: meta.caption,
                 hashtags: meta.hashtags,
-                evidence_records: meta.evidence_records || []
+                evidence_records: meta.evidence_records || [],
+                editorial_split: meta.editorial_split || null
             });
             for (const eid of meta.evidence_records || []) {
                 addEdge(`capture:${cid}`, `claim:${eid}`, 'spawns');

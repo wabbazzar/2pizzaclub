@@ -34,5 +34,10 @@
         "https://www.bloomberg.com/news/features/2016-05-30/the-untold-story-behind-saudi-arabia-s-41-year-u-s-debt-secret",
         "https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(25)00189-5/fulltext",
         "https://en.wikipedia.org/wiki/President_of_the_World_Bank_Group"
-    ]
+    ],
+    "editorial_split": {
+        "a": 7,
+        "b": 1,
+        "c": 1
+    }
 }

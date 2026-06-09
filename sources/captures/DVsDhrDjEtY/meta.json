@@ -30,5 +30,10 @@
         "https://en.wikipedia.org/wiki/Walter_Scheib",
         "https://en.wikipedia.org/wiki/Murder_of_Seth_Rich",
         "https://www.justice.gov/file/1080281/download"
-    ]
+    ],
+    "editorial_split": {
+        "a": 0,
+        "b": 0,
+        "c": 6
+    }
 }

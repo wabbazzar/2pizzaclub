@@ -35,5 +35,10 @@
         "https://en.wikipedia.org/wiki/Assassination_of_Abraham_Lincoln",
         "https://en.wikipedia.org/wiki/Simon_Wolf",
         "https://en.wikipedia.org/wiki/Chaim_Weizmann"
-    ]
+    ],
+    "editorial_split": {
+        "a": 6,
+        "b": 0,
+        "c": 1
+    }
 }

@@ -38,5 +38,10 @@
         "https://en.wikipedia.org/wiki/Avicii",
         "https://en.wikipedia.org/wiki/Anthony_Bourdain",
         "https://wikileaks.org/wiki/FBI_pedophile_symbols"
-    ]
+    ],
+    "editorial_split": {
+        "a": 5,
+        "b": 0,
+        "c": 3
+    }
 }

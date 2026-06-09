@@ -29,5 +29,10 @@
         "https://en.wikipedia.org/wiki/Surfside_condominium_collapse",
         "https://en.wikipedia.org/wiki/John_McAfee",
         "https://www.gao.gov/products/gao-24-106558"
-    ]
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 0,
+        "c": 2
+    }
 }

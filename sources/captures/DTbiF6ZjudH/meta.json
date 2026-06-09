@@ -31,5 +31,10 @@
     "supporting_research_links": [
         "https://archive.org/details/FDNY_9_11_Oral_Histories",
         "https://www.ae911truth.org/evidence/technical-articles/articles-by-ae911truth/128-118-witnesses-to-explosions-in-the-fdny-oral-histories"
-    ]
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+    }
 }

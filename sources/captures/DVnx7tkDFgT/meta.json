@@ -28,5 +28,10 @@
         "https://canadafreepress.com/article/john-mcafee-explains-to-vice-how-hillary-clinton-blocked-his-entry-into-an-american-embassy",
         "https://en.wikipedia.org/wiki/John_McAfee",
         "https://gizmodo.com/meth-labs-and-dead-dogs-how-the-founder-of-mcafee-anti-5912379"
-    ]
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 3,
+        "c": 0
+    }
 }

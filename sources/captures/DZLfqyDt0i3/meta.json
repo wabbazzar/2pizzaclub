@@ -34,5 +34,10 @@
         "https://www.federalregister.gov/documents/2021/11/04/2021-24123/addition-of-certain-entities-to-the-entity-list",
         "https://techcrunch.com/2026/01/08/critics-pan-spyware-maker-nsos-transparency-claims-amid-its-push-to-enter-us-market/",
         "https://poll.qu.edu/poll-release?releaseid=3929"
-    ]
+    ],
+    "editorial_split": {
+        "a": 6,
+        "b": 2,
+        "c": 0
+    }
 }

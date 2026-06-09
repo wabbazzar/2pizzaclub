@@ -29,5 +29,10 @@
         "https://www.kenklippenstein.com/p/new-counterterror-strategy-eyes-tucker",
         "https://www.newsweek.com/fact-checkdid-trump-aide-name-tucker-carlson-possible-domestic-terrorist-11946474",
         "https://www.lawfaremedia.org/article/trump-administration-releases-2026-counterterrorism-strategy"
-    ]
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 3,
+        "c": 0
+    }
 }

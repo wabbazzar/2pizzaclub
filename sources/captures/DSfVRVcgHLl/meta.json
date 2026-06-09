@@ -32,5 +32,10 @@
         "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/5/private-equity-investment-surge-sends-us-data-center-deals-to-5-year-high-100947405",
         "https://www.bis.org/publ/bisbull120.pdf",
         "https://en.wikipedia.org/wiki/Bond_credit_rating"
-    ]
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+    }
 }

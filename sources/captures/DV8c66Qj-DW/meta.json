@@ -25,5 +25,10 @@
     "supporting_research_links": [
         "https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(25)00189-5/fulltext",
         "https://jasonhickel.substack.com/p/the-staggering-death-toll-of-western"
-    ]
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 3,
+        "c": 0
+    }
 }

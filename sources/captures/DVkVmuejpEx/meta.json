@@ -23,5 +23,10 @@
         "1981-israel-funded-hamas-precursor-001",
         "2025-foreign-aid-terror-testimony-001"
     ],
-    "supporting_research_links": []
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 1,
+        "b": 2,
+        "c": 1
+    }
 }

@@ -31,5 +31,10 @@
         "https://www.cnn.com/2019/04/20/europe/ukraine-election-tv-show-intl",
         "https://2009-2017.state.gov/p/eur/rls/rm/2013/dec/218804.htm",
         "https://www.politifact.com/factchecks/2014/mar/19/facebook-posts/united-states-spent-5-billion-ukraine-anti-governm/"
-    ]
+    ],
+    "editorial_split": {
+        "a": 2,
+        "b": 1,
+        "c": 1
+    }
 }

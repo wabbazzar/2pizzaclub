@@ -38,5 +38,10 @@
         "https://en.wikipedia.org/wiki/Operation_Mockingbird",
         "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
         "https://en.wikipedia.org/wiki/Operation_Gladio"
-    ]
+    ],
+    "editorial_split": {
+        "a": 5,
+        "b": 0,
+        "c": 0
+    }
 }

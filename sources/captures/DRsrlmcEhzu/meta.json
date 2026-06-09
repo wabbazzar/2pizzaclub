@@ -47,5 +47,10 @@
         "https://en.wikipedia.org/wiki/Bob_Woodward",
         "https://www.mediaite.com/media/blew-my-fckin-mind-joe-rogan-floored-by-tucker-carlson-claim-that-bob-woodward-was-an-fbi-asset/",
         "https://shepardonwatergate.com/"
-    ]
+    ],
+    "editorial_split": {
+        "a": 7,
+        "b": 2,
+        "c": 1
+    }
 }

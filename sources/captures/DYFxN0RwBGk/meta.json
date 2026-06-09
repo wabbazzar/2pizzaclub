@@ -34,5 +34,10 @@
         "https://www.flightradar24.com/data/aircraft/99-0404",
         "https://www.airandspaceforces.com/hegseths-air-force-jet-diverts-for-emergency-landing/",
         "https://www.newsweek.com/conservative-cited-in-kirk-conspiracy-theory-pushes-back-i-was-at-work-11291468"
-    ]
+    ],
+    "editorial_split": {
+        "a": 2,
+        "b": 2,
+        "c": 1
+    }
 }

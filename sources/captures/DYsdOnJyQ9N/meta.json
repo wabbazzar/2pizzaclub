@@ -32,5 +32,10 @@
         "https://scholar.harvard.edu/files/martinkramer/files/where_mlk_really_stood_on_israel_and_the_palestinians.pdf",
         "https://www.upi.com/Archives/1988/11/04/Robert-Maxwell-who-completed-a-25-billion-tender-offer/2052594622800/",
         "https://en.wikipedia.org/wiki/Robert_Maxwell"
-    ]
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 0,
+        "c": 3
+    }
 }

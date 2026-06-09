@@ -39,5 +39,10 @@
         "https://thehill.com/policy/energy-environment/4791069-project-2025-farming-food-aid/",
         "https://www.democrats.senate.gov/imo/media/doc/project2025_farmers.pdf",
         "https://civileats.com/2024/07/22/republican-plans-for-ag-policy-may-bring-big-changes-to-farm-country/"
-    ]
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 0,
+        "c": 1
+    }
 }

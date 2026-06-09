@@ -26,5 +26,10 @@
         "https://en.wikipedia.org/wiki/United_States_Navy_Marine_Mammal_Program",
         "https://en.wikipedia.org/wiki/Cetacean_intelligence",
         "https://en.wikipedia.org/wiki/Bowhead_whale#Longevity"
-    ]
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 2,
+        "c": 2
+    }
 }

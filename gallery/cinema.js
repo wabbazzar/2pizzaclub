@@ -344,20 +344,62 @@
         return themesByCapture;
     }
 
+    // ---- A/B/C "uncontested" score per capture ----
+    // The editorial pass decomposes each reel into Group A (verifiable / primary-sourced),
+    // Group B (real but disputed), and Group C (invented / unsupported). That split is
+    // recorded structurally on the capture as `editorial_split: {a, b, c}` (see meta.json;
+    // kept current by scribe). The "uncontested ratio" is a / (a+b+c) — reels that are
+    // mostly verifiable lead a theme-filtered cinema, mostly-invented reels trail.
+    //
+    // Fallback (a capture missing editorial_split, e.g. mid-backfill): approximate from the
+    // records it spawned — clean = status:verified, total = all linked claims — so ordering
+    // stays sane until the structured split is populated.
+    function computeCaptureStats() {
+        const dag = window.RECEIPTS_DAG;
+        const stats = new Map();
+        if (!dag || !dag.nodes) return stats;
+        const claimById = new Map();
+        for (const n of dag.nodes) if (n.type === 'claim') claimById.set(n.id, n);
+        for (const n of dag.nodes) {
+            if (n.type !== 'capture') continue;
+            const captureId = n.id.replace(/^capture:/, '');
+            const es = n.editorial_split;
+            const total = es ? (es.a || 0) + (es.b || 0) + (es.c || 0) : 0;
+            if (es && total > 0) {
+                // weight: # of verifiable claims, for the corroboration tie-break
+                stats.set(captureId, { weight: es.a || 0, score: (es.a || 0) / total });
+                continue;
+            }
+            // fallback: verified-record ratio
+            let nRec = 0, nClean = 0;
+            for (const eid of (n.evidence_records || [])) {
+                const claim = claimById.get(`claim:${eid}`);
+                if (!claim) continue;
+                nRec++;
+                if (!claim.status || claim.status === 'verified') nClean++;
+            }
+            stats.set(captureId, { weight: nClean, score: nRec > 0 ? nClean / nRec : 0 });
+        }
+        return stats;
+    }
+
     function buildPlayOrder(filter) {
         const include = (filter && filter.include) || null;
         const exclude = (filter && filter.exclude) || null;
+        const filterActive = (include && include.size > 0) || (exclude && exclude.size > 0);
 
         const items = Array.from(document.querySelectorAll('.gallery-item'));
         const themesByCapture = computeThemesByCapture();
+        const statsByCapture = computeCaptureStats();
 
         let entries = items.map((it) => {
             const id = it.dataset.captureId;
             const themes = themesByCapture.get(id) || [];
+            const st = statsByCapture.get(id) || { weight: 0, score: 0 };
             const video = it.querySelector('video source')?.getAttribute('src') || it.querySelector('video')?.getAttribute('src');
             const handle = it.querySelector('.gallery-handle')?.textContent?.trim() || id;
             const posted = readPostedDate(it);
-            return { id, themes, themeSet: new Set(themes), primary: themes[0] || 'unsorted', video, handle, posted };
+            return { id, themes, themeSet: new Set(themes), primary: themes[0] || 'unsorted', video, handle, posted, uncontested: st.score, weight: st.weight };
         }).filter((e) => e.video);
 
         // ---- filter: include = OR (matches timeline themes.js semantics),
@@ -389,6 +431,19 @@
         }
 
         if (entries.length === 0) return [];
+
+        // ---- theme-filtered cinema: order by A/B/C "uncontested" ratio, most-uncontested
+        // first. Everything in a single-theme cut already shares the subject, so thematic
+        // chaining matters less than leading with the strongest, least-contested receipts.
+        // Tie-break: more spawned records (more corroboration), then earliest posted.
+        if (filterActive) {
+            return entries.slice().sort((a, b) =>
+                (b.uncontested - a.uncontested) ||
+                (b.weight - a.weight) ||
+                (a.posted || '').localeCompare(b.posted || '') ||
+                a.id.localeCompare(b.id)
+            );
+        }
 
         // Rank each capture's themes by global frequency (most-shared first).
         const themeFreq = new Map();

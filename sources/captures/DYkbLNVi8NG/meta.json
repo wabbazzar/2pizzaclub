@@ -30,5 +30,10 @@
         "2023-alpha-gal-001",
         "2021-oxitec-gates-tick-001"
     ],
-    "supporting_research_links": []
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 3,
+        "b": 0,
+        "c": 2
+    }
 }

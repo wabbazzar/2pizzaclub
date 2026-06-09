@@ -41,5 +41,10 @@
         "https://en.wikipedia.org/wiki/Mohamed_Atta",
         "https://en.wikipedia.org/wiki/PENTTBOM",
         "https://irp.fas.org/congress/2002_hr/092602mueller.html"
-    ]
+    ],
+    "editorial_split": {
+        "a": 2,
+        "b": 1,
+        "c": 0
+    }
 }

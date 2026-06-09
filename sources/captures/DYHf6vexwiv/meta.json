@@ -31,5 +31,10 @@
         "https://en.wikipedia.org/wiki/Able_Danger",
         "https://en.wikipedia.org/wiki/Sibel_Edmonds",
         "https://www.c-span.org/clip/news-conference/user-clip-secretary-of-defense-rumsfeld-23-trillion-missing/4905968"
-    ]
+    ],
+    "editorial_split": {
+        "a": 6,
+        "b": 0,
+        "c": 0
+    }
 }

@@ -38,5 +38,10 @@
         "https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident",
         "https://en.wikipedia.org/wiki/Operation_Shamrock",
         "https://en.wikipedia.org/wiki/Stargate_Project"
-    ]
+    ],
+    "editorial_split": {
+        "a": 4,
+        "b": 0,
+        "c": 2
+    }
 }

@@ -33,5 +33,10 @@
         "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-develops-new-strategy-to-counter-domestic-terrorism-and-organized-political-violence/",
         "https://www.aclu.org/news/national-security/how-nspm-7-seeks-to-use-domestic-terrorism-to-target-nonprofits-and-activists",
         "https://en.wikipedia.org/wiki/NSPM-7"
-    ]
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 0,
+        "c": 1
+    }
 }

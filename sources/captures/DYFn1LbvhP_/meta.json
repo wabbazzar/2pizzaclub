@@ -35,5 +35,10 @@
         "https://en.wikipedia.org/wiki/Anthropic",
         "https://x.com/RonanFarrow/status/2041213917611856067",
         "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/"
-    ]
+    ],
+    "editorial_split": {
+        "a": 2,
+        "b": 1,
+        "c": 0
+    }
 }

@@ -20,5 +20,10 @@
     "video_download_status": "Original pulled via yt-dlp (~5.2 MB); delivery ~6.0 MB webm, 143s.",
     "audio_transcription_status": "Transcribed with openai-whisper.",
     "evidence_records": [],
-    "supporting_research_links": []
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 0,
+        "b": 0,
+        "c": 2
+    }
 }

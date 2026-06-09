@@ -29,5 +29,10 @@
         "https://en.wikipedia.org/wiki/John_McAfee",
         "https://en.wikipedia.org/wiki/Gang_Suppression_Unit",
         "https://en.wikipedia.org/wiki/Champlain_Towers_South_collapse"
-    ]
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 1,
+        "c": 1
+    }
 }
