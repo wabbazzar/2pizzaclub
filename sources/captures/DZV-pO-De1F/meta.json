@@ -1,0 +1,28 @@
+{
+    "id": "DZV-pO-De1F",
+    "url": "https://www.instagram.com/reel/DZV-pO-De1F/",
+    "platform": "instagram",
+    "captured_at": "2026-06-09",
+    "handle": "@tuckercarlson",
+    "author_display_name": "Tucker Carlson",
+    "posted_at": "2026-06-08",
+    "engagement": {
+        "likes": 79385,
+        "comments": 1917
+    },
+    "caption": "Jimmy Dore on Charlie Kirk’s murder.",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Kinetic captions tracking the speech (e.g. \"SWALLOW SO\").",
+    "audio_content_summary": "Jimmy Dore, on Tucker Carlson's account, delivers a sarcastic recitation of the official account of Charlie Kirk's assassination — narrating it as a chain of physical implausibilities: the shooter finding an open stairwell, disassembling an oversized rifle into a backpack and then down his pant legs (so he 'couldn't bend' to climb the steps), spending ten minutes on the roof unseen by the security team while crowd members did spot 'somebody on the roof,' changing clothes on the roof and back, leaving a screwdriver behind, wrapping the rifle in a towel, climbing down and running across campus, then reassembling and hiding the rifle 'in the backyard of a house owned by Palantir.' Closes by mocking the framing that doubters are 'crazy Jew-hating conspiracy nut[s].'",
+    "implied_frame": "The monologue's frame is that the establishment account of the assassination is physically incoherent. Editorial split: (A, documented) the rooftop firing position ~142 yds out, the screwdriver recovered from the roof, the rifle found wrapped in a towel in a wooded area, and the DNA matches on trigger/towel/screwdriver are all on the record in the Utah County charging document and FBI statements (2025-kirk-001, 2025-kirk-002); the one ballistic comparison — autopsy bullet-jacket fragment vs. the recovered .30-06 — came back ATF-'inconclusive,' which is the legitimate open question (2025-cullen-no-ballistic-001). (C, unsupported) the 'house owned by Palantir' claim is a viral conflation: the wooded-area parcel is registered to '683 Properties LLC,' which a widely-shared X post merged with '683 Capital Management,' an unrelated fund that holds Palantir and Tesla shares in its 13-F. The post was community-noted; there is no public connection between the two entities, and neither company owns the property. Dore's added embellishments (rifle down the pant legs preventing him from bending to climb, changing clothes on the roof twice) have no primary trace and are not asserted here.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~7.4 MB); delivery ~7.7 MB webm, 69s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2025-kirk-001",
+        "2025-kirk-002",
+        "2025-cullen-no-ballistic-001"
+    ],
+    "supporting_research_links": []
+}
