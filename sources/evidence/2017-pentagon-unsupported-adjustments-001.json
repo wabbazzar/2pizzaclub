@@ -1,0 +1,38 @@
+{
+    "id": "2017-pentagon-unsupported-adjustments-001",
+    "anchor": "y2017-pentagon-trillions",
+    "year": 2017,
+    "era": "iv",
+    "themes": [
+        "defense",
+        "finance"
+    ],
+    "claim": "In December 2017, Michigan State University economist Mark Skidmore and former HUD Assistant Secretary Catherine Austin Fitts reported that they had located U.S. government documents recording roughly $21 trillion in \"unsupported adjustments\" at the Department of Defense and the Department of Housing and Urban Development over the 1998–2015 period. The figure built on a July 2016 DOD Inspector General report (DODIG-2016-113) finding that the Army made $6.5 trillion in unsupported journal-voucher adjustments to its fiscal-2015 statements. \"Unsupported adjustment\" is an auditor's term for an accounting entry made without documentation showing where the money came from or went — it is a control failure and a record-keeping gap, not a finding that money was stolen. After the reporting, the Defense Department announced its first-ever department-wide financial audit (conducted 2018); it failed that audit and has failed every annual audit since.",
+    "sources": [
+        {
+            "label": "Michigan State University (MSUToday) — \"MSU scholars find $21 trillion in unauthorized government spending; Defense Department to conduct first-ever audit\" (Dec. 2017).",
+            "type": "primary",
+            "url": "https://msutoday.msu.edu/news/2017/12/msu-scholars-find-21-trillion-in-unauthorized-government-spending-defense-department-to-conduct",
+            "quote": "the Army had $6.5 trillion in unsupported adjustments, or spending, in fiscal 2015 ... a total $21 trillion in undocumented adjustments over the 1998-2015 period",
+            "clip": "clips/2017-pentagon-unsupported-adjustments-001-00.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "DOD Office of Inspector General, Report No. DODIG-2016-113 — \"Army General Fund Adjustments Not Adequately Documented or Supported\" (July 26, 2016): the $6.5 trillion FY2015 unsupported-adjustments finding.",
+            "type": "primary",
+            "url": "https://media.defense.gov/2016/Jul/26/2002522060/-1/-1/1/DODIG-2016-113.PDF"
+        },
+        {
+            "label": "The Fiscal Times — \"Pentagon's Sloppy Bookkeeping Means $6.5 Trillion Can't Pass an Audit\" (July 31, 2016).",
+            "type": "secondary",
+            "url": "https://www.thefiscaltimes.com/2016/07/31/Pentagon-s-Sloppy-Bookkeeping-Means-65-Trillion-Can-t-Pass-Audit"
+        },
+        {
+            "label": "Econofact — \"Has the Pentagon failed its 7th audit in a row?\" (fact brief on the unbroken record of failed DOD audits since 2018).",
+            "type": "secondary",
+            "url": "https://econofact.org/factbrief/has-the-pentagon-failed-its-7th-audit-in-a-row"
+        }
+    ],
+    "status": "verified",
+    "notes": "Distinct from 2001-rumsfeld-trillion-001, which covers Rumsfeld's Sept. 10, 2001 $2.3T statement; this record is the post-2001 continuation (Skidmore/Fitts $21T study + the $6.5T Army FY2015 IG finding + the chronic failed audits). Source reel (DZT_wZgx1YI, Catherine Austin Fitts) frames the same figures as a deliberate 'financial coup' — money 'stolen,' 'laundered through Epstein,' Americans 'poisoned.' Those are the creator's interpretation/caption (the Epstein-laundering and poisoning claims are not even in the spoken audio) and have no primary trace; they are logged Group C in the capture's editorial_split, NOT asserted here. The record states only what the IG documents and academic study establish — unsupported/undocumented adjustments — and marks where interpretation begins. See-also: 2001-rumsfeld-trillion-001."
+}

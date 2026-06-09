@@ -1,0 +1,34 @@
+{
+    "id": "DZT_wZgx1YI",
+    "url": "https://www.instagram.com/reel/DZT_wZgx1YI/",
+    "platform": "instagram",
+    "captured_at": "2026-06-09",
+    "handle": "@unsealed.files",
+    "author_display_name": "Unsealed.Files📄",
+    "posted_at": "2026-06-08",
+    "engagement": {
+        "likes": 3899,
+        "comments": 160
+    },
+    "caption": "On September 10, 2001, Donald Rumsfeld revealed that the Pentagon was unable to account for $2.3 trillion in transactions because of outdated and disconnected financial systems. The announcement raised serious questions about where massive amounts of money had gone and how such a gap could exist unnoticed for so long.\n\nYears later, researchers reported finding roughly $21 trillion in unsupported accounting adjustments tied to the Department of Defense and HUD between 1998 and 2015. These adjustments were reportedly so large that they exceeded the agencies’ actual budgets, fueling even more speculation about hidden financial activity and the lack of transparency within federal institutions.\n\nFormer HUD official Catherine Austin Fitts has gone even further, alleging that as much as $50 trillion may have been diverted through a complex financial system involving corruption, covert networks, and elite influence. Some theories even connect these claims to figures like Jeffrey Epstein and broader accusations of population control and systemic manipulation.\n\nWhether coincidence or something much deeper, many people believe the public still hasn’t received real answers. The bigger question remains: where did the money go, and who benefited from it?\n\n#viral #government #conspiracy #truth #GovernmentCorruption",
+    "hashtags": [
+        "viral",
+        "government",
+        "conspiracy",
+        "truth",
+        "GovernmentCorruption"
+    ],
+    "audio_track_actual": "Original audio — Catherine Austin Fitts speaking (interview clip), narrating her HUD/DOD 'missing money' chart.",
+    "video_overlay_text_observed": "Opening card: \"STOP & WATCH THIS: Former Assistant Secretary of HUD Catherine Austin Fitts describes how the U.S. government stole $50 trillion of taxpayer money, used Epstein to launder it, and then poisoned Americans to shorten their lifespans\"; title \"The Financial Coup.\"",
+    "audio_content_summary": "Fitts narrates her 'financial coup' chart: 1990s HUD/OMB financial-statement reforms she says she wrote; a 1995 budget-deal collapse; a claim that 'enormous amounts of money started to disappear' from the federal government around April 1996; the Treasury described as a 'laundry device' issuing bonds to pension funds while money 'disappears out the back door'; Rumsfeld's Sept. 10, 2001 $2.3T statement; and the escalation to $6.5T (2015) and the $21T Skidmore/Fitts figure. The spoken audio stops at the $21T accounting question — the '$50 trillion,' 'Epstein laundering,' and 'poisoning Americans' claims appear only in the cover card and caption, not in Fitts's words here.",
+    "implied_frame": "Frames the Pentagon/HUD accounting gaps as a deliberate, decades-long 'financial coup' — taxpayer money stolen, laundered, and used against the population. Group A (documented): Rumsfeld's Sept. 10, 2001 $2.3T statement (record 2001-rumsfeld-trillion-001) and the $6.5T Army FY2015 IG finding plus the $21T Skidmore/Fitts 1998–2015 figure (record 2017-pentagon-unsupported-adjustments-001). Group B (contested interpretation): that those 'unsupported adjustments' are proven missing/stolen money rather than undocumented accounting entries; the '$50 trillion' total; the 'financial coup' / 'laundry device' framing; the April-1996 'money started disappearing' account; the unverifiable pension-fund-insider conversation; and the gloss that Rumsfeld called it 'a greater threat than terrorism.' Group C (no primary trace, cover/caption only): that Epstein was used to launder the money, and that Americans were deliberately 'poisoned to shorten their lifespans.' The documented core is real and damning on its own terms — the DOD has never passed an audit — but 'unaccounted for' is the IG's language, and the leap to 'stolen / laundered / poisoning' is the creator's.",
+    "editorial_split": {"a": 2, "b": 8, "c": 2},
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~4.5 MB); delivery ~5.0 MB webm, 180s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2017-pentagon-unsupported-adjustments-001",
+        "2001-rumsfeld-trillion-001"
+    ],
+    "supporting_research_links": []
+}
