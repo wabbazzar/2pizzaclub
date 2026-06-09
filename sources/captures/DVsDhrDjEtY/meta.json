@@ -32,8 +32,8 @@
         "https://www.justice.gov/file/1080281/download"
     ],
     "editorial_split": {
-        "a": 0,
-        "b": 0,
-        "c": 6
+        "a": 1,
+        "b": 6,
+        "c": 1
     }
 }

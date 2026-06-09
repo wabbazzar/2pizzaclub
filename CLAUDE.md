@@ -155,6 +155,13 @@ The `implied_frame` and `notes` fields in `meta.json` are where contested or unv
 
 Also record the split as a structured **`editorial_split`** on the capture's `meta.json` — `{"a": <#GroupA>, "b": <#GroupB>, "c": <#GroupC>}`, the count of distinct claims in each group. The gallery cinema sorts a theme-filtered playlist by `a/(a+b+c)` descending — most-uncontested reels first — so **every ingested capture should carry this field**. It is set HERE, at ingest, from your own decomposition; it is NOT regenerated nightly. (The cinema falls back to a verified-record ratio for any capture missing it, but don't rely on the fallback — set the field.)
 
+Count it with a **strict** hand — the sort is only trustworthy if `a` is hard to earn:
+- **`a` (Group A) is high-bar.** Reserve it for claims that are independently verified *true* — backed by a `status: "verified"` evidence record AND not the reel's disputed framing. A record that merely documents that someone *said* X, or one still `primary-link-pending`/`draft`/`contested-*`, is **not** Group A.
+- **`b` (Group B) counts each contested claim.** Every conspiracy / false-flag / inside-job / foreknowledge framing, every claim contested in mainstream sources, and every claim whose record is non-verified → `b`. A reel surfacing twenty disputed 9/11-inside-job claims has a high `b`, not `b: 0`. When torn between A and B, choose B.
+- **`c` (Group C)** is the asserted-but-unrecorded count — invented / no primary trace.
+
+(The original backfill over-counted A on dense contested reels — e.g. a 20-record inside-job reel scored `4/0/1` and floated to the top of its theme. Don't repeat that; a reel like that is ~`4/14/1`.)
+
 **Check our own EFTA corpus FIRST — before any external source.** For every named person, entity, or event in the reel, search the Epstein holdings we already have before reaching for a third-party link.
 
 The complete release — the **full extracted text of all DOJ DataSets (1–12, including DS9), the House Oversight estate, and the parsed emails — lives in ONE grep-able file**: `~/data/epstein-files/work/corpus.jsonl` (~3.6 GB, 1,051,599 docs, `{id, source, dataset, text}` per line). **A word/phrase search starts HERE** — it covers the whole release, not just the published subset:
