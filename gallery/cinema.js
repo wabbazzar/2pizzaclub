@@ -344,16 +344,16 @@
         return themesByCapture;
     }
 
-    // ---- A/B/C "uncontested" score per capture ----
+    // ---- A/B/C "substance" weight per capture ----
     // The editorial pass decomposes each reel into Group A (verifiable / primary-sourced),
-    // Group B (real but disputed), and Group C (invented / unsupported). That split is
-    // recorded structurally on the capture as `editorial_split: {a, b, c}` (see meta.json;
-    // kept current by scribe). The "uncontested ratio" is a / (a+b+c) — reels that are
-    // mostly verifiable lead a theme-filtered cinema, mostly-invented reels trail.
+    // Group B (real but disputed), and Group C (invented / unsupported), recorded on the
+    // capture as `editorial_split: {a, b, c}` (see meta.json). A theme-filtered cinema ranks
+    // by `a + b` — the count of substantive (verifiable OR real-but-disputed) claims, NOT
+    // normalized — so the densest, most-receipt-heavy reels lead and the thin / mostly-
+    // invented ones trail. Group C (invented) doesn't count toward the rank.
     //
-    // Fallback (a capture missing editorial_split, e.g. mid-backfill): approximate from the
-    // records it spawned — clean = status:verified, total = all linked claims — so ordering
-    // stays sane until the structured split is populated.
+    // Fallback (a capture missing editorial_split, e.g. mid-backfill): approximate a+b from
+    // the count of records it spawned, and the verified-claim tie-break from their status.
     function computeCaptureStats() {
         const dag = window.RECEIPTS_DAG;
         const stats = new Map();
@@ -366,11 +366,11 @@
             const es = n.editorial_split;
             const total = es ? (es.a || 0) + (es.b || 0) + (es.c || 0) : 0;
             if (es && total > 0) {
-                // weight: # of verifiable claims, for the corroboration tie-break
-                stats.set(captureId, { weight: es.a || 0, score: (es.a || 0) / total });
+                // substantive = a + b (the rank); weight = a (verifiable-claim tie-break)
+                stats.set(captureId, { substantive: (es.a || 0) + (es.b || 0), weight: es.a || 0 });
                 continue;
             }
-            // fallback: verified-record ratio
+            // fallback: records spawned = a+b proxy; verified = a proxy
             let nRec = 0, nClean = 0;
             for (const eid of (n.evidence_records || [])) {
                 const claim = claimById.get(`claim:${eid}`);
@@ -378,7 +378,7 @@
                 nRec++;
                 if (!claim.status || claim.status === 'verified') nClean++;
             }
-            stats.set(captureId, { weight: nClean, score: nRec > 0 ? nClean / nRec : 0 });
+            stats.set(captureId, { substantive: nRec, weight: nClean });
         }
         return stats;
     }
@@ -395,11 +395,11 @@
         let entries = items.map((it) => {
             const id = it.dataset.captureId;
             const themes = themesByCapture.get(id) || [];
-            const st = statsByCapture.get(id) || { weight: 0, score: 0 };
+            const st = statsByCapture.get(id) || { substantive: 0, weight: 0 };
             const video = it.querySelector('video source')?.getAttribute('src') || it.querySelector('video')?.getAttribute('src');
             const handle = it.querySelector('.gallery-handle')?.textContent?.trim() || id;
             const posted = readPostedDate(it);
-            return { id, themes, themeSet: new Set(themes), primary: themes[0] || 'unsorted', video, handle, posted, uncontested: st.score, weight: st.weight };
+            return { id, themes, themeSet: new Set(themes), primary: themes[0] || 'unsorted', video, handle, posted, substantive: st.substantive, weight: st.weight };
         }).filter((e) => e.video);
 
         // ---- filter: include = OR (matches timeline themes.js semantics),
@@ -432,10 +432,10 @@
 
         if (entries.length === 0) return [];
 
-        // ---- theme-filtered cinema: order by A/B/C "uncontested" ratio, most-uncontested
-        // first. Everything in a single-theme cut already shares the subject, so thematic
-        // chaining matters less than leading with the strongest, least-contested receipts.
-        // Tie-break: more spawned records (more corroboration), then earliest posted.
+        // ---- theme-filtered cinema: order by A+B (substantive-claim count) descending, so
+        // the densest, most-receipt-heavy reels lead. Not normalized — Group C (invented)
+        // doesn't count, but a reel isn't penalized for the ratio of A to B.
+        // Tie-break: more verifiable (Group A) claims, then earliest posted.
         if (filterActive) {
             // Label each reel with the theme being filtered on — not the alphabetically
             // first tag. A september-11 cut must read "september-11", not "cia"/"body-count"
@@ -453,7 +453,7 @@
                 e.primary = label || e.primary;
             }
             return entries.slice().sort((a, b) =>
-                (b.uncontested - a.uncontested) ||
+                (b.substantive - a.substantive) ||
                 (b.weight - a.weight) ||
                 (a.posted || '').localeCompare(b.posted || '') ||
                 a.id.localeCompare(b.id)
