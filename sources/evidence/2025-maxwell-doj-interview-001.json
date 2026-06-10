@@ -1,0 +1,34 @@
+{
+    "id": "2025-maxwell-doj-interview-001",
+    "anchor": "y2019",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "trump",
+        "doj"
+    ],
+    "claim": "On July 24 and 25, 2025, Deputy Attorney General Todd Blanche — formerly Donald Trump's personal defense lawyer — interviewed Ghislaine Maxwell at a federal facility over two days; the Justice Department released the transcripts on August 22, 2025 (263 pages from July 24, 66 from July 25). In the interview Maxwell said she never saw Trump behave inappropriately: \"I never witnessed the President in any inappropriate setting in any way,\" and \"The President was never inappropriate with anybody.\" An internal FBI Daily News Briefing in the DOJ's own Epstein release describes the interview as \"part of an effort to appear transparent and pursue justice in the Epstein case.\"",
+    "sources": [
+        {
+            "label": "U.S. Department of Justice — official transcript, \"Interview of Ghislaine Maxwell, 2025.07.25 (Redacted).\"",
+            "type": "primary",
+            "url": "https://www.justice.gov/storage/audio-files/Interview%20Transcript/Interview%20Transcript%20-%20Maxwell%202025.07.25-cft%20(Redacted).pdf"
+        },
+        {
+            "label": "PBS NewsHour — \"Ghislaine Maxwell told DOJ she did not see Trump act in inappropriate way; read the interview transcripts,\" August 22, 2025.",
+            "type": "secondary",
+            "url": "https://www.pbs.org/newshour/politics/ghislaine-maxwell-told-doj-she-did-not-see-trump-act-in-inappropriate-way-read-the-interview-transcripts",
+            "quote": "I never witnessed the President in any inappropriate setting in any way.",
+            "clip_status": "error: page.screenshot: Clipped area is either empty or outside the resulting image\nCall log:\n\u001b[2m  - taking page screenshot\u001b[2"
+        },
+        {
+            "label": "FBI Daily News Briefing, July 23, 2025 — internal email, DOJ Epstein release Data Set 10 (EFTA01655315).",
+            "type": "doc",
+            "url": null,
+            "quote": "The Justice Department's request to interview Maxwell is part of an effort to appear transparent and pursue justice in the Epstein case, with Deputy Attorney General Todd Blanche stating that the DoJ and FBI will hear what Maxwell has to say if she has information about crimes against victims."
+        }
+    ],
+    "status": "verified",
+    "notes": "The interview, the two-day dates, the page counts and the Aug 22 transcript release are verifiable public record (DOJ primary PDF + PBS/NBC/CNN/CBS). Maxwell's statements are quoted, not adopted — she is an interested party serving 20 years, interviewed by Trump's former personal lawyer. The own-corpus citation (DS10 internal FBI briefing EFTA01655315) frames the interview, in the FBI's own internal words, as 'an effort to appear transparent' — corroborating from inside the files the transparency-theater strategy reported in 2025-situation-room-epstein-001. A companion July 25 SITREP (EFTA01656324) notes Maxwell 'answered all questions posed by Deputy Attorney General Todd Blanche, who will meet with her again.' DOJ PDF is the day-two (July 25) transcript; day-one (July 24) transcript is the longer companion file."
+}

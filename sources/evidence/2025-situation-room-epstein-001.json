@@ -12,6 +12,11 @@
     "claim": "Maggie Haberman and Jonathan Swan report, in their 2026 book \"Regime Change: Inside the Imperial Presidency of Donald Trump,\" that on July 17, 2025 — about ten days after the DOJ and FBI released a memo declining to disclose further Epstein files — top administration officials met in the White House Situation Room to manage the fallout. According to the reporting, Vice President JD Vance, who presided, floated asking Tucker Carlson to interview Ghislaine Maxwell in prison in hopes she would say Donald Trump had no involvement in Epstein's crimes; Deputy Attorney General Todd Blanche instead proposed petitioning federal courts to unseal grand jury transcripts even though the request would almost certainly be denied, letting the administration appear transparent while blaming judges for non-disclosure. Reported attendees include Chief of Staff Susie Wiles, Press Secretary Karoline Leavitt, Communications Director Steven Cheung, Attorney General Pam Bondi and FBI Director Kash Patel.",
     "sources": [
         {
+            "label": "The New York Times Magazine — \"Inside the White House Freakout Over the Epstein Files,\" by Maggie Haberman and Jonathan Swan, June 10, 2026 (excerpt adapted from \"Regime Change,\" Simon & Schuster, June 23, 2026).",
+            "type": "primary",
+            "url": null
+        },
+        {
             "label": "The Daily Beast — \"White House's Situation Room Meltdown Over Epstein Files Exposed,\" reporting excerpts from Haberman and Swan's \"Regime Change.\"",
             "type": "secondary",
             "url": "https://www.thedailybeast.com/white-houses-situation-room-meltdown-over-epstein-files-exposed/",
@@ -28,5 +33,5 @@
         }
     ],
     "status": "verified",
-    "notes": "Closed-door account; primary source is Haberman and Swan's book Regime Change (NYT, 2026), reported the morning of 2026-06-10 across Daily Beast, CNN, AOL/NYT Magazine. Corroborated by the public aftermath in 2025-epstein-grand-jury-denied-001 (the court-petition strategy Blanche described in the meeting is exactly what DOJ then did publicly, and the courts denied it). Attendee list varies slightly by outlet — Daily Beast lists Wiles/Cheung/Leavitt/Bondi/Blanche/Patel in person or by speakerphone; AOL adds Warrington, Budowich, Woodward, Blair and puts Bondi/Patel on the phone. Claim is phrased as attributed reporting, not asserted in our voice."
+    "notes": "Closed-door account; the source is the NYT Magazine excerpt 'Inside the White House Freakout Over the Epstein Files' (Haberman & Swan, 2026-06-10), adapted from their book Regime Change (Simon & Schuster, June 23 2026). The NYT URL carries url:null because nytimes.com blocks our crawler — title/authors/date are confirmed via Daily Beast, AOL/NYT-Mag, CNN, Axios and The New Republic, which is also where the verbatim quotes come from. Corroborated by the public aftermath in 2025-epstein-grand-jury-denied-001 (the court-petition strategy Blanche described is exactly what DOJ then did publicly, and the courts denied it) and 2025-maxwell-doj-interview-001 (the interview happened, transcript released Aug 22). Our own DS10 internal FBI briefing (EFTA01655315) independently calls the Maxwell interview 'an effort to appear transparent,' echoing the book's transparency-theater account from inside the files. Attendee list varies by outlet — Daily Beast lists Wiles/Cheung/Leavitt/Bondi/Blanche/Patel in person or by speakerphone; AOL/NYT-Mag adds Warrington, Budowich, Woodward, Blair and puts Bondi/Patel on the phone. Claim is phrased as attributed reporting, not asserted in our voice."
 }

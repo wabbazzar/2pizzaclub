@@ -21,7 +21,8 @@
     "audio_transcription_status": "Transcribed with openai-whisper.",
     "evidence_records": [
         "2025-situation-room-epstein-001",
-        "2025-epstein-grand-jury-denied-001"
+        "2025-epstein-grand-jury-denied-001",
+        "2025-maxwell-doj-interview-001"
     ],
     "editorial_split": {
         "a": 1,
@@ -32,6 +33,8 @@
         "https://www.thedailybeast.com/white-houses-situation-room-meltdown-over-epstein-files-exposed/",
         "https://www.aol.com/articles/jd-vance-proposed-tucker-carlson-162945000.html",
         "https://www.pbs.org/newshour/politics/judge-rejects-dojs-request-to-unseal-epstein-grand-jury-transcripts-in-florida",
-        "https://abcnews.com/US/judge-denies-dojs-request-unseal-epstein-records-criminal/story?id=124818529"
+        "https://abcnews.com/US/judge-denies-dojs-request-unseal-epstein-records-criminal/story?id=124818529",
+        "https://www.justice.gov/storage/audio-files/Interview%20Transcript/Interview%20Transcript%20-%20Maxwell%202025.07.25-cft%20(Redacted).pdf",
+        "https://www.pbs.org/newshour/politics/ghislaine-maxwell-told-doj-she-did-not-see-trump-act-in-inappropriate-way-read-the-interview-transcripts"
     ]
 }
