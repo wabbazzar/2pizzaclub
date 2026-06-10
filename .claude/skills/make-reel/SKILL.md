@@ -56,6 +56,29 @@ and gives a clean 16:9 for the blur-fill frame.
 4. **Logo outro** — use the **animate-logo** skill (its `.webm` alpha sting, or render
    the outro inside the same scene as the JFK reel does).
 
+## Cut for COHERENCE — every clip must stand alone (user rule, 2026-06)
+
+Clean levels + sentence boundaries are NOT enough; a clip can be technically
+perfect and still make no sense because it drops the viewer mid-conversation.
+When pulling spoken clips out of a longer source:
+
+- **No dangling-reference openings.** Never start on "the most recent example",
+  "that/this/it/they" with no antecedent, "so/and/but/anyway", bare comparatives
+  — the referent was cut. Move the in-point back to the sentence that
+  establishes it, or forward to a self-contained start.
+- **Keep the speaker's own transition.** "I want to talk about X", "this is my
+  closing scene", "how do we feel about X?" — keep that line as the in-point;
+  it's free orientation. (Caught on the Wes×Tatum reel: cutting "how are we
+  feeling about data centers?" left the answer "they are huge" with no subject.)
+- **Never orphan a question.** Do NOT end on a question whose answer you cut
+  (asker says "is that accurate?" → jump to next topic = nonsense). Include the
+  answer or end before the question.
+- **Drop lines referencing removed context.** "Sorry to cut you off" → an
+  interruption you didn't keep; start after it.
+- **FINAL COHERENCE READ (required):** after assembling, re-transcribe the whole
+  cut and read it straight through as one story. If any open/close/transition
+  wouldn't make sense to a first-time viewer, fix it. This catches the above.
+
 ## Layout & motion rules (learned the hard way)
 
 - **All text beats share one centered band** in the lower blurred zone — consistent
@@ -129,6 +152,17 @@ and gives a clean 16:9 for the blur-fill frame.
   label updates at each cut so the viewer always knows what's on screen. An
   unlabeled clip is confusing even when a speaker plate has appeared — the plate
   says who, the strip says what/where/when.
+- **NO SUB-SECOND SHOTS — frame-verify every segment (user, 2026-06).** A visible
+  shot must hold ≥ ~1.2s. The trap: a chosen b-roll/stock/news segment **flips within
+  itself** (the source cuts to a different scene mid-clip), so your "one beat" shows a
+  <1s sliver of a second shot (a person, a logo, a different scene). Your beat-duration
+  math will NOT catch this. Before locking footage, frame-sample EACH segment's source
+  range at ~0.3s steps and eyeball for internal cuts; if the in-point's continuous run
+  is shorter than the beat, move the in-point into a longer continuous run (or pick
+  other footage). `ffmpeg select='gt(scene,N)'` UNDER-detects on news clips (it missed
+  facade→ticker→desk cuts) — trust the frames, not just the scene score. Also run a
+  whole-reel pass: detect cuts, and flag any gap < 1.2s (excluding the false positives
+  where a detected cut sits ~0.1–0.5s from a known beat boundary = the same cut).
 - **House register:** Big Shot — friendly/bouncy graphics carrying grim receipts.
   Brand palette: ink `#07070b`, cream `#FFF8E7`, mustard `#FFD93D`, navy `#1B3FB5`,
   planet-red `#E63946`. Font Quicksand. Saturn brand chip + `2pizzaclub.com`.
@@ -139,6 +173,40 @@ and gives a clean 16:9 for the blur-fill frame.
 
 Every reel passes this audio QC before it leaves the machine. Run it on the final
 composited mp4, not the base.
+
+0. **NEVER CLIP THE AUDIO — RULE ZERO (user, furious, repeatedly, 2026-06).** The
+   closing words MUST play in full with trailing silence after them. The repeat
+   offender is **`-shortest`**: muxing VO onto a base whose video is even a hair
+   shorter truncates the last word. NEVER use `-shortest` when the audio is the
+   thing that must survive. Instead: make the video **≥ audio length + ~2s tail**
+   (extend the last footage beat; don't trim), mux WITHOUT `-shortest`, and let the
+   audio end naturally into a silent tail before the logo. The logo outro must NOT
+   hard-cut the instant the last word ends — leave ≥1.5s of breathing room.
+   **MANDATORY VERIFICATION before every Signal send:** transcribe the final reel's
+   last ~7s and confirm the closing sentence is complete, AND check the waveform shows
+   the last word's natural decay followed by silence:
+   ```bash
+   ffmpeg -y -ss <end-7> -i out/reel.mp4 -ar 16000 -ac 1 /tmp/end.wav
+   /tmp/whisper-venv/bin/whisper /tmp/end.wav --model base.en --output_format txt --output_dir /tmp
+   # confirm the last sentence is whole; quote the transcript in the Signal caption.
+   ```
+   If the last word is missing or cut, the reel does NOT ship. Quote the end-transcript
+   in the triage caption as proof.
+
+   **THE CLICK/POP AT THE END (user, 2026-06, "it shuts off abruptly, there's a sound
+   at the end").** TTS (ElevenLabs etc.) routinely ENDS the final word with a HARD CUT
+   — loud (~−5 to −10 dBFS) straight to digital silence, no decay. The word is fully
+   "present" (whisper finds it) but the discontinuity is an audible click/pop. Whisper
+   passing is NOT enough. ALWAYS end the composited audio with an `afade=t=out` that
+   ramps the final word's tail to zero (~0.4–0.5s ending at the VO's end), then pad
+   silence to the video length: `…,afade=t=out:st=<voEnd-0.45>:d=0.45,apad=whole_dur=<vlen>`.
+   DETECT a bad ending by measuring peak in successive ~0.1s windows across the last
+   ~0.6s — it MUST decrease smoothly toward silence, never jump loud→−inf:
+   ```bash
+   for off in 0.6 0.5 0.4 0.3 0.2 0.1; do st=$(python3 -c "print(<voEnd>-$off)")
+     ffmpeg -ss $st -i out/reel.mp4 -t 0.1 -af astats=metadata=1 -f null - 2>&1 | grep "Peak level dB"; done
+   ```
+   Put the ramp numbers in the triage caption as proof the tail decays (not clips).
 
 1. **Loudness targets:** the **foreground (full-volume) speech** hits integrated
    **I = −16 LUFS ± 1**; true peak of the whole file **≤ −2 dBTP**. Measure with
