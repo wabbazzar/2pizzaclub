@@ -1,0 +1,32 @@
+{
+    "id": "2025-epstein-grand-jury-denied-001",
+    "anchor": "y2019",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "trump",
+        "doj"
+    ],
+    "claim": "In July and August 2025 the Justice Department asked federal courts to unseal grand jury transcripts from the Epstein and Maxwell prosecutions, and judges denied the requests. U.S. District Judge Robin Rosenberg rejected the Florida petition on July 23, 2025, finding it did not meet the extraordinary exceptions required by law. U.S. District Judge Richard Berman denied the New York petition on August 20, 2025, calling the motion a 'diversion' and noting the grand jury material ran roughly 70 pages while the government already held about 100,000 pages of Epstein files it could disclose. Separately, Deputy Attorney General Todd Blanche interviewed Maxwell in late July 2025; a transcript was released in which Maxwell said she never witnessed Trump act inappropriately.",
+    "sources": [
+        {
+            "label": "PBS NewsHour — \"Judge rejects DOJ's request to unseal Epstein grand jury transcripts in Florida,\" July 23, 2025.",
+            "type": "secondary",
+            "url": "https://www.pbs.org/newshour/politics/judge-rejects-dojs-request-to-unseal-epstein-grand-jury-transcripts-in-florida",
+            "quote": "A judge on Wednesday rejected a Trump administration request to unseal transcripts from grand jury investigations of Jeffrey Epstein years ago in Florida",
+            "clip": "clips/2025-epstein-grand-jury-denied-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "ABC News — \"Judge denies DOJ's request to unseal Epstein grand jury records,\" August 20, 2025.",
+            "type": "secondary",
+            "url": "https://abcnews.com/US/judge-denies-dojs-request-unseal-epstein-records-criminal/story?id=124818529",
+            "quote": "The instant grand jury motion appears to be a 'diversion' from the breadth and scope of the Epstein files in the Government's possession.",
+            "clip": "clips/2025-epstein-grand-jury-denied-001-01.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Independently verifiable public record — the court rulings are docketed and reported across PBS, ABC, NBC, CNN, NPR. This is the public-facing aftermath of the closed-door strategy described in 2025-situation-room-epstein-001: DOJ filed the grand-jury-unseal petitions (the 'goodwill gesture' that would 'never happen'), and all were denied (FL July 23, NY Aug 20, plus the Maxwell-case motion). Blanche's late-July Maxwell interview and the released transcript corroborate the meeting's second proposal."
+}

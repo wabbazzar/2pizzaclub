@@ -1,0 +1,37 @@
+{
+    "id": "DZZ3nzURbn9",
+    "url": "https://www.instagram.com/reel/DZZ3nzURbn9/",
+    "platform": "instagram",
+    "captured_at": "2026-06-10",
+    "handle": "@aaronparnas",
+    "author_display_name": "Aaron Parnas",
+    "posted_at": "2026-06-10",
+    "engagement": {
+        "likes": 140076,
+        "comments": 5245
+    },
+    "caption": "Bombshell: the White House held emergency secret meetings to protect Trump from the Epstein files.",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Cover card: \"MAJOR: WHITE HOUSE PANICKED OVER EPSTEIN FILES AND HELD EMERGENCY MEETINGS TO PROTECT TRUMP — VANCE SUGGESTED HAVING TUCKER CARLSON INTERVIEW GHISLAINE MAXWELL\". Lower third: \"BOMBSHELL: EPSTEIN DEVELOPMENT\".",
+    "audio_content_summary": "Speaker summarizes a NYT-reporter book account (Haberman & Swan, Regime Change, reported 2026-06-10) of a July 2025 White House Situation Room meeting convened to manage Epstein-files fallout: VP Vance suggested a Tucker Carlson interview of Maxwell to exonerate Trump; officials discussed petitioning federal courts for grand jury transcripts as a goodwill gesture they expected to fail. Attendees named: AG, FBI Director, Deputy AG (now AG), Chief of Staff, VP.",
+    "implied_frame": "Frames the meeting as a coordinated cover-up — \"everyone was in on it ... an effort to protect the President.\" The underlying meeting account is single-book-sourced and closed-door (reported, not independently verified); the verifiable public-record half is real and documented — DOJ did petition the courts for the grand jury transcripts and was denied (FL July 23, NY Aug 20, 2025), and Blanche did interview Maxwell. Speaker's spoken detail \"without phones\" is not supported by the reporting (attendees joined in person or by speakerphone).",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~11.3 MB); delivery ~11.6 MB webm, 75s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2025-situation-room-epstein-001",
+        "2025-epstein-grand-jury-denied-001"
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 4,
+        "c": 1
+    },
+    "supporting_research_links": [
+        "https://www.thedailybeast.com/white-houses-situation-room-meltdown-over-epstein-files-exposed/",
+        "https://www.aol.com/articles/jd-vance-proposed-tucker-carlson-162945000.html",
+        "https://www.pbs.org/newshour/politics/judge-rejects-dojs-request-to-unseal-epstein-grand-jury-transcripts-in-florida",
+        "https://abcnews.com/US/judge-denies-dojs-request-unseal-epstein-records-criminal/story?id=124818529"
+    ]
+}

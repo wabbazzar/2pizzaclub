@@ -1,0 +1,32 @@
+{
+    "id": "2025-situation-room-epstein-001",
+    "anchor": "y2019",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "trump",
+        "doj",
+        "journalism"
+    ],
+    "claim": "Maggie Haberman and Jonathan Swan report, in their 2026 book \"Regime Change: Inside the Imperial Presidency of Donald Trump,\" that on July 17, 2025 — about ten days after the DOJ and FBI released a memo declining to disclose further Epstein files — top administration officials met in the White House Situation Room to manage the fallout. According to the reporting, Vice President JD Vance, who presided, floated asking Tucker Carlson to interview Ghislaine Maxwell in prison in hopes she would say Donald Trump had no involvement in Epstein's crimes; Deputy Attorney General Todd Blanche instead proposed petitioning federal courts to unseal grand jury transcripts even though the request would almost certainly be denied, letting the administration appear transparent while blaming judges for non-disclosure. Reported attendees include Chief of Staff Susie Wiles, Press Secretary Karoline Leavitt, Communications Director Steven Cheung, Attorney General Pam Bondi and FBI Director Kash Patel.",
+    "sources": [
+        {
+            "label": "The Daily Beast — \"White House's Situation Room Meltdown Over Epstein Files Exposed,\" reporting excerpts from Haberman and Swan's \"Regime Change.\"",
+            "type": "secondary",
+            "url": "https://www.thedailybeast.com/white-houses-situation-room-meltdown-over-epstein-files-exposed/",
+            "quote": "He also floated a wild idea to ask Tucker Carlson to interview Epstein's co-conspirator Ghislaine Maxwell in prison, where she is serving a 20-year sentence, in the hopes she would say that Trump had not been involved in Epstein's crimes.",
+            "clip_status": "error: page.screenshot: Clipped area is either empty or outside the resulting image\nCall log:\n\u001b[2m  - taking page screenshot\u001b[2"
+        },
+        {
+            "label": "AOL / New York Times Magazine — \"JD Vance proposed Tucker Carlson interview with Ghislaine Maxwell in push to release Epstein files,\" citing Haberman and Swan, \"Regime Change.\"",
+            "type": "secondary",
+            "url": "https://www.aol.com/articles/jd-vance-proposed-tucker-carlson-162945000.html",
+            "quote": "Pardoning Maxwell, a trafficker of young girls, would create a huge P.R. problem.",
+            "clip": "clips/2025-situation-room-epstein-001-01.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Closed-door account; primary source is Haberman and Swan's book Regime Change (NYT, 2026), reported the morning of 2026-06-10 across Daily Beast, CNN, AOL/NYT Magazine. Corroborated by the public aftermath in 2025-epstein-grand-jury-denied-001 (the court-petition strategy Blanche described in the meeting is exactly what DOJ then did publicly, and the courts denied it). Attendee list varies slightly by outlet — Daily Beast lists Wiles/Cheung/Leavitt/Bondi/Blanche/Patel in person or by speakerphone; AOL adds Warrington, Budowich, Woodward, Blair and puts Bondi/Patel on the phone. Claim is phrased as attributed reporting, not asserted in our voice."
+}
