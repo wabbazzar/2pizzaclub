@@ -20,7 +20,8 @@
             "type": "secondary",
             "url": "https://www.pbs.org/newshour/politics/ghislaine-maxwell-told-doj-she-did-not-see-trump-act-in-inappropriate-way-read-the-interview-transcripts",
             "quote": "I never witnessed the President in any inappropriate setting in any way.",
-            "clip_status": "error: page.screenshot: Clipped area is either empty or outside the resulting image\nCall log:\n\u001b[2m  - taking page screenshot\u001b[2"
+            "clip_status": "ok-exact",
+            "clip": "clips/2025-maxwell-doj-interview-001-01.png"
         },
         {
             "label": "FBI Daily News Briefing, July 23, 2025 — internal email, DOJ Epstein release Data Set 10 (EFTA01655315).",
