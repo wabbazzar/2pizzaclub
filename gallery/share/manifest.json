@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 67,
-      "seconds": 9049
+      "count": 70,
+      "seconds": 9403
     },
     {
       "slug": "adl",
@@ -68,10 +68,16 @@
       "seconds": 781
     },
     {
+      "slug": "crypto",
+      "topic": "Crypto",
+      "count": 1,
+      "seconds": 35
+    },
+    {
       "slug": "defense",
       "topic": "Defense",
-      "count": 10,
-      "seconds": 1543
+      "count": 11,
+      "seconds": 1723
     },
     {
       "slug": "economic-crisis",
@@ -94,8 +100,8 @@
     {
       "slug": "epstein",
       "topic": "Epstein",
-      "count": 7,
-      "seconds": 986
+      "count": 8,
+      "seconds": 1125
     },
     {
       "slug": "false-flag",
@@ -106,14 +112,20 @@
     {
       "slug": "fbi",
       "topic": "FBI",
-      "count": 16,
-      "seconds": 2204
+      "count": 17,
+      "seconds": 2343
+    },
+    {
+      "slug": "federal-reserve",
+      "topic": "Federal Reserve",
+      "count": 1,
+      "seconds": 35
     },
     {
       "slug": "finance",
       "topic": "Finance",
-      "count": 16,
-      "seconds": 2345
+      "count": 20,
+      "seconds": 2763
     },
     {
       "slug": "florida",
@@ -286,8 +298,8 @@
     {
       "slug": "september-11",
       "topic": "September 11",
-      "count": 12,
-      "seconds": 1623
+      "count": 13,
+      "seconds": 1803
     },
     {
       "slug": "state-terror",
@@ -310,8 +322,8 @@
     {
       "slug": "tech-billionaires",
       "topic": "Tech Billionaires",
-      "count": 2,
-      "seconds": 322
+      "count": 4,
+      "seconds": 496
     },
     {
       "slug": "trump",
