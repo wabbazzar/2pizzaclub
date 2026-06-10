@@ -75,6 +75,13 @@ When pulling spoken clips out of a longer source:
   answer or end before the question.
 - **Drop lines referencing removed context.** "Sorry to cut you off" → an
   interruption you didn't keep; start after it.
+- **Bridge the seams BETWEEN clips, not just within them.** When consecutive
+  clips are different topics, the second must open on the speaker's own pivot
+  into the new topic (or a topic-naming sentence) — a clip that opens mid-answer
+  on an un-introduced subject right after an unrelated clip is a random jump.
+- **Trim dead filler in spoken lines.** Cut false-starts/"um"/"you know"/repeated
+  restarts on the silence gaps between words; crossfade the joints (~40ms) and
+  normalize the whole clip after (per-span normalize makes levels jump).
 - **FINAL COHERENCE READ (required):** after assembling, re-transcribe the whole
   cut and read it straight through as one story. If any open/close/transition
   wouldn't make sense to a first-time viewer, fix it. This catches the above.
