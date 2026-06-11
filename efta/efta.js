@@ -531,26 +531,30 @@ function renderPageBody() {
     }
 
     // Cross-reference index — documents surfaced publicly, grouped by source.
-    // Each row links straight to the self-hosted DOJ PDF (redactions intact).
+    // Same card shell as the deep read; each card quotes one verbatim line and
+    // links its source doc(s) into the unified viewer (text + original scan).
     if (page.kind === 'cross_reference') {
-        html += '<div class="xref-list">';
         for (const g of page.groups || []) {
-            html += `<section class="xref-group">`;
-            html += `<h3 class="xref-group-head">${escapeHTML(g.surfaced_in)}</h3>`;
-            html += '<table class="efta-table xref-table"><thead><tr>'
-                  + '<th>#</th><th>document</th><th>dataset</th><th>what it is</th>'
-                  + '</tr></thead><tbody>';
-            (g.rows || []).forEach((r, i) => {
-                html += `<tr>`
-                      + `<td class="rank-cell">${i + 1}</td>`
-                      + `<td class="text-cell"><a class="xref-doc" href="${escapeHTML(r.pdf)}" target="_blank" rel="noopener">${escapeHTML(r.bates)}<span class="xref-ext"> ↗</span></a></td>`
-                      + `<td class="datasets-cell">${escapeHTML(r.dataset || '')}</td>`
-                      + `<td class="datasets-cell xref-desc">${escapeHTML(r.desc || '')}</td>`
-                      + `</tr>`;
-            });
-            html += '</tbody></table></section>';
+            html += `<p class="xref-group-head">${escapeHTML(g.surfaced_in)}</p>`;
+            html += '<div class="finding-list">';
+            for (const r of g.rows || []) {
+                const rank = String(r.rank).padStart(2, '0');
+                const srcs = (r.sources || [])
+                    .map(s => `${docLink(s.bates)} · ${escapeHTML(s.dataset || '')}`)
+                    .join('<span class="finding-src-sep"> · </span>');
+                html += `<article class="finding-card">`
+                      + `<header class="finding-head">`
+                      + `<span class="finding-rank">${rank}</span>`
+                      + `<h3 class="finding-headline">${escapeHTML(r.headline)}</h3>`
+                      + `</header>`
+                      + `<blockquote class="finding-quote">“${escapeHTML(r.quote)}”`
+                      + (r.attribution ? `<cite class="finding-attr">— ${escapeHTML(r.attribution)}</cite>` : '')
+                      + `</blockquote>`
+                      + `<div class="finding-meta">source: ${srcs}</div>`
+                      + `</article>`;
+            }
+            html += '</div>';
         }
-        html += '</div>';
         root.innerHTML = html;
         renderTOC(); renderPagerLabels(); bindInfoBtn();
         history.replaceState(null, '', `#p=${state.pageIdx + 1}`);
@@ -798,6 +802,8 @@ async function loadWikiThumbs() {
 
 // Cache fetched doc snippets to avoid re-fetching on re-open.
 const docCache = new Map();
+// Cache whether docs/<id>.pdf exists, so the viewer probes each doc only once.
+const pdfPresence = new Map();
 async function openDocViewer(docId) {
     if (!docId) return;
     const viewer = $('doc-viewer');
@@ -817,10 +823,34 @@ async function openDocViewer(docId) {
             return;
         }
     }
-    $('doc-viewer-meta').textContent =
+    const metaEl = $('doc-viewer-meta');
+    metaEl.innerHTML = '';
+    const info = document.createElement('span');
+    info.textContent =
         `dataset: ${doc.dataset} · ${doc.n_chars.toLocaleString()} chars · ${doc.n_words.toLocaleString()} words` +
         (doc.text.endsWith('…') ? ' · truncated to ~5KB' : '');
+    metaEl.appendChild(info);
     $('doc-viewer-text').textContent = doc.text;
+    // Unified viewer: offer the original DOJ scan whenever one is self-hosted
+    // (efta/docs/<id>.pdf). Estate text docs have no scan — the HEAD 404s and no
+    // link is shown. Result cached so re-opening a doc doesn't re-probe.
+    let hasPdf = pdfPresence.get(docId);
+    if (hasPdf === undefined) {
+        try {
+            const head = await fetch(`docs/${encodeURIComponent(docId)}.pdf`, { method: 'HEAD' });
+            hasPdf = head.ok;
+        } catch (e) { hasPdf = false; }
+        pdfPresence.set(docId, hasPdf);
+    }
+    if (hasPdf) {
+        const a = document.createElement('a');
+        a.className = 'doc-viewer-pdf';
+        a.href = `docs/${encodeURIComponent(docId)}.pdf`;
+        a.target = '_blank';
+        a.rel = 'noopener';
+        a.textContent = 'open original scan ↗';
+        metaEl.appendChild(a);
+    }
 }
 
 async function init() {

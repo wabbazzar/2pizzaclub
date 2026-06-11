@@ -1369,7 +1369,8 @@ html.body-locked, html.body-locked body {
 }
 
 /* ── Cross-reference index (kind: cross_reference) ───────────────────────── */
-.xref-group { margin: 0 0 1.6rem; }
+/* Cards reuse the deep-read .finding-* styles for visual parity; only the
+   group header and the multi-source separator are specific to this page. */
 .xref-group-head {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.82rem;
@@ -1377,18 +1378,20 @@ html.body-locked, html.body-locked body {
     color: var(--ink-soft);
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    margin: 0 0 0.5rem;
-    padding-bottom: 0.3rem;
+    margin: 0 0 0.9rem;
+    padding-bottom: 0.35rem;
     border-bottom: 1px dashed var(--ink-soft);
 }
-.xref-table .text-cell { white-space: nowrap; }
-a.xref-doc {
+.finding-src-sep { opacity: 0.5; }
+
+/* Unified doc viewer — link to the original DOJ scan when one is hosted */
+.doc-viewer-pdf {
+    display: inline-block;
+    margin-left: 0.6rem;
     font-family: 'JetBrains Mono', monospace;
+    font-size: 0.74rem;
     color: var(--accent);
     text-decoration: none;
     border-bottom: 1px dashed var(--accent);
-    font-weight: 500;
 }
-a.xref-doc:hover { background: var(--accent); color: var(--paper); border-bottom-color: transparent; }
-.xref-ext { opacity: 0.7; }
-.xref-desc { color: var(--ink); }
+.doc-viewer-pdf:hover { background: var(--accent); color: var(--paper); border-bottom-color: transparent; }
