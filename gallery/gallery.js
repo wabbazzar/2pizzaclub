@@ -41,6 +41,25 @@
         return `<div class="gallery-tags">${tags.map(t => `<span class="gallery-tag">${esc(t)}</span>`).join('')}</div>`;
     }
 
+    // Audit trail: the primary DOJ documents this capture cross-references.
+    // Thumbnails are the actual PDF page-1 renders; each links to the self-hosted
+    // PDF (redactions intact) under /efta/docs/.
+    function renderSourceDocs(meta, captureDir) {
+        const docs = meta.source_documents;
+        if (!docs || !docs.length) return '';
+        const items = docs.map((d) => {
+            const thumb = `${captureDir}/pdfs/${d.bates}.webp`;
+            const pdf = `../efta/docs/${d.bates}.pdf`;
+            return `<a class="srcdoc" href="${esc(pdf)}" target="_blank" rel="noopener" title="${esc(d.desc || d.bates)}">
+                <img class="srcdoc-thumb" src="${esc(thumb)}" alt="${esc(d.bates)}" loading="lazy">
+                <span class="srcdoc-cap"><span class="srcdoc-bates">${esc(d.bates)} ↗</span><span class="srcdoc-ds">${esc(d.dataset || '')}</span></span>
+                <span class="srcdoc-desc">${esc(d.desc || '')}</span>
+            </a>`;
+        }).join('');
+        return `<p class="gallery-section-h">Source documents · DOJ EFTA release (audit trail)</p>
+            <div class="srcdoc-grid">${items}</div>`;
+    }
+
     function renderEvidence(records) {
         if (!records.length) return '<p class="gallery-section-h">No evidence records linked.</p>';
         const items = records.map(r => {
@@ -117,9 +136,10 @@
                 ${meta.caption ? `<p class="gallery-caption">${esc(meta.caption)}</p>` : ''}
                 ${overlayHtml}
                 ${renderMetaList(meta)}
-                ${renderTags(meta.hashtags)}
+                ${renderTags(meta.tags || meta.hashtags)}
                 ${transcriptHtml}
                 ${renderEvidence(evidenceRecs)}
+                ${renderSourceDocs(meta, captureDir)}
                 ${notesParts.join('')}
             </div>
         </article>`;

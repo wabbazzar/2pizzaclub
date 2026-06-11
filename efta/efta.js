@@ -11,6 +11,7 @@ const state = {
 const KIND_GROUP = {
     intro_slide:        { order:  0, label: 'Intro slides' },
     narrative_finding:  { order:  0.5, label: 'The deep read' },
+    cross_reference:    { order:  0.75, label: 'Surfaced elsewhere — cross-reference' },
     person_dossier:     { order:  1, label: 'Person dossiers' },
     names_top20:        { order:  2, label: 'Top names — NER discovered' },
     names_grep:         { order:  3, label: 'Top names — curated grep (cross-check)' },
@@ -529,6 +530,33 @@ function renderPageBody() {
         return;
     }
 
+    // Cross-reference index — documents surfaced publicly, grouped by source.
+    // Each row links straight to the self-hosted DOJ PDF (redactions intact).
+    if (page.kind === 'cross_reference') {
+        html += '<div class="xref-list">';
+        for (const g of page.groups || []) {
+            html += `<section class="xref-group">`;
+            html += `<h3 class="xref-group-head">${escapeHTML(g.surfaced_in)}</h3>`;
+            html += '<table class="efta-table xref-table"><thead><tr>'
+                  + '<th>#</th><th>document</th><th>dataset</th><th>what it is</th>'
+                  + '</tr></thead><tbody>';
+            (g.rows || []).forEach((r, i) => {
+                html += `<tr>`
+                      + `<td class="rank-cell">${i + 1}</td>`
+                      + `<td class="text-cell"><a class="xref-doc" href="${escapeHTML(r.pdf)}" target="_blank" rel="noopener">${escapeHTML(r.bates)}<span class="xref-ext"> ↗</span></a></td>`
+                      + `<td class="datasets-cell">${escapeHTML(r.dataset || '')}</td>`
+                      + `<td class="datasets-cell xref-desc">${escapeHTML(r.desc || '')}</td>`
+                      + `</tr>`;
+            });
+            html += '</tbody></table></section>';
+        }
+        html += '</div>';
+        root.innerHTML = html;
+        renderTOC(); renderPagerLabels(); bindInfoBtn();
+        history.replaceState(null, '', `#p=${state.pageIdx + 1}`);
+        return;
+    }
+
     // Verbatim quotes (samples + context) — collapsible "why this matters"
     if (page.kind === 'verbatim_quote') {
         html += '<div class="quote-list">';
@@ -815,6 +843,20 @@ async function init() {
         { kind: 'intro_slide', slideIdx: 3, title: '04 / 04 — the price of the petition' },
     ];
     data.pages = [...INTRO_SLIDES, ...(data.pages || [])];
+    // Inject the hand-authored cross-reference index (loaded separately so it
+    // survives the nightly findings.json regeneration). Placed right after the
+    // deep-read page if present, else after the intro slides.
+    try {
+        const cr = await fetch('crossref.json', { cache: 'no-store' });
+        if (cr.ok) {
+            const crj = await cr.json();
+            if (crj && crj.page) {
+                const nfIdx = data.pages.findIndex(p => p.kind === 'narrative_finding');
+                const at = nfIdx >= 0 ? nfIdx + 1 : INTRO_SLIDES.length;
+                data.pages.splice(at, 0, crj.page);
+            }
+        }
+    } catch (e) { /* no crossref file is fine */ }
     state.data = data;
     const m = location.hash.match(/p=(\d+)/);
     if (m) state.pageIdx = Math.max(0, parseInt(m[1], 10) - 1);

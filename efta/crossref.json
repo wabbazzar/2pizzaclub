@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-06-11",
+  "page": {
+    "kind": "cross_reference",
+    "title": "Surfaced elsewhere — a cross-reference index",
+    "subtitle": "Documents from the DOJ Epstein release (EFTA) that came to attention because they were surfaced and circulated publicly — not located here through a search term or any statistical pass. Each row gives the primary file and its dataset, as a starting point to find the document in the release and read it directly. Any claim attached to a document elsewhere belongs to that source; what is stated here is only the document's type, date, and named parties as printed on the page.",
+    "explainer": "A launch pad, not a finding. These are documents other people pointed at; this index records where each one sits in the files (bates id + dataset) and links the primary so it can be read in full and cross-referenced against the rest of the corpus going forward. Inclusion here is not endorsement of any reading placed on a document elsewhere. The link opens the page as released by the DOJ, redactions intact.",
+    "groups": [
+      {
+        "surfaced_in": "Surfaced in public circulation · February 2026",
+        "rows": [
+          {"bates": "EFTA00129111", "dataset": "DS9",  "desc": "Typed letter addressed to Epstein's Palm Beach residence; postmarked 20 May 2022.", "pdf": "docs/EFTA00129111.pdf"},
+          {"bates": "EFTA00715677", "dataset": "DS9",  "desc": "Email, Michael Wolff to Jeffrey Epstein, 5 Apr 2017.", "pdf": "docs/EFTA00715677.pdf"},
+          {"bates": "EFTA00535803", "dataset": "DS9",  "desc": "Email, Karyna Shuliak to Jeffrey Epstein, 16 Oct 2012.", "pdf": "docs/EFTA00535803.pdf"},
+          {"bates": "EFTA01893777", "dataset": "DS10", "desc": "Email, Karyna Shuliak / Jeffrey Epstein, Oct 2012 (same thread).", "pdf": "docs/EFTA01893777.pdf"},
+          {"bates": "EFTA01952761", "dataset": "DS10", "desc": "Email to Jeffrey Epstein, 7 Oct 2013; subject line lists meeting topics.", "pdf": "docs/EFTA01952761.pdf"},
+          {"bates": "EFTA02619568", "dataset": "DS11", "desc": "Email, Epstein account, same Oct-2012 thread.", "pdf": "docs/EFTA02619568.pdf"},
+          {"bates": "EFTA01246048", "dataset": "DS9",  "desc": "FBI report (FD-302), date of entry 4 Sep 2019; redacted.", "pdf": "docs/EFTA01246048.pdf"},
+          {"bates": "EFTA01249586", "dataset": "DS9",  "desc": "FBI Crisis Intake form, Case 3027571, received 10 Jul 2019; redacted.", "pdf": "docs/EFTA01249586.pdf"},
+          {"bates": "EFTA01884457", "dataset": "DS10", "desc": "Email, Jeffrey Epstein to Eva Dubin, 16 May 2012; subject 'Re: whoops'.", "pdf": "docs/EFTA01884457.pdf"},
+          {"bates": "EFTA01797341", "dataset": "DS10", "desc": "Email to Karyna Shuliak, 26 Apr 2016; subject 'The Pizza Monster!'; photo attachment.", "pdf": "docs/EFTA01797341.pdf"},
+          {"bates": "EFTA02575464", "dataset": "DS11", "desc": "Typed letter recommending an individual to a 'program'.", "pdf": "docs/EFTA02575464.pdf"},
+          {"bates": "EFTA01130115", "dataset": "DS9",  "desc": "'Letter of Agreement,' 5 Oct 2015; Southern Trust Company / Edmond de Rothschild Holding.", "pdf": "docs/EFTA01130115.pdf"},
+          {"bates": "EFTA02507843", "dataset": "DS11", "desc": "Email forwarding text about Robert Maxwell and Mossad, 15 Mar 2018.", "pdf": "docs/EFTA02507843.pdf"},
+          {"bates": "EFTA01082667", "dataset": "DS9",  "desc": "Document headed 'Illuminati Families and Their Associates.'", "pdf": "docs/EFTA01082667.pdf"}
+        ]
+      }
+    ]
+  }
+}
