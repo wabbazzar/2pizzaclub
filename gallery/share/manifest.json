@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 70,
-      "seconds": 9403
+      "count": 71,
+      "seconds": 9478
     },
     {
       "slug": "adl",
@@ -80,6 +80,12 @@
       "seconds": 1723
     },
     {
+      "slug": "doj",
+      "topic": "DOJ",
+      "count": 1,
+      "seconds": 75
+    },
+    {
       "slug": "economic-crisis",
       "topic": "Economic Crisis",
       "count": 2,
@@ -100,8 +106,8 @@
     {
       "slug": "epstein",
       "topic": "Epstein",
-      "count": 8,
-      "seconds": 1125
+      "count": 9,
+      "seconds": 1200
     },
     {
       "slug": "false-flag",
@@ -202,8 +208,8 @@
     {
       "slug": "journalism",
       "topic": "Journalism",
-      "count": 20,
-      "seconds": 2759
+      "count": 21,
+      "seconds": 2834
     },
     {
       "slug": "kirk",
@@ -328,8 +334,8 @@
     {
       "slug": "trump",
       "topic": "Trump",
-      "count": 2,
-      "seconds": 277
+      "count": 3,
+      "seconds": 352
     },
     {
       "slug": "ukraine",
