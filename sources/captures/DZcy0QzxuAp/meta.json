@@ -24,6 +24,10 @@
     "video_download_status": "Original pulled via yt-dlp (~9.6 MB); delivery ~10.0 MB webm, 117s.",
     "audio_transcription_status": "Transcribed with openai-whisper.",
     "editorial_split": {"a": 0, "b": 4, "c": 1},
+    "tags": ["epstein", "trump", "fbi", "doj-release", "cross-reference"],
+    "source_documents": [
+        {"bates": "EFTA01249507", "dataset": "DS9", "desc": "FBI National Threat Operations Center tip-line intake, Case SOD-NY-3027571, Serial 609, received 21 Jun 2021; redacted. A record of an anonymous call, not an FBI finding — the allegations are uncorroborated."}
+    ],
     "evidence_records": [],
     "supporting_research_links": []
 }

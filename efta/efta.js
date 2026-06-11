@@ -48,6 +48,7 @@ function docLink(id) {
 //   estate   = House Oversight estate dump — mixed (emails, library scans, iMessages)
 //   court    = court / police / grand jury text (DS3/4/6/7) + photo-only (DS1/2/5)
 //   doj_feb  = DOJ Feb-2026 release (DS8)
+//   ds9      = DOJ DS9 document scans (bates EFTA00039025–01262781, 531K docs)
 //   financial= DS10 financial dossier
 const DATASET_BUCKET = {
     dataset_3: 'court', dataset_4: 'court', dataset_6: 'court', dataset_7: 'court',
@@ -55,6 +56,7 @@ const DATASET_BUCKET = {
     emails: 'personal', dems: 'personal',
     estate: 'estate',
     dataset_8: 'doj_feb',
+    dataset_9: 'ds9',
     dataset_10: 'financial',
     dataset_1: 'court', dataset_2: 'court', dataset_5: 'court',  // photo-only
 };
@@ -542,10 +544,12 @@ function renderPageBody() {
                 const srcs = (r.sources || [])
                     .map(s => `${docLink(s.bates)} · ${escapeHTML(s.dataset || '')}`)
                     .join('<span class="finding-src-sep"> · </span>');
+                const badge = r.label
+                    ? `<span class="xref-badge">${escapeHTML(r.label)}</span>` : '';
                 html += `<article class="finding-card">`
                       + `<header class="finding-head">`
                       + `<span class="finding-rank">${rank}</span>`
-                      + `<h3 class="finding-headline">${escapeHTML(r.headline)}</h3>`
+                      + `<h3 class="finding-headline">${escapeHTML(r.headline)}${badge}</h3>`
                       + `</header>`
                       + `<blockquote class="finding-quote">“${escapeHTML(r.quote)}”`
                       + (r.attribution ? `<cite class="finding-attr">— ${escapeHTML(r.attribution)}</cite>` : '')

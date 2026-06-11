@@ -1383,6 +1383,24 @@ html.body-locked, html.body-locked body {
     border-bottom: 1px dashed var(--ink-soft);
 }
 .finding-src-sep { opacity: 0.5; }
+/* Caution badge on a cross-reference card (e.g. uncorroborated tip-line docs) */
+.xref-badge {
+    display: inline-block;
+    margin-left: 0.55rem;
+    vertical-align: middle;
+    transform: translateY(-1px);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--paper);
+    background: var(--accent);
+    border: 1px solid var(--ink);
+    border-radius: 999px;
+    padding: 0.12em 0.6em;
+    white-space: nowrap;
+}
 
 /* Unified doc viewer — link to the original DOJ scan when one is hosted */
 .doc-viewer-pdf {

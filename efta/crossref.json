@@ -101,6 +101,19 @@
             "sources": [{"bates": "EFTA01082667", "dataset": "DS9"}]
           }
         ]
+      },
+      {
+        "surfaced_in": "Surfaced in public circulation · June 2026",
+        "rows": [
+          {
+            "rank": 1,
+            "headline": "FBI tip-line intake",
+            "label": "uncorroborated · FBI tip line",
+            "quote": "UNCLASSIFIED — FEDERAL BUREAU OF INVESTIGATION — Intake — Case ID #: SOD-NY-3027571 — (U) EPSTEIN, JEFFREY; CHILD SEX TRAFFICKING",
+            "attribution": "FBI National Threat Operations Center (NTOC) tip line, Serial 609, received 21 Jun 2021 — a record of an anonymous call, not an FBI finding; redacted. The intake's allegations are uncorroborated.",
+            "sources": [{"bates": "EFTA01249507", "dataset": "DS9"}]
+          }
+        ]
       }
     ]
   }
