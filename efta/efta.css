@@ -434,7 +434,7 @@
     background: var(--paper);
     border: 2px solid var(--ink);
     border-radius: 4px;
-    box-shadow: 3px 3px 0 var(--bus-yellow);
+    box-shadow: 4px 4px 0 var(--bus-yellow);
 }
 .thread-card > summary {
     cursor: pointer;
@@ -471,9 +471,9 @@
 .person-card {
     background: var(--paper);
     border: 2px solid var(--ink);
-    border-radius: 6px;
+    border-radius: 4px;
     box-shadow: 4px 4px 0 var(--bus-yellow);
-    padding: 0.9rem 1.1rem;
+    padding: 0.95rem 1.1rem;
 }
 .person-head {
     display: flex;
@@ -644,11 +644,11 @@
 .quote-hit, .quote-miss {
     border: 2px solid var(--ink);
     border-radius: 4px;
-    padding: 0.85rem 1rem;
+    padding: 0.95rem 1.1rem;
     background: var(--paper);
 }
-.quote-hit { box-shadow: 4px 4px 0 var(--comet-green); }
-.quote-miss { background: var(--placeholder-bg); opacity: 0.75; box-shadow: 4px 4px 0 var(--accent-soft); }
+.quote-hit { box-shadow: 4px 4px 0 var(--bus-yellow); }
+.quote-miss { background: var(--placeholder-bg); opacity: 0.72; box-shadow: 4px 4px 0 var(--ink-soft); }
 .quote-hit header, .quote-miss header {
     display: flex;
     align-items: baseline;
@@ -702,7 +702,7 @@
     border-radius: 4px;
     padding: 0.95rem 1.1rem;
     background: var(--paper);
-    box-shadow: 5px 5px 0 var(--bus-yellow);
+    box-shadow: 4px 4px 0 var(--bus-yellow);
 }
 .finding-head {
     display: flex;
@@ -713,7 +713,7 @@
 .finding-rank {
     font-family: var(--display);
     color: var(--accent);
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 1;
 }
 .finding-headline {
