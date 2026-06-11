@@ -1,0 +1,29 @@
+{
+    "id": "DZcy0QzxuAp",
+    "url": "https://www.instagram.com/reel/DZcy0QzxuAp/",
+    "platform": "instagram",
+    "captured_at": "2026-06-11",
+    "handle": "@hunteralexanderhowell",
+    "author_display_name": "Hunter Howell 💜",
+    "posted_at": "2026-06-11",
+    "engagement": {
+        "likes": 6312,
+        "comments": 409
+    },
+    "caption": "#trump #epstein #usa",
+    "hashtags": [
+        "trump",
+        "epstein",
+        "usa"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Cover overlays: bates 'EFTA01249507'; 'Trigger warning ❗'; 'SHARE A VERY…' lower-third. Welsh (Y Ddraig Goch) flag on the wall behind the speaker.",
+    "audio_content_summary": "Speaker (Hunter Howell) says he is sharing a 'very disturbing file' he claims no mainstream journalist has reported, FBI file EFTA01249507, and asks viewers to like/share/repost in case the algorithm suppresses it. He then states as fact that the file shows Donald Trump knew of and funded underage parties at his golf course, that Trump said on recordings he was aware and charged the golf course house money to fund them, that a witness saw Robin Leach do 'this' to a young girl at one of the parties, and that she is 'buried behind the 19th hole' at the Trump golf course.",
+    "implied_frame": "Presents an uncorroborated FBI tip as documented, established fact. EFTA01249507 (DS9) is genuine and in the DOJ release, but it is an FBI National Threat Operations Center (NTOC) intake form — Case SOD-NY-3027571, Serial 609, received 06/21/2021 — i.e. a record of a call to the FBI public tip line, not an FBI finding. The intake records an anonymous caller alleging that Trump funded underage 'sex parties' at his golf course, that recordings of Trump/Epstein/Maxwell exist, that Robin Leach (d. 2018) strangled a girl at a party, and that victims were murdered and buried behind the 19th hole. The same tip — which the reel does not mention — states the caller was a former member of the Sinaloa Cartel and that the claimed recordings were 'mailed to a lawyer in the Cayman Islands,' i.e. not produced. Verifiable: the intake form exists and records these allegations. Not verified: the allegations themselves, which are an uncorroborated tip about named living/deceased individuals. No timeline record written.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~9.6 MB); delivery ~10.0 MB webm, 117s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "editorial_split": {"a": 0, "b": 4, "c": 1},
+    "evidence_records": [],
+    "supporting_research_links": []
+}
