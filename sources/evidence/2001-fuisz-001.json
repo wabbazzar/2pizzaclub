@@ -1,0 +1,37 @@
+{
+    "id": "2001-fuisz-001",
+    "anchor": "y2001-aftermath",
+    "year": 2001,
+    "era": "iii",
+    "themes": [
+        "cia",
+        "intelligence",
+        "civil-liberties",
+        "iraq"
+    ],
+    "claim": "Dr. Richard Fuisz, an American physician and businessman, was identified in litigation over the 1988 Pan Am 103 (Lockerbie) bombing as a CIA asset. In a U.S. court deposition in early 2001 — questioning controlled by government lawyers with CIA observers present — Fuisz's account that senior Syrian officials had named the Syria-based PFLP-GC, led by Ahmed Jibril, as responsible for Lockerbie was placed under seal. He had already been silenced once before: a 1994 court gag order, issued after Fuisz's disclosures in other proceedings about alleged illegal exports of military equipment to Iraq, barred him from speaking on the ground that what he knew was 'vital to the nation's security,' and the head of the CIA personally wrote to the judge to help end the case. Susan Lindauer publicly named Fuisz as her CIA handler; that handler relationship rests on her account alone, but Fuisz's documented status as a CIA asset whose testimony the government repeatedly controlled and sealed is independent of her claim.",
+    "sources": [
+        {
+            "label": "Channel 4 News — “Secret CIA testimony identifies real Lockerbie mastermind”",
+            "type": "secondary",
+            "url": "https://www.channel4.com/news/lockerbie-bombing-libya-palestine-cia-murder-thatcher",
+            "quote": "The interview was tightly controlled by US government lawyers and CIA observers sat in.",
+            "clip": "clips/2001-fuisz-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Intel Today — “CIA Asset Dr Richard Fuisz: TEREX & Lockerbie”",
+            "type": "secondary",
+            "url": "https://inteltoday.org/2016/09/01/cia-asset-dr-richard-fuisz-terex-lockerbie/",
+            "quote": "The 1994 gagging order was issued following disclosures by Fuisz during other legal proceedings about alleged illegal exports of military equipment to Iraq.",
+            "clip_status": "http-403"
+        },
+        {
+            "label": "“Megrahi: You Are My Jury” — Fuisz documents release (defence solicitor correspondence)",
+            "type": "primary",
+            "url": "https://www.megrahiyouaremyjury.net/wp-content/uploads/2013/12/Fuisz-documents-release.pdf"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group-A substrate behind a Group-C claim. The reel's load-bearing handler story — Lindauer's account that her CIA handler 'Dr. Richard Fuse' (she names Richard Fuisz in her book 'Extreme Prejudice') tasked her with an April-2001 WTC warning — has no primary trace and is NOT adopted (see 2004-lindauer-001). What IS independently documented: Fuisz was litigated as a CIA asset in the Lockerbie case, and his deposition naming the PFLP-GC (not Libya) was controlled by government lawyers and sealed (Channel 4; the Megrahi defence's Fuisz-documents release). Separate primary fact (Fuisz = documented CIA asset, testimony sealed) from attributed conclusion (that he handled Lindauer / tasked a 9/11 warning — her account only). The Channel 4 deposition date is 'early 2001'; other reporting places the sealed deposition in December 2000. Reader weighs."
+}

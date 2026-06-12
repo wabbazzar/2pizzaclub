@@ -1,0 +1,34 @@
+{
+    "id": "2006-lindauer-medication-001",
+    "anchor": "y2001-aftermath",
+    "year": 2006,
+    "era": "iii",
+    "themes": [
+        "civil-liberties",
+        "prosecution",
+        "intelligence"
+    ],
+    "claim": "Susan Lindauer, a U.S. citizen, was held roughly seven months at the federal medical center at Carswell in Fort Worth across 2005–2006 for a competency evaluation under 18 U.S.C. § 4241 — the statute governing fitness to stand trial, not a provision of the USA PATRIOT Act. At May 2006 hearings, Assistant U.S. Attorney Edward O'Callaghan asked Judge Michael B. Mukasey to order Lindauer forcibly medicated with antipsychotics to render her competent for trial. Under the standard the Supreme Court set in Sell v. United States (2003) — which permits involuntary medication to restore trial competency only in limited circumstances — Mukasey refused the request and Lindauer was released on bond; a second judge reaffirmed her unfitness in 2008. The mechanism of her confinement was competency-commitment law and a contested forced-medication motion, not a Patriot Act detention.",
+    "sources": [
+        {
+            "label": "Scoop — “Did Justice Order Forced Psych Medication?” (Sept. 2008)",
+            "type": "secondary",
+            "url": "https://www.scoop.co.nz/stories/HL0809/S00157.htm",
+            "quote": "At May 2006 hearings before then Judge Michael B. Mukasey (now U.S. Attorney General), assistant U.S. Attorney Ed O'Callaghan requested a court order that would have forced Lindauer to take the psychiatric medications listed below.",
+            "clip": "clips/2006-lindauer-medication-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Cornell Legal Information Institute — 18 U.S.C. § 4241 (competency to stand trial)",
+            "type": "primary",
+            "url": "https://www.law.cornell.edu/uscode/text/18/4241"
+        },
+        {
+            "label": "U.S. Dept. of Justice, Office of the Solicitor General — Sell v. United States, Brief (Merits)",
+            "type": "primary",
+            "url": "https://www.justice.gov/osg/brief/sell-v-united-states-brief-merits"
+        }
+    ],
+    "status": "verified",
+    "notes": "Distinct from 2004-lindauer-001 (the indictment + disposition): this record isolates the legal MECHANISM of her detention, to weigh the reel's chyron claim ('first U.S. citizen charged under the Patriot Act to silence what she knew about 9/11') against the actual statutory basis. She was a citizen, so the PATRIOT Act §412 alien-detention provisions never applied; her confinement ran under competency-commitment law (§4241) and the forced-medication question was governed by Sell v. United States, 539 U.S. 166 (2003). Verifiable court substrate only — does not adopt her foreknowledge account or the 'silenced to bury 9/11 knowledge' framing. Surfaced via reel DZW9oUaAfpH; binds to the y2001-aftermath silenced-whistleblower cluster (Edmonds, Kiriakou, Lindauer) on shared themes."
+}

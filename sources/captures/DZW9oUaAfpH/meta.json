@@ -25,7 +25,9 @@
     "video_download_status": "Original pulled via yt-dlp (~9.3 MB); delivery ~9.5 MB webm, 69s.",
     "audio_transcription_status": "Transcribed with openai-whisper.",
     "evidence_records": [
-        "2004-lindauer-001"
+        "2004-lindauer-001",
+        "2006-lindauer-medication-001",
+        "2001-fuisz-001"
     ],
     "supporting_research_links": [],
     "editorial_split": {
