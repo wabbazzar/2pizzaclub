@@ -1,0 +1,36 @@
+{
+    "id": "DZW9oUaAfpH",
+    "url": "https://www.instagram.com/reel/DZW9oUaAfpH/",
+    "platform": "instagram",
+    "captured_at": "2026-06-12",
+    "handle": "@satelliteconspiracyfiles",
+    "author_display_name": "Satellite Conspiracy Files",
+    "posted_at": "2026-06-09",
+    "engagement": {
+        "likes": 8558,
+        "comments": 475
+    },
+    "caption": "Susan Lindauer was a CIA asset in the months leading up to 9/11. As early as April of 2001, she was trying to warn the highest levels of US government of an attack on the World Trade Centers with hijacked airplanes. \n\nInstead of listening or acting, her information was silenced, ignored and eventually used to as a launching point to arrest her under the newly formed Patriot Act.\n\nWhat do you make of this? Let us know in the comments below.\n\n#911 #worldtradecenter #conspiracytheories #candaceowens",
+    "hashtags": [
+        "911",
+        "worldtradecenter",
+        "conspiracytheories",
+        "candaceowens"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Lower-third chyron: 'SUSAN LINDAUER WAS THE FIRST U.S. CITIZEN CHARGED UNDER THE PATRIOT ACT TO SILENCE WHAT SHE KNEW ABOUT 9/11.' Kinetic caption echoes the spoken audio.",
+    "audio_content_summary": "Susan Lindauer, interviewed (clip tagged Candace Owens), says the U.S. government 'purposefully allowed' / 'made' 9/11 happen as a pretext for war with Iraq, that she was a covert back-channel asset to the Iraqi embassy whose CIA handler instructed her in April 2001 to pass a warning of WTC airplane-hijacking attacks, and that the President, VP and SecDef therefore all knew of 9/11 in April 2001.",
+    "implied_frame": "Frames Lindauer's prosecution as state retaliation to bury 9/11 foreknowledge (LIHOP/MIHOP). What is on the record: she was arrested in 2004 and indicted as an unregistered agent of the Iraqi Intelligence Service, found unfit to stand trial (2006/2008), and the case was dropped in 2009 (record 2004-lindauer-001). NOT on the record: that the government allowed/made 9/11 happen, that Bush/Cheney/Rumsfeld had April-2001 foreknowledge (Group B), or that a CIA handler ('Dr. Richard Fuse' in audio; Richard Fuisz in her book) tasked her with an April-2001 WTC warning (Group C \u2014 only her own statements). The 'first charged under the Patriot Act' chyron is her framing; the indictment charged unregistered-agent and prohibited-transaction counts.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC \u2014 no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~9.3 MB); delivery ~9.5 MB webm, 69s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2004-lindauer-001"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 1,
+        "b": 5,
+        "c": 2
+    }
+}
