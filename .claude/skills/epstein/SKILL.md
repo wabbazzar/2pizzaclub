@@ -212,3 +212,19 @@ After any detective run: relay findings, capture the READING META into this file
   up empty, check the dataset coverage list BEFORE concluding "not in the files" — a whole
   dataset can be missing. Also: ~98% of DOJ image PDFs already carry a text layer; try
   `pdftotext` before OCR.
+- 2026-06-12 /efta topic-search regenerated over the full 1.05M-doc corpus. The 8 auto topic
+  pages (`topic_search` kind) had been built 2026-05-28 against the pre-DS9 ~520K corpus; re-ran
+  `portadoc/.venv/bin/python scripts/efta/topic_grep.py ~/data/epstein-files/work/corpus.jsonl
+  ~/data/epstein-files/work/topics_full` then spliced the fresh pages into both `efta/findings.json`
+  (deployed) and `drafts/efta/findings-full.json` (curate input) by topic name. Counts ~2-3×ed
+  (WW3 160→373, Pandemic 981→4220, Pedophilia 5061→15599). Two gotchas that make a corpus refresh
+  incomplete on its own: (1) DS9 rows carry `dataset_9`, which had NO entry in `efta.js`
+  `DATASET_BUCKET` → fell to the unshown `'other'` bucket → every DS9 match was invisible. Fixed by
+  adding `dataset_9:'ds9'` + a "DS9 documents" filter chip (default on; DS10/financial stays off).
+  Any future dataset needs both a bucket-map entry AND a chip or its rows silently vanish.
+  (2) New rows referenced ~2,700 DS9/DS10 doc-ids with no `efta/docs/<id>.json` snippet → viewer
+  links 404. Regenerate snippets after any topic/findings refresh:
+  `build_doc_snippets.py corpus.jsonl efta/findings.json <out> efta/messages.json`. Hand-curated
+  topic pages (Blood transfusion) are NOT in topic_grep's TOPICS list — splice by name and leave
+  them untouched. Multi-agent note: another agent's `git add` swept my in-progress `efta.js` edit
+  into their commit mid-task — verify your own uncommitted edits survived before relying on them.
