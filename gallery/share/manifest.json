@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 71,
-      "seconds": 9478
+      "count": 74,
+      "seconds": 9809
     },
     {
       "slug": "adl",
@@ -52,8 +52,8 @@
     {
       "slug": "civil-liberties",
       "topic": "Civil Liberties",
-      "count": 3,
-      "seconds": 375
+      "count": 4,
+      "seconds": 444
     },
     {
       "slug": "clinton",
@@ -178,8 +178,8 @@
     {
       "slug": "intelligence",
       "topic": "Intelligence",
-      "count": 16,
-      "seconds": 2558
+      "count": 17,
+      "seconds": 2627
     },
     {
       "slug": "international-law",
@@ -196,8 +196,8 @@
     {
       "slug": "iraq",
       "topic": "Iraq",
-      "count": 2,
-      "seconds": 203
+      "count": 3,
+      "seconds": 272
     },
     {
       "slug": "israel",
@@ -268,8 +268,8 @@
     {
       "slug": "prosecution",
       "topic": "Prosecution",
-      "count": 9,
-      "seconds": 1235
+      "count": 10,
+      "seconds": 1304
     },
     {
       "slug": "regime-change",
@@ -304,8 +304,8 @@
     {
       "slug": "september-11",
       "topic": "September 11",
-      "count": 13,
-      "seconds": 1803
+      "count": 14,
+      "seconds": 1872
     },
     {
       "slug": "state-terror",
@@ -376,8 +376,8 @@
     {
       "slug": "whistleblower",
       "topic": "Whistleblower",
-      "count": 2,
-      "seconds": 294
+      "count": 3,
+      "seconds": 363
     }
   ]
 }
