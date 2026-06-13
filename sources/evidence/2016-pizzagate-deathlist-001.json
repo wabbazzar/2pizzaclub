@@ -1,0 +1,51 @@
+{
+    "id": "2016-pizzagate-deathlist-001",
+    "anchor": "y2019",
+    "year": 2016,
+    "era": "iv",
+    "themes": [
+        "body-count",
+        "journalism",
+        "clinton"
+    ],
+    "claim": "\"Pizzagate\" — the conspiracy theory that emerged in October 2016 from leaked John Podesta emails and 4chan/Reddit threads, alleging a child-trafficking ring operated by Democratic figures out of the Comet Ping Pong pizzeria in Washington, D.C. — was investigated and found to have no factual basis; D.C. police found no evidence, and on December 4, 2016 Edgar Maddison Welch fired a rifle inside the restaurant looking for the (nonexistent) ring and was sentenced to four years in prison. The theory recirculates as a compilation of \"red flags\" and a list of suspicious deaths. The recurring list, surfaced again in a March 2026 reel, mixes verifiable facts with contested framings: (1) Natacha Jaitt, an Argentine media personality who named figures in an alleged abuse network during a December 2018 television appearance, posted a tweet on April 5, 2018 reading \"AVISO: no me voy a suicidar... así que si eso pasa, NO FUI. Guarden tuit\" (\"WARNING: I'm not going to kill myself... so if that happens, IT WASN'T ME. Save this tweet\"); she was found dead on February 23, 2019. The autopsy reported acute pulmonary edema secondary to multi-organ failure with cocaine and alcohol in her system and no external signs of violence; her family disputed the ruling. (2) Janet Ossebaard, the Dutch maker of the QAnon-aligned \"Fall of the Cabal\" series, was reported missing and found dead in Lund, Sweden on December 22, 2023; reports indicate suicide, her last messages expressing suicidal thoughts. (3) Isaac Kappy, an American actor who in 2018-19 publicly named Hollywood figures as part of an alleged ring, died on May 13, 2019 near Bellemont, Arizona; the Arizona Department of Public Safety ruled it a suicide — the reel's own on-screen text concedes Kappy's accusations were never proven. (4) Andrew Breitbart's 2011 tweet about the Podesta circle and Planned Parenthood is genuine; Breitbart died of heart failure on March 1, 2012. (5) \"Frazzledrip\" — an alleged video of Hillary Clinton supposedly recovered from Anthony Weiner's laptop — does not exist; it was fabricated by the fake-news site YourNewsWire in 2018, its purported frames traced to an unrelated Indian-restaurant website. Two items on the list are documented criminal convictions of media figures and are recorded separately: ABC News producer James Gordon Meek and former Recount editor Slade Sohmer.",
+    "sources": [
+        {
+            "label": "Wikipedia — Pizzagate conspiracy theory (origin, investigation, and the December 4, 2016 Comet Ping Pong shooting).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Pizzagate_conspiracy_theory"
+        },
+        {
+            "label": "Natacha Jaitt's own tweet, April 5, 2018 — \"AVISO: No me voy a suicidar, no me voy a pasar de merca y ahogar en una bañera, no me voy a pegar ningún tiro, así que si eso pasa, NO FUI. Guarden tuit.\"",
+            "type": "primary",
+            "url": "https://x.com/NatachaJaitt/status/981971273004744707"
+        },
+        {
+            "label": "Wikipedia — Natacha Jaitt (December 2018 TV appearance; February 23, 2019 death; autopsy findings).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Natacha_Jaitt"
+        },
+        {
+            "label": "Wikipedia — Isaac Kappy (May 13, 2019 death near Bellemont, AZ; Arizona DPS suicide ruling).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Isaac_Kappy"
+        },
+        {
+            "label": "Snopes — \"Frazzledrip: Is a Hillary Clinton 'Snuff Film' Circulating on the Dark Web?\" (the video does not exist; fabricated by YourNewsWire).",
+            "type": "secondary",
+            "url": "https://www.snopes.com/fact-check/hillary-clinton-snuff-film/"
+        },
+        {
+            "label": "Newsweek — \"What Is Frazzledrip? Fake Hillary Clinton Video Builds on Pizzagate Conspiracy Theory,\" December 12, 2018.",
+            "type": "secondary",
+            "url": "https://www.newsweek.com/what-frazzledrip-hrc-pizzagate-conspiracy-theory-hillary-clinton-video-huma-1256257"
+        },
+        {
+            "label": "Ingestion record — capture DWUgdSuiQJp (Instagram reel, @usa.onetime).",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DWUgdSuiQJp/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group-B record, built on the 1999-clinton-body-count-reel-001 model: each named death/event is real and verifiable; the framing that the chain proves a covered-up trafficking ring is contested or, for Frazzledrip, demonstrably fabricated. Pizzagate's underlying ring allegation was investigated and unsubstantiated (the Comet Ping Pong shooting is the documented real-world consequence). Jaitt's tweet and death are both real; the official autopsy ruled non-homicidal (cocaine/alcohol, multi-organ failure), her family contested it — both sides on the record, reader weighs. Ossebaard and Kappy deaths were officially ruled suicides; the reel itself admits Kappy's Hollywood accusations were never proven (a Group-C tell surfaced on its own card). Frazzledrip is a known hoax — notably, the reel even shows the Newsweek debunk headline on screen while implying the video is real. The two genuinely verified criminal facts (Meek, Sohmer convictions) are split out as Group-A records and not asserted as proof of the broader theory. Corpus check: none of these names appear in the released DOJ Epstein-files corpus except Meek, and only as an unrelated ABC byline plus the FBI news-briefing report of his own CSAM plea (see 2023-meek-csam-conviction-001). Anchor y2019 (Clinton/Epstein-network cluster); year=2016 marks Pizzagate's emergence."
+}

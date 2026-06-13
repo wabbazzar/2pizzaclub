@@ -1,0 +1,45 @@
+{
+    "id": "DWUgdSuiQJp",
+    "url": "https://www.instagram.com/reel/DWUgdSuiQJp/",
+    "platform": "instagram",
+    "captured_at": "2026-06-13",
+    "handle": "@usa.onetime",
+    "author_display_name": "Ryan Ead",
+    "posted_at": "2026-03-25",
+    "engagement": {
+        "likes": 6242,
+        "comments": 297
+    },
+    "caption": "Pizza Gate 🍕- Laugh at the label all you want. That was always the trick. Mock the name, bury the details, and make sure nobody looks too hard at the people, the connections, and the stories surrounding it. This compilation is not about media spin. It’s about why so many red flags got brushed off before the public ever took a real look. #fyp #instagram #america #love #foryou",
+    "hashtags": [
+        "fyp",
+        "instagram",
+        "america",
+        "love",
+        "foryou"
+    ],
+    "audio_track_actual": "Spliced clips: a Hillary Clinton interview answer (\"Pizzagate was not on my list\"), a National Human Trafficking Hotline PSA (Text BE FREE to 233733 / 1-888-373-7888), Natacha Jaitt's \"I'm not suicidal\" line, and the phrase \"zip file titled Frazzle\" — over an Avicii \"For A Better Day\" instrumental bed.",
+    "video_overlay_text_observed": "Top-half clip montage with the reaction creator pointing in the bottom half. On-screen cards in sequence: Avicii \"For A Better Day\" (child-trafficking music video); Anne Heche, \"Girl in Room 13\"; an Andrew Breitbart X post re: Planned Parenthood / Team Podesta; Janet Ossebaard (\"Fall of the Cabal\"/QAnon, died Nov 2023, reported suicide); Natacha Jaitt's \"NO FUI\" tweet and her death (\"multi-organ failure ... cocaine and alcohol\"); Isaac Kappy naming Hollywood figures, with the card itself conceding \"None of this has been proven true\"; \"Journalist Who Reportedly 'Debunked' Pizzagate Charged With Two Counts Of Child Pornography\" (Slade Sohmer); \"Former ABC News producer pleads guilty in child pornography case\" (James Gordon Meek); and a Newsweek headline on \"Frazzledrip.\"",
+    "audio_content_summary": "A Pizzagate-defense compilation: the creator (@usa.onetime, Ryan Ead) stitches together clips and news headlines arguing that the theory was mocked into dismissal while real \"red flags\" — a chain of suspicious deaths and two actual CSAM convictions of media figures — got buried.",
+    "implied_frame": "The reel's frame is that Pizzagate was prematurely dismissed and that a pattern of deaths (Jaitt, Ossebaard, Kappy) plus media-figure prosecutions vindicate it. Editorial split: the two criminal convictions (Meek, Sohmer) are verifiable court facts and are recorded as such; the named deaths are real but were officially ruled non-homicidal or suicide (Jaitt's family contests hers); the underlying trafficking-ring allegation was investigated and unsubstantiated; and \"Frazzledrip\" is a documented hoax — the reel even shows the debunk headline. Kappy's accusations are conceded unproven on the reel's own card.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~3.8 MB); delivery ~4.2 MB webm, 127s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "editorial_split": {
+        "a": 2,
+        "b": 6,
+        "c": 1
+    },
+    "evidence_records": [
+        "2016-pizzagate-deathlist-001",
+        "2023-meek-csam-conviction-001",
+        "2025-sohmer-csam-conviction-001"
+    ],
+    "supporting_research_links": [
+        "https://lawandcrime.com/crime/ex-abc-news-producer-sentenced-to-6-years-in-prison-after-pleading-guilty-in-child-pornography-case/",
+        "https://www.berkshireeagle.com/crime/slade-sohmer-pleaded-guilty/article_9224ceda-b751-44d4-9034-f36ba8dbcb0a.html",
+        "https://en.wikipedia.org/wiki/Pizzagate_conspiracy_theory",
+        "https://en.wikipedia.org/wiki/Natacha_Jaitt",
+        "https://www.snopes.com/fact-check/hillary-clinton-snuff-film/"
+    ]
+}

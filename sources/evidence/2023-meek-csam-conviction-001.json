@@ -1,0 +1,37 @@
+{
+    "id": "2023-meek-csam-conviction-001",
+    "anchor": "y2019",
+    "year": 2023,
+    "era": "iv",
+    "themes": [
+        "journalism",
+        "prosecution",
+        "fbi"
+    ],
+    "claim": "James Gordon Meek, a former ABC News investigative producer who covered national security for the network for nearly a decade, pleaded guilty on July 21, 2023 in U.S. District Court for the Eastern District of Virginia to transportation and possession of child sexual abuse material, and was sentenced on September 29, 2023 to six years in federal prison (he had faced a maximum of twenty). The FBI investigation began with an April 2022 tip from the cloud-storage provider Dropbox, routed through the National Center for Missing and Exploited Children, about an account associated with Meek; a subsequent search of his Arlington, Virginia home recovered a cache of material on multiple devices. Court papers state Meek admitted using an iPhone to exchange the material — including a video depicting the abuse of an infant — in chat sessions with two other individuals. He resigned from ABC News without public explanation after the search. The case was carried in the FBI's own internal Daily News Briefing of July 24, 2023, which is part of the released DOJ Epstein-files corpus.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00160510 — FBI Daily News Briefing, July 24, 2023, item \"Ex-Network Investigative Journalist Pleads Guilty to Child Sexual Abuse Material Charges\" (quoting Associated Press, July 21, 2023).",
+            "type": "primary",
+            "url": null,
+            "quote": "The Associated Press reported that a former investigative journalist for ABC News pleaded guilty Friday to federal child sexual abuse material charges. According to the article, James Gordon Meek, 53, of Arlington, Virginia, admitted during a plea hearing in U.S. District Court in Alexandria that he illegally possessed and transported images of child sexual abuse."
+        },
+        {
+            "label": "Law&Crime — \"Ex-ABC News producer sentenced to 6 years in prison after pleading guilty in child pornography case\" (sentencing September 29, 2023, E.D. Va.).",
+            "type": "secondary",
+            "url": "https://lawandcrime.com/crime/ex-abc-news-producer-sentenced-to-6-years-in-prison-after-pleading-guilty-in-child-pornography-case/"
+        },
+        {
+            "label": "Rolling Stone — \"Former ABC News Producer Sentenced to Six Years in Prison.\"",
+            "type": "secondary",
+            "url": "https://www.rollingstone.com/politics/politics-news/james-gordon-meek-abc-news-producer-sentenced-prison-1234835726/"
+        },
+        {
+            "label": "Ingestion record — capture DWUgdSuiQJp (Instagram reel, @usa.onetime).",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DWUgdSuiQJp/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group-A record: the conviction is a documented court fact, independent of the surfacing reel's Pizzagate framing. Primary citation is our own EFTA corpus doc EFTA00160510 (DS9), the FBI's July 24 2023 Daily News Briefing, which carried the AP plea report verbatim — Meek's guilty plea was inside the FBI's own news monitoring weeks before sentencing. The same corpus also shows Meek as an ordinary ABC News byline in House Oversight estate citation footnotes (HOUSE_OVERSIGHT_019477 / 020153, Snowden-asylum coverage) — unrelated to the CSAM case. url:null on the EFTA source: it is a published doc (efta/docs/EFTA00160510.json) but the viewer has no deep-link, so the verbatim renders inline as text. Cross-ref to 2025-sohmer-csam-conviction-001 and the compilation record 2016-pizzagate-deathlist-001. Anchor parked at y2019 (Clinton/Epstein-network cluster) where the analogous body-count record lives."
+}

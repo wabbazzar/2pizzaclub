@@ -1,0 +1,35 @@
+{
+    "id": "2025-sohmer-csam-conviction-001",
+    "anchor": "y2019",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "journalism",
+        "prosecution"
+    ],
+    "claim": "Slade Sohmer, former editor-in-chief of the political news outlet The Recount, was arrested in November 2023 in Massachusetts and charged with child pornography offenses after a tip from the National Center for Missing and Exploited Children; investigators said they recovered more than 1,000 explicit images and videos, hundreds of which depicted the sexual abuse of children as young as three to four. On September 3, 2025 Sohmer pleaded guilty in Berkshire Superior Court to five felony counts — two of possession and three of distribution of child pornography. Judge John Agostini sentenced him to five years of probation, rejecting prosecutors' request for three to four years of prison time.",
+    "sources": [
+        {
+            "label": "Berkshire District Attorney — \"Slade Sohmer Charged with 4 Counts of Child Pornography\" (charging announcement, November 2023).",
+            "type": "primary",
+            "url": "https://berkshiredistrictattorney.com/slade-sohmer-charged-with-4-counts-of-child-pornography/"
+        },
+        {
+            "label": "Boston Globe — \"Former national news editor in Mass. is charged with possessing and sending child pornography,\" November 14, 2023.",
+            "type": "secondary",
+            "url": "https://www.bostonglobe.com/2023/11/14/metro/former-editor-charged-with-possessing-sending-child-pornography/"
+        },
+        {
+            "label": "Berkshire Eagle — \"Otis man sentenced to probation after pleading guilty to child pornography charges,\" September 4, 2025 (guilty plea September 3, 2025; five years probation; Judge John Agostini).",
+            "type": "secondary",
+            "url": "https://www.berkshireeagle.com/crime/slade-sohmer-pleaded-guilty/article_9224ceda-b751-44d4-9034-f36ba8dbcb0a.html"
+        },
+        {
+            "label": "Ingestion record — capture DWUgdSuiQJp (Instagram reel, @usa.onetime).",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DWUgdSuiQJp/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group-A record: the conviction is a documented court fact. The reel frames Sohmer as \"the journalist who debunked Pizzagate\" — that characterization is the reel's, not adopted here. What is verifiable is narrower and stated above: he ran a progressive political-news outlet and pleaded guilty to five CSAM felonies. No prison time was imposed; that disposition (probation over a prosecution prison request) is itself part of the record. Sohmer does not appear in our EFTA corpus (one incidental token hit, unrelated). Cross-ref 2023-meek-csam-conviction-001 and 2016-pizzagate-deathlist-001. year=2025 marks the guilty plea/sentence; charge dates back to November 2023."
+}
