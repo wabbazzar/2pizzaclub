@@ -1,0 +1,30 @@
+{
+    "id": "2023-griffin-csam-conviction-001",
+    "anchor": "y2019",
+    "year": 2023,
+    "era": "iv",
+    "themes": [
+        "journalism",
+        "prosecution"
+    ],
+    "claim": "John Griffin, a former CNN television producer who worked on the network for roughly eight years (including on Chris Cuomo's program), was arrested on December 10, 2021 in Vermont and pleaded guilty in 2022 to one count of using a facility of interstate commerce to attempt to entice a minor to engage in unlawful sexual activity. On June 20, 2023, U.S. District Court for the District of Vermont sentenced him to more than 19 years in federal prison plus 15 years of supervised release. According to the plea, in 2020 Griffin persuaded a mother he met online to fly with her nine-year-old daughter from Nevada to Boston, drove them to his ski house in Ludlow, Vermont, and sexually abused the child.",
+    "sources": [
+        {
+            "label": "Washington Times — \"John Griffin, ex-CNN producer, sentenced to 19 years for luring 9-year-old into sex acts,\" June 20, 2023.",
+            "type": "secondary",
+            "url": "https://www.washingtontimes.com/news/2023/jun/20/john-griffin-ex-cnn-producer-sentenced-to-19-years/"
+        },
+        {
+            "label": "Adweek / TVNewser — \"Former CNN Producer Sentenced to More Than 19 Years In Prison for Child Sex Crimes.\"",
+            "type": "secondary",
+            "url": "https://www.adweek.com/tvnewser/former-cnn-producer-sentenced-to-more-than-19-years-in-prison-for-child-sex-crimes/"
+        },
+        {
+            "label": "Ingestion record — capture DWUgdSuiQJp (Instagram reel, @usa.onetime).",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DWUgdSuiQJp/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group-A record: documented court fact. Griffin was indicted December 9, 2021 and arrested December 10; the District of Vermont sentence (June 20, 2023) was 19 years and 2 months plus supervised release. The reel lists him among media figures convicted of child sex crimes; that grouping is the reel's framing, the conviction itself is the verified fact. Cross-ref 2025-sohmer-csam-conviction-001, 2023-meek-csam-conviction-001, 2020-bright-enticement-001. Anchor y2019 cluster; year=2023 marks the sentence."
+}

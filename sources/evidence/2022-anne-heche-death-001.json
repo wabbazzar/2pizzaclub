@@ -1,0 +1,35 @@
+{
+    "id": "2022-anne-heche-death-001",
+    "anchor": "y2019",
+    "year": 2022,
+    "era": "iv",
+    "themes": [
+        "body-count",
+        "journalism"
+    ],
+    "claim": "Actress Anne Heche, 53, crashed her car into a home in the Mar Vista neighborhood of Los Angeles on August 5, 2022; the vehicle caught fire and first responders took roughly half an hour to extricate her. She never regained consciousness, was declared brain-dead on August 11, 2022 and pronounced legally dead — kept on life support afterward only so her organs could be donated, which her family confirmed she had chosen. The Los Angeles County coroner ruled the death accidental, attributing it to inhalation and thermal injuries, with a sternal fracture from blunt trauma a significant contributing factor. Toxicology found benzoylecgonine — an inactive metabolite of cocaine indicating prior, not active, use — and concluded there was no evidence of impairment by illicit drugs at the time of the crash; the fentanyl detected was administered as hospital treatment. Heche had filmed the Lifetime movie \"Girl in Room 13,\" about a young woman held captive and forced into sex trafficking, which aired posthumously on September 17, 2022. Footage of her being extricated and wheeled to an ambulance on a gurney — in which the sheet-covered figure appears to move — circulated widely and was offered online as proof she was alive, the death staged, or that she was silenced over the trafficking film. No evidence supports foul play; the coroner's ruling was accidental.",
+    "sources": [
+        {
+            "label": "TODAY — \"Anne Heche's autopsy report reveals new details on cause of death\" (accidental; inhalation and thermal injuries; sternal fracture contributing; toxicology).",
+            "type": "secondary",
+            "url": "https://www.today.com/popculture/news/anne-heches-autopsy-cause-of-death-rcna60510"
+        },
+        {
+            "label": "ITV News — \"Coroner: Anne Heche died due to smoke inhalation and burns,\" August 17, 2022.",
+            "type": "secondary",
+            "url": "https://www.itv.com/news/2022-08-17/coroner-anne-heche-died-due-to-smoke-inhalation-and-burns"
+        },
+        {
+            "label": "KTLA — \"Anne Heche wasn't high at time of fiery Mar Vista crash: Reports\" (benzoylecgonine = inactive cocaine metabolite; hospital-administered fentanyl).",
+            "type": "secondary",
+            "url": "https://ktla.com/news/local-news/anne-heche-wasnt-high-at-time-of-fiery-mar-vista-crash-reports/"
+        },
+        {
+            "label": "Ingestion record — capture DWUgdSuiQJp (Instagram reel, @usa.onetime).",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DWUgdSuiQJp/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group-B record. The crash, the ~30-minute extrication, the brain-death declaration, the organ donation, the coroner's accidental ruling, the toxicology (no impairment at the time of the crash), and the posthumous September 17, 2022 airing of 'Girl in Room 13' are all verifiable. The reel pairs the crash footage (on-screen chyron 'PERSON RESCUED AFTER CAR SLAMS INTO HOUSE') with the trafficking-film clip to imply she was targeted. The 'she moved on the gurney / she was alive / it was staged' reading of the extraction video is the contested framing: she had already sustained a severe anoxic brain injury and was in critical condition; involuntary movement is not evidence of consciousness, and the death was ruled accidental with no foul play indicated. Separated from interpretation per house rules: the footage is real, the murder/silencing inference is unsupported. Cross-ref the broader recirculating death-list at 2016-pizzagate-deathlist-001. Anchor y2019 cluster; year=2022."
+}

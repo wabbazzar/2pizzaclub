@@ -1,0 +1,31 @@
+{
+    "id": "2020-bright-enticement-001",
+    "anchor": "y2019",
+    "year": 2020,
+    "era": "iv",
+    "themes": [
+        "journalism",
+        "prosecution",
+        "fbi"
+    ],
+    "claim": "Peter Bright, a former technology editor at the publication Ars Technica who used the social-media handle @DrPizza, was convicted at trial in U.S. District Court for the Southern District of New York in March 2020 of one count of attempted enticement of a minor to engage in illegal sexual activity — a charge carrying a mandatory minimum of ten years and a maximum of life. Federal prosecutors showed that in April 2019 Bright contacted an undercover FBI agent posing as the mother of a seven-year-old girl and a nine-year-old boy and, over hundreds of messages, discussed meeting the children for sexual activity; he was arrested in May 2019 after traveling to a New York City park to meet the agent and beginning to walk toward the purported children's residence.",
+    "sources": [
+        {
+            "label": "U.S. Attorney's Office, S.D.N.Y. — \"Former Journalist Convicted At Trial Of Attempted Child Enticement\" (DOJ press release on the March 2020 conviction).",
+            "type": "primary",
+            "url": "https://www.justice.gov/usao-sdny/pr/former-journalist-convicted-trial-attempted-child-enticement"
+        },
+        {
+            "label": "United States v. Bright, 1:19-cr-00521 (S.D.N.Y.) — docket.",
+            "type": "court",
+            "url": "https://www.courtlistener.com/docket/15928878/united-states-v-bright/"
+        },
+        {
+            "label": "Ingestion record — capture DWUgdSuiQJp (Instagram reel, @usa.onetime).",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DWUgdSuiQJp/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group-A record: the conviction is a documented court fact. The reel's hook — that Bright, under @DrPizza, repeatedly mocked Pizzagate as 'nonsense' and 'baseless' and called believers 'morons' before his own arrest — is the reel's characterization of his tweets and is not adopted here; the verified fact is the SDNY conviction. Bright faced a 10-year mandatory minimum; sentencing followed the conviction. He does not appear in the EFTA Epstein corpus in any relevant way. Cross-ref the other media-figure convictions the reel strings together: 2025-sohmer-csam-conviction-001, 2023-meek-csam-conviction-001, 2023-griffin-csam-conviction-001. Anchor y2019 cluster; year=2020 marks the conviction."
+}
