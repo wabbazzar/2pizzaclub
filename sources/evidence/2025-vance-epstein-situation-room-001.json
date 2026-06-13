@@ -1,0 +1,36 @@
+{
+    "id": "2025-vance-epstein-situation-room-001",
+    "anchor": "y2019",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "trump",
+        "congress"
+    ],
+    "claim": "Vice President JD Vance presided over a series of meetings in the White House Situation Room in the summer of 2025 to manage the political fallout from the Jeffrey Epstein files, according to a New York Times report published in June 2026. The Times identified participants including White House chief of staff Susie Wiles, White House counsel David Warrington, press secretary Karoline Leavitt, communications director Steven Cheung, and Deputy Attorney General Todd Blanche, with former Attorney General Pam Bondi and FBI Director Kash Patel joining by phone; the report portrayed Vance as pressing to release the Justice Department's files even at the risk of damaging President Trump. Trump dismissed the account, calling it \"total bullshit\" and a Democratic diversion. Representative Robert Garcia, the ranking Democrat on the House Oversight Committee, called for Vance to testify under oath about the meetings.",
+    "sources": [
+        {
+            "label": "The New York Times — report that JD Vance led White House Situation Room meetings on Epstein-files strategy (summer 2025). NYT blocks automated retrieval; cited via corroborating secondaries.",
+            "type": "primary",
+            "url": null
+        },
+        {
+            "label": "The Hill — \"House Democrat: Vance part of White House Epstein 'cover up'\" (Garcia call to testify; meeting attendees).",
+            "type": "secondary",
+            "url": "https://thehill.com/homenews/administration/5920178-garcia-vance-investigation-epstein/"
+        },
+        {
+            "label": "The Daily Beast — \"White House's New Epstein Scapegoat Is Revealed as JD Vance by Michael Wolff.\"",
+            "type": "secondary",
+            "url": "https://www.thedailybeast.com/white-houses-new-epstein-scapegoat-is-revealed-as-jd-vance-by-michael-wolff/"
+        },
+        {
+            "label": "Ingestion record — capture DZdu3dZR_O0 (Instagram reel, @remakingmanhood).",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZdu3dZR_O0/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Added after the meetings were dismissed too quickly on first pass. The Situation Room meetings are real and reported by the NYT (June 2026), corroborated across The Hill, Daily Beast, Yahoo, and Raw Story, and not denied by the White House — Trump disputed the framing, not the fact of the meetings. NYT is uncrawlable from this environment (cited url:null, verified via secondaries). What is verified is the existence of the meetings and who attended; the reel's characterization that they were held 'to protect Trump' is the contested part — the NYT account actually portrayed Vance as wanting to release the files even if it hurt Trump, which cuts against a simple shield-Trump reading. Attribute, don't adopt: the meetings happened (recorded here); the coverup-purpose inference is the editorial proposition. Anchor y2019 (Epstein cluster); year=2025 marks when the meetings occurred."
+}

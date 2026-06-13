@@ -1,0 +1,36 @@
+{
+    "id": "2012-breitbart-death-001",
+    "anchor": "y2019",
+    "year": 2012,
+    "era": "iii",
+    "themes": [
+        "body-count",
+        "journalism",
+        "clinton"
+    ],
+    "claim": "Conservative media publisher Andrew Breitbart posted a tweet on February 4, 2011: \"How prog-guru John Podesta isn't household name as world class underage sex slave op cover-upperer defending unspeakable dregs escapes me.\" Just over a year later, on March 1, 2012, Breitbart collapsed while walking near his Brentwood, Los Angeles home and died at age 43. The Los Angeles County coroner ruled the cause heart failure due to coronary artery disease, with an enlarged heart a contributing factor, and found no foul play and no significant trauma. After the 2016 leak of John Podesta's emails gave rise to the Pizzagate theory, Breitbart's 2011 tweet was recirculated as retroactive evidence and his death recast as suspicious. No evidence supports the underlying allegation that Podesta or the Clinton circle ran a child sex-trafficking ring, and the coroner attributed Breitbart's death to natural causes.",
+    "sources": [
+        {
+            "label": "CNN — \"Autopsy: Breitbart died of heart failure, had enlarged heart,\" May 16, 2012 (LA coroner ruling; no foul play).",
+            "type": "secondary",
+            "url": "https://www.cnn.com/2012/05/16/politics/breitbart-autopsy/index.html"
+        },
+        {
+            "label": "HotAir — \"About that Podesta 'underage sex-slaves' Tweet from Andrew Breitbart\" (verbatim text and date of the February 4, 2011 tweet).",
+            "type": "secondary",
+            "url": "https://hotair.com/larry-oconnor/2016/12/05/about-that-andrew-breitbart-tweet-about-podesta-and-underage-sex-slaves-n240198"
+        },
+        {
+            "label": "PolitiFact — fact-check finding no evidence supports the claim that the Clinton/Podesta circle ran a child sex-trafficking operation.",
+            "type": "secondary",
+            "url": "https://www.politifact.com/factchecks/2020/oct/07/facebook-posts/four-years-later-theres-still-no-evidence-support-/"
+        },
+        {
+            "label": "Ingestion record — capture DWUgdSuiQJp (Instagram reel, @usa.onetime).",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DWUgdSuiQJp/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group-B record, split out from the death-list compilation at the user's request. Both anchors are real and verifiable: the February 4, 2011 tweet is genuine, and the March 1, 2012 death was ruled natural (coronary artery disease / enlarged heart) by the LA coroner with no foul play. The reel shows a news article headline ('Andrew Breitbart tweet before death adds fuel to online speculation of D.C. sex-trafficking ring') tying the two together. The 'killed for what he knew' framing is the contested inference; the cause of death was natural and the trafficking-ring allegation the tweet asserts is unsupported (PolitiFact). Breitbart does not appear in the EFTA Epstein corpus. Cross-ref the broader death-list at 2016-pizzagate-deathlist-001. Anchor y2019 cluster; year=2012 (death); era iii matches the period like the other early-2010s records."
+}
