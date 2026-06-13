@@ -1,0 +1,35 @@
+{
+    "id": "DZdu3dZR_O0",
+    "url": "https://www.instagram.com/reel/DZdu3dZR_O0/",
+    "platform": "instagram",
+    "captured_at": "2026-06-13",
+    "handle": "@remakingmanhood",
+    "author_display_name": "Mark Greene",
+    "posted_at": "2026-06-11",
+    "engagement": {
+        "likes": 51053,
+        "comments": 3202
+    },
+    "caption": "Epstein victims buried on Trump golf course? And for those asking: Trump’s NJ Colt’s Neck Course brags about its 19th hole on the home page. https://www.trumpcoltsneck.com/golf",
+    "hashtags": [],
+    "audio_track_actual": "Spoken voiceover by the creator over scrolling screenshots of an FBI 'Intake' document.",
+    "video_overlay_text_observed": "Cover card: 'Epstein victims buried on Trump golf course?' Scrolling FBI Intake form (FEDERAL BUREAU OF INVESTIGATION header, 'SUBJECT TO PROTECTIVE ORDER PARAGRAPHS 7, 8, 9, 10, 15, and 17', redaction bars) showing readable fragments: '04:07 p.m.', 'report Donald Trump kn[ew]', 'olf course', 'closely with [the] cartel', 'Trump Golf Cou[rse]', 'witnessed Robi[n] ... is buried', 'Operations Cen[ter]'. Kinetic captions echo the voiceover ('parties at his golf course', 'with and trafficked young girls to', 'Trump's parties and that they know').",
+    "audio_content_summary": "@remakingmanhood (Mark Greene) reads from an FBI NTOC intake record in the EFTA release alleging Trump funded underage sex parties at his golf course, that Robin Leach strangled a girl buried behind the 19th hole, and a Sinaloa-cartel/Epstein-Maxwell trafficking arrangement — then argues Kash Patel, Todd Blanche, and JD Vance are covering up the Epstein files to protect Trump, ~20 administration figures, and foreign blackmailers.",
+    "implied_frame": "The reel presents an FBI intake form as buried proof of murders and a trafficking ring at Trump's golf course, covered up by the current FBI/DOJ. What is verifiable (and recorded at 2021-trump-golf-ntoc-tip-001): the intake records exist in the EFTA release AND the FBI's own triage deemed the complainant 'not credible,' noting incidents requiring psychiatric evaluation. The murder/burial/Robin-Leach/cartel allegations are uncorroborated tipster claims (Group C); Robin Leach died in 2018; no excavation or charges followed. The coverup narrative (Patel/Blanche/Vance, '20 individuals,' Israel/Russia blackmail) is the reel's editorial proposition, not asserted by the site.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~10.7 MB); delivery ~11.2 MB webm, 115s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "editorial_split": {
+        "a": 0,
+        "b": 4,
+        "c": 5
+    },
+    "evidence_records": [
+        "2021-trump-golf-ntoc-tip-001"
+    ],
+    "supporting_research_links": [
+        "https://www.snopes.com/fact-check/trump-sex-parties-fbi-tip/",
+        "https://www.miaminewtimes.com/news/epstein-file-says-trump-knew-and-funded-underage-sex-parties-at-his-golf-course-40555980/",
+        "https://www.rawstory.com/trump-epstein-2675269942/"
+    ]
+}

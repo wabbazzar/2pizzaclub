@@ -1,0 +1,49 @@
+{
+    "id": "2021-trump-golf-ntoc-tip-001",
+    "anchor": "y2019",
+    "year": 2021,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "fbi",
+        "trump"
+    ],
+    "claim": "The DOJ Epstein Files Transparency Act production includes two FBI \"Intake\" records under case 50D-NY-3027571 (\"EPSTEIN, JEFFREY; CHILD SEX TRAFFICKING\") logging tips to the FBI National Threat Operations Center (NTOC). Serial 437 (online tip, July 8, 2020) and Serial 609 (phone call, June 21, 2021) record an anonymous complainant alleging a sex-trafficking ring at a Trump golf course, that Donald Trump \"knew and funded underage sex parties,\" that Ghislaine Maxwell acted as \"madam and broker,\" that the complainant \"witnessed Robin Leach strangle a young girl during a sex party\" who \"is buried behind the 19th hole,\" awareness of \"three separate occasions in which girls were murdered and buried,\" and a claimed Sinaloa Cartel arrangement trafficking 12-to-14-year-old victims. These are unverified third-party tips: NTOC intake forms record what a caller alleges, stamped \"This information is being provided for domain awareness, referral to other agencies or any action deemed appropriate.\" A separate internal FBI triage email in the same release (the \"NTOC Names\" summary, August 7, 2025) records the disposition: the complainant \"was spoken to and deemed not credible,\" with \"additional research\" showing \"3 separate incidents involving police which requested mandatory psychiatric evaluations.\" No released record indicates any corroboration, excavation, or charges; Trump faces no criminal proceeding tied to the allegation. Robin Leach, the television host named, died June 24, 2018.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA_00095309–00095310 (EFTA01249507) — FBI Intake, case 50D-NY-3027571, Serial 609, dated June 21, 2021.",
+            "type": "primary",
+            "url": null,
+            "quote": "On 06/21/2021 at 04:07 p.m. [redacted] called FBI National Threat Operation Center (NTOC) to report Donald Trump knew and funded underage sex parties at the Donald Trump Golf course. ... witnessed Robin Leach strangle a young girl during a sex party. He claims she is buried behind the 19th hole at the Donald Trump Golf Course. [redacted] is aware of three separate occasions in which girls were murdered and buried there."
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA_00108783 (EFTA01249502) — FBI Intake, case 50D-NY-3027571, Serial 437, online tip dated July 8, 2020.",
+            "type": "primary",
+            "url": null,
+            "quote": "I was a victim and witness to a sex trafficking ring operating at the Trump Golf course in Racho [sic] Palos Verdes California during the years 1995-1996. The person who I knew was the madam and broker for sex parties that included minors both male and female was Ghislain [sic] Maxwell. ... This information is being provided for domain awareness, referral to other agencies or any action deemed appropriate."
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates within EFTA01660651 — internal FBI \"RE: NTOC Names\" triage email, August 7, 2025, recording complaint dispositions.",
+            "type": "primary",
+            "url": null,
+            "quote": "Complainant was spoken to and deemed not credible. Additional research showed 3 separate incidents involving police which requested mandatory psychiatric evaluations. Possible order of protection matching the name and DOB."
+        },
+        {
+            "label": "Snopes — \"Unverified FBI tip alleged Trump knew of and funded 'underage sex parties' at golf course\" (confirms the document, its unverified status, the 'not credible' dispositions, and that no excavation or charges followed).",
+            "type": "secondary",
+            "url": "https://www.snopes.com/fact-check/trump-sex-parties-fbi-tip/"
+        },
+        {
+            "label": "Miami New Times — \"Epstein file says Trump 'knew and funded underage sex parties' at his golf course.\"",
+            "type": "secondary",
+            "url": "https://www.miaminewtimes.com/news/epstein-file-says-trump-knew-and-funded-underage-sex-parties-at-his-golf-course-40555980/"
+        },
+        {
+            "label": "Ingestion record — capture DZdu3dZR_O0 (Instagram reel, @remakingmanhood).",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZdu3dZR_O0/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group-B record, handled under the 'separate primary fact from attributed conclusion' rule. What is verified: (1) these NTOC intake records exist in our own EFTA corpus (DS9 EFTA01249502 / EFTA01249507; DS10 disposition email EFTA01660651), and (2) the FBI's own triage deemed the complainant not credible, with a documented psychiatric-evaluation history. The murder, burial, Robin-Leach-strangling, and cartel-trafficking allegations are uncorroborated tipster claims carried by a tip the FBI itself flagged as not credible — they get no standalone assertion (Group C in the split). Robin Leach died June 24, 2018. The reel surfaces the allegations without the 'not credible' disposition that sits in the same released document set. The reel's wider editorial frame — that Kash Patel (who testified to the House Judiciary Committee Sept 17, 2025) and Todd Blanche are covering up the files, that JD Vance held Situation Room meetings to shield Trump, that ~20 administration figures are 'listed in the Epstein files,' and that Israel/Russia used the files for blackmail — is the reel's proposition, not adopted here; the DOJ's July 2025 memo conclusion that Epstein kept no client list is itself an attributable claim. PII: the complainant is redacted in the source and kept redacted; victim/witness identities are not reconstructed. Anchor y2019 (Epstein cluster); year=2021 matches the Serial 609 intake the reel centers on. url:null on the three EFTA sources — verbatim renders inline as text (no public deep-link to the doc viewer)."
+}
