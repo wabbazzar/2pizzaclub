@@ -1,0 +1,31 @@
+{
+    "id": "2025-ntoc-epstein-tip-triage-001",
+    "anchor": "y2019",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "fbi"
+    ],
+    "claim": "An internal FBI email released in the DOJ Epstein Files Transparency Act production — the \"RE: NTOC Names\" triage summary of August 7, 2025 (Data Set 10, EFTA01660651) — logs roughly a dozen tips phoned or submitted to the FBI National Threat Operations Center under the Epstein child-sex-trafficking case file (50D-NY-3027571), each with a disposition and a criminal-history check. The tips range widely: a caller alleging she was forced as a young teen to perform a sex act on Donald Trump decades ago; a caller naming an alleged former Epstein personal assistant and listing party guests including Bill Clinton and Donald Trump; a caller describing assaults at Epstein's New York residence; the Trump-golf-course allegations recorded separately (the Rancho Palos Verdes ring and the Robin Leach \"19th hole\" claims); a caller claiming to possess films of prominent men; a caller alleging a teenage modeling-recruitment approach by Ghislaine Maxwell; and a limousine driver recounting a 1995 Trump airport ride. The document is a triage log, not a set of findings, and its recorded dispositions are mostly inconclusive or negative: \"Lead was sent to [the Washington] Office to conduct interview,\" \"2 voicemails left, no response received,\" \"Voicemail left, no response,\" \"no probative information,\" a complainant who promised corroborating email that \"no email received,\" and — for the golf-course tipster — \"Complainant was spoken to and deemed not credible. Additional research showed 3 separate incidents involving police which requested mandatory psychiatric evaluations.\" Several entries note criminal-history matches for the callers (a 1987 assault-and-battery arrest; a 1998 burglary/assault/grand-theft and 2007 theft; a 2012 harassing-communication/assault).",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, EFTA01660651 — internal FBI \"RE: NTOC Names\" email, August 7, 2025, triaging NTOC complaints under case 50D-NY-3027571.",
+            "type": "primary",
+            "url": null,
+            "quote": "Please see below with criminal history and disposition. ... Complainant was spoken to and deemed not credible. Additional research showed 3 separate incidents involving police which requested mandatory psychiatric evaluations. ... 2 voicemails left, no response received. ... no probative information ... Voicemail left, no response"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, EFTA01249502 / EFTA01249507 — the two NTOC intake forms (Serials 437 and 609) the triage summary covers.",
+            "type": "primary",
+            "url": null
+        },
+        {
+            "label": "Snopes — \"Unverified FBI tip alleged Trump knew of and funded 'underage sex parties' at golf course\" (context: these NTOC tips were unverified and similar complainants deemed not credible).",
+            "type": "secondary",
+            "url": "https://www.snopes.com/fact-check/trump-sex-parties-fbi-tip/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group-B documentary record from the corpus sweep prompted by reel DZdu3dZR_O0. Verified facts: this triage spreadsheet exists in our EFTA corpus (DS10 EFTA01660651) and records the FBI's handling of ~12 NTOC tips to the Epstein case file. The value is context — the golf-course/Robin-Leach tip (2021-trump-golf-ntoc-tip-001) is one row among many, and the document's own dispositions show the tip-line received many lurid uncorroborated Trump/Epstein allegations that the FBI mostly could not advance (no response to follow-up, no probative information, one 'deemed not credible' with a psychiatric-evaluation history; a single lead referred for interview). These are unverified third-party tips; the triage log is not a finding of fact. PII discipline: complainant names are redacted in the source and kept redacted here; alleged private third parties named by tipsters and any alleged minor-victim names are deliberately NOT reproduced — only the public figures the tips themselves reference (Trump, Clinton, Epstein, Maxwell) are named, and only as the content of unverified allegations. Anchor y2019 (Epstein cluster); year=2025 (triage email date). url:null on the EFTA docs (no public deep-link); verbatim dispositions render inline."
+}
