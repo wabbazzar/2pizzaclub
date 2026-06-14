@@ -1,0 +1,29 @@
+{
+    "id": "DXw_eXbumff",
+    "url": "https://www.instagram.com/reel/DXw_eXbumff/",
+    "platform": "instagram",
+    "captured_at": "2026-06-14",
+    "handle": "@thepaceanator",
+    "author_display_name": "John Pace",
+    "posted_at": "2026-04-30",
+    "engagement": {
+        "likes": 22241,
+        "comments": 891
+    },
+    "caption": "“I have two great enemies; the Southern Army in front of me and the bankers in the rear. Of the two, the one at my rear is my greatest foe”",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Cover card 'THE JEWISH CONFEDERATES' over a Confederate-flag map with a Star of David, gavel and gold coins. Spoken slur masked on-screen and in audio as a coded euphemism (whisper renders it 'juice box'). On-screen source material cited: AJHS (American Jewish Historical Society) article 'The Brains of the Confederacy: The Life of Judah P. Benjamin' by Abby Ben-Ur, Aug 20 2024; the Wikipedia 'Judah P. Benjamin' article (the 'Confederate Escape and Later Life' section held up to camera); a Confederate $2 note (Benjamin's portrait, 'RICHMOND'); a red-tinted Benjamin portrait captioned 'EARLANGER LOAN' [sic]; text cards 'Benjamin owned 140 slaves' and 'the first Jew asked to serve on the Supreme Court, an honor he declined'; an article header 'Jews and the American Slave Trade'; portraits of Lincoln and Jefferson Davis; a greenback / Confederate-currency image.",
+    "audio_content_summary": "Frames the U.S. Civil War as engineered by Jewish banking elites to protect a cotton-backed global credit system: casts Judah P. Benjamin (Confederate Sec. of War, then State) as the 'bridge to the European bankers' who 'directed' Jefferson Davis and brokered the Erlanger loan; claims the same financiers 'installed Hamilton 80 years prior'; recites the apocryphal Lincoln 'two enemies / bankers in the rear' quote; casts the greenback (interest-free fiat) as Lincoln's rebellion against bankers who wanted 36% interest, and his assassination as their retaliation; asserts slave markets closed on Jewish holidays and that Southern elites 'weren't white landowners, they were international Jewish financiers.'",
+    "implied_frame": "The verifiable kernel is a few real biographical facts about Judah P. Benjamin (Confederate cabinet posts; brokered the 1863 Erlanger cotton-bond loan via Emile Erlanger & Co.; fled to London after Richmond fell rather than face prison; slaveholder; reportedly declined a Supreme Court overture). Braided around that kernel is the disputed thesis that Jewish bankers orchestrated the war and Lincoln's killing. The caption's centerpiece Lincoln quote is apocryphal (forged 1864 'Elkins letter', surfaced in 1896 free-silver politics). 'Slave markets closed on Jewish holidays', the 36% interest figure, the Hamilton-installation claim, and 'Southern elites were international Jewish financiers' carry no primary trace.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~29.8 MB); delivery ~30.4 MB webm, 164s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "editorial_split": {"a": 0, "b": 9, "c": 4},
+    "evidence_records": [],
+    "supporting_research_links": [
+        "https://www.britannica.com/event/Erlanger-Loan",
+        "https://www.battlefields.org/learn/biographies/judah-phillip-benjamin",
+        "https://en.wikipedia.org/wiki/Judah_P._Benjamin"
+    ]
+}
