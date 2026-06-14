@@ -1,0 +1,908 @@
+Source: C-SPAN — "CIA Whistleblower Testifies on Alleged Federal COVID-19 Coverup"
+Hearing: U.S. Senate Homeland Security & Governmental Affairs Committee,
+         "Whistleblower Testimony on the COVID Coverup", May 13, 2026 (1h35m)
+Witness: James E. Erdman III (CIA Senior Operations Officer, under subpoena)
+URL: https://www.c-span.org/program/senate-committee/cia-whistleblower-testifies-on-alleged-federal-covid-19-coverup/679083
+Transcribed: 2026-06-14, openai-whisper base.en (machine transcript; verify against video before quoting)
+
+— FULL HEARING TRANSCRIPT —
+Next, a hearing on alleged cover-up of the federal assessment of the origins of the COVID-19
+pandemic, with testimony from a CIA whistleblower, James Erdman III. During the hour and 35-minute
+Senate Homeland Security Committee hearing, only Republican senators asked questions of
+the witness, and Democratic senators did not participate.
+The committee will come to order.
+The COVID-19 pandemic was one of the most consequential events of our lifetime, and
+to this day, the American people have never received a full accounting of where it came
+from, what our government knew, and why they had to fight their own government to find
+out. Today, the committee will hear from an intelligence community whistleblower about
+these questions. The witness will testify that the CIA scientific analyst repeatedly
+concluded that a laboratory leak was the most likely origin of COVID-19, and that those conclusions
+were buried, softened, or withheld from Congress while the public was told to trust a different
+story. For years, Americans were told to trust the experts, trust the agencies, trust
+the intelligence community, and trust the officials who assured us that they were following
+the science. But the evidence before the committee tells a very different story. Today, we will
+expose a system in which a small circle of officials, scientists, grantees, and intelligence
+advisors move from agencies to agency, meeting to meeting, briefing to briefing, reviewing
+one another's work, and shaping one another's conclusions, and presenting those conclusions
+to Congress and the public as if they were independent conclusions. Only it was not independent.
+It was a circle. One part of that circle is a body most Americans have never heard of.
+The biological sciences expert group, known as BSAG, or the B Group. BSAG operates under
+the Office of the Director of National Intelligence. Its stated purpose is to give the intelligence
+community access to outside scientific experts on biological threats. Sounds reasonable, but
+not if those experts are not independent. For example, Dr. Ralph Berwick collaborated
+with Dr. Zengli Xi and Wuhan to create gain-of-function coronaviruses. But Dr. Berwick was also part
+of BSAG and an active consultant to intelligence agencies on the origins of COVID-19 pandemic.
+Likewise, Peter Desak received hundreds of millions of dollars from the US government
+and worked with Dr. Xi also on these gain-of-function experiments. Desak was even sent to China with
+the WHO to investigate the origins of COVID. So the very scientists that were commissioned
+to investigate COVID were, in some cases, the very scientists who were complicit in the
+origins of the gain-of-function experiments that may well have created COVID. In essence,
+the intelligence community pays researchers to review work and write papers. NIH funds
+their grants. The CIA then consults them and gives them access to classified information.
+The National Academies publish their work. Policymakers then cite the result as a consensus.
+But it's a circle. At the center of the government side of this circle was Dr. Anthony Fauci.
+For years, Dr. Fauci was not merely a public health official speaking from the NIH. He
+had a long-standing relationship with the national security and intelligence apparatus. On biological
+threats, dangerous pathogens, classified life sciences researchers, pandemic preparedness
+and COVID origins. Again and again, documents show him being brought into national security
+discussions far beyond ordinary public health messaging. During COVID, intelligence officials
+arranged for Dr. Fauci to review highly classified intelligence assessments that could not even
+be sent outside the White House complex. But how can Anthony Fauci objectively comment
+on a discussion of COVID origins when he approved the very funding that may have caused the
+pandemic virus? From the outset of the pandemic, Dr. Fauci shaped the conclusions. Dozens of
+times, he referred to the idea that the pandemic originating in the lab was a conspiracy, that
+it was a conspiracy theory. Dr. Fauci convened the now infamous February 1, 2020 call. Some
+scientists on that call privately raised serious concerns about a laboratory origin. Yet,
+ironically, those same scientists later co-authored the proximal origin paper, which publicly
+dismissed the lab leak hypothesis. One author received a $9 million grant from Dr. Fauci's own
+agency after he changed his opinion from lab leak on the private phone call to natural origin in
+public. At the same time, Dr. Fauci coordinated with the National Academies on coronavirus origins
+and public facing messaging. These were not independent experts reaching a consensus.
+They were part of the same machine designed to reach the same conclusion. The question is not
+whether the government may consult experts. The question is whether those experts were
+independent, whether conflicts were disclosed, whether dissenting views were preserved,
+whether the lab leak possibility was fairly evaluated, and whether Congress and the American
+people received the truth or a curated result. When Congress asked these questions, government
+officials lied to our face. They classified the documents. They suppressed the information.
+They changed the definitions. They invoked sources and methods. They told Congress
+only what they wanted Congress to know. In 2023, John Radcliffe, the former director of National
+Intelligence testified before Congress with a stark warning. He said a lab leak was the only
+explanation credibly supported by intelligence, science, and common sense. He warned that partisan
+politics and analyst disagreement with Trump administration policy, Trump derangement syndrome,
+had created illegitimate roadblocks to the truth. I agree. He said the COVID-19 Origin Act,
+which Congress passed unanimously, should finally make intelligence on COVID's origins
+public. I couldn't agree more. Despite a unanimously passed law, though, requiring the declassification
+of all information related to COVID origins, the deep state still resists this congressional
+mandate. Our witness today will explain what happened inside the CIA. According to his testimony,
+CIA scientific analysts concluded multiple times between 2021 and 2023 that a lab leak was the most
+likely origin of COVID-19. Yet those conclusions never shaped the official narrative, never made
+the intelligence report. Congress was never told. It was not until after the 2024 election
+that the outgoing Biden administration directed the CIA to issue an assessment,
+not because of new intelligence, but so officials could walk out of the door claiming there was
+nothing left to find. That is not analysis. That is a cleanup operation. This hearing is about more
+than one witness, one assessment, or one agency. It's about a federal apparatus that told the
+American people to trust the science while hiding the machinery that shaped the science.
+It's about an intelligence community that relied on outside experts whose conflicts were never
+disclosed. It's about public health officials with access to intelligence that Congress has
+struggled to obtain. It's about researchers and advisors cycling through grants, contracts,
+classified briefings, federal service and advisory committees, and presenting the results as independent
+even though they weren't. The cover-up is not just about protecting one research grant,
+it's about protecting an entire network of labs, grants, intermediaries, and bureaucratic architecture
+quietly engineered to outlast any moratorium, any congressional inquiry, and any election.
+After millions died, children lost years of learning. Small businesses were destroyed.
+Civil liberties were restricted, and dissenting Americans were censored and smeared.
+The government owes its people the evidence. Our witnesses testifying publicly today at great
+personal risk. He and other brave whistleblowers have come forward because the truth was being
+buried, because government secrecy cannot become government impunity. I want to acknowledge the
+Trump administration officials who made good on their commitment to transparency and cooperated
+with this investigation. Secretary of Health and Human Services Robert F. Kennedy, Director of
+NIH J. Baticharia, Director of the National Intelligence, Tulsi Gabbard, and former Secretary
+of Homeland Security, Kristi Noem. They set a standard. I expect the rest of the administration
+to meet it. We owe the American people a complete record. We owe every family harmed by this pandemic,
+a government that does not hide behind secrecy, conflicts, and curated science when the stakes
+are life and death in public starting today.
+I want to note for the record that Mr. Erdmann is appearing today pursuant to a subpoena issued
+by this committee on May 5th, 2026. This is a public hearing. The witness is a current CIA employee
+and has previously provided testimony to the committee in a classified setting.
+If a question calls for classified information or if the witness believes any answer may implicate
+classified information, the witness should advise the committee before answering and the
+committee will address the matter through the appropriate procedures. The transcript of the
+witness's prior classified deposition has not been finalized and has not completed classification
+review. Members and the witness should not quote from characterizer seek confirmation of
+deposition testimony that may contain classified information in this public setting.
+It is a practice of this committee to swear in the witness will you please stand and raise your
+right hand. Do you swear that the testimony will give before this committee will be the truth,
+the whole truth, and nothing but the truth, so I help you God. Thank you. You may be seated.
+James E. Erdmann III is a CIA senior operations officer. He's a decorated officer with decades of
+intelligence and national security experience. Before joining the CIA in 2013, he served with
+the second battalion 75th Ranger Regiment and as a foreign services officer at the Department of
+State. He recently completed a joint duty assignment with the Office of the Director of National
+Intelligence Director Initiatives Group. Mr. Erdmann holds a Bachelor of Science in Biology
+with a minor in chemistry from Western Oregon University and has received the Director of
+National Intelligence National Intelligence Award and the CIA Intelligence Medal of Merit.
+Mr. Erdmann, you are recognized for your opening statement.
+Good morning, Chairman Paul and other members of the oversight committee.
+Thank you for the complimentary introduction and I appreciate the committee's dedication
+to transparency and accountability. I am a career CIA operations officer and as you mentioned,
+I was on joint duty assignment at the Office of Director National Intelligence Director's
+Initiative Group or the DIG between March 2025 and April 2026.
+I was responsible for leading the DIG's investigation into COVID origins,
+anomalous health incidents and unidentified anomalous phenomena.
+I'm here today to discuss the COVID cover-up, the national security implications associated
+with the DIG's investigative findings and CIA refusal to comply with lawful oversight
+as well as how we remedy these problems. Intelligence community leaders and senior
+analysts downplayed the possibility that the COVID pandemic originated as a result of a lab incident.
+Motives are difficult to define given the scope of the DIG's review. Intentional or not,
+the DIG's actions resulted in cover-up, wasted resources and a failure to properly inform
+policymakers. Public health policy would have been very different had the American public been
+made aware that a virus from a lab in China was going to serve as the foundation for an emergency
+use authorization mRNA products being mandated by the former administration.
+Dr. Fauci's role in the cover-up was intentional. Dr. Fauci influenced the analytical process
+and findings by leveraging his position to ensure the IC consulted with a conflicted list of curated
+subject matter experts, public health health officials and scientists. This included some of
+the authors of the paper, the proximal origin of SARS-CoV-2 and other public health experts
+who have been in his orbit for the last 20 plus years. Some of the scientists were part of the
+biological sciences experts group, or the BSEG, an office of Director National Intelligence
+Advisory Body whose members often receive considerable funding from NIAID and public health agencies.
+The BSEG scientist influenced national laboratory, WMD research, policy decisions,
+finished analysis and other intelligence matters, creating misaligned incentives and conflicts of
+interest as well as counterintelligence issues. Since 2006, the BSEG consulted part-time on
+biodefense issues for the IC while conducting government-funded research and holding academia
+positions as well as maintaining roles in public health institutions and serving as members in
+the National Academy of Science. They received funding from NIAID and other agencies for vaccine
+research, USAID's Predict Project, the Cooperative Threat Reduction Program,
+it even worked with Chinese scientists on coronavirus and other pathogen studies pursuing vaccines.
+There was no oversight monitoring how this web of relationships influenced research,
+policy and public health in any holistic way for over 20 years. In fact, several of the BSEG
+scientists helped Dr. Fauci rewrite definitions of gain of function in 2015 to lift a funding
+pause on dangerous research. Still others participated in event in planning event 201 in 2019. This
+was a coronavirus pandemic tabletop exercise curiously similar to the events that played out
+during the COVID-19 pandemic. It was attended by Dr. Fauci and individuals with IC ties like
+former DNI Avril Haines. The CIA and DNI analytic managers responsible for examining the origin
+of COVID made decisions inconsistent with the conclusions of subject matter experts and analytical
+tradecraft consistently favoring the theory of zoonosis or natural origin.
+Following the CIA's COVID relook that culminated in 2023, the CIA retaliated against analysts
+supporting the lab leak hypothesis.
+C.I. Analysts were not bribed. The analysts that supported the 2023 lab leak conclusion took
+every administrative measure available to them to address their deep concerns regarding the
+analytic integrity of their finished intelligence. CIA managers retaliated against them for their
+refusal to agree with management's middle-of-the-night anonymous rewrite of the analysis which changed
+the assessment to a non-call judgment. Dr. Anthony Fauci's influence over the IC's COVID
+origin analysis and the winning and unwitting role some BSEC scientists and IC personnel played
+in the cover-up exposed why this issue is of deep concern. Failure to address the United
+States government's inability to differentiate between public health and biodefense and the
+oversight resistant ecosystem of life science actors has been fertile ground for increasingly
+dangerous continental United States gain of function research as well as similar research
+conducted in US government supported labs abroad. Post 9-11 changes in public health and biodefense
+roles and responsibilities have blurred the lines between scientists, the military, the intelligence
+community. It has resulted in a deliberately opaque and excessively redundant biodefense
+research policy and financial infrastructure seemingly intended to escalate bureaucratic
+bloat. This is a national security crisis caused by the inability to provide real oversight.
+The systematic failures associated with muddled boundaries between biodefense and public health
+and an overly complex infrastructure have been exacerbated by documented efforts to circumvent
+oversight. CIA did not comply with lawful oversight during the DIG's investigation.
+The behavior significantly impacted Director Gabbard's implementation of several EOs
+issued during this administration and tasked to the DIG. The CIA refused to provide information
+necessary to understand why analytical standards at the CIA were violated.
+The CIA illegally monitored the computer and phone usage of DIG personnel, their investigations
+and contact with whistleblowers. These were Americans being spied upon illegally while executing duties
+directed by the president and under the authority of the Director of National Intelligence.
+One CIA contractor assisting with the DIG's investigation into the events that transpired
+between 2022 and 2023 was fired by the CIA one day after meeting with the DIG.
+When the DIG ceased operations, the CIA also took back 40 boxes of JFK files and MK ultra
+files being processed for declassification by DNI Gabbard.
+The legislative and executive branches will continue to be misinformed if this type of behavior
+is not addressed. The partial solution to dangerous gain of function has already been laid out
+in executive order 14292, improving the safety and security of biological research.
+We need a comprehensive review of government-funded life science research and a move back
+to pre-9-11 definitions of gain of function and WMD research, particularly in the IC and DHS.
+More broadly, we need effective oversight. We must hold agencies responsible for failure
+to comply with executive order 14292 and oversight must have teeth.
+You must be willing to pull the purse strings and, if necessary, convene another church committee.
+The results of our investigation would have been impossible without whistleblowers willing to
+come forward. They are indispensable agents for reform.
+Despite statutory law, agency regulation, and training requirements,
+whistleblowers are almost never protected. Whistleblower protections always seem to protect the agency.
+Every time the CIA investigates itself, they coincidentally find no wrongdoing.
+When they do identify issues, they hold the system responsible.
+That last statement is a verbatim response from a Europe and Eurasia Mission Center lawyer
+when the CIA Office of Inspector General did identify shortcomings so serious,
+oversight bodies were holding meetings about it three years after the events transpired.
+It was in response to the question, was anyone held accountable?
+Apparently, the system is good enough.
+The only way we solve this issue is with real accountability for failure to comply with
+executive and legislative branch oversight, and an escape valve where whistleblowers
+can continue to contribute to mission free from retaliation.
+All I.G. elements need to be removed from the agencies
+and fall under a separate entity controlled by the I.C. Inspector General.
+The personnel in I.G. elements should be 18-11 certified with regular DOJ and legislative
+oversight reporting responsibilities.
+Thank you. And my written statement provides far more details related to these issues.
+I look forward to your questions.
+Thank you, Mr. Erdman. Is it your testimony that there is still resistance from the CIA to comply
+with the law we passed to declassify all the COVID information? Yes.
+One of the things that I think is new today that I'm hearing from your testimony is that
+from an early period of time you believe and the information you're aware of is that
+CIA scientists from an early time after the pandemic began 2020-2021
+were concluding that the lab leak was the most likely hypothesis.
+Yes, Senator, I'd like to offer some qualifications on that as well.
+A lot of the issues occurred at the interagency space at the National Intelligence Council,
+the individuals responsible for conducting or writing WMD analysis. So and many of those
+individuals are on JDA from the CIA. But yes, very early, as early as 2020, there were agencies
+within the I.C. circulating papers that said, hey, there's, for example, DOE circulated a paper
+in May of 2020 that said that all the conditions were present for a lab leak.
+And I could go through the timeline, but yes, my short answer is yes, periodically throughout
+2020, all the way to 2024. Yes. I think the argument, you know, pro and con for what is the evidence
+on whether this came from a lab or came from nature are still important. So for years, we've
+been asking the CIA to produce the scientists, either in a classified setting or a public setting,
+to discuss the arguments. I don't see any reason why the argument should be classified.
+One of the arguments that's made publicly is that the source looks like it came from a single source
+of RNA, not like five different types of viruses or 20 different types like you had with SARS 2003,
+but it came from one source. And virtually everybody argues that sort of indicates a lab
+and not a nature. And so those arguments are important scientific arguments to have,
+but we've been prevented from having them. We've been preventing from getting all of the declassified
+information. But what I think is is of importance that's new today is that your testimony is that
+the CIA scientists were concluding that it was lab. But then with this, there was a 90 day study in
+2021. And this study was done by NIC led by NIC. Tell us what NIC is again. It's the National
+Intelligence Council and individuals responsible for writing various WMD and and and bio related
+issues. So when they had this study, they had CIA scientists telling them, look, the evidence,
+the scientific evidence looks like came from the lab. But then they brought in Anthony Fauci.
+And is it your opinion that Anthony Fauci was able to overrule the scientist or get NIC to conclude
+somehow that there wasn't a conclusion to be at here. We're going to be neutral,
+contradicting what the scientists were telling them. So there's two questions there. And I want
+to break them up into two. One is, where were the injection points, Dr. Anthony Fauci? Where did
+Dr. Anthony Fauci and when did he inject himself into the IC? And the other half of that question,
+if I'm if I'm and I don't want to extrapolate too much here is, okay, what happened with with
+why was there a change in analysis? So I'll start with the if it's okay, Dr. Paul Schurm,
+Senator, I'll start with Dr. Anthony Fauci. There were two instances on 3 February 2020
+and for June 2021. Anthony Fauci had contact with the interagency. And what how to sort of broadly
+generalize this is that that contact was happily pursued within the IC. They wanted that contact.
+And he provided a curated list of subject matter experts, which coincidentally wrote
+the proximal origin of SARS-CoV-2. So it's not like he came in and said, you have to do X, Y, and Z,
+provided recommendations. It's when you look at what has already been publicly released about
+Dr. Fauci, and then what you're seeing under the curtain at the IC, where you realize, okay,
+there is a narrative that was being generated by his contact, not just with experts here in the
+United States, but experts in Australia and the UK. And that's the public facing piece. And you
+know, he he tries to he had tried to sort of keep his hands clear of, I didn't I didn't have anything
+to do with the proximal origin of SARS-CoV-2. But in the meantime, he's pushing those authors
+and individuals that have been in his orbit into the IC as experts. And I'll jump to June 2021.
+We we as the IC at the neck happily pursued those recommendations. And in one email,
+which I'll describe to you, the person in charge of leading the 90 day study,
+you know, he introduced himself to the community that on what they what they were supposed to be
+doing. And then the community said he said, listen, we've got these people we should be talking to.
+And another very senior Nick officer sent a direct email to him saying, hey, considering that Dr.
+Fauci is a public health expert, are you sure we should be relying on this? Shouldn't we shouldn't
+we have a separate set? And in this instance, the the individual responded, no, in this case,
+Dr. Anthony Fauci is a subject matter expert. However, that's directly
+contradicting his public testimony of being a subject matter. Part of the job and intelligence
+when you interview someone is assessing their truthfulness, their potential biases or conflicts
+of interest, did anyone ever bring up that Anthony Fauci approved the research that went on in Wuhan
+and that it might not be in his interest for the conclusion to be that it came from a lab that he
+had funded, that there might be a conflict that was, did anybody ever bring up that he might not
+be an objective witness? That was one example of an email. No one laid it out quite that clearly.
+You're piecing it together. We were piecing it together from multiple emails, from multiple
+agencies, multiple documents. It was it was it was more subtle than that. Nobody said this is
+happening. And unfortunately, I think they probably should have. It was all it was all out there.
+But your conclusion is that changing from the scientific consensus of it being from a lab to a
+neutral position by the CIA was significantly influenced by Anthony Fauci. It was significantly
+influenced by Anthony Fauci's injecting himself into the IC. And to go to the second part of your
+question about what happened, particularly during the 90 day study, we have documentation
+that shows that as of August 12th, the CIA was considering calling this a lab leak,
+August 12th of 2021. And then that changed on August 17th of 2021. And unfortunately,
+because the CIA would not provide us documentation that we asked for, we can't we have no idea why
+that changed. And that that's and they weren't alone because we know the FBI was coming to the
+same conclusion that was lab leak as well as the FBI. Senator Ernst.
+Thank you, Mr. Chair. Really appreciate you being here today. I know that this has been a topic
+for many of us for many years. And we continue to get pushed back from the federal government as
+we're trying to uncover the truth to this matter. For years, folks who discussed a possible COVID
+lab origin were dismissed as conspiracy theorists. They were censored. Some were even fired from their
+jobs. If there was or is a conspiracy, then US government officials and US funded scientists
+keeping secrets should be publicly questioned under oath about what they knew and when they knew
+it. But US funded scientists somehow are still protected from being questioned publicly, even
+though they received millions of taxpayer dollars from NIH DHS, DOE, and DOD and look, folks, I've
+long warned about a potential government cover cover up of the truth, which our brave witness,
+again, thank you, Mr. Erdman, has confirmed to us today. I've called for answers from Dr. Ralph
+Barrack, an expert virologist who showed the intelligence community in January 2020 before
+the American people knew about the pandemic that quote, we may be on the verge of a global pandemic
+end quote, yet nothing was done to share this information with the American people. I exposed
+that the Wuhan lab received $1.4 million in federal funds, fought to cut off every single cent flowing
+to that lab, and I won on this for the taxpayers. And I have him back down from fighting for more
+information on the true COVID origins. And yet Congress is still here six years later,
+begging agencies to share answers and for committees to make relevant documents public.
+We are tired of Washington cover-ups. And if they aren't, our screw-ups here in the US,
+why would the US government cover up for the CCP and other countries? So, Mr. Erdman, Americans
+would have been angry to learn in early 2020 that their government may have played a role in COVID-19's
+creation. Would you say such thinking influenced the intelligence community to suppress a lab lake
+origin theory? I would say that there there's evidence in the emails that it was part of the
+calculus. I wouldn't say so it's it's very difficult. It's more subtle. There's sort of a zeitgeist that
+runs underneath the analysis. And I'll provide a conversation I had with
+one of our whistleblowers. And I asked and he this individual was an incredibly talented scientist.
+And I said, I asked that individual, why don't you actually go forward, go public? There's a lot of
+reasons not to do that. There's a whole bunch. His comment was nobody wants the lab nobody wanted
+the lab lake conclusion. And I'm concerned that there's too many people willing to make excuses
+for China in this organization for the wrong reasons. That that's that was pervasive. And so
+the individuals we talked to, they never said, you know, one for one, you know, it's because
+they disliked the sitting president or they were they were trying to cover up like managers were
+trying to cover up for China. But it was a pervasive undercurrent is how they describe it. And I think
+I think to answer your question, there's certainly reluctance to
+reluctance to provide information that would be
+geopolitically destabilizing or provide ammunition for actions that maybe they thought would be
+unwise. Did I answer your question, Senator? Yes, you did. And it's troubling to hear that
+there's an undercurrent of making excuses for China as well. I'm deeply troubling.
+We spend millions of dollars to have an early warning intelligence system.
+And yet today I'm hearing the system may have been alerted, but no one was acting on the
+information. Do you think that's an accurate statement? I can't speak to the health agencies.
+I can say that the IC was certainly where early on that looked like there might be an issue. And
+so the intelligence that had come in, I don't think they sat on it. I don't think they sat on
+the intelligence. Now, that speaks to maybe a broader issue with the interaction between
+IC elements and non-IC elements. Maybe there's there's some improvements that could be made
+there. But I didn't see the IC sitting on information extraordinary long. Okay, it could have been
+agencies then extraneous to the IC. Right. And, you know, the bureaucracy is real. I mean,
+it's just every day sometimes feels like a fight just to get simple things done. And that's just
+part of working in a large organization. So I'm not making excuses. I'm just saying from
+the intelligence perspective, I think they identified fairly quickly that this might be an issue.
+And with this as an issue, typically we go back, we do after action reviews. Do you think this is
+something that the U.S. government has learned from? I see you grimace. Maybe share a little bit
+about that because if this is system wide across a federal government, you know, how do we stop
+this from happening again? What lessons have we learned from this? If any, you're still coming
+forward as a whistleblower. So what have we taken away from this? And how do we prevent this
+from happening in the future, whether it's, you know, the spread of a pandemic or, you know,
+what happened within the agency? So I really don't want to go beyond IC too much because I'm not
+part of like the health establishment. I'm not in that organization. But part of the reason the
+dig was pulled together as a task force. It was a temporary tool to perform something like an
+after action review and get at the bottom of what happened. And if you're asking me, did we learn
+anything? Well, the problem is we did not receive support from the CIA in terms of, and I documented
+in my transcribed interview, and I don't want to go into the specifics of that, but there were
+very specific lists of information we needed so that we could put into context what happened.
+And so no, I don't think we've learned our lesson when it comes to transparency and reform.
+We didn't get the documents we needed. Senator, your committee issued, what was it, 14 subpoenas
+in January of 2025 requesting documents. And Director Gabbard did her absolute best to try and force
+the IC to start producing these documents. And a bunch of them got sent over to ODNI.
+But we still didn't get all of them. And so what I'll say is we did not get the documents we needed
+from the CIA, state INR. And so the lessons in terms of transparency and reform, I don't think
+those occurred. And they can only occur if we actually do a full review of what happened during
+COVID. And again, there's a fair question. How long do you want to be backwards leaning looking
+at COVID? That's a fair question. You only have limited resources, limited time, limited personnel,
+and we have limited experts that work within the CIA, and they've got forward-facing threats.
+The reason COVID is so important is because what we did find is that there is a much larger
+meta problem sitting on top of COVID. The fact that we have these scientists, and again,
+I'm not vilifying any of these scientists we contracted in to come to the IC, we desperately
+need their expertise. And so when we invite them in, we're inviting them in because we want their
+help. And so we need them. But those same scientists, it's this ecosystem that has a lot of money
+involved. They're involved with the National Academy of Science, for example, some of them.
+And National Academy of Science also helps with our WMD policy for the U.S. government.
+Unfortunately, the National Academy of Science also has a great number of Chinese researchers that
+co-publish. And so if we're not careful, we're going to have Chinese researchers helping us draft
+U.S. WMD policy. That's not a good thing. You've got the counter-threat reduction program that
+involves some of these IC scientists. And once you start cross-pollinating like that,
+being able to tease out and really provide proper oversight becomes so, so difficult. And you're
+talking about also multiple funding streams from multiple different places. It's a very complex
+problem. COVID, we need the AAR so that we, and it already pointed to the bigger problem. So maybe
+that's enough. But we need that. Thank you, Mr. Erdmann. Thank you, Mr. Chair. Senator Ernst,
+one thing I would interject as far as lessons from my perspective is the scientists overseeing
+gain of function research can't be the scientists receiving the money. So we voted last year on the
+Risky Research Review Act. It would be a presidential commission. But the scientists that oversee
+gain of function would not be receiving NIH grants. Part of it is that Fauci had a five-dom.
+That's a normal five-dom. And he was controlling the funds. But then there was a danger of that he
+doles it out to people who agree with them. And I think that was happening. Absolutely right now.
+Point will take in. Thank you, Mr. Chairman. Mr. Erdmann, first of all, thank you for your
+service to our nation in the past, current, and future. Quick question for you, because I've
+obviously never been in a CIA. Is it easy to be a whistleblower? Is it easy to kind of
+think about, hey, I'm going to go outside the normal chain of command, or does it come with
+personal risk, career risk, et cetera? I do not believe whistleblower protections are sufficient
+to protect us. So it's not easy. So it's not easy for you to be here, especially you're serving
+now today. What is your reaction when you look at the diocese, you see that there's not a single
+solitary Democrat member here to listen to your testimony? How does that make you feel?
+My goal in being here is threefold. You know, I want to talk about COVID. I got that, but I've
+been saying. I wish they were there. I wish they were there. You're taking personal risk. You're
+serving the country. You're not partisan. You have this is not about politics, but somehow
+it's become about politics because the Democrats don't even want to hear the conversation about
+what obviously was a grave error that this country made during COVID. And unlike previous
+situations, there's never been a situation, certainly not in my lifetime, where you had
+decisions made that affected generations of Americans, kids that were absolutely deprived
+of their childhood, businesses that were destroyed, families that were torn apart,
+memories that you'll never get back, trillions of dollars of economic loss. We should at least
+have a conversation that isn't partisan. And yet just for the record, there's not a single
+solitary Democrat senator that's willing to sit in this chamber and listen to your testimony.
+I think that's an outrage and insult to people like you. So I'm going to bring a little more
+levity to what I just said. Back in June of 21, you talked about that, which is interesting,
+June of 21. I remember June of 21 as something that came up during a comedy show. I'm not somebody
+who listens to Stephen Colbert, but he had John Stewart on. And he said, I'm paraphrasing
+John Stewart, I will not deliver it with the same kind of comedic punch. But it said, oh, my God,
+there's been an outbreak of chocolaty goodness near Hershey, Pennsylvania. What do you think
+happened? Like, oh, I don't know. Maybe the steam shovel made it with a cocoa bean, or it's maybe
+the explet of deleted chocolate factory. Maybe that's it. And simple joke talking about, or maybe the
+simplest solution is maybe the virus leak happened from the virus lab in the city of Wuhan,
+or maybe this chain of events of animals mating to each other all over the world resulted in this
+virus. What ended up happening is that John Stewart was immediately tortured. The Washington
+Post called his joke a dangerous weapon of propaganda. They called him conspiratorial, and he got
+massive personal backlash. That was in June of 2021. So does it turn out that the chocolatey
+goodness came from the chocolate factory in Hershey, Pennsylvania? Yeah. Just as Director
+Radcliffe said in 2020, it sure looks like the chocolatey factory is actually where the chocolate
+came from. Yeah. And in fact, it's funny that we're all sitting here today because in that same
+torture of John Stewart, the Stephen Colbert said that maybe John Stewart was somehow a spy
+of Senator Johnson. Because Senator Johnson was the one senator that was saying this in the very
+beginning has continued to hold that accountability. And I applaud Senator Johnson for his absolutely
+relentless pursuit of the truth in all this. But let me just spend the last few minutes
+here talking to you about something that you mentioned, which is near and dear to my heart.
+And I think all these hearings are important. You said it's super critical. And again, I
+applaud you for taking and having the courage to come here and your detailed and methodical
+review of all this. But where's the accountability? This is what I hear from my constituents all over
+Ohio. It's a great, you got a hearing, you said this, and that happened. But they want to see the
+perp walks. Where are the people who made these decisions and where how do we hold them accountable?
+Anthony Fauci is sitting probably sipping margarita somewhere with this multimillion dollar
+financial success as a result of duping the American people into putting an
+experimental virus in their vaccine into their bodies or risk losing their jobs. He's not
+accountable to anybody. He's having a great life. He was featured on Vogue magazine. He sat there
+for a cover shot for a day trying to get beauty shots at him, which I imagine the
+photographer found difficult. Where do you think we are in a path to accountability?
+So I don't work at DOJ. And so I can't speak to prosecutions or perp walks or any of that
+stuff. But what I'll say is, and I want to go back to the first thing you mentioned here about
+the American public, I think, and this is my opinion. I'm not expressing myself as a CIA officer or
+on loan to DNI, whatever it is. I think we really want both Democrats and Republicans to show up
+and communicate and cooperate on issues because part of the most important, and you all know this,
+I'm sorry, legislative branch, they have some power of oversight. You guys are not, you can't
+make DOJ prosecute anybody. You can reach across the aisle and you can try and get these people to
+pull the purse strings when agencies are behaving poorly. And from my perspective, and I don't mean
+to criticize anyone, we need the legislative branch to start pulling purse strings. It's got to be
+with teeth if you want accountability. And this is perfect. This form here is perfect. It's about
+the transparency piece. Can't act unless people know. On the accountability side, I can tell you
+that Director Gabbard is doing her best to pursue accountability with all of the investigations
+that were undertaken by the DIG. And we can serve everything up, and it's up to DOJ to take action
+at that point. And I can't speak to, I can't speak to DOJ, but yeah.
+You know, I understand that. And I think what the American people would even expect at a minimum
+is a just an apology, an apology for putting the country through this, not giving the proper
+information. I think that would go a long way. But certainly, there was clearly bad actors.
+Mr. Chairman, you talked about the conflicts of interest. The way you described it was very nice,
+but ultimately, it's corruption. I mean, when somebody's getting paid to give an opinion that's
+not fact-based, and it leads to personal gain, that's just flat-out corruption. And what makes
+America unique is that we don't allow that kind of corruption in our government. And so I think
+ultimately, where this all has to land is there has to be explicit accountability for individuals
+who profited off of the misinformation, the shaming of Americans, and the systematic destruction
+of lots and lots of things in this country. Thank you, Mr. Chairman.
+Thank you, Senator. Senator Johnson.
+Thank you, Mr. Chairman. Another excellent hearing. I feel your pain and frustration
+in terms of trying to do oversight investigation and issuing subpoenas that are not responded to,
+so they're not in full, barely responded to generally. What responses we get are generally
+non-responsive responses, just a bunch of bureaucratic gobbledygook. So, again, I appreciate your
+efforts, though. Mr. Erdman, I appreciate you coming forward. One thing I know as former Chairman
+of the Full Committee, and now as Chairman of the Department of Subcommute Investigations,
+is we do not protect whistleblowers. We have laws dating back over 100 years, and the government
+is the worst offender in terms of retaliating against whistleblowers, even though there's all
+kinds of these legal protections, so I appreciate you doing this. I'll also note, because nothing
+shocks me anymore with our colleagues from the other side of the aisle, but I'm shocked that
+not one of them showed up here. I think one showed up to registers and tenants than gone.
+I agree with you. It is well past time for us to have a Church Committee.
+We're not going to get bipartisan support for Church Committee. There's no
+curiosity on the other side about what's happening inside the deep state. And that's really my
+question. Who is running the deep state? I've got example after example, an agency after agency,
+very legitimate oversight request. I subpoena documents. You don't get squat.
+Now, I asked for your testimony last night, and I realized, and I really appreciate the fact that
+the committee staff and Chair and Paul is very, very concerned about retaliation against you.
+Apparently they didn't clear your testimony here at the CIA. Is that true? No.
+So you're appearing as a true whistleblower publicly right off the bat. I'll do, and I sure
+Senator Paul and his staff will do everything we can to prevent retaliation. What is your
+game plan after this? You're done with the, in DNI and the DIG organization. Do you plan going
+back to CIA? I returned to CIA on, was it April? I'm back at CIA. I just took a couple of weeks
+vacation after the, it was a long year, and I was tired. So I took some time off. So were you
+welcome back? I just, I just arrived, and I'm, I've got a desk and I'm, they're talking to me about
+what comes next. I mean, do you have any concerns about me keeping this? Because originally we
+were said you can't keep this after the, the hearing, but it sounds like now I can keep it. I mean,
+do you have a concern? Because I, I don't want to harm you in terms of what you've written here.
+I've had a chance to go through it yet. You can keep it. Okay. Should we distribute this publicly?
+Please hold on that. For the time being, I will.
+You know, John Radcliffe was very helpful when he was in that position, you know, at DNI.
+Now he's directed the CIA. What is preventing the CIA from totally cooperating with the, with the DNI?
+I don't know. What would you say you've been in the CIA? Who's running this show?
+Here's what I'll say. We had requests. We have a formal process that we sent those requests over,
+and I detailed in the transcribed interview the dates and what those requests were for.
+There was, it appeared to be bureaucratic slow rolling until the government shut down.
+Well, that, that is the, that is the technique they use. I mean, they look at every administration
+or every director of CIA, and if they don't agree with them, this two shall pass, right? They just
+wait them out. I mean, that's happening right now in both of our investigations. So again,
+I'm calling for a church-like commission. We'll call it the Paul Johnson Commission, okay?
+We need to figure out who runs a deep state, but in my final three minutes,
+because I held what I thought was a blockbuster hearing two weeks ago. It was very good.
+And this is on my investigation in terms of the harms done by the COVID injection.
+And I'm going to talk about it right now because it's not being covered by legacy media.
+Ultimately, yes, Fox News, Fox Businesses had me on. I went on supposed to be on CNN last week,
+and I sent in my report and told them that's what I want to talk about. They canceled the,
+the appearance, you know, content. Oh, that's not why. Sure it is. So this is what, and I can do this
+in two minutes and 20 seconds. This is what we uncovered. This is what is being covered up by
+now the legacy media on March 1st of 2021. Dr. Peter Marks, head of, of CBER,
+the organization, then FDA that approves vaccines and also supposed to surveil those vaccines,
+post-market force safety was given a multi-page briefing by the main data mining analysts within
+FDA working with the inventor of the algorithm they used to analyze the VAERS, the vaccine,
+adverse event reporting system. That briefing told Dr. Marks that the current algorithm,
+because of the nature of the massive number of claims coming into VAERS, by the way,
+from 1990 until 2020, on average about 280, 280 deaths reported in VAERS,
+associated with the vaccine. 2021 is over 21,000. Nothing to see here. But anyway,
+so they're using an algorithm. They were warned that this algorithm,
+because the Moderna and Pfizer so close together, the way they're analyzing is going to mask and
+hide safety signals. That's March 1st, 2021. 26 days later, a new state-of-the-art algorithm
+developed by the inventor of the rich algorithm was presented to senior FDA officials,
+showing 49 cases of extreme masking, 25 safety signals, including sudden cardiac death,
+pulmonary infarction, bells, pals, and different types of strokes. Month after month after month,
+they continue to do this data mining. They continue to show additional safety signals.
+Did Peter Marks, did Anthony Fauci, did President Biden go to the American public and say,
+hang on here. We've got some data. We've got some concerns. No, no.
+They blamed the unvaccinated for causing the, for continuing the pandemic. This is a pandemic
+of the unvaccinated. We need, we need to mandate this.
+This is what government does. This is what, this is what the deep state does.
+I can't explain it all. My investigation now because I finally got documents.
+This would never have happened if we didn't have documents. And by the way,
+just like we found that David Morin's email that now is a result in prosecution where, you know,
+he has a folate. He showed him how to make emails disappear, send me something sensitive to my
+Gmail. We have the same types of evidence in our report. We need to get the bottom of this.
+And right now I'm, I'm just using this moment. I need the mainstream media, CBS, ABC, CNN
+to step forward and start covering what is a major scare, how many thousands, tens, hundreds
+of thousands of people are permanently disabled or possibly lost their life because our FDA hid
+the fact that there were safety signals screaming at them with the cold injection.
+So again, you can't answer all my questions in terms of who's, but we need to figure out who is
+running this deep state. Thank you, Mr. Chairman. Senator Johnson. I completely concur with the
+call for a church committee. But I'll tell you how difficult it is. Church committee was like 1975,
+50 some odd years ago. I've been trying to get the classified version of the church committee
+for over two years. But I've been blocked by the intel committee, including someone from our own
+party is blocking having me. They've shown me a room with 400 boxes, and I can go look in all
+the boxes to see if I can find it. My staff's not allowed to go in the room, but they will not
+reveal to me something that's 50 years old that should be declassified for the public, much less.
+Maybe we should go together. It probably only takes about four or five years. That's right.
+Senator Holling. Thank you very much, Mr. Chairman. Mr. Chairman, thank you for being here in March
+of 2023. The Senate unanimously passed legislation requiring the Office of the Director of National
+Intelligence to declassify all, I believe the exact language is, declassify any and all information
+related to potential links between the Wuhan Institute of Virology and the origins of COVID-19.
+I have some familiarity with this legislation because I wrote it. It passed the House unanimously.
+President Biden signed it into law under, I think, popular duress. As you may remember,
+well, first of all, are you familiar with this law? Well, of course. Yes.
+As you may recall, it set a statutory deadline of just a couple of months later,
+which the Biden administration promptly ignored and blew through. When they finally did release
+the report, I think we've got a picture of it here that'll appear over my shoulder. It was all of
+five pages. Here it is. Wait for it. Five pages. Remember, the law says any and all information.
+Five pages heavily redacted, even the five pages. I think one of those pages is like a cover,
+a cover note or something. Yeah, here it is. The executive summary,
+five pages. This is, according to the Office of the Director of National Intelligence,
+this is any and all information related to COVID-19 and the Wuhan Virology Lab.
+Now, you've been on this task force that has reviewed these documents. Is this all the information
+the United States government had? That is not all the information. And I'll tell you a little
+story about that, if you'd like. Please. Sorry about your five pages there.
+So there was a classified report being written at the time. All of this was going on. And I assumed
+as I'm reading through the documents that they would just take that classified report, which
+didn't look like that. And they would just redact it. And because I'm reading through
+documents, but that is not what happened. They decided to write a different paper
+instead of what was already... You say they. Who's they? The National Intelligence Council.
+The National Intelligence Council was at the time that the law pass was doing a thorough review,
+or doing a review. We don't know how thorough. How many pages? You've been on this task force.
+You've gotten a sense of, if it's not five pages, how many pages worth of information,
+would you guess the United States government was in possession of related to Wuhan,
+lab, and COVID possible links? I can tell you that Director Gabbard is working through, I believe,
+2,000 pages. 2,000. They're trying to get released in the first batch. This is a,
+the law states, yes, any and all, but there's still the requirement to run it through the
+different agencies to ensure that there's not some sources of methods. But there's like 2,000
+pages. 2,000 pages. 2,000 pages. I want to show you what Avril Haines, Director Haines, said to me
+when I wrote to her, Senator Braun and I wrote to her following this outrageous, ridiculous report.
+She wrote back to me and said, well, we only, we classified, we declassified only what we could
+without endangering sources of methods. Only what we could. Five pages of summary that itself has
+redactions. The five pages have redactions. And you're telling me there are literally
+thousands of documents. Why are they hiding all of this material?
+I can tell you that the interagency process of declassification is highly bureaucratic
+and that is being worked. And I think you saw, you saw just a few days ago, Director Gabbard
+released some information about the labs. Was, was Director Haines, Avril Haines,
+was she involved in making the decision not to release the material?
+I don't have any proof that she was involved in the direct decision. I have no
+email saying that directly. But it was her, it was her office and it's her signature on the letter
+to me. It's her office that sent the five pages. She's the one who said, this is what we have.
+This is all we have. You're telling me there were 2000 plus documents.
+No, I'm telling you that the first swath of documents that we're looking to, there's
+many, many more than that. I got you. Many, many more. Let me tell you what this,
+this so-called five page report, what it said in its substance to the extent there was any.
+They said, number one, that nothing that was researched at the Wuhan lab could plausibly
+be approached, Senator of SARS COVID-2. Number two, they said there is no evidence
+of any research related incident involving Wuhan employees that might have been related to the
+pandemic. Now, in your experience, given what you have seen, are those true statements?
+Some of that would have to be covered in classified, but no, they're not true.
+If we wanted to get into details, I don't believe that's true.
+So the United States government first deliberately violated a law passed by Congress, signed by
+the president, that ordered them to release all information related to the Wuhan lab. Number one,
+number two, they then violated the law again by withholding thousands and thousands of pages
+that they had at the time and knew were covered by the law. Number three, the conclusion so-called
+they released to the public are false. If that is not a cover up, I don't know what is
+and if our elected officials and unelected officials, in this case, in the IC and ODNI,
+if they can get by with blatantly violating the statutes of this country and lying to the American
+people, I'm sorry, but we don't have a democracy anymore. I don't know what it is, but it's not a
+democracy because we the people aren't in charge. These people are in charge and they're lying to
+us every single day. You said in your opening statement that Dr. Fauci,
+speaking of someone who's not exactly a truth teller, that Dr. Fauci intervened
+to put his thumb on the scale of what information the intelligence community,
+IC could review when they did their initial assessments of whether or not the Wuhan lab
+was linked to COVID. What exactly did he do? So let me clarify that. So he reached in
+and he provided a list of scientists and subject matter experts that we should talk to you.
+And it's not like he's saying, you will go talk to them. He doesn't have the power to do that
+technically. It's just that the bureaucracy in place at the time was perfectly happy to pursue
+those recommendations even when there was a number of individuals who expressed concern saying,
+at least one for sure that said, are you sure we want to do this? He's a policymaker and we
+need to have our intelligence cycle. And he had a point of view. Did he not? He certainly did.
+And what was that point of view? Just refresh our memories. He believes it's natural origin.
+He still does. Of course. I mean, he said this over and over. Now he would have reason to,
+given that he supported gain of function research to the Wuhan lab, lied about it to Congress,
+lied about it repeatedly to the chairman, as I recall. So his hands are dirty in this.
+And here he is intervening behind the scenes. It's bad enough that he's out there misleading
+the public behind the scenes. He's trying to intervene to stop our own intelligence community
+who are supposed to work for the public from actually accurately assessing the evidence.
+This is unbelievable. This is unbelievable. And then people wonder, gee, why are the American
+people not trustworthy, not trusting of elected officials? I wonder, why are they? I'll tell you
+why, because they're repeatedly, we are repeatedly lied to by these people, lied to and lied to
+and lied to. I want to thank you, Mr. Edmund, for your testimony. I just want to note, I think we've
+only scratched the surface here. Thank you, Mr. Chairman, for calling this hearing. And I just
+want to point out when you've got a witness who's saying under oath that the report that the government
+issued lied to the American people, that it is false. We've got a big problem in this country.
+We've got a big, big problem and we haven't begun to solve it yet. Thank you, Mr. Chairman.
+Senator Moody. Thank you, Mr. Chairman. I think this is one of the most important
+hearings we will hold during this administration. I think when the world,
+the country went mad and I don't care if you're considering yourself a blue state or a red state,
+the country went mad and people were craving leadership and leadership. The truly was based on
+science, not someone that alleged they were following science and seemed to care more about
+controlling the public. I think this is one of the most important hearings and I think everyone
+that actually showed up today and you see who is here involved in taking part in this hearing
+are the ones that want on behalf of the American people who are, by the way, are supposed to be in
+charge of the United States of America. Want to get to the bottom of what happened and not just
+because that's right so that the people that are in charge of this nation understood what happened
+but so that this never happens again and if we are trying to prevent a government that is trying
+to control a populace based on nothing, based on no justification and making sure that that
+never happens again, I just want it to be very clear to everyone in this room or anyone who has
+taken the time to watch that cares about their country and understands what it means to protect
+freedom. I just want them to see who showed up today and who is participating and who has thanked
+you for coming out bravely and disclosing these facts, what happened, and your opinion based on
+your years, decades of experience. I for one, hailing from the great free state of Florida,
+you know Florida used to be known for flamingos, we're now known for freedom, that is because what
+took place over the last administration and when churches were closed, when businesses were closed,
+when schools were closed, when people were shut up in their apartments, when families were
+prohibited from socializing and gathering, many were kept from their loved ones when they died,
+all under this guidance of government leading based on science,
+we really have to go back and question that because that cannot happen in this country and I think
+many of us that were in charge at the time questioned how we ever allowed that to happen and certainly
+in Florida I am so proud along with Governor DeSantis, we led against that tide in many respects
+and when people were still being told to stay at home, don't let your kids go to school, don't go to
+church, all of these things that seem insane right now, we didn't, we stood up for the truth,
+we tried our best to discern what was true, what was not, what didn't make sense and let me tell
+you why things didn't make sense and we've, first of all you had your Secretary of HHS which was
+basically invisible checked out, those are words of the Biden administration at the time,
+officials from the Biden administration said Secretary Becerra was invisible, checked out
+an unfortunate choice for the role and then you had Dr. Fauci who came out and contradicted himself
+constantly at one point, he even admitted later he told people people shouldn't be walking around
+with masks on and later he said that was because we were trying to control the supply for health
+care professionals it wasn't based on any science but then later he told everyone to wear masks
+repeatedly, the six foot rule seemed to have been just crafted out of thin air with no basis in
+science whatsoever, in fact he said that rule sort of just appeared when he testified and that
+guidance on the shutdown of schools and small businesses was arbitrary and not based on any
+science so I just want to make sure the American people hear that you had a government who's
+supposed to be limited and stay out of people's lives coming in and offering guidance many times
+it was done under mandates to close businesses, people's livelihoods, to keep children from being
+educated, to keep people from expressing their faith and gathering to show freedom of religion
+and their faith and expression, I mean unbelievable what happened during the COVID years, I was
+so proud of my state along with Governor DeSantis, we launched a grand jury investigation because
+the federal government sure wasn't doing it and we got to the bottom of some of these what was
+being said publicly by those that we had trusted in these positions and how that was not actually
+the truth in the science, that was where the name the Free State of Florida has come from
+and I'm so glad now to be here as one of the newest United States senators
+bringing that experience, that grand jury investigation, everything that we did differently in Florida
+and stood up to the madness because that is how the people remain in charge of their government.
+In the grand jury investigation that we did, we followed the evidence, we found that many of
+those policies including masking, lockdown mandates, they lacked sufficient scientific basis and they
+in fact caused significant harm to Floridians, the same grand jury found a pattern, I'm quoting
+the grand jury here, this is a nonpartisan group acquired from the community to judge
+facts, a pattern of deceptive and a few scotory behavior from both big pharma and the federal
+agencies charged with regulating them with respect to the COVID vaccines.
+So it appears from everything that we found from our own investigation and unbiased,
+totally separate review of what was being said publicly by the federal government compared to
+what was actually based in science, it found that most of what was said in the events surrounding it
+was a public health establishment that was fixated on controlling the public and forcing narratives
+rather than protecting public health or discovering the truth. And so I am grateful that you are
+willing to be here today, I know that this is under subpoena but certainly it takes courage
+and to be here and to be a whistleblower that can get accountability for the American people.
+Florida was years ahead of the federal government's supposed experts, we're proud of that but this
+is so important. And so I want to know and I have one question, we're getting to the what happened,
+we were glad that Florida led on that even while people remained locked down we were trying to
+get to the answers. What happened but in all of your reviews and what you've been able to
+compile and what you're saying today, what is the why? Why? Why did the cover up happen?
+I think that there's a lot of incentives, misaligned incentives that have been created
+because of this highly opaque and complex system of laboratories life science research.
+And the IC is just one component of that. Why did it happen inside the CIA and inside DNI and inside
+the interagency space when they were doing the analysis over the course of four years?
+Part of it is iron rice bowls. You know your normal bureaucratic issues where one agency has this
+another agency has that. There was groupthink, you could see it happening in real time as you read
+from beginning to end. I'll give you a couple examples. Every time there was an open source
+publication that came out, they're very good at grabbing that and kicking it up for the
+contracted scientists, you know, the B said, to take a look at and assess. And the goal it
+seemed, it always leaned one direction. They never took some like they never took like the
+publications from Sorensen and Doglish who came out very early. I think it was July 2020 that
+one of the best papers written was open source by Sorensen and Doglish. They never took those
+papers and said, wow, we've got a lot here. We need to make sure we get this added in. Or
+Dr. Stephen Quay, for example, who had a lot to say about COVID origins. It was always one direction
+and because the interagency space seemed intent on pushing it that way and why the interagency
+space. I think the interagency space, I'm talking about the National Intelligence Council and the
+people responsible for that. I mean, these are people who have relationships with the National
+Scientist and the National Academy of Sciences. They've got relationships with the WMD community
+and they're all part of the same, I don't know, ecosystem. The planets are all
+revolving around the same star. And so you get groupthink. There's a multitude of reasons.
+I didn't find any smoking gun where they said, well, we got to cover this up because for sure
+the U.S. government paid for research in Wuhan, China. But they were certainly well aware of
+predate. They were well aware of the diffuse proposal that had circulated. They had those
+products available to them. I think you get enough people shouting something down and it gets shouted
+down. And that happened repeatedly. I do want to just, if I can take just a moment, particularly
+about the scientists that are brought forward. I don't, I really, really want to emphasize a
+couple things. And one of it is, we can't vilify these scientists. I'm going to give a very short
+anecdote and I hope I'm not going over on time or anything like that. But when I got hired to the
+CIA, I can't tell you how proud I was. I really couldn't believe that they hired me. I'm sure
+there's some friends who are like, yeah, I can't believe it either. But they hired me because they
+saw potential to be able to be somebody who could recruit spies and steal secrets. That's my job.
+Imagine you're a scientist. Imagine the U.S. government comes to you and says,
+listen, sir, you are a specialist in a field no one else knows about. And in fact, the PhD is,
+the whole point of a PhD is to push beyond what's known further than anybody else in a very
+rarefied field. Imagine you're a scientist and the CIA comes up to you and says,
+or the NIC, the intelligence community, comes up to you and says, you're special. Not because we
+see potential, but because we know you're special and we need your help.
+We can't vilify these people who wanted to help. We can, however, boy, I might be
+contradicting myself here, but the system definitely needs a look because the system has been put
+in place now and you've got these same people that we've said, you're important to the IC.
+We just haven't done the proper work to ensure that those people who are important to the IC
+aren't cross-pollinated all over in other places so that they can incentivize the kind of
+research that we need done or the white papers we need written. We have to have a holistic
+overview and I think it's really hard to have like one agency do their review, another agency
+do their review, the legislative branch do their review. In this case, it is a team sport.
+So one answer also, Senator Moody, your question about the why. You know, people think, well,
+gosh, was there a conspiracy where people, all these evil people had their hands together and
+they were conspiring to do something bad. And I think George Carlin put it the best. He said,
+it isn't required that you come up with a conspiracy where interests converge. And I think the
+interest is we funded a lot of dangerous research. Accidents have happened. This was an accident.
+All likelihood this was an accident. Even the Chinese probably didn't want this to happen
+and move on. It was an accident. But the interest is that if you funded that research for 10 years,
+wouldn't I logically want to ask you why? You know, why you did this funding. And so
+there are dozens of people throughout government who did cover this up, maybe hundreds, but they
+don't even know each other necessarily. But they had a hand in funding this research of the years,
+they've been in favor of it. It's been a big debate. For 20 some odd years, there's been a
+huge debate, maybe longer. People think this is the first virus that got out. One of the most,
+it's not as much reported, but one of the most famous viruses that got out was the Russian flu
+of 1977. And we're not sure it came from Russia or where it came from. But the interesting thing is,
+nobody over 24 got the flu, zero, not one person. Why? Because the Russian flu of 1977 had the exact
+same RNA structure as a flu in 1953 that had been kept in a lab somewhere.
+How do you get an identical virus 30 years later? Viruses mutate every couple of months,
+like COVID has. There is no way to have an identical virus unless you got it from a lab.
+So proof positive that the 1977 flu actually came out of a lab, an accident, once again,
+an accident. There's a woman who's written about this, I think her last name is Young,
+she says that over a period of years, like 1500 major accidents that she's cataloged.
+So it's not only about malfeasance, it's about safety of these labs. In fact, some people were
+finally convinced that this came from Wuhan because it was a BSL-2 instead of a BSL-4 for
+much of the time that it didn't have enough safety precautions. But even the safest one,
+the four still has accidents. So maybe some of these experiments, we ought to reconsider
+whether we do them. Thank you, Mr. Chairman. And it just goes to show what's helpful to have
+a doctor as our chairman. You could also be a witness. Thank you. We're going to conclude
+pretty quickly. I'm going to give Senator Johnson another chance if you have another question.
+I've got a quick question that I want to go someplace else. In September 2023, we apparently had
+a whistle blower come forward in their news articles written about this that six of the seven
+analysts to describe this were bribed to change their analysis. Is that true?
+No. So there's some clarifications on that. What is true? And I thank you for bringing
+up this question, Senator Johnson, because this is one of the things I wanted to make sure
+the record was corrected. So, and if I have just a few minutes here to sort of talk through this,
+um, there was new information that came out in 2022 and, you know, forced,
+it forced the community to try and conduct a relook. There were 10 CIA scientists,
+I'm talking from the CIA side down, not on the next side, 10 CIA scientists that were said,
+why don't you go ahead and do a COVID relook? On that team, there were seven SMEs, subject matter
+experts, technical experts with, you know, lab experience, medical, medical experience.
+And so they, they began their relook. And, uh, by the time they wrote their paper,
+they wrote a paper and they said, we're assessing this as a lab leak. Eight of the 10,
+according to multiple whistleblowers, eight of the 10 were definitely leaning in on lab leak.
+They sent that paper, that draft paper, up to the Weapons and Counter-Proliferation Center
+front office and said, take a look. And, um, magically, a new report shows up that allegedly
+contradicted this, the information that had come in earlier that year. The multiple people we
+spoke to said, yeah, it didn't really contradict it, but they were told, go back to the drawing board
+and do a reassessment. So the interagency got involved, they were having discussions,
+so they go back to the drawing board. And, uh, by the time 2023 rolls around, they've, they've got
+their, they've got their answer. They say, you know, six of the seven technical, technical people
+on that team. So there's 10 people on the team, six of the seven technical experts say,
+yep, we still think it's a lab leak. We still think it's a lab leak. And they were sticking to
+their guns. Um, management changed the analytic line. They changed the conclusion to a non-consensus
+call. Actually, worse than that, they said that, uh, the exact words were, I don't want to get this
+wrong. Excuse me.
+We may never precisely know the origin of SARS-Co2. Precisely. Precisely is not a term
+analyst use. They use like low confidence, medium confidence. Yes, no. Precisely is a word you use
+when you want to deliberately end discussion because do you know how many resources we need to
+precisely know the origin of SARS-CoV-2? So, so again, I want to, the chairman dildes me a little
+bit more here. Uh, there's no bribes paid. This is just a management decision. They over, overall,
+let the, okay. But the financial piece definitely needs to be looked into because they did receive
+an EPA. They just, they got it. It's a 1500 bucks. Okay. So, so it may be true then?
+No, no, no, no. They, I want, let me be very clear. There were no bribes. They received an
+exceptional performance award. They will excel with it. And, and it was not a bribe. But what I
+will say, the people they were rewarded for their work. They didn't know they were going to get it.
+Okay. I got you. I got you. I got you. I understand this distinction. Uh, 1.1 question. Uh, just
+receive this from Liz Lyon, the CIA director of public affairs. Uh, the committee acted in bad
+faith by subpoenaing an agency officer for testimony today without notifying CIA.
+Despite having already obtained closed our testimony from the individual previously,
+the witness testifying today is not appearing as a whistleblower in pursuit of the truth,
+but instead in response to the subpoena issued by chairman Paul. This proceeding amounts to
+nothing more than a dishonest political theater. Mass grading is a congressional hearing as the
+CIA is already assessed. COVID-19 most likely originated from the lab leak and efforts to
+undermine that conclusion are disingenuous. I'm calling on CIA director Radcliffe and this
+person to apologize to chairman Paul and this committee. This is not political theater.
+I have years and years and years of built up frustration of agencies like the CIA,
+department of justice, the FBI, HHS, snubbing our oversight, giving us the big middle finger.
+And that's really leads me into my question. You talked about how proud you were. Okay. I can
+imagine that. I, my belief is there, I'd say most people serving in government, all these
+agencies are doing good work. They're, they're patriots. Why aren't there more people like you?
+I mean, you saw Josh Holley's, Senator Holley's, uh, the, the five page snub, the five page middle
+finger saying, any and all, this is it. And people inside the agencies know that's not the truth.
+They know that is a big fat lie.
+What, what is going, what, what happens inside the ANC that people, good Americans, patriotic
+Americans, people who believe in democracy, witness that and realize the ANC they're working for
+is lying bold face to legitimate congressional oversight, legitimate congressional investigations
+to the American people. What, what, what is causing this?
+Two answers. One, we need more leaders like Director Gabbard who pulls together a task force
+of people to actually pursue this despite the difficulty in wrangling agencies to do the right
+thing. I think the second thing I'll say is it's a minority of officers. I mean, most, most of the
+people joining the CIA are barrel-chested freedom fighters. Like, they're out there wanting to do
+the right thing. As you matriculate upwards into the, into the bureaucracy,
+I just think that it gets easier and easier to find people who are more willing to, to get along.
+And, you know, we can, if we want to link this back to COVID, you had a bunch of
+refusenix out there that said no. And they were trying to push these people out. And,
+and what you really need in these organizations, you know, you can't have the whole organization
+saying no to everything because nothing gets done. But you've got to retain the people
+who are sometimes a little more difficult to deal with, more willing to say no over and over.
+And I think we've, we've, we've created a milk toast bureaucracy. You know, when I first joined
+the agency, the chiefs of offices had a lot of power, you know. And then modernization happened,
+and they, they watered everything down. You didn't, the accountability piece has to be there. Otherwise,
+you're, this is just going to keep happening. Again, I appreciate you coming forward. Again,
+I'm calling on Director Radcliffe and that communication person, this committee, this chairman
+needs an apology. This is not political theater. This is serious oversight work. This is what the
+American people need to see. And I just wish our Democrat colleagues had any level of curiosity.
+What's happening inside the deep state? Thank you, Mr. Chairman.
+Thank you. And I completely concur. And I would also like to respond to the CIA spokesman.
+They say that we have already obtained closed door testimony. Well, closed door testimony
+doesn't provide oversight. Public testimony provides oversight. We have asked them for public
+testimony and for oversight. We would love to have the scientists who the six or seven scientists
+that were commissioned to look at this. We'd love to see their report. Why would we not be
+allowed to see their report? I can't even read that in private. But that should be public. The
+science, if there are sources and methods, mark them out, redact them. But we should be able to see
+that. But for them to have the gall to say, Oh, we allowed the witness to testify in private.
+And that should be enough. No, you were told by Congress unanimously to declassify this material
+and you send us five pages. Imagine how many you mentioned maybe 2000 pages.
+DOE has a report that's got to be 40 or 50 pages. But the base documents for DOE's report
+are probably running to the hundreds of pages just for that one report. And they did a great
+analysis of this. But still, most of that is not available to the public. Why does it need
+to be available? Because this is going to happen again. And we need to be prepared. And we need
+to talk about it. One of the other things we didn't get to in this hearing, but we need to talk to,
+how do you prepare for the next pandemic? Well, one of the things that actually worked was
+monoclonal antibodies. We need to be talking about how we can quickly produce them again,
+how we can quickly get started on things like that. What worked and what didn't work.
+Mask didn't work. Six feet of distancing, there was no science. They say, follow the science,
+and yet it looks like everything that happened at the CIA was the politicians overruling the
+scientists. The scientists were concluding this came from the lab, from a lab leak,
+in all probability. The politicians were overturning them once at two in the morning.
+So that is one of the takeaways from this is that, yes, follow the science and the scientists,
+and that the scientists need to not have a conflict of interest, which leads me to the final
+point I'll make before we conclude. I applaud the Trump administration for an executive order
+saying no more gain of function. It is head and shoulders above anything. The Biden administration
+really didn't do much of anything on this. The Trump administration is trying to live by that.
+The reason it won't work forever is that people who have a weasily way with words,
+let's say Anthony Fauci, will come back into play, and half of his lieutenants probably still
+work over there. One of them will get in power again, and all they will simply say is, oh, creating
+that new virus that grows 10 times faster and grows better in human cells, well, that's not gain
+of function. Because that's what Anthony Fauci was doing. He was still doing the gain of function
+research. He was just saying, oh, the way I look at the definition, that's not really. So we do
+need a commission. And what I propose is the Risky Research Review Act, it'll be a presidential
+commission. It'll have scientists on it. They will be experts, but they will not be currently in
+the employ of government competing for grants. I think that is a conflict of interest.
+They have to be people outside of it. There also will be some people who are national security
+experts as well. And we have to look at the list of things. One scientist, Dr. Esfelt,
+ordered off the internet under Biden's policy. He ordered snippets of DNA from here and here,
+chopped them up, put them together, and he made the Spanish flu. And he told the FBI was doing
+it because he wanted to prove a point. He didn't create the infectious portion of the Spanish
+flu, but he said, look, I can do it by just ordering a DNA. So there are a lot of things that have
+to be addressed. And unfortunately, it's somehow a part of an issue, and we're not getting anywhere.
+But I want to applaud you for your courage in coming forward. You did come forward at the
+response of a subpoena. That is a lawful subpoena. And I've seen a reason that anyone should try
+to punish you. If anybody does try to punish you, I can promise you that we will defend you.
+Thank you very much. Thank you, Senator Hall. Thank you.
+No. I would like to thank our witness for joining us here today to share his testimony and
+expertise with the committee. The recording, the record for this hearing will remain open to a
+5 p.m. on Wednesday, May 13th, 2026 for the submission of statements and questions
+for the record. The hearing is now adjourned. Thank you.
+On Friday, the World Health Organization
