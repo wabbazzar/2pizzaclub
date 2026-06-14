@@ -1,0 +1,34 @@
+{
+    "id": "2026-covid-origins-001",
+    "anchor": "y2026-covid-origins",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "cia",
+        "intelligence",
+        "public-health"
+    ],
+    "claim": "On May 13, 2026, CIA Senior Operations Officer James E. Erdman III — who led the ODNI Director's Initiatives Group review of COVID-19's origin and appeared under subpoena — testified under oath to the Senate Homeland Security Committee that Dr. Anthony Fauci 'influenced the IC's analytic process and COVID origin's findings by leveraging his position to ensure the IC consulted with a conflicted list of curated Subject Matter Experts,' including authors of the 'Proximal Origin' paper; every Democratic senator skipped the hearing.",
+    "sources": [
+        {
+            "label": "Written Testimony of James E. Erdman III, U.S. Senate HSGAC, 'Whistleblower Testimony on the COVID Coverup,' May 13, 2026 (transmitted to CIA Dir. Ratcliffe by Chairmen Paul and Johnson, May 14, 2026)",
+            "type": "primary",
+            "url": "https://www.hsgac.senate.gov/wp-content/uploads/letter-and-testimomy.pdf",
+            "quote": "Dr. Anthony Fauci influenced the IC's analytic process and COVID origin's findings by leveraging his position to ensure the IC consulted with a conflicted list of curated Subject Matter Experts (SME), public health officials, and scientists. This included the authors of the paper \"The Proximal Origin of Sars-COV-2\" and other public health experts and scientists who have been in his orbit for 20+ years, many of whom have and did receive funding from NIAID, as well as scientists working under IC contract.",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://www.hsgac.senate.gov/wp-content/uploads/letter-"
+        },
+        {
+            "label": "Whistleblower Testimony on the COVID Coverup — U.S. Senate Committee on Homeland Security & Governmental Affairs (hearing page)",
+            "type": "primary",
+            "url": "https://www.hsgac.senate.gov/hearings/whistleblower-testimony-on-the-covid-coverup/"
+        },
+        {
+            "label": "CIA Whistleblower Testifies on Alleged Federal COVID-19 Coverup — C-SPAN (full 93-minute hearing video)",
+            "type": "primary",
+            "url": "https://www.c-span.org/program/senate-committee/cia-whistleblower-testifies-on-alleged-federal-covid-19-coverup/679083"
+        }
+    ],
+    "status": "verified",
+    "notes": "Central record for capture DYYLACQDnG1 (Kaylor Betts reacting to the hearing). The hearing and the sworn testimony are verified primary facts: Erdman testified under subpoena to HSGAC on 2026-05-13; the full 93-min hearing is on C-SPAN; every Democratic senator skipped (Daily Caller, NH Journal 'Dem boycott', Fox). The claim FIELD attributes — these are Erdman's allegations under oath, not adjudicated findings. Fauci has denied steering the IC; the CIA called the hearing 'political theater.' The full written testimony (5,500 words) is archived in the capture dir at hearing/written-testimony-erdman.txt. The reel's reframe 'the CIA was preparing to publicly call this a lab leak on August 12th 2021 and then five days later that changed' compresses the testimony's actual wording: 'Sometime between 12 and 17 August 2021, the CIA changed its assessment from lab incident to a non-consensus determination' — see 2026-covid-origins-002 for the analyst-override detail. Companion records: -002 (analyst override / retaliation), -003 (Fauci curated list vs his 2024 testimony), -004 (the $9M Andersen grant the reel adds)."
+}

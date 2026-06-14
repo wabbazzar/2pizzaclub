@@ -1,0 +1,23 @@
+{
+    "id": "2026-covid-origins-003",
+    "anchor": "y2026-covid-origins",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "intelligence",
+        "public-health"
+    ],
+    "claim": "Erdman testified that Dr. Fauci 'injected himself' into the intelligence community's origin review at two points — February 2020 and a June 4, 2021 interagency meeting as the IC began its 90-day review — and that a senior NIC officer reclassified Fauci as a 'SME rather than a public health official' so his recommendations would be pursued, which Erdman said contradicts Fauci's June 3, 2024 congressional testimony that he 'left the issue of origin of the virus to the experts.'",
+    "sources": [
+        {
+            "label": "Written Testimony of James E. Erdman III, U.S. Senate HSGAC, May 13, 2026 — 'COVID origin chronology' section",
+            "type": "primary",
+            "url": "https://www.hsgac.senate.gov/wp-content/uploads/letter-and-testimomy.pdf",
+            "quote": "4 June 2021, there was an interagency meeting which included Dr. Anthony Fauci. He provided specific guidance regarding the IC's outreach efforts. The NIC officer in charge of the 90-day study proceeded to ensure Dr. Fauci's recommendations were pursued. ... The NIC officer in charge of the 90-day study stated that Dr. Fauci should be considered a SME rather than a public health official. This appears to be in direct contrast to Dr. Fauci's 3 June 2024 testimony where he commented that he was not \"an evolutionary virologist and would not be qualified to do so in any case. I <he> left the issue of origin of the virus to the experts.\"",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://www.hsgac.senate.gov/wp-content/uploads/letter-"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group B (sworn allegation vs. attributed prior testimony) from capture DYYLACQDnG1. Verbatim from Erdman. The juxtaposition is the substance: Erdman's account of Fauci's June 4 2021 interagency guidance set against Fauci's own June 3 2024 House Select Subcommittee testimony that he left origin to the experts. Both are on the record; the reader weighs them. Fauci has consistently denied directing the IC's analysis. The 'Proximal Origin' authors Fauci is said to have steered the IC toward (Andersen, Garry, Holmes, Rambaut) are the same authors of the Feb 1 2020 teleconference Fauci convened with Farrar and Collins — documented separately in the FOIA email record. Record documents the sworn allegation, attributed; the contradiction with the 2024 testimony is Erdman's framing."
+}

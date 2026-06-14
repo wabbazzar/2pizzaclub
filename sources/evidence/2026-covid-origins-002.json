@@ -1,0 +1,23 @@
+{
+    "id": "2026-covid-origins-002",
+    "anchor": "y2026-covid-origins",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "cia",
+        "intelligence"
+    ],
+    "claim": "Erdman testified that by March 2023 a majority of the CIA's 10-person COVID-origins re-look team — six of its seven technical experts — assessed a lab leak, but CIA management, none of whom were subject-matter experts, changed the analytic line to 'we may never precisely know the origin of SARS-CoV-2,' with edits made to the draft at 1:53 a.m. under untracked authorship, after which the lab-leak analysts were passed over while the managers were promoted.",
+    "sources": [
+        {
+            "label": "Written Testimony of James E. Erdman III, U.S. Senate HSGAC, May 13, 2026 — 'COVID origin chronology' section",
+            "type": "primary",
+            "url": "https://www.hsgac.senate.gov/wp-content/uploads/letter-and-testimomy.pdf",
+            "quote": "By March 2023, a majority of the CIA 10-person team still assessed that it was a lab leak. Six of seven technical experts assessed it was a lab leak. CIA management – none of whom were SMEs - changed the analytic line to \"we may never precisely know the origin of SARS-CoV-2.\" ... Changes to the draft CIA assessment were made in the middle of the night – 1:53 am - and the track changes on the word document do not reflect who was making the changes to the wording.",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://www.hsgac.senate.gov/wp-content/uploads/letter-"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group B (sworn allegation, contested) from capture DYYLACQDnG1. Verbatim from Erdman's testimony. These are his attributed claims about internal CIA tradecraft; the CIA disputes the characterization and refused to provide the DIG documents that would corroborate or rebut it (per the testimony itself). Erdman also notes the lab-leak analysts received a $1,500 performance award while at least one zoonosis-favoring non-specialist got 4x that — he frames this as 'the analysts were not bribed,' i.e. the bias was structural, not purchased. The 'we may never precisely know' wording change is, per Erdman, language 'intended to dissuade the IC from further inquiry.' Public CIA position (since Jan 2025) is a low-confidence lab-leak assessment; the chronology here is Erdman's account of how it got there. Record documents the sworn allegation, attributed."
+}

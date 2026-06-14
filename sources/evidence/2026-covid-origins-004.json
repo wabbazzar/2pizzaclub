@@ -1,0 +1,22 @@
+{
+    "id": "2026-covid-origins-004",
+    "anchor": "y2026-covid-origins",
+    "year": 2020,
+    "era": "iv",
+    "themes": ["covid", "public-health"],
+    "claim": "Kristian Andersen, lead author of the 'Proximal Origin' paper that dismissed the lab-leak hypothesis, had a lab that was awarded a roughly $8.9 million NIAID grant in 2020, the year the paper published; Andersen says the grant was applied for in June 2019 and peer-scored in November 2019, before COVID, and calls any quid-pro-quo 'absurd and false.'",
+    "sources": [
+        {
+            "label": "The Intercept: Key Scientist in Covid Origin Controversy Misled Congress on Status of $8.9 Million NIH Grant (July 21, 2023)",
+            "type": "secondary",
+            "url": "https://theintercept.com/2023/07/21/covid-origin-nih-lab-leak/"
+        },
+        {
+            "label": "Testimony of Dr. Kristian G. Andersen, House Select Subcommittee on the Coronavirus Pandemic (July 2023)",
+            "type": "primary",
+            "url": "https://oversight.house.gov/wp-content/uploads/2023/07/Testimony-of-Dr.-Kristian-Andersen.pdf"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group B (contested causal framing of a real grant) from capture DYYLACQDnG1. The reel says 'one of those authors just happened to get handed a $9 million grant from Fauci's agency right after he flipped his answer from lab leak to natural origin.' Pinned to fact: the grant (~$8.9M NIAID 'WARN-ID', awards starting May 2020) and Andersen's documented private shift (his late-Jan 2020 Slack/emails noted features that looked potentially engineered, before Proximal Origin concluded natural origin in March 2020) are both real. What is CONTESTED is the implied quid-pro-quo: Andersen testified the grant was submitted June 2019 and independently peer-scored November 2019 — before the pandemic — and called the exchange-for-conclusions allegation 'absurd and false'; The Intercept reported he nonetheless 'misled Congress on the status' of the grant. This specific claim is NOT in Erdman's CIA testimony — it is the reel's own addition, which is why it is documented with both sides rather than asserted. Note the round-up $8.9M -> '$9 million.'"
+}

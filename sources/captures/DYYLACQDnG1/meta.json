@@ -1,0 +1,34 @@
+{
+  "id": "DYYLACQDnG1",
+  "url": "https://www.instagram.com/reel/DYYLACQDnG1/",
+  "platform": "instagram",
+  "captured_at": "2026-06-14",
+  "handle": "@thekaylorbetts",
+  "author_display_name": "Kaylor Betts | Top 1% Podcast Host",
+  "posted_at": "2026-05-15",
+  "engagement": {
+    "likes": 61729,
+    "comments": 2196
+  },
+  "caption": "You were right 🔥\n\nSend this to everyone who called you a conspiracy theorist for speaking the truth",
+  "hashtags": [],
+  "audio_track_actual": "",
+  "video_overlay_text_observed": "On-screen captions: 'Lab leak COVER-UP', 'so a CIA...'. Speaker is podcaster Kaylor Betts reacting to C-SPAN footage of the May 13 2026 HSGAC hearing (James Erdman III testifying).",
+  "audio_content_summary": "",
+  "implied_frame": "Frames the May 2026 HSGAC whistleblower hearing as vindication that COVID was a covered-up lab leak. Verified facts (Group A): the hearing happened (Erdman testified under subpoena, 2026-05-13, full video on C-SPAN); every Democratic senator skipped it. Verified-as-testimony but ATTRIBUTED allegations (Group B): Fauci's 'intentional' role; the 'conflicted list of curated SMEs' incl. Proximal Origin authors (verbatim from testimony); the Aug 12-17 2021 CIA assessment change (testimony says lab-incident -> non-consensus, reel says 'going to publicly call lab leak'); CIA analysts (6 of 7 technical experts) favoring lab leak before management overrode it; NIH/NIAID funding of EcoHealth->WIV. Reel ADDS a claim not in the testimony: the ~$8.9M ('$9 million') NIAID grant to Proximal Origin author Kristian Andersen 'right after he flipped' — grant real, quid-pro-quo contested (Andersen says applied 2019, calls it 'absurd and false'). Rhetorical (Group C): 'biggest fear and manipulation campaign of all time', 'this was never about science / we were right the whole time'. Full hearing archived at sources/captures/DYYLACQDnG1/hearing/.",
+  "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+  "video_download_status": "Original pulled via yt-dlp (~24.9 MB); delivery ~25.4 MB webm, 162s.",
+  "audio_transcription_status": "Transcribed with openai-whisper.",
+  "evidence_records": [
+    "2026-covid-origins-001",
+    "2026-covid-origins-002",
+    "2026-covid-origins-003",
+    "2026-covid-origins-004"
+  ],
+  "supporting_research_links": [],
+  "editorial_split": {
+    "a": 2,
+    "b": 6,
+    "c": 2
+  }
+}
