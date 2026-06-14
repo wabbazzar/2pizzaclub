@@ -1,0 +1,29 @@
+{
+    "id": "2021-pfizer-papers-001",
+    "anchor": "y2021-pfizer-papers",
+    "year": 2022,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "vaccines",
+        "public-health",
+        "journalism"
+    ],
+    "claim": "The FDA asked a federal court to release its Pfizer COVID-19 vaccine licensing file at 500 pages per month — a pace that would have taken about 75 years — and on January 6, 2022 Judge Mark Pittman instead ordered production of roughly 55,000 pages every 30 days, forcing the ~450,000-page file (later totaling ~1.2 million pages) into public view; the lawsuit was brought by Public Health and Medical Professionals for Transparency (PHMPT), represented by Aaron Siri.",
+    "sources": [
+        {
+            "label": "PHMPT v. FDA — court order, U.S. District Court for the Northern District of Texas (Pittman, J., Jan. 6, 2022); documents hosted at phmpt.org",
+            "type": "court",
+            "url": "https://phmpt.org/",
+            "quote": "The FDA shall produce the remaining documents at a rate of 55,000 pages every 30 days, with the first production being due on or before March 1, 2022, until production is complete.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Fierce Pharma: FDA must hit the gas on FOIA request tied to Pfizer's COVID-19 vaccine, judge orders (Jan. 2022)",
+            "type": "secondary",
+            "url": "https://www.fiercepharma.com/pharma/fda-must-hit-gas-foia-request-tied-to-pfizer-s-covid-19-vaccine-judge-orders"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A from capture DZK7WOJDqIH (Naomi Wolf, reposted by @yourfunctionalpharmacist). The provenance is court record and independently verified: PHMPT v. FDA (Case 4:21-cv-01058-P); FDA proposed 500 pages/month (~75 years / to 2076); Pittman ordered ~55,000 pages/30 days on 2022-01-06; the licensing file was estimated at ~451,000 pages (matches the reel's '450,000'), and the full production later reached ~1.2 million pages. Aaron Siri / Siri & Glimstad represented PHMPT. The released documents are public — this record covers ONLY the release mechanism, which is uncontested. The substantive claims the reel draws FROM those documents (biodistribution framing, 'vaccine failure', the '8 removed deaths') are documented separately and are contested; see 2021-pfizer-papers-002, -003."
+}

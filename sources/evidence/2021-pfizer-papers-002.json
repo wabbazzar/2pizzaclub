@@ -1,0 +1,23 @@
+{
+    "id": "2021-pfizer-papers-002",
+    "anchor": "y2021-pfizer-papers",
+    "year": 2022,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "vaccines",
+        "public-health"
+    ],
+    "claim": "Pfizer's own nonclinical biodistribution study — a single 50 µg intramuscular dose of radiolabeled lipid-nanoparticle/mRNA in Wistar Han rats — showed the lipid distributing beyond the injection site over 48 hours, mainly to the liver (up to 21.5% of the injected dose) and in much smaller amounts to the spleen (≤1.1%), adrenal glands (≤0.1%) and ovaries (≤0.1%), with maximum concentrations at 8–48 hours.",
+    "sources": [
+        {
+            "label": "Pfizer/BioNTech 2.6.5 Pharmacokinetics Written Summary (PF-07302048 / BNT162b2), FOIA-released; hosted at phmpt.org",
+            "type": "primary",
+            "url": "https://phmpt.org/",
+            "quote": "Over 48 hours, distribution was mainly observed to liver, adrenal glands, spleen and ovaries, with maximum concentrations observed at 8-48 hours post-dose. Total recovery (% of injected dose) of radiolabeled LNP+modRNA outside the injection site was greatest in the liver (up to 21.5%) and was much less in spleen (≤1.1%), adrenal glands (≤0.1%) and ovaries (≤0.1%).",
+            "clip_status": "quote-not-found"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group B (disputed framing of a real document) from capture DZK7WOJDqIH. The document and the organ-distribution finding are real and verified: the LNP does not stay solely in the deltoid; it distributes, with the liver the dominant site. What the reel adds beyond the document is NOT in the study: (1) it was a SINGLE dose in RATS, not evidence of per-injection accumulation in humans — the reel's 'first injection some accumulates in your ovaries, second more, booster more, no way the body clears it' is unsupported extrapolation; (2) ovaries received ≤0.1% of dose vs the liver's 21.5% (~215x more) — the reel foregrounds ovaries and omits the magnitude; (3) the study does not show the spike protein 'crossing the blood-brain barrier' to cause 'personality changes' (invented), nor 'industrial fats blocking ovaries' / nurses seeing blocked ovaries (anecdote, no primary trace) — those are Group C and are not recorded. PEG/ALC-0159 and ALC-0315 are the novel LNP excipients studied. Record states what the primary document found and the context the reel drops."
+}

@@ -1,0 +1,23 @@
+{
+    "id": "2021-pfizer-papers-003",
+    "anchor": "y2021-pfizer-papers",
+    "year": 2021,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "vaccines",
+        "public-health"
+    ],
+    "claim": "Pfizer's FOIA-released 5.3.6 cumulative analysis of post-authorization adverse-event reports (through 28 February 2021) logged 42,086 case reports containing 158,893 events, including 1,223 deaths, and a 'lack of efficacy' category of 1,665 reports (1,646 coded 'Drug ineffective', 19 'Vaccination failure'); the same document states 'No new safety signals of vaccine lack of efficacy have emerged.'",
+    "sources": [
+        {
+            "label": "Pfizer 5.3.6 Cumulative Analysis of Post-authorization Adverse Event Reports of PF-07302048 (BNT162b2) received through 28-FEB-2021, FOIA-released",
+            "type": "primary",
+            "url": "https://phmpt.org/wp-content/uploads/2021/11/5.3.6-postmarketing-experience.pdf",
+            "quote": "Cumulatively, through 28 February 2021, there was a total of 42,086 case reports (25,379 medically confirmed and 16,707 non-medically confirmed) containing 158,893 events.",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://phmpt.org/wp-content/uploads/2021/11/5.3.6-post"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group B (disputed framing of a real document) from capture DZK7WOJDqIH. Verified numbers from the primary 5.3.6 doc: 42,086 case reports / 158,893 events / 1,223 fatal; lack-of-efficacy category 1,665 (1,646 'Drug ineffective' + 19 'Vaccination failure'); 155 suspected + 228 confirmed COVID-19 following vaccination. These reports exist. But the reel's interpretation overshoots the document: (1) the doc's own conclusion is 'No new safety signals of vaccine lack of efficacy have emerged' — it is a pharmacovigilance line listing of spontaneous reports, NOT an efficacy trial, and adverse-event reports are not confirmed causation; (2) the reel's 'COVID is literally the third most common side effect' is NOT supported by the document's frequency table — the top reported preferred terms are reactogenicity: headache (~24%), pyrexia (~18%), fatigue (~17%), chills, nausea, injection-site pain; 'drug ineffective' (~3.9%) does not rank third. That specific 'third most common = COVID' claim is Group C. The 1,223 deaths figure is a count of spontaneously reported deaths in a global mass rollout, not a finding that the vaccine caused 1,223 deaths. Record documents the real numbers AND the document's own framing per the reader-chooses ethos."
+}

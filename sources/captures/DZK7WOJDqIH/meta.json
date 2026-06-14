@@ -1,0 +1,39 @@
+{
+  "id": "DZK7WOJDqIH",
+  "url": "https://www.instagram.com/reel/DZK7WOJDqIH/",
+  "platform": "instagram",
+  "captured_at": "2026-06-14",
+  "handle": "@yourfunctionalpharmacist",
+  "author_display_name": "YourFunctionalPharmacist.Wachal",
+  "posted_at": "2026-06-04",
+  "engagement": {
+    "likes": 4621,
+    "comments": 179
+  },
+  "caption": "🚨Pfizer knew vaccine doesn’t work to stop COVID with documents stating vaccine failure and failure of efficacy\n\nPfizer removed 8 COVID infected people that were vaccinated and died so they could falsely claim that you’re better off not being hospitalized and dying if you get vaccinated so they could get EUA.\n\nPfizer documents show that COVID-19 injections biodistribute in 48 hours and accumulates in liver, adrenals, spleen, lymphatic system, ovaries, and crosses the blood brain barrier. No method that the body gets rid of it. \n\nAll in Pfizer’s internal trial data. They knew. No warnings, no recalls, still on the market. Not in the news, media coverage, just silence. FDA confidentiality. We only know now because Aaron Siri sued the FDA under Freedom of Information Act (FOIA) and Naomi Wolf’s team (DailyClout) that involved thousands of doctors and scientists reviewing 450,000 pages of released documents with findings now compiled in the book “The Pfizer Papers: Pfizer’s Crimes Against Humanity” \n\nNot advice, just Pfizer data and transparency. \n\nThanks for learning with me!❤️\n-Michaela \n\n#Pfizer #COVID #Corruption #InformedConsent #LearningTogether",
+  "hashtags": [
+    "Pfizer",
+    "COVID",
+    "Corruption",
+    "InformedConsent",
+    "LearningTogether"
+  ],
+  "audio_track_actual": "",
+  "video_overlay_text_observed": "On-screen captions: 'Pfizer knew. Greatest crime against humanity.' / 'Massive transfer of wealth based on a lie.' Guest book cover visible: 'The Pfizer Papers' (Naomi Wolf).",
+  "audio_content_summary": "",
+  "implied_frame": "Frames the FOIA-released Pfizer documents as proof of a deliberate 'crime against humanity'. Verified primary facts: the documents are public via PHMPT v. FDA (75-year proposal -> court-ordered 55k pages/month); the biodistribution study shows LNP distributing beyond the injection site (mainly liver 21.5%, ovaries <=0.1%, single rat dose); the 5.3.6 cumulative analysis logged 1,665 lack-of-efficacy reports and 1,223 deaths but concludes 'no new safety signals of vaccine lack of efficacy.' Contested/invented framings the reel adds: 'removed 8 vaccinated deaths to get EUA' (DailyClout reanalysis, not an FDA finding); 'COVID is the 3rd most common side effect' (not in the doc's frequency table — top AEs are headache/fever/fatigue); per-dose human ovary accumulation / 'blocked ovaries' / spike crossing the blood-brain barrier causing 'personality changes' (no primary trace).",
+  "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+  "video_download_status": "Original pulled via yt-dlp (~11.5 MB); delivery ~12.2 MB webm, 170s.",
+  "audio_transcription_status": "Transcribed with openai-whisper.",
+  "evidence_records": [
+    "2021-pfizer-papers-001",
+    "2021-pfizer-papers-002",
+    "2021-pfizer-papers-003"
+  ],
+  "supporting_research_links": [],
+  "editorial_split": {
+    "a": 1,
+    "b": 3,
+    "c": 4
+  }
+}
