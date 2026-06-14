@@ -1,0 +1,36 @@
+{
+    "id": "1865-judah-benjamin-001",
+    "anchor": "y1865-lincoln",
+    "year": 1865,
+    "era": "i",
+    "themes": [
+        "war",
+        "finance"
+    ],
+    "claim": "Judah P. Benjamin (1811–1884), a New Orleans lawyer and former U.S. Senator from Louisiana, held three successive posts in the Confederate cabinet: Attorney General (1861), Secretary of War (1861–1862), and Secretary of State (1862–1865) — the highest offices reached by a Jewish official in either wartime government. In the 1840s he had acquired the Bellechasse sugar plantation below New Orleans and roughly 140 enslaved people to work it. In 1853 he was offered a U.S. Supreme Court nomination (by President Fillmore, and reportedly again under Pierce) and declined it. When Richmond fell in April 1865 he fled south with Jefferson Davis's cabinet, separated from the party, and escaped in disguise through Florida to England, reaching Southampton on August 30, 1865. He never stood trial; an 1867 treason indictment naming him was quashed. He was admitted to the English bar at Lincoln's Inn in 1866, took silk as a Queen's Counsel, built a lucrative appellate practice, and died in Paris in 1884.",
+    "sources": [
+        {
+            "label": "American Battlefield Trust — biography of Judah Philip Benjamin.",
+            "type": "secondary",
+            "url": "https://www.battlefields.org/learn/biographies/judah-phillip-benjamin",
+            "quote": "Judah Philip Benjamin served as the Attorney General, Secretary of War, and Secretary of State for the Confederacy.",
+            "clip": "clips/1865-judah-benjamin-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "American Battlefield Trust — biography of Judah Philip Benjamin (post-war flight and English legal career).",
+            "type": "secondary",
+            "url": "https://www.battlefields.org/learn/biographies/judah-phillip-benjamin",
+            "quote": "After evading Union capture following the surrender at Appomattox, Benjamin left the United States for England where he practiced law until his death in 1889.",
+            "clip": "clips/1865-judah-benjamin-001-01.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "Wikipedia — Judah P. Benjamin (Bellechasse plantation and slaveholding, 1865 escape to Southampton, admission to Lincoln's Inn, declined 1853 Supreme Court nomination).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Judah_P._Benjamin"
+        }
+    ],
+    "status": "verified",
+    "notes": "Verifiable-kernel record paired with 1863-erlanger-loan-001. Benjamin's cabinet posts, slaveholding, declined 1853 Court seat, and 1865 escape to England are documented mainstream history. The American Battlefield Trust biography gives the death year as 1889; the standard date is 1884 (Eli N. Evans, Judah P. Benjamin: The Jewish Confederate, and Wikipedia) — claim uses 1884. This record states the biography only; it does not adopt the downstream framing that casts Benjamin as the agent of a banking conspiracy that 'directed' Davis or engineered the war (see capture DXw_eXbumff implied_frame). Source AJHS article cited in that capture — Abby Ben-Ur, 'The Brains of the Confederacy: The Life of Judah P. Benjamin' (ajhs.org, 2024) — is a genuine American Jewish Historical Society piece and corroborates the biographical facts."
+}

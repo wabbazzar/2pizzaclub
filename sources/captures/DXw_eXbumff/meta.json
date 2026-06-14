@@ -19,8 +19,16 @@
     "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
     "video_download_status": "Original pulled via yt-dlp (~29.8 MB); delivery ~30.4 MB webm, 164s.",
     "audio_transcription_status": "Transcribed with openai-whisper.",
-    "editorial_split": {"a": 0, "b": 9, "c": 4},
-    "evidence_records": [],
+    "editorial_split": {
+        "a": 3,
+        "b": 7,
+        "c": 4
+    },
+    "evidence_records": [
+        "1865-judah-benjamin-001",
+        "1863-erlanger-loan-001",
+        "1865-lincoln-bankers-quote-001"
+    ],
     "supporting_research_links": [
         "https://www.britannica.com/event/Erlanger-Loan",
         "https://www.battlefields.org/learn/biographies/judah-phillip-benjamin",

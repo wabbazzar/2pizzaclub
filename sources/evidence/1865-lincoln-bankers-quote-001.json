@@ -1,0 +1,25 @@
+{
+    "id": "1865-lincoln-bankers-quote-001",
+    "anchor": "y1865-lincoln",
+    "year": 1865,
+    "era": "i",
+    "themes": [
+        "finance",
+        "journalism"
+    ],
+    "claim": "The quotation widely attributed to Abraham Lincoln — \"I have two great enemies, the Southern Army in front of me and the bankers in the rear. Of the two, the one at my rear is my greatest foe\" — is apocryphal. It appears in none of Lincoln's documented letters, speeches, or papers as collected in Roy P. Basler's authoritative Collected Works of Abraham Lincoln, and there is no contemporary (1860s) record of him saying or writing it. The line belongs to a genre of fabricated Lincoln anti-banker quotations that surfaced decades after his death and circulated in monetary-policy debates from the 1890s onward. The best-known anchor of that genre — a purported 1864 Lincoln letter to Col. William F. Elkins warning that 'corporations have been enthroned' — was denounced as a forgery by Lincoln's own secretary John Nicolay and was nonetheless laundered into print through Emanuel Hertz's 1931 Abraham Lincoln: A New Portrait and Archer H. Shaw's 1950 Lincoln Encyclopedia. The 'two great enemies' line is a separate fabrication in the same family; no primary source supports it.",
+    "sources": [
+        {
+            "label": "The Collected Works of Abraham Lincoln, ed. Roy P. Basler (Abraham Lincoln Association / Rutgers University Press, 1953) — the authoritative compilation of Lincoln's writings and speeches; the quotation does not appear in it. Full text online via the University of Michigan.",
+            "type": "primary",
+            "url": "https://quod.lib.umich.edu/l/lincoln/"
+        },
+        {
+            "label": "Snopes — fact-check of the fabricated Lincoln 'corporations have been enthroned' letter, documenting the forged 1864 Elkins letter, its denunciation by John Nicolay, and its laundering through Hertz (1931) and Shaw's Lincoln Encyclopedia (1950).",
+            "type": "secondary",
+            "url": "https://www.snopes.com/fact-check/abraham-lincolns-capitalism-prophecy/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Debunk record. This quotation is the centerpiece of the caption on capture DXw_eXbumff (where it is rendered as a genuine Lincoln statement) and is spoken in the reel as 'I have two enemies, the south in front of me and the banks behind me.' Care taken NOT to conflate two distinct fabricated quotes: the forged 1864 Elkins letter contains the 'corporations have been enthroned / money power' text, NOT the 'two great enemies / bankers in the rear' wording. The verifiable, citable fact is that the 'two great enemies' line is absent from the Collected Works and has no contemporary provenance; it travels in the same fabricated-Lincoln-on-bankers genre that the documented Elkins forgery anchors. Snopes's page addresses that genre and the Elkins forgery specifically. Claim asserts only the documented absence/apocryphal status, not a specific origin date for this exact wording."
+}

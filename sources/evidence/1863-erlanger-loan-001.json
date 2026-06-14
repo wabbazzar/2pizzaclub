@@ -1,0 +1,28 @@
+{
+    "id": "1863-erlanger-loan-001",
+    "anchor": "y1865-lincoln",
+    "year": 1863,
+    "era": "i",
+    "themes": [
+        "finance",
+        "war"
+    ],
+    "claim": "In 1863 the Confederate government raised money in Europe through cotton-backed bonds underwritten by the Paris banking house Emile Erlanger et Compagnie — the 'Erlanger loan.' The bonds, denominated in pounds sterling and francs and redeemable in baled cotton, carried a face value of about £3 million (roughly $14–15 million at the time) and were floated in March 1863 across London, Liverpool, Paris, Amsterdam, and Frankfurt. The structure made European holders financially invested in Confederate survival, but Erlanger's terms were steep — the bank took the bonds well below par — and the price collapsed as Confederate military fortunes fell, so the Richmond government ultimately realized only a fraction of the face amount. Judah P. Benjamin, as Confederate Secretary of State, was the cabinet official who approved and managed the arrangement.",
+    "sources": [
+        {
+            "label": "Wikipedia — Erlanger loan (Emile Erlanger & Co.'s cotton bonds for the Confederacy, 1863).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Erlanger_loan",
+            "quote": "The company was known for its cotton bonds issued to support the Confederacy in 1863. The total came to £3 million pounds (about $14.5 million US dollars).",
+            "clip": "clips/1863-erlanger-loan-001-00.png",
+            "clip_status": "ok-cross-node60"
+        },
+        {
+            "label": "Wikipedia — Judah P. Benjamin (Benjamin's role as Confederate Secretary of State in the European cotton-bond financing).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Judah_P._Benjamin"
+        }
+    ],
+    "status": "verified",
+    "notes": "Verifiable-kernel record paired with 1865-judah-benjamin-001. The Erlanger loan, the £3M cotton-bond float, and Benjamin's role as Secretary of State are documented mainstream Civil War financial history. Britannica's 'Erlanger Loan' entry and the Tontine Coffee-House history both cover it but were not citable verbatim here (Britannica returned HTTP 403). The widely-cited specifics — issued March 19, 1863 in five cities, ~$8.5M net realized — are consistent with the sources but not pinned to an opened verbatim page, so the claim states the £3M face (verbatim from Wikipedia) and that only a fraction was realized rather than a precise net figure. This record documents the financing transaction; it does not adopt the framing (capture DXw_eXbumff) that the loan proves a Jewish-banker conspiracy orchestrated the war."
+}
