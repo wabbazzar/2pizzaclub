@@ -1,0 +1,15 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-06-14, openai-whisper base.en
+
+— FULL TEXT —
+
+The COVID vaccine, actually now it's very disturbing. There's actually over 100 studies now that
+indicate there's 17 distinct mechanisms that the mRNA injections may induce cancer.
+In fact, two population studies just came out in the past year or so. 8.7 million people combined.
+They found the COVID shots increase your risk of seven major cancers, bladder, breast, thyroid,
+colorectal, gastric cancer, all of these cancers were up. They compared vaccinated to unvaccinated.
+And so we're seeing these cancers. We see CDC data over 100,000 excess cancer deaths in the United
+States since 2021 since the vaccines rolled out. So it's a very concerning situation.
+
+— END —

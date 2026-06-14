@@ -1,0 +1,30 @@
+{
+    "id": "2025-mrna-cancer-001",
+    "anchor": "y2025-mrna-cancer",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "vaccines",
+        "public-health"
+    ],
+    "claim": "Two 2025 peer-reviewed cohort studies of COVID-vaccinated vs. unvaccinated people — a South Korean dataset of 8.4 million and an Italian provincial dataset of ~296,000 — each reported statistically significant elevated hazard ratios for several cancers in the vaccinated group; both studies report associations, not causation, and the Italian study's cancer signal reversed when a 12-month lag was imposed and found lower all-cause mortality among the vaccinated.",
+    "sources": [
+        {
+            "label": "Biomarker Research (2025): 1-year risks of cancers associated with COVID-19 vaccination — population cohort, South Korea (n=8,407,849)",
+            "type": "primary",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41013858/",
+            "quote": "thyroid (HR, 1.351), gastric (HR, 1.335), colorectal (HR, 1.283), lung (HR, 1.533), breast (HR, 1.197), and prostate (HR, 1.687) cancers significantly increased at 1 year post-vaccination",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "EXCLI Journal (2025): COVID-19 vaccination, all-cause mortality, and hospitalization for cancer — 30-month cohort, Pescara province, Italy (n=296,015)",
+            "type": "primary",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40881928/",
+            "quote": "those receiving ≥1 dose showed a significantly lower likelihood of all-cause death, and a slightly higher likelihood of hospitalization for cancer (HR: 1.23; 95% CI: 1.11-1.37). The latter association ... was reversed when the minimum time between vaccination and cancer hospitalization was set to 12 months.",
+            "clip_status": "quote-not-found"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group B (disputed causal framing) from capture DZgKeEexW5w (Nicolas Hulscher, MPH, McCullough Foundation). The two studies and their reported hazard ratios are real and verified. What is contested is the causal leap the reel makes ('the COVID shots increase your risk of cancer'): both are observational cohort studies reporting associations; the Korean authors do not claim causation; the Italian authors' own analysis shows the cancer-hospitalization signal vanishing/reversing at a 12-month minimum lag (consistent with detection/reverse-causation bias) AND a LOWER all-cause death rate in the vaccinated, which the reel omits. The caption's per-cancer percentages are a composite cherry-picked across the two studies: prostate +69%, lung +53%, thyroid +35%, stomach/gastric +34% match the Korean HRs exactly; colon +35% and breast +54% and bladder +62% do not cleanly match the Korean point estimates (Korean breast was +20%, colorectal +28%) and appear pulled from subgroups or the Italian set. Record documents both sides per the 'reader chooses' ethos. NOT counted as Group A — it documents what researchers reported, which is the reel's disputed framing. Caption claim 'CDC data: 100,000 excess cancer deaths since 2021' is Group C — no CDC source supports it; CDC/SEER data show age-adjusted cancer death rates continuing to decline (146.2 per 100k in 2019, falling). The '100+ studies / 17 mechanisms' figure is the McCullough Foundation's own advocacy literature review, not an independent finding."
+}

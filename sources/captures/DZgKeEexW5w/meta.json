@@ -1,0 +1,31 @@
+{
+  "id": "DZgKeEexW5w",
+  "url": "https://www.instagram.com/reel/DZgKeEexW5w/",
+  "platform": "instagram",
+  "captured_at": "2026-06-14",
+  "handle": "@nic.hulscher",
+  "author_display_name": "Nicolas Hulscher",
+  "posted_at": "2026-06-12",
+  "engagement": {
+    "likes": 1708,
+    "comments": 105
+  },
+  "caption": "COVID-19 “VACCINES” INCREASE YOUR RISK OF 7 MAJOR CANCERS\n\n1. Breast: +54%\n2. Prostate: +69%\n3. Lung: +53%\n4. Bladder: +62%\n5. Colon: +35%\n6. Stomach: +34%\n7. Thyroid: +35%\n\nThis is based on two MASSIVE vaccinated vs. unvaccinated studies involving 8.7 MILLION people.",
+  "hashtags": [],
+  "audio_track_actual": "",
+  "video_overlay_text_observed": "Cover card: 'COVID-19 “VACCINES” INCREASE YOUR RISK OF 7 MAJOR CANCERS' + per-cancer percentages (Breast +54%, Prostate +69%, Lung +53%, Bladder +62%, Colon +35%, Stomach +34%, Thyroid +35%); lower-third 'NICOLAS HULSCHER, MPH'.",
+  "audio_content_summary": "",
+  "implied_frame": "Frames the COVID mRNA vaccine as a cause of a cancer epidemic ('turbo cancer'). The two cited cohort studies (S. Korea n=8.4M; Italy n=296K) are real and report elevated cancer hazard ratios in vaccinated cohorts, but both are observational and report associations, not causation — the Italian study's signal reverses at a 12-month lag and shows lower all-cause death in the vaccinated. The caption's 7-cancer percentage list is a composite cherry-picked across the two studies. The '100,000 excess cancer deaths since 2021' CDC figure is unsupported (CDC/SEER show cancer death rates declining); the '100+ studies / 17 mechanisms' is the McCullough Foundation's own literature review.",
+  "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+  "video_download_status": "Original pulled via yt-dlp (~4.3 MB); delivery ~4.4 MB webm, 46s.",
+  "audio_transcription_status": "Transcribed with openai-whisper.",
+  "evidence_records": [
+    "2025-mrna-cancer-001"
+  ],
+  "supporting_research_links": [],
+  "editorial_split": {
+    "a": 0,
+    "b": 3,
+    "c": 1
+  }
+}
