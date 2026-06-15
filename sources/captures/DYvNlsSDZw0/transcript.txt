@@ -1,0 +1,12 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-06-15, openai-whisper base.en
+
+— FULL TEXT —
+
+But why is the destruction that I'm sorry, why is the destruction, it looks like a cause of our tanks
+Attack, fight on them, because they were blocked in these houses and we needed to conquer back the whole settlement and it couldn't be happened without the tanks
+So how many were here and then how many survived, how many did you get?
+No one survived from this house and from other buildings we rescued many, but from this house 19 people died among them, eight children.
+
+— END —

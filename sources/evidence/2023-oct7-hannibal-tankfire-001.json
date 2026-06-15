@@ -1,0 +1,49 @@
+{
+    "id": "2023-oct7-hannibal-tankfire-001",
+    "anchor": "y2023",
+    "year": 2023,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "idf"
+    ],
+    "claim": "On October 7, 2023, IDF commanders invoked the “Hannibal Directive” — a standing Israeli operational order that authorizes using force to stop soldiers from being taken captive, accepting the risk of killing the captives in the process — during the fighting in the border communities and bases. A July 2024 Haaretz investigation, drawing on military documents and soldier testimony, reported that Hannibal-style orders were issued at the Erez (Beit Hanoun) crossing, the Re'im base, and the Nahal Oz outpost, and that a directive went out hours into the attack that “not a single vehicle can return to Gaza,” understood as covering vehicles that might carry kidnapped Israelis. Separately, IDF tank and helicopter fire struck homes and vehicles in the kibbutzim during the operation to retake them. In a filmed walkthrough of Be'eri, Lt. Col. Golan Vach, commander of the IDF's National Rescue Unit, said of one destroyed house that the destruction was caused by Israeli tank fire and that 19 people died there, among them eight children. How many of the roughly 1,200 people killed on October 7 — including hundreds of Israeli civilians — died from IDF fire rather than from the Hamas-led attackers is not established in the public record and is disputed. The IDF says the civilians in the Be'eri house were killed by Hamas and that no civilians inside the building were harmed by tank-shell fire; PolitiFact, reviewing the same footage, rated as false the claim that Vach admitted Israeli forces killed handcuffed captives, finding he said only that tanks destroyed the building. The documented record supports that IDF fire killed some Israelis on October 7; the claim that it killed most of the Israeli civilian dead is unsupported.",
+    "sources": [
+        {
+            "label": "Haaretz — “IDF Ordered Hannibal Directive on October 7 to Prevent Hamas Taking Soldiers Captive” (July 7, 2024). Investigation based on military documents and soldier testimony.",
+            "type": "primary",
+            "url": "https://www.haaretz.com/israel-news/2024-07-07/ty-article-magazine/.premium/idf-ordered-hannibal-directive-on-october-7-to-prevent-hamas-taking-soldiers-captive/00000190-89a2-d776-a3b1-fdbe45520000"
+        },
+        {
+            "label": "The Times of Israel — “IDF officers invoked defunct ‘Hannibal Protocol’ during Oct. 7 fighting — report” (summary of the Haaretz investigation).",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/idf-officers-invoked-defunct-hannibal-protocol-during-oct-7-fighting-report/"
+        },
+        {
+            "label": "Anadolu Agency — “Role of Israeli tanks in deaths of Israeli civilians back in spotlight.” Quotes Lt. Col. Golan Vach's on-camera statement at Be'eri.",
+            "type": "secondary",
+            "url": "https://www.aa.com.tr/en/middle-east/-role-of-israeli-tanks-in-deaths-of-israeli-civilians-back-in-spotlight/3074668",
+            "quote": "This destruction is due to the attack by our tanks. Since these houses were seized by Hamas, we had to reclaim the entire settlement. It wouldn't have been possible without tanks.",
+            "clip": "clips/2023-oct7-hannibal-tankfire-001-02.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "PBS NewsHour / Associated Press — “Israel admits string of errors on Oct. 7, says tank strike on home did not kill Israelis.” The IDF's countering account of the Be'eri house.",
+            "type": "secondary",
+            "url": "https://www.pbs.org/newshour/world/israel-admits-string-of-errors-on-oct-7-says-tank-strike-on-home-did-not-kill-israelis",
+            "quote": "no civilians inside the building were harmed by tank shell fire",
+            "clip": "clips/2023-oct7-hannibal-tankfire-001-03.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "PolitiFact — “Video doesn't show Israeli army commander saying he killed civilians” (Dec. 18, 2023). Rated False.",
+            "type": "secondary",
+            "url": "https://www.politifact.com/factchecks/2023/dec/18/tiktok-posts/video-doesnt-show-israeli-army-commander-saying-he",
+            "quote": "Vach said the building was destroyed by Israeli tanks, but he did not say the Israeli military handcuffed the couples in the building before destroying the building, as the claim implies.",
+            "clip": "clips/2023-oct7-hannibal-tankfire-001-04.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Companion to 2023-oct7-idf-response-001 under y2023. Documents the Hannibal-Directive thread and the Golan Vach Be'eri footage, presenting both the primary facts (Hannibal orders invoked per Haaretz; IDF tank/helicopter fire hit homes and vehicles during the retaking of the kibbutzim; the Vach video is authentic and the quote is real) and the dispute over causation (IDF says Hamas killed the Be'eri-house civilians; PolitiFact rated the 'Vach admitted IDF killed handcuffed captives' viral framing False). The reel that surfaced this asserts the footage is a 'smoking gun' proving the IDF killed 'most' of the ~700 Israeli civilians who died on Oct 7 — that scale is unsupported; what is documented is that IDF fire killed some Israelis (e.g. the Be'eri tank-shelling testimony of Omri Shifroni, and reporting that helicopter fire struck the Nova festival crowd). Accounts of the breakdown of the 19 dead in the Vach house vary across reports and are not settled; the claim deliberately states only '19 ... among them eight children' as Vach said it. The reel's cover card ('this video is now illegal in Israel; sharing it carries 5 years in prison') has no primary trace — Group C, not recorded. Editorial split a/b/c = 1/4/1."
+}

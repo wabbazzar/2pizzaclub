@@ -1,0 +1,31 @@
+{
+    "id": "DYvNlsSDZw0",
+    "url": "https://www.instagram.com/reel/DYvNlsSDZw0/",
+    "platform": "instagram",
+    "captured_at": "2026-06-15",
+    "handle": "@peacelovejustice4all",
+    "author_display_name": "Marwan Saleh",
+    "posted_at": "2026-05-24",
+    "engagement": {
+        "likes": 20461,
+        "comments": 974
+    },
+    "caption": "This video is a smoking gun that proves the IDF killed many, or possibly even most of the Israeli civilians killed on October 7th (link below).\n\nIt’s of Israeli Lt. Col. Golan Vach, speaking in front of one of the MANY Israeli homes the IDF blew up on that day with hostages inside. He literally said “this destruction was caused by our tank” and “from this house, 19 people died, among them 8 children”. \n\nSo exactly how many of the roughly 700 Israeli civilians and 36 Israeli children that tragically died on October 7th, died in the many dozens of homes and cars that the IDF blew up with tank shells and helicopter rockets? \n\nThis and the debunking of Israel’s other many lies about that day, is obviously why it still won’t allow the UN to investigate its October 7th claims.\n\n@highlight",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Cover card: “This video is now illegal in Israel. If you share this video you could be sent to prison for 5 years. Seriously.” Lower overlay: “If anyone still doubts that Israel killed many, or even most of the 36 Israeli children who died on October 7th, listen to this Israeli lieutenant.” Pull-quote: “It was caused by our tanks” — Lt. Col. Golan Vach.",
+    "audio_content_summary": "Footage of an interviewer walking IDF Lt. Col. Golan Vach (commander of the National Rescue Unit) through a destroyed house at Be'eri. Vach attributes the building's destruction to Israeli tank fire used to retake the settlement, and says 19 people died in that house, among them eight children.",
+    "implied_frame": "Frames the Vach clip as a 'smoking gun' proving the IDF killed many — possibly most — of the ~700 Israeli civilians and 36 Israeli children who died on Oct 7, via tank shells and helicopter rockets fired at homes/cars holding hostages, and ties this to Israel barring a UN investigation. Real documented kernel: the Hannibal Directive was invoked on Oct 7 (Haaretz) and IDF fire killed some Israelis. Disputed: the causal claim about the Be'eri house (IDF says Hamas killed them; PolitiFact rated the 'admitted killing handcuffed captives' framing False) and the scale ('most'). Cover-card claim that the video is illegal in Israel / 5 years' prison to share has no primary trace (Group C).",
+    "editorial_split": {
+        "a": 1,
+        "b": 4,
+        "c": 1
+    },
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~3.1 MB); delivery ~3.4 MB webm, 54s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2023-oct7-hannibal-tankfire-001"
+    ],
+    "supporting_research_links": []
+}
