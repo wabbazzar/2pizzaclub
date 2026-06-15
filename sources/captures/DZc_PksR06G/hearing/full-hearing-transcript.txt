@@ -1,0 +1,887 @@
+Source: Rumble (Sen. Ron Johnson release, May 26, 2026)
+Hearing: U.S. Senate Permanent Subcommittee on Investigations,
+         "Unmasked: How Biden Health Officials Purposely Turned a Blind Eye
+         Toward COVID-19 Vaccine Safety Signals", April 29, 2026 (1h57m)
+Chair: Sen. Ron Johnson (PSI). Witnesses: David Wiseman PhD, Karl Jablonowski PhD, Maria Young.
+URL: https://rumble.com/v794wy0-how-biden-health-officials-purposely-turned-a-blind-eye-toward-covid-19-vac.html
+Transcribed: 2026-06-15, openai-whisper base.en (machine transcript; leading dead-air artifact removed; verify against video before quoting)
+
+— FULL HEARING TRANSCRIPT —
+
+Good afternoon.
+This hearing of the U.S. Senate permanent subcommittee investigations will come to order.
+I want to first thank the witnesses for your time and effort in appearing here today in
+free testimony.
+In conjunction with this hearing, I am releasing an interim report titled Unmasked How Biden
+Health Officials Purposely Turn to Blind Eye Toward COVID-19 Vaccine, or I call them
+in injury safety signals.
+I urge everyone tuning in to today's hearing to read the full report to determine for
+yourself how the title is as accurate as it is incriminating.
+To set the stage for what follows, let me remind everyone that Dr. David Morins now indicted
+for this under conspiracy and destruction of records charges, he was an advisor to Anthony
+Fauci e-mailed to colleagues on how to evade freedom of information requests, quote, I
+learned from our FOIA lady here how to make emails disappear, and how he wanted, quote,
+correspondence on sensitive issues to be sent to me at my Gmail address, unquote.
+Including this report is additional evidence of how federal health officials avoided creating
+a paper trail to prevent transparency in public disclosure, in discussing how they've been
+warned of a major limitation of FDA's data mining system.
+One senior FDA official wrote, quote, we should meet internally.
+Many considerations not suited to e-mail, unquote.
+Other federal officials appeared to have openly acknowledged that they were actively attempting
+to avoid transparency.
+A CDC official discussing the sharing of vaccine safety data stated, quote, I think because
+of the FOIA's, we may have asked FDA to stop sending these weekly data mining outputs,
+unquote.
+In spite of their concerted effort to conceive what they knew and when they knew it, documents
+we've retained thanks to Secretary Candy's responsiveness to my subpoena and his commitment
+to radical transparency paint a clear picture of an obvious cover-up by federal health officials.
+Our report shows how FDA officials were warned and fully aware of their safety surveillance
+system's inability to adjust for a statistical phenomenon called masking, which according
+to medical researchers occurs when, quote, signals for a vaccine of interest are hidden
+by presence of other reported vaccines, unquote.
+Rather than using a newer state-of-the-art system that can adjust for masking, Biden
+health officials purposefully chose to employ the older system that conceals the signals
+for serious adverse events associated with the COVID injection.
+Throughout 2021, FDA officials received multiple analyses from the state-of-the-art system
+showing statistically significant safety signals for adverse events, but made a conscious
+decision to ignore that data.
+On October 22, 2020, CDC's Tom Shimabukuro touted VAERS by saying it can, quote, rapidly
+detect safety signals and can detect rare adverse events, unquote.
+But an email a year later, when VAERS was reporting worldwide adverse events of 837,595
+and 17,619 deaths, Dr. Shimabukuro stated, quote, it's not
+a database that should be used for serious surveillance and research.
+And we have up on the screen a chart that I produced almost weekly once I started tracking
+this.
+And you'll notice it compares different drugs, adverse events reported, those things, deaths,
+deaths per year.
+You'll see at the top of the chart, Ivermectin appears to be a pretty safe drug at the very
+bottom, COVID vaccines.
+And again, this is in October of 2021, 17,619 deaths.
+It's important to note that 32% of those occurred either on the day of vaccination or
+within one or two days of vaccination.
+I know VAERS doesn't prove causation, but that is a correlation that federal health
+officials ought to be looked at.
+In reaction to the skyrocketing number of deaths and adverse events, other Biden administration
+and federal health officials were also publicly denigrating VAERS with comments like, quote,
+falsified VAERS report, potentially misleading VAERS posts, frequently misused by anti-vaccine
+activists, and, quote, conspiracy theorists, science deniers, and anti-vaccine activists
+can fill out the form.
+Now, this is quite honestly contrary to reports in terms of the high percentage that are
+actually reported by medical professionals.
+The federal health agencies had to be sued twice before a court finally forced them to
+disclose the results of the VSA system, an online self-reporting safety for surveillance
+system created specifically for the mRNA COVID injections.
+Here's why they fought so hard to keep that from public view.
+The 10 million people who voluntarily provided information to VSAFE, 7.7 percent, sought
+medical care for COVID injection adverse events, and 25 percent lost time at work or couldn't
+perform their daily routine following injection.
+Even though I wrote 21 letters requesting information on what the agencies were tracking and what
+they knew about adverse events, I didn't need sophisticated mathematical models to tell
+me the COVID injection was causing significant harm.
+The data depicted on these charts alone should have raised the alert level to DEFCON-1.
+Now, this first chart is showing deaths reported on VAERS since the inception of VAERS.
+You can see, starting in 1990, deaths were approximately a couple hundred per year,
+and anaphylactic shock, those types of things.
+In 2021, deaths spiked to 21,631.
+Now, again, I didn't need a mathematical algorithm to tell me there's something going
+on here.
+And by the way, a lot of people say, well, that's because we administered billions of doses.
+One of the letters I wrote to the CDC showed the rate of death per dose compared to the
+flu, which is about .46 deaths per million doses.
+Time we calculated this, the COVID injection was 25.5 deaths per million doses.
+That's a 55-fold increase over the deaths for the flu vaccine.
+So something was going on here.
+Our federal health officials should be paying attention.
+Let's do the next chart.
+This is the most up-to-date VAERS chart now.
+It's showing 39,077 deaths worldwide reported to VAERS, and understand, and we'll be adding
+this to the record, the Pilgrim Report, an HHS-funded Pilgrim study at Harvard University
+showed that adverse events for vaccines are reported less than 1%.
+So this grossly understates the number of adverse events and deaths, and you can see
+adverse events are almost 1.7 million.
+Multiply that time is, what, 130?
+These are dramatically understated.
+In spite of these shocking numbers, federal health officials continued to recommend the
+ejection, claiming it both safe and effective.
+By comparison, in 1976, after approximately 25 to 30 deaths, and over 500 cases of Giro
+and Buried syndrome, the swine flu vaccine was pulled from the market.
+Biden federal health officials were clearly not as vigilant in reacting to what VAERS
+was showing.
+For over four years, I have wondered how health officials could possibly ignore this overwhelming
+evidence of harm.
+Now I know.
+I'll report details that on March 1, 2021, less than three months after the COVID injections
+received an emergency use authorization, Peter Marks, the head of CBER, and officials
+reporting to him were warned by FDA's Dr. Anna Sharfmann, an individual who these officials
+recognized as an expert in FDA's data mining, that the current system would mask safety
+signals for COVID injection adverse events.
+Dr. Sharfmann proposed a new model, a new method, invented by Dr. William Dumashell, who
+was the inventor of the current algorithm to uncover the hidden safety signals.
+On March 26, 2021, 26 days later, Dr. Sharfmann sent Dr. Dumashell's data analysis to senior
+FDA officials showing that the new analytical method found, quote, 49 examples of extreme
+masking, and uncovered approximately 25 statistically significant safety signals of
+adverse events associated with COVID injection, including, let's put up the next chart here.
+Here's the sheet.
+These are the adverse events that they were showing a safety signal for using the new
+method, Bell's palsy, sinus rhythmum, cardiac failure, chronic, acute left ventricular
+failure, abdominal rhythm, which is severe arrhythmia, generally occurred at the end
+of life, pulmonary infarction, cerebral artery occlusion, aortic stenosis, sudden cardiac
+death, hypertensive emergency, basal ganglia stroke.
+Now, these aren't minor, remember, we always told the adverse events are rare and minor.
+These are not minor adverse events, and these safety signals were showing and they
+were strong, but they were being hidden because FDA officials refused to acknowledge that
+the current system they were using was invalidated, and they had to look at the new system that
+unmasked these things.
+Our report goes on to detail how federal officials refused to acknowledge these revelations
+or take action to warn the public.
+Instead, senior FDA officials repeatedly tried to stop Dr. Charfmann from continuing
+her work or communicating her findings outside of FDA.
+In September 2021, Dr. Marks informed Dr. Patricia Cabazzoni, the then director of CDER,
+the Dr. Charfmann, who was a CDER employee, quote, has been asked to cease and desist
+conducting her data analysis.
+Dr. Marks complained that Dr. Charfmann's work had become, quote, a major distraction
+that her efforts could create erroneous conflicts that feed to anti-vaccination rhetoric.
+Dr. Peter Stein, the then director of CDER's Office of New Drugs, reported Dr. Marks that
+his office had, quote, made it clear to Dr. Charfmann, quote, that she should not be
+discussing providing internal analyses externally and needs to focus on her assigned work.
+Dr. Charfmann, who retired from the FDA in 2025 after more than 35 years of service,
+told PSI staff in a recent interview that she believed her FDA colleagues saw her as a, quote,
+pest and, quote, persona non grata, unquote, because she was raising concerns about masking.
+Our witnesses today are medical researchers and experts in scientific data collection.
+They will help clarify the masking issue and describe why this cover-up was so egregious.
+I want to thank them for their time and effort they put into our testimony.
+I also want to thank Secretary Kendi for his commitment to radical transparency and for
+promising to make HHS personnel with knowledge of these events available for interviews with
+subcommittee. And I also want to give a huge shout out to my staff. These are the folks who
+found a needle in a haystack in a document production from one of the universities that we were
+investing two and a half years ago found that David Morin's email where he was talking about
+being able to, you know, being told how to make emails disappear and to use his Gmail. So these
+are the folks who did that. And these are the folks who have combed through 11 million pages
+to find and discover this egregious cover-up. So thank you guys. And with that, I'll turn it over
+to Senator Blumenthal.
+Thanks, Chairman Johnson. I made everything that's been said. I think
+we ought to remember what it was like during the height of the COVID pandemic. Literally
+the fear, the death, the loss, and then the relief as a result of Operation Warp Speed,
+which President Trump ordered in having a vaccine that gave people hope
+and many people life. At the same time, none of the relief or hope
+enabled loved ones to come back. They lost lives and families had their lives upended
+and we can never forget the heroes in our healthcare system who brave COVID in delivering care to
+people who needed it in hospitals. Many of them for weeks, sometimes months. We are fortunate to
+have with us Maria Young. Thank you for coming here today who spent many days in hospital, close to
+70 days in intensive care. Most lives were forever changed as a result, but the vaccine offered
+a path forward for so many people. And we should be thankful for Operation Warp Speed.
+In January 2021, more than 20,000 Americans were dying each week from COVID-19. Between 2020 and
+2025, more than 1.2 million Americans lost their lives to COVID-19. That's 1.2 million parents,
+children, friends, loved ones. And those deaths changed not only their families,
+but their communities and our nation. Husbands lost wives, parents lost children. And in addition
+to those who perished, millions were infected and many of them suffered life-changing
+injuries from the virus. And employers suffered economically as did our overall economy.
+And the survivors still bear, many of them still bear the scars of that experience emotionally,
+if not physically. Years of scientific analysis have shown that COVID-19 vaccines saved lives
+and prevented serious illnesses like the one that Ms. Young suffered.
+I don't agree with President Trump on a lot, but I have to give him credit for the work that was
+done to create COVID-19 vaccines in record time. But instead of talking about the success and
+remembering the ones we lost, vaccine opponents have turned one of the greatest scientific breakthroughs
+in our country's history into a fodder for political attack. I don't get it. Today's hearing
+purports to discuss a cover-up of side effects of the COVID-19 vaccine as if serious flaws in
+vaccines were purposely ignored. And let me be clear, they were not ignored. They were not
+disregarded. They were not covered up. The majority's report cherry-picked emails and
+misconstrues and internal debate between scientists who were actively looking for ways to detect side
+effects to support a predetermined and flawed thesis that COVID-19 vaccines have done more harm
+than good. That's not the scientific method to have a preconceived result and then frame the
+evidence to fit the outcome. The report and documents that the majority has released simply
+do not support the notion of any kind of cover-up. Nor do the reports and documents do anything to
+change our understandings of the vaccines as safe and effective. These points are important for the
+public to understand. And with all due respect, nothing that Chairman Johnson has released
+shows the vaccines were linked to any adverse effects beyond the rare ones that health officials
+have acknowledged. Indeed, the risk of stroke he claims was hidden not only was studied openly
+but later shown not to exist. Without objection, I would like to enter into the record the four
+studies demonstrating the COVID-19 vaccines and boosters save lives, Mr. Chairman.
+About objection. There is also a really deep irony in the majority's argument given the current
+administration's overt effects to skew science and undermine public health. Last week, I wrote
+to the acting CDC Director Dr. J. Baracharya about reports that he has blocked publication
+of a recent study showing that COVID-19 vaccines were extremely effective at preventing hospitalizations
+last winter. That study still has not been formally released, although I understand that
+a copy was somehow leaked, literally hours before this hearing, magically released. But
+not officially. And therefore, I call on the CDC Director to officially release that report.
+Again, I asked my letter to him to be entered into the record if there's no objection.
+Without objection. I sincerely hope we never face another pandemic. I think most Americans
+join in that hope and that we are still able to find dedicated scientists and, yes, pharmaceutical
+companies willing to work around the clock to find vaccines and cures and public officials
+who are willing to support and encourage and to fund them with resources.
+I fear that this administration's actions to politicize science and slash scientific funding
+and to expel talented scientists are doing irreparable harm to our nation's ability to counter
+the next pandemic. The threat remains real and present. And we must respect science
+and encourage our scientists to continue to do their work. Thank you, Mr. Chairman.
+Thank you, Senator Blumenthal. Before we swear and witnesses, I'd like to
+enter a number of records into the record. First, the majority staff interim report
+and the 596 pages and 10 spreadsheets to the support that report.
+Second, my December 15, 2025 letter to HHA Secretary Kennedy requesting information about an internal
+FDA memo on deaths of children following COVID-19 vaccination. Then my March 23,
+2026 letter to Secretary Kennedy detailing the subcommittees findings about masking how federal
+health officials ignored and downplayed the risk of ischemic stroke following vaccination of
+Pfizer's COVID-19 bivalent booster. And finally, 2010 report entitled the electronic support for
+public health vaccine adverse events reporting system. Again, this is the what they call the
+pilgrim study done by Harvard. So I'd like to enter those in the record.
+Mr. Chairman, as I indicated previously, I have a judiciary committee hearing and I'll be right
+back. Okay, sounds good. Without objection on my entering records into the.
+So it is the tradition of this subcommittee to swear and witnesses. So if you all rise and raise
+your right hand. Do you swear or affirm the testimony you would give before this subcommittee
+would be the truth, the whole truth and nothing but the truth to help you God. Please receive them.
+Our first witness is Dr. David Wiseman. Dr. Wiseman is the president of Sine Keon.
+Did I get that close? Pretty close. Sine Keon. There you go. I actually practiced that beforehand.
+I still blew it. An R&D company focused on fibrosis and pain. He received his PhD from the University
+of Manchester and is a background in experimental pathology, pharmacology and immunology. From
+1987 to 94, he worked with Johnson Johnson, rising to the position of research fellow,
+leading a program that included pharmacovigilance. Dr. Wiseman has published numerous top scientific
+journals, including the Journal of the American College of Surgeons. Dr. Wiseman.
+You hear me? Distinguished chairman, ranking member and committee members. With today's
+stunning revelations, I am humbled to discuss critical flaws in statistical safety signal
+and potential risk detection in VAERS, touted by CDC as the nation's early warning system
+for vaccine safety, accredited by former CBER director Marx, with detecting both potential and
+actual safety issues and informing vaccine policy decisions. Among limitations,
+undermining detection of statistical safety signals is the problem of masking. Masking
+occurs when statistical signals for one vaccine in a database are obscured by reports
+associated with other vaccines. For example, Moderna's myocarditis signal becomes hidden
+if its comparison baseline is artificially inflated by including Pfizer's myocarditis
+signal reports. In a simple analogy, hemlock and arsenic appear equally toxic when compared
+separately with a non-toxic baseline control such as T. However, if hemlock's baseline data
+include arsenic data, hemlock signal is drowned out or masked appearing innocuous. Today's report
+shows that senior FDA staff were apprised of the masking problem both prior to COVID vaccine rollout
+and repeatedly by Dr. Anna Schaffman. Dr. Schaffman is a veteran FDA statistician
+lauded for bringing the empirical Bayesian method into FDA after collaborating with its inventor
+and developer of the associated empirica signal software, Oracle's Dr. William Dumashell.
+Schaffman communicated Dumashell's findings of extreme masking including death myocardial
+infarction, stroke and dementia, noting that I am not astonished that FDA's analysis was unable
+to detect these signals. She repeatedly advised colleagues of Dumashell's improved procedures,
+not brand new. They'd been around a while to address masking in the same empirica signal software
+used by FDA and commercially available. Nonetheless, officials attempted to contain Dr. Schaffman
+asking her to cease and desist. Elsewhere, officials claimed ignorance on how to address masking
+and that developing solutions exceeded FDA's capabilities considering it
+problematic to use a brand new possibly unvalidated tool in the context of an EUA.
+FDA had validated methods adaptable to demask six signals. In a special data run in the new
+documents, FDA's Dr. Menchich found a muting trend yet to appear in the record.
+In the related PRR or proportional reporting ratio analysis required of them by the VAERS
+standard operating procedure, CDC somewhat accounted for masking. In 2022, Schaffman and
+Dumashell published in the leading journal Drug Safety, they're masking concerns and the
+improved method. I'm masking hundreds of statistical signals for the COVID vaccines
+consistent with my analysis. Despite possessing both software and in-house expertise,
+regulators failed to implement the solution to correct for masking, a striking failure given
+the accelerated population scale deployment by Operation Warp Speed of a novel and most complex
+class of drugs ever, mRNA. Compounding further, CDC considered that its PRR
+analyses were rendered basically redundant by FDA's Bayesian work, discarding its responsibility
+to generate these PRRs. Accordingly, the United States lacked a fully functional early warning
+system at the time of its greatest need. Separately, statistical signals were trivialized by avoiding
+the term signal or potential safety signal. These failures are incompatible with the so-called
+enhanced surveillance required by VAERS standard operating procedures. Hendering investigation
+of potential risks, FDA was obliged to consider even without having to prove causality.
+An impugning vaccine injury compensation, authorization and approval decisions,
+principle of which was common artists hastened full approval undertaken while Dr Schaffman was
+voicing her concerns. Further, they marginalised those apparently injured by COVID vaccines.
+Not only did the system fail to perform as advertised, but as the drug safety paper
+presciently warned, the COVID vaccine reporting deluge likely created masking effects that now
+compromise signal detection for other vaccines going forward, and there are several papers
+that described this. Regulators must swiftly correct masking and other VAERS deficiencies,
+heeding earlier warnings of their former colleagues, Drs. Marx and Jernigan,
+who said, failure to detect and communicate a serious health issue related to vaccines
+could impact confidence not only in COVID vaccines, but in all vaccines. Thank you. I welcome your
+questions. Thank you, Dr. Wiseman. Our next witness is Dr. Carl Jablonowski. Dr. Jablonowski
+is the director of science and research at Children's Health Defense. He holds a master's degree in
+computer science from the University of Chicago and PhD in biomedical and health informatics
+from the University of Washington School of Medicine. His research focuses on bringing about an end
+to childhood health epidemics. Dr. Jablonowski. Thank you, Chairman.
+Pharmacovigilance is absolutely necessary. Our knowledge is limited even of a vaccine that passes
+clinical trials of a few thousand very healthy people. We simply do not know what adverse events
+look like in a diverse large population until they're administered to a diverse large population.
+We had better be watching very closely, which is pharmacovigilance. The vaccines, by honest
+accounting, were pathetically tested. Pre-EUA, no drug, drug interaction study, no cardiovascular
+toxicity, central nervous system toxicity, other organ toxicity, blood toxicity, genotoxicity,
+carcinogenicity. Had they actually turned out to be safe, it would have been serendipitous,
+a happy accident. Luck is not a pillar of public health. Pharmacovigilance behind closed doors
+should give everyone pause. It is simply too important to not do it correctly. Lapses can be
+and were catastrophic. The vigilance heavily depends on three sources of data. The passive
+surveillance of VAERS, the active surveillance of VSAFE, and the VSD, an active system linked to
+medical records. VSAFE was designed to collect inconsequential data. One of the first papers to
+publish it was a mortality and adverse event study. The only figure in the entire paper
+was a time series comparison for both Moderna and Pfizer, for both dose one and dose two,
+of adverse events no one cares about. Injection site pain, fatigue, headache,
+myalgia, chills, and joint pain. Dr. Renata Angler is distinguished in the study of vaccine
+induced myocarditis among U.S. military with four publications on the smallpox vaccine.
+On the CDC, not including myocarditis in VSAFE, she asked, if you do not ask, you will not see it.
+But does that mean it does not exist? Within 50 days of that meeting, Dr. Angler would start
+adding four more publications on COVID-19 vaccine-associated myocarditis. The CDC already had in hand
+Israel slides. The VSAFE system had 10 million volunteers. About one third entered free text.
+Perhaps there is some horror found in the 366 individuals who typed in myocarditis.
+A condition requiring medical diagnosis. That is amplified by the nearly 50,000 people who typed
+in chest pain. The vaccine safety data link is a collection of 13 healthcare organizations
+covering 15.5 million people. It can detect safety issues within a few weeks. Most frequently
+used is rapid cycle analysis, which can miss delayed onset events. Better and timely options,
+like the vaccinated versus unvaccinated or pre-post, is rarely used.
+And they would need the well-practiced extra step of considering differences in healthcare
+seeking behavior. By the time the CDC's webpage was updated to warn of inflammation of the heart,
+313 million doses were administered to 173 million people. I do not see vigilance at work.
+With VAERS, the CDC chose to ignore its own standard operating procedure and not run
+proportional reporting ratios. In favor of the FDA's, what Wellensi calls more robust,
+and Shimabukura calls the gold standard. VAERS had been grossly underreported for the first 30
+years, maxing out at 58,000 reports. In its 31st year alone, VAERS logged 18 times that number.
+Because of this disproportionality, the FDA's disproportionality analysis was washed out.
+Since both vaccines were of the same platform and same adverse events, the comparison was muted.
+This isn't a blind spot. The FDA was completely blind to adverse events, and the CDC wasn't even
+looking. There was a savior in the ranks of the FDA who correctly identified the problem,
+appropriately worked with the inventor of EB data mining to create a solution,
+communicated the fix to everyone who would listen. The problem is no one listened.
+Luck was not on our side. The CDC failed to look. The FDA failed to fix a broken system that the
+CDC touted as the gold standard. The HHS failed to protect us, especially after our freedom of
+choice was assaulted by the president threatening us all with, our patience is wearing thin.
+FOIA evasion was well practiced and discovered, obviously, not through a FOIA. Simply put,
+during the largest pharmaceutical rollout in human history,
+pharmacovigilance did not exist. That is the betrayal of our time,
+so vast that we cannot even count its casualties.
+Thank you, Dr. Jablonski. Our final witness is Ms. Maria Young. Ms. Young will discuss her
+severe COVID-19 illness and how she spent more than four months in the hospital, most of that time
+in the intensive care unit. During her treatment of John Hopkins, she was placed out of ventilator
+and life support. Ms. Young, welcome here, and I'm glad you're looking well.
+Thank you. My name is Maria Young. Thank you to the committee members for inviting me to share
+my story today. Survivor, warrior, miracle. These are all words that have been used to describe me
+over the last five years. They aren't words I would have chosen for myself. For me, I was just
+trying to regain the life I had lost to COVID before we had vaccines or any possible treatments.
+In 2020, I went from being a healthy, active woman with a full career to being sedated,
+paralyzed, and placed on life support within days. I became a survivor of severe COVID-19,
+ARDS, acute respiratory distress syndrome, after spending 69 days on ECMO,
+extracorporeal membrane oxygenation, and 70 days on a ventilator. I am here because survival is
+not the end of the story. For those unfamiliar, ECMO is a rare form of life support. Used when
+the lungs can no longer function on their own. Blood is removed from the body, oxygenated by a
+machine, and returned. It is invasive, complex, and used only when all other options have failed.
+ECMO does not heal the lungs. It buys hope at a little time. But that hope comes with significant
+risks. Stroke, neurological injury, blood clots, infections, limb loss, organ failure, and of
+course death. I spent more than four months in the hospital, most of it in the intensive care unit,
+ICU, most of it in the medically induced coma, and most of it alone. When I finally woke up,
+I had no memory of the time that had passed and no understanding of how much I had lost.
+During those months, my family lived through trauma that still echoes today. My mother was told
+repeatedly that I was not expected to survive. My sister wrote my eulogy. My family prepared
+themselves from the unimaginable, all without being able to see me in person. Day after day,
+my mother waited by the phone for a call from my doctor with the update for that day. They
+carried grief and hope at the same time, a burden that families of critically ill patients know all
+too well. While I was unconscious, my body endured a long list of complications that many ECMO survivors
+face. Multiple inflections, including one that almost took my vision, blood clots, collapsed lungs,
+severe muscle wasting and deconditioning, delirium and hallucinations, prolonged sedation and sedation
+drug withdrawal, blood transfusions, a tracheostomy, a feeding tube, pressure wounds,
+a deep neck wound from cannulation and long-term cognitive and physical impacts.
+These complications are not footnotes. They are the reality of surviving critical respiratory
+illness. They shape recovery for months and often years. They are especially hard when the diagnosis
+and treatment black understanding and support. When I finally woke up, I had to relearn how to
+breathe, how to swallow, how to sit up, stand and walk. I had to rebuild my life from the ground up.
+And while I'm deeply grateful to be alive, gratitude does not erase the trauma.
+Survival comes with weight. The weight of knowing how close I came to dying
+and that many others weren't as lucky. When I was discharged, my list of diagnoses included
+dysautonomia, cognitive impairment, demoralization, severe body deconditioning, long COVID,
+partial vocal cord paralysis and post-intensive care syndrome, among others.
+But alongside that weight is profound gratitude. Gratitude for the nurses who spoke to me even
+when I was unconscious. Gratitude for the respiratory therapist who taught me how to breathe again.
+Gratitude for the physical and occupational therapist who celebrated every inch of progress.
+And gratitude for the doctors at Johns Hopkins who made bold decisions to save me,
+including placing me on my stomach while on ECMO to try to improve my lung function and oxygenation.
+Something that had never been done before at Johns Hopkins on a patient on ECMO with a tracheostomy.
+They believed my life was worth fighting for. And gratitude for my community who held my
+family up when they could no longer do it on their own. My experience led me to advocacy.
+Over the last several years, I've connected with hundreds of survivors, people living with long
+COVID, families who lost loved ones to COVID-19 or while on ECMO and ECMO survivors who carry
+scars both visible and invisible. These communities are full of people who thought
+for their lives or their loved ones lives and emerged in a world that often moved on without
+them. Many feeling abandoned by systems not built for long-term recovery by insurance structures
+that don't recognize the complexity of post-ICU life and by a public narrative that treats survival
+as the end of the story. My work is to make sure they are seen, heard, and supported.
+That's why I stay up to date on my COVID boosters and other vaccinations.
+I also continue advocacy with organizations like Vaccinate Your Family to share my story,
+through them, through my personal connections, and encourage everyone to continue to get vaccinated
+against COVID-19 and other diseases. In the hopes of helping people avoid the same traumatic experience,
+I and my family went through or worse. Survival should not be followed by fear.
+It should be followed by support, protection, and a chance to rebuild a life with dignity.
+Thank you for your time. Thank you for sharing your story, Ms. Young. I would love to connect
+you with Breanne Dresson. Many of the things you said are exact same words I've heard from
+the COVID injection injured. These people were healthy, they were active, now they're permanently
+disabled. When I first met them, held our first event in Milwaukee,
+all they wanted was to be seen, heard, and believed. That was their third year.
+Seen, heard, and believed so they could get treatment. They still can't get treatment because
+they are not being acknowledged. Once I introduce this video, I want to start my Q&A with a one-minute
+video. But to set it up, this is a video of recordings of Zoom calls between the vaccine
+injured. And by the way, React 19, I think I read, they've got something like 40,000 active
+members. They probably would have more face when Facebook had been shutting down their support
+groups leading to suicides among those lack of that support. But this is actually a note in terms
+of what this video describes here from Breanne Dresson. She writes, beginning in March 2021,
+seriously COVID-19 vaccine injured patients were flown to NIH. And this is March 2021,
+the same time they were made aware of the fact that they were going to mask the safety signals
+using the algorithm. Vaccine injured patients were flown to NIH headquarters for extensive
+testing and evaluation and treatment. Study participants, and I think there are about 23 of them.
+Study participants received credible diagnoses, including quote, post-vaccination neuropathy.
+And again, they were diagnosed as vaccine injured. And specialized treatments, the
+participants, they saved their lives. They were incredibly grateful that the NIH, people like
+Dr. Nath were paying attention to them and treating them and improving their severe injuries.
+That same month, NIH researchers began promising participants that the study and their injuries
+would be made public. And apparently the email where that promise was made was also
+copied to Peter Marks and Acting FDA Commissioner Janet Woodcock. The NIH then asked participants
+to remain quiet, say nothing, and tell the disclose to study themselves. They complied.
+They feared if they were to go public, they'd lose the treatment. That all the thousands of
+other injured that were counting on them to be studied to develop cures wouldn't receive
+treatment either. So they stayed silent, holding on to the promise that help is coming for the
+many others nationwide. That study and the injuries were never disclosed to the public.
+They were lied to. And this video, again, read my report. Senator Bloom, I cannot believe you
+read my report based on your opening statement. Read my report. It is irrefutable. But the video
+is of Peter Marks, head of CBER, the man who was notified on March 1, 2021 that the safety
+surveillance system that they were going to use to detect those rare and mild safety signals
+was invalid. He was going to mask those. He was going to hide those very safety signals.
+Again, 26 days later, a state of the art system showed 25 safety signals, and I read how severe
+those adverse events were. But just listen to it, Peter Marks, with the knowledge that he was
+treating vaccine injury and they weren't mild injuries. These were life-threatening injuries.
+These were total disability type of injuries. So he knew it. He was treating them.
+He knew that his safety surveillance system was masking these signals. They lied to them.
+Listen to what Peter Marks had to say. It was about a minute long video.
+There is incredible BS out there about like thousands of people dying, etc. That just ain't true.
+No one's denying that adverse events can occur. That doesn't mean that any given individual
+might not have had something related to the vaccine. I'm not denying anything.
+The issue is that the number of cases have not risen to a number that leads to a clear
+differentiation, that it's a signal. There's not a clear signal that says that we don't have a signal.
+He continued to query the various databases. The large databases still have not seen a signal.
+You couldn't really tell. You just couldn't tell whether there was a signal or not.
+Something that's been reported, but not as something that is clearly vaccine related.
+You guys know we exist. We know that you know that we exist. But the public doesn't think that
+you guys know that we exist. That was addressed in the very end there. Again, they were pleading
+with the officials at the FDA and IH that knew they were severely injured by the vaccine,
+counting on them to make that public, to study their results so that others could get treated
+to this day they have not done that. Put up by chart number two here.
+Dr. Wiseman, again, I know you've looked into this in a great deal of depth. The very complex
+mathematical models and algorithms of empirical Bayesian analysis. I'm not a statistician.
+I'm just a lowly accountant. How in the world could the people who were touting VAERS,
+Tom Shimabukuro in October of 2020, this is a system that can really detect even small safety
+signals? They had to hire the contractor that was putting VAERS reports into VAERS. They had to
+hire thousands of more people because of the overwhelming numbers of reports.
+Did you need a fancy statistical algorithm to tell you that something was going wrong
+here with these injections? Clearly there's some big alarm bells that are going off there.
+But I do want to point out that one of the criticisms of VAERS is that stimulated reporting
+and anyone can report and all that sort of thing. The point about these disproportionality
+analyses is that it actually removes that from the equation because of the way the mathematics
+are done. Obviously, there's red flags in that sort of chart that you're showing there.
+But the key point about these disproportionality analyses, the Bayesian data mining,
+the PRR and others, is that it actually removes that from the equation because of the niceties
+of how the mathematics are done. That's really important. In the list of 49 events that you've
+listed there, these are all showing signals for the Bayesian base mining and also not only that,
+in the PRR method, which is masked. They're showing signals. Whichever way you look at it,
+there's signals. The key point, Senator, is that for the purpose of the EUA,
+the FDA will require to consider not only actual proven risks, but potential risks.
+And potential risks are represented by signals without necessarily having to prove causality.
+But in all the decisions that the law is very clear, it says that FDA has to consider actual
+and potential risks. By hiding the potential risks in the various ways that you've described,
+the public would deprive of this knowledge, the doctors would deprive of the knowledge,
+the ACIP and the VRBAC committees would deprive of this knowledge. So every way you look at it,
+there's a problem. So again, so my sophisticated mathematical model when people push back on this,
+well, yeah, Senator, it's because we had billions of doses. So we calculated deaths per million
+doses, compared that to the flu. Again, that's disproportionate, right? Disproportionality.
+So flu, average about 0.46 deaths per million. And we did the calculations, 25.5. That's
+pretty disproportionate to me. You know, combined with that, again, you don't need,
+they didn't need. And again, then they had the vaccine injured in front of them. They were
+treating them, they are diagnosing them, not with mild, but with life-threatening injuries.
+Dr. Jublonski, how do you answer that?
+Several years ago, Dr. Brian Hooker and I did an analysis of VAERS. When we tried to pinpoint
+when enough VAERS reports had existed to identify myocarditis, and that dates all the way back
+to the week of February 19th of 2021, which is well before even Israel contacts the CDC,
+saying we are seeing a whole lot of myocarditis, we want to speak with a relevant expert at CDC.
+It is way before anyone in the United States was that the CDC admitted to them on May 28th.
+Okay. I actually, they didn't start the clock right away, so I'll reel to American member now.
+Thanks, Mr. Chairman.
+I would like to enter into the record a 2024 study from FDA and CMS, which concluded that
+there was, quote, no statistically significant association between either
+mRNA vaccine and stroke. I'd also like to enter into the record a letter from the American Heart
+Association stating that there is a, quote, substantially elevated risk of stroke from COVID-19 infection.
+There's no objections, Chairman. Without objection.
+There's no clear but long convincing evidence that COVID-19 vaccines have caused adverse effects
+beyond the rare ones that public health officials have acknowledged. There is clear
+evidence that COVID-19 itself is linked with many worse adverse events, including stroke.
+And there are signs that the administration is regretting its
+implied or explicit opposition to the use of vaccines in America today, because they are so
+contrary to what people across the country really believe and correctly believe that vaccines
+actually do save lives. I'd like to ask Ms. Young a couple of questions, but first I want to thank
+you again. Obviously, this moment is a very, very difficult one for you, as it would be for anyone
+recalling almost 70 days in a coma, 200 plus days in a hospital in intensive care near death.
+At the time you entered the hospital, there were no vaccines available by the time you
+finished life support. There were multiple vaccines and millions of people had been
+inoculated. And so in a sense, your story is about reentering the world, a different world,
+a better world that would have saved you from this horrific ordeal.
+But this basic truth, this miraculous outcome during the time that you were
+unconscious became tarnished when opportunists began raising false alarms and warned of hidden
+harms from vaccines while talking untested supplements, fear mongers attacked the scientists
+and public health officials who had brought us out of one of the darkest hours in our nation's
+history. And people angered by measures taken to contain the virus, claim the threat that it
+posed was never real to begin with. So I guess my first question is, do you remember when you
+first learned that a vaccine against COVID-19 had become available and how did you feel?
+When I woke up, my first question was, who did I get sick? Because I assumed, you know, everyone
+I had been near had gotten sick and nobody had. But I remember laying in my hospital bed,
+I was kind of waking up and still going through delirium and they had the TV on.
+And I was watching the news and it felt really surreal because people were getting vaccinated
+health care workers were starting to get vaccinated. And I just remember feeling like a little sense
+of relief that like nobody else will, like this will stop. Life will go back to what it was before
+potentially. And my family, my parents and my sister were actually able to get vaccinated the
+day they picked me up from the hospital by coincidence. There was availability and they also felt just
+a sense of relief and hope. And you look great, if I may say. I've seen some of the pictures of
+how you look when you were in the hospital and I wouldn't recognize you, which attests to,
+I think, the quality of care that you received at Johns Hopkins and thanks to those docs and
+all the specialists and nurses and all the heroes, not just there, but all around the country
+who believe in vaccines, who believe in science. How has the experience of battling for your life
+against COVID-19 affected how you feel about vaccines?
+I don't think I thought about vaccines much before. We just had them, they kept us safe,
+they had eradicated several diseases. And then afterwards, it kind of was like,
+why didn't it happen sooner? Why couldn't I have benefited from it? And for a long time,
+I thought, like, why me? Why did I get this sick? And then as I learned more about COVID and about
+all the data that came out of it, I said, well, why not me? I was 41, I was healthy, I didn't
+have preexisting conditions. I was the reason that we needed a vaccine.
+Well, I don't know the answer to your question, why me? But I do know
+that you are doing enormous good by being here today. And as painful as that experience was,
+I think we owe you, all of us owe you a debt of gratitude for your bravery and your strength
+in coming here today and sharing your story. So I want to thank you for being here today.
+Thank you. Senator Marino.
+Thank you, Mr. Chairman. And I'll echo the ranking members' comments. Thank you, Mrs. Young,
+for being here as soon as your mom. Fine. No, okay. I'll get in trouble. My wife's back there
+going. Don't ever say stuff like that. But while I can see the pain is with you and your family,
+and I'm sure you're never going to forget what that was like. And thank you for being here.
+Thank you for sharing your story. I think sometimes when we have this conversation about what happened
+during COVID, and I think the ranking member said, remember what it was like. And I do remember
+it was like, and quite frankly, the government did a lot of good. I think certainly in your case,
+the vaccine helped you. But the government did tremendous things that were very, very bad.
+For example, in my home state of Ohio, we had a health director that recommended that we
+shut down schools. And those schools were shut down for 18 months. And we know now that under 18,
+you really didn't have much of an effect from COVID. There was zero deaths in that category.
+And yet we destroyed the lives of those kids. I think we can trace back to that day
+the youth violence problem that we have today. We had people that were totally disconnected,
+including my youngest son, who spent his senior year in college taking classes remotely.
+And I can tell you, you didn't learn anything. Because there was no interaction with kids. And
+somebody's senior year in college, you think about some of the important grades, like ninth
+grade that are critical, third grade that you need that socialization skill,
+eighth grade where you're going to graduate into high school. We just robbed those kids.
+And Dr. Weisen, what are your thoughts, just as a scientist, don't you think that there should be
+some idea of building confidence in our health care system, and that there needs to be a certain
+amount of humility that says, hey, maybe we don't know all the data, but you certainly are,
+you should be giving people the best data that you have. And yet it seemed like it was a very
+one dimensional data set that said, this is the only thing we're going to tell you. This is the
+only thing you believe. And if you even questioned anything outside this data set or narrative,
+you're just a bad human being. Yeah, I think you're absolutely right. And I actually want to echo
+Senator Blumenford's comments that what was it like? I mean, it was chaos. And for the most part,
+everyone was trying to do a very, very difficult job and a very hard job. And I think everyone
+would thank all the health care providers and the people in the government and so on. But there
+were specific failures. And the testimony we heard was very compelling. And as someone who's
+been an advocate for patients with chronic conditions that are ignored and so on,
+I definitely empathize with the comments that we heard. But the thing that echoed with me a
+moment ago was that why me? And the why me that happened to me that answers your question,
+Senator, is that I hadn't thought about vaccines. I'd taken all the usual vaccines,
+so my family. I had no history with doing any work with vaccines. And for a curious set of
+circumstances, I got involved in analyzing hydroxychloroquine data, which I wasn't very
+impressed with, frankly. But I found an error in one of the key studies that was used to close
+down hydroxychloroquine. And I argue with the authors' bulware in Minnesota to give me the data
+that was missing, that I discovered was missing, they gave me the data. And those data showed when
+you plug them in that there was actually an effect of hydroxychloroquine. That was one of the two
+studies that closed down hydroxychloroquine. When I tried to get that published in the New
+Wing Journal of Medicine, in January 2021, when thousands of people were dying, as Senator Bloomin
+thought correctly described, the response that I got from the New Wing Journal of Medicine was,
+well, we don't think this is going to be of very much interest to anyone of our readers.
+And at that point, I said, there's a really big problem here.
+Because again, there was a narrative, and if you even questioned this narrative, you were somehow
+a bad human being. But let's remind also what happened. You had a scenario where
+we have a lot of people on the other side of the aisle that like to say, President Trump's an
+authoritarian, President Trump hasn't threatened to fire employees for companies or military
+members who refuse to have sovereignty over their bodies. Under under by 9,000 members of the
+military were dismissed because they refused to put an experimental vaccine into their bodies.
+I mean, how did we get to that place, Dr. Weiser? How did we get to the place where
+I can decide for myself what I put into my own body? And if that means I want to take the vaccine,
+and good for you, but if I decide not to, I lose my ability to make a living, especially people
+who put on the uniform to defend this country. How is that possible?
+Well, I mean, as a scientist, I'm also a pharmacist. You know, looking at looking at the law says,
+not as a lawyer, I let the lawyers figure out the legal aspects of it, but as a scientist,
+as an pharmacist, that the EUA requirement required the Secretary of the HHS to make sure
+their adequate systems to detect and monitor safety and to inform doctors and the patients who
+were receiving the vaccines of known and potential risks. So they could make that sort of informed
+consent about what to put in their body. And according to the findings of Senator Johnson and his staff,
+they were effectively deprived of that because the safety systems that were designed and advertised
+as, you know, detecting safety issues were not working. They were not working. The early warning
+system was turned off, and the problems still exist going forward for all vaccines. We want
+vaccine confidence. I agree with the lady over here. We want confidence in vaccines, but based on
+Dr. Sharfmann's paper and other papers, going forward, there's a problem with using these systems
+unless they are corrected. So we have to have humility, Senator. You're absolutely right.
+We have to have the ability that people have all the right decisions, all the right information to
+make the decisions so they can do exactly what you've described. And is it okay just to say,
+hey, look, this is a tough time. It's a tough history of the country. We had a lot of horrible
+situations going on. And we made mistakes and just acknowledge that there's mistakes. In my mind,
+that makes it easier for us to respond to a future pandemic if the government has humility
+and transparency to say, we really, really screwed up Dr. Jabla Nowski. You must have
+a good email address, probably the only one there. But briefly, talk about what was the effect
+that somebody like Dr. Amy acted in Ohio recommending schools to be closed, forcing children to be
+vaccinated. And by the way, bribing kids to get vaccinated by giving them money. So the state of
+Ohio was giving kids money and rewards if they got vaccinated. What's the long-term effects you
+think of a policy like that? On children, which I know you care a lot about.
+There are many long-term effects, certainly social and educational, but the one that sticks out to
+me the most is the lesson that we are teaching the next generation. Botany autonomy, as you pointed
+out, it's our basic unit of liberty. If I honestly, unfortunately, believe we live in a country that
+we could not have founded because we do not believe we have bodily autonomy. If we did,
+on September 9, 2021, when Joe Biden threatened us all with our patients' wearing thin,
+stated the obvious that this is not about freedom or personal choice, declared the vaccines to be
+safe and described a pandemic of the unvaccinated, he wouldn't have been in office in the next day.
+But he is. He was. And on your point of humility of the situation, I think that is the perfect word,
+because the then Secretary of HHS could have changed history with one word. He could have summoned
+the greatest army of statisticians and mathematicians and data scientists ever assembled under one topic
+with one word. That word was help. Please help. You know, we launched a pathetically tested vaccine
+onto the population, and our only reporting system was overbearing by the number of reports. We
+can't actually use the system. Please help. Or the expert at the FDA is working with the expert in
+the world describing that our system isn't working, describing that our system isn't working, has a
+better situation system. But we don't like their answers. Please help. It would have saved a lot.
+Thank you, Charlie.
+Thank you very much, Mr. Chairman. Thanks to all of the witnesses for being here. Dr.
+Wiseman, if I could just start with you. It seems pretty clear to me based on the testimony
+that we've heard today based on the investigation that this committee has done and what we've learned
+over the last few years that what we saw during COVID wasn't so much a public health campaign,
+as it was a profit machine, a profit machine for the big pharma companies who made billions
+and billions of dollars off of a vaccine that they did not adequately test about which they
+did not adequately adequately disclose health risks. They they made out like bandits though. I mean,
+this is great for them. All of the public health problems get offloaded onto other people, namely
+the American people, all of the costs get born by the patients. They don't have to do anything,
+and they get rich off of it. I mean, let me just ask you in your professional opinion that these
+companies like Pfizer and Moderna, did they adequately disclose study and disclose any of
+the risks that were associated with these vaccines before they were forced upon the public?
+Well, I think there was a lot of collaboration and it was stated openly that the government,
+the FDA, the CDC were working very closely with the with the drug companies. This wasn't a normal
+sort of development of drugs that we see in history. So a lot of the stuff that the companies
+were sort of got away with it, as it were, was with the consent of FDA who overly generously
+interpreted regulations concerning certain types of testing, genotoxicity, or lipid nanoparticle
+distribution, or whatever it is. And in one of the attachments in my testimony, there's 248
+questions that detail that very specifically. So while the drug companies ultimately are
+responsible for their product, maybe they should have taken the view of, well, even if the government
+says we can get away with it, we're not going to. So there were clearly things that they knew and
+they overly, overly generous, over generously interpreted cancer studies, genotoxicity studies,
+biodistribution studies. And in the particular case of Pfizer, there was the very egregious
+non-disclosure of a particular sequence in the plasmid that was used to manufacture the product
+of particular sequences that derive from an SV40 virus. It wasn't the whole virus,
+there were particular sequences in that. But they specifically, in FOIA requests that we've had
+from different countries, the Pfizer chose not to disclose those sequences, a very significant,
+I think, abuse of public trust. Given that they had the sweetheart of a deal,
+all the marketing was done for them by the government. That is a particularly egregious
+example. Let me just ask you, if you've encountered other instances where adverse
+event data was downplayed or disregarded or even outright concealed by either the manufacturers
+or public health authorities in a way that had the effect of protecting corporate interests
+over patient safety. You mean outside of COVID? No, in the COVID context. I mean,
+you've named a couple. Are there others that we should be aware of?
+I mean, I think everything is altered. The question is, even though we've been discussing
+the Bayesian data mining that the FDA conducted, we don't know what systems the Pfizer and Moderna
+we're using, they also have a responsibility for pharmacovigilance. So I think a valid question
+is to ask, you know, what were they finding? What systems were they using? Were they adequately
+understanding of the limitations of those systems? And to what extent were they
+reporting them to the government? So I can't give you more specific examples than what we've
+already seen. What would reforms would you recommend Congress pursue to ensure that this sort of
+future public health emergency that in cases like this that we saw in COVID that pharmaceutical
+companies, private companies are held accountable for adverse events. They're not getting the sweetheart
+deal that you've been describing. Well, I think it has to be a greater separation
+between the government and the pharmaceutical companies understanding that it was an emergency
+situation. There had to be an element of collaboration. So there is something there,
+but there has to be some separation. But going forward, specifically for the subject matter of
+what we're discussing today, there are some major reforms of theirs that have to take place
+in terms of making sure that data is properly collected. There's a person called Albert
+Benavides who's done a great job at documenting that. The companies should be required to be using
+the modified Bayesian methods. The PRR methods should also be used with caveats. And there has to be
+adequate oversight of exactly how these signals are going to be implemented or understood. The VSD,
+there was also actually to your earlier question, again, this was a VSD issue that they actually
+had seen signals for myocardial infarction and venous thromboembolism in May of 2022,
+but they didn't report them in the public domain till about a year later. So that was a
+consumer. But again, that was on the part of the VSD program, not specifically the manufacturers.
+So there's a whole slew of things that have to happen in terms of how we analyze data.
+The senator mentioned, making sure that we actually get rates of adverse events that are based on
+actual usage, which we could have done in the earlier part of the COVID vaccine. We could have
+done that. And I did that analysis together with Dr. Getsko from the Hebrew University,
+and we normalized it the right way. We sent that to Dr. Evans, who was the
+father of the PRR method that's equivalent to the Dr. Dumey Schell. And at the moment,
+when we sent that to him in England, he just closed down on us. So clearly there's got to be
+something within the government that says we've got to look at these things and take people
+seriously. And someone like Anna Schaffman and Dr. Dumey Schell, who are the father and mother
+of these methods, would be ignored. These weren't just any people. These were the father and the
+mother, as it were, of these methods. They need to be listened to and not marginalized,
+not being told to cease and desist. We don't want to know what you've got to say. I think that's
+terrible. And we need to understand what processes happened to make that situation possible.
+You know, I think that the government working with private companies in the midst of the health
+crisis is one thing. Collaboration is one thing. But systematically concealing from the public the
+true risks involved with this vaccine in a way that not only misled patients, that not only misled
+parents, that not only endanger the lives of children, but had the net effects of lining the
+pockets of the biggest pharma companies in the world, that is a disgrace. That is an absolute
+disgrace. And I just think, Mr. Chairman, that that is what we have got to learn from this crisis.
+Somebody did profit off of it. You know, I mean, we talk about COVID and COVID was good for nobody.
+Not quite true. It was very good for a handful of pharma companies who got the sweetheart deal
+with the government who made billions of dollars off of it. And as usual, got to offload all of
+their potential liability onto somebody else and walk away from it. And now they are sitting pretty
+and the patients are told, sorry, you know, oh, we lied to you. Sorry. But at least the companies
+got rich. We've got to change this. It's never happened to you. They have responsibility and
+moral responsibility, in my opinion, even whatever the government says, you know, they have to go
+beyond the letter and say, okay, you know, we think there's a problem here. We have to look at
+our product, honestly, and say, okay, you know, we have to disclose all the risks, even though,
+even though FDA allows us to say certain things. Senator Hall, there's, I think,
+it's an Oxfam study that shows trillions of dollars transferred to not just pharma,
+but the big box stores. It was all the little guys that got shut down. The big guys did did
+phenomenally well. But I do want Dr. Jablonsky to answer your question in terms of, because he,
+I think he missed his opening testimony, he listed all of this test that they did not do
+in the approval process. Can you quick read that list again?
+Certainly it was. There were pre-EUA. There were no tests done on drug, drug interactions,
+cardiovascular toxicity, central nervous system toxicity, other organ toxicity, blood toxicity,
+genotoxicity, or carcinogenicity. And I then went on to say-
+Then they hit all kinds of things. And by the way, if you really want to know the abuse,
+talk to Bredrassen, talk to Stephanie Maddy to Gary, who actually participated in the trials,
+AstraZeneca and Pfizer, and how they were completely abandoned. Maddy to Gary, I think at the time,
+maybe 12 to 13 year old little girl, she couldn't walk. She was in a wheelchair. She had to have
+a feeding tube. She could, in the report from Pfizer, they listed that as a stomach ache.
+Bredrassen, who has amassed hundreds of thousands of dollars in medical bills,
+AstraZeneca, I think, sent her a check for $1,300 something like that. That settles it. So no,
+they were abandoned by the companies that they participate in the trials in.
+And then they were abandoned by the official of the FDA who treated them,
+acknowledged that they were vaccine injured, and then never told the public about it.
+So we've got a real big problem in this country about vaccine injury deniers.
+Again, these vaccine injuries are real, but it's being denied. Mr. Science himself accused
+a lot of people being science deniers. I'll accuse people being vaccine injured deniers.
+And the study, I've got to point this out. We're going to start this.
+Put up number eight. Here's a, I had this chart for my November 21st, and Dr. Wise,
+where you might have actually been at this public event with a vaccine injured.
+And this, the blue lines are the number of, the new cases per day. And so you can see,
+this is December, 2020 right there. When the, when the vaccine was approved and started being
+administered, you see the number of cases pretty well peaked late 2020, early 2021,
+and started coming all the way down. The orange line is the uptake, the percentage of the Americans
+who were vaccinated with the COVID injection. Now, it was effective. It really would have worked.
+You'd think that the number of cases would just tailed off. If that's not what happened.
+So in a previous hearing, put it, put up a number four. Okay. Well, if you just two seconds,
+at previous hearing, you put up a, no, I have that one. You put up a study from Commonwealth fund
+saying that the vaccine saved 3.2 million lives. So I'm just going to, again, just my simple math,
+just prove how incredibly farcical that is. So if you just take a look at it. I don't, I don't
+know any simple math. It's all, this is, this is just, this is simple addition. So if you take a
+look at actual deaths up to the pandemic, 2019, about 2.8 million deaths. Now, if you just grow
+that, and of course, population is growing or aging. So it's growing compound and your growth
+rate a little bit, a little under 1% a year. By about 2024, we'd have about 3.1 million deaths.
+We were projected about 2.9 for the pandemic year. Let's take a look at what actually happened.
+So the year pandemic, we went from 2.9 million deaths to 3.4. You know, obviously something's
+happening. You know, people like Ms. Young suffered the result. Half a million Americans died.
+Now, the vaccine came on board in 2021. You would think, again, if we pretty well,
+I hate to use the word called the herd, but I mean, the most vulnerable people
+died in 2020. So by 2021, the year of the vaccine, you would expect, if it was that effective,
+that number, if you would have been saving 3.2 million lives, by the way, just that's in 2021,
+2022. You'd think that number would have come down. No, it went up to 3.5 million deaths.
+2022 came down a little bit to 3.3. So let's put up the last one. Now, in order
+to make the claim that 3.2 million lives were saved in 2021 and 2022, you would have had to
+assume that once the vaccine came on board, we were really expecting 5 million deaths
+in both 2021 and 2022. So that kind of fun is that study, that mathematical model,
+kind of like the VAERS algorithm. It's complete bunk. It's complete BS. The vaccine did not save
+3.2 million lives. In America, what it did do is it had some serious adverse events to the tune of
+about 1.7 million currently on VAERS, 39,000 worldwide, and we know it dramatically understates
+what that number was. Mr. Chairman, can I ask a quick question?
+Ms. Young, you've sat through all this stuff. If you had to do over again,
+would you have gotten the vaccine? Oh, yeah, without question. You would have gotten it.
+Even knowing that there were potential adverse effects and side effects, which,
+frankly, there are with any kind of medicine these days, you still would have gotten the vaccine.
+Yeah, and that's kind of how I think about it. Anything we take, medicine, vitamins,
+like everything comes with a risk. It was a measured risk at the time.
+And yeah, I don't regret my decision at all.
+Thank you. Thank you, Mr. Chairman. And again,
+to Ms. Young, thank you for being here today. I apologize to the witnesses, and Mr. Chairman,
+I have a hearing of the Veterans Affairs Committee. Our world is many
+obligations at the same time, so I do apologize that I can't be here.
+I appreciate that. So in my letter to Secretary Kennedy of December 15th,
+point number 10, I point out a Rasmussen study. This is a poll of all the American people
+that showed that 28% of the American public believe they personally knew somebody
+whose death may have been caused by the COVID injection. 28%.
+That same poll said that about 48% of Americans agree that there are legitimate reasons to be
+concerned about the safety of the COVID-19 vaccines. Again, it doesn't prove causation,
+but this is what people experienced in the American public. This is what they saw. Now,
+Peter Marx and everybody else saying safe and effective, but what the public saw,
+and I saw this with people I knew, very serious side effects, including one person I think died.
+Now, a lot of people didn't want to admit it. There are loved ones who encouraged them to get
+that shot, didn't want to admit that maybe that's what killed them. I never asked the question,
+I always had the suspicion with like 28% of the other American population.
+Dr. Zwonski, you talked about V-safe. To talk a little bit about what it
+showed and what it didn't show. I mean, what it was trying to track. And again,
+I mean, the adverse events, as you said in your testimony, the things that nobody really
+cared that much about, it's the small stuff. It wasn't deaths. It wasn't my arcides,
+but to talk a little bit about that. Right. So the V-safe system was designed to actually
+pick up subclinical findings, which in theory would be good because the VSD, what most of the
+health institutions rely on, are only what is presented clinically. However,
+in all honesty, the COVID-19 vaccine rollout was a freight train going 100 miles per hour,
+and nothing was going to stop it. Now, V-safe was designed to ask 10 questions
+that nobody cared about that was never going to stop this. If all 10 million people had
+checked all 10 boxes every time they were prompted, I still do not think it would have
+made a lick of difference. But I also asked you to determine, did you seek medical care after
+your vaccination, correct? That is correct. And 7.7% of the people, of the 10 million people,
+sought medical care after their injection. Now, is that unusually high for any medication
+or vaccine? That seems awfully unusually high. The number of skipped work days, I believe,
+25%. Also, unbelievably high. Dr. Wiseman, one of the things that is not widely publicized is the
+certainly the Pfizer might have been true the Moderna as well. But I know the Pfizer got the
+emergency use authorization based on a certain process, very low batch process, process number
+one. But that is not what the American people or the world got, is it? You want to describe
+the potential problems of them switching the process just regularly in terms of that is
+probably not what should happen. But also the danger of that new process.
+Particularly when we know that people like Kevin McKearon are talking about massive amounts of
+DNA above and beyond the acceptable limits. Okay, so in general, any time in any
+medical, pharmaceutical product, if a manufacturer changes the manufacturing process,
+it triggers a very, very careful review of does this change the safety and efficacy of the product?
+Okay, that's a general principle that everyone knows. The material that was used by Pfizer,
+the so called process one material, the RNA was made in a certain way using a certain method.
+And only once the vaccine was was authorized in December 2021 or just slightly before then,
+they introduced the what would be the process to which was going to be using a bacteria with
+these things called plasmids. And it turns out there's also these SC40 sequences. But they were
+using the similar process that Moderna was using all the time. And there was supposed to be in
+a comparator study done with the 250 patients to show that the new material was acting the
+same way as the old material. That actually wasn't done even though it was slated to be done.
+So that's a huge issue. And by switching the processes, it introduced different risks and
+different profiles into the product that haven't been properly studied. And FDA allowed Pfizer to
+slide and not even do that comparison study. There was actually a process three. And the process
+three was about in the end of 2021, where Pfizer changed the liquid vehicle that the vaccine was
+carried in from one kind of solution to another kind of solution, which again wasn't properly
+characterized. And that was really called process three. So what was in the clinical studies,
+even though there was lots of problems with the clinical studies as well, which that's a different
+problem, the public did not get the product that was part of the clinical studies. In the case of
+Moderna, there were also some changes that happened to do with certain RNA sequences that
+were in the product. Again, there were questions that EMA, particularly the Europeans, were very
+careful in asking questions to Pfizer and Moderna about different aspects of their process. They
+asked good questions. And this is work that I did with Dr. Maria Gucci. They asked good questions.
+We went through those documents extensively. And then they got some kind of very perfunctory
+answer. And it seems like they were sort of told to, you know, lie down and not do anything more.
+So multiple occasions in both companies, there were lots of irregularities as to
+what the questions that were being asked about, the manufacturing that weren't being properly
+answered. Dr. Zblonsky, it kind of speaks to another problem you have is when you have no
+product liability, you know, all the effort goes into getting a drug or a vaccine approved,
+but because you have no liability, once it's approved, there's not a whole lot of effort on
+anybody's part, right? I mean, the regulators who have approved it, they don't want to be proven
+wrong. The vaccine manufacturers, they're certainly not going to be, you know, raising their hand,
+oh, by the way, we better pull this thing because we're seeing all kinds of problems.
+You've seen that with childhood vaccines as well. Do you want to just kind of describe that problem
+of, you know, lack of liability for these products and what that produces from the standpoint of
+post-licensure behavior? Yeah, I think that if there was no product liability for automobiles,
+we'd still be driving around in model T's. There is no development, there's no pressure to develop
+a better and safer. And in fact, there is a disincentive for them to look. It's actually a
+violation of the fiduciary duty to their shareholders if they actually look at their own product and
+find a problem. And so we are left powerless over the system that cannot be corrected by
+capitalistic forces if there is a liability shield. We just can't be.
+So the vaccines got the emergency use authorization different times. They were licensed about August
+of 2021. Again, I was looking at Vayers early on. I remember a conversation. I had with Francis
+Collins the end of April when there were about 2,900 deaths reporting on Vayers. 46% of those
+because we're administering to elderly the, you know, frailer individuals. 46% of those deaths
+were occurring on the day of vaccination or within one or two days. And I asked Dr. Collins
+about that. So, Senator, we've identified six cases where we've proved causation between the
+Johnson-Johnson vaccine and women of childbearing age. In terms of the other 2,900,
+Senator, people die. So I'll close out with that thought in terms of the incentives
+or the lack of incentives for the companies, the regulators who approve these things
+to rigorously follow them for safety problems. Because they don't want to admit they were wrong
+in approving them the first place. They don't want to admit that shots or injections that they were
+doing videos on telling everybody you have to get to, you know, that's why God gave you two arms,
+you know, shot in the booster knee charming. Nobody that pushed these things wants to admit
+they are wrong. The advice they gave might have resulted in somebody's death or permanent disability.
+That's what we're faced with. That's why we have this massive vaccine injury and injection
+injury denying going on this country. And I can tell you from my standpoint, I'm not given up.
+I'm not caving to the vaccine deniers. I'm not caving to the ridicule and vilification.
+I think my next hearing on this will probably bring in the injection injured. Now that we have
+this report and again, look at the timing. This Peter Marks was made aware of this in March of
+2021. The same time the NIH was treating people and they were admitting these people were injured
+by the COVID injection. They were promised that they would be studied that would be made public.
+Their injuries would be made public. And here we are. End of April, 2026. That hasn't happened.
+I'm on a mission to make sure that happens. So again, I want to thank all the witnesses. Again,
+Ms. Young, I appreciate the fact you're here. I really encourage you. If you allow me, I will
+put you in connection with the with the brand dress and there. You're going to be dealing with
+the same issues. You haven't been seen, you haven't been heard, nor have they. I think
+it could really be a good conversation. Okay, wonderful. We'll do that.
+But the record for this hearing remain open for 15 days until 5 p.m. on Thursday, March 14th,
+2026, for the submission of the statements and questions for the record, the series adjourned.

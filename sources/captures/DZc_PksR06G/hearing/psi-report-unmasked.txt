@@ -1,0 +1,2121 @@
+Source: U.S. Senate Permanent Subcommittee on Investigations (PSI), Majority Staff Interim Report
+Title: Unmasked — How Biden Health Officials Purposely Turned a Blind Eye Toward COVID-19 Vaccine Safety Signals
+Released: April 29, 2026 (Chairman Ron Johnson). ~600 pages of HHS-produced records accompanied the report.
+URL: https://www.ronjohnson.senate.gov/wp-content/uploads/2026/05/Senate-PSI-Majority-Staff-Interim-Report-April-29-2026-FINAL.pdf
+
+— REPORT TEXT (pdftotext -layout) —
+
+                                                     Table of Contents
+
+I.     Executive Summary ..........................................................................................2
+     A. The FDA’s “Gold Standard” of Data Mining (and its flaws) ..........................5
+       i.       Background ................................................................................................................. 5
+       ii.      Federal Health Officials’ Reliance on EB Data Mining .................................. 6
+       iii. EB Data Mining Limitations .................................................................................. 7
+       iv. Dr. Szarfman’s and Dr. DuMouchel’s New and “Superior” EB Data
+            Mining Methodology ................................................................................................ 8
+
+     B. Locking Down Access to FDA’s Data Mining Analyses ...............................10
+
+     C. FDA Officials Acknowledge EB Data Mining Limitations and Continue to
+        Fail to Make Necessary Adjustments ............................................................12
+
+     D. Top FDA CBER Officials Eventually Acknowledge the Effectiveness of the
+        New Data Mining Model Compared to the Current Methodology ...............13
+
+II.          Timeline – Biden Health Officials Ignore Safety System that Can Better
+             Detect Signals for COVID-19 Vaccine Adverse Events ............................15
+
+III.         Glossary ........................................................................................................32
+
+IV.          Appendix – Chairman Johnson’s Oversight of COVID-19 Vaccines .....35
+
+
+
+
+                                                                      1
+    I.   Executive Summary
+
+        Documents produced by the Department of Health and Human Services (“HHS”) to the
+Permanent Subcommittee on Investigations (“PSI” or “the Subcommittee”) show that beginning
+in early 2021, Dr. Ana Szarfman, who at the time was a senior medical officer and safety data
+mining developer at the Food and Drug Administration (“FDA”), used an updated data analysis
+technique that identified dozens of statistically significant safety signals for adverse events
+associated with the COVID-19 vaccines. 1 She immediately shared her findings with other FDA
+officials, including officials responsible for COVID-19 vaccine safety surveillance, but they
+largely ignored her and eventually told her to stop her data analyses.
+
+         Specifically, on March 26, 2021, Dr. Szarfman, who worked in the FDA’s Center for
+Drug Evaluation and Research (“CDER”), shared a data mining analysis of COVID-19 vaccine
+adverse events using a newer methodology that reduced masking. 2 Masking is a known data
+limitation with FDA’s current data mining method that can inhibit the detection of safety signals
+for adverse events.3 Dr. Szarfman’s analysis—which was done in collaboration with Dr. William
+DuMouchel, the then-Chief Statistician at Oracle and inventor of the data mining algorithm that
+supported FDA’s current data mining system—found “49 examples of extreme masking” with
+over twenty of those examples of adverse events now showing a statistically significant safety
+signal when adjusted for masking.4 In other words, by using a methodology that accounted for
+the masking limitation, Dr. Szarfman and Dr. DuMouchel uncovered approximately 25
+statistically significant safety signals for adverse events associated with the COVID-19 vaccines
+that were not previously detected by FDA’s current methodology, including sudden cardiac
+death, Bell’s palsy, and pulmonary infarction. 5
+
+       Dr. Szarfman shared similar findings with other senior officials at the FDA in this
+instance and at least three other times in April 2021, May 2021, and July 2021 when her and Dr.
+DuMouchel’s analyses yielded even more statistically significant safety signals with higher
+
+1
+  HHS records also credit Dr. Szarfman as someone who “worked to develop the data mining system” that FDA was
+using at the time. See PSI-HHS-000008257238; David Wiseman, Signal loss by truancy, masking, and filtering, and
+underestimation of potential risks and suspected adverse reactions in the Disproportionality Signal Analyses of
+VAERS data associated with COVID-19 pro-vaccines, ResearchGate, Sept. 2025,
+https://www.researchgate.net/publication/395382959_Signal_loss_by_truancy_masking_and_filtering_and_underest
+imation_of_potential_risks_and_suspected_adverse_reactions_in_the_Disproportionality_Signal_Analyses_of_VAE
+RS_data_associated_with_COVID-19_pro at 8-9. Dr. Szarfman retired from the FDA in 2025. The Subcommittee
+applied Bates stamps to the records cited in the report that were produced by HHS.
+2
+  PSI-HHS-000008257443-44 (with attachment).
+3
+  Id.; See e.g., David Martin et al., Data Mining for Prospective Early Detection of Safety Signals in the Vaccine
+Adverse Event Reporting System (VAERS): A Case Study of Febrile Seizures after a 2010–2011 Seasonal Influenza
+Virus Vaccine, Drug Safety (2013), https://link.springer.com/article/10.1007/s40264-013-0051-9; Rave Harpaz et al.,
+Signaling COVID-19 Vaccine Adverse Events, Drug Safety (2022),
+https://link.springer.com/article/10.1007/s40264-022-01186-z.
+4
+  PSI-HHS-000002293255; PSI-HHS-000008263190-91 (emphasis added). Records show that FDA’s threshold for
+determining a statistically significant safety signal was when the lower bound of the reporting estimate (EB05)
+exceeded 2.0. See PSI’s March 25, 2026 document release on EB data mining:
+https://www.ronjohnson.senate.gov/services/files/F92FBB0A-CCFD-412A-A02D-243AA1844D6E at 166; FOIA
+production: https://www.fda.gov/media/184988/download?attachment at 23.
+5
+  PSI-HHS-000008257443-44 (with attachment).
+
+                                                        2
+values for adverse events, including acute myocardial infarction associated with the Moderna
+and Pfizer-BioNTech (“Pfizer”) COVID-19 vaccines, non-site specific embolism and thrombosis
+associated with the Janssen (“Johnson & Johnson”) and Pfizer vaccines, dementia associated
+with the Pfizer vaccine, and “Death and sudden death” associated with the Moderna and
+Pfizer vaccines.6
+
+        However, rather than warn the public or hold distribution of the vaccines for further
+investigation, records appear to indicate that Biden health officials ignored the statistically
+significant safety signals uncovered through the new methodology and were more concerned
+about Dr. Szarfman’s efforts rather than her troubling findings. In April 2021, after Dr. Szarfman
+emailed a data mining analysis apparently underscoring the limitations of FDA’s current system,
+one senior FDA official wrote to his colleagues, “[b]efore we potentially reach out to Ana, we
+should meet internally – many considerations not suited to email…”7
+
+        By May 2021, senior officials in the FDA’s Center for Biologics Evaluation and Research
+(“CBER” – the unit responsible for COVID-19 vaccine safety surveillance), including Drs.
+David Menschik, Narayan Nair, and Craig Zinderman drafted an email to Dr. Szarfman, that Dr.
+Zinderman eventually transmitted to her, directing Dr. Szarfman to “hold off on creating and
+sending data mining reports and analyses.” 8 Dr. Peter Marks, a staunch supporter of the COVID-
+19 vaccines who at the time led CBER, eventually warned Dr. Patrizia Cavazzoni, the then-
+Director of CDER, that Dr. Szarfman’s data mining could “create erroneous conflicts that feed in
+to anti-vaccination rhetoric.”9
+
+        Although senior officials at FDA instructed Dr. Szarfman to “hold off” on generating and
+distributing her and Dr. DuMouchel’s analyses, she continued. 10 Dr. Szarfman tried to convince
+her colleagues that the data mining method she was sharing was more effective than the method
+FDA was using. She wrote to FDA officials in early May 2021 that her and Dr. DuMouchel’s
+method “strongly reduces confounding” and that the safety signals in this method are much
+higher than the signals detected in FDA’s method, particularly for acute myocardial infarction. 11
+
+       As highlighted in Chairman Johnson’s report on myocarditis and the COVID-19
+vaccines, on May 24, 2021, draft notes from a meeting involving federal health officials
+contained the question, “Is [the Vaccine Adverse Event Reporting System (“VAERS”)] signaling
+for myopericarditis?”12 The answer stated: “For the age groups 16-17 years and 18-24 years,
+
+6
+  PSI-HHS-000008258306 (with attachment); PSI-HHS-00008258202-03; PSI-HHS-000002208944-45; PSI-HHS-
+000004592364-65 (with attachment) (emphasis added).
+7
+  PSI-HHS-000008251979 (emphasis added, ellipsis in original).
+8
+  PSICOVID_00017246; PSI-HHS-000008251530; PSI-HHS-000008251912-13; PSI-HHS-000001195617-19;
+PSI_HHS-000008253450-51; PSI-HHS-000001175745-47; PSI-HHS-000001148712-14; PSICOVID_00017246-47.
+9
+  PSI-HHS-000002213753; PSICOVID_00017246-47. See also, Testimony of Dr. Peter Marks before the Select
+Subcomm. on the Coronavirus Pandemic Comm. on Oversight and Accountability, U.S. House of Representatives,
+Feb. 15, 2024, https://oversight.house.gov/wp-content/uploads/2024/02/FDA-SSCP-Vaccine-Safety-and-
+Surveillance-FDA-Written-Testimony-FINAL-Clean.pdf.
+10
+   PSICOVID_00017246-47.
+11
+   PSICOVID_00017245; PSI-HHS-000002208944-45. In a May 6, 2021 email to her FDA colleagues, Dr.
+Szarfman wrote, “Note that the ER05 signals of RPGS are higher than the EB05 signals of MGPS.” Id.
+12
+   Chairman Ron Johnson, Failure to Warn: How Federal Health Agencies Downplayed the Risk of Myocarditis and
+Other Adverse Events Following COVID-19 Vaccination, Permanent Subcomm. on Investigations, May 21, 2025,
+
+                                                     3
+yes.”13 Despite this unambiguous acknowledgement of the myopericarditis signal, Biden health
+officials continued to fail to immediately warn the public about the risks of cardiac events
+associated with the COVID-19 vaccines. 14
+
+         In early June 2021, Dr. Szarfman emailed an FDA colleague about ongoing discussions
+between the FDA and the Centers for Disease Control and Prevention (“CDC”) about COVID-19
+vaccines and “myocardial events and the lack of signals in VAERS and other data resources.” 15
+She enclosed Dr. DuMouchel’s data mining analysis from a month earlier showing higher
+statistically significant safety signals for acute myocardial infarction and noted that she and Dr.
+DuMouchel “also detected clear signals for other similar events.” 16 Dr. Szarfman wrote, “I am
+not astonished that [FDA’s data mining system] was unable to detect these signals.” 17
+
+        In July 2021, Dr. Szarfman warned FDA officials that her and Dr. DuMouchel’s data
+mining method detected “an increased mortality signal with the COVID-19 vaccines,” reminding
+her colleagues that she and Dr. DuMouchel use “a method that automatically unmask[s] signals
+that remain hidden by other data mining methodologies, including by MGPS [FDA’s current data
+mining method abbreviated for Multi-item Gamma Poisson Shrinker].” 18 Again, in September
+2021, Dr. Szarfman urged senior FDA officials to utilize her and Dr. DuMouchel’s data mining
+method underscoring that this method is “much better at unmasking signals than MGPS. It
+automatically identifies and corrects for confounders. This is an important function to have,
+given the pandemic situation.”19
+
+       Records indicate that FDA did not make any adjustments to its data mining methodology
+as recommended by Dr. Szarfman. However, Dr. Szarfman continued to advocate for the newer
+methodology, eventually co-authoring a June 2022 paper with Dr. DuMouchel and others
+published in the journal Drug Safety, which discussed their data mining technique and stated that
+masking “is roughly eight times more likely to occur with COVID-19 vaccines than with other
+vaccines.”20 In July 2022, Dr. Szarfman emailed this article to then-FDA Commissioner Dr.
+Robert Califf noting that her paper describes advances in data mining methodology “especially in
+the capacity to unmask hidden signals[.]”21 Upon receipt of this and another article, Dr. Califf
+
+
+
+https://www.hsgac.senate.gov/wp-content/uploads/2025.05.21-PSI-Majority-Staff-Interim-Report-Failure-to-
+Warn.pdf at 20.
+13
+   Id. It is unclear what data mining system was used to determine that VAERS was signaling for myopericarditis.
+14
+   Id. Chairman Johnson’s May 21, 2025 report discussed how Biden health officials failed to issue a formal warning
+about myocarditis, despite increasing cases in VAERS, through the Health Alert Network which would have notified
+health care providers about the risk of myocarditis associated with the mRNA COVID-19 vaccines. The FDA did
+not announce changes to the labels “to include a warning about myocarditis and pericarditis” for the Moderna and
+Pfizer COVID-19 vaccines until June 25, 2021, months after first becoming aware of reports of increased cases of
+the adverse events. Id. at 3, 6, 27-28.
+15
+   PSI-HHS-000002208944.
+16
+   PSI-HHS-000002208944-45.
+17
+   PSI-HHS-000002208944.
+18
+   PSI-HHS-000004592364.
+19
+   PSI-HHS-000008254471.
+20
+   Rave Harpaz et al., Signaling COVID-19 Vaccine Adverse Events, Drug Safety (2022),
+https://link.springer.com/article/10.1007/s40264-022-01186-z.
+21
+   PSI-HHS-000004461747-48.
+
+                                                        4
+simply replied, “Thanks. These are good.” 22 Documents reviewed to date do not indicate
+whether Dr. Califf took any action based on his review of Dr. Szarfman’s article.
+
+        Other FDA officials were not so thrilled with Dr. Szarfman’s publication. In August
+2022, Dr. Richard Forshee, the then-Deputy Director of CBER’s Office of Biostatistics and
+Pharmacovigilance, wrote to Dr. Marks, “we have just learned that Dr. Szarfman is a co-author
+on a recently published paper based on COVID-19 vaccines and VAERS. We believe there are a
+number of issues with the paper and its findings, and we are discussing how to best respond.” 23
+It remains unclear based on the records received to date whether FDA officials confronted Dr.
+Szarfman about her paper.
+
+     A. The FDA’s “Gold Standard” of Data Mining (and its flaws)
+
+       i.   Background
+
+        According to HHS, empirical Bayesian (“EB”) data mining is a “statistical method for
+identifying disproportionality (excess of reported [adverse events] for [a] product relative to
+other products) in large database[s].”24 HHS records credit Dr. DuMouchel as the individual
+who “invented the empirical Bayesian data mining algorithm known as Gamma-Poisson
+Shrinker (GPS) and its successor MGPS [Multi-item Gamma Poisson Shrinker], which have
+been applied to the detection of safety signals in databases of spontaneous adverse drug event
+reports.”25
+
+        In January 2021, one month after the FDA issued emergency use authorizations (“EUA”)
+for the Pfizer and Moderna COVID-19 vaccines, the FDA and CDC published a Standard
+Operating Procedure (“SOP”) document describing how the agencies will perform VAERS
+surveillance analyses to identify safety concerns for the COVID-19 vaccines.26 One of the
+analyses the FDA and CDC utilized was EB data mining, using the Multi-item Gamma Poisson
+Shrinker (“MGPS”) algorithm invented by Dr. DuMouchel. FDA oversaw the data mining
+which was conducted through software developed by Dr. DuMouchel at Oracle called Empirica
+
+
+
+22
+   Id.
+23
+   PSI-HHS-000004594929.
+24
+   Vaccine Adverse Event Reporting System (VAERS) Standard Operating Procedures for COVID-19, Centers for
+Disease Control and Prevention, Jan. 29, 2021,
+https://web.archive.org/web/20210319091240/https://www.cdc.gov/vaccinesafety/pdf/VAERS-v2-SOP.pdf at 16-17.
+See also PSI’s March 25, 2026 document release on EB data mining:
+https://www.ronjohnson.senate.gov/services/files/F92FBB0A-CCFD-412A-A02D-243AA1844D6E at 160; FOIA
+production: https://www.fda.gov/media/184988/download?attachment at 22.
+25
+   PSI-HHS-000002293255. See also, William DuMouchel, Bayesian Data Mining in Large Frequency Tables, with
+an Application to the FDA Spontaneous Reporting System, The American Statistician (1999), available at
+https://www.jstor.org/stable/2686093?seq=1.
+26
+   The FDA issued the EUA for the Pfizer-BioNTech COVID-19 vaccine on December 11, 2020. Moderna received
+the EUA for its vaccine on December 18, 2020. COVID-19 Timeline, Centers for Disease Control and Prevention,
+https://www.cdc.gov/museum/timeline/covid19.html; Vaccine Adverse Event Reporting System (VAERS) Standard
+Operating Procedures for COVID-19, Centers for Disease Control and Prevention, Jan. 29, 2021,
+https://web.archive.org/web/20210319091240/https://www.cdc.gov/vaccinesafety/pdf/VAERS-v2-SOP.pdf.
+
+                                                     5
+Signal (“Empirica”).27 Dr. Szarfman is also credited for developing and helping FDA adopt the
+data mining system.28 Records show that FDA’s threshold for determining a statistically
+significant safety signal was when the lower bound of the reporting estimate (EB05) exceeded
+2.0.29
+
+      ii.    Federal Health Officials’ Reliance on EB Data Mining
+
+       Federal health officials publicly touted the strength of EB data mining as “a more robust
+technique” for analyzing VAERS reports.30 Internal emails between HHS officials also showed a
+preference for EB data mining over other types of data analyses. In June 2022, Dr. Tom
+
+27
+   Letter from Jeff Reezek, Centers for Disease Control and Prevention to Sen. Ron Johnson, Permanent Subcomm.
+on Investigations, Mar. 14, 2023 (on file with Subcomm.); PSI’s March 25, 2026 document release on EB data
+mining: https://www.ronjohnson.senate.gov/services/files/F92FBB0A-CCFD-412A-A02D-243AA1844D6E at 161;
+FOIA production: https://www.fda.gov/media/184988/download?attachment at 23; David Wiseman, Signal loss by
+truancy, masking, and filtering, and underestimation of potential risks and suspected adverse reactions in the
+Disproportionality Signal Analyses of VAERS data associated with COVID-19 pro-vaccines, ResearchGate, Sept.
+2025,
+https://www.researchgate.net/publication/395382959_Signal_loss_by_truancy_masking_and_filtering_and_underest
+imation_of_potential_risks_and_suspected_adverse_reactions_in_the_Disproportionality_Signal_Analyses_of_VAE
+RS_data_associated_with_COVID-19_pro at 8-9.
+28
+   Robert O’Neill and Ana Szarfman, Some US Food and Drug Administration perspectives on data mining for
+pediatric safety Assessment, Current Therapeutic Research (2001),
+https://www.sciencedirect.com/science/article/abs/pii/S0011393X01800710; Ana Szarfman et al., Use of screening
+algorithms and computer systems to efficiently signal higher-than-expected combinations of drugs and events in the
+US FDA's spontaneous reports database, Drug Safety (2002), https://link.springer.com/article/10.2165/00002018-
+200225060-00001; David Wiseman, Signal loss by truancy, masking, and filtering, and underestimation of potential
+risks and suspected adverse reactions in the Disproportionality Signal Analyses of VAERS data associated with
+COVID-19 pro-vaccines, ResearchGate, Sept. 2025,
+https://www.researchgate.net/publication/395382959_Signal_loss_by_truancy_masking_and_filtering_and_underest
+imation_of_potential_risks_and_suspected_adverse_reactions_in_the_Disproportionality_Signal_Analyses_of_VAE
+RS_data_associated_with_COVID-19_pro at 8-9; PSI-HHS-000008257238. One FDA official referred to Dr.
+Szarfman as someone who “worked to develop the data mining system[.]” Id. In 2002, Dr. Szarfman was
+reportedly awarded “the FDA and CDER Outstanding Scientific Achievement Awards for contributions to safety
+data mining.” See Professional Activities, Ana Szarfman, ORCID, https://orcid.org/0000-0001-6680-1423.
+29
+   PSI’s March 25, 2026 document release on EB data mining:
+https://www.ronjohnson.senate.gov/services/files/F92FBB0A-CCFD-412A-A02D-243AA1844D6E at 166; FOIA
+production: https://www.fda.gov/media/184988/download?attachment at 23. Although FDA officials used 2.0 as
+their threshold for a statistically significant signal, an FDA official’s April 5, 2021 PowerPoint presentation before
+the Advisory Committee on Immunization Practices appeared to recognize that, “Technically, any [Empirical Bayes
+Geometric Mean] value above one indicates disproportional reporting.” See PSI’s March 25, 2026 document release
+on EB data mining: https://www.hsgac.senate.gov/wp-content/uploads/2025.05.21-Supporting-Documents-Failure-
+to-Warn-Part-08.pdf at 47. As medical researcher Dr. David Wiseman wrote in his September 2025 Preprint article,
+because health officials used the higher threshold of 2.0, as opposed to 1.0 which would “technically” indicate a
+signal, “[s]ignals were filtered out by an inappropriately high detection threshold.” David Wiseman, Signal loss by
+truancy, masking, and filtering, and underestimation of potential risks and suspected
+adverse reactions in the Disproportionality Signal Analyses of VAERS data associated with COVID-19
+pro-vaccines, ResearchGate, Sept. 2025,
+https://www.researchgate.net/publication/395382959_Signal_loss_by_truancy_masking_and_filtering_and_underest
+imation_of_potential_risks_and_suspected_adverse_reactions_in_the_Disproportionality_Signal_Analyses_of_VAE
+RS_data_associated_with_COVID-19_pro at 3.
+30
+   Letter from Rochelle Walensky, Dir., Centers for Disease Control and Prevention to Sen. Ron Johnson, Sept. 2,
+2022 (on file with Subcomm.).
+
+                                                          6
+Shimabukuro, one of the most senior CDC officials working on the COVID-19 vaccine safety
+team, lauded FDA’s use of EB data mining, calling it the “‘gold standard’ for disproportionality
+analysis” and stating that it “supersedes” other data mining methods “from the perspective of
+generating informative data.”31
+
+     iii.   EB Data Mining Limitations
+
+         Even though EB data mining was considered the “gold standard” by some at HHS for
+assessing safety signals associated with the COVID-19 vaccines, its effectiveness was limited by
+the statistical phenomenon called “masking.” According to Dr. Szarfman’s 2022 article
+published in the journal Drug Safety, masking can occur when “signals for a vaccine of interest
+are hidden by the presence of other reported vaccines. This masking effect may in turn limit or
+delay our understanding of the risks associated with new and established vaccines.”32
+
+       PSI Chairman Ron Johnson described masking in his March 23, 2026 letter to HHS,
+writing:33
+
+        Essentially, if the baseline data used by federal health agencies for determining the
+        statistical significance of a safety signal combines the signals of other COVID-19
+        vaccines, that baseline data will drown out or mask the signals of any single
+        COVID-19 vaccine. To help explain the effects of masking in layman’s terms,
+        consider this hypothetical: If 100,000 deaths were reported for Moderna’s vaccine,
+        100,000 deaths were reported for Pfizer’s vaccine, and 10,000 deaths were reported
+        for all other vaccines, Moderna’s 100,000 deaths may not look significant compared
+        to an inflated baseline of 110,000 deaths that is made up of 100,000 Pfizer deaths
+        combined with the 10,000 deaths from all other vaccines.
+
+        In this hypothetical, EB data mining would not detect a statistically significant
+        safety signal because the true rate of deaths was masked for one product when
+        compared to a baseline that is inflated by the inclusion of deaths from one or more
+        products with similarly high death rates.
+
+        Another simplified way to hypothetically explain the effects of masking would be
+        to test the adverse events of hemlock by comparing them to the adverse events of
+        arsenic. Both may be equally dangerous when each is compared separately against
+        a non-toxic substance such as saline. But, if the effects of hemlock were compared
+        against a baseline that combines the data for the effects of arsenic and saline, the
+        adverse events of hemlock may not result in a significant signal because they have
+        been drowned out or masked by the baseline data which includes the toxic effects
+        of arsenic.
+
+31
+   PSI-HHS-000005235281.
+32
+   Rave Harpaz et al., Signaling COVID-19 Vaccine Adverse Events, Drug Safety (2022),
+https://link.springer.com/article/10.1007/s40264-022-01186-z.
+33
+   Letter from Ron Johnson, Chairman, Permanent Subcomm. on Investigations to Robert F. Kennedy, Jr., Sec.,
+Dep’t of Health and Human Services, Mar. 23, 2026, https://www.ronjohnson.senate.gov/services/files/CA500350-
+195E-472C-9F26-BE93B290B9D9.
+
+                                                      7
+           According to a September 2025 preprint article, medical researcher David Wiseman
+           identified several limitations with EB data mining, including masking, that resulted
+           in an underestimation of COVID-19 vaccine adverse events. 34 Wiseman pointed
+           out “FDA’s analysis neglected to correct for masking, where signals for one vaccine
+           are concealed by signals from other vaccines.” 35
+
+        As explained further in Chairman Johnson’s March 23, 2026 letter, the Subcommittee is
+aware that when reports for certain adverse events are so prevalent, a safety signal may
+overcome FDA’s data mining statistical limitations. 36 For example, statistically significant safety
+signals appeared for ischemic stroke in individuals 65 years and older following injection of the
+Pfizer-BioNTech bivalent booster in February and March 2023. 37 Likewise, as discussed above,
+a signal for myopericarditis was detected in May 2021 for age groups 16-17 and 18-24 years (it
+is unclear what data mining system detected this signal). 38 Yet, in both of these cases, even after
+detecting the safety signal, Biden health officials still failed to immediately issue a formal public
+warning about the potential risks.
+
+     iv.      Dr. Szarfman’s and Dr. DuMouchel’s New and “Superior” EB Data Mining
+              Methodology
+
+        For decades, FDA relied on Dr. Szarfman’s and Dr. DuMouchel’s research into data
+mining. In 2004, Dr. Szarfman, who at the time worked at FDA in the Office of
+Pharmacoepidemiology and Statistical Sciences, published a paper advocating for the FDA’s use
+of the Bayesian data mining system that Dr. DuMouchel invented called MGPS. 39 Her paper
+noted that FDA was evaluating MGPS as a method to “enhance the FDA’s ability to monitor the
+safety of drugs, biologics, and vaccines after they have been approved for use.” 40 Records
+indicate that by January 2021, the MGPS algorithm served as the basis for FDA’s EB data
+mining system.41
+
+
+34
+   David Wiseman, Signal loss by truancy, masking, and filtering, and underestimation of potential risks and
+suspected adverse reactions in the Disproportionality Signal Analyses of VAERS data associated with COVID-19
+pro-vaccines, ResearchGate, Sept. 2025,
+https://www.researchgate.net/publication/395382959_Signal_loss_by_truancy_masking_and_filtering_and_underest
+imation_of_potential_risks_and_suspected_adverse_reactions_in_the_Disproportionality_Signal_Analyses_of_VAE
+RS_data_associated_with_COVID-19_pro.
+35
+   Id. at 3.
+36
+   Letter from Ron Johnson, Chairman, Permanent Subcomm. on Investigations to Robert F. Kennedy, Jr., Sec.,
+Dep’t of Health and Human Services, Mar. 23, 2026, https://www.ronjohnson.senate.gov/services/files/CA500350-
+195E-472C-9F26-BE93B290B9D9 at 15.
+37
+   Id. at 16.
+38
+   Chairman Ron Johnson, Failure to Warn: How Federal Health Agencies Downplayed the Risk of Myocarditis and
+Other Adverse Events Following COVID-19 Vaccination, Permanent Subcomm. on Investigations, May 21, 2025,
+https://www.hsgac.senate.gov/wp-content/uploads/2025.05.21-PSI-Majority-Staff-Interim-Report-Failure-to-
+Warn.pdf at 20.
+39
+   Ana Szarfman et al., Pharmacovigilance in the 21st century: new systematic tools for an old problem,
+Pharmacotherapy (2004), https://accpjournals.onlinelibrary.wiley.com/doi/epdf/10.1592/phco.24.13.1099.38090.
+40
+   Id. at 1.
+41
+   See, e.g., PSI-HHS-000008254390-92; FOIA production:
+https://www.fda.gov/media/184988/download?attachment at 2-5.
+
+                                                     8
+        On March 1, 2021, just over one month after the publication of the SOP that named FDA
+as the agency in charge of using EB data mining to identify statistically significant safety signals
+associated with the COVID-19 vaccines, Dr. Szarfman briefed CBER Director Dr. Marks and
+other senior FDA officials about a new, “state of the art” EB data mining algorithm, also
+invented by Dr. DuMouchel, called Regression-Adjusted Gamma Poisson Shrinker (“RGPS”). 42
+In her presentation, Dr. Szarfman described RGPS’s performance as “superior” compared to
+MGPS, noting that it “can better adjust for both, masking (false negatives) and confounding
+(false positives).”43 She emphasized that the “MGPS data mining method currently in use at the
+Agency and at the CDC is not state of the art” and that “RGPS is the state of the art” because it
+“incorporates more information into the signal generation process. This leads to a lower rate of
+missed signals and less false alerts.”44 Despite Dr. Szarfman’s advocacy for a new and
+apparently more reliable data mining method, FDA failed to take her expert advice and adopt the
+“state of the art” method.45
+
+        It is somewhat ironic that Drs. DuMouchel and Szarfman, who were crucial in the
+development of MGPS and its implementation at FDA, respectively, were, in early 2021, leading
+an effort to replace that data analysis method with another one. However, it is because of their
+expertise and familiarity with the data mining system that Drs. DuMouchel and Szarfman were
+uniquely qualified to critique the MGPS methodology, acknowledge its limitations, and offer a
+solution to better detect safety signals. 46
+
+       Records indicate that certain senior FDA officials openly acknowledged their own limited
+understanding of data mining, as well as Drs. DuMouchel and Szarfman’s expertise. In a March
+2021 email among FDA CBER officials, Dr. Bethany Baer wrote, “I know Ana [Szarfman]
+worked to develop the data mining system,” referring to FDA’s current method. 47 Dr. Baer
+recognized Dr. Szarfman’s “knowledge and experience” with data mining and later added “I
+know that she knows a lot more about data mining than I do!” 48 In an April 2021 email among
+FDA CBER officials discussing Drs. DuMouchel and Szarfman’s data mining analysis, Dr. Craig
+Zinderman admitted “I don’t pretend to understand it, but sounds like they are suggesting an
+analysis not stratified by year.”49
+
+
+
+42
+   Dr. Szarfman referred to Dr. DuMouchel’s RGPS methodology as “new.” PSI-HHS-000008257443-44; Dr.
+DuMouchel co-authored a white paper in 2012 about RGPS. William DuMouchel and Rave Harpaz, Regression-
+Adjusted GPS Algorithm (RGPS), Oracle, Nov. 2012, https://docs.oracle.com/health-sciences/empirica-signal-
+811/ESIUG/Regression-Adjusted_GPS_Algorithm.pdf; PSI-HHS-000004783470-71; PSI-HHS-000008257443;
+PSI-HHS-000008259555, 62; Vaccine Adverse Event Reporting System (VAERS) Standard Operating Procedures
+for COVID-19, Centers for Disease Control and Prevention, Jan. 29, 2021,
+https://web.archive.org/web/20210319091240/https://www.cdc.gov/vaccinesafety/pdf/VAERS-v2-SOP.pdf at 16-17.
+43
+   PSI-HHS-000008259555, 57.
+44
+   Id. at 61 (emphasis in original).
+45
+   Id.
+46
+   In a March 26, 2021 email to senior FDA officials, Dr. Szarfman left little doubt about her and Dr. DuMouchel’s
+expertise in data mining, stating explicitly that she and Dr. DuMouchel “extensively studied the increased value of
+RGPS over MGPS for reducing false positives and negative signals.” PSI-HHS-000008257443-44.
+47
+   PSI-HHS-000008257238.
+48
+   PSI-HHS-000008257237.
+49
+   PSI-HHS-000008251980.
+
+                                                         9
+        Throughout 2021, it appears that each time Dr. Szarfman distributed an RGPS-driven
+data mining analysis to her colleagues, she also included the results of the MGPS-generated data
+mining analysis.50 By doing this, FDA officials could clearly see the alarming statistically
+significant safety signals detected by the newer RGPS method compared to the silent and
+apparently outdated MGPS method.51
+
+     B. Locking Down Access to FDA’s Data Mining Analyses
+
+        In September 2021, Dr. Marks informed Dr. Cavazzoni, the then-Director of CDER, that
+Dr. Szarfman, who is a CDER employee, “has been asked to cease and desist” conducting her
+data analyses.”52 He complained that Dr. Szarfman’s work has “become a major distraction.” 53
+Dr. Peter Stein, the then-Director of CDER’s Office of New Drugs, reported to Dr. Marks that his
+office has “made it clear” to Dr. Szarfman “that she should not be discussing or providing
+internal analyses externally, and needs to focus on her assigned work.” 54
+
+         FDA officials’ decision to prevent Dr. Szarfman from conducting data mining on
+COVID-19 vaccines appeared to be part of a larger effort to restrict access and distribution of
+FDA’s COVID-19 vaccine data mining analyses. About a month before Dr. Szarfman was
+directed to “cease and desist,” Dr. David Menschik, a senior official in FDA CBER who had
+been distributing weekly data mining reports to individuals at FDA and CDC, informed a CDC
+official, in August 2021, that FDA’s “plan is actually to limit its distribution, largely for data
+security reasons.”55 It is unclear what specific “data security reasons” Dr. Menschik referred to
+when he informed his CDC colleagues about the need to limit the distribution of the data mining
+reports.
+
+        Based on records reviewed by the Subcommittee, Dr. Menschik continued to distribute
+the weekly data mining reports to a limited number of FDA and CDC officials, but it appears that
+the final weekly data mining report for the COVID-19 vaccines was distributed by another FDA
+CBER official, Dr. Zinderman, on July 12, 2022. 56
+
+       In a September 2022 email to his FDA colleagues, FDA CBER official Dr. Narayan Nair
+admitted that he was responsible for suggesting to CDC that FDA discontinue its distribution of
+
+50
+   In a March 26, 2021 email, Dr. Szarfman wrote to her FDA colleagues, “the attached excel comparisons between
+RGPS and MGPS were generated by Bill DuMouchel using the VAERS public domain data incorporated into the
+Empirica Signal. RGPS is included with the public domain version of Empirica Signal.” PSI-HHS-000008257443;
+See e.g., PSI-HHS-000008257443-44 (with attachment); PSI-HHS-000008258306 (with attachment); PSI-HHS-
+00008258202-03; PSI-HHS-000002208944-45; PSI-HHS-000004592364 (with attachment).
+51
+   Id.
+52
+   PSI-HHS-000002213753.
+53
+   Id.
+54
+   PSI-HHS-000002213752-53.
+55
+   PSI-HHS-000005524064. See e.g., PSI’s March 25, 2026 document release on EB data mining:
+https://www.ronjohnson.senate.gov/services/files/D4D8B767-A092-455C-9CDE-DC8EC1419B31.
+56
+   PSI-HHS-000001217046 (with attachment); PSI’s March 25, 2026 document release on EB data mining:
+https://www.ronjohnson.senate.gov/services/files/D4D8B767-A092-455C-9CDE-DC8EC1419B31 at 231-234; See
+also Dr. Menschik writing to his FDA colleagues on Aug. 5, 2022, “we are no longer routinely sending COVID data
+mining to CDC[.]” One FDA official responded, “I was also hoping we would stop doing that at some point!” PSI-
+HHS-000008266854.
+
+                                                      10
+the weekly data mining reports.57 Instead, Dr. Nair informed his colleagues that FDA would
+continue its data mining, but would only “notify CDC if we found any datamining [sic] alerts
+that were clinical [sic] relevant and required further action.”58 He noted that this method would
+save time and “reduce email traffic.”59 Dr. Nair pointed out further, “[s]ince it had been some
+time that we had a datamining [sic] alert that required further evaluation, CDC agreed with this
+approach.”60
+
+        Emails among CDC officials point to another reason behind FDA’s decision to stop
+distributing its data mining reports. In November 2022, certain CDC officials recalled how they
+used to receive data mining reports from FDA official Dr. Menschik, but no longer do. One
+CDC official noted, “I think that because of the FOIAs [Freedom of Information Act
+requests] we may have asked FDA to stop sending these weekly data mining outputs.”61
+
+        Indeed, in the months and weeks leading up to FDA’s decision to discontinue its
+distribution of the weekly data mining reports, there were several public requests made to CDC
+and FDA for that information. On May 9, 2022, about two months before the FDA stopped
+sending CDC its weekly data mining reports, Children’s Health Defense sent a FOIA request to
+CDC for the EB data mining analyses. 62 On June 23, 2022, 19 days before FDA sent its final
+weekly data mining report, Senator Johnson wrote to then-CDC Director Dr. Rochelle Walensky
+requesting the same information.63 Then, on June 30, 2022, 12 days before FDA’s last
+distribution, the Informed Consent Action Network submitted a FOIA request to FDA for the EB
+data mining records.64
+
+         In light of these public and Congressional requests, the timing of FDA’s decision to end
+its distribution of its weekly data mining reports seems particularly suspect. 65 The notion that
+Biden health officials took steps to limit its distribution of COVID-19 vaccine safety data in
+order to avoid more internal review or public scrutiny is completely unacceptable.
+
+
+
+57
+   PSI-HHS-000001160286.
+58
+   Id.
+59
+   Id.
+60
+   Id.
+61
+   PSI-HHS-000002480132.
+62
+   FOIA request, May 9, 2022, https://jackanapes.substack.com/api/v1/file/44421d00-9c02-4fc9-9471-
+65fcdb24152c.pdf.
+63
+   Letter from Senator Ron Johnson to Rochelle Walensky, Director, Centers for Disease Control and Prevention,
+June 23, 2022, https://www.ronjohnson.senate.gov/services/files/9914278B-A73B-4434-8349-91091138E18B.
+64
+   Letter from Aaron Siri, Attorney, Siri Glimstad, et al., to Food and Drug Administration, Oct. 31, 2022,
+https://icandecide.org/wp-content/uploads/2023/02/001-Complaint-Exhibits-January-25-2023-IR0802M.pdf at 7.
+According to the Informed Consent Action Network, FDA denied the entire FOIA request on Aug. 26, 2022. Id. at
+8.
+65
+   The first FOIA production of EB data mining reports did not occur until January 22, 2025, under the Trump
+administration. David Wiseman, Signal loss by truancy, masking, and filtering, and underestimation of potential
+risks and suspected adverse reactions in the Disproportionality Signal Analyses of VAERS data associated with
+COVID-19 pro-vaccines, ResearchGate, Sept. 2025,
+https://www.researchgate.net/publication/395382959_Signal_loss_by_truancy_masking_and_filtering_and_underest
+imation_of_potential_risks_and_suspected_adverse_reactions_in_the_Disproportionality_Signal_Analyses_of_VAE
+RS_data_associated_with_COVID-19_pro at 51, see footnote 41.
+
+                                                      11
+     C. FDA Officials Acknowledge EB Data Mining Limitations and Continue to Fail to Make
+        Necessary Adjustments
+
+        In September 2021, following Dr. Szarfman’s multi-month effort to convince FDA
+officials to utilize a better EB data mining algorithm that can adjust for masking, records show
+FDA officials acknowledging the masking limitation in the current data mining system. 66
+However, rather than adhering to Dr. Szarfman’s recommendation to implement a “state of the
+art” method that will “lead[] to a lower rate of missed signals,” FDA officials appeared to
+continue to use their same data mining method “rather than take an experimental approach.” 67
+
+        Records show Dr. Menschik working on a draft article in September 2021 about the
+safety of mRNA vaccines.68 Dr. Menschik circulated proposed language for that manuscript that
+explained EB data mining limitations, including masking. Dr. Menschik wrote:
+
+        EB data mining has multiple limitations including that an absence of a
+        disproportionality alert does not rule out presence of a safety problem.
+        Additionally, since most reports received during this surveillance period involved
+        COVID-19 vaccines, disproportionately [sic] scores (which are adjusted by year to
+        control for time-dependent, potentially confounding, exposure and outcome
+        variables) can be muted by COVID-19 vaccine reports contributing
+        substantially to the comparator group, particularly if both mRNA COVID-19
+        vaccines are associated with the same adverse event.69
+
+        In another discussion in September 2021 involving the draft paper, Dr. Menschik also
+raised the masking effect, noting:
+
+        [I]f the comparison group is enriched with so many mRNA COVID-vaccine
+        reports, tha[n] it becomes very difficult to exceed the EB05>2 alert threshold
+
+66
+   PSI’s March 25, 2026 document release on EB data mining:
+https://www.ronjohnson.senate.gov/services/files/F92FBB0A-CCFD-412A-A02D-243AA1844D6E at 117.
+67
+   PSI-HHS-000008259561; PSI-HHS-000001136460; PSICOVID_00015642; PSICOVID_00014435.
+68
+   PSI’s March 25, 2026 document release on EB data mining:
+https://www.ronjohnson.senate.gov/services/files/F92FBB0A-CCFD-412A-A02D-243AA1844D6E at 117.
+69
+   Id. (emphasis added). As explained in Chairman Johnson’s March 23, 2026 letter to HHS, the Subcommittee
+uncovered several emails regarding the evolution of this excerpt in the manuscript. Similar language referencing EB
+data mining limitations appeared into two preprint versions of the manuscript, one dated Oct. 27, 2021, and one
+dated Oct. 28, 2021. The final version of the paper appeared in the Lancet in March 2022 without the reference to
+EB data mining limitations. See Letter from Ron Johnson, Chairman, Permanent Subcomm. on Investigations to
+Robert F. Kennedy, Jr., Sec., Dep’t of Health and Human Services, Mar. 23, 2026,
+https://www.ronjohnson.senate.gov/services/files/CA500350-195E-472C-9F26-BE93B290B9D9; See Hannah
+Rosenblum, et al., Safety Monitoring of mRNA Vaccines Administered During the Initial 6 Months of the U.S.
+COVID-19 Vaccination Program: Reports to Vaccine Adverse Events Reporting System (VAERS) and v-safe,
+MedRxiv, Oct. 27, 2021, https://www.medrxiv.org/content/10.1101/2021.10.26.21265261v1.full.pdf at 13; Hannah
+Rosenblum, et al., Safety Monitoring of mRNA Vaccines Administered During the Initial 6 Months of the U.S.
+COVID-19 Vaccination Program: Reports to Vaccine Adverse Events Reporting System (VAERS) and v-safe,
+MedRxiv, Oct. 28, 2021, https://www.medrxiv.org/content/10.1101/2021.10.26.21265261v2.full.pdf at 13; Hannah
+Rosenblum et al., Safety of mRNA vaccines administered during the initial 6 months of the US COVID-19
+vaccination programme: an observational study of reports to the Vaccine Adverse Event Reporting System and v-
+safe, The Lancet, https://pmc.ncbi.nlm.nih.gov/articles/PMC8901181/.
+
+                                                        12
+        for an adverse event that may be associated with mRNA vaccines – thus data
+        mining has blind spots and this is why it’s so good to have so many complimentary
+        vaccine safety surveillance systems (e.g., VSD [Vaccine Safety Datalink]) that can
+        cover different blind spots of other systems…70
+
+        In November 2022, Dr. Menschik emailed Dr. Nair and referenced the masking limitation
+which could lead to misinterpretations of the data mining.71 In October 2023, Dr. Nair wrote a
+comprehensive email to federal health officials including, Drs. John Su and Tom Shimabukuro,
+both from CDC, about the masking effect in data mining. Dr. Nair explained:
+
+                As you know, data mining has all the limitations of passive surveillance as
+        well as others. However, during the COVID vaccine era there is an additional
+        limitation. Since most reports received involve COVID-19 vaccines,
+        disproportionately [sic] scores (which are adjusted by year to control for time-
+        dependent, potentially confounding, exposure and outcome variables) can be driven
+        towards the null by COVID-19 vaccine reports contributing substantially to the
+        comparator group.72
+
+        Dr. Nair added, “We were aware of this limitation before and during the pandemic.
+There are many data mining tools and there was some discussion about utilizing a novel tool
+to adjust for this. However, we thought it would be problematic to use a brand new, possibly
+unvalidated tool in the context of an EUA.”73 It appears likely that Dr. Nair’s reference to a
+“novel tool to adjust for” masking was Drs. Szarfman’s and DuMouchel’s proposed newer data
+mining algorithm. Although Dr. Nair claimed the tool was “possibly unvalidated,” he failed to
+mention its efficacy in detecting statistically significant safety signals which, one would think,
+would be invaluable especially if it is being used to monitor the effects of a novel vaccine that
+just received an EUA.
+
+     D. Top FDA CBER Officials Eventually Acknowledge the Effectiveness of the New Data
+        Mining Model Compared to the Current Methodology
+
+        In September 2024, CBER officials Drs. Baer and Menschik discussed FDA’s current
+data mining methodology, MGPS, and RGPS, the methodology that Dr. Szarfman had lobbied
+for years earlier.74 Dr. Baer noted that when she compared results of the RGPS and MGPS
+models for the Gardasil vaccine, she found that the RGPS model yielded “significantly higher”
+numbers than the MGPS model for certain adverse events. 75 She also found that the RGPS
+numbers were higher than MGPS numbers for certain adverse events associated with the Pfizer
+
+70
+   PSI’s March 25, 2026 document release on EB data mining:
+https://www.ronjohnson.senate.gov/services/files/7DD643F9-BF66-4923-B791-7766870C8856 at 120 (ellipses in
+original, emphasis added).
+71
+   PSICOVID_00015642.
+72
+   PSI-HHS-000001136460.
+73
+   Id. Dr. DuMouchel co-authored a paper in 2012 about the RGPS data mining method. William DuMouchel and
+Rave Harpaz, Regression-Adjusted GPS Algorithm (RGPS), Oracle, Nov. 2012, https://docs.oracle.com/health-
+sciences/empirica-signal-811/ESIUG/Regression-Adjusted_GPS_Algorithm.pdf.
+74
+   PSI-HHS-000008253424.
+75
+   Id. It is unclear what adverse events Dr. Baer reviewed that were associated with the Gardasil vaccine.
+
+                                                    13
+COVID-19 bivalent vaccine.76 Dr. Menschik appeared to concur with Dr. Baer’s finding and
+wrote that “in general the [RGPS model] appears way more sensitive in that its scores are
+generally higher than corresponding [MGPS model] scores when sampling different [adverse
+events].”77
+
+        In the same email, Dr. Baer, who mentioned Dr. Szarfman’s 2022 paper about the
+masking limitation in data mining, appeared to acknowledge that the lower numbers from the
+MGPS model were a result of masking.78 She wrote, “I understand the theory behind masking
+and trying to adjust for it, but I feel that comprehending the details of the approach and,
+importantly, which approach is ‘better,’ is beyond my training and experience. I think someone
+with more data mining expertise would have to be involved in that decision.” 79
+
+         Drs. Menschik and Baer’s September 2024 email exchange acknowledging the
+effectiveness of the RGPS model compared to the MGPS model and referencing the need for a
+data mining expert is beyond ironic. Since 2021, because of Drs. Szarfman and DuMouchel’s
+efforts, top FDA officials, including Drs. Marks and Menschik, were well aware of the
+effectiveness of the RGPS model as a means to adjust for masking and better detect statistically
+significant safety signals. Dr. Baer herself acknowledged in March 2021 that Dr. Szarfman had
+“knowledge and experience” with data mining and even admitted at that time, “I know that [Dr.
+Szarfman] knows a lot more about data mining than I do!” 80 FDA officials had ample
+opportunity to involve Drs. Szarfman and DuMouchel—both experts in data mining—in their
+safety surveillance efforts, but instead, cast them and their analyses aside.
+
+                                                     ####
+
+        The enclosed timeline will detail Dr. Szarfman’s attempts to inform her colleagues at the
+FDA about increases in statistically significant safety signals associated with the COVID-19
+vaccines. The timeline will also show how FDA officials reacted to Dr. Szarfman’s findings,
+their growing concern about her access to the safety data, and their failure to adjust the FDA’s
+data mining analysis to account for the significant flaws in their methodology that masked
+dozens of statistically significant adverse events for the COVID-19 vaccines.
+
+
+
+
+76
+   Id. It is also unclear what adverse events Dr. Baer reviewed that were associated with the Pfizer COVID-19
+bivalent vaccine.
+77
+   Id.
+78
+   Id.
+79
+   Id.
+80
+   PSI-HHS-000008257237-38.
+
+                                                        14
+ II.     Timeline – Biden Health Officials Ignore Safety System that Can Better
+         Detect Signals for COVID-19 Vaccine Adverse Events
+
+        Nov. 18, 2020: Manette Niu, an official at the Food and Drug Administration’s (“FDA”)
+         Center for Biologics Evaluation and Research (“CBER”), Office of Biostatistics and
+         Pharmacovigilance (“OBPV”), emails Steven Anderson, the Director of that office at that
+         time, to inform him that she has a meeting the next day with Ana Szarfman, a medical
+         officer and safety data mining developer who works in FDA’s Center for Drug Evaluation
+         and Research (“CDER”), Office of Cardiology, Hematology, Endocrinology, and
+         Nephrology (“OCHEN”), “to discuss [Szarfman’s] proposal on instituting new methods
+         to improve data mining.”81 It is unclear what specific “new methods” Szarfman wanted
+         to discuss and whether this meeting occurred.
+
+        Dec. 11, 2020: FDA issues an Emergency Use Authorization (“EUA”) for the Pfizer
+         COVID-19 mRNA vaccine for individuals ages 16 and older. 82
+
+        Dec. 18, 2020: FDA issues an EUA for the Moderna COVID-19 mRNA vaccine for
+         individuals ages 18 and older.83
+
+        Dec. 23, 2020: Szarfman organizes a virtual meeting to discuss proposals for a new
+         safety data mining methodology designed by Oracle Chief Statistician William
+         DuMouchel, the architect of FDA’s existing data mining system.84 Meeting invitees
+         include Richard Forshee, Associate Director for Research at CBER OBPV/Acting Deputy
+         Director for CBER OBPV; Narayan Nair, a CBER OBPV official; and Norman
+         Stockbridge, an official at CDER OCHEN.85 Szarfman notes in her introductory remarks
+         for the meeting that among other problems with current data mining practices “safety
+         signals may remain hidden.”86
+
+        Jan. 8, 2021: As FDA officials discussed the use of empirical Bayesian (“EB”) data
+         mining to detect safety signals for adverse events associated with COVID-19 vaccines,
+         David Menschik and Bethany Baer, two officials at CBER OBPV, communicate about “a
+         few classic data mining references” written by Szarfman and DuMouchel. 87 Baer notes
+
+
+
+81
+   PSI-HHS-000004585100. Until 2022, The Office of Biostatistics and Pharmacovigilance was named the Office of
+Biostatistics and Epidemiology. For purposes of this document, the office will be referred to by its current name.
+See National Science Foundation, NI Protocol, FDA CBER Reorg & More—March ’22 Pharma News, Mar. 1,
+2022, available at https://www.nsf.org/news/march-pharma-news.
+82
+   COVID-19 Timeline, Centers for Disease Control and Prevention,
+https://www.cdc.gov/museum/timeline/covid19.html.
+83
+   Id.
+84
+   PSICOVID_00014194.
+85
+   PSICOVID_00014194; PSI-HHS-000002185990-91. Szarfman’s Dec. 23, 2020 email thanking Forshee for
+attending the presentation notes that she has attached an updated version of the slides. One such update appears to
+be a slide including DuMouchel’s background as the inventor of MGPS. See PSI-HHS-000002293255.
+86
+   PSICOVID_00014198.
+87
+   PSI-HHS-000008254390.
+
+                                                        15
+         that FDA’s current EB data mining system uses the Multi-item Gamma Poisson Shrinker
+         (“MGPS”), which is the algorithm DuMouchel invented. 88
+
+        Jan. 29, 2021: The Centers for Disease Control and Prevention (“CDC”) releases its
+         Standard Operating Procedures (“SOP”) for the Vaccine Adverse Event Reporting System
+         (“VAERS”).89 The SOP identifies the “analyses for COVID-19 vaccine safety signals”
+         noting that FDA will be responsible for “using empirical Bayesian data mining to identify
+         [adverse events] reported more frequently than expected following vaccination with
+         COVID-19 vaccines.”90
+
+        Feb. 14, 2021: Szarfman raises concerns to CBER Director Peter Marks regarding
+         COVID-19 vaccine safety monitoring issues with the FDA’s current practices and asks “if
+         you want Bill DuMouchel and I to discuss our proposal for more effective monitoring,
+         including the need to use an updated algorithm by DuMouchel for data mining
+         spontaneous reports at [FDA.]”91 Marks arranges a time to meet with her in the
+         following weeks.92
+
+        Feb. 27, 2021: FDA approves an EUA for Johnson & Johnson’s COVID-19 vaccine for
+         all people ages 18 years and older.93
+
+        March 1, 2021:
+           o Szarfman meets with CBER Director Peter Marks, as well as Forshee, Anderson,
+               and others at CBER, to discuss confounding issues with MGPS, particularly data
+               masking, which is a known limitation with MGPS that can lead to missed or
+               reduced signals in data mining.94 Szarfman also showcases “the superior
+               performance” of DuMouchel’s Regression-Adjusted Gamma Poisson Shrinker
+               (“RGPS”), an “updated algorithm” for data mining that DuMouchel first outlined
+               in a 2012 white paper.95 Szarfman states that “[t]he MGPS data mining method
+               currently in use at [FDA]” is “not the state of the art.”96 In contrast, she
+               emphasizes, “RGPS is the state of the art,” noting that the new method can
+               “better adjust for both, masking (false negatives) and confounding (false
+               positives).”97
+
+
+88
+   Id.; PSI-HHS-000002293255.
+89
+   Vaccine Adverse Event Reporting System (VAERS) Standard Operating Procedures for COVID-19, Centers for
+Disease Control and Prevention, Jan. 29, 2021,
+https://web.archive.org/web/20210319091240/https:/www.cdc.gov/vaccinesafety/pdf/VAERS-v2-SOP.pdf.
+90
+   Id. at 16-17.
+91
+   PSI-HHS-000002213369.
+92
+   Id.
+93
+   COVID-19 Timeline, Centers for Disease Control and Prevention,
+https://www.cdc.gov/museum/timeline/covid19.html.
+94
+   PSI-HHS-000004783471-72; PSI-HHS-000002134656.
+95
+   PSI-HHS-000004783471-72; PSI-HHS-000008259555; William DuMouchel and Rave Harpaz, Regression-
+Adjusted GPS Algorithm (RGPS), Oracle, Nov. 2012, https://docs.oracle.com/health-sciences/empirica-signal-
+811/ESIUG/Regression-Adjusted_GPS_Algorithm.pdf.
+96
+   PSI-HHS-000008259561.
+97
+   Id. (emphasis in original); PSI-HHS-000002134652 (emphasis added).
+
+                                                     16
+             o Marks thanks Szarfman “for taking the time to go over everything so carefully
+               with us.”98 He writes, “[w]e will work through the issues that you presented.” 99
+               Afterwards, Marks schedules a meeting with Forshee and Anderson to discuss
+               “how to proceed” apparently on the issues raised by Szarfman and DuMouchel’s
+               updated data mining algorithm.100 It is unclear whether this meeting occurred.
+
+        March 10, 2021: Szarfman confirms that she has access to VAERS data through Oracle’s
+         Empirica, a tool for detecting and analyzing vaccine safety signals. 101 It appears other
+         CBER officials, including Anderson, were aware of and did not object to Szarfman’s
+         access, even though she works in CDER.102
+
+        March 11, 2021: Craig Zinderman, a CBER official, affirms to Baer that he has no issue
+         granting Szarfman access to VAERS data through Empirica. 103 Baer responds writing
+         “we will leave Ana’s account as is with a CBER login.”104
+
+        March 12, 2021:
+           o A day later, Baer appears to take issue with Szarfman having access to a database
+               controlled by CBER, an office that Szarfman is not a part of, saying, on calls with
+               the contractor supporting Empirica and FDA’s data mining, Commonwealth
+               Informatics (“Commonwealth”) Szarfman “has twice now expressed interest in
+               COVID vaccine data mining and made some broad statements that I don’t think
+               [the Division of Pharmacovigilance] would agree with[.]” 105 Baer also questions
+               who at CBER will be coordinating with Szarfman and interpreting her results. 106
+               However, Baer appears to recognize Szarfman’s expertise in data mining and
+               writes, “I know Ana [Szarfman] worked to develop the data mining system
+               and this might be a special circumstance due to her knowledge and
+               experience.”107
+           o Zinderman, replies that “[r]efusing her access just for vaccines seems a little
+               disingenuous” but that it “[s]eems reasonable to try to understand why [Szarfman]
+               wants to use VAERS data instead of [CDER’s] data, and to caution her that while
+               its [sic] fine for her to do methodological work, we aren’t interested in
+               additional data mining studies of COVID data outside of CBER’s usual
+               processes.”108
+
+
+
+
+98
+   PSI-HHS-000004783470-71.
+99
+   Id.
+100
+    PSI-HHS-000004584613.
+101
+    PSI-HHS-000008257240-41.
+102
+    PSI-HHS-000008257239.
+103
+    PSI-HHS-000008257238-39.
+104
+    PSI-HHS-000008257238.
+105
+    Id. At the time of Baer’s email the Division of Pharmacovigilance was known as the Division of Epidemiology.
+106
+    Id.
+107
+    Id. (emphasis added).
+108
+    PSI-HHS-000008257237-38 (emphasis added).
+
+                                                       17
+         March 14, 2021: Responding to Zinderman, Baer acknowledges that “[Szarfman] knows
+          a lot more about data mining than I do[.]”109 However, Baer reiterates her earlier
+          concerns about Szarfman’s apparent comments she made during a regularly scheduled
+          call between officials at CBER, CDER, and Commonwealth. 110 Baer characterizes
+          Szarfman’s comments as atypical and speculates that Szarfman may have been “just
+          brainstorming and theorizing” which was “unusual compared to the typical topics
+          covered on the call.”111
+
+         March 16, 2021: Niu writes to Baer that she and Zinderman have decided to schedule a
+          meeting with Szarfman to discuss her “VAERS objectives/rationale.” 112
+
+         March 17-18, 2021:
+            o Menschik emails Brian Hendrix, a contractor at Commonwealth, and Baer to
+                request a “‘special project’ run” of MGPS that will apparently adjust for masking
+                with COVID-19 vaccines, though he does not use that specific term. 113 He notes
+                that he observed a “muting trend” for adverse events, which he attributes to the
+                volume of COVID-19 vaccine reports. 114 Menschik specifies that the viewers of
+                this potential data analysis should be limited to himself, Baer, and the
+                contractor.115
+            o The “‘special run’” was completed, but the results do not appear in the records
+                reviewed to date.116
+
+         March 26, 2021:
+            o After speaking with Zinderman, Niu, and Baer earlier that day, Szarfman sends
+                them, as well as Menschik and Stockbridge, an earlier email and spreadsheet from
+                DuMouchel that includes his RGPS analysis showing “49 examples of extreme
+                masking,” with over twenty of those examples of adverse events now showing a
+                statistically significant safety signal when adjusted for masking. 117 Some of the
+                statistically significant safety signals for adverse events associated with the
+                COVID-19 vaccines that were not previously detected through MGPS include
+                sudden cardiac death, Bell’s palsy, and pulmonary infarction. 118 Szarfman also
+                attaches her March 1 presentation she gave to Marks and other FDA officials. 119
+            o Szarfman notes that the “comparisons between RGPS and MGPS were generated
+                by Bill DuMouchel using the VAERS public domain data incorporated into
+                Empirica Signal.” Szarfman explains that she and DuMouchel “extensively
+                studied the increased value of RGPS over MGPS for reducing false positives and
+
+109
+    PSI-HHS-000008257237.
+110
+    Id.
+111
+    Id.
+112
+    Id.
+113
+    PSICOVID_00017214.
+114
+    Id.
+115
+    Id.
+116
+    PSICOVID_00017210.
+117
+    PSI-HHS-000008263190-91 (emphasis added).
+118
+    PSI-HHS-000008257443-44 (with attachment).
+119
+    Id.
+
+                                                 18
+                 negative signals.”120
+
+         March 30, 2021: Menschik circulates a list of adverse events with safety signals
+          identified by FDA’s data mining methodology to FDA senior officials, as well as several
+          officials at CDC, including John Su and Tom Shimabukuro. 121 Menschik also attaches a
+          draft presentation detailing limitations with the FDA’s current MGPS data mining
+          system.122 Some of the limitations highlighted in the draft presentation, such as
+          “confounding” and “false alerts from statistical interaction,” appear to be similar to the
+          concerns Szarfman previously raised regarding the effectiveness of the FDA’s MGPS
+          algorithm.123 It is unclear how the senior CDC and FDA officials responded to the draft
+          presentation.
+
+         April 10, 2021:
+             o DuMouchel sends additional data to Szarfman and others that appears to analyze
+                 VAERS reports while adjusting for the fact that “99% of all reports” for the year
+                 2021 are for the COVID-19 vaccines. 124 DuMouchel’s analysis appears to adjust
+                 for the masking effect. 125 He notes, “[o]nly if you mix in more non-covid reports
+                 within each stratum can you get enough diversity to allow larger
+                 disproportionalities.” 126
+             o Szarfman forwards the email to Niu and other FDA officials, flagging the
+                 “[i]mportant analysis by DuMouchel,” and writes, “I think that we need to invite
+                 [DuMouchel] to talk with us about the effect of adjustment factors, given the data,
+                 so we can all learn from his knowledge.”127
+
+         April 12-13, 2021: Two days after Szarfman flags DuMouchel’s “[i]mportant analysis,”
+          Niu replies to her in a separate chain asking, “Does this effect the data mining results we
+          are receiving in 2021?”128 Szarfman responds the next day, saying, “Exactly. As
+          DuMouchel pinpointed, there is a need to extend the stratification brackets by the fact
+          that 99% of the results for FY2021 are for COVID-19 vaccines this indeed affects the
+          results.”129
+
+         April 14, 2021: Niu forwards the emails containing DuMouchel’s writeup of his analysis
+          and Szarfman’s comments to Zinderman (removing Szarfman from the email chain), but
+          it does not appear Niu shares DuMouchel’s data mining results at this time. 130 Zinderman
+          in turn sends DuMouchel’s writeup and Szarfman’s comments to Menschik and Baer with
+
+
+120
+    Id.
+121
+    PSI-HHS-000001187885 (with attachment); PSI-HHS-000001187886-88.
+122
+    Id.
+123
+    PSI-HHS-000001187888.
+124
+    PSI-HHS-000008251981-82; PSI-HHS-000008258306-07 (with attachment).
+125
+    Id.
+126
+    PSI-HHS-000008251982.
+127
+    PSI-HHS-000008251981-82.
+128
+    PSI-HHS-000008251981.
+129
+    PSI-HHS-000008251980-81.
+130
+    Id.
+
+                                                   19
+          Niu copied.131 Zinderman questions whether DuMouchel’s apparent adjustment for
+          masking “[m]ight be worth considering[.]” 132 He adds, “I don’t pretend to understand it,
+          but sounds like they are suggesting an analysis not stratified by year.” 133
+
+         April 15, 2021:
+             o The next day, Baer responds, stating, “I think we should welcome any expert
+                 input,” acknowledging that she and Menschik “are concerned about the effect of
+                 so many COVID reports on the standard system [FDA] use[s].” 134 She asks if
+                 there is any way to have DuMouchel more involved in FDA’s “data mining
+                 process and interpretation during this unprecedented reporting time?” 135
+             o Niu answers stating she will send them DuMouchel’s data mining results and that
+                 “[t]he best person to ask would be Ana [Szarfman] as she has close ties with Bill
+                 DuMouchel.”136
+             o A few minutes later, Menschik removes Niu from the email chain and replies only
+                 to Zinderman and Baer, and appears to push back on immediately speaking with
+                 Szarfman, saying, “Before we potentially reach out to Ana [Szarfman], we
+                 should meet internally – many considerations not suited to email…”137 It is
+                 unclear if Menschik, Zinderman, and Baer met.
+
+         April 17-19, 2021:
+             o Szarfman forwards Niu an analysis that DuMouchel compiled the day before
+                 using his new data mining method (RGPS), which revealed six statistically
+                 significant safety signals for adverse events, which were not previously detected
+                 by FDA’s current system.138 DuMouchel’s analysis uncovered statistically
+                 significant safety signals, currently masked by MGPS, including Bell’s palsy
+                 associated with the Pfizer vaccine and thrombosis associated with the Moderna
+                 vaccine.139
+             o Two days later, Niu forwards Szarfman’s email containing DuMouchel’s analysis
+                 to Zinderman, Baer, and Menschik.140
+
+         April 22, 2021:
+             o After receiving Szarfman’s distribution of DuMouchel’s analysis, Baer informs
+                 Menschik, Zinderman, and Niu that during a call that day with Commonwealth
+                 officials, Szarfman “offered to show individuals the interesting VAERS analysis
+
+131
+    Id.
+132
+    PSI-HHS-000008251980.
+133
+    Id.
+134
+    Id.
+135
+    Id.
+136
+    PSI-HHS-000008251979-80.
+137
+    PSI-HHS-000008251979 (emphasis added) (ellipses in original).
+138
+    PSI-HHS-000008258202-03. Records show that FDA’s threshold for determining a statistically significant safety
+signal was when the lower bound of the reporting estimate (EB05) exceeded 2.0. See PSI’s March 25, 2026
+document release on EB data mining https://www.ronjohnson.senate.gov/services/files/F92FBB0A-CCFD-412A-
+A02D-243AA1844D6E at 166.
+139
+    PSI-HHS-000008258203.
+140
+    PSI-HHS-000008258202.
+
+                                                       20
+               she has been doing with Manette. A couple of the Commonwealth folks
+               expressed interest in meeting with her to see it.” 141
+             o Niu responds, distancing herself from Szarfman, writing, “I have not been
+               working with Ana directly, although she has sent me data mining runs that I’ve
+               forwarded to this group. I will speak to her about this.”142
+
+         April 25-26, 2021:
+             o Szarfman resends DuMouchel’s analysis to Niu and includes several additional
+                 FDA officials.143 In the email, Szarfman reiterates that she is sending all of
+                 DuMouchel’s analysis to Niu.144 Szarfman further writes regarding how
+                 DuMouchel’s new method (RGPS) “is better at removing false positives and
+                 negatives than MGPS. Note the safety signals for cardiac events with the
+                 Pfizer and Moderna vaccines, now in the news, that are better identified by
+                 RGPS than by MGPS.”145
+             o Niu separately asks Zinderman for advice on how to respond to Szarfman who
+                 had apparently described Niu as her collaborator on Szarfman’s data mining work
+                 to FDA’s data mining contractors. 146 In response, Zinderman sends Niu draft
+                 language to respond to Szarfman, and tells Niu that asking Szarfman to stop
+                 sending data mining results “would create a bigger problem for us I think.” 147
+             o Niu, responds to Szarfman’s earlier email and writes, “[w]hile we are aware that
+                 CDER is using the vaccine data to explore new calculations and various
+                 deviations of analysis parameters in disproportionality analysis, I haven’t been,
+                 and are unable to, work as a collaborator with you on this project due to our
+                 higher priority work, and because this sort of statistical development work falls
+                 outside of my area of expertise.” 148 Niu’s email to Szarfman contains similar
+                 language to the draft response Zinderman sent Niu earlier that day. 149
+             o Szarfman responds to Niu that she understands but she will keep her up to date
+                 with her findings.150
+
+         April 29, 2021:
+             o Szarfman shares with Niu and other FDA officials an analysis of EB data mining
+                 issues unrelated to DuMouchel’s new data mining method. 151 Niu forwards
+                 Szarfman’s analysis to Zinderman, Baer, and Menschik. 152 In response, Menschik
+                 asks, “[d]id you request this or anything else (COVID vaccine data mining
+
+
+141
+    Id.
+142
+    Id.
+143
+    PSI-HHS-000008258271.
+144
+    Id.
+145
+    Id. (emphasis added).
+146
+    PSI HHS-000008260150.
+147
+    Id.
+148
+    PSI-HHS-000008258271.
+149
+    PSI HHS-000008260150.
+150
+    PSI-HHS-000008258271.
+151
+    PSI-HHS-000008258153-54; PSICOVID_00017031; PSICOVID_00017032-33; PSICOVID_00017034-81.
+152
+    PSI-HHS-000008258153.
+
+                                                 21
+               related) from Ana and/or are you working with Ana on any data mining projects?
+               (if so, please specify)[.]”153
+             o Niu responds to Menschik in two separate emails, writing first, “[n]o, I haven’t
+               requested anything from Ana. I am only passively passing on her data mining runs
+               when she sends them to me.”154 She then quickly sends the second email stating
+               that she is “not working on anything with [Szarfman].” 155
+             o The same day, Niu also sends Menschik her previous conversation with Szarfman,
+               in which Niu told Szarfman that she cannot collaborate with Szarfman. 156
+
+         May 6, 2021: Szarfman circulates an analysis run by DuMouchel to Norman Stockbridge
+          and another CDER official, showing that MGPS had undervalued the safety signals for
+          acute myocardial infarction for both the Pfizer and Moderna COVID-19 vaccines. 157
+          DuMouchel’s RGPS method appeared to yield much higher signals compared to FDA’s
+          MGPS method.158
+
+         May 7, 2021:
+            o Following Szarfman’s multi-month efforts advocating for FDA to change its data
+                mining system in order to unmask statistically significant safety signals associated
+                with the COVID-19 vaccines, Menschik, Nair, and Zinderman draft a lengthy
+                email to Szarfman.159
+            o The final draft of the email, which Zinderman eventually sends to Szarfman that
+                same day, directs her to “please hold off on creating and sending data mining
+                reports and analyses using COVID-19 vaccine [adverse event] data.” 160
+            o In the email to Szarfman, the FDA officials attempt to downplay her findings
+                writing that, “we are already screening and reviewing reports, such as [acute
+                myocardial infarction], [thrombocytopenia syndrome], Thromboembolic events,
+                and other forms of coagulopathy.”161 The email concludes by reiterating the
+                directive to Szarfman to “hold off” on continuing her efforts. 162
+            o Szarfman replies to Zinderman that from now on, “I will only deliver analyses
+                when I am specifically requested to do so[.]” 163 She reiterates, however, “[w]e
+                are testing a new data mining methodology, and given the circumstances, it will
+                be good for all to understand its performance with such important data. This is a
+                method that also strongly reduces confounding, so it may be helpful in certain
+                future circumstances.”164
+
+153
+    Id.
+154
+    Id.
+155
+    PSI-HHS-000008258190.
+156
+    PSI-HHS-000008258271.
+157
+    PSI-HHS-000002208944-45.
+158
+    Id. (using the RGPS methodology, ER05 notification signals were significantly higher than the previously
+running EB05 of MGPS).
+159
+    PSICOVID_00017246; PSI-HHS-000008251530; PSI-HHS-000008251912-13; PSI-HHS-000001195617-19;
+PSI_HHS-000008253450-51; PSI-HHS-000001175745-47; PSI-HHS-000001148712-14.
+160
+    PSICOVID_00017246-47.
+161
+    Id.
+162
+    Id.
+163
+    PSICOVID_00017245.
+164
+    Id. (emphasis added).
+
+                                                      22
+             o Zinderman forwards Szarfman’s response to Menschik and Niu. 165
+
+         May 10, 2021: FDA expands EUA for Pfizer’s COVID-19 mRNA vaccine for ages 12-
+          15.166
+
+         June 4, 2021: Szarfman receives clearance from Stockbridge to publish a paper she co-
+          authored with DuMouchel and others at Oracle, entitled “Masking Associated with Early
+          COVID-19 Vaccine Safety Surveillance.”167 Szarfman encloses a draft version of her
+          paper that “demonstrates the potential utility of a new signal detection methodology
+          called RGPS that can address masking and confounding effects that cannot be properly
+          controlled by conventional signaling methodologies.” 168
+
+         June 11, 2021:
+             o Following apparent conversations between the CDC and FDA regarding
+                 “myocardial events and the lack of signals in VAERS[,]” Szarfman writes to her
+                 FDA colleagues, resending DuMouchel’s analysis that she initially sent one
+                 month prior that uncovered statistically significant safety signals for acute
+                 myocardial infarction.169 Referring to the FDA and CDC’s discussion on
+                 myocardial events, Szarfman writes, “I am not astonished that MGPS was
+                 unable to detect these signals.”170 Once again, she reiterates the strength of her
+                 and DuMouchel’s new data mining system, noting that one month ago, “we
+                 documented that RGPS signals [acute myocardial infarction].” 171
+             o Szarfman eventually alerts Forshee, a high-ranking CBER official, about her
+                 findings relating to statistically significant safety signals for acute myocardial
+                 infarction and invites him to collaborate with her on her upcoming paper about
+                 masking.172 It is unclear whether Forshee responds. 173
+
+         July 9, 2021: Szarfman calls Forshee to discuss increased risk of mortality following
+          COVID-19 vaccination.174
+
+         July 12, 2021: Following her July 9 phone call, Szarfman writes Forshee, “As we talked
+          over the phone, I became aware last Fri[day] that scientists from Cornell are concerned of
+          an increased mortality signal with the COVID-19 vaccines.” 175 Szarfman encloses
+          DuMouchel’s earlier RGPS analysis, showing statistically significant safety signals
+          for “death and sudden death” associated with the Pfizer and Moderna COVID-19
+
+165
+    Id.
+166
+    COVID-19 Timeline, Centers for Disease Control and Prevention,
+https://www.cdc.gov/museum/timeline/covid19.html.
+167
+    PSI-HHS-000001640809; PSI-HHS-000001622854-55.
+168
+    PSI-HHS-000001622854; PSI-HHS-000001639129-34 at 33.
+169
+    PSI-HHS-000002208944-45.
+170
+    PSI-HHS-000002208944.
+171
+    Id.
+172
+    Id.
+173
+    Id.
+174
+    PSI-HHS-000002199145-46; PSI-HHS-000004592364-65 (with attachment).
+175
+    PSI-HHS-000004592364-65 (with attachment).
+
+                                                  23
+          vaccines.176 She writes that the method DuMouchel used “automatically unmask[s]
+          signals that remain hidden by other data mining methodologies, including MGPS[,]”
+          FDA’s current data mining methodology.177
+
+         July 13, 2021: Forshee documents his contact with Szarfman and forwards her email and
+          DuMouchel’s analysis to Marks, noting that, “she and Bill DuMouchel had found an
+          increased risk of mortality following COVID-19 vaccination using data mining
+          methods.”178 Forshee writes that he is “very concerned” with how Szarfman and
+          DuMouchel may be interpreting their findings. 179 Marks thanks Forshee for
+          “documenting this” and tells Forshee that he “will follow up appropriately.” 180
+
+         Aug. 11, 2021: Menschik informs CDC officials that FDA will limit its distribution of its
+          data mining reports “largely for data security reasons.”181
+
+         Aug. 12, 2021: Szarfman attends a call with Commonwealth, the contractor that runs
+          FDA’s data mining system, and apparently raises concerns about the current
+          methodology.182 Szarfman reportedly tells the contractor that “‘the 20-year-old MGPS
+          model could potentially mask signals.’” 183 Baer, who participated on the call, reports
+          Szarfman’s comments to Zinderman and Menschik and informs them that she told
+          Szarfman that Zinderman and Menschik are aware of her considerations. 184
+
+         Aug. 23, 2021: FDA approves the Biologics License Application (“BLA”) for Pfizer’s
+          Comirnaty COVID-19 vaccine for ages 16 and older.185
+
+         Sept. 3, 2021:
+             o Commonwealth employees, Brian Hendrix and James Sydnor, follow up with
+                 Szarfman from an earlier conversation, informing her that for questions regarding
+                 data mining runs, she needs to speak with Menschik or Baer directly. 186 Szarfman
+                 subsequently clarifies her masking concerns with the contractors, writing,
+                 “[t]herefore the background will only be for covid-19 vaccines, instead of for
+                 other vaccines. Therefore, masking covid-19 vaccine signals that are common
+                 with these vaccines, but not common across other types of vaccines.” 187
+
+
+176
+    Id. (emphasis added).
+177
+    Id. That same day, Forshee forwards Szarfman’s email and DuMouchel’s analysis to Anderson. PSI-HHS-
+000004590546-47 (with attachment).
+178
+    PSI-HHS-000004588545-46 (with attachment); PSI-HHS-000004592364-65 (with attachment).
+179
+    PSI-HHS-000004588545-46.
+180
+    PSI-HHS-000002199145.
+181
+    PSI-HHS-000005524064.
+182
+    PSICOVID_00017545.
+183
+    Id.
+184
+    Id.
+185
+    BLA approval, Food and Drug Admin., Aug. 23, 2021,
+https://www.fda.gov/media/151710/download?attachment; COVID-19 Timeline, Centers for Disease Control and
+Prevention, https://www.cdc.gov/museum/timeline/covid19.html.
+186
+    PSI-HHS-000008254473-74.
+187
+    PSI-HHS-000008254472 (emphasis added).
+
+                                                    24
+             o Hendrix responds to Szarfman, adding Menschik and Baer to the email chain for
+               their awareness.188 Szarfman replies directly to Menschik, reiterating the
+               advantages of RGPS compared to MGPS.189 She explicitly writes, “RGPS is
+               much, much better at unmasking signals than MGPS. It automatically
+               identifies and corrects for confounders. This is an important function to have,
+               given the pandemic situation.”190
+
+         Sept. 8, 2021: Menschik and Zinderman draft a response to Szarfman’s previous email,
+          and Menschik sends it to her.191 In his email to Szarfman, Menschik underscores that
+          VAERS data mining is CBER’s responsibility and must be only conducted through that
+          office (Szarfman is a CDER employee, not a CBER employee). 192 However, Menschik
+          appears to acknowledge a limited issue with MGPS, separate from masking, that he plans
+          to review further within CBER.193 He also writes, “[a]ny further discussion on VAERS
+          data mining methods/findings outside my chain of command will have to be offline
+          and in general terms, as well as without reference to any specific VAERS [adverse
+          events].”194
+
+         Sept. 14, 2021:
+             o Anderson and Nair draft an email regarding Szarfman’s data mining activities that
+                 Anderson eventually send to Marks.195
+             o In the email, Anderson takes issue with Szarfman’s efforts and access to CBER
+                 data “given that she is a CDER employee.” 196 He notes, “we have concerns about
+                 her communicating data mining findings using CBER VAERS data to CBER and
+                 non-CBER personnel.”197 Anderson requests that Szarfman “refrain[s] from using
+                 her FDA email or communicating data mining findings using CBER VAERS
+                 data[.]”198
+             o Anderson appears to acknowledge the masking issue Szarfman has previously
+                 raised.199 Rather than take immediate steps to adjust FDA’s system to address
+                 Szarfman’s concerns, Anderson suggests taking a “retrospective approach” to
+                 determine if safety signals were missed only after receiving reports of adverse
+                 events through active surveillance systems. 200 Given that FDA failed to detect the
+
+
+
+
+188
+    Id.
+189
+    PSI-HHS-000008254471.
+190
+    Id. (emphasis added).
+191
+    PSI-HHS-000008253098; PSI-HHS-000008253959; PSI-HHS-000008252951; PSI-HHS-000008253958; PSI-
+HHS-000008267103; PSI-HHS-000008254470.
+192
+    PSI-HHS-000008254470.
+193
+    Id.
+194
+    Id. (emphasis added).
+195
+    PSICOVID_00014054-55; PSI-HHS-000002213753-54.
+196
+    PSI-HHS-000002213753-54.
+197
+    Id.
+198
+    Id.
+199
+    Id.
+200
+    Id.
+
+                                                  25
+                 safety signal for myocarditis months earlier, it is unclear what further evidence
+                 was needed to trigger a reevaluation of FDA’s current data mining system. 201
+
+         Sept. 15, 2021:
+             o Marks forwards Anderson’s write-up concerning Szarfman’s data mining efforts
+                 to CDER Director Patrizia Cavazzoni, to whom Szarfman reports, and writes, “I
+                 really am sorry to bother you with this, but issue is [sic] become a major
+                 distraction. . . . Ana Szarfman[] has decided on her own to do vaccine analysis
+                 using VAERS as part of her work at FDA. She is, however, not doing this in
+                 collaboration with our CBER statisticians, and quite to the contrary, has been
+                 asked to cease and desist, because the strategy that she is using could create
+                 erroneous conflicts that feed in to anti-vaccination rhetoric.”202
+             o CDER Office of New Drugs Director Peter Stein replies to Marks, “[T]hanks for
+                 flagging this – we’ve made it clear to her that she should not be discussing or
+                 providing internal analyses externally, and needs to focus on her assigned work.”
+                 He closes his email, “Hopefully, you won’t have further surprises….” 203
+
+         Sept. 22, 2021:
+             o Menschik writes to John Su, a CDC official and member of the Vaccine Safety
+                 Team and Vaccine Safety Technical Work Group, and appears to identify
+                 limitations within FDA’s data mining system.204 Menschik describes the masking
+                 effect, the exact data limitation that Szarfman had been raising for months at
+                 FDA.205 Although Menschik does not credit Szarfman, he echoes her concerns in
+                 draft language Menschik shares with Su for an article reviewing the safety of the
+                 COVID-19 vaccines.206
+             o Menschik’s draft language notes that FDA’s current data mining system “has
+                 multiple limitations,” including that, “disproportionately scores . . . can be
+                 muted by COVID-19 vaccine reports contributing substantially to the
+                 comparator group, particularly if both mRNA COVID-19 vaccines are
+                 associated with the same adverse event.”207 Menschik tells Su that he is “happy”
+                 to discuss further by phone.208
+             o Su acknowledges the concern in a response email, noting that signal detection
+                 with VAERS data “has always been tricky business” and that those who work
+                 with VAERS frequently are “mindful of those limitations[.]” 209
+
+
+201
+    See Chairman Ron Johnson, Failure to Warn: How Federal Health Agencies Downplayed the Risk of Myocarditis
+and Other Adverse Events Following COVID-19 Vaccination, Permanent Subcomm. on Investigations, May 21,
+2025, https://www.hsgac.senate.gov/wp-content/uploads/2025.05.21-PSI-Majority-Staff-Interim-Report-Failure-
+toWarn.pdf.
+202
+    PSI-HHS-000002213753 (emphasis added).
+203
+    PSI-HHS-000002213752-53 (ellipses in original).
+204
+    PSI-HHS-000008268909.
+205
+    Id.
+206
+    Id.
+207
+    Id. (emphasis added).
+208
+    Id.
+209
+    Id.
+
+                                                     26
+         Oct. 29, 2021: FDA expands EUA for the Pfizer COVID-19 vaccine for children ages 5-
+          11.210
+
+         Jan. 3, 2022: FDA grants EUA for Pfizer COVID-19 boosters for children ages 12-15
+          and a third primary series dose for children ages 5-11 who are immunocompromised. 211
+
+         Jan. 31, 2022: FDA fully approves Moderna COVID-19 vaccine for individuals ages 18
+          and older.212
+
+         Feb. 18, 2022:
+             o Following FDA’s apparent decision “not to reconsider authorization” of
+                 Moderna’s COVID-19 vaccine EUA for adolescents ages 12-17, FDA official
+                 Sarah Walinsky sends an invitation for a virtual meeting to Marks and other FDA
+                 officials to discuss how to respond to Moderna’s appeal. 213 Walinsky attaches
+                 several items to the meeting invitation including a recent email between FDA
+                 officials discussing how to respond to Moderna and whether FDA should push
+                 Moderna “towards a BLA submission instead of an EUA submission.” 214 One
+                 FDA official notes that FDA’s current draft response to Moderna appears to justify
+                 its decision to not authorize the vaccine because “there is not an emergency need
+                 for the Moderna vaccine for this pediatric population, especially given the data
+                 suggesting an increased myocarditis risk compared to the currently available
+                 vaccine for this population (Pfizer).” 215
+             o Walinsky also attaches a preprint version of Szarfman’s forthcoming paper,
+                 “Signaling COVID-19 Vaccine Adverse Events” (which appears to be a finalized
+                 version of the earlier draft titled, “Masking Associated with Early COVID-19
+                 Vaccine Safety Surveillance”), which discusses the increased detection of the
+                 myocarditis signal for the COVID-19 vaccines when using the RGPS method. 216
+                 It is unclear why Walinsky circulated the preprint and whether the meeting took
+                 place.
+
+         June 17, 2022: FDA issues EUAs for the Moderna COVID-19 vaccines to all children as
+          young as 6 months old and the Pfizer COVID-19 vaccines to children ages 6 months to 4
+          years old.217
+
+
+210
+    FDA Authorizes Pfizer-BioNTech COVID-19 Vaccine for Emergency Use in Children 5 through 11 Years of Age,
+Food and Drug Admin., Oct. 29, 2021, https://web.archive.org/web/20211029200859/https://www.fda.gov/news-
+events/press-announcements/fda-authorizes-pfizer-biontech-covid-19-vaccine-emergency-use-children-5-through-
+11-years-age.
+211
+    COVID-19 Timeline, Centers for Disease Control and Prevention,
+https://www.cdc.gov/museum/timeline/covid19.html.
+212
+    Id.
+213
+    PSI-HHS-000001617192-93; PSI-HHS-000001626344-45; PSI-HHS-000001626448-49.
+214
+    PSI-HHS-000001626344-45.
+215
+    Id.
+216
+    PSI-HHS-000001627327-77.
+217
+    Coronavirus (COVID-19) Update: FDA Authorizes Moderna and Pfizer-BioNTech COVID-19 Vaccines for
+Children Down to 6 Months of Age, Food and Drug Admin., June 17, 2022,
+
+                                                    27
+       June 23, 2022: Authors including Szarfman and DuMouchel, publish their paper on
+        masking titled “Signaling COVID-19 Vaccine Adverse Events” in the journal Drug
+        Safety.218
+
+       July 8, 2022: FDA approves supplemental BLA for the Pfizer COVID-19 vaccine,
+        authorizing its use for children ages 12 to 15 years old. 219
+
+       July 12, 2022: Zinderman sends a weekly data mining report to his colleagues at FDA,
+        including Menschik and Nair, and to a limited number of senior CDC officials, including
+        Tom Shimabukuro and John Su.220 Based on records reviewed by the Subcommittee, this
+        appears to be the final weekly data mining report FDA distributes for the COVID-19
+        vaccines.
+
+       July 17, 2022: Szarfman emails her paper entitled “Signaling COVID-19 Vaccine
+        Adverse Events” to then-FDA Commissioner Robert Califf, noting that it describes
+        “advances in the data mining (DM) methodology, especially the capacity to unmask
+        hidden signals due to previously unaccountable confounders[.]” 221 Upon receipt of this
+        and another article, Califf simply replies, “Thanks. These are good.” 222
+
+       Aug. 5, 2022: In response to an FDA official’s question regarding sending COVID-19
+        vaccine data mining to CDC, Menschik confirms to his FDA colleagues, “[W]e are no
+        longer routinely sending COVID data mining to CDC[.]” 223 Menschik notes that Nair
+        had previously discussed this decision with CDC official Shimabukuro. 224
+
+       Aug. 31, 2022: Forshee writes to Marks and Anderson, notifying them about Szarfman
+        being a co-author on “Signaling COVID-19 Vaccine Adverse Events.” 225 He references
+        that they are discussing best ways to address “a number of issues with the paper and its
+        findings[.]”226 Forshee references Szarfman’s earlier efforts in 2021, where she raised
+        concerns about FDA’s current data mining system. 227
+
+
+https://web.archive.org/web/20220617140937/https://www.fda.gov/news-events/press-announcements/coronavirus-
+covid-19-update-fda-authorizes-moderna-and-pfizer-biontech-covid-19-vaccines-
+children?utm_medium=email&utm_source=govdelivery.
+218
+    Rave Harpaz et al., Signaling COVID-19 Vaccine Adverse Events, Drug Safety (2022),
+https://link.springer.com/article/10.1007/s40264-022-01186-z.
+219
+    COVID-19 Timeline, Centers for Disease Control and Prevention,
+https://www.cdc.gov/museum/timeline/covid19.html; Supplement BLA approval, Food and Drug Admin., July 8,
+2022, https://www.fda.gov/media/159727/download?attachment.
+220
+    PSI-HHS-000001217046 (with attachment).
+221
+    PSI-HHS-000004461747-48.
+222
+    Id.
+223
+    PSI-HHS-000008266854.
+224
+    Id. After Menschik informs his colleagues that FDA is no longer routinely sending the data mining to CDC, one
+FDA official responds, “I was also hoping we would stop doing that at some point!” Id.
+225
+    PSI-HHS-000004594929; Forshee attaches Marks’ September 2021 email to Szarfman’s supervisors Cavazzoni
+and Stein. PSI-HHS-000004604858-59.
+226
+    PSI-HHS-000004594929.
+227
+    Id.; PSI-HHS-000004604858-59.
+
+                                                       28
+         Sept. 30, 2022: Nair writes to his FDA colleagues that he suggested to CDC earlier that
+          summer that “we discontinue the routine regular [weekly data mining] emails.” 228 Nair
+          adds, “[t]his was intended as a timesaving measure and to reduce email traffic.” 229 He
+          informs his colleagues that FDA decided to end its weekly reporting email because “it
+          had been some time that we had had a data mining alert that required further evaluation,
+          CDC agreed with this approach.” 230 Nair pointed out, however, that “FDA is still
+          regularly conducting data mining for all approved/authorized vaccines.” 231
+
+         Nov. 26, 2022: CDC officials discuss how they no longer receive weekly data mining
+          reports from FDA.232 One official notes, “I think that because of the FOIAs [Freedom
+          of Information Act requests] we may have asked FDA to stop sending these weekly
+          data mining outputs.”233 A CDC official eventually writes to Menschik requesting the
+          most recent data mining report.234
+
+         Nov. 28, 2022:
+             o Menschik emails Nair about how to respond to CDC’s request. 235 Menschik notes
+                 that FDA has “concerns about sharing our data mining output externally given
+                 history including over reliance on data mining output[.]”236
+             o Menschik warns that the data mining results may be “misconstrued” because the
+                 detection of “signals,” or lack thereof, could lead to a false conclusion. 237
+                 Because of these issues in addition to the masking limitations, Menschik argues
+                 against sharing the data that CDC requested and states that FDA’s “standard
+                 practice” relies on “assigned reviewers” to evaluate potential safety findings “in
+                 the context of other available data” prior to sharing any safety signal
+                 information.238
+
+         Dec. 1, 2022: Nair responds to the CDC official, incorporating many of Menschik’s
+          points that appear to downplay FDA’s reliance on EB data mining. 239 Nair writes,
+          “Results from data mining are considered hypothesis generating and do not, by
+          themselves, demonstrate causal associations.” 240 He adds that little can be attained from
+          the presence of a safety signal, or lack thereof, and notes that even the use of the terms
+
+
+228
+    PSI-HHS-000001160286.
+229
+    Id.
+230
+    Id.
+231
+    Id.; Per Chairman Johnson’s March 23, 2026 highlighting the FDA’s detection of ischemic stroke following
+COVID-19 vaccination, it appears FDA did regularly conduct data mining runs. Letter from Sen. Ron Johnson,
+Permanent Subcomm. on Investigations to Robert Kennedy, Secretary, Dep’t of Health and Human Services, March
+23, 2026, https://www.ronjohnson.senate.gov/services/files/CA500350-195E-472C-9F26-BE93B290B9D9.
+232
+    PSI-HHS-000002480132.
+233
+    Id. (emphasis added).
+234
+    PSICOVID_00015642-43.
+235
+    Id.
+236
+    Id. (emphasis added).
+237
+    Id.
+238
+    Id.
+239
+    PSICOVID_00014435.
+240
+    Id.
+
+                                                     29
+          “signal and/or safety signal have certain connotations and may trigger actions so we try
+          not [sic] conflate data mining alerts with signals.”241
+
+         Oct. 27, 2023: Nair responds to concerns about masking in FDA’s data mining system
+          raised by Judy Maro, a Harvard professor working with FDA and CDC officials. 242 In his
+          response, he writes, “We were aware of this limitation before and during the
+          pandemic. There are many data mining tools and there was some discussion about
+          utilizing a novel tool to adjust for this. However, we thought it would be problematic
+          to use a brand new, possibly unvalidated tool in the context of an EUA. We ended up
+          using the same EBGM [Empirical Bayes Geometric Mean] data mining we use for all
+          vaccines and has a long history of use rather than take an experimental approach.” 243
+
+         March 15, 2024:
+            o Approximately three years after Szarfman raised concerns about the masking
+                limitation in FDA’s data mining system as a result of the large number of COVID-
+                19 vaccine reports, FDA officials including Nair, Menschik, and Zinderman
+                discuss the masking effect.244 Nair writes, “I know in the past we have discussed
+                one of the possible limitations of data mining currently is the vast number of
+                VAERS reports from the COVID vaccines may limit our ability to detect
+                statistical alerts because disproportionality scores may be driven towards the
+                null.”245 Nair asks his colleagues if they know of any publications discussing the
+                masking limitation of data mining.246
+            o In response to Nair, Zinderman writes, “I recall Anna [sic] talking about masking
+                in the few interactions we had with her, but I don’t remember there being
+                references.”247
+            o Following Zinderman’s email, Baer writes to Menschik only and attaches the
+                “Signaling COVID-19 Vaccine Adverse Events” paper coauthored by Szarfman,
+                DuMouchel.248 She attaches the paper for Menschik’s consideration because she
+                believes it could be relevant to Nair’s request for public references to the masking
+                limitation.249 She follows up later that day providing two specific examples of
+                articles cited in Szarfman’s and DuMouchel’s paper but ultimately defers to him
+                on whether to share with Nair as resources. 250
+            o Later, Menschik responds to Nair’s original email and recalls providing the CDC
+                with language addressing the masking issue for a draft safety article, but “it now
+                appears that they took it out before publication.” 251 This is likely a reference to
+                the draft language Menschik previously shared with CDC official Su on Sept. 22,
+
+241
+    Id.
+242
+    PSI-HHS-000001136460-64.
+243
+    PSI-HHS-000001136460 (emphasis added).
+244
+    PSI-HHS-000008261793-94.
+245
+    Id.
+246
+    Id.
+247
+    PSI-HHS-000008261793.
+248
+    PSI-HHS-000008263353.
+249
+    Id.; PSI-HHS-000008261793.
+250
+    PSI-HHS-000008261793.
+251
+    PSI-HHS-000001152913.
+
+                                                  30
+                 2021.252 It is unclear whether Menschik provides the articles Baer sent to him.
+
+         Sept. 26, 2024:
+             o Following a discussion about data mining with Oracle contractors, Baer writes to
+                 Menschik about the RPGS algorithm.253 Baer notes that when she compared
+                 results of the RGPS and MGPS models for the Gardasil vaccine, she found that
+                 the RGPS model yielded “significantly higher” numbers than the MGPS model
+                 for certain adverse events.254 She also found that the RGPS numbers were higher
+                 than MGPS numbers for certain adverse events associated with the Pfizer
+                 COVID-19 bivalent vaccine.255
+             o Baer also mentions Szarfman’s 2022 paper about the masking limitation in data
+                 mining and appears to acknowledge that the lower numbers from the MGPS
+                 model were a result of masking.256 She writes, “I understand the theory behind
+                 masking and trying to adjust for it, but I feel that comprehending the details of the
+                 approach and, importantly, which approach is ‘better,’ is beyond my training and
+                 experience. I think someone with more data mining expertise would have to be
+                 involved in that decision.”257
+             o In response to Baer, Menschik appears to concur with Baer’s finding and writes
+                 that “in general the [RGPS model] appears way more sensitive in that its scores
+                 are generally higher than corresponding [MGPS model] scores when sampling
+                 different [adverse events].”258 Despite his apparent acknowledgment that RGPS
+                 addresses the masking limitation of MGPS, Menschik appears to express his
+                 preference for continuing to use MGPS.259
+
+
+
+
+252
+    PSI-HHS-000008268909.
+253
+    PSI-HHS-000008253424.
+254
+    Id. It is unclear what adverse events Baer reviewed that were associated with the Gardasil vaccine.
+255
+    Id. It is also unclear what adverse events Baer reviewed that were associated with the Pfizer COVID-19 bivalent
+vaccine.
+256
+    Id.
+257
+    Id.
+258
+    Id.
+259
+    Id.
+
+                                                        31
+III.   Glossary
+
+                                         Key Figures
+
+Anderson, Steven—Director, Office of Biostatistics and Pharmacovigilance, Center for
+Biologics Evaluation and Research, FDA.
+
+Baer, Bethany—Division of Pharmacovigilance, Office of Biostatistics and Pharmacovigilance,
+Center for Biologics Evaluation and Research, FDA.
+
+Califf, Robert—Commissioner, FDA (Feb. 2022-Jan. 2025).
+
+Cavazzoni, Patrizia—Director, Center for Drug Evaluation and Research, FDA.
+
+DuMouchel, William—Chief Statistician, Oracle.
+
+Forshee, Richard—Associate Director for Research/Acting Deputy Director and later Deputy
+Director, Office of Biostatistics and Pharmacovigilance, Center for Biologics Evaluation and
+Research, FDA.
+
+Hendrix, Brian—Empirica Signal system, Contractor, Commonwealth Informatics.
+
+Marks, Peter—Director, Center for Biologics Evaluation and Research, FDA.
+
+Maro, Judy—Associate Professor, Department of Population Medicine, Harvard Medical
+School and Harvard Pilgrim Health Care Institute.
+
+Menschik, David—Associate Director for Surveillance Informatics, Division of
+Pharmacovigilance, Office of Biostatistics and Pharmacovigilance, Center for Biologics
+Evaluation and Research, FDA.
+
+Nair, Narayan—Division Director, Division of Pharmacovigilance, Office of Biostatistics and
+Pharmacovigilance, Center for Biologics Evaluation and Research, FDA.
+
+Niu, Manette—Acting Branch Chief, Division of Pharmacovigilance, Office of Biostatistics and
+Pharmacovigilance, Center for Biologics Evaluation and Research, FDA.
+
+Shimabukuro, Tom—Deputy Director and later Director, Immunization Safety Office, CDC;
+and later, Deputy Director, Influenza Division, Center for Immunization and Respiratory
+Diseases, CDC.
+
+Sydnor, James—Empirica Signal system, Contractor, Commonwealth Informatics.
+
+Stein, Peter—Director, Office of New Drugs, Center for Drug Evaluation and Research, FDA.
+
+
+
+                                              32
+Stockbridge, Norman—Division Director, Division of Cardiology and Nephrology, Center for
+Drug Evaluation and Research, FDA.
+
+Su, John—Immunization Safety Office, CDC; and later Deputy Director and Acting Director,
+Immunization Safety Office, CDC.
+
+Szarfman, Ana—Medical Officer, Safety Data Mining Developer and Medical Informatics
+Analyst, Division of Cardiology, Hematology, Endocrinology, and Nephrology, Center for Drug
+Evaluation and Research, FDA.
+
+Walinsky, Sarah—Acting Chief of Staff, Center for Biologics Evaluation and Research, FDA.
+
+Weber, Robert—Product Management Director and Head of Signal Detection and Management
+Working Group, Oracle.
+
+Zinderman, Craig—Associate Director for Medical Policy, Office of Biostatistics and
+Pharmacovigilance, Center for Biologics Evaluation and Research, FDA.
+
+                                                  Key Terms
+
+Empirica Signal—Oracle’s software platform, which utilizes EB data mining, used by FDA for
+data mining.260
+
+Empirical Bayesian (“EB”) Data Mining—The data mining method utilized by federal health
+agencies to identify statistical associations between products and adverse events. 261
+
+Masking—Sometimes referred to as “muting,” masking is a statistical phenomenon in which the
+volume of adverse event reports from a similar drug or vaccine product drowns out reports from
+other drug or vaccine products, thus distorting the baseline group being compared to the drug or
+vaccine of interest being screened.262 This may result in safety signals for adverse events going
+undetected.263
+
+Multi-item Gamma Poisson Shrinker (“MGPS”)—The EB data mining algorithm used by
+FDA. MGPS was originally developed by William DuMouchel in 1999. 264
+
+260
+    User Guide and Online Help, “About the Oracle Empirica Signal Application,” Oracle, April 1, 2025,
+https://docs.oracle.com/en/industries/life-sciences/empirica/2025.4.01/userguide/empirica-signal-application.html.
+261
+    Data Mining at FDA – White Paper, Food and Drug Admin., Aug. 20, 2018, https://www.fda.gov/science-
+research/data-mining/data-mining-fda-white-paper.
+262
+    Rave Harpaz et al., Signaling COVID-19 Vaccine Adverse Events, Drug Safety, June 23, 2022,
+https://link.springer.com/article/10.1007/s40264-022-01186-z.
+263
+    Id.
+264
+    William DuMouchel, Bayesian Data Mining in Large Frequency Tables, With an Application to the FDA
+Spontaneous Reporting System, Am. Stat., (Aug. 1999),
+https://www.researchgate.net/publication/254331086_Bayesian_Data_Mining_in_Large_Frequency_Tables_with_an
+_Application_to_the_FDA_Spontaneous_Reporting_System_Reply; See also Emeri Potter et al., FDA Adverse
+Event Reporting System (FAERS) Essentials: A Guide to Understanding, Applying, and Interpreting Adverse Event
+Data Reported to FAERS, Clin. Pharmacol. Ther., May 19, 2025,
+https://ascpt.onlinelibrary.wiley.com/doi/10.1002/cpt.3701.
+
+                                                       33
+Regression-Adjusted Gamma Poisson Shrinker (“RGPS”)—First outlined in a 2012 Oracle
+white paper by William DuMouchel, RGPS is an update to MGPS that controls for masking
+effects.265
+
+
+
+
+265
+   William DuMouchel and Rave Harpaz, Regression-Adjusted GPS Algorithm (RGPS), Oracle, Nov. 2012,
+https://docs.oracle.com/health-sciences/empirica-signal-811/ESIUG/Regression-Adjusted_GPS_Algorithm.pdf;
+Rave Harpaz et al., Signaling COVID-19 Vaccine Adverse Events, Drug Safety, June 23, 2022,
+https://link.springer.com/article/10.1007/s40264-022-01186-z.
+
+                                                     34
+IV.        Appendix – Chairman Johnson’s Oversight of COVID-19 Vaccines
+           Timeline of Chairman Johnson’s Relevant COVID-19 Vaccine Adverse Event Oversight
+
+          April 27, 2021: During a meeting with then-National Institutes of Health (“NIH”)
+           Director Dr. Francis Collins, Sen. Johnson asks him about the alarming number of
+           adverse event reports in VAERS, particularly the more than 2,900 deaths worldwide
+           reported within 30-days of vaccination, Collins responded “Senator, people die.”266
+
+          June 28, 2021: Letter from Sen. Johnson and Sen. Mike Lee to CDC Director Dr.
+           Rochelle Walensky and FDA Acting Commissioner Dr. Janet Woodcock raising concerns
+           about several hundred individuals who reported experiencing an adverse event after
+           receiving a COVID-19 vaccine.267
+
+          July 13, 2021: Letter from Sen. Johnson to Collins, Walensky, and Woodcock regarding
+           vaccine safety monitoring systems described in the October 2020 VRBAC meeting. Sen
+           Johnson, writes, “Unfortunately, your agencies’ lack of response to congressional
+           oversight letters, combined with my discussions with agency officials and individuals
+           who believe they have experienced vaccine injuries, leads me to believe the
+           preauthorization safety surveillance hype does not appear to match the agencies’
+           actual performance.”268
+
+          Nov. 2, 2021: Sen. Johnson holds a panel discussion on vaccine mandates featuring
+           doctors, medical researchers, and vaccine injured. 269
+
+          Oct. 14, 2021: Letter from Sen. Johnson to Collins, Walensky, Woodcock, Dr. Peter
+           Marks, Director of the Center for Biologics Evaluation and Research at FDA, and Dr.
+           Tom Shimabukuro, Deputy Director of the Immunization Safety Office at CDC regarding
+           federal health agencies’ safety surveillance systems and reports of adverse events
+           following COVID-19 vaccination. 270
+
+          Dec. 29, 2021: Letter from Sen. Johnson to Woodcock and Walensky regarding specific
+           “hot lots” of COVID-19 vaccines associated with increased reports of adverse events. 271
+
+          Jan. 24, 2022: Sen. Johnson leads a roundtable entitled, “COVID-19: A Second
+           Opinion.” At the event, Sen. Johnson documents 1.05 million adverse events, and 22,000
+           deaths connected to the COVID-19 vaccines. 272
+
+
+266
+      Available at https://www.ronjohnson.senate.gov/services/files/17788FED-A947-4143-8C1B-95C59E60EE87 at
+2.
+267
+    Available at https://www.ronjohnson.senate.gov/services/files/EB95C952-175D-405C-8247-AD40FB742DEF.
+268
+    Available at https://www.ronjohnson.senate.gov/services/files/17788FED-A947-4143-8C1B-95C59E60EE87.
+269
+    Available at https://www.ronjohnson.senate.gov/vaccine-side-effects-and-mandates.
+270
+    Available at https://www.ronjohnson.senate.gov/services/files/7EC06E87-9F6F-4E22-8877-8D519CF25A32.
+271
+    Available at https://www.ronjohnson.senate.gov/services/files/F564153D-89FD-40C9-A1B1-8663C22D2F0A.
+272
+    Available at https://www.ronjohnson.senate.gov/vaccine-side-effects-and-mandates.
+
+                                                      35
+         March 1, 2022: Letter from Sen. Johnson to Walensky reiterating outstanding requests
+          for information on COVID-19 including data on adverse events and vaccine lot variation
+          data.273
+
+         March 23, 2022: Letter from Sen. Johnson to HHS Secretary Xavier Becerra, FDA
+          Commissioner Dr. Robert Califf, National Institute of Allergy and Infectious Diseases
+          Director Dr. Anthony Fauci, and Walensky highlighting the over 1 million reports of
+          adverse events on VAERS and what steps are being taken to address these reports. Sen.
+          Johnson writes, “As of March 18, 2022, VAERS has received 1,183,495 worldwide
+          reports of adverse events and 25,641 death reports. Of those deaths, 7,382 (28.8%)
+          occurred on day 0, 1, or 2 following vaccination.” 274
+
+         June 23, 2022: Letter from Sen. Johnson to Walensky requesting CDC provide vaccine
+          safety data, including any EB data mining analyses, created as part of its vaccine safety
+          monitoring efforts.275
+
+         July 25, 2022: Letter from Sen. Johnson to Walensky reiterating request for June 23,
+          2022 request for vaccine safety data, including EB data mining analyses. 276
+
+         Sept. 12, 2022: Letter from Sen. Johnson to Walensky in response to CDC producing
+          only public Proportional Reporting Ratio analyses and failing to respond to requests for
+          EB data mining analyses.277
+
+         Dec. 7, 2022: Sen. Johnson leads a roundtable entitled, “COVID -19 Vaccines: What
+          They are, How they Work, and Possible Causes of Injuries.” At the event, Sen. Johnson
+          documents 1.47 million adverse events, and 32,000 deaths connected to the COVID-19
+          vaccines.278
+
+         Jan. 10, 2023: Letter from Sen. Johnson to Walensky reiterating requests for EB data
+          mining analyses and other vaccine safety data first requested in June 2022. 279
+
+         April 20, 2023: Letter from Sen. Johnson to Becerra and Carole Johnson, Administrator
+          of the Health Resources and Services Administration regarding Countermeasures Injury
+          Compensation Program claims by individuals for COVID-19 vaccine injuries. 280
+
+         Sept. 5, 2023: Letter from Sen. Johnson to Califf requesting FDA produce all EB data
+          mining analyses related to the COVID-19 vaccines. 281
+
+273
+    Available at https://www.ronjohnson.senate.gov/services/files/018E3CF9-DCE9-4F0D-836B-DC4DD9866FF2.
+274
+    Available at https://www.ronjohnson.senate.gov/services/files/08942E5E-4220-48A9-B989-9D5947C10BB4.
+275
+    Available at https://www.ronjohnson.senate.gov/services/files/9914278B-A73B-4434-8349-91091138E18B.
+276
+    Available at https://www.ronjohnson.senate.gov/services/files/D48FBED6-BDF3-4FB7-8B24-D52A2EDCE39E.
+277
+    Available at https://www.ronjohnson.senate.gov/services/files/0CBE044E-4F2C-47F2-8272-4DB4F14D3359.
+278
+    Available at https://www.ronjohnson.senate.gov/vaccine-side-effects-and-mandates.
+279
+    Available at https://www.ronjohnson.senate.gov/services/files/AB68101B-CDA4-49F1-8174-4274DDEB0120.
+280
+    Available at https://www.ronjohnson.senate.gov/services/files/A80C5322-F694-4803-BC15-BE3B0D4708D1.
+281
+    Available at https://www.ronjohnson.senate.gov/services/files/0E2CC41F-6202-4124-A7F6-8491E864FB23.
+
+                                                  36
+         Sept. 5, 2023: Letter from Sen. Johnson to Becerra reiterating requests for information
+          on CICP claims by individuals reporting vaccine injuries following a COVID-19
+          vaccine.282
+
+         Oct. 25, 2023: Letter from Sen. Johnson to Califf, Becerra, CDC Director Dr. Mandy
+          Cohen, and NIH Acting Director Lawrence Tabak reiterating earlier requests for vaccine
+          safety information and requesting additional vaccine safety information, including
+          information on myocarditis and pericarditis after vaccination. 283
+
+         Dec. 21, 2023: Letter from Sen. Johnson to Becerra, Califf, and Cohen highlighting that
+          the deaths per million doses of COVID-19 vaccines are approximately 55 times greater
+          than for deaths per million doses of flu vaccines and requesting all Proportional
+          Reporting Ratio and EB data mining analyses for the COVID-19 vaccines. 284
+
+         Jan. 12, 2024: Letter from Sen. Johnson to Califf and Cohen highlighting the issue of
+          higher rates of adverse events connected to specific manufacture lots of COVID-19
+          vaccine and reiterating requests from December, including the request for all EB data
+          mining analysis on COVID-19 vaccines. 285
+
+         Feb. 26, 2024: Sen. Johnson leads a roundtable entitled, “Federal Health Agencies and
+          the COVID Cartel: What are They Hiding?”286
+
+         Sept. 4, 2024: Letter from Sen. Johnson to Califf and Cohen regarding a study finding
+          increased all-cause mortality following receipt of the Moderna mRNA COVID-19
+          vaccine and requesting mortality data related to COVID-19 vaccines from federal health
+          agencies.287
+
+         Nov. 19, 2024: Letter from Sen. Johnson to Becerra, Califf, and Cohen highlighting
+          heavily redacted records released through the Freedom of Information Act (“FOIA”)
+          connected to federal health agencies knowledge of the risks of myocarditis and
+          pericarditis following an mRNA COVID-19 vaccine and requesting unredacted copies of
+          these records.288
+
+         Dec. 5, 2024: Letter from Sen. Johnson to Becerra, Califf, and Cohen highlighting
+          additional heavily redacted FOIA records connected to federal health agencies’
+          knowledge of the risks of myocarditis and pericarditis following an mRNA COVID-19
+          vaccine and requesting unredacted copies of these records. 289
+
+282
+    Available at https://www.ronjohnson.senate.gov/services/files/241E701E-A91E-4B82-B4A8-FF233A3C5C98.
+283
+    Available at https://www.ronjohnson.senate.gov/services/files/8989A37B-49B7-4E87-827F-9BE74D00D06A.
+284
+    Available at https://www.ronjohnson.senate.gov/services/files/0D09CBFB-7A6E-426F-813D-F89DFC4E2EFD.
+285
+    Available at https://www.ronjohnson.senate.gov/services/files/603DE6AC-5F83-4226-8A69-0BB5DCDA6841.
+286
+    Available at https://www.ronjohnson.senate.gov/2024/2/icymi-sen-johnson-leads-roundtable-discussion-federal-
+health-agencies-and-the-covid-cartel-what-are-they-hiding.
+287
+    Available at https://www.ronjohnson.senate.gov/services/files/32B052BE-2606-4118-9833-BD0F255867C0.
+288
+    Available at https://www.ronjohnson.senate.gov/services/files/00AAFB3D-72EE-475F-94D5-66708B4AA86D.
+289
+    Available at https://www.ronjohnson.senate.gov/services/files/CCEF4C60-FA50-4A57-804B-D4CA2F835C41.
+
+                                                       37
+         Jan. 28, 2025: Chairman Johnson subpoenas HHS for records connected to COVID-19
+          vaccines, including EB data mining and vaccine safety monitoring. 290
+
+         May 21, 2025: PSI releases its interim report titled, “Failure to Warn: How Federal
+          Health Agencies Downplayed the Risk of Myocarditis and Other Adverse Events
+          Following COVID-19 Vaccination,” detailing how federal health officials knew about the
+          risks of myocarditis and pericarditis after an mRNA COVID-19 vaccine and failed to
+          properly alert the public to those risks.291
+
+         Dec. 15, 2025: Letter from Sen. Johnson to Secretary of HHS Robert F. Kennedy, Jr.
+          regarding Dr. Vinay Prasad’s, the Director of the Center for Biologics Evaluation and
+          Research, memorandum on deaths of children following a COVID-19 vaccine. 292
+
+         March 23, 2026: Letter from Sen. Johnson to Secretary of HHS Robert F. Kennedy, Jr.
+          detailing findings that in late 2022, federal health officials identified, and subsequently
+          ignored and downplayed, a risk of ischemic stroke in individuals age 65 years and older
+          who received the Pfizer COVID-19 bivalent booster and raising concerns about masking
+          in EB data mining used to monitor COVID-19 vaccine safety. 293
+
+
+
+
+290
+    Available at https://www.ronjohnson.senate.gov/services/files/8FAB9531-F799-4067-BA1C-AB8CA182D100.
+291
+    Available at https://www.hsgac.senate.gov/wp-content/uploads/2025.05.21-PSI-Majority-Staff-Interim-Report-
+Failure-to-Warn.pdf.
+292
+    Available at https://www.ronjohnson.senate.gov/services/files/AFDAD3A2-D789-46ED-B895-16341762156A.
+293
+    Available at https://www.ronjohnson.senate.gov/2026/3/psi-chairman-johnson-reveals-further-evidence-of-biden-
+administration-downplaying-covid-19-vaccine-safety-risk.
+
+                                                       38
+
