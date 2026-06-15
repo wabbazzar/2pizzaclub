@@ -1,6 +1,6 @@
 :root {
     /* Miss Frizzle / Magic School Bus palette */
-    --chrome-bg: #1B3FB5;        /* royal blue */
+    --chrome-bg: #14141F;        /* near-black chrome */
     --chrome-ink: #FFF8E7;       /* cream */
     --chrome-ink-dim: #B5C8FF;   /* light blue */
     --chrome-rule: #FFD93D;      /* bus yellow */
@@ -68,7 +68,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0.85rem 1.25rem;
-    background: var(--ink);
+    background: var(--chrome-bg);
     border-bottom: 1px solid var(--chrome-rule);
     font-family: var(--mono);
     font-size: 0.78rem;
