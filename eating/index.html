@@ -33,7 +33,7 @@
            white" in the egg/page-turns. Keep the page dark whenever a spread is active
            (auto-reverts to cream paper for the text scenes, which have no .spread). */
         html:has(.scene.active .spread),
-        body:has(.scene.active .spread) { background: #15100c; }
+        body:has(.scene.active .spread) { background: #000; }
         .container {
             max-width: 680px;
             margin: 0 auto;
@@ -147,7 +147,7 @@
         }
 
         /* ---- illustrated two-up spreads (scenes i, ii, iii share this layout) ---- */
-        .spread { position: fixed; inset: 0; z-index: 6; overflow: hidden; background: #15100c; }
+        .spread { position: fixed; inset: 0; z-index: 6; overflow: hidden; background: #000; }
         .spread .panel { position: absolute; top: 0; height: 100vh; width: 52vw; }
         .spread .panel.left  { left: 0; }
         .spread .panel.right { right: 0; }
