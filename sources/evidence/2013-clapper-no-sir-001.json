@@ -1,0 +1,27 @@
+{
+    "id": "2013-clapper-no-sir-001",
+    "anchor": "y2013",
+    "year": 2013,
+    "era": "iv",
+    "themes": [
+        "surveillance",
+        "nsa",
+        "civil-liberties"
+    ],
+    "claim": "Three months before the Snowden leak, Director of National Intelligence James Clapper told the Senate Intelligence Committee, under oath, that the NSA did not collect data on millions of Americans. Asked by Senator Ron Wyden on March 12, 2013 whether the NSA collects \"any type of data at all on millions or hundreds of millions of Americans,\" Clapper answered \"No, sir\" and \"Not wittingly.\" The Verizon order published that June showed bulk domestic collection was already running; Clapper later wrote to the committee that his answer had been \"clearly erroneous.\"",
+    "sources": [
+        {
+            "label": "U.S. Senate Select Committee on Intelligence — Open Hearing on Worldwide Threats, exchange between Sen. Ron Wyden and DNI James Clapper (March 12, 2013).",
+            "type": "primary",
+            "url": "https://www.youtube.com/watch?v=QwiUVUJmGjs",
+            "quote": "WYDEN: Does the NSA collect any type of data at all on millions or hundreds of millions of Americans? CLAPPER: No, sir. ... Not wittingly. There are cases where they could, inadvertently perhaps, collect — but not wittingly."
+        },
+        {
+            "label": "Federation of American Scientists, Secrecy News — \"The Clapper 'Lie,' and the Senate Intelligence Committee\" (Jan. 2014), reproducing the hearing transcript and Clapper's June 21, 2013 letter calling the answer \"clearly erroneous.\"",
+            "type": "secondary",
+            "url": "https://fas.org/blogs/secrecy/2014/01/clapper-ssci/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A for the under-oath exchange (the verbatim Q&A is on the record, video and transcript). The characterization of it as a 'lie' is contested — Clapper said he misunderstood the question as being about communications content, not metadata — so the record states what was asked and answered and that Clapper himself called it 'clearly erroneous,' and leaves the intent question to the reader. This is the 'secret legal arguments revealed false in public' point the chapter narrative gestures at, now sourced."
+}

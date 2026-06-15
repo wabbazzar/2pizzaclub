@@ -1,0 +1,27 @@
+{
+    "id": "2013-prism-001",
+    "anchor": "y2013",
+    "year": 2013,
+    "era": "iv",
+    "themes": [
+        "surveillance",
+        "nsa",
+        "civil-liberties"
+    ],
+    "claim": "PRISM is a real NSA program for collecting internet communications directly from U.S. service providers. After the Guardian and the Washington Post published the leaked NSA slides on June 6, 2013, the Director of National Intelligence confirmed the program's existence on the record three days later, describing it as a system to collect foreign-intelligence communications from electronic-communication-service providers under Section 702 of the Foreign Intelligence Surveillance Act.",
+    "sources": [
+        {
+            "label": "Office of the Director of National Intelligence — \"Facts on the Collection of Intelligence Pursuant to Section 702 of the Foreign Intelligence Surveillance Act\" (June 8, 2013).",
+            "type": "primary",
+            "url": "https://www.lawfaremedia.org/article/dni-statement-facts-collection-intelligence-pursuant-section-702-foreign-intelligence-surveillance",
+            "quote": "PRISM is not an undisclosed collection or data mining program. It is an internal government computer system used to facilitate the government's statutorily authorized collection of foreign intelligence information from electronic communication service providers under court supervision, as authorized by Section 702 of the Foreign Intelligence Surveillance Act (FISA)."
+        },
+        {
+            "label": "The Guardian — \"NSA Prism program taps in to user data of Apple, Google and others\" (June 6, 2013).",
+            "type": "secondary",
+            "url": "https://www.theguardian.com/world/2013/jun/06/us-tech-giants-nsa-data"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A. The government's own June 8 2013 declassified statement confirms PRISM exists and runs under FISA §702 — the program is not in dispute, only its scope and oversight are. ODNI hosted the same statement on icontherecord.tumblr.com; Lawfare carries the full verbatim text where the quote was confirmed. Section 702 has since been reauthorized (2017, 2018, 2024), so the collection authority documented here remains operational."
+}

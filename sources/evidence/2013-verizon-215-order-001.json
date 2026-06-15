@@ -1,0 +1,27 @@
+{
+    "id": "2013-verizon-215-order-001",
+    "anchor": "y2013",
+    "year": 2013,
+    "era": "iv",
+    "themes": [
+        "surveillance",
+        "nsa",
+        "civil-liberties"
+    ],
+    "claim": "A secret Foreign Intelligence Surveillance Court order signed April 25, 2013 compelled Verizon to hand the NSA, on an ongoing daily basis, the call-detail records of all its customers — including calls made wholly within the United States. The order was the first document Snowden's leak made public, and it showed bulk domestic collection running under Section 215 of the Patriot Act with no link to any specific target or investigation.",
+    "sources": [
+        {
+            "label": "Foreign Intelligence Surveillance Court — Secondary Order, In re Application of the FBI (No. BR 13-80), signed Judge Roger Vinson, April 25, 2013 (declassified).",
+            "type": "court",
+            "url": "https://www.aclu.org/documents/verizon-215-secondary-order",
+            "quote": "all call detail records or \"telephony metadata\" created by Verizon for communications (i) between the United States and abroad; or (ii) wholly within the United States, including local telephone calls."
+        },
+        {
+            "label": "The Guardian — \"NSA collecting phone records of millions of Verizon customers daily\" (June 6, 2013).",
+            "type": "secondary",
+            "url": "https://www.theguardian.com/world/2013/jun/06/nsa-phone-records-verizon-court-order"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A. The order itself is the primary artifact — a signed FISC order, marked for declassification in 2038, released by the leak in 2013. The §215 bulk-telephony program it authorized was later ruled unlawful by the Second Circuit (see 2015-aclu-v-clapper-001) and curtailed by the USA Freedom Act in June 2015."
+}

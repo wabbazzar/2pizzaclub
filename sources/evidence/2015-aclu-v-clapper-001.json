@@ -1,0 +1,27 @@
+{
+    "id": "2015-aclu-v-clapper-001",
+    "anchor": "y2013",
+    "year": 2015,
+    "era": "iv",
+    "themes": [
+        "surveillance",
+        "nsa",
+        "civil-liberties"
+    ],
+    "claim": "On May 7, 2015, the U.S. Court of Appeals for the Second Circuit held that the NSA's bulk telephone-metadata program — the one the Verizon order revealed — was illegal, ruling that it \"exceeds the scope of what Congress has authorized and therefore violates Section 215\" of the Patriot Act. Congress let the bulk-collection authority lapse weeks later, replacing it with the more limited USA Freedom Act on June 2, 2015.",
+    "sources": [
+        {
+            "label": "ACLU v. Clapper, 785 F.3d 787 (2d Cir. May 7, 2015), opinion by Judge Gerard E. Lynch.",
+            "type": "court",
+            "url": null,
+            "quote": "the telephone metadata program exceeds the scope of what Congress has authorized and therefore violates Section 215."
+        },
+        {
+            "label": "Electronic Frontier Foundation — \"ACLU v. Clapper and the Congress: How The Second Circuit's Decision Affects the Legislative Landscape\" (May 8, 2015).",
+            "type": "secondary",
+            "url": "https://www.eff.org/deeplinks/2015/05/aclu-v-clapper-and-congress-how-second-circuits-decision-affects-legislative"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A. Year 2015, filed under the y2013 Snowden anchor because it is the legal resolution of the Verizon §215 order in 2013-verizon-215-order-001 — the program the leak exposed was ruled unlawful. Court opinion url left null per source hygiene (Justia/FindLaw both 403 to the fetcher); the holding language is verbatim and the EFF link is the live secondary. The ruling closed the §215 bulk-telephony question; it did not reach §702/PRISM, which remains operational."
+}

@@ -1,0 +1,27 @@
+{
+    "id": "2013-boundless-informant-001",
+    "anchor": "y2013",
+    "year": 2013,
+    "era": "iv",
+    "themes": [
+        "surveillance",
+        "nsa",
+        "civil-liberties"
+    ],
+    "claim": "Boundless Informant is an NSA tool that counts and maps the agency's own collection by country. A leaked snapshot showed the NSA gathered almost 3 billion pieces of intelligence from inside U.S. computer networks in the 30 days ending in March 2013, and 97 billion worldwide over the same period — a self-tally that contradicted the agency's public assurances that it could not count how much American data it held.",
+    "sources": [
+        {
+            "label": "The Guardian — \"Boundless Informant: the NSA's secret tool to track global surveillance data\" (June 8, 2013).",
+            "type": "secondary",
+            "url": "https://www.theguardian.com/world/2013/jun/08/nsa-boundless-informant-global-datamining",
+            "quote": "The Boundless Informant documents show the agency collecting almost 3 billion pieces of intelligence from US computer networks over a 30-day period ending in March 2013. ... in March 2013 the agency collected 97bn pieces of intelligence from computer networks worldwide."
+        },
+        {
+            "label": "NSA — Boundless Informant briefing slides and FAQ (leaked, June 2013), Internet Archive mirror.",
+            "type": "primary",
+            "url": "https://archive.org/details/NSA-Boundless-Informant-Slides"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A. The numbers are the NSA's own internal tally, not a journalist's estimate — the point of the leak was that the agency had a tool to count exactly the domestic collection it told Congress it could not quantify. Guardian carries the verbatim figures; the leaked slide deck itself is mirrored on archive.org as the primary artifact."
+}
