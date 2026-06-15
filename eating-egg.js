@@ -279,7 +279,9 @@
 
     function init() {
         let hold = null, suppressScroll = false;
-        function ignore(t) { return t && t.closest && !!t.closest('a[href], button, input, textarea, select, label, [role="button"]'); }
+        // Bail on interactive controls AND on selectable prose, so a long-press to
+        // copy text isn't hijacked into arming the egg. The egg fires on empty space.
+        function ignore(t) { return t && t.closest && !!t.closest('a[href], button, input, textarea, select, label, [role="button"], .chapter-body, .evidence, p, h1, h2, h3, h4, h5, h6, li, blockquote, figcaption, td, th'); }
         function cancelHold(reason) {
             if (!hold) return;
             clearTimeout(hold.captureTimer); clearTimeout(hold.fireTimer);
