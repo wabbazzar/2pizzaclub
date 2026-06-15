@@ -1,0 +1,18 @@
+{
+    "id": "2026-safety-signals-001",
+    "anchor": "y2026-safety-signals",
+    "year": 2021,
+    "era": "iv",
+    "themes": ["covid", "vaccines", "public-health"],
+    "claim": "Internal FDA emails obtained by the Senate Permanent Subcommittee on Investigations show that on March 1, 2021 Dr. Ana Szarfman presented CBER Director Peter Marks the 'masking' limitation of FDA's in-use data-mining system (MGPS) and a newer method (RGPS) she called 'the state of the art,' and that on March 26, 2021 she sent officials a DuMouchel RGPS analysis finding '49 examples of extreme masking' — roughly 25 statistically significant COVID-vaccine safety signals invisible to MGPS, including sudden cardiac death, Bell's palsy, and pulmonary infarction.",
+    "sources": [
+        {
+            "label": "U.S. Senate PSI Majority Staff Interim Report, 'Unmasked: How Biden Health Officials Purposely Turned a Blind Eye Toward COVID-19 Vaccine Safety Signals,' April 29, 2026 (~600 pages of HHS-produced records)",
+            "type": "primary",
+            "url": "https://www.ronjohnson.senate.gov/wp-content/uploads/2026/05/Senate-PSI-Majority-Staff-Interim-Report-April-29-2026-FINAL.pdf",
+            "quote": "on March 26, 2021, Dr. Szarfman ... shared a data mining analysis of COVID-19 vaccine adverse events using a newer methodology that reduced masking. ... Dr. Szarfman's analysis—which was done in collaboration with Dr. William DuMouchel, the then-Chief Statistician at Oracle and inventor of the data mining algorithm that supported FDA's current data mining system—found \"49 examples of extreme masking\" with over twenty of those examples of adverse events now showing a statistically significant safety signal when adjusted for masking. ... approximately 25 statistically significant safety signals ... including sudden cardiac death, Bell's palsy, and pulmonary infarction."
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A-adjacent / documented from capture DZc_PksR06G (Sen. Ron Johnson press gaggle). The underlying primary documents — the HHS-produced FDA emails — are real and quoted verbatim in the PSI report, which the reader can open. The mechanical facts are verifiable: the March 1 2021 Szarfman-to-Marks meeting on MGPS masking + RGPS; the March 26 2021 DuMouchel RGPS analysis ('49 examples of extreme masking', ~25 signals). MGPS = Multi-item Gamma Poisson Shrinker (FDA's in-use system, invented by DuMouchel); RGPS = Regression-adjusted GPS (DuMouchel's 2012 successor that adjusts for masking + confounding). 'Masking': a known data-mining limitation where a high-volume product (e.g. a mass-administered COVID vaccine) inflates the comparator baseline so a true signal for that product is suppressed — the report notes masking is 'roughly eight times more likely to occur with COVID-19 vaccines than with other' products. CONTEXT the reel/Johnson framing omits: these are disproportionality signals from spontaneous VAERS reports, which flag associations for follow-up, NOT confirmed vaccine-caused harm; the dispute is whether MGPS-vs-RGPS method choice was a defensible technical call or a deliberate blindfold (see -002 for the suppression evidence, -003 for Johnson's contested 'tens of thousands died' claim). The reel says 'March 1 ... 26 days later'; the documented dates are March 1 and March 26 (25 days)."
+}

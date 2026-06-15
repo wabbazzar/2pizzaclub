@@ -1,0 +1,33 @@
+{
+  "id": "DZc_PksR06G",
+  "url": "https://www.instagram.com/reel/DZc_PksR06G/",
+  "platform": "instagram",
+  "captured_at": "2026-06-15",
+  "handle": "@cheering4change",
+  "author_display_name": "Desirée Townsend",
+  "posted_at": "2026-06-11",
+  "engagement": {
+    "likes": 33657,
+    "comments": 1990
+  },
+  "caption": "Senator Ron Johnson @senronjohnson confronts CNN on ignoring a breaking story impacting millions of Americans.￼",
+  "hashtags": [],
+  "audio_track_actual": "",
+  "video_overlay_text_observed": "On-screen caption: 'Senator Ron Johnson Confronts CNN on Ignoring Breaking News'. Footage: Sen. Johnson in a Capitol hallway press gaggle.",
+  "audio_content_summary": "",
+  "implied_frame": "Frames Sen. Ron Johnson's PSI investigation as proof of a deliberate FDA cover-up of COVID-vaccine harms that media ignore. Verified/documented (the underlying FDA emails are real, quoted in the PSI 'Unmasked' report, April 29 2026): March 1 2021 Szarfman presented the MGPS 'masking' limitation + the RGPS alternative to CBER Director Peter Marks; March 26 2021 a DuMouchel RGPS analysis found '49 examples of extreme masking' / ~25 statistically significant signals (sudden cardiac death, Bell's palsy, pulmonary infarction); Sept 15 2021 Marks emailed CDER Director Cavazzoni that Szarfman had been 'asked to cease and desist, because the strategy that she is using could create erroneous conflicts that feed in to anti-vaccination rhetoric'; HHS under Sec. Kennedy produced the docs to PSI. CONTESTED/Group C: Johnson's 'at least tens of thousands died after that March 1st date' and 'millions suffered adverse events' conflate VAERS spontaneous reports (report cites 'more than 2,900 deaths worldwide' in VAERS) with confirmed vaccine-caused deaths; disproportionality signals flag associations for follow-up, not proven causation; 'biggest scandal in my lifetime' is rhetorical. Full 1h57m 'Unmasked' hearing archived at sources/captures/DZc_PksR06G/hearing/.",
+  "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+  "video_download_status": "Original pulled via yt-dlp (~10.4 MB); delivery ~10.7 MB webm, 110s.",
+  "audio_transcription_status": "Transcribed with openai-whisper.",
+  "evidence_records": [
+    "2026-safety-signals-001",
+    "2026-safety-signals-002",
+    "2026-safety-signals-003"
+  ],
+  "supporting_research_links": [],
+  "editorial_split": {
+    "a": 3,
+    "b": 3,
+    "c": 2
+  }
+}

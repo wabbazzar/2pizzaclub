@@ -1,0 +1,22 @@
+{
+    "id": "2026-safety-signals-003",
+    "anchor": "y2026-safety-signals",
+    "year": 2026,
+    "era": "iv",
+    "themes": ["covid", "vaccines", "public-health"],
+    "claim": "On April 29, 2026 the Senate PSI, chaired by Ron Johnson, held the hearing 'Unmasked' and released ~600 pages of HHS-produced FDA records; Johnson has framed the episode as 'the biggest scandal in my lifetime,' asserting 'at least tens of thousands died' after March 2021 — a figure drawn from spontaneous VAERS reports, which record events after vaccination without establishing that the vaccine caused them.",
+    "sources": [
+        {
+            "label": "PSI hearing 'Unmasked: How Biden Health Officials Purposely Turned a Blind Eye Toward COVID-19 Vaccine Safety Signals' — Senate HSGAC subcommittee hearing page (witnesses: David Wiseman, Karl Jablonowski, Maria Young), Apr. 29, 2026",
+            "type": "primary",
+            "url": "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/unmasked-how-biden-health-officials-purposely-turned-a-blind-eye-toward-covid-19-vaccine-safety-signals/"
+        },
+        {
+            "label": "Full hearing video (1h57m) — Sen. Ron Johnson / Rumble release, May 26, 2026",
+            "type": "primary",
+            "url": "https://rumble.com/v794wy0-how-biden-health-officials-purposely-turned-a-blind-eye-toward-covid-19-vac.html"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group B/C framing record for capture DZc_PksR06G (Ron Johnson confronting CNN in a Capitol press gaggle, posted by @cheering4change June 11 2026). Verified facts: the hearing happened (Apr 29 2026, PSI, witnesses Wiseman/Jablonowski/Young — all outside experts/advocates, NOT the FDA officials, who did not testify; the case rests on their emails); HHS under Sec. Kennedy produced ~600 pages to PSI. CONTESTED/Group C in Johnson's gaggle: 'at least tens of thousands died after that March 1st date' and 'millions suffered adverse events' — these conflate VAERS spontaneous reports (the report itself references 'more than 2,900 deaths worldwide' reported to VAERS) with confirmed vaccine-caused deaths; a reported death in VAERS is a temporal report, not an adjudicated causal finding. 'Biggest scandal in my lifetime' / 'major media ignoring it' are Johnson's rhetorical characterizations. The full 1h57m hearing is archived (machine transcript) at sources/captures/DZc_PksR06G/hearing/. Companion documented records: -001 (the masked-signals finding), -002 (the cease-and-desist email)."
+}

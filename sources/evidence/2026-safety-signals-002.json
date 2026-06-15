@@ -1,0 +1,18 @@
+{
+    "id": "2026-safety-signals-002",
+    "anchor": "y2026-safety-signals",
+    "year": 2021,
+    "era": "iv",
+    "themes": ["covid", "vaccines", "public-health"],
+    "claim": "After Dr. Szarfman repeatedly flagged the masked safety signals, FDA officials told her to 'hold off,' and on September 15, 2021 CBER Director Peter Marks emailed CDER Director Patrizia Cavazzoni that Szarfman 'has been asked to cease and desist, because the strategy that she is using could create erroneous conflicts that feed in to anti-vaccination rhetoric.'",
+    "sources": [
+        {
+            "label": "U.S. Senate PSI Majority Staff Interim Report, 'Unmasked,' April 29, 2026 — quoting FDA email PSI-HHS-000002213753-54 (Sept. 15, 2021)",
+            "type": "primary",
+            "url": "https://www.ronjohnson.senate.gov/wp-content/uploads/2026/05/Senate-PSI-Majority-Staff-Interim-Report-April-29-2026-FINAL.pdf",
+            "quote": "Ana Szarfman[] has decided on her own to do vaccine analysis using VAERS as part of her work at FDA. She is, however, not doing this in collaboration with our CBER statisticians, and quite to the contrary, has been asked to cease and desist, because the strategy that she is using could create erroneous conflicts that feed in to anti-vaccination rhetoric."
+        }
+    ],
+    "status": "verified",
+    "notes": "Group B (documented emails; the 'cover-up' intent is the PSI majority's contested framing) from capture DZc_PksR06G. The Marks email is verbatim from the report; CDER's Peter Stein replied 'we've made it clear to her that she should not be discussing or providing internal analyses externally ... Hopefully, you won't have further surprises….' This is the documented basis for Johnson's 'they buried it' — the directive to stop, and the explicit reason given (avoiding 'anti-vaccination rhetoric' rather than a stated scientific rebuttal of the signals). The officials' defensible reading, which the report does not foreground: Szarfman was in CDER doing vaccine (CBER) analysis outside the normal process, and disproportionality signals require careful interpretation before public release. Both the directive and its stated rationale are on the record; the reader weighs whether 'avoid anti-vax rhetoric' was prudent communications management or signal suppression. Note FDA did separately surface a myocarditis signal in 2021; the contested part is the ~25 OTHER masked signals."
+}

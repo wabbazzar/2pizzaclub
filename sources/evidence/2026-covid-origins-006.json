@@ -1,0 +1,23 @@
+{
+    "id": "2026-covid-origins-006",
+    "anchor": "y2026-covid-origins",
+    "year": 2020,
+    "era": "iv",
+    "themes": ["covid", "public-health"],
+    "claim": "On a February 1, 2020 teleconference convened by Anthony Fauci, Jeremy Farrar and Francis Collins with the future authors of 'Proximal Origin,' Kristian Andersen and Robert Garry voiced that SARS-CoV-2's features looked potentially engineered or consistent with lab passage; days later the same authors published 'Proximal Origin,' concluding the evidence did not support a laboratory origin — the shift the House Select Subcommittee on the Coronavirus Pandemic later scrutinized.",
+    "sources": [
+        {
+            "label": "House Select Subcommittee on the Coronavirus Pandemic — Memorandum, 'New Evidence Concerning Proximal Origin,' March 5, 2023",
+            "type": "primary",
+            "url": "https://oversight.house.gov/wp-content/uploads/2023/03/2023.03.05-SSCP-Memo-Re.-New-Evidence.Proximal-Origin.pdf"
+        },
+        {
+            "label": "Written Testimony of James E. Erdman III, U.S. Senate HSGAC, May 13, 2026 — COVID-origin chronology",
+            "type": "primary",
+            "url": "https://www.hsgac.senate.gov/wp-content/uploads/letter-and-testimomy.pdf",
+            "quote": "1 February 2020, Dr. Fauci led a private teleconference call with Jeremey Farrar, Edward Holmes, Kristian Andersen, Robert Garry, Andrew Rambaut, and Francis Collins."
+        }
+    ],
+    "status": "verified",
+    "notes": "Group B (documented sequence; the inference of pressure/quid-pro-quo is contested) from capture DYYLACQDnG1 — promoted from a note on 2026-covid-origins-003 per the prior push, so that record can point at the primary call rather than gesture at it. Verified: the Feb 1 2020 call (Fauci, Farrar, Collins + Andersen, Garry, Holmes, Rambaut, and Farrar's add-ons Fouchier, Koopmans, Drosten) is documented in released NIH/Wellcome emails and the SSCP memo; Andersen and Garry's contemporaneous private view that features looked potentially engineered / lab-passage-consistent is in the released Slack and emails; 'Proximal Origin' (Nature Medicine, Mar 17 2020) concluded against lab origin. CONTESTED: whether the shift reflected genuine scientific reassessment (Andersen's account — new analysis, peer input) or pressure from Fauci/Collins to quash the lab-leak hypothesis (the SSCP majority's framing). This is the documented backbone under Erdman's broader 'curated list' allegation in 2026-covid-origins-003; the reader weighs intent."
+}
