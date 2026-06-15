@@ -1,0 +1,43 @@
+{
+    "id": "2013-epstein-kitchen-logistics-001",
+    "anchor": "y2019",
+    "year": 2013,
+    "era": "iv",
+    "themes": [
+        "epstein"
+    ],
+    "claim": "Several emails in the U.S. Department of Justice's Epstein file production discuss \"jerky\" — the basis for a viral reading that the word is a code for human meat. Read in full, they are ordinary household food logistics. A September 2013 instruction email from Epstein associate Karyna Shuliak lists \"sealed foods and beef jerky for JE\" (Jeffrey Epstein), all of which \"should go to the freezer.\" A personal-chef meal-prep list catalogs jerky to \"store in freezer and pull out as you need it\" alongside muffins, a ginger drink, and steak, with marinade \"for jerky emergency\" sufficient for \"about 10 NY strips\" (New York strip steaks). Francis Derby is identified in 2012 staff email as Epstein's chef (\"Francis Derby is Jeffrey's chef now\"); no document in the production ties him to a restaurant named \"Cannibal.\" No document records an order for 330 gallons of sulfuric acid; \"sulfuric acid\" appears in the files only in water-treatment, rail-freight, and news-clipping contexts, including the reverse-osmosis treatment system that served the New Mexico ranch. The documents are primary records from the DOJ release; the cannibalism reading is not supported by them.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00539087 — Karyna Shuliak trip-prep instructions, Sept. 8, 2013.",
+            "type": "primary",
+            "url": null,
+            "quote": "In the freezer bags you will find sealed foods and beef jerky for JE, all of it should go to the freezer."
+        },
+        {
+            "label": "DOJ Epstein production, Data Set 10, Bates EFTA02157397 — personal-chef meal-prep list.",
+            "type": "primary",
+            "url": null,
+            "quote": "Jerky(please store in freezer and pull out as you need it)- (i am also sending 1 qt of marinade for jerky emergency, would be enough for about 10 NY strips"
+        },
+        {
+            "label": "DOJ Epstein production, Data Set 10, Bates EFTA02162737 — staff email identifying Epstein's chef.",
+            "type": "primary",
+            "url": null,
+            "quote": "Francis Derby is Jeffrey's chef now...Francis says he spent time with Tom in Spain!"
+        },
+        {
+            "label": "DOJ Epstein production, Data Set 10, Bates EFTA01972795 — Zorro Ranch water-treatment plant report; the document context in which \"sulfuric acid\" actually appears.",
+            "type": "primary",
+            "url": null,
+            "quote": "a chemical feed pump for Sulfuric acid be installed in the line prior to the calcium carbonate reactor to help balance the ph to between 7 and 7.9"
+        },
+        {
+            "label": "@truecrimewithannie, Instagram reel DVOjLwMl1yE (Feb. 26, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DVOjLwMl1yE/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Read verbatim from the full local corpus (work/corpus.jsonl, 1.05M docs). The 'jerky' hits across DS9/DS10 are food logistics from Epstein's kitchen/assistant staff; the specific viral figures do not appear: no '68 pounds of jerky' (the real meal-prep number is 5 lbs / 'about 10 NY strips'), no 'send it to the lab,' no Epstein-Gates 'jerky' exchange. 'intestines' appears only in a reflexology/anatomy book in the production (Data Set 4), not in any email. The '330 gallons of sulfuric acid' figure has no primary trace: '330 gallon' hits are aviation-fuel pricing logs (Azores/Malta/West Palm Beach legs); 'sulfuric acid' hits are rail-freight carload categories, a water-treatment feed pump, a Solvay corporate sale, and a Gaza-flotilla news clipping. Francis Derby is a real, documented Epstein chef (multiple 2012 logistics emails); the 'owns the restaurant Cannibal' link has no document behind it (a real NYC butcher-bar named The Cannibal exists, but nothing in the release ties Derby to it). url:null pending publication of these DS docs to the /efta/ doc viewer. The surfacing reel's cannibalism framing is not adopted — the claim states only what the documents record. Pairs with the Zorro burial-tips record."
+}

@@ -1,0 +1,37 @@
+{
+    "id": "DVOjLwMl1yE",
+    "url": "https://www.instagram.com/reel/DVOjLwMl1yE/",
+    "platform": "instagram",
+    "captured_at": "2026-06-15",
+    "handle": "@truecrimewithannie",
+    "author_display_name": "True Crime With Annie",
+    "posted_at": "2026-02-26",
+    "engagement": {
+        "likes": 47022,
+        "comments": 1410
+    },
+    "caption": "The most shocking details of the Epstein files have been revealed… comment “Files” now and we’ll send you the full episode!\n\n#annieelise #truecrime #epstein #thefiles",
+    "hashtags": [
+        "annieelise",
+        "truecrime",
+        "epstein",
+        "thefiles"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "serialously / Serial-ously logo; lower-third card \"Most Disturbing Claims in the Epstein Release\" over a stock Epstein portrait.",
+    "audio_content_summary": "Host reads a viral 'Epstein cannibalism' thread: that the files contain code-word emails (with Bill Gates) using 'jerky' for elite human meat, 'intestines of babies,' 'cream cheese'; that someone emailed having '68 pounds of jerky' in a freezer and needing to 'send it to the lab'; that Epstein ordered '330 gallons of sulfuric acid' to dispose of bodies before arrest; that Congress discussed bodies 'buried in Zorro Ranch'; and that island chef Francis Derby owns a restaurant called Cannibal — implying literal cannibalism.",
+    "implied_frame": "Frames real but mundane primary documents as proof of an elite-cannibalism ring. Corpus read: the 'jerky' emails are kitchen/assistant food logistics (beef jerky frozen for Epstein, marinade for '10 NY strips'); no '68 pounds,' no 'send it to the lab,' no Epstein-Gates jerky exchange; 'intestines' appears only in a reflexology book in the files. No '330 gallons of sulfuric acid' order exists ('330 gallon' = jet-fuel logs; 'sulfuric acid' = water-treatment / rail-freight / news). Francis Derby was a real Epstein chef, but no document ties him to a 'Cannibal' restaurant. The one substantive item: the production DOES contain anonymous, uncorroborated tip/extortion submissions alleging two girls buried at Zorro Ranch — real documents, unverified claims; Epstein staff's own 'leave them at Zorro' emails are about shipping containers and vehicles.",
+    "editorial_split": {
+        "a": 1,
+        "b": 1,
+        "c": 6
+    },
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~10.0 MB); delivery ~10.3 MB webm, 95s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2013-epstein-kitchen-logistics-001",
+        "2019-epstein-zorro-burial-tips-001"
+    ],
+    "supporting_research_links": []
+}

@@ -1,0 +1,38 @@
+{
+    "id": "2019-epstein-zorro-burial-tips-001",
+    "anchor": "y2019",
+    "year": 2019,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "new-mexico"
+    ],
+    "claim": "The U.S. Department of Justice's Epstein file production contains anonymous, uncorroborated submissions alleging that two girls were buried at Zorro Ranch, Epstein's roughly-10,000-acre property near Stanley, New Mexico. One is a November 2019 email forwarded into the case file from a sender claiming to be \"former staff at the Zorro,\" asserting that \"two foreign girls were buried\" in the hills outside the ranch and offering purported video material. Another appears in an FBI crisis-intake tip serial in which an anonymous source offers \"the location of two foreign girls buried on Zorro Ranch\" together with abuse videos \"for sale for one bitcoin.\" These are unverified tip and apparent extortion materials captured in the investigative file, not findings: no body recovery, excavation result, or charge corroborates them. In Epstein staff's own operational emails, the phrase \"leave them at Zorro\" refers to shipping containers and vehicles (\"Unless you want to use our container and leave them at Zorro than it wouldn't make sense to send our containers\"). The submissions are primary records that exist in the release; their allegations remain uncorroborated.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA01250229 — forwarded \"CONFIDENTIAL: Jeffrey Epstein\" email, Nov. 2019, from an anonymous sender claiming to be former Zorro Ranch staff.",
+            "type": "primary",
+            "url": null,
+            "quote": "Did you know somewhere in the hills outside the Zorro, two foreign girls were buried"
+        },
+        {
+            "label": "DOJ Epstein production, Data Set 10, Bates EFTA01684300 — FBI crisis-intake / tip serial log recording an anonymous offer.",
+            "type": "primary",
+            "url": null,
+            "quote": "the location of two foreign girls buried on Zorro Ranch for sale for one bitcoin"
+        },
+        {
+            "label": "DOJ Epstein production, Data Set 10, Bates EFTA01838449 — staff logistics email; the document context in which \"leave them at Zorro\" actually appears.",
+            "type": "primary",
+            "url": null,
+            "quote": "Unless you want to use our container and leave them at Zorro than it wouldn't make sense to send our containers."
+        },
+        {
+            "label": "@truecrimewithannie, Instagram reel DVOjLwMl1yE (Feb. 26, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DVOjLwMl1yE/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Both burial documents read verbatim from the local corpus. EFTA01250229 is an anonymous Nov. 21, 2019 email (sender 'dfd43299') forwarded into the file, framed as 'sensitive... first and last email,' offering 'video footage' — classic tip/extortion material; the graphic strangulation/sex detail and the tipster's naming of accused individuals are deliberately NOT republished here (unverified allegations against named private persons). EFTA01684300 is an FBI serial index (FD-302 / 'Crisis Intak' entries, correspondence to Director Wray) logging an anonymous source ('ANON') offering videos + the burial 'location' for one bitcoin. Neither is a finding; presented as on-the-record-but-uncorroborated per the project's attribute-don't-adopt rule. 'leave them at Zorro' / 'leave zorro' recurs across DS10 staff emails as cargo-container and vehicle logistics. url:null pending publication of these DS docs to the /efta/ doc viewer. Pairs with the kitchen-logistics record and the existing Zorro Ranch records (petroglyphs, Las Trampas bell)."
+}
