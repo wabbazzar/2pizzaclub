@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 76,
-      "seconds": 10051
+      "count": 80,
+      "seconds": 10593
     },
     {
       "slug": "adl",
@@ -46,8 +46,8 @@
     {
       "slug": "cia",
       "topic": "CIA",
-      "count": 8,
-      "seconds": 1093
+      "count": 9,
+      "seconds": 1255
     },
     {
       "slug": "civil-liberties",
@@ -66,6 +66,12 @@
       "topic": "Congress",
       "count": 7,
       "seconds": 896
+    },
+    {
+      "slug": "covid",
+      "topic": "Covid",
+      "count": 3,
+      "seconds": 378
     },
     {
       "slug": "crypto",
@@ -130,8 +136,8 @@
     {
       "slug": "finance",
       "topic": "Finance",
-      "count": 20,
-      "seconds": 2763
+      "count": 21,
+      "seconds": 2927
     },
     {
       "slug": "florida",
@@ -178,8 +184,8 @@
     {
       "slug": "intelligence",
       "topic": "Intelligence",
-      "count": 17,
-      "seconds": 2627
+      "count": 18,
+      "seconds": 2789
     },
     {
       "slug": "international-law",
@@ -208,8 +214,8 @@
     {
       "slug": "journalism",
       "topic": "Journalism",
-      "count": 22,
-      "seconds": 2961
+      "count": 24,
+      "seconds": 3295
     },
     {
       "slug": "kirk",
@@ -270,6 +276,12 @@
       "topic": "Prosecution",
       "count": 11,
       "seconds": 1431
+    },
+    {
+      "slug": "public-health",
+      "topic": "Public Health",
+      "count": 3,
+      "seconds": 378
     },
     {
       "slug": "regime-change",
@@ -350,10 +362,16 @@
       "seconds": 715
     },
     {
+      "slug": "vaccines",
+      "topic": "Vaccines",
+      "count": 2,
+      "seconds": 216
+    },
+    {
       "slug": "war",
       "topic": "War",
-      "count": 10,
-      "seconds": 1645
+      "count": 11,
+      "seconds": 1809
     },
     {
       "slug": "watergate",
