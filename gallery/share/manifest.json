@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 80,
-      "seconds": 10593
+      "count": 83,
+      "seconds": 10852
     },
     {
       "slug": "adl",
@@ -70,8 +70,8 @@
     {
       "slug": "covid",
       "topic": "Covid",
-      "count": 3,
-      "seconds": 378
+      "count": 4,
+      "seconds": 488
     },
     {
       "slug": "crypto",
@@ -112,8 +112,8 @@
     {
       "slug": "epstein",
       "topic": "Epstein",
-      "count": 10,
-      "seconds": 1315
+      "count": 11,
+      "seconds": 1410
     },
     {
       "slug": "false-flag",
@@ -166,8 +166,8 @@
     {
       "slug": "idf",
       "topic": "IDF",
-      "count": 6,
-      "seconds": 845
+      "count": 7,
+      "seconds": 899
     },
     {
       "slug": "inequality",
@@ -208,8 +208,8 @@
     {
       "slug": "israel",
       "topic": "Israel",
-      "count": 21,
-      "seconds": 2883
+      "count": 22,
+      "seconds": 2937
     },
     {
       "slug": "journalism",
@@ -262,8 +262,8 @@
     {
       "slug": "new-mexico",
       "topic": "New Mexico",
-      "count": 2,
-      "seconds": 253
+      "count": 3,
+      "seconds": 348
     },
     {
       "slug": "palestine",
@@ -280,8 +280,8 @@
     {
       "slug": "public-health",
       "topic": "Public Health",
-      "count": 3,
-      "seconds": 378
+      "count": 4,
+      "seconds": 488
     },
     {
       "slug": "regime-change",
@@ -334,8 +334,8 @@
     {
       "slug": "surveillance",
       "topic": "Surveillance",
-      "count": 12,
-      "seconds": 1706
+      "count": 13,
+      "seconds": 1868
     },
     {
       "slug": "tech-billionaires",
@@ -364,8 +364,8 @@
     {
       "slug": "vaccines",
       "topic": "Vaccines",
-      "count": 2,
-      "seconds": 216
+      "count": 3,
+      "seconds": 326
     },
     {
       "slug": "war",
