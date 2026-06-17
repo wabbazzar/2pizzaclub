@@ -1,0 +1,56 @@
+{
+    "id": "2020-epstein-tipline-fabrications-001",
+    "anchor": "y2019",
+    "year": 2020,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "body-count"
+    ],
+    "claim": "Many of the most lurid \"the Epstein files say…\" claims trace to two kinds of document in the DOJ Epstein production that are not what they are made to look like. The first is unsolicited tip-line mail: members of the public emailed the FBI and DOJ, and that received correspondence was scanned into the case file — it is not Epstein's records or any government finding. One recurring submitter, who signs as Ghislaine Maxwell's younger sister, sent elaborate fabricated \"confessions\" forwarded to a DOJ official under an [EXTERNAL EMAIL] header, claiming to hold \"the keys to all the rooms of Epstein's video tapes,\" to have fingerprint and DNA proof, and in a companion page that Donald Trump \"was killed\" in 1995 and replaced by a double to keep the brand going. The second is mundane authentic documents read as something sinister: a 2018 email from consciousness researcher Gino Yu describing a woman he is mentoring who was abused as a child and is \"becoming self realised\" — his phrase \"classic 'stage 3' in the model… starting to develop special abilities\" recontextualized into girls being abused to \"activate\" powers; a catering grocery list where \"beef jerky\" is item 5 turned into freezers of jerky; a routine 2017 crypto-hedge-fund pitch turned into \"satanic pedophilia transactions on the blockchain.\" The recurring FBI New York Field Office daily SITREP (situation report) and its \"Color of the Day\" — a building-access identifier — is likewise routine: the color for September 10, 2025, the day Charlie Kirk was killed, appears in the production as \"Yellow,\" not hidden. The documents are genuine public records; the readings stacked on them are not supported by their text.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00152586 — \"[EXTERNAL EMAIL] - FW: Epstein child bride,\" July 22, 2020, forwarded to a DOJ official; anonymous submitter claiming to be Maxwell's sister.",
+            "type": "primary",
+            "url": null,
+            "quote": "Ghislane is my older sister… He has the keys to all the rooms of Epstein's video tapes."
+        },
+        {
+            "label": "DOJ Epstein production, Data Set 9, Bates EFTA00152587 — continuation page of the same submission.",
+            "type": "primary",
+            "url": null,
+            "quote": "There is a death certificate and DNA samples and news footage… Trump's double to keep the brand going."
+        },
+        {
+            "label": "DOJ Epstein production, Data Set 9, Bates EFTA00906974 — Gino Yu to Jeffrey Epstein, Jan. 17, 2018; the genuine email behind the \"stage 3 special abilities\" claim.",
+            "type": "primary",
+            "url": null,
+            "quote": "She is a classic \"stage 3\" in the model. Outlier who is intelligent, was traumatised when she was young (sexual abuse), and now gradually coming into her own and becoming self realised… Starting to develop special abilities."
+        },
+        {
+            "label": "DOJ Epstein production, Data Set 9, Bates EFTA00538738 — Karyna Shuliak catering/food list, Dec. 3, 2013; the document behind the \"beef jerky\" claim.",
+            "type": "primary",
+            "url": null,
+            "quote": "POSSIBLE list of food items for the airplane… 5) Beef jerky"
+        },
+        {
+            "label": "DOJ Epstein production, Data Set 9, Bates EFTA00929418 — Austin Hill to Jeffrey Epstein, Dec. 7, 2017; the \"blockchain\" email is a crypto hedge-fund pitch.",
+            "type": "primary",
+            "url": null,
+            "quote": "Here is a cursory spreadsheet of some of the hedge funds that are trading in crypto currencies that I'm tracking."
+        },
+        {
+            "label": "DOJ Epstein production, Data Set 9, Bates EFTA00163863 — FBI New York Field Office daily SITREP, Wednesday September 10, 2025.",
+            "type": "primary",
+            "url": null,
+            "quote": "SITREP and Yellow is the Color of the Day for Wednesday September 10th, 2025"
+        },
+        {
+            "label": "@the_bald_lionn, Instagram reel DUf6yy_CHXm (Feb. 8, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DUf6yy_CHXm/"
+        }
+    ],
+    "status": "verified",
+    "notes": "All bates read verbatim from the local corpus (~/data/epstein-files/work/corpus.jsonl) on 2026-06-17. Same genre as 2019-epstein-zorro-burial-tips-001 (tip-line/extortion mail captured in the file, attributed not adopted). The 'younger sister' submitter is one of several prolific tipsters; the cluster spans a large bates range in DS9 (e.g. 00220896, 00224597, 00262383–00269229, 00906974/00940050) and recurs in DS10 and the House Oversight estate — same fabrications about fingerprints/keys/Trump-double/V-Bucks/Fortnite/spoon-bending. Graphic abuse detail and any private individuals named by the tipster are deliberately NOT republished (unverified allegations). The reel's other claims are Group C: 'Epstein alive via V-Bucks/Fortnite' (no primary trace; 'Fortnite' appears only in unrelated DS9 docs), 'Joe Biden killed 2019 firing squad / fake Biden' (no trace; 'not the real joe biden' = 0 hits), 'limo driver testimony Trump+Epstein raped and killed a girl' ('limo driver' hits are unrelated), 'Piers Morgan recommended to interview Prince Andrew to clean the slate' ('clean the slate' = 0 hits, 'piers morgan' hits unrelated). Color-of-the-day SITREPs run daily (e.g. EFTA01656915 Sept 12 'Orange', EFTA01660803 Sept 18 'Yellow'); EFTA00163866 is a reply copy where the subject color did not OCR — the value is in EFTA00163863. Kirk killed Sept 10, 2025 per 2025-kirk-001. url:null pending publication of these DS9 docs to the /efta/ doc viewer."
+}
