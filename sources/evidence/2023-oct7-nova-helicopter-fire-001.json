@@ -1,0 +1,46 @@
+{
+    "id": "2023-oct7-nova-helicopter-fire-001",
+    "anchor": "y2023",
+    "year": 2023,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "idf"
+    ],
+    "claim": "In November 2023, Haaretz reported that a leaked Israel Police investigation into the deaths at the Supernova music festival near Kibbutz Re'im — where the police report counted 364 people killed during the October 7 Hamas attack, a toll the IDF later revised to 378 — contained a finding that an Israeli combat helicopter, dispatched from the Ramat David base, fired at the scene and 'apparently also hit some of the revelers there.' The line, attributed to the police document, is qualified by 'apparently' and gives no count of how many festival-goers were struck or killed by the aircraft. The Israel Police publicly distanced itself from the reporting, saying its investigation 'does not refer to the activity of the IDF forces, and therefore no indication was given of any harm to civilians caused by any aerial activity.' Whether Israeli fire killed any festival-goers, and how many, is not established in the public record and is disputed. A separate Haaretz investigation in July 2024 documented Hannibal-style orders — directing force to stop soldiers from being taken captive — at the Re'im army base and two other sites on October 7; that reporting concerns the base, not the festival grounds, and does not tie the directive to fire on the festival crowd.",
+    "sources": [
+        {
+            "label": "Al Jazeera — “Hamas had not planned to attack Israel music festival, Israeli report says” (Nov. 18, 2023). Reproduces the police-investigation line about the helicopter and the 364 festival toll.",
+            "type": "secondary",
+            "url": "https://www.aljazeera.com/news/2023/11/18/hamas-had-not-planned-to-attack-israel-music-festival-israeli-report-says",
+            "quote": "An investigation into the incident revealed an [Israeli military] combat helicopter that arrived at the scene from the Ramat David base fired at the terrorists and apparently also hit some of the revelers there.",
+            "clip": "clips/2023-oct7-nova-helicopter-fire-001-00.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Haaretz — Josh Breiner, reporting on the Israel Police investigation into the Supernova festival deaths (Nov. 18–19, 2023). Original investigative report (paywalled).",
+            "type": "primary",
+            "url": null
+        },
+        {
+            "label": "The Dispatch — Alex Demas, “Assessing Claims That an IDF Helicopter Fired on and Killed Israelis on October 7.” Carries the Israel Police rebuttal verbatim and flags the single-unnamed-source weakness.",
+            "type": "secondary",
+            "url": "https://thedispatch.com/article/assessing-claims-that-an-idf-helicopter-fired-on-and-killed-israelis-on-october-7/",
+            "quote": "the police investigation does not refer to the activity of the IDF forces, and therefore no indication was given of any harm to civilians caused by any aerial activity.",
+            "clip": "clips/2023-oct7-nova-helicopter-fire-001-02.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "The Times of Israel — “Israel Police slams ‘Haaretz’ claim IDF helicopter may have harmed civilians on Oct. 7.” The official Israeli pushback.",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/liveblog_entry/israel-police-slams-haaretz-claim-idf-helicopter-may-have-harmed-civilians-on-oct-7/"
+        },
+        {
+            "label": "Al Jazeera — “Why did Israel deploy Hannibal Directive, allowing killing of own citizens?” (July 9, 2024). The separate Hannibal reporting (Erez/Beit Hanoun, Re'im base, Nahal Oz) and the IDF's response that it was investigating.",
+            "type": "secondary",
+            "url": "https://www.aljazeera.com/news/2024/7/9/why-did-israel-deploy-hannibal-directive-allowing-killing-of-own-citizens"
+        }
+    ],
+    "status": "verified",
+    "notes": "Companion to 2023-oct7-idf-response-001 and 2023-oct7-hannibal-tankfire-001 under y2023; written from the proposed-push follow-up on the Be'eri reel (capture DYvNlsSDZw0). Presents both the reported finding and the official rebuttal, and deliberately does NOT state a friendly-fire death count — the helicopter line is single-sourced and unnamed, says 'hit' not 'killed,' and gives no number. The two Haaretz reports (Nov 2023 festival helicopter; July 2024 Hannibal at the Re'im base) are distinct events months apart and are not merged in our own voice. 364 is the Nov 2023 police-report figure; the IDF revised the Supernova toll to 378 in an April 2025 briefing. Helicopter-finding quote confirmed verbatim via Al Jazeera; police rebuttal verbatim via The Dispatch. Haaretz original paywalled (cited url:null); byline credited to Josh Breiner per corroborating reproductions."
+}

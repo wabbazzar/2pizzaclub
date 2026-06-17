@@ -1,0 +1,41 @@
+{
+    "id": "1895-treasury-gold-bond-001",
+    "anchor": "y1895",
+    "year": 1895,
+    "era": "i",
+    "themes": [
+        "finance",
+        "inequality"
+    ],
+    "claim": "In early 1895, the U.S. Treasury's gold reserve had fallen to roughly $42 million, far below the $100 million floor set by the 1875 Resumption Act, during the depression that followed the Panic of 1893. On February 8, 1895, President Grover Cleveland's administration contracted with a private banking syndicate led by J.P. Morgan and August Belmont & Co. to deliver gold worth slightly more than $65 million in exchange for about $62.4 million in 30-year U.S. bonds, restoring the reserve above $100 million. August Belmont & Co. was the American agent of the Rothschild banking house; the formal contracting parties included N.M. Rothschild & Sons of London, and Cleveland's own message to Congress stated that at least half the gold would be supplied from abroad. A foreign-linked private syndicate underwriting the solvency of the federal government, at a profit it never publicly disclosed, drew sustained attack from silverite Democrats and populists; William Jennings Bryan carried that grievance into the 'cross of gold' politics of the 1896 campaign.",
+    "sources": [
+        {
+            "label": "Miller Center, University of Virginia — Grover Cleveland, “Announcement of Treasury Bond Sale,” February 8, 1895 (text of the president's message).",
+            "type": "primary",
+            "url": "https://millercenter.org/the-presidency/presidential-speeches/february-8-1895-announcement-treasury-bond-sale",
+            "quote": "At least one-half of the gold to be obtained is to be supplied from abroad, which is a very important and favorable feature of the transaction.",
+            "clip": "clips/1895-treasury-gold-bond-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Encyclopedia.com — “Morgan-Belmont Agreement.” Identifies the February 8, 1895 contract and August Belmont as the American representative of the Rothschilds of Paris.",
+            "type": "secondary",
+            "url": "https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/morgan-belmont-agreement",
+            "quote": "American representative of the Rothschilds of Paris",
+            "clip": "clips/1895-treasury-gold-bond-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Wikipedia — “Panic of 1893.” Names the contracting parties to the 1895 bond syndicate (Drexel, Morgan & Co.; A. Belmont & Co.; J.S. Morgan & Co.; N.M. Rothschild & Sons).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Panic_of_1893"
+        },
+        {
+            "label": "HistoryNet — “Upside-Down Bailout.” On the political backlash, Bryan's “cross of gold” attack, and Morgan declining to disclose the syndicate's profit.",
+            "type": "secondary",
+            "url": "https://historynet.com/upside-down-bailout/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Opens the era-i finance spine that the y1913 Jekyll Island and Federal Reserve records continue. 'August Belmont' in 1895 is August Belmont Jr.; the Rothschild agency in America dates to his father, the firm's founder. The $65M (gold delivered) vs $62.4M (bond face value) figures are two sides of the same transaction, both in Cleveland's message — not a contradiction. The syndicate's profit was never publicly disclosed (Morgan declined to answer); contemporary press estimates (~$5M, New York World) are attributed claims, not audited figures, so the claim says only 'a profit it never publicly disclosed.' Primary quote (Miller Center) confirmed verbatim. Surfaced via capture DWS2NxBjV8U."
+}

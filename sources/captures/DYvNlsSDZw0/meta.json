@@ -25,7 +25,8 @@
     "video_download_status": "Original pulled via yt-dlp (~3.1 MB); delivery ~3.4 MB webm, 54s.",
     "audio_transcription_status": "Transcribed with openai-whisper.",
     "evidence_records": [
-        "2023-oct7-hannibal-tankfire-001"
+        "2023-oct7-hannibal-tankfire-001",
+        "2023-oct7-nova-helicopter-fire-001"
     ],
     "supporting_research_links": []
 }

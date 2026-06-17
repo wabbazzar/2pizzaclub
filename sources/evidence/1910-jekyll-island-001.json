@@ -1,0 +1,33 @@
+{
+    "id": "1910-jekyll-island-001",
+    "anchor": "y1913",
+    "year": 1910,
+    "era": "i",
+    "themes": [
+        "finance",
+        "inequality"
+    ],
+    "claim": "The U.S. Federal Reserve System was drafted in secret. In late November 1910 (the Federal Reserve's own historians date it November 20–30), Senator Nelson Aldrich, chair of the National Monetary Commission created after the Panic of 1907, convened a small group at the private Jekyll Island Club off the Georgia coast to write a central-banking plan. The participants traveled under the cover of a duck-hunting trip, boarded Aldrich's private rail car one at a time, and used only first names to keep the staff from learning who they were; for years afterward they called themselves the 'First Name Club.' The documented party of six was Aldrich; Treasury Assistant Secretary A. Piatt Andrew; Aldrich's aide Arthur Shelton; and three bankers — Henry Davison of J.P. Morgan & Co., Frank Vanderlip of National City Bank, and Paul Warburg of Kuhn, Loeb & Co. Their draft became the Aldrich Plan; reworked by congressional Democrats into the Glass-Owen bill, it passed as the Federal Reserve Act of December 1913, whose technical structure closely resembled the Jekyll Island plan. The meeting was not publicly revealed until 1916, and Vanderlip later admitted the secrecy in print.",
+    "sources": [
+        {
+            "label": "Federal Reserve History (Federal Reserve Bank of Richmond / Board of Governors) — Gary Richardson & Jessie Romero, “The Meeting at Jekyll Island.” Dates (Nov 20–30, 1910), the six participants, the duck-hunt cover and First-Name Club, and the Aldrich Plan → Glass-Owen → 1913 Act lineage.",
+            "type": "primary",
+            "url": "https://www.federalreservehistory.org/essays/jekyll-island-conference"
+        },
+        {
+            "label": "Frank A. Vanderlip, “From Farm Boy to Financier,” The Saturday Evening Post, February 9, 1935 (republished by the Post). Vanderlip's own account of the secrecy.",
+            "type": "primary",
+            "url": "https://www.saturdayeveningpost.com/2021/08/our-best-reporting-from-farm-boy-to-financier-stories-of-railroad-moguls/",
+            "quote": "I was as secretive — indeed, as furtive — as any conspirator. Discovery, we knew, simply must not happen, or else all our time and effort would be wasted.",
+            "clip": "clips/1910-jekyll-island-001-01.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Federal Reserve Bank of Richmond — “Jekyll Island: Where the Fed Began,” Econ Focus, 2015 Q1.",
+            "type": "secondary",
+            "url": "https://www.richmondfed.org/publications/research/econ_focus/2015/q1/federal_reserve"
+        }
+    ],
+    "status": "verified",
+    "notes": "The meeting and its secrecy are documented historical fact, attested by the Federal Reserve's own historians and by participant Frank Vanderlip's 1935 memoir — not a fringe claim. Kept to the documented party of six: Benjamin Strong and Charles D. Norton are sometimes listed but their attendance is doubted (Fed History: 'it is unlikely Strong attended'; Norton does not appear in the core first-person accounts), so they are omitted from the claim. The broader 'the Fed is a private banker cabal' reading (Mullins, 'Creature from Jekyll Island') is interpretation layered on the documented event — not adopted here; the record states the meeting, the secrecy, and the line to the 1913 Act, and lets Vanderlip's own words carry it. First public exposure: B.C. Forbes, Leslie's Weekly, Oct 19, 1916. Both Fed sites 403 the fetch tool; the essay was confirmed via direct retrieval and the Vanderlip quote against the Post's republication. Continues the y1895 Treasury-rescue record; companion to 1913-money-creation-mechanics-001 under the same anchor. Surfaced via capture DWS2NxBjV8U."
+}

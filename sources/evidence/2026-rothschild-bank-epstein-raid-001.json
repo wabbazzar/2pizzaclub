@@ -1,0 +1,28 @@
+{
+    "id": "2026-rothschild-bank-epstein-raid-001",
+    "anchor": "y2019",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "finance"
+    ],
+    "claim": "On or about March 20, 2026, France's National Financial Prosecutor's office (the PNF) and the central office for combating corruption and financial crime searched the Paris offices of Edmond de Rothschild, the Swiss private bank, as part of a preliminary investigation arising from the released Epstein files. The probe centers on Fabrice Aidan, a former French diplomat who worked at the bank from 2014 to 2016 and whose name appears in more than 200 documents in the DOJ's Epstein production; investigators are examining suspected bribery of a foreign public official and complicity. The French investigative outlet Mediapart reported that the files suggest Aidan passed confidential United Nations material to Jeffrey Epstein. The bank said it was cooperating with investigators and had opened its own internal review. The search establishes that the Epstein documents have produced an active criminal investigation reaching a Rothschild-named institution; it does not, on its own, establish that any wrongdoing has been proven.",
+    "sources": [
+        {
+            "label": "Bloomberg — “Edmond de Rothschild Paris Offices Searched Over Ex-Staffer's Epstein Ties” (March 24, 2026).",
+            "type": "secondary",
+            "url": "https://www.bloomberg.com/news/articles/2026-03-24/edmond-de-rothschild-searched-over-ex-staffer-s-epstein-ties"
+        },
+        {
+            "label": "Daily Sabah / Reuters — “French prosecutors raid Rothschild bank in Epstein-linked probe” (March 24, 2026).",
+            "type": "secondary",
+            "url": "https://www.dailysabah.com/business/finance/french-prosecutors-raid-rothschild-bank-in-epstein-linked-probe",
+            "quote": "French investigative outlet Mediapart reported that the files suggested Aidan provided confidential U.N. material to Epstein.",
+            "clip": "clips/2026-rothschild-bank-epstein-raid-001-01.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "The 'authorities searched a Rothschild property' news hook in capture DWS2NxBjV8U: a real, datable event — the March 2026 French search of Edmond de Rothschild's Paris offices over former employee Fabrice Aidan's Epstein ties. The bank is the Swiss Edmond de Rothschild group; the record says 'Rothschild-named institution' rather than implying the family is itself under investigation, which is not established. Distinct from 2016-epstein-rothschild-representation-001 (Epstein's own 'I represent the Rothschilds' email): that record is the claim of representation; this is the 2026 criminal search. Two reputable wire/financial sources; Mediapart's UN-material detail attributed, not adopted. Surfaced via capture DWS2NxBjV8U."
+}
