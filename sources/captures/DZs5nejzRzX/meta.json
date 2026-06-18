@@ -1,0 +1,25 @@
+{
+    "id": "DZs5nejzRzX",
+    "url": "https://www.instagram.com/reel/DZs5nejzRzX/",
+    "platform": "instagram",
+    "captured_at": "2026-06-18",
+    "handle": "@natestav",
+    "author_display_name": "Nate Stav",
+    "posted_at": "2026-06-17",
+    "engagement": {
+        "likes": 998,
+        "comments": 35
+    },
+    "caption": "Follow me @natestav for more.\n‎\nMichael Burry just mapped how Nvidia booked $5.4B in revenue by selling chips to a shell company it helped fund. The chips disappeared from every balance sheet. The risk ended up with retirees. He called it fugazi. Every step is legal. That’s the problem.\n‎\nI’m not a financial advisor and I’m not telling you to buy anything.\n‎\nHate the market with me.",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Cover card: 'NVIDIA SOLD $5.4B IN CHIPS TO A COMPANY THAT DIDN'T EXIST UNTIL JANUARY'; lower-third 'SOLD 5.4 BILLION'; an on-screen text panel paraphrasing Burry's pipeline (GB200 GPUs → Valor Compute Infrastructure, Nvidia anchoring the SPV).",
+    "audio_content_summary": "Walkthrough of Michael Burry's 'Fugazi' critique of the Nvidia/Valor/Apollo/Athene/xAI financing chain: Nvidia sold ~$5.4B of GB200 chips to Valor Compute Infrastructure (a January-2026 SPV), invested $1.9B back into it, booked the sale as revenue; chips run in Musk's xAI data center; Apollo arranged ~$3.5B debt securitized to Athene, whose annuity holders end up carrying AI-infrastructure credit risk; Burry's reading of Athene's Bermuda captive ($217B offshore, ~34.7% Level 3, ~16x leverage) framed as the 2008 playbook. Speaker repeatedly notes every step is legal and disclosed and that Burry is not alleging fraud.",
+    "editorial_split": {"a": 4, "b": 7, "c": 0},
+    "implied_frame": "Frames the deal as deliberate fraud-adjacent concealment ('a company that doesn't exist', 'nobody technically owns it', 'NVIDIA funded its own buyer'). The disclosed structure and Burry's published critique are real (record 2026-nvidia-valor-burry-001); the alarming offshore/leverage figures are Burry's own reading of Athene's disclosures, and the 'circular financing / risk dumped on retirees / 2008 redux' thesis is contested — Nvidia's analyst memo denies SPV use and circular financing. Attributed, not adopted.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~19.8 MB); delivery ~20.6 MB webm, 157s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": ["2026-nvidia-valor-burry-001"],
+    "supporting_research_links": []
+}
