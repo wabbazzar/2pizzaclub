@@ -1,0 +1,42 @@
+{
+    "id": "1991-maxwell-death-001",
+    "anchor": "y2019",
+    "year": 1991,
+    "era": "iii",
+    "themes": [
+        "maxwell",
+        "epstein",
+        "finance"
+    ],
+    "claim": "Robert Maxwell — British media baron and father of Ghislaine Maxwell — died on or about November 5, 1991, after going overboard from his yacht, the Lady Ghislaine, off the Canary Islands; his body was recovered from the Atlantic and taken to Las Palmas. The cause was never conclusively settled. The Spanish investigating judge, Isabel Oliva, ruled out foul play and entered an open verdict; a December 1991 inquest recorded death by a heart attack combined with accidental drowning, though three pathologists could not agree on the cause. Within weeks of his death, roughly £400–460 million was found to be missing from his companies' pension funds, looted to prop up his collapsing business empire. The competing explanations — accident, heart attack, suicide ahead of the unfolding fraud, and murder, including claims of a Mossad assassination advanced in later books — remain attributed theories; no official body has found either suicide or murder.",
+    "sources": [
+        {
+            "label": "Wikipedia — Robert Maxwell (consolidated, footnoted account of the death and the December 1991 inquest verdict).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Robert_Maxwell",
+            "quote": "The official ruling at an inquest held in December 1991 was death by a heart attack combined with accidental drowning, although three pathologists had been unable to agree on the cause of his death at the inquest",
+            "clip": "clips/1991-maxwell-death-001-00.png",
+            "clip_status": "ok-cross-node60"
+        },
+        {
+            "label": "UPI Archives — “Foul play ruled out in Maxwell death,” December 13, 1991. Spanish judge Isabel Oliva's open verdict to the Tenerife high court.",
+            "type": "primary",
+            "url": "https://www.upi.com/Archives/1991/12/13/Foul-play-ruled-out-in-Maxwell-death/2549692600400/"
+        },
+        {
+            "label": "The Washington Post archive — “No Evidence of Murder Found in Maxwell Death,” December 13, 1991.",
+            "type": "primary",
+            "url": "https://www.washingtonpost.com/archive/business/1991/12/13/no-evidence-of-murder-found-in-maxwell-death/13b8a5dd-5e8b-48fb-bbad-314fc49d4266/"
+        },
+        {
+            "label": "MoneyWeek — “Great frauds in history: Robert Maxwell.” The Mirror Group pension-fund looting figure.",
+            "type": "secondary",
+            "url": "https://moneyweek.com/505757/great-frauds-in-history-robert-maxwell",
+            "quote": "While Mirror Group shareholders were wiped out, arguably the biggest losers were the pensioners who had £460m looted from their fund.",
+            "clip": "clips/1991-maxwell-death-001-03.png",
+            "clip_status": "ok-head60"
+        }
+    ],
+    "status": "verified",
+    "notes": "Companion to 1991-maxwell-funeral-001 (the Mount of Olives funeral; still status draft) under the same y2019 Epstein-network anchor. Written to give the Dobson reel's 'Maxwell died in '91, not sure why' a straight card: documented facts (death off the Lady Ghislaine; body recovered to Las Palmas; the open verdict and the heart-attack/accidental-drowning inquest finding with pathologists in disagreement; the ~£426–460m pension fraud surfacing after death) separated from the why, which is unresolved. The Mossad-assassination claim (Gordon Thomas & Martin Dillon, Robert Maxwell, Israel's Superspy, 2002; Seymour Hersh's adjacent Samson Option allegations, 1991, which Maxwell sued over) is attributed, not adopted — the Spanish judge expressly ruled out murder and no body has found suicide. Fetch-confirmed verbatim: the Wikipedia inquest line and the MoneyWeek £460m line; the open-verdict wire archives (UPI, WaPo, Dec 13 1991) block automated fetch but are contemporaneous primaries also cited by 1991-maxwell-funeral-001. Surfaced via capture DWS2NxBjV8U."
+}

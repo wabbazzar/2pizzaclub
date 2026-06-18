@@ -7,8 +7,25 @@
         "epstein",
         "finance"
     ],
-    "claim": "On or about March 20, 2026, France's National Financial Prosecutor's office (the PNF) and the central office for combating corruption and financial crime searched the Paris offices of Edmond de Rothschild, the Swiss private bank, as part of a preliminary investigation arising from the released Epstein files. The probe centers on Fabrice Aidan, a former French diplomat who worked at the bank from 2014 to 2016 and whose name appears in more than 200 documents in the DOJ's Epstein production; investigators are examining suspected bribery of a foreign public official and complicity. The French investigative outlet Mediapart reported that the files suggest Aidan passed confidential United Nations material to Jeffrey Epstein. The bank said it was cooperating with investigators and had opened its own internal review. The search establishes that the Epstein documents have produced an active criminal investigation reaching a Rothschild-named institution; it does not, on its own, establish that any wrongdoing has been proven.",
+    "claim": "On or about March 20, 2026, France's National Financial Prosecutor's office (the PNF) and the central office for combating corruption and financial crime searched the Paris offices of Edmond de Rothschild, the Swiss private bank, in a preliminary investigation arising from the released Epstein files. The probe centers on Fabrice Aidan, a former French diplomat who worked at the bank from 2014 to 2016; investigators are examining suspected bribery of a foreign public official and complicity. The Epstein documents released by the U.S. Department of Justice include emails in which Aidan — then special assistant to Terje Rød-Larsen, the United Nations Secretary-General's special envoy — corresponded directly with Jeffrey Epstein and forwarded him an official UN report, the Secretary-General's 16th semi-annual report on Security Council Resolution 1559, which he described as 'just released to the Security Council.' The French outlet Mediapart characterized the files as showing Aidan passing confidential UN material to Epstein. The bank said it was cooperating with investigators and had opened its own internal review. The search and the documents establish an active criminal investigation reaching a Rothschild-named institution, and direct Aidan–Epstein correspondence on the record; they do not, on their own, establish that any wrongdoing has been proven.",
     "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01997651 — Fabrice Aidan email to Jeffrey Epstein, Oct. 19, 2012, forwarding the UN Secretary-General's 16th semi-annual report on Resolution 1559 (Lebanon). Aidan signs as “Special Assistant to the Special Envoy of the Secretary-General.”",
+            "type": "primary",
+            "url": null,
+            "quote": "Please find attached the 16th semi-annual report of the Secretary-General on 1559 on LEBANON as just released to the Security Council."
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01884968 — direct Fabrice Aidan ↔ Jeffrey Epstein correspondence, May 2012.",
+            "type": "primary",
+            "url": null,
+            "quote": "Dear Jeff – Hope you are well. When convenient, can you pls email me your address for me to give to the guest of 19 May."
+        },
+        {
+            "label": "Local Epstein-files corpus indexed at /efta/ — this site's mirror of the DOJ Epstein Files Transparency Act release, where the Aidan–Epstein emails (Data Set 10) are searchable.",
+            "type": "secondary",
+            "url": "https://2pizzaclub.com/efta/messages.html"
+        },
         {
             "label": "Bloomberg — “Edmond de Rothschild Paris Offices Searched Over Ex-Staffer's Epstein Ties” (March 24, 2026).",
             "type": "secondary",
@@ -24,5 +41,5 @@
         }
     ],
     "status": "verified",
-    "notes": "The 'authorities searched a Rothschild property' news hook in capture DWS2NxBjV8U: a real, datable event — the March 2026 French search of Edmond de Rothschild's Paris offices over former employee Fabrice Aidan's Epstein ties. The bank is the Swiss Edmond de Rothschild group; the record says 'Rothschild-named institution' rather than implying the family is itself under investigation, which is not established. Distinct from 2016-epstein-rothschild-representation-001 (Epstein's own 'I represent the Rothschilds' email): that record is the claim of representation; this is the 2026 criminal search. Two reputable wire/financial sources; Mediapart's UN-material detail attributed, not adopted. Surfaced via capture DWS2NxBjV8U."
+    "notes": "The 'authorities searched a Rothschild property' news hook in capture DWS2NxBjV8U: the March 2026 French search of Edmond de Rothschild's Paris offices over former employee Fabrice Aidan's Epstein ties. Upgraded from wire-only sourcing to our own corpus primaries after a detective sweep: Aidan appears in 150+ corpus docs as Terje Rød-Larsen's UN special assistant, emailing Epstein from a un.org address. Lead primary EFTA01997651 (DS10) is Aidan forwarding Epstein the SG's 16th semi-annual Resolution 1559 report; EFTA01884968 (DS10) is clean two-way Aidan↔Epstein correspondence (Epstein's reply giving '22 avenue foch' Paris and '9 east 71 st' NY is captured at EFTA01884879). The doc shows Aidan forwarding an official UN report he described as 'just released to the Security Council'; whether that material was 'confidential' is Mediapart's characterization, attributed not adopted. 'Rothschild-named institution' (the Swiss Edmond de Rothschild group) avoids implying the family itself is under investigation, which is not established. Distinct from 2016-epstein-rothschild-representation-001 (Epstein's own 'I represent the Rothschilds' email). OCR notes on the corpus: jeevacation@gmail.com mangled (© = @), 'Aidan' sometimes 'Aldan'. Surfaced via capture DWS2NxBjV8U."
 }

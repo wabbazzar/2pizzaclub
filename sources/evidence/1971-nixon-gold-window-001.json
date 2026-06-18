@@ -1,0 +1,33 @@
+{
+    "id": "1971-nixon-gold-window-001",
+    "anchor": "y1971",
+    "year": 1971,
+    "era": "iii",
+    "themes": [
+        "finance",
+        "inequality"
+    ],
+    "claim": "On August 15, 1971, after a secret weekend meeting at Camp David, President Richard Nixon announced on television that the United States would 'suspend temporarily the convertibility of the dollar into gold.' The step, packaged with a 90-day freeze on wages and prices and a 10 percent tax on imports, ended the 1944 Bretton Woods system, under which the dollar had been fixed to gold at $35 an ounce and other currencies pegged to the dollar. Convertibility was never restored; by March 1973 the major economies had moved to floating exchange rates, and the dollar has been an unbacked fiat currency since. Nixon framed the move as a defense against speculators, telling the country he was 'determined that the American dollar must never again be a hostage in the hands of international speculators.'",
+    "sources": [
+        {
+            "label": "The American Presidency Project (UC Santa Barbara) — Richard Nixon, “Address to the Nation Outlining a New Economic Policy: ‘The Challenge of Peace,’” August 15, 1971. Verbatim transcript.",
+            "type": "primary",
+            "url": "https://www.presidency.ucsb.edu/documents/address-the-nation-outlining-new-economic-policy-the-challenge-peace",
+            "quote": "I have directed Secretary Connally to suspend temporarily the convertibility of the dollar into gold or other reserve assets, except in amounts and conditions determined to be in the interest of monetary stability and in the best interests of the United States.",
+            "clip": "clips/1971-nixon-gold-window-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Federal Reserve History — “Nixon Ends Convertibility of U.S. Dollars to Gold and Announces Wage/Price Controls.” The Camp David meeting (Aug 13–15, 1971; Connally, Burns, Volcker) and the end of Bretton Woods.",
+            "type": "secondary",
+            "url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends"
+        },
+        {
+            "label": "U.S. Department of State, Office of the Historian — “Nixon and the End of the Bretton Woods System, 1971–1973.” The 1944 $35/oz gold peg and the move to floating exchange rates by March 1973.",
+            "type": "secondary",
+            "url": "https://history.state.gov/milestones/1969-1976/nixon-shock"
+        }
+    ],
+    "status": "verified",
+    "notes": "The 'Nixon shock.' Opens the y1971 'Gold standard ends' chapter ahead of the petrodollar record (1971-petrodollar-saudi-001, year 1974), which the dollar-system re-anchoring to oil continues. Documented economic history (American Presidency Project transcript; Fed History; State Dept Office of the Historian), not conspiracy — the chapter lets the primary record stand. Continues the era-i finance spine (1895-treasury-gold-bond-001, 1910-jekyll-island-001). The popular 'international money speculators' phrasing compresses two lines in the speech ('the speculators have been waging an all-out war on the American dollar' and the 'hostage … international speculators' line quoted here). Primary quote confirmed verbatim. Companion to capture DWS2NxBjV8U's finance-history thread."
+}
