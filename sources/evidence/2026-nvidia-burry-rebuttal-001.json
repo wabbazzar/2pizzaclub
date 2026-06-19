@@ -1,0 +1,47 @@
+{
+    "id": "2026-nvidia-burry-rebuttal-001",
+    "anchor": "y2026-ai-bubble",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "ai",
+        "big-tech",
+        "finance"
+    ],
+    "claim": "Through late 2025, investor Michael Burry — who profited shorting the 2008 subprime market and who disclosed he held put options (bets that a price will fall) on Nvidia and Palantir — publicly argued the AI boom rested partly on accounting that flatters earnings: that the hyperscalers (the largest cloud and AI buyers — Amazon, Microsoft, Google, Meta, Oracle) extend the assumed useful life of Nvidia chips they cycle every two to three years, which 'artificially boosts earnings,' and that Nvidia's web of investments in its own customers amounts to circular financing. Nvidia pushed back on the record. On its November 19, 2025 earnings call, CEO Jensen Huang said, 'There's been a lot of talk about an AI bubble. From our vantage point, we see something very different,' and defended taking equity stakes in AI firms: 'rather than giving up a share of our company, we get a share of their company.' CFO Colette Kress said that 'thanks to CUDA' — Nvidia's software platform — 'the A100 GPUs we shipped six years ago are still running at full utilization today,' the company's argument that its chips last longer than critics assume. Nvidia also circulated a roughly seven-page memo to Wall Street analysts that name-checked Burry; the memo — obtained and quoted by news outlets, but not released publicly — said 'Nvidia's strategic investments represent a small share of Nvidia's revenue and an even smaller share of approximately $1T raised each year across global private capital markets,' that its portfolio companies predominantly generate revenue from third-party customers rather than from Nvidia, that Nvidia uses no special purpose vehicles or vendor financing, and that 'Nvidia does not resemble historical accounting frauds because Nvidia's underlying business is economically sound, our reporting is complete and transparent.' Burry answered, 'I stand by my analysis.' On his Substack he called the memo 'one straw man after another,' said it 'almost reads like a hoax,' and — rejecting any comparison to Enron — wrote that Nvidia 'is clearly Cisco,' the network-equipment maker whose stock collapsed after the dot-com peak.",
+    "sources": [
+        {
+            "label": "Nvidia Q3 FY2026 earnings call transcript (Nov 19, 2025) — Jensen Huang & Colette Kress (The Motley Fool)",
+            "type": "primary",
+            "url": "https://www.fool.com/earnings/call-transcripts/2025/11/19/nvidia-nvda-q3-2026-earnings-call-transcript/",
+            "quote": "There's been a lot of talk about an AI bubble. From our vantage point, we see something very different.",
+            "clip_status": "no-clip"
+        },
+        {
+            "label": "'Read Nvidia's rebuttal to Michael Burry's claims' — Nvidia analyst memo, obtained by Business Insider (via AOL)",
+            "type": "secondary",
+            "url": "https://www.aol.com/articles/read-nvidias-rebuttal-michael-burrys-233704775.html",
+            "quote": "Nvidia does not resemble historical accounting frauds because Nvidia's underlying business is economically sound, our reporting is complete and transparent, and we care about our reputation for integrity.",
+            "clip": "clips/2026-nvidia-burry-rebuttal-001-01.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "'Big Short investor Michael Burry' responds to the Nvidia memo on his Substack (Business Insider, via AOL)",
+            "type": "secondary",
+            "url": "https://www.aol.com/articles/big-short-investor-michael-burry-111914725.html",
+            "quote": "one straw man after another",
+            "clip": "clips/2026-nvidia-burry-rebuttal-001-02.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Michael Burry (@michaeljburry, 'Cassandra Unchained'), X post, Nov 24, 2025",
+            "type": "primary",
+            "url": "https://x.com/michaeljburry/status/1993060087045448009",
+            "quote": "Nvidia emailed a memo to Wall Street sell side analysts to push back on my arguments. I stand by my analysis.",
+            "clip": "clips/2026-nvidia-burry-rebuttal-001-03.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Companion to 2026-nvidia-valor-burry-001: the documented public back-and-forth between Burry and Nvidia over the AI-bubble / circular-financing / depreciation charges, so the dispute is shown explicitly rather than as a clause. Sourcing caveat from research: the ~7-page analyst memo was never released publicly — every 'memo quote' traces to outlets that obtained it (CNBC broke it Nov 25, 2025; Bernstein circulated it; Business Insider quoted it). The firmest Nvidia primaries are therefore the Nov 19, 2025 Q3 FY2026 earnings-call statements (Huang 'we see something very different'; Kress on A100 longevity), verified against the Motley Fool transcript. Burry verbatim corrections applied: 'almost reads like a hoax' (NOT 'scam'); 'It is clearly Cisco' (he explicitly does NOT call it Enron). CNBC original and x.com are 403/402 (uncrawlable) — the X 'I stand by my analysis' wording is confirmed via mirrors; url kept for provenance, clip will not render. Burry's $176B depreciation figure and the 2026-2028 window are his own calculation (press paraphrase), kept out of the claim's verbatim. Sits in the 2008-rhyme cluster under y2026-ai-bubble."
+}

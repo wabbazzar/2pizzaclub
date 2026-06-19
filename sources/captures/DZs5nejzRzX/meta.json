@@ -20,6 +20,6 @@
     "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
     "video_download_status": "Original pulled via yt-dlp (~19.8 MB); delivery ~20.6 MB webm, 157s.",
     "audio_transcription_status": "Transcribed with openai-whisper.",
-    "evidence_records": ["2026-nvidia-valor-burry-001"],
+    "evidence_records": ["2026-nvidia-valor-burry-001", "2026-nvidia-burry-rebuttal-001", "2026-athene-bermuda-reinsurance-001", "2026-insurer-ai-credit-001"],
     "supporting_research_links": []
 }

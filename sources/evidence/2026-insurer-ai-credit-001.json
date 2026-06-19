@@ -1,0 +1,64 @@
+{
+    "id": "2026-insurer-ai-credit-001",
+    "anchor": "y2026-ai-bubble",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "ai",
+        "big-tech",
+        "finance",
+        "infrastructure-capex",
+        "economic-crisis"
+    ],
+    "claim": "The debt financing the AI data-center buildout is increasingly absorbed by life insurers and the annuity accounts of ordinary Americans — and the insurers most exposed are those owned by private-equity firms. By Moody's count, U.S. life insurers' private and illiquid bond holdings grew from $685 billion (18 percent of their roughly $4 trillion fixed-income portfolio) at the end of 2024 to $807 billion at the end of 2025, a $122 billion jump in a single year. Barclays research cited in the same report put private-credit exposure above 15 percent at private-equity-affiliated insurers, including Apollo-backed Athene and KKR-backed Global Atlantic. Some of that money flows directly into AI infrastructure: Blackstone disclosed in August 2025 that its credit arm's commitments to Aligned Data Centers had passed '$1 billion and is committed entirely by accounts managed by BXCI's Infrastructure & Asset Based Credit Group' — the same unit Blackstone calls 'a leading provider of investment management services for insurers.' The chain connecting a retiree to a server farm runs through the annuity (a contract sold as safe retirement income): as a Federal Reserve research note explains, life insurers' 'funding comes from policyholders through insurance liabilities such as fixed annuities,' backed by the insurer's general-account assets — which now include this private credit and data-center debt. Regulators have flagged the build-up. The Financial Stability Board (FSB), the international body that monitors the global financial system, warned that 'a sharp correction in asset valuations, which have increased rapidly, could lead to sizeable credit losses to private credit investors,' noting the AI sector's share of private-credit deals reached 34 percent in 2025, up from an average of 17 percent over the prior five years. The Federal Reserve's November 2025 Financial Stability Report found that 'life insurers' leverage was in the upper quartile of its historical distribution.' The offshore leg compounds it: Bermuda reinsurers now hold more than $900 billion in American life and annuity liabilities, as 'insurers are seeking to transfer long-duration liabilities to reinsurers with higher-yield investment strategies, often backed by private capital.'",
+    "sources": [
+        {
+            "label": "Blackstone press release — 'Blackstone Credit & Insurance and Aligned Data Centers Expand Financing Partnership, Surpassing $1 Billion in Commitments' (Aug 21, 2025)",
+            "type": "primary",
+            "url": "https://www.blackstone.com/news/press/blackstone-credit-insurance-and-aligned-data-centers-expand-financing-partnership-surpassing-1-billion-in-commitments/",
+            "quote": "The upsize brings BXCI commitments to Aligned to over $1 billion and is committed entirely by accounts managed by BXCI's Infrastructure & Asset Based Credit Group.",
+            "clip": "clips/2026-insurer-ai-credit-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Financial Stability Board — 'Report on Vulnerabilities Associated with Private Credit' (June 5, 2026)",
+            "type": "primary",
+            "url": "https://www.fsb.org/uploads/P060526.pdf",
+            "quote": "A sharp correction in asset valuations, which have increased rapidly, could lead to sizeable credit losses to private credit investors.",
+            "clip_status": "pdf-no-clip"
+        },
+        {
+            "label": "Insurance Business — 'US life insurers' private credit push is creating liquidity and concentration risks, Moody's warns' (citing Moody's & Barclays, June 8, 2026)",
+            "type": "secondary",
+            "url": "https://www.insurancebusinessmag.com/us/news/life-insurance/us-life-insurers-private-credit-push-is-creating-liquidity-and-concentration-risks-moodys-warns-578168.aspx",
+            "quote": "Private and illiquid bond holdings grew from $685 billion, or 18% of the portfolio, at year-end 2024 to $807 billion at year-end 2025, an increase of $122 billion.",
+            "clip": "clips/2026-insurer-ai-credit-001-02.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Federal Reserve — FEDS Notes, 'Life Insurers' Role in the Intermediation Chain of Public and Private Credit to Risky Firms' (Mar 21, 2025)",
+            "type": "primary",
+            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/life-insurers-role-in-the-intermediation-chain-of-public-and-private-credit-to-risky-firms-20250321.html",
+            "quote": "Their funding comes from policyholders through insurance liabilities such as fixed annuities and from institutional investors through nontraditional liabilities.",
+            "clip": "clips/2026-insurer-ai-credit-001-03.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Federal Reserve — Financial Stability Report (Nov 7, 2025)",
+            "type": "primary",
+            "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20251107.pdf",
+            "quote": "Life insurers' leverage was in the upper quartile of its historical distribution.",
+            "clip_status": "pdf-no-clip"
+        },
+        {
+            "label": "The Royal Gazette — 'Credit quality falls as more annuities ceded to Bermuda, reports suggest' (Apr 13, 2026)",
+            "type": "primary",
+            "url": "https://www.royalgazette.com/reinsurance/business/article/20260413/credit-quality-falls-as-more-annuities-ceded-to-bermuda-reports-suggest/",
+            "quote": "Insurers are seeking to transfer long-duration liabilities to reinsurers with higher-yield investment strategies, often backed by private capital.",
+            "clip": "clips/2026-insurer-ai-credit-001-05.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Third record off capture DZs5nejzRzX — the documented, non-Burry structural trend behind the reel's 'retiree end of the pipe' claim: AI-infrastructure / private-credit debt accumulating inside life-insurer general accounts and PE-owned annuity writers. Built deliberately on regulator/company primaries (Blackstone press release, FSB report, Fed FEDS Note, Fed FSR, Royal Gazette) plus a Moody's/Barclays press relay (Moody's report itself gated) — zero reliance on Burry. Deduped against existing y2026-ai-bubble cards: 2026-datacenter-offbalance-sheet-001 (the $120B off-balance-sheet / SRT / BIS Bulletin 120), 2025-datacenter-bonds-yield-001 (Hyperion $27B A+ bond), 2026-hyperscaler-cds-001 (JPMorgan CDS basket), 2025-ai-datacenter-capex-001 (BIS 'near zero to over $200B') — this card covers the insurer/annuity ABSORPTION leg only, not those. All quotes verified verbatim against the cited primaries (FSB & Fed FSR via pdftotext; Blackstone/Insurance Business/Fed FEDS Note/Royal Gazette via fetch). Pairs with 2026-athene-bermuda-reinsurance-001 (the Bermuda captive structure) and 2026-nvidia-valor-burry-001 / 2026-nvidia-burry-rebuttal-001."
+}

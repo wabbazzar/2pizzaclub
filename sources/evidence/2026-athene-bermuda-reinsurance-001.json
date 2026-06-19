@@ -1,0 +1,55 @@
+{
+    "id": "2026-athene-bermuda-reinsurance-001",
+    "anchor": "y2026-ai-bubble",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "finance",
+        "economic-crisis",
+        "inequality"
+    ],
+    "claim": "Athene, the life-insurance arm of Apollo Global Management and one of the largest U.S. sellers of fixed and indexed annuities (retirement-savings contracts marketed to ordinary Americans), books much of its obligations through affiliated reinsurance in Bermuda — a structure that cedes liabilities and the assets backing them to a jurisdiction with lighter capital rules than U.S. state regulators impose. By Bloomberg's analysis of statutory filings, Athene's main U.S. subsidiary in Iowa cedes almost $200 billion of reserves to its own Bermuda affiliate, essentially none to independent third parties. The pattern is industry-wide and flagged by official bodies. The U.S. Financial Stability Oversight Council (FSOC), the Treasury-led panel that monitors systemic risk, reported that life-insurance reserves ceded to offshore jurisdictions more than doubled to over $1.1 trillion, that nearly 70 percent of reserves ceded offshore go to affiliated reinsurers, and that insurers owned by asset managers or private-equity firms account for 46 percent of those affiliated offshore cessions. The Bank for International Settlements (BIS), the central banks' coordinating body, found that around 40 percent of ceded life-insurance risk is now assumed by reinsurers in offshore centres — nearly three times the 2017 share — and that private-equity-linked U.S. life insurers had ceded roughly $400 billion, about half their assets, to affiliated entities by the end of 2023. Athene's own 2024 annual report (Form 10-K) shows that of $299.5 billion in assets measured at fair value, $104.7 billion — about 34.9 percent — are Level 3 assets: holdings with no observable market price, valued by the company's internal models. Athene says the structure is sound and well-supervised: it holds about $34 billion of regulatory capital, maintains the same policyholder reserves in Bermuda as in the U.S., and its Bermuda regime carries U.S. 'qualified jurisdiction' and Solvency II equivalence status. The academic literature on 'shadow insurance' (Koijen and Yogo) and the financial-stability bodies above counter that affiliated offshore reinsurance leverages differences in capital and valuation rules — regulatory arbitrage — and concentrates hard-to-value risk where group-wide supervision is weakest.",
+    "sources": [
+        {
+            "label": "Bank for International Settlements — 'Shifting landscapes: life insurance and financial stability' (BIS Quarterly Review, Sept 2024)",
+            "type": "primary",
+            "url": "https://www.bis.org/publ/qtrpdf/r_qt2409b.htm",
+            "quote": "Around 40% of ceded risks were assumed by reinsurers in offshore centres, nearly three times the share reported in 2017.",
+            "clip": "clips/2026-athene-bermuda-reinsurance-001-00.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Athene Holding Ltd. — 2024 Form 10-K, fair-value hierarchy table (filed Feb 24, 2025)",
+            "type": "primary",
+            "url": "https://ir.athene.com/sec-filings/all-sec-filings/content/0001527469-25-000016/ahl-20241231.htm",
+            "quote": "Total assets measured at fair value $299,527 ... Level 3 $104,661",
+            "clip": "clips/2026-athene-bermuda-reinsurance-001-01.png",
+            "clip_status": "ok-head30"
+        },
+        {
+            "label": "U.S. Financial Stability Oversight Council, Annual Report (via National Law Review, 'The Bermuda Triangle and the Growing Risk in Insurance Markets')",
+            "type": "secondary",
+            "url": "https://natlawreview.com/article/bermuda-triangle-and-growing-risk-insurance-markets",
+            "quote": "reserves ceded to offshore jurisdictions more than doubled to over $1.1 trillion ... nearly 70% of life and annuity reserves ceded offshore go to affiliated reinsurers",
+            "clip": "clips/2026-athene-bermuda-reinsurance-001-02.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Bloomberg, 'The Offshoring of America's Retirement Savings' (via Pension Policy International) — includes Athene's response",
+            "type": "secondary",
+            "url": "https://www.pensionpolicyinternational.com/the-offshoring-of-americas-retirement-savings/",
+            "quote": "Athene's main US subsidiary in Iowa leads the trend with almost $200 billion — all with its own Bermuda affiliate.",
+            "clip": "clips/2026-athene-bermuda-reinsurance-001-03.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Koijen & Yogo, 'Shadow Insurance' (Econometrica 2016 / Minneapolis Fed Staff Report 505)",
+            "type": "primary",
+            "url": "https://www.minneapolisfed.org/research/sr/sr505.pdf",
+            "quote": "Liabilities ceded to shadow reinsurers grew from $11 billion in 2002 to $364 billion in 2012.",
+            "clip_status": "pdf-no-clip"
+        }
+    ],
+    "status": "verified",
+    "notes": "Standalone, independently-sourced counterpart to 2026-nvidia-valor-burry-001 — the offshore-reinsurance structure Burry's 'risk lands on retirees' thesis rests on, documented without relying on him. Correction surfaced in research: Burry's '$217B shifted into a Bermuda captive' conflates Athene's FY2023 net invested assets ($217.4B per the 10-K) with a captive total; the independently-documented affiliate figure is ~$192-200B of reserves ceded to Athene's own Bermuda affiliate (Bloomberg/AM Best). Burry's Level-3 figure IS confirmed: the 10-K shows $104,661M of $299,527M fair-value assets = 34.9% Level 3 (he said 34.7%/~$103B). The ~16x leverage is his interpretive ratio, not a filing line. FSOC verbatim ($1.1T offshore, ~70% affiliated, 46% PE-sponsored) confirmed via National Law Review; BIS and the Minneapolis Fed Koijen/Yogo report are open primaries; Bloomberg/IMF originals are paywalled/403. Athene's defense (Belardi, $34B regulatory capital, BMA Solvency II equivalence) carried for balance. Both sides attributed, not adopted."
+}
