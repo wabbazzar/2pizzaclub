@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 85,
-      "seconds": 11170
+      "count": 86,
+      "seconds": 11327
     },
     {
       "slug": "adl",
@@ -22,14 +22,14 @@
     {
       "slug": "ai",
       "topic": "AI",
-      "count": 10,
-      "seconds": 1220
+      "count": 11,
+      "seconds": 1377
     },
     {
       "slug": "big-tech",
       "topic": "Big Tech",
-      "count": 8,
-      "seconds": 998
+      "count": 9,
+      "seconds": 1155
     },
     {
       "slug": "biotech",
@@ -94,8 +94,8 @@
     {
       "slug": "economic-crisis",
       "topic": "Economic Crisis",
-      "count": 2,
-      "seconds": 144
+      "count": 3,
+      "seconds": 301
     },
     {
       "slug": "elections",
@@ -136,8 +136,8 @@
     {
       "slug": "finance",
       "topic": "Finance",
-      "count": 22,
-      "seconds": 3098
+      "count": 23,
+      "seconds": 3255
     },
     {
       "slug": "florida",
@@ -178,8 +178,8 @@
     {
       "slug": "infrastructure-capex",
       "topic": "Infrastructure Capex",
-      "count": 4,
-      "seconds": 342
+      "count": 5,
+      "seconds": 499
     },
     {
       "slug": "intelligence",
@@ -232,8 +232,8 @@
     {
       "slug": "maxwell",
       "topic": "Maxwell",
-      "count": 3,
-      "seconds": 429
+      "count": 4,
+      "seconds": 600
     },
     {
       "slug": "mcafee",
