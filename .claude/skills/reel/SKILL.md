@@ -91,8 +91,14 @@ claim, sources, status, notes`). Then:
 4. `node tools/clip-evidence.mjs <id>` (from the dev-browser playwright dir) for
    any source that has BOTH a public URL and a `quote` — DS-corpus docs with
    `url:null` get no clip, the verbatim renders as text instead.
-5. Screenshot-verify the card/chapter renders before calling it done
-   (`python3 -m http.server` on a fresh port + dev-browser).
+5. **Rebuild the semantic search index** so the new records are findable in the
+   search bar: `node tools/build-rag-index.mjs && node tools/rag-eval.mjs`
+   (re-embeds all manifest records; eval must stay 5/5; commit `rag-index.json`).
+   The index is precompiled, not built at runtime — skip this and the new claims
+   won't appear in search. Also rebuild if you EDIT any existing `claim`/`quote`
+   text (offsets drift otherwise). See CLAUDE.md → "Timeline semantic search".
+6. Screenshot-verify the card/chapter renders AND the search bar returns it,
+   before calling it done (`python3 -m http.server` on a fresh port + dev-browser).
 
 ### 6. Commit (own files only) + push
 

@@ -92,6 +92,13 @@ After ingest:
    ```
    Tool tries: exact in-node → cross-node Range fallback → head60 → cross-node60 → head30 → cross-node30. Logs which method matched. Sets `clip_status` on each source: `ok-<method>`, `http-<status>`, `quote-not-found`, or `error: ...`.
 
+7. **Rebuild the semantic search index** (the search bar's RAG layer is precompiled, not built at runtime — new records are invisible to search until this runs):
+   ```bash
+   cd /home/wabbazzar/code/2pizzaclub
+   node tools/build-rag-index.mjs && node tools/rag-eval.mjs
+   ```
+   Re-embeds every manifest record's claim + source quotes into `rag-index.json` (~30s, deterministic). The eval **must stay 5/5**. Commit the regenerated `rag-index.json`. First run only: `cd tools && npm install`. Also rerun this whenever an existing `claim`/`quote` is edited — the stored highlight offsets go stale otherwise. (Full rationale: CLAUDE.md → "Timeline semantic search".)
+
 ## Heuristics — quote selection
 
 Maximize clip success rate by picking quotes the matcher can find on the actual rendered page:
@@ -142,3 +149,4 @@ Aim for ~10–15K input tokens of search/fetch per reel and ~5K of writes. If yo
 - `meta.json` has NO `TODO:` strings remaining.
 - Both manifests include the new IDs.
 - A spot-check screenshot of the new chapter shows the clips rendering inline.
+- `rag-index.json` was rebuilt (`node tools/build-rag-index.mjs`), `rag-eval.mjs` is 5/5, and a search-bar query for the new claim actually returns its card.

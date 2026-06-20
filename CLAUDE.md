@@ -14,6 +14,10 @@ A sourced editorial timeline. Static site: plain HTML + CSS + ES modules. No bui
 ├── narrative.js                  # injects narrative.json blurbs into chapter shells
 ├── dag.js                        # builds window.RECEIPTS_DAG at runtime
 ├── mobile-nav.js                 # mobile-only bottom-pill + bottom-sheet nav
+├── search.js                     # lexical search bar (substring filter + keyword marks)
+├── rag.js                        # semantic search layer: embeds query in-browser, ranks vs rag-index.json, sentence + keyword highlight (desktop panel + mobile sheet)
+├── rag-index.json                # PRECOMPILED sentence-vector index (built by tools/build-rag-index.mjs; ships, gzips ~0.4MB)
+├── models/all-MiniLM-L6-v2/      # self-hosted q8 embedding model (~22MB) — runtime never calls Hugging Face
 ├── icon.svg, icon-*.png, favicon-*.png, apple-touch-icon.png
 ├── og-image.png                  # 1200x630 social-card preview
 ├── manifest.webmanifest          # PWA install metadata
@@ -47,6 +51,10 @@ A sourced editorial timeline. Static site: plain HTML + CSS + ES modules. No bui
     ├── clip-evidence.mjs         # renders highlighted-quote screenshots for sources[].quote
     ├── share-card.mjs            # renders one 1200x630 cinema-share social card (per theme)
     ├── share-pages.mjs           # generates gallery/share/<theme>/ unfurl pages + cards (scribe regenerates nightly)
+    ├── build-rag-index.mjs       # rebuilds rag-index.json (segment claims+quotes → embed → quantize); run after any record change
+    ├── rag-eval.mjs              # RAG regression gate — runs rag-fixtures.json, must stay 5/5
+    ├── rag-fixtures.json         # 5 permanent golden queries (expected top record + sentence)
+    ├── package.json              # build-only dep (@huggingface/transformers); tools/node_modules gitignored
     ├── INGEST-SOP.md             # operational doc — read before running ingest
     └── CAPTURE-PROCEDURE.md
 ```
@@ -213,7 +221,12 @@ See `sources/SCHEMA.md` for the schema. Filename convention: `<year>-<topic-slug
 1. Add the filename to `sources/evidence/manifest.json` `records[]`
 2. Append the record id to the capture's `meta.json` `evidence_records[]` so the gallery card links to it
 3. If new anchor: add a nav entry in `index.html`, a chapter shell `<article class="chapter" id="y..." ...>` in the right era, and a narrative blurb in `chapters/narrative.json` `anchors`
-4. Local-serve to verify: `cd /home/wabbazzar/code/2pizzaclub && python3 -m http.server 8744` then check the relevant chapter renders
+4. **Rebuild the timeline search index** so the new records are findable in the search bar (the semantic index is precompiled, not built at runtime):
+   ```bash
+   node tools/build-rag-index.mjs && node tools/rag-eval.mjs
+   ```
+   This re-embeds every manifest record's claim + source-quote sentences into `rag-index.json` (~30s, deterministic). The eval must stay **5/5** — it's the regression gate. Commit the regenerated `rag-index.json`. (One-time setup if `tools/node_modules` is missing: `cd tools && npm install`.) See "Timeline semantic search" under Site mechanics. **Any time a record's `claim` or `sources[].quote` text changes — not just new reels — rebuild, or the sentence-highlight offsets go stale.**
+5. Local-serve to verify: `cd /home/wabbazzar/code/2pizzaclub && python3 -m http.server 8744` then check the relevant chapter renders and the search bar returns it
 
 ### 6. Commit
 
@@ -259,6 +272,20 @@ If a new theme is genuinely necessary, name it like the existing ones (lowercase
 ### Filter scroll behavior
 
 When the user clicks a theme chip, `themes.js` applies the filter and then scrolls to the first visible chapter. The implementation does `window.scrollTo(0,0)` first (to avoid clamp-to-bottom when the doc shrinks), then two `requestAnimationFrame`s for the reflow, then `scrollIntoView({behavior:'instant', block:'start'})`. Don't use `behavior:'smooth'` here — it overshoots because the chapter's absolute position changes during the animation.
+
+### Timeline semantic search (RAG index)
+
+The search bar runs two layers. `search.js` is the existing lexical layer (AND-token substring filter + `mark.search-mark` keyword highlights, filters the timeline in place). `rag.js` is the semantic layer: on the first query it lazily loads transformers.js (jsDelivr) + the **self-hosted** model under `models/all-MiniLM-L6-v2/` + `rag-index.json`, embeds the query in-browser, and ranks records by their best-matching sentence. Results render as a ranked panel under the theme bar (desktop) or inside the bottom-sheet Search tab (mobile), each card showing the claim/quote with a navy per-sentence tint (semantic, graded by cosine) plus the yellow keyword marks; clicking a result highlights the matched sentences in the live card. `search.js` dispatches `receipts:query`; `rag.js` listens — they're decoupled.
+
+**The index is precompiled, never built at runtime.** `tools/build-rag-index.mjs` splits every manifest record's `claim` and each `sources[].quote` into sentences (`Intl.Segmenter` + an abbreviation mask so "U.S." etc. don't over-split), embeds each with `all-MiniLM-L6-v2` (q8) **context-augmented** with the chapter year+title, int8-quantizes, and writes `rag-index.json` (offsets index into the raw claim/quote so the runtime can re-highlight). The build is deterministic and reads `sources/evidence/manifest.json` — the same live set the timeline renders — so a record is searchable iff it's in the manifest.
+
+Maintenance rule: **rebuild after any change to a record's `claim` or `sources[].quote`** (new reel, or an edit — the quality-pass kind of edit counts), then run the eval gate. The runtime reads claim/quote *text* from `window.RECEIPTS_DAG`; if you edit that text without rebuilding, the stored offsets drift and highlights land on the wrong characters.
+
+```bash
+node tools/build-rag-index.mjs && node tools/rag-eval.mjs   # rebuild + 5/5 gate; commit rag-index.json
+```
+
+The build uses `@huggingface/transformers` in `tools/node_modules` (gitignored; `cd tools && npm install` once) and the model from its own HF cache. The shipped runtime model in `models/` is the q8 export of the same checkpoint and is **stable** — only re-export + re-copy it if you deliberately change the embedding model (then rebuild the index with the matching `DTYPE`, since doc/query vectors must come from the same model). `tools/rag-fixtures.json` holds 5 permanent golden queries; keep them green, don't loosen them to pass.
 
 ### Cinema share cards (`gallery/share/`, scribe-maintained)
 

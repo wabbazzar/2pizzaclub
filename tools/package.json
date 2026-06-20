@@ -3,6 +3,11 @@
   "private": true,
   "type": "module",
   "description": "Build-only workspace for the RAG sentence index. node_modules is gitignored; outputs (rag-index.json) ship.",
+  "scripts": {
+    "build": "node build-rag-index.mjs",
+    "eval": "node rag-eval.mjs",
+    "rag": "node build-rag-index.mjs && node rag-eval.mjs"
+  },
   "dependencies": {
     "@huggingface/transformers": "^3.0.0"
   }
