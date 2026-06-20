@@ -31,6 +31,7 @@ const EVID = path.join(ROOT, 'sources', 'evidence');
 const OUT = path.join(ROOT, 'rag-index.json');
 
 const MODEL = 'Xenova/all-MiniLM-L6-v2';
+const DTYPE = 'q8';     // quantized — matches the self-hosted browser model (parity + lean ship)
 const DIMS = 384;
 const MIN_SENT_LEN = 3; // skip whitespace/punctuation-only fragments
 
@@ -46,13 +47,29 @@ function loadChapterTitles() {
 
 const seg = new Intl.Segmenter('en', { granularity: 'sentence' });
 
+// Length-preserving abbreviation mask: replace the PERIOD inside common
+// abbreviations / initials with a one-dot-leader (U+2024, same width) so
+// Intl.Segmenter doesn't treat it as a sentence break. Offsets are preserved
+// (1 char -> 1 char), and we always slice the ORIGINAL text for output, so the
+// real periods survive in the stored sentence. Fixes "U.S. | Military" splits.
+const DOT = '․';
+const MULTI = /\b(U\.S\.A|U\.S|U\.N|U\.K|U\.S\.S\.R|D\.C|Ph\.D|a\.m|p\.m|e\.g|i\.e|Dr|Mr|Mrs|Ms|Jr|Sr|St|Inc|Corp|Co|Ltd|No|vs|etc|Gen|Sen|Rep|Gov|Pres|Lt|Sgt|Col|Adm|Capt|Maj|Brig|Rev|approx|Vol|Fig|pp)\./g;
+function maskAbbrev(t) {
+    // single capital initials (J. F. Kennedy, U.S.) — \b ensures we don't catch
+    // sentence-final ALLCAPS like "the FBI." (the I has no preceding word boundary)
+    let m = t.replace(/\b([A-Z])\./g, '$1' + DOT);
+    // multi-letter abbreviations (re-mask any internal dots already turned, plus the trailing one)
+    m = m.replace(MULTI, (s) => s.replace(/\./g, DOT));
+    return m;
+}
+
 function splitSentences(text) {
+    const masked = maskAbbrev(text); // same length as text
     const out = [];
-    for (const s of seg.segment(text)) {
-        const raw = s.segment;
+    for (const s of seg.segment(masked)) {
+        const raw = text.slice(s.index, s.index + s.segment.length); // ORIGINAL text, real periods
         const trimmed = raw.trim();
         if (trimmed.length < MIN_SENT_LEN) continue;
-        // tighten offsets to the trimmed span so highlight wraps no leading/trailing space
         const lead = raw.length - raw.trimStart().length;
         const start = s.index + lead;
         const end = start + trimmed.length;
@@ -76,11 +93,11 @@ async function main() {
     const files = manifest.records || [];
     console.log(`[rag] ${files.length} records in manifest`);
 
-    console.log(`[rag] loading ${MODEL} …`);
-    const extractor = await pipeline('feature-extraction', MODEL);
+    console.log(`[rag] loading ${MODEL} (${DTYPE}) …`);
+    const extractor = await pipeline('feature-extraction', MODEL, { dtype: DTYPE });
 
     const inputs = [];   // strings to embed (context-augmented)
-    const units = [];    // {id, start, end} parallel to inputs
+    const units = [];    // {id, field, srcIdx?, start, end} parallel to inputs
 
     for (const file of files) {
         let rec;
@@ -90,9 +107,20 @@ async function main() {
         if (!claim) continue;
         const ctx = titles[rec.anchor] || { year: rec.year || '', title: '' };
         const prefix = `[${ctx.year}${ctx.title ? ' · ' + ctx.title : ''}] `;
+        // claim sentences (offsets index into the claim string)
         for (const sent of splitSentences(claim)) {
             inputs.push(prefix + sent.text);
-            units.push({ id: rec.id, start: sent.start, end: sent.end });
+            units.push({ id: rec.id, field: 'claim', start: sent.start, end: sent.end });
+        }
+        // source-quote sentences (offsets index into that source's quote string)
+        const sources = rec.sources || [];
+        for (let i = 0; i < sources.length; i++) {
+            const q = sources[i].quote;
+            if (!q) continue;
+            for (const sent of splitSentences(q)) {
+                inputs.push(prefix + sent.text);
+                units.push({ id: rec.id, field: 'quote', srcIdx: i, start: sent.start, end: sent.end });
+            }
         }
     }
 

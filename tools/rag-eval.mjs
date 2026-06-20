@@ -20,12 +20,19 @@ const EVID = path.join(ROOT, 'sources', 'evidence');
 const index = JSON.parse(fs.readFileSync(path.join(ROOT, 'rag-index.json'), 'utf8'));
 const { fixtures, topK } = JSON.parse(fs.readFileSync(path.join(__dirname, 'rag-fixtures.json'), 'utf8'));
 
-// id -> claim text (to report which sentence won)
-const claimById = new Map();
+// id -> { claim, sources } (to resolve which sentence/quote won)
+const recById = new Map();
 for (const f of fs.readdirSync(EVID)) {
     if (!f.endsWith('.json') || f === 'manifest.json') continue;
-    try { const r = JSON.parse(fs.readFileSync(path.join(EVID, f), 'utf8')); if (r.id) claimById.set(r.id, r.claim || ''); }
+    try { const r = JSON.parse(fs.readFileSync(path.join(EVID, f), 'utf8')); if (r.id) recById.set(r.id, r); }
     catch { /* ignore */ }
+}
+// resolve a unit's source text (claim string or the relevant source quote)
+function unitText(u) {
+    const r = recById.get(u.id);
+    if (!r) return '';
+    const base = u.field === 'quote' ? (r.sources?.[u.srcIdx]?.quote || '') : (r.claim || '');
+    return base.slice(u.start, u.end);
 }
 
 // pre-dequantize unit vectors and precompute their norms
@@ -34,7 +41,7 @@ const units = index.units.map((u) => {
     const v = new Float32Array(u.vec.length);
     let n = 0;
     for (let i = 0; i < u.vec.length; i++) { const x = u.vec[i] * scale; v[i] = x; n += x * x; }
-    return { id: u.id, start: u.start, end: u.end, v, norm: Math.sqrt(n) || 1 };
+    return { id: u.id, field: u.field, srcIdx: u.srcIdx, start: u.start, end: u.end, v, norm: Math.sqrt(n) || 1 };
 });
 
 function cosineScores(qvec) {
@@ -57,7 +64,7 @@ function rankRecords(scores) {
     return [...best.entries()].map(([id, b]) => ({ id, ...b })).sort((a, b) => b.score - a.score);
 }
 
-const extractor = await pipeline('feature-extraction', index.model);
+const extractor = await pipeline('feature-extraction', index.model, { dtype: 'q8' });
 async function embed(text) {
     const out = await extractor([text], { pooling: 'mean', normalize: true });
     return Array.from(out.data); // already L2-normalized
@@ -76,7 +83,7 @@ for (const fx of fixtures) {
     const recEntry = ranked.find((r) => r.id === fx.expectTopId);
     if (recEntry) {
         const u = units[recEntry.unitIdx];
-        wonSent = (claimById.get(fx.expectTopId) || '').slice(u.start, u.end);
+        wonSent = `${u.field === 'quote' ? '[quote] ' : ''}${unitText(u)}`;
         sentOk = wonSent.toLowerCase().includes(fx.expectSentence.toLowerCase());
     }
     const ok = within && sentOk;

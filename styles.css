@@ -754,6 +754,24 @@ mark.search-mark {
     flex: none;
 }
 .rag-claim { margin: 0; font-size: 0.84rem; line-height: 1.5; color: var(--ink); }
+.rag-quote {
+    margin: 0.45rem 0 0.1rem;
+    padding: 0.3rem 0.6rem;
+    border-left: 3px solid var(--bus-yellow);
+    background: rgba(27, 63, 181, 0.05);
+    font-size: 0.8rem;
+    font-style: italic;
+    line-height: 1.45;
+    color: var(--ink-soft);
+}
+.rag-src-link {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--paper-rule);
+    text-decoration: none;
+}
+.rag-src-link[href]:hover { text-decoration: underline; }
 /* semantic-match region — navy tint (distinct from the yellow keyword marks) */
 .rag-sent {
     background: rgba(27, 63, 181, var(--rag-a, 0.18));
@@ -761,6 +779,21 @@ mark.search-mark {
     padding: 0 1px;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
+}
+/* a card lit in place after clicking a result */
+.evidence-card.rag-focus {
+    outline: 2px solid var(--paper-rule);
+    outline-offset: 3px;
+    border-radius: 2px;
+    animation: rag-pulse 1.4s ease-out 1;
+}
+@keyframes rag-pulse {
+    0% { outline-color: var(--accent); }
+    100% { outline-color: var(--paper-rule); }
+}
+/* mobile keeps the existing lexical bottom-sheet search; hide the desktop panel */
+@media (max-width: 880px) {
+    .rag-results { display: none; }
 }
 
 /* bump timeline rail's sticky top to clear header + theme bar */
