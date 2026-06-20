@@ -40,6 +40,8 @@
     let lastQuery = '';
     let lastResults = null;         // current ranked results (for click-to-highlight)
     const litCards = new Set();     // cards currently highlighted in place
+    const mqMobile = window.matchMedia('(max-width: 880px)');
+    const isMobile = () => mqMobile.matches;
 
     // ---------- utils ----------
 
@@ -145,8 +147,8 @@
             for (let i = 0; i < qvec.length; i++) dot += qvec[i] * u.v[i];
             const score = dot / u.norm;
             let rec = byId.get(u.id);
-            if (!rec) { rec = { id: u.id, best: -1, claim: [], quotes: new Map() }; byId.set(u.id, rec); }
-            if (score > rec.best) rec.best = score;
+            if (!rec) { rec = { id: u.id, best: -1, bestUnit: null, claim: [], quotes: new Map() }; byId.set(u.id, rec); }
+            if (score > rec.best) { rec.best = score; rec.bestUnit = { field: u.field, srcIdx: u.srcIdx, start: u.start, end: u.end, score }; }
             if (u.field === 'quote') {
                 if (!rec.quotes.has(u.srcIdx)) rec.quotes.set(u.srcIdx, []);
                 rec.quotes.get(u.srcIdx).push({ start: u.start, end: u.end, score });
@@ -220,9 +222,23 @@
         }).join('');
     }
 
-    // ---------- render panel ----------
+    // text of a single unit (claim sentence or source-quote sentence)
+    function unitText(rec, u) {
+        if (!u) return '';
+        const base = u.field === 'quote' ? (rec.quotes[u.srcIdx]?.quote || '') : (rec.claim || '');
+        return base.slice(u.start, u.end);
+    }
+
+    // ---------- render: dispatch by viewport ----------
 
     function render(results, tokens) {
+        if (isMobile()) { const p = document.getElementById('rag-results'); if (p) p.hidden = true; renderMobile(results, tokens); }
+        else { clearMobile(); renderDesktop(results, tokens); }
+    }
+
+    // ---------- desktop panel ----------
+
+    function renderDesktop(results, tokens) {
         const p = panel();
         const list = p.querySelector('.rag-list');
         if (!results.length) { list.innerHTML = `<p class="rag-empty">no close matches</p>`; p.hidden = false; return; }
@@ -238,6 +254,60 @@
             </article>`;
         }).join('');
         p.hidden = false;
+    }
+
+    // ---------- mobile: render into the bottom-sheet search panel ----------
+
+    function mobileBox() {
+        const mp = document.querySelector('.mnav-tab-panel[data-panel="search"]');
+        if (!mp) return null;
+        let box = mp.querySelector('.mnav-rag');
+        if (!box) {
+            box = document.createElement('div');
+            box.className = 'mnav-rag';
+            const ol = mp.querySelector('.mnav-search-results');
+            if (ol) mp.insertBefore(box, ol); else mp.appendChild(box);
+            box.addEventListener('click', (e) => {
+                const card = e.target.closest('.mnav-rag-card');
+                if (!card) return;
+                const id = card.dataset.id;
+                const close = document.querySelector('.mnav-sheet .mnav-close');
+                if (close) close.click();
+                setTimeout(() => lightCard(id, queryTokens(lastQuery)), 90);
+            });
+        }
+        return box;
+    }
+
+    function clearMobile() {
+        const mp = document.querySelector('.mnav-tab-panel[data-panel="search"]');
+        if (!mp) return;
+        mp.classList.remove('mnav-has-rag');
+        const box = mp.querySelector('.mnav-rag');
+        if (box) box.innerHTML = '';
+    }
+
+    function mobileLoading() {
+        const box = mobileBox();
+        if (box) box.innerHTML = `<p class="mnav-rag-loading">loading semantic search…</p>`; // lexical list stays visible below
+    }
+
+    function renderMobile(results, tokens) {
+        const box = mobileBox();
+        if (!box) return;
+        const mp = box.closest('.mnav-tab-panel');
+        mp.classList.add('mnav-has-rag'); // hides the lexical list + count via CSS
+        if (!results.length) { box.innerHTML = `<p class="mnav-rag-loading">no close matches</p>`; return; }
+        box.innerHTML = `<p class="mnav-rag-label">// closest matches</p>` + results.map((r) => {
+            const rec = recData.get(r.id) || { claim: '', year: '', title: r.id, quotes: {} };
+            const u = r.bestUnit;
+            const snip = unitText(rec, u);
+            const snipHtml = u ? renderSpans(snip, [{ start: 0, end: snip.length, score: u.score }], tokens) : '';
+            return `<button class="mnav-rag-card" type="button" data-id="${esc(r.id)}">
+                <span class="mnav-rag-head"><span class="mnav-rag-year">${esc(rec.year)}</span><span class="mnav-rag-title">${esc(rec.title)}</span><span class="mnav-rag-score">${r.best.toFixed(2)}</span></span>
+                <span class="mnav-rag-snip">${snipHtml}</span>
+            </button>`;
+        }).join('');
     }
 
     // ---------- in-place highlight on the live timeline card ----------
@@ -297,8 +367,9 @@
         const query = (q || '').trim();
         lastQuery = query;
         clearInPlace();
-        if (query.length < MIN_QUERY_LEN) { const p = document.getElementById('rag-results'); if (p) p.hidden = true; return; }
+        if (query.length < MIN_QUERY_LEN) { const p = document.getElementById('rag-results'); if (p) p.hidden = true; clearMobile(); return; }
         try {
+            if (!extractor && isMobile()) mobileLoading(); // keep lexical list as fallback during one-time model load
             await ensureLoaded();
             if (lastQuery !== query) return;
             const qvec = await embed(query);
@@ -315,5 +386,10 @@
         const q = e.detail?.q ?? '';
         clearTimeout(debounceTimer);
         debounceTimer = setTimeout(() => run(q), DEBOUNCE_MS);
+    });
+
+    // re-render to the right surface if the viewport crosses the mobile breakpoint
+    mqMobile.addEventListener('change', () => {
+        if (lastResults && lastQuery.length >= MIN_QUERY_LEN) render(lastResults, queryTokens(lastQuery));
     });
 })();

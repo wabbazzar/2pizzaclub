@@ -791,9 +791,47 @@ mark.search-mark {
     0% { outline-color: var(--accent); }
     100% { outline-color: var(--paper-rule); }
 }
-/* mobile keeps the existing lexical bottom-sheet search; hide the desktop panel */
+/* mobile: semantic results render inside the bottom-sheet search panel */
 @media (max-width: 880px) {
-    .rag-results { display: none; }
+    .rag-results { display: none; }   /* desktop panel hidden; results go in the sheet */
+    /* when semantic results are present, hide the lexical list + count fallback */
+    .mnav-tab-panel.mnav-has-rag .mnav-search-results,
+    .mnav-tab-panel.mnav-has-rag .mnav-search-count { display: none; }
+    .mnav-rag { margin: 0 0 0.5rem; }
+    .mnav-rag-label {
+        margin: 0.2rem 0 0.4rem;
+        font-family: var(--mono);
+        font-size: 0.72rem;
+        color: var(--paper-rule);
+        letter-spacing: 0.04em;
+    }
+    .mnav-rag-loading { margin: 0.4rem 0; font-family: var(--mono); font-size: 0.8rem; color: var(--ink-soft); }
+    .mnav-rag-card {
+        display: block;
+        width: 100%;
+        text-align: left;
+        background: var(--paper);
+        color: var(--ink);
+        border: 0;
+        border-bottom: 1px dashed var(--paper-rule);
+        border-left: 4px solid var(--accent);
+        padding: 0.6rem 0.5rem;
+        cursor: pointer;
+    }
+    .mnav-rag-card:active { background: rgba(27, 63, 181, 0.06); }
+    .mnav-rag-head { display: flex; align-items: baseline; gap: 0.5rem; margin-bottom: 0.25rem; }
+    .mnav-rag-year { font-family: var(--mono); font-size: 0.74rem; color: var(--ink-soft); font-weight: 700; flex: none; }
+    .mnav-rag-title { flex: 1; font-weight: 600; font-size: 0.92rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .mnav-rag-score {
+        font-family: var(--mono);
+        font-size: 0.72rem;
+        color: var(--paper);
+        background: var(--paper-rule);
+        padding: 0.05rem 0.3rem;
+        border-radius: 1px;
+        flex: none;
+    }
+    .mnav-rag-snip { display: block; font-family: var(--serif); font-size: 0.92rem; line-height: 1.45; color: var(--ink); }
 }
 
 /* bump timeline rail's sticky top to clear header + theme bar */
