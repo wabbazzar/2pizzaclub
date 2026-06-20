@@ -1,0 +1,9 @@
+{
+  "name": "2pizzaclub-rag-build",
+  "private": true,
+  "type": "module",
+  "description": "Build-only workspace for the RAG sentence index. node_modules is gitignored; outputs (rag-index.json) ship.",
+  "dependencies": {
+    "@huggingface/transformers": "^3.0.0"
+  }
+}

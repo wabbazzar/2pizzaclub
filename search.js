@@ -534,6 +534,9 @@
         currentQuery = value;
         currentTokens = tokenize(value);
 
+        // notify the semantic layer (rag.js); it debounces + renders its own panel
+        document.dispatchEvent(new CustomEvent('receipts:query', { detail: { q: value } }));
+
         // sync the other input
         const dInput = document.querySelector('.search-input');
         const mInput = document.querySelector('.mnav-search-input');

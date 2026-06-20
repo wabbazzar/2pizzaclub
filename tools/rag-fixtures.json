@@ -1,0 +1,36 @@
+{
+  "_comment": "Permanent validation fixtures for the timeline RAG prototype. Each query must retrieve expectTopId within the top `topK`, and the highest-scoring sentence for that record must contain `expectSentence`. Run: node tools/rag-eval.mjs",
+  "topK": 3,
+  "fixtures": [
+    {
+      "q": "who was charged with killing Charlie Kirk",
+      "expectTopId": "2025-kirk-002",
+      "expectSentence": "Tyler James Robinson",
+      "tests": "semantic win where lexical misses (killing != charged/murder)"
+    },
+    {
+      "q": "DNA found on the rifle trigger",
+      "expectTopId": "2025-kirk-002",
+      "expectSentence": "DNA on the rifle's trigger",
+      "tests": "sentence-level precision inside a multi-sentence card"
+    },
+    {
+      "q": "how much have the post-9/11 wars cost",
+      "expectTopId": "2003-costs-of-war-001",
+      "expectSentence": "trillion",
+      "tests": "paraphrase + number entity"
+    },
+    {
+      "q": "government plan to fake terrorism as a pretext to invade Cuba",
+      "expectTopId": "1962-northwoods-001",
+      "expectSentence": "Cuba",
+      "tests": "cross-vocabulary recall (no shared keywords with 'false flag')"
+    },
+    {
+      "q": "MKULTRA mind control experiments",
+      "expectTopId": "1953-mkultra-001",
+      "expectSentence": "MKULTRA",
+      "tests": "lexical + semantic agreement"
+    }
+  ]
+}

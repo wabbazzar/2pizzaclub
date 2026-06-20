@@ -95,3 +95,9 @@ drafts/illustrations/*.png
 # rendered out/ PNGs + mascot art). Local-only working area; nothing here is
 # published to the site. Regenerable via render.mjs.
 drafts/instagram/
+
+# ---------- RAG index build workspace ----------
+# Build-only deps for tools/build-rag-index.mjs (onnxruntime is large + native).
+# The generated rag-index.json ships; node_modules and the model cache do not.
+tools/node_modules/
+tools/.cache/
