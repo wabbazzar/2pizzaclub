@@ -1,0 +1,45 @@
+{
+    "id": "2019-epstein-death-custody-001",
+    "anchor": "y2019",
+    "year": 2019,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "fbi"
+    ],
+    "claim": "Jeffrey Epstein was found dead in his cell at the Metropolitan Correctional Center (MCC) in Manhattan on August 10, 2019, while held without bail on federal sex-trafficking charges. The New York City Office of the Chief Medical Examiner ruled the death a suicide by hanging, and the FBI found no evidence of a criminal act. The Department of Justice Office of the Inspector General (OIG) — the department's internal watchdog — documented a series of custody failures in its June 2023 report. The two guards assigned to Epstein's unit, Tova Noel and Michael Thomas, did not perform the required 30-minute rounds — prosecutors said they were asleep and browsing the internet during the roughly eight hours before his death — and then falsified the count and round records to show checks that were never made. Both were indicted in November 2019 on falsification and conspiracy counts and acknowledged the records were false; the charges were resolved in 2021 through deferred-prosecution agreements (100 hours of community service and cooperation with the OIG review). System deficiencies left nearly all of the cameras in and around the Special Housing Unit not recording from late July 2019 through the death, and usable footage of the cell area was not available. After a July 23, 2019 incident that placed Epstein on suicide watch, the MCC psychology department determined he needed a cellmate; on August 9 his cellmate was transferred out of the facility and staff did not assign a replacement, leaving him alone with access to extra bed linens. The OIG attributed the death to a 'combination of negligence, misconduct, and outright job performance failures' and said it found no evidence contradicting the FBI's no-criminality finding. The suicide ruling was contested by Dr. Michael Baden, a forensic pathologist hired by Epstein's brother who observed the autopsy: in October 2019 he said fractures to the hyoid bone and thyroid cartilage were more consistent with homicidal strangulation than suicidal hanging. Chief Medical Examiner Barbara Sampson rejected that assessment, saying she stood 'firmly behind' the determination of suicide.",
+    "sources": [
+        {
+            "label": "DOJ Office of the Inspector General — 'Investigation and Review of the Federal Bureau of Prisons' Custody, Care, and Supervision of Jeffrey Epstein at the Metropolitan Correctional Center in New York' (Report 23-085, June 2023).",
+            "type": "primary",
+            "url": "https://oig.justice.gov/sites/default/files/reports/23-085.pdf",
+            "quote": "On August 9, Epstein's cellmate was transferred out of MCC New York. MCC New York staff knew that Epstein did not have a cellmate but did not take steps to ensure that he was assigned a new cellmate.",
+            "clip_status": "no-clip (PDF download; quote renders as text)"
+        },
+        {
+            "label": "DOJ OIG — press release announcing the report on the BOP's custody of Jeffrey Epstein (June 27, 2023).",
+            "type": "primary",
+            "url": "https://oig.justice.gov/news/doj-oig-releases-report-bops-custody-care-and-supervision-jeffrey-epstein-metropolitan",
+            "quote": "The combination of negligence, misconduct, and outright job performance failures documented in this report all contributed to an environment in which arguably one of the BOP's most notorious inmates was provided the opportunity to take his own life.",
+            "clip": "clips/2019-epstein-death-custody-001-01.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "NPR — 'Jeffrey Epstein case: Expert hired by his family suggests doubt on suicide findings' (Oct 30, 2019), on Dr. Michael Baden's homicidal-strangulation assessment.",
+            "type": "secondary",
+            "url": "https://www.npr.org/2019/10/30/774838950/jeffrey-epstein-case-expert-hired-by-his-family-suggests-doubt-on-suicide-findin"
+        },
+        {
+            "label": "PBS NewsHour — 'Medical examiner dismisses doubts about Epstein autopsy' (Sampson stands by the suicide ruling).",
+            "type": "secondary",
+            "url": "https://www.pbs.org/newshour/nation/medical-examiner-dismisses-doubts-about-epstein-autopsy"
+        },
+        {
+            "label": "Wikipedia — 'Death of Jeffrey Epstein' (aggregator: Noel/Thomas indictment Nov 19 2019, the 2021 deferred-prosecution agreements, and the camera/cellmate timeline).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Death_of_Jeffrey_Epstein"
+        }
+    ],
+    "status": "verified",
+    "notes": "Fills a gap: the y2019 cluster referenced the death circumstances (false logs, dead cameras) in the narrative blurb and the opening poll but had no dedicated record. Documents the verified custody-failure facts and presents the cause-of-death conclusion as attributed both ways (NYC OCME suicide ruling + FBI no-criminality vs. Baden's homicide doubt) without adopting either, per the 'no official story as ground truth' rule. Surfaced via the Sammy Obeid standup capture DWHdAX2CF5_ — a comedy bit whose verifiable core (guards asleep & falsifying logs, cameras not recording, removed from suicide watch / cellmate gone) is documented here; the reel's body-double / 'shipped to Israel' / Fortnite-login-from-Tel-Aviv material is comedic invention with no primary trace and is NOT recorded. The 'Fortnite login' item was checked against our own EFTA corpus (grep: only unrelated Apple-v-Epic news on document pages); it is not in the released files."
+}
