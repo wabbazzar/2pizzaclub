@@ -152,17 +152,28 @@
         });
     }
 
+    // Keep only themes that actually exist in the current index. A stale
+    // localStorage value or a shared ?theme=<old-name> URL (e.g. a theme since
+    // renamed — "9-11" -> "september-11") would otherwise match no cards and
+    // blank the whole timeline with no active chip to explain why.
+    function knownThemes(list) {
+        return list.filter((t) => recordsByTheme.has(t));
+    }
+
     function readState() {
         const url = new URL(window.location.href);
         const fromUrl = url.searchParams.get('theme');
         if (fromUrl != null) {
-            const list = fromUrl.split(',').map((s) => s.trim()).filter(Boolean);
+            const list = knownThemes(fromUrl.split(',').map((s) => s.trim()).filter(Boolean));
             activeThemes = new Set(list);
-            localStorage.setItem(STORAGE_KEY, [...activeThemes].join(','));
+            writeState();
             return;
         }
         const stored = localStorage.getItem(STORAGE_KEY);
-        if (stored) activeThemes = new Set(stored.split(',').map((s) => s.trim()).filter(Boolean));
+        if (stored) {
+            activeThemes = new Set(knownThemes(stored.split(',').map((s) => s.trim()).filter(Boolean)));
+            writeState();
+        }
     }
 
     function writeState() {
