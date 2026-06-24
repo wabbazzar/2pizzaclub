@@ -19,7 +19,6 @@
 (function () {
     'use strict';
 
-    const STORAGE_KEY = 'receipts.search';
     const MIN_QUERY_LEN = 2;
     const DEBOUNCE_MS = 120;
 
@@ -387,19 +386,18 @@
 
     // ---------- URL + state ----------
 
+    // Only an explicit ?q= deep-link seeds the search on load. A free-text query
+    // is transient — do NOT auto-restore the previous session's search from
+    // localStorage. A silently-resurrected query composes with a theme chip
+    // (search-hidden AND filter-hidden) and blanks the whole timeline: the user,
+    // who never typed a search, just sees "clicking any theme empties the page."
     function readState() {
         const url = new URL(window.location.href);
         const fromUrl = url.searchParams.get('q');
-        if (fromUrl != null) {
-            const q = fromUrl;
-            localStorage.setItem(STORAGE_KEY, q);
-            return q;
-        }
-        return localStorage.getItem(STORAGE_KEY) || '';
+        return fromUrl != null ? fromUrl : '';
     }
 
     function writeState(q) {
-        localStorage.setItem(STORAGE_KEY, q);
         const url = new URL(window.location.href);
         if (q) url.searchParams.set('q', q);
         else url.searchParams.delete('q');
