@@ -1,0 +1,32 @@
+{
+    "id": "1882-rothschild-settlements-001",
+    "anchor": "y1920-pre-state-militias",
+    "year": 1882,
+    "era": "i",
+    "themes": [
+        "israel",
+        "palestine"
+    ],
+    "claim": "Baron Edmond James de Rothschild, of the French branch of the Rothschild banking family, began bankrolling the agricultural colonies of the First Aliyah — the first organized wave of Zionist Jewish immigration to Ottoman Palestine — in 1882. He rescued the faltering settlement of Rishon LeZion and went on to underwrite Zikhron Ya'akov, Rosh Pinna, Ekron and roughly thirty colonies in all, covering their debts, funding viticulture and housing, and financing the purchase of land. Theodor Herzl, the Austro-Hungarian journalist who founded political Zionism, framed the project in colonial terms — in a 1902 letter to the British imperialist Cecil Rhodes he wrote that the Zionist enterprise was \"something colonial\" — and in 1899 established the Jewish Colonial Trust as the movement's financial arm.",
+    "sources": [
+        {
+            "label": "\"Edmond James de Rothschild,\" Wikipedia — biographical summary of his financing of the First Aliyah settlements from 1882 (Rishon LeZion, Zikhron Ya'akov, Rosh Pinna, Ekron and ~30 colonies).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Edmond_James_de_Rothschild",
+            "quote": "Edmond James de Rothschild was a French member of the Rothschild banking family. A strong proponent of Zionism, his large purchases of land in Ottoman Palestine fostered its colonization and set up parts of the infrastructure for the future State of Israel.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Center for Israel Education (israeled.org) — \"Baron Edmond de Rothschild Transfers Titles of His Colonies to the Palestine Jewish Colonization Association,\" timeline entry on his settlement funding from 1882.",
+            "type": "secondary",
+            "url": "https://israeled.org/timeline/baron-edmond-de-rothschild-the-transfers-titles-of-his-half-a-dozen-colonies-to-the-palestine-jewish-colonization-association/"
+        },
+        {
+            "label": "Theodor Herzl, letter/diary entry to Cecil Rhodes, January 1902 — \"Because it is something colonial…\" Discussed in \"Zionism as settler colonialism,\" Wikipedia.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Zionism_as_settler_colonialism"
+        }
+    ],
+    "status": "verified",
+    "notes": "First card of the pre-state-militias chapter — establishes the funding origin the reel opens on (Baron Edmond de Rothschild, First Aliyah, 1882). The Herzl 'something colonial' line is from his 1902 letter to Cecil Rhodes; full passage: 'Because it is something colonial, and because it presupposes understanding of a development which will take twenty or thirty years.' Jewish Colonial Trust founded 1899 as the Zionist movement's bank. Connects forward to 1920-zionist-militia-lineage-001 (the settlements these colonies needed armed guarding for) and back-references 1917-balfour-declaration-001 (Rothschild as Balfour's addressee). Rothschild funding and the Herzl colonial-framing are Group A; the reel's surrounding 'original terrorists' framing is Group B and is not asserted here."
+}

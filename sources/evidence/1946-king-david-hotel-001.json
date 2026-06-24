@@ -1,0 +1,28 @@
+{
+    "id": "1946-king-david-hotel-001",
+    "anchor": "y1920-pre-state-militias",
+    "year": 1946,
+    "era": "ii",
+    "themes": [
+        "israel",
+        "palestine",
+        "body-count"
+    ],
+    "claim": "On 22 July 1946 the Irgun bombed the King David Hotel in Jerusalem, whose southern wing housed the central offices of the British Mandate government — the Secretariat of the Government of Palestine and British military headquarters. 91 people of various nationalities were killed (41 Arabs, 28 Britons, 17 Jews, and 5 others) and 46 injured, the deadliest attack of the Zionist insurgency against British rule. The Irgun later evolved into the Herut party and then into Likud; its commander at the time of the bombing's planning period, Menachem Begin, became Prime Minister of Israel in 1977.",
+    "sources": [
+        {
+            "label": "\"King David Hotel bombing,\" Wikipedia — the Irgun's 22 July 1946 bombing of the British Mandate headquarters, 91 killed.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/King_David_Hotel_bombing",
+            "quote": "The bombing killed 91 people of various nationalities, including Arabs, Britons, and Jews, and injured 46. Most of the casualties were employees of the hotel or the Secretariat: 21 were senior government officials.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Jewish Virtual Library, \"The Irgun: Bombing of the King David Hotel\" — account of the attack on the British administrative headquarters.",
+            "type": "secondary",
+            "url": "https://www.jewishvirtuallibrary.org/bombing-of-the-king-david-hotel"
+        }
+    ],
+    "status": "verified",
+    "notes": "The reel says '97 civilians'; the documented toll is 91 killed of mixed nationality (41 Arabs, 28 British, 17 Jews, 2 Armenians, 1 Russian, 1 Greek, 1 Egyptian) — not all civilians, and the figure is 91 not 97. The target was the British Mandate Secretariat and military HQ in the hotel's south wing, not a 'British administration headquarters' separate building. Warnings-given is contested (Irgun says phoned warnings; British say they did not arrive in time) — noted but the casualty fact is uncontested. Group A on the act and toll. Ties to 1948-einstein-begin-letter-001 (Begin/Irgun -> Herut -> Likud). Body-count theme per site convention."
+}

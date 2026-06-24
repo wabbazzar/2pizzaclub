@@ -1,0 +1,29 @@
+{
+    "id": "1940-patria-001",
+    "anchor": "y1920-pre-state-militias",
+    "year": 1940,
+    "era": "i",
+    "themes": [
+        "israel",
+        "palestine",
+        "body-count"
+    ],
+    "claim": "On 25 November 1940 the Haganah sank the ocean liner SS Patria in Haifa harbour. The British were about to deport roughly 1,800 Jewish refugees aboard the ship to Mauritius; the Haganah smuggled a bomb aboard intending to disable the vessel and prevent its departure, but the explosion tore the side off the ship, which sank in under sixteen minutes. 267 people were killed and 172 injured — most of them the Jewish refugees the operation was meant to keep in Palestine. The Haganah said it had miscalculated the charge.",
+    "sources": [
+        {
+            "label": "\"Patria disaster,\" Wikipedia — the Haganah's 25 November 1940 sinking of the SS Patria in Haifa, 267 killed.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Patria_disaster",
+            "quote": "The Patria disaster was the sinking on 25 November 1940 by the Jewish paramilitary organization Haganah of a French-built ocean liner, the 11,885-ton SS Patria, in the port of Haifa, killing 267 people and injuring 172.",
+            "clip": "clips/1940-patria-001-00.png",
+            "clip_status": "ok-cross-node60"
+        },
+        {
+            "label": "Beit Hatfutsot / ANU – Museum of the Jewish People, \"The Patria Disaster: A Forgotten Zionist Mass Tragedy\" — account of the Haganah operation and the death toll.",
+            "type": "secondary",
+            "url": "https://anumuseum.org.il/blog/patria/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The reel says 276 killed; the documented figure is 267 (172 injured). The bomb was intended to disable, not sink — the over-charge killed mostly the refugees the operation sought to protect. Group A event (uncontested that the Haganah placed the bomb and the ship sank with heavy loss of life); the 'they bombed a refugee ship' line in the reel is accurate as to the act. Body-count theme matches the site's convention for mass-casualty records."
+}

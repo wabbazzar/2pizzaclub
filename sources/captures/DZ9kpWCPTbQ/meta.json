@@ -1,0 +1,40 @@
+{
+    "id": "DZ9kpWCPTbQ",
+    "url": "https://www.instagram.com/reel/DZ9kpWCPTbQ/",
+    "platform": "instagram",
+    "captured_at": "2026-06-24",
+    "handle": "@_leftizm",
+    "author_display_name": "Futurist Leftizm",
+    "posted_at": "2026-06-24",
+    "engagement": {
+        "likes": 9856,
+        "comments": 280
+    },
+    "caption": "For a deeper dive, check out @isaaczale recent video on The Myth of Israeli Self-defense on his channel OverZealots. Es muy increíble. 🤙🏽 #freepalesti̇ne #fuckisrael #fuckcolonialism",
+    "hashtags": [
+        "freepalesti",
+        "fuckisrael",
+        "fuckcolonialism"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Single-word caption-card overlays punctuating the narration (e.g. \"WHEN\"); a second, older speaker appears in an inset frame.",
+    "audio_content_summary": "A monologue tracing the institutional lineage of the Israeli military from the 1880s Rothschild-funded settlements through the pre-state paramilitaries (Bar-Giora 1907, Hashomer 1909, Haganah 1920, Irgun 1931, Lehi 1940) to the formation of the IDF in 1948, citing the Patria sinking, the King David Hotel bombing, Lehi's proposed alliance with Nazi Germany, Einstein's letter comparing the Irgun/Herut to the Nazis, and the Irgun-to-Herut-to-Likud party lineage. The documented events and lineage check out (with minor number slips). They are framed inside a contested overarching thesis that the IDF and the Israeli government 'are terrorist organizations' that 'invented terrorism' and that this is 'not up for debate.'",
+    "implied_frame": "Central thesis — asserted as settled fact ('not up for debate') — that the IDF and the Israeli state are and always have been terrorist organizations that 'invented terrorism.' This conclusion is the reel's interpretation (Group B), not adopted here; the underlying historical events are documented separately as Group A records. Also Group B: the claim that the Haganah contaminated Palestinian village water wells with typhoid (the 1948 'Cast Thy Bread' operation) — real but contested among historians and not written as a verified record here. Minor factual slips in otherwise-accurate claims: Patria toll stated as 276 (documented 267); King David Hotel stated as '97 civilians' (documented 91 killed, mixed nationalities, not all civilians); Begin's Nobel Peace Prize stated as 1979 (1978).",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~19.6 MB); delivery ~20.2 MB webm, 177s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "1882-rothschild-settlements-001",
+        "1891-ahad-haam-001",
+        "1920-zionist-militia-lineage-001",
+        "1940-patria-001",
+        "1941-lehi-nazi-proposal-001",
+        "1946-king-david-hotel-001"
+    ],
+    "editorial_split": {
+        "a": 7,
+        "b": 3,
+        "c": 0
+    },
+    "supporting_research_links": []
+}

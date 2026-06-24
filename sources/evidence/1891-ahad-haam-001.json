@@ -1,0 +1,28 @@
+{
+    "id": "1891-ahad-haam-001",
+    "anchor": "y1920-pre-state-militias",
+    "year": 1891,
+    "era": "i",
+    "themes": [
+        "israel",
+        "palestine"
+    ],
+    "claim": "In 1891 the Russian-Jewish essayist Asher Ginsberg — who wrote under the pen name Ahad Ha'am (\"one of the people\") and became a leading figure of cultural Zionism — published \"Truth from Eretz Israel\" (Emet me-Eretz Yisrael), an account of his visit to the Jewish colonies in Ottoman Palestine. It is regarded as one of the first serious Zionist treatments of the Arab population, and it condemned how the settlers treated the Arabs already living on the land: they \"walk with the Arabs in hostility and cruelty, unjustly encroaching on them, shamefully beating them for no good reason, and even bragging about what they do.\"",
+    "sources": [
+        {
+            "label": "Ahad Ha'am, \"Truth from Eretz Israel\" (Emet me-Eretz Yisrael), 1891 — quoted in \"Ahad Ha'am,\" Wikipedia.",
+            "type": "primary",
+            "url": "https://en.wikipedia.org/wiki/Ahad_Ha%27am",
+            "quote": "walk with the Arabs in hostility and cruelty, unjustly encroaching on them, shamefully beating them for no good reason, and even bragging about what they do",
+            "clip": "clips/1891-ahad-haam-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Alan Dowty, \"Much Ado about Little: Ahad Ha'am's 'Truth from Eretz Yisrael,' Zionism, and the Arabs,\" Israel Studies 5:2 (2000) — scholarly translation and analysis of the 1891 essay.",
+            "type": "secondary",
+            "url": "https://muse.jhu.edu/article/14451/summary"
+        }
+    ],
+    "status": "verified",
+    "notes": "The reel quotes this 1891 passage. Ahad Ha'am = Asher Ginsberg (1856-1927), cultural Zionist. The Dowty article is the standard English-language scholarly treatment with full translation. Group A (a documented primary-source observation), distinct from the reel's 'original terrorists' framing (Group B). Sits between 1882-rothschild-settlements-001 and 1920-zionist-militia-lineage-001."
+}

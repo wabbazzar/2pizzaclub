@@ -1,0 +1,38 @@
+{
+    "id": "1920-zionist-militia-lineage-001",
+    "anchor": "y1920-pre-state-militias",
+    "year": 1920,
+    "era": "i",
+    "themes": [
+        "israel",
+        "palestine",
+        "idf"
+    ],
+    "claim": "The Israel Defense Forces (IDF) descend from a chain of pre-state Zionist paramilitaries. In 1907 Second-Aliyah immigrants from the Russian Empire founded Bar-Giora, a small armed guard for the Rothschild-funded colonies; in 1909 it was absorbed into the larger Hashomer (\"The Watchman\"); in 1920 Hashomer was succeeded by the Haganah (\"The Defense\"), the main underground force of the Yishuv (the pre-state Jewish community in Palestine). In 1931 a faction broke from the Haganah to form the more militant Irgun Zvai Leumi; in 1940 Avraham Stern split from the Irgun to form Lehi, also known as the Stern Gang. When Israel was established in 1948, the Haganah became the core of the new IDF and the Irgun and Lehi were absorbed into it.",
+    "sources": [
+        {
+            "label": "\"Haganah,\" Wikipedia — the Yishuv's main paramilitary, founded 1920, successor to Hashomer, integrated into the IDF in 1948.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Haganah",
+            "quote": "The Haganah was the main Zionist paramilitary organization that operated for the Yishuv in the British Mandate for Palestine. It was founded in 1920 to defend the Yishuv's presence in the region, and was formally disbanded in 1948, when it became the core force integrated into the Israel Defense Forces shortly after the Israeli Declaration of Independence.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "\"Bar-Giora (organization),\" Wikipedia — Jewish militia in Ottoman Palestine 1907-1909, founded by Second-Aliyah immigrants, forerunner of Hashomer.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Bar-Giora_(organization)"
+        },
+        {
+            "label": "\"Hashomer,\" Wikipedia — Jewish defense organization founded April 1909 as an outgrowth of Bar-Giora; disbanded into the Haganah in 1920.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Hashomer"
+        },
+        {
+            "label": "\"Irgun,\" Wikipedia — founded 1931 as an offshoot of the Haganah; Avraham Stern's Lehi split from the Irgun in 1940.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Irgun"
+        }
+    ],
+    "status": "verified",
+    "notes": "The organizational spine of the reel: Bar-Giora (1907) -> Hashomer (1909) -> Haganah (1920) -> Irgun (1931 split) -> Lehi (1940 split) -> IDF (1948). Founding dates cross-checked against each org's Wikipedia entry. The lineage itself is Group A (uncontested institutional history). The reel's characterization of the whole chain as 'terrorists from day one' is Group B framing and is not asserted here; the specific terrorist designations that ARE documented (UN/UK/US on the Irgun; Lehi's self-description) live in the King David and Lehi records. IDF defined on first use. Connects to 1948-einstein-begin-letter-001 (the political afterlife: Irgun -> Herut -> Likud)."
+}

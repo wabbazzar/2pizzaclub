@@ -1,0 +1,28 @@
+{
+    "id": "1941-lehi-nazi-proposal-001",
+    "anchor": "y1920-pre-state-militias",
+    "year": 1941,
+    "era": "i",
+    "themes": [
+        "israel",
+        "palestine"
+    ],
+    "claim": "In January 1941 Lehi — the Zionist underground led by Avraham Stern, also called the Stern Gang — sought an alliance with Nazi Germany. In a proposal recorded in the so-called Ankara document, Lehi offered to \"actively take part in the war on Germany's side\" against the British in exchange for German backing for \"the establishment of the historic Jewish state on a national and totalitarian basis, bound by a treaty with the German Reich,\" including the transfer of Europe's Jews to Palestine. The German foreign ministry never responded. Lehi openly described itself as a terrorist organization; an article in its underground paper titled \"Terror\" defended the tactic by name.",
+    "sources": [
+        {
+            "label": "\"Lehi (militant group),\" Wikipedia — the January 1941 \"Ankara document\" offer to Nazi Germany and Lehi's self-description as terrorists.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Lehi_(militant_group)",
+            "quote": "the establishment of the historic Jewish state on a national and totalitarian basis, bound by a treaty with the German Reich",
+            "clip": "clips/1941-lehi-nazi-proposal-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Scan of the January 1941 proposal document from the Stern Gang (Lehi) to Nazi Germany — Palestine Remembered archive.",
+            "type": "primary",
+            "url": "https://www.palestineremembered.com/Acre/Palestine-Remembered/Story799.html"
+        }
+    ],
+    "status": "verified",
+    "notes": "The 'Ankara document' was a report filed 11 January 1941 by Vice-Admiral Ralf von der Marwitz, German naval attache in Turkey, conveying Lehi's offer; sent to Berlin 21 January 1941, never answered. The verbatim 'national and totalitarian basis, bound by a treaty with the German Reich' is the standard English rendering of the proposal. Lehi's self-description as terrorists is documented (the 'Terror' article in its underground press). Group A on the documented facts (the proposal exists; Lehi used the word 'terrorist' of itself). The reel states both accurately. Avraham Stern split from the Irgun in 1940 (see 1920-zionist-militia-lineage-001)."
+}
