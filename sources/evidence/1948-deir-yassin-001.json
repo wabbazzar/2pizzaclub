@@ -1,0 +1,29 @@
+{
+    "id": "1948-deir-yassin-001",
+    "anchor": "y1920-pre-state-militias",
+    "year": 1948,
+    "era": "ii",
+    "themes": [
+        "israel",
+        "palestine",
+        "body-count"
+    ],
+    "claim": "On April 9, 1948 — five weeks before the State of Israel was declared — fighters from the Irgun and Lehi, supported by the Haganah and the Palmach, attacked the Palestinian Arab village of Deir Yassin near Jerusalem, which had agreed to a non-aggression pact. Historians today estimate that between 100 and 120 villagers were killed, including women and children; Jacques de Reynier, the head of the International Committee of the Red Cross delegation in Palestine, who reached the village on April 11, reported \"more than 200 dead.\" News of the killings was widely publicized and helped trigger the mass flight of Palestinians during the 1948 war.",
+    "sources": [
+        {
+            "label": "\"Deir Yassin massacre,\" Wikipedia — the April 9, 1948 attack by Irgun and Lehi, casualty estimates, and Jacques de Reynier's Red Cross account.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Deir_Yassin_massacre",
+            "quote": "The Deir Yassin massacre took place on 9 April 1948, when Zionist paramilitaries attacked the Palestinian Arab village of Deir Yassin near Jerusalem, killing at least 107 villagers, including women and children.",
+            "clip": "clips/1948-deir-yassin-001-00.png",
+            "clip_status": "ok-cross-node30"
+        },
+        {
+            "label": "Jewish Virtual Library — \"The Capture of Deir Yassin\" (Irgun/Lehi operation, April 9, 1948).",
+            "type": "secondary",
+            "url": "https://www.jewishvirtuallibrary.org/the-capture-of-deir-yassin"
+        }
+    ],
+    "status": "verified",
+    "notes": "Push-2 record completing the pre-state-militias chapter's arc into the Nakba. Deir Yassin was previously referenced only inside 1948-einstein-begin-letter-001 (which quotes the letter's line that the perpetrators 'were proud of this massacre'); this gives it a standalone card. Casualty figures: long cited as 254, revised down by later scholarship (Sharif Kanaana / Birzeit University) to ~107-120; de Reynier's contemporaneous Red Cross estimate was higher (200+). The village had a non-aggression pact with neighboring Jewish settlements. Connects forward to 1948-nakba-001 and 1948-einstein-begin-letter-001. Body-count theme per site convention; IDF/Irgun/Lehi lineage in 1920-zionist-militia-lineage-001."
+}

@@ -1,0 +1,44 @@
+{
+    "id": "2015-epstein-churkin-relationship-001",
+    "anchor": "y2019",
+    "year": 2015,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "intelligence"
+    ],
+    "claim": "Jeffrey Epstein cultivated a sustained relationship with Vitaly Churkin, Russia's Permanent Representative to the United Nations, and Churkin's son Maxim, from October 2015 until Churkin's death in February 2017. Epstein's own emails and schedules, released in the DOJ Epstein files, show the contact was brokered through the Norwegian UN diplomat Terje Rod-Larsen: Churkin first came to Epstein's Manhattan home for lunch on October 25, 2015 (\"Mr. Churkin came to Jeffrey's home yesterday for lunch\"), after which Epstein's office sought Churkin's private phone and email. Over the next sixteen months the records document repeated lunches at Epstein's townhouse — including the October 7, 2016 lunch with Peter Thiel and a January 10, 2017 lunch with Churkin and Hyatt chairman Tom Pritzker — and a September 2016 email in which Epstein told Thiel that Churkin had been \"debriefing on syria.\" In parallel, Epstein took on Churkin's son Maxim, who sought Epstein's \"guidance going forward,\" sent Epstein his resume, dropped gifts at the house, and was arranged into a once-a-week role; Vitaly Churkin died in New York on February 20, 2017.",
+    "sources": [
+        {
+            "label": "DOJ Epstein production / House Oversight estate — email noting Vitaly Churkin lunched at Epstein's home and requesting his contact details, October 26, 2015 (Bates EFTA02068647).",
+            "type": "primary",
+            "url": null,
+            "quote": "Jeffrey is asking me to please get Vitaly Churkin's phone number and email address from you...might this be possilbe? Mr. Churkin came to Jeffrey's home yesterday for lunch."
+        },
+        {
+            "label": "DOJ Epstein production / House Oversight estate — email to Terje Rod-Larsen arranging the first Epstein-Churkin meeting, October 23, 2015 (Bates EFTA02069481).",
+            "type": "primary",
+            "url": null,
+            "quote": "Jeffrey is hoping to meet with your friend Churkin, tomorrow, Saturday, in the morning. Do you know if he is available as of yet?"
+        },
+        {
+            "label": "DOJ Epstein production / House Oversight estate — Epstein email to Peter Thiel referencing Churkin, September 17, 2016 (Bates EFTA00817814).",
+            "type": "primary",
+            "url": null,
+            "quote": "sorry you are not here, vitally churkin debriefing on syria, wild."
+        },
+        {
+            "label": "DOJ Epstein production / House Oversight estate — email from Maxim Churkin seeking Epstein's mentorship, November 17, 2016 (Bates EFTA02196073).",
+            "type": "primary",
+            "url": null,
+            "quote": "Would be possible to meet with Jeffrey? I would like to discuss my internship and ask for guidance going forward."
+        },
+        {
+            "label": "Wikipedia — Vitaly Churkin (Russia's Permanent Representative to the UN, 1952-2017; died in New York February 20, 2017).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Vitaly_Churkin"
+        }
+    ],
+    "status": "verified",
+    "notes": "Push-1 record extending 2016-epstein-thiel-churkin-lunch-001 from a single lunch to the full 2015-2017 relationship, surfaced by grepping our own EFTA corpus for 'churkin'. Corroborating Bates beyond those quoted: EFTA02069529/EFTA02069552/EFTA02069178 (the Oct 25 2015 lunch via Terje Rod-Larsen), EFTA02067904 (Nov 2015 follow-up), EFTA02200644/EFTA02200287/EFTA02199955/EFTA02200098 (the Jan 10 2017 Churkin/Pritzker lunch), and EFTA02196073/EFTA02196502/EFTA02201773/EFTA02202153/EFTA02208115 (Maxim Churkin's mentorship, resume, gifts, and the once-a-week role, into March 2017). Terje Rod-Larsen later resigned the International Peace Institute presidency in 2020 over undisclosed Epstein ties/loans. Stated as documented primary fact only; no inference about the purpose of the contact is drawn. Vitaly Churkin glossed on first use. Pairs with 2016-epstein-thiel-churkin-lunch-001 and 2016-epstein-wikileaks-podesta-link-001 in the y2019 cluster."
+}

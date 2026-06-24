@@ -1,0 +1,34 @@
+{
+    "id": "1948-cast-thy-bread-001",
+    "anchor": "y1920-pre-state-militias",
+    "year": 1948,
+    "era": "ii",
+    "themes": [
+        "israel",
+        "palestine",
+        "state-terror"
+    ],
+    "claim": "During the 1948 war, Haganah forces — and after May, the new Israel Defense Forces — ran a covert biological-warfare operation, code-named \"Cast Thy Bread,\" that contaminated wells in depopulated Palestinian villages and besieged Arab towns with typhoid and dysentery bacteria to keep residents from returning and to impede Arab armies. Long denied, the operation was documented from Israeli, British, and Red Cross archives by the Israeli historians Benny Morris and Benjamin Z. Kedar in a 2022 peer-reviewed study in the journal Middle Eastern Studies. Their research and contemporaneous records tie the program to a typhoid outbreak in Acre in May 1948 — an Israeli intelligence report judged the induced epidemic to have aided the town's rapid fall — and to attempted well-poisonings at Eilabun in the Galilee and elsewhere; an operation against Gaza in late May 1948 led to the capture of two Israeli agents by Egyptian forces.",
+    "sources": [
+        {
+            "label": "Benny Morris and Benjamin Z. Kedar, \"'Cast thy bread': Israeli biological warfare during the 1948 war,\" Middle Eastern Studies (2022) — archival study of the operation.",
+            "type": "secondary",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/00263206.2022.2122448"
+        },
+        {
+            "label": "Haaretz — \"'Place the Material in the Wells': Documents Point to Israeli Army's 1948 Biological Warfare\" (Ofer Aderet, October 14, 2022).",
+            "type": "secondary",
+            "url": "https://www.haaretz.com/israel-news/2022-10-14/ty-article-magazine/.highlight/documents-confirm-israelis-poisoned-arab-wells-in-1948/00000183-d2b2-d8cc-afc7-fefed64d0000"
+        },
+        {
+            "label": "\"Operation Cast Thy Bread,\" Wikipedia — summary of the Haganah/IDF 1948 typhoid well-contamination operation drawing on Morris and Kedar.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Operation_Cast_Thy_Bread",
+            "quote": "Operation Cast Thy Bread was a biological warfare operation conducted by the Haganah and later the Israel Defense Forces (IDF) which began in 1948, during the 1948 Palestine war, in which the Haganah used typhoid bacteria to contaminate water wells in violation of the 1925 Geneva Protocol.",
+            "clip": "clips/1948-cast-thy-bread-001-02.png",
+            "clip_status": "ok-cross-node30"
+        }
+    ],
+    "status": "verified",
+    "notes": "Push-3 record resolving the one Group-B item left from the @_leftizm reel (the Haganah typhoid-wells claim), now written as a documented record rather than left in capture notes. The reel's framing ('typhoid virus') was loose, but the underlying operation is real and was confirmed by archival research from Benny Morris (himself an Israeli historian often critical of Palestinian narratives) and Israel Prize laureate Benjamin Z. Kedar, so this is no longer a contested allegation but a documented finding — hence status verified, presented with its mainstream-Israeli-historian sourcing. Acre typhoid outbreak May 1948; Eilabun and Jerusalem-neighborhood wells also targeted; two agents captured near Gaza late May 1948. Connects to 1920-zionist-militia-lineage-001 (Haganah->IDF) and 1948-nakba-001."
+}
