@@ -1,0 +1,38 @@
+{
+    "id": "DZ8s74zpkW0",
+    "url": "https://www.instagram.com/reel/DZ8s74zpkW0/",
+    "platform": "instagram",
+    "captured_at": "2026-06-24",
+    "handle": "@bobcancount",
+    "author_display_name": "Bob Can Count",
+    "posted_at": "2026-06-24",
+    "engagement": {
+        "likes": 2483,
+        "comments": 182
+    },
+    "caption": "Qanon Is A Pysop Created By Epstein & Crew To Keep Conspiracy Theorist Complacent With Empty Promises & Also To Project What They Were Doing Onto The Democrats (Hillary Clinton, Pizza Gate). Q = Operation trust 2.0 which was a Soviet counterintelligence operation from 1921-1927 that created a fake anti-Bolshevik resistance to convince real dissidents they didn’t need to act because others had it handled. Then Millions Died by that same government. #q #qanon #4chan #epstein #conspiracy",
+    "hashtags": [
+        "q",
+        "qanon",
+        "4chan",
+        "epstein",
+        "conspiracy"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Large kinetic captions tracking the narration; opens on a screenshot purporting to show a White House X/Twitter post reading \"White House will be Q posting today…\"",
+    "audio_content_summary": "A monologue arguing that QAnon was a deliberate psyop — equated to the Soviet 'Operation Trust' counterintelligence sting of 1921-1927 — designed to keep conspiracy-minded people passive by promising a coming 'storm' of elite arrests, and asserting that it was created by 'Jeffrey Epstein and crew.' As supposed evidence it cites a documented October 7, 2016 lunch between Epstein, Peter Thiel and Russia's UN ambassador Vitaly Churkin, the same-day WikiLeaks Podesta-emails dump, and Epstein circulating the WikiLeaks link. Those two Epstein-file facts check out against our own corpus; the framing built on them (that Epstein authored QAnon) does not.",
+    "implied_frame": "Central thesis (Group C): that QAnon was a psyop authored by 'Jeffrey Epstein and crew,' a modern 'Operation Trust' engineered to pacify dissidents with false hope. This authorship attribution has no primary trace and is not adopted here. Also Group B/C: the claim that a 2026 official White House social post was 'formatted identically' to QAnon drops (recent, unverified, interpretive); the 'Q = Operation Trust 2.0' analogy; the assertion that 'Pizzagate and frazzledrip were definitely real' (frazzledrip is a documented fabrication and Pizzagate's ring allegation is unsubstantiated — see 2016-pizzagate-deathlist-001 and 2016-weiner-laptop-frazzledrip-001); and that Operation Trust left 'millions dead.' Group A, verified against our own EFTA corpus and recorded: the October 7, 2016 Epstein-Thiel-Churkin lunch, and Epstein's account circulating the WikiLeaks Podesta link that night. Operation Trust (1921-1927) and QAnon's 2017 4chan origin are accurately described historical facts but were not written as records.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~17.8 MB); delivery ~18.4 MB webm, 152s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2016-epstein-thiel-churkin-lunch-001",
+        "2016-epstein-wikileaks-podesta-link-001"
+    ],
+    "editorial_split": {
+        "a": 2,
+        "b": 4,
+        "c": 2
+    },
+    "supporting_research_links": []
+}

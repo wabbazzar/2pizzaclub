@@ -1,0 +1,44 @@
+{
+    "id": "2016-epstein-thiel-churkin-lunch-001",
+    "anchor": "y2019",
+    "year": 2016,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "intelligence"
+    ],
+    "claim": "Jeffrey Epstein hosted a private lunch for Peter Thiel — the PayPal and Palantir co-founder and Silicon Valley investor — and Vitaly Churkin, then Russia's Permanent Representative to the United Nations (its UN ambassador in New York), on Friday, October 7, 2016. Epstein's own emails and daily schedule, released in the House Oversight estate production of the Epstein files, document the arrangement: his assistant Lesley Groff described it as \"the important lunch today\" for \"3pp at 12:30\" at which \"Peter Thiel and Vitaly Churkin will be coming,\" Epstein's printed schedule for the day lists \"12:30pm LUNCH w/Peter Thiel and Vitaly Churkin,\" and Epstein emailed Thiel directly to confirm \"churkin confirmed friday.\" An earlier September 17, 2016 email from Epstein to Thiel refers to \"vitally churkin debriefing on syria.\" Churkin died in New York on February 20, 2017.",
+    "sources": [
+        {
+            "label": "DOJ Epstein production / House Oversight estate — email from Lesley Groff (Epstein's assistant) confirming the October 7, 2016 lunch (Bates EFTA02040190).",
+            "type": "primary",
+            "url": null,
+            "quote": "Jeffrey would like you to be in charge of the important lunch today. It is for 3pp at 12:30! Peter Thiel and Vitaly Churkin will be coming"
+        },
+        {
+            "label": "DOJ Epstein production / House Oversight estate — Epstein's daily schedule for Friday, October 7, 2016 (Bates EFTA00638566).",
+            "type": "primary",
+            "url": null,
+            "quote": "Fri. Oct. 7, 2016 NY ... 11:15am Consultation Appt w/Dr. Krumholtz 111 East 80th Street 12:30pm LUNCH w/Peter Thiel and Vitaly Churkin"
+        },
+        {
+            "label": "DOJ Epstein production / House Oversight estate — email from \"Jeffrey E.\" (jeevacation@gmail.com) to Peter Thiel confirming the lunch, October 5, 2016 (Bates EFTA00815990).",
+            "type": "primary",
+            "url": null,
+            "quote": "churkin confirmed friday . and if you would like to join woody allen for dinner thurs , you are always welcome"
+        },
+        {
+            "label": "DOJ Epstein production / House Oversight estate — email from Epstein to Peter Thiel referencing Churkin, September 17, 2016 (Bates EFTA00817814).",
+            "type": "primary",
+            "url": null,
+            "quote": "sorry you are not here, vitally churkin debriefing on syria, wild."
+        },
+        {
+            "label": "Wikipedia — Vitaly Churkin (Russia's Permanent Representative to the UN, 1952-2017; died in New York February 20, 2017).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Vitaly_Churkin"
+        }
+    ],
+    "status": "verified",
+    "notes": "Surfaced by grepping our own EFTA corpus (the lunch is documented across at least a dozen estate emails/schedule pages: EFTA02040190, EFTA00638566, EFTA00317517, EFTA02041034, EFTA00815990, EFTA00815998, EFTA00817814, EFTA02040844, EFTA02040252, plus HOUSE_OVERSIGHT_026631 contact lists). Thiel and Churkin both glossed on first use. The lunch is a documented primary fact; the prompting reel frames it as evidence that Epstein orchestrated QAnon, which is not asserted here — the record states only who met, when, and where, per Epstein's own records. The reel also miscalls Churkin a 'US ambassador'; he was Russia's ambassador to the UN, posted in New York. Date context: October 7, 2016 was also the day the Access Hollywood tape and the first WikiLeaks Podesta-emails dump broke (see 2016-epstein-wikileaks-podesta-link-001). Sits in the y2019 Clinton/Epstein-network cluster alongside 2016-pizzagate-deathlist-001 and 2016-weiner-laptop-frazzledrip-001."
+}

@@ -1,0 +1,32 @@
+{
+    "id": "2016-epstein-wikileaks-podesta-link-001",
+    "anchor": "y2019",
+    "year": 2016,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "clinton"
+    ],
+    "claim": "Late on October 7, 2016 — the day WikiLeaks began publishing the emails of Clinton campaign chairman John Podesta, and the same day The Washington Post released the \"Access Hollywood\" recording of Donald Trump — Jeffrey Epstein's email account passed along a link to the WikiLeaks Podesta-emails archive. In a message timestamped 1:29 a.m. UTC on October 8, 2016 (the evening of October 7 in New York), released in the House Oversight estate production of the Epstein files, Epstein's account (jeevacation@gmail.com) replied to a correspondent in a thread forwarding a New York Times alert about the Access Hollywood story, with the body consisting of the link \"https://wikileaks.org/podesta-emails/emailid/927.\" The corpus contains a single such Epstein email; the underlying WikiLeaks Podesta release and the Access Hollywood tape are both matters of public record dated October 7, 2016.",
+    "sources": [
+        {
+            "label": "DOJ Epstein production / House Oversight estate, Bates HOUSE_OVERSIGHT_031619 — email from Epstein's account (jeevacation@gmail.com) dated 10/8/2016 1:29:26 AM UTC containing the WikiLeaks Podesta-emails link.",
+            "type": "primary",
+            "url": "https://2pizzaclub.com/efta/messages.html",
+            "quote": "jeffrey E.[jeevacation@gmail.com] Sat 10/8/2016 1:29:26 AM (UTC) Stephen Hanson_ Re: Breaking News: Donald Trump brags in vulgar terms about groping women in a 2005 recording ... https://wikileaks.org/podesta-emails/emailid/927",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Wikipedia — Podesta emails (WikiLeaks began publishing them on October 7, 2016).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Podesta_emails"
+        },
+        {
+            "label": "Wikipedia — Access Hollywood tape (released by The Washington Post on October 7, 2016).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Access_Hollywood_tape"
+        }
+    ],
+    "status": "verified",
+    "notes": "Surfaced by grepping our own EFTA corpus for 'wikileaks'/'podesta'; HOUSE_OVERSIGHT_031619 is the one estate email in which Epstein's account itself carries a WikiLeaks Podesta link. The prompting reel claims Epstein 'was sending out the WikiLeaks link to all of his associates' on October 8 — the corpus supports only this single instance (a reply to one correspondent, Stephen Hanson, in an Access Hollywood thread), so the record states that precisely rather than the reel's 'all his associates.' Timestamp 1:29 a.m. UTC Oct 8 = ~9:29 p.m. EDT Oct 7, i.e. hours after the ~4 p.m. EDT WikiLeaks dump and Access Hollywood release. No inference about foreknowledge or coordination is drawn; the reader weighs the primary fact. Pairs with 2016-epstein-thiel-churkin-lunch-001 (same day) in the y2019 cluster."
+}
