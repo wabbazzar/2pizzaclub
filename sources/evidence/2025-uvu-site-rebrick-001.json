@@ -1,0 +1,37 @@
+{
+    "id": "2025-uvu-site-rebrick-001",
+    "anchor": "y2025-kirk",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "kirk"
+    ],
+    "claim": "Within about a week of the September 10, 2025 shooting, Utah Valley University removed the grass at the spot in its Orem campus courtyard where Charlie Kirk was shot and covered the area with brick, leaving the courtyard's overall design otherwise unchanged; the courtyard was later reopened to students. Separate reporting found the campus had lacked some standard public-safety measures in place at the time of the event. Some online commentary characterized the quick groundwork as an attempt to conceal evidence; no public evidence indicates the work removed or destroyed investigative material.",
+    "sources": [
+        {
+            "label": "KUTV — “Site of Charlie Kirk shooting leaves stark reminder for students on return to class”",
+            "type": "primary",
+            "url": "https://kutv.com/news/local/charlie-kirk-assassination-leaves-permanent-mark-on-utah-valley-university-courtyard",
+            "quote": "The grass where Charlie Kirk was shot and killed has been removed, and bricks now cover the area.",
+            "clip": "clips/2025-uvu-site-rebrick-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "KUER — “Utah Valley University, where Charlie Kirk was shot, lacked key public safety tools”",
+            "type": "secondary",
+            "url": "https://www.kuer.org/education/2025-09-30/utah-valley-university-where-charlie-kirk-was-shot-lacked-key-public-safety-tools"
+        },
+        {
+            "label": "Wikipedia — “Assassination of Charlie Kirk” (with primary citations)",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Assassination_of_Charlie_Kirk"
+        },
+        {
+            "label": "Instagram reel DZ-dthxseaB (@wffnews, June 24, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZ-dthxseaB/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Verified fact: the courtyard spot was rebricked and reopened within roughly a week (KUTV). The 'completed construction to cover up evidence' reading is an attributed online claim; the shooting site was an outdoor courtyard processed by investigators in the days after the shooting, and no public evidence ties the groundwork to evidence destruction. Record states the verified site change and attributes the cover-up framing without adopting it. Surfacing reel: DZ-dthxseaB. [record state: verified-fact + attributed-claim]"
+}

@@ -22,6 +22,8 @@
     "audio_transcription_status": "Transcribed with openai-whisper.",
     "evidence_records": [
         "2025-carlson-kirk-israel-001",
+        "2025-harpole-security-001",
+        "2025-uvu-site-rebrick-001",
         "2025-bray-mic-theory-001",
         "2025-kirk-001",
         "2025-kirk-002",
