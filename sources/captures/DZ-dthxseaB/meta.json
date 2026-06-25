@@ -1,0 +1,32 @@
+{
+    "id": "DZ-dthxseaB",
+    "url": "https://www.instagram.com/reel/DZ-dthxseaB/",
+    "platform": "instagram",
+    "captured_at": "2026-06-25",
+    "handle": "@wffnews",
+    "author_display_name": "DANI LOVE",
+    "posted_at": "2026-06-24",
+    "engagement": {
+        "likes": 310897,
+        "comments": 6457
+    },
+    "caption": "Seems more likely than a hunting rifle …",
+    "hashtags": [],
+    "audio_track_actual": "Original creator voiceover (no licensed music bed).",
+    "video_overlay_text_observed": "Cover card: 'Exploding Mic Killed Charlie Kirk?' (red plates). Inset reenactment/freeze-frame clips and an 'exploded wireless mic' product photo run under the VO.",
+    "audio_content_summary": "Narrator advances the theory that Charlie Kirk was killed by an explosive hidden in his wireless lavalier mic rather than a rifle: cites side-by-side 'reenactment' footage, a Tucker Carlson clip tying the killing to Kirk's views on Israel, the September 2024 Israeli Hezbollah pager/walkie-talkie operation ('Grim Beeper') as the template, the missing wireless mic and the 'freedom shirt' that security chief Brian Harpole cut off at the hospital ('where is it? what if there's shrapnel?'), an image of an exploded wireless mic, a freeze-frame of Kirk's hand, Ian Carroll's claim about a destroyed Tennessee explosives factory with government contracts that 'made a mic pack,' and UVU's post-assassination construction at the site as a possible cover-up.",
+    "implied_frame": "Frames Kirk's assassination as an exploding-mic operation modeled on the Israeli pager attack, with Israel as the implied beneficiary/actor and a chain of circumstantial 'tells' (missing mic, missing shirt, destroyed factory, rebuilt site) standing in for primary evidence. The inflammatory claim lives in the cover card and the visual juxtapositions; the spoken VO hedges ('a lot of people believe,' 'you have to wonder'). Verified core facts the reel rides on — the Sept 2024 pager attack and the Oct 2025 AES factory explosion — are real and already recorded; the mic-charge mechanism, the shrapnel/missing-shirt insinuation, the 'made a mic pack' connection, and the cover-up read have no primary trace. Utah prosecutors charged Tyler James Robinson; ATF's fragment comparison to the recovered .30-06 was reported inconclusive.",
+    "editorial_split": {"a": 2, "b": 3, "c": 6},
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~34.9 MB); delivery ~35.4 MB webm, 111s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2025-carlson-kirk-israel-001",
+        "2025-bray-mic-theory-001",
+        "2025-kirk-001",
+        "2025-kirk-002",
+        "2024-pagers-001",
+        "2025-aes-explosion-001"
+    ],
+    "supporting_research_links": []
+}

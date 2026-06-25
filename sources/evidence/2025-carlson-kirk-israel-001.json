@@ -1,0 +1,53 @@
+{
+    "id": "2025-carlson-kirk-israel-001",
+    "anchor": "y2025-kirk",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "kirk",
+        "israel"
+    ],
+    "claim": "At Charlie Kirk's September 21, 2025 memorial in Glendale, Arizona, Tucker Carlson delivered a eulogy widely read as implying an Israeli hand in the killing, describing a scene of \"guys sitting around eating hummus\" deliberating over \"this guy telling the truth about us\"; Carlson has separately called Israeli Prime Minister Benjamin Netanyahu \"completely evil and completely destructive.\" On his March 18, 2026 podcast, Joe Kent — director of the National Counterterrorism Center (NCTC) and at the time under investigation — told Carlson that Kirk's assassination was \"a data point that we need to look into,\" arguing Kirk had been \"under a lot of pressure from a lot of pro-Israel donors\" and was advocating to President Trump against a war with Iran; Carlson answered \"Exactly\" to Kent's framing that the threat to U.S. Middle East policy came \"not from Iran [but] from Israel.\" Both Netanyahu and U.S. Senator Ted Cruz rejected the Israel-link claim. Netanyahu, in a video, called the rumors \"insane … false … outrageous.\" Cruz said the \"very last conversation\" he had with Kirk \"was how deeply concerned he was about the rising, toxic wave of antisemitism on the right.\"",
+    "sources": [
+        {
+            "label": "Jewish Insider — “In Carlson interview, Joe Kent doubles down on Israel conspiracy theories” (March 19, 2026)",
+            "type": "secondary",
+            "url": "https://jewishinsider.com/2026/03/tucker-carlson-joe-kent-iran-u-s-israel-war-charlie-kirk-killing/",
+            "quote": "One of President Trump's closest advisors was vocally advocating for us to not go to war with Iran and for us to rethink, at least, our relationship with the Israelis. And then he's suddenly publicly assassinated and we're not allowed to ask any questions about that?",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "JTA — “Joe Kent, now under investigation, insinuates to Tucker Carlson that Israel might have killed Charlie Kirk to stoke Iran war” (March 19, 2026)",
+            "type": "secondary",
+            "url": "https://www.jta.org/2026/03/19/politics/joe-kent-now-under-investigation-insinuates-to-tucker-carlson-that-israel-might-have-killed-charlie-kirk-to-stoke-iran-war",
+            "quote": "When one of President Trump's closest advisers, who is vocally advocating for us to not go to war with Iran and for us to rethink, at least, our relationship with the Israelis, and then he's suddenly publicly assassinated and we're not allowed to ask any questions about that, it's a data point.",
+            "clip": "clips/2025-carlson-kirk-israel-001-01.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "MSNBC opinion — “Tucker Carlson made a chilling choice in his eulogy for Charlie Kirk”",
+            "type": "secondary",
+            "url": "https://www.ms.now/opinion/msnbc-opinion/tucker-carlson-charlie-kirk-eulogy-antisemitism-maga-rcna233067",
+            "quote": "in a lamp-lit room with a bunch of guys sitting around eating hummus thinking about, 'What do we do about this guy telling the truth about us?'",
+            "clip": "clips/2025-carlson-kirk-israel-001-02.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Jewish News of Greater Phoenix — “Jewish leaders condemn Tucker Carlson's remarks at Charlie Kirk memorial in Glendale”",
+            "type": "secondary",
+            "url": "https://www.jewishaz.com/community/jewish-leaders-condemn-tucker-carlson-s-remarks-at-charlie-kirk-memorial-in-glendale/article_86c7d3f7-0238-4db4-bf68-4e43ac3725ca.html"
+        },
+        {
+            "label": "Jerusalem Post — “Tucker Carlson says Netanyahu is 'completely evil, completely destructive' in Saudi interview”",
+            "type": "secondary",
+            "url": "https://www.jpost.com/middle-east/article-887767"
+        },
+        {
+            "label": "Instagram reel DZ-dthxseaB (@wffnews, June 24, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZ-dthxseaB/"
+        }
+    ],
+    "status": "contested-public-claim",
+    "notes": "Documents that named public figures have publicly tied Kirk's killing to his positions on Israel, and that those claims were rejected by Netanyahu and Cruz; endorses neither side. No U.S. government finding ties Israel to the killing — Utah prosecutors charged Tyler James Robinson (see 2025-kirk-002). Tucker's eulogy was at State Farm Stadium, Glendale AZ, Sept 21 2025; the Joe Kent exchange aired on Carlson's podcast March 18, 2026 (Kent was NCTC director, then under investigation). The reel's specific phrasing — that Tucker said Kirk was 'most likely murdered for his evolving views on Israel' — is a paraphrase of this broader, documented framing rather than a confirmed verbatim. Surfacing reel: DZ-dthxseaB. [record state: contested, attributed-claim]"
+}
