@@ -6,7 +6,7 @@
     "themes": [
         "kirk"
     ],
-    "claim": "Within about a week of the September 10, 2025 shooting, Utah Valley University removed the grass at the spot in its Orem campus courtyard where Charlie Kirk was shot and covered the area with brick, leaving the courtyard's overall design otherwise unchanged; the courtyard was later reopened to students. Separate reporting found the campus had lacked some standard public-safety measures in place at the time of the event. Some online commentary characterized the quick groundwork as an attempt to conceal evidence; no public evidence indicates the work removed or destroyed investigative material.",
+    "claim": "Charlie Kirk was shot at 12:23 p.m. on September 10, 2025, in the open courtyard at Utah Valley University in Orem, Utah. The campus reopened to students on September 17; by then crews had removed the grass and the soil at the spot where he was struck and laid brick pavers over it — the impact site was excavated and resurfaced within one week. UVU said the grounds were replaced \"for reopening\" and withheld the contractor's name \"because of the ongoing investigation.\" Standard practice holds a homicide scene for weeks to months and bars destruction of scene evidence absent documented authorization; in a capital prosecution — Utah is seeking the death penalty against Tyler Robinson — the defense also has a preservation interest in the scene. Excavating and resurfacing the exact spot where the victim was struck within a week departs from that norm and ends any independent physical re-examination of the ground, which bears on the case's central forensic dispute over what struck Kirk: a bullet-jacket fragment recovered at autopsy was compared by the ATF to the recovered rifle and the comparison was reported inconclusive. Most of the charged physical evidence — the rifle, DNA, a towel, a screwdriver — came from the rooftop firing position about 142 yards away and a nearby wooded area, not the courtyard turf. No authority has publicly stated that the courtyard was forensically processed and released before the work; a fact-check disputing a \"federal cover-up\" nonetheless conceded that \"authorities haven't explained why the site restoration happened so quickly.\"",
     "sources": [
         {
             "label": "KUTV — “Site of Charlie Kirk shooting leaves stark reminder for students on return to class”",
@@ -17,12 +17,25 @@
             "clip_status": "ok-exact"
         },
         {
+            "label": "MEAWW — “Fact Check: Did authorities 'erase' Charlie Kirk crime scene at Utah Valley University?”",
+            "type": "secondary",
+            "url": "https://news.meaww.com/fact-check-did-authorities-erase-charlie-kirk-crime-scene-at-utah-valley-university",
+            "quote": "Authorities haven't explained why the site restoration happened so quickly.",
+            "clip": "clips/2025-uvu-site-rebrick-001-01.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "FBI — “Utah Valley Shooting Updates” (scene secured 12:39 p.m., Sept 10, 2025)",
+            "type": "primary",
+            "url": "https://www.fbi.gov/news/press-releases/utah-valley-shooting-updates"
+        },
+        {
             "label": "KUER — “Utah Valley University, where Charlie Kirk was shot, lacked key public safety tools”",
             "type": "secondary",
             "url": "https://www.kuer.org/education/2025-09-30/utah-valley-university-where-charlie-kirk-was-shot-lacked-key-public-safety-tools"
         },
         {
-            "label": "Wikipedia — “Assassination of Charlie Kirk” (with primary citations)",
+            "label": "Wikipedia — “Assassination of Charlie Kirk” (rooftop firing position ~142 yds; evidence provenance; with primary citations)",
             "type": "secondary",
             "url": "https://en.wikipedia.org/wiki/Assassination_of_Charlie_Kirk"
         },
@@ -32,6 +45,6 @@
             "url": "https://www.instagram.com/reel/DZ-dthxseaB/"
         }
     ],
-    "status": "verified",
-    "notes": "Verified fact: the courtyard spot was rebricked and reopened within roughly a week (KUTV). The 'completed construction to cover up evidence' reading is an attributed online claim; the shooting site was an outdoor courtyard processed by investigators in the days after the shooting, and no public evidence ties the groundwork to evidence destruction. Record states the verified site change and attributes the cover-up framing without adopting it. Surfacing reel: DZ-dthxseaB. [record state: verified-fact + attributed-claim]"
+    "status": "partially-verified-contested",
+    "notes": "Verified spine: shooting 12:23 p.m. Sept 10 2025; campus reopened Sept 17; grass+soil removed and the impact spot repaved within that week (KUTV); UVU's 'for reopening' / contractor-withheld explanation; homicide scene-hold norms (weeks-to-months, no destruction without authorization, defense preservation interest in a capital case); ATF fragment comparison inconclusive (see 2025-kirk-002); most charged evidence recovered from the rooftop firing position and wooded area, not the courtyard. The open question this record surfaces — not adopts — is that rapid total alteration of a homicide impact site within a week is atypical and that no public record shows the courtyard was processed and released first; even the fact-check rating the cover-up claim 'no legs' concedes the speed is unexplained. Present the fact and the unresolved question; the reader weighs. Earlier draft of this record editorialized to 'no public evidence indicates the work removed investigative material' — corrected: destroying the scene is itself the act, and it forecloses independent re-examination. Surfacing reel: DZ-dthxseaB. [record state: verified-fact + open-question, attributed]"
 }
