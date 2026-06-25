@@ -6,7 +6,7 @@
     "themes": [
         "kirk"
     ],
-    "claim": "On September 10, 2025, Charlie Kirk — the 31-year-old co-founder of Turning Point USA — was fatally shot in the neck by a single bullet at Utah Valley University in Orem, Utah, during an outdoor campus debate attended by approximately 3,000 people. The bullet was fired from a rooftop approximately 142 yards (130 m) from the event. Utah Governor Spencer Cox publicly characterized the killing as a 'political assassination.'",
+    "claim": "On September 10, 2025, Charlie Kirk — the 31-year-old co-founder of Turning Point USA — was fatally shot in the neck during an outdoor campus debate at Utah Valley University in Orem, Utah, attended by approximately 3,000 people. The official account, per the FBI and Utah authorities, is that a single bullet was fired from a rooftop roughly 142 yards (130 m) away; that firing position, distance, and single-shot mechanism are the investigators' reconstruction, and the kill mechanism has been disputed in public claims (see 2025-bray-mic-theory-001, 2025-cullen-no-ballistic-001). Utah Governor Spencer Cox publicly characterized the killing as a 'political assassination.'",
     "sources": [
         {
             "label": "Wikipedia — “Assassination of Charlie Kirk”",
@@ -33,5 +33,5 @@
         }
     ],
     "status": "verified",
-    "notes": "Anchored to y2025 (existing chapter shell 'Where we are'). Wikipedia URL fetched and verbatim confirmed. The reel cited as the surfacing source advances an 'exploding lavalier microphone' kill-mechanism theory; that theory is not supported by any primary forensic source. The verified facts here are: the location, date, single-bullet-to-the-neck wound, rooftop firing position, and Cox's public characterization."
+    "notes": "Anchored to y2025-kirk. Wikipedia URL fetched and verbatim confirmed. Primary, undisputed facts stated in our voice: the date, location, that Kirk was shot in the neck and died, the ~3,000-person crowd, and Cox's public characterization. ATTRIBUTED, not adopted: the rooftop firing position, the ~142-yard distance, and the single-rifle-bullet mechanism — these are the investigators' reconstruction of how the shot was fired, which is the contested point (the surfacing reel and other public claims advance an 'exploding lavalier microphone' mechanism instead; see 2025-bray-mic-theory-001, 2025-cullen-no-ballistic-001). Absence of the alt-mechanism from the official forensic record is not treated here as disproof — the official record is itself the thing under scrutiny. This record states the core fact and points to the dispute; it does not adjudicate the mechanism."
 }
