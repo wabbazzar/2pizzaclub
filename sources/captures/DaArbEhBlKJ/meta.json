@@ -1,0 +1,37 @@
+{
+    "id": "DaArbEhBlKJ",
+    "url": "https://www.instagram.com/reel/DaArbEhBlKJ/",
+    "platform": "instagram",
+    "captured_at": "2026-06-26",
+    "handle": "@godfatherofchaos",
+    "author_display_name": "Robert D’ Angelo",
+    "posted_at": "2026-06-25",
+    "engagement": {
+        "likes": 21666,
+        "comments": 755
+    },
+    "caption": "Candace Owens just dropped NEW evidence that changes everything.\nA sharp-eyed viewer in France spotted the unmistakable USB logo on the black shards from the SUV — an exact match to Charlie Kirk’s RODE Wireless microphone system.\nAfter rotating and zooming, the comparison is undeniable. Opticians are also flooding in confirming the shards couldn’t be from sunglasses.\nThis is what crowdsourcing a murder investigation looks like. Inspector Gadget level detective work 👀\n\nWhat do you think this proves? Drop your thoughts below 👇\n\n#CandaceOwens #CharlieKirk #BreakingNews #JusticeForCharlie #CrowdSourcedInvestigation",
+    "hashtags": [
+        "CandaceOwens",
+        "CharlieKirk",
+        "BreakingNews",
+        "JusticeForCharlie",
+        "CrowdSourcedInvestigation"
+    ],
+    "audio_track_actual": "Original voiceover — a clip of Candace Owens narrating her show, no music bed.",
+    "video_overlay_text_observed": "Cover card: \"🚨 BOMBSHELL: USB Logo Found on Shards – PROOF Charlie Kirk's RODE Mic EXPLODED 😱\". On-screen logo: @godfatherofchaos (reposter). Brand watermark: CANDACE.",
+    "audio_content_summary": "Candace Owens promotes her 'crowdsourced' investigation into Charlie Kirk's death. She reads an email from a viewer in France who claims that at the 15:30 mark of a prior show, a white marking on a black tempered-glass shard in the back of the SUV is a 'USB logo' that, when rotated, matches the icon on a RODE Wireless microphone — asserted as proof Kirk's lavalier mic was 'rigged to explode' and that the shards on the car floor are mic debris, not sunglasses. She adds that anonymous 'opticians' emailed to say sunglasses cannot shatter that way because of tempering/inspection standards.",
+    "implied_frame": "Frames the official account (Kirk killed by a rifle shot, Tyler Robinson charged) as wrong and substitutes an inside-job mechanism: an explosive device concealed in Kirk's wireless microphone. The 'USB logo on a shard' and 'opticians say sunglasses can't shatter' are presented as forensic proof. Neither is a primary-source finding — both are interpretations of a blurry video frame relayed via anonymous viewer emails, with no chain of custody, no lab, no agency, and no physical access to the shards. RODE Wireless transmitters carry a USB-C port but no explosive payload; a USB-C connector icon appearing in a frame would not establish detonation. The underlying scene fact already on the timeline (2025-uvu-site-rebrick-001, 2025-kirk-002) is the inconclusive ATF fragment comparison and the unexplained one-week resurfacing of the courtyard — neither of which supports an exploding-mic mechanism.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~5.5 MB); delivery ~6.1 MB webm, 167s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [],
+    "editorial_split": {
+        "a": 0,
+        "b": 1,
+        "c": 2
+    },
+    "editorial_split_notes": "A=0: nothing in the reel is independently verified true and not the disputed framing. B=1: the central inside-job framing — that Kirk's wireless mic was an explosive device and the shards are mic debris rather than the official rifle-shot account — is a contested conspiracy claim. C=2: (1) the 'USB logo on a shard at 15:30 matches the RODE mic' match and (2) the anonymous 'opticians say sunglasses can't shatter like that' claim are both asserted with no primary trace (a rotated screenshot relayed by viewer email; no lab, no custody, no agency). No new evidence record written — the exploding-mic theory is already documented as the reel's disputed framing in 2025-kirk-002 notes, and the verifiable scene facts (inconclusive ATF fragment comparison; one-week courtyard resurfacing) already live at 2025-kirk-002 and 2025-uvu-site-rebrick-001.",
+    "comments_observed": "755 comments; ~15 sampled (incl. the deep-linked comment_id 18032656778833139, which surfaces top of the comment view: bryantbillett — 'Real ones have been saying from the beginning it's was the mic, we knew because the media never showed the actual gun shot (just someone running on the roof), all the gun shot/ different gun types hidden in the audience narratives are all red herrings'). The thread splits sharply. Amplifiers: jsmoove7002 ('they killed Charlie'), mrs_andy_32 ('common sense tells me it wasn't a bullet'), elvisrocks1970 ('it was a mic device you can see it on film'), redhead_actual (claims personal insider involvement in 'the AES explosion'). Skeptics/pushback: emann0007 ('globally consequential is quite the stretch'), hpnuge ('You still can't explain Robinson'), patrickmichaelj ('you think something exploded on his chest but didn't literally blow his head off'), rico_c209 ('too much time on their hands'), azangler81 (sarcastic — 'they'll say it's bullet fragments that hit the mic and Charlie hung himself'). griesers asks the unanswered provenance question: 'How does she have this evidence?' Notable contradiction flag — bwren72: 'Remember when she said that the exploding microphone theory was ridiculous?' (community claim that Owens previously dismissed the same theory she now promotes; unverified, recorded as a comment observation, not asserted).",
+    "supporting_research_links": []
+}
