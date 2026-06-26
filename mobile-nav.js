@@ -84,9 +84,12 @@
                 e.preventDefault();
                 const t = chip.dataset.theme;
                 const original = themeInner.querySelector(`[data-theme="${CSS.escape(t)}"]`);
-                if (original) original.click();
-                // close sheet after theme select for snappy filter feedback
+                // Close (unlock) FIRST: closeSheet removes body.mnav-locked
+                // (overflow:hidden) synchronously, so the filter's scroll-to-result
+                // runs on an unlocked body. Scrolling while still locked is part of
+                // why the filter blanked the timeline on iPhone.
                 closeSheet();
+                if (original) original.click();
             });
         });
         // Also forward "more" / "clear" buttons
