@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 90,
-      "seconds": 12012
+      "count": 92,
+      "seconds": 12290
     },
     {
       "slug": "adl",
@@ -16,8 +16,8 @@
     {
       "slug": "aes",
       "topic": "AES",
-      "count": 1,
-      "seconds": 131
+      "count": 2,
+      "seconds": 242
     },
     {
       "slug": "ai",
@@ -82,8 +82,8 @@
     {
       "slug": "defense",
       "topic": "Defense",
-      "count": 11,
-      "seconds": 1723
+      "count": 12,
+      "seconds": 1834
     },
     {
       "slug": "doj",
@@ -184,8 +184,8 @@
     {
       "slug": "intelligence",
       "topic": "Intelligence",
-      "count": 19,
-      "seconds": 2941
+      "count": 20,
+      "seconds": 3052
     },
     {
       "slug": "international-law",
@@ -208,20 +208,20 @@
     {
       "slug": "israel",
       "topic": "Israel",
-      "count": 23,
-      "seconds": 3114
+      "count": 24,
+      "seconds": 3225
     },
     {
       "slug": "journalism",
       "topic": "Journalism",
-      "count": 24,
-      "seconds": 3295
+      "count": 25,
+      "seconds": 3406
     },
     {
       "slug": "kirk",
       "topic": "Kirk",
-      "count": 4,
-      "seconds": 559
+      "count": 5,
+      "seconds": 670
     },
     {
       "slug": "lobbying",
@@ -244,8 +244,8 @@
     {
       "slug": "mossad",
       "topic": "Mossad",
-      "count": 5,
-      "seconds": 736
+      "count": 6,
+      "seconds": 847
     },
     {
       "slug": "neoconservatism",
@@ -274,8 +274,8 @@
     {
       "slug": "prosecution",
       "topic": "Prosecution",
-      "count": 11,
-      "seconds": 1431
+      "count": 12,
+      "seconds": 1542
     },
     {
       "slug": "public-health",
@@ -292,8 +292,8 @@
     {
       "slug": "regional-conflicts",
       "topic": "Regional Conflicts",
-      "count": 8,
-      "seconds": 1246
+      "count": 9,
+      "seconds": 1357
     },
     {
       "slug": "saudi-arabia",
@@ -370,8 +370,8 @@
     {
       "slug": "war",
       "topic": "War",
-      "count": 11,
-      "seconds": 1809
+      "count": 12,
+      "seconds": 1920
     },
     {
       "slug": "watergate",
@@ -382,8 +382,8 @@
     {
       "slug": "weapons",
       "topic": "Weapons",
-      "count": 9,
-      "seconds": 1276
+      "count": 10,
+      "seconds": 1387
     },
     {
       "slug": "wellness",
