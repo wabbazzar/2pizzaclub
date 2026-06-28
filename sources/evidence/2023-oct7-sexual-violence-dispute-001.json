@@ -1,0 +1,40 @@
+{
+    "id": "2023-oct7-sexual-violence-dispute-001",
+    "anchor": "y2023",
+    "year": 2023,
+    "era": "iv",
+    "themes": ["israel"],
+    "claim": "Whether sexual violence occurred during the October 7, 2023 attack, and on what scale, is disputed, and the evidence cuts both ways. A United Nations mission led by Special Representative on Sexual Violence in Conflict Pramila Patten reported on March 4, 2024 'reasonable grounds to believe' that conflict-related sexual violence, including rape and gang rape, occurred in at least three locations and against some hostages. The same report stressed that the mission was 'not investigative in nature,' that the team 'did not meet with survivors of sexual attacks,' and that 'reasonable grounds to believe' is a standard below criminal proof. It also assessed certain widely-circulated allegations as 'unfounded' — among them a claim that a pregnant woman's womb had been cut open and her fetus stabbed — and could not verify others. Separately, The New York Times' December 2023 investigation 'Screams Without Words' drew sustained criticism after the family at the center of its emblematic case said the paper had misrepresented it ('the media invented it'), a planned podcast episode was shelved, and one author left the paper; the Times has not retracted the article and says it stands by its reporting. Israeli police building cases have said they relied on testimony and video because physical forensic evidence was largely not collected during the mass-casualty response. Both the claim that the rapes were 'systematic mass rape' and the claim that 'no sexual violence happened at all' go beyond what investigators have established.",
+    "sources": [
+        {
+            "label": "UN News — “UN report: reasonable grounds to believe sexual violence occurred during 7 October attacks” (Mar 4, 2024)",
+            "type": "primary",
+            "url": "https://news.un.org/en/story/2024/03/1147477",
+            "quote": "reasonable grounds to believe that incidents of sexual violence took place 'in at least three locations'"
+        },
+        {
+            "label": "UN — Patten mission report on conflict-related sexual violence, 7 October (Mar 4, 2024)",
+            "type": "primary",
+            "url": "https://www.un.org/sexualviolenceinconflict/wp-content/uploads/2024/03/report/mission-report-official-visit-of-the-office-of-the-srsg-svc-to-israel-and-the-occupied-west-bank-29-january-14-february-2024/20240304-Israel-oWB-CRSV-report.pdf",
+            "quote": "the mission team... did not meet with any survivor/victim of sexual violence from 7 October despite concerted efforts"
+        },
+        {
+            "label": "The Intercept — “Between the Hammer and the Anvil: The Story Behind the New York Times October 7 Exposé” (Feb 28, 2024)",
+            "type": "secondary",
+            "url": "https://theintercept.com/2024/02/28/new-york-times-anat-schwartz-october-7/",
+            "quote": "If we knew that the title would be about rape... we'd never accept that"
+        },
+        {
+            "label": "The New York Times — “Screams Without Words” (Gettleman, Schwartz, Sella; Dec 28, 2023)",
+            "type": "secondary",
+            "url": null
+        },
+        {
+            "label": "Times of Israel — “Police start building Oct. 7 rape cases, focusing on footage and testimonies”",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/police-start-building-oct-7-rape-cases-focusing-on-footage-and-testimonies/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Companion to 2023-oct7-atrocity-figures-001 under y2023. The @critellicomedy reel (DYVA8hWMf7A) flatly asserts 'no rape happened / it was all made up,' and stacks the NYT Kristof column 'The Silence That Meets the Rape of Palestinians,' a CNN line that 'some accounts... were later found to be false,' and a critique of NYT's 'Screams Without Words' resting on a reporter's 'feeling.' Recorded as a genuinely two-sided dispute, NEITHER framing adopted. Verified directly against UN News + the Patten report wording: 'reasonable grounds to believe' (a sub-criminal standard) at >=3 sites (Nova festival, Road 232, Kibbutz Re'im per the report PDF), mission explicitly not investigative and met no survivor, AND specific high-profile allegations (the Be'eri pregnant-woman case) found 'unfounded,' others unverifiable (Kfar Aza, Nahal Oz). NYT fallout (Gal Abdush case rejected by family per The Intercept; the Sharabi-sisters Be'eri account rejected by the kibbutz; Anat Schwartz's social 'likes' called policy violations, she left the paper 4/4/24; 'The Daily' episode shelved) vs. NYT not retracting / 'stands by it.' Israeli police concede forensic evidence largely uncollected (matches Patten para 46); ex-prosecutor Moran Gaz noted no complainants came forward — context is an admissible-evidence/charging problem, not a recantation. NYT cited url:null per project rule (uncrawlable). Editorial split for this reel a/b/c = 2/4/2."
+}

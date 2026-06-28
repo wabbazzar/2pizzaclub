@@ -1,0 +1,29 @@
+{
+    "id": "2023-oct7-palestinian-detention-001",
+    "anchor": "y2023",
+    "year": 2023,
+    "era": "iv",
+    "themes": ["israel"],
+    "claim": "On the eve of the October 7, 2023 attack, Israel held roughly 5,200 Palestinians in detention, according to prisoner-rights monitors. Around 1,300 of them were in 'administrative detention' — imprisonment without charge or trial, on secret evidence, under indefinitely renewable military orders. Israeli human-rights monitors recorded the administrative-detention count (1,264 on August 1, 2023 per HaMoked; more than 1,300 by September per B'Tselem) as the highest in over three decades, surpassing the prior peak during the Second Intifada in 2003, with about half of those detainees held longer than six months. The detained population included women and minors — Al Jazeera, citing prisoner-rights groups, counted 33 women and about 170 children in Israeli custody as of October 8, 2023.",
+    "sources": [
+        {
+            "label": "Al Jazeera — “Why are so many Palestinian prisoners in Israeli jails?” (Oct 8, 2023)",
+            "type": "secondary",
+            "url": "https://www.aljazeera.com/news/2023/10/8/why-are-so-many-palestinian-prisoners-in-israeli-jails",
+            "quote": "the number of Palestinians currently behind Israeli bars is 5,200, including 33 women and 170 children"
+        },
+        {
+            "label": "B'Tselem — Statistics on administrative detention",
+            "type": "secondary",
+            "url": "https://www.btselem.org/administrative_detention/statistics",
+            "quote": "the highest in more than three decades, surpassing the previous record set at the height of the Second Intifada in 2003"
+        },
+        {
+            "label": "HaMoked — Palestinian prisoners and detainees charts (administrative detention monthly figures)",
+            "type": "secondary",
+            "url": "https://www.hamoked.org/prisoners-charts.php"
+        }
+    ],
+    "status": "verified",
+    "notes": "Companion to 2023-oct7-atrocity-figures-001 and 2023-oct7-sexual-violence-dispute-001 under y2023. The @critellicomedy reel (DYVA8hWMf7A) raises pre-Oct-7 Palestinian detention (~5,000, ~1,300 without trial, incl. women/children) as context for why hostages were taken ('hostages for hostages'). The detention figures are recorded here as verified context; the hostage-trade MOTIVE is an interpretation and is left attributed/unrecorded, not asserted in our voice. Numbers traced via Al Jazeera (5,200 incl. 33 women, 170 children, Oct 8 2023) and the HaMoked/B'Tselem administrative-detention series (1,264 on 8/1/23 → >1,300 Sept → 1,319 on 10/1/23 → ~2,070 by 11/1/23; a >30-year high). B'Tselem (429) and HaMoked (403) 403/429 crawlers; figures cross-confirmed across monitors and secondaries. Editorial split for this reel a/b/c = 2/4/2."
+}

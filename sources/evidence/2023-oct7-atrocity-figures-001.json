@@ -1,0 +1,40 @@
+{
+    "id": "2023-oct7-atrocity-figures-001",
+    "anchor": "y2023",
+    "year": 2023,
+    "era": "iv",
+    "themes": ["israel", "idf"],
+    "claim": "In the days after the October 7, 2023 attack, a widely repeated claim held that '40 beheaded babies' had been found in Israeli communities. The specific figure was never substantiated. It originated in an October 10 i24NEWS broadcast in which a correspondent relayed two separate things soldiers had told her — that 'about 40 babies at least' were dead, and, separately and with no number, that some babies had 'their heads cut off, they said' — which fused online into '40 beheaded babies.' An unnamed Israeli official told CNN on October 12 the government 'cannot confirm' the beheadings; President Biden said on October 11 he had seen 'confirmed pictures of terrorists beheading children,' and the White House corrected the same day that he was referring to unconfirmed reports, not images he had reviewed. Children were killed that day — casualty records list at least 36 children among the dead, including 10-month-old Mila Cohen, shot at Kibbutz Be'eri — but the '40 beheaded babies' figure was not corroborated. On the overall toll: Israel's National Insurance Institute attributed the October 7 deaths as 695 civilians (including 36 children), 373 security-force members, and 71 foreigners — 1,139 in total; the round '1,200' is a separate government estimate. Most of the dead were civilians, and several hundred were soldiers and police — so neither 'all 1,200 were innocent civilians' nor 'the toll was mostly soldiers' is accurate.",
+    "sources": [
+        {
+            "label": "FactCheck.org — “What We Know About Three Widespread Israel-Hamas War Claims” (Oct 2023)",
+            "type": "secondary",
+            "url": "https://www.factcheck.org/2023/10/what-we-know-about-three-widespread-israel-hamas-war-claims/",
+            "quote": "The claim about '40 babies beheaded' appears to be a combination of those two separate details that Zedeck relayed during the live broadcasts."
+        },
+        {
+            "label": "Al Jazeera — “White House walks back Biden's claim he saw children beheaded by Hamas” (Oct 12, 2023)",
+            "type": "secondary",
+            "url": "https://www.aljazeera.com/news/2023/10/12/white-house-walks-back-bidens-claim-he-saw-children-beheaded-by-hamas",
+            "quote": "US officials and the president have not seen pictures or confirmed such reports independently"
+        },
+        {
+            "label": "FactCheck.org — “Dozens of Children Died in Hamas Oct. 7 Attack on Israel” (Nov 2023)",
+            "type": "secondary",
+            "url": "https://www.factcheck.org/2023/11/dozens-of-children-died-in-hamas-oct-7-attack-on-israel-contrary-to-online-claim/"
+        },
+        {
+            "label": "Wikipedia — “October 7 attacks” (casualties section; cites Israel National Insurance Institute / AFP)",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/October_7_attacks"
+        },
+        {
+            "label": "AFP / France 24 — Israel National Insurance Institute Oct 7 death breakdown (Dec 15, 2023)",
+            "type": "secondary",
+            "url": null,
+            "quote": "695 Israeli civilians, including 36 children, as well as 373 security forces and 71 foreigners, giving a total of 1,139"
+        }
+    ],
+    "status": "verified",
+    "notes": "From the @critellicomedy reel (capture DYVA8hWMf7A) whose thesis is that the Oct 7 atrocities were 'entirely made up.' Recorded straight, that totalizing framing NOT adopted. Two established facts here, both of which partly support and partly undercut the reel: (1) the '40 beheaded babies' figure was never substantiated and was ultimately disavowed (i24NEWS appended a correction Nov 30 2023; Israel's GPO later said the baby beheadings 'did not in fact take place'), but children/infants WERE killed (≥36 children; Mila Cohen, 10 months, Be'eri) — so 'no babies died' is false and '40 beheaded babies' is unconfirmed. (2) The toll composition: per Israel's National Insurance Institute via AFP (Dec 15 2023), 695 civilians / 373 security forces / 71 foreigners = 1,139; the ~1,200 MFA round number includes the missing and has no civ/security split. The reel's 'hundreds were soldiers' is right that several hundred security personnel died; its implication that the civilian toll is fabricated is not — most of the dead were civilians. AFP/France24 page 403s crawlers; figure cross-confirmed across secondaries + the Wikipedia casualties section shown on-screen in the reel, so the France24 source carries the verbatim with url:null pending an archive grab. Sexual-violence dispute and pre-Oct-7 detention are split into companion records 2023-oct7-sexual-violence-dispute-001 and 2023-oct7-palestinian-detention-001. Editorial split for this reel a/b/c = 2/4/2."
+}
