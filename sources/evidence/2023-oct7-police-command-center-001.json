@@ -1,0 +1,35 @@
+{
+    "id": "2023-oct7-police-command-center-001",
+    "anchor": "y2023",
+    "year": 2023,
+    "era": "iv",
+    "themes": ["israel", "idf"],
+    "claim": "In February 2026, Israel's Channel 12 investigative program 'Uvda' (“Fact”) aired a leaked recording made inside the Israel Police national command center during the first hours of the October 7, 2023 Hamas-led attack. On it, Police Commissioner Kobi Shabtai is heard saying, 'We currently have a report, also of an abduction, apparently, of five soldiers.' The Channel 12 / N12 report centered on Shabtai's account of political interference by National Security Minister Itamar Ben-Gvir in police appointments; the published N12 piece contains no order to fire on Gaza and no reference to the Hannibal Directive — the standing Israeli order to stop soldiers being taken captive, accepting the risk of killing them. A widely shared English-subtitled cut of the same footage — circulated by activist accounts and amplified by journalist David Sheen — renders an unnamed senior officer as calling to strike the Gaza border with artillery 'along with the soldiers who got abducted,' and presents that as proof Israel deliberately invoked the Hannibal Directive against its own captives that morning. That wording is attributed only to an unnamed officer, does not appear in the Channel 12 source, and has not been confirmed by any mainstream outlet. What is documented separately: a July 2024 Haaretz investigation reported that Hannibal-type orders were issued at three sites on October 7. The broader claim that Israeli fire caused 'most' of the roughly 1,200 people killed that day is unsupported in the public record.",
+    "sources": [
+        {
+            "label": "N12 / Mako (Uvda) — leaked Oct 7 police command-center recording (Feb 12, 2026, Hebrew)",
+            "type": "primary",
+            "url": "https://www.mako.co.il/news-n12_magazine/2026_q1/Article-d463abe98535c91027.htm",
+            "quote": "יש לנו כרגע דיווח, גם על חטיפה, ככל הנראה, של חמישה חיילים",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Social-media English translation of the command-center clip (@ireallyhateyou, the version subtitled in the surfacing reel) — the source of the 'along with the soldiers who got abducted' wording",
+            "type": "secondary",
+            "url": "https://x.com/ireallyhateyou/status/2070369937550356969",
+            "quote": "(Strike) Gaza. Break it all apart. Along with the soldiers who got abducted."
+        },
+        {
+            "label": "Haaretz — “IDF Ordered Hannibal Directive on October 7 to Prevent Hamas Taking Soldiers Captive” (Yaniv Kubovich, July 7, 2024; paywalled)",
+            "type": "secondary",
+            "url": "https://www.haaretz.com/israel-news/2024-07-07/ty-article-magazine/.premium/idf-ordered-hannibal-directive-on-october-7-to-prevent-hamas-taking-soldiers-captive/00000190-89a2-d776-a3b1-fdbe45520000"
+        },
+        {
+            "label": "Instagram reel DaG6kFqBErR (@cjwerlemanshow, June 27, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DaG6kFqBErR/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Companion to 2023-oct7-hannibal-tankfire-001 and 2023-oct7-nova-helicopter-fire-001 under y2023. Documents the Channel 12/Uvda leaked police-command-center broadcast (aired Feb 12-13, 2026) as a distinct, newly-surfaced primary artifact. Verified directly against the N12/Mako Hebrew source: the broadcast and article are real; Shabtai's 'apparently five abducted soldiers' line is verbatim from N12; the N12 piece's actual focus is Ben-Gvir's interference in police appointments and contains NO bombing order and NO Hannibal reference. The viral 'strike Gaza along with the soldiers who got abducted' line traces to the @ireallyhateyou social-media translation (the same @ireallyhateyou watermark visible in the reel frames), amplified by David Sheen; it is attributed only to an unnamed officer, is not in the Channel 12 source, and no neutral outlet has confirmed that wording — so it is attributed and flagged unverified, not stated in our voice. The reel's caption escalates to 'Israel was responsible for many/most deaths on October 7' — that scale claim has no primary trace (Group C; see also the existing Hannibal record, which already records that 'most' is unsupported). Hannibal-policy context (1986 origin, rescinded 2016 by Eisenkot; IDF/Gantz/Amidror deny it licenses killing the captive; UN COI later concluded the IDF 'likely applied' it) lives in the companion record. Editorial split for this reel a/b/c = 1/4/1."
+}
