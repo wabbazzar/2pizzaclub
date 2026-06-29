@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 92,
-      "seconds": 12290
+      "count": 95,
+      "seconds": 12576
     },
     {
       "slug": "adl",
@@ -166,8 +166,8 @@
     {
       "slug": "idf",
       "topic": "IDF",
-      "count": 8,
-      "seconds": 1076
+      "count": 10,
+      "seconds": 1278
     },
     {
       "slug": "inequality",
@@ -208,8 +208,8 @@
     {
       "slug": "israel",
       "topic": "Israel",
-      "count": 24,
-      "seconds": 3225
+      "count": 27,
+      "seconds": 3511
     },
     {
       "slug": "journalism",
@@ -220,8 +220,8 @@
     {
       "slug": "kirk",
       "topic": "Kirk",
-      "count": 5,
-      "seconds": 670
+      "count": 6,
+      "seconds": 754
     },
     {
       "slug": "lobbying",
