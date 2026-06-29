@@ -15,7 +15,7 @@
   "audio_track_actual": "",
   "video_overlay_text_observed": "",
   "audio_content_summary": "",
-  "implied_frame": "Frames the leaked Israel Police command-center recording (aired by Channel 12's 'Uvda' in Feb 2026) as a 'CONFIRMED' smoking gun that Israel ordered the Hannibal Directive on Oct 7, 2023 and was therefore responsible for 'many/most' deaths that day. Verified: the broadcast is real and Commissioner Kobi Shabtai is heard reporting ~five abducted soldiers (N12 primary). Unverified/attributed: the subtitled 'strike Gaza... along with the soldiers who got abducted' line is a social-media translation of an unnamed officer, absent from the Channel 12 source — flagged, not adopted. Group C: the 'most Oct 7 deaths caused by Israel' scale claim has no primary trace. The Hannibal-on-Oct-7 and Nova-helicopter threads are documented in companion y2023 records.",
+  "implied_frame": "Frames the leaked Israel Police command-center recording (aired by Channel 12's 'Uvda' in Feb 2026) as a 'CONFIRMED' smoking gun that Israel ordered the Hannibal Directive on Oct 7, 2023 and was therefore responsible for 'many/most' deaths that day. Verified (A): the broadcast is real and Commissioner Kobi Shabtai is heard reporting ~five abducted soldiers (N12 primary). Disputed (B): the subtitled 'strike Gaza... along with the soldiers who got abducted' line is a social-media translation of an unnamed officer, absent from the Channel 12 source; the Hannibal 'kills its own' interpretation; that Hannibal was deliberately applied Oct 7; the Apache-fire-at-Nova claim; and the 'most Oct 7 deaths caused by Israel' scale claim (the documented toll composition runs against it — but it is an unsupported overreach, not a proven fabrication). Group C empty: nothing here was shown to have no primary trace / to be invented. The Hannibal-on-Oct-7 and Nova-helicopter threads are documented in companion y2023 records.",
   "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
   "video_download_status": "Original pulled via yt-dlp (~2.8 MB); delivery ~2.9 MB webm, 33s.",
   "audio_transcription_status": "Transcribed with openai-whisper.",
@@ -25,7 +25,7 @@
   "supporting_research_links": [],
   "editorial_split": {
     "a": 1,
-    "b": 4,
-    "c": 1
+    "b": 5,
+    "c": 0
   }
 }

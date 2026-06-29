@@ -15,7 +15,7 @@
   "audio_track_actual": "",
   "video_overlay_text_observed": "",
   "audio_content_summary": "",
-  "implied_frame": "Contrasts Charlie Kirk's pre-death opposition to a U.S. war with Iran against his widow Erika Kirk's posture during the 2026 'Operation Epic Fury' war, arguing she 'didn't really know him' / isn't honoring his legacy and insinuating his anti-war stance is 'why they took him out.' Verified contrast (Group A): Charlie was a leading MAGA voice against a regime-change war ('pathologically insane,' 'makes Afghanistan and Iraq look like a cakewalk') though he backed Trump's limited June 2025 strikes; Erika, during the 2026 war, backed the troops without taking a side and said Charlie 'is not there' to state his view, resenting people 'speaking for him.' Group B: the 'killed over his Iran stance' motive (already recorded via the Carlson/Joe Kent insinuation). Group C: the 'she's unsure of his view / didn't know him' gloss (she did not say that) and the 'was she ever in love / a real relationship' insinuation — no primary trace, not adopted.",
+  "implied_frame": "Contrasts Charlie Kirk's pre-death opposition to a U.S. war with Iran against his widow Erika Kirk's posture during the 2026 'Operation Epic Fury' war, arguing she 'didn't really know him' / isn't honoring his legacy and insinuating his anti-war stance is 'why they took him out.' Verified contrast (A): Charlie was a leading MAGA voice against a regime-change war ('pathologically insane,' 'makes Afghanistan and Iraq look like a cakewalk') though he backed Trump's limited June 2025 strikes; Erika, during the 2026 war, backed the troops without taking a side and said Charlie 'is not there' to state his view, resenting people 'speaking for him.' Disputed (B): the 'killed over his Iran stance' motive (also recorded via the Carlson/Joe Kent insinuation); the 'she's unsure of his view / didn't know him' reading (an interpretation of real remarks — she did not say she was unsure); and the 'was she ever in love / a real relationship' insinuation (no evidence either way). Group C empty: none of these were proven invented — they are unsupported readings, not fabricated facts. Recorded straight; no framing adopted in our voice.",
   "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
   "video_download_status": "Original pulled via yt-dlp (~9.9 MB); delivery ~10.3 MB webm, 84s.",
   "audio_transcription_status": "Transcribed with openai-whisper.",
@@ -25,7 +25,7 @@
   "supporting_research_links": [],
   "editorial_split": {
     "a": 1,
-    "b": 1,
-    "c": 2
+    "b": 3,
+    "c": 0
   }
 }
