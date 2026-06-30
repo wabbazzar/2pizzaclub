@@ -1,0 +1,10 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-06-30, openai-whisper base.en
+
+— FULL TEXT —
+
+My name is Daniel Lambertin and I am not suicidal. Look this file up. Look it up.
+It's right here. Look it up. We can end this, okay? Look it up.
+
+— END —

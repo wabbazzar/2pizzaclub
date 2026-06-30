@@ -1,0 +1,40 @@
+{
+    "id": "2023-icecube-directed-energy-claim-001",
+    "anchor": "y2023-antarctica-icecube",
+    "year": 2023,
+    "era": "iv",
+    "themes": [
+        "directed-energy-weapons",
+        "antarctica",
+        "uap",
+        "whistleblower"
+    ],
+    "claim": "Eric Hecker, a former Raytheon contractor who worked as a firefighter and plumber at the U.S. Amundsen-Scott South Pole Station, says the IceCube Neutrino Observatory there is more than a science instrument. In a June 2023 appearance at the National Press Club and in subsequent interviews, he stated that the array can transmit as well as detect, that it is \"the world's largest directed energy weapon system,\" and that it was \"responsible for the earthquakes in Christchurch, New Zealand in 2011.\" He said he was \"on the team,\" confirmed the capability firsthand, and that the manufacturer's operating manuals document it; those manuals have not been released. IceCube is operated by the University of Wisconsin-Madison and funded by the National Science Foundation, which describe it as a detector: \"a cubic-kilometer particle detector made of Antarctic ice\" with \"5,160 digital optical modules (DOMs)\" across 86 boreholes, recording the Cherenkov light that secondary particles emit when a neutrino interacts with the ice. The 22 February 2011 Christchurch earthquake (magnitude 6.2, 185 dead) is cataloged by GNS Science as a tectonic aftershock of the September 2010 Canterbury earthquake.",
+    "sources": [
+        {
+            "label": "Eric Hecker, interview on the Shawn Ryan Show (the full interview cited in the surfacing post); same account given at Steven Greer's National Press Club disclosure event, June 12, 2023.",
+            "type": "primary",
+            "url": "https://www.youtube.com/watch?v=rckecs0PKI4",
+            "quote": "now because we have proven that it can transmit, it's the world's largest directed energy weapon system. It is responsible for the earthquakes in Christchurch, New Zealand in 2011"
+        },
+        {
+            "label": "IceCube Neutrino Observatory — official description, University of Wisconsin-Madison / U.S. National Science Foundation.",
+            "type": "primary",
+            "url": "https://icecube.wisc.edu/science/icecube/",
+            "quote": "IceCube, the South Pole neutrino observatory, is a cubic-kilometer particle detector made of Antarctic ice... 5,160 digital optical modules (DOMs)... Neutrinos are not observed directly, but when they happen to interact with the ice they produce electrically charged secondary particles that in turn emit Cherenkov light."
+        },
+        {
+            "label": "2011 Christchurch earthquake — overview citing GNS Science; Mw 6.2 (ML 6.3), 185 dead, part of the Canterbury aftershock sequence.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/2011_Christchurch_earthquake",
+            "quote": "The Mw 6.2 (ML 6.3) earthquake struck the Canterbury Region... the earthquake was part of the aftershock sequence that had been occurring since the September magnitude-7.1 quake... It caused widespread damage across Christchurch and killed 185 people."
+        },
+        {
+            "label": "@ufo_secret_files, Instagram reel DU1NPavDOiF (Feb. 16, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DU1NPavDOiF/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Hecker is a documented real person: former Navy, Raytheon subcontractor (firefighter/plumber) at Amundsen-Scott 2010-2011 season, has given the same account repeatedly (Greer National Press Club June 12 2023, Shawn Ryan Show, multiple podcasts). The post's caption says he 'testified before Congress under oath' — his public venue was Greer's citizen-disclosure press event and submissions to AARO/Senate Intelligence, not a sworn congressional hearing; flagged but not adopted into the claim. Record states what he asserts (attributed) and what IceCube's operators document (primary), and the cataloged cause of the 2011 quake; it does not adjudicate the DEW claim. Faster-than-light neutrino line in the reel ('close or beyond the speed of light') tracks the 2011 OPERA anomaly, which OPERA retracted in 2012 (loose fiber-optic cable); not load-bearing here so left out of the claim. GeoNet quote URL is the canonical story page; verify exact wording if the page text drifts. Group A: IceCube facility facts + Hecker is a real former South Pole contractor. Group B: transmit capability, DEW function, Christchurch causation, 'under oath before Congress.' Group C: none with offered proof of no-trace."
+}

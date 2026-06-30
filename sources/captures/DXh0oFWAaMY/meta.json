@@ -1,0 +1,29 @@
+{
+    "id": "DXh0oFWAaMY",
+    "url": "https://www.instagram.com/reel/DXh0oFWAaMY/",
+    "platform": "instagram",
+    "captured_at": "2026-06-30",
+    "handle": "@damberton",
+    "author_display_name": "Dan Lamberton",
+    "posted_at": "2026-04-25",
+    "engagement": {
+        "likes": 526693,
+        "comments": 3493
+    },
+    "caption": "File recording on profile \nShare this",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "",
+    "audio_content_summary": "",
+    "implied_frame": "Creator (@damberton, 'Dan Lamberton') holds a folder labeled 'Epstein File # EFTA00265005,' says 'My name is Daniel Lambertin and I am not suicidal. Look this file up' — the 'didn't kill myself' format, seeding that he is named in the Epstein release. The actual document EFTA00265005 (DOJ Data Set 9) is a hand-annotated printout of Epstein's Wikipedia page (the massage suit, Jane Does v. United States, the non-prosecution agreement); it does not name him. 'Lamberton' appears in the release only as an unrelated fund-services address (80 Lamberton Rd, Windsor CT — Pershing/SS&C margin paperwork). No evidence record: nothing in the cited file substantiates a connection. Stunt/bit.",
+    "editorial_split": {
+        "a": 0,
+        "b": 1,
+        "c": 0
+    },
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~1.1 MB); delivery ~1.1 MB webm, 9s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [],
+    "supporting_research_links": []
+}

@@ -1,0 +1,37 @@
+{
+    "id": "DXDWtY_kaJ4",
+    "url": "https://www.instagram.com/reel/DXDWtY_kaJ4/",
+    "platform": "instagram",
+    "captured_at": "2026-06-30",
+    "handle": "@fileswatch",
+    "author_display_name": "Tony B",
+    "posted_at": "2026-04-13",
+    "engagement": {
+        "likes": 209852,
+        "comments": 2604
+    },
+    "caption": "Day 45 more jerky #epic #starwars #epstein #cats_of_instagram #dogs",
+    "hashtags": [
+        "epic",
+        "starwars",
+        "epstein",
+        "cats_of_instagram",
+        "dogs"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "",
+    "audio_content_summary": "",
+    "implied_frame": "Reads the Oct. 3, 2012 Francis Derby \"Jerky\" email (DOJ Bates EFTA00555763) aloud and frames the word \"jerky\" as a code for \"young meat. A human veal if you will.\" The email is a real, verbatim record in the DOJ production; the code-word meaning is the creator's interpretation, asserted with no document behind it. Derby is Epstein's chef in the same file run. Logged into the existing kitchen-logistics record.",
+    "editorial_split": {
+        "a": 1,
+        "b": 1,
+        "c": 0
+    },
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~5.3 MB); delivery ~5.4 MB webm, 66s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2013-epstein-kitchen-logistics-001"
+    ],
+    "supporting_research_links": []
+}

@@ -1,0 +1,31 @@
+{
+    "id": "DaEYq7kvgGX",
+    "url": "https://www.instagram.com/reel/DaEYq7kvgGX/",
+    "platform": "instagram",
+    "captured_at": "2026-06-30",
+    "handle": "@tendingtheveil",
+    "author_display_name": "Yesenia | Tending The Veil",
+    "posted_at": "2026-06-27",
+    "engagement": {
+        "likes": 12384,
+        "comments": 746
+    },
+    "caption": "Are we still allowed to ask questions? 👀 let’s see if this attempt works…",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "",
+    "audio_content_summary": "",
+    "implied_frame": "Reposts a Benjamin Fulford (ex-Forbes Asia bureau chief) interview clip claiming Japan's finance ministry was coerced under threat of a HAARP 'earthquake machine,' tied to the 2007 Chuetsu quake that hit the Kashiwazaki-Kariwa nuclear plant. Fulford, Takenaka, HAARP, and the 2007 nuclear-plant quake are all real; HAARP earthquake-generation is the unproven, contested claim. Logged as 2007-haarp-earthquake-claim-001.",
+    "editorial_split": {
+        "a": 2,
+        "b": 4,
+        "c": 0
+    },
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~14.8 MB); delivery ~15.3 MB webm, 91s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2007-haarp-earthquake-claim-001"
+    ],
+    "supporting_research_links": []
+}
