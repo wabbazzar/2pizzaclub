@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 95,
-      "seconds": 12576
+      "count": 99,
+      "seconds": 12922
     },
     {
       "slug": "adl",
@@ -24,6 +24,12 @@
       "topic": "AI",
       "count": 11,
       "seconds": 1377
+    },
+    {
+      "slug": "antarctica",
+      "topic": "Antarctica",
+      "count": 1,
+      "seconds": 180
     },
     {
       "slug": "big-tech",
@@ -86,6 +92,12 @@
       "seconds": 1834
     },
     {
+      "slug": "directed-energy-weapons",
+      "topic": "Directed Energy Weapons",
+      "count": 2,
+      "seconds": 271
+    },
+    {
       "slug": "doj",
       "topic": "DOJ",
       "count": 1,
@@ -112,8 +124,8 @@
     {
       "slug": "epstein",
       "topic": "Epstein",
-      "count": 15,
-      "seconds": 2060
+      "count": 16,
+      "seconds": 2126
     },
     {
       "slug": "false-flag",
@@ -156,6 +168,12 @@
       "topic": "Gates",
       "count": 1,
       "seconds": 177
+    },
+    {
+      "slug": "haarp",
+      "topic": "Haarp",
+      "count": 1,
+      "seconds": 91
     },
     {
       "slug": "hegseth",
@@ -210,6 +228,12 @@
       "topic": "Israel",
       "count": 27,
       "seconds": 3511
+    },
+    {
+      "slug": "japan",
+      "topic": "Japan",
+      "count": 1,
+      "seconds": 91
     },
     {
       "slug": "journalism",
@@ -350,6 +374,12 @@
       "seconds": 467
     },
     {
+      "slug": "uap",
+      "topic": "Uap",
+      "count": 1,
+      "seconds": 180
+    },
+    {
       "slug": "ukraine",
       "topic": "Ukraine",
       "count": 1,
@@ -394,8 +424,8 @@
     {
       "slug": "whistleblower",
       "topic": "Whistleblower",
-      "count": 3,
-      "seconds": 363
+      "count": 4,
+      "seconds": 543
     }
   ]
 }
