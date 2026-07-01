@@ -1,0 +1,43 @@
+{
+    "id": "DZJJvUbtJ2g",
+    "url": "https://www.instagram.com/reel/DZJJvUbtJ2g/",
+    "platform": "instagram",
+    "captured_at": "2026-07-01",
+    "handle": "@rant.board",
+    "author_display_name": "Cole Soiney",
+    "posted_at": "2026-06-03",
+    "engagement": {
+        "likes": 8530,
+        "comments": 85
+    },
+    "caption": "Why are we so unhealthy? Pt. 1\n\nAlso there is simply not enough board to answer that question, add what I missed in the comments\n\n#fyp #health #microplastic #food #pharma",
+    "hashtags": [
+        "fyp",
+        "health",
+        "microplastic",
+        "food",
+        "pharma"
+    ],
+    "audio_track_actual": "Spoken monologue (creator voiceover), no music bed.",
+    "video_overlay_text_observed": "Cover card: 'Why are we so unhealthy pt 1' over a dense handwritten whiteboard of the same argument. The whiteboard text mirrors the spoken monologue.",
+    "audio_content_summary": "A single-take 'rant board' survey of why Americans are unhealthy, tracing a century of industry incentives: the 1910 Flexner Report and Rockefeller-funded reshaping of medical education toward pharmacology; the 1960s birth-control pill as recurring revenue; the 1964 Surgeon General smoking report and tobacco firms' 1980s move into food (Nabisco, General Foods, Kraft); tobacco flavor science applied to ultra-processed food; PDUFA industry funding of the FDA; Purdue/Sackler OxyContin; Nestle formula and AAP funding conflicts; the 1992 food pyramid; the GRAS 'prove-it-unsafe' loophole vs the EU precautionary standard; and the chronic-disease share of US health spending.",
+    "editorial_split": {
+        "a": 7,
+        "b": 8,
+        "c": 2
+    },
+    "implied_frame": "The reel's spine is a real thesis — that the US medical and food systems are shaped by industry profit incentives — built from a mix of verifiable primary facts and contested causal glue. Group A (recorded): the Flexner Report and the medical-school closures it drove; tobacco companies' 1980s acquisition of the largest US food companies; the 1992 USDA food pyramid with grains at its base; industry user-fees funding the majority of FDA drug review; ultra-processed foods as ~67% of US youth calories; ~90% of US health spending going to chronic and mental-health conditions; the Sackler family's extraction from Purdue and the OxyContin settlements. Group B (contested/telescoped): that Rockefeller funded medicine 'in his image' specifically to sell petroleum-derived drugs; that he lived to 97 refusing his own synthetic medicine as a homeopathy believer; the pill framed as a deliberate 'recurring revenue' scheme; that food scientists intentionally engineered addiction; the Nestle 'breast milk samples' phrasing (it was free formula samples); AAP taking $1.2M from Coca-Cola and formula-maker funding; AAP recommending GLP-1s for 12-year-olds 'to make lifelong patients'; the EU-proves-safe vs US-proves-unsafe chemical framing (real but oversimplified). Group C (asserted, no primary trace): that pharmaceutical companies 'celebrate' childhood obesity; the '77% of drug reviews' figure as stated (the real PDUFA share differs).",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~48.1 MB); delivery ~48.6 MB webm, 175s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "1910-flexner-report-001",
+        "1985-tobacco-food-001",
+        "1992-food-pyramid-001",
+        "2024-fda-user-fees-001",
+        "2024-purdue-sacklers-001",
+        "2021-ultra-processed-food-001",
+        "2021-chronic-disease-spend-001"
+    ],
+    "supporting_research_links": []
+}

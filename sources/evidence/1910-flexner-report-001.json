@@ -1,0 +1,35 @@
+{
+    "id": "1910-flexner-report-001",
+    "anchor": "y1910-flexner",
+    "year": 1910,
+    "era": "i",
+    "themes": [
+        "public-health",
+        "pharma"
+    ],
+    "claim": "The 1910 Flexner Report — 'Medical Education in the United States and Canada,' written by Abraham Flexner and published as Bulletin Number Four of the Carnegie Foundation for the Advancement of Teaching — surveyed North American medical schools and helped drive a wave of closures, favoring research- and laboratory-based training over homeopathic and other alternative approaches. The number of MD-granting schools fell from about 160 in 1904 to 85 by 1920. Of the seven Black medical schools then operating, five closed; only Howard and Meharry survived. John D. Rockefeller's General Education Board (GEB), which hired Flexner in 1913, went on to fund the reshaping of medical education on the report's model, including a $45 million earmark from Rockefeller for the GEB's medical-education program.",
+    "sources": [
+        {
+            "label": "Abraham Flexner, 'Medical Education in the United States and Canada' (Carnegie Foundation Bulletin No. 4, 1910)",
+            "type": "primary",
+            "url": "https://archive.org/details/carnegieflexnerreport",
+            "quote": "Of the seven medical schools for negroes in the United States, five are at this moment in no position to make any contribution of value.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Rockefeller Archive Center — 'Early 20th Century Reforms of Medical Education Worldwide'",
+            "type": "secondary",
+            "url": "https://resource.rockarch.org/story/early-20th-century-reforms-of-medical-education-worldwide/",
+            "quote": "It also motivated JDR Sr. to earmark a further $45,000,000 for the GEB's program in medical education.",
+            "clip": "clips/1910-flexner-report-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Cole Soiney / @rant.board, Instagram reel DZJJvUbtJ2g (June 3, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZJJvUbtJ2g/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Flexner (Abraham) authored the 1910 report; the Carnegie Foundation for the Advancement of Teaching commissioned it. Black-school count is grounded in Flexner's own words — five of seven condemned, Howard and Meharry singled out as 'worth developing.' Precision caveat: the collapse in school numbers (160 in 1904 to 85 by 1920) was a merger-and-closure consolidation already underway before the report; the report accelerated and legitimized it rather than single-handedly causing every closure. The reel's further framing — that Rockefeller funded this specifically to steer medicine toward petroleum-derived pharmaceuticals from Standard Oil, and that he personally lived to 97 refusing his own synthetic products as a homeopathy believer — is Group B (contested/embellished) and is NOT asserted here; this record documents only the report, the closures, and the documented GEB funding. GEB = General Education Board, Rockefeller's education-philanthropy vehicle."
+}

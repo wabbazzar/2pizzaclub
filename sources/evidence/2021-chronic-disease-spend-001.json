@@ -1,0 +1,35 @@
+{
+    "id": "2021-chronic-disease-spend-001",
+    "anchor": "y2021-chronic-disease",
+    "year": 2022,
+    "era": "iv",
+    "themes": [
+        "public-health"
+    ],
+    "claim": "The U.S. Centers for Disease Control and Prevention (CDC) states that 90% of the nation's annual health-care spending is for people with chronic and mental-health conditions — the single largest category of U.S. health expenditure, which reached $4.5 trillion in 2022.",
+    "sources": [
+        {
+            "label": "CDC — National Center for Chronic Disease Prevention and Health Promotion, 'Health and Economic Costs of Chronic Conditions'",
+            "type": "primary",
+            "url": "https://www.cdc.gov/chronic-disease/data-research/facts-stats/index.html",
+            "quote": "Ninety percent of the nation's $5.3 trillion in annual health care expenditures are for people with chronic and mental health conditions.",
+            "clip": "clips/2021-chronic-disease-spend-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "CMS — 'National Health Expenditures 2022 Highlights'",
+            "type": "data",
+            "url": "https://www.cms.gov/newsroom/fact-sheets/national-health-expenditures-2022-highlights",
+            "quote": "U.S. health care spending grew 4.1% to reach $4.5 trillion in 2022.",
+            "clip": "clips/2021-chronic-disease-spend-001-01.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Cole Soiney / @rant.board, Instagram reel DZJJvUbtJ2g (June 3, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZJJvUbtJ2g/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The 90% chronic-and-mental-health figure is a verbatim CDC statement. Figure-year drift: the reel says $4.5 trillion, which matches CMS National Health Expenditures for 2022; the CDC page has since re-pegged the same 90% sentence to $5.3 trillion (later NHE data). Quote reflects the current CDC wording ($5.3T); the $4.5T (2022) is cited to CMS. The reel's added claim that '$1.8 trillion of that is federal' is NOT asserted here — the federal 'sponsor' share in 2022 CMS data was ~33%, roughly $1.5 trillion, so the $1.8T figure overstates the 2022 number and mixes years. A Feb-2026 fact-check flagged the popular framing of the 90% stat as contested even though CDC states it; documented here as CDC's own claim, attributed."
+}

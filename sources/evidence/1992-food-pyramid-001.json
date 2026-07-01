@@ -1,0 +1,27 @@
+{
+    "id": "1992-food-pyramid-001",
+    "anchor": "y1985-processed-food",
+    "year": 1992,
+    "era": "iii",
+    "themes": [
+        "public-health",
+        "food-supply"
+    ],
+    "claim": "The U.S. Department of Agriculture (USDA) released its Food Guide Pyramid in 1992 (Home and Garden Bulletin No. 252). It placed the grains group — bread, cereal, rice, and pasta — at the base as the largest tier, recommending 6 to 11 servings per day, more than any other food group.",
+    "sources": [
+        {
+            "label": "USDA, 'The Food Guide Pyramid' (Home and Garden Bulletin No. 252, 1992)",
+            "type": "primary",
+            "url": "https://www.ars.usda.gov/ARSUserFiles/80400530/pdf/pynet_94.pdf",
+            "quote": "The Pyramid recommends eating 6 to 11 servings of grain products each day; several should be whole-grain servings.",
+            "clip_status": "error: source is a direct-download PDF — no HTML page to clip; quote verified against the USDA bulletin PDF text"
+        },
+        {
+            "label": "Cole Soiney / @rant.board, Instagram reel DZJJvUbtJ2g (June 3, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZJJvUbtJ2g/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Year (1992) and the 6-11 grain-servings-at-base figure verified against USDA primary material. The reel's gloss that this told Americans grains were 'your most beneficial food group' is a fair reading of the base-of-pyramid, most-servings placement. The reel misdates it '1992' correctly in one breath but the on-screen board elsewhere reads loosely; the primary date stands at 1992 (superseded by MyPyramid in 2005 and MyPlate in 2011)."
+}

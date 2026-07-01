@@ -1,0 +1,42 @@
+{
+    "id": "2024-purdue-sacklers-001",
+    "anchor": "y2024-drug-money",
+    "year": 2024,
+    "era": "iv",
+    "themes": [
+        "pharma",
+        "body-count",
+        "public-health"
+    ],
+    "claim": "A forensic audit commissioned in Purdue Pharma's bankruptcy found the Sackler family withdrew about $10.4 billion from Purdue and affiliated entities from 2008 onward, as sales of the opioid painkiller OxyContin and the overdose crisis grew. A roughly $6 billion Sackler settlement approved in 2022 was struck down by the U.S. Supreme Court in June 2024 in Harrington v. Purdue Pharma, which held the bankruptcy code did not authorize releasing the Sacklers from liability without claimants' consent. A new settlement of about $7.4 billion was reached in principle in January 2025.",
+    "sources": [
+        {
+            "label": "CBS News — 'Sackler family withdrew $10.4 billion from Purdue as opioid crisis grew' (AlixPartners forensic audit)",
+            "type": "secondary",
+            "url": "https://www.cbsnews.com/news/sackler-family-withdrew-10-4-billion-from-purdue-as-opioid-crisis-grew/",
+            "quote": "The Sackler family withdraw about $10.4 billion from Purdue Pharma and its affiliated businesses since 2008",
+            "clip": "clips/2024-purdue-sacklers-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Harrington v. Purdue Pharma L.P., No. 23-124 (U.S. Supreme Court, June 27, 2024)",
+            "type": "court",
+            "url": "https://www.supremecourt.gov/opinions/23pdf/23-124_8nk0.pdf"
+        },
+        {
+            "label": "Connecticut Attorney General — 'Purdue Pharma and Sackler Family Settlement in Principle' (Jan. 2025)",
+            "type": "primary",
+            "url": "https://portal.ct.gov/ag/press-releases/2025-press-releases/purdue-pharma-and-sackler-family-settlement-in-principle",
+            "quote": "$7.4 billion settlement in principle between states, victims and members of the Sackler family",
+            "clip": "clips/2024-purdue-sacklers-001-02.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Cole Soiney / @rant.board, Instagram reel DZJJvUbtJ2g (June 3, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZJJvUbtJ2g/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Corrections to the reel's figures: the withdrawal is ~$10.4 billion (AlixPartners audit, 2008 onward), not the reel's '$13 billion.' The '$6 billion they lost from getting sued' matches the 2022 revised bankruptcy-plan Sackler contribution — but the Supreme Court struck that deal (5-4, Gorsuch) on June 27, 2024, holding non-consensual third-party releases unauthorized; the operative deal since January 2025 is ~$7.4 billion. Purdue itself pleaded guilty to federal criminal charges in 2007 and again in 2020. OxyContin = Purdue's extended-release oxycodone, marketed from 1996."
+}

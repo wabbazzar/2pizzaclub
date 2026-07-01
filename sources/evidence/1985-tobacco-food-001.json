@@ -1,0 +1,47 @@
+{
+    "id": "1985-tobacco-food-001",
+    "anchor": "y1985-processed-food",
+    "year": 1985,
+    "era": "iii",
+    "themes": [
+        "public-health",
+        "food-supply",
+        "tobacco"
+    ],
+    "claim": "After the 1964 U.S. Surgeon General's report concluded that cigarette smoking is causally related to lung cancer, the largest American tobacco companies bought the largest American food companies. R.J. Reynolds acquired Nabisco Brands for $4.9 billion in June 1985, forming RJR Nabisco; Philip Morris acquired General Foods for about $5.6 billion in September 1985 and Kraft for $13.1 billion in October 1988. A 2024 peer-reviewed analysis of internal tobacco-industry documents found that between 1988 and 2001 tobacco-owned food brands were significantly more likely than other brands to be 'hyper-palatable' — engineered combinations of fat, sugar, salt, and carbohydrate that drive overeating.",
+    "sources": [
+        {
+            "label": "The Washington Post — 'Reynolds to Buy Nabisco in $4.9 Billion Deal' (June 3, 1985)",
+            "type": "secondary",
+            "url": "https://www.washingtonpost.com/archive/politics/1985/06/03/reynolds-to-buy-nabisco-in-49-billion-deal/",
+            "quote": "Reynolds to Buy Nabisco in $4.9 Billion Deal",
+            "clip_status": "error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.washingtonpost.com/archive/politics/1985/06/03/reynolds-to-buy-n"
+        },
+        {
+            "label": "The Washington Post — 'Kraft Inc. Agrees to Acquisition' by Philip Morris (Oct. 31, 1988)",
+            "type": "secondary",
+            "url": "https://www.washingtonpost.com/archive/politics/1988/10/31/kraft-inc-agrees-to-acquisition/"
+        },
+        {
+            "label": "Fazzino TL, et al., 'US tobacco companies selectively disseminated hyper-palatable foods into the US food system,' Addiction (2024)",
+            "type": "primary",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37682074/",
+            "quote": "Tobacco companies appear to have selectively disseminated hyper-palatable foods into the US food system between 1988 and 2001.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Surgeon General's Advisory Committee, 'Smoking and Health' (Jan. 11, 1964) — NLM Profiles in Science",
+            "type": "primary",
+            "url": "https://profiles.nlm.nih.gov/spotlight/nn/feature/smoking",
+            "quote": "Cigarette smoking is causally related to lung cancer in men; the magnitude of the effect of cigarette smoking far outweighs all other factors.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Cole Soiney / @rant.board, Instagram reel DZJJvUbtJ2g (June 3, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZJJvUbtJ2g/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Deal figures verified: RJR/Nabisco $4.9B (announced June 3, 1985); Philip Morris/General Foods ~$5.6B ($120/share, Sept 27, 1985); Philip Morris/Kraft $13.1B ($106/share, announced Oct 30, 1988). The reel telescopes 1964-to-1985 ('the same people who owned tobacco started buying food companies') — the acquisitions came two decades after the Surgeon General report, not immediately; stated accurately here. The Fazzino et al. (Addiction, 2024) finding is correlational plus a documentary trail (tobacco-owned brands 29-80% more likely to be hyper-palatable, 1988-2001) — it supports that flavor know-how transferred from cigarettes to food, but is not proof of deliberate intent to addict, which is the reel's stronger Group-B framing. This record states the study's actual finding."
+}

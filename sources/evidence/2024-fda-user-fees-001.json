@@ -1,0 +1,29 @@
+{
+    "id": "2024-fda-user-fees-001",
+    "anchor": "y2024-drug-money",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "pharma",
+        "fda",
+        "public-health"
+    ],
+    "claim": "Industry fees, not taxpayer appropriations, cover most of the U.S. Food and Drug Administration's prescription-drug review costs. Under the Prescription Drug User Fee Act (PDUFA) — the 1992 law that lets the FDA charge drugmakers fees to review their applications — pharmaceutical-company user fees covered 77% of the PDUFA program's total costs in fiscal year 2025, with congressional appropriations covering the remaining 23%. When the program began in fiscal year 1993, user fees covered just 7%.",
+    "sources": [
+        {
+            "label": "Congressional Research Service, 'FDA Human Medical Product User Fee Programs' (R44750)",
+            "type": "primary",
+            "url": "https://www.everycrsreport.com/reports/R44750.html",
+            "quote": "in FY2025 (from the most recent financial report available), user fees covered 77% of PDUFA program total costs (nonuser fee appropriations covered 23%).",
+            "clip": "clips/2024-fda-user-fees-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Cole Soiney / @rant.board, Instagram reel DZJJvUbtJ2g (June 3, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZJJvUbtJ2g/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The reel's '77% of the drug reviews' is accurate for the PDUFA prescription-drug review program specifically (FY2025, per CRS citing FDA's own PDUFA financial reports). A broader figure — user fees as a share of the entire human-drugs / CDER program — is lower, ~66% in FY2022; the 77% is the PDUFA-program-specific number, so it is correct as stated but should not be generalized to 'the FDA' as a whole. FDA = Food and Drug Administration; CDER = Center for Drug Evaluation and Research; PDUFA reauthorized every five years (most recently 2022). The reel's inference that this funding structure means industry effectively controls approvals is Group-B framing and is not asserted here; this record documents only the funding share."
+}

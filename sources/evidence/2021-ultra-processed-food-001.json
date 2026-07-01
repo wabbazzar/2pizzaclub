@@ -1,0 +1,28 @@
+{
+    "id": "2021-ultra-processed-food-001",
+    "anchor": "y2021-chronic-disease",
+    "year": 2021,
+    "era": "iv",
+    "themes": [
+        "public-health",
+        "food-supply"
+    ],
+    "claim": "Ultra-processed foods — industrially formulated products built from refined ingredients and additives, often engineered into 'hyper-palatable' combinations — made up about 67% of the calories consumed by U.S. youths aged 2 to 19 by 2018, up from about 61% in 1999, according to a 2021 analysis in JAMA of national nutrition-survey data.",
+    "sources": [
+        {
+            "label": "Wang L, et al., 'Trends in Consumption of Ultraprocessed Foods Among US Youths Aged 2-19 Years, 1999-2018,' JAMA (2021)",
+            "type": "primary",
+            "url": "https://jamanetwork.com/journals/jama/fullarticle/2782866",
+            "quote": "From 1999 to 2018, the estimated percentage of total energy from consumption of ultraprocessed foods increased from 61.4% to 67.0%",
+            "clip": "clips/2021-ultra-processed-food-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Cole Soiney / @rant.board, Instagram reel DZJJvUbtJ2g (June 3, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZJJvUbtJ2g/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Exact figures from the JAMA (Journal of the American Medical Association) abstract: 61.4% (1999) to 67.0% (2018) of total energy intake among US youths aged 2-19; n=33,795; NHANES data. The reel's '67% of kids' calories today' matches the 2018 endpoint. 'Ultra-processed' follows the NOVA classification. JAMA full-text may sit behind an access wall — quote verified against the published abstract."
+}
