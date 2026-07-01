@@ -693,9 +693,7 @@ function bindNav() {
         }
     });
     // Doc viewer close
-    $('doc-viewer-close').addEventListener('click', () => {
-        $('doc-viewer').classList.remove('open');
-    });
+    $('doc-viewer-close').addEventListener('click', closeDocViewer);
     // Re-sync the deck chrome whenever fullscreen toggles without a page change —
     // native Esc / the exit button (native) fire fullscreenchange; the iOS
     // pseudo-fullscreen exit (button or Esc, handled in intro-deck.js) doesn't, so
@@ -709,7 +707,7 @@ function bindNav() {
         const t = e.target;
         if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
         if (e.key === 'Escape' && $('doc-viewer').classList.contains('open')) {
-            $('doc-viewer').classList.remove('open');
+            closeDocViewer();
             return;
         }
         // Esc out of iOS pseudo-fullscreen (handled in intro-deck.js) — re-sync the
@@ -808,12 +806,38 @@ async function loadWikiThumbs() {
 const docCache = new Map();
 // Cache whether docs/<id>.pdf exists, so the viewer probes each doc only once.
 const pdfPresence = new Map();
+
+// The doc viewer is a <body>-level element, but the deck runs inside the
+// Fullscreen API top layer (Android/desktop PWA) or an iOS pseudo-fullscreen
+// overlay. A <body>-level sibling never paints over either, so doc links appear
+// dead in the installed PWA. Relocate the viewer into the active fullscreen host
+// while it's open, then restore it to <body> on close.
+let docViewerHome = null;
+function fullscreenHost() {
+    return document.fullscreenElement
+        || document.webkitFullscreenElement
+        || document.querySelector('.is-pseudo-fullscreen')
+        || null;
+}
+function closeDocViewer() {
+    const viewer = $('doc-viewer');
+    viewer.classList.remove('open');
+    if (docViewerHome && viewer.parentNode !== docViewerHome) {
+        docViewerHome.appendChild(viewer);
+    }
+    docViewerHome = null;
+}
 async function openDocViewer(docId) {
     if (!docId) return;
     const viewer = $('doc-viewer');
     $('doc-viewer-id').textContent = docId;
     $('doc-viewer-meta').textContent = 'loading…';
     $('doc-viewer-text').textContent = '';
+    const host = fullscreenHost();
+    if (host && !host.contains(viewer)) {
+        docViewerHome = viewer.parentNode;
+        host.appendChild(viewer);
+    }
     viewer.classList.add('open');
     let doc = docCache.get(docId);
     if (!doc) {

@@ -107,7 +107,9 @@
     color: var(--ink);
     border-left: 3px solid var(--ink);
     box-shadow: -6px 0 0 var(--bus-yellow);
-    z-index: 100;
+    /* Above the iOS pseudo-fullscreen overlay (9999) and the fullscreen deck
+       nav (10000) — the viewer relocates into the fullscreen host on open. */
+    z-index: 10001;
     flex-direction: column;
     overflow: hidden;
 }
