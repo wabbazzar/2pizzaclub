@@ -23,27 +23,33 @@
 (function () {
     'use strict';
 
-    const fetchJSON = (url) => fetch(url, { cache: 'no-cache' }).then((r) => r.ok ? r.json() : null).catch(() => null);
+    const fetchJSON = (url) => fetch(url, { cache: 'default' }).then((r) => r.ok ? r.json() : null).catch(() => null);
 
     async function build() {
-        const [evidenceManifest, capturesManifest] = await Promise.all([
+        const [evidenceManifest, capturesManifest, bundle] = await Promise.all([
             fetchJSON('/sources/evidence/manifest.json'),
             fetchJSON('/sources/captures/manifest.json'),
+            fetchJSON('/bundle.json'),
         ]);
         const captureIds = (capturesManifest && capturesManifest.captures) || [];
         const recordFiles = (evidenceManifest && evidenceManifest.records) || [];
+        const bundleRecords = (bundle && bundle.records) || null;
+        const bundleCaptures = (bundle && bundle.captures) || null;
 
         const nodes = new Map(); // id -> node
         const edges = [];
         const addNode = (n) => { if (!nodes.has(n.id)) nodes.set(n.id, n); };
         const addEdge = (from, to, kind) => edges.push({ from, to, kind });
 
-        // Fetch every capture meta and evidence record concurrently. The results stay
-        // index-aligned with captureIds / recordFiles, so the graph is then built in the
-        // same order as a serial walk would produce — identical nodes/edges, parallel I/O.
+        // Prefer the prebuilt bundle (one request for the whole corpus); fall back to a
+        // per-file parallel fetch for anything the bundle is missing. Results stay
+        // index-aligned with captureIds / recordFiles, so the graph is built in the same
+        // order as a serial walk would produce — identical nodes/edges.
         const [captureMetas, records] = await Promise.all([
-            Promise.all(captureIds.map((cid) => fetchJSON(`/sources/captures/${cid}/meta.json`))),
-            Promise.all(recordFiles.map((fname) => fetchJSON(`/sources/evidence/${fname}`))),
+            Promise.all(captureIds.map((cid) =>
+                (bundleCaptures && bundleCaptures[cid]) || fetchJSON(`/sources/captures/${cid}/meta.json`))),
+            Promise.all(recordFiles.map((fname) =>
+                (bundleRecords && bundleRecords[fname]) || fetchJSON(`/sources/evidence/${fname}`))),
         ]);
 
         // captures + their evidence links

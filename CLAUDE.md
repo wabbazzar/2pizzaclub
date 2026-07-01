@@ -17,6 +17,8 @@ A sourced editorial timeline. Static site: plain HTML + CSS + ES modules. No bui
 ├── search.js                     # lexical search bar (substring filter + keyword marks)
 ├── rag.js                        # semantic search layer: embeds query in-browser, ranks vs rag-index.json, sentence + keyword highlight (desktop panel + mobile sheet)
 ├── rag-index.json                # PRECOMPILED sentence-vector index (built by tools/build-rag-index.mjs; ships, gzips ~0.4MB)
+├── bundle.json                   # PREBUILT corpus: all evidence records + capture metas in one file (built by tools/build-bundle.mjs); evidence.js + dag.js read this instead of ~500 per-file fetches
+├── sw.js                         # service worker: precache shell + stale-while-revalidate; makes the installed PWA load fast + work offline
 ├── models/all-MiniLM-L6-v2/      # self-hosted q8 embedding model (~22MB) — runtime never calls Hugging Face
 ├── icon.svg, icon-*.png, favicon-*.png, apple-touch-icon.png
 ├── og-image.png                  # 1200x630 social-card preview
@@ -52,6 +54,7 @@ A sourced editorial timeline. Static site: plain HTML + CSS + ES modules. No bui
     ├── share-card.mjs            # renders one 1200x630 cinema-share social card (per theme)
     ├── share-pages.mjs           # generates gallery/share/<theme>/ unfurl pages + cards (scribe regenerates nightly)
     ├── build-rag-index.mjs       # rebuilds rag-index.json (segment claims+quotes → embed → quantize); run after any record change
+    ├── build-bundle.mjs          # rebuilds bundle.json (inline all records + capture metas into one file); run after any record/capture change
     ├── rag-eval.mjs              # RAG regression gate — runs rag-fixtures.json, must stay 5/5
     ├── rag-fixtures.json         # 5 permanent golden queries (expected top record + sentence)
     ├── package.json              # build-only dep (@huggingface/transformers); tools/node_modules gitignored
@@ -226,7 +229,12 @@ See `sources/SCHEMA.md` for the schema. Filename convention: `<year>-<topic-slug
    node tools/build-rag-index.mjs && node tools/rag-eval.mjs
    ```
    This re-embeds every manifest record's claim + source-quote sentences into `rag-index.json` (~30s, deterministic). The eval must stay **5/5** — it's the regression gate. Commit the regenerated `rag-index.json`. (One-time setup if `tools/node_modules` is missing: `cd tools && npm install`.) See "Timeline semantic search" under Site mechanics. **Any time a record's `claim` or `sources[].quote` text changes — not just new reels — rebuild, or the sentence-highlight offsets go stale.**
-5. Local-serve to verify: `cd /home/wabbazzar/code/2pizzaclub && python3 -m http.server 8744` then check the relevant chapter renders and the search bar returns it
+5. **Rebuild the evidence bundle** so the timeline loads the new records in one request instead of falling back to a per-file fetch:
+   ```bash
+   node tools/build-bundle.mjs   # emits bundle.json (all records + capture metas, one file)
+   ```
+   `evidence.js` and `dag.js` read `bundle.json` first and fall back to individual `sources/evidence/*.json` / `sources/captures/*/meta.json` fetches for anything the bundle is missing — so a stale bundle degrades gracefully, but regenerate it so new records aren't stuck on the slow path. Commit the regenerated `bundle.json`. See "Timeline data bundle" under Site mechanics.
+6. Local-serve to verify: `cd /home/wabbazzar/code/2pizzaclub && python3 -m http.server 8744` then check the relevant chapter renders and the search bar returns it
 
 ### 6. Commit
 
@@ -286,6 +294,14 @@ node tools/build-rag-index.mjs && node tools/rag-eval.mjs   # rebuild + 5/5 gate
 ```
 
 The build uses `@huggingface/transformers` in `tools/node_modules` (gitignored; `cd tools && npm install` once) and the model from its own HF cache. The shipped runtime model in `models/` is the q8 export of the same checkpoint and is **stable** — only re-export + re-copy it if you deliberately change the embedding model (then rebuild the index with the matching `DTYPE`, since doc/query vectors must come from the same model). `tools/rag-fixtures.json` holds 5 permanent golden queries; keep them green, don't loosen them to pass.
+
+### Timeline data bundle (`bundle.json`) + service worker (`sw.js`)
+
+The timeline renders from **one** prebuilt file. `tools/build-bundle.mjs` inlines every evidence record (keyed by manifest filename) and every capture meta (keyed by shortcode) into `bundle.json` at the repo root. `evidence.js` and `dag.js` fetch that single file instead of the old ~500 per-file requests (274 records × 2 consumers + 100 capture metas). Both keep a **per-file fallback**: if a key is missing from the bundle (or the bundle is absent), they fetch that individual `sources/…json` — so a stale/missing bundle degrades to slow-but-correct, never broken. `evidence.js` also renders progressively per anchor rather than blocking on a serial fetch chain — the old serial `await`-in-loop was why cards used to appear only after all 274 records loaded.
+
+**Rebuild `bundle.json` after any record or capture change** (`node tools/build-bundle.mjs`) and commit it — see step 5 of the ingest workflow. It's fast (pure file read, no model) and deterministic.
+
+`sw.js` is the service worker (registered from `index.html`). It precaches the app shell (HTML/CSS/JS + `bundle.json` + the manifests) on install and serves same-origin GETs **stale-while-revalidate**: cache first for an instant launch, background-refresh so a Pages deploy lands on the next visit. It **bypasses** media and model weights (`.webm/.mkv/.mp4/.wav/.onnx/.srt/.vtt`) and any range request, so video seeking and the 22MB embedding model stream straight from the network and don't bloat the cache. Bump `CACHE_VERSION` in `sw.js` to retire old caches. This is what makes the installed PWA load fast and work offline — before it, the "PWA" had a manifest but no caching layer at all.
 
 ### Cinema share cards (`gallery/share/`, scribe-maintained)
 

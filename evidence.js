@@ -2,7 +2,7 @@
     'use strict';
 
     async function loadJSON(url) {
-        const r = await fetch(url, { cache: 'no-cache' });
+        const r = await fetch(url, { cache: 'default' });
         if (!r.ok) throw new Error(`fetch ${url} -> ${r.status}`);
         return r.json();
     }
@@ -35,31 +35,53 @@
 </div>`.trim();
     }
 
-    async function loadEvidence() {
+    // Fetch every record. Prefer the prebuilt bundle.json (one request for the
+    // whole corpus); fall back to fetching each manifest entry in parallel if the
+    // bundle is missing or stale. Either way, no serial-await chain.
+    async function fetchRecords() {
         let manifest;
         try {
             manifest = await loadJSON('sources/evidence/manifest.json');
         } catch (e) {
             console.warn('[receipts] no evidence manifest yet:', e.message);
-            return;
+            return [];
+        }
+        const entries = manifest.records || [];
+
+        let bundle = null;
+        try {
+            bundle = await loadJSON('bundle.json');
+        } catch (e) {
+            // no bundle — fall through to per-file fetches
         }
 
-        const byAnchor = new Map();
-        for (const entry of manifest.records || []) {
+        const out = await Promise.all(entries.map(async (entry) => {
+            const fromBundle = bundle && bundle.records && bundle.records[entry];
+            if (fromBundle) return fromBundle;
             try {
-                const rec = await loadJSON(`sources/evidence/${entry}`);
-                const anchor = rec.anchor;
-                if (!byAnchor.has(anchor)) byAnchor.set(anchor, []);
-                byAnchor.get(anchor).push(rec);
+                return await loadJSON(`sources/evidence/${entry}`);
             } catch (e) {
                 console.warn('[receipts] could not load', entry, e.message);
+                return null;
             }
+        }));
+        return out.filter(Boolean);
+    }
+
+    async function loadEvidence() {
+        const records = await fetchRecords();
+
+        const byAnchor = new Map();
+        for (const rec of records) {
+            const anchor = rec.anchor;
+            if (!byAnchor.has(anchor)) byAnchor.set(anchor, []);
+            byAnchor.get(anchor).push(rec);
         }
 
-        for (const [anchor, records] of byAnchor) {
+        for (const [anchor, recs] of byAnchor) {
             const slot = document.querySelector(`.evidence[data-anchor="${anchor}"]`);
             if (!slot) continue;
-            const cards = records.map(renderCard).join('');
+            const cards = recs.map(renderCard).join('');
             slot.innerHTML = `<p class="evidence-head">Evidence</p>${cards}`;
         }
 
