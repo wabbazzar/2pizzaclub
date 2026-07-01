@@ -5552,228 +5552,228 @@
     {
       "kind": "doc_dates_year",
       "title": "Document dates by year (when each doc was written)",
-      "subtitle": "method breakdown: {'first_body_date': 141853, 'none': 50984, 'bare_year_fallback': 17231, 'sent_header': 240121, 'report_date_header': 6208}",
+      "subtitle": "full-corpus (1,051,599 docs) · method breakdown: {'first_body_date': 591211, 'none': 160382, 'bare_year_fallback': 27709, 'sent_header': 261759, 'report_date_header': 10538}",
       "rows": [
         {
           "rank": 1,
           "text": "1990",
-          "count": 39,
+          "count": 75,
           "bar_pct": 0
         },
         {
           "rank": 2,
           "text": "1991",
-          "count": 31,
+          "count": 83,
           "bar_pct": 0
         },
         {
           "rank": 3,
           "text": "1992",
-          "count": 28,
+          "count": 58,
           "bar_pct": 0
         },
         {
           "rank": 4,
           "text": "1993",
-          "count": 28,
+          "count": 86,
           "bar_pct": 0
         },
         {
           "rank": 5,
           "text": "1994",
-          "count": 33,
+          "count": 96,
           "bar_pct": 0
         },
         {
           "rank": 6,
           "text": "1995",
-          "count": 28,
+          "count": 44,
           "bar_pct": 0
         },
         {
           "rank": 7,
           "text": "1996",
-          "count": 78,
+          "count": 121,
           "bar_pct": 0
         },
         {
           "rank": 8,
           "text": "1997",
-          "count": 42,
+          "count": 113,
           "bar_pct": 0
         },
         {
           "rank": 9,
           "text": "1998",
-          "count": 87,
+          "count": 131,
           "bar_pct": 0
         },
         {
           "rank": 10,
           "text": "1999",
-          "count": 144,
+          "count": 246,
           "bar_pct": 0
         },
         {
           "rank": 11,
           "text": "2000",
-          "count": 573,
+          "count": 797,
           "bar_pct": 0
         },
         {
           "rank": 12,
           "text": "2001",
-          "count": 598,
-          "bar_pct": 0
+          "count": 2034,
+          "bar_pct": 1
         },
         {
           "rank": 13,
           "text": "2002",
-          "count": 1417,
-          "bar_pct": 1
+          "count": 2715,
+          "bar_pct": 2
         },
         {
           "rank": 14,
           "text": "2003",
-          "count": 2108,
+          "count": 3173,
           "bar_pct": 2
         },
         {
           "rank": 15,
           "text": "2004",
-          "count": 2969,
+          "count": 4146,
           "bar_pct": 3
         },
         {
           "rank": 16,
           "text": "2005",
-          "count": 2030,
+          "count": 2709,
           "bar_pct": 2
         },
         {
           "rank": 17,
           "text": "2006",
-          "count": 2439,
-          "bar_pct": 3
+          "count": 3221,
+          "bar_pct": 2
         },
         {
           "rank": 18,
           "text": "2007",
-          "count": 3374,
-          "bar_pct": 4
+          "count": 4919,
+          "bar_pct": 3
         },
         {
           "rank": 19,
           "text": "2008",
-          "count": 3703,
+          "count": 5906,
           "bar_pct": 4
         },
         {
           "rank": 20,
           "text": "2009",
-          "count": 10632,
-          "bar_pct": 14
+          "count": 31599,
+          "bar_pct": 24
         },
         {
           "rank": 21,
           "text": "2010",
-          "count": 24016,
-          "bar_pct": 32
+          "count": 61268,
+          "bar_pct": 47
         },
         {
           "rank": 22,
           "text": "2011",
-          "count": 58735,
-          "bar_pct": 79
+          "count": 112137,
+          "bar_pct": 87
         },
         {
           "rank": 23,
           "text": "2012",
-          "count": 66673,
-          "bar_pct": 89
+          "count": 126381,
+          "bar_pct": 98
         },
         {
           "rank": 24,
           "text": "2013",
-          "count": 74283,
+          "count": 128761,
           "bar_pct": 100
         },
         {
           "rank": 25,
           "text": "2014",
-          "count": 50867,
-          "bar_pct": 68
+          "count": 98353,
+          "bar_pct": 76
         },
         {
           "rank": 26,
           "text": "2015",
-          "count": 26279,
-          "bar_pct": 35
+          "count": 70025,
+          "bar_pct": 54
         },
         {
           "rank": 27,
           "text": "2016",
-          "count": 30697,
-          "bar_pct": 41
+          "count": 74109,
+          "bar_pct": 57
         },
         {
           "rank": 28,
           "text": "2017",
-          "count": 13342,
-          "bar_pct": 17
+          "count": 60388,
+          "bar_pct": 46
         },
         {
           "rank": 29,
           "text": "2018",
-          "count": 7352,
-          "bar_pct": 9
+          "count": 47049,
+          "bar_pct": 36
         },
         {
           "rank": 30,
           "text": "2019",
-          "count": 13762,
-          "bar_pct": 18
+          "count": 33374,
+          "bar_pct": 25
         },
         {
           "rank": 31,
           "text": "2020",
-          "count": 5794,
+          "count": 10013,
           "bar_pct": 7
         },
         {
           "rank": 32,
           "text": "2021",
-          "count": 2238,
+          "count": 5017,
           "bar_pct": 3
         },
         {
           "rank": 33,
           "text": "2022",
-          "count": 156,
+          "count": 499,
           "bar_pct": 0
         },
         {
           "rank": 34,
           "text": "2023",
-          "count": 169,
+          "count": 419,
           "bar_pct": 0
         },
         {
           "rank": 35,
           "text": "2024",
-          "count": 144,
+          "count": 286,
           "bar_pct": 0
         },
         {
           "rank": 36,
           "text": "2025",
-          "count": 515,
+          "count": 840,
           "bar_pct": 0
         },
         {
           "rank": 37,
           "text": "2026",
-          "count": 10,
+          "count": 26,
           "bar_pct": 0
         }
       ],
@@ -162370,228 +162370,228 @@
     {
       "kind": "mention_dates_year",
       "title": "Mention dates by year (years referenced in document bodies)",
-      "subtitle": "unique-doc votes per year (de-duplicated within a doc)",
+      "subtitle": "unique-doc votes per year (de-duplicated within a doc) · full corpus",
       "rows": [
         {
           "rank": 1,
           "text": "1990",
-          "count": 161,
+          "count": 375,
           "bar_pct": 0
         },
         {
           "rank": 2,
           "text": "1991",
-          "count": 186,
+          "count": 429,
           "bar_pct": 0
         },
         {
           "rank": 3,
           "text": "1992",
-          "count": 138,
+          "count": 392,
           "bar_pct": 0
         },
         {
           "rank": 4,
           "text": "1993",
-          "count": 170,
+          "count": 363,
           "bar_pct": 0
         },
         {
           "rank": 5,
           "text": "1994",
-          "count": 215,
+          "count": 544,
           "bar_pct": 0
         },
         {
           "rank": 6,
           "text": "1995",
-          "count": 234,
+          "count": 482,
           "bar_pct": 0
         },
         {
           "rank": 7,
           "text": "1996",
-          "count": 268,
+          "count": 626,
           "bar_pct": 0
         },
         {
           "rank": 8,
           "text": "1997",
-          "count": 270,
+          "count": 624,
           "bar_pct": 0
         },
         {
           "rank": 9,
           "text": "1998",
-          "count": 277,
+          "count": 720,
           "bar_pct": 0
         },
         {
           "rank": 10,
           "text": "1999",
-          "count": 571,
+          "count": 1029,
           "bar_pct": 0
         },
         {
           "rank": 11,
           "text": "2000",
-          "count": 1133,
+          "count": 1928,
           "bar_pct": 1
         },
         {
           "rank": 12,
           "text": "2001",
-          "count": 1337,
-          "bar_pct": 1
+          "count": 2964,
+          "bar_pct": 2
         },
         {
           "rank": 13,
           "text": "2002",
-          "count": 1997,
+          "count": 3967,
           "bar_pct": 2
         },
         {
           "rank": 14,
           "text": "2003",
-          "count": 3112,
-          "bar_pct": 4
+          "count": 5051,
+          "bar_pct": 3
         },
         {
           "rank": 15,
           "text": "2004",
-          "count": 3992,
-          "bar_pct": 5
+          "count": 6082,
+          "bar_pct": 4
         },
         {
           "rank": 16,
           "text": "2005",
-          "count": 3212,
-          "bar_pct": 4
+          "count": 4986,
+          "bar_pct": 3
         },
         {
           "rank": 17,
           "text": "2006",
-          "count": 3212,
-          "bar_pct": 4
+          "count": 5234,
+          "bar_pct": 3
         },
         {
           "rank": 18,
           "text": "2007",
-          "count": 4438,
-          "bar_pct": 5
+          "count": 8021,
+          "bar_pct": 6
         },
         {
           "rank": 19,
           "text": "2008",
-          "count": 5227,
+          "count": 9319,
           "bar_pct": 6
         },
         {
           "rank": 20,
           "text": "2009",
-          "count": 12262,
-          "bar_pct": 15
+          "count": 34966,
+          "bar_pct": 26
         },
         {
           "rank": 21,
           "text": "2010",
-          "count": 26188,
-          "bar_pct": 34
+          "count": 66179,
+          "bar_pct": 49
         },
         {
           "rank": 22,
           "text": "2011",
-          "count": 61415,
-          "bar_pct": 79
+          "count": 117075,
+          "bar_pct": 87
         },
         {
           "rank": 23,
           "text": "2012",
-          "count": 68948,
-          "bar_pct": 89
+          "count": 130562,
+          "bar_pct": 97
         },
         {
           "rank": 24,
           "text": "2013",
-          "count": 76800,
+          "count": 133377,
           "bar_pct": 100
         },
         {
           "rank": 25,
           "text": "2014",
-          "count": 53503,
-          "bar_pct": 69
+          "count": 103149,
+          "bar_pct": 77
         },
         {
           "rank": 26,
           "text": "2015",
-          "count": 29108,
-          "bar_pct": 37
+          "count": 74822,
+          "bar_pct": 56
         },
         {
           "rank": 27,
           "text": "2016",
-          "count": 32747,
-          "bar_pct": 42
+          "count": 78170,
+          "bar_pct": 58
         },
         {
           "rank": 28,
           "text": "2017",
-          "count": 15232,
-          "bar_pct": 19
+          "count": 63909,
+          "bar_pct": 47
         },
         {
           "rank": 29,
           "text": "2018",
-          "count": 9019,
-          "bar_pct": 11
+          "count": 50552,
+          "bar_pct": 37
         },
         {
           "rank": 30,
           "text": "2019",
-          "count": 14763,
-          "bar_pct": 19
+          "count": 36399,
+          "bar_pct": 27
         },
         {
           "rank": 31,
           "text": "2020",
-          "count": 6966,
+          "count": 12294,
           "bar_pct": 9
         },
         {
           "rank": 32,
           "text": "2021",
-          "count": 2943,
-          "bar_pct": 3
+          "count": 6378,
+          "bar_pct": 4
         },
         {
           "rank": 33,
           "text": "2022",
-          "count": 615,
-          "bar_pct": 0
+          "count": 1347,
+          "bar_pct": 1
         },
         {
           "rank": 34,
           "text": "2023",
-          "count": 558,
+          "count": 1118,
           "bar_pct": 0
         },
         {
           "rank": 35,
           "text": "2024",
-          "count": 380,
+          "count": 709,
           "bar_pct": 0
         },
         {
           "rank": 36,
           "text": "2025",
-          "count": 793,
-          "bar_pct": 1
+          "count": 1260,
+          "bar_pct": 0
         },
         {
           "rank": 37,
           "text": "2026",
-          "count": 283,
+          "count": 421,
           "bar_pct": 0
         }
       ],
