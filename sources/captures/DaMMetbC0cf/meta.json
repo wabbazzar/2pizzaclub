@@ -1,0 +1,33 @@
+{
+    "id": "DaMMetbC0cf",
+    "url": "https://www.instagram.com/reel/DaMMetbC0cf/",
+    "platform": "instagram",
+    "captured_at": "2026-07-01",
+    "handle": "@eraeboy",
+    "author_display_name": "Elizabeth Boyle",
+    "posted_at": "2026-06-30",
+    "engagement": {
+        "likes": 3691,
+        "comments": 134
+    },
+    "caption": "#patents #emf #emfprotection #biodigitalconvergence #technofascism",
+    "hashtags": [
+        "patents",
+        "emf",
+        "emfprotection",
+        "biodigitalconvergence",
+        "technofascism"
+    ],
+    "audio_track_actual": "spoken narration (no music bed)",
+    "video_overlay_text_observed": "THE PATENT TRUTH (cover card); Another installment of the patent truth (lower caption)",
+    "audio_content_summary": "Speaker (Elizabeth Boyle, @eraeboy) reads the abstract of U.S. Patent 6,506,148 B2, 'Nervous System Manipulation by Electromagnetic Fields from Monitors' (2003), verbatim, and calls it 'one of my favorites' in a recurring 'patent truth' series. No additional factual claims are spoken; the audio is a straight reading of the real patent.",
+    "implied_frame": "The abstract is read accurately (Group A: the patent is real, its issuer/inventor/text verified). The framing carried by the caption hashtags — #biodigitalconvergence #technofascism — and the ominous 'patent truth' presentation implies screens are being used to manipulate the nervous system as a technofascist program (Group B: unadopted). Context the reel omits: the patent is unassigned (a private individual's disclosure, never a company or government agency), it expired in 2021, and there is no evidence the method works reliably or was ever deployed. A granted patent is not proof of a working, fielded technology.",
+    "editorial_split": {"a": 1, "b": 1, "c": 0},
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~7.2 MB); delivery ~7.5 MB webm, 89s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2003-emf-monitor-patent-001"
+    ],
+    "supporting_research_links": []
+}

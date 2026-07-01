@@ -1,0 +1,24 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-07-01, openai-whisper base.en
+
+— FULL TEXT —
+
+Alright, another installment of the patent truth. This one's titled
+Nervous System Manipulation by Electromagnetic Fields for Monitors. I'll read the abstract.
+Physiological effects have been observed in a human subject in response to stimulation of the
+skin with weak electromagnetic fields that are pulsed with certain frequencies near
+half hertz or 2.4 hertz, such as to excite a sensory resonance. Many computer monitors in
+TV tubes when displaying pulsed images emit pulsed electromagnetic fields of sufficient
+amplitudes to cause such excitation. It is therefore possible to manipulate the nervous
+system of a subject by pulsing images displayed on a nearby computer monitor or TV set.
+For the latter, the image pulsing may be embedded in the program material or it may be overlaid
+by modulating a video stream, either as an RF signal or as a video signal. The image
+displayed on a computer monitor may be pulsed effectively by a simple computer program.
+For certain monitors, pulsed electromagnetic fields capable of exciting sensory resonances
+in nearby subjects may be generated even as the displayed images are pulsed with subliminal
+intensity. Alright, this is a 2003 Nervous System Manipulation by Electromagnetic
+Fields for Monitors. The image is pretty great. One of my favorites and yeah, another
+installment of the patent truth. Thanks for tuning in. I'll be back with more.
+
+— END —

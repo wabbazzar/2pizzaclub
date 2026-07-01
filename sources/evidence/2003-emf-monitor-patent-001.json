@@ -1,0 +1,34 @@
+{
+    "id": "2003-emf-monitor-patent-001",
+    "anchor": "y2003-emf-patent",
+    "year": 2003,
+    "era": "iii",
+    "themes": [
+        "directed-energy-weapons",
+        "mind-control"
+    ],
+    "claim": "U.S. Patent 6,506,148 B2, \"Nervous System Manipulation by Electromagnetic Fields from Monitors,\" is a real patent granted by the U.S. Patent and Trademark Office (USPTO, the federal agency that examines and issues patents) on January 14, 2003, on an application filed June 1, 2001. Its abstract states that weak electromagnetic fields pulsed at frequencies near one-half hertz or 2.4 hertz can excite a \"sensory resonance\" producing physiological effects in a human subject, and that many computer monitors and TV tubes, when displaying pulsed images, emit pulsed electromagnetic fields of sufficient amplitude to cause such excitation — so that \"it is therefore possible to manipulate the nervous system of a subject by pulsing images displayed on a nearby computer monitor or TV set.\" The abstract adds that the pulsing may be \"embedded in the program material\" or overlaid on a video stream, and can be done \"even as the displayed images are pulsed with subliminal intensity.\" The named inventor is Hendricus G. Loos (1925-2017), a Dutch-born American physicist who held roughly seven related patents on electromagnetic and acoustic nervous-system stimulation. The patent is unassigned — held by Loos as an individual, not by any company, the military, or any U.S. government agency — and it expired on June 1, 2021, placing the disclosure in the public domain. A granted patent certifies only that the USPTO found the application met its filing and examination requirements; it is not a finding that the described method works reliably or was ever built. There is no public record that this patent was licensed, commercialized, or deployed in any product or program.",
+    "sources": [
+        {
+            "label": "U.S. Patent 6,506,148 B2 — \"Nervous System Manipulation by Electromagnetic Fields from Monitors,\" inventor Hendricus G. Loos; filed 2001-06-01, granted 2003-01-14 by the USPTO; assignee: none (individual); status: expired 2021-06-01.",
+            "type": "primary",
+            "url": "https://patents.google.com/patent/US6506148B2/en",
+            "quote": "Physiological effects have been observed in a human subject in response to stimulation of the skin with weak electromagnetic fields that are pulsed with certain frequencies near 1/2 Hz or 2.4 Hz, such as to excite a sensory resonance. Many computer monitors and TV tubes, when displaying pulsed images, emit pulsed electromagnetic fields of sufficient amplitudes to cause such excitation. It is therefore possible to manipulate the nervous system of a subject by pulsing images displayed on a nearby computer monitor or TV set.",
+            "clip": "clips/2003-emf-monitor-patent-001-00.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Hendricus G. Loos — inventor record, patent portfolio (approximately seven patents on nervous-system stimulation by electromagnetic and acoustic means).",
+            "type": "secondary",
+            "url": "https://patents.justia.com/inventor/hendricus-g-loos",
+            "quote": null
+        },
+        {
+            "label": "@eraeboy (Elizabeth Boyle), Instagram reel DaMMetbC0cf (June 30, 2026) — surfacing source; reads the patent abstract on camera under a \"patent truth\" framing.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DaMMetbC0cf/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Who issued it / who owns it (the operator's two questions): issued by the USPTO on 2003-01-14; sole inventor Hendricus G. Loos; ASSIGNEE FIELD IS BLANK — never assigned to a company, the DoD, NSA, CIA, or any agency. This matters because the reel's #technofascism / #biodigitalconvergence framing implies a state/corporate mind-control program; the patent record shows a private individual's speculative disclosure, not a government instrument. Is it being used: no public evidence of licensing, commercialization, or deployment; Google Patents legal status = 'Expired - Lifetime,' anticipated expiration 2001-06-01 + 20yr = 2021-06-01 (it ran the full term, then lapsed to public domain — anyone may now practice it, unpatented). Maintenance fees were paid through the full term (status is term-expiry, not early abandonment). Loos (d. 2017) filed a family of similar patents 2000-2003 (e.g. 6,017,302; 6,081,744; 6,238,333; 6,091,994; 6,167,304; 6,506,148); several assigned to no one. Mainstream scientific view: low-frequency screen flicker cannot reliably drive the nervous system; the '½ Hz / 2.4 Hz sensory resonance' is Loos's own theory, not independently established. Group A here is strictly the VERIFIED FACTS ABOUT THE DOCUMENT (it exists, its title, its text, its issuer, its unassigned status, its expiry) — NOT the reel's implied claim that screens are being used to manipulate people, which is the Group-B contested framing left unadopted. Corpus check: 0 hits for 'hendricus' / 'nervous system manipulation' in the EFTA release (the 167 raw 'loos' hits were 'loose' OCR noise) — not an Epstein-files subject. Verbatim abstract pulled from Google Patents (canonical mirror of the USPTO grant)."
+}
