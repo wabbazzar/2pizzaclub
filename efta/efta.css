@@ -339,6 +339,19 @@
     line-height: 1.4;
 }
 
+/* Editorial context block on top of a topic-search page */
+.topic-editorial {
+    margin: 0 0 1rem;
+    padding: 0.8rem 1rem;
+    background: var(--paper);
+    border-left: 4px solid var(--bus-yellow);
+    border-radius: 0 4px 4px 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--ink);
+    box-shadow: 3px 3px 0 rgba(0,0,0,0.06);
+}
+
 /* Per-topic year histogram (pre/post 2020 coloring) */
 .topic-histo {
     margin: 0.25rem 0 1rem;

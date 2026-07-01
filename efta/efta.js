@@ -22,7 +22,7 @@ const KIND_GROUP = {
     cooccur_pairs:      { order:  7, label: 'Co-occurrence pairs' },
     email_threads:      { order:  8, label: 'Email threads' },
     imessages:          { order:  9, label: 'Epstein iMessages (chrono)' },
-    doc_dates_year:     { order: 10, label: 'Doc-date histogram' },
+    doc_dates_year:     { order: 1.5, label: 'Doc-date histogram (corpus overview)' },
     mention_dates_year: { order: 11, label: 'Mention-date histogram' },
     tfidf:              { order: 12, label: 'TF-IDF n-grams' },
     ngram:              { order: 13, label: 'Doc-spread n-grams' },
@@ -425,6 +425,12 @@ function renderPageBody() {
 
     // Topic-search render: year histogram at top, then per-match table
     if (page.kind === 'topic_search') {
+        // Editorial context on top — what the hits actually are (news clippings,
+        // legal boilerplate, OCR noise vs. genuine correspondence), so a raw
+        // keyword count isn't misread as an assertion.
+        if (page.editorial) {
+            html += `<p class="topic-editorial">${escapeHTML(page.editorial)}</p>`;
+        }
         // Prefer the per-(year, dataset) breakdown if present (filter-aware).
         // Fall back to total by_year if the data is older.
         let by = {};
