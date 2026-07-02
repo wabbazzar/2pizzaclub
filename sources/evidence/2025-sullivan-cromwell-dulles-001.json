@@ -1,0 +1,39 @@
+{
+    "id": "2025-sullivan-cromwell-dulles-001",
+    "anchor": "y1947",
+    "year": 1953,
+    "era": "ii",
+    "themes": [
+        "cia",
+        "sullivan-cromwell"
+    ],
+    "claim": "Sullivan & Cromwell, the Wall Street law firm founded in 1879, was the base of the Dulles brothers' power. John Foster Dulles joined the firm in 1911 and, as counsel to the U.S. delegation at the 1919 Paris Peace Conference, helped draft the German-reparations provisions of the Treaty of Versailles; he became a Sullivan & Cromwell partner in 1920 and its head in 1927. Between the world wars the firm sat at the center of the financial network that rebuilt Germany, and Foster kept its Berlin office open — its lawyers signing letters 'Heil Hitler' — until his partners forced its closure in 1935. His younger brother Allen Dulles, also a Sullivan & Cromwell lawyer, went on to run the Central Intelligence Agency (CIA director, 1953–1961) while Foster served as President Eisenhower's Secretary of State (1953–1959) — the brothers holding the overt and covert instruments of U.S. foreign policy at once. In 'The Devil's Chessboard' (2015), journalist David Talbot argues that Allen Dulles — fired by President Kennedy after the 1961 Bay of Pigs failure — was tied to the network behind Kennedy's November 1963 assassination, and notes the irony that Dulles was then named to the Warren Commission that investigated the killing. The Warren Commission's lone-gunman finding and Talbot's counter-thesis are both contested accounts of who killed Kennedy; the firm-and-Dulles history the thesis is built on is documented.",
+    "sources": [
+        {
+            "label": "David Talbot, “The Devil's Chessboard: Allen Dulles, the CIA, and the Rise of America's Secret Government” (2015), Chapter 1",
+            "type": "primary",
+            "url": null,
+            "quote": "Sullivan and Cromwell, the Dulles brothers' Wall Street law firm, was at the center of an intricate international network of banks, investment firms, and industrial conglomerates that rebuilt Germany after World War I."
+        },
+        {
+            "label": "David Talbot, “The Devil's Chessboard” (2015), Chapter 1 — Foster Dulles and the firm's Berlin office",
+            "type": "primary",
+            "url": null,
+            "quote": "Foster refused to shut down the Berlin office of Sullivan and Cromwell—whose attorneys were forced to sign their correspondence “Heil Hitler”—until his partners (including Allen), fearful of a public relations disaster, insisted he do so."
+        },
+        {
+            "label": "Wikipedia — “John Foster Dulles” (Sullivan & Cromwell; 1919 Paris Peace Conference reparations)",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/John_Foster_Dulles",
+            "quote": "a member of the Reparations Commission and Supreme Economic Council",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Julian Dorey / @julianddorey, Instagram reel DaS-K1FhOOn (podcast Ep. #441, Jul 2, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DaS-K1FhOOn/"
+        }
+    ],
+    "status": "partially-verified-contested",
+    "notes": "Cross-referenced against the local epub of David Talbot's 'The Devil's Chessboard' (~/Downloads/reading-list/05-the-devils-chessboard.epub) at the user's request. Verified-historical (Group A): Sullivan & Cromwell as the Dulles firm; John Foster Dulles at S&C from 1911, counsel to the U.S. delegation at the 1919 Paris Peace Conference and on the Reparations Commission, partner 1920, head 1927 (Wikipedia/Miller Center); the firm's inter-war German business and the 1935 Berlin-office closure (Talbot, Ch. 1); Allen Dulles as CIA director 1953–1961 and Foster as Secretary of State 1953–1959. Contested (Group B): the reel's 'whacking a sitting United States president in 1963' — i.e., Talbot's thesis that Allen Dulles and allied networks were behind the JFK assassination. Presented as Talbot's argued thesis, attributed, and set beside the Warren Commission's own contested lone-gunman finding — neither adopted as ground truth (Dulles's seat on that commission is documented; Talbot, Ch. 19). Placed under y1947 (CIA founded) as the Dulles-firm-to-CIA story; header broadened to name the firm. Binds via the 'sullivan-cromwell' theme to 2025-clayton-sullivan-cromwell-epstein-001, the present-day end of the same firm's lineage. Epub quotes transcribed directly; page-level cite unavailable from the reflowable EPUB, so chapter is given."
+}

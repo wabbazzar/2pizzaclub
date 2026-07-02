@@ -1,0 +1,32 @@
+{
+    "id": "DaS-K1FhOOn",
+    "url": "https://www.instagram.com/reel/DaS-K1FhOOn/",
+    "platform": "instagram",
+    "captured_at": "2026-07-02",
+    "handle": "@julianddorey",
+    "author_display_name": "Julian Dorey",
+    "posted_at": "2026-07-02",
+    "engagement": {
+        "likes": 4181,
+        "comments": 101
+    },
+    "caption": "Comment the word “Julian“ and I’ll DM you a link to the episode \n\njulian dorey podcast ep 441",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Cover card: \"Epstein-Linked Prosecutor Worse Than You Think…\" / \"Episode #441\".",
+    "audio_content_summary": "Julian Dorey podcast (Ep. #441) clip: the hosts trace the law firm Sullivan & Cromwell as a throughline. Present day — Jay Clayton, a longtime Sullivan & Cromwell attorney and former SEC chairman, succeeded Leon Black (who had Epstein ties) as chairman of Apollo's board, and is now the SDNY U.S. Attorney overseeing the Epstein files. Historical — the same firm was the Dulles brothers' base: John Foster Dulles drafted Versailles reparations in 1919 and became Secretary of State; Allen Dulles ran the CIA; the clip alludes to the Dulles/JFK-assassination thesis ('whacking a sitting United States president in 1963'). Closes on George Carlin's 'it's a big club and you ain't in it.'",
+    "editorial_split": {
+        "a": 5,
+        "b": 1,
+        "c": 0
+    },
+    "implied_frame": "Frames Sullivan & Cromwell as the connective tissue of a century of American power — from the Dulles brothers (Versailles reparations, the CIA, and the contested claim that Allen Dulles was behind the 1963 JFK assassination) to Jay Clayton, the firm's alumnus who chaired the SEC, took Leon Black's Apollo board seat after Black's Epstein payments surfaced, and now runs the SDNY office holding the Epstein files. Two records: the Clayton lineage (2025-clayton-sullivan-cromwell-epstein-001, Group A verified, anchored to our own EFTA doc showing AG Bondi directing Clayton to investigate Epstein's ties to Trump's opponents) and the firm's Dulles-era history (2025-sullivan-cromwell-dulles-001, historical facts verified, the JFK thesis attributed to David Talbot's 'The Devil's Chessboard' and left contested beside the Warren Commission's own contested finding). Cross-referenced against the local epub of The Devil's Chessboard per the operator's request; the two records bind through a shared 'sullivan-cromwell' theme.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~14.2 MB); delivery ~14.7 MB webm, 112s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2025-clayton-sullivan-cromwell-epstein-001",
+        "2025-sullivan-cromwell-dulles-001"
+    ],
+    "supporting_research_links": []
+}

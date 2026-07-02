@@ -1,0 +1,43 @@
+{
+    "id": "2025-clayton-sullivan-cromwell-epstein-001",
+    "anchor": "y2019",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "finance",
+        "sullivan-cromwell"
+    ],
+    "claim": "Jay Clayton spent more than twenty years at the Wall Street law firm Sullivan & Cromwell — the firm the Dulles brothers once ran — where he was co-managing partner of its General Practice Group, before chairing the U.S. Securities and Exchange Commission (SEC), the federal markets regulator, from May 2017 to December 2020. In February 2021 Apollo Global Management named him lead independent director, and on March 22, 2021 he became non-executive chairman of Apollo's board, succeeding founder Leon Black — who had stepped down after an Apollo-commissioned review found he paid Jeffrey Epstein $158 million between 2012 and 2017 for tax and estate advice. In 2025 Clayton became U.S. Attorney for the Southern District of New York (SDNY), the office that prosecuted Epstein and Ghislaine Maxwell and that holds the case files. A U.S. Department of Justice news briefing in the federal Epstein release records that, at President Trump's urging, Attorney General Pam Bondi directed Clayton to investigate Epstein's ties to Trump's political opponents — placing the disposition of the Epstein files with a Sullivan & Cromwell alumnus who had chaired the SEC and then the board seat vacated over Epstein payments.",
+    "sources": [
+        {
+            "label": "DOJ Epstein release (EFTA data set 10), doc EFTA01655527 — DOJ Daily News Briefing, browsable in the 2pizzaclub EFTA doc search",
+            "type": "primary",
+            "url": "https://2pizzaclub.com/efta/",
+            "quote": "AG Bondi ordered Manhattan U.S. Attorney Jay Clayton to investigate Jeffrey Epstein's ties to several of President Trump's political opponents after Trump publicly demanded that the Justice Department",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Apollo Global Management — “Apollo Appoints Jay Clayton as Lead Independent Director” (press release)",
+            "type": "primary",
+            "url": "https://www.apollo.com/insights-news/pressreleases/2021/02/apollo-appoints-jay-clayton-as-lead-independent-director-113016273",
+            "quote": "more than 20 years with Sullivan & Cromwell LLP where he was a member of the management committee and co-managing partner",
+            "clip": "clips/2025-clayton-sullivan-cromwell-epstein-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Forbes — “Billionaire Leon Black, Revealed To Pay Jeffrey Epstein $158 Million, Is Stepping Down” (Jan. 25, 2021)",
+            "type": "secondary",
+            "url": "https://www.forbes.com/sites/antoinegara/2021/01/25/billionaire-leon-black-to-step-down-from-private-equity-giant-apollo-after-release-of-jeffrey-epstein-investigation/",
+            "quote": "made a $158 million payment to Jeffrey Epstein",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Julian Dorey / @julianddorey, Instagram reel DaS-K1FhOOn (podcast Ep. #441, Jul 2, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DaS-K1FhOOn/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A throughline record; all links in the chain are documented. Sullivan & Cromwell tenure and SEC chairmanship: Apollo's own press release and SEC records. Apollo non-executive chairman succeeding Leon Black on 2021-03-22 (Marc Rowan became CEO): Apollo press releases / CoinDesk. Leon Black's $158M to Epstein (2012–2017) and his step-down after the Dechert review: Forbes/CNBC/CNN — the Dechert review found the fees were for bona fide tax/estate services and no wrongdoing, which Black maintains; the sum and the resignation are undisputed. Clayton as SDNY U.S. Attorney (2025, Trump-appointed) over the Epstein files, and Bondi directing him to investigate Epstein's ties to Trump's political opponents: DOJ Daily News Briefing EFTA01655527 in our own EFTA holdings (dataset 10), quoting the AP (Sisak/Bedayn, 11/14). Binds via the 'sullivan-cromwell' theme to 2025-sullivan-cromwell-dulles-001 (the firm's Dulles-era history and the contested Talbot JFK thesis). Presents the institutional lineage; draws no conclusion about the files' handling. Surfaced by a podcast clip (Ep. #441)."
+}
