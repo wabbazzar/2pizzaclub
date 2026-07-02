@@ -1,0 +1,41 @@
+{
+    "id": "2025-robinson-confession-provenance-001",
+    "anchor": "y2025-kirk",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "kirk",
+        "prosecution"
+    ],
+    "claim": "The public basis for the widely repeated statement that Charlie Kirk's accused shooter, Tyler James Robinson, confessed to his parents is a hedged secondhand relay and an investigator-drafted filing, not a released first-hand statement from the family. At his September 12, 2025 announcement Utah Governor Spencer Cox said a family member of Robinson reached out to a family friend, who contacted the Washington County Sheriff's Office with information that Robinson 'had confessed to them or implied that he had committed the incident.' The Utah County charging document, written by investigators, recounts that account and states the parents said that when asked why, Robinson replied there is 'too much evil and the guy spreads too much hate,' and that at a dinner before September 10 Robinson had mentioned Kirk was coming to Utah Valley University. The nonprofit AbleChild reports it has been unable to locate any statement signed by Robinson's mother, father, or the family friend substantiating the confession, that the friend has not been publicly named, and that the Washington County sheriff has not produced video of Robinson and his family entering the office on September 11, 2025. In the disclosed recording of Robinson's own words he declines to talk: 'until I have the opportunity to speak with someone, I would like to remain silent.' Whether Robinson admitted the killing to his parents — as distinct from officials characterizing a hedged, thirdhand relay that way — is disputed; no first-hand statement from the parents affirming or denying it has been released.",
+    "sources": [
+        {
+            "label": "WFMZ / Associated Press — “Officials say suspect in Charlie Kirk shooting confessed ‘or implied that he had committed the incident’ to family”",
+            "type": "secondary",
+            "url": "https://www.wfmz.com/news/area/pennsylvania/we-got-him-officials-say-suspect-in-charlie-kirk-shooting-confessed-or-implied-that-he/article_a0592540-cea2-4175-add2-06c30565d83c.html",
+            "quote": "confessed to them or implied that he had committed the incident",
+            "clip": "clips/2025-robinson-confession-provenance-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Utah County Attorney — Charging Information (TJR), State of Utah v. Tyler James Robinson",
+            "type": "court",
+            "url": "https://atty.utahcounty.gov/cms/uploads/TJR_Information_49872215e3.pdf"
+        },
+        {
+            "label": "AbleChild — “How Governor Cox and Sheriff Smith Misled the World on the Tyler Robinson Confession”",
+            "type": "secondary",
+            "url": "https://www.ablechild.org/2026/06/23/how-governor-cox-and-sheriff-smith-misled-the-world-on-the-tyler-robinson-confession/",
+            "quote": "until I have the opportunity to speak with someone, I would like to remain silent.",
+            "clip": "clips/2025-robinson-confession-provenance-001-02.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "IAN WENDT / @iwendtster, Instagram reel DaRkHgUSCm6 (Jul 2, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DaRkHgUSCm6/"
+        }
+    ],
+    "status": "contested-public-claim",
+    "notes": "Written after a reader flagged that the 'family denies he confessed' thread was too quickly dismissed on the strength of the charging document — which is itself law enforcement's characterization, not a first-hand family statement. Primary-verifiable: Cox's recorded September 12, 2025 statement used the hedged phrase 'confessed to them or implied' and describes a family-member → family-friend → sheriff relay (thirdhand); the charging document (investigator-drafted) attributes a 'too much evil ... spreads too much hate' exchange to the parents; Robinson's disclosed booking/interview words invoke silence. Documentation gap is sourced to AbleChild (an advocacy nonprofit, flagged as such): no signed parent or family-friend statement located, friend unnamed, no released sheriff's-office entry video. What was NOT found, despite searching: a released first-hand statement by the parents either affirming a confession or denying one — the reel asserts the family 'confirmed that's not true,' but no primary family denial was located, just as no signed first-hand affirmation was located. This record documents the provenance dispute neutrally and does not assert the confession was fabricated; compare 2025-kirk-002 for the charges as filed and the partner-confession thread. [record-state tags: alt-theory, contested]"
+}

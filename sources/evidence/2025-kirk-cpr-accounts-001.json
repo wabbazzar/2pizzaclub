@@ -1,0 +1,40 @@
+{
+    "id": "2025-kirk-cpr-accounts-001",
+    "anchor": "y2025-kirk",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "kirk"
+    ],
+    "claim": "Two first-hand accounts of the attempt to save Charlie Kirk after he was shot on September 10, 2025 — both given on the record in recorded interviews — differ on whether CPR was performed. Frank Turek, Kirk's mentor, who rode in the SUV to Timpanogos Regional Hospital, said on his 'Cross Examined' podcast that those in the vehicle 'decided to start CPR' though he sensed 'Charlie wasn't there,' and that they were also 'trying to stop the bleeding.' Brian Harpole, who led Kirk's security detail, said on the Shawn Ryan Show that he treated a carotid wound he judged 'incompatible with life' by packing roughly 36 feet of gauze and holding constant pressure — 'Pack, pressure, pray' — describing hemorrhage control, not CPR, as the priority, on the reasoning that chest compressions cannot precede stopping arterial bleeding. News accounts variously described CPR as administered and as not administered. The conflict is between recorded first-hand accounts; no released record reconciles them.",
+    "sources": [
+        {
+            "label": "CBN News — “Charlie Kirk's Mentor Describes Last Moments on Earth in the SUV” (Frank Turek, ‘Cross Examined’ podcast)",
+            "type": "secondary",
+            "url": "https://cbn.com/news/us/charlie-kirks-mentor-describes-last-moments-earth-suv-they-raced-hospital",
+            "quote": "We're trying to stop the bleeding.",
+            "clip": "clips/2025-kirk-cpr-accounts-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "KSL — “Security chief recounts on podcast harrowing moments after Charlie Kirk was shot” (Brian Harpole, Shawn Ryan Show)",
+            "type": "secondary",
+            "url": "https://www.ksl.com/article/local-news/security-chief-recounts-charlie-kirk-shot/848360",
+            "quote": "Pack, pressure, pray",
+            "clip": "clips/2025-kirk-cpr-accounts-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Shawn Ryan Show — “SRS #254 Brian Harpole — Groundbreaking Evidence From Charlie Kirk's Head of Security” (episode page)",
+            "type": "primary",
+            "url": "https://shawnryanshow.com/blogs/the-shawn-ryan-show/srs-254-brian-harpole"
+        },
+        {
+            "label": "IAN WENDT / @iwendtster, Instagram reel DaRkHgUSCm6 (Jul 2, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DaRkHgUSCm6/"
+        }
+    ],
+    "status": "partially-verified-contested",
+    "notes": "Both accounts are verified to exist as recorded first-hand interviews; the conflict between them is the finding, presented without resolving it. Turek (Cross Examined podcast) describes deciding to start CPR in the SUV; Harpole (Shawn Ryan Show #254, the same episode cited in 2025-harpole-security-001) describes bleeding-control for a carotid wound and gives the clinical reason CPR was not the first measure. The reel surfacing this juxtaposes a recorded responder saying CPR was not being conducted ('right now I got to stop that bleeding') against public statements that CPR was administered — legitimate recorded primary testimony, not an invented claim, which is why this is a record rather than a note. The KSL and CBN reports carry the verbatim recorded quotes; the Shawn Ryan Show episode page is the primary recording (same SRS #254 cited in 2025-harpole-security-001). This documents the discrepancy in first-hand accounts; it does not adopt the further inference (that the discrepancy proves Kirk was not shot). [record-state tags: contested]"
+}
