@@ -1,0 +1,39 @@
+{
+    "id": "2025-owens-suv-photos-001",
+    "anchor": "y2025-kirk",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "kirk"
+    ],
+    "claim": "Candace Owens, a commentator and former Turning Point USA employee, has publicly argued that photographs from inside the SUV that carried Charlie Kirk from Utah Valley University to the hospital on September 10, 2025 show he was killed by his own microphone rather than a rifle round. It is documented that Kirk was carried by six men to a private SUV and driven to Timpanogos Regional Hospital in Orem rather than transported by ambulance. Presenting what she called 'enhanced' images, Owens claims that dark and white fragments on the vehicle floor and 'black tempered shatter glass' where 'Charlie's chest region would have been' are pieces of a shattered RODE wireless microphone rather than ordinary auto glass, and that a blood-stained jacket in the back seat 'was returned to his security and made it back to Erika's apartment with blood still on it. It was not collected into evidence.' She has separately publicized a vehicle-history claim built from the SUV's VIN and a Carfax report — that the vehicle was first purchased in Utah in February 2025, months before the shooting, then had its captain's seats and sections of floorboard removed before being auctioned to a California owner — and challenged Turning Point USA to answer ('Your move, Turning Point USA'). Officials have not publicly addressed the photographs or Owens' reading of the items in them; the charged account remains that Kirk was fatally shot by a bolt-action .30-06 rifle fired from a rooftop, for which Tyler James Robinson has been charged. None of Owens' photo interpretations have been independently verified.",
+    "sources": [
+        {
+            "label": "IBTimes UK — “Candace Owens Says New Charlie Kirk Car Photos Raise Questions: ‘Your Move, TPUSA’”",
+            "type": "secondary",
+            "url": "https://www.ibtimes.co.uk/candace-owens-questions-charlie-kirk-death-photos-1805423",
+            "quote": "there is black tempered shatter glass all over the car where Charlie's chest region would have been",
+            "clip": "clips/2025-owens-suv-photos-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "IBTimes UK — “‘Inside Job!’: Candace Owens Claims Enhanced SUV Images Reveal Hidden Charlie Kirk Evidence”",
+            "type": "secondary",
+            "url": "https://www.ibtimes.co.uk/candace-owens-charlie-kirk-microphone-theory-1804841"
+        },
+        {
+            "label": "Wikipedia — “Assassination of Charlie Kirk” (transport to hospital)",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Assassination_of_Charlie_Kirk",
+            "quote": "At 12:23:55 p.m., six men carried Kirk to an SUV, which took him to Timpanogos Regional Hospital in Orem, where he was later pronounced dead.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "IAN WENDT / @iwendtster, Instagram reel DaRkHgUSCm6 (Jul 2, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DaRkHgUSCm6/"
+        }
+    ],
+    "status": "contested-public-claim",
+    "notes": "One verifiable anchor separated from Owens' interpretation. Anchor (primary-verifiable): Kirk was carried to a private SUV and driven to Timpanogos Regional Hospital rather than transported by ambulance — documented across CNN/NPR/ABC/Wikipedia timelines; witnesses describe CPR attempted in the vehicle. Interpretation (Owens' contested claim): that fragments visible in the SUV interior are pieces of a shattered RODE microphone (the mic-as-weapon thesis, overlapping the separate optical-flow claim in 2025-bray-mic-theory-001), that a blood-stained jacket left evidence uncollected, and a VIN/Carfax vehicle-history thread. The reel surfacing this also ties the SUV's stated Feb 2025 purchase to an FBI Salt Lake City field-office leadership change: SLC did see leadership turnover in 2025 (Mehtab Syed named to lead the office early 2025, reported forced out ~August 2025), but no source ties the vehicle's purchase to any FBI appointment — the coincidence is the claimant's framing, not an established link. Officials have not addressed the photographs; the charged account is the rooftop rifle shooting (see 2025-kirk-002). This record documents the public claim and the cited sources without adopting either the claim or the official reconstruction. [record-state tags: alt-theory, contested]"
+}

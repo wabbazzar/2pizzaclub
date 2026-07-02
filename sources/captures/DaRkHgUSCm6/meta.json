@@ -1,0 +1,31 @@
+{
+    "id": "DaRkHgUSCm6",
+    "url": "https://www.instagram.com/reel/DaRkHgUSCm6/",
+    "platform": "instagram",
+    "captured_at": "2026-07-02",
+    "handle": "@iwendtster",
+    "author_display_name": "IAN WENDT",
+    "posted_at": "2026-07-02",
+    "engagement": {
+        "likes": 18896,
+        "comments": 1061
+    },
+    "caption": "The Charlie Kirk narrative is CRUMBLING. Here’s Everything you need to know.",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Cover card: \"Bet you didn't see this\". Caption: \"The Charlie Kirk narrative is CRUMBLING. Here's Everything you need to know.\"",
+    "audio_content_summary": "Ian Wendt narrates a compilation arguing Charlie Kirk was not shot by a rifle but killed by an exploding/malfunctioning microphone, replaying Candace Owens footage and stitching together: a 'camera behind Kirk' whose memory card was allegedly removed; a necklace/'magnet' said to still be on the body and no gore on a clean white shirt (no-bullet framing); the crime scene 'paved over'; the SUV that carried him to the hospital, with a VIN/Carfax vehicle-history reading; a claimed CPR contradiction; a claim that Robinson's family denies he confessed to his parents; and a motive package (Kirk against an Iran war, demanding Epstein-file release, criticizing Gaza, distancing from the pro-Israel lobby).",
+    "editorial_split": {
+        "a": 0,
+        "b": 8,
+        "c": 3
+    },
+    "implied_frame": "Frames the Charlie Kirk assassination as a staged inside job: that he was not shot (killed by a rigged microphone), that physical evidence was destroyed or withheld (scene resurfaced, camera memory card removed, uncollected bloody jacket), that Turning Point figures and the suspect's confession are fabrications, and that the motive was silencing an anti-Iran-war, anti-Israel-lobby, pro-Epstein-disclosure voice. Almost entirely a re-compilation of already-documented contested threads (mic theory 2025-bray-mic-theory-001; no-ballistic 2025-cullen-no-ballistic-001; scene resurfacing 2025-uvu-site-rebrick-001; Israel-link 2025-carlson-kirk-israel-001; anti-Iran motive 2026-kirk-erika-iran-001). New this cut: Candace Owens' SUV-interior photo / RODE-mic-fragment / Carfax thread (recorded as 2025-owens-suv-photos-001, contested). Two spoken claims fail verification: 'the feds said they were looking for the necklace' (single unsourced anecdote, no primary trace) and 'Robinson's family confirmed he did not confess to his parents' — contradicted by the charging documents, in which the parents' own account IS the source of the confession ('too much evil ... spreads too much hate'); no reporting shows a family recantation.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~68.2 MB); delivery ~70.3 MB webm, 561s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2025-owens-suv-photos-001"
+    ],
+    "supporting_research_links": []
+}
