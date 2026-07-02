@@ -1,0 +1,61 @@
+{
+    "id": "2013-epstein-jerky-cannibalism-001",
+    "anchor": "y2019",
+    "year": 2013,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "fbi",
+        "body-count"
+    ],
+    "claim": "A recurring online reading holds that the word \"jerky\" in the Epstein documents is code for human flesh, and proof of cannibalism. In the DOJ Epstein Files Transparency Act (EFTA) release, the roughly 300 documents that contain \"jerky\" are household food logistics from 2012–2016 — years before Epstein's August 2019 death — about actual homemade beef jerky: staff drying it from steak (\"the steak did have a bit more fat, nicer cut ... add double amount of ginger and lemon grass\"), storing it airtight in glass containers, shipping batches to his island, and even a to-do line \"beef jerky\" in an email to LinkedIn co-founder Reid Hoffman. The only file linking \"jerky\" to the word \"cannibal\" is a 2013 email noting that a jerky instructor \"is working at a restaurant called Cannibal and cooks ... Beef Jerky and Steak\" — a reference to The Cannibal, a real New York butcher-restaurant. Explicit \"cannibalism\" and \"Pizzagate\" language in the files sits in a separate category — press clippings, journalism describing the theory, Epstein forwarding a Pizzagate news item to his own lawyer, and a post-death FBI interview report of a walk-in the interviewing agent noted showed \"possible mental illness or emotional instability\" — and none of that tip material mentions jerky.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, EFTA01800587 — email thread on the jerky recipe, April 5, 2013.",
+            "type": "primary",
+            "url": null,
+            "quote": "You mean for the jerky? ... the steak did have a bit more fat (nicer cut). If made again at 71st I will add double amount of ginger and lemon grass ... to achieve the spiciness you like."
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, EFTA00700042 — Francis Derby to Jeffrey Epstein on jerky storage, October 21, 2012.",
+            "type": "primary",
+            "url": null,
+            "quote": "When I left at 6:30 the jerky was in one of the glass containers with plastic lid. same as we always keep it in."
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, EFTA01975629 — email arranging a jerky lesson, May 4, 2013.",
+            "type": "primary",
+            "url": null,
+            "quote": "He is working at a restaurant called Cannibal and cooks ... wait for it ... Beef Jerky and Steak!"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, EFTA00973118 — Jeffrey Epstein to Reid Hoffman, agenda for a call, October 13, 2013.",
+            "type": "primary",
+            "url": null,
+            "quote": "many threads for our next call. planes. charity, mapping orthogonal dimensions. beef jerky"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, EFTA01246048 — FBI interview report (FD-302), date of entry September 4, 2019, of a walk-in relaying Satanic-ritual-abuse claims.",
+            "type": "primary",
+            "url": null,
+            "quote": "some degree of possible mental illness or emotional instability. Although ... was polite and well mannered."
+        },
+        {
+            "label": "The Cannibal Beer & Butcher, 113 E. 29th St., New York — real butcher-restaurant confirming the email reference (Yelp listing).",
+            "type": "secondary",
+            "url": "https://www.yelp.com/biz/the-cannibal-new-york-7"
+        },
+        {
+            "label": "Related: our own accounting of how tip-line mail is mistaken for Epstein's records (2020-epstein-tipline-submissions-001, 2025-ntoc-epstein-tip-triage-001).",
+            "type": "secondary",
+            "url": "https://2pizzaclub.com/efta/messages.html"
+        },
+        {
+            "label": "Maoist Communist Union / @maoistcommunistunion, Instagram reel DW39EB_DgIu (April 8, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DW39EB_DgIu/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Corpus accounting done directly against ~/data/epstein-files/work/corpus.jsonl (1,051,599 docs). 'pizza' OR 'jerky' appears in 1,037 documents: jerky ~301 (168 in Data Set 9, 130 in Data Set 10, 3 in the House Oversight estate), pizza ~736. Read in context, the jerky documents are uniformly food logistics — a steak-based homemade-jerky recipe with ginger and lemongrass, a dehydrator ('drier'), airtight glass-jar storage, shipments to Little St. James, grocery/plane-snack lists ('Beef jerky (all of it)'; 'current food trends: muffins, ginger drink, butter spray, jerky'), and an iMessage 'JE says the jerky is great!!' (EFTA00515389, April 2016). The reel's 'you don't refrigerate beef jerky' is wrong for preservative-free homemade jerky, which is routinely refrigerated/airtight-stored — exactly what EFTA00700042 describes. The single jerky↔'cannibal' co-occurrence (EFTA01975629) is the restaurant name The Cannibal (113 E 29th St, named for cyclist Eddy Merckx; confirmed real, marked closed by 2026). A second incidental 'cannibal' is Epstein's own November 24, 2016 wordplay with mathematician Misha Gromov about the typo 'Ate/Are' (EFTA01741388). Explicit conspiracy vocabulary across the whole corpus is small and lives elsewhere: cannibal ~49 (mostly a 2011 Guardian op-ed headline in Epstein's press-monitoring, plus academic/biology/philosophy texts), pizzagate ~27 (journalism about Comet Ping Pong, and Epstein forwarding a Pizzagate article to lawyer Reid Weingarten on Dec 20 2016, HOUSE_OVERSIGHT_026047, who replied 'Yikes...my boy jeffrey is everywhere'), cannibalism ~8, adrenochrome 1 (EFTA00165018, a tip-style narrative). The genuine Satanic-ritual-abuse / cannibalism material is post-death tip and walk-in reports (e.g. EFTA01246048, an FBI FD-302 the agent flagged for possible instability; EFTA01246048 also names G.H.W. Bush) — a separate document class from Epstein's own emails, and it never uses the word jerky. This record documents only what the primary documents say; it does not adopt the cannibalism reading (no primary trace) — Group C. Reader-facing text avoids the surfacing post per house rules; the reel is cited only as the mechanical gallery link."
+}
