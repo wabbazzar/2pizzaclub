@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 99,
-      "seconds": 12922
+      "count": 101,
+      "seconds": 13186
     },
     {
       "slug": "adl",
@@ -46,8 +46,8 @@
     {
       "slug": "body-count",
       "topic": "Body Count",
-      "count": 9,
-      "seconds": 1318
+      "count": 10,
+      "seconds": 1493
     },
     {
       "slug": "cia",
@@ -94,8 +94,8 @@
     {
       "slug": "directed-energy-weapons",
       "topic": "Directed Energy Weapons",
-      "count": 2,
-      "seconds": 271
+      "count": 3,
+      "seconds": 360
     },
     {
       "slug": "doj",
@@ -140,6 +140,12 @@
       "seconds": 2765
     },
     {
+      "slug": "fda",
+      "topic": "Fda",
+      "count": 1,
+      "seconds": 175
+    },
+    {
       "slug": "federal-reserve",
       "topic": "Federal Reserve",
       "count": 1,
@@ -160,8 +166,8 @@
     {
       "slug": "food-supply",
       "topic": "Food Supply",
-      "count": 1,
-      "seconds": 177
+      "count": 2,
+      "seconds": 352
     },
     {
       "slug": "gates",
@@ -266,6 +272,12 @@
       "seconds": 360
     },
     {
+      "slug": "mind-control",
+      "topic": "Mind Control",
+      "count": 1,
+      "seconds": 89
+    },
+    {
       "slug": "mossad",
       "topic": "Mossad",
       "count": 6,
@@ -296,6 +308,12 @@
       "seconds": 1049
     },
     {
+      "slug": "pharma",
+      "topic": "Pharma",
+      "count": 1,
+      "seconds": 175
+    },
+    {
       "slug": "prosecution",
       "topic": "Prosecution",
       "count": 12,
@@ -304,8 +322,8 @@
     {
       "slug": "public-health",
       "topic": "Public Health",
-      "count": 4,
-      "seconds": 488
+      "count": 5,
+      "seconds": 663
     },
     {
       "slug": "regime-change",
@@ -366,6 +384,12 @@
       "topic": "Tech Billionaires",
       "count": 5,
       "seconds": 667
+    },
+    {
+      "slug": "tobacco",
+      "topic": "Tobacco",
+      "count": 1,
+      "seconds": 175
     },
     {
       "slug": "trump",
