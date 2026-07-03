@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 101,
-      "seconds": 13186
+      "count": 105,
+      "seconds": 14108
     },
     {
       "slug": "adl",
@@ -46,14 +46,14 @@
     {
       "slug": "body-count",
       "topic": "Body Count",
-      "count": 10,
-      "seconds": 1493
+      "count": 12,
+      "seconds": 1742
     },
     {
       "slug": "cia",
       "topic": "CIA",
-      "count": 10,
-      "seconds": 1431
+      "count": 11,
+      "seconds": 1543
     },
     {
       "slug": "civil-liberties",
@@ -124,8 +124,8 @@
     {
       "slug": "epstein",
       "topic": "Epstein",
-      "count": 16,
-      "seconds": 2126
+      "count": 18,
+      "seconds": 2355
     },
     {
       "slug": "false-flag",
@@ -136,8 +136,8 @@
     {
       "slug": "fbi",
       "topic": "FBI",
-      "count": 20,
-      "seconds": 2765
+      "count": 21,
+      "seconds": 2882
     },
     {
       "slug": "fda",
@@ -154,8 +154,8 @@
     {
       "slug": "finance",
       "topic": "Finance",
-      "count": 23,
-      "seconds": 3255
+      "count": 24,
+      "seconds": 3367
     },
     {
       "slug": "florida",
@@ -250,8 +250,8 @@
     {
       "slug": "kirk",
       "topic": "Kirk",
-      "count": 6,
-      "seconds": 754
+      "count": 7,
+      "seconds": 1315
     },
     {
       "slug": "lobbying",
@@ -316,8 +316,8 @@
     {
       "slug": "prosecution",
       "topic": "Prosecution",
-      "count": 12,
-      "seconds": 1542
+      "count": 13,
+      "seconds": 2103
     },
     {
       "slug": "public-health",
@@ -366,6 +366,12 @@
       "topic": "State Terror",
       "count": 2,
       "seconds": 288
+    },
+    {
+      "slug": "sullivan-cromwell",
+      "topic": "Sullivan Cromwell",
+      "count": 1,
+      "seconds": 112
     },
     {
       "slug": "surfside",
@@ -448,8 +454,8 @@
     {
       "slug": "whistleblower",
       "topic": "Whistleblower",
-      "count": 4,
-      "seconds": 543
+      "count": 5,
+      "seconds": 675
     }
   ]
 }
