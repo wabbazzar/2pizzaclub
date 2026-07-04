@@ -1,0 +1,35 @@
+{
+    "id": "DaWr5adO0sd",
+    "url": "https://www.instagram.com/reel/DaWr5adO0sd/",
+    "platform": "instagram",
+    "captured_at": "2026-07-04",
+    "handle": "@ericmoutsos",
+    "author_display_name": "Eric Moutsos",
+    "posted_at": "2026-07-04",
+    "engagement": {
+        "likes": 110091,
+        "comments": 4929
+    },
+    "caption": "You may want to hold onto this nugget of a video 🇮🇱",
+    "hashtags": [],
+    "audio_track_actual": "Original speech. Speaker's own intro over the top ('I thought I lost this video... you might want to save it') then the audio track of an ABC News 20/20 segment ('The White Van: Were Israelis Detained on Sept. 11 Spies?', aired Jun 21, 2002) narrating the Urban Moving Systems arrests.",
+    "video_overlay_text_observed": "Cover card: 'You may want to hold onto this nugget of a video 🇮🇱'. Body is the replayed 20/20 broadcast.",
+    "audio_content_summary": "Recounts the 'Dancing Israelis' case: a New Jersey witness reported three men on a van photographing/celebrating as WTC 1 burned; police stopped the van hours later and arrested five men, all Israeli nationals employed by Urban Moving Systems. Cites ABC's reporting that some men were listed in national-security databases with Israeli-intelligence connections; a former Mossad officer's claim that Urban Moving was an intelligence front; the 76 developed photos showing the men smiling/high-fiving with a lighter raised; conflicting accounts about arrival time (one detainee placing them at the lot ~8 a.m., before the attacks); and the men's 71-day detention and deportation to Israel. Frames the case as Mossad foreknowledge of 9/11.",
+    "implied_frame": "That the five Urban Moving Systems men were Mossad operatives with advance knowledge of the 9/11 attacks and that their arrival before the strikes proves foreknowledge. The underlying arrest, Israeli nationality, employer, photographs, detention and deportation are documented; the foreknowledge/operative interpretation is contested and unproven. The '8 a.m. arrival = 45 minutes before the attacks' and 'FBI identified two as Mossad agents' points are the contested core, not settled fact. Handled by the existing record [[2001-dancing-israelis-001]] as contested.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~30.3 MB); delivery ~31.0 MB webm, 178s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2001-dancing-israelis-001"
+    ],
+    "editorial_split": {
+        "a": 0,
+        "b": 7,
+        "c": 0
+    },
+    "supporting_research_links": [
+        "https://abcnews.com/2020/story?id=123885&page=1",
+        "https://oig.justice.gov/sites/default/files/archive/special/0306/chapter2.htm",
+        "https://en.wikipedia.org/wiki/September_11_attacks_advance-knowledge_conspiracy_theories"
+    ]
+}
