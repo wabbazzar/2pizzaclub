@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 106,
-      "seconds": 14286
+      "count": 107,
+      "seconds": 14396
     },
     {
       "slug": "adl",
@@ -76,8 +76,8 @@
     {
       "slug": "covid",
       "topic": "Covid",
-      "count": 4,
-      "seconds": 488
+      "count": 5,
+      "seconds": 598
     },
     {
       "slug": "crypto",
@@ -322,8 +322,8 @@
     {
       "slug": "public-health",
       "topic": "Public Health",
-      "count": 5,
-      "seconds": 663
+      "count": 6,
+      "seconds": 773
     },
     {
       "slug": "regime-change",
@@ -424,8 +424,8 @@
     {
       "slug": "vaccines",
       "topic": "Vaccines",
-      "count": 3,
-      "seconds": 326
+      "count": 4,
+      "seconds": 436
     },
     {
       "slug": "war",
