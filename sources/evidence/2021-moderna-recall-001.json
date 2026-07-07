@@ -1,0 +1,29 @@
+{
+    "id": "2021-moderna-recall-001",
+    "anchor": "y2021-moderna-recall",
+    "year": 2021,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "vaccines",
+        "public-health"
+    ],
+    "claim": "In late August 2021 Japan's health ministry suspended roughly 1.63 million Moderna COVID-19 doses across three manufacturing lots after foreign particles were found in unused vials. A joint Moderna, Takeda and Rovi investigation identified the particles as stainless steel (grade SUS 316L, an austenitic alloy) and attributed the contamination to friction between two metal parts of the vial-stoppering machinery at the Rovi fill-and-finish plant in Spain; energy-dispersive X-ray spectroscopy on the recalled vials confirmed the composition, with observed particles ranging from under 50 to 548 micrometres. The ministry, citing the companies' investigation, said it did not believe the stainless-steel particles posed an added health risk.",
+    "sources": [
+        {
+            "label": "Japanese investigation of foreign particles in the recalled Moderna COVID-19 vaccine (PubMed 35908947, 2022)",
+            "type": "primary",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35908947/",
+            "quote": "Energy dispersive X-ray spectroscopy analysis suggested that the foreign particles found in the vials recalled from the vaccination sites were from stainless steel SUS 316L. The sizes of the observed particles ranged from <50 μm to 548 μm in the major axis.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Al Jazeera: Moderna says some COVID vaccines sent to Japan contained steel (2021-09-01)",
+            "type": "secondary",
+            "url": "https://www.aljazeera.com/news/2021/9/1/moderna-says-some-covid-vaccines-sent-to-japan-contained-steel",
+            "quote": "Japanese authorities suspended the use of these batches of Moderna shots containing 1.63 million doses last week ... The most probable cause of contamination was related to friction between two pieces of metal in the machinery that puts stoppers on the vials ... Japan's health ministry said on Wednesday, based on information from the companies' investigation, that it did not believe the particles of stainless steel pose any additional health risk."
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A verified fact from capture DabC5nzSptx (French anti-vaccine monologue, @danbee_hiddentiger, footage of Astrid Stuckelberger presenting a graphene-nanoparticle poster). The reel cites the August 2021 Japan Moderna recall as proof of a deliberate 'chemical crime against humanity' — the graphene-oxide framing. The recall is real and is recorded here for exactly that reason: the identified contaminant was metallic (stainless steel SUS 316L), the traced cause was a machine-assembly defect at the Rovi (Spain) fill plant later attributed to human error (Takeda/Forbes, 2021-10-01), and the health ministry found no added health risk — not graphene oxide, not an intended additive. Three lots (~1.63M doses); ~500,000 people had received shots from the suspended batches. Everything else in the reel is Group B/C and gets NO record: the 'graphene oxide in Comirnaty' claim traces to Pablo Campra's non-peer-reviewed 2021 report (University of Almería), which his own text called inconclusive — single sample of unknown origin, no Raman spectroscopy — and which Science/Health Feedback and multiple fact-checks rate unsupported; the Gatti/Montanari (Italy) and Diblasi/Sangorrín (Argentina) 'undeclared compounds / 55 lethal compounds' claims are contested/fringe with no verified primary; the 'vaccinated became electromagnetic / magnet challenge' and 'self-assembling nanoparticle networks in all vaccines' claims are debunked; 'same research in Germany/England/Korea/Australia' is unnamed and untraceable (Group C). Cover-card framing 'conspiracy theorists were right yet again' implies official vindication — the footage is Stuckelberger (former WHO, prominent graphene-vaccine promoter) presenting AT a venue, not an official body's finding."
+}

@@ -1,0 +1,36 @@
+{
+    "id": "DabC5nzSptx",
+    "url": "https://www.instagram.com/reel/DabC5nzSptx/",
+    "platform": "instagram",
+    "captured_at": "2026-07-06",
+    "handle": "@danbee_hiddentiger",
+    "author_display_name": "Lee Dan Bee",
+    "posted_at": "2026-07-05",
+    "engagement": {
+        "likes": 1533,
+        "comments": 38
+    },
+    "caption": "In the 2021 French parliamentary session, the deputy presented with precision and irrefutable scientific evidence the presence of billions of graphene oxide nanoparticles in COVID-19 vaccines, fully confirming the independent research by La Quinta Columna and the technical report by Dr. Pablo Campra, who through micro-Raman spectroscopy and electron microscopy conclusively identified this compound in Pfizer, Moderna, AstraZeneca, and Janssen vial samples. The parliamentarian detailed how these nanoparticles, not declared in official ingredient lists, form self-assembling structures that interact with electromagnetic fields like 5G technology, explaining the mechanisms behind global adverse effects, including unusual fibrous clots and blood alterations in vaccinated people. This revelation, backed by rigorous microscopic and spectroscopic analysis by Spanish and Italian researchers, established as a verified fact that the injections contained this toxic material in massive quantities. #vaccine #vaccinekills #covidvaccine #mrnavaccine #luciferase",
+    "hashtags": ["vaccine", "vaccinekills", "covidvaccine", "mrnavaccine", "luciferase"],
+    "audio_track_actual": "French-language monologue by a woman presenting a poster ('the poster you have behind me'), delivered as testimony at a seated committee/hearing venue. The on-screen footage matches Astrid Stuckelberger (former WHO, prominent graphene-oxide-in-vaccines promoter); a nameplate reading 'Stuckelberger' is visible beside a second seat ('Gülgül'). English translation and the French original are saved as transcript.txt and transcript.orig.txt.",
+    "video_overlay_text_observed": "Cover/hard-subtitle card: '\"conspiracy theorists\" were right yet again 🚨⚠️' over hard-burned English subtitles of the French audio ('and I'm done with this' …). 'MP' watermark top-left.",
+    "audio_content_summary": "Argues that COVID-19 vaccines contain graphene-oxide nanoparticles rather than an accidental contaminant. Sequence: (1) claims that from March 2021 large numbers of vaccinated people became 'electromagnetic' at the injection site (the magnet challenge); (2) Dr. Pablo Campra (Spain, University of Almería) found 'billions of graphene-oxide nanoparticles' in Pfizer Comirnaty by transmission electron microscope; (3) Drs. Gatti and Montanari (Italy) found the same inorganic compounds plus dozens of undeclared compounds by environmental SEM; (4) Lorena Diblasi and Marcela Sangorrín (Argentina) found the same but worse, with heavy metals and '55 undeclared compounds, some lethal'; (5) the same research and results in Germany, England, Korea and Australia; (6) in August 2021 Japan's health ministry withdrew Moderna vaccines over a discovery of contamination; (7) frames all of this not as contamination but as 'a real crime against humanity, a chemical crime organized and planned long ago'; (8) the poster shows self-assembling nanoparticle networks present in all COVID vaccines regardless of maker (Sinopharm, Sinovac …).",
+    "implied_frame": "That parliamentary/official proceedings and worldwide independent researchers have verified graphene oxide as a deliberately added, undeclared, self-assembling, 5G-reactive toxin in every COVID vaccine — 'conspiracy theorists were right.' The graphene-oxide claim traces to Pablo Campra's non-peer-reviewed 2021 report, which his own text called inconclusive (single sample of unknown origin; and, contrary to the caption's 'micro-Raman spectroscopy,' NO Raman was performed); Science Feedback / Health Feedback and multiple fact-checks rate the claim unsupported, and published FDA/EMA ingredient lists contain no graphene oxide. The one real event the reel invokes — the August 2021 Japan Moderna recall — was metallic (stainless-steel SUS 316L) particulate contamination from a machine-assembly defect at the Rovi (Spain) fill plant, with no added health risk found; it is documented on its own terms in [[2021-moderna-recall-001]]. The 'French parliamentary session' framing packages an activist researcher's presentation at a venue as an official government finding.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp (chrome-debug cookies; reel is login-gated); delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -3.0 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~7.4 MB); delivery ~7.8 MB webm, 110s.",
+    "audio_transcription_status": "Source audio is French. Transcribed and translated with faster-whisper (base, CPU) — English in transcript.txt, French original in transcript.orig.txt. (The default openai-whisper venv was corrupted this run; faster-whisper substituted, translate task.)",
+    "evidence_records": [
+        "2021-moderna-recall-001"
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 7,
+        "c": 3
+    },
+    "supporting_research_links": [
+        "https://pubmed.ncbi.nlm.nih.gov/35908947/",
+        "https://www.aljazeera.com/news/2021/9/1/moderna-says-some-covid-vaccines-sent-to-japan-contained-steel",
+        "https://healthfeedback.org/claimreview/there-is-no-conclusive-evidence-that-the-pfizer-biontech-covid-19-vaccine-contains-graphene-oxide/",
+        "https://www.thejournal.ie/debunked-covid-19-vaccines-lead-graphene-oxide-5533363-Aug2021/"
+    ]
+}
