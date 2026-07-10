@@ -1,0 +1,37 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-07-10, openai-whisper base.en
+
+— FULL TEXT —
+
+If you don't think we're being blasted by all kinds of radio waves and electromagnetic radiation,
+watch this clip from 2017 about smart meters. And we now have vast amounts of published science
+on microwave radiation and health effects. The data we're going to look at are all published
+science testing results or public standards. At the bottom end of the radiation scale of what's
+called power density or signal strength is the minimum level at which cell phones will work,
+which was found to be 0.2 billionths of a micro watt per centimeter squared. Pi needles were found
+to age prematurely at 0.00027. At short-term exposures of 0.05, children aged 8 to 17
+experienced headache, irritation, concentration difficulties, and behavioral problems.
+0.1 is the bowel biology or building biology guideline for extreme concern.
+1.0 produced sperm DNA fragmentation and a decrease in sperm viability in vitro.
+Also at 1.0, the science shows the following bodily effects can occur. Headaches, dizziness,
+fatigue, insomnia, chest pain, difficulty breathing, and indigestion.
+2.5 saw altered calcium metabolism and heart muscle cells. 4.0 changes in the hippocampus
+affecting brain memory and learning, and at 6.0 DNA damage and cells. So where are smart meters on
+this list? Electrical Power Institute in December 2010 measured a single-itron smart meter with
+pulses up to 7.93 micro watts per centimeter squared. Our own testing indicated approximately
+8.0 with one meter. These tests are at a close distance approximately one foot away from the
+meter, but an infant's crib can be just as close on the other side of the wall where the meter or
+bank of meters are installed. Even though there are all these known health effects at levels far
+lower, Switzerland, Liechtenstein, and Luxembourg see fit to set the standard at 9.5 and China,
+Poland, and Russia, 10.0. This is the same level at which behavior has been altered,
+producing reflexes of avoidance following 30-minute exposures.
+A room of 12 smart meters, very common and even a conservative number in an apartment building,
+tested at 19.8 micro watts per centimeter squared. This is hundreds of times higher than levels
+which clearly indicate harmful effects. So how can utilities and governments get away with
+forcing these devices on everyone? This is how. In Canada and the US and several other civilized
+countries, the safety limit is set at 600 to 1000 micro watts per centimeter squared.
+This so-called safety limit is literally tens of thousands of times higher than levels which are
+known to damage health, according to peer-reviewed published science.
+
+— END —
