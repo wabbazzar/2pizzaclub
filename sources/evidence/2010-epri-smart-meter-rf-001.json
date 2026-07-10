@@ -1,0 +1,32 @@
+{
+    "id": "2010-epri-smart-meter-rf-001",
+    "anchor": "y2017-emf-smart-meters",
+    "year": 2010,
+    "era": "iv",
+    "themes": [
+        "public-health",
+        "science"
+    ],
+    "claim": "The Electric Power Research Institute (EPRI), a utility-industry research body, measured radio-frequency emissions from an Itron smart meter in its December 2010 report (product 1021126) and concluded that exposure falls off rapidly with distance, that the meters transmit only a small fraction of the time, and that levels stay well below the U.S. FCC's maximum permissible exposure (MPE) — an industry white paper summarizing the measurements put exposure through a wall at roughly 0.01% of the FCC limit and reported exposure 'well below FCC standard limits' even in close proximity. The report expresses its results as percentages of the FCC MPE, not as a fixed µW/cm² field value; a '7.93 µW/cm²' figure attributed to it corresponds to a percent-of-limit worst-case (radio forced to transmit continuously), not a measured power density, and understates the true peak. The conclusion is contested: Sage Associates — the group that also edited the BioInitiative Report — argued in a 2011 response that EPRI did not model banks of multiple meters at high duty cycle, which under the FCC's own OET-65 rules could approach or exceed the public limit in worst-case assumptions.",
+    "sources": [
+        {
+            "label": "EPRI, An Investigation of Radiofrequency Fields Associated with the Itron Smart Meter (product 1021126, Dec 2010)",
+            "type": "primary",
+            "url": "https://www.epri.com/research/products/000000000001021126"
+        },
+        {
+            "label": "EEI/AEIC/UTC white paper, A Discussion of Smart Meters and RF Exposure Issues (2011) — summarizing the EPRI measurements",
+            "type": "secondary",
+            "url": "https://www.appalachianpower.com/lib/docs/community/projects/EEI-AEIC-UTC_White_Paper_smartmetersandrf031511.pdf",
+            "quote": "even in extreme instances that result in close proximity to the meters, measurements have shown exposure well below FCC standard limits. Exposure in living spaces will be even less due to the attenuation of RF signal.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Sage Associates, Response to EPRI (Nov 2011) — argues multiple-meter worst case could violate FCC OET-65 limits",
+            "type": "primary",
+            "url": "http://sagereports.com/smart-meter-rf/?page_id=474"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A / context record from capture DamkicUoJo8. Documents what the EPRI Itron report actually concluded (emissions well below FCC MPE at normal distances; meters duty-cycle a small fraction of the time) and the named counter-position (Sage Associates 2011, multi-meter high-duty worst case under OET-65). The clip's 'EPRI measured a meter at up to 7.93 µW/cm²' is the misread: 7.93 is a percent-of-MPE value, not a measured µW/cm² power density (per subagent trace; actual near-field peak estimates are higher, ~48-79 µW/cm², but the report frames everything as % of the FCC limit and predicts no violations). Presented two-sided per the 'reader chooses' ethos — EPRI is industry-funded, Sage is the BioInitiative editor; neither is a neutral regulator. Pairs with [[2017-emf-exposure-limits-001]] and [[2017-emf-bioeffect-chart-001]]. Not an EFTA-corpus subject."
+}

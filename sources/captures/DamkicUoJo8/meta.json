@@ -27,7 +27,9 @@
     "audio_transcription_status": "Transcribed with openai-whisper (base.en) via the rebuilt persistent whisper venv.",
     "evidence_records": [
         "2017-emf-bioeffect-chart-001",
-        "2017-emf-exposure-limits-001"
+        "2017-emf-exposure-limits-001",
+        "2010-epri-smart-meter-rf-001",
+        "2012-bioinitiative-report-001"
     ],
     "editorial_split": {
         "a": 1,

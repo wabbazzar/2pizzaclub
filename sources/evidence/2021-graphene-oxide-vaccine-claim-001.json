@@ -15,7 +15,8 @@
             "type": "primary",
             "url": "https://science.feedback.org/review/there-is-no-conclusive-evidence-that-the-pfizer-biontech-covid-19-vaccine-contains-graphene-oxide/",
             "quote": "There is no evidence that the Pfizer-BioNTech COVID-19 vaccine contains graphene. ... The product's 'origin and traceability is unknown'. ... Microcopy doesn't provide conclusive evidence.",
-            "clip_status": "quote-not-found"
+            "clip_status": "ok-head60",
+            "clip": "clips/2021-graphene-oxide-vaccine-claim-001-00.png"
         },
         {
             "label": "TheJournal.ie FactCheck: No, Covid-19 vaccines do not contain graphene oxide (Aug 2021)",

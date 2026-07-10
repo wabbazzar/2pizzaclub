@@ -1,0 +1,30 @@
+{
+    "id": "2012-bioinitiative-report-001",
+    "anchor": "y2017-emf-smart-meters",
+    "year": 2012,
+    "era": "iv",
+    "themes": [
+        "public-health",
+        "science"
+    ],
+    "claim": "The BioInitiative Report — the source of the power-density 'effect threshold' charts that circulate through the EMF-safety movement — is a self-published document, first posted online in 2007 and updated in 2012, assembled by a self-selected group and edited by Cindy Sage and David Carpenter. It is not a peer-reviewed publication and is not a recognized exposure-standards body: the World Health Organization recognizes only the International Commission on Non-Ionizing Radiation Protection (ICNIRP) and the IEEE for that role. Reviews by government and independent scientific bodies — including the EU's SCENIHR, the Australian and Dutch health authorities, and the IEEE Committee on Man and Radiation (COMAR) — criticized it as a selective rather than comprehensive review of the literature, inconsistent between chapters, and lacking balance. Its conclusions are a minority position advocating precautionary limits far below the ICNIRP/FCC thermal standards, not an established scientific consensus.",
+    "sources": [
+        {
+            "label": "BioInitiative Report — official site (self-published; 2007, updated 2012)",
+            "type": "primary",
+            "url": "https://bioinitiative.org/"
+        },
+        {
+            "label": "Wikipedia: BioInitiative Report — self-published, not peer-reviewed; summary of health-agency criticism",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Bioinitiative_Report"
+        },
+        {
+            "label": "Science-Based Medicine: Picking Cherries in Science — the Bio-Initiative Report",
+            "type": "secondary",
+            "url": "https://sciencebasedmedicine.org/picking-cherries-in-science-the-bio-initiative-report/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group B / context record from capture DamkicUoJo8. Establishes what the BioInitiative Report is, because the reel's whole power-density ladder derives from it (via Ronald M. Powell's 2013 re-tabulation — see [[2017-emf-bioeffect-chart-001]]). Verified facts: self-published 2007, updated 2012, edited Sage & Carpenter, not peer-reviewed, not a WHO-recognized standards body (WHO recognizes ICNIRP + IEEE). Criticism is on the record from multiple official bodies (SCENIHR, ARPANSA, Dutch Health Council, COMAR) as selective/inconsistent/unbalanced. Presented per 'reader chooses': the report exists and makes its case; it is a minority advocacy position, not consensus. This anchors future EMF/5G reels that cite BioInitiative-derived numbers. Not an EFTA-corpus subject."
+}

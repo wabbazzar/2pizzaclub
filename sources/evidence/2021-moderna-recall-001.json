@@ -21,7 +21,9 @@
             "label": "Al Jazeera: Moderna says some COVID vaccines sent to Japan contained steel (2021-09-01)",
             "type": "secondary",
             "url": "https://www.aljazeera.com/news/2021/9/1/moderna-says-some-covid-vaccines-sent-to-japan-contained-steel",
-            "quote": "Japanese authorities suspended the use of these batches of Moderna shots containing 1.63 million doses last week ... The most probable cause of contamination was related to friction between two pieces of metal in the machinery that puts stoppers on the vials ... Japan's health ministry said on Wednesday, based on information from the companies' investigation, that it did not believe the particles of stainless steel pose any additional health risk."
+            "quote": "Japanese authorities suspended the use of these batches of Moderna shots containing 1.63 million doses last week ... The most probable cause of contamination was related to friction between two pieces of metal in the machinery that puts stoppers on the vials ... Japan's health ministry said on Wednesday, based on information from the companies' investigation, that it did not believe the particles of stainless steel pose any additional health risk.",
+            "clip": "clips/2021-moderna-recall-001-01.png",
+            "clip_status": "ok-cross-node60"
         }
     ],
     "status": "verified",
