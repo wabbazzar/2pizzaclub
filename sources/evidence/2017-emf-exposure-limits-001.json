@@ -1,0 +1,30 @@
+{
+    "id": "2017-emf-exposure-limits-001",
+    "anchor": "y2017-emf-smart-meters",
+    "year": 2017,
+    "era": "iv",
+    "themes": [
+        "public-health",
+        "science"
+    ],
+    "claim": "The public radio-frequency exposure limit in the United States and Canada is, as commonly stated, in the range of 600 to 1,000 µW/cm² (microwatts per square centimeter): the U.S. FCC's maximum permissible exposure for the general public (47 CFR §1.1310) follows the formula frequency/1,500 mW/cm² between 300 and 1,500 MHz — about 600 µW/cm² at 900 MHz — and is capped at 1,000 µW/cm² (1.0 mW/cm²) above 1,500 MHz, with Health Canada's Safety Code 6 setting equivalent values. These limits are averaged over a 30-minute window and are set to prevent tissue heating (thermal effects); they are not derived from the low-level non-thermal effect claims. Several countries set lower precautionary limits: Switzerland's installation limit (ONIR/NISV, 6 V/m) is about 9.5 µW/cm² and Russia's is about 10 µW/cm². Some country groupings that circulate with these figures are inaccurate — Luxembourg's limit (3 V/m, ~2.4 µW/cm²) is stricter than the Swiss group it is often listed with, and China's (GB 8702, ~40 µW/cm²) is looser than the ~10 µW/cm² group.",
+    "sources": [
+        {
+            "label": "U.S. FCC, 47 CFR §1.1310 — Maximum Permissible Exposure (MPE) limits for general population/uncontrolled exposure",
+            "type": "primary",
+            "url": "https://www.ecfr.gov/current/title-47/section-1.1310"
+        },
+        {
+            "label": "Health Canada, Safety Code 6 — Limits of Human Exposure to Radiofrequency Electromagnetic Energy (3 kHz–300 GHz)",
+            "type": "primary",
+            "url": "https://www.canada.ca/en/health-canada/services/publications/health-risks-safety/limits-human-exposure-radiofrequency-electromagnetic-energy-frequency-range-3-300.html"
+        },
+        {
+            "label": "Swiss Ordinance on Protection from Non-Ionising Radiation (ONIR/NISV) — installation limit value (Anlagegrenzwert)",
+            "type": "primary",
+            "url": "https://www.fedlex.admin.ch/eli/cc/2000/38/en"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A verified fact from capture DamkicUoJo8. The 600-1,000 µW/cm² North American public limit is canonical and unambiguous: FCC MPE general-population power density = f/1500 mW/cm² (300-1500 MHz) → 0.6 mW/cm² = 600 µW/cm² at 900 MHz, capped at 1.0 mW/cm² = 1000 µW/cm² above 1.5 GHz, 30-minute averaging; Health Canada Safety Code 6 gives equivalent values. Verified by subagent against the regulation; government pages 403/timeout to the fetcher so no verbatim clip, but the MPE formula is a published standard, not a contested figure. The clip states this range correctly. The precautionary-limit figures are also verified: Switzerland (6 V/m installation limit ≈ 9.55 µW/cm²) and Russia (SanPiN 0.1 W/m² = 10 µW/cm²) match; the clip's groupings are partly wrong — Luxembourg is 3 V/m ≈ 2.4 µW/cm² (stricter, not 9.5) and China is GB 8702 0.4 W/m² = 40 µW/cm² (looser, not 10). Key framing fact (stated neutrally, per house rules): these regulatory limits are thermal and time-averaged, a different basis from the non-thermal low-level effect claims in [[2017-emf-bioeffect-chart-001]]; the clip juxtaposes the two to argue the limits are orders of magnitude too high, which crosses a thermal/non-thermal and averaging-time boundary rather than comparing like with like. Also verified separately: the clip's 'EPRI Dec 2010 measured an Itron meter at 7.93 µW/cm²' misreads the EPRI report — 7.93 was a percentage-of-FCC-limit value with a µW/cm² unit stapled on; the report's actual finding was that smart-meter emissions are a small fraction of the FCC limit. Not an EFTA-corpus subject."
+}

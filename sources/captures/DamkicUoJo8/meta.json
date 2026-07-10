@@ -18,13 +18,27 @@
         "ElectromagneticPollution",
         "RegulatoryFailure"
     ],
-    "audio_track_actual": "",
-    "video_overlay_text_observed": "",
-    "audio_content_summary": "",
-    "implied_frame": "",
+    "audio_track_actual": "Narration lifted from the documentary 'Take Back Your Power' (2017, Josh del Sol), a smart-meter clip. Male narrator reads a ladder of radio-frequency power-density values (µW/cm²) against claimed biological effects, framed as 'published science.'",
+    "video_overlay_text_observed": "Cover card: 'Learn about safe electromagnetic radiation levels. Smart meters and 5G towers at schools makes no sense. Kids don't need this.' On-screen source credit: 'From \"Take Back Your Power 2017 — smart meter documentary\".' A 'MP' watermark.",
+    "audio_content_summary": "Presents a power-density ladder (in µW/cm²) each tied to a biological effect said to be from published science: 0.2 billionths = minimum cell-phone signal; 0.00027 = pine needles age prematurely; 0.05 = children 8-17 get headaches/irritation/concentration/behavioral problems; 0.1 = Building Biology 'extreme concern' guideline; 1.0 = sperm DNA fragmentation in vitro plus a symptom list (headaches, dizziness, fatigue, insomnia, chest pain, breathing difficulty, indigestion); 2.5 = altered calcium in heart-muscle cells; 4.0 = hippocampus/memory-learning changes; 6.0 = DNA damage. Then measurements/standards: EPRI (Dec 2010) measured an Itron smart meter at up to 7.93; 'our own testing' ~8.0 at one foot; Switzerland/Liechtenstein/Luxembourg set 9.5 and China/Poland/Russia 10.0; a room of 12 meters tested 19.8; and the US/Canada safety limit is 600-1000 — argued to be 'tens of thousands of times higher' than levels shown to harm health.",
+    "implied_frame": "That peer-reviewed science has established biological harm at power densities thousands of times below the smart-meter and regulatory exposure limits, so the limits represent a regulatory failure / deliberate poisoning. Traced (three subagent fact-checks): the effect-threshold ladder is Ronald M. Powell's 2013 re-tabulation of the 2012 BioInitiative Report (an advocacy compilation); the underlying studies are real but the µW/cm² thresholds are unit-substitutions — most papers measured SAR (W/kg) or field strength (V/m), not incident power density — and several rows are misattributed (the 4.0 'hippocampus memory' row cites a 1988 chick-muscle ion-channel study; the 0.05 children figure is a dosimeter detection floor whose authors called the association non-causal) or omit on-point double-blind nulls (Eltiti 2007). Assessed in [[2017-emf-bioeffect-chart-001]]. The regulatory limits the clip cites are documented in [[2017-emf-exposure-limits-001]]: the 600-1000 µW/cm² US/Canada figure is stated correctly (a thermal, 30-min-averaged limit — a different basis from the non-thermal effect claims), but the EPRI 7.93 figure is a misread (a percent-of-limit value relabeled as µW/cm²) and two country groupings are wrong (Luxembourg stricter, China looser than stated).",
     "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
     "video_download_status": "Original pulled via yt-dlp (~9.2 MB); delivery ~9.8 MB webm, 177s.",
-    "audio_transcription_status": "Transcribed with openai-whisper.",
-    "evidence_records": [],
-    "supporting_research_links": []
+    "audio_transcription_status": "Transcribed with openai-whisper (base.en) via the rebuilt persistent whisper venv.",
+    "evidence_records": [
+        "2017-emf-bioeffect-chart-001",
+        "2017-emf-exposure-limits-001"
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 11,
+        "c": 2
+    },
+    "supporting_research_links": [
+        "https://bioinitiative.org/wp-content/uploads/pdfs/BioInitiativeReport-RF-Color-Charts.pdf",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006446",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3006375/",
+        "https://pubmed.ncbi.nlm.nih.gov/18007992/",
+        "https://www.ecfr.gov/current/title-47/section-1.1310"
+    ]
 }

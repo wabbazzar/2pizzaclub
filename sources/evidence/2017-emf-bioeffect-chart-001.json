@@ -1,0 +1,38 @@
+{
+    "id": "2017-emf-bioeffect-chart-001",
+    "anchor": "y2017-emf-smart-meters",
+    "year": 2017,
+    "era": "iv",
+    "themes": [
+        "public-health",
+        "surveillance",
+        "science"
+    ],
+    "claim": "The chart that ranks radio-frequency power densities (in microwatts per square centimeter, µW/cm²) against escalating biological harms — pine-needle aging at 0.00027, children's symptoms at 0.05, sperm-DNA damage at 1.0, heart-cell calcium change at 2.5, hippocampus/memory change at 4.0, DNA damage at 6.0 — is a 2013 re-tabulation by retired physicist Ronald M. Powell of the studies in the 2012 BioInitiative Report, an advocacy compilation, not a regulatory or consensus body. The underlying papers are real but the µW/cm² thresholds are not the numbers those papers reported: most measured specific absorption rate (SAR, in watts per kilogram of absorbed dose) or field strength (volts per meter), which are different physical quantities from incident power density and have no fixed conversion to it. The sperm result (De Iuliis et al., 2009) occurred at 1.0 W/kg SAR, not 1.0 µW/cm²; the row citing a hippocampus/memory effect at 4.0 rests on a 1988 study of ion channels in cultured chick muscle cells, which involved no brain, memory, or animal; the children's-symptom row (Heinrich et al., 2010) was an association its own authors judged 'not causal but rather occurred by chance,' and its 0.05 figure is the dosimeter's detection floor in V/m, not an exposure level. Double-blind provocation trials at these low levels (e.g. Eltiti et al., 2007) found no effect of real versus sham signals.",
+    "sources": [
+        {
+            "label": "BioInitiative Report (2012) RF Color Charts — the underlying study compilation",
+            "type": "primary",
+            "url": "https://bioinitiative.org/wp-content/uploads/pdfs/BioInitiativeReport-RF-Color-Charts.pdf"
+        },
+        {
+            "label": "De Iuliis et al. (2009), PLoS ONE — RF effect on human sperm reported at SAR 1.0 W/kg (absorbed dose), not µW/cm²",
+            "type": "primary",
+            "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006446"
+        },
+        {
+            "label": "Heinrich et al. (2010), Environmental Health 9:75 — the children/adolescent base-station symptom study; authors found the associations non-causal",
+            "type": "primary",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3006375/"
+        },
+        {
+            "label": "Eltiti et al. (2007), Environmental Health Perspectives 115:1603 — double-blind base-station provocation trial, null result",
+            "type": "primary",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18007992/",
+            "quote": "During double-blind tests the GSM signal did not have any effect on either group ... the number or severity of symptoms experienced did not increase ... Physiological measures did not differ across the three exposure conditions for either group.",
+            "clip_status": "quote-not-found"
+        }
+    ],
+    "status": "contested-with-named-rebuttal",
+    "notes": "Group B from capture DamkicUoJo8 (a 'Take Back Your Power' 2017 clip). Documents the power-density-vs-effect ladder and its named rebuttal per the 'reader chooses' ethos. Provenance verified by three subagent traces: the ladder is Ronald M. Powell's June 2013 chart ('Biological Effects from RF Radiation at Low-Intensity Exposure'), a re-sort of the BioInitiative 2012 RF Color Charts by power density. The one rung NOT in Powell/BioInitiative is 0.00027 → pine-needle aging: the real pine study (Selga & Selga 1996, Skrunda radar, Latvia) is observational and measured pulse power densities ~375 µW/cm² — roughly a million times the quoted 0.00027, which is itself a relabeled human precautionary 'no-effect' number. Per-row traces (authors/journals/units): 2.5 heart-calcium = Schwartz 1990 (frog heart, SAR mW/kg, a 16-Hz modulation window, failed replication incl. by its own author); 4.0 hippocampus = D'Inzeo 1988 (chick myotube ion channels, 10.75 GHz — a misattribution, no brain); 6.0 DNA = Lai & Singh 1995 (rat brain, SAR 0.6-1.2 W/kg, contested, Malyapa null + REFLEX/Diem data-fabrication finding); 10.0 avoidance = a Soviet occupational EXPOSURE STANDARD (not a measured threshold) merged with Frey-type audible-pulse avoidance. Unifying defect: real but weak/observational/in-vitro studies, a µW/cm² number that is a unit-swap (SAR or V/m relabeled) or a guideline value relabeled as an effect threshold, and omission of on-point nulls (Heinrich's own top-decile sensitivity reanalysis; the Eltiti double-blind null at ~1.0 µW/cm²). NOT Group A — documents a contested claim, not a verified fact. Pairs with [[2017-emf-exposure-limits-001]] (the real regulatory limits the same clip invokes). Not an EFTA-corpus subject."
+}
