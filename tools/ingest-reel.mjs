@@ -29,7 +29,10 @@
 // Dependencies (machine-local):
 //   - yt-dlp (CURRENT build; see tools/reel-media.mjs for the install one-liner)
 //   - ffmpeg + ffprobe in PATH
-//   - whisper at /tmp/whisper-venv (python3 -m venv + pip install openai-whisper)
+//   - whisper venv (openai-whisper). Persistent default path below; override with
+//     WHISPER_BIN=/path/to/whisper. Rebuild: uv venv <path> --python 3.12 &&
+//     uv pip install --python <path>/bin/python torch --index-url
+//     https://download.pytorch.org/whl/cpu && uv pip install --python <path>/bin/python openai-whisper
 //
 // No headless browser / Playwright needed anymore.
 
@@ -42,7 +45,12 @@ import { fetchMeta, downloadOriginal, ytDlpVersion } from "./reel-media.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CAPS_DIR = `${ROOT}/sources/captures`;
-const WHISPER = "/tmp/whisper-venv/bin/whisper";
+// Persistent venv survives /tmp reaping; env override wins, legacy /tmp path is a fallback.
+const WHISPER = [
+    process.env.WHISPER_BIN,
+    `${process.env.HOME}/.local/share/whisper-venv/bin/whisper`,
+    "/tmp/whisper-venv/bin/whisper",
+].find((p) => p && fs.existsSync(p)) ?? `${process.env.HOME}/.local/share/whisper-venv/bin/whisper`;
 
 // ---------- argument parsing ----------
 const args = process.argv.slice(2);
