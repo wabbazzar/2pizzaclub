@@ -1,0 +1,28 @@
+{
+    "id": "2021-graphene-oxide-vaccine-claim-001",
+    "anchor": "y2021-graphene-oxide-claim",
+    "year": 2021,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "vaccines",
+        "public-health"
+    ],
+    "claim": "The claim that COVID-19 vaccines contain graphene oxide — a two-dimensional carbon nanomaterial — as an undeclared, self-assembling additive traces to a non-peer-reviewed 2021 report by Dr. Pablo Campra (University of Almería, Spain), who examined a single Pfizer Comirnaty vial by optical and electron microscopy. As evidence of graphene oxide the report is unsupported on its own terms: Campra's text states the sample's origin and traceability is unknown and that the microscopy does not provide conclusive evidence, and it did not use Raman spectroscopy, the standard method for identifying graphene. Independent reviewers assembled by Science Feedback (2021) and multiple fact-checks found no evidence of graphene in the vaccine, and the ingredient lists published by the U.S. FDA and the European Medicines Agency (EMA) contain no graphene oxide. Later restatements asserting the material was conclusively confirmed by micro-Raman spectroscopy overstate a report that ran none.",
+    "sources": [
+        {
+            "label": "Science Feedback: There is no conclusive evidence that the Pfizer-BioNTech COVID-19 vaccine contains graphene oxide (2021)",
+            "type": "primary",
+            "url": "https://science.feedback.org/review/there-is-no-conclusive-evidence-that-the-pfizer-biontech-covid-19-vaccine-contains-graphene-oxide/",
+            "quote": "There is no evidence that the Pfizer-BioNTech COVID-19 vaccine contains graphene. ... The product's 'origin and traceability is unknown'. ... Microcopy doesn't provide conclusive evidence.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "TheJournal.ie FactCheck: No, Covid-19 vaccines do not contain graphene oxide (Aug 2021)",
+            "type": "secondary",
+            "url": "https://www.thejournal.ie/debunked-covid-19-vaccines-lead-graphene-oxide-5533363-Aug2021/"
+        }
+    ],
+    "status": "contested-with-named-rebuttal",
+    "notes": "Group B (disputed/debunked) from capture DabC5nzSptx. Documents the graphene-oxide-in-vaccines claim and its named rebuttal per the 'reader chooses' ethos — the claim exists and is traceable (Campra's 2021 report), and the rebuttal is specific and on the record. What is verified here is the documentation of both sides, not the claim: Campra himself qualified the report ('origin and traceability is unknown', microscopy 'doesn't provide conclusive evidence', no Raman spectroscopy run — Raman being the technique that could actually identify graphene). The claim propagated via La Quinta Columna (Ricardo Delgado) and Astrid Stuckelberger. It was presented — not adopted — at the Luxembourg Chamber of Deputies petition-2489 hearing on 23 April 2025 (see capture note); the Chamber rejected the petition. NOT Group A: it documents a contested public claim, not an independently verified true fact. Pairs with [[2021-moderna-recall-001]], the real metallic (stainless-steel) contamination event the same reel misreads as graphene. Grep-first note: not an EFTA-corpus subject (vaccine/graphene, no Epstein nexus)."
+}
