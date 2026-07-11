@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 107,
-      "seconds": 14396
+      "count": 108,
+      "seconds": 14573
     },
     {
       "slug": "adl",
@@ -322,8 +322,8 @@
     {
       "slug": "public-health",
       "topic": "Public Health",
-      "count": 6,
-      "seconds": 773
+      "count": 7,
+      "seconds": 950
     },
     {
       "slug": "regime-change",
@@ -342,6 +342,12 @@
       "topic": "Saudi Arabia",
       "count": 1,
       "seconds": 132
+    },
+    {
+      "slug": "science",
+      "topic": "Science",
+      "count": 1,
+      "seconds": 177
     },
     {
       "slug": "scientist-deaths",
@@ -382,8 +388,8 @@
     {
       "slug": "surveillance",
       "topic": "Surveillance",
-      "count": 13,
-      "seconds": 1868
+      "count": 14,
+      "seconds": 2045
     },
     {
       "slug": "tech-billionaires",
