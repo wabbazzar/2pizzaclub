@@ -112,7 +112,29 @@ posts). Where a common framing is NOT supported, that is marked — the arch doe
   in Oct 2023, and another **$4 million** on **April 3, 2024**.
   → https://www.texastribune.org/2024/01/16/greg-abbott-jeff-yass-camapaign-donation/
   → https://www.texastribune.org/2024/07/17/greg-abbott-jeff-yass-campaign-donation/
-- Abbott spent the 2024 primaries targeting fellow Republicans who voted against vouchers.
+- **Stronger figure — use this one.** Pulled from **Texas Ethics Commission itemized
+  contribution records** (not press reports): Yass's lifetime total to Abbott is
+  **$12,250,000**. The panel caption's $10.25M is the sum of the three *reported* gifts and is
+  therefore conservative. TEC itemized data beats a news total.
+- Abbott spent the 2024 primaries targeting fellow Republicans who voted against vouchers. Of
+  the 21 House Republicans who voted the voucher down, **5 retired, 9 lost** (6 outright on
+  2024-03-05, 3 in the 5/28 runoff), **7 survived**.
+- **Abbott's war chest, TEC-verified:** **$96,072,703.89** cash on hand as of 2026-02-21; peak
+  **$105,737,179.58**. Parsing all 2,974 filers in TEC's Jan 2026 aggregate, Abbott's PAC is
+  **#1, at 2.8× the #2** (Dan Patrick, $37.7M). The broader *"largest in Texas history"* line
+  originates with Abbott's own campaign — **attributed, not verified**.
+
+**Optional thread — not currently a panel.** If the arch ever widens past schools+Israel, the
+strongest donor fact is **Kelcy Warren**: Energy Transfer disclosed a **$2.4 billion** full-year
+adjusted-EBITDA impact from the Feb 2021 grid failure (8-K, 2021-05-06), and Warren wrote Abbott
+a **$1,000,000** check on **2021-06-23** — seven weeks later. Both legs verified from primary
+documents (TEC report 100828542, contrib ID 125286819). Warren's lifetime total to Abbott:
+**$4,842,602.66**. Every Texan knows Uri; nobody knows the timeline. It's a whole other arch.
+
+**Do not use** (could not be traced to any retrievable source): "$45 million raised during the
+2014 campaign"; "$71,842,556 from 292,180 donors"; OpenSecrets' "$141,538,000" career total. The
+"~$70M in a cycle" figure is Transparency USA's **18-month partial window** (Jan 2021–Jun 2022),
+not a cycle total.
 
 ### R6 — the state in the classroom
 - **SB 10 (2025)**: Ten Commandments required in every public-school classroom. Passed
@@ -157,6 +179,16 @@ number that drives district budgets barely moved.
   are essentially operating with **$1,076.55 less** in a basic allotment today than they were in
   May 2019."*
   → https://www.raiseyourhandtexas.org/policy/school-funding/school-finance/
+- **The ratio — the best single number here.** RYHT, verbatim, in their own session release:
+  *"This session, Texas public schools needed an infusion of **$19.6 billion** in state funding to
+  maintain the same purchasing power as in 2019."* Against HB 2's $8.5B headline, that's **~43%**.
+  Keep their framing honest, though: the same release calls the session *"historic for public
+  education"* and credits *"the largest-ever permanent pay raise."* They are not an opponent.
+  → https://www.raiseyourhandtexas.org/89th-legislative-session-proves-historic-for-public-education-but-more-work-needed/
+- **The out-year shape, from the LBB's own tables.** HB 2's **$55 expires 9/1/2027**. So does
+  SB 2's **$1B voucher cap** — and SB 2's projected cost then triples: FY27 $989M → **FY28
+  $3.07B** → **FY30 $3.98B** ($4.79B all funds). The voucher grows into the space the school
+  money's patch vacates, on the same date. That symmetry is in the fiscal notes, not an argument.
 - **Every Texan** (Chandra Kring Villanueva, testimony 2025-03-06), verbatim: *"If adjusted for
   inflation, the basic allotment would be **$7,546** today or **$1,386** more per student."*
   Caveat worth keeping: that testimony is titled *"in Support of HB 2"* — qualified support, not
