@@ -283,13 +283,43 @@ exists. $1B committed, first funds out, nobody has asked a question in public.
   **Betsy DeVos $1,225,000** and **Dick DeVos $1,225,000**. Treasurer Lisa Lisker, appointed by
   AFC's CEO — the DeVos link is documentary, not inferred. (Yass→AFC is $9.7M, **not** the $11.4M
   a naive sum gives.)
-- **VERIFIED NEGATIVES — do not assert these:** **Tim Dunn and Farris Wilks gave Abbott nothing
-  ≥$10,000 directly since 2023.** Their money runs through a separate PAC. "Dunn and Wilks funded
-  Abbott's voucher push" is not what the filings show. And **Abbott's spending "against
-  anti-voucher incumbents" is not derivable from TEC** — the money moved as ad buys, and filings
-  don't record which candidate a buy supported. The Tribune's "$8M"/"$12M" are that outlet's
-  figures, not checkable ones. Club for Growth's Texas numbers are reportable to **neither TEC nor
-  FEC** — no filing exists to check them against at all.
+- **THE BEST FACT IN THE DONOR THREAD: Yass gave $0 in Texas in the 2022 cycle.** His only prior
+  Texas money in a decade was $10,000 to a judicial candidate in 2012. He appears in Texas
+  essentially *at the voucher fight* — then puts in **$18,700,000 in the 2023–24 cycle**
+  ($22,950,000 since 2015). The panel's "an out-of-state hand reaches in" is literally what the
+  filings show.
+- **Yass supplied 86.1% of the account Abbott spent on the primary** — $12,000,000 of
+  $13,936,176.41 into filer 00019652 across 2023–24, and **96% of that account's entire 2023
+  contributions**. Abbott **was not on the 2024 ballot**; that account spent **$9,485,944.06**
+  concentrated in the primary and runoff months (Feb 2024: $6.1M; May 2024: $3.4M), almost all
+  of it advertising. He didn't write checks to challengers — he bought their ads himself.
+- **Federally, Yass is the same story at scale:** **$35,000,000** to Club for Growth Action
+  (39.5% of its receipts) and **$11,000,000** to the School Freedom Fund — **76.3%** of that
+  fund's individual money.
+
+**VERIFIED NEGATIVES — the received story is wrong in four places. Do not assert any of these:**
+- **Miriam Adelson funded the OTHER side.** Not merely unverified — affirmatively contradicted.
+  Her $13.7M in 2023–24 went overwhelmingly to **casino** legalization PACs, she gave **$0** to
+  Abbott's voucher account, $0 to AFC, $0 to the Dunn/Wilks vehicles — and **$50,000 to Dade
+  Phelan**, the anti-voucher Speaker. Texas Sands PAC paid **$846,000 to 11 of the 21
+  anti-voucher Republicans**.
+- **Dunn and Wilks tracked the Paxton impeachment, not vouchers**, and the discriminating test is
+  clean: their PAC funded challengers to **Stucky, Thimesch, Klick and Meyer — all of whom voted
+  PRO-voucher and sat on Abbott's own endorsement list** — and paid **$0 to any of the 21
+  anti-voucher Republicans**. Neither gave Abbott anything.
+- **"The Wilks brothers" is wrong. Dan Wilks gave $0.** The donor is Farris.
+- **School Freedom Fund spent $0 in Texas** by both FEC independent-expenditure data and TEC.
+  Club for Growth's Texas independent expenditures were **federal races only** ($506,889). The
+  famous $4M runoff buy exists as **"non-federal disbursement"** on Schedule B Line 29 — and
+  **not one row names a state, a race, or a candidate.** It appears in no Texas filing at all.
+  The Texas attribution is **inferred from timing and the group's own press release**, not
+  documented. That disclosure hole is itself a finding.
+- Also: **don't cite Texans for Greg Abbott's $69.9M as campaign spending** — **$51.6M of it is
+  Wells Fargo investment transfers.**
+
+**Safe formulation for anything reader-facing:** *Yass supplied 86% of the account Abbott spent
+on the primary, and 56% of the school-choice PAC's money. Where the voucher vote and the
+impeachment vote pointed different directions, the Dunn/Wilks money followed the impeachment.*
 - Abbott spent the 2024 primaries targeting fellow Republicans who voted against vouchers. Of
   the 21 House Republicans who voted the voucher down, **5 retired, 9 lost** (6 outright on
   2024-03-05, 3 in the 5/28 runoff), **7 survived**.
