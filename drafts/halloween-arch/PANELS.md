@@ -160,10 +160,49 @@ replaced.
 ### R4 — the voucher
 - **SB 2 (89th Leg., 2025)**, signed by Abbott **May 3, 2025**. **$1 billion** to start — the
   largest first-year launch of any such program in the country.
-- **$10,330** per student (FY2027); ~**$2,000** homeschool; up to **$30,000** special ed.
-  First usable in the **2026–27** school year.
+- ~**$2,000** homeschool cap; up to **$30,000** special ed. Award = **85%** of statewide average
+  state+local funding per student in ADA.
   → https://www.kut.org/politics/2025-05-02/abbott-billion-dollar-school-voucher-esa-law
   → https://legiscan.com/TX/text/SB2/id/3103970
+
+**THE VOUCHER IS NO LONGER A PROJECTION — the first cycle ran, and the arch goes up after it.**
+Money went out **July 1, 2026**. Two weeks ago. Update the panel from future tense to past.
+
+- **Per student is $10,474**, not the $10,330 in the panel caption. $10,330 was the LBB's
+  *assumption*; $10,474 is the Comptroller's own published figure for 2026-27. (Also stale and
+  still circulating: $10,000, $11,500, $10,300.)
+  → https://educationfreedom.texas.gov/wp-content/uploads/2026/04/SPED-Funding-Explainer.pdf
+- **Demand outran it ~2.6 to 1.** **274,036** applied; **95,934** awarded against **248,636**
+  eligible (**38.6%**). Tiers 3 and 4 — 132,319 kids — were **waitlisted outright, none awarded**.
+  As of 6/10/26: **102,037 awarded, 144,744 still waitlisted**, and only **~73,000 accounts
+  actually funded** on July 1.
+  → https://educationfreedom.texas.gov/wp-content/uploads/2026/04/Lottery-Week-Update.pdf
+
+**The special-ed failure — the single best-sourced new fact in this file, and it's about kids.**
+The Comptroller's own lottery document, verbatim:
+> "Some applicants indicated that their child qualified for special education and also had a
+> current Individualized Education Program (IEP) on file with the Texas Education Agency (TEA),
+> yet **the program was unable to electronically confirm a current IEP on file with TEA**. If no
+> IEP was located on file with TEA, **applicants were moved to tier 2 or 3** based on their
+> income level."
+
+Tier 1 was **the only tier fully funded**. A database lookup failed, and disabled children were
+demoted out of the tier that paid — into tiers that were waitlisted. The program concedes appeals
+exist to *"fix **errors made by the program**"* and that *"**All appeal decisions are final**"* —
+no external review.
+
+**And the document was quietly revised after the fact.** Comparing the May 4 and May 7 captures
+of the same URL: **2,113 students** moved into Tier 1/siblings, and exactly 2,113 moved out of
+ineligible/Tier 2/Tier 3 — the totals reconcile to the person. **The Comptroller never labeled
+the change.** The direction matches the IEP-appeal path exactly, but that causal link is
+**inference, not verified** — do not assert it. It is, however, the best question anyone could
+ask this program.
+
+**Also unresolved:** SB 2 §29.363(f) says the State Auditor **"shall"** audit **10%** of
+applications — ~27,400 of them. The SAO's entire FY2026 output contains **zero** voucher reports.
+And the Senate's interim charge on it is titled, verbatim, *"**Celebrating the Successful Rollout
+of School Choice**."* No legislative hearing has examined the rollout; no Comptroller testimony
+exists. $1B committed, first funds out, nobody has asked a question in public.
 
 ### R5 — who bought it
 - **Jeff Yass**, out-of-state billionaire (TikTok investor), gave Abbott **$6 million** in
