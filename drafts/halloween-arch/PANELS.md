@@ -125,7 +125,30 @@ either order closure of the campuses or appoint a board of managers."*
 
 **Editorially this changes the panel.** THE HAND currently reads as one district's story. It
 isn't. Consider the type: *"Eight districts. Four this year."* Voters elected boards in eight
-Texas communities; the state runs them.
+Texas communities; the state runs them. ProPublica (2026-06-03) counted it the same way:
+*"Just since 2020, the Texas Education Agency has installed its own hand-picked leaders in eight
+districts. Four of those came this spring."*
+
+**FORT WORTH IS THE SHARPEST FACT IN THE WHOLE ARCH — verified from TEA's own letters.** The
+elected board of the state's fifth-largest district had its powers *"HEREBY SUSPENDED"* on
+2026-03-24, and Superintendent Karen Molinar was replaced by TEA's appointee, Dr. Peter Licata,
+with nine appointed managers seated.
+
+The trigger was **one campus**: the *Leadership Academy at Forest Oak 6th Grade*. Morath's
+2025-10-23 letter, verbatim: *"one of the district's campuses earned its fifth consecutive
+unacceptable academic accountability rating following the 2022-23 school year, which requires me
+to either order closure of the campus or appoint a board of managers."*
+
+**And the district had already closed that campus.** Morath held the closure didn't matter
+because it *"did not happen until after the conclusion of the school year in which the campus
+earned its fifth unacceptable rating."* The ratings themselves were *"delayed until April 17,
+2025 due to litigation"* — so the fifth strike landed years late, for a school that no longer
+existed, and took the whole elected board with it. SOAH's 2026-02-05 final order is, by statute,
+*"final and may not be appealed"* (§39A.301(c)(3)).
+
+One shuttered sixth-grade campus → an entire city's elected school board suspended, unappealably.
+That is the panel. Lake Worth's trigger was likewise **one campus**; Connally's and Beaumont's,
+**two** each.
 
 **Caveat that must travel with it:** a board of managers is the top rung. A **conservator**
 (directs the board but leaves it elected) and a **monitor** (recommends only) are lesser rungs —
