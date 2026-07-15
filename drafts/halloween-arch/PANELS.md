@@ -133,6 +133,46 @@ posts). Where a common framing is NOT supported, that is marked — the arch doe
   or university in Texas should be expelled."*
   → https://x.com/GregAbbott_TX/status/1783237229252346194
 
+## The state's counter-claim — attributed, not adopted
+
+The arch does not pretend this doesn't exist. Abbott's side says it funded schools at record
+levels, and the honest version is that they did put real money in — while the per-student
+number that drives district budgets barely moved.
+
+- **HB 2 (89R), signed 2025.** LBB fiscal note, verbatim: *"a negative impact of
+  **($8,381,506,751)** through the biennium ending August 31, 2027."* Passed 142-5 (House),
+  31-0 (Senate). Note the fiscal note also says *"The bill would make no appropriation"* — HB 2
+  authorizes, it doesn't appropriate.
+  → https://capitol.texas.gov/tlodocs/89R/fiscalnotes/pdf/HB00002F.pdf
+- **Use $8.38B, not "$8.5 billion."** The $8.5B headline appears **nowhere** in the LBB note. It
+  is Rep. Brad Buckley's figure — *"HB 2 delivers an additional $8.5 billion to the area that
+  matters the most – the classroom."* Abbott's own release itemizes buckets that sum to
+  **$8.365B**, $135M short of his own headline.
+- **The basic allotment moved $55.** Statute keeps **$6,160** — unchanged since HB 3 in **2019** —
+  and adds a "guaranteed yield increment adjustment." Sec. 48.2561(b), verbatim: *"the amount of
+  the guaranteed yield increment adjustment... is **$55**. **This subsection expires September 1,
+  2027.**"* A two-year patch that sunsets. The House had passed **$6,500 + $55**; the Senate
+  stripped it back to $6,160.
+- **Raise Your Hand Texas** is the only group tracking the final $55, verbatim: *"school districts
+  are essentially operating with **$1,076.55 less** in a basic allotment today than they were in
+  May 2019."*
+  → https://www.raiseyourhandtexas.org/policy/school-funding/school-finance/
+- **Every Texan** (Chandra Kring Villanueva, testimony 2025-03-06), verbatim: *"If adjusted for
+  inflation, the basic allotment would be **$7,546** today or **$1,386** more per student."*
+  Caveat worth keeping: that testimony is titled *"in Support of HB 2"* — qualified support, not
+  opposition, and pinned to the earlier $220 version. Texas AFT likewise **urged the House to
+  concur**.
+- **Signing date is genuinely contested:** Abbott's office ran a June 4 2025 ceremony at Salado
+  Middle School; the official House Journal records **"Signed by the Governor 06/20/2025."** Both
+  are documented. Report both.
+
+**Misattributions to avoid** (all four fail at the primary source): the "$1,340/student · $18B"
+line is **Kelly Rasti of the Texas Association of School Boards**, a lobbyist — not Hinojosa;
+Hinojosa's *"everything that is wrong with politics"* was about **SB 2 (vouchers)**, not HB 2;
+**"$7,500" is Northwest ISD's** position, not Raise Your Hand Texas's; **"$7,325" attributed to
+Texas AFT is unsupported** (URL dead, no archive). No verified source puts the inflation-adjusted
+allotment at $8,000+.
+
 ## The editorial spine (left/socialist op-eds)
 
 - **"The 'Texas Three-Step': Defund, Demonize, and Privatize Public Schools"** — Texas Observer.
