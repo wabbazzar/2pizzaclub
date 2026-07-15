@@ -780,6 +780,77 @@ mark.search-mark {
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
 }
+/* ---------- Recently-added feed (recent.js) ---------- */
+.recent-feed {
+    background: var(--paper-rule);
+    border-bottom: 3px solid var(--bus-yellow);
+    padding: 0.75rem 1rem 1rem;
+}
+.recent-feed[hidden] { display: none; }
+.recent-inner { max-width: 56rem; margin: 0 auto; }
+.recent-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin: 0 0 0.6rem;
+    font-family: var(--mono);
+    font-size: 0.74rem;
+    letter-spacing: 0.04em;
+}
+.recent-head-label { color: var(--bus-yellow); }
+.recent-status { color: var(--chrome-ink-dim); font-size: 0.7rem; }
+.recent-close {
+    margin-left: auto;
+    background: none;
+    border: none;
+    color: var(--chrome-ink-dim);
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 0 0.2rem;
+}
+.recent-close:hover { color: var(--year-ink); }
+.recent-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+.recent-daymark {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    color: var(--bus-yellow);
+    margin: 0.5rem 0 0.05rem;
+}
+.recent-daymark:first-child { margin-top: 0; }
+.recent-card {
+    display: block;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    background: var(--paper);
+    border: 1px solid var(--bus-yellow);
+    border-left: 4px solid var(--accent);
+    border-radius: 2px;
+    padding: 0.5rem 0.7rem 0.6rem;
+}
+.recent-card:hover { border-left-color: var(--year-ink); }
+.recent-card:hover .recent-title { text-decoration: underline; }
+.recent-card-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+.recent-year { font-family: var(--mono); font-size: 0.74rem; color: var(--paper-rule); flex: none; }
+.recent-title { font-weight: 600; font-size: 0.86rem; color: var(--ink); }
+.recent-claim { display: block; margin: 0; font-size: 0.82rem; line-height: 1.5; color: var(--ink-soft); }
+
 /* a card lit in place after clicking a result */
 .evidence-card.rag-focus {
     outline: 2px solid var(--paper-rule);
