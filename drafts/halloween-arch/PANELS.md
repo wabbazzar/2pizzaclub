@@ -150,6 +150,46 @@ One shuttered sixth-grade campus → an entire city's elected school board suspe
 That is the panel. Lake Worth's trigger was likewise **one campus**; Connally's and Beaumont's,
 **two** each.
 
+**AND HOUSTON IS THE SAME SHAPE — the trigger campus was PASSING.** From Morath's own March 15
+2023 takeover letter, one paragraph, verbatim:
+
+> "For the 2021-2022 school year, Wheatley earned an acceptable academic rating, driven by an
+> increase in the award of **Microsoft Office Specialist Word certifications** among graduating
+> seniors. However, Wheatley's acceptable rating this year does not abrogate my prior legal
+> requirement to intervene..."
+
+And the letter's own footnote concedes the metric was junk: that certification was *"identified
+in 2022 as not meeting the criteria required for improving student preparedness"* and was **being
+sunset**. So: the school that justified seizing the district was passing at the time of seizure,
+on a credential TEA itself was throwing out — and TEA says so in the seizure letter.
+
+**The pattern is the arch.** Fort Worth: trigger campus **closed**. Houston: trigger campus
+**passing**. Taken anyway, both.
+
+**Three more, all from TEA's own paper (this is the register the arch wants — the state
+contradicting itself in writing, not us characterizing it):**
+- **Zero of three exit criteria met.** Morath's 2025-05-30 letter extending the takeover two more
+  years, verbatim: *"even though the district has made significant progress toward meeting its
+  exit criteria, **the district has not yet met any of the three specific requirements.**"* Three
+  years in, none met, extended anyway — to 2027-06-01. And that's only when the *timeline gets
+  announced*; the three-year phase-back runs after, putting full elected control near **2030**.
+  → https://tea.texas.gov/health-safety-and-discipline/school-boards/school-governance/board-managers/houston-isd-5-30-25.pdf
+- **The Texas Supreme Court never upheld the five-year ground.** It rested on the conservator
+  ground alone. TEA's own slide deck concedes it: *"confirmed commissioner's authority to act but
+  **did not otherwise expressly rule**."* The reason everyone cites for the takeover was never
+  affirmed by the court that let it proceed.
+- **The legislature rewrote the law retroactively while HISD's win was on appeal.** HISD won below.
+  SB 1365 (2021) then fixed the exact two defects the Third Court had found — campus-vs-district
+  conservator scope, and the Hurricane Harvey no-rating gap that broke Wheatley's streak — and
+  applied it *"to a conservator or management team assigned to a school district **before**, on, or
+  after the effective date."* HISD won under the old statute; the statute was replaced underneath it.
+
+**What it did to the teachers** (University of Houston, primary data, Jan 2026): same-campus
+retention **74.8% → 58.6%** in one year. Teachers leaving Texas public education entirely
+**6.2% → 12.0%**. Uncertified teachers **0.3% (2016-17) → 19.8% (2024-25)**. Enrollment decline
+accelerated from −2.0%/yr to −3.5%/yr — against a *rising* state trend.
+→ https://www.uh.edu/education/research/institutes-centers/iepre/reports_publications/houston_isd_takeover-2026-final-1-13-26.pdf
+
 **Caveat that must travel with it:** a board of managers is the top rung. A **conservator**
 (directs the board but leaves it elected) and a **monitor** (recommends only) are lesser rungs —
 and **TEA publishes no list of conservator or monitor districts at all**, so the true count of
@@ -198,6 +238,25 @@ the change.** The direction matches the IEP-appeal path exactly, but that causal
 **inference, not verified** — do not assert it. It is, however, the best question anyone could
 ask this program.
 
+**The two facts that finish the voucher panel:**
+
+- **The private school can refuse your kid, and the law protects that.** SB 2 §29.368(b),
+  verbatim: a provider *"may not be subject to action that...limits an education service
+  provider...from freely: (A) determining the methods or curriculum...(B) **determining admissions
+  and enrollment practices**."* There is **no state-imposed nondiscrimination requirement** on
+  participating private schools. And the accountability test is optional — §29.358(b)(2)(B) lets a
+  school satisfy it with *any* "nationally norm-referenced assessment instrument" **or** STAAR, so
+  the results are not comparable to the public-school ratings that get districts seized.
+  Public schools: five bad years and the state takes your board. Private schools taking the same
+  public money: pick your own test, pick your own students.
+- **Most of the money isn't moving kids out of public school — it's subsidizing kids already
+  out.** The Comptroller's own *Application Insights* charts, of 248,605 categorized applicants:
+  **68,433 (27.5%) came from public school; 180,172 (72.5%) did not.**
+  ⚠️ These are **applicants, not awardees** — label them that way. The Comptroller says roughly
+  half of *first-round* awardees previously attended public school (I compute 54.9% for Tier 1).
+  **The circulating "57% of awardees were already private/homeschool" is UNSUPPORTED** — it
+  appears in no Comptroller release. Don't use it; the applicant split above is the real number.
+
 **Also unresolved:** SB 2 §29.363(f) says the State Auditor **"shall"** audit **10%** of
 applications — ~27,400 of them. The SAO's entire FY2026 output contains **zero** voucher reports.
 And the Senate's interim charge on it is titled, verbatim, *"**Celebrating the Successful Rollout
@@ -213,7 +272,24 @@ exists. $1B committed, first funds out, nobody has asked a question in public.
 - **Stronger figure — use this one.** Pulled from **Texas Ethics Commission itemized
   contribution records** (not press reports): Yass's lifetime total to Abbott is
   **$12,250,000**. The panel caption's $10.25M is the sum of the three *reported* gifts and is
-  therefore conservative. TEC itemized data beats a news total.
+  therefore conservative. TEC itemized data beats a news total. Confirmed twice, from the full
+  TEC bulk database: $250K (2023-10-20) · **$6,000,000 (2023-12-18)** · $4,000,000 (2024-04-03) ·
+  $2,000,000 (2024-08-20). **Do not publish $12.5M** — that double-counts a re-reported row.
+  Yass is the **largest single contributor to Abbott's accounts since 2023**.
+- The $6M landed in Abbott's **candidate/officeholder account**, not the "Texans for Greg Abbott"
+  SPAC — which is why searching the SPAC alone misses it. TEC report **100931312**.
+- **The voucher PAC is Yass's PAC.** AFC Victory Fund (American Federation for Children) took
+  **$15,994,975** in itemized receipts. **Jeff Yass gave $9,700,000 of it — 60.6% of the fund.**
+  **Betsy DeVos $1,225,000** and **Dick DeVos $1,225,000**. Treasurer Lisa Lisker, appointed by
+  AFC's CEO — the DeVos link is documentary, not inferred. (Yass→AFC is $9.7M, **not** the $11.4M
+  a naive sum gives.)
+- **VERIFIED NEGATIVES — do not assert these:** **Tim Dunn and Farris Wilks gave Abbott nothing
+  ≥$10,000 directly since 2023.** Their money runs through a separate PAC. "Dunn and Wilks funded
+  Abbott's voucher push" is not what the filings show. And **Abbott's spending "against
+  anti-voucher incumbents" is not derivable from TEC** — the money moved as ad buys, and filings
+  don't record which candidate a buy supported. The Tribune's "$8M"/"$12M" are that outlet's
+  figures, not checkable ones. Club for Growth's Texas numbers are reportable to **neither TEC nor
+  FEC** — no filing exists to check them against at all.
 - Abbott spent the 2024 primaries targeting fellow Republicans who voted against vouchers. Of
   the 21 House Republicans who voted the voucher down, **5 retired, 9 lost** (6 outright on
   2024-03-05, 3 in the 5/28 runoff), **7 survived**.
