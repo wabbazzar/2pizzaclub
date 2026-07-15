@@ -329,6 +329,25 @@ not a cycle total.
   or university in Texas should be expelled."*
   → https://x.com/GregAbbott_TX/status/1783237229252346194
 
+**Two corrections to the panel caption I already sent:**
+- **The arrest count is contested, and UT's own president gives a different number.** Reporting
+  (and my caption) says **57**. Hartzell's signed message of 2024-04-25 says **55**, verbatim:
+  *"26 of the 55 individuals arrested yesterday had no UT affiliation."* The gap is unreconciled
+  in the sources. Say "roughly 55–57," or attribute each number to who said it.
+  → https://president.utexas.edu/
+- **And that quote undercuts Abbott's own demand.** He called for *students* to be **expelled**.
+  By UT's count, **26 of the 55 arrested — nearly half — had no UT affiliation at all**, so there
+  was no one to expel. The governor demanded a punishment the university could not apply to half
+  the people his troopers arrested, and every charge was dropped anyway for lack of probable
+  cause. That is the panel, and it's stronger than the raw number.
+
+**Also worth knowing (not a panel, but kills a tempting error):** there was **no UT faculty
+no-confidence vote**. It was an AAUP open letter — 539 signatures at delivery, 657 at close,
+against UT's own figure of 3,254 teaching faculty (~16.6% → ~20.2%). The Faculty Council, the
+only body empowered to call a vote, never held one; it passed a milder resolution 33-9-7 and
+rejected the stronger one 25-21-4. Anyone writing "UT faculty voted no confidence in Hartzell"
+is wrong.
+
 ## The state's counter-claim — attributed, not adopted
 
 The arch does not pretend this doesn't exist. Abbott's side says it funded schools at record
