@@ -98,6 +98,42 @@ posts). Where a common framing is NOT supported, that is marked — the arch doe
   (chronic low ratings at Wheatley High + board dysfunction) is an **attributed claim**, not a
   fact the arch adopts. So is the unions' counter-framing.
 
+**THE HAND IS UNDERSTATED — Houston is not the story, it's the precedent.** TEA's own
+board-of-managers page, live and current, lists **eight districts** whose elected boards have
+been replaced by state appointees, verbatim with TEA's own dates:
+
+| District | Appointed |
+|---|---|
+| Shepherd ISD | **March 6, 2020** |
+| Houston ISD | **June 1, 2023** |
+| La Joya ISD | **February 1, 2024** |
+| South San Antonio ISD | **February 19, 2025** |
+| **Fort Worth ISD** | **March 24, 2026** |
+| Lake Worth ISD | **April 23, 2026** |
+| Beaumont ISD | **April 29, 2026** |
+| Connally ISD | **May 6, 2026** |
+
+→ https://tea.texas.gov/texas-schools/school-boards/school-governance/board-of-managers
+
+**Four of the eight were taken in 2026 — this year.** Fort Worth, the state's fifth-largest
+district, went in March. The page is demonstrably current (it carries the May 2026 entries), so
+this is not a stale artifact. The mechanism: TEC §39A.111 — five consecutive unacceptable
+campus ratings forces the Commissioner to either close the campus or appoint a board. Connally's
+own takeover letter, verbatim: *"two of the Connally Independent School District … campuses
+earned a fifth consecutive unacceptable academic accountability rating … which requires me to
+either order closure of the campuses or appoint a board of managers."*
+
+**Editorially this changes the panel.** THE HAND currently reads as one district's story. It
+isn't. Consider the type: *"Eight districts. Four this year."* Voters elected boards in eight
+Texas communities; the state runs them.
+
+**Caveat that must travel with it:** a board of managers is the top rung. A **conservator**
+(directs the board but leaves it elected) and a **monitor** (recommends only) are lesser rungs —
+and **TEA publishes no list of conservator or monitor districts at all**, so the true count of
+districts under some form of state control is larger than eight and is **not publicly knowable**.
+Don't say "eight districts are under TEA intervention"; say eight have had their elected boards
+replaced.
+
 ### R4 — the voucher
 - **SB 2 (89th Leg., 2025)**, signed by Abbott **May 3, 2025**. **$1 billion** to start — the
   largest first-year launch of any such program in the country.
