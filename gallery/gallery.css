@@ -483,17 +483,17 @@
 /* exclude-state: red border + strikethrough, readable on cream. */
 .cinema-theme-picker .theme-chip[data-state="exclude"],
 .mnav-cinema-themes .theme-chip[data-state="exclude"] {
-    color: #b91c1c;
-    border-color: #b91c1c;
+    color: var(--accent);
+    border-color: var(--accent);
     background: transparent;
     text-decoration: line-through;
     font-weight: 600;
 }
 .cinema-theme-picker .theme-chip[data-state="exclude"]:hover,
 .mnav-cinema-themes .theme-chip[data-state="exclude"]:hover {
-    background: rgba(185, 28, 28, 0.08);
-    color: #b91c1c;
-    border-color: #b91c1c;
+    background: rgba(230, 57, 70, 0.08);
+    color: var(--accent);
+    border-color: var(--accent);
 }
 
 /* ---------------- cinema overlay ---------------- */
@@ -535,6 +535,7 @@ body.cinema-on { overflow: hidden; }
     background: rgba(0,0,0,0.6);
     color: var(--bus-yellow);
     border: 2px solid var(--bus-yellow);
+    font-family: var(--mono);
     font-size: 1.2rem;
     cursor: pointer;
     line-height: 1;
@@ -657,6 +658,7 @@ body.cinema-on { overflow: hidden; }
     background: rgba(0,0,0,0.55);
     color: var(--bus-yellow);
     border: 3px solid var(--bus-yellow);
+    font-family: var(--mono);
     font-size: 2.4rem;
     line-height: 1;
     cursor: pointer;
@@ -775,13 +777,13 @@ body.cinema-on { overflow: hidden; }
     padding: 5px 7px 2px;
 }
 .srcdoc-bates {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: var(--code);
     font-size: 0.66rem;
     font-weight: 600;
     color: var(--accent);
 }
 .srcdoc-ds {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: var(--code);
     font-size: 0.6rem;
     color: var(--ink-soft);
 }

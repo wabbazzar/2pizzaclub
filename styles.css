@@ -25,6 +25,7 @@
     --mono: 'Schoolbell', 'Comic Sans MS', cursive;
     --serif: 'Quicksand', 'Trebuchet MS', sans-serif;
     --display: 'Caveat Brush', 'Marker Felt', cursive;
+    --code: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;  /* true monospace — document ids / bates numbers only */
 
     --rail-w: 17rem;
     --content-max: 38rem;
