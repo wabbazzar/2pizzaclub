@@ -1,0 +1,41 @@
+{
+    "id": "Dax3kEbONS-",
+    "url": "https://www.instagram.com/reel/Dax3kEbONS-/",
+    "platform": "instagram",
+    "captured_at": "2026-07-22",
+    "handle": "@greg.j.stoker",
+    "author_display_name": "Greg Stoker",
+    "posted_at": "2026-07-14",
+    "engagement": {
+        "likes": 73370,
+        "comments": 1507
+    },
+    "caption": "Coming to a city near you! Follow @antloewenstein and check out his book “The Palestine Laboratory” for more on this subject.\n\n#personalgrowthjourney #sustainablefashion #summervibes☀️ #explorepage✨",
+    "hashtags": [
+        "personalgrowthjourney",
+        "sustainablefashion",
+        "summervibes",
+        "explorepage"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Captions of the spoken audio; a campaign lower-third reading \"GREG STOKER FOR CONGRESS — STOKERFORTEXAS.COM\" with a Texas district map.",
+    "audio_content_summary": "Opens with a scripted dramatization — two voices staging a dystopian stop (\"we have a nice little database,\" \"now you're considered [domestic] terrorists,\" \"we're videotaping you\"). Cuts to a talking-head segment: defense contractors and journalist Antony Loewenstein call the occupied Palestinian territories \"the Palestine Laboratory,\" where Israel field-tests spyware, AI, smart drones, facial recognition, and \"smart shooter\" systems, markets them as tested in Gaza and the West Bank, and exports them — now, the speaker says, to local US police departments via police militarization and Palantir predictive-policing. Closes on a political thesis: this national-security build-out is the \"plan\" answering the housing, climate-displacement, student-loan, healthcare, and AI-job-displacement crises.",
+    "implied_frame": "Group A (verified, recorded): the Palestine Laboratory as a documented phenomenon — Loewenstein's 2023 Walkley-winning book, Israeli firms marketing weapons/surveillance as combat-proven in Gaza/West Bank, and Elbit's export of AI border-surveillance towers to US Customs and Border Protection → 2023-palestine-laboratory-001. Group B (disputed / interpretation): that the same tech is 'now at a local police department near you' and that police militarization + Palantir predictive policing is a deliberate 'plan' to manage the housing/climate/student-loan/healthcare/AI-displacement crises — a political argument, cited and attributed but not asserted as fact; 'apartheid'/'colonial outpost'/'occupation' are contested characterizations. The scripted cold-open ('nice little database,' 'optimistic/domestic terrorists,' being videotaped) is satire, not a factual claim. Group C: none — every asserted claim maps to a documented phenomenon or to opinion/framing.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~13.5 MB); delivery ~14.0 MB webm, 124s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2023-palestine-laboratory-001"
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 5,
+        "c": 0
+    },
+    "supporting_research_links": [
+        "https://www.versobooks.com/products/2684-the-palestine-laboratory",
+        "https://www.booksandpublishing.com.au/articles/2023/11/24/241434/loewensteins-the-palestine-laboratory-wins-2023-walkley-book-award/",
+        "https://truthout.org/articles/israels-largest-weapons-manufacturer-to-help-expand-uss-virtual-border-wall/",
+        "https://www.calcalistech.com/ctechnews/article/sjua64sezg"
+    ]
+}

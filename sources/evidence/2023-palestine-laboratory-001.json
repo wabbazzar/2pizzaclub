@@ -1,0 +1,52 @@
+{
+    "id": "2023-palestine-laboratory-001",
+    "anchor": "y2023-palestine-laboratory",
+    "year": 2023,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "palestine",
+        "surveillance",
+        "defense"
+    ],
+    "claim": "\"The Palestine Laboratory: How Israel Exports the Technology of Occupation Around the World\" is a 2023 book by Australian journalist Antony Loewenstein (Verso). It won the 2023 Walkley Book Award — the top book prize of Australia's national journalism awards. Its thesis: Israeli military and surveillance firms field-test weapons, drones, spyware, and facial-recognition systems in the occupied West Bank and Gaza, then market them abroad as combat-proven and export them to governments, border agencies, and police. One documented case fits the pattern. Elbit Systems, Israel's largest weapons manufacturer, advertises its products as \"battle-proven\" in Gaza and the West Bank; through its subsidiary Elbit America it builds the AI-powered autonomous surveillance towers along the US–Mexico border for U.S. Customs and Border Protection (CBP), and in July 2026 was awarded a further $370 million in CBP contracts.",
+    "sources": [
+        {
+            "label": "Verso Books — publisher page for \"The Palestine Laboratory: How Israel Exports the Technology of Occupation Around the World\" by Antony Loewenstein (2023). The book's thesis in the publisher's own words.",
+            "type": "primary",
+            "url": "https://www.versobooks.com/products/2684-the-palestine-laboratory",
+            "quote": "Israel's military industrial complex uses the occupied, Palestinian territories as a testing ground for weaponry and surveillance technology that they then export around the world to despots and democracies.",
+            "clip": "clips/2023-palestine-laboratory-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Books+Publishing — \"Loewenstein's The Palestine Laboratory wins 2023 Walkley Book Award\" (November 24, 2023). The award and the judges' citation.",
+            "type": "secondary",
+            "url": "https://www.booksandpublishing.com.au/articles/2023/11/24/241434/loewensteins-the-palestine-laboratory-wins-2023-walkley-book-award/",
+            "quote": "an exposé of the policies, weaponry and technology that the Israeli government has deployed against Palestine and sold around the world – from hacking software to drones and even 3G mapping.",
+            "clip_status": "text-only"
+        },
+        {
+            "label": "Truthout — \"Israel's Largest Weapons Manufacturer to Help Expand US's Virtual Border Wall.\" Elbit's combat marketing and its US-border surveillance-tower contract.",
+            "type": "secondary",
+            "url": "https://truthout.org/articles/israels-largest-weapons-manufacturer-to-help-expand-uss-virtual-border-wall/",
+            "quote": "Elbit advertises its products as 'battle-proven' in operations in Gaza and the West Bank, where its weapons have caused numerous casualties",
+            "clip_status": "text-only"
+        },
+        {
+            "label": "Calcalist / CTech — \"Elbit expands U.S. footprint with $370 million Customs and Border Protection deal\" (July 20, 2026). The July 2026 CBP award to Elbit Systems of America.",
+            "type": "secondary",
+            "url": "https://www.calcalistech.com/ctechnews/article/sjua64sezg",
+            "quote": "These new awards demonstrate Elbit Systems of America's continued contribution to enhancing the security and defense capabilities of the United States.",
+            "clip": "clips/2023-palestine-laboratory-001-03.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Source capture Dax3kEbONS- (Instagram, @greg.j.stoker, posted July 14, 2026) — provenance for the claim analyzed here.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/Dax3kEbONS-/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A of the Dax3kEbONS- decomposition. Verified facts only: (1) the book exists — Verso 2023, subtitle verbatim from publisher; (2) it won the 2023 Walkley Book Award, announced Nov 23, 2023, judges' citation verbatim from Books+Publishing (beat Ghosts of the Orphanage and Crossing the Line on the shortlist); (3) Elbit Systems is Israel's largest weapons manufacturer, markets products as 'battle-proven' in Gaza/West Bank, and Elbit America holds the CBP surveillance-tower contract (307 towers program) — Truthout; (4) the July 2026 $370M CBP award — Calcalist/CTech, Elbit America statement verbatim. The reel's broader framing — 'the Palestine Laboratory is now at a local police department near you,' 'whatever they're willing to do to Palestinians, we're willing to do to you,' and the tie to the housing/climate/student-loan/AI-displacement 'plan' — is political interpretation (Group B), not asserted here. The scripted cold-open ('nice little database,' 'optimistic terrorists,' being videotaped) is a dramatization (Group B, satire), not a factual claim. NSO Group/Pegasus, another export in the same pattern, is documented separately at 2026-nso-comeback-001. Elbit '85% of Israel army land equipment' figure (AFSC Investigate) intentionally softened to the uncontested 'largest weapons manufacturer.' Do not adopt Truthout's 'apartheid regime' framing in our voice — only the factual clauses quoted."
+}
