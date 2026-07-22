@@ -37,3 +37,10 @@ allow_prose_rewrites   = false
 allow_file_moves       = false
 forbid_file_deletion   = false   # the generator prunes share dirs for removed themes
 forbid_ticket_creation = true
+
+[names]
+design = "mentat"
+build = "helldiver"
+release = "proctor"
+medic = "suk"
+scribe = "chronicler"
