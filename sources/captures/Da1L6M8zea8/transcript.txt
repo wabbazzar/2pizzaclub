@@ -1,0 +1,28 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-07-22, openai-whisper base.en
+
+— FULL TEXT —
+
+So apparently Texas just bought four souped-up Israeli surveillance vans for their law enforcement.
+Each one valued at $1.2 million making the entire fleet.
+All four souped-up Israeli surveillance Chevy Tajos, totally in at $4.49 million.
+Of course, I wanted to know what kind of tech was inside of those, like why would they be such high value?
+And as it turns out, it looks like they've got something called Falconet that's installed on each one.
+Falconet is a cell phone tower emulator, meaning it makes smart devices connect to it thinking that it's a cell tower.
+Therefore, collecting all of that information that a cell tower would using a company called Cognite,
+which has also signed a $5 million contract with US law enforcement agencies.
+And that was earlier this year in March 26th.
+Each one of these vans has inside like this little surveillance area, this high tech where they're utilizing OSINT and SIGINT.
+We talk about that all the time on your signals, intelligence, open source intelligence.
+Actually, giving you guys resources for SIGINT in the past.
+So it's all signals, intelligence, Wi-Fi, Bluetooth, every, so all of that connects to this van.
+They can then gather and gain all of that information.
+And finally, they use something called Nixite, which all of their Israeli analysts bring all of this information together,
+and then I hand it over in a nice little packet.
+Excess isn't the only one. Also, it's New York, Albuquerque, and Florida also have contracts with them,
+and I know that they're trying to expand to any US state they can get on board.
+Though anyway, just thought I'd let you guys know.
+Love you so much, stay safe, drink water, I'll talk to you.
+
+— END —

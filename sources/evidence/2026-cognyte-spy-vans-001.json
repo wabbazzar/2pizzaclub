@@ -1,0 +1,36 @@
+{
+    "id": "2026-cognyte-spy-vans-001",
+    "anchor": "y2023-palestine-laboratory",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "surveillance"
+    ],
+    "claim": "In March 2026, the Texas Department of Public Safety (DPS) bought four Chevrolet Tahoes fitted out as covert surveillance vans for about $4.5 million — the largest US sale on record for the Israeli surveillance firm Cognyte, a 2021 spinoff of Verint that markets itself as a rival to Palantir. Each van carries FalcoNet, a cell-site simulator (an \"IMSI catcher,\" the kind of device also known as a Stingray): it \"simulates a mobile phone tower, which forces nearby phones to connect to it,\" letting police pull identifying data off every device in range — suspect or not — and, per Cognyte's own materials, force thousands of devices to connect per minute. Cognyte has sold the same technology to other US agencies: the Albuquerque, New Mexico police, the New York State Police, and the Florida Department of Law Enforcement, which spent $765,000 on FalcoNet in 2024 for a Caribbean mass-migration operation. Cognyte's US revenue rose from $10 million in 2023 to $15 million in 2025.",
+    "sources": [
+        {
+            "label": "Forbes — Thomas Brewster, \"Israel's Palantir Rival Is Selling $1 Million Spy Vans To U.S. Cops\" (July 13, 2026). The Texas deal, FalcoNet, Cognyte, and the other US buyers.",
+            "type": "secondary",
+            "url": "https://www.forbes.com/sites/thomasbrewster/2026/07/13/israels-palantir-rival-is-selling-1-million-spy-vans-to-us-cops/",
+            "quote": "simulates a mobile phone tower, which forces nearby phones to connect to it",
+            "clip": "clips/2026-cognyte-spy-vans-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Reader Supported News (reprint of the Forbes investigation) — the Texas Tahoe purchase and the roster of other US buyers.",
+            "type": "secondary",
+            "url": "https://www.rsn.org/001/israels-palantir-rival-is-selling-1-million-spy-vans-to-us-cops.html",
+            "quote": "Cognyte has sold surveillance vans to the Albuquerque police department in New Mexico and the New York State Police, which helps patrol the border between Canada and the U.S. In 2024, the Florida Department of Law Enforcement spent $765,000 on FalcoNet for Operation Vigilant Sentry, a mission targeting mass migration via the Caribbean",
+            "clip": "clips/2026-cognyte-spy-vans-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Source capture Da1L6M8zea8 (Instagram, @meganmykal44, posted July 15, 2026) — provenance for the claim analyzed here.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/Da1L6M8zea8/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Group A of the Da1L6M8zea8 decomposition, tracking the Forbes investigation the reel cites on-screen. Verified: (1) Texas DPS bought four Chevrolet Tahoes March 2026, ~$4.5M, Cognyte's biggest US deal — RSN reprint verbatim; (2) FalcoNet is a cell-site simulator forcing nearby phones to connect — Forbes verbatim; (3) Cognyte = Herzliya-based Verint spinoff (2021), Nasdaq ~$560M cap, Palantir rival — Forbes; (4) other buyers Albuquerque PD, NY State Police, Florida DLE ($765K, 2024, Operation Vigilant Sentry) — RSN verbatim (Forbes also lists Baltimore $920K 2022 and Muscogee County GA $800K analytics). US revenue $10M(2023)->$15M(2025). Reel embellishments held OUT of the record as Group B: the specific 'Wi-Fi, Bluetooth, OSINT' collection detail and the analyst-packet product she calls 'Nixite' are not in the Forbes source under those names (Nixite unverified — parked in B, not C, per group-C-requires-proof); her '$5 million' is a rounding of the ~$4.5M Texas deal; 'expanding to any US state' is her framing of the documented revenue growth. Not themed 'palestine' — Forbes does not tie FalcoNet to testing in the occupied territories, so the card asserts only the Israeli-firm-to-US-police export, which the y2023-palestine-laboratory anchor's 'then exported' pattern covers. Shares israel+surveillance with the cluster (Palestine Laboratory, Deadly Exchange, NSO, Palantir policing)."
+}

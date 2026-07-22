@@ -1,0 +1,35 @@
+{
+    "id": "Da1L6M8zea8",
+    "url": "https://www.instagram.com/reel/Da1L6M8zea8/",
+    "platform": "instagram",
+    "captured_at": "2026-07-22",
+    "handle": "@meganmykal44",
+    "author_display_name": "Megan Mykal",
+    "posted_at": "2026-07-15",
+    "engagement": {
+        "likes": 14749,
+        "comments": 1078
+    },
+    "caption": "They're here",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Captions of the spoken audio; an on-screen screenshot of a Forbes 'Daily Cover' article — Thomas Brewster, \"Israel's Palantir Rival Is Selling $1 Million Spy Vans To U.S. Cops,\" published July 13, 2026.",
+    "audio_content_summary": "Talking-head walk-through of the Forbes investigation shown on screen: Texas law enforcement bought four 'souped-up Israeli surveillance vans' (Chevrolet Tahoes) at ~$1.2M each, ~$4.49M total; each carries FalcoNet, a cell-tower emulator that makes nearby phones connect to it and harvest their data; the maker is the Israeli firm Cognyte, which signed a multimillion-dollar US law-enforcement deal in March 2026. The vans run OSINT/SIGINT collection (Wi-Fi, Bluetooth) and Israeli analysts compile the take into a packet. New York, Albuquerque, and Florida also hold contracts, and the firm is said to be expanding to any US state it can.",
+    "implied_frame": "Group A (verified, recorded): the core of the Forbes story — Texas DPS's March 2026 purchase of four FalcoNet-equipped Chevrolet Tahoes (~$4.5M, Cognyte's biggest US deal), FalcoNet as a cell-site simulator, Cognyte as an Israeli Verint spinoff and Palantir rival, and the other US buyers (Albuquerque PD, NY State Police, Florida DLE) -> 2026-cognyte-spy-vans-001. Group B (embellishment beyond the source): the specific 'Wi-Fi / Bluetooth / OSINT' collection detail and the analyst-compilation product she names 'Nixite' are not in the Forbes reporting under those names; 'a $5 million contract' rounds the ~$4.5M Texas deal; 'expanding to any US state' is her framing of the documented US-revenue growth. Group C: none proven (Nixite is unverified but not shown to be invented, so it stays in B).",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~11.1 MB); delivery ~11.3 MB webm, 84s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-cognyte-spy-vans-001"
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 2,
+        "c": 0
+    },
+    "supporting_research_links": [
+        "https://www.forbes.com/sites/thomasbrewster/2026/07/13/israels-palantir-rival-is-selling-1-million-spy-vans-to-us-cops/",
+        "https://www.rsn.org/001/israels-palantir-rival-is-selling-1-million-spy-vans-to-us-cops.html",
+        "https://cybernews.com/privacy/us-police-israeli-spy-vans-falconet-cognyte/"
+    ]
+}
