@@ -1,0 +1,32 @@
+{
+    "id": "2018-palantir-predictive-policing-001",
+    "anchor": "y2024",
+    "year": 2018,
+    "era": "iv",
+    "themes": [
+        "surveillance",
+        "big-tech",
+        "ai"
+    ],
+    "claim": "Palantir Technologies — the data-analytics firm seeded by In-Q-Tel, the CIA's venture-capital arm — ran predictive-policing programs inside US city police departments. In New Orleans, a partnership that began in 2012 gave the New Orleans Police Department (NOPD) software that traced residents' ties to gang members, mined their social media and criminal histories, and predicted the likelihood that individuals \"would commit violence or become a victim.\" The Verge revealed in February 2018 that most of the City Council had never been told: the deal was routed as a pro-bono \"philanthropic\" arrangement that bypassed procurement and public oversight. In Los Angeles, the LAPD ran Operation LASER (Los Angeles' Strategic Extraction and Restoration), which assigned individuals a points-based \"LASER score\" to flag them as risks. Los Angeles ended Operation LASER in 2019; New Orleans dropped Palantir within weeks of the 2018 exposé.",
+    "sources": [
+        {
+            "label": "Type Investigations / The Verge (Ali Winston) — \"Did Palantir Secretly Use New Orleans to Test Predictive Policing?\" (February 27, 2018). The NOPD partnership, its 2012 start, and the council's ignorance of it.",
+            "type": "secondary",
+            "url": "https://typeinvestigations.org/investigation/2018/02/27/palantir-secretly-use-new-orleans-test-predictive-policing/",
+            "quote": "Key city council members and attorneys contacted by The Verge had no idea that the city had any sort of relationship with Palantir, nor were they aware that Palantir used its program in New Orleans to market its services to another law enforcement agency for a multimillion-dollar contract.",
+            "clip": "clips/2018-palantir-predictive-policing-001-00.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "The Intercept — \"How the LAPD and Palantir Use Data to Justify Racist Policing\" (January 30, 2021). Operation LASER, the LASER score, and its 2019 end.",
+            "type": "secondary",
+            "url": "https://theintercept.com/2021/01/30/lapd-palantir-data-driven-policing/",
+            "quote": "A third program, Operation LASER, which stands for Los Angeles' Strategic Extraction and Restoration program, used a points-based system, called a LASER score, to evaluate the risk that individuals posed.",
+            "clip": "clips/2018-palantir-predictive-policing-001-01.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Push #1 from the Dax3kEbONS- proposed-push — the reel's 'Palantir predictive policing at a local police department near you' thread, moved from Group-B framing to a sourced standalone record. Verified facts: (1) NOPD–Palantir began 2012, software function and council-unaware routing verbatim from Type Investigations/Verge (Winston); Landrieu's office declined to renew the pro-bono contract two weeks after publication. (2) LAPD Operation LASER + LASER score + ended 2019, verbatim from The Intercept. In-Q-Tel/CIA seed funding of Palantir is well documented (founded 2003-04 with In-Q-Tel investment). LA Police Foundation intermediary (BuzzFeed News, Haskins) and NOLA-For-Life 'philanthropic' framing are context, not quoted here. Complements 2025-palantir-maven-pentagon-001 (Palantir's Pentagon Maven targeting system) — same firm, domestic-policing surface. Shares the 'surveillance' theme with 2023-palestine-laboratory-001 and 2026-nso-comeback-001 so the see-also cluster links them."
+}

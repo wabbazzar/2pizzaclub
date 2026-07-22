@@ -1,0 +1,40 @@
+{
+    "id": "2018-deadly-exchange-001",
+    "anchor": "y2023-palestine-laboratory",
+    "year": 2018,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "palestine",
+        "surveillance"
+    ],
+    "claim": "US police do not only buy Israeli hardware — American law-enforcement officials travel to Israel for training. The Anti-Defamation League (ADL), by its own account, ran a Leadership Seminar that \"from 1987-2019 ... brought small groups of senior American law enforcement leaders to Israel for a week-long seminar,\" and has run a separate National Counter-Terrorism Seminar since 2004 that more than 200 law-enforcement executives from over 100 US and foreign departments have attended. The Jewish Institute for National Security of America (JINSA) and Georgia State University's GILEE (Georgia International Law Enforcement Exchange) run parallel delegations. A 2018 report by Jewish Voice for Peace and the Research and Advocacy Initiative, titled \"Deadly Exchange,\" argued these trips transfer surveillance, racial-profiling, and crowd-control tactics used in the occupied territories to US policing. The ADL rejects that characterization and, after the campaign, revised its curriculum but chose to keep the program running.",
+    "sources": [
+        {
+            "label": "Anti-Defamation League — \"Responding to Questions about ADL's Law Enforcement Leadership Seminars in Israel.\" ADL's own description of the program and its run dates.",
+            "type": "primary",
+            "url": "https://www.adl.org/responding-questions-about-adls-law-enforcement-leadership-seminars-israel",
+            "quote": "From 1987-2019, ADL brought small groups of senior American law enforcement leaders to Israel for a week-long seminar",
+            "clip": "clips/2018-deadly-exchange-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "The Intercept — \"Israel Security Forces Are Training American Cops Despite History of Rights Abuses\" (September 15, 2017). Scale of the ADL National Counter-Terrorism Seminar.",
+            "type": "secondary",
+            "url": "https://theintercept.com/2017/09/15/police-israel-cops-training-adl-human-rights-abuses-dc-washington/",
+            "quote": "More than 200 law enforcement executives from over 100 departments in the U.S. and abroad ... have participated in the ADL program since it launched in 2004.",
+            "clip": "clips/2018-deadly-exchange-001-01.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Deadly Exchange (Jewish Voice for Peace / RAIA) — FAQ, drawn from the 2018 \"Deadly Exchange\" report. The scope claim, and the critique — attributed, not adopted.",
+            "type": "secondary",
+            "url": "https://deadlyexchange.org/frequently-asked-questions-deadly-exchange/",
+            "quote": "Since the early 2000s, thousands of U.S. police officers, sheriffs, border patrol agents, ICE officers, and FBI agents have trained with Israeli military and police forces.",
+            "clip": "clips/2018-deadly-exchange-001-02.png",
+            "clip_status": "ok-cross-node"
+        }
+    ],
+    "status": "verified",
+    "notes": "Push #2 from the Dax3kEbONS- proposed-push. Facts, attributed per the neutrality rule (present the critique AND ADL's defense; adopt neither as our voice): (1) ADL Leadership Seminar 1987-2019 — verbatim from ADL's OWN page; (2) ADL National Counter-Terrorism Seminar since 2004, 200+ executives from 100+ departments — verbatim from The Intercept; (3) 'thousands ... since the early 2000s' across ADL/JINSA/GILEE-type programs — verbatim from the Deadly Exchange FAQ (the campaign's own count, so attributed to it, not stated as our tally). The 'Deadly Exchange' framing is the JVP/RAIA 2018 report's argument. ADL disputes it and per Times of Israel (2022) kept the program with a revised curriculum after the campaign (TOI uncrawlable-adjacent; not cited for a verbatim). JINSA LEEP founding year (2002) and GILEE (1992) are documented elsewhere but not asserted with a specific year here to avoid an unsourced verbatim; the Intercept names JINSA and ADL among the sponsoring groups. Shares israel+palestine+surveillance with 2023-palestine-laboratory-001 — hardware export (Elbit) and tactics export (training) as parallel threads in the same see-also cluster."
+}
