@@ -44,3 +44,38 @@ build = "helldiver"
 release = "proctor"
 medic = "suk"
 scribe = "chronicler"
+
+[write_ticket]
+# Read before drafting: root context, the evidence-record schema, the ingest
+# SOP, and the verification gate file (media QC + data-artifact gates live
+# there, not in any test suite).
+context_files   = ["CLAUDE.md", "sources/SCHEMA.md", "tools/INGEST-SOP.md", ".agents/gates.md"]
+ticket_dir      = "docs/tickets/"        # new tickets land here (dir created on first ticket)
+scan_dirs       = ["docs/tickets/"]      # scan for next id
+types           = ["feature", "bug", "refactor", "chore", "docs"]
+id_width        = 3                      # docs/tickets/XXX_<type>_<short_desc>.md
+point_scale     = [1, 2, 3, 5, 8]
+phase_point_cap = 5
+viewport        = "390x844"              # mobile-first: mobile-nav activates <=880px; site ships as a PWA
+# The only automated gate + the two data-artifact rebuilds. Media QC and site
+# render checks are command recipes in .agents/gates.md, not one-shot cmds.
+test_cmds       = [
+  "node tools/build-rag-index.mjs && node tools/rag-eval.mjs",
+  "node tools/build-bundle.mjs",
+]
+house_rules     = """
+NO Claude attribution in commits — no Co-Authored-By, no Generated-with footer \
+(explicit project policy; overrides any global default). \
+Multiple agents share main: never branch, stage explicit paths only (never \
+`git add -A`), pull --rebase before push, never force-push. \
+No build step: plain HTML/CSS/ES modules on GitHub Pages — no bundler, no \
+framework, no transpile; do not introduce one. \
+Reader-facing text (claims, blurbs, headers) must pass the four-check quality \
+bar in CLAUDE.md — flat voice, no source-video references, acronyms glossed, \
+attributed not adopted. \
+Any record claim/quote change requires rebuilding + committing rag-index.json \
+(eval 5/5) and bundle.json. \
+Produced audio/video gets whole-file QC (ebur128 per-segment + silencedetect + \
+interior/ending transcription) before any preview or publish; live IG posts are \
+a hard human gate — explicit sign-off, never replace/delete a live post.\
+"""
