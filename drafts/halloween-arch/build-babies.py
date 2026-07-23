@@ -43,10 +43,11 @@ CARDS = [
              "very high domed forehead with a receding brown hairline and only a wisp of hair, pale skin, "
              "close-set pale-blue eyes, a tight thin-lipped tense smile",
              "The baby wears a tiny dark-navy business suit with a white collar. He sits atop a stack of "
-             "blocky computer-server bricks like a little throne. In one pudgy fist he grips a tall white "
-             "chess KING piece; with the other arm he hugs a small wooden ballot box sealed shut with a big "
-             "heavy padlock and chain. Keep the face sharply recognizable — high domed forehead, tight thin "
-             "tense smile, close-set pale-blue eyes.",
+             "blocky computer-server bricks like a little throne. Both arms are clearly attached at rounded "
+             "shoulders with natural suit sleeves — no arm coming out of the neck. His right hand rests low "
+             "in his lap holding a tall white chess KING piece upright on his knee; his left arm hugs a small "
+             "wooden ballot box against his side, sealed shut with a big heavy padlock and chain. Keep the face "
+             "sharply recognizable — high domed forehead, tight thin tense smile, close-set pale-blue eyes.",
              "dusty-red field with faint radiating cartoon sunburst")),
     dict(id="karp",  ref="ref-karp.jpg",
          art=baby(
