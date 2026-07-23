@@ -1,0 +1,30 @@
+{
+    "id": "2024-operation-vigilant-sentry-001",
+    "anchor": "y2023-palestine-laboratory",
+    "year": 2024,
+    "era": "iv",
+    "themes": [
+        "surveillance"
+    ],
+    "claim": "Operation Vigilant Sentry is the Department of Homeland Security's standing operation for intercepting maritime migration in the Caribbean and the Florida Straits. It was \"first approved in 2004,\" run by the Homeland Security Task Force–Southeast (established 2003) — the Coast Guard, DHS, and state and local partners — and since August 2022 has surged assets against the highest maritime-migration levels the Coast Guard had seen in three decades. In 2024 the Florida Department of Law Enforcement spent $765,000 to equip the operation with Cognyte's FalcoNet cell-site simulators — the Israeli phone-tracking system also mounted in the $4.5 million surveillance vans Texas bought in 2026. (The device the Forbes reporting on Texas describes as recently authorized is, at the operational level, a two-decade-old DHS program.)",
+    "sources": [
+        {
+            "label": "DVIDS (Defense Visual Information Distribution Service) — \"Operation Vigilant Sentry: Stopping illegal migration at sea.\" The 2004 approval, HSTF-Southeast (2003), and the operation's purpose.",
+            "type": "primary",
+            "url": "https://www.dvidshub.net/news/437385/operation-vigilant-sentry-stopping-illegal-migration-sea",
+            "quote": "Operation Vigilant Sentry was first approved in 2004.",
+            "clip": "clips/2024-operation-vigilant-sentry-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Reader Supported News (reprint of the Forbes investigation, Thomas Brewster). The Florida Department of Law Enforcement's 2024 FalcoNet purchase for Operation Vigilant Sentry.",
+            "type": "secondary",
+            "url": "https://www.rsn.org/001/israels-palantir-rival-is-selling-1-million-spy-vans-to-us-cops.html",
+            "quote": "In 2024, the Florida Department of Law Enforcement spent $765,000 on FalcoNet for Operation Vigilant Sentry, a mission targeting mass migration via the Caribbean",
+            "clip": "clips/2024-operation-vigilant-sentry-001-01.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Push #3 from the Da1L6M8zea8 follow-ups — the deployment context for the Florida FalcoNet line in 2026-cognyte-spy-vans-001. Verified: OVS 'first approved in 2004,' HSTF-Southeast established 2003, purpose to deter maritime mass migration in the Caribbean/Florida Straits — DVIDS (DoD/DHS), verbatim. August-2022 surge and 'highest maritime migration in ~30 years' from Coast Guard/DVIDS reporting (fiscal 2022-2024, ~70,000 via the Caribbean/Florida Straits). Florida DLE $765K FalcoNet-for-OVS from the Forbes investigation (RSN reprint, verbatim). Editorial correction on the record: the Forbes/RSN line calls Operation Vigilant Sentry a mission 'enacted by the Biden administration in 2023' — the OPERATION dates to 2004 and the task force to 2003; what changed in 2022-2023 was the asset surge, not the operation's creation. Stated the accurate provenance rather than adopting the reporting's framing (verify-before-adopting). Themed 'surveillance'; sits in the y2023-palestine-laboratory cluster as where the exported Israeli cell-site tech is deployed."
+}

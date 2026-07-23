@@ -1,0 +1,30 @@
+{
+    "id": "2014-stingray-secrecy-001",
+    "anchor": "y2014-stingray",
+    "year": 2014,
+    "era": "iv",
+    "themes": [
+        "surveillance"
+    ],
+    "claim": "A cell-site simulator — commercially a \"Stingray,\" generically an IMSI catcher — mimics a cell tower so that every phone nearby connects to it and hands over its identity and location, whether or not it belongs to a suspect. US police acquired them under a secrecy regime run by the FBI: before a department could buy a Stingray from its maker, the Harris Corporation, \"the FBI requires the local agency to sign a lengthy nondisclosure agreement.\" The ACLU and journalists pried the agreements loose through public-records requests. The NDAs \"forced [agencies to] hide it from judges and defense attorneys in court proceedings,\" and some agencies went \"as far as dismissing criminal prosecutions instead of revealing accurate information about tech surveillance to criminal defense lawyers.\"",
+    "sources": [
+        {
+            "label": "ACLU — \"Documents in ACLU Case Reveal More Detail on FBI Attempt to Cover Up Stingray Technology.\" The Harris Corporation / FBI nondisclosure-agreement requirement.",
+            "type": "primary",
+            "url": "https://www.aclu.org/news/national-security/documents-aclu-case-reveal-more-detail-fbi-attempt-cover-stingray-technology",
+            "quote": "the FBI requires the local agency to sign a lengthy nondisclosure agreement before buying the device.",
+            "clip": "clips/2014-stingray-secrecy-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "ACLU — \"Surreal Stingray Secrecy: Uncovering the FBI's Surveillance Tech Secrecy Agreements.\" How the NDAs kept the technology out of courtrooms.",
+            "type": "secondary",
+            "url": "https://www.aclu.org/news/privacy-technology/surreal-stingray-secrecy-uncovering-the-fbis-surveillance-tech-secrecy-agreements",
+            "quote": "as far as dismissing criminal prosecutions instead of revealing accurate information about tech surveillance to criminal defense lawyers",
+            "clip": "clips/2014-stingray-secrecy-001-01.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Push #1 from the Da1L6M8zea8 follow-ups — the technology primer behind the Cognyte FalcoNet card (2026-cognyte-spy-vans-001): what a cell-site simulator is and the FBI/Harris secrecy regime around US police use. Verified from ACLU, which obtained the underlying FBI nondisclosure agreements via FOIA/public-records requests. NDA-requirement verbatim from the 'Documents...Cover Up' page; the courtroom-concealment and dropped-prosecution language verbatim from 'Surreal Stingray Secrecy.' Stingray is Harris Corp's brand name (Harris is now L3Harris); IMSI catcher is the generic term. Concrete dropped-case examples on the record include Baltimore and St. Louis. Shares the 'surveillance' theme with 2026-cognyte-spy-vans-001, 2018-palantir-predictive-policing-001, 2013-prism-001, and 2026-nso-comeback-001 so the see-also cluster links them. Own anchor y2014-stingray because this is US-domestic secrecy, not the Israeli-export pattern of the y2023-palestine-laboratory chapter."
+}

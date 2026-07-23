@@ -1,0 +1,39 @@
+{
+    "id": "2021-cognyte-verint-lineage-001",
+    "anchor": "y2023-palestine-laboratory",
+    "year": 2021,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "surveillance"
+    ],
+    "claim": "Cognyte did not appear from nowhere. Verint Systems \"completed the spin-off of Cognyte Software Ltd.\" in 2021, with Cognyte trading on Nasdaq from February 2, 2021 — and Verint is the former Comverse Infosys, an Israeli-founded company that went public in 2002 selling lawful-interception (\"wiretapping\") software. Its STAR-GATE and RELIANT systems were installed inside telecom and internet carriers to intercept communications, on legal authorization, for law-enforcement and government agencies. The same corporate line was the subject of a contested December 2001 Fox News series by correspondent Carl Cameron, alleging Israeli-linked surveillance of US federal agencies including the DEA before 9/11; the reports were hedged as \"inconclusive\" and disputed at the time. That lineage — Comverse Infosys to Verint to Cognyte — now sells cell-site-simulator surveillance vans to American police.",
+    "sources": [
+        {
+            "label": "Verint — press release announcing completion of the Cognyte Software spin-off (2021). The corporate split that created Cognyte.",
+            "type": "primary",
+            "url": "https://www.verint.com/press-room/2021-press-releases/verint-celebrates-day-one-as-a-company-focused-on-enabling-brands-to-achieve-boundless-customer-engagement-following-completion-of-cognyte-software-spin-off/",
+            "quote": "it has completed the spin-off of Cognyte Software Ltd.",
+            "clip": "clips/2021-cognyte-verint-lineage-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "The Register — \"Verint makes a mint from govt. spyware\" (March 14, 2003). Verint as the Comverse Technology surveillance arm making lawful-interception software (STAR-GATE, RELIANT) for carriers and governments.",
+            "type": "secondary",
+            "url": "https://www.theregister.com/2003/03/14/verint_makes_a_mint/",
+            "quote": "introducing new capabilities for the analysis of content and culled data collected from wireline, wireless and data networks",
+            "clip": "clips/2021-cognyte-verint-lineage-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Wikipedia — \"Carl Cameron.\" The 2001 Fox News reporting on alleged Israeli surveillance of US agencies, hedged and contested.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Carl_Cameron",
+            "quote": "Israel's involvement in surveillance on US federal officials and agencies such as the Drug Enforcement Administration leading up to 9/11, including inconclusive reports of Israeli foreknowledge of al-Qa'ida activities prior to the attacks",
+            "clip": "clips/2021-cognyte-verint-lineage-001-02.png",
+            "clip_status": "ok-cross-node"
+        }
+    ],
+    "status": "verified",
+    "notes": "Push #2 from the Da1L6M8zea8 follow-ups — the corporate lineage behind the Cognyte spy-vans card (2026-cognyte-spy-vans-001), connecting the modern firm to the older Israeli-surveillance-lineage the site already documents. Verified: Verint completed the Cognyte spin-off 2021, CGNT on Nasdaq Feb 2, 2021 (Verint press release, verbatim). Verint = former Comverse Infosys, IPO'd from Comverse Technology in 2002 (IPO closed May 16, 2002); its lawful-intercept business (STAR-GATE / RELIANT, CALEA compliance) documented by The Register (neutral tech press), verbatim on Verint's data-collection line. The Cameron episode is included ONLY as attributed, hedged, contested reporting (Wikipedia's own framing is 'inconclusive reports') — NOT adopted as our voice, per the no-official/no-fringe-default rule; it ties to the existing 2001-art-students-001 record (the DEA report Cameron's series was built around). Deliberately NOT restating the Comverse/Amdocs 'trojan/backdoor' allegations, which rest on advocacy sources; the record stands on the uncontested corporate lineage plus the documented lawful-intercept business. Shares israel+surveillance with the y2023-palestine-laboratory cluster and 2001-art-students-001."
+}
