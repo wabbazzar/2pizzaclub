@@ -10,9 +10,9 @@ FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
 # banner box as fractions (l, t, r, b) of the 864x1184 card, text fill, optional stroke
 CARDS = {
-    "netanyahu": dict(name="NETANYAHU", box=(.11, .80, .89, .895), fill=(255, 248, 231), stroke=(20, 30, 70)),
-    "thiel":     dict(name="THIEL",     box=(.15, .805, .85, .895), fill=(27, 40, 90),  stroke=None),
-    "karp":      dict(name="KARP",      box=(.14, .855, .88, .955), fill=(255, 248, 231), stroke=(120, 25, 30)),
+    "netanyahu": dict(name="NETANYAHU", box=(.11, .815, .89, .900), fill=(255, 248, 231), stroke=(20, 30, 70)),
+    "thiel":     dict(name="THIEL",     box=(.15, .835, .85, .920), fill=(27, 40, 90),  stroke=None),
+    "karp":      dict(name="KARP",      box=(.14, .880, .88, .975), fill=(255, 248, 231), stroke=(120, 25, 30)),
 }
 
 def fit(draw, text, maxw, maxh):
