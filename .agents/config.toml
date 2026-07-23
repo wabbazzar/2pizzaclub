@@ -1,11 +1,11 @@
 # 2pizzaclub agent install config
-# Read by /home/wabbazzar/code/guardian-quartet/agents/scribe/runner.sh via
+# Read by ~/code/shipyard/agents/scribe/runner.sh via
 # the shared lib/load-config.sh path. Project-specific knobs only; the generic
-# scribe runner + role.md live in the guardian-quartet hub.
+# scribe runner + role.md live in the shipyard hub.
 #
 # Only scribe is installed here. 2pizzaclub is a no-build static site (plain
 # HTML/CSS/ES modules, GitHub Pages, custom domain 2pizzaclub.com) — there is
-# no test/typecheck/service surface for guardian/augur/medic to act on.
+# no test/typecheck/service surface for release/build/medic to act on.
 
 project_name  = "2pizzaclub"
 project_dir   = "/home/wabbazzar/code/2pizzaclub"
@@ -28,7 +28,6 @@ result_dir = "tmp"   # gitignored; runner writes 2pizzaclub-scribe-result.json h
 # narrow: scribe must never stage sources/captures/ or evidence (other agents'
 # territory — a mid-ingest capture could be swept into a pathspec commit).
 content_paths          = ["gallery/share/"]
-budget                 = 1.50
 wall_clock_sec         = 900
 commit_message_prefix  = "scribe: refresh share cards"
 auto_commit            = true
