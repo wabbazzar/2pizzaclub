@@ -33,15 +33,20 @@ CARDS = [
          art=baby(
              "silver-grey hair combed back over a receding hairline, heavy hooded eyes, jowly "
              "downturned mouth, broad tanned face, thick neck",
-             "The baby wears a tiny navy suit with an oversized bright-blue necktie and clutches a huge "
-             "baby bottle brimming with gold coins and cash instead of milk.",
+             "The baby wears a tiny navy suit with an oversized bright-blue necktie. He drinks from a huge "
+             "baby bottle whose glass is painted like the American stars-and-stripes flag, brimming with "
+             "green US hundred-dollar bills and gold coins instead of milk, and in his other hand grips a "
+             "small toy US military fighter jet like a teething rattle.",
              "navy-blue field with faint radiating cartoon sunburst")),
     dict(id="thiel", ref="ref-thiel.jpg",
          art=baby(
              "very high domed forehead with a receding brown hairline and only a wisp of hair, pale skin, "
              "close-set pale-blue eyes, a tight thin-lipped tense smile",
-             "The baby sits on a stack of blocky computer-server bricks and grips a chess king piece in "
-             "one pudgy fist and a plain juice box in the other.",
+             "The baby wears a tiny dark-navy business suit with a white collar. He sits atop a stack of "
+             "blocky computer-server bricks like a little throne. In one pudgy fist he grips a tall white "
+             "chess KING piece; with the other arm he hugs a small wooden ballot box sealed shut with a big "
+             "heavy padlock and chain. Keep the face sharply recognizable — high domed forehead, tight thin "
+             "tense smile, close-set pale-blue eyes.",
              "dusty-red field with faint radiating cartoon sunburst")),
     dict(id="karp",  ref="ref-karp.jpg",
          art=baby(
