@@ -78,3 +78,12 @@ Produced audio/video gets whole-file QC (ebur128 per-segment + silencedetect + \
 interior/ending transcription) before any preview or publish; live IG posts are \
 a hard human gate — explicit sign-off, never replace/delete a live post.\
 """
+
+[[medic.checks]]
+# Crew-install drift: doctor audits what this install owns (units, foreign
+# drop-ins, retired config keys, dead hooks, skill symlinks). Read-only, <1s.
+# Notify-only — remediation is uninstall+reinstall or a stamped ticket, never
+# a medic reflex.
+name        = "crew-install-drift"
+cmd         = 'bash "$QUARTET_DIR/install.sh" --doctor --project .'
+timeout_sec = 30
