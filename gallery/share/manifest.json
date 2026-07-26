@@ -4,7 +4,7 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 110,
+      "count": 111,
       "seconds": 14781
     },
     {
@@ -34,7 +34,7 @@
     {
       "slug": "big-tech",
       "topic": "Big Tech",
-      "count": 9,
+      "count": 10,
       "seconds": 1155
     },
     {
@@ -88,7 +88,7 @@
     {
       "slug": "defense",
       "topic": "Defense",
-      "count": 13,
+      "count": 14,
       "seconds": 1958
     },
     {
@@ -208,7 +208,7 @@
     {
       "slug": "intelligence",
       "topic": "Intelligence",
-      "count": 20,
+      "count": 21,
       "seconds": 3052
     },
     {
@@ -388,7 +388,7 @@
     {
       "slug": "surveillance",
       "topic": "Surveillance",
-      "count": 16,
+      "count": 17,
       "seconds": 2253
     },
     {
