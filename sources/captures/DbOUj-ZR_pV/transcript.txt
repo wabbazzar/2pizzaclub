@@ -1,0 +1,46 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-07-26, openai-whisper base.en
+
+— FULL TEXT —
+
+Most people have heard of Palantir by now, and obvious tool of the surveillance state.
+Facebook might not be as obvious as Palantir, but they're two of the same.
+TIA, Total Information Awareness, was a post-9-11 DARPA concept that is due real logo,
+and it was designed to aggregate every piece of data on every single person in the United States,
+emails, financial records, all communications, travel, behaviors into one centralized analysis
+system. This program was defunded by Congress in 2003 due to it being unconstitutional.
+Peter Teal and Alex Carp then met with John Poindexter, the architect of TIA,
+and he also worked with Dick Carlson, Tucker's dad, and John connected Carp and Teal to the CIA.
+The CIA then invested a seed of $2 million into Palantir.
+The CIA was Palantir's first and only customer for the first five years of its existence,
+and then they branched out to the NSA, FBI, and JP Morgan.
+Palantir is TIA, just privatized. Palantir generates targeting data for the Israeli
+military and the US one now, and it was inside DHS, NCTC, the State Department, and the Pentagon.
+Lifelong was another DARPA program. It was an ontology-based program designed to capture,
+store, and detail the complete flow of one person's experience. Every phone number dialed,
+every message sent or received, every email viewed, step taken, place visited, every personal
+accomplishment, every relationship changed. The goal was to trace all of the threads of an
+individual's life. It was canceled by DARPA on February 4, 2004, amid the same congressional
+privacy concerns as TIA. Mark Zuckerberg launched Facebook on the same day, February 4,
+2004, a social media platform designed to extract the exact same information that Lifelong intended
+to. Peter Teal was Facebook's first outside investor. In 2015, the program manager for Lifelong
+Douglas Gage said that the program was canceled due to privacy backlash, but the private sector
+achieved similar data collection goals through platforms like Facebook. They made surveillance
+a fun social thing, and now people post their entire lives on the internet. There were at least
+nine of these DARPA programs that were privatized in order to operate without congressional oversight.
+SMISC, social media and strategic communications, was another one, and that was revealed in 2011.
+It studied how social media can be used for propaganda and influence operations,
+high memetic theory, and developed tools for detecting persuasion campaigns and building
+systems for understanding how influence spreads through social networks. This became Cambridge
+and Lettica, meta's political advertising platform. Government influence operations literally
+just privatized. Not to mention, Teal and Zuckerberg both sit on the Presidential Council
+of Advisors on Science and Technology. Communicator was another one designed to create multi-modal
+speech-enabled dialogue systems, aka computers that could understand and respond to natural
+spoken language. This enabled soldiers to interact with information systems and combat
+environments without keyboards or screens, and this then became Apple's Siri, which launched in
+2011, and was built on DARPA-funded SRI international research. It's also Amazon Alexa, Google Assistant,
+every voice-activated device that is continuously listening by design. Once again, they make
+surveillance fun, and then everyone participates in it.
+
+— END —

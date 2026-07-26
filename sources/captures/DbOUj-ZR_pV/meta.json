@@ -1,0 +1,33 @@
+{
+    "id": "DbOUj-ZR_pV",
+    "url": "https://www.instagram.com/reel/DbOUj-ZR_pV/",
+    "platform": "instagram",
+    "captured_at": "2026-07-26",
+    "handle": "@itsgingertheory",
+    "author_display_name": "Ginger Theory",
+    "posted_at": "2026-07-25",
+    "engagement": {
+        "likes": 9746,
+        "comments": 194
+    },
+    "caption": "Everything is DARPA, everything is intelligence related. Everything. Intelligence groups are organized crime networks, working on behalf of the evils at be.",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Cover card: Palantir logo. Subsequent overlays cycle TIA / LifeLog / SMISC / Communicator program names against the spoken narration.",
+    "audio_content_summary": "Argues that Palantir and Facebook are privatized DARPA surveillance programs: TIA (defunded 2003) reborn as Palantir via a CIA/In-Q-Tel seed; LifeLog (canceled Feb 4 2004) replaced by Facebook, launched the same day; SMISC as Cambridge Analytica; DARPA Communicator as Siri/Alexa \u2014 nine-plus programs privatized to evade oversight.",
+    "implied_frame": "Frames a lineage in which nine-plus DARPA surveillance programs (TIA, LifeLog, SMISC, Communicator) were deliberately privatized into Big Tech \u2014 Palantir, Facebook, Cambridge Analytica, Siri/Alexa \u2014 to keep mass data collection running outside congressional oversight. The program-existence facts are real; the deliberate-continuation causation and several one-to-one program-to-company mappings are the disputed/unsupported layer.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC \u2014 no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~16.4 MB); delivery ~17.1 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2003-total-information-awareness-001",
+        "2004-darpa-lifelog-001",
+        "2005-palantir-in-q-tel-seed-001"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 3,
+        "b": 8,
+        "c": 3
+    }
+}

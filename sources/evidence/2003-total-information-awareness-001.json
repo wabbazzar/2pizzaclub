@@ -1,0 +1,32 @@
+{
+    "id": "2003-total-information-awareness-001",
+    "anchor": "y2003-darpa",
+    "year": 2003,
+    "era": "iii",
+    "themes": [
+        "surveillance",
+        "intelligence",
+        "defense"
+    ],
+    "claim": "Total Information Awareness (TIA) was a real program run out of the Information Awareness Office (IAO), a unit stood up in 2002 inside DARPA — the Pentagon's Defense Advanced Research Projects Agency. Its stated aim was to build searchable databases pulling together the personal records of people in the United States — emails, financial and credit records, phone calls, travel, medical files — and mine them for \"suspicious\" patterns and connections. It was directed by John Poindexter, Ronald Reagan's former national security adviser, who had been convicted (convictions later overturned) of lying to Congress in the Iran-Contra affair. After a public backlash over mass surveillance, Congress cut off the program's funding: House and Senate negotiators added a provision barring further money for TIA to the Department of Defense Appropriations Act, 2004, signed into law on October 1, 2003. Several component technologies were reported to have continued under classified funding at other agencies.",
+    "sources": [
+        {
+            "label": "Information Awareness Office — the DARPA office, Poindexter's appointment, the data-aggregation goal, and the 2003 congressional defunding via the FY2004 defense appropriations act.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Information_Awareness_Office",
+            "quote": "As a result, House and Senate negotiators moved to prohibit further funding for the TIA program by adding provisions to the Department of Defense Appropriations Act, 2004 (signed into law by President Bush on October 1, 2003).",
+            "clip": "clips/2003-total-information-awareness-001-00.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "IEEE Spectrum — \"TIA is Dead — Long Live TIA.\" The 24 September 2003 House-Senate conference vote to defund TIA and the IAO, and the transfer of some tools to classified programs.",
+            "type": "secondary",
+            "url": "https://spectrum.ieee.org/tia-is-deadlong-live-tia",
+            "quote": "a joint House-Senate appropriations conference committee voted on 24 September to defund TIA",
+            "clip": "clips/2003-total-information-awareness-001-01.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Ingest of @itsgingertheory reel DbOUj-ZR_pV (Palantir / DARPA-privatization thesis). Group-A fact: TIA existed, was run by Poindexter inside DARPA's IAO, and was defunded by Congress in 2003 — all verifiable. The reel's larger framing (that TIA was simply reborn as Palantir / privatized to dodge oversight) is the disputed thesis and stays in Group B, not asserted here. Poindexter's Iran-Contra history links to 1985-iran-contra-001. 'Unconstitutional' in the reel is an editorial characterization — Congress defunded it over privacy/mass-surveillance concerns; no court ruled it unconstitutional, so the claim says 'backlash' + defunding, not 'unconstitutional.' Wikipedia used as the aggregator with a primary footnote (the FY2004 appropriations act); IEEE Spectrum corroborates the 24 Sept 2003 conference vote."
+}

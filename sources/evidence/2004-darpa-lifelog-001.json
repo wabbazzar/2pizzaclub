@@ -1,0 +1,28 @@
+{
+    "id": "2004-darpa-lifelog-001",
+    "anchor": "y2003-darpa",
+    "year": 2004,
+    "era": "iii",
+    "themes": [
+        "surveillance",
+        "big-tech",
+        "intelligence"
+    ],
+    "claim": "LifeLog was a DARPA research program meant to capture the complete flow of one person's life into a single searchable record — every email and phone call, every place visited and person met — and trace the threads connecting them. DARPA director Tony Tether canceled it in February 2004, the agency citing a \"change in priorities\" after the same privacy backlash that had just killed Total Information Awareness. On the same date it was pulled, February 4, 2004, Mark Zuckerberg launched TheFacebook from his Harvard dorm; PayPal co-founder Peter Thiel became Facebook's first outside investor later that year. LifeLog's program manager, Douglas Gage, said years later that the surveillance vision the government abandoned was realized in the private sector anyway — \"I think that Facebook is the real face of pseudo-LifeLog at this point.\" The shared February 4, 2004 date is documented; the causal reading — that Facebook was a deliberate continuation of the program — is not established and is disputed, including by LifeLog's own researchers.",
+    "sources": [
+        {
+            "label": "VICE / Motherboard — \"15 Years Ago, the Military Tried to Record Whole Human Lives. It Ended Badly.\" LifeLog's design, its February 2004 cancellation and \"change in priorities\" reason, and program manager Douglas Gage on Facebook.",
+            "type": "secondary",
+            "url": "https://www.vice.com/en/article/15-years-ago-the-military-tried-to-record-whole-human-lives-it-ended-badly/",
+            "quote": "I think that Facebook is the real face of pseudo-LifeLog at this point.",
+            "clip_status": "error: page.screenshot: Clipped area is either empty or outside the resulting image\nCall log:\n\u001b[2m  - taking page screenshot\u001b[2"
+        },
+        {
+            "label": "WHYY / \"Radio Times\" — Facebook, a computing pioneer, a secret government program, and a strange coincidence. Confirms LifeLog was shut down on February 4, 2004, the same day TheFacebook launched.",
+            "type": "secondary",
+            "url": "https://whyy.org/segments/facebook-a-computing-pioneer-a-secret-government-program-and-a-strange-coincidence/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Ingest of @itsgingertheory reel DbOUj-ZR_pV. Group-A facts held to what's verifiable: (1) LifeLog was a real DARPA program with the described goal; (2) canceled Feb 2004, reason of record 'change in priorities,' amid the post-TIA privacy backlash (Gage himself framed it as collateral damage from TIA's death); (3) TheFacebook launched Feb 4, 2004; (4) Thiel was Facebook's first outside investor (Aug 2004, ~$500k for ~10.2%). The 'same day' coincidence is real and stated plainly; the reel's causal claim (Facebook = LifeLog continued) is explicitly flagged as disputed — Gage and other researchers told VICE the research was not about spying. Kept as attributed characterization from a real named speaker (Gage), which the editorial rules permit. Links thematically to 2003-total-information-awareness-001 (same anchor, the killed sibling program) and the Palantir/Thiel cluster."
+}

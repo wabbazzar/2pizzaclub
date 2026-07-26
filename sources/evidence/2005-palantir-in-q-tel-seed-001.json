@@ -1,0 +1,32 @@
+{
+    "id": "2005-palantir-in-q-tel-seed-001",
+    "anchor": "y2024",
+    "year": 2005,
+    "era": "iv",
+    "themes": [
+        "surveillance",
+        "big-tech",
+        "intelligence"
+    ],
+    "claim": "Palantir Technologies was seeded by In-Q-Tel, the CIA's venture-capital arm, which made two rounds of investment totaling more than $2 million in the young company — the only outside money it took for years. From 2005 to 2008 the CIA was Palantir's sole customer, alpha-testing and refining its data-analysis software before the company expanded to other agencies and commercial clients. Palantir was co-founded in 2003–2004 by PayPal veterans Peter Thiel and Alex Karp; its early product work drew on the same intelligence data-fusion problem that Total Information Awareness had been built to solve.",
+    "sources": [
+        {
+            "label": "Forbes (Andy Greenberg) — \"How A 'Deviant' Philosopher Built Palantir, A CIA-Funded Data-Mining Juggernaut\" (August 14, 2013). In-Q-Tel's two funding rounds and the 2005–2008 sole-customer period.",
+            "type": "secondary",
+            "url": "https://www.forbes.com/sites/andygreenberg/2013/08/14/agent-of-intelligence-how-a-deviant-philosopher-built-palantir-a-cia-funded-data-mining-juggernaut/",
+            "quote": "From 2005 to 2008 the CIA was Palantir's patron and only customer, alpha-testing and evaluating its software.",
+            "clip": "clips/2005-palantir-in-q-tel-seed-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Forbes (Andy Greenberg), same article — the In-Q-Tel referral and the size of the CIA venture investment.",
+            "type": "secondary",
+            "url": "https://www.forbes.com/sites/andygreenberg/2013/08/14/agent-of-intelligence-how-a-deviant-philosopher-built-palantir-a-cia-funded-data-mining-juggernaut/",
+            "quote": "Palantir was rescued by a referral to In-Q-Tel, the CIA's venture arm, which would make two rounds of investment totaling more than $2 million.",
+            "clip": "clips/2005-palantir-in-q-tel-seed-001-01.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Ingest of @itsgingertheory reel DbOUj-ZR_pV. Group-A fact: In-Q-Tel (CIA) seed of Palantir + CIA as sole customer 2005–2008, both verbatim from Forbes/Greenberg 2013 (the canonical Palantir origin story). Reel says '$2 million seed' and 'first and only customer for the first five years' — corrected to what's sourced: two rounds >$2M, sole customer 2005–2008 (~3–4 years). Placed under the existing y2024 Palantir anchor to consolidate the Palantir cluster (complements 2018-palantir-predictive-policing-001 and 2025-palantir-maven-pentagon-001). The reel's claim that Palantir founders met TIA architect John Poindexter, who connected them to the CIA, is NOT in the Forbes origin account and could not be verified in canonical sourcing — held to Group B, not asserted here. 'Palantir is TIA privatized' and 'generates targeting data for the Israeli military' are the reel's framing / separate claims, also Group B."
+}
