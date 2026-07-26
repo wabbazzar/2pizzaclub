@@ -8,7 +8,7 @@
         "big-tech",
         "intelligence"
     ],
-    "claim": "Palantir Technologies was seeded by In-Q-Tel, the CIA's venture-capital arm, which made two rounds of investment totaling more than $2 million in the young company — the only outside money it took for years. From 2005 to 2008 the CIA was Palantir's sole customer, alpha-testing and refining its data-analysis software before the company expanded to other agencies and commercial clients. Palantir was co-founded in 2003–2004 by PayPal veterans Peter Thiel and Alex Karp; its early product work drew on the same intelligence data-fusion problem that Total Information Awareness had been built to solve.",
+    "claim": "Palantir Technologies was seeded by In-Q-Tel, the CIA's venture-capital arm, which made two rounds of investment totaling more than $2 million in the young company — the only outside money it took for years. From 2005 to 2008 the CIA was Palantir's sole customer, alpha-testing and refining its data-analysis software before the company expanded to other agencies and commercial clients. Palantir was co-founded in 2003–2004 by PayPal veterans Peter Thiel and Alex Karp; its early product work drew on the same intelligence data-fusion problem that Total Information Awareness (TIA) had been built to solve. Not long after Palantir launched, Karp and Thiel met John Poindexter — the admiral who had directed TIA — at the home of former Defense Policy Board chair Richard Perle; by Karp's own account Poindexter was one of many experts the founders consulted early on. What the record does not support is the further claim that Poindexter connected the founders to the CIA: the canonical origin accounts credit the In-Q-Tel investment to a referral, not to Poindexter.",
     "sources": [
         {
             "label": "Forbes (Andy Greenberg) — \"How A 'Deviant' Philosopher Built Palantir, A CIA-Funded Data-Mining Juggernaut\" (August 14, 2013). In-Q-Tel's two funding rounds and the 2005–2008 sole-customer period.",
@@ -25,8 +25,22 @@
             "quote": "Palantir was rescued by a referral to In-Q-Tel, the CIA's venture arm, which would make two rounds of investment totaling more than $2 million.",
             "clip": "clips/2005-palantir-in-q-tel-seed-001-01.png",
             "clip_status": "ok-exact"
+        },
+        {
+            "label": "Washingtonian (Shane Harris) — \"Killer App\" (January 31, 2012). The 2004 meeting Richard Perle arranged between Poindexter and Palantir's founders, and Karp's account that Poindexter was one of many early advisers.",
+            "type": "secondary",
+            "url": "https://www.washingtonian.com/2012/01/31/killer-app/",
+            "quote": "One day not long after Palantir was launched in 2004, Poindexter received a call from his friend Richard Perle, ex-chair of the Defense Policy Board, asking if he'd come to Perle's house for a meeting with two entrepreneurs he knew from Palo Alto—Alex Karp, Palantir's CEO, and his fellow cofounder Peter Thiel.",
+            "clip": "clips/2005-palantir-in-q-tel-seed-001-02.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01738841 — correspondence in the release summarizing cyber-security investments, noting In-Q-Tel as the origin of Palantir's investor base.",
+            "type": "primary",
+            "url": null,
+            "quote": "A lot of people invested in Palantir (starting from In-Q-Tel)"
         }
     ],
     "status": "verified",
-    "notes": "Ingest of @itsgingertheory reel DbOUj-ZR_pV. Group-A fact: In-Q-Tel (CIA) seed of Palantir + CIA as sole customer 2005–2008, both verbatim from Forbes/Greenberg 2013 (the canonical Palantir origin story). Reel says '$2 million seed' and 'first and only customer for the first five years' — corrected to what's sourced: two rounds >$2M, sole customer 2005–2008 (~3–4 years). Placed under the existing y2024 Palantir anchor to consolidate the Palantir cluster (complements 2018-palantir-predictive-policing-001 and 2025-palantir-maven-pentagon-001). The reel's claim that Palantir founders met TIA architect John Poindexter, who connected them to the CIA, is NOT in the Forbes origin account and could not be verified in canonical sourcing — held to Group B, not asserted here. 'Palantir is TIA privatized' and 'generates targeting data for the Israeli military' are the reel's framing / separate claims, also Group B."
+    "notes": "Ingest of @itsgingertheory reel DbOUj-ZR_pV. Group-A fact: In-Q-Tel (CIA) seed of Palantir + CIA as sole customer 2005–2008, both verbatim from Forbes/Greenberg 2013 (the canonical Palantir origin story). Reel says '$2 million seed' and 'first and only customer for the first five years' — corrected to what's sourced: two rounds >$2M, sole customer 2005–2008 (~3–4 years). Placed under the existing y2024 Palantir anchor to consolidate the Palantir cluster (complements 2018-palantir-predictive-policing-001 and 2025-palantir-maven-pentagon-001). Proposed-push #2 resolved: the Karp/Thiel–Poindexter meeting IS documented — Washingtonian 'Killer App' (Shane Harris, 2012) places it in 2004 at Richard Perle's house, with Karp saying Poindexter was one of many early advisers. Split that from the reel's unsupported add-on that Poindexter 'connected them to the CIA': the canonical accounts credit the In-Q-Tel investment to a referral, not Poindexter — the claim states the meeting as fact and explicitly declines the CIA-connector step. Proposed-push #3 resolved: corpus cross-check surfaced the In-Q-Tel origin inside the DOJ release itself — DS10 EFTA01738841 ('A lot of people invested in Palantir (starting from In-Q-Tel)'), added as our own primary. Estate/Wolff drafts also name Thiel among billionaires around Epstein (HOUSE_OVERSIGHT_022746 marks it '[TK]' = unconfirmed) and show Epstein in a Sept 2012 email thread where a correspondent calls Palantir 'Peter Thiel's' (HOUSE_OVERSIGHT_030950) — noted but NOT asserted as an Epstein–Thiel tie; the Wolff [TK] means even Wolff hadn't confirmed the house visit. 'Palantir is TIA privatized' and 'generates targeting data for the Israeli military' remain the reel's framing / separate claims, Group B."
 }

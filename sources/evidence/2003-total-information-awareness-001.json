@@ -25,8 +25,14 @@
             "quote": "a joint House-Senate appropriations conference committee voted on 24 September to defund TIA",
             "clip": "clips/2003-total-information-awareness-001-01.png",
             "clip_status": "ok-exact"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00592182 — a document in the release recounting DARPA's Information Awareness Office, Poindexter's role, and Congress cutting its financing.",
+            "type": "primary",
+            "url": null,
+            "quote": "In 2002, Dr. Dugan's predecessor, Tony Tether, set off a firestorm of opposition from civil liberties advocates when he created Darpa's Information Awareness Office run by a former Reagan national security adviser, Adm. John Poindexter. Admiral Poindexter wanted to build a computerized data mining system to look for potential terrorists, and Congress responded by cutting financing for the project."
         }
     ],
     "status": "verified",
-    "notes": "Ingest of @itsgingertheory reel DbOUj-ZR_pV (Palantir / DARPA-privatization thesis). Group-A fact: TIA existed, was run by Poindexter inside DARPA's IAO, and was defunded by Congress in 2003 — all verifiable. The reel's larger framing (that TIA was simply reborn as Palantir / privatized to dodge oversight) is the disputed thesis and stays in Group B, not asserted here. Poindexter's Iran-Contra history links to 1985-iran-contra-001. 'Unconstitutional' in the reel is an editorial characterization — Congress defunded it over privacy/mass-surveillance concerns; no court ruled it unconstitutional, so the claim says 'backlash' + defunding, not 'unconstitutional.' Wikipedia used as the aggregator with a primary footnote (the FY2004 appropriations act); IEEE Spectrum corroborates the 24 Sept 2003 conference vote."
+    "notes": "Ingest of @itsgingertheory reel DbOUj-ZR_pV (Palantir / DARPA-privatization thesis). Group-A fact: TIA existed, was run by Poindexter inside DARPA's IAO, and was defunded by Congress in 2003 — all verifiable. The reel's larger framing (that TIA was simply reborn as Palantir / privatized to dodge oversight) is the disputed thesis and stays in Group B, not asserted here. Poindexter's Iran-Contra history links to 1985-iran-contra-001. 'Unconstitutional' in the reel is an editorial characterization — Congress defunded it over privacy/mass-surveillance concerns; no court ruled it unconstitutional, so the claim says 'backlash' + defunding, not 'unconstitutional.' Wikipedia used as the aggregator with a primary footnote (the FY2004 appropriations act); IEEE Spectrum corroborates the 24 Sept 2003 conference vote. Corpus cross-check (proposed-push #3): the DOJ release itself contains a document describing the IAO/Poindexter and Congress cutting its financing — DS9 EFTA00592182 — added as our own primary citation."
 }
