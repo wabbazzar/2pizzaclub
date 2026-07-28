@@ -1,0 +1,35 @@
+{
+    "id": "2024-project-panama-001",
+    "anchor": "y2024-project-panama",
+    "year": 2024,
+    "era": "v",
+    "themes": [
+        "ai",
+        "big-tech",
+        "copyright"
+    ],
+    "claim": "An internal Anthropic planning document, filed as Exhibit 21 in the authors' copyright class action Bartz v. Anthropic (N.D. Cal., case 3:24-cv-05417) and unsealed on January 21, 2026, defines an effort called Project Panama in one line: \"Project Panama is our effort to destructively scan all the books in the world.\" The page lists Tom Turvey as owner, carries a last-updated date of April 13, 2024, and directs employees to keep the work quiet — it explains that a \"soft codename\" is used \"because we don't want it to be known that we are working on this,\" and that although the document is visible to all Anthropic employees, staff \"should avoid talking about it in public areas\" and the work \"should not be shared with anyone outside Anthropic.\" The exhibit is bates-stamped ANT_BARTZ_000005492 and marked \"Highly Confidential — Attorneys' Eyes Only.\"",
+    "sources": [
+        {
+            "label": "Bartz v. Anthropic PBC, No. 3:24-cv-05417 (N.D. Cal.), Doc. 554-21 (Exhibit 21), filed Jan. 21, 2026 — internal Anthropic \"Project Panama\" planning page, bates ANT_BARTZ_000005492",
+            "type": "primary",
+            "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.434709/gov.uscourts.cand.434709.554.21.pdf",
+            "quote": "Project Panama is our effort to destructively scan all the books in the world.",
+            "clip_status": "pdf-no-clip"
+        },
+        {
+            "label": "Bartz v. Anthropic PBC, Doc. 554-21 — codename rationale, same page",
+            "type": "primary",
+            "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.434709/gov.uscourts.cand.434709.554.21.pdf",
+            "quote": "We use a \"soft codename\" for it because we don't want it to be known that we are working on this. This document is visible to all Anthropic employees, but you should avoid talking about it in public areas, and the fact that we are working on this should not be shared with anyone outside Anthropic.",
+            "clip_status": "pdf-no-clip"
+        },
+        {
+            "label": "The Washington Post — \"Anthropic 'destructively' scanned millions of books to build Claude\" (Jan. 27, 2026)",
+            "type": "secondary",
+            "url": "https://www.washingtonpost.com/technology/2026/01/27/anthropic-ai-scan-destroy-books/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Exhibit 21 is a two-page image PDF; page 2 is the Project Panama page. Text confirmed by OCR of the RECAP copy at 200dpi, not from secondhand reporting. The exhibit set was filed 2026-01-21 as part of a larger unsealing (~4,000 pages) in the Bartz docket. The Washington Post ran the first major account on 2026-01-27; it describes the vendor only as \"a vendor\" and does not name Datamation — see 2024-datamation-scanning-001, where the vendor is named in Turvey's own sworn deposition. WaPo is 403 to automated fetch, so no clip; cited as corroboration only, the holding here rests on the filed exhibit."
+}

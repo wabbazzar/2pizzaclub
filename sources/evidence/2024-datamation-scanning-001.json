@@ -1,0 +1,36 @@
+{
+    "id": "2024-datamation-scanning-001",
+    "anchor": "y2024-project-panama",
+    "year": 2024,
+    "era": "v",
+    "themes": [
+        "ai",
+        "big-tech",
+        "copyright",
+        "journalism"
+    ],
+    "claim": "The scanning contractor Anthropic used is named on the record. In his April 10, 2025 videotaped deposition — filed as Exhibit 22 in Bartz v. Anthropic and unsealed January 21, 2026 — Tom Turvey describes purchased books being trucked to a facility that \"Arrives in Illinois, where Datamation is,\" and is questioned about \"Datamation's computer in Illinois,\" whether \"a copy is made by Datamation — a PDF copy of the book\" (answer: \"Yeah, yeah\"), and about \"Half a dozen Anthropic people and then additional Datamation people\" holding access. Datamation Imaging Services Corp. is an Illinois document-conversion firm that advertises both destructive and non-destructive book scanning. Major accounts of the case have described the contractor only as \"a vendor\" without naming it; the Washington Post's January 27, 2026 investigation refers to \"a project proposal by a vendor that ultimately worked with Anthropic.\"",
+    "sources": [
+        {
+            "label": "Bartz v. Anthropic PBC, No. 3:24-cv-05417 (N.D. Cal.), Doc. 554-22 (Exhibit 22), filed Jan. 21, 2026 — videotaped deposition of Thomas Turvey, Apr. 10, 2025, at 192",
+            "type": "court",
+            "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.434709/gov.uscourts.cand.434709.554.22.pdf",
+            "quote": "Arrives in Illinois, where Datamation is.",
+            "clip_status": "pdf-no-clip"
+        },
+        {
+            "label": "Bartz v. Anthropic PBC, Doc. 554-22 — Turvey deposition at 193 (custody of the scanned PDFs)",
+            "type": "court",
+            "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.434709/gov.uscourts.cand.434709.554.22.pdf",
+            "quote": "Q. So a copy is made by Datamation -- a PDF copy of the book? A. Yeah, yeah.",
+            "clip_status": "pdf-no-clip"
+        },
+        {
+            "label": "Datamation Imaging Services Corp. — book scanning and digitization services",
+            "type": "secondary",
+            "url": "https://www.datamationis.com/services/conversion-services/book-scanning/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Exhibit 22 is an image-only PDF of a four-up deposition transcript. Quotes were OCR'd from the RECAP copy twice — once at 150dpi across the full exhibit and again at 300dpi on the hit pages — and were identical both passes; deposition page numbers 192/193/195 are as printed in the transcript. This is the point the reel is making that the mainstream accounts left out, and it holds up: the vendor is not anonymous in the record, it is named in sworn testimony. Whether the omission by outlets was deliberate is not established by anything in the filings, and this record does not assert a motive. The Washington Post article is 403 to automated fetch; its \"a vendor\" wording is legible in the screenshot the surfacing capture displays and is consistent with the case coverage, but it is not independently machine-verified here — treated as attributed, not as our own verified quote, and left out of sources[] for that reason. Separately, a services agreement bearing a \"Datamation Conversion Process\" heading (\"Utilizing a hydraulic powered cutting machine books will be neatly cut to prepare for scanning\") and a redacted pricing summary listing 175M/350M/700M page tiers appear in the capture; a sweep of docket entries 553-556 attachments did not locate that exhibit, so it is NOT cited here. Finding it is the open thread."
+}

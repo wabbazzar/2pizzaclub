@@ -1,0 +1,29 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-07-28, openai-whisper base.en
+
+— FULL TEXT —
+
+These are the books that Anthropic had be cut up by a hydraulic press to be scanned so that they
+could be fed into their AI models. These documents are from court records which are now unsealed,
+and the company that did this is Datimation. For some reason, when outlets like The Washington
+Post have reported on what Anthropic is doing with books, they call Datimation a vendor and keep
+them anonymous for some reason, which is weird because their name is very obviously in the services
+agreement in the court records. So why would they take the name out when they're reporting the story?
+The other thing that I might add is that having these pages cut and with a hydraulic press is not
+necessary to scan the pages of the book, right? I mean, with modern technology, we could find a
+way to do this without ruining the books, but they're doing it because it's faster. They're
+destroying the books because of a profit motive, right? And so it's millions of pages, and here is
+Tom Tuvey in an email where these photos were shared, and Tom Tuvey is also the head of Project
+Panama. So yes, this is a part of Project Panama, the plan to scan all of the books in the world,
+which sounds great. Like we're making digital copies of all of the books, but Tom, why are you
+destroying the books? The only outlet that I've seen connect Datimation with the AI companies
+is one, and they don't even link the court documents so that people can review what's going on and
+what evidence is publicly out there. So what's the point of doing investigative journalism if
+you're not actually bringing information to the public? So anyway, I've linked the interesting
+documents that I found in my sub stack because that's what real journalists should do. Washington
+Post. Anyway, if you know anyone who has more information on this, or if you do, message me at
+kberbank.77 on signal because I think there's a lot more here than is already out. This is a super
+underreported story.
+
+— END —

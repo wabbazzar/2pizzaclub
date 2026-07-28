@@ -1,0 +1,38 @@
+{
+    "id": "2025-alsup-destructive-scan-001",
+    "anchor": "y2024-project-panama",
+    "year": 2025,
+    "era": "v",
+    "themes": [
+        "ai",
+        "big-tech",
+        "copyright",
+        "prosecution"
+    ],
+    "claim": "Destroying the books was not penalized by the court — it was part of why the scanning was held lawful. In his June 23, 2025 order in Bartz v. Anthropic, Judge William Alsup found that converting lawfully purchased print books into digital copies was fair use precisely because the paper original did not survive: \"every purchased print copy was copied in order to save storage space and to enable searchability as a digital copy. The print original was destroyed. One replaced the other.\" The order recites the undisputed mechanics — \"Anthropic or its vendors stripped the bindings from the print books, cut the pages to workable dimensions, and scanned those pages — discarding each print copy while creating a digital one in its place\" — and concludes that because \"the purchased print copy was destroyed and its digital replacement not redistributed, this was a fair use.\" The same order reached the opposite result for the roughly seven million books Anthropic downloaded from the pirate sites LibGen, Books3 and PiLiMi to build a central library, denying the company summary judgment on those copies. Anthropic later settled the case; final approval of the settlement came in 2026.",
+    "sources": [
+        {
+            "label": "Bartz v. Anthropic PBC, No. 3:24-cv-05417 (N.D. Cal.), Doc. 231 — Order on Fair Use (Alsup, J.), filed June 23, 2025, at 16",
+            "type": "primary",
+            "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.434709/gov.uscourts.cand.434709.231.0.pdf",
+            "quote": "Here, every purchased print copy was copied in order to save storage space and to enable searchability as a digital copy. The print original was destroyed. One replaced the other.",
+            "clip_status": "pdf-no-clip"
+        },
+        {
+            "label": "Bartz v. Anthropic PBC, Doc. 231 — Order on Fair Use, at 15 (the undisputed format change)",
+            "type": "primary",
+            "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.434709/gov.uscourts.cand.434709.231.0.pdf",
+            "quote": "Anthropic or its vendors stripped the bindings from the print books, cut the pages to workable dimensions, and scanned those pages — discarding each print copy while creating a digital one in its place.",
+            "clip_status": "pdf-no-clip"
+        },
+        {
+            "label": "Bartz v. Anthropic PBC, Doc. 231 — Order on Fair Use, at 31 (holding)",
+            "type": "primary",
+            "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.434709/gov.uscourts.cand.434709.231.0.pdf",
+            "quote": "the purchased print copy was destroyed and its digital replacement not redistributed, this was a fair use.",
+            "clip_status": "pdf-no-clip"
+        }
+    ],
+    "status": "verified",
+    "notes": "All three quotes extracted verbatim from the text layer of the RECAP copy of Doc. 231 (no OCR needed). This record is the legal frame the other three sit inside: the destruction is the fair-use rationale, not an aggravating factor, which is the part of the story that explains why the pipeline was built to destroy rather than to preserve. Settlement final-approval reporting (approx. $1.5B, ~$3,000/book) is secondhand here and deliberately kept vague in the claim — pull the approval order before stating figures."
+}

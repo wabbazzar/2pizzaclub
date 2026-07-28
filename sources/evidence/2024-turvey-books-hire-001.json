@@ -1,0 +1,30 @@
+{
+    "id": "2024-turvey-books-hire-001",
+    "anchor": "y2024-project-panama",
+    "year": 2024,
+    "era": "v",
+    "themes": [
+        "ai",
+        "big-tech",
+        "copyright"
+    ],
+    "claim": "Judge William Alsup's June 23, 2025 summary-judgment order in Bartz v. Anthropic records that after Anthropic became, in the order's words, \"not so gung ho about\" training on pirated books \"for legal reasons,\" it changed sourcing: \"To find a new way to get books, in February 2024, Anthropic hired the former head of partnerships for Google's book-scanning project, Tom Turvey. He was tasked with obtaining 'all the books in the world' while still avoiding as much 'legal/practice/business slog' as possible.\" The order states the company then spent \"many millions of dollars to purchase millions of print books, often in used condition,\" after which \"its service providers stripped the books from their bindings, cut their pages to size, and scanned the books into digital form — discarding the paper originals.\"",
+    "sources": [
+        {
+            "label": "Bartz v. Anthropic PBC, No. 3:24-cv-05417 (N.D. Cal.), Doc. 231 — Order on Fair Use (Alsup, J.), filed June 23, 2025, at 5",
+            "type": "primary",
+            "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.434709/gov.uscourts.cand.434709.231.0.pdf",
+            "quote": "To find a new way to get books, in February 2024, Anthropic hired the former head of partnerships for Google's book-scanning project, Tom Turvey. He was tasked with obtaining \"all the books in the world\" while still avoiding as much \"legal/practice/business slog\" as",
+            "clip_status": "pdf-no-clip"
+        },
+        {
+            "label": "Bartz v. Anthropic PBC, Doc. 231 — Order on Fair Use, at 6 (the print-book pipeline)",
+            "type": "primary",
+            "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.434709/gov.uscourts.cand.434709.231.0.pdf",
+            "quote": "Anthropic spent many millions of dollars to purchase millions of print books, often in used condition. Then, its service providers stripped the books from their bindings, cut their pages to size, and scanned the books into digital form — discarding the paper originals.",
+            "clip_status": "pdf-no-clip"
+        }
+    ],
+    "status": "verified",
+    "notes": "Both quotes extracted verbatim from the text layer of the RECAP copy of Doc. 231. Turvey is the same person named as owner of the Project Panama page in Doc. 554-21 (see 2024-project-panama-001). The \"legal/practice/business slog\" phrase is the order quoting Anthropic CEO Dario Amodei. Note the order's own quotation marks are preserved inside the quote text; the first quote ends mid-sentence at the page break in the original."
+}

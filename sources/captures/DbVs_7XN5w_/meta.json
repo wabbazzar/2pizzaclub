@@ -1,0 +1,34 @@
+{
+    "id": "DbVs_7XN5w_",
+    "url": "https://www.instagram.com/reel/DbVs_7XN5w_/",
+    "platform": "instagram",
+    "captured_at": "2026-07-28",
+    "handle": "@kaburbank",
+    "author_display_name": "Jessica (Ka) Burbank",
+    "posted_at": "2026-07-28",
+    "engagement": {
+        "likes": 57536,
+        "comments": 1095
+    },
+    "caption": "Unsealed court documents from Bartz v. Anthropic reveal Datamation was contracted to cut apart books with a hydraulic press in order to scan and digitize them before Anthropic fed the data to AI models. Datamation’s name has been left out of this story by outlets like the Washington Post, writing only that Anthropic hired “a vendor” to destructively scan the books. I have yet to find a major outlet that directly links to court documents detailing Project Panama — Anthropic’s plan to “destructively scan all the books in the world.”\n\nDocuments linked in Substack in bio!",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Cover card: 'Anthropic Hired ‘Datamation’ To Destroy Books For AI Models: Unsealed Court Records'. Document inserts: Case 3:24-cv-05417-AMO Doc 554-21 (Project Panama page); 'Datamation Conversion Process'; 'Pricing Summary' with 175M/350M/700M page tiers; an excerpt reading 'a project proposal by a vendor that ultimately worked with Anthropic'.",
+    "audio_content_summary": "Walks through unsealed exhibits from the authors' copyright class action Bartz v. Anthropic: photographs of cut-apart books at a scanning warehouse, a Datamation conversion-process page describing a hydraulic cutting machine, a redacted pricing summary in page tiers, and the internal Project Panama planning page naming Tom Turvey as owner. Argues the vendor's identity is in the filed record and that major outlets described it only as 'a vendor'.",
+    "implied_frame": "Frames the vendor's non-naming by major outlets as a deliberate omission ('why would they take the name out?') and the destruction of the books as driven by profit motive. Neither is established by the filings. The documents shown are genuine and check out against the RECAP copies; the motive attached to them is the speaker's inference. Also asserts the story is 'super underreported' and that a single outlet has connected Datamation to the AI companies — the Washington Post ran a front-page investigation and a podcast episode in January 2026, and several outlets named Datamation before this capture was posted.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~21.6 MB); delivery ~22.1 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2024-project-panama-001",
+        "2024-turvey-books-hire-001",
+        "2024-datamation-scanning-001",
+        "2025-alsup-destructive-scan-001"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 4,
+        "b": 5,
+        "c": 0
+    }
+}
