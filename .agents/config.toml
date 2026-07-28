@@ -49,8 +49,11 @@ scribe = "chronicler"
 # SOP, and the verification gate file (media QC + data-artifact gates live
 # there, not in any test suite).
 context_files   = ["CLAUDE.md", "sources/SCHEMA.md", "tools/INGEST-SOP.md", ".agents/gates.md"]
-ticket_dir      = "docs/tickets/"        # new tickets land here (dir created on first ticket)
-scan_dirs       = ["docs/tickets/"]      # scan for next id
+ticket_dir      = "docs/tickets/pending"  # new tickets land here
+archive_dir     = "docs/tickets/complete"
+backlog_dir     = "docs/tickets/freezer"
+scan_dirs       = ["docs/tickets/pending", "docs/tickets/complete", "docs/tickets/freezer"]
+lifecycle_dirs  = true
 types           = ["feature", "bug", "refactor", "chore", "docs"]
 id_width        = 3                      # docs/tickets/XXX_<type>_<short_desc>.md
 point_scale     = [1, 2, 3, 5, 8]
