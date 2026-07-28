@@ -20,6 +20,9 @@ scribe = "*-*-* 01:00:00"
 [paths]
 result_dir = "tmp"   # gitignored; runner writes 2pizzaclub-scribe-result.json here
 
+[notify]
+signal_level = "actionable"
+
 [scribe]
 # Scribe's ONLY surface here is the pre-rendered cinema share cards under
 # gallery/share/. It re-runs tools/share-pages.mjs to keep each theme's card
