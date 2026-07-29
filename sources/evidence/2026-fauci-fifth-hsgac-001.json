@@ -1,0 +1,49 @@
+{
+    "id": "2026-fauci-fifth-hsgac-001",
+    "anchor": "y2026-fauci-hsgac",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "public-health",
+        "congress",
+        "prosecution"
+    ],
+    "claim": "On July 29, 2026, Anthony Fauci — director of the National Institute of Allergy and Infectious Diseases (NIAID) from 1984 to 2022 — appeared under subpoena before the Senate Homeland Security and Governmental Affairs Committee (HSGAC) at a hearing titled simply \"Testimony of Anthony Fauci,\" called by committee chairman Rand Paul. Fauci answered no substantive question. He responded to each with a fixed sentence invoking the Fifth Amendment privilege against self-incrimination, including to three questions from Senator Josh Hawley that carried no legal exposure: what day of the week it was, what color tie he was wearing, and what color the carpet in front of him was. Reported counts of the invocations differ by outlet — Fox affiliates counted 111, NBC reported 106 and elsewhere \"more than 100.\" In his opening statement Fauci said he had testified before or briefed House and Senate committees more than 200 times across nearly four decades, that invoking the privilege \"pained him,\" and that \"the sole reason [Paul] is calling me before this committee is to get me to say something that could vindicate his repeated public pledges that I end up, in his words, 'behind bars.'\" Paul said afterward he would seek a committee vote to hold Fauci in contempt of Congress.",
+    "sources": [
+        {
+            "label": "Senate Homeland Security and Governmental Affairs Committee — hearing: \"Testimony of Anthony Fauci,\" July 29, 2026, 8:30 a.m., Dirksen SD-342 (Chairman Rand Paul; witness Anthony Fauci, M.D., former NIAID Director 1984–2022)",
+            "type": "primary",
+            "url": "https://www.hsgac.senate.gov/hearings/testimony-of-anthony-fauci/"
+        },
+        {
+            "label": "Congress.gov — \"Hearings to examine the testimony of Anthony Fauci,\" 119th Congress Senate event 338683",
+            "type": "primary",
+            "url": "https://www.congress.gov/event/119th-congress/senate-event/338683"
+        },
+        {
+            "label": "STAT — \"Fauci invokes Fifth Amendment in declining to answer questions before Senate panel\" (July 29, 2026)",
+            "type": "secondary",
+            "url": "https://www.statnews.com/2026/07/29/fauci-pleads-fifth-criticizes-rand-paul-senate-hearing/",
+            "quote": "the sole reason [Paul] is calling me before this committee is to get me to say something that could vindicate his repeated public pledges that I end up, in his words, 'behind bars.'",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "FOX 11 Los Angeles — \"Dr. Anthony Fauci invokes Fifth Amendment 111 times, declines to testify at Senate hearing on COVID-19\" (July 29, 2026)",
+            "type": "secondary",
+            "url": "https://www.foxla.com/news/fauci-testify-before-senate-wednesday-following-release-diary-pages"
+        },
+        {
+            "label": "Office of Sen. Josh Hawley — \"Hawley Exposes Fauci's Self-Dealings, Fauci Pleads the Fifth\" (July 29, 2026)",
+            "type": "primary",
+            "url": "https://www.hawley.senate.gov/hawley-exposes-faucis-self-dealings-fauci-pleads-the-fifth/"
+        },
+        {
+            "label": "Sen. Josh Hawley, Instagram reel DbYkhPTyO_y (July 29, 2026) — surfacing source",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DbYkhPTyO_y/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The three trivial questions and the verbatim refusal are on the hearing video and are not disputed by any account. The invocation count IS disputed at the margins — 111 (Fox affiliates), 106 (NBC), 'more than 100' (NBC/CNN), and one Fox News headline slug still reads 'more than 70' — so the claim reports the range rather than picking a number. Fauci's '200 times' figure is from his own opening statement; some coverage says 250+ appearances and that this was his first-ever invocation. The 200 figure is the one he said under his own name, so that is what is used. Hawley's page is cited as a primary for what Hawley said, not for the truth of his characterizations — his 'narcissist and a megalomaniac and a liar' line and his net-worth figure are argument, not record, and are deliberately not in the claim. Whether the privilege was validly available to Fauci here is a separate contested question — see 2026-fauci-pardon-privilege-001."
+}

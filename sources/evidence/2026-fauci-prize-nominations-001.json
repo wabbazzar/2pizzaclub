@@ -1,0 +1,51 @@
+{
+    "id": "2026-fauci-prize-nominations-001",
+    "anchor": "y2026-fauci-hsgac",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "public-health",
+        "congress",
+        "journalism"
+    ],
+    "claim": "The questions Fauci declined to answer concerned award money. Emails released by the Senate Homeland Security and Governmental Affairs Committee on July 24, 2026 show federal employees at the National Institutes of Health (NIH) working on nominations that would pay cash prizes to Fauci personally. His then-chief of staff Greg Folkers instructed NIAID staff to \"beef up the covid part\" of a Dan David Prize nomination and asked colleagues to supply language describing the government's pandemic response for the submission. Charles Dinarello, the University of Colorado infectious-disease professor who submitted that nomination, thanked Fauci and Folkers for \"doing most of the work\" on the draft; reporting on the released records states Dinarello subsequently received roughly $1.8 million in NIAID grant money. Hawley put the total at \"over a million dollars in cash awards during COVID,\" described the Dan David award as \"a $900,000 cash award,\" and said Fauci pursued at least eight further cash awards from bodies including the Partnership for Public Service, the Adelson Prize, the Smithsonian Institution, the National Academy of Medicine and the CDC Foundation. Fauci invoked the Fifth Amendment rather than answer. Separately, Chairman Paul's committee has alleged since September 2025 that Fauci directed NIH staff to destroy federal records, citing emails reading \"please delete this e-mail after you read it\" — an allegation Paul says contradicts Fauci's 2024 testimony to the House Oversight Committee.",
+    "sources": [
+        {
+            "label": "Office of Sen. Josh Hawley — \"Hawley Exposes Fauci's Self-Dealings, Fauci Pleads the Fifth\" (July 29, 2026)",
+            "type": "primary",
+            "url": "https://www.hawley.senate.gov/hawley-exposes-faucis-self-dealings-fauci-pleads-the-fifth/",
+            "quote": "It was a $900,000 cash award",
+            "clip": "clips/2026-fauci-prize-nominations-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Senate Homeland Security and Governmental Affairs Committee — \"Chairman Rand Paul Uncovers New Evidence of Fauci Deleting Official Records, Calls Him to Testify Before HSGAC\" (Sept. 12, 2025)",
+            "type": "primary",
+            "url": "https://www.hsgac.senate.gov/media/reps/chairman-rand-paul-uncovers-new-evidence-of-fauci-deleting-official-records-calls-him-to-testify-before-hsgac/",
+            "quote": "you directed employees of the National Institutes for Health (NIH) to destroy federal records",
+            "clip": "clips/2026-fauci-prize-nominations-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Fox Business — \"Fauci invokes Fifth Amendment as Hawley accuses him of using taxpayer money for cash awards\" (July 29, 2026)",
+            "type": "secondary",
+            "url": "https://www.foxbusiness.com/politics/fauci-invokes-fifth-amendment-hawley-accuses-him-using-taxpayer-money-cash-awards",
+            "quote": "You were using federal employees with taxpayer money to apply for and solicit cash prizes for you personally, cash prizes totaling over $1 million.",
+            "clip": "clips/2026-fauci-prize-nominations-001-02.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "The New York Sun — \"Fauci Solicited Nominations From NIH-Funded Scientists for a $1 Million Cash Prize For Himself, Emails Show\" (July 2026)",
+            "type": "secondary",
+            "url": "https://www.nysun.com/article/fauci-solicited-nominations-for-1-million-prize-from-nih-funded-scientists-emails-reveal"
+        },
+        {
+            "label": "Washington Examiner — \"Scientists who nominated Fauci for prize money received millions in NIAID funding\"",
+            "type": "secondary",
+            "url": "https://www.washingtonexaminer.com/news/investigations/4666702/scientists-fauci-prize-money-niaid-funding/"
+        }
+    ],
+    "status": "verified",
+    "notes": "What is documented: the emails exist, were released by the committee, and show taxpayer-paid NIH staff working on nominations that carried personal cash prizes for their director. What is NOT established and is deliberately kept attributed here: any quid-pro-quo between NIAID grant money and the nominations. The sequence (Dinarello nominates, later receives ~$1.8M) is reported; a causal exchange is an inference drawn by the senators and by outlets covering the release, not something the emails state. The dollar figures also do not agree across sources — Hawley says the Dan David award was $900,000 while the New York Sun and Fox News describe a $1 million prize — so no single figure is asserted in our own voice; both are attributed. Hawley's 'net worth now is north of $12 million' line and his 'you got rich' framing are argument and are excluded. The record-deletion allegation is included as context for what the hearing was about; it is Paul's characterization of the emails, and Fauci has previously denied directing destruction of records. Records-release date of July 24, 2026 is on secondary authority; the committee release page for that specific drop was not located, so pull it before treating the date as primary."
+}

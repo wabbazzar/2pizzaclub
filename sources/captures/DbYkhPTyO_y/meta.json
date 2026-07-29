@@ -1,0 +1,33 @@
+{
+    "id": "DbYkhPTyO_y",
+    "url": "https://www.instagram.com/reel/DbYkhPTyO_y/",
+    "platform": "instagram",
+    "captured_at": "2026-07-29",
+    "handle": "@senatorhawley",
+    "author_display_name": "Senator Josh Hawley",
+    "posted_at": "2026-07-29",
+    "engagement": {
+        "likes": 229887,
+        "comments": 17141
+    },
+    "caption": "I asked Fauci basic questions: What day of the week is it today? What color tie are you wearing? What color is the carpet in front of you?\n\nHe pled the Fifth and refused to answer every time",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Burned-in captions of the exchange. Nameplates visible: 'SEN.' (Hawley) and 'ANTHONY FAUCI, M.D.'",
+    "audio_content_summary": "Clip of Sen. Josh Hawley questioning Anthony Fauci at the July 29, 2026 Senate Homeland Security and Governmental Affairs Committee hearing. Hawley asks three questions with no legal exposure — the day of the week, the color of Fauci's tie, the color of the carpet — and Fauci answers each by invoking the Fifth Amendment. Hawley then argues the pardon defeats the privilege, citing Brown v. Walker (1896), and accuses Fauci of using taxpayer-paid federal staff to solicit personal cash prizes totaling over $1 million during the pandemic.",
+    "implied_frame": "Hawley's flat assertion that Fauci has no Fifth Amendment rights at all because he was pardoned is contested. Brown v. Walker does hold a pardoned witness cannot set up the privilege, but the same passage entertains the argument that residual exposure preserves it, and commentators after the hearing split on the application — the pardon reaches only conduct through January 20, 2025, so it does not cover perjury or contempt at the hearing itself, and it does not bar state prosecution. Also framed in the clip and not established: that Fauci 'got rich' during the pandemic, that the refusal reflects 'contempt for the American people' rather than legal advice, and an implied exchange between NIAID grant money and the award nominations. The trivial-question exchange itself and the released emails are real.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~10.4 MB); delivery ~10.7 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-fauci-fifth-hsgac-001",
+        "2026-fauci-pardon-privilege-001",
+        "2026-fauci-prize-nominations-001"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 3,
+        "b": 5,
+        "c": 0
+    }
+}

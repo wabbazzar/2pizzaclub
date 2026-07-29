@@ -1,0 +1,47 @@
+{
+    "id": "2026-fauci-pardon-privilege-001",
+    "anchor": "y2026-fauci-hsgac",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "congress",
+        "prosecution",
+        "civil-liberties"
+    ],
+    "claim": "Hawley's legal argument rests on a real precedent whose application here is contested. On January 20, 2025, his last day in office, Joe Biden granted Fauci a preemptive pardon covering federal offenses he \"may have committed or taken part in\" from January 1, 2014 through the date of the pardon, arising from his service at NIAID and on the White House Coronavirus Task Force and COVID-19 Response Team; Biden said the pardons were not an acknowledgment \"that any individual engaged in any wrongdoing.\" Hawley told Fauci: \"you don't have any rights under the Fifth Amendment because you've been pardoned, as you very well know, as the Supreme Court has been clear for a century and more. Brown v. Walker, 1896.\" That case does say so. Its opinion states: \"if the witness has already received a pardon, he cannot longer set up his privilege, since he stands with respect to such offence as if it had never been committed.\" The same passage, however, canvasses the argument that a witness who remains exposed to some proceeding the pardon does not reach may still claim the privilege. Legal commentators divided on that point after the hearing. Attorney Ross Garber noted the privilege requires a reasonable fear of prosecution and that the Senate could argue Fauci has no basis to invoke it for pardoned conduct; Alan Dershowitz said Fauci \"is within his rights to invoke the fifth.\" Two gaps in the pardon's reach are the ones commonly cited: it covers conduct only through January 20, 2025, so it does not reach any perjury or contempt at the 2026 hearing itself, and a presidential pardon does not bar state prosecution. Coverage reported Fauci's stated reason as avoiding the possibility that his answers be used to charge him with perjury.",
+    "sources": [
+        {
+            "label": "Brown v. Walker, 161 U.S. 591, 599 (1896) — U.S. Reports, Library of Congress",
+            "type": "primary",
+            "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep161/usrep161591/usrep161591.pdf",
+            "quote": "if the witness has already received a pardon, he cannot longer set up his privilege, since he stands with respect to such offence as if it had never been committed.",
+            "clip_status": "pdf-no-clip"
+        },
+        {
+            "label": "Office of Sen. Josh Hawley — \"Hawley Exposes Fauci's Self-Dealings, Fauci Pleads the Fifth\" (July 29, 2026)",
+            "type": "primary",
+            "url": "https://www.hawley.senate.gov/hawley-exposes-faucis-self-dealings-fauci-pleads-the-fifth/",
+            "quote": "you don't have any rights under the Fifth Amendment because you've been pardoned, as you very well know, as the Supreme Court has been clear for a century and more. Brown v. Walker, 1896.",
+            "clip": "clips/2026-fauci-pardon-privilege-001-01.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "NPR — \"Biden pardons Fauci, Milley and members of Jan. 6 panel\" (Jan. 20, 2025)",
+            "type": "secondary",
+            "url": "https://www.npr.org/2025/01/20/nx-s1-5268258/biden-pardons-fauci-milley-and-members-of-jan-6-panel"
+        },
+        {
+            "label": "The Daily Caller — \"Is Fauci Out Of Woods After Pleading Fifth?\" (July 29, 2026) — Turley and Dershowitz on the privilege",
+            "type": "secondary",
+            "url": "https://dailycaller.com/2026/07/29/anthony-fauci-pleading-fifth-legal-experts-jonathan-turley-alan-dershowitz/"
+        },
+        {
+            "label": "Washington Examiner — \"Fauci's Fifth Amendment invocation may test pardon as GOP eyes contempt\" (July 29, 2026)",
+            "type": "secondary",
+            "url": "https://www.washingtonexaminer.com/news/senate/4667697/fauci-fifth-amendment-pardon-contempt/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The Brown v. Walker quote is verbatim from the text layer of the Library of Congress scan of 161 U.S. — page 599, point 4 of the opinion. Note Hawley paraphrased it on the record as 'when he has been pardoned, he may not stand upon his privilege'; the substance matches but that is not the Court's wording, so the actual sentence is what is quoted here. The paragraph immediately following the quoted sentence discusses Queen v. Boyes and the contention that residual exposure (there, parliamentary impeachment) might preserve the privilege — which is the same structural argument being made for Fauci in 2026, so the precedent Hawley cited contains both halves of the dispute. This record does NOT resolve whether the invocation was valid; that is unsettled and, per the Examiner and ms.now analyses, may require a court. Biden's pardon date range and language are from the clemency document as reported; justice.gov/pardon returns 403 to automated fetch, so the DOJ original is not linked and the date range is carried on secondary authority. Pull the DOJ clemency PDF before treating the range as our own primary."
+}
