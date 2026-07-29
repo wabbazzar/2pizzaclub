@@ -4,7 +4,7 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 111,
+      "count": 112,
       "seconds": 14781
     },
     {
@@ -22,7 +22,7 @@
     {
       "slug": "ai",
       "topic": "AI",
-      "count": 11,
+      "count": 12,
       "seconds": 1377
     },
     {
@@ -34,7 +34,7 @@
     {
       "slug": "big-tech",
       "topic": "Big Tech",
-      "count": 10,
+      "count": 11,
       "seconds": 1155
     },
     {
@@ -72,6 +72,12 @@
       "topic": "Congress",
       "count": 7,
       "seconds": 896
+    },
+    {
+      "slug": "copyright",
+      "topic": "Copyright",
+      "count": 1,
+      "seconds": 0
     },
     {
       "slug": "covid",
@@ -244,7 +250,7 @@
     {
       "slug": "journalism",
       "topic": "Journalism",
-      "count": 25,
+      "count": 26,
       "seconds": 3406
     },
     {
@@ -316,7 +322,7 @@
     {
       "slug": "prosecution",
       "topic": "Prosecution",
-      "count": 13,
+      "count": 14,
       "seconds": 2103
     },
     {
