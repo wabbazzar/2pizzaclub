@@ -1,0 +1,51 @@
+{
+    "id": "1961-sv40-polio-001",
+    "anchor": "y1961-sv40-polio",
+    "year": 1961,
+    "era": "ii",
+    "themes": [
+        "public-health",
+        "vaccines"
+    ],
+    "claim": "Polio vaccine given in the United States between 1955 and 1963 was contaminated with a live monkey virus, and the government did not recall the contaminated stock. The vaccine was grown in kidney cell cultures taken from rhesus and cynomolgus macaques, which carry Simian Virus 40 (SV40). The Institute of Medicine's 2002 review records that inactivated polio vaccine (IPV) given between 1955 and 1963 to about 98 million children and adults 'is assumed to be the primary source of human exposure to SV40 in the United States,' and cites an estimate that '10% to 30% of IPV contained live SV40.' The U.S. government imposed testing requirements for new lots in 1961; previously approved contaminated lots 'w[ere] not recalled, however, and might have been used until early 1963.' Whether that exposure caused cancer is not settled, and the two halves of the evidence point differently. The same IOM committee concluded that 'the biological evidence is strong that SV40 is a transforming virus,' that 'the biological evidence is moderate that SV40 exposure could lead to cancer in humans under natural conditions' — and, on the population data, that 'the evidence is inadequate to accept or reject a causal relationship between SV40-containing polio vaccines and cancer.' The largest U.S. cohort analysis, Strickler and colleagues in JAMA (1998), reported that 'age-specific cancer rates were generally low and were not significantly elevated in birth cohorts exposed to SV40-contaminated vaccine,' finding no increase in ependymomas and other brain cancers, osteosarcomas, or mesotheliomas after more than 30 years of follow-up.",
+    "sources": [
+        {
+            "label": "Institute of Medicine, Immunization Safety Review: SV40 Contamination of Polio Vaccine and Cancer (National Academies Press, 2002) — exposure and contamination history",
+            "type": "primary",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK221112/",
+            "quote": "IPV administered between 1955 and 1963 to about 98 million children and adults is assumed to be the primary source of human exposure to SV40 in the United States.",
+            "clip": "clips/1961-sv40-polio-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Institute of Medicine (2002) — Executive Summary, committee conclusions",
+            "type": "primary",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK221118/",
+            "quote": "the committee concludes that the evidence is inadequate to accept or reject a causal relationship between SV40-containing polio vaccines and cancer.",
+            "clip": "clips/1961-sv40-polio-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Institute of Medicine (2002) — Executive Summary, biological plausibility conclusion",
+            "type": "primary",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK221118/",
+            "quote": "the committee concludes that the biological evidence is moderate that SV40 exposure could lead to cancer in humans under natural conditions.",
+            "clip": "clips/1961-sv40-polio-001-02.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Strickler HD, Rosenberg PS, Devesa SS, et al., \"Contamination of Poliovirus Vaccines With Simian Virus 40 (1955-1963) and Subsequent Cancer Rates,\" JAMA (1998)",
+            "type": "primary",
+            "url": "https://jamanetwork.com/journals/jama/fullarticle/187182",
+            "quote": "Age-specific cancer rates were generally low and were not significantly elevated in birth cohorts exposed to SV40-contaminated vaccine.",
+            "clip_status": "http-403"
+        },
+        {
+            "label": "National Academies — \"More Data Needed to Determine if Contaminated Polio Vaccine From 1955-1963 Causes Cancer in Adults Today\" (2002 release on the IOM report)",
+            "type": "secondary",
+            "url": "https://www.nationalacademies.org/news/more-data-needed-to-determine-if-contaminated-polio-vaccine-from-1955-1963-causes-cancer-in-adults-today"
+        }
+    ],
+    "status": "verified",
+    "notes": "The contamination itself is not in dispute and is documented by the government's own review — that is the part worth having on the record, because it is routinely treated as a fringe claim when it is established history, including the fact that contaminated lots were left in circulation rather than recalled. The cancer question is genuinely open and the record states both halves in the IOM's own words rather than picking the reassuring one: 'biological evidence strong that SV40 is a transforming virus' and 'moderate' that it could cause human cancer, against population studies that have not found elevated rates. All four quotes verified against the cited pages this session; the CDC historical-concerns page is 403 to automated fetch and is not cited. Note the IOM report is 2002 and Strickler 1998 — neither is recent, and the IOM flagged that better exposure data were needed. This record is the historical predicate the 2026 SV40 reels reach back to; the claim that the polio-era virus and the sequence found in the Pfizer product are 'the same ingredient' is a separate and contested proposition — see [[2026-sv40-equivalence-claim-001]]."
+}

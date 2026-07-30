@@ -1,0 +1,42 @@
+{
+    "id": "2021-early-treatment-claim-001",
+    "anchor": "y2021-early-treatment",
+    "year": 2021,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "public-health",
+        "vaccines"
+    ],
+    "claim": "The claim that COVID-19 vaccines were never needed because hydroxychloroquine and ivermectin already worked is contradicted by the largest randomised trials of both drugs. In the RECOVERY trial, the UK platform trial that enrolled hospitalised patients, 'death within 28 days occurred in 421 patients (27.0%) in the hydroxychloroquine group and in 790 (25.0%) in the usual-care group (rate ratio, 1.09; 95% confidence interval [CI], 0.97 to 1.23; P = 0.15),' and the authors concluded that patients who received hydroxychloroquine 'did not have a lower incidence of death at 28 days than those who received usual care.' For ivermectin, the TOGETHER trial randomised 3,515 outpatients in Brazil and found a primary-outcome event in 14.7% of the ivermectin group versus 16.3% on placebo (relative risk 0.90; 95% Bayesian credible interval 0.70 to 1.16), concluding that 'treatment with ivermectin did not result in a lower incidence of medical admission to a hospital due to progression of Covid-19 or of prolonged emergency department observation among outpatients with an early diagnosis of Covid-19.' The ACTIV-6 trial reached a similar null result. The accompanying claim that these are 'some of the safest drugs you can use' also does not match the RECOVERY findings: patients given hydroxychloroquine were less likely to be discharged alive within 28 days and, among those not ventilated at baseline, had a higher rate of invasive mechanical ventilation or death. Proponents of both drugs dispute these trials on dose, timing and patient selection, arguing the drugs were tested too late or too low; that dispute is live, but the trials above are the largest randomised evidence on the record.",
+    "sources": [
+        {
+            "label": "RECOVERY Collaborative Group (Horby P, Landray M, et al.), \"Effect of Hydroxychloroquine in Hospitalized Patients with Covid-19,\" N Engl J Med (2020)",
+            "type": "primary",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33031652/",
+            "quote": "Death within 28 days occurred in 421 patients (27.0%) in the hydroxychloroquine group and in 790 (25.0%) in the usual-care group (rate ratio, 1.09; 95% confidence interval [CI], 0.97 to 1.23; P = 0.15).",
+            "clip": "clips/2021-early-treatment-claim-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Reis G, et al. (TOGETHER trial), \"Effect of Early Treatment with Ivermectin among Patients with Covid-19,\" N Engl J Med (2022)",
+            "type": "primary",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35353979/",
+            "quote": "Treatment with ivermectin did not result in a lower incidence of medical admission to a hospital due to progression of Covid-19 or of prolonged emergency department observation among outpatients with an early diagnosis of Covid-19.",
+            "clip": "clips/2021-early-treatment-claim-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Naggie S, et al. (ACTIV-6), \"Effect of Ivermectin vs Placebo on Time to Sustained Recovery in Outpatients With Mild to Moderate COVID-19: A Randomized Clinical Trial,\" JAMA (2022)",
+            "type": "primary",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36269852/"
+        },
+        {
+            "label": "WHO Solidarity Trial Consortium, \"Repurposed Antiviral Drugs for Covid-19 — Interim WHO Solidarity Trial Results,\" N Engl J Med (2021)",
+            "type": "primary",
+            "url": "https://www.nejm.org/doi/full/10.1056/nejmoa2023184"
+        }
+    ],
+    "status": "verified",
+    "notes": "The RECOVERY and TOGETHER quotes are verbatim from the PubMed and Europe PMC abstract records respectively (nejm.org is 403 to automated fetch, so the journal pages were not the retrieval route; the Solidarity NEJM link is cited without a quote for the same reason). The record deliberately reports the trials rather than adjudicating the broader 'were vaccines needed' question, which is not a factual question a trial answers. The proponents' methodological objection (dose, timing, outpatient vs hospitalised) is stated because it is a real and ongoing dispute, not dismissed — RECOVERY tested hospitalised patients, which is the strongest version of that objection for hydroxychloroquine, while TOGETHER and ACTIV-6 tested exactly the early-outpatient window the proponents specify and still returned null. The 'not toxic' claim is addressed on RECOVERY's own secondary outcomes rather than on assertion. No position is taken here on vaccine benefit or harm; that is covered by other records under the COVID anchors."
+}

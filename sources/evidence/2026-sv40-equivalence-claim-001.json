@@ -1,0 +1,41 @@
+{
+    "id": "2026-sv40-equivalence-claim-001",
+    "anchor": "y2025-residual-dna",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "vaccines",
+        "public-health"
+    ],
+    "claim": "The claim that the SV40 found in COVID-19 vaccines is 'the same ingredient' that contaminated the polio vaccine collapses a distinction that the underlying documents keep separate. The polio-era contaminant was whole live Simian Virus 40 — an infectious virus carrying the gene for large T antigen (LT), the viral protein that transforms cells by disabling the p53 and retinoblastoma tumour suppressors. What independent sequencing found in the Pfizer product is the SV40 promoter-enhancer, a short piece of regulatory DNA that switches gene expression on, carried over in residual plasmid from manufacturing. It is not the virus and does not itself encode LT; responding to Florida's surgeon general in December 2023, the FDA stated that 'No SV40 proteins are encoded for or are present in the vaccines.' That distinction is real, but it does not make the sequence self-evidently inert, and the reassuring framing overstates the case in the other direction. In peer-reviewed work published in Tumour Virus Research in 2024, Šenigl, Alinikula and colleagues report that the SV40 enhancer is itself a potent target for somatic hypermutation, concluding that 'the ability of the SV40 enhancer to target somatic hypermutation to LT is a potential source of LT truncation events that could contribute to tumorigenesis in various cell types, thereby linking SV40 infection with malignant development through a novel mutagenic pathway.' That study examines the enhancer alongside the viral LT gene in cell culture; it is not a study of vaccines and does not measure any effect in vaccinated people. No study has demonstrated integration of vaccine residual DNA into the genome of a vaccinated person. What is documented is presence and non-disclosure; what is asserted on top of it — that the sequence causes cancer, or that it is the polio contaminant returning — is not established by the sequencing work.",
+    "sources": [
+        {
+            "label": "FDA (Peter Marks, CBER) letter to Florida Surgeon General Joseph Ladapo, Dec. 14, 2023",
+            "type": "primary",
+            "url": "https://www.fda.gov/media/174875/download",
+            "quote": "No SV40 proteins are encoded for or are present in the vaccines",
+            "clip_status": "pdf-no-clip"
+        },
+        {
+            "label": "Šenigl F, Soikkeli AI, Prost S, Schatz DG, Slavková M, Hejnar J, Alinikula J — \"The SV40 virus enhancer functions as a somatic hypermutation-targeting element with potential tumorigenic activity,\" Tumour Virus Research (2024), doi:10.1016/j.tvr.2024.200293",
+            "type": "primary",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39490533/",
+            "quote": "Our results argue that the ability of the SV40 enhancer to target somatic hypermutation to LT is a potential source of LT truncation events that could contribute to tumorigenesis in various cell types, thereby linking SV40 infection with malignant development through a novel mutagenic pathway.",
+            "clip": "clips/2026-sv40-equivalence-claim-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Speicher, Rose, McKernan et al., \"Quantification of residual plasmid DNA and SV40 promoter-enhancer sequences in Pfizer/BioNTech and Moderna modRNA COVID-19 vaccines from Ontario, Canada,\" Autoimmunity (2025)",
+            "type": "primary",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40913499/"
+        },
+        {
+            "label": "Institute of Medicine, Immunization Safety Review: SV40 Contamination of Polio Vaccine and Cancer (2002) — the polio-era contaminant was live virus",
+            "type": "primary",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK221112/"
+        }
+    ],
+    "status": "contested-with-named-rebuttal",
+    "notes": "Written to hold the line in both directions, which is the whole point of this record. Against the reel: 'the same ingredient' is wrong as stated — live oncogenic virus in 1955-63 versus a regulatory DNA element in 2021, and the FDA's 'no SV40 proteins' statement is on the record. Against the standard rebuttal: 'it's just a promoter, promoters are inert' is also not established — the Šenigl/Alinikula group published a peer-reviewed mechanism by which the enhancer sequence itself has tumorigenic potential, and that paper is in a virology journal, not an advocacy outlet. Its limits are stated in the claim so it is not oversold: cell culture, studied with the LT gene present, not a vaccine study. Follows the model of [[2021-graphene-oxide-vaccine-claim-001]] for status. The presence/non-disclosure facts live in [[2025-residual-dna-001]] and are not restated here. The historical predicate is [[1961-sv40-polio-001]]. One specific sub-claim from the surfacing capture is NOT resolved here and should be checked against the deposited plasmid map: the assertion that the SV40 sequences 'sit above an oncogene' in the Pfizer construct. Pfizer's plasmid is described in the literature as a pcDNA3.1 derivative, in which the SV40 promoter-enhancer canonically drives the neomycin/kanamycin resistance marker, not an oncogene. Pull the map before writing that up either way."
+}
