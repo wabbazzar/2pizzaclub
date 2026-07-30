@@ -4,7 +4,7 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 112,
+      "count": 113,
       "seconds": 14781
     },
     {
@@ -58,7 +58,7 @@
     {
       "slug": "civil-liberties",
       "topic": "Civil Liberties",
-      "count": 4,
+      "count": 5,
       "seconds": 444
     },
     {
@@ -70,7 +70,7 @@
     {
       "slug": "congress",
       "topic": "Congress",
-      "count": 7,
+      "count": 8,
       "seconds": 896
     },
     {
@@ -82,7 +82,7 @@
     {
       "slug": "covid",
       "topic": "Covid",
-      "count": 5,
+      "count": 6,
       "seconds": 598
     },
     {
@@ -250,7 +250,7 @@
     {
       "slug": "journalism",
       "topic": "Journalism",
-      "count": 26,
+      "count": 27,
       "seconds": 3406
     },
     {
@@ -322,13 +322,13 @@
     {
       "slug": "prosecution",
       "topic": "Prosecution",
-      "count": 14,
+      "count": 15,
       "seconds": 2103
     },
     {
       "slug": "public-health",
       "topic": "Public Health",
-      "count": 7,
+      "count": 8,
       "seconds": 950
     },
     {
