@@ -4,7 +4,7 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 113,
+      "count": 114,
       "seconds": 14781
     },
     {
@@ -82,7 +82,7 @@
     {
       "slug": "covid",
       "topic": "Covid",
-      "count": 6,
+      "count": 7,
       "seconds": 598
     },
     {
@@ -250,7 +250,7 @@
     {
       "slug": "journalism",
       "topic": "Journalism",
-      "count": 27,
+      "count": 28,
       "seconds": 3406
     },
     {
@@ -328,7 +328,7 @@
     {
       "slug": "public-health",
       "topic": "Public Health",
-      "count": 8,
+      "count": 9,
       "seconds": 950
     },
     {
@@ -436,7 +436,7 @@
     {
       "slug": "vaccines",
       "topic": "Vaccines",
-      "count": 4,
+      "count": 5,
       "seconds": 436
     },
     {
