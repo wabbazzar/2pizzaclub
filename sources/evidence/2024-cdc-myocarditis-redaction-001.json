@@ -1,0 +1,47 @@
+{
+    "id": "2024-cdc-myocarditis-redaction-001",
+    "anchor": "y2021-vaccine-paperwork",
+    "year": 2024,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "vaccines",
+        "public-health",
+        "journalism"
+    ],
+    "claim": "The CDC released 148 pages relating to its myocarditis follow-up work with every word blacked out. The pages were produced to Epoch Times reporter Zachary Stieber under the Freedom of Information Act (FOIA), concerning the agency's MOVING project — Myocarditis Outcomes After mRNA COVID-19 Vaccination — and each page carried the marking '(b)(5)', the FOIA exemption for 'inter-agency or intra-agency memorandums or letters which would not be available by law to a party other than an agency in litigation with the agency.' On March 15, 2024, Arizona state senator Janae Shamp displayed the printed stack while chairing the legislature's Novel Coronavirus Southwestern Intergovernmental Committee, at which Dr. Peter McCullough was seated as a committee member. Two things follow that are usually reported separately. The (b)(5) deliberative-process exemption is discretionary rather than mandatory — the agency could have released the material and chose not to — and applying it to all 148 pages without a single line of releasable content drew criticism as excessive. But the withheld pages were internal correspondence, not the study itself, and the underlying research was published: Kracalik and colleagues, writing as the Myocarditis Outcomes After mRNA COVID-19 Vaccination Investigators and the CDC COVID-19 Response Team, reported in The Lancet Child & Adolescent Health (2022) that of patients reassessed at least 90 days after onset most were 'considered recovered from myocarditis by their health-care provider, although at the last health-care provider follow-up, 104 (26%) of 393 patients were prescribed daily medication related to myocarditis,' and cautioned that the findings 'might not be generalisable given the small sample size.'",
+    "sources": [
+        {
+            "label": "Kracalik I, et al. (Myocarditis Outcomes After mRNA COVID-19 Vaccination Investigators and the CDC COVID-19 Response Team), \"Outcomes at least 90 days since onset of myocarditis after mRNA COVID-19 vaccination in adolescents and young adults in the USA: a follow-up surveillance study,\" The Lancet Child & Adolescent Health (2022), PMID 36152650",
+            "type": "primary",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36152650/",
+            "quote": "at the last health-care provider follow-up, 104 (26%) of 393 patients were prescribed daily medication related to myocarditis",
+            "clip": "clips/2024-cdc-myocarditis-redaction-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Arizona State Legislature — Novel Coronavirus Southwestern Intergovernmental Committee, Minutes of the Meeting, March 15, 2024 (Chair: Sen. Janae Shamp; members incl. Sen. Frank Carroll, Rep. Steve Montenegro, Dr. Peter McCullough)",
+            "type": "primary",
+            "url": "https://www.azleg.gov/iminute/senate/56leg/2r/NovelCoronavirusSouthwesternIntergovernmentalCommittee.pdf",
+            "quote": "Chairman Shamp called the meeting to order at 10:20 a.m.",
+            "clip_status": "pdf-no-clip"
+        },
+        {
+            "label": "Snopes — \"CDC Redacted Study on Myocarditis After COVID-19 Vaccination?\" (fact check on the 148 pages, the FOIA requester and the (b)(5) exemption)",
+            "type": "secondary",
+            "url": "https://www.snopes.com/fact-check/cdc-redacted-study-myocarditis/"
+        },
+        {
+            "label": "Children's Health Defense — \"'Staggering' Arrogance: Experts Rip CDC for Redacting All 148 Pages of Information on Myocarditis After COVID Shots\"",
+            "type": "secondary",
+            "url": "https://childrenshealthdefense.org/defender/cdc-redact-myocarditis-information-foia-covid-shots/"
+        },
+        {
+            "label": "Instagram reel DVf3iucDRXA (@gabrielsavage, Mar. 5, 2026) — surfacing source, carrying CHD.TV footage of the Mar. 15, 2024 hearing",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DVf3iucDRXA/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Speaker attribution is off the capture's own frames, not inferred: the on-screen nameplate reads Sen. Janae Shamp at the 12:25 PM timestamp (the 'I asked research to print the study for me' passage — she chairs the committee and has Senate research staff) and Dr. Peter McCullough at 12:26 PM (the 'colossal consumer product safety debacle' passage). Both are confirmed committee members in the azleg minutes. The minutes do not itemize the redacted document, which appears to have come up in Shamp's comments or her Attachment C slides; the audio archive is on file with the Secretary of the Senate. Deliberately written to refuse both easy readings. Against the reel: the 148 pages were not 'a study,' the study was published two years earlier, and 'what good does a study do if there's nothing there' has an answer. Against the standard fact-check: (b)(5) is a discretionary exemption, a blanket application across every page of every document is a real and criticised choice, and 'it was properly exempt' is not the same as 'nothing was withheld that could have been released.' The Lancet findings are quoted including the 26%-still-medicated figure and the authors' own generalisability caveat rather than only the recovery headline. PMID confirmed via Europe PMC after an initial wrong-PMID lookup."
+}

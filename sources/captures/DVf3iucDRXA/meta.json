@@ -1,0 +1,32 @@
+{
+    "id": "DVf3iucDRXA",
+    "url": "https://www.instagram.com/reel/DVf3iucDRXA/",
+    "platform": "instagram",
+    "captured_at": "2026-08-01",
+    "handle": "@gabrielsavage",
+    "author_display_name": "𝗴𝗮𝗯𝗿𝗶𝗲𝗹 𝘀𝗮𝘃𝗮𝗴𝗲",
+    "posted_at": "2026-03-05",
+    "engagement": {
+        "likes": 32659,
+        "comments": 1025
+    },
+    "caption": "the only visible data is the censorship.",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Static composite: a screenshotted X post by @gbrlsvg — 'Nothing says \"trust the science\" like publishing a paper you can't read.' — quoting @__luzid__: 'CDC publishes paper on myocarditis after \"covid\" vaccination and EVERY WORD is blacked OUT.' Below it, CHD.TV footage with the ACTV chyron 'Novel Coronavirus Southwestern Intergovernmental Committee' and visible nameplates (Sen. Frank Carroll, Sen. Janae Shamp, Dr. Peter McCullough).",
+    "audio_content_summary": "Audio lifted from the Arizona Legislature's Novel Coronavirus Southwestern Intergovernmental Committee meeting of March 15, 2024, via CHD.TV. Chair Sen. Janae Shamp (12:25 PM timestamp) describes vaccine package inserts arriving with nothing printed on them and says she had staff print a 148-page CDC document on myocarditis after COVID vaccination that came back entirely redacted. Dr. Peter McCullough, seated as a committee member (12:26 PM), then characterises this as an active cover-up of a consumer product safety problem involving CDC, NIH and FDA in the United States and the MHRA, the European regulators and Australia's TGA abroad.",
+    "implied_frame": "Two real artifacts carry an unsupported characterisation. The 148 fully-redacted pages exist and were produced to Epoch Times reporter Zachary Stieber under FOIA, but they are internal agency correspondence withheld under exemption (b)(5), not a study — and the underlying MOVING research was published in The Lancet Child & Adolescent Health in 2022, so the 'what good does a study do if there's nothing there' framing has an answer the reel does not give. The blank package insert is likewise real, and is a product of the emergency-authorisation model that routed prescribing information to FDA fact sheets and a QR code; it is not evidence that safety data did not exist. Not established: that the redaction conceals adverse findings, that CDC, NIH and FDA are conducting a cover-up, or that the MHRA, EMA and TGA are coordinating one. Worth noting on the other side, and usually omitted from fact-checks: (b)(5) is discretionary rather than mandatory, so the agency chose to withhold, and applying it to all 148 pages without a releasable line drew criticism as excessive.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~2.6 MB); delivery ~2.9 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2024-cdc-myocarditis-redaction-001",
+        "2021-blank-vaccine-insert-001"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 2,
+        "b": 5,
+        "c": 0
+    }
+}

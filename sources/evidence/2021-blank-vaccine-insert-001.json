@@ -1,0 +1,29 @@
+{
+    "id": "2021-blank-vaccine-insert-001",
+    "anchor": "y2021-vaccine-paperwork",
+    "year": 2021,
+    "era": "iv",
+    "themes": [
+        "covid",
+        "vaccines",
+        "public-health"
+    ],
+    "claim": "COVID-19 vaccine cartons distributed under Emergency Use Authorization (EUA) contained a package insert with nothing printed on it. The blank sheet is real and manufacturers confirmed it was deliberate: a Johnson & Johnson spokesperson said the insert was left blank 'except for a QR code and a website address, so that vaccinators and consumers have the most up-to-date Fact Sheets available.' An FDA spokesperson said 'Fact Sheets typically are not shipped with the vaccine,' and that the Fact Sheets — hosted on FDA and manufacturer websites and reachable from the QR code on the vial carton — carried the 'detailed prescribing information, including ingredients, dosage and administration, warnings and contraindications.' The arrangement is a product of the EUA pathway: an authorised, not-yet-licensed product is accompanied by FDA-approved Fact Sheets for recipients and providers rather than the printed prescribing information required of a licensed vaccine. What the blank sheet does not establish is that no safety data existed. The registrational trials were published before or shortly after authorisation, and once the products were fully licensed — Comirnaty and Spikevax — FDA-approved package inserts were issued and are published on FDA's site.",
+    "sources": [
+        {
+            "label": "Science Feedback — review of the blank-insert claim, quoting Johnson & Johnson and FDA spokespeople on why EUA inserts shipped blank",
+            "type": "secondary",
+            "url": "https://science.feedback.org/review/video-blank-covid19-vaccine-insert-falsely-implies-no-safety-data-vaccines/",
+            "quote": "except for a QR code and a website address, so that vaccinators and consumers have the most up-to-date Fact Sheets available",
+            "clip": "clips/2021-blank-vaccine-insert-001-00.png",
+            "clip_status": "ok-head30"
+        },
+        {
+            "label": "FDA — Package Insert, SPIKEVAX (Moderna COVID-19 Vaccine), the prescribing information issued for the licensed product",
+            "type": "primary",
+            "url": "https://www.fda.gov/media/155675/download"
+        }
+    ],
+    "status": "verified",
+    "notes": "Included because the physical observation is true and gets treated as though it were fabricated: the insert really was blank, and the reason is the EUA distribution model rather than an oversight. Separating the two halves is the whole value here — a blank insert is evidence about how information was distributed, not evidence about whether trials were run. The counter-argument worth stating and not buried: routing prescribing information to a website behind a QR code puts the burden on the vaccinator to go look, and makes the version a patient actually saw unreconstructable after the fact, which is a real transparency cost even if no data were missing. The Spikevax insert is cited as the licensed-product contrast; drugs.com mirrors of the Pfizer/Moderna inserts were not used as sources. Sits alongside [[2024-cdc-myocarditis-redaction-001]] under the same anchor: both are documents-you-cannot-read stories with different underlying causes."
+}
