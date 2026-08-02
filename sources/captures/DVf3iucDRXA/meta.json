@@ -23,10 +23,15 @@
         "2024-cdc-myocarditis-redaction-001",
         "2021-blank-vaccine-insert-001"
     ],
-    "supporting_research_links": [],
+    "supporting_research_links": [
+        "https://www.azleg.gov/videoplayer/?clientID=6361162879&eventID=2024031052",
+        "https://www.azleg.gov/iminute/senate/56leg/2r/NovelCoronavirusSouthwesternIntergovernmentalCommittee.pdf",
+        "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/vaccines/safety/myo-outcomes.html"
+    ],
     "editorial_split": {
         "a": 2,
         "b": 5,
         "c": 0
-    }
+    },
+    "notes": "2026-08-02: clip verified against the source. The official Arizona Legislature recording of the March 15, 2024 meeting was located via the Invintus player API (event 2024031052) and the audio window around the on-screen 12:25 PM timestamp was pulled and transcribed independently. Sen. Shamp's and Dr. McCullough's words match this capture's whisper transcript almost verbatim — the reel is a faithful excerpt, not an edited one. Two pieces of context the clip cuts off: Shamp's remarks lead in from a complaint about Pfizer alumni appointed to a federal advisory council, and McCullough continues past the cut into the Pfizer FOIA litigation, giving the withholding figure as 55 years. Separately, the 148-page FOIA production itself was not obtained — the March 2024 t.co link is dead, the Epoch Times copy is paywalled, and no document mirror was found, so the record's account of the pages rests on reporting rather than our own read."
 }
