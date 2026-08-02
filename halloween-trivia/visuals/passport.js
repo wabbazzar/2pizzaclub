@@ -31,10 +31,6 @@ export function renderPassport(container) {
       <path d="m108 398 110-33 20 86-89 39Z" />
       <path d="m700 408 104-21 14 74-123 28Z" />
     </g>
-    <g class="question-orbit" aria-hidden="true">
-      <path d="M760 292c0-59-95-70-105-13-4 24 17 37 36 26 10-6 11-20 23-20 10 0 14 8 8 17-15 19-44 25-44 60v12h42v-6c0-27 48-35 48-76Z" />
-      <circle cx="700" cy="413" r="24" />
-    </g>
     <g class="passport-object" aria-hidden="true">
       <path class="passport-shadow" d="M325 100 586 127 559 508 298 480Z" />
       <g class="passport-reveal">

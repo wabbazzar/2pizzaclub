@@ -489,17 +489,17 @@ The builder appends to this section; do not erase the polish baseline.
 
 - **plan:** delegate the complete native player slice, including the deterministic controller tests, SVG passport visual, responsive baseline, operator controls, noindex/source surfaces, and stable verification DOM; orchestrator then personally runs every Phase 2 command and served-browser assertion before an explicit-path commit.
 - **builder:** subagent (1 agent) for the bounded implementation; orchestrator for mandatory re-verification and phase commit
-- **commit:** pending until the verified slice is committed; the resolved hash will be appended at Phase 3 start.
+- **commit:** `60653a3` (`feat: add Halloween trivia projection player`)
 - **commands/evidence:** 2026-08-02 orchestrator rerun: all five `node --check` commands → exit 0; `node --test halloween-trivia/player-core.test.mjs` → `tests 6`, `pass 6`, `fail 0`; runtime scan → `no-external-runtime-dependencies`; authoring assertion → `significance-contract=present`; local route → `phase2-http=200`; dev-browser 1920×1080 → `{"phase":2,"stage":"stinger","card":"suqami-passport","sourceOpen":true,"significance":true,"errors":[]}` after mystery/SVG/I/R/Space/ArrowRight checks; `git diff --check` and forbidden root `index.html`/`sw.js` diff → exit 0; cleanup → `phase2-listener=clean`, `phase2-server=clean`.
 - **notes/deferred:** owner review on 2026-08-02 added a series-wide `SO WHAT?` requirement after each receipt. The first card now carries a bounded evidence-trail interpretation; corrected Cards 2 and 3 were resent on Signal with the requested WTC 7 caveat and full `$120 billion` / approximately `$329 million per day for a year` scale. Orchestrator personally inspected 1920×1080 mystery and receipt captures: the question, abstract passport silhouette, receipt, significance, and source are legible and vector-only; multi-viewport critique and accessory removal remain Phase 3 work. Shared dev-browser pages `mk` and `mkm` were untouched. Approved timings remain locked; remaining twelve cards remain ask-first.
 
 ### Phase 3
 
-- **plan:** pending
-- **builder:** pending
-- **commit:** pending
-- **commands/evidence:** pending
-- **notes/deferred:** pending
+- **plan:** delegate a fresh rendered critique at every declared viewport/state, including reduced motion, safe-area, contrast, focus, fullscreen handling, source access, and the new significance line; allow only owned visual/interaction refinements, require removal of one accessory, then have the orchestrator rerun the full command surface and personally inspect all eight captures.
+- **builder:** subagent (1 fresh critique agent) for render-led refinement; orchestrator for mandatory re-verification, screenshot inspection, and phase commit
+- **commit:** pending until the verified slice is committed; the resolved hash will be appended at Phase 4 start.
+- **commands/evidence:** 2026-08-02 orchestrator rerun: syntax → exit 0; controller → `tests 6`, `pass 6`, `fail 0`; motion scan → `no-repeating-flash-animation`; local route → `phase3-http=200`; seven exact viewport/state cases → `safe:true`, `overflow:0`, `errors:[]`, landscape ratio `1.7778`, contrast minimum `9.04:1`, portrait minimum active-copy `20px`; reduced-motion stinger/mystery/reveal/receipt/transition → zero animations with visible active copy; keyboard path → six solid focus outlines and `fullscreen:true`; supplemental portrait/source probe → `{"overflow":0,"minFont":20}`, official GovInfo link, panel focus, Escape focus return, `errors:[]`; cleanup → `phase3-listener=clean`, `phase3-server=clean`, `ticket-browser-pages=clean` on CDP 9223.
+- **notes/deferred:** orchestrator personally inspected `1920-{mystery,reveal,receipt}.png`, `1366-{mystery,reveal,receipt}.png`, `390-receipt.png`, and `reduced-reveal.png`; `390-mystery.png` was also inspected as a supplemental portrait composition. The largest mismatch fixed was the dense black receipt slab: it is now a wider cream evidence sheet with a clear receipt → `SO WHAT?` → source hierarchy, raising receipt active-copy minimums to `33.44px` at 1920 and `24.04px` at 1366. Removed accessory: the floating question-mark orbit, reducing clutter and franchise resemblance. Approved factual copy, significance, and timings were unchanged; no raster/external asset was added; shared browser service/pages were untouched.
 
 ### Phase 4 / live
 

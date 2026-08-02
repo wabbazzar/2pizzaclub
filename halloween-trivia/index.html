@@ -24,12 +24,12 @@
         </section>
 
         <section id="copy-mystery" class="copy-panel copy-panel--mystery" data-stage-copy="mystery" hidden>
-          <p class="topic-label" data-card-topic></p>
+          <p class="topic-label" data-card-topic data-contrast-check></p>
           <h1 class="mystery-question" data-card-question data-contrast-check></h1>
         </section>
 
         <section id="copy-reveal" class="copy-panel copy-panel--reveal" data-stage-copy="reveal" hidden>
-          <p class="answer-kicker">THE RECORD IDENTIFIES</p>
+          <p class="answer-kicker" data-contrast-check>THE RECORD IDENTIFIES</p>
           <h1 class="reveal-answer" data-card-reveal data-contrast-check></h1>
         </section>
 
@@ -53,10 +53,10 @@
       <button id="next-card" type="button" aria-label="Next trivia card">Next</button>
       <button id="restart-card" type="button" aria-label="Restart current trivia card">Restart</button>
       <button id="fullscreen-toggle" type="button" aria-pressed="false" aria-label="Enter fullscreen">Fullscreen</button>
-      <button id="source-toggle" type="button" aria-pressed="false" aria-controls="source-panel">Source</button>
+      <button id="source-toggle" type="button" aria-pressed="false" aria-expanded="false" aria-controls="source-panel">Source</button>
     </nav>
 
-    <aside id="source-panel" hidden aria-labelledby="source-heading">
+    <aside id="source-panel" hidden tabindex="-1" aria-labelledby="source-heading">
       <button class="source-close" type="button" data-source-close aria-label="Close source details">Close</button>
       <p class="source-eyebrow">EVIDENCE RECEIPT</p>
       <h2 id="source-heading" data-source-heading></h2>

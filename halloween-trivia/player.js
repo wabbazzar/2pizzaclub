@@ -78,9 +78,11 @@ function toggleSource(force) {
   const shouldOpen = force ?? sourcePanel.hidden;
   sourcePanel.hidden = !shouldOpen;
   sourceToggle.setAttribute("aria-pressed", String(shouldOpen));
+  sourceToggle.setAttribute("aria-expanded", String(shouldOpen));
   sourceToggle.textContent = shouldOpen ? "Hide source" : "Source";
   status.textContent = shouldOpen ? "Source details opened." : "Source details closed.";
   if (shouldOpen) sourcePanel.focus({ preventScroll: true });
+  else sourceToggle.focus({ preventScroll: true });
 }
 
 async function toggleFullscreen() {
