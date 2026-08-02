@@ -472,17 +472,17 @@ The builder appends to this section; do not erase the polish baseline.
 ### Polish baseline
 
 - **builder:** orchestrator with three read-only probe subagents
-- **commit:** the commit containing this hardened ticket; record its hash with `git log -1 --format=%H -- docs/tickets/pending/001_feature_halloween_trivia_projection.md` at execution start
+- **commit:** `8fe0df8` (`docs: harden Halloween projection ticket`)
 - **evidence:** Node/Python/curl/git/Chrome/dev-browser versions and successful 390×844 render recorded under Toolchain Baseline; source wording corrected to Commission-staff attribution; no user-decision-class item remains.
 - **deferred:** feature implementation belongs to `execute-ticket`.
 
 ### Phase 1
 
-- **plan:** pending
-- **builder:** pending
-- **commit:** pending
-- **commands/evidence:** pending
-- **notes/deferred:** pending
+- **plan:** delegate the passport record and one-card registry; orchestrator reviews the source clauses, generates `rag-index.json`/`bundle.json` from an isolated committed snapshot plus only this phase's target change because two unrelated live records are dirty, reruns every Phase 1 gate, and commits only owned paths.
+- **builder:** subagent (1 agent) for source/card editing; orchestrator inline for global artifact isolation and mandatory re-verification
+- **commit:** pending until the verified slice is committed; the resolved hash will be appended immediately after this phase commit.
+- **commands/evidence:** 2026-08-02: source curl → `govinfo-source=200 bytes=4463027`; syntax/import/record/editorial assertions → `cards=1`, `passport-record=verified primary=url+quote`, `editorial-quality=pass`; isolated detached-clone rebuild → 2,258 sentences, `5/5 fixtures pass`, `317/317 records (317 dated)`, `bundle-passport=verified`; artifact assertions → byte-identical to the isolated outputs and `artifact-isolation=committed-unrelated-records`; local root → `phase1-http=200`; dev-browser → `{"phase":1,"viewport":{"width":390,"height":844},"card":true,"errors":[]}`; cleanup → `phase1-listener=clean`; owned-path `git diff --check` → exit 0.
+- **notes/deferred:** preflight RAG was already 5/5 and root browser was green. An archive-only isolation attempt correctly exposed that `build-bundle.mjs` needs Git history (it reported `0 dated`); those outputs were discarded and replaced from a detached local clone of `8fe0df8` plus only the passport edit, yielding all 317 dates. The first browser attempt also proved a stopped HTTP harness can expose a stale service-worker response; rerunning against a persistent server produced the current Commission-staff copy. Healthy shared dev-browser on 9222 was reused; ticket pages were closed; shared pages `mk` and `mkm` were left untouched. Unrelated modified records `2025-cullen-no-ballistic-001.json` and `2025-kirk-002.json` were neither copied into derived artifacts nor staged. Remaining twelve cards stay ask-first.
 
 ### Phase 2
 
