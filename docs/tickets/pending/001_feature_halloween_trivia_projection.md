@@ -497,18 +497,19 @@ The builder appends to this section; do not erase the polish baseline.
 
 - **plan:** delegate a fresh rendered critique at every declared viewport/state, including reduced motion, safe-area, contrast, focus, fullscreen handling, source access, and the new significance line; allow only owned visual/interaction refinements, require removal of one accessory, then have the orchestrator rerun the full command surface and personally inspect all eight captures.
 - **builder:** subagent (1 fresh critique agent) for render-led refinement; orchestrator for mandatory re-verification, screenshot inspection, and phase commit
-- **commit:** pending until the verified slice is committed; the resolved hash will be appended at Phase 4 start.
+- **commit:** `5f25403` (`style: refine Halloween projection card`)
 - **commands/evidence:** 2026-08-02 orchestrator rerun: syntax → exit 0; controller → `tests 6`, `pass 6`, `fail 0`; motion scan → `no-repeating-flash-animation`; local route → `phase3-http=200`; seven exact viewport/state cases → `safe:true`, `overflow:0`, `errors:[]`, landscape ratio `1.7778`, contrast minimum `9.04:1`, portrait minimum active-copy `20px`; reduced-motion stinger/mystery/reveal/receipt/transition → zero animations with visible active copy; keyboard path → six solid focus outlines and `fullscreen:true`; supplemental portrait/source probe → `{"overflow":0,"minFont":20}`, official GovInfo link, panel focus, Escape focus return, `errors:[]`; cleanup → `phase3-listener=clean`, `phase3-server=clean`, `ticket-browser-pages=clean` on CDP 9223.
 - **notes/deferred:** orchestrator personally inspected `1920-{mystery,reveal,receipt}.png`, `1366-{mystery,reveal,receipt}.png`, `390-receipt.png`, and `reduced-reveal.png`; `390-mystery.png` was also inspected as a supplemental portrait composition. The largest mismatch fixed was the dense black receipt slab: it is now a wider cream evidence sheet with a clear receipt → `SO WHAT?` → source hierarchy, raising receipt active-copy minimums to `33.44px` at 1920 and `24.04px` at 1366. Removed accessory: the floating question-mark orbit, reducing clutter and franchise resemblance. Approved factual copy, significance, and timings were unchanged; no raster/external asset was added; shared browser service/pages were untouched.
 
 ### Phase 4 / live
 
-- **plan:** pending
-- **builder:** pending
-- **phase commit:** pending
+- **plan:** delegate the operator guide, rerun the complete local syntax/test/editorial/data/render surface with data builders isolated from unrelated dirty evidence, obtain a fresh read-only release review, explicitly commit/push only owned paths, verify the propagated live direct route and unlinked root, then complete the Ledger and graduate the ticket only after every live check passes.
+- **builder:** subagents (2 sequential agents: operator-guide author, then fresh read-only release reviewer); orchestrator for full local/live gates, explicit commits, push, and lifecycle graduation
+- **phase commit:** pending until the verified README/final fix slice is committed; the resolved hash will be recorded before deployment.
 - **deploy evidence:** pending
 - **lifecycle commit:** pending
-- **notes/deferred:** pending
+- **commands/evidence:** 2026-08-02 local release gate: five syntax checks → exit 0; controller → `tests 6`, `pass 6`, `fail 0`; current and detached-clone RAG → `5/5 fixtures pass`; detached-clone builders → 2,258 vectors, `317/317 records (317 dated)`, byte-identical `rag-index.json`/`bundle.json`; `bundle-passport=verified`; editorial/significance/timing, dependency, motion, forbidden root files, and diff checks → pass. Local curls → `phase4-root=200`, `phase4-route=200`. Final browser matrix → all seven declared cases safe, zero overflow/errors, landscape `1.7778`, minimum contrast `9.04:1`, portrait minimum `20px`; five reduced-motion states zero animations; six solid focus outlines; source focus/return and fullscreen pass. Orchestrator re-inspected all eight final captures. Cleanup → no 8747/8748 listener/server and no ticket browser page.
+- **notes/deferred:** the fresh read-only reviewer caught an implicit `/favicon.ico` 404 on first load; a narrow inline vector data favicon fixed it. Orchestrator fresh-origin probe → HTTP 200, `errors:[]`, no favicon request; the reviewer rerun returned `No release-blocking failures` with `badResponses:[]`. The review also measured the portrait transition: its rotated paper extends beyond the viewport, but essential text remains fully visible at `x=52.65…385.30` within 390px and page overflow is zero, so the declared usability contract is met. Root `index.html`/`sw.js` remain unchanged; no remaining card was added; unrelated dirty evidence was excluded through detached-clone artifact isolation.
 
 ## Execute
 
