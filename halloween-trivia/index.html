@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <meta name="theme-color" content="#1A1A2E">
+    <title>Halloween trivia projection</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main id="projection-stage" data-stage="stinger" data-card-id="suqami-passport" aria-label="Halloween trivia projection">
+      <div class="broadcast-frame" aria-hidden="true">
+        <span class="frame-notch frame-notch--top"></span>
+        <span class="frame-notch frame-notch--bottom"></span>
+      </div>
+
+      <div id="visual-root" class="visual-root" aria-hidden="true"></div>
+
+      <div class="copy-deck">
+        <section id="copy-stinger" class="copy-panel copy-panel--stinger" data-stage-copy="stinger" data-active-copy data-contrast-check>
+          <p class="station-kicker">A 2PIZZA NIGHT TRANSMISSION</p>
+          <h1>DID YOU KNOW?</h1>
+        </section>
+
+        <section id="copy-mystery" class="copy-panel copy-panel--mystery" data-stage-copy="mystery" hidden>
+          <p class="topic-label" data-card-topic></p>
+          <h1 class="mystery-question" data-card-question data-contrast-check></h1>
+        </section>
+
+        <section id="copy-reveal" class="copy-panel copy-panel--reveal" data-stage-copy="reveal" hidden>
+          <p class="answer-kicker">THE RECORD IDENTIFIES</p>
+          <h1 class="reveal-answer" data-card-reveal data-contrast-check></h1>
+        </section>
+
+        <section id="copy-receipt" class="copy-panel copy-panel--receipt" data-stage-copy="receipt" hidden data-contrast-check>
+          <p class="receipt-detail" data-card-detail></p>
+          <p class="receipt-significance" data-active-copy data-contrast-check><strong>SO WHAT?</strong> <span data-card-significance></span></p>
+          <p class="receipt-source" data-card-source-label data-contrast-check></p>
+        </section>
+
+        <section id="copy-transition" class="copy-panel copy-panel--transition" data-stage-copy="transition" hidden data-contrast-check>
+          <p class="transition-mark">TRANSMISSION CONTINUES</p>
+        </section>
+      </div>
+
+      <p class="card-counter" aria-hidden="true"><span data-card-number>01</span> / <span data-card-total>01</span></p>
+    </main>
+
+    <nav class="operator-controls" aria-label="Projection controls">
+      <button id="play-toggle" type="button" aria-pressed="false" aria-label="Play projection">Play</button>
+      <button id="previous-card" type="button" aria-label="Previous trivia card">Previous</button>
+      <button id="next-card" type="button" aria-label="Next trivia card">Next</button>
+      <button id="restart-card" type="button" aria-label="Restart current trivia card">Restart</button>
+      <button id="fullscreen-toggle" type="button" aria-pressed="false" aria-label="Enter fullscreen">Fullscreen</button>
+      <button id="source-toggle" type="button" aria-pressed="false" aria-controls="source-panel">Source</button>
+    </nav>
+
+    <aside id="source-panel" hidden aria-labelledby="source-heading">
+      <button class="source-close" type="button" data-source-close aria-label="Close source details">Close</button>
+      <p class="source-eyebrow">EVIDENCE RECEIPT</p>
+      <h2 id="source-heading" data-source-heading></h2>
+      <p data-source-detail></p>
+      <a data-source-link target="_blank" rel="noopener noreferrer"></a>
+      <p class="source-evidence-id">2pizzaclub record: <code data-source-evidence-id></code></p>
+    </aside>
+
+    <p id="player-status" class="visually-hidden" aria-live="polite">Projection ready.</p>
+
+    <noscript>This projection needs JavaScript enabled to advance through its trivia states.</noscript>
+    <script type="module" src="./player.js"></script>
+  </body>
+</html>

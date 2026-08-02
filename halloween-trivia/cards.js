@@ -7,6 +7,8 @@ export const cards = [
     reveal: "SATAM AL-SUQAMI'S PASSPORT",
     detail:
       "A 9/11 Commission staff report says Detective Yuk H. Chin recovered the passport from a passerby, who left unidentified while debris fell from the South Tower. Chin gave it to the FBI on 9/11.",
+    significance:
+      "This became part of the FBI's September 11 evidence trail. The staff report documents its recovery chain—not where it was before the handoff.",
     source: {
       label: "9/11 Commission staff report · 2004",
       url: "https://www.govinfo.gov/content/pkg/GOVPUB-Y3-PURL-LPS53197/pdf/GOVPUB-Y3-PURL-LPS53197.pdf",

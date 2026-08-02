@@ -64,7 +64,7 @@ An interrupted haunted educational broadcast turns a stark mystery silhouette in
 1. **Station stinger:** `DID YOU KNOW?` establishes the recurring segment in no more than 1.5 seconds.
 2. **Mystery:** one large object silhouette and a short question occupy the 16:9 safe area for at least 4 seconds.
 3. **Reveal:** a wipe or iris changes the silhouette into an original color illustration and names the answer.
-4. **Receipt:** one short explanatory statement and a compact source label remain visible for at least 6 seconds.
+4. **Receipt:** one short explanatory statement, a plain-language `SO WHAT?` interpretation, and a compact source label remain visible for at least 6 seconds.
 5. **Transition:** the card clears to the dark stage before the loop restarts or advances.
 
 The signature element is an off-kilter “evidence aperture”: irregular radial wedges frame the mystery object, then flip from shadow to color and leave behind a small green source strip. Each later card may supply its own SVG vignette and reveal motion through a renderer registry, while the aperture, timing grammar, typography, and receipt strip keep the series coherent.
@@ -90,6 +90,7 @@ Cream on midnight/royal, midnight on yellow, and midnight on green are the text 
 - Mystery question: `WHAT SURVIVED THE ATTACK?`
 - Reveal: `SATAM AL-SUQAMI'S PASSPORT`
 - Receipt copy: `A 9/11 Commission staff report says Detective Yuk H. Chin recovered the passport from a passerby, who left unidentified while debris fell from the South Tower. Chin gave it to the FBI on 9/11.`
+- Significance copy: `This became part of the FBI's September 11 evidence trail. The staff report documents its recovery chain—not where it was before the handoff.`
 - Projected source label: `9/11 Commission staff report · 2004`
 - The full source label and URL remain available in the accessible DOM and operator source view.
 
@@ -109,7 +110,7 @@ The project is plain HTML/CSS/ES modules with no app build (`README.md:25-26`; `
 
 - Create `halloween-trivia/index.html` for the semantic stage, accessible controls, source panel, and `<meta name="robots" content="noindex">` metadata.
 - Create `halloween-trivia/styles.css` for the 16:9 stage, safe areas, vector scene styling, animation states, focus treatment, portrait recomposition, and reduced-motion mode.
-- Create `halloween-trivia/cards.js` as the authored card registry. Each card exposes `id`, `evidenceId`, `topic`, `question`, `reveal`, `detail`, `source.label`, `source.url`, `timing`, and `visual.kind`.
+- Create `halloween-trivia/cards.js` as the authored card registry. Each card exposes `id`, `evidenceId`, `topic`, `question`, `reveal`, `detail`, `significance`, `source.label`, `source.url`, `timing`, and `visual.kind`. The receipt renders `significance` after the sourced detail under an explicit `SO WHAT?` label; this is the authoring contract for every later card.
 - Create `halloween-trivia/player-core.js` for the injected-clock state machine and preview-query parsing, plus `halloween-trivia/player-core.test.mjs` with the six named timing/navigation cases below.
 - Create `halloween-trivia/player.js` for DOM binding, controls, fullscreen behavior, exact `?autoplay=0&stage=...` preview states, status copy, and renderer dispatch by `visual.kind`.
 - Create the first original passport SVG in `halloween-trivia/visuals/passport.js`. Do not add raster generation or copyrighted reference assets.
@@ -200,7 +201,7 @@ node -e "const r=require('./sources/evidence/2001-suqami-passport-001.json'); if
 node --input-type=module <<'NODE'
 import fs from 'node:fs';
 const {cards}=await import('./halloween-trivia/cards.js'); const record=JSON.parse(fs.readFileSync('./sources/evidence/2001-suqami-passport-001.json','utf8'));
-const reader=[record.claim,...cards.flatMap(c=>[c.question,c.reveal,c.detail,c.source.label])].join('\n');
+const reader=[record.claim,...cards.flatMap(c=>[c.question,c.reveal,c.detail,c.significance,c.source.label])].join('\n');
 if(/\b(reel|the post|the video)\b|@[A-Za-z0-9_]+/i.test(reader)) process.exit(1);
 if(/sidewalk|passports were|the 9\/11 Commission said|\bWTC\b/i.test(reader)) process.exit(1);
 console.log('editorial-quality=pass');
@@ -399,7 +400,7 @@ If the old pending path no longer exists, stage the move with `git add -A -- doc
 - [ ] The route automatically plays a deterministic stinger → mystery → reveal → receipt → transition loop containing the approved passport card.
 - [ ] The mystery stage holds for at least 4 seconds, the receipt remains readable for at least 6 seconds, and all timings are authored as data rather than scattered CSS delays.
 - [ ] The first card uses only original SVG/CSS shapes and visibly follows the haunted educational-broadcast thesis without Pokémon art, logos, audio, video, or copied screen composition.
-- [ ] The projected copy matches the approved question, reveal, receipt, and source label in this ticket; the accessible source view exposes the full label and opened primary URL.
+- [ ] The projected copy matches the approved question, reveal, receipt, significance, and source label in this ticket; the `SO WHAT?` line follows the receipt, and the accessible source view exposes the full label and opened primary URL.
 - [ ] `2001-suqami-passport-001` has a checked primary Commission URL and supporting quote, flat attributable wording, no unsupported “sidewalk/passports/conspiracy” assertion, and `verified` status only if every retained citation was checked.
 - [ ] `rag-index.json` and `bundle.json` are regenerated from the updated evidence record, and the RAG gate remains 5/5.
 - [ ] `Space`, arrow keys, `R`, `F`, and `I` perform the documented actions; every visible control is keyboard reachable, has visible focus, and reports its current state in text or accessible labeling.
@@ -416,7 +417,7 @@ If the old pending path no longer exists, stage the move with `git add -A -- doc
 
 - Attribute official accounts and disputed interpretations; state only what the opened artifact supports.
 - Use native HTML, CSS, JavaScript, and SVG with a legible 16:9 projection-safe layout and a reduced-motion equivalent.
-- Keep future trivia content data-driven and traceable to a checked 2pizzaclub evidence record or an equally strong primary source.
+- Keep future trivia content data-driven and traceable to a checked 2pizzaclub evidence record or an equally strong primary source; every card includes a bounded real-world `SO WHAT?` interpretation after its sourced receipt.
 
 ### Ask first
 
@@ -480,17 +481,17 @@ The builder appends to this section; do not erase the polish baseline.
 
 - **plan:** delegate the passport record and one-card registry; orchestrator reviews the source clauses, generates `rag-index.json`/`bundle.json` from an isolated committed snapshot plus only this phase's target change because two unrelated live records are dirty, reruns every Phase 1 gate, and commits only owned paths.
 - **builder:** subagent (1 agent) for source/card editing; orchestrator inline for global artifact isolation and mandatory re-verification
-- **commit:** pending until the verified slice is committed; the resolved hash will be appended immediately after this phase commit.
+- **commit:** `be9a6e3` (`feat: verify first Halloween trivia card`)
 - **commands/evidence:** 2026-08-02: source curl → `govinfo-source=200 bytes=4463027`; syntax/import/record/editorial assertions → `cards=1`, `passport-record=verified primary=url+quote`, `editorial-quality=pass`; isolated detached-clone rebuild → 2,258 sentences, `5/5 fixtures pass`, `317/317 records (317 dated)`, `bundle-passport=verified`; artifact assertions → byte-identical to the isolated outputs and `artifact-isolation=committed-unrelated-records`; local root → `phase1-http=200`; dev-browser → `{"phase":1,"viewport":{"width":390,"height":844},"card":true,"errors":[]}`; cleanup → `phase1-listener=clean`; owned-path `git diff --check` → exit 0.
 - **notes/deferred:** preflight RAG was already 5/5 and root browser was green. An archive-only isolation attempt correctly exposed that `build-bundle.mjs` needs Git history (it reported `0 dated`); those outputs were discarded and replaced from a detached local clone of `8fe0df8` plus only the passport edit, yielding all 317 dates. The first browser attempt also proved a stopped HTTP harness can expose a stale service-worker response; rerunning against a persistent server produced the current Commission-staff copy. Healthy shared dev-browser on 9222 was reused; ticket pages were closed; shared pages `mk` and `mkm` were left untouched. Unrelated modified records `2025-cullen-no-ballistic-001.json` and `2025-kirk-002.json` were neither copied into derived artifacts nor staged. Remaining twelve cards stay ask-first.
 
 ### Phase 2
 
-- **plan:** pending
-- **builder:** pending
-- **commit:** pending
-- **commands/evidence:** pending
-- **notes/deferred:** pending
+- **plan:** delegate the complete native player slice, including the deterministic controller tests, SVG passport visual, responsive baseline, operator controls, noindex/source surfaces, and stable verification DOM; orchestrator then personally runs every Phase 2 command and served-browser assertion before an explicit-path commit.
+- **builder:** subagent (1 agent) for the bounded implementation; orchestrator for mandatory re-verification and phase commit
+- **commit:** pending until the verified slice is committed; the resolved hash will be appended at Phase 3 start.
+- **commands/evidence:** 2026-08-02 orchestrator rerun: all five `node --check` commands → exit 0; `node --test halloween-trivia/player-core.test.mjs` → `tests 6`, `pass 6`, `fail 0`; runtime scan → `no-external-runtime-dependencies`; authoring assertion → `significance-contract=present`; local route → `phase2-http=200`; dev-browser 1920×1080 → `{"phase":2,"stage":"stinger","card":"suqami-passport","sourceOpen":true,"significance":true,"errors":[]}` after mystery/SVG/I/R/Space/ArrowRight checks; `git diff --check` and forbidden root `index.html`/`sw.js` diff → exit 0; cleanup → `phase2-listener=clean`, `phase2-server=clean`.
+- **notes/deferred:** owner review on 2026-08-02 added a series-wide `SO WHAT?` requirement after each receipt. The first card now carries a bounded evidence-trail interpretation; corrected Cards 2 and 3 were resent on Signal with the requested WTC 7 caveat and full `$120 billion` / approximately `$329 million per day for a year` scale. Orchestrator personally inspected 1920×1080 mystery and receipt captures: the question, abstract passport silhouette, receipt, significance, and source are legible and vector-only; multi-viewport critique and accessory removal remain Phase 3 work. Shared dev-browser pages `mk` and `mkm` were untouched. Approved timings remain locked; remaining twelve cards remain ask-first.
 
 ### Phase 3
 
