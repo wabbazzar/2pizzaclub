@@ -1,11 +1,13 @@
 import { cards } from "./cards.js";
 import { createPlayerController, parsePreviewQuery } from "./player-core.js";
+import { renderLease } from "./visuals/lease.js";
+import { renderMkultra } from "./visuals/mkultra.js";
 import { renderPassport } from "./visuals/passport.js";
 
 const renderers = Object.freeze({
   passport: renderPassport,
-  lease: renderPassport,
-  mkultra: renderPassport,
+  lease: renderLease,
+  mkultra: renderMkultra,
 });
 const preview = parsePreviewQuery(window.location.search);
 
