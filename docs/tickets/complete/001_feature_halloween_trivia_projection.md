@@ -1,6 +1,6 @@
 # 001 — Halloween trivia projection prototype
 
-- **Status:** Polished — ready for autonomous execution
+- **Status:** Complete
 - **Priority:** High
 - **Type:** feature
 - **Created:** 2026-08-02
@@ -396,20 +396,20 @@ If the old pending path no longer exists, stage the move with `git add -A -- doc
 
 ## Acceptance Criteria / Definition of Done
 
-- [ ] `/halloween-trivia/` loads as an unlinked, noindex static route with no console errors and no framework/build/runtime dependency.
-- [ ] The route automatically plays a deterministic stinger → mystery → reveal → receipt → transition loop containing the approved passport card.
-- [ ] The mystery stage holds for at least 4 seconds, the receipt remains readable for at least 6 seconds, and all timings are authored as data rather than scattered CSS delays.
-- [ ] The first card uses only original SVG/CSS shapes and visibly follows the haunted educational-broadcast thesis without Pokémon art, logos, audio, video, or copied screen composition.
-- [ ] The projected copy matches the approved question, reveal, receipt, significance, and source label in this ticket; the `SO WHAT?` line follows the receipt, and the accessible source view exposes the full label and opened primary URL.
-- [ ] `2001-suqami-passport-001` has a checked primary Commission URL and supporting quote, flat attributable wording, no unsupported “sidewalk/passports/conspiracy” assertion, and `verified` status only if every retained citation was checked.
-- [ ] `rag-index.json` and `bundle.json` are regenerated from the updated evidence record, and the RAG gate remains 5/5.
-- [ ] `Space`, arrow keys, `R`, `F`, and `I` perform the documented actions; every visible control is keyboard reachable, has visible focus, and reports its current state in text or accessible labeling.
-- [ ] The important silhouette and text stay readable and unclipped at 1920×1080 and 1366×768; the 390×844 view recomposes into a usable portrait preview with no horizontal page overflow.
-- [ ] Reduced-motion mode preserves every information state without travel/rotation effects, and no normal transition flashes more than three times per second.
-- [ ] Text uses only the declared high-contrast pairs; dusty red remains decorative rather than carrying small essential text.
-- [ ] The operator README is sufficient to serve the route locally, enter fullscreen, control playback, and add a later verified card without discovering an undocumented build step.
-- [ ] The direct live route is verified after push, while the root timeline/gallery navigation and service-worker precache list remain unchanged.
-- [ ] All commits stage only ticket-owned paths, remain on `main`, and contain no AI/Claude attribution.
+- [x] `/halloween-trivia/` loads as an unlinked, noindex static route with no console errors and no framework/build/runtime dependency.
+- [x] The route automatically plays a deterministic stinger → mystery → reveal → receipt → transition loop containing the approved passport card.
+- [x] The mystery stage holds for at least 4 seconds, the receipt remains readable for at least 6 seconds, and all timings are authored as data rather than scattered CSS delays.
+- [x] The first card uses only original SVG/CSS shapes and visibly follows the haunted educational-broadcast thesis without Pokémon art, logos, audio, video, or copied screen composition.
+- [x] The projected copy matches the approved question, reveal, receipt, significance, and source label in this ticket; the `SO WHAT?` line follows the receipt, and the accessible source view exposes the full label and opened primary URL.
+- [x] `2001-suqami-passport-001` has a checked primary Commission URL and supporting quote, flat attributable wording, no unsupported “sidewalk/passports/conspiracy” assertion, and `verified` status only if every retained citation was checked.
+- [x] `rag-index.json` and `bundle.json` are regenerated from the updated evidence record, and the RAG gate remains 5/5.
+- [x] `Space`, arrow keys, `R`, `F`, and `I` perform the documented actions; every visible control is keyboard reachable, has visible focus, and reports its current state in text or accessible labeling.
+- [x] The important silhouette and text stay readable and unclipped at 1920×1080 and 1366×768; the 390×844 view recomposes into a usable portrait preview with no horizontal page overflow.
+- [x] Reduced-motion mode preserves every information state without travel/rotation effects, and no normal transition flashes more than three times per second.
+- [x] Text uses only the declared high-contrast pairs; dusty red remains decorative rather than carrying small essential text.
+- [x] The operator README is sufficient to serve the route locally, enter fullscreen, control playback, and add a later verified card without discovering an undocumented build step.
+- [x] The direct live route is verified after push, while the root timeline/gallery navigation and service-worker precache list remain unchanged.
+- [x] All commits stage only ticket-owned paths, remain on `main`, and contain no AI/Claude attribution.
 
 ## Boundaries
 
@@ -458,13 +458,13 @@ If the old pending path no longer exists, stage the move with `git add -A -- doc
 
 ## Roll-up Definition of Done
 
-- [ ] Every phase's exact command surface shows the expected exit code/output and every per-phase Observable DoD is copied compactly into the Ledger.
-- [ ] Phase commits and the lifecycle commit are recorded; `git log` shows no AI attribution; all ticket-owned paths are clean after the final push.
-- [ ] Unrelated pre-existing dirty-worktree paths remain unmodified and unstaged by this ticket.
-- [ ] RAG remains 5/5, player tests remain 6/6, both derived artifacts match the verified record, and the final eight screenshots have been personally inspected by the orchestrator.
-- [ ] Local and live route probes return 200, the live page renders the locked receipt without console errors, and the route remains absent from root navigation and the service-worker shell.
-- [ ] All HTTP/dev-browser/headless processes created by the build are stopped and the exact `ss`/`ps` cleanup evidence is in the Ledger.
-- [ ] The ticket is `Status: Complete` and exists only at `docs/tickets/complete/001_feature_halloween_trivia_projection.md`.
+- [x] Every phase's exact command surface shows the expected exit code/output and every per-phase Observable DoD is copied compactly into the Ledger.
+- [x] Phase commits and the lifecycle commit are recorded; `git log` shows no AI attribution; all ticket-owned paths are clean after the final push.
+- [x] Unrelated pre-existing dirty-worktree paths remain unmodified and unstaged by this ticket.
+- [x] RAG remains 5/5, player tests remain 6/6, both derived artifacts match the verified record, and the final eight screenshots have been personally inspected by the orchestrator.
+- [x] Local and live route probes return 200, the live page renders the locked receipt without console errors, and the route remains absent from root navigation and the service-worker shell.
+- [x] All HTTP/dev-browser/headless processes created by the build are stopped and the exact `ss`/`ps` cleanup evidence is in the Ledger.
+- [x] The ticket is `Status: Complete` and exists only at `docs/tickets/complete/001_feature_halloween_trivia_projection.md`.
 
 ## Ledger
 
@@ -505,8 +505,8 @@ The builder appends to this section; do not erase the polish baseline.
 
 - **plan:** delegate the operator guide, rerun the complete local syntax/test/editorial/data/render surface with data builders isolated from unrelated dirty evidence, obtain a fresh read-only release review, explicitly commit/push only owned paths, verify the propagated live direct route and unlinked root, then complete the Ledger and graduate the ticket only after every live check passes.
 - **builder:** subagents (2 sequential agents: operator-guide author, then fresh read-only release reviewer); orchestrator for full local/live gates, explicit commits, push, and lifecycle graduation
-- **phase commit:** pending until the verified README/final fix slice is committed; the resolved hash will be recorded before deployment.
-- **deploy evidence:** pending
+- **phase commit:** `7f73ec2` (`docs: add Halloween projection operator guide`)
+- **deploy evidence:** pushed `main` after `git fetch origin main` proved `6 0` (ahead/behind); a pull/rebase was intentionally skipped because it would disturb unrelated dirty user work. GitHub Pages run `30762423881` completed successfully (`build` 5m53s, `deploy` 54s). Live probes → `live-root=200`, `live-route=200`, `route-remains-unlinked`, `live-noindex=present`, inline vector favicon present. Fresh 1920×1080 live browser → locked receipt/significance/source, original passport SVG, `noindex`, HTTP 200, `errors:[]`, `badResponses:[]`; orchestrator inspected `live-receipt.png`.
 - **lifecycle commit:** pending
 - **commands/evidence:** 2026-08-02 local release gate: five syntax checks → exit 0; controller → `tests 6`, `pass 6`, `fail 0`; current and detached-clone RAG → `5/5 fixtures pass`; detached-clone builders → 2,258 vectors, `317/317 records (317 dated)`, byte-identical `rag-index.json`/`bundle.json`; `bundle-passport=verified`; editorial/significance/timing, dependency, motion, forbidden root files, and diff checks → pass. Local curls → `phase4-root=200`, `phase4-route=200`. Final browser matrix → all seven declared cases safe, zero overflow/errors, landscape `1.7778`, minimum contrast `9.04:1`, portrait minimum `20px`; five reduced-motion states zero animations; six solid focus outlines; source focus/return and fullscreen pass. Orchestrator re-inspected all eight final captures. Cleanup → no 8747/8748 listener/server and no ticket browser page.
 - **notes/deferred:** the fresh read-only reviewer caught an implicit `/favicon.ico` 404 on first load; a narrow inline vector data favicon fixed it. Orchestrator fresh-origin probe → HTTP 200, `errors:[]`, no favicon request; the reviewer rerun returned `No release-blocking failures` with `badResponses:[]`. The review also measured the portrait transition: its rotated paper extends beyond the viewport, but essential text remains fully visible at `x=52.65…385.30` within 390px and page overflow is zero, so the declared usability contract is met. Root `index.html`/`sw.js` remain unchanged; no remaining card was added; unrelated dirty evidence was excluded through detached-clone artifact isolation.
