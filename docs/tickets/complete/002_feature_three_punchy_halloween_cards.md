@@ -1,6 +1,6 @@
 # 002 — Three punchy Halloween trivia cards
 
-- **Status:** Ready
+- **Status:** Complete
 - **Priority:** High
 - **Type:** feature
 - **Created:** 2026-08-02
@@ -192,19 +192,19 @@ Before push, run `git fetch origin main` and `git rev-list --left-right --count 
 
 ## Acceptance Criteria / Definition of Done
 
-- [ ] The route cycles exactly three cards in the locked order and wraps from card 3 to card 1.
-- [ ] Both Silverstein evidence records cite the checked official documents, contain only supported claim text, and are `verified`; regenerated `rag-index.json` and `bundle.json` match them.
-- [ ] Each card projects only the shared stinger, its short question, its punchline, and the generic transition; no receipt/detail/significance/source prose appears in the projection DOM.
-- [ ] The three locked questions and punchlines match this ticket exactly.
-- [ ] `I`/Source opens the current card’s factual detail, evidence ID text, and all required official source links; closing returns focus to the Source control.
-- [ ] Passport, lease/key skyline, and MKULTRA vial/eye render as three distinct original SVG illustrations with no raster, remote, generated, or copyrighted assets.
-- [ ] Autoplay, pause/resume, restart, previous/next wraparound, preview queries, fullscreen, and source controls work without console errors.
-- [ ] Mystery and reveal copy remains within the broadcast frame at 1920×1080, 1366×768, and 390×844; reduced-motion mode has no animated transitions.
-- [ ] All touched JavaScript passes syntax checks and the controller tests pass.
-- [ ] The rebuilt RAG evaluation remains 5/5 and unrelated dirty worktree files are untouched.
-- [ ] The route stays unlinked and `noindex`; root navigation and `sw.js` are unchanged.
-- [ ] The pushed live route returns HTTP 200 and visibly contains all three cards.
-- [ ] The owner receives one Signal completion message containing the live URL.
+- [x] The route cycles exactly three cards in the locked order and wraps from card 3 to card 1.
+- [x] Both Silverstein evidence records cite the checked official documents, contain only supported claim text, and are `verified`; regenerated `rag-index.json` and `bundle.json` match them.
+- [x] Each card projects only the shared stinger, its short question, its punchline, and the generic transition; no receipt/detail/significance/source prose appears in the projection DOM.
+- [x] The three locked questions and punchlines match this ticket exactly.
+- [x] `I`/Source opens the current card’s factual detail, evidence ID text, and all required official source links; closing returns focus to the Source control.
+- [x] Passport, lease/key skyline, and MKULTRA vial/eye render as three distinct original SVG illustrations with no raster, remote, generated, or copyrighted assets.
+- [x] Autoplay, pause/resume, restart, previous/next wraparound, preview queries, fullscreen, and source controls work without console errors.
+- [x] Mystery and reveal copy remains within the broadcast frame at 1920×1080, 1366×768, and 390×844; reduced-motion mode has no animated transitions.
+- [x] All touched JavaScript passes syntax checks and the controller tests pass.
+- [x] The rebuilt RAG evaluation remains 5/5 and unrelated dirty worktree files are untouched.
+- [x] The route stays unlinked and `noindex`; root navigation and `sw.js` are unchanged.
+- [x] The pushed live route returns HTTP 200 and visibly contains all three cards.
+- [x] The owner receives one Signal completion message containing the live URL.
 
 ## Ledger
 
@@ -214,9 +214,9 @@ The builder appends one row after each committed phase. Include the exact commit
 |---|---|---|---|---|
 | 1 — sources + four-stage contract | `a9206a9` | builder: inline (two delegated workers stalled before any file change; orchestrator retained the already-read, bounded file set) | JSON 2/2; isolated clean-snapshot RAG rebuild 2,259 units and eval 5/5; bundle 317/317 records + 115/115 captures; controller 6/6; receipt grep clear; contract check clear; local HTTP 200; browser visited all 3 cards with source counts 1/2/2 and `errors:[]`. | First in-place artifact build was discarded because unrelated dirty evidence entered it; committed artifacts were rebuilt from `git archive HEAD` plus only the two owned records. Unrelated worktree changes remain unstaged. |
 | 2 — three vector reveals | `0775b29` | builder: inline (delegated vector worker stalled before any file change; orchestrator retained the bounded renderer/CSS set) | Renderer syntax 3/3 + registry syntax passed; vector/remote-asset and repeating-animation scans clear; local HTTP 200; 18 mystery/reveal renders across 1920×1080, 1366×768, and 390×844 all reported `copyInsideFrame:true`, overflow 0/0, `errors:[]`, and `badResponses:[]`; visuals were passport/lease/mkultra; reduced-motion transitions/animations were `0s`; all three source drawers focused and returned focus with 1/2/2 official links. | Representative passport, lease, MKULTRA, and portrait captures inspected at `tmp/ticket002/`; port 8749 and the ticket-owned browser closed. Unrelated worktree changes remain unstaged. |
-| 3 — guide + live release | release-candidate commit pending | builder: subagent (1 agent) + orchestrator deploy | Operator guide matches four stages, three cards, hidden multi-source evidence, and three renderers; syntax 7/7, controller 6/6, RAG 5/5, exact-copy scan 6/6, `noindex` present, receipt scan clear, editorial scan clear, and root `index.html`/`sw.js`/manifest unchanged from `4c9a25d`. | Subagent supplied the README update before interruption; orchestrator reran the full local gate. Live Pages proof and Signal remain for the release candidate. Unrelated worktree changes remain unstaged. |
+| 3 — guide + live release | `0c8c1fb` | builder: subagent (1 agent) + orchestrator deploy | Operator guide matches the runtime; syntax 7/7, controller 6/6, RAG 5/5, exact-copy scan 6/6, `noindex` present, receipt/editorial scans clear, and root/PWA files unchanged. Pages run `30771085062` completed successfully for `0c8c1fb`; live route and cards file returned HTTP 200 with all 3 IDs. Twelve live mystery/reveal renders at 1920×1080 and 390×844 reported the correct visuals, `inside:true`, overflow 0/0, `errors:[]`, and `badResponses:[]`. Completion Signal exited 0. | Subagent supplied the README update before interruption; orchestrator reran every gate, deployed, rendered live, and notified. Ticket-owned servers and browsers were closed; unrelated worktree changes remain unstaged. |
 
-Run this ticket with `execute-ticket` after confirming the Decisions section still has no open item.
+Executed with `execute-ticket`; all phases and release gates are complete.
 
 ## Dependencies
 
