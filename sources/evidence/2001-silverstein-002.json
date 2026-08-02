@@ -7,8 +7,20 @@
         "september-11",
         "finance"
     ],
-    "claim": "Silverstein's WTC lease included approximately $3.55 billion of property insurance coverage. After protracted post-9/11 litigation over whether the attacks constituted one or two insurable 'occurrences,' a December 6, 2004 jury verdict ruled that nine of the involved insurers were liable under the two-occurrence interpretation (maximum ~$2.2 billion); three other insurers had previously won a single-occurrence ruling. Total insurance settlements reached approximately $4.55 billion by 2007.",
-    "sources": [
+  "claim": "The Port Authority's 2007 financial statement reported approximately $4.57 billion in total World Trade Center insurance recovery against approximately $4.68 billion in available policy limits. A New York State Comptroller review reported the rounded total as $4.55 billion and said the final $2 billion settlement allocated $870 million to the Port Authority and $1.13 billion to Silverstein.",
+  "sources": [
+    {
+      "label": "Port Authority of New York and New Jersey — 2007 Financial Statements, World Trade Center insurance recovery",
+      "type": "primary",
+      "url": "https://www.panynj.gov/content/dam/corporate/financial-statements/financial-statement-2007.pdf",
+      "quote": "Such settlement provided for a total recovery of approximately $4.57 billion against available policy limits of approximately $4.68 billion."
+    },
+    {
+      "label": "New York State Comptroller — Review of the Financial Plan, World Trade Center insurance settlement",
+      "type": "data",
+      "url": "https://www.osc.ny.gov/files/reports/osdc/pdf/report-3-2008.pdf",
+      "quote": "This brings the total amount to be paid by all of the 23 original WTC insurers to $4.55 billion"
+    },
         {
             "label": "AM Best News — “Three Insurers Win Ruling That WTC Disaster Was One Event”",
             "type": "secondary",
@@ -33,6 +45,6 @@
             "url": "https://www.instagram.com/reel/DVOtv6QCTFf/"
         }
     ],
-    "status": "primary-link-pending",
-    "notes": "Insurance face value ($3.55B), the two-occurrence ruling date (Dec 6 2004), and total settlement figure ($4.55B by 2007) are consistently reported across business-press sources. Primary court records (S.D.N.Y.) would be the definitive citation and are pending. The reel's framing characterizes the policy as 'first of its kind for the maximum payout' — Silverstein's policies were standard commercial property policies; the 'two-occurrence' interpretation came from litigation after the fact, not from the policy design."
+  "status": "verified",
+  "notes": "Verified against the Port Authority's 2007 financial statement and the New York State Comptroller's financial-plan review. The recovery funded several obligations and parties; it was not a $4.55 billion personal cash payout."
 }

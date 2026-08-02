@@ -2,7 +2,11 @@ import { cards } from "./cards.js";
 import { createPlayerController, parsePreviewQuery } from "./player-core.js";
 import { renderPassport } from "./visuals/passport.js";
 
-const renderers = Object.freeze({ passport: renderPassport });
+const renderers = Object.freeze({
+  passport: renderPassport,
+  lease: renderPassport,
+  mkultra: renderPassport,
+});
 const preview = parsePreviewQuery(window.location.search);
 
 const stage = document.querySelector("#projection-stage");
@@ -24,21 +28,30 @@ function setText(selector, value) {
 }
 
 function populateCard(card, cardIndex, cardCount) {
-  setText("[data-card-topic]", card.topic);
   setText("[data-card-question]", card.question);
   setText("[data-card-reveal]", card.reveal);
-  setText("[data-card-detail]", card.detail);
-  setText("[data-card-significance]", card.significance ?? "");
-  setText("[data-card-source-label]", card.source.label);
   setText("[data-card-number]", String(cardIndex + 1).padStart(2, "0"));
   setText("[data-card-total]", String(cardCount).padStart(2, "0"));
   setText("[data-source-heading]", card.reveal);
   setText("[data-source-detail]", card.detail);
-  setText("[data-source-evidence-id]", card.evidenceId);
+  setText("[data-source-evidence-ids]", card.evidenceIds.join(" · "));
 
-  const link = document.querySelector("[data-source-link]");
-  link.href = card.source.url;
-  link.textContent = `${card.source.label} — open primary source`;
+  const sourceLinks = document.querySelector("[data-source-links]");
+  sourceLinks.replaceChildren(
+    ...card.sources.map((source) => {
+      if (!source.url) {
+        const text = document.createElement("p");
+        text.textContent = source.label;
+        return text;
+      }
+      const link = document.createElement("a");
+      link.href = source.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = `${source.label} — open source`;
+      return link;
+    }),
+  );
 
   if (renderedCardId !== card.id) {
     const renderer = renderers[card.visual.kind];
@@ -59,8 +72,6 @@ function render(state) {
     if (active) copy.setAttribute("data-active-copy", "");
     else copy.removeAttribute("data-active-copy");
   }
-  document.querySelector("[data-card-significance]").parentElement.toggleAttribute("data-active-copy", state.stage === "receipt");
-
   playToggle.setAttribute("aria-pressed", String(state.playing));
   playToggle.textContent = state.playing ? "Pause" : "Play";
   playToggle.setAttribute("aria-label", state.playing ? "Pause projection" : "Play projection");

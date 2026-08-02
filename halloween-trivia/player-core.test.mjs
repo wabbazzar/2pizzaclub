@@ -4,11 +4,10 @@ import test from "node:test";
 import { createPlayerController, parsePreviewQuery } from "./player-core.js";
 
 const timing = Object.freeze({
-  stinger: 1400,
-  mystery: 5000,
-  reveal: 2600,
-  receipt: 8000,
-  transition: 1200,
+  stinger: 1200,
+  mystery: 4200,
+  reveal: 3600,
+  transition: 900,
 });
 
 function card(id = "one") {
@@ -57,18 +56,18 @@ test("stage order advances through transition and wraps to stinger", () => {
   const run = harness();
   run.controller.play();
   const visited = [run.controller.getState().stage];
-  for (let index = 0; index < 5; index += 1) {
+  for (let index = 0; index < 4; index += 1) {
     run.fire();
     visited.push(run.controller.getState().stage);
   }
-  assert.deepEqual(visited, ["stinger", "mystery", "reveal", "receipt", "transition", "stinger"]);
+  assert.deepEqual(visited, ["stinger", "mystery", "reveal", "transition", "stinger"]);
 });
 
 test("each stage schedules its authored duration", () => {
   const run = harness();
   run.controller.play();
-  for (let index = 0; index < 4; index += 1) run.fire();
-  assert.deepEqual(run.delays, [1400, 5000, 2600, 8000, 1200]);
+  for (let index = 0; index < 3; index += 1) run.fire();
+  assert.deepEqual(run.delays, [1200, 4200, 3600, 900]);
 });
 
 test("pause and resume preserve the current stage remainder", () => {
@@ -76,33 +75,34 @@ test("pause and resume preserve the current stage remainder", () => {
   run.controller.play();
   run.setTime(600);
   run.controller.pause();
-  assert.equal(run.controller.getState().remaining, 800);
+  assert.equal(run.controller.getState().remaining, 600);
   run.controller.play();
-  assert.equal(run.delays.at(-1), 800);
+  assert.equal(run.delays.at(-1), 600);
   run.fire();
   assert.equal(run.controller.getState().stage, "mystery");
 });
 
 test("restart returns to stinger and restores its full duration", () => {
-  const run = harness({ initialStage: "receipt" });
+  const run = harness({ initialStage: "reveal" });
   run.controller.play();
   run.controller.restart();
   assert.deepEqual(
     { stage: run.controller.getState().stage, remaining: run.controller.getState().remaining, delay: run.delays.at(-1) },
-    { stage: "stinger", remaining: 1400, delay: 1400 },
+    { stage: "stinger", remaining: 1200, delay: 1200 },
   );
 });
 
-test("previous and next navigation wrap cards and restart their stinger", () => {
-  const run = harness({ cards: [card("one"), card("two")] });
+test("previous and next navigation wrap three cards and restart their stinger", () => {
+  const run = harness({ cards: [card("one"), card("two"), card("three")] });
   run.controller.previous();
-  assert.deepEqual([run.controller.getState().card.id, run.controller.getState().stage], ["two", "stinger"]);
+  assert.deepEqual([run.controller.getState().card.id, run.controller.getState().stage], ["three", "stinger"]);
   run.controller.next();
   assert.deepEqual([run.controller.getState().card.id, run.controller.getState().stage], ["one", "stinger"]);
 });
 
 test("preview query freezes only on valid requested stages", () => {
-  assert.deepEqual(parsePreviewQuery("?autoplay=0&stage=receipt"), { autoplay: false, stage: "receipt" });
+  assert.deepEqual(parsePreviewQuery("?autoplay=0&stage=reveal"), { autoplay: false, stage: "reveal" });
+  assert.deepEqual(parsePreviewQuery("?autoplay=0&stage=receipt"), { autoplay: false, stage: "stinger" });
   assert.deepEqual(parsePreviewQuery("?autoplay=0&stage=bogus"), { autoplay: false, stage: "stinger" });
   assert.deepEqual(parsePreviewQuery(""), { autoplay: true, stage: "stinger" });
 });

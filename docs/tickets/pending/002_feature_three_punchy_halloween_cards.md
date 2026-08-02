@@ -212,7 +212,7 @@ The builder appends one row after each committed phase. Include the exact commit
 
 | Phase | Commit | Builder | Gate evidence | Deferred / notes |
 |---|---|---|---|---|
-| 1 — sources + four-stage contract |  |  |  |  |
+| 1 — sources + four-stage contract | phase commit pending | builder: inline (two delegated workers stalled before any file change; orchestrator retained the already-read, bounded file set) | JSON 2/2; isolated clean-snapshot RAG rebuild 2,259 units and eval 5/5; bundle 317/317 records + 115/115 captures; controller 6/6; receipt grep clear; contract check clear; local HTTP 200; browser visited all 3 cards with source counts 1/2/2 and `errors:[]`. | First in-place artifact build was discarded because unrelated dirty evidence entered it; committed artifacts were rebuilt from `git archive HEAD` plus only the two owned records. Unrelated worktree changes remain unstaged. |
 | 2 — three vector reveals |  |  |  |  |
 | 3 — guide + live release |  |  |  |  |
 

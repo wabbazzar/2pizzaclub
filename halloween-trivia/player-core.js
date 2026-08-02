@@ -2,7 +2,6 @@ export const STAGES = Object.freeze([
   "stinger",
   "mystery",
   "reveal",
-  "receipt",
   "transition",
 ]);
 
