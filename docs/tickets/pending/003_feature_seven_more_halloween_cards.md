@@ -1,6 +1,6 @@
 # 003 — Seven more Halloween trivia cards
 
-- **Status:** Draft
+- **Status:** Polished — ready for execution
 - **Priority:** High
 - **Type:** feature
 - **Created:** 2026-08-03
@@ -34,24 +34,58 @@ Each fact feels like a different forbidden file pulled from the same haunted bro
 
 The fixed broadcast frame and mustard/navy/red/cream/ink palette maintain continuity. The seven signatures are: a stamped Northwoods war-plan folder, a poison-dart pistol cutaway, the USS Liberty under attack, a collapsing options chart, a Paperclip personnel file and rocket, an FBI tape-and-letter package, and an inconclusive ballistics comparison.
 
+## Visual System
+
+- **Ink `#1A1A2E`:** outer surface, silhouette fill, and darkest line work.
+- **Royal `#1B3FB5`:** broadcast field and structural blue.
+- **Cream `#FFF8E7`:** primary projected text, frame, and high-contrast reveal fill.
+- **Mustard `#FFD93D`:** aperture, mystery energy, and visible keyboard focus.
+- **Dusty red `#E63946`:** alert marks and one reveal accent per scene.
+- **Green `#06D6A0`:** sparing confirmation/source accent; never a second dominant accent.
+- **Display role:** Impact/Haettenschweiler/Arial Black for stinger, question, and reveal; large uppercase forms sized for yard projection.
+- **Body role:** rounded system face for operator controls and Source detail.
+- **Utility role:** monospaced system face for card count and evidence identifiers.
+- **Layout:** visual artifact at left and copy at right in 16:9; portrait recomposes artifact above copy instead of shrinking the desktop split.
+- **Signature element:** the yellow evidence aperture opens around each artifact; per-card props and transformations do the differentiation.
+
+### Pre-build critique findings
+
+- The aperture is the only repeated flourish; every new scene needs a different central silhouette and reveal action so the set does not become seven recolors of one template.
+- The dart-pistol and Paperclip punchlines are the overflow stress cases; size the shared copy system against them instead of shrinking only those cards.
+- The portrait layout must recompose artifact-above-copy and keep controls/source usable; scaling the 16:9 canvas down is not acceptable.
+- Motion explains silhouette → artifact continuity only. Repeating ambient animation, particles without meaning, and motion that survives `prefers-reduced-motion` are removed.
+- The Source drawer is backstage evidence, not a fifth projected state; its focus entry/return is a release gate.
+
 ## Decisions
 
 ### Locked decisions
 
-| # | Question | Punchline | Evidence / receipt |
+| # | Question | Punchline | Evidence / checked source |
 |---|---|---|---|
-| 4 | `WHAT DID THE JOINT CHIEFS PROPOSE STAGING IN U.S. CITIES IN 1962?` | `TERROR ATTACKS TO BLAME ON CUBA — PART OF OPERATION NORTHWOODS.` | `1962-northwoods-001`; declassified JCS memorandum |
-| 5 | `WHAT SECRET WEAPON DID THE CIA SHOW THE SENATE IN 1975?` | `A PISTOL THAT FIRED A TINY POISON DART — DESIGNED TO KILL WITHOUT AN OBVIOUS TRACE.` | `1975-heart-attack-gun-001`; Church Committee hearing |
-| 6 | `WHICH U.S. NAVY SHIP DID ISRAELI FORCES ATTACK OFF GAZA IN 1967?` | `THE USS LIBERTY — 34 AMERICANS WERE KILLED. ISRAEL SAID IT WAS MISTAKEN IDENTITY.` | new `1967-uss-liberty-001`; NSA history |
-| 7 | `WHAT OUTNUMBERED UNITED AIRLINES CALL OPTIONS BY MORE THAN 20 TO 1 FIVE DAYS BEFORE 9/11?` | `PUT OPTIONS — BETS THAT THE STOCK WOULD FALL. INVESTIGATORS LATER REPORTED NO 9/11 FOREKNOWLEDGE.` | `2001-put-options-001`; 9/11 Commission monograph |
-| 8 | `HOW MANY GERMAN SCIENTISTS DID THE U.S. BRING OVER AFTER WORLD WAR II?` | `MORE THAN 1,500 UNDER PAPERCLIP AND RELATED PROGRAMS — INCLUDING MEN TIED TO SLAVE LABOR AND CAMP EXPERIMENTS.` | `1945-operation-paperclip-001`; National Archives |
-| 9 | `WHAT DID THE FBI ANONYMOUSLY SEND MARTIN LUTHER KING JR. IN 1964?` | `SECRET RECORDINGS AND A THREATENING LETTER — WIDELY READ AS PRESSURING HIM TO KILL HIMSELF.` | `1956-cointelpro-001`; Church Committee report and FBI Vault |
-| 10 | `DID THE BULLET FRAGMENT RECOVERED FROM CHARLIE KIRK MATCH THE RIFLE?` | `THE ATF COULD NEITHER MATCH NOR EXCLUDE IT — THE RESULT WAS INCONCLUSIVE.` | new `2026-kirk-ballistics-001`; AP and hearing reporting |
+| 4 | `WHAT DID THE JOINT CHIEFS PROPOSE STAGING IN U.S. CITIES IN 1962?` | `TERROR ATTACKS TO BLAME ON CUBA — PART OF OPERATION NORTHWOODS.` | `1962-northwoods-001`; [declassified JCS memorandum](https://nsarchive.gwu.edu/CMC-60/joint-chiefs-pretexts-to-invade-Cuba-1962) |
+| 5 | `WHAT SECRET WEAPON DID THE CIA SHOW THE SENATE IN 1975?` | `A PISTOL THAT FIRED A TINY POISON DART — DESIGNED TO KILL WITHOUT AN OBVIOUS TRACE.` | `1975-heart-attack-gun-001`; [Church Committee hearing](https://intelligence.senate.gov/sites/default/files/94intelligence_activities_I.pdf) |
+| 6 | `WHICH U.S. NAVY SHIP DID ISRAELI FORCES ATTACK OFF GAZA IN 1967?` | `THE USS LIBERTY — 34 AMERICANS WERE KILLED. ISRAEL SAID IT WAS MISTAKEN IDENTITY.` | new `1967-uss-liberty-001`; [NSA history](https://www.nsa.gov/History/National-Cryptologic-Museum/Exhibits-Artifacts/Exhibit-View/Article/2718838/cold-war-uss-liberty/) |
+| 7 | `WHAT OUTNUMBERED UNITED AIRLINES CALL OPTIONS BY MORE THAN 20 TO 1 FIVE DAYS BEFORE 9/11?` | `PUT OPTIONS — BETS THAT THE STOCK WOULD FALL. INVESTIGATORS LATER REPORTED NO 9/11 FOREKNOWLEDGE.` | `2001-put-options-001`; [9/11 Commission monograph](https://govinfo.library.unt.edu/911/staff_statements/911_TerrFin_Monograph.pdf) |
+| 8 | `HOW MANY GERMAN SCIENTISTS DID THE U.S. BRING OVER AFTER WORLD WAR II?` | `MORE THAN 1,500 UNDER PAPERCLIP AND RELATED PROGRAMS — INCLUDING MEN TIED TO SLAVE LABOR AND CAMP EXPERIMENTS.` | `1945-operation-paperclip-001`; [National Archives](https://www.archives.gov/iwg/declassified-records/rg-330-defense-secretary) |
+| 9 | `WHAT DID THE FBI ANONYMOUSLY SEND MARTIN LUTHER KING JR. IN 1964?` | `SECRET RECORDINGS AND A THREATENING LETTER — WIDELY READ AS PRESSURING HIM TO KILL HIMSELF.` | `1956-cointelpro-001`; [Church Committee report](https://www.intelligence.senate.gov/sites/default/files/94755_III.pdf) and [FBI Vault](https://vault.fbi.gov/Martin%20Luther%20King%2C%20Jr.) |
+| 10 | `DID THE BULLET FRAGMENT RECOVERED FROM CHARLIE KIRK MATCH THE RIFLE?` | `THE ATF COULD NEITHER MATCH NOR EXCLUDE IT — THE RESULT WAS INCONCLUSIVE.` | new `2025-kirk-ballistics-001`; [AP court-reporting receipt](https://apnews.com/article/76ccb25a0e71f9436334c2029dceb20c) |
+
+Locked hidden details, projected nowhere:
+
+| Card | Hidden detail |
+|---|---|
+| Northwoods | `A 1962 Joint Chiefs memorandum proposed pretexts for invading Cuba, including a terror campaign in Miami, other Florida cities, and Washington. The proposal was not carried out.` |
+| Dart pistol | `At a September 1975 Church Committee hearing, CIA Director William Colby displayed a pistol modified to fire a tiny toxin dart. Testimony said the wound and toxin were designed to be difficult to detect.` |
+| USS Liberty | `The National Security Agency says Israeli fighters and torpedo boats attacked USS Liberty 25 miles off Gaza on June 8, 1967, killing 34 Americans. Israel described it as an identification error, and the U.S. government accepted that explanation.` |
+| Put options | `The 9/11 Commission staff reported that United Airlines put volume on September 6 exceeded call volume by more than 20 to 1. The SEC and FBI traced the trades and reported no evidence of advance knowledge.` |
+| Paperclip | `National Archives files cover more than 1,500 German and other foreign specialists brought to the United States under Paperclip and related programs. The files include men tied to forced labor and concentration-camp experiments.` |
+| COINTELPRO | `The Church Committee documented an anonymous FBI letter and surveillance recordings mailed to Martin Luther King Jr. in November 1964. The package became known as the FBI “suicide letter.”` |
+| Kirk ballistics | `Court filings and later testimony described the ATF comparison of a damaged bullet-jacket fragment to the recovered rifle as inconclusive: examiners could neither identify nor exclude the rifle as the source.` |
 
 Additional locked outcomes:
 
 - Keep `STAGES` unchanged at `stinger`, `mystery`, `reveal`, and `transition`.
-- Preserve the shared timings unless a render proves the longest question/reveal needs more reading time; any timing adjustment applies consistently to all ten cards.
+- Lock the shared timings at `stinger: 1200`, `mystery: 4200`, `reveal: 3600`, and `transition: 900` milliseconds for all ten cards.
 - Keep the Source panel as the only location for detail and links.
 - Keep `/halloween-trivia/` unlinked and `noindex`; do not change the root navigation, service worker, or PWA shell.
 
@@ -59,76 +93,161 @@ Additional locked outcomes:
 
 None.
 
+## Orchestration Protocol
+
+The builder is the orchestrator. Build in the clean clone at `/tmp/2pizzaclub-ticket003.ted8Im` on `main`; the original checkout contains unrelated in-progress evidence work and is read-only for this ticket. Delegate the heavy slices below, keep file ownership disjoint, and personally rerun every named gate before every commit. Stage explicit ticket-owned paths only; never use `git add -A`, stash/autostash, clean, reset, or force-push.
+
+Every delegated brief carries this requirement verbatim:
+
+> Converge honestly or report the precise blocker with the actual evidence — NEVER fake green, weaken a check, or hand-wave "should work". Run the real command, read the real file, curl the real port, and report exact output (exit codes, JSONL lines, HTTP codes), not adjectives. If it needs a spend, an outward-facing action, or a destructive change, stop and report instead.
+
+Toolchain baseline measured during polish on 2026-08-03:
+
+- Node `v24.12.0`, Python `3.12.3`, curl `8.5.0`, git `2.43.0`, and jq `1.7` resolve in `PATH`.
+- Existing JavaScript syntax checks pass for `cards.js`, `player-core.js`, `player-core.test.mjs`, `player.js`, and the three shipped renderers.
+- `node --test halloween-trivia/player-core.test.mjs` reports 6 tests, 6 passed, 0 failed.
+- `node tools/rag-eval.mjs` reports 5/5 fixtures passed. In the disposable clone, `tools/node_modules` may be temporarily symlinked to the installed original-checkout directory; it appears untracked, must never be staged, and must be unlinked before every phase boundary.
+- The shared dev-browser server answers `http://127.0.0.1:9222/` with HTTP 200. Its installed client is `/home/wabbazzar/.claude/plugins/cache/dev-browser-marketplace/dev-browser/66682fb0513a/skills/dev-browser`. It is shared infrastructure: create fresh `ticket003-*` pages, close only those pages, and never kill its server or unrelated Chromium processes.
+- A fresh local serve on port 8753 returned HTTP 200. The 1920×1080 baseline rendered `suqami-passport`/`passport` with page overflow `0/0`, `noindex`, `errors:[]`, and `bad:[]`; the ticket page and owned HTTP server were closed.
+- The pre-build application baseline is commit `4e507fd`; forbidden root/PWA files are compared to it before release.
+
 ## Technical Requirements
 
-1. Add the identified Senate PDF URL to `sources/evidence/1975-heart-attack-gun-001.json`, narrow any unsupported mechanism language if needed, and promote the record only after the official transcript supports the published wording.
-2. Add `sources/evidence/1967-uss-liberty-001.json` with the NSA account: Israeli fighters and torpedo boats attacked the U.S. Navy ship off Gaza on June 8, 1967; 34 Americans were killed; Israel described the attack as an identification error and the U.S. government accepted that explanation.
-3. Add `sources/evidence/2026-kirk-ballistics-001.json` limited to the disclosed ATF comparison: the recovered bullet-jacket fragment could neither be identified nor excluded as fired from the recovered rifle, so the result was inconclusive. Attribute procedural claims to court filings/reporting and do not state who killed Kirk.
-4. Add both new records to `sources/evidence/manifest.json`, then rebuild and commit `rag-index.json` and `bundle.json` after all evidence claim/quote edits.
-5. Extend `halloween-trivia/cards.js` to exactly ten entries in the locked order. Every new entry supplies `id`, `evidenceIds`, exact `question`, exact `reveal`, a concise hidden `detail`, checked `sources`, positive timings for every current stage, and a unique registered `visual.kind`.
-6. Add seven renderer modules under `halloween-trivia/visuals/`: `northwoods.js`, `dart-pistol.js`, `uss-liberty.js`, `put-options.js`, `paperclip.js`, `cointelpro.js`, and `kirk-ballistics.js`. Each renderer returns native SVG, exposes a unique `data-visual`, includes a useful accessible label, and uses no `<image>`, remote reference, generated asset, or copyrighted character.
-7. Register the seven renderers in `halloween-trivia/player.js` without changing controller or source-panel behavior.
-8. Extend the stage-aware styles in `halloween-trivia/styles.css`. Mystery must read as a silhouette at projection distance; reveal may add only finite state-transition motion. Preserve focus indicators, 16:9 composition, portrait recomposition at 390×844, and `prefers-reduced-motion` zero-duration behavior.
-9. Extend `halloween-trivia/player-core.test.mjs` or add a focused card-contract test that proves ten-card count/order, unique visual kinds, positive timings, valid source arrays, forward/back wraparound, and card 10 → card 1 automatic advance.
-10. Update `halloween-trivia/README.md` from three to ten cards, list all renderer checks, and document the seven new source-backed scenes without exposing the route from the root site.
+1. Add the identified Senate PDF URL and a short supporting quote to `sources/evidence/1975-heart-attack-gun-001.json`, narrow unsupported mechanism language, and promote the record only after the official transcript supports the published wording.
+2. Add `sources/evidence/1967-uss-liberty-001.json` under the existing `y1967-six-day-war` anchor with the NSA account: Israeli fighters and torpedo boats attacked the U.S. Navy ship off Gaza on June 8, 1967; 34 Americans were killed; Israel described the attack as an identification error and the U.S. government accepted that explanation.
+3. Add `sources/evidence/2025-kirk-ballistics-001.json` under the existing `y2025-kirk` anchor, limited to the disclosed ATF comparison: the recovered bullet-jacket fragment could neither be identified nor excluded as fired from the recovered rifle, so the result was inconclusive. Attribute procedural claims to court filings/reporting and do not state who killed Kirk. Do not edit the concurrently modified `2025-cullen-no-ballistic-001.json`.
+4. Update `sources/evidence/2001-put-options-001.json` so the 9/11 Commission citation carries the direct `more than 20` put-to-call support and the no-foreknowledge finding. Update `sources/evidence/1945-operation-paperclip-001.json` to use the checked National Archives URL and support the `more than 1,500`/forced-labor/camp-experiment wording. Do not change the card conclusions beyond the locked copy.
+5. Add both new records to `sources/evidence/manifest.json`, then rebuild and commit `rag-index.json` and `bundle.json` after all five ticket-owned evidence claim/quote edits.
+6. Extend `halloween-trivia/cards.js` to exactly ten entries in the locked order. Every new entry supplies `id`, `evidenceIds`, exact `question`, exact `reveal`, the locked hidden `detail`, checked `sources`, the locked timings for every current stage, and a unique registered `visual.kind`.
+7. Add seven renderer modules under `halloween-trivia/visuals/`: `northwoods.js`, `dart-pistol.js`, `uss-liberty.js`, `put-options.js`, `paperclip.js`, `cointelpro.js`, and `kirk-ballistics.js`. Each renderer returns native SVG, exposes a unique `data-visual`, includes a useful accessible label, and uses no `<image>`, remote reference, generated asset, or copyrighted character.
+8. Register the seven renderers in `halloween-trivia/player.js` without changing controller or source-panel behavior.
+9. Extend the stage-aware styles in `halloween-trivia/styles.css`. Mystery must read as a silhouette at projection distance; reveal may add only finite state-transition motion. Preserve focus indicators, 16:9 composition, portrait recomposition at 390×844, and `prefers-reduced-motion` zero-duration behavior.
+10. Extend `halloween-trivia/player-core.test.mjs` and add `halloween-trivia/cards.test.mjs` so the latter proves ten-card count/order, unique visual kinds, positive timings, valid source arrays, exact approved copy, and card 10 → card 1 controller wraparound.
+11. Update `halloween-trivia/README.md` from three to ten cards, list all renderer checks, and document the seven new source-backed scenes without exposing the route from the root site.
 
 ## Implementation Plan
 
-### Phase 1 — Evidence and ten-card contract (5 points)
+### Phase 1 — Evidence and generated artifacts (5 points)
 
-**Goal:** Land the seven exact facts as source-backed data while proving the existing controller traverses ten cards.
+**Goal:** Put the seven projected statements on a checked evidence footing without changing the live Halloween runtime.
 
-**Steps:** verify/add the three ticket-owned evidence records, update the manifest and generated artifacts, append all seven card objects, register renderer placeholders only when needed for contract tests, and extend deterministic tests.
+**Steps:** update the dart-pistol, put-options, and Paperclip records; add USS Liberty and Kirk ballistics records under existing anchors; update the evidence manifest; rebuild both committed artifacts; render the two new timeline cards.
 
-**Files:** the three ticket-owned evidence records, `sources/evidence/manifest.json`, `rag-index.json`, `bundle.json`, `halloween-trivia/cards.js`, `halloween-trivia/player-core.test.mjs`, and the minimal renderer registry surface in `halloween-trivia/player.js`.
+**Files:** `sources/evidence/1975-heart-attack-gun-001.json`, new `sources/evidence/1967-uss-liberty-001.json`, `sources/evidence/2001-put-options-001.json`, `sources/evidence/1945-operation-paperclip-001.json`, new `sources/evidence/2025-kirk-ballistics-001.json`, `sources/evidence/manifest.json`, `rag-index.json`, and `bundle.json`.
 
-**Gate classes:** Data artifacts, typecheck/lint, editorial quality, and site render.
+**Gate classes:** Data artifacts, editorial quality, site render, and path-limited diff hygiene.
 
-**Delegation:** subagent — own the evidence/card/test contract, return changed files, commands and exit codes, RAG/test counts, and blockers in no more than 40 lines.
+**Delegation:** subagent — In `/tmp/2pizzaclub-ticket003.ted8Im`, own only the eight files named above. Check the locked official/authoritative URLs, retain only source-supported language, add short supporting quotes, set `status: "verified"` only when supported, add the two new manifest entries exactly once, and rebuild both artifacts. Do not edit `2025-cullen-no-ballistic-001.json` or any Halloween runtime file. Return ≤40 lines: files changed; commands + exit codes; artifact counts; RAG result; rendered record IDs/HTTP status; blockers. Converge honestly or report the precise blocker with the actual evidence — NEVER fake green, weaken a check, or hand-wave "should work". Run the real command, read the real file, curl the real port, and report exact output (exit codes, JSONL lines, HTTP codes), not adjectives. If it needs a spend, an outward-facing action, or a destructive change, stop and report instead.
 
-**Observable phase DoD:** generated artifacts contain the three ticket-owned evidence updates; RAG remains 5/5; card-contract/controller tests prove a ten-card loop; every exact approved string and checked source appears in card data.
+**Verification surface — orchestrator reruns before commit:**
 
-### Phase 2 — Four vector reveals (5 points)
+```bash
+jq empty sources/evidence/1975-heart-attack-gun-001.json sources/evidence/1967-uss-liberty-001.json sources/evidence/2001-put-options-001.json sources/evidence/1945-operation-paperclip-001.json sources/evidence/2025-kirk-ballistics-001.json sources/evidence/manifest.json
+jq -e --argjson want '["1967-uss-liberty-001.json","2025-kirk-ballistics-001.json"]' 'all($want[] as $f; ([.records[] | select(. == $f)] | length) == 1)' sources/evidence/manifest.json
+node tools/build-rag-index.mjs && node tools/rag-eval.mjs
+node tools/build-bundle.mjs
+node --input-type=module -e "import assert from 'node:assert/strict'; import {readFile} from 'node:fs/promises'; const ids=['1975-heart-attack-gun-001','1967-uss-liberty-001','2001-put-options-001','1945-operation-paperclip-001','2025-kirk-ballistics-001']; const bundle=JSON.parse(await readFile('bundle.json')); const rag=JSON.parse(await readFile('rag-index.json')); for (const id of ids) { const record=JSON.parse(await readFile('sources/evidence/'+id+'.json')); assert.equal(record.status,'verified'); assert.ok(record.sources.some(source=>source.url&&source.quote?.trim())); assert.deepEqual(bundle.records[id+'.json'],record); assert.ok(rag.units.some(unit=>unit.id===id)); }"
+if jq -r '.claim' sources/evidence/{1975-heart-attack-gun-001,1967-uss-liberty-001,2001-put-options-001,1945-operation-paperclip-001,2025-kirk-ballistics-001}.json | rg -ni '\b(reel|the post|the video|we|our)\b|@[[:alnum:]_]'; then exit 1; fi
+if jq -r '.claim' sources/evidence/{1975-heart-attack-gun-001,1967-uss-liberty-001,2001-put-options-001,1945-operation-paperclip-001,2025-kirk-ballistics-001}.json | rg -ni '\b(proves?|proof|obviously|clearly|conspiracy)\b'; then exit 1; fi
+git diff --check -- sources/evidence/1975-heart-attack-gun-001.json sources/evidence/1967-uss-liberty-001.json sources/evidence/2001-put-options-001.json sources/evidence/1945-operation-paperclip-001.json sources/evidence/2025-kirk-ballistics-001.json sources/evidence/manifest.json rag-index.json bundle.json
+```
 
-**Goal:** Build distinct Northwoods, dart-pistol, USS Liberty, and put-options mystery/reveal scenes.
+Start `python3 -m http.server 8755` from the clone and require `curl -sS -o /dev/null -w '%{http_code}\n' http://127.0.0.1:8755/` → `200`. Through the installed dev-browser client, create `ticket003-phase1` at 390×844; require `[data-evidence-id="1967-uss-liberty-001"]` and `[data-evidence-id="2025-kirk-ballistics-001"]`, their checked source links, page overflow `0/0`, `errors:[]`, and `badResponses:[]`. Close that page and stop only port 8755.
 
-**Steps:** add four native-SVG renderers, register them, add scoped stage-aware CSS, and render mystery/reveal states at the declared projector and phone viewports.
+**Observable phase DoD:** all five records have checked URL-bearing quotes and `verified` status; the manifest contains each new record exactly once; the committed bundle matches each record; RAG prints 5/5; both new timeline cards render locally without browser errors. Commit with explicit Phase 1 paths only.
 
-**Files:** four new renderer modules, `halloween-trivia/player.js`, and their scoped portions of `halloween-trivia/styles.css`.
+### Phase 2 — Cards 4–7 and four vector reveals (5 points)
 
-**Gate classes:** Typecheck/lint and site render.
+**Goal:** Extend the healthy runtime from three to seven cards with complete Northwoods, dart-pistol, USS Liberty, and put-options scenes in one atomic slice.
 
-**Delegation:** subagent — own only the first four renderer modules plus their registry/CSS selectors; return files, command exit codes, viewport measurements/screenshots, console/network results, and blockers in no more than 40 lines.
+**Steps:** append cards 4–7 with exact copy/details/sources; build and register four native-SVG renderers; add scoped stage-aware CSS; extend tests to seven cards; render the complete seven-card sequence.
 
-**Observable phase DoD:** the four new cards expose four unique `data-visual` values; mystery/reveal copy remains inside the frame at 1920×1080, 1366×768, and 390×844; reduced motion reports no animation or transition duration.
+**Files:** `halloween-trivia/cards.js`, `halloween-trivia/player.js`, `halloween-trivia/player-core.test.mjs`, new `halloween-trivia/cards.test.mjs`, `halloween-trivia/styles.css`, and new `halloween-trivia/visuals/northwoods.js`, `dart-pistol.js`, `uss-liberty.js`, and `put-options.js`.
 
-### Phase 3 — Three vector reveals and ten-card visual pass (5 points)
+**Gate classes:** Typecheck/lint, site render, accessibility/reduced motion, and path-limited diff hygiene.
 
-**Goal:** Build Paperclip, COINTELPRO, and Kirk-ballistics scenes, then inspect the complete ten-card sequence.
+**Delegation:** subagent — In `/tmp/2pizzaclub-ticket003.ted8Im`, own only the Phase 2 files. Append locked cards 4–7 using IDs/visual kinds `operation-northwoods`/`northwoods`, `cia-dart-pistol`/`dart-pistol`, `uss-liberty`/`uss-liberty`, and `united-put-options`/`put-options`; build four complete original SVG scenes and their scoped finite reveal styles; register all four; extend tests from three to seven without weakening existing assertions. Return ≤40 lines: files changed; commands + exits/test counts; seven-card viewport/source/reduced-motion evidence; screenshot paths; console/network results; blockers. Converge honestly or report the precise blocker with the actual evidence — NEVER fake green, weaken a check, or hand-wave "should work". Run the real command, read the real file, curl the real port, and report exact output (exit codes, JSONL lines, HTTP codes), not adjectives. If it needs a spend, an outward-facing action, or a destructive change, stop and report instead.
 
-**Steps:** add three native-SVG renderers, register them, add scoped CSS, traverse all ten cards through mystery/reveal/source states, and correct the largest hierarchy or overflow mismatch.
+**Verification surface — orchestrator reruns before commit:**
 
-**Files:** three new renderer modules, `halloween-trivia/player.js`, and their scoped portions of `halloween-trivia/styles.css`.
+```bash
+for file in halloween-trivia/cards.js halloween-trivia/player.js halloween-trivia/player-core.test.mjs halloween-trivia/cards.test.mjs halloween-trivia/visuals/passport.js halloween-trivia/visuals/lease.js halloween-trivia/visuals/mkultra.js halloween-trivia/visuals/northwoods.js halloween-trivia/visuals/dart-pistol.js halloween-trivia/visuals/uss-liberty.js halloween-trivia/visuals/put-options.js; do node --check "$file"; done
+node --test halloween-trivia/player-core.test.mjs halloween-trivia/cards.test.mjs
+node --input-type=module -e "import assert from 'node:assert/strict'; import {cards} from './halloween-trivia/cards.js'; import {STAGES} from './halloween-trivia/player-core.js'; assert.equal(cards.length,7); assert.equal(new Set(cards.map(card=>card.visual.kind)).size,7); assert.deepEqual(cards.slice(3).map(card=>card.id),['operation-northwoods','cia-dart-pistol','uss-liberty','united-put-options']); for (const card of cards) { assert.deepEqual(Object.keys(card.timing),STAGES); assert.ok(STAGES.every(stage=>card.timing[stage]>0)); assert.ok(card.evidenceIds.length&&card.sources.length&&card.sources.every(source=>source.url)); }"
+! rg --pcre2 -n '<(image|use|foreignObject)|(?:xlink:)?href\s*=|https?://(?!www\.w3\.org/2000/svg)' halloween-trivia/visuals/*.js
+! rg -n 'animation-iteration-count:\s*infinite|animation:[^;]*\binfinite\b' halloween-trivia/styles.css
+git diff --check -- halloween-trivia/cards.js halloween-trivia/player.js halloween-trivia/player-core.test.mjs halloween-trivia/cards.test.mjs halloween-trivia/styles.css halloween-trivia/visuals/northwoods.js halloween-trivia/visuals/dart-pistol.js halloween-trivia/visuals/uss-liberty.js halloween-trivia/visuals/put-options.js
+```
 
-**Gate classes:** Typecheck/lint and site render.
+Start `python3 -m http.server 8756`. The delegated worker creates ignored `tmp/ticket003/phase2-browser.ts`; the orchestrator reruns it from the installed dev-browser directory with `npx tsx /tmp/2pizzaclub-ticket003.ted8Im/tmp/ticket003/phase2-browser.ts`. It must create fresh `ticket003-phase2-*` pages and, for all 7 cards × `mystery`/`reveal` × 1920×1080, 1366×768, and 390×844, record the exact card ID, unique `svg[data-visual]`, nonempty SVG accessible label, active-copy/frame rectangles with `inside:true`, page overflow `0/0`, `errors:[]`, and `badResponses:[]`. For every card, `I` must focus `source-panel`, show the expected evidence IDs/URLs, and Escape must return focus to `source-toggle`. With `reducedMotion:'reduce'`, all four stages must have maximum computed transition/animation duration `0`. Close only `ticket003-phase2-*`, require none remain in `client.list()`, stop port 8756, and do not kill the shared browser service.
 
-**Delegation:** subagent — own only the final three renderer modules plus their registry/CSS selectors; return files, command exit codes, all-card viewport evidence, focus/reduced-motion results, and blockers in no more than 40 lines.
+**Observable phase DoD:** the player remains healthy and cycles exactly seven cards; all seven visuals are unique; 42 mystery/reveal viewport cases are inside the frame with no browser failures; all seven source/focus checks and reduced-motion checks pass. Commit with explicit Phase 2 paths only.
 
-**Observable phase DoD:** all ten cards expose unique registered visuals, wrap correctly, keep projected copy inside the frame, open the correct hidden receipt, return focus on close, and produce no console/network failures at every declared viewport.
+### Phase 3 — Cards 8–10, full visual pass, and guide (5 points)
 
-### Phase 4 — Operator guide and live release (2 points)
+**Goal:** Extend the healthy runtime from seven to ten cards with Paperclip, COINTELPRO, and Kirk-ballistics scenes, then prove the complete show and operator guide.
 
-**Goal:** Leave the ten-card show documented, deployed, and independently verified.
+**Steps:** append cards 8–10 with exact copy/details/sources; build and register three native-SVG renderers; add scoped CSS; lock exact ten-card data tests and wraparound; update the guide; traverse all ten cards and revise the largest rendered mismatch before commit.
 
-**Steps:** update the guide, run the complete local gate, push `main`, wait for GitHub Pages, inspect the live route on projector and phone viewports, graduate the ticket, and send one Signal completion.
+**Files:** `halloween-trivia/cards.js`, `halloween-trivia/player.js`, `halloween-trivia/player-core.test.mjs`, `halloween-trivia/cards.test.mjs`, `halloween-trivia/styles.css`, `halloween-trivia/README.md`, and new `halloween-trivia/visuals/paperclip.js`, `cointelpro.js`, and `kirk-ballistics.js`.
 
-**Files:** `halloween-trivia/README.md` and ticket lifecycle path.
+**Gate classes:** Typecheck/lint, data-artifact regression, editorial quality, site render, accessibility/reduced motion, and path-limited diff hygiene.
 
-**Gate classes:** Typecheck/lint, data-artifact regression, editorial quality, site render, deploy, and notifications.
+**Delegation:** subagent — In `/tmp/2pizzaclub-ticket003.ted8Im`, own only the Phase 3 files. Append locked cards 8–10 using IDs/visual kinds `operation-paperclip`/`paperclip`, `fbi-king-letter`/`cointelpro`, and `kirk-ballistics`/`kirk-ballistics`; build three complete original SVG scenes and scoped finite reveal styles; register them; lock the exact 10-card contract and update the guide. Render the full matrix and fix the largest thesis/hierarchy/overflow mismatch. Return ≤40 lines: files; commands + exits/test/RAG counts; 10-card viewport/source/reduced-motion evidence; screenshots; console/network results; blockers. Converge honestly or report the precise blocker with the actual evidence — NEVER fake green, weaken a check, or hand-wave "should work". Run the real command, read the real file, curl the real port, and report exact output (exit codes, JSONL lines, HTTP codes), not adjectives. If it needs a spend, an outward-facing action, or a destructive change, stop and report instead.
 
-**Delegation:** subagent — independently review the finished local and live route without editing application files; return commands/exit codes, test/RAG counts, HTTP/browser evidence, background-process status, and blockers in no more than 40 lines.
+**Verification surface — orchestrator reruns before commit:**
 
-**Observable phase DoD:** guide and runtime agree on ten cards; all tests and render checks are green; the live route returns HTTP 200 with all ten IDs/visuals; one Signal completion succeeds; the ticket lifecycle check passes.
+```bash
+for file in halloween-trivia/cards.js halloween-trivia/player-core.js halloween-trivia/player-core.test.mjs halloween-trivia/cards.test.mjs halloween-trivia/player.js halloween-trivia/visuals/*.js; do node --check "$file"; done
+node --test halloween-trivia/player-core.test.mjs halloween-trivia/cards.test.mjs
+node tools/rag-eval.mjs
+node --input-type=module -e "import assert from 'node:assert/strict'; import {cards} from './halloween-trivia/cards.js'; import {createPlayerController,STAGES} from './halloween-trivia/player-core.js'; assert.equal(cards.length,10); assert.equal(new Set(cards.map(card=>card.id)).size,10); assert.equal(new Set(cards.map(card=>card.visual.kind)).size,10); assert.deepEqual(cards.slice(7).map(card=>card.id),['operation-paperclip','fbi-king-letter','kirk-ballistics']); for (const card of cards) { assert.deepEqual(Object.keys(card.timing),STAGES); assert.ok(STAGES.every(stage=>card.timing[stage]>0)); assert.ok(card.evidenceIds.length&&card.sources.length&&card.sources.every(source=>source.url)); } const player=createPlayerController({cards,autoplay:false}); player.previous(); assert.equal(player.getState().card.id,'kirk-ballistics'); for (let i=0;i<STAGES.length;i++) player.advance(); assert.equal(player.getState().card.id,'suqami-passport');"
+! rg --pcre2 -n '<(image|use|foreignObject)|(?:xlink:)?href\s*=|https?://(?!www\.w3\.org/2000/svg)' halloween-trivia/visuals/*.js
+! rg -n 'animation-iteration-count:\s*infinite|animation:[^;]*\binfinite\b' halloween-trivia/styles.css
+! rg -n 'reel|the post|the video|@[[:alnum:]_]' halloween-trivia/cards.js
+rg -n '<meta name="robots" content="noindex">' halloween-trivia/index.html
+git diff --exit-code 4e507fd -- index.html sw.js manifest.webmanifest
+git diff --check -- halloween-trivia/cards.js halloween-trivia/player.js halloween-trivia/player-core.test.mjs halloween-trivia/cards.test.mjs halloween-trivia/styles.css halloween-trivia/README.md halloween-trivia/visuals/paperclip.js halloween-trivia/visuals/cointelpro.js halloween-trivia/visuals/kirk-ballistics.js
+```
+
+Start `python3 -m http.server 8757`. The delegated worker creates ignored `tmp/ticket003/phase3-browser.ts`; the orchestrator reruns it via the installed dev-browser package. For all 10 cards × `mystery`/`reveal` × the three declared viewports, require 60 cases with the same ID/visual/accessibility/rectangle/overflow/console/network assertions as Phase 2. Require all ten source drawers and focus returns, card 10 → card 1 autoplay and manual wrap, visible focus, and reduced-motion maximum durations `0`. Save representative screenshots for all seven new mystery/reveal pairs plus one portrait composition under ignored `tmp/ticket003/`; inspect them with the local image viewer. Close only ticket pages and stop port 8757.
+
+**Observable phase DoD:** the guide and runtime agree on exactly ten cards; syntax and both test suites pass; RAG stays 5/5; 60 rendered state cases, all ten source/focus checks, wraparound, and reduced motion pass; root/PWA files are unchanged. Commit with explicit Phase 3 paths only.
+
+### Phase 4 — Live release, notification, and lifecycle (2 points)
+
+**Goal:** Deploy the already-green Phase 1–3 commits, independently verify the live ten-card route, notify the owner once, and graduate the ticket with the release evidence.
+
+**Files:** ticket lifecycle path only; no application file changes in this phase.
+
+**Gate classes:** Full regression, deploy, live site render, notifications, lifecycle, and cleanup.
+
+**Delegation:** subagent — Independently inspect the finished clean clone and, after the orchestrator pushes, `https://2pizzaclub.com/halloween-trivia/`. Do not edit application files or send notifications. Verify syntax/tests/RAG, all exact card IDs/copy/renderer imports, direct-only/noindex boundary, live HTTP/browser health at 1920×1080 and 390×844, source/focus behavior, and ticket-page/server cleanup. Return ≤40 lines: commands + exits; test/RAG counts; HTTP and browser matrices; exact blockers. Converge honestly or report the precise blocker with the actual evidence — NEVER fake green, weaken a check, or hand-wave "should work". Run the real command, read the real file, curl the real port, and report exact output (exit codes, JSONL lines, HTTP codes), not adjectives. If it needs a spend, an outward-facing action, or a destructive change, stop and report instead.
+
+**Verification surface — orchestrator reruns:**
+
+```bash
+for file in halloween-trivia/cards.js halloween-trivia/player-core.js halloween-trivia/player-core.test.mjs halloween-trivia/cards.test.mjs halloween-trivia/player.js halloween-trivia/visuals/*.js; do node --check "$file"; done
+node --test halloween-trivia/player-core.test.mjs halloween-trivia/cards.test.mjs
+node tools/rag-eval.mjs
+rg -n '<meta name="robots" content="noindex">' halloween-trivia/index.html
+git diff --exit-code 4e507fd -- index.html sw.js manifest.webmanifest
+git diff --check
+git fetch origin main
+git rev-list --left-right --count HEAD...origin/main
+```
+
+If the second divergence count is nonzero, the clean clone may run `git pull --rebase origin main`; rerun the entire Phase 4 local gate afterward and never force-push. Push `main`, then poll both `https://2pizzaclub.com/halloween-trivia/` and `https://2pizzaclub.com/halloween-trivia/cards.js` until each returns HTTP 200 and the fetched module contains all ten IDs. Through fresh `ticket003-live-*` pages, traverse all ten cards at 1920×1080 and 390×844; require ten unique visuals, exact active copy, inside-frame rectangles, overflow `0/0`, every Source receipt/focus return, `errors:[]`, and `badResponses:[]`. Confirm the root page does not link `/halloween-trivia/`.
+
+After live success, send exactly once:
+
+```bash
+/home/wabbazzar/code/wabbazzar-ice/scripts/notify.sh "Halloween trivia" "10-card haunted broadcast is live: https://2pizzaclub.com/halloween-trivia/ — syntax, tests, RAG 5/5, 10 unique vector reveals, projector/mobile renders, sources, focus, reduced motion, and live HTTP checks passed."
+```
+
+Require exit 0 and a same-day `notify.send` event with `title=Halloween trivia`, `status=ok`, and HTTP 200/201 in the configured event stream. Update this ticket’s Ledger with exact commits/evidence, set status Complete, then run `/home/wabbazzar/code/shipyard/scripts/ticket-lifecycle.sh --project /tmp/2pizzaclub-ticket003.ted8Im --graduate docs/tickets/pending/003_feature_seven_more_halloween_cards.md`; stage the resulting rename explicitly, commit the release evidence, push, and require `ticket-lifecycle.sh --project /tmp/2pizzaclub-ticket003.ted8Im --check` → exit 0. Close only ticket pages; stop every ticket-owned HTTP server; shared dev-browser processes are exempt and must remain running.
+
+**Observable phase DoD:** live route/cards return 200 and traverse all ten exact cards at projector and phone widths with no browser failures; one Signal send and event succeed; the ticket is complete under `docs/tickets/complete/`; lifecycle check is green; the clean clone has no ticket-owned leftovers.
 
 ## Testing Strategy
 
@@ -144,7 +263,7 @@ None.
 
 - [ ] The player contains exactly ten cards: the original three followed by the seven locked additions.
 - [ ] Every new question and punchline matches the Decisions table exactly.
-- [ ] The dart-pistol record has its checked Senate source; new USS Liberty and Kirk ballistics records contain narrow attributable claims; regenerated `rag-index.json` and `bundle.json` match the evidence manifest.
+- [ ] The dart-pistol, put-options, and Paperclip records have checked source-supported wording/quotes; new USS Liberty and Kirk ballistics records contain narrow attributable claims; regenerated `rag-index.json` and `bundle.json` match the evidence manifest.
 - [ ] Every new card’s hidden panel shows a concise factual detail, the correct evidence ID, and the checked supporting source links; no detail or citation enters projected copy.
 - [ ] The seven added cards render seven distinct original native-SVG scenes, for ten unique `data-visual` values total, with no raster, remote, generated, package-supplied, or copyrighted artwork.
 - [ ] Mystery silhouettes and reveal states remain legible and inside the broadcast frame at 1920×1080, 1366×768, and 390×844.
@@ -155,6 +274,17 @@ None.
 - [ ] The pushed live route returns HTTP 200 and visibly traverses all ten cards on desktop/projector and phone viewports.
 - [ ] The owner receives one Signal completion message containing the live URL and concise gate result.
 - [ ] Every phase is committed with explicit paths, the ticket is graduated on full completion, and the original shared checkout’s unrelated work is untouched.
+
+## Ledger
+
+The builder appends one row after every phase. Record the plan, exact commit, builder form, commands/results, and any honest deferral; evidence longer than 40 lines belongs here rather than in orchestrator context.
+
+| Phase | Commit | Builder | Gate evidence | Deferred / notes |
+|---|---|---|---|---|
+| 1 — evidence + artifacts | pending | pending | pending | pending |
+| 2 — cards 4–7 + vectors | pending | pending | pending | pending |
+| 3 — cards 8–10 + full pass | pending | pending | pending | pending |
+| 4 — live release + lifecycle | pending | pending | pending | pending |
 
 ## Boundaries
 
@@ -203,4 +333,4 @@ None.
 - Publishing any social-media post.
 - Reworking the original three card concepts or their approved copy.
 
-Draft ready for `polish-ticket`.
+Execute with `execute-ticket`; stop only for a user-decision-class item named in this ticket.
