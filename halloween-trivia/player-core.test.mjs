@@ -92,12 +92,12 @@ test("restart returns to stinger and restores its full duration", () => {
   );
 });
 
-test("previous and next navigation wrap three cards and restart their stinger", () => {
-  const run = harness({ cards: [card("one"), card("two"), card("three")] });
+test("previous and next navigation wrap seven cards and restart their stinger", () => {
+  const run = harness({ cards: Array.from({ length: 7 }, (_, index) => card(String(index + 1))) });
   run.controller.previous();
-  assert.deepEqual([run.controller.getState().card.id, run.controller.getState().stage], ["three", "stinger"]);
+  assert.deepEqual([run.controller.getState().card.id, run.controller.getState().stage], ["7", "stinger"]);
   run.controller.next();
-  assert.deepEqual([run.controller.getState().card.id, run.controller.getState().stage], ["one", "stinger"]);
+  assert.deepEqual([run.controller.getState().card.id, run.controller.getState().stage], ["1", "stinger"]);
 });
 
 test("preview query freezes only on valid requested stages", () => {

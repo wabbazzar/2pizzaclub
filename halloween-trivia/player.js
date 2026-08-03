@@ -1,13 +1,21 @@
 import { cards } from "./cards.js";
 import { createPlayerController, parsePreviewQuery } from "./player-core.js";
+import { renderDartPistol } from "./visuals/dart-pistol.js";
 import { renderLease } from "./visuals/lease.js";
 import { renderMkultra } from "./visuals/mkultra.js";
+import { renderNorthwoods } from "./visuals/northwoods.js";
 import { renderPassport } from "./visuals/passport.js";
+import { renderPutOptions } from "./visuals/put-options.js";
+import { renderUssLiberty } from "./visuals/uss-liberty.js";
 
 const renderers = Object.freeze({
   passport: renderPassport,
   lease: renderLease,
   mkultra: renderMkultra,
+  northwoods: renderNorthwoods,
+  "dart-pistol": renderDartPistol,
+  "uss-liberty": renderUssLiberty,
+  "put-options": renderPutOptions,
 });
 const preview = parsePreviewQuery(window.location.search);
 

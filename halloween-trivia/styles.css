@@ -305,6 +305,186 @@ a:focus-visible {
   stroke-width: 13;
 }
 
+.northwoods-object,
+.dart-pistol-object,
+.uss-liberty-object,
+.put-options-object {
+  transform-origin: 450px 300px;
+  transition: transform 620ms cubic-bezier(0.2, 0.75, 0.25, 1);
+}
+
+.northwoods-shadow,
+.dart-pistol-shadow,
+.uss-liberty-shadow,
+.put-options-shadow {
+  fill: var(--ink);
+  stroke: var(--ink);
+  stroke-linejoin: round;
+  stroke-width: 18;
+  transition: opacity 280ms ease;
+}
+
+.northwoods-reveal,
+.dart-pistol-reveal,
+.uss-liberty-reveal,
+.put-options-reveal {
+  opacity: 0;
+  transition: opacity 320ms ease;
+}
+
+.northwoods-folder-back,
+.dart-pistol-body,
+.uss-liberty-hull,
+.put-options-sheet {
+  fill: var(--cream);
+  stroke: var(--ink);
+  stroke-linejoin: round;
+  stroke-width: 17;
+}
+
+.northwoods-folder-tab,
+.dart-pistol-cutaway,
+.uss-liberty-deck,
+.put-options-tally rect {
+  fill: var(--yellow);
+  stroke: var(--ink);
+  stroke-linejoin: round;
+  stroke-width: 14;
+}
+
+.northwoods-paper {
+  fill: var(--cream);
+  stroke: var(--ink);
+  stroke-width: 13;
+}
+
+.northwoods-map,
+.northwoods-targets circle,
+.northwoods-stamp path,
+.dart-pistol-trigger,
+.dart-pistol-dart path,
+.dart-pistol-vial path,
+.uss-liberty-rigging,
+.uss-liberty-waves path,
+.put-options-grid path,
+.put-options-call-line,
+.put-options-put-line path,
+.put-options-tally path {
+  fill: none;
+  stroke: var(--ink);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 12;
+}
+
+.northwoods-targets circle {
+  stroke: var(--red);
+  stroke-width: 10;
+}
+
+.northwoods-stamp {
+  transform: rotate(-12deg) scale(0.78);
+  transform-origin: 458px 405px;
+  transition: transform 520ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.northwoods-stamp rect {
+  fill: var(--red);
+  stroke: var(--ink);
+  stroke-width: 10;
+}
+
+.northwoods-stamp path {
+  stroke: var(--cream);
+  stroke-width: 8;
+}
+
+.dart-pistol-grip {
+  fill: var(--red);
+  stroke: var(--ink);
+  stroke-linejoin: round;
+  stroke-width: 17;
+}
+
+.dart-pistol-dart {
+  transition: transform 480ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.dart-pistol-dart path:first-child {
+  stroke: var(--green);
+  stroke-width: 17;
+}
+
+.dart-pistol-dart path:not(:first-child) {
+  fill: var(--green);
+  stroke: var(--ink);
+  stroke-width: 10;
+}
+
+.dart-pistol-vial rect {
+  fill: var(--green);
+  stroke: var(--ink);
+  stroke-width: 12;
+}
+
+.uss-liberty-hull {
+  fill: var(--royal);
+}
+
+.uss-liberty-mast {
+  fill: var(--ink);
+}
+
+.uss-liberty-dish {
+  fill: var(--yellow);
+  stroke: var(--ink);
+  stroke-width: 16;
+}
+
+.uss-liberty-waves path {
+  stroke: var(--green);
+  stroke-width: 15;
+}
+
+.uss-liberty-attack {
+  opacity: 0.25;
+  transform: translateY(-35px);
+  transition: opacity 300ms ease, transform 480ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.uss-liberty-attack path {
+  fill: none;
+  stroke: var(--red);
+  stroke-linecap: round;
+  stroke-width: 18;
+}
+
+.uss-liberty-attack circle {
+  fill: var(--red);
+  stroke: var(--ink);
+  stroke-width: 12;
+}
+
+.put-options-grid path {
+  stroke: var(--royal);
+  stroke-width: 8;
+}
+
+.put-options-call-line {
+  stroke: var(--green);
+  stroke-width: 17;
+}
+
+.put-options-put-line {
+  transform: translateY(-42px);
+  transition: transform 520ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.put-options-put-line path {
+  stroke: var(--red);
+  stroke-width: 20;
+}
+
 .copy-deck {
   position: absolute;
   inset: 9% 7% 9% 57%;
@@ -314,6 +494,7 @@ a:focus-visible {
 }
 
 .copy-panel {
+  min-width: 0;
   width: 100%;
   margin: 0;
   font-size: clamp(20px, 1.65vw, 32px);
@@ -349,10 +530,11 @@ a:focus-visible {
 .mystery-question,
 .reveal-answer {
   padding: 0.32em 0.28em;
+  overflow-wrap: anywhere;
   color: var(--ink);
   background-color: var(--yellow);
   box-shadow: 12px 12px 0 var(--ink);
-  font: 900 clamp(48px, 5vw, 96px) / 0.92 var(--display);
+  font: 900 clamp(42px, 4.25vw, 82px) / 0.92 var(--display);
   letter-spacing: 0.01em;
   text-transform: uppercase;
 }
@@ -414,6 +596,44 @@ a:focus-visible {
 #projection-stage[data-stage="reveal"] .lease-reveal,
 #projection-stage[data-stage="reveal"] .mkultra-reveal {
   opacity: 1;
+}
+
+#projection-stage[data-stage="reveal"] .northwoods-object,
+#projection-stage[data-stage="reveal"] .dart-pistol-object,
+#projection-stage[data-stage="reveal"] .uss-liberty-object,
+#projection-stage[data-stage="reveal"] .put-options-object {
+  transform: rotate(1deg) scale(1.025);
+}
+
+#projection-stage[data-stage="reveal"] .northwoods-shadow,
+#projection-stage[data-stage="reveal"] .dart-pistol-shadow,
+#projection-stage[data-stage="reveal"] .uss-liberty-shadow,
+#projection-stage[data-stage="reveal"] .put-options-shadow {
+  opacity: 0;
+}
+
+#projection-stage[data-stage="reveal"] .northwoods-reveal,
+#projection-stage[data-stage="reveal"] .dart-pistol-reveal,
+#projection-stage[data-stage="reveal"] .uss-liberty-reveal,
+#projection-stage[data-stage="reveal"] .put-options-reveal {
+  opacity: 1;
+}
+
+#projection-stage[data-stage="reveal"] .northwoods-stamp {
+  transform: rotate(-4deg) scale(1);
+}
+
+#projection-stage[data-stage="mystery"] .dart-pistol-dart {
+  transform: translateX(-80px);
+}
+
+#projection-stage[data-stage="reveal"] .uss-liberty-attack {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#projection-stage[data-stage="reveal"] .put-options-put-line {
+  transform: translateY(0);
 }
 
 #projection-stage[data-card-id="silverstein-lease"][data-stage="mystery"] .lease-sparks path:nth-child(odd),
@@ -571,7 +791,7 @@ noscript {
 
   .mystery-question,
   .reveal-answer {
-    font-size: clamp(42px, 12vw, 58px);
+    font-size: clamp(32px, 8.2vw, 46px);
   }
 
   #projection-stage[data-card-id="silverstein-lease"] .reveal-answer {
