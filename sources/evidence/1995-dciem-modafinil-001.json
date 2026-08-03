@@ -1,0 +1,29 @@
+{
+    "id": "1995-dciem-modafinil-001",
+    "anchor": "y2016-west-hospitalization",
+    "year": 1995,
+    "era": "iv",
+    "themes": [
+        "defense",
+        "science",
+        "pharma"
+    ],
+    "claim": "The Canadian defence laboratory where Harley Pasternak did his research — DCIEM, the Defence and Civil Institute of Environmental Medicine, run by the Department of National Defence — ran a published program dosing military personnel with stimulants to extend how long they could stay awake and functional. A 1995 study in the Journal of Sleep Research by DCIEM's Human Factors Division gave 41 military subjects either 300 mg of modafinil, 20 mg of dextroamphetamine, or placebo on three separate occasions during 64 hours of continuous cognitive work without sleep. Modafinil, then a narcolepsy drug, has been studied at the institute in later work as well, including a 40-hour sleep-deprivation trial in a 30°C climate chamber. Pasternak is not an author on the modafinil papers; his own published work at the institute was on ephedrine and caffeine.",
+    "sources": [
+        {
+            "label": "Pigeau R, Naitoh P, Buguet A, et al. — “Modafinil, d-amphetamine and placebo during 64 hours of sustained mental work. I,” J Sleep Res, Dec 1995 (PMID 10607161)",
+            "type": "primary",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10607161/",
+            "quote": "Forty-one military subjects received either 300 mg of modafinil, 20 mg of d-amphetamine, or placebo on 3 separate occasions during 64 hours of continuous cognitive work and sleep loss.",
+            "clip": "clips/1995-dciem-modafinil-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Military Medicine — “State-of-the-Art Review on the Use of Modafinil as A Performance-enhancing Drug in the Context of Military Operationality” (Oxford Academic)",
+            "type": "secondary",
+            "url": "https://academic.oup.com/milmed/article/187/11-12/1286/6386431"
+        }
+    ],
+    "status": "verified",
+    "notes": "This record exists to separate a true premise from an unsupported inference. The premise — a Canadian military lab systematically tested wakefulness drugs on soldiers, and the trainer worked at that lab — is documented in the peer-reviewed literature. The inference some draw from it, that this training equips or authorizes a civilian trainer to drug a client, is not supported by anything in the record and is not asserted here. The Pigeau paper's affiliation line names DCIEM's Human Factors Division directly. Surfacing capture: DbgKuyBgiky."
+}

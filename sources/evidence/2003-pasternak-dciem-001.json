@@ -1,0 +1,32 @@
+{
+    "id": "2003-pasternak-dciem-001",
+    "anchor": "y2016-west-hospitalization",
+    "year": 2003,
+    "era": "iv",
+    "themes": [
+        "defense",
+        "science",
+        "wellness"
+    ],
+    "claim": "Before he trained celebrities, Harley Pasternak was a research scientist for the Canadian military. He holds a master's degree in exercise physiology and nutritional sciences from the University of Toronto, and in 2003 he co-authored a peer-reviewed study on the effects of ephedrine and caffeine on muscular endurance with Ira Jacobs and Douglas G. Bell, published in Medicine & Science in Sports & Exercise under the institutional affiliation Defence R&D Canada–Toronto. That institution was then known as DCIEM — the Defence and Civil Institute of Environmental Medicine, the Department of National Defence laboratory studying human performance limits for the Canadian Forces. Wikipedia additionally lists him as a nutrition and exercise scientist at the institute from 2005 to 2007, specializing in caffeine and ephedrine. Pasternak has described this work publicly in interviews, saying that working for the military meant he “wasn't governed by the same laws that the typical person was” and could study the effects of drugs that “are not everyday things.”",
+    "sources": [
+        {
+            "label": "Jacobs I, Pasternak H, Bell DG — “Effects of ephedrine, caffeine, and their combination on muscular endurance,” Med Sci Sports Exerc, June 2003 (PMID 12783047)",
+            "type": "primary",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12783047/",
+            "quote": "The purpose of this study was to investigate the effects of ingesting caffeine (C), ephedrine (E), and their combination on muscular endurance, using a double-blind, repeated measures design.",
+            "clip": "clips/2003-pasternak-dciem-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Wikipedia — “Harley Pasternak”, on his defence research post",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Harley_Pasternak",
+            "quote": "served as a nutrition and exercise scientist at Department of National Defence's Defence and Civil Institute for Environmental Medicine from 2005 to 2007. As a scientist, he focused on performance physiology and nutrition, with a specialty in caffeine and ephedrine.",
+            "clip": "clips/2003-pasternak-dciem-001-01.png",
+            "clip_status": "ok-cross-node"
+        }
+    ],
+    "status": "verified",
+    "notes": "The 2003 paper predates the 2005–2007 staff dates Wikipedia gives, which is consistent with the paper coming out of his graduate work under Jacobs, who was his supervisor at the institute — he names Jacobs as his graduate advisor in interviews. Both the affiliation and the co-authorship are on the published paper, so this is a primary-source fact, not a biography claim. DCIEM was renamed Defence R&D Canada–Toronto in 2002 and is now DRDC Toronto Research Centre. Distinguish this from the assertion that he worked for Canadian intelligence, which has no support. Surfacing capture: DbgKuyBgiky."
+}

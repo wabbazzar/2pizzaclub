@@ -1,0 +1,33 @@
+{
+    "id": "2022-west-pasternak-texts-001",
+    "anchor": "y2016-west-hospitalization",
+    "year": 2022,
+    "era": "iv",
+    "themes": [
+        "mind-control",
+        "journalism",
+        "pharma"
+    ],
+    "claim": "In early November 2022, Kanye West posted to Twitter a screenshot of a text exchange he attributed to his trainer of roughly fifteen years, Harley Pasternak. The screenshot offers West two options; the second reads: “I have you institutionalized again where they medicate the crap out of you and you go back to Zombieland forever. Play date with the kids just won't be the same.” West captioned his posts with the assertion that he had been “mentally misdiagnosed and nearly drugged out of my mind to make me a manageable well behaved celebrity.” Pasternak has not publicly confirmed, denied, or explained the messages, and the screenshot has never been independently authenticated. Fox News host Tucker Carlson aired and read the screenshot on his program; most other major outlets covered it briefly or not at all.",
+    "sources": [
+        {
+            "label": "Yahoo News UK — “Kanye West ‘threatened with institutionalisation by celebrity trainer Harley Pasternak’” (Nov 2022)",
+            "type": "secondary",
+            "url": "https://uk.news.yahoo.com/kanye-west-threatened-institutionalisation-celebrity-200000022.html",
+            "quote": "I have you institutionalized again where they medicate the crap out of you",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "UNILAD — “Kanye West's personal trainer threatens to commit the rapper to a mental hospital” (Nov 4, 2022)",
+            "type": "secondary",
+            "url": "https://www.unilad.com/celebrity/kanye-west-friend-threaten-institutionalise-him-again-if-he-wont-stop-20221104"
+        },
+        {
+            "label": "iHeartRadio Canada — “Ye Returns To Twitter, Calls Out Canada's Harley Pasternak”",
+            "type": "secondary",
+            "url": "https://www.iheartradio.ca/en/music-news/ye-returns-to-twitter-calls-out-canada-s-harley-pasternak-1.18736508"
+        }
+    ],
+    "status": "verified",
+    "notes": "What is verified here is the artifact and its contents: West posted the screenshot, and the quoted line is what it says. What is NOT verified is authorship — no forensic authentication, no confirmation from Pasternak, no denial either. West posted this during the same weeks he was making the statements that got him dropped by Adidas and other partners, which is part of why coverage was thin; that is context, not a resolution of whether the texts are genuine. West also asserted on camera that Pasternak is “actually Canadian intelligence” — that specific characterization has no support; Pasternak's documented Canadian government work was at a Department of National Defence research institute, not an intelligence service (see the DCIEM records). Surfacing capture: DbgKuyBgiky."
+}

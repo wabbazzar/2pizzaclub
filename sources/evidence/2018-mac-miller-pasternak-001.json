@@ -1,0 +1,33 @@
+{
+    "id": "2018-mac-miller-pasternak-001",
+    "anchor": "y2016-west-hospitalization",
+    "year": 2018,
+    "era": "iv",
+    "themes": [
+        "body-count",
+        "pharma"
+    ],
+    "claim": "Malcolm James McCormick, the rapper Mac Miller, was found dead at his Los Angeles home on September 7, 2018, aged 26. The Los Angeles County coroner determined on November 5, 2018 that he died of mixed drug toxicity — fentanyl, cocaine and alcohol — and ruled the death accidental. Harley Pasternak was his trainer, and Miller was scheduled for a session with him that day. Pasternak's own account to Page Six inverts a detail often repeated online: he was mid-session with another client and learned of the death about 45 minutes before Miller was due to arrive — “I was mid-session with someone else expecting him to show up about 45 min later” — not that Miller died 45 minutes before a scheduled workout. Pasternak also told the outlet that Miller was not depressed: “I know people that are depressed (and) that was not a depressed person.”",
+    "sources": [
+        {
+            "label": "Wikipedia — “Mac Miller”, on the coroner's determination",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Mac_Miller",
+            "quote": "mixed drug toxicity",
+            "clip": "clips/2018-mac-miller-pasternak-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "PopCulture — “Mac Miller's Personal Trainer Says Rapper Would Be 'Pissed' He Died” (Sept 2018), citing Page Six",
+            "type": "secondary",
+            "url": "https://popculture.com/music/news/mac-miller-personal-trainer-rapper-statement-death/"
+        },
+        {
+            "label": "Business Standard / IANS — “Mac Miller was not depressed, says his trainer” (Sept 15, 2018)",
+            "type": "secondary",
+            "url": "https://www.business-standard.com/article/news-ians/mac-miller-was-not-depressed-says-his-trainer-118091500089_1.html"
+        }
+    ],
+    "status": "verified",
+    "notes": "Three men were later convicted in federal court in connection with supplying the counterfeit oxycodone pills containing fentanyl. The trainer connection is real — Pasternak trained Miller and spoke to the press about it — but the timing detail is routinely restated backwards in a way that makes the proximity sound stranger than his account does. Recording the actual quote is the point of this card. Surfacing capture: DbgKuyBgiky."
+}

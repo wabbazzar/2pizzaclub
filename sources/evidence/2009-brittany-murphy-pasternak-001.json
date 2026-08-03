@@ -1,0 +1,38 @@
+{
+    "id": "2009-brittany-murphy-pasternak-001",
+    "anchor": "y2016-west-hospitalization",
+    "year": 2009,
+    "era": "iv",
+    "themes": [
+        "body-count",
+        "pharma"
+    ],
+    "claim": "Actress Brittany Murphy died at her Los Angeles home on December 20, 2009, aged 32. On February 4, 2010 the Los Angeles County coroner gave the cause as community-acquired pneumonia, with iron-deficiency anemia and multiple drug intoxication as contributing factors, and ruled the death accidental; the drugs found were over-the-counter and prescription medications consistent with treating a respiratory infection. Her husband, Simon Monjack, died in the same house five months later, in May 2010, of the same combination of pneumonia and anemia. Harley Pasternak trained both of them: he has said Monjack hired him to work with Murphy, that she arrived at his gym visibly impaired and “kind of all over the place,” that he was told Monjack had become her agent, manager and lawyer after she fired her representatives, and that he eventually stopped working with Monjack over an unpaid balance. He gave this account on camera in the 2021 HBO Max documentary “What Happened, Brittany Murphy?”",
+    "sources": [
+        {
+            "label": "Wikipedia — “Brittany Murphy”, on the Los Angeles County coroner's findings",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Brittany_Murphy",
+            "quote": "the cause of death was pneumonia, with secondary factors of severe iron-deficiency anemia and multiple drug intoxication.",
+            "clip": "clips/2009-brittany-murphy-pasternak-001-00.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "CNN — “Cold medicines contributed to Brittany Murphy's death, coroner says” (Feb 25, 2010)",
+            "type": "secondary",
+            "url": "https://www.cnn.com/2010/SHOWBIZ/Movies/02/25/brittany.murphy.autopsy/"
+        },
+        {
+            "label": "ABC News — “Brittany Murphy's Death Caused by Pneumonia, Prescription Drugs”",
+            "type": "secondary",
+            "url": "https://abcnews.com/Entertainment/brittany-murphys-death-caused-pneumonia-prescription-drugs/story?id=9747860"
+        },
+        {
+            "label": "Bustle — “A New Brittany Murphy Doc Casts Suspicion On Her Husband In Her Sudden 2009 Death”, on Pasternak's account in the HBO Max documentary",
+            "type": "secondary",
+            "url": "https://www.bustle.com/entertainment/brittany-murphys-husband-simon-monjack"
+        }
+    ],
+    "status": "verified",
+    "notes": "Murphy's mother later commissioned an independent toxicology test on hair and tissue samples that reported elevated heavy metals and raised a poisoning theory; the coroner's office reviewed and did not change its finding. That dispute is noted here rather than adopted. Pasternak's involvement is as a witness who described what he saw, which is the opposite posture from the handler framing built around him elsewhere — he went on the record about Monjack's control over Murphy. Surfacing capture: DbgKuyBgiky."
+}

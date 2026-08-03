@@ -319,6 +319,13 @@
         "2026-sv40-equivalence-claim-001.json",
         "2021-early-treatment-claim-001.json",
         "2024-cdc-myocarditis-redaction-001.json",
-        "2021-blank-vaccine-insert-001.json"
+        "2021-blank-vaccine-insert-001.json",
+        "2016-west-hospitalization-001.json",
+        "2022-west-pasternak-texts-001.json",
+        "2003-pasternak-dciem-001.json",
+        "1995-dciem-modafinil-001.json",
+        "2018-mac-miller-pasternak-001.json",
+        "2009-brittany-murphy-pasternak-001.json",
+        "2023-carlson-fox-exit-001.json"
     ]
 }

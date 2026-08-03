@@ -1,0 +1,32 @@
+{
+    "id": "2023-carlson-fox-exit-001",
+    "anchor": "y2016-west-hospitalization",
+    "year": 2023,
+    "era": "iv",
+    "themes": [
+        "journalism"
+    ],
+    "claim": "Fox News announced on April 24, 2023 that it and Tucker Carlson had “agreed to part ways.” The network gave no reason. Carlson's last broadcast had aired the previous Friday, April 21, and the decision was made that Friday evening by Fox Corporation chief executive Lachlan Murdoch and Fox News chief executive Suzanne Scott, with Carlson informed on the Monday morning. The announcement came six days after Fox settled Dominion Voting Systems' defamation suit over 2020 election-fraud claims for $787.5 million; of the twenty statements Dominion challenged, one had aired on Carlson's program. Carlson had, five months earlier, devoted a segment to the text-message screenshot Kanye West posted and to the fact that other outlets were not covering it.",
+    "sources": [
+        {
+            "label": "Al Jazeera — “Fox News parts ways with influential host Tucker Carlson” (Apr 24, 2023)",
+            "type": "secondary",
+            "url": "https://www.aljazeera.com/news/2023/4/24/fox-news-parts-ways-with-influential-host-tucker-carls",
+            "quote": "Fox News Media and Tucker Carlson have agreed to part ways. We thank him for his service to the network as a host and prior to that as a contributor.",
+            "clip": "clips/2023-carlson-fox-exit-001-00.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "NPR — “Tucker Carlson ousted at Fox News following network's $787 million settlement” (Apr 24, 2023)",
+            "type": "secondary",
+            "url": "https://www.npr.org/2023/04/24/1171641969/fox-news-fires-tucker-carlson-in-stunning-move-a-week-after-787-million-settleme"
+        },
+        {
+            "label": "CNN Business — “Tucker Carlson leaving Fox News” (Apr 24, 2023)",
+            "type": "secondary",
+            "url": "https://www.cnn.com/2023/04/24/media/tucker-carlson-fox-news/index.html"
+        }
+    ],
+    "status": "verified",
+    "notes": "Both facts are on the record — Carlson covered the screenshot in November 2022, and Fox cut him loose in April 2023 — and no source establishes a link between them. Fox has never stated a reason. The reporting at the time pointed to the Dominion settlement, to a separate discrimination suit filed by a former producer, and to internal messages disclosed in the Dominion litigation; each of those is an attributed explanation, not a finding. This card records the timeline and leaves the causal question where the evidence leaves it. Surfacing capture: DbgKuyBgiky."
+}

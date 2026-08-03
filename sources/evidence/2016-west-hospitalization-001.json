@@ -1,0 +1,41 @@
+{
+    "id": "2016-west-hospitalization-001",
+    "anchor": "y2016-west-hospitalization",
+    "year": 2016,
+    "era": "iv",
+    "themes": [
+        "body-count",
+        "mind-control"
+    ],
+    "claim": "Kanye West cut his Sacramento concert short after roughly three songs on November 19, 2016, delivering a thirty-minute onstage monologue about Jay-Z, Beyoncé, Hillary Clinton and the media before walking off. Two days later, on November 21, his representatives cancelled the remaining 21 dates of the Saint Pablo Tour. That same afternoon paramedics were called to the Los Angeles home of his trainer, Harley Pasternak; the 911 call was placed not by Pasternak but by West's personal physician, Dr. Michael Farzam, who told dispatchers West was not violent but would become so if police arrived, and that he had attempted to assault a staff member at the gym. West was transported to Ronald Reagan UCLA Medical Center and held for psychiatric observation. He was discharged on November 30, 2016 — a hospitalization of roughly nine days.",
+    "sources": [
+        {
+            "label": "Washington Post — “Kanye West goes on epic rant, storms out of Sacramento concert after 30 minutes” (Nov 20, 2016)",
+            "type": "secondary",
+            "url": "https://www.washingtonpost.com/news/arts-and-entertainment/wp/2016/11/20/kanye-west-goes-on-epic-rant-storms-out-of-sacramento-concert-after-30-minutes/"
+        },
+        {
+            "label": "ABC7 — “Report says Kanye West handcuffed to gurney in precautionary measure after 911 call” (Nov 22, 2016)",
+            "type": "secondary",
+            "url": "https://abc7news.com/post/report-says-kanye-west-handcuffed-to-gurney/1620728/",
+            "quote": "was not violent, but would be if police showed up",
+            "clip": "clips/2016-west-hospitalization-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Wikipedia — “Kanye West”, on the Saint Pablo Tour cancellation",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Kanye_West",
+            "quote": "On November 21, 2016, West cancelled the remaining 21 dates on the Saint Pablo Tour, following a week of no-shows, curtailed concerts and rants about politics.",
+            "clip": "clips/2016-west-hospitalization-001-02.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "ITV News — “Kanye West released from hospital following admission for exhaustion” (Dec 1, 2016)",
+            "type": "secondary",
+            "url": "https://www.itv.com/news/2016-12-01/kanye-west-released-from-hospital-following-admission-for-exhaustion"
+        }
+    ],
+    "status": "verified",
+    "notes": "The sequence itself is documented and uncontested. One detail circulating online gets the chain wrong: the 911 call came from West's own physician, Dr. Michael Farzam, not from Pasternak — Pasternak's involvement is that the call originated at his residence, where West was training. Why West was in that state, and whether the hospitalization was warranted, are separate contested questions handled in the 2022 texts record; this record covers only the documented sequence and the responding parties. Surfacing capture: DbgKuyBgiky."
+}

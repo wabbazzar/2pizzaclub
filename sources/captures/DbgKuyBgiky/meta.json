@@ -1,0 +1,37 @@
+{
+    "id": "DbgKuyBgiky",
+    "url": "https://www.instagram.com/reel/DbgKuyBgiky/",
+    "platform": "instagram",
+    "captured_at": "2026-08-03",
+    "handle": "@hustlebitch_",
+    "author_display_name": "Hustle Bitch",
+    "posted_at": "2026-08-01",
+    "engagement": {
+        "likes": 33258,
+        "comments": 1302
+    },
+    "caption": "🚨 KANYE WEST TRIED TO EXPOSE HIS “HANDLER” — AND THEN EVERYTHING FELL APART\n\nMost people think they know what happened to Kanye West.\n\nThey don’t.\n\nYears ago he started saying things that made Hollywood uncomfortable. \nHe called out the media. \nHe talked about being under constant attack.\n\nThen he got institutionalized.\n\nLater, he released text messages from his longtime trainer, Harley Pasternak. \n\nIn those messages, the trainer allegedly threatened him:\n\n“I have you institutionalized again… where they medicate the crap out of you and you go back to Zombieland forever.”\n\nAfter that, major media mostly stayed quiet.\n\nThe only major media figure who really talked about those texts was Tucker Carlson.\n\nA few months later, Tucker was fired by Fox.\n\nPeople also point out that the same trainer was connected to other celebrities who died under strange circumstances including Mac Miller and Britney Murphy.\n\nAnd Harley Pasternak has openly talked about working in a military “superhuman lab” studying performance-enhancing drugs.\n\nToo many coincidences for some people.\n\nWas Kanye’s downfall random… or was he being controlled the whole time?",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Cover card: '🚨 KANYE WEST TRIED TO EXPOSE HIS \"HANDLER\" — AND THEN EVERYTHING FELL APART'. Clip watermark @culturedogz.",
+    "audio_content_summary": "Narrated chain-of-coincidence about Kanye West and his longtime trainer Harley Pasternak, cut with archival clips: West's May 2016 Ellen DeGeneres appearance, his November 2016 Sacramento show, news coverage of the November 2016 UCLA hospitalization, his October 2022 Tucker Carlson interview, Carlson reading the leaked text screenshot on air, and a Pasternak podcast clip describing his Canadian defence-lab research on drugs and performance.",
+    "implied_frame": "Frames West's 2016 hospitalization and 2022 collapse as managed suppression by a 'handler' rather than as documented events with contested causes. Verified underneath: the November 2016 sequence and the 911 call from Pasternak's residence (placed by West's physician, not Pasternak); the screenshot West posted and its wording; Pasternak's real Canadian Department of National Defence research career and the modafinil sleep-deprivation program at that institute; the deaths of Mac Miller and Brittany Murphy and Pasternak's documented connection to both; Carlson's April 2023 Fox exit. Not established: that Pasternak sent the texts (never authenticated, never confirmed or denied); that he is or was 'Canadian intelligence' (his documented government work was at a defence research institute, not an intelligence service); that Carlson's firing followed from covering the texts; that the deaths near Pasternak are connected to each other or to him. The Mac Miller timing is also stated backwards — Pasternak's own account is that he learned of the death 45 minutes before Miller was due to arrive.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~18.8 MB); delivery ~20.7 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2016-west-hospitalization-001",
+        "2022-west-pasternak-texts-001",
+        "2003-pasternak-dciem-001",
+        "1995-dciem-modafinil-001",
+        "2018-mac-miller-pasternak-001",
+        "2009-brittany-murphy-pasternak-001",
+        "2023-carlson-fox-exit-001"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 5,
+        "b": 6,
+        "c": 2
+    }
+}
