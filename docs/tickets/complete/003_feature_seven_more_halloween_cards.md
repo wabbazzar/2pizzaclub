@@ -1,6 +1,6 @@
 # 003 — Seven more Halloween trivia cards
 
-- **Status:** Polished — ready for execution
+- **Status:** Complete
 - **Priority:** High
 - **Type:** feature
 - **Created:** 2026-08-03
@@ -261,19 +261,19 @@ Require exit 0 and a same-day `notify.send` event with `title=Halloween trivia`,
 
 ## Acceptance Criteria / Definition of Done
 
-- [ ] The player contains exactly ten cards: the original three followed by the seven locked additions.
-- [ ] Every new question and punchline matches the Decisions table exactly.
-- [ ] The dart-pistol, put-options, and Paperclip records have checked source-supported wording/quotes; new USS Liberty and Kirk ballistics records contain narrow attributable claims; regenerated `rag-index.json` and `bundle.json` match the evidence manifest.
-- [ ] Every new card’s hidden panel shows a concise factual detail, the correct evidence ID, and the checked supporting source links; no detail or citation enters projected copy.
-- [ ] The seven added cards render seven distinct original native-SVG scenes, for ten unique `data-visual` values total, with no raster, remote, generated, package-supplied, or copyrighted artwork.
-- [ ] Mystery silhouettes and reveal states remain legible and inside the broadcast frame at 1920×1080, 1366×768, and 390×844.
-- [ ] Autoplay, pause/resume, restart, previous/next, card 10 → card 1 wraparound, preview queries, fullscreen, Source, Escape, and focus return work without console or network failures.
-- [ ] Reduced-motion mode preserves all four states with computed animation and transition durations of zero.
-- [ ] All touched JavaScript passes syntax checks; controller/card-contract tests pass; RAG remains 5/5.
-- [ ] The route remains unlinked and `noindex`; root navigation, `sw.js`, and `manifest.webmanifest` remain unchanged.
-- [ ] The pushed live route returns HTTP 200 and visibly traverses all ten cards on desktop/projector and phone viewports.
-- [ ] The owner receives one Signal completion message containing the live URL and concise gate result.
-- [ ] Every phase is committed with explicit paths, the ticket is graduated on full completion, and the original shared checkout’s unrelated work is untouched.
+- [x] The player contains exactly ten cards: the original three followed by the seven locked additions.
+- [x] Every new question and punchline matches the Decisions table exactly.
+- [x] The dart-pistol, put-options, and Paperclip records have checked source-supported wording/quotes; new USS Liberty and Kirk ballistics records contain narrow attributable claims; regenerated `rag-index.json` and `bundle.json` match the evidence manifest.
+- [x] Every new card’s hidden panel shows a concise factual detail, the correct evidence ID, and the checked supporting source links; no detail or citation enters projected copy.
+- [x] The seven added cards render seven distinct original native-SVG scenes, for ten unique `data-visual` values total, with no raster, remote, generated, package-supplied, or copyrighted artwork.
+- [x] Mystery silhouettes and reveal states remain legible and inside the broadcast frame at 1920×1080, 1366×768, and 390×844.
+- [x] Autoplay, pause/resume, restart, previous/next, card 10 → card 1 wraparound, preview queries, fullscreen, Source, Escape, and focus return work without console or network failures.
+- [x] Reduced-motion mode preserves all four states with computed animation and transition durations of zero.
+- [x] All touched JavaScript passes syntax checks; controller/card-contract tests pass; RAG remains 5/5.
+- [x] The route remains unlinked and `noindex`; root navigation, `sw.js`, and `manifest.webmanifest` remain unchanged.
+- [x] The pushed live route returns HTTP 200 and visibly traverses all ten cards on desktop/projector and phone viewports.
+- [x] The owner receives one Signal completion message containing the live URL and concise gate result.
+- [x] Every phase is committed with explicit paths, the ticket is graduated on full completion, and the original shared checkout’s unrelated work is untouched.
 
 ## Ledger
 
@@ -284,7 +284,7 @@ The builder appends one row after every phase. Record the plan, exact commit, bu
 | 1 — evidence + artifacts | `4dc3f3b` | builder: inline (delegated worker verified the source passages but stalled before edits; orchestrator retained the bounded evidence set) | `jq empty` + exact-once manifest check pass; RAG rebuilt 319 records / 2,270 vectors and eval passed 5/5; bundle rebuilt 319/319 records and five-record artifact contract passed; editorial scans and `git diff --check` clean; local HTTP `200`; dev-browser at 390×844 rendered `1967-uss-liberty-001` and `2025-kirk-ballistics-001` with source links, overflow `0/0`, `errors:[]`, and `badResponses:[]`. | Required mobile gate exposed an existing 11 px header spill; fixed in `styles.css` and re-rendered at zero overflow. No Halloween runtime changed in this phase. |
 | 2 — cards 4–7 + vectors | `58c2ee4` | builder: subagent (`phase2_vectors`), independently gated by orchestrator | 11/11 syntax checks; 9/9 tests; exact seven-card/order/copy/source/timing contract passed; native/no-remote asset and no-infinite-motion scans passed; `git diff --check` clean; local HTTP `200`; 42/42 mystery/reveal captures across 1920×1080, 1366×768, and 390×844 were inside the frame with overflow `0/0`, `errors:[]`, and `badResponses:[]`; 28/28 reduced-motion checks computed zero duration; 7/7 Source checks entered `source-panel` and Escape returned focus to `source-toggle`; owned pages/server cleaned. | Initial browser pass found the put-options reveal extending to x=1380.30 beyond a 1366 px frame; specialist fixed shared grid sizing/wrapping and the orchestrator rerun passed unchanged gates. |
 | 3 — cards 8–10 + full pass | `a7b819c` | builder: subagent (`phase2_vectors`), independently gated by orchestrator | Syntax passed across runtime/tests/all ten renderers; 9/9 tests; RAG 5/5; exact ten-card/order/copy/source/timing/unique-ID/unique-visual/wrap contract passed; asset, finite-motion, editorial, `noindex`, root/PWA boundary, and diff checks passed; local HTTP `200`; 60/60 viewport cases were inside the frame with overflow `0/0`, autoplay wrap true, `errors:[]`, and `badResponses:[]`; 10/10 Source/focus checks, visible focus, manual wrap, and 40/40 zero-duration reduced-motion checks passed; owned pages/server cleaned. | Visual critique found `INCONCLUSIVE.` orphaning its final period; desktop deck widened 1 percentage point and wrapping changed to `break-word`/normal. Both specialist and orchestrator reruns passed; representative projector/portrait captures were visually inspected. |
-| 4 — live release + lifecycle | pending | builder: inline; independent reviewer: `phase4_release_review` | Plan: reviewer reruns the bounded local release audit while orchestrator reruns the full gate and fetch/divergence check; push only from green main, poll live artifacts, traverse all ten cards at projector/phone widths, send exactly one Signal notification, record the event, graduate the ticket, push lifecycle evidence, and clean only owned resources. | In progress; no Phase 4 application edits permitted. |
+| 4 — live release + lifecycle | `a35ec39` (deployed head; lifecycle commit follows) | builder: inline; independent reviewer: `phase4_release_review` | Local release gate: 15/15 syntax, 9/9 tests, RAG 5/5, reviewer projector/phone audit passed; fetched divergence `9/0` before push. GitHub Pages run `30833037653` completed successfully. Live route/cards returned `200`, the deployed `cards.js`/`player.js` byte-matched release files, all ten IDs were present, route stayed `noindex`/unlinked, and cache-disabled live traversal passed 40/40 projector/phone states with exact copy, ten visuals, overflow `0/0`, autoplay/manual wrap, 10/10 Source/focus, 40/40 reduced motion, `errors:[]`, and `badResponses:[]`. Signal command exited `0`; same-day `notify.send` recorded `title=Halloween trivia`, `status=ok`, `http=201`. | First live probe correctly detected the prior module while Pages ran; first shared-browser attempt also exposed stale browser cache. Final gate disabled cache and ran sequentially after Pages success. Exactly one completion notification was sent. |
 
 ## Boundaries
 
