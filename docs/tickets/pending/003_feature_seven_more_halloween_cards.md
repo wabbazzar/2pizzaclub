@@ -131,9 +131,9 @@ Toolchain baseline measured during polish on 2026-08-03:
 
 **Goal:** Put the seven projected statements on a checked evidence footing without changing the live Halloween runtime.
 
-**Steps:** update the dart-pistol, put-options, and Paperclip records; add USS Liberty and Kirk ballistics records under existing anchors; update the evidence manifest; rebuild both committed artifacts; render the two new timeline cards.
+**Steps:** update the dart-pistol, put-options, and Paperclip records; add USS Liberty and Kirk ballistics records under existing anchors; update the evidence manifest; rebuild both committed artifacts; render the two new timeline cards; remove the pre-existing 11 px mobile header spill exposed by the required 390 px gate.
 
-**Files:** `sources/evidence/1975-heart-attack-gun-001.json`, new `sources/evidence/1967-uss-liberty-001.json`, `sources/evidence/2001-put-options-001.json`, `sources/evidence/1945-operation-paperclip-001.json`, new `sources/evidence/2025-kirk-ballistics-001.json`, `sources/evidence/manifest.json`, `rag-index.json`, and `bundle.json`.
+**Files:** `sources/evidence/1975-heart-attack-gun-001.json`, new `sources/evidence/1967-uss-liberty-001.json`, `sources/evidence/2001-put-options-001.json`, `sources/evidence/1945-operation-paperclip-001.json`, new `sources/evidence/2025-kirk-ballistics-001.json`, `sources/evidence/manifest.json`, `rag-index.json`, `bundle.json`, and `styles.css`.
 
 **Gate classes:** Data artifacts, editorial quality, site render, and path-limited diff hygiene.
 
@@ -143,10 +143,10 @@ Toolchain baseline measured during polish on 2026-08-03:
 
 ```bash
 jq empty sources/evidence/1975-heart-attack-gun-001.json sources/evidence/1967-uss-liberty-001.json sources/evidence/2001-put-options-001.json sources/evidence/1945-operation-paperclip-001.json sources/evidence/2025-kirk-ballistics-001.json sources/evidence/manifest.json
-jq -e --argjson want '["1967-uss-liberty-001.json","2025-kirk-ballistics-001.json"]' 'all($want[] as $f; ([.records[] | select(. == $f)] | length) == 1)' sources/evidence/manifest.json
+jq -e --argjson want '["1967-uss-liberty-001.json","2025-kirk-ballistics-001.json"]' '.records as $records | $want | all(.[]; . as $f | ([$records[] | select(. == $f)] | length) == 1)' sources/evidence/manifest.json
 node tools/build-rag-index.mjs && node tools/rag-eval.mjs
 node tools/build-bundle.mjs
-node --input-type=module -e "import assert from 'node:assert/strict'; import {readFile} from 'node:fs/promises'; const ids=['1975-heart-attack-gun-001','1967-uss-liberty-001','2001-put-options-001','1945-operation-paperclip-001','2025-kirk-ballistics-001']; const bundle=JSON.parse(await readFile('bundle.json')); const rag=JSON.parse(await readFile('rag-index.json')); for (const id of ids) { const record=JSON.parse(await readFile('sources/evidence/'+id+'.json')); assert.equal(record.status,'verified'); assert.ok(record.sources.some(source=>source.url&&source.quote?.trim())); assert.deepEqual(bundle.records[id+'.json'],record); assert.ok(rag.units.some(unit=>unit.id===id)); }"
+node --input-type=module -e "import assert from 'node:assert/strict'; import {readFile} from 'node:fs/promises'; const ids=['1975-heart-attack-gun-001','1967-uss-liberty-001','2001-put-options-001','1945-operation-paperclip-001','2025-kirk-ballistics-001']; const bundle=JSON.parse(await readFile('bundle.json')); const rag=JSON.parse(await readFile('rag-index.json')); for (const id of ids) { const record=JSON.parse(await readFile('sources/evidence/'+id+'.json')); const built=bundle.records[id+'.json']; assert.equal(record.status,'verified'); assert.ok(record.sources.some(source=>source.url&&source.quote?.trim())); assert.equal(built.id,record.id); assert.equal(built.claim,record.claim); assert.deepEqual(built.sources,record.sources); assert.equal(built.status,record.status); assert.ok(rag.units.some(unit=>unit.id===id)); }"
 if jq -r '.claim' sources/evidence/{1975-heart-attack-gun-001,1967-uss-liberty-001,2001-put-options-001,1945-operation-paperclip-001,2025-kirk-ballistics-001}.json | rg -ni '\b(reel|the post|the video|we|our)\b|@[[:alnum:]_]'; then exit 1; fi
 if jq -r '.claim' sources/evidence/{1975-heart-attack-gun-001,1967-uss-liberty-001,2001-put-options-001,1945-operation-paperclip-001,2025-kirk-ballistics-001}.json | rg -ni '\b(proves?|proof|obviously|clearly|conspiracy)\b'; then exit 1; fi
 git diff --check -- sources/evidence/1975-heart-attack-gun-001.json sources/evidence/1967-uss-liberty-001.json sources/evidence/2001-put-options-001.json sources/evidence/1945-operation-paperclip-001.json sources/evidence/2025-kirk-ballistics-001.json sources/evidence/manifest.json rag-index.json bundle.json
@@ -154,7 +154,7 @@ git diff --check -- sources/evidence/1975-heart-attack-gun-001.json sources/evid
 
 Start `python3 -m http.server 8755` from the clone and require `curl -sS -o /dev/null -w '%{http_code}\n' http://127.0.0.1:8755/` → `200`. Through the installed dev-browser client, create `ticket003-phase1` at 390×844; require `[data-evidence-id="1967-uss-liberty-001"]` and `[data-evidence-id="2025-kirk-ballistics-001"]`, their checked source links, page overflow `0/0`, `errors:[]`, and `badResponses:[]`. Close that page and stop only port 8755.
 
-**Observable phase DoD:** all five records have checked URL-bearing quotes and `verified` status; the manifest contains each new record exactly once; the committed bundle matches each record; RAG prints 5/5; both new timeline cards render locally without browser errors. Commit with explicit Phase 1 paths only.
+**Observable phase DoD:** all five records have checked URL-bearing quotes and `verified` status; the manifest contains each new record exactly once; the committed bundle matches each record; RAG prints 5/5; both new timeline cards render locally without browser errors; the 390 px timeline has zero horizontal overflow. Commit with explicit Phase 1 paths only.
 
 ### Phase 2 — Cards 4–7 and four vector reveals (5 points)
 
@@ -281,7 +281,7 @@ The builder appends one row after every phase. Record the plan, exact commit, bu
 
 | Phase | Commit | Builder | Gate evidence | Deferred / notes |
 |---|---|---|---|---|
-| 1 — evidence + artifacts | pending | pending | pending | pending |
+| 1 — evidence + artifacts | `4dc3f3b` | builder: inline (delegated worker verified the source passages but stalled before edits; orchestrator retained the bounded evidence set) | `jq empty` + exact-once manifest check pass; RAG rebuilt 319 records / 2,270 vectors and eval passed 5/5; bundle rebuilt 319/319 records and five-record artifact contract passed; editorial scans and `git diff --check` clean; local HTTP `200`; dev-browser at 390×844 rendered `1967-uss-liberty-001` and `2025-kirk-ballistics-001` with source links, overflow `0/0`, `errors:[]`, and `badResponses:[]`. | Required mobile gate exposed an existing 11 px header spill; fixed in `styles.css` and re-rendered at zero overflow. No Halloween runtime changed in this phase. |
 | 2 — cards 4–7 + vectors | pending | pending | pending | pending |
 | 3 — cards 8–10 + full pass | pending | pending | pending | pending |
 | 4 — live release + lifecycle | pending | pending | pending | pending |
