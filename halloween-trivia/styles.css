@@ -485,9 +485,191 @@ a:focus-visible {
   stroke-width: 20;
 }
 
+.paperclip-object,
+.cointelpro-object,
+.kirk-ballistics-object {
+  transform-origin: 450px 300px;
+  transition: transform 620ms cubic-bezier(0.2, 0.75, 0.25, 1);
+}
+
+.paperclip-shadow,
+.cointelpro-shadow,
+.kirk-ballistics-shadow {
+  fill: var(--ink);
+  stroke: var(--ink);
+  stroke-linejoin: round;
+  stroke-width: 18;
+  transition: opacity 280ms ease;
+}
+
+.paperclip-reveal,
+.cointelpro-reveal,
+.kirk-ballistics-reveal {
+  opacity: 0;
+  transition: opacity 320ms ease;
+}
+
+.paperclip-folder,
+.cointelpro-envelope,
+.cointelpro-letter,
+.kirk-ballistics-panel {
+  fill: var(--cream);
+  stroke: var(--ink);
+  stroke-linejoin: round;
+  stroke-width: 17;
+}
+
+.paperclip-fold,
+.paperclip-lines,
+.paperclip-wire,
+.cointelpro-envelope-fold,
+.cointelpro-letter-lines,
+.cointelpro-stamp path,
+.cointelpro-tape path,
+.kirk-ballistics-fragment path:last-child,
+.kirk-ballistics-barrel path,
+.kirk-ballistics-question path,
+.kirk-ballistics-divider {
+  fill: none;
+  stroke: var(--ink);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 12;
+}
+
+.paperclip-fold {
+  fill: var(--yellow);
+}
+
+.paperclip-profile circle,
+.paperclip-profile path {
+  fill: var(--royal);
+  stroke: var(--ink);
+  stroke-width: 13;
+}
+
+.paperclip-lines {
+  stroke: var(--red);
+}
+
+.paperclip-wire {
+  stroke: var(--green);
+  stroke-width: 17;
+}
+
+.paperclip-rocket {
+  transform: translateY(42px);
+  transform-origin: 585px 300px;
+  transition: transform 520ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.paperclip-rocket path:first-child {
+  fill: var(--red);
+  stroke: var(--ink);
+  stroke-width: 15;
+}
+
+.paperclip-rocket circle {
+  fill: var(--yellow);
+  stroke: var(--ink);
+  stroke-width: 13;
+}
+
+.paperclip-rocket path:last-child {
+  fill: var(--green);
+  stroke: var(--ink);
+  stroke-width: 13;
+}
+
+.cointelpro-envelope-fold,
+.cointelpro-letter-lines {
+  stroke: var(--royal);
+}
+
+.cointelpro-stamp {
+  transform: rotate(-9deg) scale(0.82);
+  transform-origin: 526px 387px;
+  transition: transform 500ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.cointelpro-stamp rect {
+  fill: var(--red);
+  stroke: var(--ink);
+  stroke-width: 10;
+}
+
+.cointelpro-stamp path {
+  stroke: var(--cream);
+  stroke-width: 8;
+}
+
+.cointelpro-tape circle:nth-of-type(odd) {
+  fill: var(--ink);
+  stroke: var(--ink);
+  stroke-width: 12;
+}
+
+.cointelpro-tape circle:nth-of-type(even) {
+  fill: var(--yellow);
+}
+
+.cointelpro-tape path {
+  stroke: var(--green);
+  stroke-width: 14;
+}
+
+.kirk-ballistics-fragment path:first-child {
+  fill: var(--yellow);
+  stroke: var(--ink);
+  stroke-linejoin: round;
+  stroke-width: 15;
+}
+
+.kirk-ballistics-fragment path:last-child,
+.kirk-ballistics-barrel path {
+  stroke: var(--red);
+  stroke-width: 11;
+}
+
+.kirk-ballistics-barrel ellipse:first-child {
+  fill: var(--royal);
+  stroke: var(--ink);
+  stroke-width: 15;
+}
+
+.kirk-ballistics-barrel ellipse:last-of-type {
+  fill: var(--cream);
+  stroke: var(--ink);
+  stroke-width: 12;
+}
+
+.kirk-ballistics-question {
+  opacity: 0.25;
+  transform: scale(0.78);
+  transform-origin: 450px 335px;
+  transition: opacity 300ms ease, transform 500ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.kirk-ballistics-question path {
+  stroke: var(--red);
+  stroke-width: 24;
+}
+
+.kirk-ballistics-question circle {
+  fill: var(--red);
+  stroke: var(--ink);
+  stroke-width: 11;
+}
+
+.kirk-ballistics-divider {
+  stroke: var(--ink);
+  stroke-width: 10;
+  stroke-dasharray: 18 18;
+}
+
 .copy-deck {
   position: absolute;
-  inset: 9% 7% 9% 57%;
+  inset: 9% 7% 9% 56%;
   z-index: 3;
   display: grid;
   align-items: center;
@@ -530,7 +712,8 @@ a:focus-visible {
 .mystery-question,
 .reveal-answer {
   padding: 0.32em 0.28em;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
+  word-break: normal;
   color: var(--ink);
   background-color: var(--yellow);
   box-shadow: 12px 12px 0 var(--ink);
@@ -634,6 +817,37 @@ a:focus-visible {
 
 #projection-stage[data-stage="reveal"] .put-options-put-line {
   transform: translateY(0);
+}
+
+#projection-stage[data-stage="reveal"] .paperclip-object,
+#projection-stage[data-stage="reveal"] .cointelpro-object,
+#projection-stage[data-stage="reveal"] .kirk-ballistics-object {
+  transform: rotate(-1deg) scale(1.025);
+}
+
+#projection-stage[data-stage="reveal"] .paperclip-shadow,
+#projection-stage[data-stage="reveal"] .cointelpro-shadow,
+#projection-stage[data-stage="reveal"] .kirk-ballistics-shadow {
+  opacity: 0;
+}
+
+#projection-stage[data-stage="reveal"] .paperclip-reveal,
+#projection-stage[data-stage="reveal"] .cointelpro-reveal,
+#projection-stage[data-stage="reveal"] .kirk-ballistics-reveal {
+  opacity: 1;
+}
+
+#projection-stage[data-stage="reveal"] .paperclip-rocket {
+  transform: translateY(0);
+}
+
+#projection-stage[data-stage="reveal"] .cointelpro-stamp {
+  transform: rotate(-3deg) scale(1);
+}
+
+#projection-stage[data-stage="reveal"] .kirk-ballistics-question {
+  opacity: 1;
+  transform: scale(1);
 }
 
 #projection-stage[data-card-id="silverstein-lease"][data-stage="mystery"] .lease-sparks path:nth-child(odd),

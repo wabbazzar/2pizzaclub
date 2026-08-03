@@ -12,7 +12,7 @@ python3 -m http.server 8747
 ```
 
 Open <http://127.0.0.1:8747/halloween-trivia/> directly. The bare route starts
-the four-stage loop automatically, cycles the three shipped cards, and produces
+the four-stage loop automatically, cycles the ten shipped cards, and produces
 no audio. Leave the server terminal open; press `Ctrl+C` there when the show is
 over.
 
@@ -50,9 +50,18 @@ never projected as a receipt stage. Close it with **Close**, **Hide source**,
 `I`, or `Escape`. The page follows the device/browser reduced-motion preference:
 all four projected states remain available, but travel and rotation stop.
 
+## Shipped scene set
+
+The ten-card order is passport, World Trade Center lease, MKULTRA, Operation
+Northwoods, CIA dart pistol, USS Liberty, United Airlines put options,
+Operation Paperclip, the FBI package sent to Martin Luther King Jr., and the
+Kirk ballistics comparison. Each card has its own native-SVG silhouette/reveal
+renderer while sharing the evidence aperture, broadcast frame, palette, and
+four-stage timing.
+
 ## Add a later verified card
 
-The remaining cards require owner approval first. After approval:
+Any future card requires owner approval first. After approval:
 
 1. Add or update the matching JSON record in `sources/evidence/`. Open and check
    every retained citation, prefer the strongest primary source, include a short
@@ -74,12 +83,12 @@ The remaining cards require owner approval first. After approval:
 Run the checks from the repository root:
 
 ```bash
-node --check halloween-trivia/cards.js halloween-trivia/player-core.js halloween-trivia/player-core.test.mjs halloween-trivia/player.js halloween-trivia/visuals/passport.js halloween-trivia/visuals/lease.js halloween-trivia/visuals/mkultra.js
-node --test halloween-trivia/player-core.test.mjs
+for file in halloween-trivia/cards.js halloween-trivia/player-core.js halloween-trivia/player-core.test.mjs halloween-trivia/cards.test.mjs halloween-trivia/player.js halloween-trivia/visuals/*.js; do node --check "$file"; done
+node --test halloween-trivia/player-core.test.mjs halloween-trivia/cards.test.mjs
 node tools/rag-eval.mjs
 ```
 
-Then serve the repository; traverse all three cards and review every four-stage
+Then serve the repository; traverse all ten cards and review every four-stage
 preview at 1920×1080, 1366×768, and 390×844, including reduced-motion mode,
 source access, focus, distinct visuals, and overflow. If an evidence record
 changed, also regenerate and commit the data artifacts before rerunning the

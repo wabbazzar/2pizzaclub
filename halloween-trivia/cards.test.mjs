@@ -38,10 +38,36 @@ const additions = [
     reveal: "PUT OPTIONS — BETS THAT THE STOCK WOULD FALL. INVESTIGATORS LATER REPORTED NO 9/11 FOREKNOWLEDGE.",
     source: "https://govinfo.library.unt.edu/911/staff_statements/911_TerrFin_Monograph.pdf",
   },
+  {
+    id: "operation-paperclip",
+    evidenceIds: ["1945-operation-paperclip-001"],
+    visual: "paperclip",
+    question: "HOW MANY GERMAN SCIENTISTS DID THE U.S. BRING OVER AFTER WORLD WAR II?",
+    reveal:
+      "MORE THAN 1,500 UNDER PAPERCLIP AND RELATED PROGRAMS — INCLUDING MEN TIED TO SLAVE LABOR AND CAMP EXPERIMENTS.",
+    source: "https://www.archives.gov/iwg/declassified-records/rg-330-defense-secretary",
+  },
+  {
+    id: "fbi-king-letter",
+    evidenceIds: ["1956-cointelpro-001"],
+    visual: "cointelpro",
+    question: "WHAT DID THE FBI ANONYMOUSLY SEND MARTIN LUTHER KING JR. IN 1964?",
+    reveal: "SECRET RECORDINGS AND A THREATENING LETTER — WIDELY READ AS PRESSURING HIM TO KILL HIMSELF.",
+    source: "https://www.intelligence.senate.gov/sites/default/files/94755_III.pdf",
+    additionalSource: "https://vault.fbi.gov/Martin%20Luther%20King%2C%20Jr.",
+  },
+  {
+    id: "kirk-ballistics",
+    evidenceIds: ["2025-kirk-ballistics-001"],
+    visual: "kirk-ballistics",
+    question: "DID THE BULLET FRAGMENT RECOVERED FROM CHARLIE KIRK MATCH THE RIFLE?",
+    reveal: "THE ATF COULD NEITHER MATCH NOR EXCLUDE IT — THE RESULT WAS INCONCLUSIVE.",
+    source: "https://apnews.com/article/76ccb25a0e71f9436334c2029dceb20c",
+  },
 ];
 
-test("cards 4 through 7 preserve the locked order, copy, evidence, and sources", () => {
-  assert.equal(cards.length, 7);
+test("cards 4 through 10 preserve the locked order, copy, evidence, and sources", () => {
+  assert.equal(cards.length, 10);
   for (const [index, expected] of additions.entries()) {
     const card = cards[index + 3];
     assert.equal(card.id, expected.id);
@@ -51,10 +77,11 @@ test("cards 4 through 7 preserve the locked order, copy, evidence, and sources",
     assert.equal(card.reveal, expected.reveal);
     assert.ok(card.detail.trim());
     assert.ok(card.sources.some((source) => source.url === expected.source));
+    if (expected.additionalSource) assert.ok(card.sources.some((source) => source.url === expected.additionalSource));
   }
 });
 
-test("seven cards have unique visuals and complete positive stage timings", () => {
+test("ten cards have unique visuals and complete positive stage timings", () => {
   assert.equal(new Set(cards.map((card) => card.visual.kind)).size, cards.length);
   for (const card of cards) {
     assert.deepEqual(Object.keys(card.timing), STAGES);
@@ -64,7 +91,7 @@ test("seven cards have unique visuals and complete positive stage timings", () =
   }
 });
 
-test("controller wraps card 7 back to card 1", () => {
+test("controller wraps card 10 back to card 1", () => {
   const controller = createPlayerController({ cards, autoplay: false });
   controller.previous();
   assert.equal(controller.getState().card.id, additions.at(-1).id);

@@ -126,4 +126,57 @@ export const cards = [
     timing,
     visual: { kind: "put-options" },
   },
+  {
+    id: "operation-paperclip",
+    evidenceIds: ["1945-operation-paperclip-001"],
+    question: "HOW MANY GERMAN SCIENTISTS DID THE U.S. BRING OVER AFTER WORLD WAR II?",
+    reveal:
+      "MORE THAN 1,500 UNDER PAPERCLIP AND RELATED PROGRAMS — INCLUDING MEN TIED TO SLAVE LABOR AND CAMP EXPERIMENTS.",
+    detail:
+      "National Archives files cover more than 1,500 German and other foreign specialists brought to the United States under Paperclip and related programs. The files include men tied to forced labor and concentration-camp experiments.",
+    sources: [
+      {
+        label: "National Archives · Project Paperclip records",
+        url: "https://www.archives.gov/iwg/declassified-records/rg-330-defense-secretary",
+      },
+    ],
+    timing,
+    visual: { kind: "paperclip" },
+  },
+  {
+    id: "fbi-king-letter",
+    evidenceIds: ["1956-cointelpro-001"],
+    question: "WHAT DID THE FBI ANONYMOUSLY SEND MARTIN LUTHER KING JR. IN 1964?",
+    reveal: "SECRET RECORDINGS AND A THREATENING LETTER — WIDELY READ AS PRESSURING HIM TO KILL HIMSELF.",
+    detail:
+      "The Church Committee documented an anonymous FBI letter and surveillance recordings mailed to Martin Luther King Jr. in November 1964. The package became known as the FBI “suicide letter.”",
+    sources: [
+      {
+        label: "Church Committee · COINTELPRO report",
+        url: "https://www.intelligence.senate.gov/sites/default/files/94755_III.pdf",
+      },
+      {
+        label: "FBI Vault · Martin Luther King Jr. files",
+        url: "https://vault.fbi.gov/Martin%20Luther%20King%2C%20Jr.",
+      },
+    ],
+    timing,
+    visual: { kind: "cointelpro" },
+  },
+  {
+    id: "kirk-ballistics",
+    evidenceIds: ["2025-kirk-ballistics-001"],
+    question: "DID THE BULLET FRAGMENT RECOVERED FROM CHARLIE KIRK MATCH THE RIFLE?",
+    reveal: "THE ATF COULD NEITHER MATCH NOR EXCLUDE IT — THE RESULT WAS INCONCLUSIVE.",
+    detail:
+      "Court filings and later testimony described the ATF comparison of a damaged bullet-jacket fragment to the recovered rifle as inconclusive: examiners could neither identify nor exclude the rifle as the source.",
+    sources: [
+      {
+        label: "Associated Press · court-reporting receipt",
+        url: "https://apnews.com/article/76ccb25a0e71f9436334c2029dceb20c",
+      },
+    ],
+    timing,
+    visual: { kind: "kirk-ballistics" },
+  },
 ];

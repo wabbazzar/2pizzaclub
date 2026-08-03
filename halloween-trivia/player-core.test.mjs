@@ -92,10 +92,10 @@ test("restart returns to stinger and restores its full duration", () => {
   );
 });
 
-test("previous and next navigation wrap seven cards and restart their stinger", () => {
-  const run = harness({ cards: Array.from({ length: 7 }, (_, index) => card(String(index + 1))) });
+test("previous and next navigation wrap ten cards and restart their stinger", () => {
+  const run = harness({ cards: Array.from({ length: 10 }, (_, index) => card(String(index + 1))) });
   run.controller.previous();
-  assert.deepEqual([run.controller.getState().card.id, run.controller.getState().stage], ["7", "stinger"]);
+  assert.deepEqual([run.controller.getState().card.id, run.controller.getState().stage], ["10", "stinger"]);
   run.controller.next();
   assert.deepEqual([run.controller.getState().card.id, run.controller.getState().stage], ["1", "stinger"]);
 });
