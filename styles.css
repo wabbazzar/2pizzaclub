@@ -969,6 +969,12 @@ mark.search-mark {
 @media (max-width: 880px) {
     :root { --gutter: 1rem; }
 
+    .dossier-header {
+        justify-content: flex-end;
+        padding-inline: 0.75rem;
+    }
+    .dossier-header > .filemark { display: none; }
+
     .layout { display: block; }
 
     .timeline {

@@ -8,12 +8,13 @@
         "sec",
         "finance"
     ],
-    "claim": "In the days before September 11, 2001, put-option trading on the parent companies of United Airlines (Sep 6) and American Airlines (Sep 10) ran approximately 25–100 times normal volumes. The SEC, FBI, and other agencies analyzed 9.5 million securities transactions across 103 companies in six industry groups across seven markets. The 9/11 Commission concluded that 95% of the UAL put activity was attributable to a single U.S.-based institutional investor with no ties to al-Qaeda (whose strategy also involved buying 115,000 shares of AMR on Sep 10), and that the bulk of unusual AMR put activity traced to a U.S.-based options newsletter that had recommended the trade in a Sep 9 fax to subscribers. The SEC's published conclusion: 'We have not developed any evidence suggesting that those who had advance knowledge of the September 11 attacks traded on the basis of that information.'",
+    "claim": "On September 6, 2001, put-option volume for UAL, the parent company of United Airlines, exceeded call-option volume by more than 20 to 1. The 9/11 Commission reported that one U.S. investment adviser placed 95 percent of that day's UAL put volume as part of a broader airline-trading strategy. The Securities and Exchange Commission and FBI investigated the UAL and American Airlines trades and reported no evidence of illicit trading or advance knowledge of the attacks.",
     "sources": [
         {
             "label": "National Commission on Terrorist Attacks Upon the United States (9/11 Commission) — Staff Monograph, “The Financing of the 9/11 Plot” (Appendix A)",
             "type": "primary",
-            "url": "https://govinfo.library.unt.edu/911/staff_statements/911_TerrFin_App.pdf"
+            "url": "https://govinfo.library.unt.edu/911/staff_statements/911_TerrFin_Monograph.pdf",
+            "quote": "the UAL put option volume was much higher than any surrounding day and exceeded the call option volume by more than 20 times"
         },
         {
             "label": "Snopes — “Were Stocks of Airlines Suspiciously Shorted Just Before 9/11?”",
@@ -40,5 +41,5 @@
         }
     ],
     "status": "verified",
-    "notes": "This record documents BOTH halves: the unusual pre-9/11 trading activity is real and was investigated; the official conclusion (no foreknowledge trading) is also documented. Editorial significance: the reel's 'everyone made money that day' framing is undercut by the 9/11 Commission/SEC investigation; the reader should see both layers. Primary source is the 9/11 Commission's Terrorist Financing staff monograph, Appendix A."
+    "notes": "The record preserves both documented parts: the unusual UAL put-to-call ratio and the 9/11 Commission staff's reported SEC/FBI finding of no illicit or foreknowledge trading. Primary source is the Commission's Terrorist Financing Staff Monograph, Appendix A."
 }

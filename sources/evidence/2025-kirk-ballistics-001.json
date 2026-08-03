@@ -1,0 +1,28 @@
+{
+    "id": "2025-kirk-ballistics-001",
+    "anchor": "y2025-kirk",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "kirk",
+        "prosecution",
+        "forensics"
+    ],
+    "claim": "Court filings disclosed that a Bureau of Alcohol, Tobacco, Firearms and Explosives comparison of a damaged bullet-jacket fragment recovered at Charlie Kirk's autopsy with the rifle found near the scene was inconclusive. Later preliminary-hearing reporting said the fragment could neither be identified nor excluded as having been fired from the rifle. The result was not a definitive match or mismatch.",
+    "sources": [
+        {
+            "label": "Associated Press — “Lawyers for man accused of killing Charlie Kirk ask to delay preliminary hearing,” March 31, 2026",
+            "type": "secondary",
+            "url": "https://apnews.com/article/76ccb25a0e71f9436334c2029dceb20c",
+            "quote": "could not conclusively connect a bullet fragment recovered during an autopsy to the rifle found near the scene"
+        },
+        {
+            "label": "CNN via KVIA — preliminary-hearing summary, July 11, 2026",
+            "type": "secondary",
+            "url": "https://kvia.com/cnn-national/2026/07/11/takeaways-from-the-preliminary-hearing-for-charlie-kirks-accused-killer/",
+            "quote": "could not be identified or excluded as having been fired from the rifle"
+        }
+    ],
+    "status": "verified",
+    "notes": "Verified here means the disclosed comparison result is documented. The record does not infer who fired the shot, exclude the recovered rifle, or resolve the pending prosecution. It is separate from the concurrently edited Cullen-analysis record."
+}

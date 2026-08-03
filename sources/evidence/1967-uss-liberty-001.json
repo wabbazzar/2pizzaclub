@@ -1,0 +1,23 @@
+{
+    "id": "1967-uss-liberty-001",
+    "anchor": "y1967-six-day-war",
+    "year": 1967,
+    "era": "ii",
+    "themes": [
+        "israel",
+        "palestine",
+        "war",
+        "intelligence"
+    ],
+    "claim": "On June 8, 1967, Israeli fighters and torpedo boats attacked the U.S. Navy intelligence ship USS Liberty while it was operating 25 miles off the Gaza coast during the Six-Day War. Thirty-four Americans were killed. Israel described the attack as an identification error, and the U.S. government accepted that explanation; the National Security Agency says the reason for the attack has never been fully resolved.",
+    "sources": [
+        {
+            "label": "National Security Agency, National Cryptologic Museum — “Cold War: U.S.S. Liberty”",
+            "type": "primary",
+            "url": "https://www.nsa.gov/History/National-Cryptologic-Museum/Exhibits-Artifacts/Exhibit-View/Article/2718838/cold-war-uss-liberty/",
+            "quote": "Cruising 25 miles off the Gaza coast, it was attacked by Israeli fighters and torpedo boats"
+        }
+    ],
+    "status": "verified",
+    "notes": "The claim follows the NSA's institutional history and attributes the identification-error explanation to Israel. It does not infer motive from the unresolved attack."
+}

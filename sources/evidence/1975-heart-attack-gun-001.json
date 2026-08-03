@@ -8,12 +8,13 @@
         "intelligence",
         "weapons"
     ],
-    "claim": "On September 16, 1975, during a Church Committee hearing on alleged CIA assassination activities, Senator Frank Church (D-ID) and committee staff publicly displayed a CIA-developed silent dart pistol — referred to in CIA parlance as a 'nondiscernible microbioinoculator' — modified from a Colt M1911 to fire a near-microscopic frozen dart of saxitoxin (a paralytic shellfish toxin). The device had been retained by the CIA in violation of President Nixon's 1969 executive order directing the destruction of biological-weapon stocks. CIA Director William Colby brought the weapon to the hearing.",
+    "claim": "At a September 16, 1975 Church Committee hearing, CIA Director William Colby displayed a device resembling a .45-caliber pistol that silently fired a small dart. The hearing record described the system as a nondiscernible microbioinoculator for clandestine inoculation and said it was designed to resist detection in a later examination. The committee was investigating the CIA's unauthorized retention of shellfish toxin after President Richard Nixon's 1969 order to destroy biological-agent stocks.",
     "sources": [
         {
-            "label": "U.S. Senate Select Committee to Study Governmental Operations with Respect to Intelligence Activities (Church Committee), hearing transcript, Sep 16, 1975 — “Unauthorized Storage of Toxic Agents”",
+            "label": "U.S. Senate Select Committee to Study Governmental Operations with Respect to Intelligence Activities (Church Committee), hearing transcript, September 16, 1975 — “Unauthorized Storage of Toxic Agents”",
             "type": "primary",
-            "url": null
+            "url": "https://intelligence.senate.gov/sites/default/files/94intelligence_activities_I.pdf",
+            "quote": "a dart device for clandestine and imperceptible inoculation with BW/CW agents"
         },
         {
             "label": "Maryland Today (Univ. of Maryland) — “Keeping an Eye on the Spies”",
@@ -34,6 +35,6 @@
             "url": "https://www.instagram.com/reel/DVOtv6QCTFf/"
         }
     ],
-    "status": "primary-link-pending",
-    "notes": "Hearing was televised; surviving footage shows Senator Church displaying the weapon. Primary record is the published Church Committee hearing transcript. URL pending — canonical archive location is the Government Publishing Office or Senate Historical Office. The reel uses the heart-attack-gun motif as part of its fictional confession; the device's existence and 1975 public display are real."
+    "status": "verified",
+    "notes": "The published Church Committee transcript identifies the displayed pistol, silent small dart, nondiscernible microbioinoculator program, detection-resistant design, and retained shellfish toxin. The popular 'heart attack gun' label is not used in the claim. The surfacing reel uses the weapon in a fictional confession; the record is limited to the documented device and hearing."
 }
