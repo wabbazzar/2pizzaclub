@@ -1,0 +1,24 @@
+{
+    "id": "2026-torah-forbids-enlistment-001",
+    "anchor": "y2026-haredi-draft",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "idf",
+        "civil-liberties"
+    ],
+    "claim": "The religious argument against conscription was put directly to Israel's High Court on July 28, 2026. Natan Rosenblatt, appearing for Emet L'Yaakov, an organization that lobbies for the ultra-Orthodox, told the justices that \"the Torah forbids enlistment\" absent an arrangement under which a Haredi man \"can enter [the army] Haredi and leave Haredi,\" and said all the great rabbis of Israel hold that position. Justice David Mintz — the court's most conservative justice, himself Orthodox — answered, \"Not all the great rabbis,\" noting that Rosenblatt was speaking only of rabbis within the Haredi community while many other Orthodox rabbis hold military service to be religiously obligatory: \"You're speaking in sectoral terms, with all due respect.\" The dispute is internal to observant Judaism, and the state's position is argued in court by an attorney general and heard by justices who include Orthodox judges.",
+    "sources": [
+        {
+            "label": "Jeremy Sharon, The Times of Israel, \"High Court extends freeze on law banning arrest of Haredi draft dodgers,\" July 28, 2026 — courtroom exchange.",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/high-court-poised-to-strike-down-law-banning-haredi-draft-dodger-arrest-after-hearing/",
+            "quote": "Mintz retorted, “Not all the great rabbis,” adding that Rosenblatt was referring only to rabbis in the Haredi community. “You’re speaking in sectoral terms, with all due respect,” said Mintz, in reference to the fact that innumerable Orthodox rabbis believe military service to be obligatory according to the Torah.",
+            "clip": "clips/2026-torah-forbids-enlistment-001-00.png",
+            "clip_status": "ok-cross-node"
+        }
+    ],
+    "status": "verified",
+    "notes": "Carded because the surfacing capture (DbndLMgoMZF) frames Israeli enforcement as an attack on religious Jews as such. The courtroom record shows the religious claim contested inside Orthodoxy rather than between religious Jews and the state — that is what the source says, not a conclusion drawn for the reader. Separate anti-Zionist Haredi streams (Satmar, Neturei Karta, the Edah HaChareidis) hold a theological objection to the state itself; that position is not documented in this record and would need its own sourcing."
+}

@@ -1,0 +1,10 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-08-04, openai-whisper base.en
+
+— FULL TEXT —
+
+Hey! Hey! Hey! Hey!
+Hey! Hey! Hey! Hey! Hey!
+
+— END —

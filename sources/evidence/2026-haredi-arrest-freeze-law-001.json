@@ -1,0 +1,38 @@
+{
+    "id": "2026-haredi-arrest-freeze-law-001",
+    "anchor": "y2026-haredi-draft",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "prosecution",
+        "civil-liberties",
+        "netanyahu"
+    ],
+    "claim": "The Knesset passed a temporary amendment to the Security Service Law on July 14, 2026 barring police and the army from arresting ultra-Orthodox draft evaders for what amounted to seven months. Less than 24 hours later the High Court of Justice froze its implementation, citing concern that it was discriminatory because Haredi draft dodgers would not be liable to arrest while draft dodgers from the rest of the public would. At a July 28 hearing before nine justices, both the Knesset's own legal adviser and Attorney General Gali Baharav-Miara argued the law should be annulled — the former on the ground that the bill was transformed in passage from one integrating Haredi men into service into one exempting them from enforcement, violating Knesset procedure; the latter that it \"creates unconstitutional discriminatory enforcement in the criminal justice system.\" Asked whether the law's temporary nature softened the harm, the attorney general's representative Aner Helman answered: \"A law that creates discrimination in criminal enforcement cannot stand, even if it is temporary.\" The government boycotted the hearing and sent no representative. The court extended the freeze and said a final ruling would come soon. The IDF has said it urgently needs 12,000 new recruits.",
+    "sources": [
+        {
+            "label": "Jeremy Sharon, The Times of Israel, \"High Court extends freeze on law banning arrest of Haredi draft dodgers,\" July 28, 2026.",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/high-court-poised-to-strike-down-law-banning-haredi-draft-dodger-arrest-after-hearing/",
+            "quote": "Less than 24 hours after the law was passed, the High Court issued a temporary order freezing implementation , noting, even at that early stage, its concerns that the law was discriminatory, since Haredi draft dodgers would not be liable to arrest while draft dodgers from the rest of the general public would.",
+            "clip": "clips/2026-haredi-arrest-freeze-law-001-00.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "The Times of Israel, same hearing — the attorney general's position on a temporary discriminatory law.",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/high-court-poised-to-strike-down-law-banning-haredi-draft-dodger-arrest-after-hearing/",
+            "quote": "A law that creates discrimination in criminal enforcement cannot stand, even if it is temporary.",
+            "clip": "clips/2026-haredi-arrest-freeze-law-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "The Jerusalem Post, \"High Court freezes law halting arrests of haredi draft evaders,\" July 2026.",
+            "type": "secondary",
+            "url": "https://www.jpost.com/israel-news/article-902598"
+        }
+    ],
+    "status": "verified",
+    "notes": "Security Service Law (Amendment No. 28 – Temporary Provision), 2026; called the 'arrest freeze law' in Israeli coverage. No final High Court ruling had issued as of August 4, 2026 — the interim freeze stands. Pairs with 2026-haredi-draft-enforcement-001. Surfaced by capture DbndLMgoMZF."
+}

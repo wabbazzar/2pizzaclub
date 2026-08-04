@@ -1,0 +1,38 @@
+{
+    "id": "DbndLMgoMZF",
+    "url": "https://www.instagram.com/reel/DbndLMgoMZF/",
+    "platform": "instagram",
+    "captured_at": "2026-08-04",
+    "handle": "@truetorahjew",
+    "author_display_name": "Jewish Voice",
+    "posted_at": "2026-08-04",
+    "engagement": {
+        "likes": 6405,
+        "comments": 779
+    },
+    "caption": "The Israeli regime constantly attacks anti-Zionist religious Jews; their aim is to pressure and intimidate Torah Jews.\n\nIsrael is the greatest enemy of the Jews; Israel is a Nazi state.\n\n“The only country where Jewish religion is oppressed, is in the So-called ‘Jewish’ state of Israel”\n\nCalling Israel a ‘Jewish State’ is Like saying “Halal Pork”, or “Kosher Pork”.\n\nUsing the Torah to insert a ‘Jewish’ character to the State of Israel is like trying to make pork Kosher. imposible\n\nIsrael is not a Jewish state.",
+    "hashtags": [],
+    "audio_track_actual": "No narration. Ambient audio only: shouting and scuffling on the street.",
+    "video_overlay_text_observed": "Watermark of the Haredi news outlet Bechadrei Charedim (בחדרי חרדים) in the upper left throughout. No captions or overlay text.",
+    "audio_content_summary": "33 seconds of street footage: uniformed Israeli police and Border Police in a Haredi neighborhood, men in Haredi dress arguing with and being pushed by officers, one man taken to the ground outside a grocery, officers moving through a building doorway. No spoken commentary — every claim in this post is in the caption.",
+    "implied_frame": "Caption frames the footage as the Israeli state attacking anti-Zionist religious Jews to intimidate Torah Jews, and asserts Israel is \"a Nazi state,\" \"the greatest enemy of the Jews,\" and the only country where the Jewish religion is oppressed. None of that is asserted here. What is documented and carded: the 2024 High Court ruling ending the yeshiva-student exemption and the enforcement record since (2026-haredi-draft-enforcement-001); the July 14, 2026 law barring arrests of Haredi draft evaders and the High Court freeze on it (2026-haredi-arrest-freeze-law-001); and the religious argument against enlistment as argued in court and contested there by an Orthodox justice (2026-torah-forbids-enlistment-001). The footage itself is watermarked to the Haredi outlet Bechadrei Charedim; its date, location, and the specific incident were not independently established, so no record asserts what this particular clip shows. The Nazi-state characterization and the religious-oppression claim are contested framings carried as attribution only.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~1.0 MB); delivery ~1.1 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-haredi-draft-enforcement-001",
+        "2026-haredi-arrest-freeze-law-001",
+        "2026-torah-forbids-enlistment-001"
+    ],
+    "supporting_research_links": [
+        "https://www.timesofisrael.com/high-court-poised-to-strike-down-law-banning-haredi-draft-dodger-arrest-after-hearing/",
+        "https://www.timesofisrael.com/rebuked-by-court-and-military-police-say-they-will-detain-draft-evaders/",
+        "https://www.timesofisrael.com/enraged-by-arrests-of-draft-evaders-israels-ultra-orthodox-community-is-in-revolt/",
+        "https://www.haaretz.com/israel-news/israel-politics/2026-07-01/ty-article/only-16-haredi-draft-dodgers-arrested-this-year-ag-tells-top-israeli-court/0000019f-1a37-da71-abdf-5f7f45530000"
+    ],
+    "editorial_split": {
+        "a": 0,
+        "b": 4,
+        "c": 0
+    }
+}

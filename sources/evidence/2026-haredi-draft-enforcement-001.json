@@ -1,0 +1,41 @@
+{
+    "id": "2026-haredi-draft-enforcement-001",
+    "anchor": "y2026-haredi-draft",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "idf",
+        "prosecution",
+        "civil-liberties"
+    ],
+    "claim": "Israel's blanket exemption from conscription for full-time yeshiva students ended with a 2024 High Court ruling, and the army has since issued tens of thousands of enlistment orders to ultra-Orthodox (Haredi) men. Most have not complied. Attorney General Gali Baharav-Miara told the High Court on June 30, 2026 that as of May 10 there were 92,080 designated conscripts declared draft dodgers or issued an Order 12 — a desertion notice that becomes an arrest warrant after a month — with the IDF putting roughly 80 percent of them in the Haredi community. Enforcement against that group has been thin: between January 16 and June 11, 2026, 165 declared deserters were arrested in proactive military police operations and only 16 were Haredi; of 294 indictments filed in the same period, military prosecutors estimated 32 involved Haredi men. On May 18, 2026 the Israel Police announced that Commissioner Danny Levy had ordered officers who encounter a deserter to detain him and hold him for the Military Police, releasing him with a summons if no representative arrives within 30 minutes. The step drew condemnation from the Knesset's Haredi parties; Shas called it \"an absolute shame and disgrace,\" and United Torah Judaism chairman Yitzhak Goldknopf said \"no forceful policy or enforcement procedures on the ground will discourage us.\" Arrests through May and June set off road blockings, a break-in at the Beit Shemesh police station, and mass protests outside military prisons.",
+    "sources": [
+        {
+            "label": "Chen Maanit and Noa Shpigel, Haaretz, \"Only 16 Haredi Draft Dodgers Arrested So Far This Year, AG Tells Top Israeli Court,\" July 1, 2026 — the attorney general's figures as filed with the High Court.",
+            "type": "secondary",
+            "url": "https://www.haaretz.com/israel-news/israel-politics/2026-07-01/ty-article/only-16-haredi-draft-dodgers-arrested-this-year-ag-tells-top-israeli-court/0000019f-1a37-da71-abdf-5f7f45530000",
+            "quote": "Between January 16 and June 11, 2026, 165 conscription-eligible Israelis declared deserters or draft dodgers were arrested in proactive military police operations, but only 16 were from the ultra-Orthodox community",
+            "clip": "clips/2026-haredi-draft-enforcement-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Sam Sokol, The Times of Israel, \"Rebuked by court and military, police say they will detain draft evaders,\" May 18, 2026.",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/rebuked-by-court-and-military-police-say-they-will-detain-draft-evaders/",
+            "quote": "During a random encounter between a police officer and a deserter, the police officer will detain the deserter, report to the Military Police and wait with the detainee until the arrival of a representative of the Military Police, who is required to arrive within 30 minutes of the report",
+            "clip": "clips/2026-haredi-draft-enforcement-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Sam Sokol, The Times of Israel, \"Enraged by arrests of draft evaders, Israel's ultra-Orthodox community is in revolt,\" June 18, 2026.",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/enraged-by-arrests-of-draft-evaders-israels-ultra-orthodox-community-is-in-revolt/",
+            "quote": "Over the past two years, the military has sent out tens of thousands of enlistment orders to members of the ultra-Orthodox community whose exemptions from mandatory service in the Israel Defense Forces were revoked under a 2024 High Court ruling.",
+            "clip": "clips/2026-haredi-draft-enforcement-001-02.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Figure discrepancies are in the sources, not introduced here: the AG's 92,080 is all designated draft dodgers/Order 12 holders (~80% Haredi per IDF); ToI reports 80,000 (June 18) and 72,000 (July 28) Haredi men aged 18–24 eligible and not enlisted. Haaretz lede and the AG's numbers are readable without a subscription under curl with a browser UA; the full piece is paywalled. Surfaced by capture DbndLMgoMZF, whose footage shows uniformed Israeli police detaining Haredi men in a street; the specific incident, date, and location in that footage were not independently established here."
+}
