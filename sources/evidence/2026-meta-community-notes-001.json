@@ -1,0 +1,32 @@
+{
+    "id": "2026-meta-community-notes-001",
+    "anchor": "y2026-shaping-the-record",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "big-tech",
+        "journalism",
+        "civil-liberties"
+    ],
+    "claim": "Meta ended its third-party fact-checking program in the United States on April 7, 2025 and replaced it with Community Notes, the crowd-sourced labels now attached to posts on Facebook, Instagram and Threads. By Meta's own description the company takes no editorial role: \"Meta won't decide what gets rated or written – contributors from our community will.\" A note publishes only when contributors who normally disagree with each other rate it helpful — \"This isn't majority rules. No matter how many contributors agree on a note, it won't be published unless people who normally disagree decide that it provides helpful context.\" Notes are capped at 500 characters, must link a supporting source, and carry no author name. Contributors must be over 18 with an account more than six months old in good standing and either a verified phone number or two-factor authentication; roughly 200,000 had signed up in the US before launch. Nothing in the published design assigns the company, or any editor, responsibility for whether a note is correct.",
+    "sources": [
+        {
+            "label": "Meta Newsroom, \"Testing Begins for Community Notes on Facebook, Instagram and Threads,\" March 13, 2025 (updated April 7, 2025).",
+            "type": "primary",
+            "url": "https://about.fb.com/news/2025/03/testing-begins-community-notes-facebook-instagram-threads/",
+            "quote": "Meta won’t decide what gets rated or written – contributors from our community will. And to safeguard against bias, notes won’t be published unless contributors with a range of viewpoints broadly agree on them. This isn’t majority rules. No matter how many contributors agree on a note, it won’t be published unless people who normally disagree decide that it provides helpful context.",
+            "clip": "clips/2026-meta-community-notes-001-00.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "Meta Newsroom, same announcement — contributor eligibility and note format.",
+            "type": "primary",
+            "url": "https://about.fb.com/news/2025/03/testing-begins-community-notes-facebook-instagram-threads/",
+            "quote": "Community Notes will have a limit of 500 characters and will need to include a link to support the note. To start with, notes won’t have author names attached to them.",
+            "clip": "clips/2026-meta-community-notes-001-01.png",
+            "clip_status": "ok-cross-node60"
+        }
+    ],
+    "status": "verified",
+    "notes": "Primary pulled from about.fb.com (curl, browser UA). transparency.meta.com/features/community-notes/ returns an error page to both WebFetch and curl; the Newsroom post carries the same language. The reason this is carded: in August 2026 a published note reading 'This video is AI. Marco Rubio did not say this.' was attached to a widely circulated clip of Rubio's May 28, 2025 State Department remarks, which the department's own transcript shows he did say (see 2025-rubio-visa-antisemitism-001). Under the design above, that label reflects contributor ratings under the bridging algorithm, not a Meta determination — and Meta publishes no per-note audit trail, so a wrong note and a manipulated one are indistinguishable from the outside. Capture DbjrJH9PYJK preserves the screenshot of the note. Whether that particular note was organic, mistaken, or coordinated is unresolved and is not asserted here."
+}

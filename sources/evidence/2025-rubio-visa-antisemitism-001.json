@@ -1,0 +1,38 @@
+{
+    "id": "2025-rubio-visa-antisemitism-001",
+    "anchor": "y2025-visa-speech",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "civil-liberties",
+        "trump",
+        "journalism"
+    ],
+    "claim": "On May 28, 2025, Secretary of State Marco Rubio told the Israeli Ministerial Conference on Combating Antisemitism that the United States had put a new visa standard in place: \"We have implemented a vigorous new visa policy that will prevent foreign nationals from coming to the United States to foment hatred against our Jewish community.\" The same remarks set out how the department reads the line between politics and bigotry — \"There can be no nuanced separation of hatred of Israel and hatred of the Jewish people. Those who call to boycott Israel are calling for the boycott of their Jewish neighbors and classmates\" — and said the United States is \"holding international organizations and nations accountable for rhetoric against Israel.\" The State Department published the full text on state.gov. The published remarks do not define where criticism of the Israeli government ends and the conduct the visa policy targets begins.",
+    "sources": [
+        {
+            "label": "U.S. Department of State, \"Secretary of State Marco Rubio at the Israeli Ministerial Conference on Combating Antisemitism,\" May 28, 2025 — official transcript.",
+            "type": "primary",
+            "url": "https://www.state.gov/secretary-of-state-marco-rubio-at-the-israeli-ministerial-conference-on-combating-antisemitism",
+            "quote": "Under President Trump, the United States will stand with the Jewish people. We have implemented a vigorous new visa policy that will prevent foreign nationals from coming to the United States to foment hatred against our Jewish community. We are holding international organizations and nations accountable for rhetoric against Israel",
+            "clip": "clips/2025-rubio-visa-antisemitism-001-00.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "U.S. Department of State transcript, same remarks — on the boycott framing.",
+            "type": "primary",
+            "url": "https://www.state.gov/secretary-of-state-marco-rubio-at-the-israeli-ministerial-conference-on-combating-antisemitism",
+            "quote": "There can be no nuanced separation of hatred of Israel and hatred of the Jewish people. Those who call to boycott Israel are calling for the boycott of their Jewish neighbors and classmates.",
+            "clip": "clips/2025-rubio-visa-antisemitism-001-01.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Antiwar.com, \"Marco Rubio Says 'Vigorous New Visa Policy' Will Prevent Israel Critics From Entering the US,\" May 29, 2025.",
+            "type": "secondary",
+            "url": "https://news.antiwar.com/2025/05/29/marco-rubio-says-vigorous-new-visa-policy-will-prevent-israel-critics-from-entering-the-us/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Pulled the state.gov transcript directly (curl with a browser UA; WebFetch gets a 'Technical Difficulties' interstitial). Page datePublished May 28, 2025. Context inside the speech: the May 21, 2025 killing of Israeli embassy staffers Yaron Lischinsky and Sarah Milgrim outside the Capital Jewish Museum in Washington. In August 2026 a clip of these remarks circulated widely and drew a Meta Community Note asserting the video was AI-generated and that Rubio did not say this — the transcript above is the check on that. Separately, the popular one-line summary ('criticize Israel and the US revokes your visa') is an interpretation, not what the text says; the text says 'foment hatred against our Jewish community' and leaves the threshold undefined. Both the note and the summary are logged in the capture's implied_frame. Surfaced by capture DbjrJH9PYJK."
+}

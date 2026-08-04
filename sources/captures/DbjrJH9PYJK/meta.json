@@ -1,0 +1,40 @@
+{
+    "id": "DbjrJH9PYJK",
+    "url": "https://www.instagram.com/reel/DbjrJH9PYJK/",
+    "platform": "instagram",
+    "captured_at": "2026-08-04",
+    "handle": "@5149jamesli",
+    "author_display_name": "James Li",
+    "posted_at": "2026-08-03",
+    "engagement": {
+        "likes": 52284,
+        "comments": 1114
+    },
+    "caption": "I Caught Meta LYING on a Fact Check — Here’s Why 🧐",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Cover card: \"This is not an “accident” 🤨\". Inline pops: \"THIS IS 100%\". On-screen screenshot of a published Community Note reading \"This video is AI. Marco Rubio did not say this.\" attached to the creator’s prior post, plus a screenshot of the state.gov transcript and a clip of an AI-policy talk.",
+    "audio_content_summary": "Argues that a Community Note falsely labeling authentic footage of Secretary of State Marco Rubio as AI-generated is part of a broader pattern: pro-Israel advocacy moving into AI systems, and bot networks capable of manufacturing the cross-viewpoint consensus that Community Notes requires. Reads the state.gov transcript aloud to show the footage is genuine, plays a clip of an AI researcher describing a path to \"correcting the digital world,\" cites Times of Israel reporting on bots amplifying Netanyahu, and closes on the Orwell line about rejecting the evidence of your eyes and ears.",
+    "implied_frame": "Verified here: Rubio’s May 28, 2025 remarks are genuine and published in full on state.gov (2025-rubio-visa-antisemitism-001); Maya Ackerman’s AJC and Voice of the People remarks and the One Five Seven initiative are documented (2026-one-five-seven-ai-001); Meta’s Community Notes are contributor-written and published by a cross-viewpoint bridging algorithm, exactly as described (2026-meta-community-notes-001). Not established: that the Rubio policy revokes visas for criticizing Israel — the text says \"foment hatred against our Jewish community\" and leaves the threshold undefined; that the note on the prior post was placed by bots or coordinated at all — offered as \"you can imagine,\" with no evidence tying any bot network to any specific note; that the Channel 12 bot findings (2026-israel-bot-network-001) extend beyond Israeli-language political amplification to Meta’s notes system. The genocide characterization and the reading of the AI initiative as a censorship program are contested framings, carried as attribution only.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~23.3 MB); delivery ~24.3 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2025-rubio-visa-antisemitism-001",
+        "2026-one-five-seven-ai-001",
+        "2026-meta-community-notes-001",
+        "2026-israel-bot-network-001"
+    ],
+    "supporting_research_links": [
+        "https://www.state.gov/secretary-of-state-marco-rubio-at-the-israeli-ministerial-conference-on-combating-antisemitism",
+        "https://about.fb.com/news/2025/03/testing-begins-community-notes-facebook-instagram-threads/",
+        "https://ejewishphilanthropy.com/from-blueprints-to-life-showcases-first-year-of-israeli-president-herzogs-voice-of-the-people/",
+        "https://www.middleeastmonitor.com/20260608-instead-of-trying-to-control-the-whole-world-pro-israel-advocates-can-control-ai-ajc-told/",
+        "https://www.timesofisrael.com/netanyahu-allies-using-armies-of-bots-to-influence-social-media-discourse-report/"
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 6,
+        "c": 0
+    }
+}

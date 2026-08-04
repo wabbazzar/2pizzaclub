@@ -1,0 +1,38 @@
+{
+    "id": "2026-one-five-seven-ai-001",
+    "anchor": "y2026-shaping-the-record",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "israel",
+        "ai",
+        "big-tech",
+        "journalism"
+    ],
+    "claim": "One Five Seven — an initiative named for the world's estimated 15.7 million Jews — was presented in June 2026 as one of the first projects of Voice of the People, the program run out of Israeli President Isaac Herzog's residence in partnership with the World Zionist Organization and the Jewish Agency for Israel. Its stated aim is to change how artificial-intelligence systems describe Jewish people and Israel. Presenting it, computer scientist Maya Ackerman (Santa Clara University; co-founder and chief executive of WaveAI) told the Voice of the People event that AI \"is becoming the most trusted source of information, a source of information that people trust more than social media, and even more than search engines,\" and that \"if we get in early enough, if we don't wait the way that we did with social media and Wikipedia, we can actually turn [AI] into a really, really important part of the solution.\" On a panel at the American Jewish Committee's Global Forum — the annual conference of the U.S. Jewish advocacy group — she described the method as bypassing the open web: \"instead of trying to control the whole world … we can go directly to the companies with clear technical and advocacy solutions.\" Herzog, at the same event, called AI \"the biggest threat and opportunity to the Jewish People.\"",
+    "sources": [
+        {
+            "label": "eJewishPhilanthropy, \"'From Blueprints to Life' showcases first year of Israeli president Herzog's Voice of the People,\" June 4, 2026.",
+            "type": "secondary",
+            "url": "https://ejewishphilanthropy.com/from-blueprints-to-life-showcases-first-year-of-israeli-president-herzogs-voice-of-the-people/",
+            "quote": "“Since 2023, antisemitism and AI have risen in tandem,” Maya Ackerman, an AI expert who presented on the One Five Seven initiative — named for the world’s 15.7 million Jews — said at the event.",
+            "clip": "clips/2026-one-five-seven-ai-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "AJC, \"AI and the Fight Against Antisemitism: The Good, The Bad, and What's Next | AJC Global Forum 2026\" — session listing naming Ackerman as a speaker.",
+            "type": "primary",
+            "url": "https://www.ajc.org/news/ai-and-the-fight-against-antisemitism-the-good-the-bad-and-whats-next-ajc-global-forum-2026"
+        },
+        {
+            "label": "Middle East Monitor, \"'Instead of trying to control the whole world', pro-Israel advocates can control AI, AJC told,\" June 8, 2026.",
+            "type": "secondary",
+            "url": "https://www.middleeastmonitor.com/20260608-instead-of-trying-to-control-the-whole-world-pro-israel-advocates-can-control-ai-ajc-told/",
+            "quote": "we can go directly to the companies with clear technical and advocacy solutions",
+            "clip": "clips/2026-one-five-seven-ai-001-02.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Two separate appearances, both June 2026: the Voice of the People 'From Blueprints to Life' event (eJewishPhilanthropy, June 4, has the longest verbatim block) and the AJC Global Forum panel (AJC's own page confirms the session and Ackerman as a speaker; ajc.org 403s WebFetch but resolves under curl with a browser UA — no transcript posted). AJC has not published the panel transcript, so the 'correcting the digital world' line rests on Middle East Monitor's June 8 write-up plus circulating video; that sentence is quoted here only in the shortened form MEMO carries verbatim. Sourcing for the launch month is reporting, not an Israeli-government release. Surfaced by capture DbjrJH9PYJK."
+}

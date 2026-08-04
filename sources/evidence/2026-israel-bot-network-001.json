@@ -1,0 +1,33 @@
+{
+    "id": "2026-israel-bot-network-001",
+    "anchor": "y2026-shaping-the-record",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "israel",
+        "netanyahu",
+        "journalism",
+        "big-tech"
+    ],
+    "claim": "An Israeli Channel 12 investigation broadcast January 2, 2026 reported that about half of the politically active accounts on Israeli social media are bots rather than people, and that accounts run from outside Israel like and share posts by Prime Minister Benjamin Netanyahu and members of his coalition within seconds of upload — faster than the material could be read or watched — in order to push the platforms' recommendation algorithms. Jonathan Hasidim of the Scooper research group told the broadcast: \"When he posts a five-minute video in Hebrew, in the first 60 seconds, most of the shares are from abroad.\" A 2019 report by the Israeli watchdog Big Bots Project, picked up by Yedioth Ahronoth and The New York Times, had earlier identified 154 pro-Netanyahu accounts operating under false names and roughly 400 more suspected of being fake; those researchers found no direct link to the Likud campaign or to Netanyahu himself, and Netanyahu answered the report at a press conference by accusing his rivals of lying and presenting one account holder in person to show he was real.",
+    "sources": [
+        {
+            "label": "The Times of Israel, \"Netanyahu, allies using armies of bots to influence social media discourse – report,\" January 4, 2026.",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/netanyahu-allies-using-armies-of-bots-to-influence-social-media-discourse-report/",
+            "quote": "About half of the politically active accounts on Israeli social media are not real people but rather bots, including many of those boosting posts by Prime Minister Benjamin Netanyahu and members of his right-wing coalition, according to an investigation by Channel 12 news.",
+            "clip": "clips/2026-israel-bot-network-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Marissa Newman, The Times of Israel, \"Netanyahu accuses 'lying' Blue and White of tarring Likud voters as 'bots',\" April 1, 2019.",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/netanyahu-accuses-lying-blue-and-white-of-tarring-likud-voters-as-bots/",
+            "quote": "researchers have identified a network that included 154 accounts using false names and another 400 accounts suspected of being fake",
+            "clip": "clips/2026-israel-bot-network-001-01.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Attribution chain: Channel 12 broadcast (aired Friday night, Jan 2, 2026) → Times of Israel write-up Jan 4. The finding is a journalistic investigation, not a court or platform determination; Netanyahu disputed the 2019 predecessor finding, and the 2019 researchers themselves reported no direct connection to Likud or the Netanyahu campaign, only apparent coordination. Carded as a report, not as adjudicated fact. Verbatim pulled from timesofisrael.com under curl with a browser UA. Surfaced by capture DbjrJH9PYJK, which cites the 2026 reporting to argue bot networks could manufacture a Community Note consensus; nothing in either report connects these networks to any specific Community Note, and that inference is not carried here."
+}
