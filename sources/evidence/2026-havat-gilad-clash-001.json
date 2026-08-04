@@ -1,0 +1,43 @@
+{
+    "id": "2026-havat-gilad-clash-001",
+    "anchor": "y2026-west-bank-settlers",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "palestine",
+        "idf",
+        "body-count"
+    ],
+    "claim": "Six people were killed on July 24, 2026 in and around the Palestinian village of Tal, near the Havat Gilad outpost outside Nablus in the occupied West Bank: four Palestinians and two Israelis. The Israeli dead were Maj. Yuval Ezra, an IDF artillery officer, and Benayahu Mellet, 32, a member of the Havat Gilad civil defense squad. How it began is disputed. Israeli accounts say a group of Israelis hiking without the required military coordination entered the village outskirts and was attacked by armed Palestinians, one of whom seized Mellet's weapon and used it to kill him before an IDF platoon commander shot four Palestinians. Essam Saifi, a local Fatah representative, said 25 to 30 armed settlers entered the Palestinian-Authority-controlled town claiming to be hiking, attacked two homes on its eastern side, and opened fire when residents confronted them. The BBC reported the original cause as disputed. In the days after, hundreds of settlers raided five villages, setting fires and attacking residents and property, and Israeli forces detained roughly 70 Palestinians, raided a Nablus hospital, and imposed curfews and checkpoints around Tal and Nablus.",
+    "sources": [
+        {
+            "label": "\"July 2026 West Bank unrest,\" Wikipedia — casualty identifications and both accounts of the incident's origin, with underlying citations.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/July_2026_West_Bank_unrest"
+        },
+        {
+            "label": "The Business Standard, \"'We need to kill all': Israeli settler defends revenge attacks on Palestinians in West Bank,\" August 1, 2026 — relaying the BBC on the disputed origin and the casualty count.",
+            "type": "secondary",
+            "url": "https://www.tbsnews.net/worldbiz/middle-east/we-need-kill-all-israeli-settler-defends-revenge-attacks-palestinians-west-bank",
+            "quote": "The clash killed the security guard from Havat Gilad, four Palestinians and an Israeli soldier. The original cause of the incident remains disputed, the BBC reported.",
+            "clip": "clips/2026-havat-gilad-clash-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "The Media Line, \"Israeli Hiker Killed, 4 Palestinians Dead, Others Wounded in Gunfight Near Havat Gilad,\" July 2026.",
+            "type": "secondary",
+            "url": "https://themedialine.org/headlines/israeli-hiker-killed-4-palestinians-dead-others-wounded-in-gunfight-near-havat-gilad/"
+        },
+        {
+            "label": "Dave DeCamp, Antiwar.com, August 2, 2026 — describes the guard as killed during a settler attack on Tal.",
+            "type": "secondary",
+            "url": "https://news.antiwar.com/2026/08/02/israeli-settler-and-lawyer-says-all-palestinians-living-in-villages-around-his-west-bank-settlement-should-be-killed/",
+            "quote": "Yehuda Shimon made the comments in reference to a security guard from the outpost who was killed during a settler attack on Tal, a nearby Palestinian village. Four Palestinians and one other Israeli were killed during the confrontation",
+            "clip": "clips/2026-havat-gilad-clash-001-03.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Deliberately carries both accounts of the trigger — the IDF/Israeli version (unauthorized hikers attacked, weapon seized) and the Palestinian version (armed settlers raided homes and opened fire) — because the BBC itself reported the cause as disputed. Neither is adopted here. Some outlets date the confrontation July 18 rather than July 24; the July 24 date matches the Reuters wire photo caption, the IDF casualty identifications, and the U.S. News/Media Line reports, so it is used. This is the incident Yehuda Shimon cited as justification in 2026-shimon-bbc-interview-001. Surfaced by capture Dbgg_FsxdxX."
+}

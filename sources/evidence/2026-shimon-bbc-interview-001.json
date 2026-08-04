@@ -1,0 +1,48 @@
+{
+    "id": "2026-shimon-bbc-interview-001",
+    "anchor": "y2026-west-bank-settlers",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "palestine",
+        "international-law",
+        "journalism"
+    ],
+    "claim": "Yehuda Shimon — an Israeli lawyer who represents Israelis accused of violence against Palestinians, and a resident of Havat Gilad, an unauthorized outpost near Nablus in the occupied West Bank — told BBC correspondent Lucy Williamson in an interview published August 1, 2026 that the Palestinian villages nearest the outpost should be wiped out: \"I think now, after they killed one Israeli, we need to kill all the people in Tal and Sarra, even Jit and Farata. Why? Because we don't want it to happen again.\" Asked whether he was valuing one Jewish life at thousands of Palestinian lives, he corrected the figure upward — \"One Jewish life, it's ten million, okay?\" Told the position sounded racist, he agreed and defended it: \"Yes, I know, I know. But this is the truth. Because God choose us. Because of this, you are jealous.\" He said the Bible, not international law, governs title to the land, and confirmed to Williamson that as a lawyer the only law that counts for him is the Bible. He said Palestinians in the West Bank have three options — accept Israeli rule, leave for another Arab or Muslim country, or be killed if they keep resisting — which the BBC noted closely tracks the \"Decisive Plan\" that Bezalel Smotrich, now Israel's finance minister, published in the journal Hashiloach in 2017. The BBC noted that many Israelis reject such views.",
+    "sources": [
+        {
+            "label": "Lucy Williamson, BBC News, \"Israeli West Bank settler defends attacks on Palestinians as 'revenge',\" August 1, 2026 — the original interview.",
+            "type": "primary",
+            "url": null
+        },
+        {
+            "label": "Dave DeCamp, Antiwar.com, \"Israeli Lawyer Says All Palestinians Living in Villages Around His West Bank Settlement Should Be Killed,\" August 2, 2026 — transcribes the exchange.",
+            "type": "secondary",
+            "url": "https://news.antiwar.com/2026/08/02/israeli-settler-and-lawyer-says-all-palestinians-living-in-villages-around-his-west-bank-settlement-should-be-killed/",
+            "quote": "“I think now after they kill one Israeli people, we need to kill all the people in Tal and Sarra, even Jit and Farata,” he said. “Why? Because we don’t want it to happen again.”",
+            "clip": "clips/2026-shimon-bbc-interview-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "The Business Standard, \"'We need to kill all': Israeli settler defends revenge attacks on Palestinians in West Bank,\" August 1, 2026 — on the three options and the Smotrich comparison.",
+            "type": "secondary",
+            "url": "https://www.tbsnews.net/worldbiz/middle-east/we-need-kill-all-israeli-settler-defends-revenge-attacks-palestinians-west-bank",
+            "quote": "Shimon said Palestinians living in the West Bank had three choices: accept Israeli rule, leave for other Arab or Muslim countries, or face death if they continued resistance. The BBC said his views closely resembled a 2017 proposal by Israeli Finance Minister Bezalel Smotrich.",
+            "clip": "clips/2026-shimon-bbc-interview-001-02.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "Canadian Friends of Peace Now, \"Primer: Smotrich's 2017 'Decisive Plan' and Israel's Future\" — on the plan the BBC compared the remarks to.",
+            "type": "secondary",
+            "url": "https://www.peacenowcanada.org/news-releases/primer-smotrichs-2017-decisive-plan-and-israels-future/"
+        },
+        {
+            "label": "The Jerusalem Post, \"Israeli lawyer advocates killing Palestinians to BBC week after Gilad Farm deadly shooting,\" August 1, 2026.",
+            "type": "secondary",
+            "url": "https://www.jpost.com/israel-news/article-904259"
+        }
+    ],
+    "status": "verified",
+    "notes": "bbc.com blocks our fetch agent entirely (WebFetch and curl both refused), so the BBC source carries url:null per the URL-hygiene rule and the verbatim is taken from outlets that transcribed the same broadcast — Antiwar.com's transcription matches the audio in capture Dbgg_FsxdxX word for word, including the '[No], million' correction. Village names appear as Tal/Tell and Sarra/Sarta across outlets; the BBC's spellings are used here. The circulating caption also asserts that no Israeli official publicly condemned the remarks; that is an absence claim which was not verified and is not carried in this record. Surfaced by capture Dbgg_FsxdxX."
+}

@@ -1,0 +1,37 @@
+{
+    "id": "Dbgg_FsxdxX",
+    "url": "https://www.instagram.com/reel/Dbgg_FsxdxX/",
+    "platform": "instagram",
+    "captured_at": "2026-08-04",
+    "handle": "@homopoliticus.news",
+    "author_display_name": "Homopoliticus",
+    "posted_at": "2026-08-01",
+    "engagement": {
+        "likes": 42365,
+        "comments": 9122
+    },
+    "caption": "A BBC interview with Israeli lawyer Yehuda Shimon, filmed at the Havat Gilad settlement outpost in the occupied West Bank, has drawn widespread condemnation after Shimon called for the mass killing of residents of four nearby Palestinian villages and declared that one Jewish life is worth ten million Palestinian lives — a view he openly acknowledged was racist but insisted was justified by divine election.\n\n“I think now, after they killed one Israeli, we need to kill all the people in Tal and Sarra, even Jit and Farata,” Shimon told the BBC, naming the Palestinian villages closest to the outpost. When challenged on whether he was equating one Jewish life with hundreds or thousands of Palestinian lives, he replied: “No — millions. One Jewish life, it’s 10 million Palestinians.” When challenged on the racism of his statement, he did not deny it. “Yes, I know. But this is the truth, because God chose us — and because of this you are jealous.” \n\nShimon also said Palestinians in the West Bank had three choices: accept Israeli rule, leave for other Arab or Muslim countries, or face death if they continued resistance — a position the BBC noted closely resembles a 2017 plan by Finance Minister Bezalel Smotrich. Shimon is a lawyer for an organisation that represents Israelis arrested for violence against Palestinians. \n\nThe BBC noted that many Israelis reject such extreme views. No Israeli official has publicly condemned the remarks.",
+    "hashtags": [],
+    "audio_track_actual": "Interview audio from a BBC News segment; no music.",
+    "video_overlay_text_observed": "Homopoliticus wordmark; location card \"AUGUST 1, 2026 — Havat Gilad, occupied West Bank\"; lower-third \"Yehuda Shimon / Israeli lawyer\"; burned-in English subtitles of the exchange.",
+    "audio_content_summary": "Repost of a BBC News interview by correspondent Lucy Williamson with Yehuda Shimon at the Havat Gilad outpost. Shimon says the Palestinian villages nearest the outpost should be killed in reprisal for an Israeli killed nearby, values one Jewish life at ten million Palestinian lives, agrees the position is racist and defends it on grounds of divine election, and says the Bible rather than international law governs title to the land.",
+    "implied_frame": "The clip is authentic BBC interview footage; the quoted exchange matches outlets that transcribed the same broadcast word for word (2026-shimon-bbc-interview-001). The July 2026 confrontation Shimon cites is documented, but its trigger is contested — Israeli accounts describe hikers attacked by armed Palestinians, a local Fatah representative describes armed settlers raiding homes and firing — and both are carried without adoption (2026-havat-gilad-clash-001). Shimon’s own assertions (divine title to the land, the Bible overriding international law, the three options for Palestinians) are his claims, presented as attribution, not as findings. The reposted caption’s further assertion that no Israeli official publicly condemned the remarks was not verified and is not carded.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~7.4 MB); delivery ~7.5 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-shimon-bbc-interview-001",
+        "2026-havat-gilad-clash-001"
+    ],
+    "supporting_research_links": [
+        "https://news.antiwar.com/2026/08/02/israeli-settler-and-lawyer-says-all-palestinians-living-in-villages-around-his-west-bank-settlement-should-be-killed/",
+        "https://www.tbsnews.net/worldbiz/middle-east/we-need-kill-all-israeli-settler-defends-revenge-attacks-palestinians-west-bank",
+        "https://www.jpost.com/israel-news/article-904259",
+        "https://en.wikipedia.org/wiki/July_2026_West_Bank_unrest"
+    ],
+    "editorial_split": {
+        "a": 2,
+        "b": 5,
+        "c": 0
+    }
+}
