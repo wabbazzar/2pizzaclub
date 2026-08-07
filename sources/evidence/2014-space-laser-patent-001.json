@@ -1,0 +1,42 @@
+{
+    "id": "2014-space-laser-patent-001",
+    "anchor": "y2023-maui-fires",
+    "year": 2014,
+    "era": "iv",
+    "themes": [
+        "directed-energy-weapons",
+        "weapons",
+        "engineering"
+    ],
+    "claim": "A granted U.S. patent for an orbital laser weapon does exist. US 8,757,552 B1, \"Dispersed space based laser weapon,\" was filed June 20, 2013 by an individual inventor, Rick Martin, with no corporate assignee, and issued June 24, 2014. Its abstract describes \"a dozen or more orbiting solar generators\" that \"can be congregated rapidly in space at any desired secret location\" and then \"focus their energy to a death star.\" Two continuations followed (US 8,991,766 B1 and US 9,511,881 B1). The U.S. Patent and Trademark Office has not required applicants to submit a working model since the 19th century and does not test whether a claimed device functions; a granted patent establishes that a description was filed and examined against prior art, not that a system was ever built, launched or operated. Directed-energy weapons that have been built are documented separately and are short-range and line-of-sight: the U.S. Navy's 30-kilowatt Laser Weapon System (LaWS) was installed aboard the USS Ponce and declared operational in the Persian Gulf in 2014, where the Office of Naval Research says it shot down a Scan Eagle drone and disabled small-boat targets at sea.",
+    "sources": [
+        {
+            "label": "US 8,757,552 B1, \"Dispersed space based laser weapon\" — inventor Rick Martin; filed June 20, 2013, granted June 24, 2014.",
+            "type": "primary",
+            "url": "https://patents.google.com/patent/US8757552B1/en",
+            "quote": "A dozen or more orbiting solar generators stay in constant touch. They can be congregated rapidly in space at any desired secret location. Once congregated they all focus their energy to a death star."
+        },
+        {
+            "label": "US 9,511,881 B1, \"Dispersed space based laser weapon\" — continuation of the same family.",
+            "type": "primary",
+            "url": "https://patents.google.com/patent/US9511881B1/en"
+        },
+        {
+            "label": "GlobalData survey of directed-energy-weapon patent holders, 2002-2022 — Raytheon, Boeing and BAE Systems lead the field; Boeing published 59.",
+            "type": "secondary",
+            "url": "https://www.globaldata.com/data-insights/technology-media-and-telecom/global-top-directed-energy-weapons-patents-holders-in-the-technology--media-and-telecom-sector-2131631/"
+        },
+        {
+            "label": "U.S. Office of Naval Research — \"Historic Leap: Navy Shipboard Laser Operates in Persian Gulf,\" on LaWS aboard USS Ponce, December 2014.",
+            "type": "primary",
+            "url": "https://www.onr.navy.mil/media-center/news-releases/historic-leap-navy-shipboard-laser-operates-persian-gulf"
+        },
+        {
+            "label": "@cool.kidzz13, Instagram reel DbrFqHrSpx5 (Aug. 5, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DbrFqHrSpx5/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. This record concedes the true half of the 'there's already a patent on it' claim and then states what a patent is worth as evidence. Deliberately not framed as a debunk: the patent is real, the family is real, and defense primes hold hundreds of DEW patents. The load-bearing distinction is grant != existence, and the abstract's own 'death star' language is left verbatim so the reader can weigh the document's register. Group A. LaWS/USS Ponce is included as the fielded counterexample so the card is not read as 'DEWs aren't real' — they are, at kilowatt scale over kilometers, not orbital arson. Verify the LaWS line against a Navy source if this record is ever expanded into its own card."
+}

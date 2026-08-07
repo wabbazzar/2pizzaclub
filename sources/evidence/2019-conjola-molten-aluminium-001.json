@@ -1,0 +1,44 @@
+{
+    "id": "2019-conjola-molten-aluminium-001",
+    "anchor": "y2023-maui-fires",
+    "year": 2019,
+    "era": "iv",
+    "themes": [
+        "wildfires",
+        "forensics",
+        "directed-energy-weapons",
+        "journalism"
+    ],
+    "claim": "The photograph of a burned-out car with bright branching rivulets running downhill across the road — circulated as proof that a beam weapon, not a fire, destroyed a neighborhood — was taken on December 31, 2019 in Conjola Park, New South Wales, Australia by Matthew Abbott, on assignment for The New York Times. It won second prize for Spot News in the 2020 World Press Photo contest. The rivulets are molten aluminium that ran out of the car's wheels and body and solidified on the pavement; the contest caption states the metal \"melts at 660.3℃.\" Wildfire flame temperatures commonly reach 800°C and can exceed 1,200°C, so aluminium liquefying is an expected result rather than an anomalous one — the same effect was documented in vehicles burned by California's 2018 Camp Fire. The image is neither from Hawaii nor from any recent fire.",
+    "sources": [
+        {
+            "label": "World Press Photo 2020 Contest, Spot News 2nd Prize — Matthew Abbott, Panos Pictures for The New York Times; official contest caption.",
+            "type": "primary",
+            "url": "https://www.worldpressphoto.org/collection/photo-contest/2020/matthew-abbott/5",
+            "quote": "Aluminum, which melts at 660.3℃, has streamed from a burning car in Conjola Park, a town where bushfires razed more than 89 properties, in New South Wales, Australia."
+        },
+        {
+            "label": "Matthew Abbott, World Press Photo photographer biography — Sydney-based documentary photographer; Black Summer bushfire coverage for The New York Times.",
+            "type": "primary",
+            "url": "https://www.worldpressphoto.org/matthew-abbott-bio"
+        },
+        {
+            "label": "CBS News, Nov. 12, 2018 — aluminium wheels melting in California's Camp Fire.",
+            "type": "secondary",
+            "url": "https://www.cbsnews.com/news/californias-camp-fire-burned-hot-enough-to-melt-aluminum-in-cars/",
+            "quote": "The blaze was so hot that aluminum wheels on vehicles melted."
+        },
+        {
+            "label": "Full Fact — melting points of vehicle metals versus wildfire temperatures, assessing the Maui \"melted cars\" claim.",
+            "type": "secondary",
+            "url": "https://fullfact.org/online/maui-fire-melting-point-metal/"
+        },
+        {
+            "label": "@cool.kidzz13, Instagram reel DbrFqHrSpx5 (Aug. 5, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DbrFqHrSpx5/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Provenance established by reverse-image search (Yandex CBIR) on the still lifted from the reel: exact-size matches resolve to Matthew Abbott's Instagram (@mattabbottphoto, Jan 2020) and Australian-bushfire galleries, and the World Press Photo entry carries the canonical caption. Group A on the image's origin and on the aluminium physics; the DEW reading of it is Group B and is not adopted here. Note the framing device the record answers without naming it: the rivulets look electrical because they branch, but branching is what a liquid does running down a cambered road surface. Photographer's book 'A Fire Inside' (Thames & Hudson, 2021) carries the same series."
+}

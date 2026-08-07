@@ -1,0 +1,44 @@
+{
+    "id": "2023-blue-laser-reflectance-001",
+    "anchor": "y2023-maui-fires",
+    "year": 2023,
+    "era": "iv",
+    "themes": [
+        "directed-energy-weapons",
+        "wildfires",
+        "science",
+        "forensics"
+    ],
+    "claim": "The bench demonstration offered as proof that an energy weapon \"cannot affect blue\" — a hobby laser scorching yellow, red and green swatches while leaving a blue swatch unmarked — is a real and well-understood property of one specific tool. Hobby engravers use blue diode lasers emitting at roughly 445-455 nanometres. Blue material looks blue because it reflects light in the 440-470 nm band, so a blue laser's beam is largely bounced rather than absorbed and deposits little heat; manufacturers publish this as a known limitation, warning that these machines cannot cut blue, white or clear stock. The effect is a property of matching wavelength to pigment, not a property of energy weapons: it also spares white and mirrored surfaces, and it disappears at any other wavelength. Scott Savitz, a senior engineer at the RAND Corporation, told PolitiFact that \"while differently colored items vary in the degree to which they absorb different wavelengths of light … shining a laser on an object will give it energy, regardless of the wavelength of the laser and the color of the object.\" Fact-checkers going frame by frame through Maui imagery found destroyed blue items — including a blue tarpaulin at Lahaina harbor — alongside surviving items of every other color.",
+    "sources": [
+        {
+            "label": "PolitiFact, Aug. 24, 2023 — Scott Savitz (RAND Corporation) and Michael Gollner (Associate Professor of Mechanical Engineering, UC Berkeley) on lasers, color and how fires spread.",
+            "type": "primary",
+            "url": "https://politifact.com/factchecks/2023/aug/24/instagram-posts/fires-can-hop-directed-energy-weapons-did-not-spar/",
+            "quote": "while differently colored items vary in the degree to which they absorb different wavelengths of light … shining a laser on an object will give it energy, regardless of the wavelength of the laser and the color of the object."
+        },
+        {
+            "label": "Mr Beam Lasers, materials guidance — why a 450 nm diode laser cannot process blue, white or light-colored stock.",
+            "type": "primary",
+            "url": "https://support.mr-beam.org/en/support/solutions/articles/43000579632-materials-general-information",
+            "quote": "Blue objects reflect only light in the spectrum 440-470nm... a blue laser beam (450nm) means blue and white objects reflect the laser light best, while black objects absorb it best."
+        },
+        {
+            "label": "Darkly Labs, acrylic cutting notes — blue acrylic reflects the 445-455 nm beam back rather than absorbing it.",
+            "type": "secondary",
+            "url": "https://darklylabs.com/article/cutting-engraving-acrylic-information/"
+        },
+        {
+            "label": "Logically Facts — frame-by-frame survey of Maui imagery finding burned blue objects and surviving objects of other colors.",
+            "type": "secondary",
+            "url": "https://www.logicallyfacts.com/en/fact-check/false-ample-evidence-to-prove-hawaii-wildfire-blue-theory-isn-t-true"
+        },
+        {
+            "label": "@cool.kidzz13, Instagram reel DbrFqHrSpx5 (Aug. 5, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DbrFqHrSpx5/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. The demo footage is genuine and the physics in it is genuine — that is the point of the record, and it is why this is not written as a debunk. Reverse-image search resolves the swatch clip to a YouTube upload titled 'Blue DEW laser fire proof' circulating in DEW compilations; there is no independent lab attached to it, so the record cites the underlying optics from laser-cutter manufacturers rather than the clip. The self-defeating part is left for the reader rather than stated: a 450 nm weapon that spares blue would equally spare white and glass, and could not melt aluminium wheels. Group A on the optics; the inference from it is Group B. RAND/PolitiFact quote verified against the live page."
+}

@@ -1,0 +1,37 @@
+{
+    "id": "2023-lahaina-fire-cause-001",
+    "anchor": "y2023-maui-fires",
+    "year": 2023,
+    "era": "iv",
+    "themes": [
+        "wildfires",
+        "forensics",
+        "infrastructure-capex"
+    ],
+    "claim": "The August 8, 2023 fire that destroyed Lahaina, Maui killed 102 people and burned roughly 2,170 acres. On October 3, 2024 the County of Maui Department of Fire and Public Safety and the federal Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) released a joint origin-and-cause report finding one fire, not two: a morning blaze ignited by Hawaiian Electric equipment downed in high winds was declared contained and left, and the same ground re-ignited that afternoon. The report places the origin off Lahainaluna Road near utility pole 25 and attributes ignition to \"molten metallic material (sparks) ejected from the re-energization of broken power lines above\" landing in unmaintained vegetation. The classification is accidental. A separate Hawaii Attorney General review, conducted by the Fire Safety Research Institute and released in phases through 2024, faulted the preparedness and communications of Hawaiian Electric, the Hawaii Emergency Management Agency, the Maui Fire Department and Maui Police, finding no agency had planned for a fire of that scale.",
+    "sources": [
+        {
+            "label": "County of Maui Department of Fire and Public Safety and U.S. ATF, joint origin-and-cause determination on the Aug. 8, 2023 Lahaina fire, released Oct. 3, 2024.",
+            "type": "primary",
+            "url": "https://www.mauirecovers.org/news/mfd-and-atf-conclude-aug-8-2023-lahaina-fire-was-one-fire-caused-by-re-energization-of-broken-electrical-lines",
+            "quote": "the fire originated off Lahainaluna Road in the unmaintained vegetation near utility pole 25 as a result of molten metallic material (sparks) ejected from the re-energization of broken power lines above"
+        },
+        {
+            "label": "Hawaiian Electric statement on the Maui Fire Department report.",
+            "type": "primary",
+            "url": "https://www.hawaiianelectric.com/hawaiian-electric-issues-statement-regarding-maui-fire-department-report-on-august-2023-wildfires"
+        },
+        {
+            "label": "Hawaii Attorney General Anne Lopez, phase-two report on the Lahaina wildfire prepared by the Fire Safety Research Institute (Sept. 2024) — coverage of the preparedness findings.",
+            "type": "secondary",
+            "url": "https://www.nbcnews.com/news/us-news/poor-communication-stymied-mauis-response-deadly-wildfires-mayor-says-rcna148173"
+        },
+        {
+            "label": "@cool.kidzz13, Instagram reel DbrFqHrSpx5 (Aug. 5, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DbrFqHrSpx5/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. This is the official investigative finding, stated as an attributed determination by the agencies that made it, not adopted as the site's own conclusion. It is the baseline any competing account has to displace. Group A. Death toll 102 is the state's revised figure; earlier reporting used 115 before DNA identification reduced it. Hawaiian Electric settled civil claims without admitting liability. The AG/FSRI phase reports and the MFD/ATF cause report are separate documents with different remits — cause vs. response — and are cited separately here."
+}

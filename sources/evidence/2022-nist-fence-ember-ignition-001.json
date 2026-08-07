@@ -1,0 +1,43 @@
+{
+    "id": "2022-nist-fence-ember-ignition-001",
+    "anchor": "y2023-maui-fires",
+    "year": 2022,
+    "era": "iv",
+    "themes": [
+        "wildfires",
+        "forensics",
+        "science",
+        "engineering"
+    ],
+    "claim": "Two patterns read as impossible in wildfire aftermath photographs — houses burned to white ash between trees still standing, and charring concentrated where metal meets wood — are documented behavior in the fire-research literature. Roughly 90 percent of homes lost in wildfires are ignited indirectly by wind-borne embers rather than by a passing flame front, and most burn down after the fire front has already moved past; buildings offer vents, eaves and gaps where embers lodge, while wind carries the same embers past a tree trunk. Fire investigators add that large pieces of wood take a long time to burn through, cannot usually sustain combustion on their own, and hold enough moisture to resist ignition. A 2022 National Institute of Standards and Technology study of residential fences and mulch beds found that these attached combustibles \"can act as bridges for flames to reach buildings and as launch pads for airborne embers to ignite fires far away,\" and that back-to-back fences produce \"explosive fire behavior\" by trapping and re-radiating hot gases. On the metal question, NIST co-lead author Kathryn Butler describes the residue those tests leave: \"Fences that catch fire were often completely gone. If you looked closely, you could see some nails and screws remaining.\" Metal fasteners survive the burn and conduct heat into the wood around them, which is why scorch marks cluster at hardware — the fasteners outlast the fuel rather than starting it.",
+    "sources": [
+        {
+            "label": "National Institute of Standards and Technology, Aug. 2022 — \"NIST Study Finds Wildfire Hazards in Residential Fences and Mulch Beds\"; Kathryn Butler, Erik Johnsson and Alexander Maranghides.",
+            "type": "primary",
+            "url": "https://www.nist.gov/news-events/news/2022/08/nist-study-finds-wildfire-hazards-residential-fences-and-mulch-beds",
+            "quote": "Fences that catch fire were often completely gone. If you looked closely, you could see some nails and screws remaining."
+        },
+        {
+            "label": "Fire Safe Marin, \"How Homes Ignite\" — ember ignition accounts for an estimated 90% of home losses; most houses survive the fire front and burn afterward.",
+            "type": "secondary",
+            "url": "https://firesafemarin.org/harden-your-home/how-homes-ignite/"
+        },
+        {
+            "label": "BBC Verify, Aug. 2023 — Dr. Rory Hadden, fire investigations expert, University of Edinburgh, on why trees remain standing after severe wildfires.",
+            "type": "secondary",
+            "url": "https://feeds.bbci.co.uk/news/world-us-canada-66457091"
+        },
+        {
+            "label": "Associated Press fact check — standing trees and utility poles amid Maui wreckage are ordinary wildfire behavior.",
+            "type": "secondary",
+            "url": "https://www.berkshireeagle.com/ap/factcheck/trees-and-poles-standing-amid-maui-fire-wreckage-aren-t-unusual-contrary-to-conspiracy-theories/article_eb3b570c-3dfc-11ee-a486-bf01095cda33.html"
+        },
+        {
+            "label": "@cool.kidzz13, Instagram reel DbrFqHrSpx5 (Aug. 5, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DbrFqHrSpx5/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. NIST is the primary; the ember-share figure and the tree-moisture explanation are secondary and attributed to the researchers who gave them. The metal-and-wood point is the weakest link in the chain and is stated conservatively: NIST documents fasteners surviving fence burns, and steel's conductivity is textbook, but no cited study establishes fasteners as a primary ignition point — the record says they outlast the fuel, which is what the evidence supports. Do not upgrade that sentence without a fastener-ignition study. The microwave analogy circulating alongside these photos is a different mechanism entirely (2.45 GHz arcing at thin metal edges in a resonant cavity) and is not addressed in the claim. Group A."
+}

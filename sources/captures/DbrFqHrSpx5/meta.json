@@ -1,0 +1,42 @@
+{
+    "id": "DbrFqHrSpx5",
+    "url": "https://www.instagram.com/reel/DbrFqHrSpx5/",
+    "platform": "instagram",
+    "captured_at": "2026-08-07",
+    "handle": "@cool.kidzz13",
+    "author_display_name": null,
+    "posted_at": "2026-08-05",
+    "engagement": {
+        "likes": 39902,
+        "comments": 1473
+    },
+    "caption": "DARPA pt.2",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Caption card 'MAUI FIRES' over aftermath footage; inset stills and clips shown throughout with no on-screen sourcing or dates. One clip carries a 'Brett Houston' social watermark.",
+    "audio_content_summary": "Speaker argues that a satellite-borne laser is starting wildfires worldwide, citing an existing patent, the Maui fires, blue objects said to be spared, warped steel beams beside intact trees, charring where metal touches wood, a microwave demonstration, and houses reduced to ash between standing trees.",
+    "implied_frame": "Frames global wildfires as strikes by an orbital directed-energy weapon, with the standing trees, surviving blue objects and warped metal presented as the weapon's signature. The visual bed is misattributed: the burned car with branching metal rivulets is Matthew Abbott's World Press Photo frame from Conjola Park, New South Wales, 31 Dec 2019 (molten aluminium, per the contest caption); the aerial of ash-white blocks between standing trees is Coffey Park, Santa Rosa, California after the October 2017 Tubbs Fire; the tree burning from a hollow trunk traces to northern California fire footage. The structure called 'a bridge in Maui' is not identified as Maui and reverse-image search returns only visually similar burned steel elsewhere. The burned board with intact white plastic caps traces only to Greg Reese's 2023 'Directed Energy Weapons Burning Homes to Ash' video and its reposts, with no original source. The Aug. 8 2023 Lahaina fire's origin and cause were determined by the Maui Fire Department and ATF (Oct. 3, 2024) to be accidental re-energization of broken Hawaiian Electric power lines.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~25.9 MB); delivery ~26.2 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2023-lahaina-fire-cause-001",
+        "2019-conjola-molten-aluminium-001",
+        "2017-coffey-park-aerial-001",
+        "2014-space-laser-patent-001",
+        "2023-blue-laser-reflectance-001",
+        "2022-nist-fence-ember-ignition-001"
+    ],
+    "supporting_research_links": [
+        "https://www.worldpressphoto.org/collection/photo-contest/2020/matthew-abbott/5",
+        "https://www.mauirecovers.org/news/mfd-and-atf-conclude-aug-8-2023-lahaina-fire-was-one-fire-caused-by-re-energization-of-broken-electrical-lines",
+        "https://patents.google.com/patent/US8757552B1/en",
+        "https://politifact.com/factchecks/2023/aug/24/instagram-posts/fires-can-hop-directed-energy-weapons-did-not-spar/",
+        "https://www.nist.gov/news-events/news/2022/08/nist-study-finds-wildfire-hazards-residential-fences-and-mulch-beds"
+    ],
+    "editorial_split": {
+        "a": 4,
+        "b": 10,
+        "c": 2
+    }
+}
