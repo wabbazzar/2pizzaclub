@@ -4,7 +4,7 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 119,
+      "count": 120,
       "seconds": 14781
     },
     {
@@ -100,7 +100,7 @@
     {
       "slug": "directed-energy-weapons",
       "topic": "Directed Energy Weapons",
-      "count": 3,
+      "count": 4,
       "seconds": 360
     },
     {
@@ -124,7 +124,7 @@
     {
       "slug": "engineering",
       "topic": "Engineering",
-      "count": 4,
+      "count": 5,
       "seconds": 536
     },
     {
@@ -176,6 +176,12 @@
       "seconds": 352
     },
     {
+      "slug": "forensics",
+      "topic": "Forensics",
+      "count": 1,
+      "seconds": 0
+    },
+    {
       "slug": "gates",
       "topic": "Gates",
       "count": 1,
@@ -208,7 +214,7 @@
     {
       "slug": "infrastructure-capex",
       "topic": "Infrastructure Capex",
-      "count": 5,
+      "count": 6,
       "seconds": 499
     },
     {
@@ -250,7 +256,7 @@
     {
       "slug": "journalism",
       "topic": "Journalism",
-      "count": 32,
+      "count": 33,
       "seconds": 3406
     },
     {
@@ -352,7 +358,7 @@
     {
       "slug": "science",
       "topic": "Science",
-      "count": 2,
+      "count": 3,
       "seconds": 177
     },
     {
@@ -454,7 +460,7 @@
     {
       "slug": "weapons",
       "topic": "Weapons",
-      "count": 10,
+      "count": 11,
       "seconds": 1387
     },
     {
@@ -468,6 +474,12 @@
       "topic": "Whistleblower",
       "count": 5,
       "seconds": 675
+    },
+    {
+      "slug": "wildfires",
+      "topic": "Wildfires",
+      "count": 1,
+      "seconds": 0
     }
   ]
 }
