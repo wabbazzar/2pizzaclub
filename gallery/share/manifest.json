@@ -4,7 +4,7 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 120,
+      "count": 122,
       "seconds": 14781
     },
     {
@@ -34,7 +34,7 @@
     {
       "slug": "big-tech",
       "topic": "Big Tech",
-      "count": 12,
+      "count": 13,
       "seconds": 1155
     },
     {
@@ -94,7 +94,7 @@
     {
       "slug": "defense",
       "topic": "Defense",
-      "count": 15,
+      "count": 16,
       "seconds": 1958
     },
     {
@@ -124,7 +124,7 @@
     {
       "slug": "engineering",
       "topic": "Engineering",
-      "count": 5,
+      "count": 6,
       "seconds": 536
     },
     {
@@ -202,7 +202,7 @@
     {
       "slug": "idf",
       "topic": "IDF",
-      "count": 12,
+      "count": 13,
       "seconds": 1278
     },
     {
@@ -244,7 +244,7 @@
     {
       "slug": "israel",
       "topic": "Israel",
-      "count": 33,
+      "count": 34,
       "seconds": 3897
     },
     {
@@ -256,7 +256,7 @@
     {
       "slug": "journalism",
       "topic": "Journalism",
-      "count": 33,
+      "count": 34,
       "seconds": 3406
     },
     {
@@ -358,7 +358,7 @@
     {
       "slug": "science",
       "topic": "Science",
-      "count": 3,
+      "count": 4,
       "seconds": 177
     },
     {
@@ -448,7 +448,7 @@
     {
       "slug": "war",
       "topic": "War",
-      "count": 12,
+      "count": 13,
       "seconds": 1920
     },
     {
