@@ -171,6 +171,10 @@
         }
         const stored = localStorage.getItem(STORAGE_KEY);
         if (stored) {
+            // A shared deep link (#chapter) beats a remembered filter — applying
+            // the stored themes could hide the very chapter the URL points at.
+            const hashId = decodeURIComponent((window.location.hash || '').slice(1));
+            if (hashId && document.getElementById(hashId)) return;
             activeThemes = new Set(knownThemes(stored.split(',').map((s) => s.trim()).filter(Boolean)));
             writeState();
         }

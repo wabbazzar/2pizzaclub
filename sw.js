@@ -8,7 +8,7 @@
 //
 // Bump CACHE_VERSION to retire old caches on the next activate.
 
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const CACHE = `2pc-${CACHE_VERSION}`;
 
 // App shell — precached on install so the first offline launch has everything
@@ -24,6 +24,7 @@ const SHELL = [
     '/search.js',
     '/timeline.js',
     '/mobile-nav.js',
+    '/deeplink.js',
     '/bundle.json',
     '/sources/evidence/manifest.json',
     '/sources/captures/manifest.json',
@@ -63,6 +64,26 @@ self.addEventListener('fetch', (event) => {
     const url = new URL(req.url);
     if (url.origin !== self.location.origin) return;
     if (BYPASS_EXT.test(url.pathname)) return;
+
+    // Navigations are network-first: stale-while-revalidate here left every
+    // visitor one deploy behind, so deep links to chapters that didn't exist
+    // in the cached index.html landed at the top of the page. Cache is the
+    // offline fallback only.
+    if (req.mode === 'navigate') {
+        event.respondWith(
+            caches.open(CACHE).then((cache) =>
+                fetch(req).then((res) => {
+                    if (res && res.ok && res.type === 'basic') {
+                        cache.put(req, res.clone());
+                    }
+                    return res;
+                }).catch(() =>
+                    cache.match(req).then((cached) => cached || cache.match('/index.html'))
+                )
+            )
+        );
+        return;
+    }
 
     // Stale-while-revalidate: respond from cache if present, and in parallel
     // fetch a fresh copy to update the cache for next time.
