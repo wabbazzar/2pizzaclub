@@ -1,0 +1,48 @@
+{
+    "id": "2018-mulholland-bridge-woolsey-001",
+    "anchor": "y2023-maui-fires",
+    "year": 2018,
+    "era": "iv",
+    "themes": [
+        "wildfires",
+        "forensics",
+        "directed-energy-weapons",
+        "engineering"
+    ],
+    "claim": "The photograph of a road bridge whose steel girders have sagged and buckled while the trees behind it still stand — offered as a Maui fire scene and as proof that something hotter than a wildfire passed through — is the Mulholland Highway bridge over Triunfo Creek in Agoura Hills, California, photographed in the aftermath of the Woolsey Fire on November 19, 2018. The Woolsey Fire started November 8, 2018, burned about 100,000 acres across Los Angeles and Ventura counties, forced roughly 300,000 evacuations and destroyed some 1,600 structures. The bridge's deck and steel were damaged past repair and it was demolished; Los Angeles County Public Works carried the replacement as project RDC0016378, and a new 140-foot two-lane steel truss bridge opened in July 2021 at a cost of about $6.6 million, two and a half years after the fire. Maui has no structure matching it. Structural steel does not need an exotic heat source to fail: it loses roughly half its yield strength by 600°C and most of the rest by 700°C, well inside the range of a wildfire burning through a creek bed of dry brush beneath a bridge deck.",
+    "sources": [
+        {
+            "label": "Los Angeles County Public Works — project record for Mulholland Highway over Triunfo Creek, Bridge No. 1180 (project RDC0016378).",
+            "type": "primary",
+            "url": "https://pw.lacounty.gov/GIS/ProjectsMap/Home/iKGoogleStreetView?project_ID=RDC0016378&printable=1"
+        },
+        {
+            "label": "Office of Los Angeles County Supervisor Sheila Kuehl — \"Bridge Destroyed by 2018 Woolsey Fire To Be Replaced.\"",
+            "type": "primary",
+            "url": "https://supervisorkuehl.com/bridge-destroyed-by-2018-woolsey-fire-to-be-replaced/"
+        },
+        {
+            "label": "The Malibu Times — \"New Mulholland Highway Bridge Symbol of 'Resiliency'\"; $6.6 million steel truss bridge unveiled July 10, 2021, two and a half years after the Woolsey Fire.",
+            "type": "secondary",
+            "url": "https://malibutimes.com/article_cf80e8a4-e50e-11eb-a102-8723141c95d4"
+        },
+        {
+            "label": "Construction Equipment Guide — demolition of the fire-ravaged Triunfo Creek bridge and construction of its replacement.",
+            "type": "secondary",
+            "url": "https://www.constructionequipmentguide.com/jilk-heavy-construction-razes-fire-ravaged-bridge-granite-builds-new-key-crossing/55319",
+            "quote": "When the fire was finally quelled, the bridge looked as if an angry giant had twisted the steel and asphalt in his hands."
+        },
+        {
+            "label": "Woolsey Fire — acreage, evacuations and structures destroyed.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Woolsey_Fire"
+        },
+        {
+            "label": "@cool.kidzz13, Instagram reel DbrFqHrSpx5 (Aug. 5, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DbrFqHrSpx5/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. This was the one inset that resisted identification on the first pass — Yandex returned only visually similar burned steel (Selwyn Snow Resort, NSW). Google Lens resolved it: Alamy stock frames captioned 'Agoura Hills, CA. 19th Nov, 2018. Woolsey Fire aftermath, looking west at Mulholland Highway bridge crossing over Triunfo Creek.' Confirmed independently against LA County Public Works, the county supervisor's office and local press, so the ID does not rest on the stock caption or on Lens. The Alamy frames are not cited directly (paywalled stock, no stable public URL). Steel strength-vs-temperature figures are standard structural fire engineering; if this record is expanded, source them to Eurocode 3 Part 1-2 or the AISC specification rather than leaving them general. Group A."
+}

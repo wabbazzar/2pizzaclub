@@ -1,0 +1,35 @@
+{
+    "id": "Dbqy94ohuZn",
+    "url": "https://www.instagram.com/reel/Dbqy94ohuZn/",
+    "platform": "instagram",
+    "captured_at": "2026-08-12",
+    "handle": "@cool.kidzz13",
+    "author_display_name": null,
+    "posted_at": "2026-08-05",
+    "engagement": {
+        "likes": 3453,
+        "comments": 109
+    },
+    "caption": "DARPA pt.1",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Talking-head reel with burned-in captions; no on-screen citations.",
+    "audio_content_summary": "Primer on DARPA: founded 1958, built ARPANET, credited with GPS, self-driving cars, brain-computer interfaces and robotics; described as the most secretive and productive military research agency and 'at least 20 years ahead' of public knowledge. Teases an Eisenhower angle and a part two on directed-energy weapons.",
+    "implied_frame": "Sets DARPA up as an agency whose capabilities run decades ahead of anything disclosed, so that the follow-up post's directed-energy-weapon claim inherits that premise. The founding date and the funding model are accurate; ARPANET is dated to 1968, which is the contract year rather than the year the network ran (first message UCLA to SRI, Oct. 29, 1969), and GPS is attributed to DARPA although the Navstar constellation came from a 1973 joint Navy/Air Force program. The 'always 20 years ahead' figure has no source.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~16.3 MB); delivery ~16.5 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "1958-darpa-founding-001"
+    ],
+    "supporting_research_links": [
+        "https://www.darpa.mil/about",
+        "https://www.darpa.mil/news/features/arpanet",
+        "https://aerospace.org/article/brief-history-gps"
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 3,
+        "c": 1
+    }
+}

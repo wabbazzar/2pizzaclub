@@ -1,0 +1,43 @@
+{
+    "id": "1958-darpa-founding-001",
+    "anchor": "y1958-darpa",
+    "year": 1958,
+    "era": "ii",
+    "themes": [
+        "defense",
+        "engineering",
+        "science",
+        "big-tech"
+    ],
+    "claim": "The Advanced Research Projects Agency was established by the U.S. Department of Defense in February 1958, four months after the Soviet launch of Sputnik; it was renamed the Defense Advanced Research Projects Agency (DARPA) in 1972. Its stated mission is \"to create and prevent technological surprise for our national security,\" and it funds work it describes as high-risk and high-payoff rather than incremental — through multi-year programs, seedling projects, and prize challenges of up to $10 million. The agency's own accounting of what that model produced includes the internet, stealth aircraft, precision weapons, automated speech recognition and machine translation, miniaturized GPS receivers, nerve implants that restore sensation to amputees, and early investment in mRNA vaccine technology. Two of the dates commonly attached to that record are looser than they sound. ARPA contracted the ARPANET's packet-switching hardware in late 1968, but the network did not run until 1969: the first node was installed at UCLA and the first message was sent to the Stanford Research Institute at 10:30 p.m. on October 29, 1969, and it crashed after two characters. And satellite navigation was not a single DARPA product — ARPA backed the Navy's Transit system, but the Navstar GPS constellation came out of a 1973 joint program merging Navy and Air Force work, with credit contested between Navy engineer Roger Easton and Air Force colonel Bradford Parkinson.",
+    "sources": [
+        {
+            "label": "DARPA — official \"About\" page: mission statement, founding circumstances, investment model and claimed technology record.",
+            "type": "primary",
+            "url": "https://www.darpa.mil/about",
+            "quote": "The DARPA mission is to create and prevent technological surprise for our national security."
+        },
+        {
+            "label": "DARPA — official ARPANET history page.",
+            "type": "primary",
+            "url": "https://www.darpa.mil/news/features/arpanet"
+        },
+        {
+            "label": "ICANN — \"The First Message Transmission,\" on the Oct. 29, 1969 UCLA-to-SRI transmission.",
+            "type": "secondary",
+            "url": "https://www.icann.org/en/blogs/details/the-first-message-transmission-29-10-2019-en"
+        },
+        {
+            "label": "The Aerospace Corporation — \"Brief History of GPS,\" on Transit, Timation and the 1973 Navstar joint program.",
+            "type": "secondary",
+            "url": "https://aerospace.org/article/brief-history-gps"
+        },
+        {
+            "label": "@cool.kidzz13, Instagram reel Dbqy94ohuZn (Aug. 5, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/Dbqy94ohuZn/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Foundation card for the DARPA cluster; the same creator's follow-up post applies the agency's reputation to the wildfire directed-energy claim, which is handled at y2023-maui-fires. Two corrections folded into the claim without flagging them as corrections: ARPANET 'created in 1968' (contract year, not operation) and GPS attributed wholesale to DARPA. Note DARPA's own About page says 'established in 1957' — that is the Sputnik-response framing; the agency was actually stood up by DoD Directive 5105.15 in February 1958, which is the date used here. The '20 years ahead of everything we know' line is unfalsifiable and is not in this record. Group A."
+}

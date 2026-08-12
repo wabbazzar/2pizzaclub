@@ -1,0 +1,41 @@
+{
+    "id": "Dbu8buINNll",
+    "url": "https://www.instagram.com/reel/Dbu8buINNll/",
+    "platform": "instagram",
+    "captured_at": "2026-08-12",
+    "handle": "@real.al.za",
+    "author_display_name": "Alibaba.News",
+    "posted_at": "2026-08-07",
+    "engagement": {
+        "likes": 4777,
+        "comments": 382
+    },
+    "caption": "Bitte, Instagram und Facebook – hinterlasst ein Follow, einen Kommentar und ein Like, um diesen Kanal zu unterstützen 🙏\n\nAktuelle #News & Analysen zum #Iran Konflikt – im Zusammenhang mit Israel und den #USA – relevant für #Deutschland. Ich bin auch #Fussball Fan.\n\nAuf diesem Kanal verbinden wir Nachrichten, Politik, Wirtschaft, Kultur und aktuelle Entwicklungen in einem kompakten Format.\n\n👇\n\nHallo @Instagram,\n\nich setze mich für die Menschenrechte iranischer Bürger:innen ein. Mein Konto wird immer wieder von Personen gemeldet, die Kriegsnarrative unterstützen – oft basierend auf vagen oder völlig unbegründeten Behauptungen. Ich habe nicht gegen die Nutzungsbedingungen von Instagram verstoßen.\n\nEs scheint, dass koordinierte Meldungen algorithmische Einschränkungen gegen mein Konto auslösen.\n\nIch bitte um eine faire Überprüfung und die Aufhebung dieser Einschränkungen. Meine Inhalte sind ausschließlich den Menschenrechten, der Analyse und dem friedlichen zivilgesellschaftlichen Diskurs gewidmet.\n\n🙏 Vielen Dank für eure Unterstützung.",
+    "hashtags": [
+        "News",
+        "Iran",
+        "USA",
+        "Deutschland",
+        "Fussball"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Red caption card '07.08.26: Israel hat es zugelassen!!!' over a Jerusalem Post screenshot (Yonah Jeremy Bob, Feb. 27, 2025) with the line 'The Air Force would carry out around 945 attacks with helicopters firing 11,000 times' highlighted, above aerial footage of rows of burned vehicles. German burned-in subtitles throughout.",
+    "audio_content_summary": "German-language reel citing a February 2025 Jerusalem Post report on the IDF's own October 7 probes: that Israeli helicopters fired roughly 11,000 times under the Hannibal Directive, that the burned vehicles shown were destroyed by Apache helicopters, and that the source is an Israeli paper rather than a foreign one. Closes asking for follows on Telegram in case the account is removed.",
+    "implied_frame": "Frames the IDF probes as establishing that Israel deliberately allowed the October 7 attack and then fired on its own vehicles, units and civilians. The article is real and the figures are quoted correctly: 945 air attacks, helicopters firing 11,000 times, alongside the newly disclosed 'Sword of Damocles' operation. The article attributes that fire to the Hannibal Directive applied around the Israel-Gaza border, and does not state that the 11,000 firings were directed at Israeli vehicles, units and civilians, nor that the attack was deliberately permitted. How many of the roughly 1,200 people killed died from Israeli fire is not established. Audio is German; the base.en pipeline default produced unusable text and the capture carries a whisper small --language de transcription.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~11.5 MB); delivery ~11.8 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2025-oct7-air-force-probe-001"
+    ],
+    "supporting_research_links": [
+        "https://www.jpost.com/israel-news/defense-news/article-844008",
+        "https://www.jta.org/2025/02/27/israel/the-idf-just-released-its-report-on-oct-7-here-are-some-takeaways",
+        "https://www.jpost.com/israel-news/article-844045"
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 4,
+        "c": 0
+    }
+}

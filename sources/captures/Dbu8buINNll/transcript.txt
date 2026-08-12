@@ -1,0 +1,25 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-08-12, openai-whisper small --language de
+Note: audio is German. The pipeline default (base.en) produced unusable output; this is the German transcription.
+
+— FULL TEXT (German) —
+
+Ein Artikel vom Februar von der Jerusalem Post, nachdem sie jahrelang recherchiert und
+investigiert haben, dass am 7. Oktober, als der Hamas-Angriff auf Israel passiert ist,
+nicht nur das israelische Militär, das hat absichtlich passieren lassen, sondern das israelische
+Helikopter etwa 11.000 Schuss auf eigene Fahrzeuge und eigene Militäreinheiten und auch
+Zivilisten abgefeuert haben, als Teil ihrer sogenannten Hannibal-Direktive. Die Hannibal-Direktive
+sagt quasi, bevor jemand festgenommen wird, er schießt ihn lieber selbst. Und alle diese
+Autos, die ihr seht, sind geschrottet worden von der Apache Helikopter, sagt nicht ich. Keine
+Beschwörungstheorie. Jerusalem Post mit Sitz in Israel, sagt das. Nicht ich. Schaut ihr den
+Artikel an, den kannst du googeln, den kannst du suchen und es gibt ganz viele so Artikel aus
+Israel. Nicht aus Deutschland, nicht aus dem Iran, nicht aus den USA, aus Israel selbst.
+Lasst bitte den Follower unten einen Kommentar da, wenn du mehr solche News haben willst,
+die du sonst nix vor siehst. Ich begebe mich in großer Gefahr, wenn ich das in Deutschland so
+immer preis tu. Ich hab echt Nachteile, aber scheiß der Hund drauf, Leute. Wir lassen uns
+nicht Montut machen. Lass einen Kommentar, ein Like da immer, um den Algorithmus zu
+pushen. Vielen Dank. Folgt mir unbedingt auf Telegram, weil mein Account wird früher oder
+später gelöscht. Du weißt wie es ist.
+
+— END —

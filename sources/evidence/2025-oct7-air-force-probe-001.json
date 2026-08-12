@@ -1,0 +1,45 @@
+{
+    "id": "2025-oct7-air-force-probe-001",
+    "anchor": "y2023",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "idf",
+        "war",
+        "journalism"
+    ],
+    "claim": "On February 27, 2025 the Israel Defense Forces released its internal probes into October 7, 2023. Reporting them the same day, Jerusalem Post military correspondent Yonah Jeremy Bob wrote that over the course of the day \"the Air Force would carry out around 945 attacks with helicopters firing 11,000 times,\" while simultaneously running a previously unnamed operation: \"the Air Force was carrying out 'the Sword of Damocles' operation – a code name only being revealed on Thursday for the first time – to attack many Hamas commanders and their headquarters around 10:30 a.m.\" The paper's own summary of the probes said the Air Force carried out the Hannibal Directive \"of gunning down anything that moved around the Israel-Gaza border.\" The article also records hesitation inside the cockpit: \"Many pilots were reluctant about hitting potential hostages even after the Hannibal Directive was issued.\" The probes were confined to military conduct and did not examine decisions by Prime Minister Benjamin Netanyahu or other political leaders; the chief of staff, the head of Southern Command and the military intelligence chief resigned, and a broader state commission of inquiry was not formed. The figures are totals for helicopter action across the border area that day. How many of the roughly 1,200 people killed on October 7 died from Israeli fire is not established in the probes or elsewhere in the public record.",
+    "sources": [
+        {
+            "label": "Yonah Jeremy Bob, \"IDF carried out Hannibal Directive, new 'Sword of Damocles' operation on October 7,\" The Jerusalem Post, Feb. 27, 2025.",
+            "type": "primary",
+            "url": "https://www.jpost.com/israel-news/defense-news/article-844008",
+            "quote": "The Air Force would carry out around 945 attacks with helicopters firing 11,000 times."
+        },
+        {
+            "label": "The Jerusalem Post, official account summarizing its own report on the IDF probes.",
+            "type": "primary",
+            "url": "https://x.com/Jerusalem_Post/status/1895157617078501713",
+            "quote": "IDF probes reveal: On October 7, Israel's Air Force carried out the \"Hannibal Directive\" of gunning down anything that moved around the Israel-Gaza border."
+        },
+        {
+            "label": "Jewish Telegraphic Agency, Feb. 27, 2025 — takeaways from the IDF's Oct. 7 report, including its limited scope.",
+            "type": "secondary",
+            "url": "https://www.jta.org/2025/02/27/israel/the-idf-just-released-its-report-on-oct-7-here-are-some-takeaways",
+            "quote": "The report is focused on the military's conduct and so does not delve into decisions made by Israeli Prime Minister Benjamin Netanyahu or other leaders."
+        },
+        {
+            "label": "The Jerusalem Post — \"IDF's Hannibal Directive: Frequently asked questions and answers.\"",
+            "type": "secondary",
+            "url": "https://www.jpost.com/israel-news/article-844045"
+        },
+        {
+            "label": "@real.al.za (Alibaba.News), Instagram reel Dbu8buINNll (Aug. 7, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/Dbu8buINNll/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Sits alongside 2023-oct7-hannibal-tankfire-001 and 2023-oct7-nova-helicopter-fire-001; this one adds the February 2025 IDF probes and the 945/11,000 figures, which those records predate. The surfacing reel (German-language) reads the same figures as '11,000 shots fired at their own vehicles, their own units and civilians' — the article does not say that, and the last two sentences of the claim exist to hold that line without arguing with the post. Whisper base.en produced garbage on German audio; retranscribed with whisper small --language de, and transcript.txt in the capture is the German text. Group A on the article and the probes; the reel's reading of them is Group B."
+}

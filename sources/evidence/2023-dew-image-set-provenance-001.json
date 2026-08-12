@@ -1,0 +1,49 @@
+{
+    "id": "2023-dew-image-set-provenance-001",
+    "anchor": "y2023-maui-fires",
+    "year": 2023,
+    "era": "iv",
+    "themes": [
+        "directed-energy-weapons",
+        "wildfires",
+        "forensics",
+        "journalism"
+    ],
+    "claim": "The photographs presented as the evidence base for the directed-energy-weapon reading of wildfires are a fixed set, assembled in 2023 and recirculated since. Its clearest single origin is \"Maui Fires and Directed Energy Weapons,\" published by Greg Reese on September 1, 2023 through Alex Jones's banned.video and mirrored to Rumble, Bitchute, Brighteon and Substack. That piece states the thesis the images are later used to illustrate: \"These fires are burning homes into a white powdery ash footprint while often leaving the surrounding green trees and shrubs practically untouched\"; \"there are cars with puddles of melted aluminum that were clearly not in the wildfire area\"; \"among the ashy ruins, there are blue-colored objects that have somehow survived the devastation. Blue cars. Blue umbrellas. A blue boat. Blue planters.\" It also asserts that \"the frequency of the color blue is 6.66\" — color has a frequency in the hundreds of terahertz, and 6.66 corresponds to no unit of it. Reverse-image search on the individual frames shows what the set actually contains: award-winning press photographs from fires in Australia and California, undated and unlocated when reused, plus at least one image — a burned board with intact white plastic caps — whose only traceable appearances are reposts of the Reese video itself, with no earlier or independent source.",
+    "sources": [
+        {
+            "label": "Greg Reese, \"Maui Fires and Directed Energy Weapons,\" Sept. 1, 2023 — the author's own Substack mirror of the banned.video segment.",
+            "type": "primary",
+            "url": "https://gregreese.substack.com/p/maui-fires-and-directed-energy-weapons",
+            "quote": "These fires are burning homes into a white powdery ash footprint while often leaving the surrounding green trees and shrubs practically untouched."
+        },
+        {
+            "label": "Greg Reese, same piece — the blue-objects passage and the color-frequency assertion.",
+            "type": "primary",
+            "url": "https://gregreese.substack.com/p/maui-fires-and-directed-energy-weapons",
+            "quote": "We have seen that among the ashy ruins, there are blue-colored objects that have somehow survived the devastation. Blue cars. Blue umbrellas. A blue boat. Blue planters."
+        },
+        {
+            "label": "Rumble mirror of the same segment — \"Directed Energy Weapons Burning Homes to Ash,\" credited to Greg Reese.",
+            "type": "primary",
+            "url": "https://rumble.com/v3dvg9m-maui-fires-and-directed-energy-weapons.html"
+        },
+        {
+            "label": "BBC Verify — catalogue of images misattributed to the Hawaii fires, including a SpaceX launch, an Ohio refinery burn, and a digitally added laser beam over the Waiola Church fire.",
+            "type": "secondary",
+            "url": "https://feeds.bbci.co.uk/news/world-us-canada-66457091"
+        },
+        {
+            "label": "Forbes — Matt Novak on the fabricated \"laser starting fires in Hawaii\" photograph, Aug. 13, 2023.",
+            "type": "secondary",
+            "url": "https://www.forbes.com/sites/mattnovak/2023/08/13/viral-photo-of-laser-starting-fires-in-hawaii-is-completely-fake/"
+        },
+        {
+            "label": "@cool.kidzz13, Instagram reel DbrFqHrSpx5 (Aug. 5, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DbrFqHrSpx5/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. This is the lineage record: the companion cards identify individual photographs (Conjola Park, Coffey Park, Mulholland Highway), this one establishes that they travel together as a set with a datable point of assembly. Provenance work is our own — Yandex CBIR and Google Lens on stills cropped from the reel. The Reese piece is cited as a PRIMARY source for what it itself says, not as an authority on wildfires; quoting it directly is the point, and the 6.66 line is left in his words rather than characterized. Do not upgrade 'clearest single origin' to 'the origin' — some of these frames were circulating in DEW contexts before September 2023 (PolitiFact debunked a 2018 photo reused for Hawaii on Aug. 11, 2023), so the September piece is the consolidation, not necessarily the first use. Group A on what the set contains and where it was assembled."
+}
