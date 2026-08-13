@@ -1,0 +1,36 @@
+{
+    "id": "Daiogp0zUli",
+    "url": "https://www.instagram.com/reel/Daiogp0zUli/",
+    "platform": "instagram",
+    "captured_at": "2026-08-13",
+    "handle": "@pattigabriella1970",
+    "author_display_name": "Gabriella Patti",
+    "posted_at": "2026-07-08",
+    "engagement": {
+        "likes": 19976,
+        "comments": 267
+    },
+    "caption": "LOOKING BACK IN TIME \nColonel Muammar Gaddafi accused Israel was behind the assassination of JFK during his speech in UN in 2009!\n\n@historylbt2.0 Muammar Gaddafi - the most theatrical, unpredictable and unfiltered leader ever to address the United Nations General Assembly - stands before the world body and accuses Israel of being responsible for the assassination of President John F. Kennedy, calling for a full UN investigation into the killing. \n\nThis was part of Gaddafi's legendary 2009 UN speech - a 96 minute marathon that was supposed to last fifteen minutes and covered everything from swine flu being a military weapon to his demand that the Security Council be abolished. UN interpreters reportedly broke down in exhaustion trying to keep up. Whether his claims about Kennedy had any basis in evidence was largely irrelevant. \n\nGaddafi had always operated in a space where the performance was the point. The UN had never seen anything quite like him. It never has since.\n\nFollow us for daily history content --->>> @historylbt2.0",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Archival UN floor footage of Gaddafi at the rostrum with burned-in captions; reposted from @historylbt2.0.",
+    "audio_content_summary": "Excerpt of Gaddafi's Sept. 23, 2009 UN General Assembly address, in Arabic, calling for the UN to reopen the Kennedy assassination: Oswald killed Kennedy, Jack Ruby — whom he calls an Israeli — killed Oswald, Ruby then died in mysterious circumstances before trial, and Kennedy had moved to inspect Israel's Dimona reactor.",
+    "implied_frame": "Presents Gaddafi's UN accusation as a suppressed lead on the Kennedy assassination. The speech and the quoted passage are real and on the UN record. Two of its three factual assertions are not: Jack Ruby was an American, born Jacob Rubenstein in Chicago in 1911 to Polish-Jewish immigrants and honorably discharged from the U.S. Army Air Forces in 1946, and he was tried and convicted of murder with malice in March 1964 and sentenced to death, dying of a pulmonary embolism in January 1967 while awaiting a retrial ordered on appeal. The third is documented: Kennedy pressed Israel through near-ultimatum letters in 1963 for inspections at Dimona. The reposter's own caption concedes the point, saying whether the Kennedy claims had any basis in evidence 'was largely irrelevant' because 'the performance was the point.'",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~2.6 MB); delivery ~3.0 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2009-gaddafi-un-jfk-001",
+        "1963-jack-ruby-record-001"
+    ],
+    "supporting_research_links": [
+        "https://www.africanews.com/2017/09/19/speech-muammar-gaddafi-at-the-64th-un-general-assembly-in-2009/",
+        "https://www.un.org/en/ga/64/generaldebate/LY.shtml",
+        "https://www.archives.gov/research/jfk/warren-commission-report/appendix-16.html"
+    ],
+    "editorial_split": {
+        "a": 2,
+        "b": 2,
+        "c": 2
+    }
+}

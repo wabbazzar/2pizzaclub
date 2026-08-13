@@ -1,0 +1,44 @@
+{
+    "id": "2009-gaddafi-un-jfk-001",
+    "anchor": "y2009-gaddafi-un",
+    "year": 2009,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "intelligence",
+        "war",
+        "international-law"
+    ],
+    "claim": "On September 23, 2009, in his only address to the United Nations General Assembly in forty years of rule, Libyan leader Muammar Gaddafi called from the rostrum for the UN to reopen the assassination of John F. Kennedy. He was allotted fifteen minutes and spoke for roughly ninety, tore a copy of the UN Charter in front of the chamber, and demanded the Security Council be abolished. On Kennedy he said: \"Then, there is the assassination of United States President Kennedy in 1963. We want to know who killed him and why. There was somebody called Lee Harvey Oswald, who was then killed by one Jack Ruby. Why did he kill him? Jack Ruby, an Israeli, killed Lee Harvey Oswald, who killed Kennedy. Why did this Israeli kill Kennedy's killer? Then Jack Ruby, the killer of the killer of Kennedy, died in mysterious circumstances before he could be tried.\" He tied the motive to Israel's nuclear program: \"The whole world knows that Kennedy wanted to investigate the Israeli Dimona nuclear reactor. This involves international peace and security and weapons of mass destruction.\" Two of the three factual assertions in that passage are wrong on the record — Ruby was an American, born in Chicago, and he was tried, convicted and sentenced to death before he died. The third is documented: Kennedy did press Israel hard for inspections at Dimona in 1963.",
+    "sources": [
+        {
+            "label": "Muammar Gaddafi, address to the 64th session of the UN General Assembly, Sept. 23, 2009 — full transcript.",
+            "type": "primary",
+            "url": "https://www.africanews.com/2017/09/19/speech-muammar-gaddafi-at-the-64th-un-general-assembly-in-2009/",
+            "quote": "Jack Ruby, an Israeli, killed Lee Harvey Oswald, who killed Kennedy. Why did this Israeli kill Kennedy's killer? Then Jack Ruby, the killer of the killer of Kennedy, died in mysterious circumstances before he could be tried."
+        },
+        {
+            "label": "Muammar Gaddafi, same address — the Dimona passage.",
+            "type": "primary",
+            "url": "https://www.africanews.com/2017/09/19/speech-muammar-gaddafi-at-the-64th-un-general-assembly-in-2009/",
+            "quote": "The whole world knows that Kennedy wanted to investigate the Israeli Dimona nuclear reactor. This involves international peace and security and weapons of mass destruction."
+        },
+        {
+            "label": "United Nations — Libyan Arab Jamahiriya entry, General Debate of the 64th Session (official session listing).",
+            "type": "primary",
+            "url": "https://www.un.org/en/ga/64/generaldebate/LY.shtml"
+        },
+        {
+            "label": "C-SPAN recording of the full address, archived — the speech as delivered.",
+            "type": "primary",
+            "url": "https://archive.org/details/CSPAN2_20250925_000100_Libyan_Pres._Moammar_Gadhafi_2009_United_Nations_Address"
+        },
+        {
+            "label": "@pattigabriella1970, Instagram reel Daiogp0zUli (July 8, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/Daiogp0zUli/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. The record establishes what was said at the UN, on the record, by a head of state — that is the verifiable part, and it is stated as an attributed claim throughout. The Ruby facts are handled in 1963-jack-ruby-record-001 and the Dimona pressure in the existing 1963-dimona-inspections-001; this card points at both rather than re-arguing them. Transcript checked two ways: the Africanews English transcript matches a whisper small transcription of the reel's own Arabic audio line for line ('جاك روبي اسرائيلي قتل لي هارفي...'), so the quote is not a translator's artifact. Whisper base.en produced nonsense on Arabic audio; the capture carries the Arabic transcription. The UN's own verbatim record for this meeting is A/64/PV.3 — worth substituting for the Africanews transcript if a stable UN Digital Library URL can be pinned. Group A on the speech; the causal claim about Dimona and the assassination is Group B and is not adopted."
+}

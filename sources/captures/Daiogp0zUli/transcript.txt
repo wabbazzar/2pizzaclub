@@ -1,0 +1,17 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-08-13, openai-whisper small (auto-detected: Arabic)
+Note: audio is Gaddafi speaking Arabic at the UN. The pipeline default (base.en) produced unusable output; this is the Arabic transcription. English text of the same passage is in the UN-speech transcript cited on 2009-gaddafi-un-jfk-001.
+
+— FULL TEXT (Arabic) —
+
+لو من متحدة الجمعي العام من متحدة بتفتح ملف اضطياء كاندي الرئيس الامريكي
+لماذا؟ نبغي نعرفه قتله واحد اسمه ليه هارفي جي واحد اسمه جاك روبي قتل ليه هارفي قاتل
+كاندي لماذا قتله؟ جاك روبي اسرائيلي قتل ليه هارفي اللي قاتل
+كاندي؟ لماذا هذا الاسرائيلي يقتل قاتل كاندي؟ ثم جاك روبي قاتل قاتل
+كاندي مات جبلي عدف محاكمتي في ظروف غامضة لماذا؟
+خرج عن ملف اضطياء تلاث من الاف؟ انا اللي نعرفها ولعالم ممكن يعرفها ولدرسها
+في التاريخ ان كاندي قرر تفتيش مفاعل ديمونة الاسرائيلي هل فيه قنابل
+الزرية وعلى لا وعلى جانكي لا تم تخلص مه
+
+— END —

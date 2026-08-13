@@ -1,0 +1,48 @@
+{
+    "id": "1963-jack-ruby-record-001",
+    "anchor": "y2009-gaddafi-un",
+    "year": 1963,
+    "era": "ii",
+    "themes": [
+        "prosecution",
+        "forensics",
+        "intelligence"
+    ],
+    "claim": "Jack Ruby, who shot Lee Harvey Oswald in the basement of Dallas police headquarters on November 24, 1963, was an American citizen and held no other nationality. The Warren Commission's biography of him records that he was born Jacob Rubenstein in Chicago around March 25, 1911 — Chicago kept no official birth records before 1915, which is why the date is approximate — to Joseph and Fannie Rubenstein, Orthodox Jews born near Warsaw in what was then Russian-ruled Poland. He was inducted into the U.S. Army Air Forces on May 21, 1943, served as an aircraft mechanic, and was \"honorably discharged on February 21, 1946\" as a private first class with a good conduct medal. He was 37 and living in Dallas when the State of Israel was founded in 1948 and never emigrated. He was also not killed before trial: he was tried in Dallas, convicted of murder with malice in March 1964 and sentenced to death; the Texas Court of Criminal Appeals reversed the conviction on October 5, 1966, citing an inadmissible confession and improper venue; and he died of a pulmonary embolism at Parkland Hospital on January 3, 1967, after a cancer diagnosis, awaiting the retrial set for that February.",
+    "sources": [
+        {
+            "label": "President's Commission on the Assassination of President Kennedy (Warren Commission), Appendix XVI: \"A Biography of Jack Ruby\" — U.S. National Archives.",
+            "type": "primary",
+            "url": "https://www.archives.gov/research/jfk/warren-commission-report/appendix-16.html",
+            "quote": "After attaining the rank of private first class and receiving the good conduct medal, Ruby was honorably discharged on February 21, 1946."
+        },
+        {
+            "label": "Warren Commission, Appendix XVI — on his birth and parents.",
+            "type": "primary",
+            "url": "https://www.archives.gov/research/jfk/warren-commission-report/appendix-16.html",
+            "quote": "During his adult life the date Ruby used most frequently was March 25, 1911."
+        },
+        {
+            "label": "Rubenstein v. State — Texas Court of Criminal Appeals, Oct. 5, 1966, reversing the conviction.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Rubenstein_v._State"
+        },
+        {
+            "label": "Encyclopaedia Britannica — Jack Ruby: trial, death sentence, appellate reversal and death on Jan. 3, 1967.",
+            "type": "secondary",
+            "url": "https://www.britannica.com/biography/Jack-Ruby"
+        },
+        {
+            "label": "Texas State Historical Association, Handbook of Texas — Jack Ruby.",
+            "type": "secondary",
+            "url": "https://www.tshaonline.org/handbook/entries/ruby-jack"
+        },
+        {
+            "label": "@pattigabriella1970, Instagram reel Daiogp0zUli (July 8, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/Daiogp0zUli/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Written to answer, on the record, the two checkable errors in the Gaddafi passage at 2009-gaddafi-un-jfk-001 — without naming him in the claim text, since the card has to stand alone. 'Israeli' appears to be a substitution for 'Jewish'; the record states the citizenship facts and lets that sit. Note what this card does NOT do: it takes no position on whether Ruby acted alone or on the Warren Commission's broader conclusions, which the HSCA itself criticized in 1979 on the question of how Ruby entered the basement. Confined deliberately to biography and case history, both of which are documented. Filed at the 2009 anchor because it exists to be read against the speech; year field is 1963. Group A."
+}
