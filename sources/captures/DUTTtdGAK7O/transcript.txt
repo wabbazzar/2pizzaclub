@@ -1,0 +1,51 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-08-13, openai-whisper base.en
+
+— FULL TEXT —
+
+This is amazing. Check this out.
+Two identical tuning forks, both tuned to the note A, the note and orchestra tunes to.
+These forks are both made to vibrate 440 times per second.
+We say their frequency is 440 Hz.
+I tap this fork, putting little pulses of energy into it.
+The second fork will also vibrate in sympathy.
+And if I silence this fork, we just may hear the other singing its tone.
+We say that I'm inducing a sympathetic resonant vibration in the second fork.
+It only works because both forks are tuned to the exact same frequency.
+So now we're searching for the magic frequency.
+We start with a 100 Hz and we look through the microscope to see if anything's happening.
+And we watch for 5 minutes.
+Nothing happens.
+So we try 101 Hz.
+We look through the scope for 5 minutes and nothing happens.
+So we try 100 and 2, 103 and so on.
+Over the course of 15 months, we try hundreds and hundreds of frequencies, if not thousands,
+until we find the magic combination.
+The answer is you have to have two input frequencies, one low, one high.
+And the higher frequency must be 11 times the lower.
+It's what we musicians would call the 11th harmonic.
+When we add the 11th harmonic, we begin to shatter microorganisms like a crystal glass.
+These are the first videos taken.
+We showed these videos to our friends in the biology department.
+They said they hadn't seen anything quite like it.
+It seems to be a new phenomenon.
+These organisms are being shattered by our electronic signals.
+This is a harmless organism, almost friendly, a little blepharisma.
+Normally, they're very fast swimmers.
+When you approach a frequency to which they are vulnerable, they begin to slow down.
+Then they stop and then they begin to disintegrate within about 3 minutes.
+So now we know we can destroy a microorganism.
+And the question comes up, but can you target a specific organism with a specific frequency?
+So we search the US patent database, and we find this invention by a physician,
+Dr. James Bear of Albuquerque, New Mexico.
+It's called a resonant frequency therapy device, and its purpose is to induce a resonant vibration
+in a living organism or cell.
+The output always pulses.
+It's on, it's off, it's on, it's off.
+This is very important because if the signal is constantly on,
+you are in danger of inducing heat in those cells.
+Heat causes indiscriminate destruction, and we don't want that.
+We want...
+
+— END —

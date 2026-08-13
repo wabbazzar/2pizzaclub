@@ -1,0 +1,24 @@
+{
+    "id": "DZNubfoMCx7",
+    "url": "https://www.instagram.com/reel/DZNubfoMCx7/",
+    "platform": "instagram",
+    "captured_at": "2026-08-13",
+    "handle": "@carolinecoryofficial",
+    "author_display_name": "Caroline Cory",
+    "posted_at": "2026-06-05",
+    "engagement": {
+        "likes": 84118,
+        "comments": 961
+    },
+    "caption": "SUPERHUMAN 2 COMING SOON!!",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "",
+    "audio_content_summary": "",
+    "implied_frame": "",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~4.8 MB); delivery ~5.1 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [],
+    "supporting_research_links": []
+}

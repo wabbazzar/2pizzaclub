@@ -1,0 +1,13 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-08-13, openai-whisper base.en
+
+— FULL TEXT —
+
+Let me get the
+Captain's
+I don't think anything is a problem
+what matters is that they were not matching
+You
+
+— END —
