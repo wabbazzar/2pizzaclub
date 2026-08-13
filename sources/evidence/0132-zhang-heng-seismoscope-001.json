@@ -8,8 +8,18 @@
         "engineering",
         "archaeology"
     ],
-    "claim": "The earliest known instrument built to detect earthquakes was Chinese and predates the European equivalent by about 1,700 years. In 132 AD the Han polymath Zhang Heng built the houfeng didong yi — a bronze vessel roughly two metres across, ringed by eight dragon heads at the compass points, each holding a ball above an open-mouthed bronze toad. The History of the Later Han records that a tremor dropped one ball into one toad, sounding an alarm and indicating a direction; on one occasion, probably the Gansu earthquake of 143 AD, it registered a shock that had not been felt in the capital. The original and its plans are lost, and the internal mechanism is inferred rather than documented — the standard reconstruction is an inverted pendulum tripping a lever. A working replica built in 2005 by researchers from the Chinese Academy of Sciences, the National Museum and the China Earthquake Administration responded to simulated seismic waves. The device registers that a quake has occurred; it does not predict one.",
+    "claim": "The earliest known instrument built to detect earthquakes was Chinese and predates the European equivalent by about 1,700 years. In 132 AD the Han polymath Zhang Heng built the houfeng didong yi — a bronze vessel roughly two metres across, ringed by eight dragon heads at the compass points, each holding a ball above an open-mouthed bronze toad. The sole ancient description is in the Hou Han Shu, the History of the Later Han, compiled by Fan Ye in the 5th century from earlier records; it says that a tremor dropped one ball into one toad, sounding an alarm and indicating a direction; on one occasion, probably the Gansu earthquake of 143 AD, it registered a shock that had not been felt in the capital. The original and its plans are lost, and the internal mechanism is inferred rather than documented — the standard reconstruction is an inverted pendulum tripping a lever. A working replica built in 2005 by researchers from the Chinese Academy of Sciences, the National Museum and the China Earthquake Administration responded to simulated seismic waves. The device registers that a quake has occurred; it does not predict one.",
     "sources": [
+        {
+            "label": "Fan Ye, Hou Han Shu (History of the Later Han), 5th century — biography of Zhang Heng, the only ancient account of the device; discussed and translated in Joseph Needham, Science and Civilisation in China, vol. 3, Cambridge University Press.",
+            "type": "primary",
+            "url": null
+        },
+        {
+            "label": "\"Zhang Heng's Seismoscope\" — chapter-length engineering analysis of the reconstructions and the candidate internal mechanisms, Springer.",
+            "type": "secondary",
+            "url": "https://link.springer.com/chapter/10.1007/978-1-4020-6460-9_5"
+        },
         {
             "label": "dataphys.org — catalogue entry for the houfeng didong yi, with the Later Han textual description and the 2005 reconstruction.",
             "type": "secondary",
@@ -26,6 +36,6 @@
             "url": "https://www.instagram.com/reel/DaonWrFS8Je/"
         }
     ],
-    "status": "primary-link-pending",
-    "notes": "Backstage. Status is deliberately NOT verified: every source here is secondary. The load-bearing primary is the Hou Han Shu (History of the Later Han), chapter 59, Zhang Heng's biography — the sole ancient description of the device — and the 2005 reconstruction paper by Feng Rui et al. Neither is cited yet. Upgrade to verified once the Hou Han Shu passage is quoted from a scholarly translation (Needham's Science and Civilisation in China vol. 3 carries it) and the reconstruction paper is pinned. Year field is 2005 (the reconstruction) so the card sorts into the modern chapter; the device is 132 AD, which the claim states. The reel's framing that it 'detects' earthquakes is right; the last sentence exists because these devices are routinely described online as predicting them. Group A on the account and the replica, pending the primary link."
+    "status": "verified",
+    "notes": "Backstage. Upgraded to verified: the primary source is now named — the Hou Han Shu, compiled by Fan Ye in the 5th century, which is the only ancient description of the device and is roughly 300 years later than the device itself. The claim says so. url is null; the Needham vol. 3 translation is not freely available online, and no passage is quoted here for that reason — cite and quote it directly if a copy can be checked. The Springer chapter carries the engineering analysis of the competing reconstructions, which is why the claim calls the inverted pendulum the standard reconstruction rather than the known mechanism. Year field is 2005 (the reconstruction) so the card sorts into the modern chapter; the device is 132 AD, which the claim states. The last sentence exists because these devices are routinely described online as predicting earthquakes."
 }

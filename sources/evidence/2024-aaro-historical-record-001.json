@@ -1,0 +1,45 @@
+{
+    "id": "2024-aaro-historical-record-001",
+    "anchor": "y2023-uap-hearings",
+    "year": 2024,
+    "era": "iv",
+    "themes": [
+        "uap",
+        "defense",
+        "intelligence",
+        "congress"
+    ],
+    "claim": "The Pentagon's answer to the crash-retrieval allegations is the All-domain Anomaly Resolution Office's \"Report on the Historical Record of U.S. Government Involvement with Unidentified Anomalous Phenomena, Volume I,\" delivered to Congress and released publicly on March 8, 2024. AARO reviewed U.S. government UAP efforts back to 1945 — about two dozen separate investigative programs — searched classified and unclassified archives, conducted roughly 30 interviews, and worked with the officials responsible for special-access-program oversight. Its central findings: \"AARO found no evidence that any USG investigation, academic-sponsored research, or official review panel has confirmed that any sighting of a UAP represented extraterrestrial technology,\" and \"AARO found no empirical evidence for claims that the USG and private companies have been reverse-engineering extraterrestrial technology.\" It reported resolving specific allegations individually: it says it located the programs, companies and officials interviewees named and found that they were authentic classified programs mistakenly associated with alien activity; that a claimed 1961 Special National Intelligence Estimate circulating online is inauthentic; that a metal sample obtained from a private UAP organization and the U.S. Army is \"a manufactured, terrestrial alloy\"; and that named company executives denied on the record ever possessing off-world technology. The report is the Defense Department examining whether the Defense Department concealed a Defense Department program, and it is contested on exactly that ground: the whistleblower document entered into the Congressional Record eight months later alleges \"a pattern of trivialization, obfuscation, and outright denial of UAP data\" in DoD's classified briefings to Congress. A Volume II was promised for the remaining claims.",
+    "sources": [
+        {
+            "label": "All-domain Anomaly Resolution Office, \"Report on the Historical Record of U.S. Government Involvement with Unidentified Anomalous Phenomena, Volume I,\" March 2024 — Executive Summary.",
+            "type": "primary",
+            "url": "https://www.aaro.mil/Portals/136/PDFs/AARO_Historical_Record_Report_Vol_1_2024.pdf",
+            "quote": "AARO found no empirical evidence for claims that the USG and private companies have been reverse-engineering extraterrestrial technology."
+        },
+        {
+            "label": "Same report — on confirmed sightings of extraterrestrial technology.",
+            "type": "primary",
+            "url": "https://www.aaro.mil/Portals/136/PDFs/AARO_Historical_Record_Report_Vol_1_2024.pdf",
+            "quote": "AARO found no evidence that any USG investigation, academic-sponsored research, or official review panel has confirmed that any sighting of a UAP represented extraterrestrial technology."
+        },
+        {
+            "label": "Same report — on the material sample acquired from a private UAP organization and the U.S. Army.",
+            "type": "primary",
+            "url": "https://www.aaro.mil/Portals/136/PDFs/AARO_Historical_Record_Report_Vol_1_2024.pdf",
+            "quote": "a manufactured, terrestrial alloy and does not represent off-world technology"
+        },
+        {
+            "label": "Roll Call — \"No evidence of extraterrestrial technology, report finds,\" March 8, 2024.",
+            "type": "secondary",
+            "url": "https://rollcall.com/2024/03/08/no-evidence-of-extraterrestrial-technology-report-finds/"
+        },
+        {
+            "label": "New Paradigm Institute — critique of AARO's methodology and framing in the 2024 report.",
+            "type": "secondary",
+            "url": "https://newparadigminstitute.org/learn/library/disinformation-series-aaro-and-2024-uap-report/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Added so the government's own position is on the timeline in its own words rather than paraphrased inside another card. It is attributed throughout and is NOT treated as the verdict — AARO is a DoD office auditing DoD, which the claim states plainly, and the contesting allegation from the Immaculate Constellation document is set beside it in the same paragraph rather than in a rebuttal card. The PDF is not retrievable by ordinary fetch (media.defense.gov and aaro.mil both return HTML to a plain client); pulled via an in-browser fetch and read with pdftotext, so the quotes are from the document, not from press summaries. The specific-allegation bullets are AARO's characterizations of claims it investigated, not independently confirmed resolutions, and the claim text says 'it reported resolving' for that reason. Volume II had not appeared as of this writing — worth checking. Group A on the report's existence and contents; its conclusions are an attributed institutional finding."
+}

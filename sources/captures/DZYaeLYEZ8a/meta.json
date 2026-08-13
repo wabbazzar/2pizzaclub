@@ -22,13 +22,16 @@
     "evidence_records": [
         "2026-uap-capitol-press-conference-001",
         "2024-immaculate-constellation-record-001",
-        "2023-grusch-oversight-testimony-001"
+        "2023-grusch-oversight-testimony-001",
+        "2024-aaro-historical-record-001"
     ],
     "supporting_research_links": [
         "https://www.congress.gov/118/meeting/house/116282/documents/HHRG-118-GO06-Transcript-20230726.pdf",
         "https://docs.house.gov/meetings/GO/GO12/20241113/117721/HHRG-118-GO12-Transcript-20241113.pdf",
         "https://www.foxnews.com/politics/ufo-whistleblower-claims-billions-secret-spending-hidden-from-congress",
-        "https://www.judicialwatch.org/videos/uap-whistleblower-david-grusch-on-non-human-biologics-craft/"
+        "https://www.judicialwatch.org/videos/uap-whistleblower-david-grusch-on-non-human-biologics-craft/",
+        "https://www.aaro.mil/Portals/136/PDFs/AARO_Historical_Record_Report_Vol_1_2024.pdf",
+        "https://docs.house.gov/meetings/GO/GO06/20241113/117722/HHRG-118-GO06-20241113-SD003.pdf"
     ],
     "editorial_split": {
         "a": 3,
