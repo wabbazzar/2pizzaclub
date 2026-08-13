@@ -1,0 +1,51 @@
+{
+    "id": "2023-grusch-oversight-testimony-001",
+    "anchor": "y2023-uap-hearings",
+    "year": 2023,
+    "era": "iv",
+    "themes": [
+        "uap",
+        "whistleblower",
+        "congress",
+        "defense",
+        "intelligence"
+    ],
+    "claim": "David Grusch, a former Air Force intelligence officer who served as the National Reconnaissance Office's representative to the Pentagon's UAP Task Force, testified under oath on July 26, 2023 before the House Oversight and Accountability Committee's Subcommittee on National Security, the Border, and Foreign Affairs, at a hearing titled \"Unidentified Anomalous Phenomena: Implications on National Security, Public Safety, and Government Transparency\" (Serial No. 118-53). In his opening statement he said: \"I was informed in the course of my official duties of a multi-decade UAP crash retrieval and reverse engineering program to which I was denied access to those additional read-ons when I requested it.\" Asked by Rep. Nancy Mace whether the government has the bodies of pilots from craft he said had crashed, he answered: \"As I have stated publicly already in my News Nation interview, biologics came with some of these recoveries. Yes.\" Asked whether they were human or nonhuman: \"Nonhuman, and that was the assessment of people with direct knowledge on the program I talked to that are currently still on the program.\" He said he could not produce the underlying documentation in open session. Asked by Rep. Jared Moskowitz how such a program would be funded, he answered \"misappropriation of funds and self-fund,\" said he had \"specific knowledge of that,\" and identified contractor Independent Research and Development (IR&D) charges as a mechanism. Grusch testified that his account rests on interviews with more than 40 officials; he did not claim firsthand observation of any craft or body, and the Department of Defense has said it found no verifiable information substantiating the claims.",
+    "sources": [
+        {
+            "label": "U.S. House Committee on Oversight and Accountability, Subcommittee on National Security, the Border, and Foreign Affairs — official GPO hearing transcript, July 26, 2023, Serial No. 118-53.",
+            "type": "primary",
+            "url": "https://www.congress.gov/118/meeting/house/116282/documents/HHRG-118-GO06-Transcript-20230726.pdf",
+            "quote": "I was informed in the course of my official duties of a multi-decade UAP crash retrieval and reverse engineering program to which I was denied access to those additional read-ons when I requested it."
+        },
+        {
+            "label": "Same transcript — the Mace exchange on biologics.",
+            "type": "primary",
+            "url": "https://www.congress.gov/118/meeting/house/116282/documents/HHRG-118-GO06-Transcript-20230726.pdf",
+            "quote": "Ms. MACE. Were they, I guess, human or nonhuman biologics? Mr. GRUSCH. Nonhuman, and that was the assessment of people with direct knowledge on the program I talked to that are currently still on the program."
+        },
+        {
+            "label": "Same transcript — the Moskowitz exchange on funding.",
+            "type": "primary",
+            "url": "https://www.congress.gov/118/meeting/house/116282/documents/HHRG-118-GO06-Transcript-20230726.pdf",
+            "quote": "Mr. MOSKOWITZ. Well, so then how does—I mean, I do not want to cut you off, but how does a program like that get funded? Mr. GRUSCH. I will give you generalities. I can get very specific in a closed session. But misappropriation of funds and self-fund."
+        },
+        {
+            "label": "House Oversight Committee — official hearing page and witness list (Grusch, Ryan Graves, David Fravor).",
+            "type": "primary",
+            "url": "https://oversight.house.gov/hearing/unidentified-anomalous-phenomena-implications-on-national-security-public-safety-and-government-transparency/"
+        },
+        {
+            "label": "NPR — \"Whistleblower testifies U.S. salvaged 'non-human biologics' from UFO crash sites,\" July 27, 2023, including the Pentagon response.",
+            "type": "secondary",
+            "url": "https://www.npr.org/2023/07/27/1190390376/ufo-hearing-non-human-biologics-uaps"
+        },
+        {
+            "label": "@fox10phoenix, Instagram reel DZYaeLYEZ8a (June 9, 2026), and @thehardyarnspodcast, reel Db9zYHKKM4L (Aug. 13, 2026) — surfacing sources; both carry the Mace exchange as clipped audio.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZYaeLYEZ8a/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Quotes pulled from the GPO transcript PDF itself (pdftotext), not from press summaries — the clip circulating on social media is verbatim accurate against the record, which is worth knowing. What the record establishes is that a cleared former officer said these things under oath to Congress; it does not establish that the underlying events occurred, and the claim text is written so a reader cannot mistake one for the other. Grusch's own testimony is explicitly secondhand ('the assessment of people with direct knowledge'). AARO's 2024 Historical Record Report Volume I found no evidence for reverse-engineering programs; add it as a source if this cluster is expanded. Group A on the testimony; the substance is Group B."
+}

@@ -1,0 +1,39 @@
+{
+    "id": "Db9zYHKKM4L",
+    "url": "https://www.instagram.com/reel/Db9zYHKKM4L/",
+    "platform": "instagram",
+    "captured_at": "2026-08-13",
+    "handle": "@thehardyarnspodcast",
+    "author_display_name": "The Hard Yarns Podcast",
+    "posted_at": "2026-08-13",
+    "engagement": {
+        "likes": 13554,
+        "comments": 401
+    },
+    "caption": "🤔 Conspiracy Fact seems to be more accurate these days or even critical thinking perhaps \n\n#conspiracy #fauci #epstein #disclosure #corruption",
+    "hashtags": [
+        "conspiracy",
+        "fauci",
+        "epstein",
+        "disclosure",
+        "corruption"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Talking-head monologue intercut with archival clips: the Mace-Grusch biologics exchange from the July 26, 2023 House Oversight hearing, and Anthony Fauci invoking the Fifth Amendment.",
+    "audio_content_summary": "Argues that claims once dismissed as conspiracy theory have since been borne out — an elite trafficking network, Grusch's testimony on retrieved craft and non-human biologics, and Fauci on COVID origins — and asks what else the same reasoning might be right about, naming digital ID and Agenda 2030.",
+    "implied_frame": "Uses the fact that a claim was aired in an official venue as evidence that the claim is true, then extends that inference forward to digital ID and Agenda 2030. The spliced hearing audio is verbatim accurate against the GPO transcript — Grusch did say those words under oath on July 26, 2023 — but his own answer attributes the assessment to 'people with direct knowledge on the program I talked to,' not to anything he observed, and the Department of Defense has said it found no verifiable information substantiating it. The Fauci thread is covered separately at y2026-fauci-hsgac and no records are added for it here. The closing extension to digital ID and Agenda 2030 is asserted with nothing offered.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~19.5 MB); delivery ~20.0 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2023-grusch-oversight-testimony-001"
+    ],
+    "supporting_research_links": [
+        "https://www.congress.gov/118/meeting/house/116282/documents/HHRG-118-GO06-Transcript-20230726.pdf"
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 3,
+        "c": 2
+    }
+}

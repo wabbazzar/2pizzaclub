@@ -1,0 +1,38 @@
+{
+    "id": "DZYaeLYEZ8a",
+    "url": "https://www.instagram.com/reel/DZYaeLYEZ8a/",
+    "platform": "instagram",
+    "captured_at": "2026-08-13",
+    "handle": "@fox10phoenix",
+    "author_display_name": "FOX 10 Phoenix",
+    "posted_at": "2026-06-09",
+    "engagement": {
+        "likes": 8841,
+        "comments": 607
+    },
+    "caption": "Bipartisan coalition of lawmakers (Luna, Burchett, Burlison, Moskowitz) hold historic press conference with UAP whistleblower David Grusch.\n\nGrusch dropped major details under questioning, confirming the government is aware of \"several\" non-human species—ranging from bipedal to sentient plasmoid life—and possesses \"several dozen\" cases involving non-human biologics. He also linked the current secrecy infrastructure back to a 1954 Eisenhower executive order amid questions about the \"Immaculate Constellation\" program. \n\nClick the link in our bio for more.",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "FOX LOCAL PHOENIX lower third; card reading \"Testimony of 'Non-Human Biologics'\" over footage of the Capitol steps and a lectern placard reading TASK FORCE ON THE DECLASSIFICATION OF FEDERAL SECRETS.",
+    "audio_content_summary": "Q&A from the June 9, 2026 Capitol press conference. Grusch is asked how many non-human species the government is aware of and answers that it is 'a continuum from corporeal bipedal type life to... sentient plasma life, but there are several'; asked about Immaculate Constellation he declines to discuss its content beyond a Judicial Watch interview, calls it a National Security Council program and dates the secrecy infrastructure to a 1954 Eisenhower executive order; asked how many cases involve non-human biologics he says 'several dozen.'",
+    "implied_frame": "Presents the press conference as confirmation that the U.S. government knows of several non-human species and holds dozens of biological cases. The event, the venue and the participants are documented: the House Oversight Task Force on the Declassification of Federal Secrets, chaired by Rep. Anna Paulina Luna, with Reps. Burchett, Burlison and Moskowitz. Nothing said there was under oath — it was a press conference, not a hearing, and Grusch's sworn testimony is the July 26, 2023 House Oversight hearing, where his account was explicitly secondhand. The 1954 attribution does not match the record: Eisenhower's classification order EO 10501 is dated November 5, 1953, and the Atomic Energy Act of 1954 is an act of Congress, not an executive order; the Act's Restricted Data regime is the mechanism Grusch himself identifies in the Judicial Watch interview he cites. The Immaculate Constellation document is real and sits in the Congressional Record, entered at the November 13, 2024 joint hearing; the program it describes has never been confirmed by any government source.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~5.8 MB); delivery ~6.0 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-uap-capitol-press-conference-001",
+        "2024-immaculate-constellation-record-001",
+        "2023-grusch-oversight-testimony-001"
+    ],
+    "supporting_research_links": [
+        "https://www.congress.gov/118/meeting/house/116282/documents/HHRG-118-GO06-Transcript-20230726.pdf",
+        "https://docs.house.gov/meetings/GO/GO12/20241113/117721/HHRG-118-GO12-Transcript-20241113.pdf",
+        "https://www.foxnews.com/politics/ufo-whistleblower-claims-billions-secret-spending-hidden-from-congress",
+        "https://www.judicialwatch.org/videos/uap-whistleblower-david-grusch-on-non-human-biologics-craft/"
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 5,
+        "c": 0
+    }
+}

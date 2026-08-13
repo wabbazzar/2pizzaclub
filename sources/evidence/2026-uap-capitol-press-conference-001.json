@@ -1,0 +1,50 @@
+{
+    "id": "2026-uap-capitol-press-conference-001",
+    "anchor": "y2023-uap-hearings",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "uap",
+        "congress",
+        "whistleblower",
+        "defense",
+        "intelligence"
+    ],
+    "claim": "On June 9, 2026, David Grusch returned to the Capitol steps for a press conference held under the banner of the House Oversight Task Force on the Declassification of Federal Secrets, chaired by Rep. Anna Paulina Luna (R-FL) and joined by Reps. Tim Burchett (R-TN), Eric Burlison (R-MO) and Jared Moskowitz (D-FL). Asked how many non-human species the U.S. government is aware of, Grusch answered: \"I certainly don't have the compendium. It's a continuum from corporeal bipedal type life to, you know, what I would consider is like sentient plasma life, but there are several\" — adding, when pressed, \"that the U.S. government is aware.\" Asked how many cases involving non-human biologics the government might know of, he said \"quite a few, several dozen,\" and when asked for an exact number repeated \"several dozen,\" noting he had not had full access to that information himself. He said he could not comment on the content of the Immaculate Constellation program beyond what he had discussed in an interview with Judicial Watch, describing it as a National Security Council program whose secrecy infrastructure he dated to 1954. He also alleged that \"slush funds to the tune of billions of dollars per annum\" operate outside normal congressional oversight. The 1954 date does not correspond to any executive order: Eisenhower's classification order, EO 10501, is dated November 5, 1953, while the Atomic Energy Act of 1954 is an act of Congress, and its \"Restricted Data\" regime is the mechanism Grusch has elsewhere identified — one under which no single official, including the President, can unilaterally declassify, because removal from the category requires a formal process involving both the Department of Energy and the Department of Defense.",
+    "sources": [
+        {
+            "label": "Press-conference footage, U.S. Capitol, June 9, 2026 — the questions and Grusch's answers as recorded on the floor.",
+            "type": "primary",
+            "url": "https://www.instagram.com/reel/DZYaeLYEZ8a/",
+            "quote": "It's a continuum from corporeal bipedal type life to, you know, what I would consider as like sentient plasma life, but there are several... that the U.S. government is aware."
+        },
+        {
+            "label": "Fox News — coverage of the June 2026 press conference; the species quote, the alleged off-books funding, and the lawmakers present.",
+            "type": "secondary",
+            "url": "https://www.foxnews.com/politics/ufo-whistleblower-claims-billions-secret-spending-hidden-from-congress",
+            "quote": "slush funds to the tune of billions of dollars per annum"
+        },
+        {
+            "label": "Judicial Watch — interview with David Grusch, the appearance he cites as the limit of what he can say about the program.",
+            "type": "primary",
+            "url": "https://www.judicialwatch.org/videos/uap-whistleblower-david-grusch-on-non-human-biologics-craft/"
+        },
+        {
+            "label": "Atomic Energy Act of 1954, as amended — compiled statute, U.S. Government Publishing Office.",
+            "type": "primary",
+            "url": "https://www.govinfo.gov/content/pkg/COMPS-1630/pdf/COMPS-1630.pdf"
+        },
+        {
+            "label": "Federation of American Scientists — \"Protecting the Nation's Nuclear Information\" (DOE), on Restricted Data and the joint DOE/DoD declassification process.",
+            "type": "secondary",
+            "url": "https://sgp.fas.org/othergov/doe/rdfrdhtm.html"
+        },
+        {
+            "label": "@fox10phoenix, Instagram reel DZYaeLYEZ8a (June 9, 2026) — surfacing source and the footage cited above.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZYaeLYEZ8a/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Care needed here — this is a press conference, not a hearing, and nothing said at it was under oath. The claim text says so by naming the venue precisely and never calling it testimony. Two of Grusch's lines ('several dozen', the 1954/NSC attribution) are sourced ONLY to the footage itself, because no outlet found in the sweep reproduced them; they are quoted from the capture and attributed to it, not laundered through a secondary. The species quote and the slush-fund line are independently corroborated by Fox News. The 1954 correction is stated as a documentary fact about the date, not as a rebuttal of the program claim — and it points at the Atomic Energy Act because that is Grusch's own documented position in the Judicial Watch interview, which is the source he himself cited from the podium. The reel's audio may compress what he said; if the full C-SPAN or committee video of the press conference can be pinned, re-check the 1954 sentence against it before this card is quoted elsewhere. Group A on what was said and by whom; every substantive claim in it is Group B."
+}

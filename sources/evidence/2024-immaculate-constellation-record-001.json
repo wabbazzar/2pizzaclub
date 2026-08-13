@@ -1,0 +1,51 @@
+{
+    "id": "2024-immaculate-constellation-record-001",
+    "anchor": "y2023-uap-hearings",
+    "year": 2024,
+    "era": "iv",
+    "themes": [
+        "uap",
+        "congress",
+        "defense",
+        "intelligence",
+        "whistleblower"
+    ],
+    "claim": "A 12-page document describing an alleged Pentagon program called \"Immaculate Constellation\" is in the Congressional Record. It was delivered to Congress by journalist Michael Shellenberger and entered without objection at the joint hearing \"Unidentified Anomalous Phenomena: Exposing the Truth\" on November 13, 2024, before two subcommittees of the House Oversight and Accountability Committee (Serial No. 118-135); the hearing's index of documents lists it as \"Report, Pentagon, 'Immaculate Constellation'; submitted by Rep. Mace.\" Chairwoman Nancy Mace described it from the dais as \"12 pages about this unacknowledged special access program that your government says does not exist.\" Shellenberger testified that his source describes it as \"a central or parent USAP that consolidates observations of UAPs by both tasked and untasked collection platforms,\" holding imagery and measurement-and-signature intelligence gathered from low Earth orbit, the upper atmosphere, aviation altitudes and maritime environments, and cataloging shapes — \"spheres/orbs, discs/saucers, ovals, triangles, boomerang/arrowhead, and irregular/organic.\" Asked directly whether he had been read into the program, witness Luis Elizondo, a former Defense Department official, said: \"Ma'am, I would not be authorized to confirm nor deny the existence of any ongoing or past program, especially as it relates to a special access program, either by name or trigraph.\" A Department of Defense spokesperson said it had no records of such a program. What is documented is the paper and the hearing; the program itself remains unconfirmed by any government source.",
+    "sources": [
+        {
+            "label": "U.S. House Committee on Oversight and Accountability — official transcript of the Nov. 13, 2024 joint hearing, Serial No. 118-135; index of documents and the entry into the record.",
+            "type": "primary",
+            "url": "https://docs.house.gov/meetings/GO/GO12/20241113/117721/HHRG-118-GO12-Transcript-20241113.pdf",
+            "quote": "12 pages about this unacknowledged special access program that your government says does not exist."
+        },
+        {
+            "label": "Same transcript — Shellenberger's description of the program as reported to him.",
+            "type": "primary",
+            "url": "https://docs.house.gov/meetings/GO/GO12/20241113/117721/HHRG-118-GO12-Transcript-20241113.pdf",
+            "quote": "The report that was just shared with Congress says Immaculate Constellation serves as a central or parent USAP that consolidates observations of UAPs by both tasked and untasked collection platforms."
+        },
+        {
+            "label": "Same transcript — Elizondo declining to confirm or deny.",
+            "type": "primary",
+            "url": "https://docs.house.gov/meetings/GO/GO12/20241113/117721/HHRG-118-GO12-Transcript-20241113.pdf",
+            "quote": "Ma'am, I would not be authorized to confirm nor deny the existence of any ongoing or past program, especially as it relates to a special access program, either by name or trigraph."
+        },
+        {
+            "label": "House Committee Repository — hearing event page and submitted documents, Nov. 13, 2024.",
+            "type": "primary",
+            "url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventId=117722"
+        },
+        {
+            "label": "NewsNation — reporting on the Immaculate Constellation report and the Pentagon's response.",
+            "type": "secondary",
+            "url": "https://www.newsnationnow.com/space/ufo/report-immaculate-constellation-uap-journalist/"
+        },
+        {
+            "label": "@fox10phoenix, Instagram reel DZYaeLYEZ8a (June 9, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DZYaeLYEZ8a/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. The distinction this card is built to hold: a document being entered into the Congressional Record is a documented fact about the document, and says nothing about whether its contents are true. Both halves are stated. Quotes taken from the GPO transcript PDF directly (curl with a browser UA — docs.house.gov 403s a bare fetch — then pdftotext). The DoD denial is attributed to a spokesperson via secondary reporting; upgrade to a direct DoD statement if one can be pinned. The 12-page report itself as filed is worth pulling separately from the committee repository — it is a primary document we do not yet hold. Group A on the record; the program's existence is Group B."
+}
