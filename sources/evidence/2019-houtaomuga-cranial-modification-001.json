@@ -1,0 +1,41 @@
+{
+    "id": "2019-houtaomuga-cranial-modification-001",
+    "anchor": "y2019-ancient-tech",
+    "year": 2019,
+    "era": "iv",
+    "themes": [
+        "science",
+        "archaeology"
+    ],
+    "claim": "Elongated human skulls turn up in ancient Egypt, ancient Peru and ancient China because all three practiced intentional cranial modification — binding or boarding an infant's head while the skull is still soft, a body-modification custom documented on every inhabited continent. The earliest confirmed cases are Chinese. A 2019 study in the American Journal of Physical Anthropology reported 11 modified skulls from the Houtaomuga site in Jilin province, males and females from juveniles to adults, spanning roughly 12,000 to 5,000 years before present — what co-author Qian Wang called \"the earliest discovery of signs of intentional head modification in Eurasia continent, perhaps in the world,\" and the longest continuous practice at a single Neolithic site. Most followed a fronto-occipital pattern, flattening the forehead and the back of the skull so the head grows upward and backward. The shape is produced during infancy by pressure applied from outside; it does not increase cranial volume, and the skulls are anatomically modern human.",
+    "sources": [
+        {
+            "label": "Zhang et al., \"Intentional cranial modification from the Houtaomuga Site in Jilin, China: Earliest evidence and longest in situ practice during the Neolithic Age,\" American Journal of Physical Anthropology, June 25, 2019.",
+            "type": "primary",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/ajpa.23888"
+        },
+        {
+            "label": "PubMed record for the same study.",
+            "type": "primary",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31237364/"
+        },
+        {
+            "label": "Live Science — coverage quoting co-researcher Qian Wang on the significance of the find.",
+            "type": "secondary",
+            "url": "https://www.livescience.com/65901-china-oldest-skull-shaping.html",
+            "quote": "This is the earliest discovery of signs of intentional head modification in Eurasia continent, perhaps in the world"
+        },
+        {
+            "label": "Science News — \"East Asians may have been reshaping their skulls 12,000 years ago.\"",
+            "type": "secondary",
+            "url": "https://www.sciencenews.org/article/east-asians-may-have-been-reshaping-their-skulls-12000-years-ago"
+        },
+        {
+            "label": "@seti_menmaatre, Instagram reel DaonWrFS8Je (July 11, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DaonWrFS8Je/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. The observation that prompts this card is correct — Egypt, Peru and China all have elongated skulls — and the record supplies the mechanism rather than disputing the observation. Independent invention of the same custom across unconnected cultures is the documented reading; the card states the practice and its distribution and stops there, taking no position on why it recurs. The 'anatomically modern human, no increase in cranial volume' sentence is the load-bearing one for the fringe reading and is standard in the literature; source it to a specific craniometric paper if this card is ever challenged. Group A."
+}

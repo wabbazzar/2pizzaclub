@@ -1,0 +1,45 @@
+{
+    "id": "DaonWrFS8Je",
+    "url": "https://www.instagram.com/reel/DaonWrFS8Je/",
+    "platform": "instagram",
+    "captured_at": "2026-08-13",
+    "handle": "@seti_menmaatre",
+    "author_display_name": "Seti menmaatre",
+    "posted_at": "2026-07-11",
+    "engagement": {
+        "likes": 41217,
+        "comments": 472
+    },
+    "caption": "#history#education#ancienthistory#china#egyptian",
+    "hashtags": [
+        "history",
+        "education",
+        "ancienthistory",
+        "china",
+        "egyptian"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Rapid-cut montage of artifact photographs and clips with burned-in captions; no on-screen sourcing, dates or museum credits.",
+    "audio_content_summary": "Rapid list of ancient Chinese and Egyptian artifact claims: a sword with circuitry, a one-piece ivory puzzle ball, paint with quantum properties on the terracotta soldiers, laser-measured precision granite vases in Egypt and China, more pyramids in China than Egypt aligned to the same stars, elongated skulls in Egypt/Peru/China, serpent worship, foo dogs, earthquake-proof architecture, an earthquake-detecting jar, and a bronze mirror that projects the pattern on its back.",
+    "implied_frame": "Strings verified artifacts together with contested and invented ones at a pace that leaves no room to separate them, so that a shared origin behind Egypt and China is implied without being asserted. Four of the items are real and documented: Han purple (BaCuSi2O6) on the Terracotta Army is a synthetic pigment that is also a working quantum-magnetism material — above roughly 23.5 tesla near absolute zero, a condition unavailable to its makers; Zhang Heng's houfeng didong yi of 132 AD is the earliest known seismoscope, rebuilt as a working replica in 2005; intentional cranial modification is documented on every inhabited continent, with the earliest confirmed cases at Houtaomuga in Jilin, 12,000 to 5,000 years before present; and the light-penetration mirror works exactly as described, through differential polishing that leaves an invisible relief on the reflecting face. The 'sword with circuitry' is not identified — the Sword of Goujian carries an etched rhomboid lattice, not circuitry. The claim that laser-measured Egyptian granite vases are hundreds of times more precise than any hand could work comes from private scanning projects and has not been published or replicated. 'Aligned to the same stars' is asserted with nothing offered; the Chinese pyramids are Han-dynasty burial mounds. The claim that the architecture withstands a magnitude 9.5 earthquake traces to a televised shake-table demonstration on a scale model, not to a rated structure.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~9.8 MB); delivery ~10.2 MB webm, 98s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2004-han-purple-quantum-001",
+        "0132-zhang-heng-seismoscope-001",
+        "2019-houtaomuga-cranial-modification-001",
+        "2019-chinese-magic-mirror-001"
+    ],
+    "supporting_research_links": [
+        "https://www.psi.ch/en/cnm/scientific-highlights/understanding-quantum-critical-magnetism-in-han-purple",
+        "https://onlinelibrary.wiley.com/doi/10.1002/ajpa.23888",
+        "https://dataphys.org/list/houfeng-didong-yi-zhang-hengs-seismoscope/",
+        "https://en.wikipedia.org/wiki/Chinese_magic_mirror"
+    ],
+    "editorial_split": {
+        "a": 4,
+        "b": 4,
+        "c": 3
+    }
+}

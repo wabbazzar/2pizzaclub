@@ -1,0 +1,36 @@
+{
+    "id": "2004-han-purple-quantum-001",
+    "anchor": "y2019-ancient-tech",
+    "year": 2004,
+    "era": "iv",
+    "themes": [
+        "science",
+        "engineering",
+        "archaeology"
+    ],
+    "claim": "The purple pigment on the Terracotta Army is a synthetic barium copper silicate, BaCuSi2O6, known as Han purple. It has no natural mineral source and had to be manufactured — fired with barium and lead compounds at temperatures around 1,000°C, a process independently developed in China and unrelated to the Egyptian blue found in the Mediterranean world. Since 2004 it has also been a working material in condensed-matter physics, and the popular shorthand that the pigment \"has quantum properties\" is accurate as far as it goes. Its crystal structure stacks copper bilayers whose spins pair into dimers, and in a strong magnetic field — above a critical field of roughly 23.5 tesla, at temperatures near absolute zero — the excitations condense into a Bose-Einstein condensate of magnons and the material enters long-range magnetic order. Measurements at that quantum critical point behave as though the system has lost a dimension, ordering in two dimensions rather than three, an effect published as \"dimensional reduction\" and still under study at neutron facilities. None of this was available to or known by the people who made the pigment: the behavior appears only under laboratory conditions that did not exist until the twentieth century, and it says nothing about the chemistry as they used it.",
+    "sources": [
+        {
+            "label": "\"Dimensional reduction at the BEC quantum critical point in BaCuSi2O6\" — the dimensional-reduction result in Han purple.",
+            "type": "primary",
+            "url": "https://www.researchgate.net/publication/239935725_Dimensional_reduction_at_the_BEC_quantum_critical_point_in_BaCuSi2O6"
+        },
+        {
+            "label": "\"Magnetic-Field-Induced Condensation of Triplons in Han Purple Pigment BaCuSi2O6\" (2004) — the original magnon-condensation result.",
+            "type": "primary",
+            "url": "https://www.researchgate.net/publication/8268439_Magnetic-Field-Induced_Condensation_of_Triplons_in_Han_Purple_Pigment_BaCuSi2O6"
+        },
+        {
+            "label": "Paul Scherrer Institute, Center for Neutron and Muon Sciences — \"Understanding Quantum Critical Magnetism in Han Purple\"; the pigment as a model material, the bilayer structure and the critical field.",
+            "type": "primary",
+            "url": "https://www.psi.ch/en/cnm/scientific-highlights/understanding-quantum-critical-magnetism-in-han-purple"
+        },
+        {
+            "label": "@seti_menmaatre, Instagram reel DaonWrFS8Je (July 11, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DaonWrFS8Je/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Filed at y2019-ancient-tech, a chapter keyed to when the measurements were made rather than to the objects' age — the timeline starts at 1843, so ancient artifacts enter it through the modern research that characterized them. The card concedes the striking part in full (the pigment genuinely is a quantum-magnetism model material) and then states the condition that the framing leaves out: 23.5 T and near-absolute-zero. Written so the concession lands first, because the fact is real and interesting on its own and does not need to be blunted. Critical field figure and bilayer description from PSI; upgrade the two ResearchGate links to the underlying Nature/PRL DOIs if a stable open URL can be pinned. Group A."
+}

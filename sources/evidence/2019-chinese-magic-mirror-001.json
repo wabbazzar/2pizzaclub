@@ -1,0 +1,31 @@
+{
+    "id": "2019-chinese-magic-mirror-001",
+    "anchor": "y2019-ancient-tech",
+    "year": 2019,
+    "era": "iv",
+    "themes": [
+        "science",
+        "engineering",
+        "archaeology"
+    ],
+    "claim": "Chinese \"magic mirrors\" — 透光鏡, literally light-penetration mirrors — do what they are said to do. The face is polished bronze and reflects normally; the back carries a cast relief design. Shine a bright light on the polished face and reflect it onto a wall, and the pattern from the back appears in the projected disc, as though the solid metal were transparent. Examples survive from at least the 5th century, with claims of Han-dynasty manufacture, and only a handful are held in Western collections — one was identified in storage at the Cincinnati Art Museum in 2022. The effect is a manufacturing artifact, not an optical mystery: the mirror is cast flat with the design on the back, then the face is scraped and polished into a slight convexity. Where the casting is thinner — behind the relief — the metal flexes away under the scraping tool and takes less pressure than the thicker regions. When the tool is removed those thin areas rebound into marginally greater convexity, leaving a relief map of the back on the front in surface curvature far too slight to see directly, but enough to modulate a reflected beam. The pattern is on the front the whole time.",
+    "sources": [
+        {
+            "label": "Chinese magic mirror — overview of the type, the surviving examples and the differential-polishing explanation.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Chinese_magic_mirror"
+        },
+        {
+            "label": "Artnet News — curators identify a rare Chinese magic mirror in the Cincinnati Art Museum's storage, one of only three known in the West.",
+            "type": "secondary",
+            "url": "https://news.artnet.com/art-world/magic-mirror-cincinnati-art-museum-2146551"
+        },
+        {
+            "label": "@seti_menmaatre, Instagram reel DaonWrFS8Je (July 11, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DaonWrFS8Je/"
+        }
+    ],
+    "status": "primary-link-pending",
+    "notes": "Backstage. The phenomenon is not in dispute and the mechanism is textbook, but both sources here are secondary. The primary chain runs through Joseph Needham, Science and Civilisation in China vol. 4 pt. 1 (which reproduces Shen Kuo's 11th-century Dream Pool Essays discussion, the earliest known attempt at an explanation) and the 1960s Berry/Mukai optical analyses. Cite one of those and upgrade to verified. Card written to keep the wonder intact — the effect is genuinely counterintuitive — while making the last sentence do the work. Group A."
+}
