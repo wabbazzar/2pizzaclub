@@ -1,0 +1,43 @@
+{
+    "id": "DaIsQz5CQi0",
+    "url": "https://www.instagram.com/reel/DaIsQz5CQi0/",
+    "platform": "instagram",
+    "captured_at": "2026-08-14",
+    "handle": "@versemedia.official",
+    "author_display_name": "Verse Media",
+    "posted_at": "2026-06-28",
+    "engagement": {
+        "likes": 582376,
+        "comments": 12957
+    },
+    "caption": "Jordanian Foreign Minister Ayman Safadi delivered a fiery address at the UN on September 27, 2024, slamming Israel's government for refusing to stop the war. Representing 57 Arab and Muslim nations, Safadi stated they are ready to guarantee Israel's security in exchange for ending the occupation, asking what their endgame is 'other than just wars and wars and wars'. \n\nSource: Times of Israel / VOA News / The Ideas Letter \n\n #UNGA #MiddleEastCrisis #Jordan #TwoStateSolution #BreakingNews #Israel #palestinelivesmatter",
+    "hashtags": [
+        "UNGA",
+        "MiddleEastCrisis",
+        "Jordan",
+        "TwoStateSolution",
+        "BreakingNews",
+        "Israel",
+        "palestinelivesmatter"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Press-conference footage with burned-in captions, reposted by an aggregator account.",
+    "audio_content_summary": "Jordanian Deputy Prime Minister and Foreign Minister Ayman Safadi, speaking for the Arab-Islamic Ministerial Committee at the UN, says the Arab and Muslim states will guarantee Israel's security if Israel ends the occupation and allows a Palestinian state on the June 4, 1967 lines with East Jerusalem as its capital, and asks what Israel's plan for peace is other than continued war.",
+    "implied_frame": "Presents the offer as a new and unanswered proposal, and Israel as the party with no plan. The clip is genuine and the remarks are accurately reported: Safadi said this at the UN on September 27, 2024, hours after Netanyahu's General Assembly address, as a member of the committee created by the joint Arab-Islamic summit in Riyadh on November 11, 2023. The terms are not new — they restate the Arab Peace Initiative adopted unanimously by the Arab League at Beirut in March 2002, which offered normalization and an end to the conflict in exchange for withdrawal to the 1967 lines and a refugee settlement under UNGA Resolution 194. Successive Israeli governments have not accepted it. That there is 'no partner for peace in Israel' is Safadi's characterization, not a documented finding, and the reel carries only his side of the exchange.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~6.9 MB); delivery ~7.4 MB webm, 117s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2024-safadi-security-guarantee-001"
+    ],
+    "supporting_research_links": [
+        "https://www.europarl.europa.eu/meetdocs/2009_2014/documents/empa/dv/1_arab-initiative-beirut_/1_arab-initiative-beirut_en.pdf",
+        "https://www.oic-oci.org/topic/?t_id=39923&t_ref=26755&lan=en",
+        "https://www.timesofisrael.com/liveblog_entry/jordanian-fm-arab-world-willing-to-guarantee-israels-security-if-palestinian-state-established/"
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 2,
+        "c": 0
+    }
+}
