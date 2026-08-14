@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 122,
-      "seconds": 14781
+      "count": 136,
+      "seconds": 15468
     },
     {
       "slug": "adl",
@@ -32,6 +32,12 @@
       "seconds": 180
     },
     {
+      "slug": "archaeology",
+      "topic": "Archaeology",
+      "count": 1,
+      "seconds": 98
+    },
+    {
       "slug": "big-tech",
       "topic": "Big Tech",
       "count": 13,
@@ -52,8 +58,8 @@
     {
       "slug": "cia",
       "topic": "CIA",
-      "count": 11,
-      "seconds": 1543
+      "count": 12,
+      "seconds": 1665
     },
     {
       "slug": "civil-liberties",
@@ -70,8 +76,8 @@
     {
       "slug": "congress",
       "topic": "Congress",
-      "count": 8,
-      "seconds": 896
+      "count": 11,
+      "seconds": 1072
     },
     {
       "slug": "copyright",
@@ -94,8 +100,8 @@
     {
       "slug": "defense",
       "topic": "Defense",
-      "count": 16,
-      "seconds": 1958
+      "count": 19,
+      "seconds": 2134
     },
     {
       "slug": "directed-energy-weapons",
@@ -112,20 +118,20 @@
     {
       "slug": "economic-crisis",
       "topic": "Economic Crisis",
-      "count": 3,
-      "seconds": 301
+      "count": 4,
+      "seconds": 423
     },
     {
       "slug": "elections",
       "topic": "Elections",
-      "count": 4,
-      "seconds": 677
+      "count": 5,
+      "seconds": 799
     },
     {
       "slug": "engineering",
       "topic": "Engineering",
-      "count": 6,
-      "seconds": 536
+      "count": 7,
+      "seconds": 634
     },
     {
       "slug": "epstein",
@@ -178,7 +184,7 @@
     {
       "slug": "forensics",
       "topic": "Forensics",
-      "count": 1,
+      "count": 2,
       "seconds": 0
     },
     {
@@ -214,20 +220,20 @@
     {
       "slug": "infrastructure-capex",
       "topic": "Infrastructure Capex",
-      "count": 6,
-      "seconds": 499
+      "count": 7,
+      "seconds": 621
     },
     {
       "slug": "intelligence",
       "topic": "Intelligence",
-      "count": 21,
-      "seconds": 3052
+      "count": 26,
+      "seconds": 3350
     },
     {
       "slug": "international-law",
       "topic": "International Law",
-      "count": 3,
-      "seconds": 359
+      "count": 5,
+      "seconds": 476
     },
     {
       "slug": "iran",
@@ -244,8 +250,8 @@
     {
       "slug": "israel",
       "topic": "Israel",
-      "count": 34,
-      "seconds": 3897
+      "count": 36,
+      "seconds": 4014
     },
     {
       "slug": "japan",
@@ -256,8 +262,8 @@
     {
       "slug": "journalism",
       "topic": "Journalism",
-      "count": 34,
-      "seconds": 3406
+      "count": 35,
+      "seconds": 3528
     },
     {
       "slug": "kirk",
@@ -316,8 +322,8 @@
     {
       "slug": "palestine",
       "topic": "Palestine",
-      "count": 8,
-      "seconds": 1173
+      "count": 9,
+      "seconds": 1290
     },
     {
       "slug": "pharma",
@@ -328,8 +334,8 @@
     {
       "slug": "prosecution",
       "topic": "Prosecution",
-      "count": 16,
-      "seconds": 2103
+      "count": 18,
+      "seconds": 2225
     },
     {
       "slug": "public-health",
@@ -340,14 +346,14 @@
     {
       "slug": "regime-change",
       "topic": "Regime Change",
-      "count": 3,
-      "seconds": 515
+      "count": 4,
+      "seconds": 637
     },
     {
       "slug": "regional-conflicts",
       "topic": "Regional Conflicts",
-      "count": 9,
-      "seconds": 1357
+      "count": 10,
+      "seconds": 1474
     },
     {
       "slug": "saudi-arabia",
@@ -358,8 +364,8 @@
     {
       "slug": "science",
       "topic": "Science",
-      "count": 4,
-      "seconds": 177
+      "count": 6,
+      "seconds": 397
     },
     {
       "slug": "scientist-deaths",
@@ -424,20 +430,20 @@
     {
       "slug": "uap",
       "topic": "Uap",
-      "count": 1,
-      "seconds": 180
+      "count": 4,
+      "seconds": 356
     },
     {
       "slug": "ukraine",
       "topic": "Ukraine",
-      "count": 1,
-      "seconds": 158
+      "count": 2,
+      "seconds": 280
     },
     {
       "slug": "us-aid",
       "topic": "US Aid",
-      "count": 5,
-      "seconds": 715
+      "count": 6,
+      "seconds": 837
     },
     {
       "slug": "vaccines",
@@ -448,8 +454,8 @@
     {
       "slug": "war",
       "topic": "War",
-      "count": 13,
-      "seconds": 1920
+      "count": 15,
+      "seconds": 2042
     },
     {
       "slug": "watergate",
@@ -472,8 +478,8 @@
     {
       "slug": "whistleblower",
       "topic": "Whistleblower",
-      "count": 5,
-      "seconds": 675
+      "count": 8,
+      "seconds": 851
     },
     {
       "slug": "wildfires",
