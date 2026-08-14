@@ -1,0 +1,42 @@
+{
+    "id": "2023-germany-nuclear-exit-001",
+    "anchor": "y2022-nord-stream",
+    "year": 2023,
+    "era": "iv",
+    "themes": [
+        "infrastructure-capex",
+        "science",
+        "economic-crisis"
+    ],
+    "claim": "Germany shut down its last three nuclear power stations — Isar 2, Emsland and Neckarwestheim 2 — on April 15, 2023, ending nuclear generation in the country. The decision was not taken during the energy crisis and was not new: the Bundestag voted to phase out nuclear power on June 30, 2011, three months after the Fukushima accident, and an August 2011 amendment to the Atomic Energy Act cancelled the lifetime extension granted in December 2010 and reinstated the generation volumes set in the original 2002 phase-out agreement. The federal office responsible, BASE, describes it as a process prepared over two decades and supported across nearly all the main political parties. The energy crisis did move the date, in the opposite direction to the usual telling: the three plants had been due to close on December 31, 2022, and a November 2022 amendment kept them running in \"stretch-out operation\" for an extra three and a half months. Germany's electricity prices and its industrial energy costs did rise sharply through 2022 and remain a live argument about the exit's wisdom — but the exit itself was legislated a decade before the war in Ukraine, by a center-right government, in response to a reactor accident in Japan.",
+    "sources": [
+        {
+            "label": "Bundesamt für die Sicherheit der nuklearen Entsorgung (BASE) — \"The nuclear phase-out in Germany,\" official federal account of the timeline and legal basis.",
+            "type": "primary",
+            "url": "https://www.base.bund.de/en/nuclear-safety/nuclear-phase-out/nuclear-phase-out_content.html",
+            "quote": "cancelled the December 2010 lifetime extension, and the electricity volumes originally assigned in 2002 were reinstated"
+        },
+        {
+            "label": "German Federal Ministry for the Environment — \"Germany brings era of nuclear power to an end,\" April 2023.",
+            "type": "primary",
+            "url": "https://www.bundesumweltministerium.de/PM10553-1"
+        },
+        {
+            "label": "Clean Energy Wire — \"Q&A: Germany's nuclear exit, one year after,\" on the stretch-out operation and the effects on prices and emissions.",
+            "type": "secondary",
+            "url": "https://www.cleanenergywire.org/factsheets/qa-germanys-nuclear-exit-one-year-after"
+        },
+        {
+            "label": "CNBC — \"Germany shuts down last nuclear power plants, some scientists aghast,\" April 18, 2023; the scientific criticism of the decision.",
+            "type": "secondary",
+            "url": "https://www.cnbc.com/2023/04/18/germany-shuts-down-last-nuclear-power-plants-some-scientists-aghast.html"
+        },
+        {
+            "label": "@docahmadmalik, Instagram reel Db5bxLgRqSz (Aug. 11, 2026) — surfacing source; Simon Dixon on the Doc Malik podcast, episode 431.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/Db5bxLgRqSz/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. The surfacing claim is that ESG and climate policy were used to switch off German nuclear as part of an operation against German industry. The shutdown is real, so the card supplies the dates and the legislative chain rather than arguing with the motive: the vote was 2011, under Merkel's CDU-led government, after Fukushima. That does not settle whether the policy was wise — the card explicitly leaves the cost argument open and cites the scientific criticism, because dismissing it would be the same error in the other direction. The stretch-out detail is included because it inverts the usual telling and is checkable. Chronology is the load-bearing fact here and it is sourced to the responsible federal office, not to press coverage."
+}

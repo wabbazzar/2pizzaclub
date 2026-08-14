@@ -1,0 +1,44 @@
+{
+    "id": "2022-nord-stream-sabotage-001",
+    "anchor": "y2022-nord-stream",
+    "year": 2022,
+    "era": "iv",
+    "themes": [
+        "ukraine",
+        "war",
+        "infrastructure-capex",
+        "prosecution",
+        "intelligence"
+    ],
+    "claim": "On September 26, 2022 underwater explosions ruptured three of the four pipes of the Nord Stream 1 and 2 gas pipelines in the Baltic Sea near the Danish island of Bornholm, ending Russia's largest direct gas route to Germany. That the blasts were deliberate sabotage is not disputed; who ordered them is. The Danish and Swedish investigations both closed in 2024 having established only that the destruction was intentional, without naming perpetrators. The German Federal Prosecutor General kept going, investigated seven Ukrainian nationals, and on July 2, 2026 charged Serhii Kuznietsov, a 50-year-old Ukrainian identified in court documents as Serhii K., with attacking civilian energy infrastructure, causing an explosion and destroying structures. Prosecutors allege he was the on-board coordinator of a team that sailed the chartered yacht Andromeda from Rostock and placed the charges. He was arrested in the Italian province of Rimini in August 2025 and extradited after litigation in which Italian and Polish courts reached different conclusions on Germany's European Arrest Warrants; the Federal Court of Justice dismissed his challenge to the arrest order on January 15, 2026. He denies involvement, saying he was serving with the Ukrainian armed forces in Ukraine at the time, and argues functional immunity. Ukraine's government has denied involvement or knowledge, and President Zelensky said of the charges, \"We have not officially received any details; at least I have not seen them.\" A competing account published by journalist Seymour Hersh in February 2023, sourcing an unnamed official, attributed the operation to the United States with Norwegian assistance; the White House called it false, and no prosecuting authority has adopted it. The claim that the pipeline was destroyed to deindustrialize Germany is a reading of motive, and no investigation has established one.",
+    "sources": [
+        {
+            "label": "Al Jazeera — \"German prosecutors charge Ukrainian suspect over Nord Stream explosions,\" July 2, 2026; the charge, the suspect, the Andromeda, and Zelensky's response.",
+            "type": "secondary",
+            "url": "https://www.aljazeera.com/news/2026/7/2/german-prosecutors-charge-ukrainian-suspect-over-nord-stream-explosions",
+            "quote": "We have not officially received any details; at least I have not seen them. It is too early to say yet."
+        },
+        {
+            "label": "eucrim (Max Planck Institute) — \"Extradition for Nord Stream Pipeline Blast: EU Courts Have Ruled Differently on German EAWs\"; the arrest warrants, the Italian and Polish rulings, and the Federal Court of Justice decision of Jan. 15, 2026.",
+            "type": "primary",
+            "url": "https://eucrim.eu/news/extradition-for-nord-stream-pipeline-blast-eu-courts-have-ruled-differently-on-german-eaws/"
+        },
+        {
+            "label": "CBS News — arrest of the Ukrainian suspect in Italy, announced by German prosecutors, August 2025.",
+            "type": "secondary",
+            "url": "https://www.cbsnews.com/news/nord-stream-gas-pipeline-sabotage-ukrainian-arrest-germany-announces"
+        },
+        {
+            "label": "Washington Times — \"German prosecutors charge former Ukrainian officer with Nord Stream pipeline sabotage,\" July 2, 2026.",
+            "type": "secondary",
+            "url": "https://www.washingtontimes.com/news/2026/jul/2/german-prosecutors-charge-former-ukrainian-officer-nord-stream/"
+        },
+        {
+            "label": "@docahmadmalik, Instagram reel Db5bxLgRqSz (Aug. 11, 2026) — surfacing source; Simon Dixon on the Doc Malik podcast, episode 431.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/Db5bxLgRqSz/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Written to hold the line the site's rules require in both directions: the German indictment is a prosecutor's allegation, not an adjudicated fact, and the card says 'prosecutors allege' rather than adopting it — Kuznietsov's denial and immunity argument are stated in the same breath. Hersh's account is included because omitting it would let the current official version stand unopposed, but it is attributed to him and to an unnamed source, which is what it rests on. Do not upgrade either to settled. The last sentence exists because the surfacing claim is specifically about motive, and no authority has ruled on motive at all. Missing and worth adding: the German Federal Prosecutor's own press release (generalbundesanwalt.de) as a primary, and the Danish/Swedish closure statements — currently carried only as background from search results, so that sentence is the weakest in the card. Group A on the event and the legal record; attribution and motive are Group B."
+}

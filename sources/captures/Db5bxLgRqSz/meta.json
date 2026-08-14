@@ -1,0 +1,38 @@
+{
+    "id": "Db5bxLgRqSz",
+    "url": "https://www.instagram.com/reel/Db5bxLgRqSz/",
+    "platform": "instagram",
+    "captured_at": "2026-08-14",
+    "handle": "@docahmadmalik",
+    "author_display_name": "Doc Malik",
+    "posted_at": "2026-08-11",
+    "engagement": {
+        "likes": 12142,
+        "comments": 627
+    },
+    "caption": "The real reason behind the Russia - Ukraine war.... Simon Dixon explains in episode 431",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Podcast clip with burned-in captions; no on-screen sourcing.",
+    "audio_content_summary": "Simon Dixon argues the Russia-Ukraine war was an operation by a US-led financial-industrial complex to asset-strip German manufacturing: unaffordable energy, ESG and climate policy used to shut down German nuclear, the Nord Stream pipeline destroyed, Brexit to detach the UK, a 2014 regime change in Ukraine producing Zelensky, and Starmer, Merz and Macron installed to sustain a democracy narrative while money flows to the military-industrial complex.",
+    "implied_frame": "Frames the war and a decade of European politics as a single pre-planned operation. Several component facts are real and are recorded: Nord Stream was deliberately sabotaged on 26 September 2022, and German prosecutors charged a Ukrainian national in July 2026 while Danish and Swedish investigations closed without naming anyone; Germany did shut its last three reactors, on 15 April 2023. The chronology does not support the framing: the nuclear exit was legislated by the Bundestag on 30 June 2011 after Fukushima, under a CDU-led government, and the energy crisis delayed the shutdown rather than causing it. Zelensky was elected in 2019, not installed in 2014, and the site already carries his television career and the Kolomoisky channel at y2019-zelensky. Starmer, Merz and Macron each won elections. The figure of three billion dollars sent to Ukraine is far below the roughly 175 billion the United States has appropriated. That Brexit was engineered to detach the UK, and that the whole sequence was pre-planned, are asserted with nothing offered.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~6.7 MB); delivery ~7.2 MB webm, 122s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2022-nord-stream-sabotage-001",
+        "2023-germany-nuclear-exit-001",
+        "2019-zelensky-servant-of-the-people-001",
+        "2013-nuland-5-billion-ukraine-001"
+    ],
+    "supporting_research_links": [
+        "https://www.base.bund.de/en/nuclear-safety/nuclear-phase-out/nuclear-phase-out_content.html",
+        "https://www.aljazeera.com/news/2026/7/2/german-prosecutors-charge-ukrainian-suspect-over-nord-stream-explosions",
+        "https://eucrim.eu/news/extradition-for-nord-stream-pipeline-blast-eu-courts-have-ruled-differently-on-german-eaws/"
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 5,
+        "c": 3
+    }
+}
