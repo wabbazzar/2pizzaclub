@@ -1,0 +1,35 @@
+{
+    "id": "DbRPE5HSASr",
+    "url": "https://www.instagram.com/reel/DbRPE5HSASr/",
+    "platform": "instagram",
+    "captured_at": "2026-08-14",
+    "handle": "@blessedbarberz",
+    "author_display_name": "Blessed Barbers Inc.",
+    "posted_at": "2026-07-26",
+    "engagement": {
+        "likes": 21182,
+        "comments": 776
+    },
+    "caption": "We can pretend we are not funding this all we want but we are doing it loudly and knowingly. Being American has for a long time required us to forget we wear the badge of the barbarian in this world in search of a good alibi to besiege another for riches. Wearing a suit and tie pretending to do no wrong at the UN, having families in peace while bombing others trying to do the same. While its citizens would never do this to another human being, their hard work and efforts create funds that are sent to a murderous country to shoot kids in the head, bomb their homes and extort them into submission.\n\nWelcome to earth, where this has become just a part of life.",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Broadcast-news footage with burned-in captions; the segment is CBS News Sunday Morning's 'Children of Gaza.'",
+    "audio_content_summary": "Dr. Mark Perlmutter, an American orthopedic surgeon who volunteered in Gaza in spring 2024, tells CBS he treated children with dead-centre gunshot wounds to the chest and head, says the carnage exceeded 40 mission trips over 30 years including Ground Zero, and describes children crushed, incinerated and dismembered. The correspondent adds that more than 20 doctors gave similar accounts, cites UN figures on displacement, and explains the clinicians' shorthand WCNSF, wounded child no surviving family.",
+    "implied_frame": "The reposter's caption frames American taxpayers as knowingly funding the killing of children. The footage itself is an unaltered CBS News Sunday Morning segment broadcast on 21 July 2024, and every element checks out: Perlmutter's quotes, the 20-doctor figure, the UN displacement figure and the WCNSF term are all in the CBS transcript. The pattern he describes is corroborated by an open letter of 2 October 2024 signed by 99 American clinicians with 254 combined weeks of service in Gaza, stating that all of them working in emergency, intensive care or surgical settings treated pre-teen children shot in the head or chest regularly or daily. The IDF told CBS it has never and will never deliberately target children and that remaining in an active combat zone carries inherent risks. What the record holds is consistent eyewitness testimony from treating physicians; no independent forensic investigation has established who fired the rounds in any individual case, and the inference about intent is the doctors' own. The caption's argument about American funding is the reposter's, not part of the broadcast.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~6.0 MB); delivery ~6.4 MB webm, 172s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2024-gaza-clinician-testimony-001"
+    ],
+    "supporting_research_links": [
+        "https://www.cbsnews.com/news/children-of-gaza/",
+        "https://www.gazahealthcareletters.org/usa-letter-oct-2-2024",
+        "https://www.cnn.com/2024/07/26/world/open-letter-45-us-physicians-gaza"
+    ],
+    "editorial_split": {
+        "a": 4,
+        "b": 2,
+        "c": 0
+    }
+}

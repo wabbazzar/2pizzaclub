@@ -1,0 +1,51 @@
+{
+    "id": "2024-gaza-clinician-testimony-001",
+    "anchor": "y2024-gaza-clinicians",
+    "year": 2024,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "palestine",
+        "civilians",
+        "war",
+        "journalism"
+    ],
+    "claim": "American clinicians who volunteered in Gaza's hospitals have said, on the record and in numbers, that they treated children with single gunshot wounds to the head and chest. CBS News Sunday Morning broadcast the account on July 21, 2024. Dr. Mark Perlmutter, an orthopedic surgeon and vice president of the International College of Surgeons who worked in Gaza from late April into May 2024, told the program: \"All of the disasters I've seen, combined — 40 mission trips, 30 years, Ground Zero, earthquakes, all of that combined — doesn't equal the level of carnage that I saw against civilians in just my first week in Gaza.\" He said the casualties were \"almost exclusively children,\" and described two he photographed who were \"shot so perfectly in the chest, I couldn't put my stethoscope over their heart more accurately, and directly on the side of the head, in the same child,\" adding: \"No toddler gets shot twice by mistake by the 'world's best sniper.'\" CBS reported that more than 20 doctors recently in Gaza described gunshot wounds to children, and that one American doctor reviewed CT scans to confirm what he was seeing because he \"didn't believe that this many children could be admitted to a single hospital with gunshot wounds to the head.\" On October 2, 2024, ninety-nine American physicians, surgeons, nurse practitioners, nurses and midwives with 254 combined weeks of service in Gaza wrote to President Biden and Vice President Harris that \"every one of us who worked in an emergency, intensive care, or surgical setting treated pre-teen children who were shot in the head or chest on a regular or even a daily basis.\" The Israel Defense Forces told CBS: \"The IDF has never, and will never, deliberately target children,\" adding that \"remaining in an active combat zone has inherent risks\" and that it calls for civilians to evacuate combat zones. The clinicians' accounts are eyewitness testimony from treating physicians, not an adjudicated finding; no independent forensic investigation has established who fired the rounds in any individual case. CBS also cited UN reporting that more than 80 percent of Gaza's population had been displaced and the majority of its buildings destroyed, and noted that so many children had lost their families that clinicians coined a shorthand for it — WCNSF, wounded child no surviving family.",
+    "sources": [
+        {
+            "label": "CBS News Sunday Morning — \"Children of Gaza,\" broadcast July 21, 2024; Perlmutter's account, the 20-doctor figure, the UN displacement figure, WCNSF, and the IDF response.",
+            "type": "primary",
+            "url": "https://www.cbsnews.com/news/children-of-gaza/",
+            "quote": "In fact, more than 20 doctors recently in Gaza also told \"Sunday Morning\" about gunshot wounds to children. One American doctor told us he even reviewed CT scans to confirm what he saw because he \"didn't believe that this many children could be admitted to a single hospital with gunshot wounds to the head.\""
+        },
+        {
+            "label": "Same broadcast — the Israel Defense Forces' response as given to CBS.",
+            "type": "primary",
+            "url": "https://www.cbsnews.com/news/children-of-gaza/",
+            "quote": "The IDF has never, and will never, deliberately target children... Remaining in an active combat zone has inherent risks."
+        },
+        {
+            "label": "Open letter to President Biden and Vice President Harris from 99 American healthcare workers who served in Gaza, October 2, 2024; lead authors Feroze Sidhwa, Mark Perlmutter, Adam Hamawy and Thalia Pachiyannakis.",
+            "type": "primary",
+            "url": "https://www.gazahealthcareletters.org/usa-letter-oct-2-2024",
+            "quote": "every one of us who worked in an emergency, intensive care, or surgical setting treated pre-teen children who were shot in the head or chest on a regular or even a daily basis"
+        },
+        {
+            "label": "CNN — earlier open letter from US physicians who served in Gaza, July 26, 2024.",
+            "type": "secondary",
+            "url": "https://www.cnn.com/2024/07/26/world/open-letter-45-us-physicians-gaza"
+        },
+        {
+            "label": "France 24, Tête à tête — interview with Perlmutter, October 29, 2024.",
+            "type": "secondary",
+            "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20241029-us-doctor-claims-israeli-snipers-target-child-in-gaza-no-child-gets-shot-twice-by-mistakea"
+        },
+        {
+            "label": "@blessedbarberz, Instagram reel DbRPE5HSASr (July 26, 2026) — surfacing source; the clip is the CBS segment.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DbRPE5HSASr/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Hardest card in the batch to write to the standard, and the discipline is the same one the site applies to official accounts: attribute, do not adopt — in both directions. What is documented is that named clinicians, on the record, in a mainstream broadcast and in a signed letter with 99 names and 254 weeks of service behind it, describe a specific and repeated injury pattern. That is testimony from treating physicians, which is strong evidence and is not the same thing as a forensic finding, and the claim says so in its own sentence rather than burying it. The IDF denial is quoted in full and is likewise not adopted — it is a statement by an interested party, weighed like any other. Perlmutter's inference about intent ('no toddler gets shot twice by mistake') is quoted as his words, not restated in our voice. Deliberately omitted: the reel's caption, which is the reposter's editorializing about American complicity and is not evidence. Also omitted: partisan rebuttals of the doctors (CAMERA and others) — not because they are worthless but because they are advocacy on the other side and the card already carries the IDF's own words. If this thread is expanded, the strongest additions are the UN Commission of Inquiry findings and any autopsy or ballistic documentation, which is what the record currently lacks. Group A on the testimony and the letter; the question of who fired is Group B."
+}
