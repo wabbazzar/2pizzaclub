@@ -1,0 +1,32 @@
+{
+    "id": "1995-diana-mishcon-note-001",
+    "anchor": "y2026-death-circumstances",
+    "year": 1995,
+    "era": "iii",
+    "themes": [
+        "death-and-circumstance",
+        "uk",
+        "royal-family"
+    ],
+    "claim": "Diana, Princess of Wales, did put on record before her death that she expected to be killed in a staged car crash, and the document exists in a police file. On October 30, 1995, she met her solicitor Lord Victor Mishcon and her private secretary Patrick Jephson and told them that sources she would not name had said efforts would be made by around April 1996 to get rid of her or to injure her badly enough that she could be called unbalanced, by brake failure or another means in a car. Mishcon wrote a contemporaneous note. After Diana died in the Paris crash of August 31, 1997, he gave the note to senior Metropolitan Police officers on September 18, 1997. It was placed in a safe and was not passed to the French investigating authorities for six years. It later entered the Metropolitan Police's own inquiry, Operation Paget, as exhibit VM/1. A separate letter published in 2003 by her former butler Paul Burrell, which he said Diana wrote in October 1996, contains the same fear in her hand: \"my husband is planning 'an accident' in my car, brake failure and serious head injury.\" Operation Paget concluded in 2006, and the 2008 inquest jury returned a verdict of unlawful killing by the grossly negligent driving of Henri Paul and of the following vehicles. What the note establishes is what she believed and said, on a specific date, to her lawyer. It does not establish what caused the crash, and the two questions should not be merged.",
+    "sources": [
+        {
+            "label": "The Daily Beast — \"The Hidden Note of Princess Diana Predicting Her Own Car-Crash Death,\" on the October 30, 1995 Mishcon meeting, the note's contents, and its handling by the Metropolitan Police.",
+            "type": "secondary",
+            "url": "https://www.thedailybeast.com/princess-dianas-chilling-note-predicting-her-own-car-crash-death/"
+        },
+        {
+            "label": "The Mail on Sunday via PressReader — \"Why didn't Scotland Yard share note on Diana's fear she'd die in a staged car crash?\", August 21, 2022; the six-year gap before French investigators saw it.",
+            "type": "secondary",
+            "url": "https://www.pressreader.com/uk/the-scottish-mail-on-sunday/20220821/281539409752521"
+        },
+        {
+            "label": "LADbible — reporting on the note and the Burrell letter text.",
+            "type": "secondary",
+            "url": "https://www.ladbible.com/news/princess-diana-note-before-death-20220821",
+            "quote": "my husband is planning 'an accident' in my car, brake failure and serious head injury"
+        }
+    ],
+    "status": "primary-link-pending",
+    "notes": "Backstage. The primary here is the Operation Paget report itself, which reproduces and discusses exhibit VM/1 and is a public Metropolitan Police document; it should be pulled and cited directly, and until it is this card stays primary-link-pending rather than verified. That report is also the strongest source for the inquest verdict wording. The card is written to keep two things apart that the popular version fuses: that Diana said this is documented and was mishandled by the police, and that saying it does not establish what happened in the tunnel. The inquest verdict is included as an attributed finding, not as a closing argument. Group A on the note's existence and contents; the causation question is Group B."
+}

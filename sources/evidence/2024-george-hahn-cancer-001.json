@@ -1,0 +1,20 @@
+{
+    "id": "2024-george-hahn-cancer-001",
+    "anchor": "y2026-death-circumstances",
+    "year": 2024,
+    "era": "v",
+    "themes": [
+        "death-and-circumstance",
+        "public-health"
+    ],
+    "claim": "George Hahn was a radiation biologist at Stanford who spent his career on hyperthermia — using heat, alone or with radiation and chemotherapy, to kill tumor cells. He published that work openly for decades and it entered clinical use as an adjunct therapy, not as a cure. He died at his home in Carmel Highlands, California on March 10, 2024, aged 98. Nothing was withheld or unreleased. The claim that he died before releasing a cure for cancer inverts an episode from his own life that Stanford recorded in his obituary: a supermarket tabloid once exaggerated his findings into a claim that hyperthermia would cure cancer, and he was flooded with letters from cancer patients around the world asking for access to a treatment that did not exist. He spent time answering them. The same exaggeration is now attached to his death.",
+    "sources": [
+        {
+            "label": "Stanford Medicine — \"George Hahn, radiation biologist who pioneered heat treatment for cancer, dies at 98,\" May 2024; the date and place of death, his hyperthermia research, and the tabloid episode.",
+            "type": "primary",
+            "url": "https://med.stanford.edu/news/all-news/2024/05/george-hahn-obituary.html"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Group C with proof rather than assertion, which is the standard this site holds itself to before calling something invented: the named person is identifiable, his death is documented by his own institution at 98 of old age, and his work is a published research record with no suppressed component. The tabloid detail is included because it is the documented origin of exactly this distortion and it came from his own institution's account. One source is thin, but it is the primary one and it covers every fact asserted. Group C."
+}

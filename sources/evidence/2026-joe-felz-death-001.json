@@ -1,0 +1,26 @@
+{
+    "id": "2026-joe-felz-death-001",
+    "anchor": "y2026-death-circumstances",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "death-and-circumstance",
+        "journalism",
+        "internet"
+    ],
+    "claim": "Joe Felz, 40, an off-grid builder and digital archivist who published open-source energy blueprints and scans of rare texts to an audience of more than a million followers, was found dead in Georgia in August 2026. The Georgia Bureau of Investigation's medical examiner's office ruled the cause of death hanging, by suicide. Within days the death was circulating online as an assassination, on the claim that he was 72 hours from uploading a large archive that someone wanted suppressed. The 72-hour figure and the suppression framing trace to social-media posts and aggregator sites, not to any statement by his family, his collaborators, or the investigating agency; no upload date has been documented. Felz's partner publicly criticized the spread of the claims, saying he would have been ashamed of them. What is on the record is a young man with a large following, a medical examiner's ruling of suicide, and an archive whose release schedule was never public. Whether the ruling is correct is a question for the case file; the sequence built around it is not evidence of anything.",
+    "sources": [
+        {
+            "label": "USA Herald — \"Mystery Surrounds Death of Digital Archivist Joe Felz Days Before Massive Archive Release,\" August 2026; the GBI medical examiner ruling and the origin of the 72-hour claim.",
+            "type": "secondary",
+            "url": "https://usaherald.com/mystery-surrounds-death-of-digital-archivist-joe-felz-days-before-massive-archive-release/"
+        },
+        {
+            "label": "Planet Today — \"Joe Felz Death: Influencer Found Dead, Family Rejects Online Speculation,\" August 2026.",
+            "type": "secondary",
+            "url": "https://www.planet-today.com/2026/08/joe-felz-death-influencer-found-dead.html"
+        }
+    ],
+    "status": "primary-link-pending",
+    "notes": "Backstage. Weakest-sourced card in this batch and marked accordingly. The death is recent, the coverage is almost entirely aggregator-tier, and no primary document has been obtained — the upgrade is the GBI medical examiner's report and any county incident record, which is the first thing to pull if this thread is continued. The card is written to hold the line in both directions: it does not assert the suicide ruling is correct and it does not treat the ruling as closing the question, and it says plainly that the 72-hour framing has no documented basis. The partner's objection is included because it is the only on-the-record statement from someone who knew him. Not Group A — the sourcing does not support it."
+}

@@ -1,0 +1,22 @@
+{
+    "id": "1998-stanley-meyer-death-001",
+    "anchor": "y2026-death-circumstances",
+    "year": 1998,
+    "era": "iii",
+    "themes": [
+        "death-and-circumstance",
+        "energy",
+        "fraud"
+    ],
+    "claim": "Stanley Allen Meyer, an Ohio inventor, spent years promoting a \"water fuel cell\" he said could split water with so little electricity that a dune buggy could run on water alone. He died on March 20, 1998, aged 57, after collapsing at a restaurant in Grove City, Ohio; the coroner attributed the death to a cerebral aneurysm. Two facts usually dropped from the retelling belong next to that one. Two investors sued him, and in 1996 an Ohio court examined the device with expert witnesses, found that it was an ordinary electrolysis cell with no novel physics, ruled that Meyer had committed \"gross and egregious fraud,\" and ordered him to return their 25,000 dollars. And the device's central claim conflicts with the conservation of energy: splitting water into hydrogen and oxygen consumes at least as much energy as burning the hydrogen returns, so a car cannot run on water as a fuel. A police investigation into the death found no evidence of poisoning. The claim that he was killed to bury a working technology requires the technology to have worked, which is the part a court examined and rejected while he was alive.",
+    "sources": [
+        {
+            "label": "Wikipedia — \"Water fuel cell,\" covering the 1996 Ohio court finding of \"gross and egregious fraud,\" the expert testimony that the cell was conventional electrolysis, and Meyer's March 20, 1998 death.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Water_fuel_cell",
+            "quote": "gross and egregious fraud"
+        }
+    ],
+    "status": "draft",
+    "notes": "Backstage. Deliberately marked draft, not verified: the load-bearing fact is a 1996 Franklin County, Ohio civil judgment that has not been pulled from the court record for this card, and a Wikipedia citation is not adequate for a finding of fraud against a named person. Upgrade path is the docket itself and contemporaneous Columbus Dispatch coverage of the ruling; do that before this card is promoted. The thermodynamic point is stated because it is the part a reader can check without any document — it is not an appeal to authority. The card does not claim the aneurysm ruling is beyond question; it claims the motive requires a working device, and that is where the evidence fails. Not Group A until the docket is in hand."
+}

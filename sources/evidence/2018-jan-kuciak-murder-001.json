@@ -1,0 +1,36 @@
+{
+    "id": "2018-jan-kuciak-murder-001",
+    "anchor": "y2026-death-circumstances",
+    "year": 2018,
+    "era": "iv",
+    "themes": [
+        "death-and-circumstance",
+        "journalism",
+        "organized-crime"
+    ],
+    "claim": "Ján Kuciak, a 27-year-old investigative reporter, and his fiancée Martina Kušnírová were shot dead at their home in Veľká Mača on February 21, 2018. The country was Slovakia, not Slovenia. Kuciak had been reporting on tax fraud and on business figures connected to the governing party, and on links between the Italian 'Ndrangheta — a Calabrian mafia organization — and people close to the Slovak government. His unfinished story was published after his death by his colleagues. The murders brought the largest street protests in the country since 1989 and forced the resignation of Prime Minister Robert Fico and his government. The prosecution has not closed the question of who ordered them. The hired gunman Miroslav Marček was sentenced to 23 years in 2020, and the Supreme Court later increased it. Alena Zsuzsová, an associate of the businessman Marian Kočner, was convicted of the murders and of planning the killings of three prosecutors, and sentenced to 25 years. Kočner himself, alleged to have ordered the killing, was acquitted in September 2020; the Supreme Court overturned that acquittal and ordered a retrial, and in May 2023 the Specialized Criminal Court acquitted him a second time. Press-freedom organizations have described the outcome as impunity at the top of the case.",
+    "sources": [
+        {
+            "label": "Al Jazeera — \"Businessman Kocner acquitted over journalist's murder in Slovakia,\" May 19, 2023, the second acquittal after the Supreme Court ordered a retrial.",
+            "type": "secondary",
+            "url": "https://www.aljazeera.com/news/2023/5/19/businessman-kocner-acquitted-over-journalists-murder-in-slovakia"
+        },
+        {
+            "label": "ARTICLE 19 — \"Slovakia: Impunity remains after verdict in case of murdered journalist Ján Kuciak and fiancée Martina Kušnírová.\"",
+            "type": "secondary",
+            "url": "https://www.article19.org/resources/slovakia-impunity-remains-after-verdict-in-case-of-murdered-journalist-jan-kuciak-and-fiancee-martina-kusnirova/"
+        },
+        {
+            "label": "Reporters Without Borders — on the conviction of Zsuzsová and the collapse of the case against Kočner.",
+            "type": "secondary",
+            "url": "https://rsf.org/en/killing-journalist-jan-kuciak-rsf-takes-note-conviction-mastermind-and-deplores-debacle-judicial"
+        },
+        {
+            "label": "Euronews — \"Jan Kuciak: Slovakia's Supreme Court increases prison sentence for journalist's killer,\" December 2, 2020.",
+            "type": "secondary",
+            "url": "https://www.euronews.com/2020/12/02/jan-kuciak-slovakia-s-supreme-court-increases-prison-sentence-for-journalist-s-killer"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. The country error is corrected in the first two sentences because it is the kind of mistake that makes a real murder look like a made-up one, and because Kušnírová is routinely dropped from the retelling — she was killed too and is named here. The prosecution history is given in full rather than summarized to a verdict, since the trigger man and the intermediary were convicted while the alleged organizer was acquitted twice; that is the actual state of the record and it is neither a clean resolution nor a cover-up on its face. Slovak court documents would upgrade this from press sourcing. Group A."
+}

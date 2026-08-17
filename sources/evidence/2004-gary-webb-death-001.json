@@ -1,0 +1,27 @@
+{
+    "id": "2004-gary-webb-death-001",
+    "anchor": "y2026-death-circumstances",
+    "year": 2004,
+    "era": "iv",
+    "themes": [
+        "death-and-circumstance",
+        "cia",
+        "journalism",
+        "iran-contra"
+    ],
+    "claim": "Gary Webb, 49, was found dead at his home in Carmichael, California on December 10, 2004, with two gunshot wounds to the head from a .38 revolver. The Sacramento County coroner ruled the death a suicide, noting that two shots is unusual but possible: the first shot exited through his cheek without immediately incapacitating him. Webb's \"Dark Alliance\" series, which reported that a Nicaraguan drug ring selling cocaine into Los Angeles had funded the CIA-backed Contras, ran in the San Jose Mercury News in August 1996 — more than eight years before he died, not shortly before. The sequence in the years between is the part of the record that matters. The Mercury News backed away from the series in 1997 under pressure from the Washington Post, New York Times and Los Angeles Times; Webb was reassigned and resigned. He could not get newspaper work afterward. In 1998 the CIA's own Inspector General published a report acknowledging the agency had worked with Contra-related individuals and entities it knew or suspected were involved in drug trafficking, and had not consistently reported them. That report vindicated a substantial part of what he wrote, after his career had already been ended by it. Whether the coroner's ruling is correct remains contested by people who knew him; what is not in dispute is that the professional destruction preceded the death by years and is separately documented.",
+    "sources": [
+        {
+            "label": "Wikipedia — \"Gary Webb,\" the death, the coroner's ruling, the Dark Alliance publication date and the aftermath at the Mercury News.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Gary_Webb"
+        },
+        {
+            "label": "Central Intelligence Agency, Office of Inspector General — Report of Investigation: Allegations of Connections Between CIA and the Contras in Cocaine Trafficking to the United States (Volume II, October 1998).",
+            "type": "primary",
+            "url": "https://www.cia.gov/readingroom/document/0000772827"
+        }
+    ],
+    "status": "primary-link-pending",
+    "notes": "Backstage. The card exists mostly to fix a timeline that the popular version gets backwards: Webb did not die on the verge of publishing, he died eight years after publishing and seven years after the press turned on him. That is the more damning sequence and it does not require the death to be a homicide. The CIA Inspector General report link needs verification against the reading-room record before this is promoted to verified — the document is public and Volume II is the relevant one, but the URL has not been confirmed to resolve, and the coroner's report has not been pulled either. Both are the upgrade path. The site does not adopt the suicide ruling and does not adopt its rejection; both are stated as what they are. Group A on the publication timeline and the IG report; the manner of death is Group B."
+}

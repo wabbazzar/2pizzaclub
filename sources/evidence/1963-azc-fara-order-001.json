@@ -1,0 +1,32 @@
+{
+    "id": "1963-azc-fara-order-001",
+    "anchor": "y2026-death-circumstances",
+    "year": 1963,
+    "era": "ii",
+    "themes": [
+        "death-and-circumstance",
+        "israel",
+        "jfk",
+        "us-government"
+    ],
+    "claim": "The Kennedy administration's Justice Department tried to make the main American pro-Israel lobbying body register as a foreign agent, and the effort died with him. The Foreign Agents Registration Act, or FARA, is a 1938 law requiring anyone acting in the United States on behalf of a foreign principal to register and disclose their funding. On November 21, 1962, the Internal Security Section of the Department of Justice ordered the American Zionist Council to register under it, on the department's conclusion that the council was substantially funded by the Jewish Agency for Israel. Attorney General Robert Kennedy pressed the matter through 1962 and 1963; the council's lawyers stalled, made partial disclosures, and argued that registering would be politically ruinous. The American Israel Public Affairs Committee, AIPAC, was incorporated on January 2, 1963 as the council reorganized under that pressure. John F. Kennedy was killed on November 22, 1963. Under Lyndon Johnson the registration effort lost momentum, was never completed, and has not been seriously revived; AIPAC has never registered under FARA and operates as a domestic lobbying organization. The documented facts are the order, the pressure, the reorganization and the abandonment. That the assassination was carried out to end the FARA effort is a separate claim, and no document in this record supports or refutes it.",
+    "sources": [
+        {
+            "label": "Institute for Research: Middle Eastern Policy — scanned Department of Justice FARA order to the American Zionist Council, dated November 21, 1962, obtained through the National Archives and FOIA.",
+            "type": "primary",
+            "url": "https://www.israellobby.org/fara/default.asp"
+        },
+        {
+            "label": "Factually — fact check, \"Did JFK and RFK's Justice Department Require the American Zionist Council to Register as a Foreign Agent?\"",
+            "type": "secondary",
+            "url": "https://factually.co/fact-checks/politics/jfk-requested-american-zionist-council-register-foreign-agent-192ccc"
+        },
+        {
+            "label": "The American Council for Judaism — \"AIPAC's New Political Role Raises Old Questions About Foreign Agent Registration.\"",
+            "type": "secondary",
+            "url": "https://acjna.org/articles/aipacs-new-political-role-raises-old-questions-about-foreign-agent-registration/"
+        }
+    ],
+    "status": "primary-link-pending",
+    "notes": "Backstage. The DOJ order is real and the hosted scan is legible, but the host is an advocacy organization and the card should rest on the National Archives DOJ FARA registration file itself plus the 1963 Senate Foreign Relations hearings on the activities of nondiplomatic representatives of foreign principals, which cover this episode in the official record. Neither has been pulled, so this stays primary-link-pending. The last sentence is doing the most work in the card: the timeline is genuinely striking and is exactly the kind of adjacency that gets read as causation, so the record states what the documents show and stops, without adopting the inference or dismissing it. Group A on the FARA order and the abandonment; the assassination link is Group B."
+}

@@ -1,0 +1,21 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-08-17, openai-whisper base.en
+
+— FULL TEXT —
+
+He said one day you live this world behind
+So live a life you will remember
+My father told me when now it's just a job
+These are the nights to never die
+My father told me
+When his mother told the sun
+In aOh oh oh oh oh oh oh I love you
+He came up to life
+He comes coming tonight
+He's cold enough to see
+The world we love
+cabins
+G-Tages
+
+— END —

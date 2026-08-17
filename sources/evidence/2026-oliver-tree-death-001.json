@@ -1,0 +1,36 @@
+{
+    "id": "2026-oliver-tree-death-001",
+    "anchor": "y2026-death-circumstances",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "death-and-circumstance",
+        "antarctica",
+        "internet"
+    ],
+    "claim": "The musician Oliver Tree died on June 14, 2026, aged 32, when two helicopters collided in mid-air over the Recreio dos Bandeirantes neighborhood of Rio de Janeiro, Brazil. Six people were killed: Tree, the Argentine YouTuber known as Gaspi, the Argentine director Lucas A. Vignale, the Brazilian producer Lucas Frota, Alexandre Souza and Charles Marsillac. The aircraft fell onto a car dealership lot and set fifteen vehicles on fire. Brazilian authorities opened an investigation into the cause. The death is real; the motive attached to it online is not documented. Tree did travel to Antarctica, on a seven-day chartered expedition from December 13 to 20, 2023 run with the musician Diplo and a private expedition company, and filmed there. The resulting footage was a satirical companion piece to an album, not an investigation of the continent, and the surviving material has been public. No evidence supports the circulating claims that he spent hundreds of days on the continent, filmed alien installations or an ice wall, or was holding a documentary that someone suppressed. Five other people died in the same collision, which is the part of the event that the motive story leaves out.",
+    "sources": [
+        {
+            "label": "PBS NewsHour — \"6 killed after 2 helicopters collide over Rio de Janeiro, singer Oliver Tree on passenger list,\" June 2026.",
+            "type": "secondary",
+            "url": "https://www.pbs.org/newshour/world/6-killed-after-2-helicopters-collide-over-rio-de-janeiro-singer-oliver-tree-on-passenger-list"
+        },
+        {
+            "label": "NBC News — \"What we know about fatal Brazil helicopter crash; singer Oliver Tree among 6 passengers,\" June 2026.",
+            "type": "secondary",
+            "url": "https://www.nbcnews.com/news/us-news/know-fatal-brazil-helicopter-crash-singer-oliver-tree-6-passengers-rcna350084"
+        },
+        {
+            "label": "Wikipedia — \"2026 Rio de Janeiro mid-air collision,\" the collision, the six victims and the investigation.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/2026_Rio_de_Janeiro_mid-air_collision"
+        },
+        {
+            "label": "The Express Tribune — \"Did Oliver Tree spend 300 days investigating alien bases in Antarctica? Truth about viral rumours after death,\" 2026; the 2023 expedition dates and the satirical nature of the footage.",
+            "type": "secondary",
+            "url": "https://tribune.com.pk/story/2614370/did-oliver-tree-investigate-alien-bases-in-antarctica-truth-about-viral-rumours-after-death"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Worth recording how this one nearly went wrong: the first pass had Tree filed as a living person and the whole entry as an invention, on the strength of his April 2026 album and a 70-date tour announced for the same year. He died mid-tour. The lesson is the same one that governs the rest of this batch — check the person before ruling on the story about the person. The card separates a documented death in a six-fatality aviation accident from an undocumented motive, and names the other five victims because a story that treats the crash as an assassination of one passenger silently discards them. Group A on the collision; the Antarctica motive is Group C."
+}

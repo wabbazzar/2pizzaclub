@@ -1,0 +1,30 @@
+{
+    "id": "2013-paul-walker-crash-001",
+    "anchor": "y2026-death-circumstances",
+    "year": 2013,
+    "era": "iv",
+    "themes": [
+        "death-and-circumstance",
+        "trafficking"
+    ],
+    "claim": "The actor Paul Walker, 40, and his friend Roger Rodas, 38, died on November 30, 2013 in Valencia, Santa Clarita, California, when the Porsche Carrera GT Rodas was driving left the road and struck a light pole and a tree. The car caught fire. The two had left a charity event for Reach Out Worldwide, the disaster-relief organization Walker founded after the 2010 Haiti earthquake. The Los Angeles County Sheriff's Department and the California Highway Patrol released their investigation in March 2014: the cause was unsafe speed, between roughly 80 and 93 miles per hour in a 45 zone, on nine-year-old tires. Engineers examined the car's electrical system, brakes, throttle, fuel system, steering and suspension and found no defect. Walker's family later sued Porsche; Porsche's defense was that the driver was at fault, and the suits were settled or dismissed. The claim that Walker was killed to stop him exposing a trafficking ring has no documented basis: no filing, no reporting he was working on, and no statement from anyone who worked with him supports it. His relief organization's work in Haiti and the Philippines is the documented charitable activity in the period.",
+    "sources": [
+        {
+            "label": "BBC — \"Paul Walker crash caused by unsafe speed, says sheriff,\" March 2014, on the LA County Sheriff and CHP findings.",
+            "type": "secondary",
+            "url": "https://feeds.bbci.co.uk/newsbeat/26744388"
+        },
+        {
+            "label": "CBS News — \"Source: Excessive speed killed Paul Walker in Porsche crash.\"",
+            "type": "secondary",
+            "url": "https://www.cbsnews.com/news/source-excessive-speed-killed-paul-walker-in-porsche-crash"
+        },
+        {
+            "label": "NBC News — \"Porsche Blames Paul Walker Crash on Driver in Response to Suit,\" the manufacturer's filing and the mechanical examination.",
+            "type": "secondary",
+            "url": "https://www.nbcnews.com/pop-culture/celebrity/porsche-blames-paul-walker-crash-driver-response-suit-n333716"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. The Sheriff/CHP finding is an official account and is attributed as one, not adopted as final truth — but it is an account with a physical basis (measured speed, examined components, tire age) rather than an assertion, and the card says what that basis was so a reader can weigh it. The trafficking motive gets Group C rather than B because the no-trace test was actually run: there is no filing, no story in progress, and no account from a colleague. The upgrade if this is ever revisited is the CHP collision report itself. Group A on the crash and the investigation; the trafficking motive is Group C."
+}

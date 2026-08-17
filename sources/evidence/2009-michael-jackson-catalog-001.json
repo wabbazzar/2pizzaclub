@@ -1,0 +1,35 @@
+{
+    "id": "2009-michael-jackson-catalog-001",
+    "anchor": "y2026-death-circumstances",
+    "year": 2009,
+    "era": "iv",
+    "themes": [
+        "death-and-circumstance",
+        "music-industry"
+    ],
+    "claim": "Michael Jackson died on June 25, 2009, aged 50, of acute propofol intoxication. The Los Angeles County medical examiner ruled the death a homicide on August 28, 2009. His personal physician, Conrad Murray, who had administered propofol along with the sedatives lorazepam and midazolam, was charged with involuntary manslaughter, convicted by a jury on November 7, 2011, and sentenced to four years; he served two. The claim that he died just before taking ownership of his record label misstates what he owned and what was at stake. Jackson was never on the verge of owning a record label — he recorded for Epic, a Sony subsidiary, and his own imprint MJJ Music was a label operating under Epic, not an acquisition of it. What he owned was music publishing: he bought ATV Music Publishing, which held the publishing rights to most of the Beatles catalog, for 41.5 million dollars in 1985, and merged it with Sony's publishing arm in 1995 to create Sony/ATV, retaining half. At his death he was roughly 500 million dollars in debt and his stake was reported to be at risk of a forced sale. It was not sold in his lifetime. In 2016 Sony bought the estate's half of Sony/ATV for 750 million dollars. The financial pressure was real; the specific asset and the specific transaction were not what the story says.",
+    "sources": [
+        {
+            "label": "Wikipedia — \"Death of Michael Jackson,\" the cause of death, the medical examiner's homicide ruling, and the Murray prosecution.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Death_of_Michael_Jackson"
+        },
+        {
+            "label": "CNN — \"Conrad Murray found guilty in Michael Jackson trial,\" November 7, 2011.",
+            "type": "secondary",
+            "url": "https://www.cnn.com/2011/11/07/justice/california-conrad-murray-trial"
+        },
+        {
+            "label": "Billboard — \"A Timeline of Michael Jackson's Best Bet: The Sony/ATV Catalog,\" the 1985 ATV purchase, the 1995 merger and the 2016 sale.",
+            "type": "secondary",
+            "url": "https://www.billboard.com/music/music-news/timeline-michael-jacksons-best-bet-sony-atv-7262944/"
+        },
+        {
+            "label": "NBC News — \"Sony Buys Michael Jackson's Stake in Music Catalog for $750 Million,\" 2016.",
+            "type": "secondary",
+            "url": "https://www.nbcnews.com/pop-culture/music/sony-buys-michael-jackson-s-stake-music-catalog-750-million-n538461"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. The correction here is narrow and factual: publishing catalog, not record label, and the transaction that people are reaching for happened seven years after he died and involved his estate. The card does not treat the coroner's homicide ruling and the Murray conviction as ruling anything else out, and it does not import the wider claim that the death was arranged over the catalog — it just puts the actual ownership structure and the actual debt on the page. The Sony/ATV valuation figures come from trade press rather than filings; a securities filing would upgrade them. Group A."
+}

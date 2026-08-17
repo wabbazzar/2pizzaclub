@@ -1,0 +1,36 @@
+{
+    "id": "1976-don-bolles-bombing-001",
+    "anchor": "y2026-death-circumstances",
+    "year": 1976,
+    "era": "ii",
+    "themes": [
+        "death-and-circumstance",
+        "journalism",
+        "organized-crime"
+    ],
+    "claim": "Don Bolles, 47, an investigative reporter for the Arizona Republic, was killed by a bomb placed under his car. On June 2, 1976 he went to the Clarendon Hotel in Phoenix to meet a source about a land-fraud story, at the arrangement of a man named John Adamson. The source did not appear. Six sticks of dynamite detonated beneath the chassis as he pulled out of the parking lot. He lived eleven days and died on June 13. Adamson pleaded guilty in 1977 to second-degree murder for building and planting the device and named others: he said Phoenix contractor Max Dunlap, an associate of the rancher and liquor wholesaler Kemper Marley, had commissioned the killing, and that plumber James Robison had triggered it. The convictions that followed were overturned and retried across two decades, and the question of who ordered the bombing has never been settled to everyone's satisfaction. What followed the murder is the part with no ambiguity: thirty-eight reporters from newspapers across the country moved to Phoenix and spent months finishing the reporting he had been doing, on land fraud and organized crime in Arizona, and published it as the Arizona Project. Killing the reporter did not stop the reporting; it multiplied it.",
+    "sources": [
+        {
+            "label": "Wikipedia — \"Don Bolles,\" the bombing, the eleven days, Adamson's guilty plea and the subsequent prosecutions.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Don_Bolles"
+        },
+        {
+            "label": "Wikipedia — \"The Arizona Project,\" the collaborative investigation by reporters from across the country that followed the murder.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/The_Arizona_Project"
+        },
+        {
+            "label": "Arizona PBS, Horizon — \"Anniversary of the Don Bolles Bombing,\" 2016.",
+            "type": "secondary",
+            "url": "https://azpbs.org/horizon/2016/06/anniversary-of-the-don-bolles-bombing/"
+        },
+        {
+            "label": "Axios Phoenix — \"New book tells full story of journalist Don Bolles' assassination,\" January 2026, on Jeremy Duda's Murder in the Fourth Estate.",
+            "type": "secondary",
+            "url": "https://www.axios.com/local/phoenix/2026/01/08/don-bolles-book-murder-in-the-fourth-estate-jeremy-duda"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. This is the clearest case in the batch of a journalist killed over their work, and it is also the one where the official resolution is genuinely unsettled — the convictions were overturned and retried repeatedly and Adamson's account of who ordered it was never independently established. The card says that rather than presenting the prosecution's version as the answer. The Arizona Project ending is factual, not a flourish; it is the documented institutional response and it is why this case is known. Court records from Maricopa County would upgrade the prosecution history from encyclopedia sourcing. Group A."
+}
