@@ -1,0 +1,32 @@
+{
+    "id": "1963-truman-cia-oped-001",
+    "anchor": "y1961-presidents-cia",
+    "year": 1963,
+    "era": "ii",
+    "themes": [
+        "cia",
+        "jfk",
+        "us-government"
+    ],
+    "claim": "The president who created the Central Intelligence Agency publicly said it had outgrown its charter. Harry Truman signed the National Security Act of 1947, which established the CIA. One month after Kennedy was killed, on December 22, 1963, the Washington Post carried a signed column by Truman, distributed by the North American Newspaper Alliance, arguing that the agency had drifted from the job he gave it. \"It has become an operational and at times a policy-making arm of the government,\" he wrote, and \"I never had any thought that when I set up the CIA that it would be injected into peacetime cloak and dagger operations.\" He said the drift had a cost abroad: \"This quiet intelligence arm of the President has been so removed from its intended role that it is being interpreted as a symbol of sinister and mysterious foreign intrigue.\" He asked that the CIA be \"restored to its original assignment as the intelligence arm of the President\" and that \"its operational duties be terminated or properly used elsewhere.\" Nothing came of it; covert action continued and expanded. The claim, common in commentary, that the Post pulled the column from later editions the same day is not established by any documented editorial record and rests on secondhand accounts.",
+    "sources": [
+        {
+            "label": "Harry S. Truman, \"Limit CIA Role to Intelligence,\" Washington Post, December 22, 1963 (North American Newspaper Alliance) — reproduced text.",
+            "type": "primary",
+            "url": "https://www.mohammadmossadegh.com/biography/harry-s-truman/limit-cia-role-to-intelligence/",
+            "quote": "I never had any thought that when I set up the CIA that it would be injected into peacetime cloak and dagger operations."
+        },
+        {
+            "label": "Ray McGovern, \"Truman's True Warning on the CIA,\" Consortium News, December 22, 2013 — the account from which the claim that the Post pulled the column from later editions is generally drawn.",
+            "type": "secondary",
+            "url": "https://consortiumnews.com/2013/12/22/trumans-true-warning-on-the-cia/"
+        },
+        {
+            "label": "National Security Act of 1947, Public Law 80-253, which created the Central Intelligence Agency.",
+            "type": "primary",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-61/pdf/STATUTE-61-Pg495.pdf"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. This is the strongest single answer to \"only Kennedy ever challenged the CIA\" — the agency's own founder said in print that it had exceeded its charter. Sourced to a reproduction of the column rather than to a Washington Post archive link, which is paywalled and not retrievable; an Internet Archive scan of the page exists but the item would not load during verification, so it is not cited. If this thread is expanded, a ProQuest Historical Newspapers pull of the December 22, 1963 page would upgrade the citation to the printed page. The last sentence handles the pulled-from-later-editions claim explicitly: it is repeated constantly, it originates with secondhand accounts rather than a documented editorial record, and it is neither adopted nor waved away here. Group A on the column; the suppression story is Group B."
+}

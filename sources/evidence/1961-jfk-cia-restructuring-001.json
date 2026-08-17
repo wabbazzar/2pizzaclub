@@ -1,0 +1,48 @@
+{
+    "id": "1961-jfk-cia-restructuring-001",
+    "anchor": "y1961-presidents-cia",
+    "year": 1961,
+    "era": "ii",
+    "themes": [
+        "cia",
+        "jfk",
+        "us-government"
+    ],
+    "claim": "John F. Kennedy did move against the Central Intelligence Agency's leadership and its authority after the Bay of Pigs, and the paper trail is public. The invasion failed in April 1961. Within months the three officers who ran it were gone: Deputy Director Charles Cabell and Deputy Director for Plans Richard Bissell, who directed the operation, and Director of Central Intelligence Allen Dulles, who left in November 1961. Kennedy then reassigned authority over large covert operations. National Security Action Memorandum 55, signed June 28, 1961 and addressed to the Chairman of the Joint Chiefs of Staff, told the Chiefs he regarded them as his principal military advisers and wanted \"their advice to come to me direct and unfiltered,\" that they bore responsibility for the Cold War comparable to conventional war, and that he looked to them for \"dynamic and imaginative leadership\" of military and paramilitary Cold War programs. NSAM 56 and 57 followed the same day. NSAM 57, addressed to the Secretaries of State and Defense and to Dulles, set the rule that any large paramilitary operation needing significant numbers of militarily trained personnel or equipment beyond normal CIA stocks was \"properly the primary responsibility of the Department of Defense with the CIA in a supporting role.\" What the documents establish is a fight over control of covert action. They do not establish anything about Kennedy's death, and no document in this record connects the two.",
+    "sources": [
+        {
+            "label": "Foreign Relations of the United States, 1961–1963, Volume VIII, Document 32 — National Security Action Memorandum No. 55, \"Relations of the Joint Chiefs of Staff to the President in Cold War Operations,\" June 28, 1961.",
+            "type": "primary",
+            "url": "https://history.state.gov/historicaldocuments/frus1961-63v08/d32",
+            "quote": "I regard the Joint Chiefs of Staff as my principal military advisor responsible both for initiating advice to me and for responding to requests for advice."
+        },
+        {
+            "label": "National Archives Catalog — National Security Action Memorandum No. 55, scanned original.",
+            "type": "primary",
+            "url": "https://catalog.archives.gov/id/193454"
+        },
+        {
+            "label": "Foreign Relations of the United States, 1961–1963, Volume VIII, Document 34 — National Security Action Memorandum No. 57, \"Responsibility for Paramilitary Operations,\" June 28, 1961.",
+            "type": "primary",
+            "url": "https://history.state.gov/historicaldocuments/frus1961-63v08/d34",
+            "quote": "properly the primary responsibility of the Department of Defense with the CIA in a supporting role"
+        },
+        {
+            "label": "JFK Presidential Library — National Security Action Memoranda finding aid (NSAMs 55, 56, 57).",
+            "type": "primary",
+            "url": "https://www.jfklibrary.org/archives/other-resources/national-security-action-memoranda-nsams"
+        },
+        {
+            "label": "JFK Presidential Library — \"The Bay of Pigs\": the failed April 1961 invasion and its aftermath.",
+            "type": "secondary",
+            "url": "https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/the-bay-of-pigs"
+        },
+        {
+            "label": "Central Intelligence Agency, Center for the Study of Intelligence — the Agency's own internal inquiry into the Bay of Pigs.",
+            "type": "primary",
+            "url": "https://www.cia.gov/resources/csi/static/Internal-Probe-Bay-Pigs.pdf"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. This is the load-bearing factual core of the \"Kennedy went to war with the CIA\" thread, and it holds up on its own documents: the dismissals happened, NSAMs 55/56/57 exist and say what they are said to say. The card stops there. The inference that the conflict explains the assassination is a separate claim with a separate evidentiary burden and is not made here in either direction — the final sentence states only that the documents in this record do not connect them. The often-quoted \"splinter the CIA in a thousand pieces\" line is deliberately omitted: it traces to an unnamed source in a New York Times piece of April 25, 1966, not to a Kennedy recording or document, and would need its own provenance card. Group A on the personnel changes and the NSAMs; the assassination inference is Group B."
+}

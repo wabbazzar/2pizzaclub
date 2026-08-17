@@ -1,0 +1,47 @@
+{
+    "id": "1976-cia-oversight-reforms-001",
+    "anchor": "y1975",
+    "year": 1976,
+    "era": "ii",
+    "themes": [
+        "cia",
+        "surveillance",
+        "us-government"
+    ],
+    "claim": "The claim that no president after Kennedy confronted the Central Intelligence Agency is contradicted by the record of the following decade. After the Church Committee hearings of 1975, Gerald Ford signed Executive Order 11905 on February 18, 1976, the first order to bar assassination: \"No employee of the United States Government shall engage in, or conspire to engage in, political assassination.\" The same order created the Intelligence Oversight Board and restricted domestic collection. Congress built standing oversight where none had existed: the Senate created the Select Committee on Intelligence by S. Res. 400 on May 19, 1976, and the House created the Permanent Select Committee on Intelligence by H. Res. 658 on July 14, 1977, passed 227 to 171. Jimmy Carter's Director of Central Intelligence, Admiral Stansfield Turner, announced on October 31, 1977 the elimination of 820 positions in the clandestine service — 649 by attrition, 154 by involuntary retirement, 17 by outright dismissal — a cut CIA officers called the Halloween Massacre and which Turner later wrote he probably should not have made. Carter replaced Ford's order with Executive Order 12036 in January 1978, keeping the assassination ban. Whether the reforms held is a separate question: Ronald Reagan's Executive Order 12333 of 1981 restated the ban while broadening collection authority, and the Iran-Contra operations of 1985 to 1986 ran covert action outside the oversight the 1976 committees were built to provide.",
+    "sources": [
+        {
+            "label": "Executive Order 11905, \"United States Foreign Intelligence Activities,\" signed by President Gerald Ford, February 18, 1976 — Section 5(g), the assassination prohibition.",
+            "type": "primary",
+            "url": "https://irp.fas.org/offdocs/eo11905.htm",
+            "quote": "No employee of the United States Government shall engage in, or conspire to engage in, political assassination."
+        },
+        {
+            "label": "S. Res. 400, 94th Congress — resolution establishing the Senate Select Committee on Intelligence, agreed to May 19, 1976.",
+            "type": "primary",
+            "url": "https://www.congress.gov/bill/94th-congress/senate-resolution/400/all-actions"
+        },
+        {
+            "label": "H. Res. 658, 95th Congress — resolution establishing the House Permanent Select Committee on Intelligence, passed July 14, 1977; scan hosted by the committee.",
+            "type": "primary",
+            "url": "https://intelligence.house.gov/UploadedFiles/H.Res_658_passed_14_July_1977.pdf"
+        },
+        {
+            "label": "Congressional Research Service, \"Assassination Ban and E.O. 12333: A Brief Summary\" — the sequence of orders 11905, 12036 and 12333.",
+            "type": "primary",
+            "url": "https://www.everycrsreport.com/reports/RS21037.html"
+        },
+        {
+            "label": "National Security Archive — the Church Committee assassination report, 50 years on.",
+            "type": "secondary",
+            "url": "https://nsarchive.gwu.edu/briefing-book/intelligence/2025-11-20/cia-assassination-plots-church-committee-report-50-years"
+        },
+        {
+            "label": "MuckRock — CIA records on the aftermath of the October 31, 1977 clandestine-service cuts.",
+            "type": "secondary",
+            "url": "https://www.muckrock.com/news/archives/2018/nov/01/cia-massacre/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Written as the rebuttal card to \"no other president has challenged the CIA,\" which is the checkable factual claim inside the shadow-government thesis and is false as stated. The card is deliberately not a defense of the reforms: the closing sentence puts Reagan's EO 12333 and Iran-Contra next to them, so a reader gets the confrontation and its limits in the same card rather than a tidy resolution. The 820/649/154/17 breakdown appears in Turner's own memoir and in obituary coverage; it is cited to secondary sources here because the CIA has not released a primary personnel accounting. If this thread is expanded, the Church Committee's final reports on govinfo would carry the domestic-surveillance findings, and Turner's 2005 memoir would move the Halloween Massacre numbers onto his own words. Group A."
+}

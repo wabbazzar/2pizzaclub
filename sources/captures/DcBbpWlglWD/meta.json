@@ -1,0 +1,34 @@
+{
+    "id": "DcBbpWlglWD",
+    "url": "https://www.instagram.com/reel/DcBbpWlglWD/",
+    "platform": "instagram",
+    "captured_at": "2026-08-16",
+    "handle": "@cherylmanninghudson",
+    "author_display_name": "Cheryl Manning Hudson",
+    "posted_at": "2026-08-14",
+    "engagement": {
+        "likes": 2100,
+        "comments": 102
+    },
+    "caption": "John McAfee: \"The Shadow Government is a loose-knit collection of constantly warring factions within the American intelligence community, led by the CIA, the NSA, and the Army, Navy, and Air Force Intelligence.\"\n\n\"These groups have the true knowledge of what's really happening in the world. Do you think that the media knows? No. Do you even think presidents know? No. Why should they? They're only there for four years, maybe eight, and then they're gone.\"",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Watermark @TheShadowIntelX throughout; inset AI-composite panel (McAfee, Eisenhower, Kennedy, CIA/NSA/Army/Navy/Air Force seals, 'TOP SECRET' file boxes) fixed in the upper right. No text captions.",
+    "audio_content_summary": "John McAfee, in an undated interview recorded before his death in June 2021, describes an American 'shadow government' as warring factions inside the intelligence community led by the CIA, NSA and the service intelligence branches. He argues elected presidents are not briefed on what those agencies know because they serve four or eight years while career officers never leave, gives aliens as his example of a withheld subject, says the power was taken rather than granted, dates the takeover to the 1950s, credits Eisenhower with warning about it on leaving office, casts Eisenhower as the first president to fight the CIA and survive and Kennedy as the second who did not, and says no president since has challenged the agency.",
+    "implied_frame": "The frame is that an unelected career intelligence apparatus, not the elected government, holds real power and real knowledge, and that Kennedy's death is what happens to a president who fights it. Four pieces of it are checkable and are recorded here. Eisenhower's farewell address is real but warns about the armaments industry and a 'scientific-technological elite'; it does not mention the CIA or NSA, and Eisenhower's own record is one of authorizing covert action, not opposing it. Kennedy's fight with the agency is documented — Dulles, Cabell and Bissell out after the Bay of Pigs, NSAMs 55/56/57 moving large paramilitary operations to Defense — though nothing in that record connects it to his death. Truman, who created the CIA, publicly said in December 1963 that it had exceeded its charter, which is the plainest counterexample to the claim that only Kennedy challenged it. The claim that no president since has done so is false: Ford banned assassination by executive order in 1976, Congress created both intelligence oversight committees in 1976 and 1977, and Carter's DCI cut 820 clandestine-service positions in 1977. The CIA's founding is also 1947, not the 1950s. The alien-briefing claim, the 'presidents are given pablum' claim and the warring-factions structure are asserted without primary trace and carry no records.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~19.6 MB); delivery ~20.0 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "1961-eisenhower-farewell-001",
+        "1961-jfk-cia-restructuring-001",
+        "1963-truman-cia-oped-001",
+        "1976-cia-oversight-reforms-001"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 4,
+        "b": 3,
+        "c": 3
+    }
+}

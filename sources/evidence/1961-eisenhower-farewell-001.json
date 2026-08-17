@@ -1,0 +1,39 @@
+{
+    "id": "1961-eisenhower-farewell-001",
+    "anchor": "y1961-presidents-cia",
+    "year": 1961,
+    "era": "ii",
+    "themes": [
+        "cia",
+        "military-industrial-complex",
+        "surveillance",
+        "us-government"
+    ],
+    "claim": "Dwight Eisenhower's televised farewell address of January 17, 1961 is often cited as a warning about a career intelligence apparatus that outlasts elected presidents. The text warns about something else. Eisenhower's subject was the permanent arms economy created by the Cold War: \"Until the latest of our world conflicts, the United States had no armaments industry,\" he said, and \"three and a half million men and women are directly engaged in the defense establishment.\" The warning itself names that industry, not the spy agencies: \"In the councils of government, we must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex.\" A second, less-quoted warning in the same section is about research funding capturing policy: \"we must also be alert to the equal and opposite danger that public policy could itself become the captive of a scientific-technological elite.\" The address does not mention the Central Intelligence Agency, the National Security Agency, or the service intelligence branches. Eisenhower's own record with the CIA is also not one of confrontation. He authorized the covert operations that overthrew Mohammad Mosaddegh in Iran in 1953 and Jacobo Arbenz in Guatemala in 1954, ran the U-2 overflight program through his second term, and on March 17, 1960 approved the CIA plan \"A Program of Covert Action Against the Castro Regime\" — the program his successor inherited as the Bay of Pigs. He also ordered the 1954 Doolittle review of CIA covert activity, which recommended expanding it rather than curbing it.",
+    "sources": [
+        {
+            "label": "National Archives — Eisenhower's farewell address, January 17, 1961, full transcript (Milestone Documents).",
+            "type": "primary",
+            "url": "https://www.archives.gov/milestone-documents/president-dwight-d-eisenhowers-farewell-address",
+            "quote": "In the councils of government, we must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex."
+        },
+        {
+            "label": "Same address — the second warning, about research funding and public policy.",
+            "type": "primary",
+            "url": "https://www.archives.gov/milestone-documents/president-dwight-d-eisenhowers-farewell-address",
+            "quote": "Yet, in holding scientific research and discovery in respect, as we should, we must also be alert to the equal and opposite danger that public policy could itself become the captive of a scientific-technological elite."
+        },
+        {
+            "label": "Foreign Relations of the United States, 1958–1960, Volume VI, Cuba — record of the March 17, 1960 meeting at which Eisenhower approved \"A Program of Covert Action Against the Castro Regime.\"",
+            "type": "primary",
+            "url": "https://history.state.gov/historicaldocuments/frus1958-60v06/ch9"
+        },
+        {
+            "label": "JFK Presidential Library — \"The Bay of Pigs\": the operation Kennedy inherited was planned under Eisenhower and approved by him in March 1960.",
+            "type": "secondary",
+            "url": "https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/the-bay-of-pigs"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. The farewell address is the single most-recycled citation in shadow-government commentary, usually paraphrased as a warning about the intelligence agencies. The card does not argue with the broader thesis; it just puts the text next to the paraphrase and lets a reader see that the named target is the armaments industry and the second warning is about science funding. The Eisenhower-CIA record is included for the same reason: the \"first president to go to war with the CIA\" framing does not match a president who signed off on Iran, Guatemala, the U-2 program and the Cuba program. The Doolittle review is mentioned without a quote because the widely circulated \"repugnant philosophy\" passage was not verified against the declassified report for this card — if this thread is expanded, pull the report from the CIA reading room and quote it directly. Group A."
+}
