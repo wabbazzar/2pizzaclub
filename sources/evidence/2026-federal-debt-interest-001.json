@@ -1,0 +1,45 @@
+{
+    "id": "2026-federal-debt-interest-001",
+    "anchor": "y2026-yen-intervention",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "finance",
+        "federal-reserve",
+        "economic-crisis",
+        "us-government"
+    ],
+    "claim": "The claim that United States debt is near 40 trillion dollars and that interest on it is the highest it has ever been holds up on both counts, and on the harder measure as well as the easy one. Treasury's Debt to the Penny series recorded total public debt outstanding of 39.93 trillion dollars on August 13, 2026, of which 32.20 trillion was held by the public and 7.73 trillion was intragovernmental. Rising nominal interest costs would be expected from a larger debt alone, so the test is the share of the economy. The Congressional Budget Office's Budget and Economic Outlook for 2026 to 2036, published February 2026, projects that net interest costs will grow \"by $69 billion (or 7 percent) from 2025 to reach $1.0 trillion\" in fiscal 2026, that \"net outlays for interest are expected to equal 3.3 percent of GDP in 2026, above their 50-year average of 2.1 percent,\" and that such outlays \"have not exceeded 3.2 percent of GDP since at least 1940 (the first year for which the Office of Management and Budget reports such data).\" CBO projects the figure exceeds 3.2 percent of GDP in every year of the ten-year window and reaches 4.6 percent by 2036, at which point interest would be nearly a fifth of all federal spending. These are projections under current law and CBO revises them; they are not a forecast of what will happen to prices, to the dollar's reserve status, or to any household. What they establish is that the cost of servicing the debt, measured against the size of the economy, is at a level with no recorded precedent in the data the government keeps.",
+    "sources": [
+        {
+            "label": "Congressional Budget Office, The Budget and Economic Outlook: 2026 to 2036, February 2026 — Chapter 3, federal outlays and net interest.",
+            "type": "primary",
+            "url": "https://www.cbo.gov/publication/62105",
+            "quote": "Net outlays for interest are expected to equal 3.3 percent of GDP in 2026, above their 50-year average of 2.1 percent."
+        },
+        {
+            "label": "Same report — the no-recorded-precedent statement.",
+            "type": "primary",
+            "url": "https://www.cbo.gov/publication/62105",
+            "quote": "Such outlays have not exceeded 3.2 percent of GDP since at least 1940 (the first year for which the Office of Management and Budget reports such data); they exceed that percentage in every year of the projection period."
+        },
+        {
+            "label": "Congressional Budget Office — The Budget and Economic Outlook: 2026 to 2036, full report PDF.",
+            "type": "primary",
+            "url": "https://www.cbo.gov/system/files/2026-02/61882-Outlook-2026.pdf"
+        },
+        {
+            "label": "Treasury Fiscal Data — Debt to the Penny, record date Aug. 13, 2026.",
+            "type": "primary",
+            "url": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
+            "quote": "tot_pub_debt_out_amt: 39934816207844.37"
+        },
+        {
+            "label": "Peter G. Peterson Foundation — interest costs on the national debt relative to GDP and the previous 1991 high.",
+            "type": "secondary",
+            "url": "https://www.pgpf.org/article/any-way-you-look-at-it-interest-costs-on-the-national-debt-will-soon-be-at-an-all-time-high/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Written to be checkable in both directions. The usual correction to alarm about record interest costs is that nominal records are trivial when the debt and the price level both grow, so the card runs the ratio test that is supposed to defuse the claim — and the ratio confirms it. That is the honest result and it is stated plainly, without softening. The card then draws the line at what CBO actually says: these are current-law projections about the cost of servicing debt, and they do not carry the forecast about inflation or reserve-currency status that is usually stacked on top of them. The CBO quotes were read off the report text directly. Group A."
+}

@@ -1,0 +1,38 @@
+{
+    "id": "2026-japan-largest-treasury-holder-001",
+    "anchor": "y2026-yen-intervention",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "finance",
+        "japan",
+        "china",
+        "us-government"
+    ],
+    "claim": "Japan is the largest foreign holder of United States government debt. Treasury's Major Foreign Holders of Treasury Securities table, the monthly series from the Treasury International Capital reporting system, put Japan at 1,185.5 billion dollars at the end of December 2025, ahead of the United Kingdom at 863.1 billion and mainland China at 684.4 billion. The ranking has changed within the last decade. China held the top position for years and peaked at 1,316.7 billion dollars in November 2013; its reported holdings have fallen by roughly half since, while Japan's have risen. Two limits on the table matter when it is used in an argument. It records custodial location rather than beneficial ownership, so holdings routed through custodians in the United Kingdom, Belgium, Luxembourg or the Cayman Islands are not attributed to the country that actually owns them, and Treasury revises the series annually against a benchmark survey. And the foreign share is a minority of the whole: of roughly 39.9 trillion dollars in total public debt outstanding as of August 13, 2026, about 32.2 trillion is held by the public and the rest is intragovernmental, with foreign official and private holders together accounting for under a quarter of the total.",
+    "sources": [
+        {
+            "label": "U.S. Department of the Treasury — Major Foreign Holders of Treasury Securities, monthly TIC table.",
+            "type": "primary",
+            "url": "https://ticdata.treasury.gov/Publish/mfhhis01.txt",
+            "quote": "MAJOR FOREIGN HOLDERS OF TREASURY SECURITIES (in billions of dollars) — Dec 2025: Japan 1185.5; United Kingdom 863.1; China, Mainland 684.4"
+        },
+        {
+            "label": "U.S. Department of the Treasury — Treasury International Capital (TIC) system home page, including the methodology and benchmark-survey revisions.",
+            "type": "primary",
+            "url": "https://home.treasury.gov/data/treasury-international-capital-tic-system"
+        },
+        {
+            "label": "Treasury Fiscal Data — Debt to the Penny, total public debt outstanding, record date Aug. 13, 2026: $39,934,816,207,844.37 total, $32,200,971,487,306.14 held by the public.",
+            "type": "primary",
+            "url": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny"
+        },
+        {
+            "label": "Congressional Research Service, \"Foreign Holdings of Federal Debt\" (RS22331) — estimated ownership of U.S. Treasury securities and the custodial-attribution caveat.",
+            "type": "primary",
+            "url": "https://www.congress.gov/crs-product/RS22331"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. The headline claim is straightforwardly true and easy to check, so the value of the card is the two caveats, which are usually dropped when this number is deployed: the TIC table is custodial, and the foreign share is a minority of the debt. Neither caveat makes the underlying concern go away and the card does not pretend otherwise. The China peak of 1,316.7 billion in November 2013 comes from the TIC historical series. The quote field carries the raw table row because the source is a fixed-width text file with no prose to quote. Group A."
+}

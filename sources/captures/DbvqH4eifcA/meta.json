@@ -1,0 +1,38 @@
+{
+    "id": "DbvqH4eifcA",
+    "url": "https://www.instagram.com/reel/DbvqH4eifcA/",
+    "platform": "instagram",
+    "captured_at": "2026-08-17",
+    "handle": "@taylorkenneytv",
+    "author_display_name": "Taylor Kenney",
+    "posted_at": "2026-08-07",
+    "engagement": {
+        "likes": 11360,
+        "comments": 657
+    },
+    "caption": "🚨Are you ready for what comes next?",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Word-by-word burned-in caption track throughout, opening 'THERE ARE BIG MOVES HAPPENING RIGHT NOW'. Selfie video, no charts, no document inserts, no other footage.",
+    "audio_content_summary": "A monetary analyst argues that the recent US intervention in Japan's currency market signals trouble for the dollar. The chain: the US bought yen to prop up the currency; Japan is the largest foreign holder of US debt, so a cash-strapped Japan would sell Treasuries; the US already carries about $40 trillion in debt with record interest costs and needs more buyers, not fewer; therefore the intervention was self-interested rather than neighborly, and only a short-term fix. The forecast that follows is that when it runs out the Federal Reserve will print heavily, inflation will run well above recent rates, and the dollar's reserve-currency status — described as the last piece of the dam — is at risk.",
+    "implied_frame": "The frame is that a technical currency operation is an early warning of dollar collapse, and that mainstream coverage is concealing it. The factual spine is accurate and is recorded here. The US Treasury did join Japan in buying yen on July 31, 2026, the first joint yen-buying operation since 1998. Japan is the largest foreign holder of US government debt, at $1.19 trillion. Total public debt was $39.93 trillion on August 13, 2026, and interest costs are at a level with no recorded precedent — 3.3 percent of GDP in 2026, which CBO says has not been exceeded since at least 1940. Two things the account leaves out: the New York Fed sold euros rather than dollars to buy the yen, which analysts flagged as an odd choice for a dollar-defense reading, and the TIC table records custodial location rather than beneficial ownership while foreign holders together are under a quarter of the total debt. The motive attributed to the Treasury is an inference; both governments gave disorderly currency movement as the reason. Everything after the intervention — that the Fed will print heavily, that rapid inflation follows, that reserve-currency status is close to breaking — is forecast, not record, and carries no evidence records. The speaker is a monetary analyst for a precious-metals dealer, which is context for the 'it is literally my job' framing but is not itself an argument against the facts.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~26.4 MB); delivery ~27.0 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-us-japan-yen-intervention-001",
+        "2026-japan-largest-treasury-holder-001",
+        "2026-federal-debt-interest-001"
+    ],
+    "supporting_research_links": [
+        "https://learn.itmtrading.com/taylor-kenney",
+        "https://ticdata.treasury.gov/Publish/mfhhis01.txt",
+        "https://www.cbo.gov/publication/62105",
+        "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny"
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 2,
+        "c": 3
+    }
+}

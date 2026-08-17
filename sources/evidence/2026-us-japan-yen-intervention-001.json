@@ -1,0 +1,49 @@
+{
+    "id": "2026-us-japan-yen-intervention-001",
+    "anchor": "y2026-yen-intervention",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "finance",
+        "federal-reserve",
+        "japan",
+        "us-government"
+    ],
+    "claim": "On Friday, July 31, 2026, the United States Treasury joined Japan in buying yen on the open market, the first joint US-Japan intervention to support the yen since 1998. Japan's Ministry of Finance confirmed the coordinated action the following Monday. Treasury Secretary Scott Bessent said Washington \"strongly support[s] Japan's decisive market and monetary steps to correct the substantial undervaluation of the yen\" and would \"not hesitate to participate in further joint intervention.\" President Trump described it as a favor: \"They have a weakening yen, and they wanted a little bit of help. And we're always there for Japan.\" The yen had fallen to 163.73 to the dollar, near a four-decade low, and strengthened to about 155-157 after the operation. The two sides did not disclose amounts; Bank of Japan data implied Japan spent roughly 53 billion dollars, while the US share was reported as 5 to 10 billion. The mechanism is the part that separates this from an ordinary dollar intervention: the Federal Reserve Bank of New York sold euros, not dollars, to buy the yen, executing through Goldman Sachs and Morgan Stanley. Analysts flagged that choice. Edwin Truman, formerly of the Federal Reserve Board, called using a third currency \"weird\" if the goal was to strengthen the yen against the dollar, saying \"selling a third currency would not be as effective as selling just straight dollars.\" Robin Brooks said \"FX intervention is a confidence game. The last thing you want is to give markets any kind of reason to ask questions.\" A common reading online is that the United States acted to protect its largest foreign creditor rather than to help an ally. That is an inference about motive, not a stated rationale; the official reason given by both governments was disorderly currency movement, and the euro-funded mechanism does not by itself establish either account.",
+    "sources": [
+        {
+            "label": "CNBC — \"U.S., Japan confirm coordinated yen intervention, signal readiness for more,\" Aug. 3, 2026; Bessent's statement and Japan's Ministry of Finance confirmation.",
+            "type": "secondary",
+            "url": "https://www.cnbc.com/2026/08/03/yen-intervention-us-japan-trump-bessent-katayama.html"
+        },
+        {
+            "label": "Al Jazeera — \"Japan and US confirm rare joint intervention to prop up yen,\" Aug. 3, 2026; Trump's remark, the yen levels and the implied Japanese intervention size.",
+            "type": "secondary",
+            "url": "https://www.aljazeera.com/economy/2026/8/3/japan-and-us-confirm-rare-joint-intervention-to-prop-up-yen",
+            "quote": "They have a weakening yen, and they wanted a little bit of help. And we're always there for Japan."
+        },
+        {
+            "label": "Fortune — \"America's 'weird' and 'unwise' intervention in the Japanese yen,\" Aug. 3, 2026; the euro-funded mechanism, the estimated amounts, and the analyst reaction.",
+            "type": "secondary",
+            "url": "https://fortune.com/2026/08/03/yen-dollar-intervention-euros-bessent-japan-debt-yields/",
+            "quote": "Selling a third currency would not be as effective as selling just straight dollars."
+        },
+        {
+            "label": "CNBC — \"U.S. Treasury intervenes to support yen after Japan steps in,\" Aug. 1, 2026; first report of the US participation.",
+            "type": "secondary",
+            "url": "https://www.cnbc.com/2026/08/01/us-treasury-intervenes-to-support-yen-after-japan-steps-in-ft.html"
+        },
+        {
+            "label": "CNBC — \"A 'weaponized' yen: How the U.S.-Japan intervention may reshape global currency markets,\" Aug. 7, 2026.",
+            "type": "secondary",
+            "url": "https://www.cnbc.com/2026/08/07/japan-us-yen-intervention-global-currency-markets.html"
+        },
+        {
+            "label": "@taylorkenneytv, Instagram reel DbvqH4eifcA (Aug. 7, 2026) — surfacing source.",
+            "type": "reel",
+            "url": "https://www.instagram.com/reel/DbvqH4eifcA/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. The event is real and recent enough that the primary documents are thin: Treasury's own release and the Japanese MOF intervention tally are the upgrade path, and the Treasury's quarterly FX intervention report will eventually give exact US amounts. Everything here is sourced to wire and business-press coverage; if this thread is expanded, pull home.treasury.gov's press release and the MOF's monthly 為替介入 figures directly and swap them in as primary. The euro mechanism is the detail that most coverage buried and it does real work in the card, because it is the piece that neither confirms nor refutes the debt-protection reading and is the thing an ordinary reader would not otherwise see. The final sentence handles the motive claim explicitly rather than adopting or dismissing it. Group A on the intervention, the mechanism, the quotes and the levels; the motive is Group B."
+}
