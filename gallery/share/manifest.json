@@ -4,7 +4,7 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 137,
+      "count": 138,
       "seconds": 15640
     },
     {
@@ -58,7 +58,7 @@
     {
       "slug": "cia",
       "topic": "CIA",
-      "count": 12,
+      "count": 13,
       "seconds": 1665
     },
     {
@@ -266,6 +266,12 @@
       "seconds": 91
     },
     {
+      "slug": "jfk",
+      "topic": "Jfk",
+      "count": 1,
+      "seconds": 0
+    },
+    {
       "slug": "journalism",
       "topic": "Journalism",
       "count": 36,
@@ -294,6 +300,12 @@
       "topic": "McAfee",
       "count": 3,
       "seconds": 360
+    },
+    {
+      "slug": "military-industrial-complex",
+      "topic": "Military Industrial Complex",
+      "count": 1,
+      "seconds": 0
     },
     {
       "slug": "mind-control",
@@ -412,7 +424,7 @@
     {
       "slug": "surveillance",
       "topic": "Surveillance",
-      "count": 17,
+      "count": 18,
       "seconds": 2253
     },
     {
@@ -450,6 +462,12 @@
       "topic": "US Aid",
       "count": 6,
       "seconds": 837
+    },
+    {
+      "slug": "us-government",
+      "topic": "US Government",
+      "count": 1,
+      "seconds": 0
     },
     {
       "slug": "vaccines",
