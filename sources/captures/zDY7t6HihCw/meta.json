@@ -1,0 +1,30 @@
+{
+    "id": "zDY7t6HihCw",
+    "url": "https://www.youtube.com/watch?v=zDY7t6HihCw",
+    "platform": "youtube",
+    "captured_at": "2026-08-19",
+    "handle": "Dr. Steven Greer (channel)",
+    "author_display_name": "Eric Hecker — speaker; event hosted by Steven Greer",
+    "posted_at": "2023-06-12",
+    "caption": "Eric Hecker's full statement at Steven Greer's Disclosure Project press conference, National Press Club, Washington D.C., June 12 2023. This capture is the Hecker segment (with Greer's introduction) cut from the 3-hour event video; the full event is mirrored at archive.org (item youtube-zDY7t6HihCw, offsets 2:00:33–2:06:04).",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Lower-third: 'ERIC HECKER — Raytheon contractor – South Pole [..] witness'. Slides shown: South Pole Station photo; 'Neutrino Light Array in ice shafts (DOMS) – South Pole' pencil drawing (Copyright 2023 STAR LLC); IceCube Lab exterior.",
+    "audio_content_summary": "Hecker, introduced by Greer as a Raytheon contractor stationed a year at the South Pole, says he was sent down in 2010 by Raytheon Polar Services as a tradesman/firefighter for the National Science Foundation with wide facility access, and that he has given documentation to the Senate Intelligence Committee and AARO (the Pentagon's All-domain Anomaly Resolution Office). He then claims: the IceCube neutrino detector's 5,160 DOMs 'can transmit at 2,047 volts each,' making it a multifaceted directed-energy weapons platform; it detects neutrino-emitting craft ('air traffic control'); it is a faster-than-light communications facility (invoking Gary McKinnon's NASA hack); when first fired up it caused the Christchurch, New Zealand earthquakes ('two incidental shots before they were able to target it correctly'); a supposedly defunct ELF (extremely-low-frequency) system was secretly energized; he witnessed a powerful green laser firing from the Atmospheric Research Observatory in the clean-air sector; and the station's power draw implies a hidden nuclear or exotic power source that would sidestep the Antarctic Treaty. Ends pointing to his site deciphering.tv.",
+    "implied_frame": "Everything past the biography is Group B: a single eyewitness's characterization with no independent corroboration on the record. Context the speech omits: IceCube's DOMs are photomultiplier detectors whose onboard high-voltage supply maxes at exactly 2,047 V (a 12-bit DAC ceiling, per the collaboration's instrumentation paper, arXiv:1612.05093) — the precise number Hecker cites is the PMT bias-supply spec, not a transmit rating; the Christchurch earthquakes (Sept 2010, Feb 2011) bracket IceCube's construction completion (Dec 2010) and seismologists attribute them to the Greendale/Port Hills faults; the Atmospheric Research Observatory hosts a NASA MPLNET micropulse lidar (per NOAA's station page), an instrument class that fires a visible green 532 nm beam skyward as routine aerosol/cloud sounding. Hecker did submit testimony to AARO per his own account, and Gary McKinnon's 2001-02 NASA/Pentagon intrusion is documented — McKinnon's 'non-terrestrial officers' description is his attributed claim. None of this adjudicates Hecker's account; it is what sits on the record beside it.",
+    "capture_method": "Full 3-hour event video pulled from the archive.org mirror (item youtube-zDY7t6HihCw) of the YouTube stream; Hecker segment located by audio cross-correlation and cut losslessly (h264 stream copy) to reel.orig.mkv; delivery webm derived once via deriveDeliveryWebm (VP9 transcode, loudnorm I=-16 + limiter, single opus generation).",
+    "video_download_status": "Segment original ~32.7 MB mkv (334s, 854x480); delivery webm derived from it.",
+    "audio_transcription_status": "Transcribed with openai-whisper (base.en) on the exact segment.",
+    "editorial_split": {
+        "a": 0,
+        "b": 11,
+        "c": 0
+    },
+    "evidence_records": [],
+    "supporting_research_links": [
+        "https://archive.org/details/youtube-zDY7t6HihCw",
+        "https://icecube.wisc.edu/science/icecube/",
+        "https://gml.noaa.gov/obop/spo/",
+        "https://en.wikipedia.org/wiki/2011_Christchurch_earthquake"
+    ]
+}
