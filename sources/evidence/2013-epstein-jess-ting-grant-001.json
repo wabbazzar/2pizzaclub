@@ -1,0 +1,46 @@
+{
+    "id": "2013-epstein-jess-ting-grant-001",
+    "anchor": "y2019",
+    "year": 2013,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "public-health",
+        "finance"
+    ],
+    "claim": "Jeffrey Epstein is widely said to have given about $190,000 to transgender surgery and transgender research, including to two doctors at one institution. The documents behind that claim describe something else. On February 19, 2013 Dr. Jess Ting, then a plastic and reconstructive surgeon at Mount Sinai, pitched Epstein on a study of the tumor micro-environment — the hypothesis that surrounding normal tissue, rather than anything intrinsic to a tumor, is what lets cancer metastasize. Epstein replied the next morning: \"I will send the 50 k. need details.on entity ( tax id. etc. ). glad to be of help\". Ting answered: \"Wow. That is incredibly generous of you!!! ... I truly believe that your contribution will be looked upon someday as enabling major progress in cancer pathogenesis.\" That $50,000 grant was for cancer research. Transgender medicine enters the correspondence three years later and as a solicitation Epstein is not shown accepting. On May 14, 2016 Ting wrote to say the cancer work \"has borne fruit\" and, separately, that he had been made surgical director of a new transgender surgery program at Mount Sinai; he then asked Epstein to fund a documentary about it — \"If I could just be really forward, I was wondering if you would be interested in supporting this documentary?\" No document in the release shows Epstein funding the documentary or the program. The other Ting material in the release is Epstein's own medical care: a December 2016 exchange on whether to remove a lipoma from him, a surgery performed by Ting on November 18, 2016 arranged by Epstein's assistant Lesley Groff, and a January 2017 chase for the unpaid bill. What the documents establish is one $50,000 cancer-research grant, one unanswered ask, and Epstein as Ting's patient. Nothing in them concerns children.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01788478 — February 19-20, 2013 exchange in which Ting describes the metastasis research and Epstein commits the grant.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01788478.pdf",
+            "quote": "I will send the 50 k. need details.on entity ( tax id. etc. ). glad to=be of help"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01743575 — Jess Ting to Epstein, May 14, 2016, \"documentary and new clinical center\".",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01743575.pdf",
+            "quote": "1) The research you supported with a $50,000 grant has borne fruit. We have submitted a paper for publication summarizing our results."
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01743575 — the same May 14, 2016 email, on the Mount Sinai program and the documentary ask.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01743575.pdf",
+            "quote": "I have been made surgical director of the brand new transgender surgery program at Mount Sinai."
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA02201441 — January 24, 2017, Dr. Ting's financial manager chasing the unpaid bill for Epstein's own November 18, 2016 surgery, routed through assistant Lesley Groff.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA02201441.pdf",
+            "quote": "I am trying to resolve an outstanding bill for the     surgery with Dr. Ting on 11/18/16."
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01799530 — December 5, 2016, Ting advising on removal of a lipoma from Epstein.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01799530.pdf",
+            "quote": "These tend to grow over time. Even i= it is not symptomatic now, it may become symptomatic in the future."
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. The screenshots that carry the $190,000 claim are all real documents, which is why it travels — the Ting emails, the Groff-to-surgical-coordinator scheduling note, and a Mount Sinai cardiologist's message are each genuine and each in the release. What the circulating version does is collapse four separate things into one: a 2013 cancer grant, a 2016 solicitation for a documentary, Epstein's own outpatient surgery, and a rescheduling email about that surgery. Read in order and dated, the transgender-medicine money is a request, not a payment, and the only surgery in the file is Epstein's own. The $190,000 figure has no document behind it in the corpus. The word children appears nowhere in this material. Two named clinicians are living private individuals and the record says only what the documents say about them: Ting took a $50,000 research grant, asked for documentary funding, and treated Epstein as a patient. Group A on the correction; the underlying claim is Group B on the money and Group C on the child framing."
+}

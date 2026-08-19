@@ -1,0 +1,43 @@
+{
+    "id": "2012-joshua-fink-mc2-invoice-001",
+    "anchor": "y2019",
+    "year": 2012,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "finance"
+    ],
+    "claim": "Joshua Fink, the hedge-fund manager who founded Enso Capital Management in 2002 and is the son of BlackRock chief executive Larry Fink, appears in the Epstein documents in a June 2012 email exchange with Jean-Luc Brunel that was routed to Jeffrey Epstein. Brunel founded the modeling agency MC2 Model Management with Epstein financing; he was arrested in Paris in December 2020 and charged with rape of minors and sexual harassment, and was found dead in his cell at La Santé prison on February 19, 2022 before trial, a death reported as suicide. Under the subject line \"Svetlana\", Fink wrote to Brunel: \"By chance yesterday I received an invoice from MC2 in the mail. I would love to clarify a point or two with you as I do not believe I have a full understanding of things at the moment. I am more than happy to pay this invoice if our agreement still stands and there is no issue from my side if that is the case.\" The chain reached Epstein's jeevacation@gmail.com address, and Epstein answered on it: \"This for past . Not future\". The document is Bates EFTA01805250 in Data Set 10 of the Department of Justice release. It does not state what the invoice covered, what the agreement was, or who Svetlana is. Separate documents in the release place Fink's name in Epstein's correspondence through late 2012, including a November 21, 2012 message telling Epstein that \"Josh has decided to close his fund (enso capital, he has had it for 11 years!)\", and a November 2011 note mentioning a Larry Fink birthday party.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01805250 (production stamp EFTA_R1_00151546) — June 5-7, 2012 exchange, subject \"Svetlana\", Joshua Fink to Jean-Luc Brunel, forwarded into Epstein's inbox, with Epstein's reply.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01805250.pdf",
+            "quote": "By chance yest=rday I received an invoice from MC2 in the mail. I would love to clarify a=point or two with you as I do not believe I have a full understanding of th=ngs at the moment. I am more than happy to pay this invoice if our agreeme=t still stands"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00700163 — November 21, 2012 message to Epstein reporting the closure of Enso Capital.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00700163.pdf",
+            "quote": "Josh has decided to close his fund (enso capital, he has had it for 11 years!) In order to focus on finding a right platform."
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01784721 — November 1, 2011 email to Epstein referencing a Larry Fink birthday.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01784721.pdf",
+            "quote": "Going to larry fink bday tmw evening with family"
+        },
+        {
+            "label": "Forbes — \"Wild Thing,\" March 14, 2011 profile of Josh Fink and Enso Capital, establishing that he founded the fund in 2002 at 23 and is Larry Fink's son.",
+            "type": "secondary",
+            "url": "https://www.forbes.com/forbes/2011/0314/focus-josh-fink-blackrock-enso-capital-wild-thing.html"
+        },
+        {
+            "label": "NBC News — \"Modeling agent linked to Jeffrey Epstein found dead in prison cell,\" February 19, 2022, on Brunel's charges and death at La Santé.",
+            "type": "secondary",
+            "url": "https://www.nbcnews.com/news/world/modeling-agent-linked-jeffrey-epstein-found-dead-prison-cell-rcna16945"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. This record exists because of a search failure on this site, not because of new documents. 2026-byington-claims-vs-corpus-001 reported that searches for \"Larry Fink\" and \"Joshua Fink\" returned zero matches and that the corpus's only Svetlana hit was an unrelated Commerzbank account holder. All three are wrong against the full release; they were true only of the 4,333-document published cache. Written deliberately tight. The document shows a named person asking Brunel to explain an MC2 invoice under a woman's first name as the subject, and Epstein answering on the thread. It does not show what was invoiced and the record does not guess — an unexplained invoice from an agency later at the center of a French trafficking prosecution is worth publishing as what it is, and inferring further would be doing the reader's weighing for them. Three further Data Set 10 documents (EFTA01887949, EFTA02005327, EFTA01991293) carry private relationship correspondence involving Fink that was also forwarded to Epstein; the other party is redacted, is a private individual, and that material is deliberately left out of the claim. Brunel's death is stated as reported. Group A on the documents."
+}

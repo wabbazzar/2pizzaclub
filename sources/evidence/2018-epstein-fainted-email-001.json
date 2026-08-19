@@ -7,7 +7,7 @@
         "epstein",
         "prosecution"
     ],
-    "claim": "On December 28, 2018 Jeffrey Epstein wrote an account of being recognized. Bates EFTA01010127, Data Set 9 of the Department of Justice release, reads in full: \"A friend of a friend skyped me becasue they wnated some advice. she said she was working on a sex trafficing movie. she said she met this really beuatiful girl that used to be a sex slave for a guy with a private island. she met this pilot /girl at buring man i asked her if she had ever met epstein, she said no she hadnt and i said yes you have. . she almost fainted\". The email was sent ten years after Epstein's 2008 Florida conviction for procuring a person under 18 for prostitution and seven months before his federal arrest. It is his own written account of telling a stranger that the man she was describing was him. It is not a statement made under oath or entered in any proceeding, and it does not identify anyone else.",
+    "claim": "On December 28, 2018 Jeffrey Epstein wrote an account of being recognized. Bates EFTA01010127, Data Set 9 of the Department of Justice release, reads in full: \"A friend of a friend skyped me becasue they wnated some advice. she said she was working on a sex trafficing movie. she said she met this really beuatiful girl that used to be a sex slave for a guy with a private island. she met this pilot /girl at buring man i asked her if she had ever met epstein, she said no she hadnt and i said yes you have. . she almost fainted\". The fuller thread, produced in Data Set 11 as Bates EFTA02607373, carries what he wrote eighteen minutes later when his correspondent said \"Im confused...never talked to her about anything to do with you\": \"no she was telling me that she is doing a movie on sex trafficking and met a sex slave, YOU!!!! she had no idea that the jeffrey she was talking to (me) was the jeffrey she was talking about.\" The exchange was sent ten years after Epstein's 2008 Florida conviction for procuring a person under 18 for prostitution and seven months before his federal arrest. In it he identifies himself as the man with the private island whose sex slave the filmmaker had met. He does not use the word trafficker, and the statement was not made under oath or entered in any proceeding.",
     "sources": [
         {
             "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA01010127 — email from jeevacation@gmail.com, December 28, 2018, 21:43:44 UTC.",
@@ -16,11 +16,17 @@
             "quote": "i asked her if she had ever met epstein, she said no she hadnt and i said yes you have. . she almost fainted"
         },
         {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 11, Bates EFTA02607373 (production stamp EFTA_R1_01799189) — the fuller December 28, 2018 thread, including Epstein's 5:01 PM reply.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2011/EFTA02607373.pdf",
+            "quote": "no she was telling me that she is d=ing a movie on sex trafficking and met a sex slave, YOUIII  she had no idea that the jeffrey she was talking to (=me ► was the jeffrey she was talking about."
+        },
+        {
             "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA01010055 — a further produced copy of the same December 28, 2018 message within its reply chain.",
             "type": "primary",
             "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA01010055.pdf"
         }
     ],
     "status": "verified",
-    "notes": "Backstage. Circulating versions describe this as Epstein admitting to being a sex trafficker. He does not use the phrase and the record should not put it in his mouth; what he writes is that a filmmaker described a girl trafficked by a man with a private island, and that he told her she had already met the man. The document is quoted nearly whole because paraphrase is exactly where this one gets inflated, and because the misspellings are his and are part of how the corpus is authenticated. The copy at EFTA02607373 in Data Set 11 is the one usually screenshotted; it is not in the local mirror, which holds 100 Data Set 11 documents, so this rests on the Data Set 9 copies. Group A on the document."
+    "notes": "Backstage. The Data Set 11 copy was pulled from justice.gov to close a gap and it moved this record. The Data Set 9 version alone supports only \"he told a stranger she had met him\"; the fuller thread has Epstein writing \"met a sex slave, YOU!!!!\" and then \"the jeffrey she was talking to (me) was the jeffrey she was talking about\" — that is him placing himself as the man with the private island who had the sex slave. That is closer to an admission than the earlier draft of this record allowed, and the claim now says so. It still is not the phrase \"I am a sex trafficker,\" and circulating versions that put those words in his mouth are still overstating it — the record quotes him and stops. The DS11 OCR mangles YOU!!!! to YOUIII and drops a paren; left as produced. Group A on the documents."
 }
