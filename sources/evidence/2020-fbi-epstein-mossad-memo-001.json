@@ -10,8 +10,20 @@
         "israel",
         "intelligence"
     ],
-    "claim": "An FBI memo produced by the Bureau's Los Angeles field office in October 2020 — released as part of the Department of Justice's Epstein file production in early 2026 — recorded that a confidential human source (CHS) close to Harvard law professor Alan Dershowitz believed Jeffrey Epstein \"was a co-opted Mossad agent\" who had been \"trained as a spy\" by former Israeli Prime Minister Ehud Barak. The memo is a record of a source's belief; it does not represent a corroborated FBI finding and presents no independent intelligence-community confirmation. Israeli officials and a number of ex-intelligence figures have rejected the underlying claim. The memo is, however, an FBI-generated document released by the U.S. government as part of the official Epstein production.",
+    "claim": "The FBI document behind the claim that Jeffrey Epstein was trained by Mossad is an FD-1023 — the Bureau's standard form for writing down what a confidential human source, or CHS, said, with no requirement that the Bureau believe it. This one was filed by the Los Angeles field office on October 19, 2020, reporting a contact three days earlier over an encrypted messaging app, and released as Bates EFTA00090314 in Data Set 9 of the Department of Justice production. The source describes Harvard law professor Alan Dershowitz telling Alex Acosta, then the U.S. Attorney for the Southern District of Florida, \"that Epstein belonged to both U.S. and allied intelligence services\"; says Mossad would call Dershowitz to debrief after his calls with Epstein; and states that Epstein \"was close to the former Prime Minister of Israel, Ehud Barak (Barak) and trained as a spy under him.\" The report closes that passage: \"CHS became convinced that Epstein was a co-opted Mossad Agent.\" The document is genuine, is government-generated and is in the release. What it records is one source's account and belief, not a Bureau finding, and the form carries no corroboration. Israeli officials and several former intelligence figures have rejected the underlying claim.",
     "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00090314 — FBI form FD-1023, CHS Reporting Document, Los Angeles field office, source ID S-00099701, date of contact October 16, 2020, date of report October 19, 2020.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00090314.pdf",
+            "quote": "Epstein was close to the former Prime Minister of Israel, Ehud Barak (Barak) and trained as a spy under him."
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00090314 — the same FD-1023 on what the source says Dershowitz told the U.S. Attorney.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00090314.pdf",
+            "quote": "CHS remembered Dershowitz tell Alex Ocasta (U.S. Attorney of Southern District of Florida at the time) that Epstein belonged to both U.S. and allied intelligence services."
+        },
         {
             "label": "Middle East Eye — \"Epstein trained as an Israeli spy, FBI document says.\"",
             "type": "secondary",
@@ -43,6 +55,6 @@
             "url": "https://www.timesofisrael.com/no-the-epstein-files-dont-show-that-he-worked-for-mossad/"
         }
     ],
-    "status": "draft",
-    "notes": "Group-B style claim: the FBI memo is real and government-released; the underlying allegation in the memo is contested. The slide deck framing should foreground that it is a CHS-attributed belief inside an FBI memo, not an FBI finding. Pairs naturally with the Koren record (concrete documented contact) and the Barak record (named ex-PM with 60+ Epstein meetings)."
+    "status": "verified",
+    "notes": "Backstage. Upgraded from draft: the record previously rested entirely on press coverage of the memo. The memo itself is in the local corpus at Data Set 9, EFTA00090314, and is now the lead citation with verbatim text, so the press pieces stay as the dispute record rather than the basis. Two things the earlier version missed and the document supplies: the intelligence claim is broader than Mossad — the source says Dershowitz told Acosta that Epstein belonged to both U.S. and allied services — and the form is an FD-1023, which is worth naming because the form's whole function is to write down what a source said without adopting it. \"Alex Ocasta\" is the OCR of Alex Acosta and is left as produced inside the quote. The document is verified; the allegation inside it is Group B. Pairs with the Koren record (documented contact) and the Barak record."
 }

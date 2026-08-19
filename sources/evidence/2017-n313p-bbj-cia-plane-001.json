@@ -1,0 +1,33 @@
+{
+    "id": "2017-n313p-bbj-cia-plane-001",
+    "anchor": "y2019",
+    "year": 2017,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "cia",
+        "intelligence"
+    ],
+    "claim": "The claim that Jeffrey Epstein flew on Central Intelligence Agency aircraft rests on a April 14, 2017 email thread that shows something narrower. Larry Visoski, Epstein's chief pilot, was negotiating for a Boeing Business Jet — a BBJ, the corporate conversion of the 737 — and wrote to the broker: \"Are you familiar with the original owner of N720MM? When it was know as N313P?\" He linked the Wikipedia entry for Premier Executive Transport Services, one of the shell companies the CIA used to hold aircraft, and treated the history as a discount and a liability: \"It's worth less the $18M with a serial number trace, not sure how the Middle East airports would feel about this serial number upon arrival?\" N313P is a documented tail number in the agency's extraordinary-rendition program, tracked by European investigators looking into flights that carried prisoners to secret detention. Epstein turned the aircraft down the same day: \"josh, sorry , we will pass for the moment . cannot justify a price that begins with a 2.\" The exchange is Bates EFTA01049323 in Data Set 9 of the Justice Department release. What it documents is that Epstein's pilot researched a former CIA plane that was on the resale market and that Epstein declined to buy it.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA01049323 — April 14, 2017 thread between Larry Visoski, broker Josh Mesinger of Mesinger Jet Sales, and Epstein, on a BBJ formerly registered N313P.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA01049323.pdf",
+            "quote": "Are you familiar with the original owner of N720MM? When it was know as N313P?"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA01049323 — Epstein's reply declining the aircraft.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA01049323.pdf",
+            "quote": "josh, sorry , we will pass for the moment . cannot justify a price that begins with a 2."
+        },
+        {
+            "label": "Council of Europe, Parliamentary Assembly — Marty report on secret detentions and unlawful inter-state transfers, which tracks the rendition fleet including N313P and the Premier Executive Transport Services shell.",
+            "type": "primary",
+            "url": "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-en.asp?fileid=11527"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. The document is real and is genuinely about a CIA-linked airframe, which is why the claim travels; the part that does not survive is the boarding. The thread is a purchase negotiation, the aircraft is a used BBJ on the open market, the CIA link is raised by Epstein's own pilot as a reason the plane is worth less, and Epstein passes on it the same morning. Data Set 11 carries a further message in the same thread (EFTA02352217) with a fuller gloss on the N313P history; that copy is not in the local mirror, which holds only 100 Data Set 11 documents, so this record rests on the Data Set 9 copy that is. Group A on the documented facts; the boarding claim is Group C."
+}

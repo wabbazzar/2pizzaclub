@@ -1,0 +1,44 @@
+{
+    "id": "DcMC7HqxRTq",
+    "url": "https://www.instagram.com/reel/DcMC7HqxRTq/",
+    "platform": "instagram",
+    "captured_at": "2026-08-19",
+    "handle": "@contramode",
+    "author_display_name": "Ian Byington",
+    "posted_at": "2026-08-18",
+    "engagement": {
+        "likes": 53329,
+        "comments": 672
+    },
+    "caption": "Epstein’s aura (reposted) #politics #america #news",
+    "hashtags": [
+        "politics",
+        "america",
+        "news"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Persistent yellow title card 'Epsteins \"Aura\"'. The body of the video is a rapid slideshow of document screenshots, several stamped with their DOJ source URL or Bates number: EFTA_R1_00035148 / EFTA01743632; DataSet 11/EFTA02607373; DataSet 11/EFTA02352217; DataSet 9/EFTA00786370 (with EFTA01615075 visible in the page header); DataSet 9/EFTA00090314; DataSet 9/EFTA00840600; DataSet 11/EFTA02470755. Unstamped exhibits include a Quest Diagnostics lab report for EPSTEIN, JEFFREY (specimen TM037241L, collected 11/25/2016, ordered by Bruce Moskowitz MD), a New York Post headline of Nov 19 2025, a New York Post headline of Feb 3 2026, a Times of Israel headline on Ehud Barak, a Jerusalem Post piece naming Ehud Olmert and Yoni Koren, and email screenshots involving Robert Trivers, Jess Ting, Lesley Groff, R. Shimony, Eva Dubin, Karyna Shuliak and Tancredi Marchiolo.",
+    "audio_content_summary": "A single speaker delivers a rapid list of assertions about Jeffrey Epstein — medical, sexual, financial, and intelligence-related — over a slideshow of documents, then closes on a passage about irony poisoning and about the ages of the victims, arguing the high-level political connections matter more than the degeneracy.",
+    "implied_frame": "The frame is that Epstein's reputation understates him, and that the documentary record supports a far worse and more politically connected picture than the public has absorbed. The on-screen exhibits are unusually well-sourced for the genre — most carry a real Bates number or a live justice.gov URL, and every reference in the video was located in the local corpus. The spoken narration nonetheless runs ahead of the exhibits in several places. Three claims are contradicted by the documents shown to support them: the '9yo' Brazilian email reads 19yo in all three produced copies at 400 dpi and comes from a Paris modeling agency; the CIA-plane claim rests on a thread in which Epstein's pilot researches and Epstein declines to buy a former rendition aircraft; and the Isaac Herzog friendship rests on a shiva notice for Leon Black's sister sent to roughly sixty recipients. A fourth, entering a CIA SCIF (sensitive compartmented information facility, an accredited room for classified discussion), has no support in the corpus — the 'scif' hits are Steve Bannon iMessages using the word loosely and an unrelated OCR artifact. Contested but real: the herpes and anatomy claims trace to victim accounts and jail complaints reported in the New York Post rather than to documents; the $190,000 transgender-medicine figure overstates a documented $50,000 grant to Dr. Jess Ting at Mount Sinai; the New Mexico forced-birth account is a handwritten accuser statement produced in Data Set 12 (EFTA02731361) and is that accuser's account; and 'admitted to being a sex trafficker' overstates an email in which Epstein recounts telling a filmmaker that the man she was describing was him.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~12.4 MB); delivery ~13.1 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2009-epstein-schank-goyim-email-001",
+        "2011-massacre-innocents-painting-001",
+        "2013-brazilian-agency-email-001",
+        "2015-herzog-distribution-list-001",
+        "2016-age-labeled-photo-emails-001",
+        "2017-n313p-bbj-cia-plane-001",
+        "2018-epstein-fainted-email-001",
+        "2020-fbi-epstein-mossad-memo-001",
+        "2016-epstein-rothschild-representation-001",
+        "2026-byington-claims-vs-corpus-001"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 6,
+        "b": 11,
+        "c": 4
+    }
+}

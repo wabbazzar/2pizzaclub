@@ -1,0 +1,31 @@
+{
+    "id": "2009-epstein-schank-goyim-email-001",
+    "anchor": "y2019",
+    "year": 2009,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "finance"
+    ],
+    "claim": "On October 23, 2009 Jeffrey Epstein forwarded a passage from the shipping trade press about forward freight agreements to Roger Schank, an artificial-intelligence and education researcher who founded Engines for Education. Above the article Epstein wrote: \"This is the way the jew make money.. and made a fortune in the past ten years,, selling short the shippping futures,, let the goyim deal in the real world.\" Schank replied the same morning: \"how jews make money I understand; in the blood; did you know that I had a family business that I made quite clear I wasnt taking over? it was a fight; it dealt in real stuff -- lots of it; they should have traded bead futures.\" The exchange is Bates EFTA00771953 in Data Set 9 of the Department of Justice release, with further produced copies at EFTA00885615 and EFTA00741068.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00771953 — Epstein to Roger Schank, October 23, 2009, and Schank's reply of the same date.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00771953.pdf",
+            "quote": "This is the way the jew make money.. and made a fortune in the past ten years„ selling short the shippping futures„ let the goyim deal in the real world."
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00885615 — second produced copy of the October 23, 2009 exchange.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00885615.pdf"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00741068 — third produced copy.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00741068.pdf"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. This record corrects an earlier one on this site. 2026-byington-claims-vs-corpus-001 reported that the Schank-Epstein correspondence was about Gates Foundation education policy rather than the quoted content — true of every Schank document in the published /efta/ subset, and wrong about the release as a whole. That search ran against the 4,333-document curated cache instead of the full 1,051,599-document corpus, where the email is present in three copies. The verbatim is reproduced with its original doubled commas, misspellings and the low-comma OCR of the double comma left intact. Schank is correctly described here as an AI and education researcher; the separate circulating description of him as a hedge-fund worker remains wrong. Group A."
+}

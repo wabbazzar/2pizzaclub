@@ -1,0 +1,27 @@
+{
+    "id": "2016-age-labeled-photo-emails-001",
+    "anchor": "y2019",
+    "year": 2016,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "prosecution"
+    ],
+    "claim": "Two emails reached Jeffrey Epstein's jeevacation@gmail.com address ninety-nine seconds apart on the evening of September 22, 2016. Each carries a single photograph and a two-word body. The first, Bates EFTA01743628, attaches DSC06964.JPG and reads \"Age 10\". The second, EFTA01743632, attaches FullSizeRender.jpg and reads \"Age 11\". Both are in Data Set 10 of the Department of Justice release; the sender's name and address are redacted in both. The attached images were not released and no document in the production describes what they show, so the release establishes that photographs were sent to Epstein labeled by the ages of children and does not establish their content. Epstein's 2008 Florida plea and the 2019 federal indictment concerned victims aged 14 and older. These two emails are dated eight years after that plea.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01743628 (production stamp EFTA_R1_00035142) — email to Epstein, September 22, 2016, attaching DSC06964.JPG.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01743628.pdf",
+            "quote": "Age 10"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01743632 (production stamp EFTA_R1_00035148) — email to Epstein, September 22, 2016, 9:00:43 PM, attaching FullSizeRender.jpg.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01743632.pdf",
+            "quote": "Age 11"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Written narrow on purpose. These two documents are the strongest thing in the release behind the claim that children younger than the charged victims appear in Epstein's correspondence, and they are also routinely overstated into a description of the images, which no one outside the government has seen and which the production does not characterize. The record states the label, the timestamps, the attachment filenames and the redaction, and stops. The corpus text of EFTA01743628 OCRs the year as 2018 while EFTA01743632 reads 2016; the second is taken as correct since the production stamps are consecutive within the same R1 range and the send times are ninety-nine seconds apart. Group A on the documents. Any characterization of the attachments is unsupported."
+}

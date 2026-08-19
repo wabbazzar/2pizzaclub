@@ -1,0 +1,34 @@
+{
+    "id": "2013-brazilian-agency-email-001",
+    "anchor": "y2019",
+    "year": 2013,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "prosecution",
+        "journalism"
+    ],
+    "claim": "A January 17, 2013 email to Jeffrey Epstein circulates widely as proof that he was sent photographs of a nine-year-old. The email reads: \"New Brazilian just arrived, sexy and cute, 19yo.\" Three separate copies of the same message were produced in the Department of Justice release under the Epstein Files Transparency Act, or EFTA, the 2025 law compelling publication of the government's Epstein holdings: Bates numbers EFTA00659212, EFTA00952636 and EFTA01187999, all in Data Set 9. Rendered from the source scans at 400 dots per inch, all three read 19yo. The sender is a Paris modeling agency, Mademoiselle Agency on rue de Longchamp in the 16th arrondissement, forwarding a booking note with five photographs attached; the attachments are not part of the release. The nine-year-old reading is an artifact of quoted-printable, the email encoding that breaks long lines with a trailing equals sign — \"19yo\" split at the break becomes \"1=\" and \"9yo\", and a viewer that drops the fragment before the equals sign displays \"sexy and cute, =9yo\". The document is genuine and it is in the release. It says nineteen.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00659212 — email to jeevacation@gmail.com, January 17, 2013, five JPG attachments, from Mademoiselle Agency, Paris.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00659212.pdf",
+            "quote": "New Brazilian just arrived, sexy and cute, 19yo"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00952636 — second produced copy of the same January 17, 2013 message, carrying the full Mademoiselle Agency signature block.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00952636.pdf",
+            "quote": "New Brazilian just arrived, sexy and cute, 19yo"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA01187999 — third produced copy of the same message.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA01187999.pdf",
+            "quote": "New Brazilian just arrived, sexy and tute, 19yo"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. This is the highest-consequence correction in the batch and it was settled by going back to the page image rather than trusting any text layer. The local corpus text extraction of all three copies reads 19yo; the versions circulating as screenshots read =9yo. To rule out an OCR coin-flip, all three source PDFs were re-rendered with pdftoppm at 400 dpi and read directly — the glyphs are unambiguously 1 then 9, in the blue sans-serif of the forwarded message body. The third copy's OCR mangles \"cute\" to \"tute\" but holds 19yo, which is the useful kind of corroboration: the engine degrading elsewhere and not there. The quoted-printable mechanism is stated because it explains how an honest reader gets to the wrong number without inventing anything. Group A on the correction. The reel-side claim it corrects is Group C."
+}

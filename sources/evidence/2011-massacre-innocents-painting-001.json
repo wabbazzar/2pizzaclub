@@ -1,0 +1,26 @@
+{
+    "id": "2011-massacre-innocents-painting-001",
+    "anchor": "y2019",
+    "year": 2011,
+    "era": "iv",
+    "themes": [
+        "epstein"
+    ],
+    "claim": "Jeffrey Epstein commissioned a nine-foot-square painted copy of the Massacre of the Innocents — the New Testament episode in which Herod orders the killing of the infants of Bethlehem, a subject painted by Rubens, Guido Reni and Bruegel among others — and hung it at his New Mexico property. On December 28, 2010 an assistant relayed a quote from Ocean's Bridge, a firm that paints reproductions to order, for a canvas nine feet by nine feet five inches at $1,999, and asked whether to go ahead; Epstein replied with one word: \"proceed.\" On July 10, 2011 the same assistant wrote to a contact: \"Jeffrey is asking if you can Fedex the painting he had made of the Massacre of the Innocents to the ranch. It's the large 9'x9' canvas that we had rolled out for him to see in the entry way where they are killing babies.\" The ranch is Zorro Ranch, Epstein's property in Stanley, New Mexico. The two emails are Bates EFTA00901209 and EFTA00563164 in Data Set 9 of the Department of Justice release. What the documents establish is a commissioned reproduction of an Old Master subject, ordered by Epstein and shipped to the ranch. They do not describe a portrait of a child.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00901209 — December 28, 2010 exchange quoting the Ocean's Bridge price for the 9-by-9-foot canvas, with Epstein's one-word approval.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00901209.pdf",
+            "quote": "Regarding the Massacre of the Innocents.. pls see below.. Would you still like to proceed with the painting?"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00563164 — July 10, 2011 request to ship the finished canvas to the ranch.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00563164.pdf",
+            "quote": "Jeffrey is asking if you can Fedex the painting he had made of the Massacre of the Innocents to the ranch. It's the large 9'x9' canvas that we had rolled out for him to see in the entry way where they are killing babies."
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. The line that carries the claim — \"where they are killing babies\" — is the assistant describing the subject of the painting so the recipient knows which canvas is meant, not a description of anything happening at the ranch. Seven documents in the corpus reference the painting, including a House Oversight estate copy (HOUSE_OVERSIGHT_013501). The purchase price is worth keeping because it sets the register: a $1,999 made-to-order reproduction, not an acquisition. What a person chooses to hang nine feet wide in his entryway is on the record and the reader can weigh it; the record does not do the weighing. Group A."
+}
