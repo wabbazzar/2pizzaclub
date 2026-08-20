@@ -1,0 +1,34 @@
+{
+    "id": "1943-corporate-tax-share-001",
+    "anchor": "y1944",
+    "year": 1943,
+    "era": "i",
+    "themes": [
+        "finance",
+        "inequality"
+    ],
+    "claim": "Corporation income taxes peaked at 39.8 percent of all federal receipts in fiscal 1943 and stood at 35.4 percent in 1945 — roughly two of every five dollars Washington collected. By 2003 the corporate share was 7.4 percent, and it has stayed under 10 percent since; individual income and payroll taxes now carry most of the federal bill. The figures are the Office of Management and Budget's own historical tables. A line of dialogue in the 2000 video game Deus Ex — 'in 1945 corporations paid 50% of federal taxes, now they pay about 5%' — rounds both ends outward, but the collapse it describes is on the government's books.",
+    "sources": [
+        {
+            "label": "OMB Historical Tables, Table 2.2 — Percentage Composition of Receipts by Source (FY2005 Budget, govinfo.gov)",
+            "type": "data",
+            "url": "https://www.govinfo.gov/content/pkg/BUDGET-2005-TAB/html/BUDGET-2005-TAB-4-2.htm",
+            "quote": "1943...........................       27.1         39.8",
+            "clip": "clips/1943-corporate-tax-share-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "OMB Historical Tables — current edition (Table 2.2 carries the series through the present)",
+            "type": "data",
+            "url": "https://www.whitehouse.gov/omb/information-resources/budget/historical-tables/"
+        },
+        {
+            "label": "Deus Ex (Ion Storm, 2000), Liberty Island opening-mission dialogue — the claim as popularly circulated",
+            "type": "secondary",
+            "url": null,
+            "quote": "Number one: in 1945 corporations paid 50% of federal taxes. Now they pay about 5%."
+        }
+    ],
+    "status": "verified",
+    "notes": "From capture Da_gguclVXo (Deus Ex NSF-terrorist dialogue reel). Verified against OMB Table 2.2 via govinfo (FY2005 edition): 1943 corporate 39.8%/individual 27.1%; 1945 corporate 35.4%/individual 40.7%; 2003 corporate 7.4%/individual 44.5%. Recent years ~6-10% (2020: 6.2%). On an income-taxes-only basis the game's '50%' is closer: 1943 corporate was 59% of combined income-tax receipts. Game quote transcribed from the capture audio."
+}

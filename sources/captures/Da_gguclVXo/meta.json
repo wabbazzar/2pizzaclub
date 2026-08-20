@@ -1,0 +1,44 @@
+{
+    "id": "Da_gguclVXo",
+    "url": "https://www.instagram.com/reel/Da_gguclVXo/",
+    "platform": "instagram",
+    "captured_at": "2026-08-20",
+    "handle": "@deemasque",
+    "author_display_name": "DeeMasque",
+    "posted_at": "2026-07-19",
+    "engagement": {
+        "likes": 26969,
+        "comments": 590
+    },
+    "caption": "It's honestly crazy that this conversation happens during the very first mission of Deus Ex.\n\nBefore the game has a chance to impress you with its gameplay, it throws you into a debate about government, corporations, surveillance, taxation, freedom, and the relationship between ordinary people and those in power.\n\nMore than 25 years later, people are still sharing this exact scene and saying it feels like it could have been written today.\n\nSome call it a prediction.\n\nOthers believe it simply asks questions that every generation eventually has to face.\n\nWhatever your interpretation is, it's hard to deny how many conversations this game still manages to start decades after its release.\n\nOne of the things I admire most about Deus Ex is that it refuses to treat the player like they're incapable of thinking for themselves.\n\nIt doesn't tell you who's right.\n\nIt doesn't tell you who's wrong.\n\nInstead, it gives you different perspectives, lets the characters challenge one another, and leaves the conclusion entirely up to you.\n\nThat's probably why this dialogue still resonates with so many people today.\n\nSome viewers see a warning.\n\nSome see paranoia.\n\nSome see a reflection of modern politics.\n\nOthers simply appreciate the quality of the writing.\n\nAnd maybe that's exactly why Deus Ex continues to be remembered as one of the greatest written games of all time.\n\nNot because everyone agrees with it...\n\nBut because everyone walks away thinking about it differently.\n\nSo I'm curious...\n\nWhen you listen to this conversation today, does it feel like it became more relevant over time, or do you think these kinds of debates have always existed and we're simply noticing them more now?\n\n🎮 Game: Deus Ex (2000)\n\n#DeusEx #Gaming #Cyberpunk #GamingDiscussion #Philosophy #CriticalThinking #RetroGaming #VideoGames",
+    "hashtags": [
+        "DeusEx",
+        "Gaming",
+        "Cyberpunk",
+        "GamingDiscussion",
+        "Philosophy",
+        "CriticalThinking",
+        "RetroGaming",
+        "VideoGames"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Green subtitle captions of the in-game dialogue over Deus Ex (2000) gameplay footage: the Liberty Island opening-mission conversation between JC Denton (UNATCO agent) and the NSF leader over a hijacked Ambrosia vaccine shipment.",
+    "audio_content_summary": "The Liberty Island dialogue from the 2000 video game Deus Ex, played straight: an NSF leader tells UNATCO agent JC Denton the government engineered the plague to cull the population, then argues a century-long 'conspiracy of plutocrats' with two statistics — corporations paid 50% of federal taxes in 1945 versus about 5% now, and 90% of Americans were self-employed in 1900 versus about 2% now — plus '19 of the last 23 US presidents have been members of the Trilateral Commission,' the commission 'financed by the Rockefellers and the Rothschilds,' and car companies paying 2% tax while assembly-line workers pay 40%. The caption (not the audio) frames the scene as writing that reads as prescient 25 years on.",
+    "implied_frame": "Game dialogue offered as commentary on wealth concentration. The load-bearing statistic is real in direction and near-magnitude: OMB's own historical tables put corporation income taxes at 39.8% of federal receipts in 1943 (35.4% in 1945) against roughly 6-10% in the 2000s — recorded at 1943-corporate-tax-share-001. The self-employment pair is far off (BLS-cited estimates: about 1 in 6 workers self-employed in 1910, about 1 in 10 today, not 90%-to-2%). The Trilateral Commission line is game fiction on its face — the commission was founded in 1973, so '19 of the last 23 presidents' is arithmetically impossible (members who later became president: Carter, G.H.W. Bush, Clinton); David Rockefeller did found and fund it, while 'the Rothschilds' financing carries no primary trace. The engineered-plague line is the game's own science-fiction plot device, not a claim about the world.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~3.0 MB); delivery ~3.5 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "1943-corporate-tax-share-001"
+    ],
+    "supporting_research_links": [
+        "https://www.govinfo.gov/content/pkg/BUDGET-2005-TAB/html/BUDGET-2005-TAB-4-2.htm",
+        "https://www.bls.gov/opub/mlr/2004/07/art2full.pdf",
+        "https://en.wikipedia.org/wiki/Trilateral_Commission"
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 3,
+        "c": 2
+    }
+}
