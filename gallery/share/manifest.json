@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 141,
-      "seconds": 15640
+      "count": 143,
+      "seconds": 15974
     },
     {
       "slug": "adl",
@@ -190,7 +190,7 @@
     {
       "slug": "finance",
       "topic": "Finance",
-      "count": 26,
+      "count": 27,
       "seconds": 3367
     },
     {
@@ -244,7 +244,7 @@
     {
       "slug": "inequality",
       "topic": "Inequality",
-      "count": 8,
+      "count": 9,
       "seconds": 1068
     },
     {
@@ -406,7 +406,7 @@
     {
       "slug": "public-health",
       "topic": "Public Health",
-      "count": 11,
+      "count": 12,
       "seconds": 950
     },
     {
