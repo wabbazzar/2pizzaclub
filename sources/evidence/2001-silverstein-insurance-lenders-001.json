@@ -7,10 +7,28 @@
         "september-11",
         "finance"
     ],
-    "claim": "The World Trade Center leasehold was insured for about $3.55 billion per occurrence, and the figure is often described as Larry Silverstein overpaying for coverage he did not need on a building valued at $1.5 billion. Two things are wrong with that description. The $3.55 billion was not his choice: it was the minimum his lenders required before they would finance the deal, reported by The American Lawyer in 2002 and the basis for Snopes's finding that \"Silverstein wasn't even solely responsible for the total dollar amount of that coverage ($3.55 billion) because that was the minimum demanded by his lenders.\" The $1.5 billion was not a valuation of the World Trade Center by any insurer: it was the coverage the Port Authority itself had previously carried across its entire property portfolio, the towers included. Silverstein also was not the sole leaseholder — he led a consortium that included GMAC Commercial Mortgage and Westfield America — and the lease obligated him to keep paying the Port Authority roughly $10 million a month in ground rent and to rebuild. The coverage figure tracks the price of the asset: the 99-year net lease closed at about $3.2 billion. What followed is separately documented: Silverstein litigated for two occurrences rather than one, and the claims settled in 2007 for approximately $4.55 billion.",
+    "claim": "The World Trade Center leasehold was insured for about $3.55 billion per occurrence, and the figure is usually described as Larry Silverstein overpaying for coverage he did not need on a building an insurer valued at $1.5 billion. Both halves of that are wrong. Insuring the complex was a condition of the lease, not an option: the Second Circuit's account of the transaction records that Silverstein Properties, having leased the World Trade Center from the Port Authority, \"was required to insure it,\" and procured a primary layer plus eleven excess layers totalling roughly $3.5 billion on a per-occurrence basis. The amount was set by his lenders, who raised their requirement as the deal progressed — $2.3 billion, then $3.2 billion, then $3.55 billion immediately before closing. Silverstein's broker, Willis of New York, placed that cover across some two dozen carriers. The $1.5 billion was never an insurer's valuation of the towers; it was the coverage the Port Authority had previously carried across its entire property portfolio, the World Trade Center included. The program was also unfinished. By September 11 only one carrier in it, Allianz, had issued a final policy; every other insurer was still on a binder, which is why the coverage terms had to be litigated at all. The coverage tracked the price of the asset: the 99-year net lease was worth about $3.2 billion. Silverstein was not the sole leaseholder — he led a consortium including GMAC Commercial Mortgage and Westfield America — and the lease left him owing the Port Authority roughly $10 million a month in ground rent and obliged to rebuild. The two-occurrence litigation that followed, and the approximately $4.55 billion settlement reached in 2007, are documented separately.",
     "sources": [
         {
-            "label": "Snopes — \"Did a WTC Leaseholder Buy Terrorism Insurance Just Before 9/11?\", archived July 24, 2026, on who set the coverage amount and on the consortium and rent obligations.",
+            "label": "Scott G. Johnson, \"Ten Years After 9/11: Property Insurance Lessons Learned,\" Tort Trial & Insurance Practice Law Journal 46:3-4 (Spring-Summer 2011), 687-88 — summarizing World Trade Center Properties, L.L.C. v. Hartford Fire Insurance Co., 345 F.3d 154, 159-60 (2d Cir. 2003).",
+            "type": "primary",
+            "url": "https://www.robinskaplan.com/assets/htmldocuments/uploads/pdfs/d42e6cdb09fe444292312fcbc458318e__ten-years-after-9-11-property-insurance-lessons-learned.pdf",
+            "quote": "Silverstein Properties, Inc., which had recently leased the WTC from its owner, the Port Authority of New York and New Jersey, and was required to insure it, procured a primary layer and eleven excess layers of property insurance in the total amount of approximately $3.5 billion on a per occurrence basis."
+        },
+        {
+            "label": "Same source, on the unfinished state of the insurance program on September 11 — only Allianz had issued a final policy; the rest of the carriers were on binders.",
+            "type": "primary",
+            "url": "https://www.robinskaplan.com/assets/htmldocuments/uploads/pdfs/d42e6cdb09fe444292312fcbc458318e__ten-years-after-9-11-property-insurance-lessons-learned.pdf",
+            "quote": "But by September 11, only one of the many insurers in the program had actually issued a final policy. The remaining insurers were governed by the terms of the insurance binders that each had issued."
+        },
+        {
+            "label": "Port Authority of New York and New Jersey — press release, April 26, 2001, announcing board approval of the 99-year net lease.",
+            "type": "primary",
+            "url": "https://www.panynj.gov/port-authority/en/press-room/press-release-archives/2001_press_releases/port_authority_toleaseworldtradecentertosilversteinpropertiesinc.html",
+            "quote": "Silverstein Properties, Inc., and Westfield America, Inc. have agreed to a net lease transaction for a term of 99 years, worth an estimated $3.2 billion on a present value basis."
+        },
+        {
+            "label": "Snopes — \"Did a WTC Leaseholder Buy Terrorism Insurance Just Before 9/11?\", archived July 24, 2026, carrying Alison Frankel's reporting in The American Lawyer (\"Double Indemnity,\" September 3, 2002) on who set the coverage amount.",
             "type": "secondary",
             "url": "http://web.archive.org/web/20260724224801/https://www.snopes.com/fact-check/wtc-terrorism-insurance/",
             "quote": "Ultimately, Silverstein wasn't even solely responsible for the total dollar amount of that coverage ($3.55 billion) because that was the minimum demanded by his lenders, according to a 2002 report in The American Lawyer."
@@ -22,16 +40,11 @@
             "quote": "Silverstein wasn't actually the sole leaseholder of the World Trade Center: He led a consortium of investors and lenders which included GMAC Commercial Mortgage (a General Motors subsidiary), Westfield America Inc."
         },
         {
-            "label": "Port Authority of New York and New Jersey — July 2001 press release on the 99-year net lease to Silverstein Properties and Westfield America.",
-            "type": "primary",
-            "url": "https://www.panynj.gov/port-authority/en/press-room/press-release-archives/2001_press_releases/port_authority_toleaseworldtradecentertosilversteinpropertiesinc.html"
-        },
-        {
             "label": "AM Best News — \"Three Insurers Win Ruling That WTC Disaster Was One Event,\" on the one-occurrence-versus-two litigation.",
             "type": "secondary",
             "url": "https://news.ambest.com/newscontent.aspx?refnum=52954&altsrc=174"
         }
     ],
     "status": "verified",
-    "notes": "Backstage. This is the piece the existing Silverstein records did not cover. 2001-silverstein-001 has the lease date and 2001-silverstein-002 has the settlement; neither addresses who set the coverage figure, which is the hinge of the whole over-insured framing. Both halves of that framing invert on checking: the amount was a lender condition, not a buyer's request, and the $1.5 billion was the Port Authority's own portfolio-wide coverage rather than an insurer's appraisal of the towers. The rent obligation and the rebuild covenant are included because the story is usually told as a payout with no offsetting liability. Snopes is doing real work here as the carrier of The American Lawyer's 2002 reporting; the underlying article has not been pulled and the record would be stronger with it, which is the upgrade path. Group A on the correction; the foreknowledge inference the claim is built toward is Group B."
+    "notes": "Backstage. Upgraded 2026-08-22 off the litigation record rather than press. Alison Frankel's \"Double Indemnity\" (The American Lawyer, September 3, 2002) is the origin of the lender-minimum fact and remains behind a paywall, but the Second Circuit's own account of the transaction turned out to be the stronger citation and says the thing that matters more plainly: Silverstein \"was required to insure\" the complex. That reframes the whole over-insured story — the argument is about the size of a mandatory policy, not about a man volunteering to buy cover. The binders detail is new here and is the most useful fact recovered: on September 11 the program was still unfinished, with only Allianz on a final policy and everyone else on binders whose occurrence definitions differed. A scheme premised on collecting a defined limit does not leave the limit undefined, and the entire multi-year litigation exists because it was. That cuts against the foreknowledge reading and the record states it without saying so. Group A on the correction; the foreknowledge inference the claim builds toward is Group B."
 }
