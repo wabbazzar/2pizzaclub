@@ -1,0 +1,37 @@
+{
+    "id": "2001-silverstein-insurance-lenders-001",
+    "anchor": "y2001-attack",
+    "year": 2001,
+    "era": "iv",
+    "themes": [
+        "september-11",
+        "finance"
+    ],
+    "claim": "The World Trade Center leasehold was insured for about $3.55 billion per occurrence, and the figure is often described as Larry Silverstein overpaying for coverage he did not need on a building valued at $1.5 billion. Two things are wrong with that description. The $3.55 billion was not his choice: it was the minimum his lenders required before they would finance the deal, reported by The American Lawyer in 2002 and the basis for Snopes's finding that \"Silverstein wasn't even solely responsible for the total dollar amount of that coverage ($3.55 billion) because that was the minimum demanded by his lenders.\" The $1.5 billion was not a valuation of the World Trade Center by any insurer: it was the coverage the Port Authority itself had previously carried across its entire property portfolio, the towers included. Silverstein also was not the sole leaseholder — he led a consortium that included GMAC Commercial Mortgage and Westfield America — and the lease obligated him to keep paying the Port Authority roughly $10 million a month in ground rent and to rebuild. The coverage figure tracks the price of the asset: the 99-year net lease closed at about $3.2 billion. What followed is separately documented: Silverstein litigated for two occurrences rather than one, and the claims settled in 2007 for approximately $4.55 billion.",
+    "sources": [
+        {
+            "label": "Snopes — \"Did a WTC Leaseholder Buy Terrorism Insurance Just Before 9/11?\", archived July 24, 2026, on who set the coverage amount and on the consortium and rent obligations.",
+            "type": "secondary",
+            "url": "http://web.archive.org/web/20260724224801/https://www.snopes.com/fact-check/wtc-terrorism-insurance/",
+            "quote": "Ultimately, Silverstein wasn't even solely responsible for the total dollar amount of that coverage ($3.55 billion) because that was the minimum demanded by his lenders, according to a 2002 report in The American Lawyer."
+        },
+        {
+            "label": "Snopes — same fact check, on the composition of the leaseholding group and the continuing rent obligation.",
+            "type": "secondary",
+            "url": "http://web.archive.org/web/20260724224801/https://www.snopes.com/fact-check/wtc-terrorism-insurance/",
+            "quote": "Silverstein wasn't actually the sole leaseholder of the World Trade Center: He led a consortium of investors and lenders which included GMAC Commercial Mortgage (a General Motors subsidiary), Westfield America Inc."
+        },
+        {
+            "label": "Port Authority of New York and New Jersey — July 2001 press release on the 99-year net lease to Silverstein Properties and Westfield America.",
+            "type": "primary",
+            "url": "https://www.panynj.gov/port-authority/en/press-room/press-release-archives/2001_press_releases/port_authority_toleaseworldtradecentertosilversteinpropertiesinc.html"
+        },
+        {
+            "label": "AM Best News — \"Three Insurers Win Ruling That WTC Disaster Was One Event,\" on the one-occurrence-versus-two litigation.",
+            "type": "secondary",
+            "url": "https://news.ambest.com/newscontent.aspx?refnum=52954&altsrc=174"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. This is the piece the existing Silverstein records did not cover. 2001-silverstein-001 has the lease date and 2001-silverstein-002 has the settlement; neither addresses who set the coverage figure, which is the hinge of the whole over-insured framing. Both halves of that framing invert on checking: the amount was a lender condition, not a buyer's request, and the $1.5 billion was the Port Authority's own portfolio-wide coverage rather than an insurer's appraisal of the towers. The rent obligation and the rebuild covenant are included because the story is usually told as a payout with no offsetting liability. Snopes is doing real work here as the carrier of The American Lawyer's 2002 reporting; the underlying article has not been pulled and the record would be stronger with it, which is the upgrade path. Group A on the correction; the foreknowledge inference the claim is built toward is Group B."
+}

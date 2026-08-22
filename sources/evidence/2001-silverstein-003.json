@@ -6,8 +6,14 @@
     "themes": [
         "september-11"
     ],
-    "claim": "Silverstein has publicly stated in multiple interviews that on the morning of September 11, 2001 he was at a dermatologist appointment at his wife's insistence, missing his customary breakfast meeting at Windows on the World atop WTC 1.",
+    "claim": "Silverstein has said in multiple interviews that on the morning of September 11, 2001 he was at a dermatologist appointment at his wife's insistence, missing his customary breakfast at Windows on the World atop the North Tower. His own account: \"So that morning, I was dressing to get downtown to meet with one of the tenants, and my wife said: 'You can't go.' And I said: 'Why? I have an appointment downtown.' She said: 'Because I made an appointment for you with a dermatologist, and that's something you canceled last month and you cannot cancel again.'\" Two of his children were not away from the complex that morning. Roger and Lisa Silverstein both worked for Silverstein Properties in temporary offices on the 88th floor of the North Tower, were running late, and reached his Midtown office on foot hours later covered in dust; he did not know whether they had survived until then. The account of the appointment rests on Silverstein's own telling, and no contemporaneous medical or appointment record has been published.",
     "sources": [
+        {
+            "label": "Times of Israel — \"Larry Silverstein: I decided to rebuild World Trade Center just 2 days post-9/11,\" Silverstein's own account of the morning.",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/larry-silverstein-i-decided-to-rebuild-world-trade-center-just-2-days-post-9-11/",
+            "quote": "So that morning, I was dressing to get downtown to meet with one of the tenants, and my wife said: 'You can't go.' And I said: 'Why? I have an appointment downtown.' She said: 'Because I made an appointment for you with a dermatologist, and that's something you canceled last month and you cannot cancel again.'"
+        },
         {
             "label": "Times of Israel — “Larry Silverstein: I decided to rebuild World Trade Center just 2 days post-9/11”",
             "type": "secondary",
@@ -28,5 +34,5 @@
         }
     ],
     "status": "primary-link-pending",
-    "notes": "Silverstein's dermatologist-appointment account has been told by him in multiple interviews over the years; not a contested fact but an autobiographical claim by him. Cited here as a public statement by Silverstein, not as independent corroboration of his location. Primary would be a video interview where he says it; pending."
+    "notes": "Silverstein's dermatologist-appointment account has been told by him in multiple interviews over the years; not a contested fact but an autobiographical claim by him. Cited here as a public statement by Silverstein, not as independent corroboration of his location. Primary would be a video interview where he says it; pending. Expanded 2026-08-22: the record previously carried only the appointment, which is the half that supports a foreknowledge reading. Roger and Lisa Silverstein worked on the 88th floor of the North Tower and were in the building's orbit that morning; that is on the record too and belongs in the same card. Status stays primary-link-pending because the appointment is sourced entirely to Silverstein's own retelling — the upgrade is a contemporaneous record, which has not been published."
 }

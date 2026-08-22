@@ -1,0 +1,35 @@
+{
+    "id": "2001-wtc-asbestos-claim-001",
+    "anchor": "y2001-attack",
+    "year": 2001,
+    "era": "iv",
+    "themes": [
+        "september-11",
+        "finance"
+    ],
+    "claim": "A standing argument holds that the World Trade Center was a liability rather than an asset because removing its asbestos would have cost more than the towers were worth. The asbestos is real. During construction a spray-on fireproofing roughly one-fifth asbestos by content was applied to the steel; New York City banned the practice in 1971, by which point about forty floors of the North Tower had been coated. The Port Authority of New York and New Jersey began an abatement program in the mid-1980s and later sued its own property insurers to recover the cost. That suit puts a figure on it: the World Trade Center complex accounted for more than $200 million of the agency's asbestos abatement expenses. The Port Authority lost — in May 2001 Judge John W. Bissell granted summary judgment for the insurers, holding that abatement costs are not the \"physical loss or damage\" an all-risk policy covers. Against that, Silverstein Properties' 99-year net lease on the complex closed at roughly $3.2 billion. The documented abatement cost is smaller than the price paid for the leasehold by more than an order of magnitude. What is accurate is that asbestos was a live issue in the sale. Vornado Realty Trust bid highest at $3.25 billion, was tentatively awarded the lease in February 2001, and withdrew that March in disputes that included asbestos remediation costs — which is how Silverstein, the runner-up bidder, came to hold it.",
+    "sources": [
+        {
+            "label": "Port Authority of New York and New Jersey v. Affiliated FM Insurance Co., 245 F. Supp. 2d 563 (D.N.J.) — the agency's suit against its property insurers to recover asbestos management and abatement costs, filed June 3, 1991, decided for the insurers.",
+            "type": "primary",
+            "url": "https://law.justia.com/cases/federal/district-courts/FSupp2/245/563/2515040/"
+        },
+        {
+            "label": "Business Insurance — \"Port loses claim for asbestos removal,\" on Judge Bissell's May 2001 summary judgment and the World Trade Center's share of the abatement bill.",
+            "type": "secondary",
+            "url": "https://www.businessinsurance.com/port-loses-claim-for-asbestos-removal/"
+        },
+        {
+            "label": "Port Authority of New York and New Jersey — July 2001 press release announcing the 99-year net lease of the World Trade Center to Silverstein Properties and Westfield America.",
+            "type": "primary",
+            "url": "https://www.panynj.gov/port-authority/en/press-room/press-release-archives/2001_press_releases/port_authority_toleaseworldtradecentertosilversteinpropertiesinc.html"
+        },
+        {
+            "label": "International Center for 9/11 Justice — timeline entry for July 24, 2001, covering the Vornado bid at $3.25 billion, its February 2001 tentative award, its March withdrawal over financing and asbestos remediation, and Silverstein's runner-up bid.",
+            "type": "secondary",
+            "url": "https://ic911.org/complete-timeline/july-24-2001-world-trade-center-ownership-changes-hands-for-the-first-time/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. The claim is not invented and the record says so plainly — asbestos was in the buildings, abatement was expensive and contested, and it helped break the first sale. The load-bearing part is the comparison, and that is where it fails: the only hard number in the litigation record is the Port Authority's own accounting of more than $200 million for the WTC portion, against a leasehold that sold for about $3.2 billion. Public estimates of total WTC-related abatement run as high as $1 billion in press coverage; even at that end the comparison does not hold. Where the reel-side version says the buildings were worth less than the cleanup, the sale itself is the counter-evidence: two institutional bidders competed for the leasehold at more than $3.2 billion each, with the asbestos known and priced. Vornado's withdrawal is included because it cuts against the framing and toward it at once — the liability was real enough to lose a buyer, and not so real that the asset went unsold. Group A."
+}

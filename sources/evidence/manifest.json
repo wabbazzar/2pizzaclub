@@ -22,6 +22,7 @@
         "1929-crash-margin-debt-001.json",
         "1940-patria-001.json",
         "1941-lehi-nazi-proposal-001.json",
+        "1943-corporate-tax-share-001.json",
         "1943-tesla-john-g-trump-001.json",
         "1944-world-bank-president-001.json",
         "1945-operation-paperclip-001.json",
@@ -117,8 +118,10 @@
         "2001-silverstein-001.json",
         "2001-silverstein-002.json",
         "2001-silverstein-003.json",
+        "2001-silverstein-insurance-lenders-001.json",
         "2001-suqami-passport-001.json",
         "2001-ua93-phone-calls-001.json",
+        "2001-wtc-asbestos-claim-001.json",
         "2001-wtc-collapse-physics-001.json",
         "2001-wtc-gold-001.json",
         "2001-wtc7-records-001.json",
@@ -387,7 +390,6 @@
         "2026-uap-capitol-press-conference-001.json",
         "2026-us-japan-yen-intervention-001.json",
         "2026-west-bank-001.json",
-        "2026-wilcock-death-above-majestic-001.json",
-        "1943-corporate-tax-share-001.json"
+        "2026-wilcock-death-above-majestic-001.json"
     ]
 }

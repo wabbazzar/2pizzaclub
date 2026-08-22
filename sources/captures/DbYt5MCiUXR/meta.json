@@ -1,0 +1,36 @@
+{
+    "id": "DbYt5MCiUXR",
+    "url": "https://www.instagram.com/reel/DbYt5MCiUXR/",
+    "platform": "instagram",
+    "captured_at": "2026-08-22",
+    "handle": "@tinfoilgoy",
+    "author_display_name": "Tinfoil Goy",
+    "posted_at": "2026-07-29",
+    "engagement": {
+        "likes": 576329,
+        "comments": 4714
+    },
+    "caption": "The Stup1dest and the Luckiest Businessman in the World",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Hand-drawn animation with burned-in auto-captions; no citations, sources or documents appear on screen at any point. Illustrated title cards include a balance scale labelled BUILDING VALUE against REMOVAL COST tipping to the latter, a cheque reading DOLLAR SIGN 3.5 BILLION struck through in red, an office chair captioned NEVER MISSES WORK beside a PERFECT ATTENDANCE calendar, and a struck-through BUSINESS SCHOOL mortarboard. The opening and recurring character card draws Larry Silverstein in front of an Israeli flag; the narration never mentions Israel.",
+    "audio_content_summary": "A narrated comic monologue arguing that Larry Silverstein is simultaneously the stupidest and luckiest businessman alive: that he leased the World Trade Center six weeks before 9/11, that the asbestos in it would have cost more to remove than the towers were worth, that he insisted on insuring it for $3.5 billion when the insurer valued it at $1.5 billion, that he then argued two planes meant two insured events and sued for double, settling in 2007 for $4.55 billion, and that he missed work that morning for a dermatologist appointment. It closes on 'Coincidence? Unbelievable luck? Main character energy? You decide.'",
+    "implied_frame": "The video states no conclusion and instead ends on 'you decide', building a foreknowledge inference out of an accumulation of coincidence while the Israeli flag behind the character supplies a direction the narration never states. The core financial facts are right and already documented on this site: the lease closed July 24, 2001 (49 days before the attacks, not six weeks), the two-occurrence litigation is real, and the 2007 settlement was about $4.55 billion. Two of the load-bearing claims invert on checking. The $3.55 billion of coverage was the minimum Silverstein's lenders required before financing a leasehold that cost about $3.2 billion, not an overpayment he chose; and the $1.5 billion was the Port Authority's own prior insurance across its entire property portfolio, not an insurer's valuation of the towers. The asbestos claim is half right: the asbestos and its cost were real enough that Vornado, the high bidder, walked away partly over remediation, but the Port Authority's own litigation puts the World Trade Center's share of abatement at more than $200 million against a $3.2 billion leasehold. Omitted throughout: Silverstein led a consortium rather than owning the lease alone, he remained liable for roughly $10 million a month in ground rent and was obligated to rebuild, and his son and daughter both worked on the 88th floor of the North Tower and were running late that morning.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~9.8 MB); delivery ~10.6 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2001-wtc-asbestos-claim-001",
+        "2001-silverstein-insurance-lenders-001",
+        "2001-silverstein-001",
+        "2001-silverstein-002",
+        "2001-silverstein-003",
+        "2002-silverstein-pull-it-001"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 4,
+        "b": 3,
+        "c": 2
+    }
+}
