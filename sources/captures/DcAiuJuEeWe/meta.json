@@ -1,0 +1,40 @@
+{
+    "id": "DcAiuJuEeWe",
+    "url": "https://www.instagram.com/reel/DcAiuJuEeWe/",
+    "platform": "instagram",
+    "captured_at": "2026-08-25",
+    "handle": "@ingeduardorochab",
+    "author_display_name": "Sabbath Eliphas Eduardo",
+    "posted_at": "2026-08-14",
+    "engagement": {
+        "likes": 50581,
+        "comments": 891
+    },
+    "caption": "🧊 EL TESTIGO QUE ROMPIÓ EL SILENCIO SOBRE LA ANTÁRTIDA Durante 366 días, Eric Hecker vivió en uno de los lugares más aislados del planeta: la Estación Amundsen-Scott, en el Polo Sur. Contratista de Raytheon, veterano de la Marina de EE.UU., trabajó como plomero y bombero con acceso prácticamente sin restricciones a instalaciones que muy pocos seres humanos llegarán a ver jamás. Ahí fue donde, según su propio testimonio, comprendió que el IceCube Neutrino Observatory —presentado oficialmente como un simple detector de neutrinos— era mucho más que eso. Hecker sostiene que la estructura, por su escala y su potencia, no solo puede recibir señales del cosmos: también puede transmitirlas. Y afirma que esa misma capacidad la convertiría en el sistema de energía dirigida más potente jamás construido, muy por encima de lo que se conoce de HAARP. Su testimonio no se queda ahí. Relata que, en la transición entre la construcción y la puesta en marcha del sistema, se produjeron dos descargas antes de que la tecnología quedara calibrada — y que esas descargas coincidirían con los terremotos que sacudieron Christchurch, Nueva Zelanda, en septiembre de 2010 y febrero de 2011. También asegura haber tenido conocimiento de personal de Raytheon evaluando posibles emplazamientos militares en el interior antártico, algo que él mismo describe como una violación directa del Tratado Antártico. Y denuncia haber sufrido, junto a otros miembros del equipo durante el invierno austral, síntomas neurológicos persistentes que vincula a sistemas de frecuencia extremadamente baja activos en la base. ¿Casualidad, coincidencia... o algo que todavía no estamos autorizados a saber? Te leo en los comentarios 👇 #fyp #conspiraciones #terremoto #raytheon #antartida",
+    "hashtags": [
+        "fyp",
+        "conspiraciones",
+        "terremoto",
+        "raytheon",
+        "antartida"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Spanish title card burned in over the whole clip: 'Eric Hecker (ex contratista de Raytheon) afirma que el telescopio de neutrinos \"IceCube\" puede ser usado para provocar terremotos', with Spanish subtitles below the video and an @informe.oculto watermark. No citations appear. The underlying footage is letterboxed from a 16:9 studio interview; a water bottle and a mug on set both read THE SHAWN RYAN SHOW.",
+    "audio_content_summary": "Eric Hecker, a former Raytheon contractor at the Amundsen-Scott South Pole Station, says the IceCube Neutrino Observatory is not only a passive detector but can transmit, making it in his description the world's largest directed energy weapon system; that it was responsible for the 2011 Christchurch earthquakes; that he was present and has confirmed this with people he will not name; and that manufacturer documentation states each digital optical module can transmit at 2047 volts.",
+    "implied_frame": "Sourced to a single named speaker giving his own account. The physical description of IceCube is broadly accurate — it is a real neutrino observatory at the South Pole run by the University of Wisconsin-Madison, its digital optical modules are roughly basketball-sized glass spheres, and the instrumented array is about one cubic kilometre. The weapon and earthquake claims are Hecker's own and he declines to name corroborating witnesses. The 2047-volt figure is the load-bearing technical claim and has not been checked here: DOM photomultipliers are biased at high voltage to amplify incoming photons, which is a property of a detector rather than a transmitter, so the figure needs verifying against IceCube's own hardware documentation before this site says anything either way.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~3.8 MB); delivery ~4.3 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [],
+    "supporting_research_links": [
+        "Source interview identified: Shawn Ryan Show #66, 'Eric Hecker - Antarctica Firefighter for Raytheon Exposes Scary Earthquake Weapon (Part 3),' published 2023-07-21, 35 minutes — https://www.youtube.com/watch?v=rckecs0PKI4",
+        "Clip location within the episode: approximately 05:04-07:00.",
+        "Apple Podcasts: https://podcasts.apple.com/us/podcast/shawn-ryan-show/id1492492083?i=1000621874365",
+        "Spotify: https://open.spotify.com/episode/3TR4u1i2fC6sSejCNg01HM"
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 3,
+        "c": 2
+    }
+}
