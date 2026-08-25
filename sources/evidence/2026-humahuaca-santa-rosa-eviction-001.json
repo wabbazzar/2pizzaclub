@@ -1,0 +1,31 @@
+{
+    "id": "2026-humahuaca-santa-rosa-eviction-001",
+    "anchor": "y2026-argentina-land",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "land",
+        "latin-america",
+        "indigenous"
+    ],
+    "claim": "On August 10, 2026, police in the province of Jujuy evicted families of the Santa Rosa indigenous community from land in the city of Humahuaca that community members say their families have occupied for generations. Officers fired rubber bullets and tear gas as residents tried to stop heavy machinery; at least ten people were injured and three homes were destroyed. Around eight children, the youngest aged one, were removed from the site, according to community accounts, and a provincial legislator later said they had been released. The operation was carried out on the order of a provincial judge, Juan Pablo Calderón, and the underlying dispute is reported as a land conflict between two factions of the same community. Footage of the eviction circulates as evidence that Patagonia is being cleared for foreign buyers. Humahuaca is not in Patagonia. It sits in the Quebrada de Humahuaca in the far northwest of Argentina, near the Bolivian border and roughly 1,800 kilometres from the northern edge of the Patagonian provinces.",
+    "sources": [
+        {
+            "label": "teleSUR English — \"Argentina Indigenous Community Reports Violent Jujuy Eviction,\" on the August 10, 2026 operation, the injuries and the destroyed homes.",
+            "type": "secondary",
+            "url": "https://www.telesurenglish.net/argentina-community-violent-jujuy/"
+        },
+        {
+            "label": "Resumen Latinoamericano — \"Jujuy: viviendo a la intemperie tras la represión y el desalojo a las familias de la Comunidad Santa Rosa en Humahuaca,\" August 15, 2026.",
+            "type": "secondary",
+            "url": "https://www.resumenlatinoamericano.org/2026/08/15/argentina-jujuy-viviendo-en-la-intemperie-tras-la-represion-y-el-desalojo-a-las-familias-de-la-comunidad-santa-rosa-en-humahuaca"
+        },
+        {
+            "label": "Orinoco Tribune — \"Argentina Native Community Reports Violent Jujuy Eviction,\" carrying the community's account of the children removed from the site.",
+            "type": "secondary",
+            "url": "https://orinocotribune.com/argentina-native-community-reports-violent-jujuy-eviction/"
+        }
+    ],
+    "status": "primary-link-pending",
+    "notes": "Backstage. The event is real and the footage is real, which is why the misplacement travels. Two things are wrong with the use it is put to and both are checkable on a map and a docket: the province is Jujuy, about as far from Patagonia as Argentina allows, and the eviction was ordered by a provincial judge in a dispute reported as internal to the community rather than executed for a foreign purchaser. Neither point makes the eviction less serious and the record does not soften it — ten injured and three houses razed is what the sources say. Sourcing is press only and skews to outlets sympathetic to the community; the upgrade is the court file for Judge Calderón's order and any provincial human-rights body report, neither pulled. Group A on the event, and on the geography correction."
+}

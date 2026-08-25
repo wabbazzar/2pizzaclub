@@ -1,0 +1,31 @@
+{
+    "id": "2026-milei-mileikowsky-claim-001",
+    "anchor": "y2026-argentina-land",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "latin-america",
+        "israel",
+        "journalism"
+    ],
+    "claim": "A claim in circulation holds that Javier Milei and Benjamin Netanyahu are cousins, on the grounds that Milei's father was named Mileikowsky — the surname Netanyahu's family carried before it was changed. Milei's father is Norberto Horacio Milei; his mother is Alicia Lucich. The paternal line is Italian: Milei's grandfather came from Rossano in Calabria in 1926, and his paternal great-grandparents from Basilicata. The maternal line is Croatian and Italian, with great-grandparents from Jelsa on the island of Hvar and grandparents from San Severino in the Marche. Netanyahu's father, the historian Benzion Netanyahu, was born Benzion Mileikowsky in Warsaw in 1910 to a family of Lithuanian rabbinic descent, and adopted the name Netanyahu after moving to Mandatory Palestine. The two surnames are not the same name and no genealogical record links the families. Milei has separately said, in 2024, that his grandfather learned late in life that he was of Jewish matrilineal descent; Milei was raised Catholic and has publicly studied Judaism. Images captioning a photograph of Milei's father as \"Norberto Horacio Mileikowsky\" attach a surname the man did not carry.",
+    "sources": [
+        {
+            "label": "Wikipedia — Javier Milei, on his parents' names and on the Italian and Croatian ancestry of both lines, including the grandfather from Rossano, Calabria in 1926.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Javier_Milei"
+        },
+        {
+            "label": "Wikipedia — Benzion Netanyahu, on his birth in Warsaw in 1910 as Benzion Mileikowsky and the family's change of name.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Benzion_Netanyahu"
+        },
+        {
+            "label": "Buenos Aires Times — \"Norberto Milei: The unknown story of the President's father,\" a profile of Norberto Horacio Milei's business career.",
+            "type": "secondary",
+            "url": "https://www.batimes.com.ar/news/opinion-and-analysis/norberto-milei-the-unknown-story-of-the-presidents-father.phtml"
+        }
+    ],
+    "status": "primary-link-pending",
+    "notes": "Backstage. Group C with proof rather than assertion, which is the bar this site sets before calling something invented. The falsifiable element is a specific surname attached to a specific named living person, and it fails against ordinary biographical sourcing on both sides: Milei's father is documented as Norberto Milei with an Italian paternal line out of Calabria, and Mileikowsky is documented as Benzion Netanyahu's birth name in Warsaw. The surname resemblance is the whole of the argument. The record includes Milei's own 2024 statement about his grandfather's matrilineal Jewish descent because leaving it out would be selective — it is on the record, it complicates the picture in a direction the claim does not use, and the reader can weigh it. Primary-link-pending: this rests on encyclopaedic and press sourcing, and the upgrade is Argentine civil registry or electoral-roll entries for Norberto Horacio Milei, which have not been pulled."
+}

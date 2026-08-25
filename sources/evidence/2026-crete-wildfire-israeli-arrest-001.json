@@ -1,0 +1,41 @@
+{
+    "id": "2026-crete-wildfire-israeli-arrest-001",
+    "anchor": "y2026-argentina-land",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "wildfires",
+        "israel",
+        "land"
+    ],
+    "claim": "In August 2026 Greek police arrested a 35-year-old Israeli man on Crete on a charge of negligent arson. He had lit a barbecue in the yard of a rented villa in a wooded area near Rethymno while a burn ban was in force; strong winds carried sparks into dry vegetation and the fire spread through the Sellia area near Plakias, damaging olive groves and threatening houses in the village. Firefighters brought it under control in about four hours. The arrest is documented in Israeli, Greek and Gulf press. The account that has travelled from it — that an Israeli burned 30,000 hectares of Greece to clear ground for an Israeli resort built on the same land — does not survive either half. A fire contained in four hours in one coastal area did not cover 30,000 hectares, a figure belonging to the scale of Greece's largest wildfire seasons rather than to this incident. And the resort development produced alongside it, Elounda Hills, is a 138-acre project on the island's north-eastern coast at Elounda, about 130 kilometres from Rethymno, under construction for years and due to complete around 2027. The property press credits it to Mirum Group, associated with the investor Vitaly Borisov; the Israeli business paper Globes headlined it \"Israeli resort to be built in Crete with $500 million investment\". Whatever the ownership, the site predates the fire by years and lies at the far end of a 260-kilometre island from it. No reporting connects the two.",
+    "sources": [
+        {
+            "label": "The Times of Israel — \"Israeli arrested in Greece for negligent arson after BBQ sparks wildfire,\" on the arrest, the burn ban and the location near Rethymno.",
+            "type": "secondary",
+            "url": "https://www.timesofisrael.com/israeli-arrested-in-greece-for-negligent-arson-after-bbq-sparks-wildfire/"
+        },
+        {
+            "label": "Ynetnews — \"Israeli arrested in Crete after barbecue sparks wildfire during high-risk fire alert.\"",
+            "type": "secondary",
+            "url": "https://www.ynetnews.com/article/sj6h71ydzg"
+        },
+        {
+            "label": "Arab News — \"Israeli tourist arrested in Crete over wildfire allegedly sparked by barbecue,\" on the Sellia/Plakias spread and the four-hour containment.",
+            "type": "secondary",
+            "url": "https://www.arabnews.com/node/2654879/world"
+        },
+        {
+            "label": "Mirum Group project page for the Elounda Hills resort, giving the location at Elounda on Crete's north-east coast and the scope of the development.",
+            "type": "primary",
+            "url": "https://mirum.gr/projects/elounda-hills-resort"
+        },
+        {
+            "label": "Abode2 — \"Elounda Hills Reaches €130 Million In Sales,\" on the 138-acre site, the Mirum Group development and the completion timeline.",
+            "type": "secondary",
+            "url": "https://www.abode2.com/elounda-hills-reaches-e130-million-in-sales-as-crete-is-set-to-become-a-new-superyacht-destination/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Backstage. Both underlying items are real and are produced as a matched pair: the arrest headline and a resort headline are genuine, which is what makes the composite persuasive. What joins them is supplied rather than reported. The charge is negligent arson from a barbecue during a burn ban, not deliberate land clearing; the burn ran four hours in one coastal pocket; and Elounda Hills sits at the opposite end of a 260-kilometre island and predates the fire by years. The hectare figure is the tell — 30,000 hectares is a national-season number, and attaching it to a four-hour olive-grove fire is where the claim breaks. On ownership the record deliberately hedges: the Globes headline shown reads \"Israeli resort\", but that article could not be retrieved for this record and the property press credits the development to Mirum Group and the investor Vitaly Borisov. Rather than guess a Globes URL or adopt either characterisation, the card reports both attributions and rests the argument on geography and chronology, which hold regardless of who owns it. Pulling the Globes piece is the upgrade. Group A on the arrest and the correction; the arson-for-development framing is Group C."
+}

@@ -1,0 +1,37 @@
+{
+    "id": "DcPOM4Kps1r",
+    "url": "https://www.instagram.com/reel/DcPOM4Kps1r/",
+    "platform": "instagram",
+    "captured_at": "2026-08-25",
+    "handle": "@holden_onto_truth",
+    "author_display_name": "Holden",
+    "posted_at": "2026-08-19",
+    "engagement": {
+        "likes": 61387,
+        "comments": 2604
+    },
+    "caption": "Argentina riots as the Patagonia is being sold to foreigners! ✡️\n\nWe all know why media won’t cover this!\n\nLocals are saying the invaders are starting the fires to buy back the land now for crumbs!\n\n#argentina #truth",
+    "hashtags": [
+        "argentina",
+        "truth"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "No narration on screen; the speaker cuts between exhibits. An AJ+ clip stamped 'HUMAHUACA, ARGENTINA / Aug. 10, 2026' reading 'Argentinian police forced members of the Santa Rosa community in Jujuy province off their land', credited on screen to @JuanGrabois, over which a kippah is composited onto a photograph of Javier Milei. A Globes headline 'Israeli resort to be built in Crete with $500 million investment'. A photograph of Netanyahu, Nicos Anastasiades and Alexis Tsipras shaking hands. A panel captioning a childhood photograph of Milei's father as 'Father Norberto Horacio Mileikowsky' beside a portrait of Netanyahu. Opening footage of an Israeli flag burning in a street and riot police, with a 'Buenos Aires ARGENTINA' chyron from a red. outlet.",
+    "audio_content_summary": "A narrated claim that tens of thousands of Argentines are protesting an illegal sale of Patagonia; that President Javier Milei is using secret police to remove citizens so the land can be handed to Zionist buyers who are setting fires to repurchase it cheaply; that the same was done in Greece, where an Israeli burned 30,000 hectares to clear ground for an Israeli resort on the same land; that Greek, Albanian, Argentine and American leaders serve the same interest; and that Milei and Netanyahu are Polish cousins who are not themselves Jewish.",
+    "implied_frame": "The underlying land story is real and documented: Milei's DNU 70/2023 repealed Law 26,737, which had capped foreign ownership of rural land, a federal chamber has since found that repeal unconstitutional in part, and the provinces with the largest foreign-held shares include three Patagonian ones. The exhibits assembled around it do not support the specific claims made. The Humahuaca footage is a genuine August 10, 2026 eviction, but of a community in Jujuy — roughly 1,800 kilometres from Patagonia — carried out on a provincial judge's order in a dispute reported as internal to the community. The Crete arrest is genuine and is for negligent arson after a barbecue during a burn ban; the fire was contained in about four hours, not 30,000 hectares, and the Elounda Hills resort is at the opposite end of the island and predates it by years. The Buenos Aires protest footage matches the weekly pensioners' demonstrations against austerity rather than any land-sale protest. The 'Mileikowsky' caption attaches to Milei's father a surname he did not carry: he is documented as Norberto Horacio Milei, of a Calabrian paternal line, while Mileikowsky is Benzion Netanyahu's birth name in Warsaw.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~6.4 MB); delivery ~6.7 MB webm, 52s.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2023-argentina-ley-tierras-repeal-001",
+        "2026-humahuaca-santa-rosa-eviction-001",
+        "2026-crete-wildfire-israeli-arrest-001",
+        "2026-milei-mileikowsky-claim-001"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 3,
+        "b": 3,
+        "c": 2
+    }
+}

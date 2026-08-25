@@ -1,0 +1,36 @@
+{
+    "id": "2023-argentina-ley-tierras-repeal-001",
+    "anchor": "y2026-argentina-land",
+    "year": 2023,
+    "era": "v",
+    "themes": [
+        "land",
+        "finance",
+        "latin-america"
+    ],
+    "claim": "Argentina had a law capping how much of its farmland foreigners could own, and the current government struck it out by decree. Law 26,737, passed by Congress in 2011, held foreign ownership to 15 percent of the country's rural land overall and to a maximum of 1,000 hectares per foreign holder in the most productive zone, with an equivalent ceiling elsewhere. On December 20, 2023, ten days after taking office, President Javier Milei issued Decree of Necessity and Urgency 70/2023 — a DNU, an emergency instrument that takes effect without a prior vote in Congress — which repealed that law among dozens of others. With the cap gone there is no statutory limit on how much rural land a foreign buyer may hold. The repeal has not settled: the Federal Chamber of La Plata declared Article 154 of the decree unconstitutional insofar as it repeals Law 26,737, holding that national sovereignty over land is a collective right. The last published figures from the National Registry of Rural Land, for 2020, put foreign-held rural land at 7.5 percent of the national total, with the largest shares in Río Negro, Neuquén, Santa Cruz, Mendoza and San Juan. Three of those five are Patagonian provinces.",
+    "sources": [
+        {
+            "label": "Infobae — \"Ley de Tierras: el DNU de Milei derogó la norma que restringe la venta de campos a extranjeros,\" December 20, 2023, on the repeal and the terms of Law 26,737.",
+            "type": "secondary",
+            "url": "https://www.infobae.com/economia/2023/12/20/ley-de-tierras-el-dnu-de-milei-derogaria-la-ley-que-restringe-la-venta-de-campos-a-extranjeros/"
+        },
+        {
+            "label": "Chequeado — \"Qué se sabe sobre la derogación de la Ley de Tierras por parte del gobierno de Javier Milei,\" on the 15 percent national cap, the 1,000-hectare per-holder ceiling, and the registry's 7.5 percent figure by province.",
+            "type": "secondary",
+            "url": "https://chequeado.com/el-explicador/que-se-sabe-sobre-la-derogacion-de-la-ley-de-tierras-por-parte-del-gobierno-de-javier-milei/"
+        },
+        {
+            "label": "WSC Legal — \"Derogación de la Ley de Tierras - Decreto 70/23,\" a law-firm client note setting out what Article 154 removed.",
+            "type": "secondary",
+            "url": "https://wsclegal.com/es/decreto-70-23-derogacion-de-la-ley-de-tierras/"
+        },
+        {
+            "label": "CNN en Español — \"¿Argentina en venta? La polémica tras el decreto de Milei que elimina el límite para que los extranjeros compren tierras,\" January 6, 2024.",
+            "type": "secondary",
+            "url": "https://cnnespanol.cnn.com/2024/01/06/argentina-en-venta-decreto-milei-extranjeros-tierras-orix"
+        }
+    ],
+    "status": "primary-link-pending",
+    "notes": "Backstage. This is the documented thing underneath a much wilder circulating story, and it is worth having on its own terms: a congressionally passed ownership cap removed by emergency decree, then partly reinstated by a federal court, with the largest foreign-held shares concentrated in Patagonian provinces. Stated without the buyer-identity claims attached to it elsewhere, because the decree does not name buyers and neither does the registry. Primary-link-pending: the citation should be the Boletín Oficial text of DNU 70/2023 Article 154, the text of Ley 26,737, and the La Plata chamber's ruling, none of which have been pulled. The registry's 2020 report is the newest published and is now six years stale, which is itself worth noting. Group A."
+}
