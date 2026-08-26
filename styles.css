@@ -83,12 +83,22 @@ body {
 }
 .exit-mark {
     color: var(--chrome-ink);
+    /* a <button>.exit-mark inherits none of this from the header — set it here
+       or it renders as an Arial UA button on the navy chrome */
+    font: inherit;
+    letter-spacing: inherit;
+    background: transparent;
+    cursor: pointer;
     text-decoration: none;
     border: 1px solid var(--chrome-rule);
     padding: 0.25rem 0.6rem;
     border-radius: 1px;
 }
-.exit-mark:hover { color: var(--year-ink); border-color: var(--chrome-ink-dim); }
+.exit-mark:hover {
+    color: var(--year-ink);
+    background: var(--chrome-rule);
+    border-color: var(--chrome-rule);
+}
 .exit-mark:focus-visible {
     outline: 2px solid var(--chrome-rule);
     outline-offset: 2px;
@@ -536,12 +546,13 @@ body {
 
 body.prose-off .narrative-blurb { display: none; }
 
-#prose-toggle.exit-mark {
-    cursor: pointer;
-    font-family: var(--mono);
-    font-size: 0.78rem;
+#prose-toggle[aria-pressed="true"] { color: var(--chrome-rule); }
+#recent-toggle[aria-expanded="true"] {
+    color: var(--year-ink);
+    background: var(--chrome-rule);
+    border-color: var(--chrome-rule);
 }
-#prose-toggle[aria-pressed="true"] { color: var(--year-ink); border-color: var(--chrome-ink-dim); }
+#prose-toggle[aria-pressed="true"]:hover { color: var(--year-ink); }
 
 /* ---------------- theme filter bar ---------------- */
 
@@ -810,7 +821,7 @@ mark.search-mark {
     cursor: pointer;
     padding: 0 0.2rem;
 }
-.recent-close:hover { color: var(--year-ink); }
+.recent-close:hover { color: var(--bus-yellow); }
 .recent-list {
     display: flex;
     flex-direction: column;
@@ -974,6 +985,13 @@ mark.search-mark {
         padding-inline: 0.75rem;
     }
     .dossier-header > .filemark { display: none; }
+    /* four nav marks must stay on one line at 390px — no two-line boxes */
+    .header-nav { gap: 0.3rem; }
+    .exit-mark {
+        white-space: nowrap;
+        font-size: 0.68rem;
+        padding: 0.25rem 0.4rem;
+    }
 
     .layout { display: block; }
 

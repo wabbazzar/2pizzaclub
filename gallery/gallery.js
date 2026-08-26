@@ -88,7 +88,8 @@
         const rows = [];
         const post = (k, v) => v && rows.push(`<dt>${k}</dt><dd>${v}</dd>`);
         post('platform', esc(meta.platform || ''));
-        post('handle', meta.handle ? `<a class="gallery-handle" href="${esc(meta.url)}" target="_blank" rel="noopener">${esc(meta.handle)}</a>` : '');
+        const who = meta.handle || meta.author_display_name || '';
+        post('handle', who ? `<a class="gallery-handle" href="${esc(meta.url)}" target="_blank" rel="noopener">${esc(who)}</a>` : '');
         post('posted', esc(meta.posted_at || ''));
         if (meta.engagement) {
             const e = meta.engagement;
@@ -131,7 +132,7 @@
                 <div class="gallery-item-head">
                     ${originBadge}
                     <span class="filemark">// FILE — ${esc(meta.id)}</span>
-                    <a class="gallery-handle" href="${esc(meta.url)}" target="_blank" rel="noopener">${esc(meta.handle || '')}</a>
+                    <a class="gallery-handle" href="${esc(meta.url)}" target="_blank" rel="noopener">${esc(meta.handle || meta.author_display_name || '')}</a>
                 </div>
                 ${meta.caption ? `<p class="gallery-caption">${esc(meta.caption)}</p>` : ''}
                 ${overlayHtml}

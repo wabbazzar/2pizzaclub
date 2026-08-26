@@ -8,7 +8,7 @@
 //
 // Bump CACHE_VERSION to retire old caches on the next activate.
 
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v3';
 const CACHE = `2pc-${CACHE_VERSION}`;
 
 // App shell — precached on install so the first offline launch has everything
