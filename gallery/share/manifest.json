@@ -4,8 +4,8 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 146,
-      "seconds": 15974
+      "count": 147,
+      "seconds": 16026
     },
     {
       "slug": "adl",
@@ -190,8 +190,8 @@
     {
       "slug": "finance",
       "topic": "Finance",
-      "count": 28,
-      "seconds": 3367
+      "count": 29,
+      "seconds": 3419
     },
     {
       "slug": "florida",
@@ -240,6 +240,12 @@
       "topic": "IDF",
       "count": 13,
       "seconds": 1278
+    },
+    {
+      "slug": "indigenous",
+      "topic": "Indigenous",
+      "count": 1,
+      "seconds": 52
     },
     {
       "slug": "inequality",
@@ -292,8 +298,8 @@
     {
       "slug": "israel",
       "topic": "Israel",
-      "count": 39,
-      "seconds": 4186
+      "count": 40,
+      "seconds": 4238
     },
     {
       "slug": "japan",
@@ -310,14 +316,26 @@
     {
       "slug": "journalism",
       "topic": "Journalism",
-      "count": 39,
-      "seconds": 3700
+      "count": 40,
+      "seconds": 3752
     },
     {
       "slug": "kirk",
       "topic": "Kirk",
       "count": 8,
       "seconds": 1315
+    },
+    {
+      "slug": "land",
+      "topic": "Land",
+      "count": 1,
+      "seconds": 52
+    },
+    {
+      "slug": "latin-america",
+      "topic": "Latin America",
+      "count": 1,
+      "seconds": 52
     },
     {
       "slug": "lobbying",
@@ -574,8 +592,8 @@
     {
       "slug": "wildfires",
       "topic": "Wildfires",
-      "count": 1,
-      "seconds": 0
+      "count": 2,
+      "seconds": 52
     }
   ]
 }
