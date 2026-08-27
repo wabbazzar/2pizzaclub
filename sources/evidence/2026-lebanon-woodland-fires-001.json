@@ -1,0 +1,30 @@
+{
+    "id": "2026-lebanon-woodland-fires-001",
+    "anchor": "y2026-lebanon-fires",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "wildfires",
+        "israel",
+        "idf",
+        "regional-conflicts"
+    ],
+    "claim": "In the roughly two months after the June 17, 2026 ceasefire that largely halted fighting between Israel and Hezbollah, large areas of woodland, olive groves and farmland burned in southern Lebanon, and Lebanese firefighters and civil defence officials attributed the fires to Israeli munitions. Hussein Fakih, head of civil defence in the Nabatieh region, said \"small drones come out and drop incendiary materials, [white] phosphorus shells are fired at the woodlands,\" alongside illumination flares dropped in daylight, and estimated that in areas near the frontline around 30 to 40 percent of the land had been affected by fire. Samir Hardan, a civil defence station chief, said drones started fires in woodland near Kfarchouba on successive days. Firefighters said that when they moved to extinguish a blaze started by flares dropped outside Khiam, a drone struck close by and forced them to withdraw. The Israeli military did not respond to requests for comment.",
+    "sources": [
+        {
+            "label": "The Guardian, via the Irish Examiner — \"Israel deliberately starting wildfires in southern Lebanon, firefighters say,\" on the Khiam and Kfarchouba incidents, the named civil defence officials, and the 30-40% estimate.",
+            "type": "secondary",
+            "url": "https://www.irishexaminer.com/world/arid-41894674.html",
+            "quote": "Small drones come out and drop incendiary materials, [white] phosphorus shells are fired at the woodlands",
+            "clip": "clips/2026-lebanon-woodland-fires-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Democracy Now! — \"Firefighters Accuse Israeli Forces of Deliberately Starting Wildfires in Southern Lebanon,\" August 13, 2026.",
+            "type": "secondary",
+            "url": "https://www.democracynow.org/2026/8/13/headlines/firefighters_accuse_israeli_forces_of_deliberately_starting_wildfires_in_southern_lebanon"
+        }
+    ],
+    "status": "verified",
+    "notes": "The attribution is the firefighters' and civil defence's, and is written as theirs — the fires and the burned area are the reported fact, the cause is an attributed account, and the Israeli military declined to comment. This is the one place in the fire-and-land cluster where an organised state-linked ignition claim is made on the record by named emergency-service officials rather than by social media. Chase: a Lebanese civil defence or UNIFIL statement for a primary link, and satellite burn-scar data for the 30-40% figure."
+}

@@ -1,0 +1,33 @@
+{
+    "id": "2026-chubut-fires-origin-001",
+    "anchor": "y2026-argentina-land",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "wildfires",
+        "land",
+        "latin-america",
+        "israel"
+    ],
+    "claim": "The wildfires that burned the Andean towns of El Hoyo and Epuyén in Argentina's Chubut province began on January 5, 2026. The provincial Ministerio Público Fiscal — the public prosecutors' office — concluded that there were \"elementos suficientes para presumir una intervención humana deliberada\" (sufficient grounds to presume deliberate human intervention): investigators found fuel residue at the ignition point, roughly 300 metres from a road in a remote area with no houses nearby. As of the fact-check, prosecutors had made no arrests and charged no one, and the working line of inquiry was a land dispute between local groups. The prosecutor leading the case rejected the account that circulated internationally — that Israeli soldiers disguised as tourists lit the fires — saying the accusations \"son un invento\" and that \"la investigación no va por ese lado.\" The video most often attached to that account, of a resident confronting two foreigners lighting a fire, was filmed in Los Glaciares National Park in Santa Cruz province, about 1,400 kilometres from the Chubut fires; the person filming identified them as Israeli, which was never officially confirmed. Separately, the retired general César Milani and the activist Luis D'Elía accused Israeli tourists of igniting the blazes with Israel Defense Forces grenades, and AI-generated videos of supposed saboteurs and burning valleys circulated alongside the real footage.",
+    "sources": [
+        {
+            "label": "Chequeado (Argentine fact-checking organisation) — \"Ni israelíes ni mapuches: qué se sabe sobre el origen de los incendios producidos en Chubut y los posibles responsables,\" on the prosecutors' finding, the absence of arrests, the Los Glaciares video's location, and the prosecutor's rejection of the Israeli-tourist account.",
+            "type": "secondary",
+            "url": "https://chequeado.com/el-explicador/que-se-sabe-sobre-el-origen-de-los-incendios-producidos-en-chubut-y-los-posibles-responsables/",
+            "quote": "existen elementos suficientes para presumir una intervención humana deliberada",
+            "clip": "clips/2026-chubut-fires-origin-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Middle East Forum — on the January 2026 accusations by César Milani and Luis D'Elía, the AI-generated videos, and the prosecutors' finding of no evidence of organised arson.",
+            "type": "secondary",
+            "url": "https://www.meforum.org/mef-observer/the-andinia-hoax-reflects-antisemitic-myths-as-hybrid-weapons-in-the-struggle-for-patagonia",
+            "quote": "Argentinian prosecutors found no evidence of organized arson.",
+            "clip": "clips/2026-chubut-fires-origin-001-01.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Written to separate the primary facts (prosecutors do presume deliberate human ignition; fuel residue; no arrests; land-dispute line of inquiry) from the attributed conclusion (Israeli soldiers/Mossad). Both halves matter: the fire is not being treated as accidental by the prosecutors, and the specific nationality account is refuted by the same prosecutors. Chequeado is the strongest available source; the Chubut MPF's own release should be chased for a primary link. The Los Glaciares geography (Santa Cruz, ~1,400km away) is the single most load-bearing correction."
+}

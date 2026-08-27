@@ -1,0 +1,32 @@
+{
+    "id": "2026-kushner-albania-sazan-001",
+    "anchor": "y2026-land-assembly",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "land",
+        "trump",
+        "finance",
+        "international-law"
+    ],
+    "claim": "A multi-billion-euro resort development backed by Jared Kushner's investment firm is being built on the Albanian island of Sazan and on adjacent mainland at Zvernec, on the Vlora bay — a site that includes a protected wetland used by migrating flamingos, seals and sea turtles. Albania's government greenlit the plan in January 2026, and Kushner arrived in the country that month; Reuters reported the project at $1.4 billion. In June 2026 Reuters reported that a dozen residents of Zvernec say their land was wrongfully sold for development from 2024 onward by a rival claimant. Reuters found no evidence of wrongdoing by Kushner, who is not a party to the villagers' dispute, and was unable to determine who rightfully owns the plots, which are the subject of an ongoing legal fight. Prime Minister Edi Rama has said the development is legal and that habitats will be protected, telling Reuters that \"just because there is a court trial does not automatically mean that the property is frozen.\" Mass protests in Tirana demanded the work be halted, and the European Union raised concern about the impact on local wildlife. Kushner and Ivanka Trump saw the land from a yacht several years earlier, and Kushner expressed interest in investing after meeting Rama at the World Economic Forum in Davos.",
+    "sources": [
+        {
+            "label": "Reuters — \"Kushner project being developed on disputed land, Albanian villagers say,\" June 13, 2026, by Edward McAllister and Fatos Bytyci.",
+            "type": "secondary",
+            "url": "https://www.investing.com/news/world-news/kushner-project-being-developed-on-disputed-land-albanian-villagers-say-4741013",
+            "quote": "Reuters found no evidence of wrongdoing by Kushner, who isn't directly involved in the villagers' dispute.",
+            "clip_status": "http-503"
+        },
+        {
+            "label": "Reuters via GV Wire — same report, on the protected wetland, the Zvernec claimants, and Rama's response.",
+            "type": "secondary",
+            "url": "https://gvwire.com/2026/06/13/kushner-project-being-developed-on-disputed-land-albanian-villagers-say/",
+            "quote": "told Reuters that their land was wrongfully sold for development since 2024 by a rival claimant",
+            "clip": "clips/2026-kushner-albania-sazan-001-01.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Reuters' own finding of no evidence of wrongdoing by Kushner is kept in the claim rather than trimmed — the record is the disputed title and the protected wetland, not an allegation against the investor. The reuters.com canonical URL is behind an anti-bot wall; the investing.com and GV Wire carries are verbatim Reuters syndication. Chase: the Albanian strategic-investment decision document and the EU statement for primary links."
+}

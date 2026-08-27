@@ -1,0 +1,34 @@
+{
+    "id": "2023-california-forever-flannery-001",
+    "anchor": "y2026-land-assembly",
+    "year": 2023,
+    "era": "v",
+    "themes": [
+        "land",
+        "tech-billionaires",
+        "finance"
+    ],
+    "claim": "Between 2018 and 2023 a company called Flannery Associates LLC quietly bought roughly 18,600 acres of farmland and ranchland in Solano County, California, spending more than $800 million and becoming the county's largest landowner, without disclosing who was behind it. The buyers were later identified as the venture-capital project now called California Forever, backed by investors including Marc Andreessen, Michael Moritz, Reid Hoffman and Laurene Powell Jobs, with a plan to build a new city on the land. In May 2023 Flannery sued dozens of the landowners who would not sell, seeking $510 million in damages and alleging an illegal price-fixing conspiracy over the sale of their properties. Defendants said Flannery pressed them with repeated offers, terminated leases, evicted holdout farmers and set family members against each other. US District Judge Troy Nunley declined to dismiss the case, writing that the landowners' communications \"do reveal there was some sort of agreement among Defendants to fix the price of land in Solano County.\" Of 39 defendants, 13 settled in one week following an earlier group of 10.",
+    "sources": [
+        {
+            "label": "Governing — on Judge Troy Nunley's ruling, the $510 million claim, the $800 million and 18,600 acres, and the named backers.",
+            "type": "secondary",
+            "url": "https://www.governing.com/management-and-administration/california-forever-planning-group-wins-big-against-farmers",
+            "quote": "agreed amongst themselves to not only coordinate",
+            "clip": "clips/2023-california-forever-flannery-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "ABC10 — \"California Forever lawsuit against farmers to continue in court, judge rules,\" on the denial of the motion to dismiss and the quoted ruling language.",
+            "type": "secondary",
+            "url": "https://www.abc10.com/article/news/local/vacaville/california-forever-lawsuit-judge-rules/103-faf6f296-c18d-47f5-9f6f-bbcd9e856052"
+        },
+        {
+            "label": "KQED — \"Farmers Who Refused to Sell Land to California Forever Settle Suits Against Them,\" on the settlements among the 39 defendants.",
+            "type": "secondary",
+            "url": "https://www.kqed.org/news/12005460/farmers-who-refused-to-sell-land-to-california-forever-settle-suits-against-them"
+        }
+    ],
+    "status": "verified",
+    "notes": "Placed under the land-assembly anchor as the domestic case with a full public record: the anonymity of the buyer, the scale, and the antitrust suit against sellers who declined. Judge Nunley's language cuts toward the plaintiff on the price-fixing question; an antitrust expert quoted by Governing says the messaging falls far short of surviving summary judgment. Chase: the docket in Flannery Associates LLC v. Barnes et al., E.D. Cal., for a court-type primary source."
+}

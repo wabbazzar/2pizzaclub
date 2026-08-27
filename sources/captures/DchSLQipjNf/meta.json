@@ -1,0 +1,43 @@
+{
+    "id": "DchSLQipjNf",
+    "url": "https://www.instagram.com/reel/DchSLQipjNf/",
+    "platform": "instagram",
+    "captured_at": "2026-08-27",
+    "handle": "@archambassador",
+    "author_display_name": "Archambassador",
+    "posted_at": "2026-08-26",
+    "engagement": {
+        "likes": 19690,
+        "comments": 1217
+    },
+    "caption": "Why are there so many posing as “tourists” who are allegedly soldiers or Mossad agents, reportedly involved in fires around the world? At the same time, the Israeli state, through the IDF, has been attacking other countries with increasing aggression. Together with a hijacked United States, they seem to be entering a dangerous new “season” of invasions around the world. As for the fires, there are also corporations seeking agricultural, forests and mining lands, water resources, and other strategic assets, sometimes amid alleged collusion with governments. Why does help so often arrive only when it is too late, after fires have destroyed the land and properties? It’s suspiciously convenient when land and resources can later be acquired, especially when political allies subsequently change the laws. It’s all in plain sight.\n\n🔗 Learn more about hybrid warfare and contemporary Trojan horses in the book \"Invisible Walls\", or explore the \"Structures of Power\" shaping our world, available on our website.\n\n@archambassador #geopolitics\n#fuego #fire #wildfire #international",
+    "hashtags": [
+        "geopolitics",
+        "fuego",
+        "fire",
+        "wildfire",
+        "international"
+    ],
+    "audio_track_actual": "Music bed only; no spoken narration. Whisper returns garbled song lyrics.",
+    "video_overlay_text_observed": "Country labels over disaster footage (Greece, Albania, Colombia, Argentina, Chile, Spain, California USA, Iran, Lebanon, Palestina) intercut with screenshots of press headlines: Times of Israel 'Israeli arrested in Greece for negligent arson after BBQ sparks wildfire' (17 Aug 2026); Globes 'Israeli resort to be built in Crete with $500 million investment'; 'Jared Kushner Arrives in Albania as Government Greenlights His Plans For $1.4 Billion Luxury Resort' (21 Jan 2026); Reuters 'Kushner project being developed on disputed land, Albanian villagers say' (13 Jun 2026); 'Israeli tourist caught attempting to start fires in Argentine park' (12 Jan 2026, Los Glaciares, M26 IM grenades); 'Who is Behind the Wildfires in Argentina's Patagonia? Allegations Involving Real Estate, Forestry, and Extractivism'; Al Jazeera 'Chile arrests Israeli tourist for forest fire' (11,000 ha Patagonia park); El Ciudadano 'Wildfire Devastates Penco: Community Claims Fire Raged Near Site Planned for Mining Project'; GRAIN 'The new farm owners: corporate investors lead the rush for control over overseas farmland' (20 Nov 2010); NYT 'The Farmers Had What the Billionaires Wanted'; Guardian 'Tech billionaires' secretive plan to build a California city from scratch'; Guardian 'Israel deliberately starting wildfires in southern Lebanon, firefighters say'. Captions on footage: 'A HOODED MAN SETTING FIRES' (Colombia), 'ISRAELI \"TOURIST\" CAUGHT ATTEMPTING TO START FIRES' (Argentina), 'AFTER ISRAELI ATTACKS' (Iran, Lebanon, Palestina). End card: ARCHAMBASSADOR.COM.",
+    "audio_content_summary": "No speech. The argument is carried entirely by the on-screen headline cards, country labels and the written caption.",
+    "implied_frame": "Assembles real published headlines into an implied single mechanism: fires set worldwide by Israeli operatives posing as tourists, in coordination with corporations and governments, to clear land that is then acquired and rezoned. The individual headlines are real and each is separately documented; the connective thesis is not. The Chubut prosecutors leading the January 2026 Patagonia fire investigation say the Israeli-tourist account 'son un invento' and that their line of inquiry is a local land dispute, while also finding grounds to presume deliberate human ignition. The Los Glaciares video used as the Argentine proof was filmed in Santa Cruz province, about 1,400 km from the Chubut fires, and the men's nationality was never officially confirmed; AI-generated videos of supposed saboteurs circulated alongside it. The Crete arrest was a barbecue during a burn ban, contained in four hours, about 130 km from the Elounda Hills resort site, which has been in development since 2006. The Chilean Torres del Paine cases were prosecuted as fire-ban violations and negligence, never arson. The M26 grenade claim was made by retired general Cesar Milani and activist Luis D'Elia, not by investigators.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~5.7 MB); delivery ~6.0 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-chubut-fires-origin-001",
+        "2026-patagonia-fire-ban-cases-001",
+        "2026-penco-aclara-fire-001",
+        "2026-kushner-albania-sazan-001",
+        "2023-california-forever-flannery-001",
+        "2026-lebanon-woodland-fires-001"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 6,
+        "b": 7,
+        "c": 1
+    },
+    "notes": "Music-only reel; whisper looped on the track during ingest and had to be re-run with --temperature 0 --condition_on_previous_text False, which still returned only garbled lyrics. All editorial content is on-screen text, decomposed from the frame contact sheets."
+}

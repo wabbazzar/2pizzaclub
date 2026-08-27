@@ -1,0 +1,30 @@
+{
+    "id": "2026-patagonia-fire-ban-cases-001",
+    "anchor": "y2026-argentina-land",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "wildfires",
+        "land",
+        "latin-america",
+        "israel"
+    ],
+    "claim": "Three Patagonian fire cases involving Israeli travellers are documented in court and prosecution records, and all three were handled as fire-ban violations or negligence rather than as arson. In December 2011 a fire in Chile's Torres del Paine national park burned more than 11,000 hectares; regional prosecutor Juan Meléndez said the 23-year-old Israeli tourist Rotem Singer had acknowledged a role in negligently allowing it to start, having failed to properly extinguish a roll of toilet paper he was burning. Singer was released on bond and faced 41 to 60 days in jail and fines of $80 to $300. In January 2026 two further Israeli travellers were sanctioned in the same park for breaching its absolute fire prohibition: Halifa Nevo, caught smoking at the Dixon campground, drew a one-year ban on re-entering Chile; Ido Krinsky, caught smoking on the \"O\" circuit between Campamento Serón and the Coirón ranger post on January 15, drew a three-year entry ban and was ordered to donate two million pesos to the Última Esperanza fire service, under a conditional suspension of proceedings approved on February 4, 2026 by Judge Marianela Chacur of the Puerto Natales Juzgado de Garantía. No prosecution in any of the three treated the conduct as deliberate arson.",
+    "sources": [
+        {
+            "label": "Al Jazeera — \"Chile arrests Israeli tourist for forest fire,\" January 1, 2012, on Rotem Singer, the 11,000 hectares burned in Torres del Paine, and the prosecutor's statement.",
+            "type": "secondary",
+            "url": "https://www.aljazeera.com/news/2012/1/1/chile-arrests-israeli-tourist-for-forest-fire",
+            "quote": "acknowledged that he did not properly extinguish a roll of toilet paper he had been burning",
+            "clip": "clips/2026-patagonia-fire-ban-cases-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Cooperativa.cl — on Ido Krinsky's three-year entry ban, the two-million-peso donation, the January 15, 2026 incident on the \"O\" trail, and the February 4, 2026 ruling by Judge Marianela Chacur; also records the earlier one-year ban on Halifa Nevo.",
+            "type": "secondary",
+            "url": "https://www.cooperativa.cl/noticias/pais/region-de-magallanes/torres-del-paine/israeli-que-se-puso-a-fumar-en-torres-del-paine-no-podra-volver-a-chile/2026-02-04/222320.html"
+        }
+    ],
+    "status": "verified",
+    "notes": "Companion to 2026-chubut-fires-origin-001. These are the cases that actually exist on a court record, and they are the raw material the coordinated-arson account is assembled from. Keeping the disposition of each (negligence, fire-ban violation, entry ban) in the claim is the point — the record shows repeated fire-rule breaches in protected parks, and shows no prosecutor treating any of them as intentional. Chilean judiciary primary link (Poder Judicial / Fiscalía de Magallanes) still to be chased for the 2026 rulings."
+}

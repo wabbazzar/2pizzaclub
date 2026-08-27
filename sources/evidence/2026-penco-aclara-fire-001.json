@@ -1,0 +1,40 @@
+{
+    "id": "2026-penco-aclara-fire-001",
+    "anchor": "y2026-land-assembly",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "wildfires",
+        "land",
+        "latin-america",
+        "energy"
+    ],
+    "claim": "Wildfires that began on January 16, 2026 in Chile's Biobío and Ñuble regions burned more than 45,000 hectares, killed 21 people and forced over 50,000 to evacuate, with severe damage in the coastal towns of Penco and Lirquén. The burned ground included the site of the proposed Parque para Penco and stands of queule (Gomortega keule), a critically endangered Chilean tree, inside the footprint of Aclara Resources' Penco Module — a rare-earth mining project that CONAF, Chile's national forestry corporation, had earlier opposed over its impact on the native tree Citronella mucronata. The NGO Corporación Parque para Penco accused Aclara of involvement in the fires to clear the way for the project, saying the fires began in native forest inside the project's scope; Aclara denies the accusation, and no prosecution has been brought on it. Five months after the fire, on June 8, 2026, the Biobío Region's Environmental Assessment Commission unanimously approved the project's Environmental Impact Assessment and authorised the Environmental Qualification Resolution — the RCA, Chile's final environmental permit — which was then formally published in the national environmental assessment system. Over 7,000 people had signed a petition to suspend the project after the fire.",
+    "sources": [
+        {
+            "label": "Wikipedia, \"2026 Biobío wildfires\" — on the January 16 start, 45,000 hectares, 21 deaths, 50,000 evacuated, the damage to Penco and Lirquén, the Corporación Parque Para Penco accusation, and Aclara's denial (with underlying Chilean press citations).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/2026_Biob%C3%ADo_wildfires",
+            "quote": "Aclara Resources denies the accusations",
+            "clip": "clips/2026-penco-aclara-fire-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "El Ciudadano — \"Wildfire Devastates Penco: Community Claims Fire Raged Near Site Planned for Mining Project,\" on the destruction of the planned Parque para Penco and the queule forests inside the Aclara project area.",
+            "type": "secondary",
+            "url": "https://www.elciudadano.com/en/wildfire-devastates-penco-community-claims-fire-raged-near-site-planned-for-mining-project/01/18/"
+        },
+        {
+            "label": "El Ciudadano — \"Over 7,000 Demand Suspension of Rare Earth Project in Penco Following Devastating Wildfire.\"",
+            "type": "secondary",
+            "url": "https://www.elciudadano.com/en/over-7000-demand-suspension-of-rare-earth-project-in-penco-following-devastating-wildfire/02/18/"
+        },
+        {
+            "label": "Aclara Resources — company release on the June 8, 2026 unanimous approval by the Biobío Environmental Assessment Commission and the issuance of the Environmental Qualification Resolution for the Penco Module.",
+            "type": "doc",
+            "url": "https://cdn.prod.website-files.com/67b9c5dc15db73b34fcf2bf3/6a27b292f85bcd73bf159550_Press%20Release%20EIA%20Approval_(Eng).pdf"
+        }
+    ],
+    "status": "verified",
+    "notes": "The sequence is the verifiable part and is stated as sequence, not causation: the fire burned the native forest that was the stated reason CONAF opposed the project, and the permit cleared five months later. The arson allegation is the NGO's, attributed and denied, with no prosecution — kept as an attributed claim. Chase primary links: CONAF's original observation on Citronella mucronata, the SEIA record for the RCA, and the Biobío fiscalía on fire origin."
+}
