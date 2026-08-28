@@ -4,7 +4,7 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 147,
+      "count": 148,
       "seconds": 16026
     },
     {
@@ -148,7 +148,7 @@
     {
       "slug": "energy",
       "topic": "Energy",
-      "count": 1,
+      "count": 2,
       "seconds": 0
     },
     {
@@ -190,7 +190,7 @@
     {
       "slug": "finance",
       "topic": "Finance",
-      "count": 29,
+      "count": 30,
       "seconds": 3419
     },
     {
@@ -238,7 +238,7 @@
     {
       "slug": "idf",
       "topic": "IDF",
-      "count": 13,
+      "count": 14,
       "seconds": 1278
     },
     {
@@ -268,7 +268,7 @@
     {
       "slug": "international-law",
       "topic": "International Law",
-      "count": 5,
+      "count": 6,
       "seconds": 476
     },
     {
@@ -298,7 +298,7 @@
     {
       "slug": "israel",
       "topic": "Israel",
-      "count": 40,
+      "count": 41,
       "seconds": 4238
     },
     {
@@ -328,13 +328,13 @@
     {
       "slug": "land",
       "topic": "Land",
-      "count": 1,
+      "count": 2,
       "seconds": 52
     },
     {
       "slug": "latin-america",
       "topic": "Latin America",
-      "count": 1,
+      "count": 2,
       "seconds": 52
     },
     {
@@ -436,7 +436,7 @@
     {
       "slug": "regional-conflicts",
       "topic": "Regional Conflicts",
-      "count": 10,
+      "count": 11,
       "seconds": 1474
     },
     {
@@ -502,7 +502,7 @@
     {
       "slug": "tech-billionaires",
       "topic": "Tech Billionaires",
-      "count": 6,
+      "count": 7,
       "seconds": 667
     },
     {
@@ -520,7 +520,7 @@
     {
       "slug": "trump",
       "topic": "Trump",
-      "count": 7,
+      "count": 8,
       "seconds": 467
     },
     {
@@ -592,7 +592,7 @@
     {
       "slug": "wildfires",
       "topic": "Wildfires",
-      "count": 2,
+      "count": 3,
       "seconds": 52
     }
   ]
