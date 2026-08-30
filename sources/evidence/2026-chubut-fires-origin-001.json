@@ -9,25 +9,41 @@
         "latin-america",
         "israel"
     ],
-    "claim": "The wildfires that burned the Andean towns of El Hoyo and Epuyén in Argentina's Chubut province began on January 5, 2026. The provincial Ministerio Público Fiscal — the public prosecutors' office — concluded that there were \"elementos suficientes para presumir una intervención humana deliberada\" (sufficient grounds to presume deliberate human intervention): investigators found fuel residue at the ignition point, roughly 300 metres from a road in a remote area with no houses nearby. As of the fact-check, prosecutors had made no arrests and charged no one, and the working line of inquiry was a land dispute between local groups. The prosecutor leading the case rejected the account that circulated internationally — that Israeli soldiers disguised as tourists lit the fires — saying the accusations \"son un invento\" and that \"la investigación no va por ese lado.\" The video most often attached to that account, of a resident confronting two foreigners lighting a fire, was filmed in Los Glaciares National Park in Santa Cruz province, about 1,400 kilometres from the Chubut fires; the person filming identified them as Israeli, which was never officially confirmed. Separately, the retired general César Milani and the activist Luis D'Elía accused Israeli tourists of igniting the blazes with Israel Defense Forces grenades, and AI-generated videos of supposed saboteurs and burning valleys circulated alongside the real footage.",
+    "claim": "The fire that burned through Puerto Patriada and the Andean towns of El Hoyo and Epuyén in Argentina's Chubut province started at about 3pm on January 5, 2026. In a release dated January 7, the Fiscalía de la Circunscripción de Lago Puelo — the provincial prosecutors' office for the area — reported that a specialist fire examiner had detected \"gases inflamables en el foco inicial, compatibles con el uso de acelerantes,\" that there were grounds to presume \"intervención humana deliberada,\" and that the electrical-fault hypothesis initially under consideration had been ruled out. Soil samples went to the Argentine Federal Police laboratory; the Lago Puelo investigations brigade, the El Hoyo police station and the forensic cabinet worked the site. The ignition point was roughly 300 metres from a road in a remote area with no houses nearby. By February 27, 2026 four cases were open — one federal, over the Los Alerces national park fire, and three provincial under prosecutor general Carlos Díaz Mayer — with no one detained and no one charged. Díaz Mayer said the leading hypothesis was a dispute internal to the local community, and described the national-security framing about radicalised groups as \"lo más alejado de la realidad.\" The account that circulated internationally, that Israeli soldiers disguised as tourists lit the fires, was rejected by the prosecutor leading the case as \"un invento\", with \"la investigación no va por ese lado.\" The video most often attached to it, of a resident confronting two foreigners lighting a fire, was filmed in Los Glaciares National Park in Santa Cruz province, about 1,400 kilometres away; the person filming identified them as Israeli, which was never officially confirmed. The retired general César Milani and the activist Luis D'Elía separately accused Israeli tourists of igniting the blazes with Israel Defense Forces grenades, and AI-generated videos of supposed saboteurs circulated alongside the real footage.",
     "sources": [
         {
-            "label": "Chequeado (Argentine fact-checking organisation) — \"Ni israelíes ni mapuches: qué se sabe sobre el origen de los incendios producidos en Chubut y los posibles responsables,\" on the prosecutors' finding, the absence of arrests, the Los Glaciares video's location, and the prosecutor's rejection of the Israeli-tourist account.",
-            "type": "secondary",
-            "url": "https://chequeado.com/el-explicador/que-se-sabe-sobre-el-origen-de-los-incendios-producidos-en-chubut-y-los-posibles-responsables/",
-            "quote": "existen elementos suficientes para presumir una intervención humana deliberada",
+            "label": "Ministerio Público Fiscal de la Provincia del Chubut — \"Incendio en Puerto Patriada: Avanza la investigación de la Fiscalía de Lago Puelo,\" January 7, 2026, on the accelerant finding, the ruling out of an electrical cause, and the agencies working the site.",
+            "type": "primary",
+            "url": "https://www.mpfchubut.gov.ar/centro-de-noticias/lago-puelo/incendio-en-puerto-patriada-avanza-la-investigacion-de-la-fiscalia-de-lago-puelo",
+            "quote": "intervención humana deliberada",
             "clip": "clips/2026-chubut-fires-origin-001-00.png",
             "clip_status": "ok-exact"
         },
         {
-            "label": "Middle East Forum — on the January 2026 accusations by César Milani and Luis D'Elía, the AI-generated videos, and the prosecutors' finding of no evidence of organised arson.",
+            "label": "Cholila Online — \"Incendios en Chubut: cuatro causas y ningún detenido,\" February 27, 2026, on the four open cases, the absence of charges, and prosecutor general Carlos Díaz Mayer on the community-dispute hypothesis.",
+            "type": "secondary",
+            "url": "https://cholilaonline.ar/2026/02/incendios-chubut-causas-sin-imputados.html",
+            "quote": "lo más alejado de la realidad",
+            "clip": "clips/2026-chubut-fires-origin-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Chequeado (Argentine fact-checking organisation) — \"Ni israelíes ni mapuches: qué se sabe sobre el origen de los incendios producidos en Chubut y los posibles responsables,\" on the Los Glaciares video's location in Santa Cruz and the prosecutor's rejection of the Israeli-tourist account.",
+            "type": "secondary",
+            "url": "https://chequeado.com/el-explicador/que-se-sabe-sobre-el-origen-de-los-incendios-producidos-en-chubut-y-los-posibles-responsables/",
+            "quote": "existen elementos suficientes para presumir una intervención humana deliberada",
+            "clip": "clips/2026-chubut-fires-origin-001-02.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Middle East Forum — on the January 2026 accusations by César Milani and Luis D'Elía, the AI-generated videos, and prosecutors finding no evidence of organised arson.",
             "type": "secondary",
             "url": "https://www.meforum.org/mef-observer/the-andinia-hoax-reflects-antisemitic-myths-as-hybrid-weapons-in-the-struggle-for-patagonia",
             "quote": "Argentinian prosecutors found no evidence of organized arson.",
-            "clip": "clips/2026-chubut-fires-origin-001-01.png",
+            "clip": "clips/2026-chubut-fires-origin-001-03.png",
             "clip_status": "ok-exact"
         }
     ],
     "status": "verified",
-    "notes": "Written to separate the primary facts (prosecutors do presume deliberate human ignition; fuel residue; no arrests; land-dispute line of inquiry) from the attributed conclusion (Israeli soldiers/Mossad). Both halves matter: the fire is not being treated as accidental by the prosecutors, and the specific nationality account is refuted by the same prosecutors. Chequeado is the strongest available source; the Chubut MPF's own release should be chased for a primary link. The Los Glaciares geography (Santa Cruz, ~1,400km away) is the single most load-bearing correction."
+    "notes": "Upgraded from a fact-check-only citation to the Chubut MPF's own January 7, 2026 release as the primary. Both halves stand: the prosecutors do treat the ignition as deliberate and found accelerant, and the same prosecutors reject the Israeli-soldier account and name a local land dispute as the leading line. Charging status current to February 27, 2026, the most recent public state-of-play found; no arrest or imputación has been reported since. Díaz Mayer's 'lo más alejado de la realidad' was said of the radicalised-group framing pushed at national level, not of the Israeli-tourist claim, and is quoted that way."
 }

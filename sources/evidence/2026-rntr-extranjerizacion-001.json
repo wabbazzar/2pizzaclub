@@ -1,0 +1,47 @@
+{
+    "id": "2026-rntr-extranjerizacion-001",
+    "anchor": "y2026-argentina-land",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "land",
+        "latin-america",
+        "finance"
+    ],
+    "claim": "Argentina keeps a public registry of how much rural land foreigners hold, and its figures do not show Patagonia being bought out at provincial level, while showing individual Andean departments far above the legal ceiling. Law 26,737 sets a 15 percent cap on foreign ownership of rural land per province, and the Registro Nacional de Tierras Rurales — held by the Ministry of Justice, data current to August 2025 — states that no province exceeds it. Nationally about 13 million rural hectares are in foreign hands, close to 5 percent of the rural surface. Chubut holds 882,628 hectares, about 4 percent; Santa Cruz about 1.9 million hectares, about 8 percent; Neuquén 5.51 percent; Río Negro 1.80 percent. The concentration is at department level, where the cap does not bind: Lácar in Neuquén, which contains San Martín de los Andes, is at 54.17 percent, or 257,346 hectares; Magallanes in Santa Cruz at 25.77 percent; Bariloche in Río Negro at 13.61 percent; and Cushamen in Chubut at about 23 percent, the only Chubut department over the cap. Cushamen is the department that contains El Hoyo, Epuyén, Lago Puelo, Cholila and El Maitén — the towns the January 2026 fires burned through. The registry records ownership shares; it does not record when a parcel changed hands or why, and establishes no connection between the two.",
+    "sources": [
+        {
+            "label": "Registro Nacional de Tierras Rurales, Ministerio de Justicia (Argentina) — official page on extranjerización by province, data as of August 2025.",
+            "type": "primary",
+            "url": "https://www.argentina.gob.ar/justicia/tierrasrurales/datos/extranjerizacion-provincia",
+            "quote": "en ninguna provincia se supera dicho porcentaje",
+            "clip": "clips/2026-rntr-extranjerizacion-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "ADNSUR — August 4, 2026, on Chubut's 882,628 hectares (about 4 percent), Santa Cruz's ~1.9 million (about 8 percent), Cushamen at 23 percent over the cap, and the national ~13 million hectares.",
+            "type": "secondary",
+            "url": "https://www.adnsur.com.ar/sociedad/tierras-extranjerizadas--chubut-tiene-882-000-hectareas-y-santa-cruz-casi-1-9-millones---que-puede-cambiar-con-la-nueva-ley-_a6a71f4f79302a4ae5a5c5530"
+        },
+        {
+            "label": "Baires Post — on Río Negro at 1.80 percent and Neuquén at 5.51 percent, with Lácar at 54.17 percent (257,346 hectares) and Bariloche at 13.61 percent, against the 15 percent provincial cap.",
+            "type": "secondary",
+            "url": "https://bairespost.com/tierras-rurales-que-porcentaje-esta-en-manos-extranjeras-en-rio-negro-y-neuquen/"
+        },
+        {
+            "label": "El Estratégico — August 6, 2026, on the national total of over 13 million hectares (4.97 percent), Santa Cruz at 8.11 percent, and departments over the cap including Lácar (54.17 percent) and Magallanes (25.77 percent).",
+            "type": "secondary",
+            "url": "https://www.elestrategico.com/2026/08/06/mas-de-13-millones-de-hectareas-rurales-estan-en-manos-extranjeras-en-argentina-que-provincias-concentran-los-mayores-porcentajes"
+        },
+        {
+            "label": "Chequeado — \"Cushamen: qué porcentaje de tierras está en manos de extranjeros,\" recording Cushamen above the 15 percent cap in the RNTR data at 19.45 percent.",
+            "type": "secondary",
+            "url": "https://chequeado.com/hilando-fino/cushamen-que-porcentaje-de-tierras-esta-en-manos-de-extranjeros/",
+            "quote": "existen varios departamentos en los que se supera el límite del 15%, entre ellos Cushamen, con el 19,45% de propiedad extranjera",
+            "clip": "clips/2026-rntr-extranjerizacion-001-04.png",
+            "clip_status": "ok-cross-node"
+        }
+    ],
+    "status": "verified",
+    "notes": "Written to answer the land-grab thesis with the registry rather than with an allegation, and it cuts both ways: no province is anywhere near the 15 percent ceiling, and the ceiling is written per province so the departments where foreign ownership actually concentrates are not covered by it. Cushamen containing the burned towns is stated as a fact about the same department and explicitly not as a causal link — the registry has no transaction dates. Companion to 2023-argentina-ley-tierras-repeal-001 (the DNU that struck the cap) and 2026-chubut-fires-origin-001. Cushamen's figure moved from 19.45 percent in the older RNTR series to about 23 percent in the 2026 reporting; both are cited rather than picking one. Chase: the RNTR's own department-level dataset for a primary table, and the Observatorio de Tierras georeferenced map."
+}
