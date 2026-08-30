@@ -1,0 +1,44 @@
+{
+    "id": "DXj6zxADYyI",
+    "url": "https://www.instagram.com/reel/DXj6zxADYyI/",
+    "platform": "instagram",
+    "captured_at": "2026-08-30",
+    "handle": "@rant.board",
+    "author_display_name": "Cole Soiney",
+    "posted_at": "2026-04-25",
+    "engagement": {
+        "likes": 2498,
+        "comments": 34
+    },
+    "caption": "14 missing scientists & counting… PT.1\n\n#fyp #uap #disclosure #missing #scientists",
+    "hashtags": [
+        "fyp",
+        "uap",
+        "disclosure",
+        "missing",
+        "scientists"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Cover card: \"MISSING SCIENTISTS PT 1\". Whiteboard header: \"14 MISSING/DEAD SCIENTISTS?? R.I.P 3-BODY PROBLEM?\" — a 14-line numbered list of names, fields and dispositions.",
+    "audio_content_summary": "Walks a whiteboard roster of twelve people (Loureiro, Grillmair, McCasland, Thomas, Garcia, Maiwald, Reza, Hicks, Casias, Chavez, and James and Andrew Moffatt), giving each one's field, employer and official disposition, and flagging where the speaker finds the official account thin.",
+    "implied_frame": "Frames the cluster as a possible suppression of propulsion-adjacent research ahead of a disclosure event. Unsupported assertions carried in the audio: that Wright-Patterson stored the Roswell crash; that McCasland was an assistant to the head of Project Blue Book (Blue Book closed in 1969, decades before his career); that Loureiro's fusion and magnetic-reconnection work points at UAP propulsion; that Grillmair's 2009 exoplanet-water result is being recycled as disinformation. Factual errors: Jason Thomas is described as still missing (his body was recovered from Lake Quannapowitt in March 2026) and Steven Garcia's employer is placed in New Mexico (the Kansas City National Security Campus is in Missouri; he lived in Albuquerque).",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~41.3 MB); delivery ~50.9 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-scientist-cluster-001",
+        "2025-loureiro-killing-001",
+        "2026-grillmair-killing-001",
+        "2026-mccasland-missing-001",
+        "2025-jpl-deaths-001",
+        "2025-nm-nuclear-missing-001",
+        "2025-thomas-novartis-001",
+        "2026-moffatt-crash-001"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 8,
+        "b": 10,
+        "c": 4
+    }
+}

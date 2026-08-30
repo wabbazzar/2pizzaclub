@@ -1,0 +1,38 @@
+{
+    "id": "2026-mccasland-missing-001",
+    "anchor": "y2026-scientist-cluster",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "scientist-deaths",
+        "us-government",
+        "fbi",
+        "uap",
+        "new-mexico"
+    ],
+    "claim": "William Neil McCasland, 68, a retired Air Force major general, left his Albuquerque, New Mexico home on February 27, 2026 and has not been seen since. He commanded the Air Force Research Laboratory (AFRL) at Wright-Patterson Air Force Base in Ohio and, earlier, the AFRL Phillips Research Site at Kirtland Air Force Base in New Mexico, and held director-level posts at the Pentagon. Searchers recovered a light green shirt and hiking boots; his wallet, a .38 caliber revolver, a leather holster and a red backpack remain unaccounted for. Officials said at a March news conference that McCasland had reported \"mental fog\" before he disappeared and had cited it in stepping down from groups he worked with. The FBI joined the search within two weeks. Authorities have said there is no evidence linking the disappearance to research on unidentified anomalous phenomena (UAP); after his retirement McCasland briefly worked with To The Stars, the company co-founded by musician Tom DeLonge that says it studies such reports.",
+    "sources": [
+        {
+            "label": "ABC7 — “William Neil McCasland missing: Retired Air Force major general once led Wright-Patterson, Ohio base steeped in UFO theories.”",
+            "type": "secondary",
+            "url": "https://abc7ny.com/post/william-neil-mccasland-missing-retired-air-force-major-general-led-wright-patterson-ohio-base-steeped-ufo-theories/18724549/",
+            "quote": "McCasland reported experiencing mental fog before he disappeared and the sensation was cited as the reason for stepping down from different groups he worked with, officials said during a news conference Monday.",
+            "clip": "clips/2026-mccasland-missing-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "House Committee on Oversight and Government Reform — Comer and Burlison letter to FBI Director Kash Patel, April 20, 2026.",
+            "type": "primary",
+            "url": "https://oversight.house.gov/wp-content/uploads/2026/04/FBI-Missing-Scientists-Letter_4.20.26.pdf",
+            "quote": "In February 2026 retired Air Force General William Neil McCasland disappeared from his Albuquerque, New Mexico home with a .38 caliber revolver, and remains missing.",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://oversight.house.gov/wp-content/uploads/2026/04/"
+        },
+        {
+            "label": "CNN — “FBI involved in search for retired Air Force major general missing for nearly 2 weeks” (March 11, 2026).",
+            "type": "secondary",
+            "url": "https://www.cnn.com/2026/03/11/us/retired-air-force-general-fbi-search"
+        }
+    ],
+    "status": "verified",
+    "notes": "Wright-Patterson is the base at the center of Roswell folklore, which is why this case drove the cluster into public view; that association is folklore, not a finding, and stays out of the claim. The .38 revolver detail comes from the Oversight letter itself, which is the cleanest citation for it. CNN returns 451 to WebFetch from this network; cited by URL without a quote."
+}

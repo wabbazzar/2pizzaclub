@@ -1,0 +1,42 @@
+{
+    "id": "2026-scientist-cluster-001",
+    "anchor": "y2026-scientist-cluster",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "congress",
+        "scientist-deaths",
+        "us-government",
+        "fbi",
+        "uap"
+    ],
+    "claim": "On April 20, 2026 the U.S. House Committee on Oversight and Government Reform opened an inquiry into a run of deaths and disappearances among people with access to sensitive American scientific work. Chairman James Comer and Representative Eric Burlison, who chairs the subcommittee on economic growth, energy policy and regulatory affairs, wrote to FBI Director Kash Patel, NASA administrator Jared Isaacman, Energy Secretary Chris Wright and Defense Secretary Pete Hegseth, citing press reports that at least ten people with \"a connection to U.S. nuclear secrets or rocket technology\" had \"died or mysteriously vanished in recent years,\" and asking each agency for a staff-level briefing by April 27. The letter names Michael David Hicks and Monica Reza of NASA's Jet Propulsion Laboratory (JPL) and retired Air Force Major General William Neil McCasland, and reproduces a reported \"close professional connection\" between Reza and McCasland through an Air Force-funded research program in the early 2000s on \"advanced materials needed for reusable space vehicles and weapons.\" The committee describes the underlying reporting as unconfirmed and asks whether U.S. scientific personnel are at risk; it asserts no cause.",
+    "sources": [
+        {
+            "label": "House Committee on Oversight and Government Reform — Comer and Burlison letter to FBI Director Kash Patel, April 20, 2026.",
+            "type": "primary",
+            "url": "https://oversight.house.gov/wp-content/uploads/2026/04/FBI-Missing-Scientists-Letter_4.20.26.pdf",
+            "quote": "These reports allege that at least ten individuals who “had a connection to U.S. nuclear secrets or rocket technology,” have “died or mysteriously vanished in recent years.”",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://oversight.house.gov/wp-content/uploads/2026/04/"
+        },
+        {
+            "label": "House Committee on Oversight and Government Reform — Comer and Burlison letter to FBI Director Kash Patel, April 20, 2026 (Reza–McCasland paragraph).",
+            "type": "primary",
+            "url": "https://oversight.house.gov/wp-content/uploads/2026/04/FBI-Missing-Scientists-Letter_4.20.26.pdf",
+            "quote": "Reports have even alleged a direct link between Ms. Reza and General McCasland characterizing them as having a “close professional connection” through an Air Force-funded research program in the early 2000s pertaining to “advanced materials needed for reusable space vehicles and weapons.”",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://oversight.house.gov/wp-content/uploads/2026/04/"
+        },
+        {
+            "label": "House Oversight and Government Reform — “Comer & Burlison Seek Information on Missing Nuclear and Rocket Scientists” (press release).",
+            "type": "primary",
+            "url": "https://oversight.house.gov/release/comer-burlison-seek-information-on-missing-nuclear-and-rocket-scientists/"
+        },
+        {
+            "label": "Axios — “Missing scientists working on space and nuclear projects alarm Congress” (April 23, 2026).",
+            "type": "secondary",
+            "url": "https://www.axios.com/2026/04/23/missing-scientists-space-nuclear-congress-investigating"
+        }
+    ],
+    "status": "verified",
+    "notes": "The letter PDF is the spine of this anchor: it is the government's own framing, and it is careful to call the underlying press reporting unconfirmed. oversight.house.gov returns 403 to WebFetch; the PDF pulls fine with a browser UA via curl and pdftotext. Companion letters went to NASA, DOE and DoD on the same date. Trump (April 2026) called it \"pretty serious stuff\"; Press Secretary Leavitt said the White House was working with agencies and the FBI to review the cases together."
+}

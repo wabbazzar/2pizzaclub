@@ -1,0 +1,50 @@
+{
+    "id": "2025-nm-nuclear-missing-001",
+    "anchor": "y2026-scientist-cluster",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "scientist-deaths",
+        "new-mexico",
+        "us-government",
+        "weapons"
+    ],
+    "claim": "Three people connected to the U.S. nuclear weapons complex vanished from northern New Mexico within four months of each other in 2025. Anthony \"Tony\" Chavez, 78, a retired Los Alamos National Laboratory facilities worker, walked out of his home on 37th Street in Los Alamos on May 4, 2025, leaving his wallet, car keys and personal effects behind and his car locked in the driveway; the Los Alamos Police Department made the case inactive on October 6, 2025 for lack of any new information. Melissa Casias, 53, an administrative assistant at Los Alamos, disappeared on June 26, 2025 after failing to arrive at work; a hiker found her remains on May 28, 2026 in the McGaffey Ridge area of Carson National Forest, roughly fifteen miles from her home in Taos, with a handgun nearby, and the medical examiner had not determined a cause or manner of death when the identification was announced. Steven Garcia, 47, a contract property custodian with badged access at the Kansas City National Security Campus — the plant that makes more than 80 percent of the non-nuclear components in U.S. nuclear weapons — left his Albuquerque home on foot on August 28, 2025 carrying a handgun and remains missing.",
+    "sources": [
+        {
+            "label": "CBS News — “Lab worker who vanished last year found dead in New Mexico national forest.”",
+            "type": "secondary",
+            "url": "https://www.cbsnews.com/news/lab-worker-melissa-casias-dead-new-mexico-national-forest/",
+            "quote": "a handgun was found near the remains",
+            "clip": "clips/2025-nm-nuclear-missing-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Los Alamos Reporter — “Social Media Pages Voice Concern About Anthony ‘Tony’ Chavez Of Los Alamos, Last Seen May 4” (May 12, 2025).",
+            "type": "secondary",
+            "url": "https://losalamosreporter.com/2025/05/12/social-media-pages-voice-concern-about-anthony-tony-chavez-of-los-alamos-last-seen-may-4/",
+            "quote": "His car was locked and parked in his driveway. His wallet, car keys and personal items were in his home.",
+            "clip_status": "http-403"
+        },
+        {
+            "label": "New Mexico Department of Public Safety — missing person record, Anthony Chavez.",
+            "type": "primary",
+            "url": "https://missingpersons.dps.nm.gov/mpweb/mpdetailreport_serv?id=M99969"
+        },
+        {
+            "label": "FOX4 Kansas City — “Man contracted out of Kansas City nuclear facility among 10 missing, dead in US.”",
+            "type": "secondary",
+            "url": "https://fox4kc.com/news/man-contracted-out-of-kansas-city-nuclear-facility-among-10-missing-dead-in-us/"
+        },
+        {
+            "label": "Wikipedia — “Missing scientists conspiracy theory,” case table (with per-case citations).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Missing_scientists_conspiracy_theory",
+            "quote": "Contract property custodian at the Kansas City National Security Campus",
+            "clip": "clips/2025-nm-nuclear-missing-001-04.png",
+            "clip_status": "ok-cross-node"
+        }
+    ],
+    "status": "verified",
+    "notes": "Garcia is routinely described as working at a New Mexico nuclear site because he lived in Albuquerque; the facility is in Missouri and he was a contractor there. Chavez is described in different outlets as a construction foreman and as an HVAC technician; \"facilities worker\" covers both without over-claiming. Casias' remains were found a month after this cluster hit national coverage, so earlier accounts describing her as last seen walking a highway are superseded. Neither Chavez nor Casias held a research role — that is the fact that most of the popular framing drops. FOX4 returns 403 to WebFetch from this network."
+}

@@ -1,0 +1,37 @@
+{
+    "id": "2025-loureiro-killing-001",
+    "anchor": "y2026-scientist-cluster",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "scientist-deaths",
+        "energy",
+        "science"
+    ],
+    "claim": "Nuno Loureiro, 47, professor of plasma physics at the Massachusetts Institute of Technology and director of its Plasma Science and Fusion Center, was shot at his home in Brookline, Massachusetts on December 15, 2025 and died at a nearby hospital the following day. Investigators link the killing to Claudio Neves Valente, 48, a Portuguese national and former Brown University student who two days earlier shot two Brown students dead and wounded nine others in Providence; surveillance footage placed Valente in Brookline in the same clothing recorded at Brown. Valente was found dead of a self-inflicted gunshot wound in a New Hampshire storage facility. The two men were classmates in an engineering program at Instituto Superior Técnico in Lisbon between 1995 and 2000; Loureiro finished his physics degree there in 2000, the same year Valente was terminated from a position at the institute. On April 29, 2026 the FBI and the U.S. Attorney for the District of Massachusetts said the murder had no nexus to terrorism.",
+    "sources": [
+        {
+            "label": "CBS News — “Renowned MIT professor Nuno Loureiro remembered as brilliant scientist as search for his killer continues.”",
+            "type": "secondary",
+            "url": "https://www.cbsnews.com/news/mit-professor-nuno-loureiro-brilliant-scientist-murder-search-killer/",
+            "quote": "shot at his home in Brookline, Massachusetts, Monday and died at a nearby hospital the next day",
+            "clip": "clips/2025-loureiro-killing-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Associated Press via Yahoo News — “Gunman in Brown University shooting, slain MIT professor had shared history tracing back decades.”",
+            "type": "secondary",
+            "url": "https://www.yahoo.com/news/articles/gunman-brown-university-shooting-slain-131824692.html",
+            "quote": "Valente and Loureiro were classmates at an engineering program in Portugal, between 1995 and 2000.",
+            "clip": "clips/2025-loureiro-killing-001-01.png",
+            "clip_status": "ok-head30"
+        },
+        {
+            "label": "NBC News — “MIT professor killed at his home.”",
+            "type": "secondary",
+            "url": "https://www.nbcnews.com/news/us-news/mit-professor-killed-shooting-home-rcna249582"
+        }
+    ],
+    "status": "verified",
+    "notes": "Loureiro's field is magnetically confined fusion and magnetic reconnection — the physics of solar flares. That is the hook for propulsion-adjacent readings of his death, but investigators attribute the killing to a decades-old personal grievance and have publicly ruled out terrorism. Keep the propulsion reading out of the claim; it is an inference, not a finding."
+}

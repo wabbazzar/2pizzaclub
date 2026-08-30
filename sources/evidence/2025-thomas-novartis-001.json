@@ -1,0 +1,36 @@
+{
+    "id": "2025-thomas-novartis-001",
+    "anchor": "y2026-scientist-cluster",
+    "year": 2025,
+    "era": "iv",
+    "themes": [
+        "scientist-deaths",
+        "pharma",
+        "science"
+    ],
+    "claim": "Jason Thomas, an associate director of chemical biology at the pharmaceutical company Novartis, left his home in Wakefield, Massachusetts shortly before midnight on December 12, 2025 and was reported missing by his wife in the early hours of December 13. Surveillance footage recorded him walking near train tracks. His wife said he had been struggling since the deaths of both his parents the previous autumn, an hour apart. On March 17, 2026, after the ice thawed, a Wakefield police detective located a body in Lake Quannapowitt; it was recovered and identified as Thomas. Middlesex District Attorney Marian Ryan and Wakefield Police Chief Steven Skory said police did not suspect foul play.",
+    "sources": [
+        {
+            "label": "Boston.com — “Body pulled from Wakefield lake believed to be that of missing man” (March 17, 2026).",
+            "type": "secondary",
+            "url": "https://www.boston.com/news/local-news/2026/03/17/body-pulled-from-wakefield-lake-believed-to-be-that-of-missing-man/",
+            "quote": "Police do not suspect foul play at this time.",
+            "clip": "clips/2025-thomas-novartis-001-00.png",
+            "clip_status": "ok-head30"
+        },
+        {
+            "label": "People via Yahoo — “Body Found in Lake Believed to Belong to Scientist Who Disappeared 3 Months Ago While Grieving Parents' Deaths.”",
+            "type": "secondary",
+            "url": "https://www.yahoo.com/news/articles/body-found-lake-believed-belong-145740870.html"
+        },
+        {
+            "label": "House Committee on Oversight and Government Reform — Comer and Burlison letter to FBI Director Kash Patel, April 20, 2026.",
+            "type": "primary",
+            "url": "https://oversight.house.gov/wp-content/uploads/2026/04/FBI-Missing-Scientists-Letter_4.20.26.pdf",
+            "quote": "a pharmaceutical researcher",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://oversight.house.gov/wp-content/uploads/2026/04/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Thomas is the \"pharmaceutical researcher\" the Oversight letter counts without naming. Popular versions of the roster still list him as missing; he was found in March 2026. Claims tying him to a 2013 DARPA mRNA contract run through his employer, not through him, and no primary document connects him to that work — left out."
+}

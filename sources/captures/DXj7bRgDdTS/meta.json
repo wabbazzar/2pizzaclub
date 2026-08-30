@@ -1,0 +1,39 @@
+{
+    "id": "DXj7bRgDdTS",
+    "url": "https://www.instagram.com/reel/DXj7bRgDdTS/",
+    "platform": "instagram",
+    "captured_at": "2026-08-30",
+    "handle": "@rant.board",
+    "author_display_name": "Cole Soiney",
+    "posted_at": "2026-04-25",
+    "engagement": {
+        "likes": 2029,
+        "comments": 78
+    },
+    "caption": "14 missing scientists & counting… PT. 2 Amy Eskridge & David Wilcock\n\n#fyp #uap #disclosure #missing #scientists",
+    "hashtags": [
+        "fyp",
+        "uap",
+        "disclosure",
+        "missing",
+        "scientists"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Cover card: \"MISSING SCIENTISTS PT 2\" over the same whiteboard; lines 13 and 14 cover David Wilcock and Amy Eskridge.",
+    "audio_content_summary": "Covers David Wilcock's death and Amy Eskridge's, then relays Eskridge's own claims about directed-energy harassment, an anti-gravity breakthrough held back from release, and time-travelling 'ultraterrestrials'.",
+    "implied_frame": "Frames both deaths as suppression rather than suicide. Unsupported assertions: that Eskridge 'proved out' the TR-3B gravitic craft in 2018 (her 2018 Huntsville L5 talk was a historical survey of electrogravitics claims, not an experimental result); that the TR-3B is a patented military craft; that anti-gravity has been discovered and buried four or five times, including by Ning Li (who died in 2021 of Alzheimer's after a 2014 pedestrian collision); that elites time-travel from timelines 47,000 and 52,000 years out; that Wilcock is the reincarnation of Edgar Cayce and channels 'blue avians'; that seven or eight Chinese scientists in the same fields have vanished in two years. Contested but real: Eskridge's texts to a former British intelligence officer, her Havana-syndrome and directed-energy claims, and Rep. Eric Burlison's public endorsement of them — her father, a retired NASA Marshall engineer, publicly rejects the conspiracy reading.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~37.4 MB); delivery ~44.4 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-wilcock-death-001",
+        "2022-eskridge-death-001",
+        "2026-scientist-cluster-001"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 3,
+        "b": 8,
+        "c": 7
+    }
+}

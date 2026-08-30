@@ -1,0 +1,28 @@
+{
+    "id": "2026-wilcock-death-001",
+    "anchor": "y2026-scientist-cluster",
+    "year": 2026,
+    "era": "iv",
+    "themes": ["scientist-deaths", "uap", "epstein"],
+    "claim": "David Wilcock, 53, an author and YouTube personality who worked on ufology, consciousness and secret-space-program claims and appeared regularly on the History Channel series \"Ancient Aliens,\" died near Nederland, Colorado on April 20, 2026. The Boulder County Sheriff's Office said deputies responded to a mental-health crisis call at about 10:45 a.m., found Wilcock outside the residence holding a weapon, and that within minutes of their arrival he used it on himself. His family said he took his own life after a long struggle with depression and financial debt. He is on the popular roster of dead and missing scientists; he was not a scientist and is not named in the House Oversight letters. Wilcock also appears in the Epstein estate release: in a June 2014 thread about building an \"Edge.org for consciousness,\" later forwarded to Jeffrey Epstein in August 2016, the author Daniel Pinchbeck names him as an example of methodology he finds indefensible.",
+    "sources": [
+        {
+            "label": "Epstein Files Transparency Act release, DOJ Data Set 9 — document EFTA00700415, Gino Yu to Jeffrey Epstein, Aug. 6, 2016, forwarding a June 12, 2014 thread from Daniel Pinchbeck.",
+            "type": "primary",
+            "url": null,
+            "quote": "I have also found myself at conferences with many people whose methodologies appall me, such as David Wilcock or Keisha Crowthers."
+        },
+        {
+            "label": "Fox News — “Paranormal author David Wilcock dead at 53 in Colorado, authorities say.”",
+            "type": "secondary",
+            "url": "https://www.foxnews.com/us/ufo-writer-paranormal-youtuber-dies-suicide-home-mental-health-call-police"
+        },
+        {
+            "label": "The Washington Times — “David Wilcock, UFO writer and ‘Ancient Aliens’ figure, dead at 53” (April 22, 2026).",
+            "type": "secondary",
+            "url": "https://www.washingtontimes.com/news/2026/apr/22/david-wilcock-ufo-writer-ancient-aliens-figure-dead-53/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The EFTA hit is ours, not from any secondary write-up: grep of ~/data/epstein-files/work/corpus.jsonl surfaces EFTA00700415, a 2016 mail from Gino Yu to jeevacation@gmail.com forwarding a 2014 Deepak Chopra / Ken Jordan / Daniel Pinchbeck thread on organizing a counter to \"militant atheism.\" Pinchbeck's line naming Wilcock is the only substantive Wilcock reference in the release; the other nine grep hits are OCR noise (Frank Wilczek, a Daily Mail byline, a citation to Dando, Wilcock & Milne 2009). It establishes that Wilcock's name circulated in that milieu, nothing more. No stable public URL for the raw DS9 text; the doc id is the citation. Wilcock's own claims — reincarnation of Edgar Cayce, the \"blue avians,\" bloodline threats — are his assertions and are not carried here."
+}

@@ -1,0 +1,29 @@
+{
+    "id": "2026-moffatt-crash-001",
+    "anchor": "y2026-scientist-cluster",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "scientist-deaths",
+        "science",
+        "defense"
+    ],
+    "claim": "A Mooney M20 single-engine aircraft went down in woods near Union County Airport in South Carolina at about 6:30 p.m. on April 17, 2026, killing all four people aboard: James \"Tony\" Moffatt, 60, his wife Leasa, 61, and their sons Andrew, 30, and William, 28. The family was from Huntsville, Alabama and had stopped to refuel on a flight from the Raleigh-Durham area. James Moffatt held a master's in aerospace engineering from Georgia Tech, trained at the U.S. Naval Test Pilot School, served 21 years in the military, worked as a payload and flight crew support specialist in NASA's Johnson Space Center Astronaut Office across 14 Space Shuttle missions to build the International Space Station, founded the consultancy Moffatt Systems Inc. after retiring from the Army in 2008, and was a principal research engineer at the University of Alabama in Huntsville's research center. Andrew Moffatt was a research engineer at the same university's Research and Engineering Support Center. The National Transportation Safety Board and Federal Aviation Administration opened an investigation and have not released a cause.",
+    "sources": [
+        {
+            "label": "Fox News — “Aerospace defense engineer, military veteran killed in plane crash with family.”",
+            "type": "secondary",
+            "url": "https://www.foxnews.com/us/aerospace-defense-engineer-military-veteran-killed-plane-crash-family",
+            "quote": "authorities have not yet released a cause of the crash",
+            "clip": "clips/2026-moffatt-crash-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Yahoo News — “Aerospace defense engineer, military veteran killed in plane crash with family.”",
+            "type": "secondary",
+            "url": "https://www.yahoo.com/news/articles/aerospace-defense-engineer-military-veteran-200628242.html"
+        }
+    ],
+    "status": "verified",
+    "notes": "Added to the popular roster because the crash fell three days before David Wilcock's death and because Huntsville is also where Amy Eskridge and Joshua LeBlanc died. Two of the four killed were not researchers. The NTSB docket is the thing to watch; no cause is on the record yet. Not named in the Oversight letter."
+}

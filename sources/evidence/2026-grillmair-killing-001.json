@@ -1,0 +1,36 @@
+{
+    "id": "2026-grillmair-killing-001",
+    "anchor": "y2026-scientist-cluster",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "scientist-deaths",
+        "science"
+    ],
+    "claim": "Carl Grillmair, 67, an astronomer at IPAC — Caltech's science and data center for astronomy and planetary science, where he had worked since 1997 — was found shot dead on the porch of his home in Llano, in the rural Antelope Valley of Los Angeles County, on February 16, 2026. Freddy Snyder, 29, a local resident, was arrested after a carjacking and charged with Grillmair's murder along with burglary and carjacking counts; bail was set at $2 million. Snyder had been arrested in December 2025 after trespassing on Grillmair's property while carrying a rifle. Investigators have said the two men were not otherwise known to each other and have identified no motive. Grillmair's published work spanned exoplanet atmospheres, galactic structure and stellar streams left by collisions between the Milky Way and smaller galaxies.",
+    "sources": [
+        {
+            "label": "The California Tech (Caltech) — “Caltech Astrophysicist Carl Grillmair Dies at 67.”",
+            "type": "primary",
+            "url": "https://tech.caltech.edu/2026/03/17/caltech-astrophysicist-carl-griillmair-dies-at-67/",
+            "quote": "Carl Grillmair, an astronomer at Caltech's IPAC science and data center for astronomy and planetary science, died on February 16.",
+            "clip": "clips/2026-grillmair-killing-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "ABC7 Los Angeles — “Man charged with killing Caltech astrophysicist Carl Grillmair in Llano after carjacking his own relative, burglarizing a home.”",
+            "type": "secondary",
+            "url": "https://abc7.com/post/man-charged-killing-caltech-astrophysicist-carl-grillmair-llano-carjacking-own-relative-burglarizing-home/18626990/",
+            "quote": "Snyder had been arrested in December after trespassing on Grillmair's property while carrying a rifle.",
+            "clip": "clips/2026-grillmair-killing-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "FOX 11 Los Angeles — “Man charged with killing Caltech scientist was arrested 2 months earlier.”",
+            "type": "secondary",
+            "url": "https://www.foxla.com/news/caltech-scientist-carl-grillmair-suspect-freddy-snyder-charged"
+        }
+    ],
+    "status": "verified",
+    "notes": "Date discrepancy: Caltech's own obituary gives February 16; ABC7 reports the body was found Monday, February 17. The Caltech date is used. The December trespass arrest is the documented prior contact between the two men and undercuts the \"random stranger\" reading in either direction — it establishes contact without establishing motive."
+}
