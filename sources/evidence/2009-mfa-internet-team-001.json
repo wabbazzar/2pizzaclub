@@ -1,0 +1,25 @@
+{
+    "id": "2009-mfa-internet-team-001",
+    "anchor": "y2009-narrative-ops",
+    "year": 2009,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "internet",
+        "journalism",
+        "palestine"
+    ],
+    "claim": "In July 2009 Israel's foreign ministry confirmed it had added an internet team to its budget to place pro-Israel messages in the comment sections of foreign news sites, staffed by volunteers writing under their own apparent identities. Ilan Shturman, then deputy director of the ministry's public-diplomacy (hasbara) department, described the method: \"They will speak as net-surfers and as citizens, and will write responses that will look personal but will be based on a prepared list of messages.\" About $150,000 was set aside for the first stage. Shturman said the practice was carried over from the December 2008–January 2009 Gaza operation, when the ministry recruited volunteers and \"gave them background material and hasbara material, and we sent them to represent the Israeli point of view on news websites.\"",
+    "sources": [
+        {
+            "label": "Jonathan Cook, The National (Abu Dhabi), \"Israel deploys cyber team to spread positive spin,\" July 21, 2009.",
+            "type": "secondary",
+            "url": "https://www.thenationalnews.com/world/mena/israel-deploys-cyber-team-to-spread-positive-spin-1.538914",
+            "quote": "They will speak as net-surfers and as citizens, and will write responses that will look personal but will be based on a prepared list of messages.",
+            "clip": "clips/2009-mfa-internet-team-001-00.png",
+            "clip_status": "ok-head60"
+        }
+    ],
+    "status": "verified",
+    "notes": "The quotes are the ministry's own deputy hasbara director, given to Israeli media (Calcalist / Ynet) in July 2009 and carried in Cook's write-up, which is the version reachable to our fetcher. The ministry described the volunteers as writing personal-looking responses from a prepared message list; it did not describe concealment of the campaign's existence, which was announced. Head of the internet team named as Elon Gilad."
+}

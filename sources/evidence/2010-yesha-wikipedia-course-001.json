@@ -1,0 +1,29 @@
+{
+    "id": "2010-yesha-wikipedia-course-001",
+    "anchor": "y2009-narrative-ops",
+    "year": 2010,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "internet",
+        "journalism",
+        "palestine"
+    ],
+    "claim": "In August 2010 the group My Israel, together with the Yesha Council — the umbrella body of Israeli settlement municipalities in the West Bank, then directed by Naftali Bennett, who became prime minister in 2021 — ran workshops teaching activists how to edit Wikipedia. About 50 people took the course, organized by Ayelet Shaked, later Israel's justice minister. Bennett described the aim as inclusion rather than capture: \"Idea is not to make Wikipedia rightist but for it to include our point of view.\" Asked about the campaign in 2011, Wikipedia co-founder Jimmy Wales said there had been \"absolutely no impact from that effort whatsoever.\"",
+    "sources": [
+        {
+            "label": "Nir Hasson, Haaretz, \"The Right's Latest Weapon: 'Zionist Editing' on Wikipedia,\" August 18, 2010.",
+            "type": "secondary",
+            "url": "https://www.haaretz.com/2010-08-18/ty-article/the-rights-latest-weapon-zionist-editing-on-wikipedia/0000017f-e69d-d97e-a37f-f7fdd4230000"
+        },
+        {
+            "label": "\"My Israel,\" English Wikipedia, citing the 2010 Haaretz, Guardian, Ynetnews and Arutz Sheva coverage and Wales's 2011 remarks.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/My_Israel",
+            "quote": "Idea is not to make Wikipedia rightist but for it to include our point of view.",
+            "clip_status": "quote-not-found"
+        }
+    ],
+    "status": "verified",
+    "notes": "Haaretz is the originating report (Nir Hasson, 18 Aug 2010) but sits behind a paywall for our fetcher, so the verbatim is taken from the aggregator page that carries the same quote with its footnotes. The course was public and announced, not covert — unlike the 2008 Isra-pedia list. Wales's assessment is carried so the card does not leave an unmeasured effect implied. Bennett was Yesha Council director-general at the time, not a minister; Shaked organized the project. A widely repeated detail — a prize for the 'Best Zionist Editor' over four years — is not on the aggregator page we read and was not confirmed against Haaretz, so it is left out of the claim."
+}

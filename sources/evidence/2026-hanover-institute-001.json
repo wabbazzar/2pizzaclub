@@ -1,0 +1,45 @@
+{
+    "id": "2026-hanover-institute-001",
+    "anchor": "y2026-shaping-the-record",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "israel",
+        "ai",
+        "journalism",
+        "internet",
+        "lobbying"
+    ],
+    "claim": "A website calling itself the Hanover Institute for Public Policy published 124 reports totaling more than 560,000 words between August 6 and August 14, 2026. An investigation by The Guardian, published August 26, 2026, found no legal entity, no physical address, no named staff and no bylines behind the name; almost every headline is phrased as a question a person would type into a chatbot, and the detection tool GPTZero flagged 11 of 12 sampled reports as machine-written with high confidence. The site's material is registered with the U.S. Justice Department under the Foreign Agents Registration Act (FARA) — the 1938 law requiring agents of foreign governments to disclose their work — by Piro, Inc., a New York media production company. Piro's own FARA filings name its foreign principal as Havas Media Germany GmbH acting on behalf of the Israel Government Advertising Agency (LaPam), a branch of the Israeli government, and describe the engagement as content work \"undertaken on behalf of the Israel Ministry of Foreign Affairs.\"",
+    "sources": [
+        {
+            "label": "Piro, Inc., FARA registration no. 7732, Exhibit A/B and attached Havas Media work order dated July 20, 2026, received by the NSD/FARA Registration Unit July 29, 2026.",
+            "type": "primary",
+            "url": "https://efile.fara.gov/docs/7732-Exhibit-AB-20260729-1.pdf",
+            "quote": "Piro, Inc. is engaged to provide strategy, research, editorial development, creative, production, distribution planning, and related services for a fact-based public-information content initiative undertaken on behalf of the Israel Ministry of Foreign Affairs.",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://efile.fara.gov/docs/7732-Exhibit-AB-20260729-1."
+        },
+        {
+            "label": "Piro, Inc., FARA Exhibit A, received June 2, 2026 — foreign principal and represented country.",
+            "type": "primary",
+            "url": "https://efile.fara.gov/docs/7732-Exhibit-AB-20260602-0.pdf",
+            "quote": "Havas Media Germany GmbH on behalf of the Israel Government Advertising Agency (LaPam)",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://efile.fara.gov/docs/7732-Exhibit-AB-20260602-0."
+        },
+        {
+            "label": "The Guardian, investigation into the Hanover Institute for Public Policy, published August 26, 2026 (headline as carried by syndicating outlets: \"Israel-funded campaign used fake US thinktank to influence AI chatbots\").",
+            "type": "secondary",
+            "url": null
+        },
+        {
+            "label": "Ynetnews, \"124 reports in nine days: Inside Israel's fake think tank bid to shape ChatGPT,\" August 2026.",
+            "type": "secondary",
+            "url": "https://www.ynetnews.com/article/b182i66vzl",
+            "quote": "The site was registered with the U.S. Justice Department this month by New York media production company Piro Inc. under the Foreign Agents Registration Act, or FARA, as material distributed on behalf of the Israeli government.",
+            "clip": "clips/2026-hanover-institute-001-03.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "The FARA filings are ours, pulled from efile.fara.gov and read with pdftotext; registrant 7732 = Piro, Inc., 244 Fifth Avenue Suite 2144, New York, registered 06/02/2026, foreign principal Havas Media Germany GmbH for LaPam, officials named as Eran Shayovitch and Guy Getz. The report/word counts, the missing-entity finding and the GPTZero result are The Guardian's, carried as attributed reporting, not as our own verification; theguardian.com blocks our fetcher, so the URL is left null and Ynetnews carries the verbatim. What the operation actually did to any chatbot's output is not established by any of these sources and is not claimed here. See also 2025-clock-tower-gpt-framing-001 for the earlier FARA-filed contract language about GPT framing. Guardian byline not captured: the piece is unreachable to our fetcher and the syndicating outlets (Arab News, Ynetnews, Helsinki Times) name the outlet without the byline, so the citation is to the outlet and date only."
+}

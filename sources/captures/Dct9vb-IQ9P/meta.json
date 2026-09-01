@@ -1,0 +1,41 @@
+{
+    "id": "Dct9vb-IQ9P",
+    "url": "https://www.instagram.com/reel/Dct9vb-IQ9P/",
+    "platform": "instagram",
+    "captured_at": "2026-09-01",
+    "handle": "@benswann_",
+    "author_display_name": "Ben Swann",
+    "posted_at": "2026-08-31",
+    "engagement": {
+        "likes": 2274,
+        "comments": 99
+    },
+    "caption": "Israel is trying to TRAIN AI to favor Israeli agenda's when Chat GPT and Grok are asked questions about it. However, this isn't a new tactic, this method goes back to the wikipedia days, when Israel was trying to control narratives online 10 years ago.\n\n#ai #chatgpt #israel #narratives #genz",
+    "hashtags": [
+        "ai",
+        "chatgpt",
+        "israel",
+        "narratives",
+        "genz"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Cover frame: presenter in front of an Israeli flag with stylized browser windows reading ALGORITHM OVERRIDE and SEARCH RESULTS.",
+    "audio_content_summary": "Ben Swann summarizes a Guardian investigation into the Hanover Institute for Public Policy — a website with no legal entity, address or named authors that published 124 reports and 560,000+ words in nine days, registered with the US Justice Department under FARA as material distributed for the Israeli government by Piro, Inc. He reads the contract line 'deployment of websites and content to deliver GPT framing results on GPT conversations,' then traces a lineage: the 2009 Israeli foreign-ministry internet team, the 2010 Yesha Council Wikipedia editing course under Naftali Bennett, and the 2008 CAMERA Wikipedia campaign that ended in editor sanctions.",
+    "implied_frame": "Frames the Hanover Institute as the current stage of a continuous, escalating Israeli campaign to control information environments — comment sections, then social media, then Wikipedia, now AI — and treats that lineage as one coordinated program. The documented pieces are separate operations by separate actors (a US media watchdog in 2008, the foreign ministry in 2009, a settlement council in 2010, FARA-registered contractors in 2025-26); the continuity is the framing, not a finding in any of the underlying sources. The caption's 'training AI' also overstates what the filings describe: the contracts commit to publishing web content that models retrieve and cite, not to altering model training. Whether any chatbot's answers actually changed as a result is unmeasured in every source cited. The 'GPT framing results' contract line is Clock Tower X's September 2025 filing, not Piro's Hanover contract; both are FARA-filed Israeli-government work, but they are separate registrants.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~40.5 MB); delivery ~41.0 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2008-camera-wikipedia-001",
+        "2009-mfa-internet-team-001",
+        "2010-yesha-wikipedia-course-001",
+        "2025-clock-tower-gpt-framing-001",
+        "2026-hanover-institute-001"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 5,
+        "b": 4,
+        "c": 0
+    }
+}

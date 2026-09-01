@@ -1,0 +1,41 @@
+{
+    "id": "2008-camera-wikipedia-001",
+    "anchor": "y2009-narrative-ops",
+    "year": 2008,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "internet",
+        "journalism",
+        "palestine"
+    ],
+    "claim": "On April 21, 2008 the pro-Palestinian outlet Electronic Intifada published leaked emails from \"Isra-pedia,\" a members-only Google group set up by a staff member of CAMERA — the Committee for Accuracy in Middle East Reporting in America, a US pro-Israel media watchdog — to recruit Wikipedia editors for Israel-related articles. Three Wikipedia administrators reviewed the full 137-email archive, confirmed it appeared authentic, and issued a joint statement: they connected six list members to Wikipedia accounts and sanctioned five of them, including indefinite bans of the accounts Gni and Zeq and a one-year topic ban of Dajudem. The administrators assessed the group's immediate effect as minimal — it targeted four articles \"but had little success in changing any of them\" — while judging the arrangement itself incompatible with the site's rules. The Arbitration Committee upheld the sanctions on May 28, 2008.",
+    "sources": [
+        {
+            "label": "ChrisO, Future Perfect at Sunrise and Moreschi, \"Statement re Wikilobby campaign,\" English Wikipedia Administrators' noticeboard, April 2008.",
+            "type": "primary",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Administrators%27_noticeboard/Incidents/Statement_re_Wikilobby_campaign",
+            "quote": "we have connected the users on the list to Wikipedia accounts in six cases, including a handful who have advocated activity incompatible with Wikipedia. Five of these have been sanctioned or indefinitely blocked/banned.",
+            "clip": "clips/2008-camera-wikipedia-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "English Wikipedia Arbitration Committee, \"Requests for arbitration/CAMERA lobbying,\" final decision passed May 28, 2008.",
+            "type": "primary",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Requests_for_arbitration/CAMERA_lobbying",
+            "quote": "imposed sanctions on a number of editors whom they concluded had been involved in the external group.",
+            "clip": "clips/2008-camera-wikipedia-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Sage Ross, \"Pro-Israeli group's lobbying gets press, arbitration case,\" The Wikipedia Signpost, May 19, 2008.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2008-05-19/Wikilobbying",
+            "quote": "the group not only wanted to keep the effort secret from the media, the public, and Wikipedia administrators",
+            "clip": "clips/2008-camera-wikipedia-001-02.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Verbatim read off the raw wikitext of both Wikipedia pages via action=raw. Note the two counts that get conflated in retellings: six accounts were linked to the list, five were sanctioned. The administrators themselves flagged that Electronic Intifada is not a neutral party and published only the more incriminating emails; they also recorded CAMERA's response, in which senior research analyst Gilead Ini confirmed the group existed and said it was meant to operate within Wikipedia's rules. Both sides are on the record and both are carried here."
+}

@@ -1,0 +1,40 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-09-01, openai-whisper base.en
+
+— FULL TEXT —
+
+A new investigation from The Guardian has uncovered what appears to be an entire fake American
+think tank built to flood the internet with content designed to influence how AI chatbots
+answer questions about Israel. Get this, it calls itself the Hanover Institute for Public Policy.
+Sounds legit, right? There's just one problem. The Guardian could find no actual institute.
+We're talking about no physical address, no name staff, no authors, and apparently no legal entity
+behind that name. But there is a lot of content. In just nine days, this website published 124
+reports. That's more than 560,000 words, more than the entire Lord of the Rings trilogy. Again,
+in nine days, and look at some of the titles, is anti-Zionism, anti-Semitism. Is Israel
+carrying out a genocide in Gaza? They are written almost exactly like questions that someone would
+ask, chat GPT. And apparently, that's the whole point, because according to US foreign agent filings,
+and even listed on the website itself, the material was registered as content distributed on behalf
+of the Israeli government, and according to the actual contract filed with the US Justice Department,
+the objective is spelled out in black and white. Look at this, deployment of websites and content
+to deliver GPT framing results on GPT conversations. Read it again, the goal is not to convince people.
+It's to influence the information that AI systems find when they answer people. AI does not magically
+know what is true. These systems they learn from, search, retrieve, and summarize enormous amounts
+of human generated information. So think about this. If you can flood the information environment
+with materials that look independent or like academic research, you can influence what an AI
+system sees as authoritative, and eventually how it frames the answer. Go all the way back to 2009.
+Israel's foreign ministry was reportedly organizing volunteers to post pro-Israel arguments
+on foreign news websites to try to shift online public opinion. Then in 2010, a man by the name
+of Naftali Bennett, years before he became prime minister of Israel, was running the Yesha Council,
+an organization representing the Israeli settlement movement, and his group helped to organize
+courses teaching pro-Israel activists how to edit Wikipedia. Now that was 16 years ago. At that
+time Bennett said the purpose was to show the other side. Two years before that, the pro-Israel
+media watchdog group known as camera organized its own coordinated Wikipedia editing effort.
+Wikipedia administrators eventually sanctioned five editors connected to that campaign. So think
+about the evolution here, right? First the battle was in the comments sections, then social media,
+then Wikipedia, and now it's artificial intelligence. Because Wikipedia shaped what people found when
+they googled something, right? AI though, shaped what people believe without them ever opening
+a source at all. You ask a question, you get an answer, and here's the thing. Most people will
+never ask who created the information that built that answer.
+
+— END —

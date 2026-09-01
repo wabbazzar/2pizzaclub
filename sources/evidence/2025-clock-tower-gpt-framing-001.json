@@ -1,0 +1,29 @@
+{
+    "id": "2025-clock-tower-gpt-framing-001",
+    "anchor": "y2026-shaping-the-record",
+    "year": 2025,
+    "era": "v",
+    "themes": [
+        "israel",
+        "ai",
+        "lobbying",
+        "internet",
+        "big-tech"
+    ],
+    "claim": "A statement of work filed with the U.S. Justice Department under the Foreign Agents Registration Act (FARA) — the 1938 law requiring anyone acting in the United States for a foreign government to register and publish the terms of the work — commits Clock Tower LLC, the firm owned by former Trump campaign manager Brad Parscale, to the \"Deployment of websites and content to deliver GPT framing results on GPT conversations.\" GPT is the model family behind ChatGPT. The line sits under \"Search and Language Operations\" alongside monthly search-engine-optimization targets, in an initial statement of work between Havas Media Germany GmbH and Clock Tower dated August 2025 and filed September 18, 2025. The same document describes the engagement as support for \"Client's engagement by the State of Israel to develop and execute a nationwide campaign in the United States to combat antisemitism,\" sets a combined budget pool of $1,500,000 per month for four months, and requires 5,000 monthly creative variants with at least 80 percent of content tailored to Gen Z audiences on TikTok, Instagram, YouTube and podcasts.",
+    "sources": [
+        {
+            "label": "Clock Tower X LLC, FARA registration no. 7649, Exhibit A/B and attached Initial Statement of Work, received by the NSD/FARA Registration Unit September 18, 2025.",
+            "type": "primary",
+            "url": "https://efile.fara.gov/docs/7649-Exhibit-AB-20250918-1.pdf",
+            "quote": "Deployment of websites and content to deliver GPT framing results on GPT conversations."
+        },
+        {
+            "label": "Clock Tower X LLC, FARA Registration Statement, received September 18, 2025.",
+            "type": "primary",
+            "url": "https://efile.fara.gov/docs/7649-Registration-Statement-20250918-1.pdf"
+        }
+    ],
+    "status": "verified",
+    "notes": "Pulled the PDF directly from efile.fara.gov and extracted the text with pdftotext; the GPT line is on the Initial SOW page under 'Search and Language Operations (MarketBrew)'. Registrant 7649 = Clock Tower X LLC, registered 09/18/2025; foreign principal is Havas Media Germany GmbH acting for the State of Israel. Secondary coverage (Drop Site News, Responsible Statecraft) puts the total contract value near $46.5m across later work orders; that figure is not carried in the claim because it was not read off a filing here. No clip: efile.fara.gov serves a PDF, so the verbatim renders as text."
+}
