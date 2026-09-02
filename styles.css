@@ -840,8 +840,32 @@ mark.search-mark {
     margin: 0.5rem 0 0.05rem;
 }
 .recent-daymark:first-child { margin-top: 0; }
+.recent-group { margin: 0; }
+.recent-group-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin: 0 0 0.25rem;
+}
+.recent-count {
+    font-family: var(--mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.05em;
+    color: var(--chrome-ink-dim);
+    flex: none;
+}
+.recent-group-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 .recent-card {
-    display: block;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
     width: 100%;
     text-align: left;
     cursor: pointer;
@@ -854,13 +878,7 @@ mark.search-mark {
     padding: 0.5rem 0.7rem 0.6rem;
 }
 .recent-card:hover { border-left-color: var(--year-ink); }
-.recent-card:hover .recent-title { text-decoration: underline; }
-.recent-card-head {
-    display: flex;
-    align-items: baseline;
-    gap: 0.5rem;
-    margin-bottom: 0.15rem;
-}
+.recent-card:hover .recent-claim { text-decoration: underline; }
 .recent-year { font-family: var(--mono); font-size: 0.74rem; color: var(--paper-rule); flex: none; }
 .recent-title { font-family: var(--display); font-weight: 400; font-size: 1.2rem; line-height: 1.1; color: var(--ink); }
 .recent-claim { display: block; font-family: var(--serif); margin: 0; font-size: 0.82rem; line-height: 1.5; color: var(--ink-soft); }

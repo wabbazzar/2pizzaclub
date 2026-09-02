@@ -68,16 +68,33 @@
 
     function renderList(recs, panel) {
         const list = panel.querySelector('.recent-list');
-        let lastDay = null;
-        list.innerHTML = recs.map((r) => {
+        // Day → chapter → records. A batch ingest drops many records into one
+        // chapter on one day; without the chapter grouping every row repeated
+        // the same <h3> and the feed read as duplicates.
+        const days = [];
+        const byDay = new Map();
+        for (const r of recs) {
             const dk = dayKey(r.date_added);
-            const sep = dk !== lastDay
-                ? `<li class="recent-daymark" aria-hidden="true">${esc(fmtDate(r.date_added))}</li>` : '';
-            lastDay = dk;
-            return `${sep}<li><button class="recent-card" type="button" data-id="${esc(r.id)}">
-                <span class="recent-card-head"><span class="recent-year">${esc(r.year)}</span><span class="recent-title">${esc(chapterTitle(r.anchor))}</span></span>
-                <span class="recent-claim">${esc(snippet(r.claim))}</span>
-            </button></li>`;
+            let day = byDay.get(dk);
+            if (!day) { day = { label: fmtDate(r.date_added), groups: [], byAnchor: new Map() }; byDay.set(dk, day); days.push(day); }
+            let g = day.byAnchor.get(r.anchor);
+            if (!g) { g = { anchor: r.anchor, recs: [] }; day.byAnchor.set(r.anchor, g); day.groups.push(g); }
+            g.recs.push(r);
+        }
+
+        list.innerHTML = days.map((day) => {
+            const groups = day.groups.map((g) => {
+                const count = g.recs.length > 1 ? `<span class="recent-count">${g.recs.length} records</span>` : '';
+                const rows = g.recs.map((r) => `<li><button class="recent-card" type="button" data-id="${esc(r.id)}">
+                    <span class="recent-year">${esc(r.year)}</span>
+                    <span class="recent-claim">${esc(snippet(r.claim))}</span>
+                </button></li>`).join('');
+                return `<li class="recent-group">
+                    <p class="recent-group-head"><span class="recent-title">${esc(chapterTitle(g.anchor))}</span>${count}</p>
+                    <ol class="recent-group-list">${rows}</ol>
+                </li>`;
+            }).join('');
+            return `<li class="recent-daymark" aria-hidden="true">${esc(day.label)}</li>${groups}`;
         }).join('');
         list.addEventListener('click', (e) => {
             const btn = e.target.closest('.recent-card');
