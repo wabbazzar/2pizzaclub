@@ -1,0 +1,29 @@
+{
+    "id": "2016-scranton-sewer-sale-001",
+    "anchor": "y2025-selling-the-commons",
+    "year": 2016,
+    "era": "v",
+    "themes": [
+        "privatization",
+        "infrastructure-capex",
+        "finance"
+    ],
+    "claim": "Scranton, Pennsylvania sold its municipal sewer system to a private utility. The Pennsylvania Public Utility Commission, the state's rate regulator, approved the transfer of the Scranton Sewer Authority's wastewater assets to Pennsylvania American Water on October 6, 2016 in a roughly $195 million deal covering about 31,000 customers in Scranton and Dunmore. The city banked about $83 million after debt was retired. In July 2024 the same commission approved the buyer's request for higher rates — 10.7 percent on water and 6.4 percent on wastewater — after the city had opposed a larger increase.",
+    "sources": [
+        {
+            "label": "Pennsylvania Public Utility Commission, \"PUC Grants Conditional Approval for Sale of Scranton Sewer System to Pennsylvania-American Water Company\" (October 6, 2016)",
+            "type": "primary",
+            "url": "https://www.puc.pa.gov/press-release/2016/puc-grants-conditional-approval-for-sale-of-scranton-sewer-system-to-pennsylvania-american-water-company/",
+            "quote": "cost studies be presented by PAWC in its next rate case to ensure appropriate rate integration between the two systems",
+            "clip": "clips/2016-scranton-sewer-sale-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "City of Scranton, \"PUC Approves PAWC Water Sewer Rate Increases\" (July 11, 2024)",
+            "type": "primary",
+            "url": "https://scrantonpa.gov/puc-approves-pawc-water-sewer-rate-increases/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The PUC release is the regulator's own; the rate-increase confirmation is the city's own release, which also records that the utility's original ask 'would have cost Scranton residents an estimated $220 more per year.' Deliberately does not assert a causal link between privatisation and the 2024 increase — the commission approved a statewide PAWC rate case, not a Scranton-specific one. The surfacing clip also says Scranton's electricity was privatised; Pennsylvania deregulated retail electricity statewide under Act 138 of 1996, which is not a municipal sale, so that claim is not recorded here."
+}

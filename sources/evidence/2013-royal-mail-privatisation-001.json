@@ -1,0 +1,30 @@
+{
+    "id": "2013-royal-mail-privatisation-001",
+    "anchor": "y2025-selling-the-commons",
+    "year": 2013,
+    "era": "v",
+    "themes": [
+        "privatization",
+        "finance",
+        "inequality"
+    ],
+    "claim": "The British government sold 60 percent of Royal Mail in October 2013 at 330 pence a share, raising 1.98 billion pounds. The shares closed their first day at 455 pence — 38 percent above the sale price — and the National Audit Office, Parliament's public-spending auditor, found the 750 million pound first-day gain on the sold stake went to the new shareholders rather than the taxpayer. Royal Mail, the letter carrier, is the entity that was sold; Post Office Ltd, the branch counter network, was separated from it in 2012 and remains in public ownership.",
+    "sources": [
+        {
+            "label": "National Audit Office, \"The privatisation of Royal Mail\" (HC 1182, April 2014), executive summary",
+            "type": "primary",
+            "url": "https://www.nao.org.uk/wp-content/uploads/2014/04/The-privatisation-of-royal-mail-summary.pdf",
+            "quote": "Royal Mail's share price rose to 455 pence (+38 per cent) on the first day of trading. The Department participated in the increase by retaining a 30 per cent stake, but the benefit of the price rise on the 60 per cent stake sold (a first day increase of £750 million) flowed to the new shareholders.",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://www.nao.org.uk/wp-content/uploads/2014/04/The-p"
+        },
+        {
+            "label": "National Audit Office, conclusion on value for money",
+            "type": "primary",
+            "url": "https://www.nao.org.uk/reports/privatisation-of-royal-mail-plc/",
+            "quote": "We have concluded that although the Department achieved its primary objective of delivering a sale of shares within this Parliament it could have achieved better value for the taxpayer.",
+            "clip_status": "quote-not-found"
+        }
+    ],
+    "status": "verified",
+    "notes": "Sourced from the NAO summary PDF, read with pdftotext (parliament.uk and commonslibrary.parliament.uk both 403 our fetcher). Written to correct a conflation the surfacing clip makes: the UK 'post office' that was privatised is Royal Mail; Post Office Ltd — the branch network of Horizon-scandal fame — was demerged in 2012 and is still state-owned, so a complaint about post-office counters is not a complaint about the 2013 sale. Service quality after privatisation is a separate, contested question and is not asserted here."
+}

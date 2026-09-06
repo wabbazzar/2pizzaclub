@@ -1,0 +1,29 @@
+{
+    "id": "2017-bannon-administrative-state-001",
+    "anchor": "y2025-selling-the-commons",
+    "year": 2017,
+    "era": "v",
+    "themes": [
+        "privatization",
+        "us-government",
+        "trump"
+    ],
+    "claim": "Steve Bannon, then White House chief strategist, named dismantling the federal regulatory apparatus as one of three organizing goals of the first Trump administration. Interviewed on stage at the Conservative Political Action Conference on February 23, 2017, he described the agenda as three \"verticals\" — national security and sovereignty, economic nationalism, and \"deconstruction of the administrative state\" — and said cabinet nominees had been picked with that third goal in mind.",
+    "sources": [
+        {
+            "label": "Common Dreams, \"Bannon Heralds 'Deconstruction of Administrative State' and Trump's 'New Political Order'\" (February 23, 2017)",
+            "type": "secondary",
+            "url": "https://www.commondreams.org/news/2017/02/23/bannon-heralds-deconstruction-administrative-state-and-trumps-new-political-order",
+            "quote": "If you look at these cabinet nominees, they were selected for a reason, and that is deconstruction.",
+            "clip": "clips/2017-bannon-administrative-state-001-00.png",
+            "clip_status": "ok-head60"
+        },
+        {
+            "label": "Breitbart News, \"Steve Bannon Details Trump Agenda: Deconstruction of the Administrative State\" (February 23, 2017)",
+            "type": "secondary",
+            "url": "https://www.breitbart.com/politics/2017/02/23/steve-bannon-details-trump-agenda-deconstruction-administrative-state/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The event was public and on camera — Bannon appeared with chief of staff Reince Priebus at the Gaylord National Resort, interviewed by American Conservative Union president Matt Schlapp. The phrase is reported identically across outlets of opposing editorial positions, which is why both a left and a right citation are carried; the Washington Post's contemporaneous report is the third corroboration but is behind a paywall to our fetcher. What 'deconstruction' would mean in practice is Bannon's own framing and is not adopted here."
+}

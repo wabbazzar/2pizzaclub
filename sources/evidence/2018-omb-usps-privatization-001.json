@@ -1,0 +1,30 @@
+{
+    "id": "2018-omb-usps-privatization-001",
+    "anchor": "y2025-selling-the-commons",
+    "year": 2018,
+    "era": "v",
+    "themes": [
+        "privatization",
+        "us-government",
+        "finance"
+    ],
+    "claim": "A June 2018 White House reorganization plan proposed converting the Postal Service into a private company. The Office of Management and Budget report \"Delivering Government Solutions in the 21st Century\" carried a section titled \"Restructure the Postal Service\" recommending the agency be prepared for \"future conversion from a Government agency into a privately-held corporation,\" and discussed doing it through an initial public offering or a sale to another entity. The plan was not enacted; the Postal Service remains a federal agency.",
+    "sources": [
+        {
+            "label": "Office of Management and Budget, \"Delivering Government Solutions in the 21st Century: Reform Plan and Reorganization Recommendations\" (June 2018), \"Restructure the Postal Service\"",
+            "type": "primary",
+            "url": "https://usmailnotforsale.org/wp-content/uploads/2018/11/OMB-Only-Postal.pdf",
+            "quote": "This proposal would restructure the United States Postal System to return it to a sustainable business model or prepare it for future conversion from a Government agency into a privately-held corporation.",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://usmailnotforsale.org/wp-content/uploads/2018/11"
+        },
+        {
+            "label": "Office of Management and Budget, same report, on the mechanism of sale",
+            "type": "primary",
+            "url": "https://usmailnotforsale.org/wp-content/uploads/2018/11/OMB-Only-Postal.pdf",
+            "quote": "USPS privatization through an initial public offering (IPO) or sale to another entity would require the implementation of significant reforms prior to sale to show a possible path to profitability.",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://usmailnotforsale.org/wp-content/uploads/2018/11"
+        }
+    ],
+    "status": "verified",
+    "notes": "Both quotes read out of the report PDF with pdftotext. The hosting mirror is the letter-carriers' campaign site because whitehouse.gov retired the 2018 document; the file is the original OMB PDF, page furniture intact. Included because the reel's claim is that privatising the post office is a live intention rather than a rhetorical flourish — the proposal is on the record. Whether it will be revived is not asserted."
+}

@@ -1,0 +1,28 @@
+{
+    "id": "2025-education-closure-eo-001",
+    "anchor": "y2025-selling-the-commons",
+    "year": 2025,
+    "era": "v",
+    "themes": [
+        "privatization",
+        "us-government",
+        "trump"
+    ],
+    "claim": "Executive Order 14242, signed March 20, 2025, directs the Secretary of Education to \"take all necessary steps to facilitate the closure of the Department of Education.\" The order does not abolish the department — the department was created by Congress in 1979 and only Congress can dissolve it — and its own text limits the instruction to what is \"permitted by law.\"",
+    "sources": [
+        {
+            "label": "Executive Order 14242, \"Improving Education Outcomes by Empowering Parents, States, and Communities,\" Sec. 2(a) (March 20, 2025)",
+            "type": "primary",
+            "url": "https://public-inspection.federalregister.gov/2025-05213.pdf",
+            "quote": "The Secretary of Education shall, to the maximum extent appropriate and permitted by law, take all necessary steps to facilitate the closure of the Department of Education and return authority over education to the States and local communities while ensuring the effective and uninterrupted delivery of services, programs, and benefits on which Americans rely.",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://public-inspection.federalregister.gov/2025-0521"
+        },
+        {
+            "label": "GovInfo, Executive Order 14242 (DCPD-202500381), Compilation of Presidential Documents",
+            "type": "primary",
+            "url": "https://www.govinfo.gov/app/details/DCPD-202500381"
+        }
+    ],
+    "status": "verified",
+    "notes": "Section 2(a) read verbatim from the Office of the Federal Register public-inspection PDF via pdftotext; federalregister.gov redirects our fetcher to an unblock interstitial. The order's Section 1 recites its own rationale (roughly $200 billion in pandemic education spending, more than $60 billion annually, NAEP proficiency figures) — that is the administration's argument, carried here as attribution, not adopted. The 'permitted by law' qualifier is quoted because it is what separates the order from the abolition it is usually described as."
+}

@@ -1,0 +1,29 @@
+{
+    "id": "2016-scranton-parking-concession-001",
+    "anchor": "y2025-selling-the-commons",
+    "year": 2016,
+    "era": "v",
+    "themes": [
+        "privatization",
+        "infrastructure-capex",
+        "finance"
+    ],
+    "claim": "Scranton also handed off its parking system. In September 2016 the city and the Scranton Parking Authority closed a $32 million, 45-year concession lease transferring operation, repair and maintenance of the municipal garages and street parking to Community Development Properties Scranton, an entity created by the National Development Council. The transaction resolved a 2012 default on parking-authority debt. The operator is a nonprofit, not an investor-owned firm, and three of the seven board seats are held by city officials.",
+    "sources": [
+        {
+            "label": "National Development Council, \"The National Development Council and Scranton Finalize $32M Parking System Transaction\" (September 12, 2016)",
+            "type": "primary",
+            "url": "https://ndconline.org/2016/09/12/the-national-development-council-and-scranton-finalize-32m-parking-system-transaction/"
+        },
+        {
+            "label": "City of Scranton, Scranton Parking Authority — Boards, Commissions and Authorities",
+            "type": "primary",
+            "url": "https://scrantonpa.gov/your-government/bca/scranton-parking-authority/",
+            "quote": "In 2016 the Authority and City entered a 45 year concession/lease agreement with National Development Council (NDC), a nonprofit community based organization.",
+            "clip": "clips/2016-scranton-parking-concession-001-01.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Recorded to keep the Scranton thread accurate rather than to endorse the shorthand. A 45-year concession to a nonprofit with municipal board representation is a real transfer of operating control, but it is not a sale to a for-profit owner, and the distinction matters when the transaction is offered as evidence of oligarchic capture. Both citations are the parties' own."
+}
