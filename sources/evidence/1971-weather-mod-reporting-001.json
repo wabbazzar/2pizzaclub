@@ -1,0 +1,44 @@
+{
+    "id": "1971-weather-mod-reporting-001",
+    "anchor": "y2025-cloud-seeding-tuolumne",
+    "year": 1971,
+    "era": "v",
+    "themes": [
+        "geoengineering",
+        "us-government",
+        "civil-liberties"
+    ],
+    "claim": "Weather modification in the United States is a reported activity, not a secret one, and the paperwork names the chemical. Federal law since 1971 bars anyone from engaging in weather modification without filing reports with the Commerce Department, which files them on NOAA Form 17-4 under threat of a $10,000 fine; the form requires the operator, the sponsor, the target area, and the \"modification agents and their dispersal rates.\" California adds its own layer: an operator must file a notice of intention with the state, publish it in a newspaper in every affected county, send it to those counties' boards of supervisors, and keep a record of the \"types, amounts, times, and places of seeding agents employed.\" What the filings do not do is verify the declaration — no agency samples the aircraft to confirm that what is released matches what is reported.",
+    "sources": [
+        {
+            "label": "15 U.S.C. § 330a (Public Law 92-205, 1971), report requirement",
+            "type": "primary",
+            "url": "https://www.law.cornell.edu/uscode/text/15/330a",
+            "quote": "No person may engage, or attempt to engage, in any weather modification activity in the United States unless he submits to the Secretary such reports with respect thereto, in such form and containing such information, as the Secretary may by rule prescribe.",
+            "clip": "clips/1971-weather-mod-reporting-001-00.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "California Water Code § 420, record-keeping and reporting by project operators",
+            "type": "primary",
+            "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=WAT&sectionNum=420.",
+            "quote": "The weather resources management project operator shall keep a record of all operations conducted, showing the equipment, the methods, the types, amounts, times, and places of seeding agents employed",
+            "clip": "clips/1971-weather-mod-reporting-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "NOAA Form 17-4, Initial Report on Weather Modification Activities — example filing: PG&E Mokelumne project, 2024-25 season, silver iodide at 21.5 grams per hour",
+            "type": "primary",
+            "url": "https://library.oarcloud.noaa.gov/noaa_documents.lib/OAR/OWAQ/Weather_Modification_Project/FY25/Q1/2025CAMOKE-1.pdf",
+            "quote": "This report is required by Public Law 92-205; 85 Stat. 735; 15 U.S.C. 330b.",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://library.oarcloud.noaa.gov/noaa_documents.lib/OA"
+        },
+        {
+            "label": "California Water Code § 411, publication and notice to county boards of supervisors",
+            "type": "primary",
+            "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=WAT&sectionNum=411."
+        }
+    ],
+    "status": "verified",
+    "notes": "Statute text pulled from Cornell LII and the California Legislative Counsel; the NOAA form from the agency's own document library, read with pdftotext. Recorded because both sides of the Tuolumne dispute rest on it. The resident's specific allegation is that the county board of supervisors received no § 411 notice, which is a documentary question a county clerk's record could settle either way; the districts assert in their own fact sheet that they noticed 'far beyond what is required.' Neither has been confirmed here. The last sentence of the claim is a statement about what the regime does and does not require, checked against the statutes and the form — it is not an allegation that any operator has misdeclared."
+}

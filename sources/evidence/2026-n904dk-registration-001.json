@@ -1,0 +1,28 @@
+{
+    "id": "2026-n904dk-registration-001",
+    "anchor": "y2025-cloud-seeding-tuolumne",
+    "year": 2026,
+    "era": "v",
+    "themes": [
+        "geoengineering",
+        "public-health",
+        "us-government"
+    ],
+    "claim": "The aircraft tracked over Sonora, California is identified correctly. FAA registry N904DK is a Beech C90A King Air, serial LJ-1089, built 1984, a twin turboprop registered to Aerolease LLC at 3802 20th St N, Fargo, North Dakota — the same address as Weather Modification LLC, a cloud-seeding contractor in business since 1966. The aircraft holds a Standard-Restricted airworthiness certificate whose approved operations are listed as \"Weather Control, Aerial Advertising, Agriculture and Pest Control.\" A restricted-category certificate in the Weather Control class is the FAA's designation for an aircraft equipped to seed clouds.",
+    "sources": [
+        {
+            "label": "FAA Aircraft Registry, N-Number Inquiry: N904DK",
+            "type": "primary",
+            "url": "https://registry.faa.gov/AircraftInquiry/Search/NNumberResult?nNumberTxt=904DK",
+            "quote": "Weather Control, Aerial Advertising, Agriculture and Pest Control",
+            "clip_status": "http-403"
+        },
+        {
+            "label": "SAM.gov entity record, Weather Modification LLC, 3802 20th St N, Fargo ND (UEI VJHHLAWUB5A6, CAGE 6WU06)",
+            "type": "primary",
+            "url": "https://opengovus.com/sam-entity/VJHHLAWUB5A6"
+        }
+    ],
+    "status": "verified",
+    "notes": "Registry page pulled directly and parsed; registry.faa.gov 403s the fetcher on a plain request. Recorded because the tail number is the checkable core of the surfacing footage and it checks out: the aircraft exists, is a King Air, and is certificated for weather modification. That establishes what the plane is licensed to do, not what it was carrying on any given flight. The restricted category is a certification class, not evidence of an undisclosed payload. The Fargo address is shared by several aviation businesses (Fargo Jet Center, SFH Inc), so co-location is corroborating, not conclusive, on operator identity."
+}

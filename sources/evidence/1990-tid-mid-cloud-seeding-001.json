@@ -1,0 +1,28 @@
+{
+    "id": "1990-tid-mid-cloud-seeding-001",
+    "anchor": "y2025-cloud-seeding-tuolumne",
+    "year": 1990,
+    "era": "v",
+    "themes": [
+        "geoengineering",
+        "infrastructure-capex",
+        "science"
+    ],
+    "claim": "There is a declared cloud-seeding program over the watershed in question, and it has run for more than thirty years. Turlock Irrigation District and Modesto Irrigation District have seeded the Tuolumne River watershed since 1990, flying aircraft into storms between November and April and releasing silver iodide from flares. The districts put the effect at a 5 to 15 percent increase in precipitation volume. The program went through a California Environmental Quality Act review in 1989 — a draft environmental impact report filed under state clearinghouse number 1989081402, with Tuolumne named as the affected county.",
+    "sources": [
+        {
+            "label": "Turlock Irrigation District / Modesto Irrigation District, \"Tuolumne Watershed Cloud Seeding Program\" fact sheet (February 2025)",
+            "type": "primary",
+            "url": "https://www.tid.org/wp-content/uploads/2025/02/Cloud-Seeding.pdf",
+            "quote": "The process is performed by emitting flares containing silver-iodide particles which act as a nucleus for water molecules to bond with, create ice crystals and fall to the Earth's surface as precipitation in the form of rain or snow.",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://www.tid.org/wp-content/uploads/2025/02/Cloud-Se"
+        },
+        {
+            "label": "CEQAnet, \"TID/MID Weather Modification Program,\" Draft EIR, SCH No. 1989081402, county: Tuolumne",
+            "type": "primary",
+            "url": "https://ceqanet.lci.ca.gov/1989081402"
+        }
+    ],
+    "status": "verified",
+    "notes": "The fact sheet is the districts' own and was posted in February 2025, immediately after the airport confrontation that produced the circulating footage — it is a party's response, carried as such. It also asserts the districts 'have never hidden' the program and have re-noticed 'far beyond what is required,' which is the districts' side of a disputed notice question, not a finding. Silver iodide is the only agent the districts declare; the aluminium, barium and strontium alleged in rainwater are not in any filing reviewed here. Whether the declared agent is the whole payload is exactly what the samples would have to establish, and no laboratory report has been produced."
+}
