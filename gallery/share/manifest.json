@@ -4,7 +4,7 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 151,
+      "count": 153,
       "seconds": 16026
     },
     {
@@ -70,7 +70,7 @@
     {
       "slug": "civil-liberties",
       "topic": "Civil Liberties",
-      "count": 7,
+      "count": 8,
       "seconds": 444
     },
     {
@@ -190,7 +190,7 @@
     {
       "slug": "finance",
       "topic": "Finance",
-      "count": 30,
+      "count": 31,
       "seconds": 3419
     },
     {
@@ -224,6 +224,12 @@
       "seconds": 177
     },
     {
+      "slug": "geoengineering",
+      "topic": "Geoengineering",
+      "count": 1,
+      "seconds": 0
+    },
+    {
       "slug": "haarp",
       "topic": "Haarp",
       "count": 1,
@@ -250,13 +256,13 @@
     {
       "slug": "inequality",
       "topic": "Inequality",
-      "count": 9,
+      "count": 10,
       "seconds": 1068
     },
     {
       "slug": "infrastructure-capex",
       "topic": "Infrastructure Capex",
-      "count": 7,
+      "count": 9,
       "seconds": 621
     },
     {
@@ -416,6 +422,12 @@
       "seconds": 175
     },
     {
+      "slug": "privatization",
+      "topic": "Privatization",
+      "count": 1,
+      "seconds": 0
+    },
+    {
       "slug": "prosecution",
       "topic": "Prosecution",
       "count": 19,
@@ -424,7 +436,7 @@
     {
       "slug": "public-health",
       "topic": "Public Health",
-      "count": 12,
+      "count": 13,
       "seconds": 950
     },
     {
@@ -454,7 +466,7 @@
     {
       "slug": "science",
       "topic": "Science",
-      "count": 7,
+      "count": 8,
       "seconds": 397
     },
     {
@@ -520,7 +532,7 @@
     {
       "slug": "trump",
       "topic": "Trump",
-      "count": 8,
+      "count": 9,
       "seconds": 467
     },
     {
@@ -550,7 +562,7 @@
     {
       "slug": "us-government",
       "topic": "US Government",
-      "count": 5,
+      "count": 7,
       "seconds": 0
     },
     {
