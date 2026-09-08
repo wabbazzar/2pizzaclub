@@ -1,0 +1,40 @@
+{
+    "id": "Dc_d51Ssa93",
+    "url": "https://www.instagram.com/reel/Dc_d51Ssa93/",
+    "platform": "instagram",
+    "captured_at": "2026-09-08",
+    "handle": "@therealchancemeeting",
+    "author_display_name": "Chance Meeting",
+    "posted_at": "2026-09-07",
+    "engagement": {
+        "likes": 4875,
+        "comments": 247
+    },
+    "caption": "Surviving the Epstein Class\n\nMy conversations with Heather Wellington and Stephanie Vogt, survivors of global elite sex trafficking. \n\nI’ve been editing over four hours of interview footage from two days of sessions when I sat down with these brave women to hear their stories of surviving the horror of Epstein class and how trafficking and blackmail runs all of global politics.\n\nI’ll be releasing the full video later this week on Substack and YouTube with clips on here.",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Title card: \"SURVIVING THE EPSTEIN CLASS\". Lower-third name labels: \"HEATHER WELLINGTON\", \"STEPHANIE VOGT\". No other on-screen text; the claims are spoken, not captioned.",
+    "audio_content_summary": "Two women, seated for an interview, give first-person accounts. Stephanie Vogt identifies her father as a Morgan Stanley regional wealth manager in Grand Rapids whose clients included the Van Andel and DeVos families and were involved with the Heritage Foundation, and says she was used as a child for blackmail and intelligence-gathering. Heather Wellington describes a two-tier structure — an \"upstairs kid\" raised into leadership versus a \"sacrifice class\" or \"basement kid\" — and says she was trafficked from age nine to thirty-two by people connected to the Heritage Foundation, to Epstein and Maxwell in Tucson, at a DHS facility there, and in ICE facilities in Northern Virginia until she escaped in 2019. Both frame the arrangement as a shadow government that controls elected officials through sexual blackmail.",
+    "implied_frame": "The frame: sexual blackmail is the mechanism by which an unelected network controls politics, the Epstein case is one node of it, and immigration detention is a current supply line.\n\nRECORDED (Group A, 2 records against this reel's claims): sexual abuse in immigration detention is documented in the government's own complaint log — 1,224 complaints to the DHS Inspector General from 2010 to September 2017, 30 investigated, 59 percent of narratives naming an officer or contractor (2018-ice-detention-abuse-complaints-001), measured against the zero-tolerance rule DHS wrote for itself in 2014 (2014-dhs-confinement-standards-001). The Heritage Foundation's tie to the Amway founding family is documented in Heritage's own release: Barb Van Andel-Gaby joined the board in 1996 and has chaired it since 2018 (2018-heritage-van-andel-chairmanship-001). Epstein's documented Tucson presence runs through the University of Arizona — a payment to the university's foundation, conference sponsorship, scheduling mail with the Center for Consciousness Studies, and a February 2019 message reading \\\"I'm in Tucson\\\" (2016-epstein-tucson-arizona-001).\n\nNOT ADOPTED: every first-person allegation here. Neither speaker's account is corroborated by anything reachable. Searches of our full Epstein corpus (1,051,599 documents) return no Stephanie Vogt, no Heather Wellington, and no Theodore Vogt; the \\\"Vogt\\\" hits are OCR damage of \\\"York.\\\" No public record was found of a Theodore Vogt as a Morgan Stanley regional wealth manager in Grand Rapids. No document places Epstein or Maxwell at a DHS facility in Tucson.\n\nCONTESTED: the named-institution allegations — that Heritage Foundation figures trafficked a child from age nine to thirty-two, that one of them remains at DHS, that ICE facilities in Northern Virginia were used for trafficking from 2014 to 2019, that a shadow government runs politics through sexual blackmail. These name a living institution and, by implication, living individuals. They are recorded here as what was said, by whom, on what date, and nothing on the timeline asserts them.\n\nGROUP C IS ZERO: absence from a corpus and absence from the press are not proof of invention, and first-person testimony that cannot be checked is uncorroborated, not fabricated. Nothing here was placed in Group C, because no proof of no-trace was produced for any of it.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~5.6 MB); delivery ~6.4 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2014-dhs-confinement-standards-001",
+        "2018-ice-detention-abuse-complaints-001",
+        "2018-heritage-van-andel-chairmanship-001",
+        "2016-epstein-tucson-arizona-001"
+    ],
+    "supporting_research_links": [
+        "https://theintercept.com/2018/04/11/immigration-detention-sexual-abuse-ice-dhs/",
+        "https://www.govinfo.gov/content/pkg/FR-2014-03-07/html/2014-04675.htm",
+        "https://www.heritage.org/press/barb-van-andel-gaby-becomes-chairman-heritage-foundation-board-trustees",
+        "https://news.azpm.org/p/azpmnews/2026/2/10/228397-what-were-jeffrey-epsteins-connections-to-tucson-heres-what-the-files-say/"
+    ],
+    "notes": "Editorial split counted strictly. A = 2: sexual abuse in immigration detention as documented by the DHS OIG complaint log, and the Heritage/Van Andel governance tie. B = 11: the father's identity and client list; the childhood blackmail and intelligence use; the upstairs/sacrifice-class structure; Wellington's trafficking generally; the shadow-government-by-blackmail thesis; trafficking run through ICE facilities and black-site prisons for elite clients; trafficking by Heritage Foundation people from age nine to thirty-two; trafficking to Epstein and Maxwell in Tucson at a DHS facility; the operator still being at DHS via Heritage; the Northern Virginia ICE facilities 2014-2019; and the caption's claim that trafficking and blackmail run all of global politics. C = 0. No evidence record asserts, repeats, or implies any allegation against a named living person. The Grand Rapids thread is unresolved and testable: Michigan corporate filings and FINRA BrokerCheck would show whether a Theodore Vogt was registered as a broker there.",
+    "editorial_split": {
+        "a": 2,
+        "b": 11,
+        "c": 0
+    }
+}

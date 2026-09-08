@@ -1,0 +1,30 @@
+{
+    "id": "2018-ice-detention-abuse-complaints-001",
+    "anchor": "y2014-detention-abuse",
+    "year": 2018,
+    "era": "iv",
+    "themes": [
+        "civil-liberties",
+        "us-government",
+        "trafficking",
+        "whistleblower"
+    ],
+    "claim": "Between 2010 and September 2017 the Department of Homeland Security's Office of Inspector General received 1,224 complaints of sexual abuse or assault from people in immigration custody. It opened investigations into 30 of them. Of the complaint narratives released under the Freedom of Information Act (FOIA), 719 — 59 percent — named a detention officer or a private detention-contractor employee as the alleged perpetrator rather than another detainee. Separate FOIA analysis of a wider set of more than 33,000 sexual and physical abuse complaints filed with DHS found fewer than one percent were investigated.",
+    "sources": [
+        {
+            "label": "The Intercept, \"1,224 Complaints Reveal a Staggering Pattern of Sexual Abuse in Immigration Detention. Half of Those Accused Worked for ICE.\" April 11, 2018 — reporting on DHS OIG data released under FOIA",
+            "type": "secondary",
+            "url": "https://theintercept.com/2018/04/11/immigration-detention-sexual-abuse-ice-dhs/",
+            "quote": "Of the 1,224 complaints it received in that time period, the OIG investigated 30, according to the data released to The Intercept.",
+            "clip": "clips/2018-ice-detention-abuse-complaints-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Freedom for Immigrants — sexual assault in immigration detention: complaint records and the April 2017 federal civil-rights complaint to DHS",
+            "type": "primary",
+            "url": "https://www.freedomforimmigrants.org/sexual-assault"
+        }
+    ],
+    "status": "verified",
+    "notes": "The underlying data is the DHS OIG's own complaint log, released under FOIA; The Intercept is the release vehicle and is cited as such. The 59 percent figure is the share of de-duplicated narratives naming an officer or contractor. Sits against 2014-dhs-confinement-standards-001: the rule and the complaint record are the two halves."
+}

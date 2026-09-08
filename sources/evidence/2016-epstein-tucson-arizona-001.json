@@ -1,0 +1,41 @@
+{
+    "id": "2016-epstein-tucson-arizona-001",
+    "anchor": "y2019",
+    "year": 2016,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "science",
+        "finance"
+    ],
+    "claim": "Jeffrey Epstein's documented presence in Tucson ran through the University of Arizona. Records in the congressional and Justice Department releases show a payment to the University of Arizona Foundation for the university's Center for Consciousness Studies, sponsorship material for the center's \"The Science of Consciousness\" conference, and scheduling correspondence in October 2016 with the center's director, anesthesiologist Stuart Hameroff. A February 2019 message from Epstein's phone reads \"I'm in Tucson -- can Chomsky meet tomorrow afternoon???\", referring to the linguist Noam Chomsky, then at the University of Arizona; Hameroff has since said the 2017 conference funding was one-time and that he regrets it.",
+    "sources": [
+        {
+            "label": "House Oversight estate release, iMessage log HOUSE_OVERSIGHT_025408 (Feb. 9, 2019)",
+            "type": "primary",
+            "url": "https://2pizzaclub.com/efta/messages.html",
+            "quote": "I'm in Tucson -- can Chomsky meet tomorrow afternoon???",
+            "clip": "clips/2016-epstein-tucson-arizona-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "DOJ release, DataSet 10 — check memo, EFTA01348698",
+            "type": "primary",
+            "url": null,
+            "quote": "University of Arizona Foundation Center for Consciousness Studies"
+        },
+        {
+            "label": "DOJ release, DataSet 10 — TSC 2017 call for abstracts, EFTA01738725",
+            "type": "primary",
+            "url": null,
+            "quote": "Sponsored by Crystal Globe Conscious Enterprises, Shanghai, China and The Center for Consciousness Studies, The University of Arizona, Tucson, Arizona"
+        },
+        {
+            "label": "Arizona Public Media, \"What were Jeffrey Epstein's connections to Tucson? Here's what the files say,\" February 10, 2026",
+            "type": "secondary",
+            "url": "https://news.azpm.org/p/azpmnews/2026/2/10/228397-what-were-jeffrey-epsteins-connections-to-tucson-heres-what-the-files-say/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Primary documents pulled from our own corpus (corpus.jsonl: HOUSE_OVERSIGHT_025408; EFTA01348698, EFTA01738725, EFTA01785592 in DataSet 10) before any outside source; AZPM corroborates and adds the $50,000 Gratitude America grant to the 2017 conference. OCR damage is present in the DataSet 10 scans (mail headers mangled); quotes taken from clean spans. Recorded because Tucson recurs in claims about Epstein's western operations: what the release actually documents there is university money and academic scheduling. No Tucson property, ranch, or facility associated with Epstein appears in the estate inventories or in the datasets searched here — that absence is not proof, and it is not a finding about anything alleged to have happened in Arizona detention facilities."
+}

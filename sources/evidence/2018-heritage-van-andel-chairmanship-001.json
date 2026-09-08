@@ -1,0 +1,32 @@
+{
+    "id": "2018-heritage-van-andel-chairmanship-001",
+    "anchor": "y2025",
+    "year": 2018,
+    "era": "iv",
+    "themes": [
+        "lobbying",
+        "inequality",
+        "us-government"
+    ],
+    "claim": "The Heritage Foundation — the Washington policy institute that coordinated Project 2025's \"Mandate for Leadership\" — has been chaired since September 25, 2018 by Barb Van Andel-Gaby, a member of the family that co-founded Amway and a director of Alticor, Amway's parent company. She joined the Heritage board in 1996 and was elected vice chairman in 2014. Heritage announced the installation itself, and its then-president described the family's role in the terms the institute uses about itself: \"Barb and her entire family have had a generational impact on policy and countless lives through their prosperous businesses and their generosity.\"",
+    "sources": [
+        {
+            "label": "The Heritage Foundation press release, \"Barb Van Andel-Gaby Becomes Chairman of Heritage Foundation Board of Trustees,\" September 25, 2018",
+            "type": "primary",
+            "url": "https://www.heritage.org/press/barb-van-andel-gaby-becomes-chairman-heritage-foundation-board-trustees",
+            "quote": "Van Andel-Gaby joined the Heritage Board of Trustees in 1996, and was elected vice chairman of the board in 2014.",
+            "clip": "clips/2018-heritage-van-andel-chairmanship-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Same release — Alticor/Amway directorship and prior Amway Hotel Corp. and Peter Island Resorts roles",
+            "type": "primary",
+            "url": "https://www.heritage.org/press/barb-van-andel-gaby-becomes-chairman-heritage-foundation-board-trustees",
+            "quote": "In addition to her service at Heritage, Van Andel-Gaby is a member of the board of directors of Alticor, the parent company of Amway.",
+            "clip": "clips/2018-heritage-van-andel-chairmanship-001-01.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Quotes read from the Internet Archive snapshot of the release (web.archive.org/web/20260413083547) after the live page refused a scripted fetch; the live page renders in a browser and the clips were taken from it. Records governance only — who chairs the board, and since when. Reported figures on DeVos and Van Andel foundation grants to Heritage (a $30,000 Steve & Cindy Van Andel Foundation total 2009-11; seven-figure DeVos grants) come from secondary trackers and are not carried here until the underlying Form 990s are pulled."
+}

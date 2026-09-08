@@ -1,0 +1,29 @@
+{
+    "id": "2014-dhs-confinement-standards-001",
+    "anchor": "y2014-detention-abuse",
+    "year": 2014,
+    "era": "iv",
+    "themes": [
+        "civil-liberties",
+        "us-government",
+        "trafficking"
+    ],
+    "claim": "A written federal rule has barred sexual abuse in immigration detention since 2014. The Department of Homeland Security's final rule at 6 C.F.R. Part 115, effective May 6, 2014, covers detention facilities run by or under contract to Immigration and Customs Enforcement (ICE) holding people longer than 24 hours, and the short-term holding rooms used by ICE and Customs and Border Protection (CBP). It requires each covered facility to adopt a zero-tolerance policy, to screen detainees for vulnerability to abuse, to train staff, and to report every allegation. The rule was issued under the Prison Rape Elimination Act (PREA) framework after DHS facilities were left out of the Justice Department's 2012 standards.",
+    "sources": [
+        {
+            "label": "DHS final rule, \"Standards To Prevent, Detect, and Respond to Sexual Abuse and Assault in Confinement Facilities,\" 79 Fed. Reg. 13100 (Mar. 7, 2014), 6 C.F.R. Part 115",
+            "type": "primary",
+            "url": "https://www.govinfo.gov/content/pkg/FR-2014-03-07/html/2014-04675.htm",
+            "quote": "DHS is fully committed to its zero-tolerance policy against sexual abuse in its confinement facilities",
+            "clip": "clips/2014-dhs-confinement-standards-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "6 C.F.R. Part 115 — scope: ICE detention facilities holding detainees over 24 hours, and ICE/CBP holding facilities",
+            "type": "primary",
+            "url": "https://www.govinfo.gov/content/pkg/CFR-2015-title6-vol1/xml/CFR-2015-title6-vol1-part115.xml"
+        }
+    ],
+    "status": "verified",
+    "notes": "Rule text read from the Federal Register on govinfo (ecfr.gov 403s to WebFetch). Recorded as the standard against which the complaint record in the companion card is measured. Nothing here speaks to who is detained or why; it is the compliance floor DHS wrote for itself."
+}
