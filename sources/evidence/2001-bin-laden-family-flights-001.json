@@ -1,0 +1,47 @@
+{
+    "id": "2001-bin-laden-family-flights-001",
+    "anchor": "y2001-attack",
+    "year": 2001,
+    "era": "iii",
+    "themes": [
+        "september-11",
+        "fbi",
+        "saudi-arabia"
+    ],
+    "claim": "Members of the bin Laden family and other Saudi nationals left the United States on chartered flights in the days after September 11, 2001. The 9/11 Commission examined three questions about those departures and answered all three in the government's favor: it found no evidence any such flight took off before national airspace reopened on the morning of September 13; no evidence of political intervention above the level of counterterrorism coordinator Richard Clarke; and that \"the FBI conducted a satisfactory screening of Saudi nationals who left the United States on charter flights.\" The Commission recorded that the flight it called \"the so-called Bin Ladin flight\" left on September 20 carrying 26 passengers, most of them relatives of Osama bin Laden. FBI records later obtained by Judicial Watch under the Freedom of Information Act — the law that compels agencies to release records on request — put about 160 Saudi nationals departing between September 11 and September 15, and contain internal inconsistencies about the screening: two FBI documents describing the same flight give different interview counts, 20 of 23 passengers in one and 15 of 22 in the other.",
+    "sources": [
+        {
+            "label": "The 9/11 Commission Report, Chapter 10 note, \"Flights of Saudi Nationals Leaving the United States,\" pp. 329-331.",
+            "type": "primary",
+            "url": "https://cdn.factcheck.org/UploadedFiles/Commission-report-on-bin-Laden-flights.pdf",
+            "quote": "we found no evidence that any flights of Saudi nationals, domestic or international, took place before the reopening of national airspace on the morning of September 13, 2001.",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://cdn.factcheck.org/UploadedFiles/Commission-repo"
+        },
+        {
+            "label": "The 9/11 Commission Report, same note — the September 20 flight.",
+            "type": "primary",
+            "url": "https://cdn.factcheck.org/UploadedFiles/Commission-report-on-bin-Laden-flights.pdf",
+            "quote": "one flight, the so-called Bin Ladin flight, departed the United States on September 20 with 26 passengers, most of them relatives of Usama Bin Ladin.",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://cdn.factcheck.org/UploadedFiles/Commission-repo"
+        },
+        {
+            "label": "The 9/11 Commission Report, same note — the FBI screening finding.",
+            "type": "primary",
+            "url": "https://cdn.factcheck.org/UploadedFiles/Commission-report-on-bin-Laden-flights.pdf",
+            "quote": "we believe that the FBI conducted a satisfactory screening of Saudi nationals who left the United States on charter flights.",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://cdn.factcheck.org/UploadedFiles/Commission-repo"
+        },
+        {
+            "label": "Judicial Watch, FBI records obtained under FOIA on the departure of Saudi nationals after September 11, 2001.",
+            "type": "primary",
+            "url": "https://www.judicialwatch.org/press-room/press-releases/new-fbi-documents-osama-bin-laden-may-have-chartered-saudi-flight-after-911"
+        },
+        {
+            "label": "The Washington Post, \"Plane Carried 13 Bin Ladens,\" July 22, 2004.",
+            "type": "secondary",
+            "url": "https://www.washingtonpost.com/wp-dyn/articles/A4014-2004Jul21.html"
+        }
+    ],
+    "status": "verified",
+    "notes": "Both halves are on the record and neither is adopted here. The Commission's findings are the Commission's, stated as such; the FOIA records are the FBI's own and show discrepancies the Commission did not resolve. The frequent claim that the family flew while all other aircraft were grounded is the specific point the Commission addressed with its airspace finding, and no source since has produced a pre-September-13 departure. What the FOIA documents do support is a narrower complaint: the depth of the interviews. Carlyle conference context in 2001-carlyle-bin-laden-conference-001."
+}

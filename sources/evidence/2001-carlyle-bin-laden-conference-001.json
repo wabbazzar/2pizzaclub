@@ -1,0 +1,31 @@
+{
+    "id": "2001-carlyle-bin-laden-conference-001",
+    "anchor": "y2001-attack",
+    "year": 2001,
+    "era": "iii",
+    "themes": [
+        "september-11",
+        "finance",
+        "saudi-arabia"
+    ],
+    "claim": "The Carlyle Group, a Washington private-equity firm, held its annual investor conference at the Ritz-Carlton in Washington, D.C. on the morning of September 11, 2001. Former president George H. W. Bush, then a senior adviser to Carlyle's Asia advisory board, attended and left before the attacks. Also present was Shafiq bin Laden, a half-brother of Osama bin Laden, there for the family's business interests: the bin Laden family had put $2 million into Carlyle Partners II in 1995. The family liquidated its Carlyle holdings in October 2001, weeks after the attacks. James Baker, secretary of state under Bush and Carlyle's senior counsel, was also on the firm's roster at the time.",
+    "sources": [
+        {
+            "label": "The Wall Street Journal, \"Bin Laden Family Could Profit From a Jump In Defense Spending Due to Ties to U.S. Bank,\" September 27, 2001 — first reporting of the bin Laden family's Carlyle investment and the conference.",
+            "type": "secondary",
+            "url": null
+        },
+        {
+            "label": "Dan Briody, \"Heady Times for Carlyle\" / \"The Iron Triangle: Inside the Secret World of the Carlyle Group\" (Wiley, 2003) — account of the September 11, 2001 investor conference and its attendees.",
+            "type": "secondary",
+            "url": "https://www.slideshare.net/slideshow/carlyle-group-bin-laden-bushties-14913885/14913885"
+        },
+        {
+            "label": "Reference.org summary of The Carlyle Group's history, including the bin Laden family investment and its October 2001 liquidation.",
+            "type": "secondary",
+            "url": "https://reference.org/facts/The_Carlyle_Group/gTPw8a9I"
+        }
+    ],
+    "status": "verified",
+    "notes": "The meeting is real and the attendee list is not disputed by Carlyle, which confirmed both the bin Laden investment and Bush's advisory role at the time. What the meeting demonstrates is contested and nothing is asserted here about it: the family is large (Osama was one of more than fifty siblings) and had been publicly estranged from him since the 1990s, and the investment was a limited-partner stake in a fund, not a Carlyle partnership. Bush's departure before the attacks is Carlyle's account, repeated in the reporting; no source places him in the room after 8:46 a.m. WSJ url is null — wsj.com is paywalled to our fetcher; the September 27, 2001 piece by Daniel Golden, James Bandler and Marcus Walker is the origin of the reporting and is cited by the later accounts. Sits alongside 2001-bin-laden-family-flights-001."
+}

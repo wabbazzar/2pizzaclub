@@ -1,0 +1,36 @@
+{
+    "id": "DdKfYLMBEBB",
+    "url": "https://www.instagram.com/reel/DdKfYLMBEBB/",
+    "platform": "instagram",
+    "captured_at": "2026-09-12",
+    "handle": "@senex__official",
+    "author_display_name": "Senex official",
+    "posted_at": "2026-09-11",
+    "engagement": {
+        "likes": 4770,
+        "comments": 195
+    },
+    "caption": "The father of the president of the United States, who was a former president himself, was in the same room with Osama bin Laden‘s brother the morning of the attack on September 11, 2001, and helped them escape the country.",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Burned-in yellow-highlight captions throughout; opening composite of George W. Bush and Donald Rumsfeld at the damaged Pentagon beside a stock image of a masked figure in Gulf dress. The masked figure is an illustration, not a photograph of any named person.",
+    "audio_content_summary": "Narrator states that George H. W. Bush was at a Carlyle Group investor conference at the Ritz-Carlton in Washington on the morning of September 11, 2001, alongside Shafiq bin Laden, that the bin Laden family had $2 million invested in the firm, that the family was flown out of the country afterward while planes were grounded and the FBI closed its inquiry within weeks, and that the 2011 killing of Osama bin Laden was announced without evidence, with conflicting SEAL accounts and a burial at sea.",
+    "implied_frame": "Framing: the Bush family shielded the bin Ladens and the 2011 killing was staged. Documented here: the Carlyle conference, its attendees and the family's $2 million stake; the post-attack charter flights, including the 9/11 Commission's three findings and the FBI's own FOIA-released records showing inconsistent interview counts; and the state of the 2011 evidence — 52 images sealed, body buried at sea, assault-team accounts in conflict. Not asserted here: that George H. W. Bush helped anyone leave the country, that the flights departed during the ground-stop, or that the raid did or did not kill Osama bin Laden. The claim that George W. Bush directed the response at \"Israel's enemies\" is an interpretation and is not carried.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~21.2 MB); delivery ~21.7 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2001-carlyle-bin-laden-conference-001",
+        "2001-bin-laden-family-flights-001",
+        "2011-bin-laden-raid-evidence-001"
+    ],
+    "supporting_research_links": [
+        "https://cdn.factcheck.org/UploadedFiles/Commission-report-on-bin-Laden-flights.pdf",
+        "https://law.justia.com/cases/federal/appellate-courts/cadc/12-5137/12-5137-2013-05-21.html"
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 3,
+        "c": 1
+    }
+}

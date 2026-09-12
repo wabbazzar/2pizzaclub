@@ -1,0 +1,35 @@
+{
+    "id": "2011-bin-laden-raid-evidence-001",
+    "anchor": "y2001-aftermath",
+    "year": 2011,
+    "era": "iii",
+    "themes": [
+        "september-11",
+        "intelligence"
+    ],
+    "claim": "No photographic or physical evidence of Osama bin Laden's death has been released to the public. The CIA located 52 responsive images after the May 2011 raid in Abbottabad — post-mortem pictures of the body, facial-recognition frames, and images of the body's transport and burial — and withheld all 52; the U.S. Court of Appeals for the D.C. Circuit upheld the withholding in 2013 on national-security grounds. The government says the body was buried at sea from the USS Carl Vinson within about 24 hours, leaving no remains to examine. The participants' accounts do not agree on who fired: Matt Bissonnette wrote in \"No Easy Day\" that an unnamed point man fired the fatal shots, while Robert O'Neill has said publicly that he did, an account other members of the unit have disputed; O'Neill has since said a teammate shot bin Laden in the face as he lay dying and that the team did not report it. Admiral William McRaven, who commanded the operation, described O'Neill in 2020 as the man who shot bin Laden.",
+    "sources": [
+        {
+            "label": "Judicial Watch, Inc. v. U.S. Department of Defense, No. 12-5137 (D.C. Cir., May 21, 2013) — opinion upholding the withholding of the 52 images.",
+            "type": "primary",
+            "url": "https://law.justia.com/cases/federal/appellate-courts/cadc/12-5137/12-5137-2013-05-21.html"
+        },
+        {
+            "label": "Judicial Watch, Inc. v. U.S. Department of Defense — full opinion text, including the CIA declaration describing the 52 records.",
+            "type": "primary",
+            "url": "https://caselaw.findlaw.com/court/us-dc-circuit/1631732.html"
+        },
+        {
+            "label": "NBC News, \"Who Shot Bin Laden? The Tale of Two SEALs\" — the competing accounts from members of the assault team.",
+            "type": "secondary",
+            "url": "https://www.nbcnews.com/news/investigations/who-shot-bin-laden-tale-two-seals-n241241"
+        },
+        {
+            "label": "Reporters Committee for Freedom of the Press, \"Appellate court rules Osama bin Laden death photos can be withheld under FOIA,\" 2013.",
+            "type": "secondary",
+            "url": "https://www.rcfp.org/appellate-court-rules-osama-bin-laden-death-photos-can-be-withheld-u/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Scoped to what the record shows: images exist and are sealed, the body is gone, and the men in the room tell different stories about the shooting. The government's identification rested on facial recognition and a DNA comparison described in briefings but never released, and on the accounts of the assault team. The absence of released evidence is a fact about disclosure, not a finding about whether the raid killed him; this record makes no claim either way. O'Neill's later account of an unreported shooting of a dying man is his own and is contested by others who were there."
+}
