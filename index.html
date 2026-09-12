@@ -37,6 +37,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Quicksand:wght@400;500;600;700&family=Schoolbell&display=swap" rel="stylesheet">
+    <!-- Page-view beacon → wabbazzar-ice dashboard (GET, 204, nothing stored client-side). Production host only. -->
+    <script>
+      (function () {
+        if (!/(^|\.)2pizzaclub\.com$/.test(location.hostname)) return;
+        var send = function () {
+          try {
+            var u = 'https://api.wabbazzar.com/v?app=2pizzaclub&path=' +
+              encodeURIComponent(location.pathname + location.hash) +
+              '&ref=' + encodeURIComponent(document.referrer || '');
+            fetch(u, { mode: 'no-cors', keepalive: true }).catch(function () {});
+          } catch (e) {}
+        };
+        send();
+        addEventListener('hashchange', send);
+      })();
+    </script>
 </head>
 <body>
     <a class="skip-link" href="#opening">skip to content</a>
