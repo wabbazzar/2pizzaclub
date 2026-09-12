@@ -1,0 +1,42 @@
+{
+    "id": "2006-netanyahu-1995-book-wtc-001",
+    "anchor": "y2001-attack",
+    "year": 2006,
+    "era": "iii",
+    "themes": [
+        "9-11",
+        "israel",
+        "media"
+    ],
+    "claim": "Benjamin Netanyahu has repeatedly described his 1995 book \"Fighting Terrorism\" as having predicted the World Trade Center attack. In a CNN interview on December 22, 2006 he put it this way: \"So, I wrote a book in 1995, and I said that, 'If the West doesn't wake up to the suicidal nature of militant Islam, the next thing you will see is militant Islam bringing down the World Trade Center.'\" That sentence does not appear in the book. What the 1995 text says is: \"In the worst of such scenarios, the consequences could be not a car bomb but a nuclear bomb in the basement of the World Trade Center.\" The car-bomb reference points backward, to the February 26, 1993 truck bombing of the World Trade Center garage, which killed six people — an attack that had already happened two years before the book was written.",
+    "sources": [
+        {
+            "label": "Benjamin Netanyahu, \"Fighting Terrorism: How Democracies Can Defeat Domestic and International Terrorists\" (Farrar, Straus and Giroux, 1995) — the World Trade Center passage.",
+            "type": "primary",
+            "url": "https://us.macmillan.com/books/9780374524975/fightingterrorism/",
+            "quote": "In the worst of such scenarios, the consequences could be not a car bomb but a nuclear bomb in the basement of the World Trade Center.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Benjamin Netanyahu, CNN interview, December 22, 2006 — his own characterization of the book.",
+            "type": "primary",
+            "url": null,
+            "quote": "So, I wrote a book in 1995, and I said that, 'If the West doesn't wake up to the suicidal nature of militant Islam, the next thing you will see is militant Islam bringing down the World Trade Center.'"
+        },
+        {
+            "label": "PolitiFact, fact-check of the claim that Netanyahu's 1995 book shows foreknowledge of 9/11, January 19, 2024.",
+            "type": "secondary",
+            "url": "https://www.politifact.com/factchecks/2024/jan/19/tiktok-posts/israeli-prime-minister-benjamin-netanyahu-knew-the/",
+            "quote": "In the worst of such scenarios, the consequences could be not a car bomb but a nuclear bomb in the basement of the World Trade Center.",
+            "clip": "clips/2006-netanyahu-1995-book-wtc-001-02.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "National Criminal Justice Reference Service abstract of \"Fighting Terrorism,\" NCJ 159588 — book bibliographic record.",
+            "type": "primary",
+            "url": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/fighting-terrorism-how-democracies-can-defeat-domestic-and"
+        }
+    ],
+    "status": "verified",
+    "notes": "Two distinct things are on the record and they are not the same: what the book says (a nuclear device in the WTC basement, written in the shadow of the 1993 bombing) and what Netanyahu has said the book says (militant Islam bringing the towers down). The circulating quote attributed to the 1995 book is his 2006 paraphrase of himself, not book text; he has repeated the paraphrase in later interviews. Neither the prediction reading nor the foreknowledge reading is adopted here. CNN transcript url is null — the 2006 transcript archive is not reachable by our fetcher; PolitiFact carries the verbatim. Related: 2001-bbc-wtc7-early-report-001."
+}

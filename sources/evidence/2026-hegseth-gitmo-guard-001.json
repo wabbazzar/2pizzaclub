@@ -1,0 +1,36 @@
+{
+    "id": "2026-hegseth-gitmo-guard-001",
+    "anchor": "y2026-guantanamo",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "guantanamo",
+        "war-on-terror",
+        "pentagon"
+    ],
+    "claim": "The official now running the department that holds the Guantánamo camp once guarded it. Pete Hegseth deployed to Guantánamo Bay in 2004–2005 as a National Guard infantry platoon leader whose soldiers guarded detainees, an assignment of roughly eleven months that was his first deployment. He confirmed the posting himself as Secretary of War on June 10, 2026, saying the delay in executing detainees dated \"all the way back to when I was a guard at Guantánamo Bay.\"",
+    "sources": [
+        {
+            "label": "Pete Hegseth, press gaggle, MacDill Air Force Base, Tampa, June 10, 2026 — his own account of the posting.",
+            "type": "primary",
+            "url": "https://www.thedailybeast.com/pete-hegseth-says-quiet-part-out-loud-in-shocking-guantanamo-bay-remark/",
+            "quote": "the gears of American justice got gunked up, all the way back to when I was a guard at Guantánamo Bay",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Wikipedia, \"Pete Hegseth\" — military service section, citing his service record and contemporaneous reporting.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Pete_Hegseth",
+            "quote": "for 11 months he was a Minnesota Army National Guardsman at Guantanamo Bay detention camp. There, he led a platoon of soldiers from the New Jersey Army National Guard guarding detainees.",
+            "clip": "clips/2026-hegseth-gitmo-guard-001-01.png",
+            "clip_status": "ok-cross-node60"
+        },
+        {
+            "label": "U.S. Southern Command photo archive, then-2nd Lt. Pete Hegseth with his platoon sergeant at Naval Station Guantanamo Bay, Cuba, c. 2004, deployed with the New Jersey National Guard's 42nd Infantry Division.",
+            "type": "primary",
+            "url": "https://www.southcom.mil/MEDIA/IMAGERY/igphoto/2003652806/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Unit description differs slightly across sources: Hegseth was a Minnesota Army National Guard officer attached to a New Jersey Army National Guard element (42nd Infantry Division) under operational control of 3-187 Infantry, 101st Airborne. The claim states the uncontested core — 2004-05, infantry platoon leader, his soldiers guarded detainees — and leaves the unit lineage to notes. southcom.mil and war.gov both 403 our fetcher (Akamai), so no clip for those; the quote clip comes off the Daily Beast page. Pairs with 2026-hegseth-execute-detainees-001."
+}

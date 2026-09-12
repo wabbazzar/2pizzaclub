@@ -1,0 +1,40 @@
+{
+    "id": "2001-bbc-wtc7-early-report-001",
+    "anchor": "y2001-attack",
+    "year": 2001,
+    "era": "iii",
+    "themes": [
+        "9-11",
+        "media",
+        "journalism"
+    ],
+    "claim": "BBC World announced the collapse of 7 World Trade Center — the 47-story Salomon Brothers Building — more than twenty minutes before it fell. Correspondent Jane Standley delivered the report live from lower Manhattan with the building still standing, intact, in the frame behind her. NIST timed the actual collapse at 5:20:52 p.m. EDT on September 11, 2001. The BBC has never disputed the footage; its head of news at the time, Richard Porter, wrote in 2007 that the network was relaying wire copy from Reuters and that \"if we reported the building had collapsed before it had done so, it would have been an error — no more than that.\" Reuters issued a correction. American networks including CNN carried similar reports of a WTC 7 collapse earlier that afternoon.",
+    "sources": [
+        {
+            "label": "NIST NCSTAR 1A, \"Final Report on the Collapse of World Trade Center Building 7,\" National Institute of Standards and Technology, November 2008 — collapse time.",
+            "type": "primary",
+            "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/NCSTAR/ncstar1a.pdf",
+            "quote": "5:20:52 p.m.",
+            "clip_status": "error: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://nvlpubs.nist.gov/nistpubs/Legacy/NCSTAR/ncstar1"
+        },
+        {
+            "label": "Richard Porter, BBC News head of news (BBC World), \"Part of the conspiracy?\", The Editors blog, February 2007 — the BBC's account of the error.",
+            "type": "primary",
+            "url": "https://www.bbc.co.uk/blogs/theeditors/2007/02/part_of_the_conspiracy.html"
+        },
+        {
+            "label": "Poynter, \"A BBC reporting error is not proof the network was part of an 'inside job' on 9/11,\" 2021 — carries the footage timeline and the BBC's explanation.",
+            "type": "secondary",
+            "url": "https://www.poynter.org/fact-checking/2021/a-bbc-reporting-error-is-not-proof-the-network-was-part-of-an-inside-job-on-9-11/",
+            "quote": "If we reported the building had collapsed before it had done so, it would have been an error — no more than that.",
+            "clip_status": "http-403"
+        },
+        {
+            "label": "PolitiFact, fact-check of the BBC WTC 7 footage claim, December 16, 2021.",
+            "type": "secondary",
+            "url": "https://www.politifact.com/factchecks/2021/dec/16/instagram-posts/bbc-reporting-error-not-proof-network-was-part-ins/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The footage itself is not in dispute by any party — BBC, NIST, or the fact-checkers; what is disputed is what it means. Two readings are on the record and neither is adopted here: the BBC's (a wire-service error propagated in a chaotic newsroom, with WTC 7 already reported as in danger of collapse for hours) and the foreknowledge reading. Exact broadcast minute varies by source (4:54 / 4:57 p.m. EDT), so the claim states 'more than twenty minutes' rather than a disputed minute. bbc.co.uk blocks our fetcher, so the Porter quote is carried from Poynter's reproduction rather than clipped from the BBC page. Related: 2001-jennings-001, 2001-wtc7-records-001, 2001-wtc-collapse-physics-001, 2002-silverstein-pull-it-001."
+}

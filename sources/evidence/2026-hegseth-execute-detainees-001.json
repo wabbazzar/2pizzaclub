@@ -1,0 +1,47 @@
+{
+    "id": "2026-hegseth-execute-detainees-001",
+    "anchor": "y2026-guantanamo",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "guantanamo",
+        "war-on-terror",
+        "pentagon",
+        "9-11"
+    ],
+    "claim": "Asked on June 10, 2026 why the detainees still held at Guantánamo Bay had not been put to death, Secretary of War Pete Hegseth told reporters at MacDill Air Force Base in Tampa, hours after visiting the Cuba base: \"These Gitmo detainees should have been executed, in my mind, personally, a long time ago, for the crimes of what they committed against the American people.\" He added that \"the gears of American justice got gunked up, all the way back to when I was a guard at Guantánamo Bay,\" and that \"we're committed to the death penalty ... in that case and in any others.\" Fifteen men remained in the camp at the time, five of them facing capital charges before the military commissions for the September 11, 2001 attacks; the rest have never been charged.",
+    "sources": [
+        {
+            "label": "U.S. Department of War, \"Press Gaggle With Secretary of War Pete Hegseth,\" MacDill Air Force Base, Tampa, Florida, June 10, 2026 (official transcript; war.gov blocks our fetcher, so the verbatim below is carried from reporting).",
+            "type": "primary",
+            "url": "https://www.war.gov/News/Transcripts/Transcript/Article/4582882/press-gaggle-with-secretary-of-war-pete-hegseth/"
+        },
+        {
+            "label": "The Daily Beast, \"Pete Hegseth Says Quiet Part Out Loud in Shocking Guantánamo Bay Remark,\" June 10, 2026.",
+            "type": "secondary",
+            "url": "https://www.thedailybeast.com/pete-hegseth-says-quiet-part-out-loud-in-shocking-guantanamo-bay-remark/",
+            "quote": "These Gitmo detainees should have been executed, in my mind, personally, a long time ago, for the crimes of what they committed",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "The Daily Beast via Yahoo News, \"Hegseth Says Guantánamo Detainees Should Have Been 'Executed',\" June 2026 (syndicated copy; thedailybeast.com blocks our screenshot tool).",
+            "type": "secondary",
+            "url": "https://www.yahoo.com/news/politics/articles/hegseth-says-guant-namo-detainees-020021745.html",
+            "quote": "These Gitmo detainees should have been executed, in my mind, personally, a long time ago, for the crimes of what they committed against the American people.",
+            "clip": "clips/2026-hegseth-execute-detainees-001-02.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Al Jazeera, \"Hegseth: Guantanamo Bay prisoners 'should have been executed',\" video newsfeed, June 10, 2026.",
+            "type": "secondary",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/6/10/hegseth-guantanamo-bay-prisoners-should-have-been"
+        },
+        {
+            "label": "C-SPAN, \"Defense Secretary Hegseth Visits Troops in Guantanamo Bay and Tampa,\" event video, June 10, 2026.",
+            "type": "primary",
+            "url": "https://www.c-span.org/event/public-affairs-event/defense-secretary-hegseth-visits-troops-in-guantanamo-bay-and-tampa/443927"
+        }
+    ],
+    "status": "verified",
+    "notes": "Quote is consistent verbatim across The Daily Beast, Al Jazeera, Ynet-syndication and DPA wire copy. The official war.gov transcript and C-SPAN video of the same gaggle are cited as the primary record but both 403 our fetcher (Akamai / tollbit redirect), so no clip is generated for them. The question came from Laura Loomer, per The Daily Beast; that attribution is left out of the claim as it is not needed to establish what he said. Detainee count of 15 with five 9/11 co-defendants is as of June 2026 reporting. Surfaced alongside 2026-hegseth-gitmo-guard-001 and 2002-adayfi-detention-001."
+}

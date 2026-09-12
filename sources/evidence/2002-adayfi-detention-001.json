@@ -1,0 +1,43 @@
+{
+    "id": "2002-adayfi-detention-001",
+    "anchor": "y2026-guantanamo",
+    "year": 2002,
+    "era": "iii",
+    "themes": [
+        "guantanamo",
+        "war-on-terror",
+        "cia",
+        "yemen"
+    ],
+    "claim": "Mansoor Adayfi, a Yemeni assigned internment serial number 441, was held at Guantánamo Bay from February 9, 2002 to July 11, 2016 — fourteen years and five months — and was never charged with a crime or tried. A Periodic Review Board drawn from the Departments of Defense, Homeland Security, Justice and State, the Joint Chiefs of Staff and the Office of the Director of National Intelligence decided on October 28, 2015 that his continued detention was no longer necessary, and the Defense Department transferred him to Serbia, a country he had no connection to, rather than to Yemen.",
+    "sources": [
+        {
+            "label": "U.S. Department of Defense, News Release NR-260-16, \"Detainee Transfers Announced,\" July 11, 2016.",
+            "type": "primary",
+            "url": "https://www.globalsecurity.org/security/library/news/2016/07/sec-160711-dod01.htm",
+            "quote": "The Department of Defense announced today the transfer of Muhammadi Davlatov and Mansur Ahmad Saad al-Dayfi from the detention facility at Guantanamo Bay to the Government of Serbia.",
+            "clip": "clips/2002-adayfi-detention-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "U.S. Department of Defense, News Release NR-260-16 — Periodic Review Board determination on al-Dayfi.",
+            "type": "primary",
+            "url": "https://www.globalsecurity.org/security/library/news/2016/07/sec-160711-dod01.htm",
+            "quote": "On Oct. 28, 2015, a Periodic Review Board consisting of representatives from the Departments of Defense, Homeland Security, Justice, and State; the Joint Chiefs of Staff, and the Office of the Director of National Intelligence determined continued law of war detention of al-Dayfi does not remain necessary to protect against a continuing significant threat to the security of the United States.",
+            "clip": "clips/2002-adayfi-detention-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "The New York Times, \"The Guantánamo Docket\" — detainee record for ISN 441, Mansur Ahmad Saad al-Dayfi (arrival February 9, 2002; transferred to Serbia July 11, 2016; never charged).",
+            "type": "primary",
+            "url": null
+        },
+        {
+            "label": "Democracy Now!, interview with Mansoor Adayfi on his detention and memoir \"Don't Forget Us Here,\" 2021.",
+            "type": "secondary",
+            "url": "https://www.democracynow.org/2021/9/30/mansoor_adayfi_detainee_441_lost_and"
+        }
+    ],
+    "status": "verified",
+    "notes": "DoD release NR-260-16 pulled from the GlobalSecurity mirror because defense.gov's 2016 archive and war.gov both 403 our fetcher; the mirror carries the release text verbatim with the release number. NYT Guantánamo Docket is the canonical per-detainee primary record but nytimes.com is uncrawlable for us, so url is null. Adayfi says he was seized as a teenager by Afghan warlords and sold for bounty; that account is his own and is not asserted here. He now coordinates the Guantánamo project at CAGE and lives in Serbia. Counterpart to 2026-hegseth-execute-detainees-001."
+}

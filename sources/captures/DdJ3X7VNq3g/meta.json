@@ -1,0 +1,40 @@
+{
+    "id": "DdJ3X7VNq3g",
+    "url": "https://www.instagram.com/reel/DdJ3X7VNq3g/",
+    "platform": "instagram",
+    "captured_at": "2026-09-12",
+    "handle": "@gtmo.441",
+    "author_display_name": "Mansoor Adayfi 441 منصور الضيفي",
+    "posted_at": "2026-09-11",
+    "engagement": {
+        "likes": 8159,
+        "comments": 482
+    },
+    "caption": "From #GUANTÁNAMO to Pentagon @deptofwar \n\nI’m calling out Pete Hegseth @secwar , former Guantánamo guard and my newly appointed “Secretary of Testosterone,” to a cage fight.\n\nPete, you spent time inside Guantánamo as a guard.\n\nI spent more around 15 years inside it as a detainee , without charge or trial.\n\nYou’ve also called for the execution of detainees.\n\nSo let’s step into the cage together.\n\nNo Pentagon. No uniforms. No guards.\n\nJust you and me.\n\nSecretary of Testosterone, I’m waiting.\n\nYour move.\n\n#CloseGuantanamo\n \n#NeverForgetNeverForgive",
+    "hashtags": [
+        "GUANT",
+        "CloseGuantanamo",
+        "NeverForgetNeverForgive"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Burned-in captions throughout (\"I'M A FORMER GUANTANAMO DETAINEE\"); orange CLOSE GUANTANAMO banner, two printed photos of Hegseth on easels; speaker in an orange jumpsuit and boxing gloves.",
+    "audio_content_summary": "Mansoor Adayfi, held at Guantanamo as ISN 441 from 2002 to 2016 without charge, challenges Secretary of War Pete Hegseth to a cage fight, citing Hegseth's 2004-05 posting as a Guantanamo guard and his June 2026 statement that detainees should have been executed. Describes forced cell extractions (\"six guards, dogs, shield, pepper spray, body armors\") against unarmed prisoners.",
+    "implied_frame": "Framing: the man who ran the camp's guard force now runs the department that holds it, and has called for the prisoners' execution. Verified here: the execution remark (June 10, 2026), Hegseth's 2004-05 guard posting, and Adayfi's dates and never-charged status. Not asserted here: the \"15 years\" figure (the record is 14 years 5 months), the cell-extraction description (his own first-person account of IRF-team procedure, not independently documented in these sources), and the challenge itself, which is rhetorical.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~11.5 MB); delivery ~11.8 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-hegseth-execute-detainees-001",
+        "2026-hegseth-gitmo-guard-001",
+        "2002-adayfi-detention-001"
+    ],
+    "supporting_research_links": [
+        "https://www.thedailybeast.com/pete-hegseth-says-quiet-part-out-loud-in-shocking-guantanamo-bay-remark/",
+        "https://www.globalsecurity.org/security/library/news/2016/07/sec-160711-dod01.htm"
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 2,
+        "c": 0
+    }
+}
