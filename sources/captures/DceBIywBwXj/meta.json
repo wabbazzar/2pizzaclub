@@ -1,0 +1,34 @@
+{
+    "id": "DceBIywBwXj",
+    "url": "https://www.instagram.com/reel/DceBIywBwXj/",
+    "platform": "instagram",
+    "captured_at": "2026-09-12",
+    "handle": "@acensionrise",
+    "author_display_name": "Malik Bade",
+    "posted_at": "2026-08-25",
+    "engagement": {
+        "likes": 23249,
+        "comments": 1308
+    },
+    "caption": "Bloodlines of the Beast”📕 An exploration of historical power structures, influence, and the narratives that have shaped different societies over time.\n\nAll in-text references in the video are included in the book.\n\n- Bloodlines of the Beast, Malik Bade\n\nThe Programmed Mind (Shorts)\n\nSpeakers: Cathy O’Brien \n\n- @acensionrise",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Split screen: archival Pierre Trudeau footage above, O'Brien speaking at a microphone below; burned-in captions; \"THE PROGRAMMED MIND\" header and an @acensionrise watermark.",
+    "audio_content_summary": "Archival footage of Cathy O'Brien speaking, naming Pierre Trudeau, Guy Vander Jagt, Robert Byrd, Bill and Hillary Clinton and J. Bennett Johnston as participants in her alleged abuse under a CIA mind-control program, and describing handlers who presented themselves as gods, demons and aliens.",
+    "implied_frame": "Framing: named political figures ran a CIA child sex-slave program. The account is O'Brien's own, published in 1995 with Mark Phillips and resting on memories he says he recovered; no document, prosecution or corroborating witness has been produced. Checkable identifiers in this clip fail — Trudeau was Jesuit-educated but never a Jesuit, and Vander Jagt chaired the House campaign committee, not the RNC. Our own copy of the release contains Paul Krassner's manuscript examining the account and printing Michael Aquino's denial. The clip is carried here as the subject of a record about the account, not as testimony.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~10.4 MB); delivery ~11.0 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "1995-obrien-monarch-account-001"
+    ],
+    "supporting_research_links": [
+        "https://en.wikipedia.org/wiki/Guy_Vander_Jagt",
+        "https://en.wikipedia.org/wiki/Pierre_Trudeau"
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 1,
+        "c": 4
+    }
+}

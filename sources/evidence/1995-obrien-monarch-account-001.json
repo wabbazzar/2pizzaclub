@@ -1,0 +1,46 @@
+{
+    "id": "1995-obrien-monarch-account-001",
+    "anchor": "y1953-mkultra",
+    "year": 1995,
+    "era": "ii",
+    "themes": [
+        "cia",
+        "mkultra"
+    ],
+    "claim": "Cathy O'Brien has alleged since the mid-1990s that she was held as a child sex slave in a CIA mind-control program she calls Project Monarch, and has named presidents, cabinet officials and members of Congress as her abusers. The account appears in \"Trance Formation of America,\" self-published in 1995 with Mark Phillips, who says he formerly worked for the CIA and a Defense Department subcontractor and that he rescued and deprogrammed her; the allegations rest on memories he says he recovered. No document, prosecution, or corroborating witness has ever been produced for any of it, and the identifying details that can be checked do not hold: Pierre Trudeau was educated at the Jesuit Collège Jean-de-Brébeuf in Montreal but was never a member of the Society of Jesus; Guy Vander Jagt was a U.S. representative from Michigan from 1966 to 1993 who chaired the National Republican Congressional Committee, the House campaign arm, not the Republican National Committee. The most direct assessment of the account in the government's own released holdings is Paul Krassner's, whose manuscript sits in the House Oversight estate production: he heard O'Brien speak, wrote that the account was \"an elaborate hoax, intertwining celebrity porn with historical context to foster credibility,\" and contacted Michael Aquino, the Army psychological-operations officer she names, who denied every element.",
+    "sources": [
+        {
+            "label": "House Oversight estate production, HOUSE_OVERSIGHT_015032 — Paul Krassner, \"60 Years of Investigative Satire,\" chapter on Conspiracy Con, reporting O'Brien's presentation and his assessment of it.",
+            "type": "primary",
+            "url": null,
+            "quote": "I think it's an elaborate hoax, intertwining celebrity porn with historical context to foster credibility."
+        },
+        {
+            "label": "House Oversight estate production, HOUSE_OVERSIGHT_015032 — Michael Aquino's response as printed in the same manuscript.",
+            "type": "primary",
+            "url": null,
+            "quote": "I have never had any contact at anytime, anyplace, anywhere with Cathy O'Brien. I have never programmed sex slaves for the government or anyone else. I have never participated in any form of child abuse whatever."
+        },
+        {
+            "label": "House Oversight estate production, HOUSE_OVERSIGHT_015032 — Krassner's account of how the claims were presented, including Mark Phillips's description of his own background.",
+            "type": "primary",
+            "url": null,
+            "quote": "Phillips claims that, having worked for the CIA, where he learned hypnosis, and for a Department of Defense subcontractor with exposure to mind-control research, he was able to rescue O'Brien, deprogram her and collaborate on their book, Trance Formation of America."
+        },
+        {
+            "label": "Wikipedia, \"Pierre Trudeau\" — his schooling at the Jesuit-run Collège Jean-de-Brébeuf.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Pierre_Trudeau",
+            "quote": "As a teenager, he attended the Jesuit French-language Collège Jean-de-Brébeuf, a prestigious secondary school known for educating elite francophone families in Quebec.",
+            "clip": "clips/1995-obrien-monarch-account-001-03.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "Wikipedia, \"Guy Vander Jagt\" — House service 1966–1993 and his chairmanship of the National Republican Congressional Committee.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Guy_Vander_Jagt"
+        }
+    ],
+    "status": "verified",
+    "notes": "Recorded because the account circulates continuously and because our own corpus turns out to hold the closest thing to a contemporaneous examination of it. The Krassner manuscript is in the estate production released by the House Oversight Committee — it reached the corpus as part of Epstein's holdings, not as evidence about him. Three documents in the full release mention O'Brien or Project Monarch: the Krassner text in two versions (003 and HOUSE_OVERSIGHT_015032) and one Data Set 10 web-page capture listing her videos in a sidebar of related links. MKULTRA itself is documented and is recorded separately; 'Project Monarch' is not a documented program name in the declassified MKULTRA record. Aquino was investigated in the 1987 Presidio day-care case and never charged. Nothing here adjudicates what happened to O'Brien personally; it records what the account claims, what supports it, and what does not."
+}
