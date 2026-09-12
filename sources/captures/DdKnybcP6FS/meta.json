@@ -1,0 +1,36 @@
+{
+    "id": "DdKnybcP6FS",
+    "url": "https://www.instagram.com/reel/DdKnybcP6FS/",
+    "platform": "instagram",
+    "captured_at": "2026-09-12",
+    "handle": "@jakeshields",
+    "author_display_name": "Jake Shields",
+    "posted_at": "2026-09-11",
+    "engagement": {
+        "likes": 4255,
+        "comments": 182
+    },
+    "caption": "This was the largest spy ring in American history",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Talking head over burned-in captions (\"THE ISRAELI ART STUDENTS\", \"ISRAELI ART STUDENTS SETTING EXPLOSIVES?\"); lower half shows photographs from Gelitin's book of the boxed-in 91st-floor studio.",
+    "audio_content_summary": "Speaker describes the Israeli \"art students\" episode as an intelligence operation, then identifies the Austrian collective Gelitin as Israeli, reads the cardboard boxes in their 91st-floor World Trade Center studio as thousands of Littelfuse \"BB-18\" fuse holders for remote-controlled demolition, and says roughly 140 of those arrested were sent back to Israel without charges through Michael Chertoff.",
+    "implied_frame": "Framing: an Israeli operation placed demolition charges in the towers under cover of an art residency. Documented separately and carried here: the DEA's June 2001 report on Israeli nationals posing as art students, and the Gelitin installation itself. Corrected here: Gelitin is an Austrian collective of four named artists holding a Lower Manhattan Cultural Council lease, and the boxes in its photographs were stacked as camouflage for the concealed balcony. Not supported by any source: that the boxes held fuse holders or any electrical component, that the collective was Israeli or connected to the DEA report, or that Michael Chertoff arranged the deportations — that last is asserted on advocacy sites and appears in no document, including our own copy of the Epstein release, where his eleven mentions are unrelated news clippings.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~10.0 MB); delivery ~10.7 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2000-gelitin-boxes-001",
+        "2001-art-students-001",
+        "2000-gelitin-001"
+    ],
+    "supporting_research_links": [
+        "https://spikeartmagazine.com/articles/one-work-gelatin-s-the-b-thing",
+        "https://www.salon.com/2002/05/07/students/"
+    ],
+    "editorial_split": {
+        "a": 2,
+        "b": 2,
+        "c": 2
+    }
+}
