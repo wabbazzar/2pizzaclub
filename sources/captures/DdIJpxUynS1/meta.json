@@ -1,0 +1,42 @@
+{
+    "id": "DdIJpxUynS1",
+    "url": "https://www.instagram.com/reel/DdIJpxUynS1/",
+    "platform": "instagram",
+    "captured_at": "2026-09-12",
+    "handle": "@mattykevs",
+    "author_display_name": "Mattykevs",
+    "posted_at": "2026-09-11",
+    "engagement": {
+        "likes": 14059,
+        "comments": 335
+    },
+    "caption": "There is a reason I get 30 million views a month here on IG alone. Go see my profile for why. \n\nI turned down a record label contract worth millions so I could reveal what goes on behind the scenes. \n\n#september11 #911 #september112026 #worldtradecenter #twintowers",
+    "hashtags": [
+        "september11",
+        "911",
+        "september112026",
+        "worldtradecenter",
+        "twintowers"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Talking-head interview clip, two speakers; no burned-in caption track observed on the first frame.",
+    "audio_content_summary": "Two speakers read the September 11 attacks as an occult ritual: the towers as the Masonic pillars Jachin and Boaz before an altar, 7 World Trade Center as \"Solomon's building\" and its trapezoidal plan as a reference to the Church of Satan's Order of the Trapezoid, the four flight numbers (11, 175, 77, 93) as Crowley numerology, Barbara Bush as Aleister Crowley's daughter, and the assertion that no planes hit the towers.",
+    "implied_frame": "Framing: the attacks were staged as a satanic ritual, with the buildings, the numbers and the family lines chosen for occult meaning. Documented here instead: 7 World Trade Center took its nickname from Salomon Brothers, the investment bank that anchored it, and its trapezoidal footprint from the Con Edison substation it was built over; the four flight numbers were published route designators on scheduled services to Los Angeles that the hijackers bought seats on. The Barbara Bush paternity claim traces to an April 1, 2006 blog post whose author has since said he wrote it as an April Fool's joke and a test of what conspiracy audiences would repeat. Two of the underlying occult facts are real and are not disputed here — the Order of the Trapezoid existed within the Church of Satan, and 93 is the Thelemic number Crowley used to open and close correspondence — the reading that links them to the attacks is not supported by anything cited.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~14.3 MB); delivery ~14.9 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2001-wtc7-name-and-shape-001",
+        "2001-flight-numbers-scheduled-routes-001"
+    ],
+    "supporting_research_links": [
+        "https://www.9-11commission.gov/report/911Report_Ch1.htm",
+        "https://en.wikipedia.org/wiki/7_World_Trade_Center_(1987%E2%80%932001)",
+        "https://www.yahoo.com/news/fact-check-15-old-conspiracy-005123024.html"
+    ],
+    "editorial_split": {
+        "a": 2,
+        "b": 5,
+        "c": 1
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": "1941-pentagon-groundbreaking-001",
+    "anchor": "y2001-september-dates",
+    "year": 1941,
+    "era": "iii",
+    "themes": [
+        "pentagon"
+    ],
+    "claim": "Ground was broken for the Pentagon on September 11, 1941, the same day its construction contracts were settled, sixty years to the day before American Airlines Flight 77 struck the building's west wall. The War Department needed one building to replace seventeen scattered offices; construction ran sixteen months and the building was occupied by January 15, 1943.",
+    "sources": [
+        {
+            "label": "Wikipedia, \"The Pentagon\" — construction history, citing the Army Corps of Engineers and Office of the Secretary of Defense histories.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/The_Pentagon"
+        },
+        {
+            "label": "EBSCO Research Starters, \"Pentagon building built\" — groundbreaking date and construction timeline.",
+            "type": "secondary",
+            "url": "https://www.ebsco.com/research-starters/history/pentagon-building-built"
+        },
+        {
+            "label": "LIFE, \"Pentagon: Photos From the Construction of a Colossal Office Building\" — contemporaneous construction photography.",
+            "type": "primary",
+            "url": "https://www.life.com/history/pentagon-photos-from-the-construction-of-a-colossal-office-building/"
+        }
+    ],
+    "status": "verified",
+    "notes": "The date coincidence is real and is routinely offered as evidence of design. Stated here as a date, without a reading attached. Groundbreaking followed congressional approval in late August 1941; the site was chosen for the Arlington Farms tract and moved south after objections about the view from Arlington Cemetery. The section struck in 2001 was the newly renovated Wedge One."
+}

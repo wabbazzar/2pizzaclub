@@ -1,0 +1,46 @@
+{
+    "id": "2001-flight-numbers-scheduled-routes-001",
+    "anchor": "y2001-attack",
+    "year": 2001,
+    "era": "iii",
+    "themes": [
+        "september-11"
+    ],
+    "claim": "The four flight numbers of September 11, 2001 were ordinary published route designators, not numbers assigned that morning. All four were scheduled commercial services to Los Angeles that the hijackers booked seats on: American Airlines Flight 11, the daily Boston–Los Angeles nonstop; United Airlines Flight 175, also Boston to Los Angeles; American Airlines Flight 77, Washington Dulles to Los Angeles, scheduled to depart at 8:10; and United Airlines Flight 93, Newark to Los Angeles. The 9/11 Commission documents the hijackers checking in at ticket counters for these existing flights. Both airlines retired the four numbers after the attacks.",
+    "sources": [
+        {
+            "label": "The 9/11 Commission Report, Chapter 1, \"We Have Some Planes\" — American 11 route.",
+            "type": "primary",
+            "url": "https://www.9-11commission.gov/report/911Report_Ch1.htm",
+            "quote": "American Airlines Flight 11 provided nonstop service from Boston to Los Angeles.",
+            "clip": "clips/2001-flight-numbers-scheduled-routes-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "The 9/11 Commission Report, Chapter 1 — United 175 and its Los Angeles destination.",
+            "type": "primary",
+            "url": "https://www.9-11commission.gov/report/911Report_Ch1.htm",
+            "quote": "checked in for United Airlines Flight 175, also bound for Los Angeles",
+            "clip": "clips/2001-flight-numbers-scheduled-routes-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "The 9/11 Commission Report, Chapter 1 — American 77 schedule.",
+            "type": "primary",
+            "url": "https://www.9-11commission.gov/report/911Report_Ch1.htm",
+            "quote": "American Airlines Flight 77 was scheduled to depart from Washington Dulles for Los Angeles at 8:10.",
+            "clip": "clips/2001-flight-numbers-scheduled-routes-001-02.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "The 9/11 Commission Report, Chapter 1 — United 93 check-in and destination.",
+            "type": "primary",
+            "url": "https://www.9-11commission.gov/report/911Report_Ch1.htm",
+            "quote": "checked in at the United Airlines ticket counter for Flight 93, going to Los Angeles",
+            "clip": "clips/2001-flight-numbers-scheduled-routes-001-03.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Written against the numerological reading of the flight numbers (11, 175, 77, 93 as chosen occult figures). The numbers were airline route designators in published timetables before that day; the four aircraft were full or partly full scheduled services, and the hijackers bought tickets on them. Retirement of a flight number after a fatal crash is standard airline practice. The Commission report is cited from the commission's own site (9-11commission.gov), which mirrors the GPO text."
+}

@@ -1,0 +1,33 @@
+{
+    "id": "DbJRXLrKkoi",
+    "url": "https://www.instagram.com/reel/DbJRXLrKkoi/",
+    "platform": "instagram",
+    "captured_at": "2026-09-12",
+    "handle": "@amargi.life",
+    "author_display_name": "AMARGI",
+    "posted_at": "2026-07-23",
+    "engagement": {
+        "likes": 2602,
+        "comments": 511
+    },
+    "caption": "I think we’re asking the wrong question.\n\nFor the record: I am not suicidal ;)",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Talking-head to camera; no burned-in caption track observed.",
+    "audio_content_summary": "A former AI-startup CEO argues that because wealthy people never spend time on anything without a return, their reported practice of Satanism must be delivering something real — and proposes that physical reality is a lower-dimensional projection of a demonic and angelic world, with science and rationality functioning as a distraction from it.",
+    "implied_frame": "Framing: the Epstein documents show elites practicing Satanism, and the practice must work. The premise is testable and was tested — a term sweep of the full release (1,051,599 documents) returns no document describing an occult rite by anyone in the material; the matches are OCR damage on bank statements, FBI news summaries about the 764 network, book passages, and references to The Satanic Verses. The speaker's account of his own career and the metaphysical model built on the premise are not assessed here.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~66.6 MB); delivery ~67.2 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-epstein-corpus-satanism-check-001"
+    ],
+    "supporting_research_links": [
+        "https://2pizzaclub.com/efta/"
+    ],
+    "editorial_split": {
+        "a": 1,
+        "b": 1,
+        "c": 2
+    }
+}

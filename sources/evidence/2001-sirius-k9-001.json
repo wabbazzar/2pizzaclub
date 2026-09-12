@@ -1,0 +1,32 @@
+{
+    "id": "2001-sirius-k9-001",
+    "anchor": "y2001-attack",
+    "year": 2001,
+    "era": "iii",
+    "themes": [
+        "september-11"
+    ],
+    "claim": "Sirius, a yellow Labrador retriever wearing Port Authority Police Department shield number 17, was the only dog killed in the September 11 attacks. He was an explosives-detection dog assigned to the Port Authority police station in the basement of the South Tower, where he screened vehicles entering the World Trade Center complex, and he had worked there with his handler, Lieutenant David Lim, since graduating from the Port Newark K-9 center in July 2000. When the North Tower was struck, Lim kenneled Sirius in the basement and went up to help evacuate; the dog was still there when the South Tower came down. His remains were recovered from the wreckage in January 2002 and carried out with a police honor guard. A memorial service was held at Liberty State Park on April 24, 2002, and his collar badge is in the collection of the National September 11 Memorial and Museum.",
+    "sources": [
+        {
+            "label": "National September 11 Memorial & Museum, \"A Tribute to PAPD K-9 Officer Sirius.\"",
+            "type": "primary",
+            "url": "https://www.911memorial.org/connect/blog/tribute-papd-k-9-officer-sirius",
+            "quote": "in the basement below the World Trade Center's South Tower",
+            "clip": "clips/2001-sirius-k9-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Wikipedia, \"Sirius (police dog)\" — service history, recovery of remains, museum collection.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Sirius_(police_dog)"
+        },
+        {
+            "label": "ABC7 New York, Lt. David Lim at the dedication of a plaque to K-9 Sirius.",
+            "type": "secondary",
+            "url": "https://abc7ny.com/post/lieutenant-david-lim-k-9-serius-september-11/13591593/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Written because the dog's name and shield number get used as numerological raw material — Sirius the star, shield 17 as a tarot index. The name was the handler's choice for a dog assigned to a K-9 unit; the shield number was the department's next available. Recovery date is given as January 21, 2002 by several accounts and as 'winter of 2002' by the 9/11 Museum, so the claim says January 2002."
+}

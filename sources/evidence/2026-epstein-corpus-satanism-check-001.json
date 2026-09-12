@@ -1,0 +1,39 @@
+{
+    "id": "2026-epstein-corpus-satanism-check-001",
+    "anchor": "y2019",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "journalism"
+    ],
+    "claim": "The premise that the released Epstein documents show the people in them practicing Satanism does not survive a search of the release. Across the full extracted text of the Epstein Files Transparency Act production — all twelve Justice Department data sets plus the House Oversight estate holdings, 1,051,599 documents — \"baphomet\" appears in zero documents; \"black mass\" and \"ritual sacrifice\" in three each; \"moloch\" in seven; any form of \"satanic/satanism/satanist\" in 75. Read individually, those 75 fall into four groups: optical-character-recognition damage on scanned Deutsche Bank and UBS account statements, where the scanner renders \"statement\" and similar words as \"satanist\"; FBI open-source news summaries about the online extortion network known as 764 and the neo-Nazi group Order of Nine Angles, both of which post-date Epstein's death; book and manuscript passages in the estate holdings, including one that examines and rejects the Cathy O'Brien \"Project Monarch\" account and prints Michael Aquino's denial in full; and references to Salman Rushdie's \"The Satanic Verses.\" No document in the release describes a ritual, a rite, or an occult practice by Epstein or anyone in his circle.",
+    "sources": [
+        {
+            "label": "Local mirror of the DOJ Epstein Files Transparency Act release — full extracted text, 1,051,599 documents (Data Sets 1–12 plus House Oversight estate production). Term counts run over the complete corpus, not the published subset.",
+            "type": "data",
+            "url": "https://2pizzaclub.com/efta/"
+        },
+        {
+            "label": "House Oversight estate production, HOUSE_OVERSIGHT_015032 — manuscript passage assessing the Cathy O'Brien \"Project Monarch\" account and quoting Michael Aquino's response.",
+            "type": "primary",
+            "url": null,
+            "quote": "I think it's an elaborate hoax, intertwining celebrity porn with historical context to foster credibility."
+        },
+        {
+            "label": "House Oversight estate production, HOUSE_OVERSIGHT_015032 — Aquino's denial as printed in the same manuscript.",
+            "type": "primary",
+            "url": null,
+            "quote": "I have never had any contact at anytime, anyplace, anywhere with Cathy O'Brien. I have never programmed sex slaves for the government or anyone else. I have never participated in any form of child abuse whatever."
+        },
+        {
+            "label": "DOJ EFTA production, Data Set 10, EFTA01655722 — FBI open-source news summary listing the '764' extortion network among items in the news.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01655722.pdf",
+            "quote": "'764' - a pedophilic, satanist extortion club",
+            "clip_status": "quote-not-found"
+        }
+    ],
+    "status": "verified",
+    "notes": "Counts are document-level (one corpus line = one document) from ~/data/epstein-files/work/corpus.jsonl, run 2026-09-12: baphomet 0, moloch 7, black mass 3, ritual sacrifice 3, occult 154, lucifer 27, satani* 75. The 'occult' and 'lucifer' counts are not asserted in the claim because they were not individually read; satani* was, in full. The OCR failure mode is the same one documented in 2026-byington-claims-vs-corpus-001 — Deutsche Bank statement scans producing false hits. Aquino, a US Army PSYOP officer who founded the Temple of Set, was investigated in the Presidio day-care case and never charged; the estate manuscript is the only place his name appears in the release, and it appears there as a claim being refuted. This record answers the premise, not the metaphysics built on top of it."
+}

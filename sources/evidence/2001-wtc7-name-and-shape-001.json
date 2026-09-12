@@ -1,0 +1,33 @@
+{
+    "id": "2001-wtc7-name-and-shape-001",
+    "anchor": "y2001-attack",
+    "year": 2001,
+    "era": "iii",
+    "themes": [
+        "september-11",
+        "finance"
+    ],
+    "claim": "7 World Trade Center was nicknamed the Salomon Brothers Building after Salomon Brothers, the Wall Street investment bank founded in 1910 by Arthur, Herbert and Percy Salomon, which leased the top nineteen floors in 1988 and became the anchor tenant. The name is the bank's, spelled Salomon; it has no connection to the biblical Solomon. The building's trapezoidal footprint — 330 feet long by 140 feet wide — was set by the ground beneath it: a two-story Consolidated Edison electrical substation had occupied the site since 1967, and the tower, designed by Emery Roth & Sons and completed in 1987, had to be built on that substation's smaller, irregular foundation, with transfer trusses between the fifth and seventh floors carrying the load down to it.",
+    "sources": [
+        {
+            "label": "Wikipedia, \"7 World Trade Center (1987–2001)\" — building name, tenancy, footprint and substation, citing the Port Authority records and contemporaneous coverage.",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/7_World_Trade_Center_(1987%E2%80%932001)",
+            "quote": "colloquially known as Building 7 or the Salomon Brothers Building",
+            "clip": "clips/2001-wtc7-name-and-shape-001-00.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "NIST NCSTAR 1A, \"Final Report on the Collapse of World Trade Center Building 7,\" November 2008 — structural description, including the transfer trusses and girders over the Con Edison substation.",
+            "type": "primary",
+            "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/NCSTAR/ncstar1a.pdf"
+        },
+        {
+            "label": "Skidmore, Owings & Merrill project record for the replacement 7 World Trade Center — site history including the Con Edison substation.",
+            "type": "secondary",
+            "url": "https://www.som.com/projects/7-world-trade-center/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Written to settle a recurring conflation: the 'Solomon' reading of the building's nickname, and the reading of its trapezoidal plan as symbolic. Both have mundane documented origins — an anchor tenant's name and a pre-existing utility substation footprint. Salomon Brothers was acquired by Travelers in 1997 and folded into Salomon Smith Barney under Citigroup; the nickname outlived the firm. Tenants of the building are in 2001-wtc7-records-001; the collapse timing is in 2001-bbc-wtc7-early-report-001."
+}

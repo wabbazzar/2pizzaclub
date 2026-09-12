@@ -1,0 +1,29 @@
+{
+    "id": "1968-911-emergency-number-001",
+    "anchor": "y2001-september-dates",
+    "year": 1968,
+    "era": "iii",
+    "themes": [
+        "surveillance"
+    ],
+    "claim": "The 911 emergency number was not introduced on a September 11. AT&T announced 911 as the national emergency code in January 1968, and the first 911 call in the United States was placed on February 16, 1968, in Haleyville, Alabama, by Alabama House Speaker Rankin Fite, answered by Representative Tom Bevill at the police station. Adoption was slow and local: the number reached about 17 percent of the population by 1976 and about 50 percent by 1987. The 1987 figure is a coverage milestone, not a launch date.",
+    "sources": [
+        {
+            "label": "History.com, \"First 9-1-1 call is placed in the United States,\" February 16, 1968.",
+            "type": "secondary",
+            "url": "https://www.history.com/this-day-in-history/february-16/first-911-emergency-call-is-placed-in-the-united-states"
+        },
+        {
+            "label": "Smithsonian Magazine, \"Dial Up the Story of the First 911 Call, Which Was Placed on This Day in 1968.\"",
+            "type": "secondary",
+            "url": "https://www.smithsonianmag.com/smart-news/dial-up-the-story-of-the-first-911-call-which-was-placed-on-this-day-in-1968-180985980/"
+        },
+        {
+            "label": "Hamilton County (Tenn.) 9-1-1 Emergency Communications District, \"Origin & History of 9-1-1\" — adoption percentages by year.",
+            "type": "primary",
+            "url": "https://www.hamiltontn911.gov/9-1-1-history.php"
+        }
+    ],
+    "status": "verified",
+    "notes": "Written against the circulating claim that 911 service began on September 11, 1987. The 1987 date appears in 911-history summaries as the year roughly half the U.S. population had access to the number — a coverage statistic with no day attached. The first call is documented to February 16, 1968; the Haleyville red telephone used for it is on display in that city."
+}

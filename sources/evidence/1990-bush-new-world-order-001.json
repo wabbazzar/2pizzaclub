@@ -1,0 +1,33 @@
+{
+    "id": "1990-bush-new-world-order-001",
+    "anchor": "y2001-september-dates",
+    "year": 1990,
+    "era": "iii",
+    "themes": [
+        "iraq",
+        "presidency"
+    ],
+    "claim": "President George H. W. Bush used the phrase \"a new world order\" in an address before a joint session of Congress on September 11, 1990. The speech was about the Persian Gulf crisis — Iraq's invasion of Kuwait five weeks earlier — and set out five objectives for the American response. The fifth was the phrase itself: \"Out of these troubled times, our fifth objective — a new world order — can emerge: a new era — freer from the threat of terror, stronger in the pursuit of justice, and more secure in the quest for peace.\" The subject was the post-Cold War settlement and the coalition against Iraq, not terrorism policy; the reference to terror is one clause in a list.",
+    "sources": [
+        {
+            "label": "George H. W. Bush, \"Address Before a Joint Session of the Congress on the Persian Gulf Crisis and the Federal Budget Deficit,\" September 11, 1990 — transcript.",
+            "type": "primary",
+            "url": "https://millercenter.org/the-presidency/presidential-speeches/september-11-1990-address-joint-session-congress",
+            "quote": "Out of these troubled times, our fifth objective—a new world order—can emerge",
+            "clip": "clips/1990-bush-new-world-order-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "The Washington Post, \"Bush: 'Out of These Troubled Times . . . A New World Order',\" September 12, 1990 — next-day transcript of the address.",
+            "type": "secondary",
+            "url": "https://www.washingtonpost.com/archive/politics/1990/09/12/bush-out-of-these-troubled-times-a-new-world-order/b93b5cf1-e389-4e6a-84b0-85f71bf4c946/"
+        },
+        {
+            "label": "C-SPAN, video of the September 11, 1990 joint-session address.",
+            "type": "primary",
+            "url": "https://www.c-span.org/clip/joint-session-of-congress/user-clip-george-bush-sr-a-new-world-order/5189437"
+        }
+    ],
+    "status": "verified",
+    "notes": "The date and the phrase are both real and are regularly cited as a September 11 pattern. What the speech was actually about is the part that gets dropped: Kuwait, oil, the coalition, and the federal budget deficit, which shares the address's official title. Miller Center hosts the Public Papers text."
+}
