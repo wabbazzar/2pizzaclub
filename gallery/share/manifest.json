@@ -4,7 +4,7 @@
     {
       "slug": "all",
       "topic": "All threads",
-      "count": 154,
+      "count": 159,
       "seconds": 16026
     },
     {
@@ -64,7 +64,7 @@
     {
       "slug": "cia",
       "topic": "CIA",
-      "count": 15,
+      "count": 16,
       "seconds": 1665
     },
     {
@@ -160,7 +160,7 @@
     {
       "slug": "epstein",
       "topic": "Epstein",
-      "count": 21,
+      "count": 22,
       "seconds": 2355
     },
     {
@@ -190,7 +190,7 @@
     {
       "slug": "finance",
       "topic": "Finance",
-      "count": 32,
+      "count": 33,
       "seconds": 3419
     },
     {
@@ -226,6 +226,12 @@
     {
       "slug": "geoengineering",
       "topic": "Geoengineering",
+      "count": 1,
+      "seconds": 0
+    },
+    {
+      "slug": "guantanamo",
+      "topic": "Guantanamo",
       "count": 1,
       "seconds": 0
     },
@@ -298,13 +304,13 @@
     {
       "slug": "iraq",
       "topic": "Iraq",
-      "count": 3,
+      "count": 4,
       "seconds": 272
     },
     {
       "slug": "israel",
       "topic": "Israel",
-      "count": 42,
+      "count": 43,
       "seconds": 4238
     },
     {
@@ -322,7 +328,7 @@
     {
       "slug": "journalism",
       "topic": "Journalism",
-      "count": 41,
+      "count": 43,
       "seconds": 3752
     },
     {
@@ -416,10 +422,22 @@
       "seconds": 1462
     },
     {
+      "slug": "pentagon",
+      "topic": "Pentagon",
+      "count": 2,
+      "seconds": 0
+    },
+    {
       "slug": "pharma",
       "topic": "Pharma",
       "count": 3,
       "seconds": 175
+    },
+    {
+      "slug": "presidency",
+      "topic": "Presidency",
+      "count": 1,
+      "seconds": 0
     },
     {
       "slug": "privatization",
@@ -484,7 +502,7 @@
     {
       "slug": "september-11",
       "topic": "September 11",
-      "count": 16,
+      "count": 20,
       "seconds": 2050
     },
     {
@@ -508,7 +526,7 @@
     {
       "slug": "surveillance",
       "topic": "Surveillance",
-      "count": 18,
+      "count": 19,
       "seconds": 2253
     },
     {
@@ -578,6 +596,12 @@
       "seconds": 2214
     },
     {
+      "slug": "war-on-terror",
+      "topic": "War On Terror",
+      "count": 1,
+      "seconds": 0
+    },
+    {
       "slug": "watergate",
       "topic": "Watergate",
       "count": 1,
@@ -606,6 +630,12 @@
       "topic": "Wildfires",
       "count": 3,
       "seconds": 52
+    },
+    {
+      "slug": "yemen",
+      "topic": "Yemen",
+      "count": 1,
+      "seconds": 0
     }
   ]
 }
