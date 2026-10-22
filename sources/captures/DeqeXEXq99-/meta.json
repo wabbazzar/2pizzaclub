@@ -1,0 +1,32 @@
+{
+    "id": "DeqeXEXq99-",
+    "url": "https://www.instagram.com/reel/DeqeXEXq99-/",
+    "platform": "instagram",
+    "captured_at": "2026-10-22",
+    "handle": "@thomasvangenderen",
+    "author_display_name": "Duke Silver",
+    "posted_at": "2026-10-19",
+    "engagement": {
+        "likes": 154102,
+        "comments": 833
+    },
+    "caption": "sorry to hear about your fatal accident tomorrow",
+    "hashtags": [],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Opening clip of Epstein captioned \"aged like grape soda\"; news headline graphic \"[Suicide struck through] of Epstein Whistleblower — Probe launched over Andriesz's death\"; \"Andriesz tipped off Congress to an Epstein associate.\"; \"British banker who exposed Lutnick links to Epstein found dead\"; screenshot of @SAndriesz post dated Aug 9, 2026 (\"I intend to share more of the evidence and the story behind what happened\"); \"SECRETARY / Howard Lutnick\"; \"Billionaires who employed Epstein's particular set of skills to abuse tax loopholes and pay proportionally less than the rest of America's middle and working-class families\"; \"Lutnick Donates $5 Million to House Republicans\" / \"A month before his closed-door testimony over ties to Epstein\"; the Dec 2012 'captain' email; \"wife & children\"; a photo of Epstein and Lutnick on the island; the AdFin stock-purchase signature page (Southern Trust Company / Jeffrey Epstein); the May 28, 2018 AdFin email; the masks/dentist-chair room photo; \"'resemblance' — Oversight Committee\"; \"LUTNICK: 'That is the most ridiculous and absurd thing I've ever heard.' 'I have hair.'\"; a mask-vs-Lutnick comparison graphic; Andriesz interview clip with kinetic text \"PEOPLE ARE SAYING ... HEAD ... ASSASSINATED\", \"COMPLETELY LOST\", \"DANGER: HOME REPOSSESSED\"; \"Separating the sequence of 'suicides'\" over a list (Jeffrey Epstein, Jean-Luc Brunel, Mark Middleton, Virginia Giuffre); \"deliberately designed\"; \"Simon was wrongfully told that he did not qualify for whistleblower protection by the FCA\"; FCA logo; \"FCA accused of 'insulting the memory' of Epstein-Lutnick whistleblower\"; \"FCA Investigating Itself Over Handling of Whistleblower\"; \"'review how they interacted with Mr. Andriesz to learn any lessons for the future'\"; closing Trump rally clip with chyron.",
+    "audio_content_summary": "Comedic-sarcastic explainer (creator performing in a neon-lit room) on Simon Andriesz's death and Howard Lutnick's Epstein ties: Andriesz tipped Congress, posted that he would share more evidence, then died; Lutnick's $5M to House Republicans before his Oversight interview; his 'never be in the room with that disgusting person' line vs the 2012 'captain' email and the family island lunch; a business deal 'four days' later; contact through 2018; the island mask he denied resembling ('I have hair'); Andriesz's own clips about fearing assassination and financial ruin; the FCA's whistleblower-protection error and self-review. Opens with a clip about an unexplained heart-failure death and closes on Trump saying leakers 'should be shot' / 'in the old days we used to shoot leakers' (Oct 2026 rally).",
+    "implied_frame": "Implies Andriesz was killed for exposing Lutnick and that the administration treats leakers as deserving death. Group A (verified, recorded): Andriesz tipped Congress and died months later; his Aug 9 post; the FCA's whistleblower-protection error and its self-review (2026-andriesz-death-001); Lutnick's $5M to the Congressional Leadership Fund between agreeing to testify and the May 6 interview; his 'disgusting person' podcast line; the Dec 19, 2012 'exact location for my captain' email; the family island visit; the May 2018 AdFin email; the 'I have hair' exchange (2026-lutnick-oversight-interview-001). Group B (contested / unverified / framing): Lutnick's 'my name is in the documents like everyone else' paraphrase (not verified); the tax-loophole-only / 'greatest blackmailer' framing; the deal 'four days' after the island (SPA dated Dec 28, 2012 — five days — but Lutnick's counsel says Cantor signed in spring 2013); the mask resemblance; 'Lutnick's numerous lies' (Oversight Democrats' charge, disputed by Comer); Andriesz's on-camera account of total financial ruin and assassination fears (his statements, not independently checked); 'the FCA failed to hold Lutnick accountable'; 'speaking out cost Simon his life' / whistleblowing as a death sentence; the Trump 'leakers should be shot' clip juxtaposed to imply a link to Andriesz (the quote is from an Oct 2026 rally about an Iran-strike leak). Group C: none.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~19.1 MB); delivery ~19.5 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-andriesz-death-001",
+        "2026-lutnick-oversight-interview-001"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 10,
+        "b": 9,
+        "c": 0
+    }
+}

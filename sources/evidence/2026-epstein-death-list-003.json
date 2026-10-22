@@ -1,0 +1,64 @@
+{
+    "id": "2026-epstein-death-list-003",
+    "anchor": "y2019",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "body-count"
+    ],
+    "claim": "A list circulating in October 2026 names people connected to Jeffrey Epstein who have died. These entries cover 2025 and 2026. Official rulings are attributed to whoever made them. (1) Virginia Giuffre, the most prominent public accuser of Epstein and Ghislaine Maxwell, died at her farm in Neergabby, Western Australia, in April 2025, at 41. Western Australia police said the circumstances were not suspicious, and her family said she died by suicide. Her father said there was \"no way\" she took her own life. In December 2019 she had posted: \"I am making it publicy known that in no way, shape or form am I sucidal.\" (2) Umar Dzhabrailov, a Chechen-born businessman and former Russian senator, was found with a gunshot wound to the head in a Moscow residential complex on March 2, 2026, at 67. Russian media, citing police, reported a suicide; he had attempted suicide in 2020. May 2001 emails in the DOJ Epstein release show him arranging to host Maxwell in Moscow, with Maxwell writing that \"Jeffrey Tom and I are coming next week.\" (3) Daniel Siad, a French modeling scout, was found dead at his home in Colombes outside Paris on July 20, 2026, at 69. Prosecutors ordered an autopsy, and no cause has been announced. Several women had accused him of rape and of recruiting them for Epstein, which he denied. In June he told CNN he believed Epstein was a casting director for Victoria's Secret. A May 2016 email in the release from an attorney for Epstein's accusers says Jean-Luc Brunel described Siad as a \"scout\" or recruiter of girls and/or women for Epstein. (4) Simon Andriesz, a former executive at the brokerage BGC Partners who gave the House Oversight Committee correspondence between Epstein and Commerce Secretary Howard Lutnick, was found dead outside Bangkok on September 23, 2026.",
+    "sources": [
+        {
+            "label": "CBS News — Virginia Giuffre, Jeffrey Epstein accuser, dies (April 2025).",
+            "type": "secondary",
+            "url": "https://www.cbsnews.com/news/virginia-giuffre-jeffrey-epstein-accuser-dies"
+        },
+        {
+            "label": "LBC — \"'I'm not suicidal', Prince Andrew accuser Virginia Roberts Giuffre says\" (December 2019).",
+            "type": "secondary",
+            "url": "https://www.lbc.co.uk/article/im-not-suicidal-prince-andrew-accuser-virginia-rob-DWydsC_2/",
+            "quote": "I am making it publicy known that in no way, shape or form am I sucidal.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "The Moscow Times — \"Chechen Businessman and Ex-Senator Umar Dzhabrailov Found Dead in Apparent Suicide\" (March 2, 2026).",
+            "type": "secondary",
+            "url": "https://www.themoscowtimes.com/2026/03/02/chechen-businessman-and-ex-senator-umar-dzhabrailov-found-dead-in-apparent-suicide-a92088",
+            "quote": "He previously tried to take his own life in 2020.",
+            "clip": "clips/2026-epstein-death-list-003-02.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00582508 and EFTA00582171 — Umar Djabrailov and Ghislaine Maxwell emails, May 2001.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00582508.pdf",
+            "quote": "However we Jeffrey Tom and I are coming next week arriving Fri.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "France 24 — \"French modelling scout linked to US sex offender Epstein found dead outside Paris\" (July 22, 2026).",
+            "type": "secondary",
+            "url": "https://www.france24.com/en/france/20260722-french-modelling-scout-linked-to-us-sex-offender-epstein-found-dead-outside-paris"
+        },
+        {
+            "label": "Sinclair / CBS Austin — \"French modeling scout tied to Jeffrey Epstein investigation found dead: reports\" (July 22, 2026), including Siad's June CNN interview.",
+            "type": "secondary",
+            "url": "https://cbsaustin.com/news/nation-world/french-modeling-scout-tied-to-jeffrey-epstein-investigation-found-dead-reports-death-autopsy-sex-trafficking-network-rape-sexual-abuse-allegations-misconduct-and-grooming-ghislaine-maxwell-convicted-suicide-true-crime"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 8, Bates EFTA00017956 — forwarded email from attorney Stan Pottinger, May 3, 2016, \"Contact Info Daniel Siad (from Brunel).\"",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%208/EFTA00017956.pdf",
+            "quote": "Daniel Siad, whom Jean Luc Brunel describes as a \"scout\" or recruiter of girls and/or women for J. Epstein.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "IBTimes UK — \"Simon Andriesz Cause of Death: Epstein Whistleblower Died of 'Asphyxiation From Hanging' in Thailand\" (October 7, 2026).",
+            "type": "secondary",
+            "url": "https://www.ibtimes.co.uk/simon-andriesz-reported-cause-death-thailand-1824289"
+        }
+    ],
+    "status": "verified",
+    "notes": "Part 3 of 3 of a circulating Epstein death list (part 1: 2026-epstein-death-list-001; part 2: 2026-epstein-death-list-002). Andriesz has his own full record: 2026-andriesz-death-001. Corpus-first: Dzhabrailov appears as 'Umar Djabrailov' (umar@ovk.ru) in May 2001 Maxwell emails EFTA00582508/582171/582504 — Maxwell: 'Sorry that we did not come last week ... However we Jeffrey Tom and I are coming next week arriving Fri.'; Djabrailov: 'I want 2 take care of U and arrange welcoming things.' The 'soulmate' line is from The Sun via Daily Caller (not in our corpus) — not used. 'Pool of blood' detail is Kommersant via Daily Beast — not used. A daughter's Instagram dispute of the suicide ruling was reported by some outlets (unverified, not used). Siad 1.6k hits (2009–2016 Siad–Epstein emails incl. 'do you want to meet jean luc in paris?' Oct 2009; Pottinger email EFTA00017956, re-forwarded by an AUSA Dec 6 2018). Siad's age: France 24/Sinclair 69; Wikipedia 68. Giuffre's 2019 tweet quoted with its original misspellings. Rulings attributed, not adopted (WA police 'not suspicious'; Russian police-sourced suicide; Siad autopsy pending). Source capture: DekgiOlS1xd."
+}

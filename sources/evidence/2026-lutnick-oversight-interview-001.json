@@ -1,0 +1,69 @@
+{
+    "id": "2026-lutnick-oversight-interview-001",
+    "anchor": "y2019",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "finance",
+        "congress",
+        "lobbying"
+    ],
+    "claim": "Commerce Secretary Howard Lutnick sat for a closed-door transcribed interview with the House Oversight Committee on May 6, 2026. Chairman James Comer had announced on March 3 that Lutnick agreed to appear voluntarily. On April 1, between that announcement and the interview, Lutnick gave $5 million to the Congressional Leadership Fund, the main super PAC backing House Republicans, according to Federal Election Commission (FEC) filings. The Commerce Department said he gave in his personal capacity, as cabinet secretaries of both parties have done. Emails in the DOJ Epstein release show Lutnick writing to Epstein on December 19, 2012: \"Where are you located (what is exact location for my captain)? Does Sunday evening for dinner sound good?\" Epstein replied: \"come sat or sunday lunch? little st james on the map.\" In the interview Lutnick did not dispute a December 23, 2012 visit to Little Saint James, Epstein's island, with his wife, his children, another family and his staff, which he described as an hour-long lunch. He had said on a podcast that after an earlier visit to Epstein's townhouse he and his wife decided \"I will never be in the room with that disgusting person ever again.\" The committee introduced a Series A stock purchase agreement for AdFin Solutions, an online-advertising exchange startup, dated December 28, 2012, with signature pages for both Epstein and Lutnick, who signed for a Cantor Fitzgerald venture-capital subsidiary. Lutnick said he did not know Epstein was an investor until the files were released. His lawyer said the Cantor entity actually signed in spring 2013, not December 2012. A May 28, 2018 email chain shows Epstein asking \"what do you think the prospects for adfin are?\" and an account Lutnick confirmed as his replying \"Producing revenue finally.\" Asked about online speculation that one of the masks photographed on a wall at Epstein's island resembled him, Lutnick said: \"That is the most ridiculous and absurd thing I've ever heard. What, a bald man? I have hair.\" On May 14 every Oversight Democrat signed a letter calling for his resignation, saying he \"flatly denied\" that his prior public statements about Epstein were misleading. Comer called that a manufactured false narrative and said Lutnick had three meetings with Epstein over 15 years as neighbors.",
+    "sources": [
+        {
+            "label": "House Committee on Oversight and Government Reform — transcript, Interview of Howard Lutnick, Wednesday, May 6, 2026.",
+            "type": "primary",
+            "url": "https://oversight.house.gov/wp-content/uploads/2026/05/Lutnick-Transcript.pdf",
+            "quote": "You've got to be kidding me. That is the most ridiculous and absurd thing I've ever heard. What, a bald man? I have hair.",
+            "clip_status": "error: pdf-download (page.goto: Download is starting)"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00950539 — Lutnick to Epstein, \"Sunday,\" December 19, 2012, and Epstein's reply of December 20, 2012 (second copy at EFTA00399319; forwarded copy in Data Set 10 at EFTA01803316).",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00950539.pdf",
+            "quote": "Where are you located (what is exact location for my captain)? Does Sunday evening for dinner sound good?",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA01050772 — Epstein and \"HWL\" email chain, May 28, 2018 (Oversight majority exhibit 4).",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA01050772.pdf",
+            "quote": "on another note what do you think the prospects for adfin are?",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Federal Election Commission — itemized receipts, Congressional Leadership Fund (C00504530): Lutnick, Howard W., $5,000,000, April 1, 2026.",
+            "type": "data",
+            "url": "https://www.fec.gov/data/receipts/?committee_id=C00504530&contributor_name=lutnick&two_year_transaction_period=2026"
+        },
+        {
+            "label": "MS NOW — \"Lutnick donated $5 million to House Republicans weeks before Epstein testimony\" (Ebony Davis, May 22, 2026).",
+            "type": "secondary",
+            "url": "https://www.ms.now/news/lutnick-donated-5-million-to-house-republicans-weeks-before-epstein-testimony",
+            "quote": "Mr. Lutnick made a political donation in his personal capacity",
+            "clip": "clips/2026-lutnick-oversight-interview-001-04.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "NBC News — \"Commerce Secretary Howard Lutnick to testify in the House Oversight Committee's Jeffrey Epstein probe, chairman says\" (March 3, 2026).",
+            "type": "secondary",
+            "url": "https://www.nbcnews.com/politics/politics-news/commerce-secretary-howard-lutnick-testify-house-oversight-committees-j-rcna261579",
+            "quote": "has proactively agreed to appear voluntarily before the House Committee on Oversight and Government Reform",
+            "clip": "clips/2026-lutnick-oversight-interview-001-05.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "House Oversight Committee Democrats — press release and letter, \"Ranking Member Robert Garcia, Every Oversight Democrat Call on Commerce Secretary Howard Lutnick to Immediately Resign After Dishonest and Evasive Interview\" (May 14, 2026).",
+            "type": "primary",
+            "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-every-oversight-democrat-call-on-commerce-secretary-howard-lutnick-to-immediately-resign-after-dishonest-and-evasive-interview"
+        },
+        {
+            "label": "Courthouse News — \"House Democrats call on Howard Lutnick to resign as Commerce Secretary after Epstein interview\" (May 2026), with Chairman Comer's response.",
+            "type": "secondary",
+            "url": "https://courthousenews.com/house-democrats-call-on-howard-lutnick-to-resign-as-commerce-secretary-after-epstein-interview/"
+        }
+    ],
+    "status": "verified",
+    "notes": "Built from the Oversight transcript (pdftotext of oversight.house.gov PDF: date p.1; podcast 'disgusting' quote put to him at transcript p.~14 line 8; Dec 23 2012 island visit p.~20; mask exchange p.25-26; CVAFH/Cantor Ventures + AdFin SPA p.26-27; EFTA1050772 exhibit 4 p.28-29; AdFin SPA dated Dec 28 2012, Bates ending 9580/9581, and counsel Terwilliger's proffer that Cantor signed in spring 2013, p.86-87). Corpus-first: the Dec 19 2012 'captain' email and Epstein's 'come sat or sunday lunch? little st james on the map' reply are in our own corpus (DS9 EFTA00950539 + EFTA00399319 [forwarded via Lesley Groff]; DS10 EFTA01803316); the May 28 2018 AdFin chain is DS9 EFTA01050772 (also contains Epstein: 'how long until sherry is ready, and i can buy my guest house?'). The Dec 19 email lists the other couple by name and the children's ages — deliberately not reproduced (private individuals / minors). FEC primary pulled via api.open.fec.gov schedule_a (committee C00504530, receipt 2026-04-01, $5,000,000, employer US Dept of Commerce; image https://docquery.fec.gov/cgi-bin/fecimg/?202608059899362749). Timing: Comer announcement Mar 3 -> donation Apr 1 -> interview May 6 (~5 weeks; outlets said 'four weeks'). The SPA-date dispute (Dec 28 2012, five days after the island lunch, vs counsel's 'spring 2013') is presented both ways; neither is adopted. The donation's timing is stated as fact; any motive is not asserted. Courthouse News 403s to WebFetch — Comer's 'manufacture false narratives' / 'three meetings ... 15 years as neighbors' lines are as relayed in search excerpts of that article; Democrats' 'flatly denied it' line is from the letter. Source captures: DeqeXEXq99- (Lutnick/Andriesz segment), DekgiOlS1xd (Andriesz mention). See-also 2026-andriesz-death-001, 1998-lutnick-epstein-townhouse-001, 2021-lutnick-fbi-guardian-complaint-001."
+}

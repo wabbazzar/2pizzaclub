@@ -1,0 +1,84 @@
+{
+    "id": "2026-epstein-death-list-001",
+    "anchor": "y2019",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "body-count"
+    ],
+    "claim": "A list circulating in October 2026 names people connected to Jeffrey Epstein who have died. These entries cover 2014 to 2020. Official rulings are attributed to whoever made them, and where the list's dates or links differ from the record, the record is given. (1) Alfredo Rodriguez, Epstein's Palm Beach house manager in 2004–05, tried in 2009 to sell an address book of Epstein's contacts for $50,000 to a lawyer for Epstein's accusers. He was convicted of obstruction of justice, sentenced to 18 months, and died on December 28, 2014. (2) Wendy Leigh, a celebrity biographer, died in May 2016 at 65 in a fall from her riverside apartment in London; her agent gave no further details. In 2007 she wrote two Daily Mail articles on Ghislaine Maxwell and Epstein. A lawyer for Epstein's accusers later cited one in a court filing. Copies of both are in the DOJ Epstein release, one bearing a Palm Beach Police fax header. Whether she was researching Epstein in 2016 is not documented in the sources reviewed. (3) Joseph Recarey, the Palm Beach police detective who led the 2005–06 investigation of Epstein, died on May 25, 2018, at 50 after a brief illness. (4) Thomas Bowers, former head of Deutsche Bank's US private wealth-management unit, which oversaw Donald Trump's private banker, was found hanged at his Malibu home on November 19, 2019, not in April. The Los Angeles County coroner ruled it suicide. He appears once in the Epstein release, on an internal Deutsche Bank sheet listing him as the bank's Americas head. PolitiFact found no credible source for a separate claim that he was Epstein's personal banker. (5) Efrain Reyes became Epstein's cellmate at the Metropolitan Correctional Center in Manhattan on July 30, 2019. A transfer order dated August 8 moved him out on August 9, the day before Epstein was found dead. Reyes was found dead at 51 in his mother's New York apartment on November 27, 2020. The New York Daily News reported that he had caught COVID-19 in custody. A prosecutor's email in the release says he appeared to have died in his sleep and \"may have been drug related, but perhaps not.\" No medical examiner's finding was published. (6) Steve Bing, a film producer and major Clinton Foundation donor, died on June 22, 2020 in a fall from his 27th-floor condominium in Century City, Los Angeles; his death was reported as a suicide. In the release he appears in press clippings and in a 2004 email from Clinton aide Doug Band to Maxwell: \"Going out with steve bing later.\"",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00211150 — US Attorney's Office email re: FOIA request for records on Alfredo Rodriguez, March 16, 2016.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00211150.pdf",
+            "quote": "date of death: December 28, 2014",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01326054 — FBI Miami serial 22, case 72-MM-113327: interview of Alfredo Rodriguez (2009).",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01326054.pdf",
+            "quote": "RODRIGUEZ wanted to sell these items for $50,000.00 to attorney BRADLEY EDWARDS",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Court filing in the estate production, HOUSE_OVERSIGHT_010566, citing Wendy Leigh, \"Prince Andrew's Friend, Ghislaine Maxwell, Some Underage Girls and A Very Disturbing Story\" (Daily Mail, September 23, 2007); article copies in Data Set 10 at EFTA01726367 and EFTA01661603.",
+            "type": "court",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01726367.pdf",
+            "quote": "See also Prince Andrew's Friend, Ghislaine Maxwell, Some Underage Girls and A Very Disturbing Story, September 23, 2007 by Wendy Leigh",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "AP via KIVI — \"Celebrity biographer Wendy Leigh dies in London at age 65\" (June 2016).",
+            "type": "secondary",
+            "url": "https://www.kivitv.com/news/national/celebrity-biographer-wendy-leigh-dies-in-london-at-age-65"
+        },
+        {
+            "label": "Dignity Memorial — obituary, Joseph \"Joe\" Recarey (June 5, 1967 – May 25, 2018).",
+            "type": "secondary",
+            "url": "https://www.dignitymemorial.com/obituaries/west-palm-beach-fl/joseph-recarey-7862448",
+            "quote": "died on May, 25, 2018, surrounded by his family after a brief illness",
+            "clip_status": "rejected: crop shows private family members incl. minors"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01436002 — Deutsche Bank internal sheet listing regional heads.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01436002.pdf",
+            "quote": "Americas Tom Bowers",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "PolitiFact — \"Facebook post conflates Epstein's suicide and recent murder\" (September 18, 2020), on Thomas Bowers.",
+            "type": "secondary",
+            "url": "https://www.politifact.com/factchecks/2020/sep/18/viral-image/facebook-post-conflates-epsteins-suicide-and-recen/"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 8, Bates EFTA00019925 — prosecutors' email re: Efrain Reyes, November 30, 2020; BOP transfer order at EFTA00122417 (August 8, 2019).",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%208/EFTA00019925.pdf",
+            "quote": "learned from Probation that Efrain Reyes died. It sounds like it was in his sleep. Given his history, I think it may have been drug related, but perhaps not.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Fox News — \"Jeffrey Epstein's last cellmate dies from coronavirus, reports say\" (December 2020), citing the New York Daily News.",
+            "type": "secondary",
+            "url": "https://www.foxnews.com/us/jeffrey-epsteins-last-cell-mate-dies-from-coronavirus-reports-say"
+        },
+        {
+            "label": "Wikipedia — \"Steve Bing\" (death June 22, 2020, Century City).",
+            "type": "secondary",
+            "url": "https://en.wikipedia.org/wiki/Steve_Bing"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00579245 — Doug Band and Ghislaine Maxwell emails, October 13, 2004.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00579245.pdf",
+            "quote": "Going out with steve bing later",
+            "clip_status": "quote-not-found"
+        }
+    ],
+    "status": "verified",
+    "notes": "Part 1 of 3 of a circulating Epstein death list, split by date for card length (part 2: 2026-epstein-death-list-002, 2022–2023; part 3: 2026-epstein-death-list-003, 2025–2026). The list's 1985 Arthur Shapiro entry is its own record: 1985-arthur-shapiro-epstein-lead-001. Corpus-first: Rodriguez 626 hits (FBI 302 serial 22 in 72-MM-113327; serial 44 'EPSTEIN'S EX BUTLER SENTENCED TO 18 MONTHS'; USAO FOIA email gives DOD Dec 28 2014); Wendy Leigh 9 hits (Daily Mail 'Ghislaine Maxwell is just like her Daddy' 18/05/07 with PALM BEACH POLICE fax header EFTA01661603; 'Prince Andrew's friend...' 23/09/07 EFTA01726367; cited in Edwards filing HOUSE_OVERSIGHT_010566 para 59) — the 2016 'heavily researching Epstein' framing is unverified, not dismissed; Recarey 307 hits (his 2005–06 PBPD narratives); Bowers 1 hit (undated DB sheet EFTA01436002, alongside a client/prospect sheet for DB rep Stewart Oldfield); Efrain Reyes ~200 hits (BOP after-action timeline '7/30/2019 New cellmate Efrain Reyes' EFTA01656198; 8/9/19 8:00am 'departs for court ... Reyes is Epstein's cellmate'; FBI 'Proffer of EFRAIN REYES' serial 8/29/2019 in EFTA01730634; reply in EFTA00019925: 'You're correct that we didn't need his testimony'); Bing 15 hits (2007 New York magazine 'Billionaires Are Free' clipping on the Chelsea club Door; 2004 Band->Maxwell email). Rulings are attributed, not adopted (Bowers coroner; Reyes COVID per Daily News vs prosecutor's 'drug related' speculation; Bing reported suicide). Bowers date corrected Apr->Nov 2019. Source capture: DekgiOlS1xd."
+}

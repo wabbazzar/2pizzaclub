@@ -1,0 +1,43 @@
+{
+    "id": "1985-arthur-shapiro-epstein-lead-001",
+    "anchor": "y2019",
+    "year": 1985,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "body-count",
+        "fbi"
+    ],
+    "claim": "Arthur Shapiro, a Columbus, Ohio attorney, was shot dead on March 6, 1985, one day before he was due before a federal grand jury in an IRS investigation of bogus tax shelters. The killing is unsolved. A June 1991 analysis by the Columbus police organized-crime bureau says his law firm represented The Limited, Les Wexner's retail company, and that Shapiro managed that account. Epstein later managed Wexner's money. FBI files in the DOJ Epstein release show the bureau running down an Epstein–Shapiro lead in 2010 and 2011. In October 2010, FBI Miami agents working the obstruction case against Epstein's former house manager interviewed the Columbus detective on the Shapiro case and the prosecutor in the tax case. The detective said investigators believed Shapiro had been helping businessmen buy companies facing bankruptcy and creating illegal tax shelters. The prosecutor said Shapiro had agreed to plead guilty before he was killed. The detective named Shapiro's business associate Berry Kessler, later convicted in an unrelated murder-for-hire, as the man he believed responsible, though there was not enough evidence to charge him. He also said the local press had alleged a Wexner connection in the mid-1990s, but he had found no evidence connecting Wexner, or Epstein, to the killing. A July 2011 FBI Miami email records that a federal prison inmate at Fort Dix who had made statements about \"Epstein's connection to the case\" refused to speak to agents in October 2010 without a court-appointed lawyer, then gave a one-hour taped interview to Newsweek about his knowledge of the killing.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01326054 (pages EFTA01326076–78) — FBI Miami serials 57 and 58, case 72-MM-113327, October 26, 2010: telephonic interviews of a Columbus Police detective and the tax-case prosecutor regarding Arthur Shapiro.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01326054.pdf",
+            "quote": "McCoskey found no evidence connecting Wexner to the homicide case. In addition, McCoskey's investigation has revealed no connection between the homicide of Shapiro and Jeffrey Esptein to date.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 9, Bates EFTA00078171 — FBI Miami Division email, \"lead from Op Stolen Globe,\" July 6, 2011.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%209/EFTA00078171.pdf",
+            "quote": "would not speak to agents in October 2010 without having a court appointed attorney",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Columbus (Ohio) Police, Organized Crime Bureau — analyst memo to the bureau commander re: Shapiro homicide investigation, June 6, 1991 (archive.org scan, \"epsteindocs\" collection).",
+            "type": "primary",
+            "url": "https://archive.org/details/epsteindocs"
+        },
+        {
+            "label": "The Daily Beast — \"Who Murdered Arthur Shapiro, the Lawyer of Victoria's Secret Billionaire Les Wexner?\" (William Bredderman and Wendy Siegelman, July 16, 2021).",
+            "type": "secondary",
+            "url": "https://www.thedailybeast.com/who-murdered-arthur-shapiro-the-lawyer-of-victorias-secret-billionaire-les-wexner",
+            "quote": "has never been solved",
+            "clip": "clips/1985-arthur-shapiro-epstein-lead-001-03.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Corpus-first find: 'arthur shapiro' hits in DS9/DS10 — EFTA01326054 (Sentinel serial printouts for 72-MM-113327, the Alfredo Rodriguez obstruction case, produced via SDNY_GM_0275317x), duplicate at EFTA01248266; serial index in EFTA01730634 lists serial 57 '10/26/2010 INTERVIEW OF DE[T] RE:ARTHUR SHAPIRO', serial 58 'INTERVIEW RE:AUSA', serial 59 '11/9/2010 CONSOLIDATED LEGAL CENTER PROVIDED BOP RECORDS RE:STEVEN HOF[FENBERG]', serial 46 '9/2/2010 EC REQUESTING TRENTON RA TO CONDUCT INTERVIEW OF FEDERAL [inmate]'. The Fort Dix inmate in EFTA00078171 is REDACTED — the adjacent Hoffenberg BOP-records serial is suggestive but this record does not identify the inmate (redaction treated as authoritative). The detective's and prosecutor's statements are ATTRIBUTED, not adopted: the primary fact is that FBI Miami was pursuing an Epstein–Shapiro lead in 2010–11; one detective's 'no evidence ... to date' is his statement to the FBI, not a closing verdict. The 1991 memo is an analytical working document that labels its own Wexner/organized-crime hypotheses unproven; only its factual line about the firm representing The Limited is used. 'Epstein later managed Wexner's money' is standard record (Wexner granted Epstein power of attorney in 1991). Whether Epstein 'took over' Shapiro's role is the circulating framing — not asserted. Source capture: DekgiOlS1xd. See-also 2026-epstein-death-list-001."
+}

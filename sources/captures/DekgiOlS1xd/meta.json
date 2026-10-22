@@ -1,0 +1,37 @@
+{
+    "id": "DekgiOlS1xd",
+    "url": "https://www.instagram.com/reel/DekgiOlS1xd/",
+    "platform": "instagram",
+    "captured_at": "2026-10-22",
+    "handle": "@heyimarapper",
+    "author_display_name": "Michael Mooney",
+    "posted_at": "2026-10-16",
+    "engagement": {
+        "likes": 4269,
+        "comments": 226
+    },
+    "caption": "What a coincidence! 🤔😷\n\nIn the wake of the death of Simon Andriesz, I think it's important to go over this list, to see what lengths those in power will go to in order to avoid accountability.\n\nSome of these are almost definitely by natural causes. But the point is that time is running out for accountability, and key members of the Epstein Network are no longer able to speak. \n\nThis list is also non-exhaustive. There are more people I could have included on this list.\n\n#epsteinfiles",
+    "hashtags": [
+        "epsteinfiles"
+    ],
+    "audio_track_actual": "",
+    "video_overlay_text_observed": "Title card \"LIST OF UNALIVED PEOPLE IN THE EPSTEIN NETWORK\" over the opening; picture-in-picture photos of each named person as they come up (a Telegraph image for Simon Andriesz, Brunel, Shapiro beside Wexner, Middleton, Dzhabrailov, Siad, Giuffre plus a screenshot of her 2019 \"not suicidal\" tweet, Hoffenberg, Starr, Wendy Leigh, Bing, the Bowers/Trump and Broeksmit images, a New York Post Bowers image, Val Broeksmit, Andriano, Richardson, Recarey, Rodriguez). No captioned claims beyond the title card.",
+    "audio_content_summary": "Talking-head roll call of 18 deaths presented as people 'unalived' in the Epstein network, in this order: Simon Andriesz (Lutnick whistleblower), Jean-Luc Brunel, Daniel Siad, Arthur Shapiro (1985, Wexner's finances, 'Epstein took over'), Mark Middleton (dated Feb 2022), Umar Dzhabrailov ('soulmate' of Maxwell), Efrain Reyes (COVID), Virginia Giuffre (not-suicidal tweet), Steven Hoffenberg ('natural causes'), Ken Starr, Wendy Leigh ('heavily researching Epstein in 2016'), Steve Bing ('same parties'), Thomas Bowers (dated April 2019; 'transfers with Epstein and Trump'), William and Val Broeksmit (NYT 'death' article at Mar-a-Lago), Carolyn Andriano, Bill Richardson, Joe Recarey, Alfredo Rodriguez. Also states Epstein 'committed suicide' as fact. Caption concedes 'some of these are almost definitely by natural causes' and frames the list as accountability running out.",
+    "implied_frame": "Frames the deaths as a pattern of people silenced to protect the powerful ('unalived'), while the caption concedes several are natural. Group A (verified as stated, recorded): Andriesz's whistleblowing + death (2026-andriesz-death-001); Siad's death weeks after his June CNN interview, Giuffre's death + 2019 tweet (2026-epstein-death-list-003); Starr on Epstein's 2008 defense team, Andriano's overdose after testifying, Richardson (2026-epstein-death-list-002); Recarey, Rodriguez and the black book (2026-epstein-death-list-001). Group B (real deaths whose stated date, cause or Epstein link is wrong, contested or unverified): Brunel 'trafficked women to Epstein' (charged, never tried); Shapiro 'managed Wexner's finances' / 'Epstein took over' (his firm handled The Limited's account per a 1991 Columbus police memo; FBI Miami ran an Epstein–Shapiro lead in 2010–11, the detective told agents he found no Wexner/Epstein link — 1985-arthur-shapiro-epstein-lead-001); Middleton date (May not Feb) and 'arranged Epstein–Clinton visits' (logs show visits to meet Middleton; 2009/2013 contact emails in the release); Dzhabrailov 'soulmate' quote (The Sun, unverified; 2001 Moscow emails with Maxwell are real); Reyes 'COVID' (Daily News report vs a prosecutor's 'drug related' speculation); Hoffenberg 'natural causes' (cause left pending); Leigh 'researching Epstein in 2016' (she did publish on Maxwell/Epstein in 2007 — in the release — but 2016 work undocumented); Bing 'same parties' (release has only clippings + a 2004 Band→Maxwell mention); Bowers date (Nov not Apr) and 'supervised Epstein transfers' (one DB org-sheet mention; PolitiFact found no source); William Broeksmit 'subject of a probe' (not the subject); NYT 'death article' at Mar-a-Lago (it was a 2019 feature); the overall 'unalived to avoid accountability' frame; Epstein's death stated as suicide (contested — see 2019-epstein-death-custody-001). Group C: none — every claim has a primary trace.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~28.6 MB); delivery ~29.2 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2026-andriesz-death-001",
+        "1985-arthur-shapiro-epstein-lead-001",
+        "2026-epstein-death-list-001",
+        "2026-epstein-death-list-002",
+        "2026-epstein-death-list-003"
+    ],
+    "supporting_research_links": [],
+    "editorial_split": {
+        "a": 8,
+        "b": 13,
+        "c": 0
+    }
+}

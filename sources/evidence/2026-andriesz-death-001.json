@@ -1,0 +1,65 @@
+{
+    "id": "2026-andriesz-death-001",
+    "anchor": "y2019",
+    "year": 2026,
+    "era": "iv",
+    "themes": [
+        "epstein",
+        "whistleblower",
+        "finance",
+        "body-count"
+    ],
+    "claim": "Simon Andriesz, 57, a British former managing director at BGC Partners, was found dead on September 23, 2026 in a town outside Bangkok, Thailand. BGC is the brokerage spun off from Cantor Fitzgerald, which Howard Lutnick ran before he became Commerce Secretary. His family said he took his own life. The Banker reported a suicide. The Daily Mail, citing a local municipal office, reported the listed cause as \"asphyxiation from hanging\"; other outlets said they could not independently verify that finding. Thai authorities have not publicly released an official cause of death. Andriesz had spent about a decade alleging misconduct at BGC. He won $500,000 against the firm in a June 2024 arbitration before FINRA (the Financial Industry Regulatory Authority, the US brokerage self-regulator), and the US Commodity Futures Trading Commission later paid him a whistleblower award of about $420,000. BGC said it had long disputed his allegations. He told the BBC he took allegations of undisclosed Lutnick–Epstein business dealings to the FBI in 2020 and 2021 and met \"no interest.\" In the DOJ Epstein release, an FBI case-file serial index includes an entry titled with his name, dated February 16, 2021. It sits beside the April 2021 complaint form recording a 2020 tip about Lutnick, which was logged without a case being opened. A July 24, 2025 email in the release summarizing allegations against named figures lists his report under Lutnick's name. Searching the release, he flagged a May 2018 email in which Epstein asked Lutnick about the prospects of AdFin, a startup in which both Epstein and a Cantor venture arm had invested. He gave that correspondence to the House Oversight Committee before Lutnick's May 6, 2026 interview. In an August 9, 2026 post he wrote that the consequences of whistleblowing \"have been devastating\" and that he intended \"to share more of the evidence and the story behind what happened.\" He had been wrongly told by the UK Financial Conduct Authority (FCA) that he did not qualify for whistleblower protection. After his death the FCA asked Lea Paterson, a newly appointed non-executive board member, to review how it dealt with him. A cross-party group of MPs said the regulator should not \"mark its own homework\" and called for an independent review. Lutnick has denied wrongdoing in connection with Epstein.",
+    "sources": [
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01648946 (duplicate at EFTA01648951) — internal summary email of allegations against named individuals, July 24, 2025, \"Howard Lutnick\" entry.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01648946.pdf",
+            "quote": "Simon Andriesz reported that Lutnick made his money through Ponzi schemes and money laundering. Lutnick and Epstein were neighbors and Epstein sold Lutnick a home for $10 which was then sold for millions.",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "DOJ Epstein Files Transparency Act production, Data Set 10, Bates EFTA01730634 (pages EFTA01730651–52) — FBI serial index, case 50D-NY-3027571: serial 593 (4/5/2021) \"SIMON ANDRIES[Z] 02.16.2021\"; serial 595 (4/23/2021) \"NTOC2020 288hmb01 Alleged Money Laundering by Howard Lutnick via BGC Financial and Cantor Fitzgerald.\" Interview-synopsis compilation at EFTA01684300 (pages EFTA01684376–84421) records Andriesz \"calling from the United Kingdom\" and describes his prior work at BGC and Cantor Fitzgerald.",
+            "type": "primary",
+            "url": "https://www.justice.gov/epstein/files/DataSet%2010/EFTA01730634.pdf"
+        },
+        {
+            "label": "IBTimes UK — \"Simon Andriesz Cause of Death: Epstein Whistleblower Died of 'Asphyxiation From Hanging' in Thailand\" (Rhea Mae Acibario, October 7, 2026).",
+            "type": "secondary",
+            "url": "https://www.ibtimes.co.uk/simon-andriesz-reported-cause-death-thailand-1824289",
+            "quote": "IBTimes UK cannot independently verify the municipal finding cited by the newspaper.",
+            "clip": "clips/2026-andriesz-death-001-02.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "IBTimes UK — \"Epstein Whistleblower Dies at 57 After FBI Declined To Investigate His Lutnick Tip Years Earlier\" (Jim Manzon, October 5, 2026): BBC interview, FBI approaches in 2020–21, the 2018 AdFin email, hand-off to House Oversight, CFTC award.",
+            "type": "secondary",
+            "url": "https://www.ibtimes.co.uk/simon-andriesz-lutnick-epstein-files-1823598"
+        },
+        {
+            "label": "The Daily Beast / PunchUp — \"Death of Whistleblower Who Exposed Howard Lutnick's Epstein Ties Sparks Probe\" (Tom Latchem, October 7, 2026): FCA review, FINRA award, BGC response.",
+            "type": "secondary",
+            "url": "https://www.thedailybeast.com/death-of-whistleblower-who-exposed-howard-lutnicks-epstein-ties-sparks-probe",
+            "quote": "to review how we interacted with Mr. Andriesz to learn any lessons for the future",
+            "clip_status": "rejected: paywall modal covers highlighted quote"
+        },
+        {
+            "label": "Irish Examiner — \"UK regulator FCA to investigate how it handled Epstein whistleblower who took his own life\" (October 6, 2026): whistleblower-protection error; all-party parliamentary group response.",
+            "type": "secondary",
+            "url": "https://www.irishexaminer.com/world/arid-41920225.html",
+            "quote": "had been wrongly told he did not qualify for whistleblower protection",
+            "clip": "clips/2026-andriesz-death-001-05.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Raw Story — reproduction of Andriesz's X post dated August 9, 2026.",
+            "type": "secondary",
+            "url": "https://www.rawstory.com/howard-lutnick-epstein-2677998523/",
+            "quote": "I intend to share more of the evidence and the story behind what happened.",
+            "clip": "clips/2026-andriesz-death-001-06.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Corpus-first: Andriesz is in our own release corpus 6x (DS10): EFTA01648946/EFTA01648951/EFTA01656173/EFTA01660622 (the July 24 2025 'named figures' allegation summary — a compilation of victim statements and NTOC tips, many unverified; only the Lutnick line is quoted here, NOT the victim allegations about others); EFTA01730634 (FBI 50D-NY-3027571 serial index, serial 593 'SIMON ANDRIES2 02.16.2021' — OCR '2' for 'Z'; adjacent serial 595 = the FD-71A in record 2021-lutnick-fbi-guardian-complaint-001); EFTA01684300 (serial-synopsis spreadsheet, column-truncated OCR: 'Simon Andriesz, date of birth[redacted]', 'Andriesz, call[i]ng from the United Kingdom, previously worked for BGC Financial (BGC) and Can[tor] Fitzgera[l]d (CF) in the financial market. Andriesz was responsible for reviewing reporting, and comp[liance]... Andriesz uncovered fraud, money laundering, Ponz[i] schemes, and regulat[ory]...', '...based on the possible location of Lutnick within the United States'). Redaction posture: the FD-71A in 2021-lutnick-fbi-guardian-complaint-001 redacts the complainant; this record does NOT assert that the redacted complainant is Andriesz — it reports only what the release states by name elsewhere (serial 593 title, the 2025 summary) and what Andriesz said publicly (he self-identified on X as 'the British whistleblower who reported evidence concerning Howard Lutnick'). The release's serial entries vs. Andriesz's 'no interest' account are set side by side; no conclusion drawn. Cause of death: family statement + The Banker + Daily Mail municipal citation (unverified by IBTimes); no Thai police/official cause published as of Oct 2026 — the suicide finding is attributed, not adopted. Post date: embedded tweet dated Aug 9 2026; some outlets framed it as a 'final post' surfacing in October. Commerce Dept told the BBC there was 'no evidence of wrongdoing' (via Newsmax/Yahoo). Source captures: DekgiOlS1xd (opens the list), DeqeXEXq99- (full segment). See-also 2026-lutnick-oversight-interview-001, 2021-lutnick-fbi-guardian-complaint-001."
+}
