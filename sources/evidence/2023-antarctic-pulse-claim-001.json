@@ -1,0 +1,52 @@
+{
+    "id": "2023-antarctic-pulse-claim-001",
+    "anchor": "y2023-antarctica-icecube",
+    "year": 2023,
+    "era": "iv",
+    "themes": [
+        "antarctica",
+        "uap"
+    ],
+    "claim": "Article I of the Antarctic Treaty, which now has 58 parties, prohibits \"any measures of a military nature\" on the continent while allowing military personnel and equipment for science and other peaceful purposes. The claim that a permanent no-fly cylinder five nautical miles wide protects a coordinate in the Schirmacher Oasis of Queen Maud Land has no counterpart in the Treaty system's published plans. The 2021 management plan for Antarctic Specially Protected Area 163, whose edge is about 2.8 km west of the point, covers a 4.53-square-kilometer glacier area, bars helicopter landings inside it, restricts drone flights over bird colonies, and says the Schirmacher Hills hold no other protected area. The flight manual kept by the Council of Managers of National Antarctic Programs is limited to members and was not reviewed, so aviation-side restrictions remain untested. No published source was found for the further claim that 68 research stations lost telemetry for 11 minutes on 7 December 2023 after a pulse from that point. Seven Antarctic magnetic observatories recorded that day with at most two isolated missing minutes, and the planetary Kp index of geomagnetic activity peaked at 2 on its 0-to-9 scale. A small magnetic step near 18:00 UTC appeared at all seven and was largest at Scott Base, 3,400 km from the point, not at Neumayer, the closest at 730 km. Archived magnetometer files can be filled in after an outage, so they test for a magnetic pulse better than for a communications failure.",
+    "sources": [
+        {
+            "label": "The Antarctic Treaty (1959), Article I, Secretariat of the Antarctic Treaty",
+            "type": "primary",
+            "url": "https://ats.aq/documents/keydocs/vol_1/vol1_2_AT_Antarctic_Treaty_e.pdf",
+            "quote": "There shall be prohibited, inter alia, any measures of a military nature, such as the establishment of military bases and fortifications",
+            "clip_status": "error: pdf download"
+        },
+        {
+            "label": "Secretariat of the Antarctic Treaty, Parties list (58 parties; latest accession 11 December 2024)",
+            "type": "primary",
+            "url": "https://www.ats.aq/devAS/Parties?lang=e"
+        },
+        {
+            "label": "Measure 17 (2021), revised Management Plan for Antarctic Specially Protected Area No 163, Dakshin Gangotri Glacier, in The Antarctic Treaty 43rd Measures, UK Command Paper 726",
+            "type": "primary",
+            "url": "https://assets.publishing.service.gov.uk/media/62d012dbd3bf7f285f60c889/The_Antarctic_Treaty_43rd_Measures_CP_726.pdf",
+            "quote": "In the entire Schirmacher Hills, there are no other protected areas.",
+            "clip_status": "error: pdf download"
+        },
+        {
+            "label": "Council of Managers of National Antarctic Programs, Air Operations, access terms for the Antarctic Flight Information Manual",
+            "type": "primary",
+            "url": "https://comnap.aq/air-operations",
+            "quote": "AFIM (PDF) is now available to COMNAP Member National Antarctic Programs and their affliate organisations.",
+            "clip": "clips/2023-antarctic-pulse-claim-001-03.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "INTERMAGNET minute data, 7 December 2023, Neumayer (VNA); same query for MAW, CSY, SBA, AIA, ORC, VOS",
+            "type": "data",
+            "url": "https://imag-data.bgs.ac.uk/GIN_V1/GINServices?Request=GetData&format=iaga2002&testObsys=0&observatoryIagaCode=VNA&samplesPerDay=minute&publicationState=best-avail&dataStartDate=2023-12-07T00:00:00Z&dataDuration=1"
+        },
+        {
+            "label": "GFZ Potsdam, Kp index, 7 December 2023",
+            "type": "data",
+            "url": "https://kp.gfz.de/app/json/?start=2023-12-07T00:00:00Z&end=2023-12-07T23:59:59Z&index=Kp"
+        }
+    ],
+    "status": "verified",
+    "notes": "Capture DeEuFRxj_k8. 54-nation figure is stale: 58 parties (29 consultative, 29 non-consultative) per the Secretariat. ASPA 163 bounds 11°33'30\"-11°36'30\"E, 70°44'10\"-70°45'30\"S; designated for the glacier snout and its algae, moss, cyanobacteria and lichen, not for lakes. Point is 2.8 km east of the eastern boundary. Both the 2015 and 2021 plan texts were read; the only aircraft language is the helicopter-landing ban and the RPAS bird-colony rule. Novo Runway sits about 7.7 km from the point (Wikipedia coordinates, not cited). AFIM unread: paid, member-gated. The no-fly claim therefore stays Group B, not C. INTERMAGNET 7 Dec 2023 1,440-minute records: VNA 0 missing, MAW 0, CSY 0, SBA 0, AIA 0, ORC 1 (01:50), VOS 2 (03:23, 04:15). DRV returned all-missing because it is no longer a certified observatory, so it is excluded from the seven. Data levels mix definitive, quasi-definitive and provisional. Web search for the outage (date, duration, station count, place) returned nothing. Step near 18:00-18:01 UT relative to 17:55: SBA 93 nT, VNA 48, VOS 36, MAW 22, CSY 19, AIA 16, ORC 11; Hornsund (Arctic) about 11, low-latitude observatories 0-4. SYM-H flat near −8 nT. Solar-wind data gap in OMNI at that time, so the driver was not identified. Amplitude at polar stations is not a source locator; the fact is reported without inferring a cause. Kp eight-interval values: 1, 1, 1, 1, 0.67, 0.67, 2, 2. Seismic availability check was dropped: the FDSN availability service has been retired."
+}

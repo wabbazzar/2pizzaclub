@@ -1,0 +1,68 @@
+{
+    "id": "2023-schirmacher-shaft-claim-001",
+    "anchor": "y2023-antarctica-icecube",
+    "year": 2023,
+    "era": "iv",
+    "themes": [
+        "antarctica",
+        "uap"
+    ],
+    "claim": "The claim that a 22-meter vertical shaft runs through 1,180 meters of ice at 70°45'12\"S, 11°41'07\"E in Queen Maud Land, Antarctica, and that a heat signature there vanished behind a map blur in March 2021, does not match the instrument record for that point. The coordinate is bare rock in the Schirmacher Oasis, an ice-free hill range, about 2.2 km from India's year-round Maitri research station. Google Earth's imagery index lists 11 dated high-resolution captures of the point, with none between 21 December 2016 and 16 November 2025, so no December 2019 or March 2021 capture exists to compare; Maitri has the same gap. Those captures and Sentinel-2 satellite scenes from January 2020 and March 2021 show rock and snow patches and no circular opening. Sentinel-2 does not measure heat: its 13 bands end at 2,202 nanometers, below the thermal infrared. Landsat 8's thermal sensor read about +7°C at the point on 11 December 2019, against a claimed −18°C, and nothing within 15 km read colder than −8°C, against a claimed −34°C. The Norwegian Polar Institute, named as the source of the radar finding, lists no Schirmacher dataset in its catalog, and the nearest trace in its survey of the neighboring Nivlisen ice shelf is 62 km from the point. A 1991–92 radar survey put the greatest ice thickness around the oasis at more than 1,400 meters, not the 3 km also claimed.",
+    "sources": [
+        {
+            "label": "Google Earth historical imagery index at 70°45'12\"S, 11°41'07\"E, read 2 November 2026 (database version 372): captures dated 2006-02-20, 2007-12-02, 2010-11-22, 2012-01-02, 2012-01-09, 2012-02-03, 2012-02-04, 2013-11-26, 2016-11-02, 2016-12-21, 2025-11-16. Maxar, CNES/Airbus and Airbus imagery.",
+            "type": "data",
+            "url": null
+        },
+        {
+            "label": "Copernicus Sentinel-2 Level-2A scene S2B_32DNG_20200126, 26 January 2020, cloud cover 0.16%",
+            "type": "data",
+            "url": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2B_32DNG_20200126_0_L2A"
+        },
+        {
+            "label": "Copernicus Sentinel-2 Level-2A scene S2B_32DNG_20210301, 1 March 2021, cloud cover 0.11%",
+            "type": "data",
+            "url": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2B_32DNG_20210301_0_L2A"
+        },
+        {
+            "label": "NASA Earthdata, Multispectral Imager (MSI) instrument page",
+            "type": "primary",
+            "url": "https://www.earthdata.nasa.gov/sensors/msi",
+            "quote": "Sentinel-2 MSI samples 13 spectral bands at different spatial resolutions",
+            "clip": "clips/2023-schirmacher-shaft-claim-001-03.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "USGS Landsat 8 scene LC08_L1GT_167110_20191211, calibration metadata for thermal Band 10",
+            "type": "data",
+            "url": "https://storage.googleapis.com/gcp-public-data-landsat/LC08/01/167/110/LC08_L1GT_167110_20191211_20191217_01_T2/LC08_L1GT_167110_20191211_20191217_01_T2_MTL.txt"
+        },
+        {
+            "label": "British Antarctic Survey READER, Novolazarevskaya monthly mean surface air temperature (December 2019: +0.7°C)",
+            "type": "data",
+            "url": "https://legacy.bas.ac.uk/met/READER/surface/Novolazarevskaya.All.temperature.html"
+        },
+        {
+            "label": "Council of Managers of National Antarctic Programs, India Antarctic Station Catalogue, August 2017",
+            "type": "primary",
+            "url": "https://static1.squarespace.com/static/61073506e9b0073c7eaaf464/t/61562e98a0d93440eb86ef17/1633037978604/India_Antarctic_Station_Catalogue_Aug2017.pdf"
+        },
+        {
+            "label": "Norwegian Polar Institute, ice thickness from low-frequency radar profiling at Nivlisen ice shelf, Lindbäck et al.",
+            "type": "data",
+            "url": "https://data.npolar.no/dataset/331e6f87-9c5e-4422-bb22-c82ab9a6716c",
+            "quote": "The dataset consists of ice thickness derived from low-frequency radar measurements on Nivlisen ice shelf, Dronning Maud Land (70 deg S, 12 deg E).",
+            "clip": "clips/2023-schirmacher-shaft-claim-001-07.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Fritzsche et al., Subglacial topography and ice thickness in the surroundings of the Schirmacher Oasis, Dronning Maud Land, 1995",
+            "type": "primary",
+            "url": "https://openpolar.no/Record/ftawi:oai:epic.awi.de:48968/Description",
+            "quote": "The greatest ice thicknesses (more than 1 400 m) were obtained south and east of the Schirmacher Oasis",
+            "clip_status": "error: page has no document body"
+        }
+    ],
+    "status": "verified",
+    "notes": "Capture DeEuFRxj_k8. Point = 70.75333S, 11.68528E. Geometry: 0.78 km ESE of the stated 70°45'S 11°40'E reference, not 2.3 km NE; 2.24 km from Maitri (COMNAP catalog coordinates 70°46'00.6\"S 11°43'50.8\"E); about 5.7 km from Novolazarevskaya. Google Earth index read from the public khmdb.google.com time-machine quadtree (db=tm) with a Python port of the open-source GEHistoricalImagery protocol; the third-party binary was not run. Level 17 dated tiles are listed in the source label. Coarser levels (9-13) carry annual Landsat/Copernicus mosaics dated 12-31 of 1984-2020 plus 2021-01-01 and 2022-01-01; none is dated March 2021 and the 2018-2022 level-12 tiles were compared side by side with no blur. Control sites at level 17: Maitri 12 captures with the same 2016-12-21 to 2025 gap; Novolazarevskaya 8, last 2016-12-21; Troll 4, last 2013-11-26; Neumayer 4; Mawson 4 with a 2006 to 2025 gap. A nine-year gap is real at the point and is shared by neighbors, so it is reported as a fact, not read as cover. Current Google tiles at zoom 13-19 are sharp (Airbus 2025-11-16). Esri World Imagery and Bing return only coarse tiles at zoom 13 and 'no imagery' placeholders at zoom 15-16 here; that matches the coarse-state half of the map-blur claim, but when Bing changed cannot be dated from one read. Landsat values are at-sensor brightness temperature from Band 10 with scene calibration constants, no atmospheric or emissivity correction. 11 Dec 2019: point +6.7°C (3x3 pixels), 15 km min −7.7, max +11.2; within 1 km 99% of pixels read above +2°C and 41% read warmer than the point, so the point is ordinary sun-warmed rock in a warm rock field, not a discrete hot spot. Zero pixels below −15°C in the 30 km window. 13 Dec +6.3, 22 Dec +8.6, 14 Jan 2020 +0.9, 28 Jan +4.6. Sentinel-2 17 Dec 2019 scene was cloud-covered at the point, so January 2020 is the pre-2021 clear scene. NPI API search q=Schirmacher returned 0 hits; 28,832 Nivlisen radar points span 69.96-70.24S, max 330 m; IceGRAV P-band dataset stops at 10°E. The 1,180 m and >3 km figures also conflict with each other."
+}
