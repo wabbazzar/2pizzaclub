@@ -754,7 +754,7 @@
             // lock takes over from active-press; clear ffActive so a subsequent tap
             // hits the unlock branch instead of the "release-ends-FF" branch.
             ffActive = false;
-            showSpeedIndicator(`${FF_SPEED}x · locked`, 'lock');
+            hideSpeedIndicator();
         }
     }
 
