@@ -804,22 +804,34 @@
         }
     }
 
-    function toggleChrome() { setChrome(!chromeHidden); }
+    let revealedAt = 0;   // last tap-reveal; see the click guard in wireIdleHide
+    function toggleChrome() {
+        setChrome(!chromeHidden);
+        if (!chromeHidden) { revealedAt = performance.now(); armIdle(); }
+    }
     function setChrome(hidden) {
         chromeHidden = hidden;
         overlay.classList.toggle('chrome-hidden', chromeHidden);
     }
 
-    // ---- desktop idle auto-hide: while playing, chrome fades after IDLE_MS without mouse
-    // movement; any mouse move brings it back. Paused = chrome stays up. Touch keeps the
-    // tap-to-toggle above (no hover to wake it, so auto-hide would strand the controls).
+    // ---- idle auto-hide: while playing, chrome fades after IDLE_MS on its own. Mouse:
+    // any move brings it back. Touch: tap brings it back (toggleChrome above). Any press
+    // on a control restarts the countdown. Paused = chrome stays up.
     const IDLE_MS = 2500;
     let idleTimer = null;
     const canHover = !!(window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches);
 
     function wireIdleHide() {
-        if (!canHover) return;
+        // A touch tap reveals the chrome on pointerup, then the browser fires its click
+        // at whatever is now under the finger — usually the center ⏸. Swallow that click
+        // so tapping a hidden screen only reveals, never also pauses/skips.
+        overlay.addEventListener('click', (e) => {
+            if (performance.now() - revealedAt < 400 && e.target.closest('.cinema-chrome')) {
+                e.stopPropagation(); e.preventDefault();
+            }
+        }, true);
         overlay.addEventListener('pointermove', (e) => { if (e.pointerType === 'mouse') wakeChrome(); });
+        overlay.addEventListener('pointerdown', () => { if (!chromeHidden) armIdle(); });
         video.addEventListener('play', armIdle);
         video.addEventListener('pause', wakeChrome);
         armIdle();
@@ -833,9 +845,11 @@
         if (!video || video.paused) return;
         idleTimer = setTimeout(() => {
             if (!overlay || !video || video.paused) return;
+            if (overlay.querySelector('.cinema-scrub.is-dragging')) { armIdle(); return; }
             // don't yank a control out from under the cursor (the big center ⏸ excepted —
-            // the cursor is usually still parked on it after clicking play)
-            if (overlay.querySelector('.cinema-exit:hover, .cinema-share:hover, .cinema-controls:hover, .cinema-progress:hover, .cinema-scrub.is-dragging')) { armIdle(); return; }
+            // the cursor is usually still parked on it after clicking play). Mouse only:
+            // touch browsers leave :hover stuck on the last-tapped element.
+            if (canHover && overlay.querySelector('.cinema-exit:hover, .cinema-share:hover, .cinema-controls:hover, .cinema-progress:hover')) { armIdle(); return; }
             setChrome(true);
         }, IDLE_MS);
     }
