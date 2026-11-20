@@ -1,0 +1,45 @@
+{
+    "id": "DfkxCfKvawn",
+    "url": "https://www.instagram.com/reel/DfkxCfKvawn/",
+    "platform": "instagram",
+    "captured_at": "2026-11-20",
+    "handle": "@nelyatyagay",
+    "author_display_name": null,
+    "posted_at": "2026-11-10",
+    "engagement": {
+        "likes": 25520,
+        "comments": 729
+    },
+    "caption": "A figure in a radiation suit. A live camera. A finger pointed straight at you.\n\nRevisiting the Fukushima footage that still feels unsettling, years later.\n\n#Fukushima #Japan #ArchiveFootage #History",
+    "hashtags": [
+        "Fukushima",
+        "Japan",
+        "ArchiveFootage",
+        "History"
+    ],
+    "audio_track_actual": "Voice-over by the on-camera presenter; no music identified.",
+    "video_overlay_text_observed": "Cover card \"FUKUSHIMA: 20 MINUTES\" with radiation, camera and question-mark emoji; word-by-word yellow captions. Dated \"ARCHIVE REPORT\" cards: \"24 FEBRUARY 2010 / JAPAN OFFERS TO ENRICH URANIUM FOR IRAN\" (Nikkei report / Press TV via Today.az); \"27 APRIL 2010 / FIRST JAPANESE ORDER FOR MAGNA BSP REACTOR SECURITY\" (Globes); \"15 MARCH 2011 / ISRAELI FIRM'S CAMERAS RECORDING JAPANESE NUCLEAR CORE\" (The Jerusalem Post). Footage labels: \"MAGNA BSP / COMPANY DEMONSTRATION\", \"FUKUSHIMA DAIICHI / TEPCO ARCHIVE / APRIL 2011\", \"28 AUGUST 2011 / FUKUICHI LIVE CAMERA\". The live-camera footage carries TEPCO's own overlay (\"...Electric Power Company, Incorporated\", \"2011-08-28 10:31\").",
+    "audio_content_summary": "A presenter on a studio set lays out a chain: Japan offered to enrich uranium for Iran (Feb 2010); two months later the Israeli firm Magna BSP got its first Japanese reactor-security order; less than a year later Fukushima melted down; months after that a suited worker pointed at a live camera for 20 minutes; the same firm later supplied the exclusive intruder-detection system on Israel's borders that was running on 7 Oct 2023. Ends: \"Make of that what you will.\" The caption is tamer, framing it as unsettling archive footage.",
+    "implied_frame": "Implies Israel sabotaged or watched Fukushima in retaliation for Japan's Iran uranium offer, with the pointing worker signaling at an Israeli camera, and that the same firm's system failed on 7 Oct. The dated cards are accurate as reports. The Magna-at-Fukushima account comes from the company; TEPCO declined comment. Japan's foreign ministry told the US embassy it offered only to store Iran's uranium, not enrich it. Not supported (C): the webcam the worker pointed at was TEPCO's public \"Fukuichi Live Camera,\" launched 31 May 2011 and strapped to a stair handrail, with no Magna link on record; and \"exclusive\" border system (IDF 2014: bought several, \"no advantage\"; Gaza barrier built by Magal). The worker's own 2011 statement says he pointed to draw attention to cleanup-worker labor conditions.",
+    "capture_method": "Pristine original media + metadata pulled from Instagram's CDN via yt-dlp; delivery webm derived once (VP9 video copied, audio normalized to -16 LUFS / -1.5 dBTP off the source AAC — no re-recording, no in-place re-encode).",
+    "video_download_status": "Original pulled via yt-dlp (~12.4 MB); delivery ~12.8 MB webm.",
+    "audio_transcription_status": "Transcribed with openai-whisper.",
+    "evidence_records": [
+        "2011-fukushima-magna-cameras-001",
+        "2011-fukushima-pointing-worker-001",
+        "2014-magna-border-system-001"
+    ],
+    "supporting_research_links": [
+        "https://en.globes.co.il/en/article-1000555226",
+        "http://web.archive.org/web/20110317092603/http://www.jpost.com:80/Defense/Article.aspx?id=212168",
+        "https://www.tepco.co.jp/en/nu/fukushima-np/images/handouts_110530_02-e.pdf",
+        "http://web.archive.org/web/20111005002450/http://pointatfuku1cam.nobody.jp/e.html",
+        "https://wikileaks.org/plusd/cables/10TOKYO386_a.html",
+        "https://www.mako.co.il/news-military/security-q4_2014/Article-568b5de07904941004.htm"
+    ],
+    "editorial_split": {
+        "a": 3,
+        "b": 6,
+        "c": 2
+    }
+}

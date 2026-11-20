@@ -1,0 +1,43 @@
+{
+    "id": "2011-fukushima-pointing-worker-001",
+    "anchor": "y2011-fukushima",
+    "year": 2011,
+    "era": "iv",
+    "themes": [
+        "japan",
+        "surveillance"
+    ],
+    "claim": "On 28 August 2011, a worker in a full-body radiation suit stood in front of the \"Fukuichi Live Camera\" at Fukushima Daiichi and pointed at the lens for about 20 minutes. The Tokyo Electric Power Company (TEPCO) began streaming that camera on 31 May 2011, more than two months after the meltdowns, as a public webcam aimed at Units 1 to 4 from near the plant's administration building, about 250 m northwest of Unit 1. None of the 2010 and 2011 reports about Magna BSP, the Israeli firm that said it had installed perimeter-security cameras at the plant, mention this webcam. In early September 2011, an anonymous website said it was written by the man who pointed. It described the camera as fastened to a stair handrail over pipes and said the pointing was meant to draw attention to cleanup workers' labor conditions and to observation through the media. TEPCO said on 30 August that it could not identify the worker and did not plan to investigate. In March 2012 the Tokyo artist Kota Takeuchi announced he would show the webcam recording in a solo exhibition. He said he had worked at the plant at the time but would not confirm that he was the man.",
+    "sources": [
+        {
+            "label": "Tokyo Electric Power Company, \"Distributing 'Fukuichi Live Camera' (24 hour video pictures),\" press handout, 30 May 2011",
+            "type": "primary",
+            "url": "https://www.tepco.co.jp/en/nu/fukushima-np/images/handouts_110530_02-e.pdf",
+            "quote": "Commencement: From 10:00 am on Tuesday, May 31, 2011",
+            "clip_status": "http-403"
+        },
+        {
+            "label": "Edan Corkill, \"Are we pointing at the right guy?\" The Japan Times, 8 March 2012 (Internet Archive copy)",
+            "type": "secondary",
+            "url": "http://web.archive.org/web/20190108022955/https://www.japantimes.co.jp/culture/2012/03/08/arts/are-we-pointing-at-the-right-guy/",
+            "quote": "After about 20 minutes, the man, who was clad in a full-body radiation suit that masked his identity, promptly disappeared.",
+            "clip": "clips/2011-fukushima-pointing-worker-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "\"About the pointing a finger toward Fukuichi live cam,\" anonymous statement attributed by its author to the worker (English page, Internet Archive copy, 5 October 2011)",
+            "type": "doc",
+            "url": "http://web.archive.org/web/20111005002450/http://pointatfuku1cam.nobody.jp/e.html",
+            "quote": "The intention of pointing a finger toward camera was to point out about the labor issue and observation through the media.",
+            "clip": "clips/2011-fukushima-pointing-worker-001-02.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Fukuichi Live Camera footage with TEPCO timestamp overlay \"2011-08-28 10:31\", as preserved in gallery capture DfkxCfKvawn",
+            "type": "reel",
+            "url": "https://2pizzaclub.com/gallery/#DfkxCfKvawn"
+        }
+    ],
+    "status": "verified",
+    "notes": "Tests the claim that the camera the worker pointed at was one of the Israeli firm's cameras (Group C). TEPCO handout: new distribution, installation location near admin building, image ~250 m NW of Unit 1, 30-second lag, launched on TEPCO homepage banner 31 May 2011. Worker's site: camera 'fastened on the handrail of the step over the pipes' (strapped-on, post-accident). JPost 15 Mar 2011: Magna could not access its own camera images. No source located naming a manufacturer for the live cam; the C rests on TEPCO's own description of a separate, post-accident public camera plus no Magna report mentioning it. Date: TEPCO overlay in footage reads 2011-08-28 10:31; worker site cites TEPCO's 30 Aug press conference and Sonoda's 29 Aug remarks; Japan Times says 'last August'. Identity: site is anonymous; TEPCO said it could not verify; JT: Takeuchi admits working at the plant at the time, declines to confirm. Japanese page also: worker says many social problems are visible 'without bringing up conspiracy theories' (多くの重要な社会問題は陰謀論を持ち出さずとも). Goethe-Institut/ZKM page (403 to fetch) reportedly names Takeuchi as the worker's 'agent'."
+}

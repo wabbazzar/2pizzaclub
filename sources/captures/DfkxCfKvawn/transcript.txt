@@ -1,0 +1,20 @@
+Source: reel.orig.mkv (Instagram original)
+Audio: source AAC extracted to 16kHz mono WAV
+Transcribed: 2026-11-20, openai-whisper base.en
+
+— FULL TEXT —
+
+What if I told you, the company that installed surveillance cameras at Fukushima was from
+Israel and months after the meltdown a mysterious warfare in a full radiation suit stood in
+front of one of those live cameras and pointed at it for 20 minutes without moving.
+In February 2010, Japan offered to enrich uranium from Iran two months later, in April,
+the Israeli firm Magna BMP got its first order for a perimeter security and camera system
+at Japanese nuclear reactor and less than a year later, Fukushima melted down.
+Those cameras were live months after the disaster, a worker in a radiation suit walked
+into a frame, raised his hand and pointed straight at the camera for 20 minutes.
+Each country's company held the planned surveillance contract, Israel.
+The same Israeli company later supplied the exclusive intruder detective system along
+Israel's own borders, the one that was still running on October 7th of 2023.
+Make of that what you will.
+
+— END —

@@ -1,0 +1,39 @@
+{
+    "id": "2014-magna-border-system-001",
+    "anchor": "y2011-fukushima",
+    "year": 2014,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "idf",
+        "surveillance",
+        "defense"
+    ],
+    "claim": "Magna BSP, the Israeli firm that said it installed cameras at Fukushima Daiichi, also sold a camera-based intrusion-detection system to the Israel Defense Forces (IDF). A 2013 report by the Israeli trade outlet i-HLS said the IDF had approved it for border protection and operated it \"on all Israeli borders.\" In October 2014 the Israeli news site Mako reported that the defense establishment had bought several of the systems and that one on the Egypt border had detected armed men approaching the fence in time. The report also said the IDF had not deployed many more of them. The IDF told Mako that the system \"has no advantage over other collection systems given the operational requirements.\" No source describes Magna's system as the exclusive intrusion-detection system on Israel's borders. Reporting after 7 October 2023 named a different Israeli company, Magal Security Systems, as the contractor for the Gaza barrier from 2002 and for its later \"smart fence\" upgrade. Whether any Magna equipment was operating on the Gaza line on 7 October 2023 is not established in public reporting.",
+    "sources": [
+        {
+            "label": "i-HLS News Desk, \"New, Advanced Border Protection Technology for the IDF,\" 10 October 2013",
+            "type": "secondary",
+            "url": "https://i-hls.com/?p=20885",
+            "quote": "The IDF currently has operating Magna systems on all Israeli borders and in maritime-land interfaces as well.",
+            "clip": "clips/2014-magna-border-system-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Mako (Channel 2 News), \"חשופים בגבול: למה צה\"ל לא פורש את מערכת ההגנה המתקדמת?\" (Exposed at the border: why doesn't the IDF deploy the advanced defense system?), 24 October 2014",
+            "type": "secondary",
+            "url": "https://www.mako.co.il/news-military/security-q4_2014/Article-568b5de07904941004.htm",
+            "quote": "למערכת המדוברת אין יתרון על פני מערכות איסוף אחרות לאור הדרישות המבצעיות",
+            "clip_status": "quote-not-found"
+        },
+        {
+            "label": "Baruch Green, \"Gaza Fence Not Designed to Prevent Mass Invasion On Its Own, According to its Creator,\" VIN News, 20 October 2023",
+            "type": "secondary",
+            "url": "https://vinnews.com/2023/10/20/gaza-fence-not-designed-to-prevent-mass-invasion-on-its-own-according-to-its-creator/",
+            "quote": "Magal Security Systems was contracted to construct the barrier in 2002",
+            "clip_status": "error: page timeout"
+        }
+    ],
+    "status": "verified",
+    "notes": "Tests 'the same Israeli company later supplied the exclusive intruder detection system along Israel's own borders, the one that was still running on October 7th'. 'Later' is also off: IDF adoption reporting is 2013 (i-HLS says after 7 years of development with the IDF tech unit), and Globes Apr 2010 already notes IDF testing. i-HLS is a trade outlet; 'all borders' is uncorroborated and conflicts with Mako 2014 (bought several; IDF not deploying many more; trials in Gaza sector and north; deployed in a sector of the Egypt border). Exclusivity: no trace, contradicted by Mako + IDF statement and by Magal as Gaza barrier contractor -> Group C. Oct 7 running: searches (EN + Mako HE) found no Magna mention in post-Oct-7 coverage; left in Group B, not C, since absence of reporting is not proof it was absent. Magal vs Magna name similarity may explain the conflation; not asserted in the claim."
+}

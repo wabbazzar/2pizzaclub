@@ -1,0 +1,65 @@
+{
+    "id": "2011-fukushima-magna-cameras-001",
+    "anchor": "y2011-fukushima",
+    "year": 2011,
+    "era": "iv",
+    "themes": [
+        "israel",
+        "japan",
+        "surveillance",
+        "iran"
+    ],
+    "claim": "Magna BSP, a security-camera maker based in Dimona, Israel, reported in April 2010 its first order from Japan for a perimeter-security system to protect nuclear reactors, worth several hundred thousand shekels. The report did not name the plant. On 14 March 2011, three days after the earthquake and tsunami, Magna's chief executive Haim Siboni told The Jerusalem Post that the company had been contracted to place cameras around one of Fukushima Daiichi's six reactor cores, that the cameras were recording, and that Japan had not authorized the company to view the images remotely. The Israeli outlet Israel21c described the installation as cameras and an alarm system set up about a year earlier to watch for trespassers and damage to the perimeter fence. Asked by the Japanese weekly Shūkan Gendai, the plant's operator, Tokyo Electric Power Company (TEPCO), said it could not answer any question about security, and Japan's Nuclear and Industrial Safety Agency said operators did not have to report what equipment they used. Neither has confirmed or denied the company's account. Two months before the order, on 24 February 2010, the Nikkei business daily reported that Japan had offered to enrich uranium for Iran. A US embassy cable dated the next day records Japan's foreign ministry saying it had made no such offer and had offered only to store Iran's low-enriched uranium.",
+    "sources": [
+        {
+            "label": "Globes, \"Security co Magna BSP gets first order for Japanese reactors,\" 27 April 2010",
+            "type": "secondary",
+            "url": "https://en.globes.co.il/en/article-1000555226",
+            "quote": "Magna BSP Ltd. has received its first order for its passive electro-optic radar system for perimeter security from Japan to protect nuclear reactors.",
+            "clip": "clips/2011-fukushima-magna-cameras-001-00.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Yaakov Lappin, \"Israeli firm's cameras recording Japanese nuclear core,\" The Jerusalem Post, 15 March 2011 (Internet Archive copy, 17 March 2011)",
+            "type": "secondary",
+            "url": "http://web.archive.org/web/20110317092603/http://www.jpost.com:80/Defense/Article.aspx?id=212168",
+            "quote": "had been contracted to place cameras around one of the plant’s six cores",
+            "clip": "clips/2011-fukushima-magna-cameras-001-01.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Viva Sarah Press, \"Israeli surveillance at Fukushima plant,\" Israel21c, 20 March 2011",
+            "type": "secondary",
+            "url": "https://archive.israel21c.org/?p=29436",
+            "quote": "The system includes cameras and a warning system that allows the plant’s security staff to monitor anyone attempting to trespass onto the site or damage the perimeter fence.",
+            "clip": "clips/2011-fukushima-magna-cameras-001-02.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Shūkan Gendai (Kodansha), \"福島第一原発にイスラエルの会社の｢謎｣\" (The \"mystery\" of an Israeli company at Fukushima Daiichi), 22 May 2011",
+            "type": "secondary",
+            "url": "https://gendai.media/articles/-/4639",
+            "quote": "東電は｢セキュリティに関しては一切お答えできません｣とノーコメント。",
+            "clip": "clips/2011-fukushima-magna-cameras-001-03.png",
+            "clip_status": "ok-exact"
+        },
+        {
+            "label": "Reuters via Ynet, \"Report: Japan offers to enrich uranium for Iran,\" 24 February 2010",
+            "type": "secondary",
+            "url": "https://www.ynetnews.com/articles/0,7340,L-3853864,00.html",
+            "quote": "Japan has offered to enrich uranium for Iran to allow it access to nuclear power while allaying international fears it might be seeking an atomic weapon, the Nikkei business daily reported Wednesday.",
+            "clip": "clips/2011-fukushima-magna-cameras-001-04.png",
+            "clip_status": "ok-cross-node"
+        },
+        {
+            "label": "US Embassy Tokyo cable 10TOKYO386, \"Foreign Ministry says no new offer made to Larijani,\" 25 February 2010 (WikiLeaks)",
+            "type": "primary",
+            "url": "https://wikileaks.org/plusd/cables/10TOKYO386_a.html",
+            "quote": "He made very clear that Japan had no intention of enriching LEU for Iran, and that Japan had only offered to store the LEU.",
+            "clip": "clips/2011-fukushima-magna-cameras-001-05.png",
+            "clip_status": "ok-exact"
+        }
+    ],
+    "status": "verified",
+    "notes": "Tests the claim chain: Japan offers Iran enrichment (Feb 2010) -> Israeli firm gets Fukushima camera order (Apr 2010) -> meltdown (Mar 2011). Every account of Magna at Fukushima traces to the company (Globes item is a portfolio-company announcement; JPost/Haaretz/Israel21c quote Siboni). Globes does not name the plant; JPost says one of six cores, 'the core that has been experiencing explosions and overheating'. Haaretz 18 Mar 2011 (via Shukan Gendai quotation; original not fetched) said the system was designed to protect the plant from hostile elements seeking radioactive material. Gendai also: Magna had been negotiating with TEPCO since the previous year. TEPCO 'no comment' on security; NISA does not track equipment. JPost URL now 404s; Wayback copy used. Iran offer: Nikkei report (no sources cited, per Reuters) and Larijani interview say offer; cable 10TOKYO386 says MOFA (Iran Desk chief Sumi) told the embassy Feb 25 Japan made no enrichment offer, only LEU storage, unchanged from December. Japanese public briefing reportedly neither confirmed nor denied. Group B in the split. EFTA corpus: 0 hits for Magna BSP / Fukuichi; 'Siboni' hits are Gabi Siboni (different person) and OCR noise; Fukushima hits are general news. Group B: Magna order + Fukushima install (company-sourced, unconfirmed by TEPCO), Iran offer (contested), 'Israel held the plant's surveillance contract' (overreach: part of the security system, one core), sabotage/retaliation chain (insinuation)."
+}
