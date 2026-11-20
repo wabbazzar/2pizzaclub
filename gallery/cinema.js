@@ -25,6 +25,41 @@
     `;
     intro.appendChild(btn);
 
+    // ---- curated selections (sources/captures/selections.json) ----
+    // Hand-picked queues that play exactly their listed captures, in listed order,
+    // independent of the theme filter. One button per selection mounts under the marquee.
+    let selections = {};
+    let activeSelection = null; // slug while a selection is playing
+    const selectionsReady = fetch('../sources/captures/selections.json', { cache: 'no-cache' })
+        .then((r) => (r.ok ? r.json() : null))
+        .then((j) => { selections = (j && j.selections) || {}; renderSelections(); })
+        .catch(() => {});
+
+    function renderSelections() {
+        const slugs = Object.keys(selections).filter((s) => (selections[s].captures || []).length);
+        if (!slugs.length) return;
+        const el = document.createElement('div');
+        el.className = 'cinema-selections';
+        el.innerHTML = '<span class="cinema-selections-label">// selections</span>' + slugs.map((s) => {
+            const n = selections[s].captures.length;
+            return `<button class="cinema-selection" type="button" data-selection="${escAttr(s)}"><span class="cinema-selection-icon" aria-hidden="true">▶</span>${escHtml(s)}<span class="cinema-selection-count">${n} video${n === 1 ? '' : 's'}</span></button>`;
+        }).join('');
+        btn.insertAdjacentElement('afterend', el);
+        el.querySelectorAll('.cinema-selection').forEach((b) => {
+            b.addEventListener('click', () => launchCinema(null, b.dataset.selection));
+        });
+    }
+
+    // gallery.js fires `gallery:rendered` once every item is in the DOM. Anything that
+    // builds a play order from the DOM before that would miss the not-yet-rendered reels.
+    function whenGalleryRendered() {
+        if (window.__galleryRendered) return Promise.resolve();
+        return Promise.race([
+            new Promise((resolve) => document.addEventListener('gallery:rendered', resolve, { once: true })),
+            new Promise((resolve) => setTimeout(resolve, 30000)),
+        ]);
+    }
+
     // ---- theme-picker state (shared across inline picker + bottom-sheet tab) ----
     // Three-state per chip: off → include → exclude → off.
     const includeThemes = new Set();
@@ -195,6 +230,7 @@
     // ?cinema=<capture-id>                   — start at that capture (existing)
     // ?cinema=1&themes=epstein,israel        — include OR
     // ?cinema=1&exclude=epstein              — exclude
+    // ?cinema=1&selection=<slug>             — play a curated selection (see selections.json)
     // ?themes=… alone (no cinema=) is also honored so the picker can deep-link without
     // auto-launching the overlay (matches landing-on-the-gallery-with-a-filter behavior).
     function readUrlState() {
@@ -239,7 +275,8 @@
         return arr;
     }
 
-    async function launchCinema(startCaptureId) {
+    async function launchCinema(startCaptureId, selection) {
+        if (selection && selections[selection]) await whenGalleryRendered();
         if (!dagReady) {
             btn.classList.add('cinema-btn-loading');
             await Promise.race([
@@ -248,8 +285,11 @@
             ]);
             btn.classList.remove('cinema-btn-loading');
         }
-        const order = buildPlayOrder({ include: includeThemes, exclude: excludeThemes });
-        if (!order.length) return;
+        activeSelection = (selection && selections[selection]) ? selection : null;
+        const order = activeSelection
+            ? buildSelectionOrder(activeSelection)
+            : buildPlayOrder({ include: includeThemes, exclude: excludeThemes });
+        if (!order.length) { activeSelection = null; return; }
         let startIdx = 0;
         if (startCaptureId) {
             const found = order.findIndex((e) => e.id === startCaptureId);
@@ -259,32 +299,18 @@
     }
 
     // ---- deep-link auto-launch: ?cinema=1 starts at the first item,
-    //                             ?cinema=<capture-id> starts at that capture.
+    //                             ?cinema=<capture-id> starts at that capture,
+    //                             &selection=<slug> plays that curated queue.
     //
-    // Waits for BOTH the DAG (themes) and the gallery DOM to be fully populated
-    // — the gallery renders items one-by-one with intermediate fetches, so we
-    // poll until the item count stops growing for 600ms before launching.
-    // Otherwise we'd build a play order from a partial DOM and miss recent reels.
+    // Waits for the full gallery DOM (gallery:rendered) and the selections file;
+    // launchCinema() then waits for the DAG (themes). Launching off a partial DOM
+    // used to start the wrong reel when the target hadn't rendered yet.
     readUrlState();
-    const cinemaParam = new URLSearchParams(window.location.search).get('cinema');
+    const urlParams = new URLSearchParams(window.location.search);
+    const cinemaParam = urlParams.get('cinema');
     if (cinemaParam) {
-        let lastCount = -1, stableSince = performance.now();
-        const STABLE_MS = 600;
-        const TIMEOUT_MS = 15000;
-        const startedAt = performance.now();
-        const startWhenReady = () => {
-            const now = performance.now();
-            const count = document.querySelectorAll('.gallery-item').length;
-            if (count !== lastCount) { lastCount = count; stableSince = now; }
-            const stable = count > 0 && (now - stableSince) >= STABLE_MS;
-            const timedOut = (now - startedAt) >= TIMEOUT_MS;
-            if (stable || (timedOut && count > 0)) {
-                launchCinema(cinemaParam !== '1' ? cinemaParam : null);
-            } else {
-                setTimeout(startWhenReady, 150);
-            }
-        };
-        setTimeout(startWhenReady, 100);
+        Promise.all([whenGalleryRendered(), selectionsReady]).then(() =>
+            launchCinema(cinemaParam !== '1' ? cinemaParam : null, urlParams.get('selection')));
     }
 
     // Even without auto-launch, render the picker once the gallery+DAG are ready so
@@ -383,16 +409,13 @@
         return stats;
     }
 
-    function buildPlayOrder(filter) {
-        const include = (filter && filter.include) || null;
-        const exclude = (filter && filter.exclude) || null;
-        const filterActive = (include && include.size > 0) || (exclude && exclude.size > 0);
-
+    // One playable entry per rendered gallery item.
+    function collectEntries() {
         const items = Array.from(document.querySelectorAll('.gallery-item'));
         const themesByCapture = computeThemesByCapture();
         const statsByCapture = computeCaptureStats();
 
-        let entries = items.map((it) => {
+        return items.map((it) => {
             const id = it.dataset.captureId;
             const themes = themesByCapture.get(id) || [];
             const st = statsByCapture.get(id) || { substantive: 0, weight: 0 };
@@ -401,6 +424,23 @@
             const posted = readPostedDate(it);
             return { id, themes, themeSet: new Set(themes), primary: themes[0] || 'unsorted', video, handle, posted, substantive: st.substantive, weight: st.weight };
         }).filter((e) => e.video);
+    }
+
+    // A selection plays exactly its listed captures, in listed order, labeled with its slug.
+    function buildSelectionOrder(slug) {
+        const byId = new Map(collectEntries().map((e) => [e.id, e]));
+        return (selections[slug].captures || [])
+            .map((id) => byId.get(id))
+            .filter(Boolean)
+            .map((e) => ({ ...e, primary: slug }));
+    }
+
+    function buildPlayOrder(filter) {
+        const include = (filter && filter.include) || null;
+        const exclude = (filter && filter.exclude) || null;
+        const filterActive = (include && include.size > 0) || (exclude && exclude.size > 0);
+
+        let entries = collectEntries();
 
         // ---- filter: include = OR (matches timeline themes.js semantics),
         //              exclude = NONE-OF (any match drops the capture).
@@ -557,6 +597,7 @@
         overlay.innerHTML = `
             <video class="cinema-video" playsinline autoplay></video>
             <div class="cinema-speed-indicator" aria-hidden="true"></div>
+            <button class="cinema-unmute" type="button" hidden>🔇 tap for sound</button>
             <div class="cinema-chrome">
                 <button class="cinema-exit" type="button" aria-label="Exit cinema">✕</button>
                 <button class="cinema-share" type="button" aria-label="Copy a direct link to this cinema clip">🔗 share</button>
@@ -591,6 +632,9 @@
         overlay.querySelector('.cinema-prev').addEventListener('click', () => playAt(idx - 1));
         overlay.querySelector('.cinema-next').addEventListener('click', () => playAt(idx + 1));
         overlay.querySelector('.cinema-share').addEventListener('click', shareCurrent);
+        // any tap or click in the overlay is a user gesture → restore sound after a muted autoplay
+        overlay.addEventListener('pointerup', unmuteFromGesture, true);
+        overlay.addEventListener('click', unmuteFromGesture, true);
         const playBtn = overlay.querySelector('.cinema-play');
         playBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePlay(); });
         const syncPlayBtn = () => { playBtn.textContent = video.paused ? '▶' : '⏸'; };
@@ -879,7 +923,13 @@
         // then redirects into /gallery/?cinema=1&themes=<theme>. Mixed include/exclude
         // filters fall back to the raw cinema deeplink (default site og-image).
         const singleTheme = includeThemes.size === 1 && excludeThemes.size === 0 && !includeThemes.has(UNTAGGED);
-        if (singleTheme) {
+        if (activeSelection) {
+            const url = new URL(window.location.href);
+            url.search = ''; url.hash = '';
+            url.searchParams.set('cinema', cur.id);
+            url.searchParams.set('selection', activeSelection);
+            link = url.toString();
+        } else if (singleTheme) {
             const slug = [...includeThemes][0];
             link = `${window.location.origin}/gallery/share/${encodeURIComponent(slug)}/`;
         } else {
@@ -922,7 +972,26 @@
         // honor an FF-lock across reel transitions; otherwise normal speed
         video.playbackRate = ffLocked ? FF_SPEED : 1;
         const p = video.play();
-        if (p && p.catch) p.catch(() => {/* autoplay blocked; user can hit play */});
+        if (p && p.catch) p.catch((err) => {
+            // Opened from a link with no tap yet: browsers block autoplay with sound.
+            // Play muted instead and offer sound on the first tap.
+            if (err && err.name === 'NotAllowedError' && !video.muted) {
+                video.muted = true;
+                setSoundPrompt(true);
+                video.play().catch(() => {/* still blocked; user can hit play */});
+            }
+        });
+    }
+
+    function setSoundPrompt(on) {
+        const el = overlay && overlay.querySelector('.cinema-unmute');
+        if (el) el.hidden = !on;
+    }
+    function unmuteFromGesture() {
+        if (!video || !video.muted) return;
+        video.muted = false;
+        setSoundPrompt(false);
+        if (video.paused) video.play().catch(() => {});
     }
 
     function exitCinema() {
@@ -933,10 +1002,12 @@
         if (video) { try { video.pause(); video.playbackRate = 1; video.removeAttribute('src'); video.load(); } catch (e) {} }
         if (overlay) { overlay.remove(); overlay = null; video = null; }
         document.body.classList.remove('cinema-on');
+        activeSelection = null;
         if (document.fullscreenElement && document.exitFullscreen) document.exitFullscreen().catch(() => {});
     }
 
     function cinemaKey(e) {
+        if (e.key !== 'Escape') unmuteFromGesture();
         if (e.key === 'Escape') exitCinema();
         else if (e.key === 'ArrowRight') playAt(idx + 1);
         else if (e.key === 'ArrowLeft') playAt(idx - 1);

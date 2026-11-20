@@ -17,17 +17,19 @@
         }[c]));
     }
 
+    // bundle.json (tools/build-bundle.mjs) inlines every record + capture meta, so the
+    // gallery renders from one request; anything missing from it falls back to its file.
+    let bundle = null;
+
     async function loadEvidenceForCapture(captureId, evidenceIds) {
-        const out = [];
-        for (const id of evidenceIds || []) {
+        return Promise.all((evidenceIds || []).map(async (id) => {
             try {
-                const rec = await loadJSON(`../sources/evidence/${id}.json`);
-                out.push({ id: rec.id, anchor: rec.anchor, year: rec.year, claim: rec.claim });
+                const rec = (bundle && bundle.records && bundle.records[`${id}.json`]) || await loadJSON(`../sources/evidence/${id}.json`);
+                return { id: rec.id, anchor: rec.anchor, year: rec.year, claim: rec.claim };
             } catch (e) {
-                out.push({ id, anchor: null, year: null, claim: null, error: String(e) });
+                return { id, anchor: null, year: null, claim: null, error: String(e) };
             }
-        }
-        return out;
+        }));
     }
     function evidenceLabel(rec) {
         const claim = (rec.claim || '').replace(/\s+/g, ' ').trim();
@@ -104,12 +106,12 @@
 
     async function renderItem(captureId) {
         const captureDir = `../sources/captures/${captureId}`;
-        const meta = await loadJSON(`${captureDir}/meta.json`);
+        const meta = (bundle && bundle.captures && bundle.captures[captureId]) || await loadJSON(`${captureDir}/meta.json`);
 
-        let transcript = '';
-        try { transcript = await loadText(`${captureDir}/transcript.txt`); } catch (e) {}
-
-        const evidenceRecs = await loadEvidenceForCapture(captureId, meta.evidence_records);
+        const [transcript, evidenceRecs] = await Promise.all([
+            loadText(`${captureDir}/transcript.txt`).catch(() => ''),
+            loadEvidenceForCapture(captureId, meta.evidence_records),
+        ]);
 
         const overlay = meta.video_overlay_text_persistent || meta.video_overlay_text_observed;
         const overlayHtml = overlay ? `<div class="gallery-overlay-text">overlay: ${esc(overlay)}</div>` : '';
@@ -185,22 +187,29 @@
             empty.textContent = 'No captures filed yet.';
             return;
         }
+        try { bundle = await loadJSON('../bundle.json'); } catch (e) { /* per-file fallback */ }
         empty.remove();
-        for (const id of ids) {
-            try {
-                const html = await renderItem(id);
+        // Fetch every item in parallel, append in manifest order as each one resolves.
+        // (A serial walk took ~65s for 166 captures — long enough to break ?cinema= deep links.)
+        const pending = ids.map((id) => renderItem(id).then((html) => ({ html }), (e) => ({ e })));
+        for (let i = 0; i < ids.length; i++) {
+            const r = await pending[i];
+            if (r.html) {
                 const wrap = document.createElement('div');
-                wrap.innerHTML = html;
+                wrap.innerHTML = r.html;
                 const node = wrap.firstElementChild;
                 list.appendChild(node);
                 wireTranscriptToggles(node);
-            } catch (e) {
+            } else {
                 const err = document.createElement('p');
                 err.className = 'placeholder';
-                err.textContent = `Could not load capture "${id}": ${e.message}`;
+                err.textContent = `Could not load capture "${ids[i]}": ${r.e.message}`;
                 list.appendChild(err);
             }
         }
+        // cinema.js waits on this before honoring a ?cinema= deep link.
+        window.__galleryRendered = true;
+        document.dispatchEvent(new CustomEvent('gallery:rendered'));
     }
 
     main();

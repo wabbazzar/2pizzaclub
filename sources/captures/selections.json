@@ -1,0 +1,17 @@
+{
+    "_comment": "Hand-curated cinema queues. Each selection plays its captures in the listed order, independent of the theme filter. The gallery mounts one button per selection under the Cinema marquee. Deep link: /gallery/?cinema=1&selection=<slug> (or ?cinema=<capture-id>&selection=<slug> to start at a capture).",
+    "version": 1,
+    "selections": {
+        "conspiracy-favorites": {
+            "captures": [
+                "DYHf6vexwiv",
+                "DZGE-psgUw1",
+                "DYsdOnJyQ9N",
+                "DYFxN0RwBGk",
+                "DYW5pB8B3ej",
+                "DbVs_7XN5w_",
+                "DWxV_gPD_DH"
+            ]
+        }
+    }
+}
