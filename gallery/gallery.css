@@ -619,6 +619,7 @@ body.cinema-on { overflow: hidden; }
     transition: opacity 0.18s ease;
 }
 .cinema-chrome > * { transition: opacity 0.18s ease; }
+.cinema-overlay.chrome-hidden { cursor: none; }
 /* hold-to-FF speed indicator */
 .cinema-speed-indicator {
     position: absolute;

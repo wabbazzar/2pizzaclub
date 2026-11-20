@@ -603,6 +603,7 @@
             if (!document.fullscreenElement && overlay) exitCinema();
         });
         wireGestures();
+        wireIdleHide();
     }
 
     // ---- scrubber: click/drag the seek line to jump within the current reel ----
@@ -803,9 +804,40 @@
         }
     }
 
-    function toggleChrome() {
-        chromeHidden = !chromeHidden;
+    function toggleChrome() { setChrome(!chromeHidden); }
+    function setChrome(hidden) {
+        chromeHidden = hidden;
         overlay.classList.toggle('chrome-hidden', chromeHidden);
+    }
+
+    // ---- desktop idle auto-hide: while playing, chrome fades after IDLE_MS without mouse
+    // movement; any mouse move brings it back. Paused = chrome stays up. Touch keeps the
+    // tap-to-toggle above (no hover to wake it, so auto-hide would strand the controls).
+    const IDLE_MS = 2500;
+    let idleTimer = null;
+    const canHover = !!(window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches);
+
+    function wireIdleHide() {
+        if (!canHover) return;
+        overlay.addEventListener('pointermove', (e) => { if (e.pointerType === 'mouse') wakeChrome(); });
+        video.addEventListener('play', armIdle);
+        video.addEventListener('pause', wakeChrome);
+        armIdle();
+    }
+    function wakeChrome() {
+        if (chromeHidden) setChrome(false);
+        armIdle();
+    }
+    function armIdle() {
+        clearTimeout(idleTimer);
+        if (!video || video.paused) return;
+        idleTimer = setTimeout(() => {
+            if (!overlay || !video || video.paused) return;
+            // don't yank a control out from under the cursor (the big center ⏸ excepted —
+            // the cursor is usually still parked on it after clicking play)
+            if (overlay.querySelector('.cinema-exit:hover, .cinema-share:hover, .cinema-controls:hover, .cinema-progress:hover, .cinema-scrub.is-dragging')) { armIdle(); return; }
+            setChrome(true);
+        }, IDLE_MS);
     }
 
     function showSpeedIndicator(text, variant) {
@@ -882,6 +914,7 @@
     function exitCinema() {
         document.removeEventListener('keydown', cinemaKey);
         clearTimeout(holdTimer); holdTimer = null;
+        clearTimeout(idleTimer); idleTimer = null;
         ffActive = false; ffLocked = false; chromeHidden = false;
         if (video) { try { video.pause(); video.playbackRate = 1; video.removeAttribute('src'); video.load(); } catch (e) {} }
         if (overlay) { overlay.remove(); overlay = null; video = null; }
